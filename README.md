@@ -4,7 +4,11 @@
 
 [전체 예제 미리보기](example-preview.png) · [표지 미리보기](preview.png) · [샘플 PDF](output/pdf/stage-sample.pdf) · [디자인 가이드](DESIGN.md) · [입력 계약과 수량](CONFIG.md) · [원본 장면 비교 보드](research/index.html) · [사진·컬러 비교 보드](research/color.html) · [실제 세션 조사와 수정 기준](research/decisions.md)
 
-현재 예제는 **20장·16개 양식**입니다. [사진 모음](index.html#3), [디지털 크롭 비교](index.html#5), [컬러 선언](index.html#6), [결과물 2×2](index.html#10), [작품 콜라주](index.html#11), [유색 소개](index.html#12)를 바로 볼 수 있습니다. [예제와 연구 근거의 연결](EXAMPLES.md)도 기록했습니다.
+**[Markdown 발표 예제 4개 열기](examples/index.html)** · [네 가지 결과 미리보기](examples/previews/collection.png) · [Markdown 작성법](MARKDOWN.md)
+
+제품 소개·기술 개선 보고·사진 중심 이야기·워크숍을 각각 별도 발표로 제공합니다. 각 폴더에는 수정할 `slides.md`와 바로 열 수 있는 `index.html`이 있고, [PDF](output/pdf/)도 함께 보관합니다. 수치와 제품명은 양식 설명용 가상 예시입니다.
+
+기존 양식 모음은 **20장·16개 양식**입니다. [사진 모음](index.html#3), [디지털 크롭 비교](index.html#5), [컬러 선언](index.html#6), [결과물 2×2](index.html#10), [작품 콜라주](index.html#11), [유색 소개](index.html#12)를 바로 볼 수 있습니다. [예제와 연구 근거의 연결](EXAMPLES.md)도 기록했습니다.
 
 ## 시작하기
 
@@ -27,7 +31,27 @@ open index.html
 
 `open`은 macOS 명령입니다. 다른 운영체제에서는 폴더의 `index.html`을 브라우저로 열면 됩니다. GitHub 저장소를 만드는 것만으로 웹에 배포되지는 않습니다. 런타임·사진·가이드·연구 근거와 샘플 PDF를 보관하며, `output/example/` 등의 중간 검수 파일은 제외합니다.
 
-## 새 발표 만들기
+## Markdown으로 새 발표 만들기
+
+예제 모음은 **Markdown 원문 → 내용 데이터 → 기존 렌더러**로 생성합니다. AI 연결은 필요하지 않습니다. 원문 작성이나 다듬기를 AI에게 맡겨도 같은 입력 문법을 사용합니다.
+
+1. `examples/`에서 가까운 예제의 `slides.md`를 복사해 제목·내용·이미지 경로를 바꿉니다.
+2. Node.js가 있는 환경에서 아래 명령을 실행합니다. 패키지 설치는 필요하지 않습니다.
+3. 생성된 `index.html`을 열어 발표합니다. 생성 후 재생에는 Node.js가 필요하지 않습니다.
+
+```sh
+# 저장소의 네 가지 예제 다시 생성
+node scripts/build-examples.cjs
+
+# 수정한 Markdown을 새 폴더에 생성
+node scripts/markdown-deck.cjs examples/product-launch/slides.md examples/my-talk
+```
+
+이 입력기는 STAGE에서 지원하는 Markdown 문법을 사용합니다. Marp 테마·지시문 호환을 뜻하지 않습니다. 사진·도표·콜라주에는 작은 배치 설정을 함께 작성합니다. [지원 문법과 매핑](MARKDOWN.md)을 확인하세요.
+
+Markdown을 쓰는 발표는 `slides.md`가 원본입니다. 생성된 `content.js`를 직접 고치거나 화면에서 편집한 내용은 Markdown으로 돌아오지 않습니다. 오래 보관할 수정은 원문에 반영한 뒤 재생성하세요. PDF와 미리보기 이미지는 자동 갱신하지 않으므로 최종 내용으로 다시 저장해야 합니다.
+
+## Params로 새 발표 만들기
 
 `content.js`가 내용의 원본입니다. 발표 제목, 발표자, 슬라이드 문장과 발표자 노트를 이 파일에서 관리합니다. 샘플 슬라이드는 양식을 보여주는 예시이므로 모두 사용할 필요는 없습니다. 필요한 슬라이드 객체를 복사하거나 삭제하고 순서를 바꾸세요.
 
@@ -83,7 +107,9 @@ open index.html
 | `app.js` | 렌더링·탐색·편집·발표자 창·작성자 점검 |
 | `deck-model.js` | 입력 검증과 콜라주 배치 |
 | `CONFIG.md` | 파라미터 계약·수량·오류 복구 |
-| `examples/` | 다른 주제의 발표 데이터 예제 |
+| `examples/` | 네 가지 Markdown 발표·생성 결과·갤러리·기존 params 예제 |
+| `scripts/` | 패키지 설치 없는 Markdown 변환·예제 일괄 생성 |
+| `MARKDOWN.md` | 지원 Markdown 문법과 변환 규칙 |
 | `tests/` | Node 기본 실행기로 검사하는 입력·배치 회귀 검증 |
 | `styles.css` | 레이아웃·테마·인쇄 스타일 |
 | `DESIGN.md` | 디자인 원칙과 레이아웃 사용법 |
@@ -98,7 +124,7 @@ open index.html
 
 전편 시청이나 원본 제작 도구의 확인을 뜻하지 않습니다. 시청 범위, 타임스탬프, 프레임, 관찰과 제안의 구분은 [세션 조사](research/devday-session-analysis.md)와 [외부 사례 조사](research/external-presentation-analysis.md)에 있습니다. 원본 로고·전용 글꼴·발표 이미지를 슬라이드의 배경으로 재사용하지 않았습니다.
 
-현재는 설치 없는 재사용을 우선했습니다. Markdown으로 많은 기술 발표를 관리하게 되면 [Slidev](https://sli.dev/), 더 다양한 발표 기능과 플러그인이 필요해지면 [reveal.js](https://revealjs.com/)를 검토할 수 있습니다.
+발표 재생은 설치 없이 유지하며, Markdown을 수정했을 때만 Node.js로 다시 생성합니다. 코드 하이라이트·수식·복잡한 Markdown 확장과 플러그인이 필요하면 [Slidev](https://sli.dev/)나 [reveal.js](https://revealjs.com/)도 별도로 검토할 수 있습니다.
 
 ## 확인한 동작
 

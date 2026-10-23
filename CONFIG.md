@@ -1,5 +1,7 @@
 # Params로 새 발표 만들기
 
+Markdown 원고로 관리하려면 [작성법](MARKDOWN.md)과 [네 가지 발표 예제](examples/index.html)를 사용하세요. 변환 결과는 아래와 같은 입력 계약을 따릅니다.
+
 `content.js`의 `window.PRESENTATION`이 발표의 입력 계약입니다. 발표 폴더 전체를 복사한 뒤 이 객체와 로컬 미디어를 바꾸면 됩니다. HTML·렌더러·CSS를 주제마다 수정할 필요는 없습니다. 다른 주제의 짧은 시작점은 [project-review.js](examples/project-review.js)입니다. 이 파일의 내용으로 복사한 폴더의 루트 `content.js`를 교체하세요.
 
 ```js

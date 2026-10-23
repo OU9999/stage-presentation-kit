@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23111%27/%3E%3Cpath d=%27M8 10h16M16 10v15%27 stroke=%27%23eee%27 stroke-width=%273%27/%3E%3C/svg%3E" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="description" content="설치 없이 열고, 내용을 바꿔 다시 사용하는 웹 발표 템플릿." />
+    <title>한 장의 생각 — 가상 워크숍 진행안 — Stage</title>
+    <link rel="stylesheet" href="../../styles.css?v=369a31d0c55e" />
+    <script src="content.js?v=b692824d5453" defer></script>
+    <script src="../../deck-model.js?v=11429827e431" defer></script>
+    <script src="../../app.js?v=82ecce03ee97" defer></script>
+  </head>
+  <body data-theme="stage" data-mode="present" data-presenter="false" data-editing="false">
+    <a class="skip-link" href="#slideStage">슬라이드로 이동</a>
+    <header class="app-header">
+      <a class="brand" href="#1" aria-label="첫 슬라이드">STAGE <span>발표 템플릿</span></a>
+      <div class="header-actions">
+        <label class="theme-control"><span class="sr-only">테마</span><select id="themeSelect" aria-label="테마"><option value="stage">Stage</option><option value="paper">Paper</option><option value="midnight">Midnight</option></select></label>
+        <button type="button" id="modeButton" data-action="mode" aria-pressed="false">읽기 모드</button>
+        <button type="button" id="editButton" data-action="edit" aria-pressed="false">내용 편집</button>
+        <button type="button" data-action="export" class="button-primary" aria-label="발표 내용 파일 내보내기">내용 내보내기 <span aria-hidden="true">↗</span></button>
+      </div>
+    </header>
+    <div class="edit-banner" id="editBanner" hidden><span>현재 슬라이드의 글자를 클릭해 수정하세요. 변경 내용은 이 브라우저에 저장됩니다.</span><button type="button" data-action="edit">편집 마침</button></div>
+    <main class="workspace" id="workspace">
+      <div class="stage-viewport" id="stageViewport"><div class="slide-stage" id="slideStage" tabindex="-1" aria-label="발표 슬라이드"></div></div>
+    </main>
+    <main class="presenter-workspace" id="presenterWorkspace" hidden>
+      <section class="presenter-main"><div class="presenter-heading"><span>현재 슬라이드</span><span id="presenterPosition"></span></div><div class="preview-viewport presenter-current" id="presenterCurrent"></div></section>
+      <aside class="presenter-sidebar"><section><div class="presenter-heading">다음 슬라이드</div><div class="preview-viewport presenter-next" id="presenterNext"></div></section><section class="presenter-notes"><div class="presenter-heading">발표자 노트</div><div id="presenterNotes"></div></section><div class="presenter-timer"><span id="presenterTimer">00:00</span><button type="button" data-action="timer">타이머 초기화</button></div><p class="presenter-connection" id="presenterConnection" role="status">발표 화면에 연결 중…</p></aside>
+    </main>
+    <footer class="presenter-bar">
+      <div class="nav-controls"><button type="button" data-action="previous" aria-label="이전 슬라이드">←</button><button type="button" data-action="next" aria-label="다음 슬라이드">→</button></div>
+      <div class="slide-status"><span id="slideCounter">01 / 20</span><span class="slide-status-divider" aria-hidden="true">—</span><span id="slideLabel"></span><div class="progress-track" aria-hidden="true"><div id="slideProgress"></div></div></div>
+      <div class="utility-controls"><span class="save-status" id="saveStatus" role="status">원본 템플릿</span><button type="button" data-action="overview" title="전체 보기 (O)">전체 보기</button><button type="button" data-action="presenter" title="발표자 창 (P)">발표자</button><button type="button" data-action="fullscreen" title="전체 화면 (F)">전체 화면</button><button type="button" data-action="print">PDF 저장</button><button type="button" data-action="help" aria-label="사용법 및 단축키">?</button></div>
+    </footer>
+    <div class="dialog-backdrop" id="overviewDialog" hidden><section class="dialog dialog-overview" role="dialog" aria-modal="true" aria-labelledby="overviewTitle" tabindex="-1"><header class="dialog-header"><div><span class="dialog-eyebrow">YOUR DECK</span><h2 id="overviewTitle">슬라이드 전체 보기</h2></div><button type="button" data-action="close" aria-label="전체 보기 닫기">닫기 ×</button></header><div class="dialog-body"><div class="overview-grid" id="overviewGrid"></div></div></section></div>
+    <div class="dialog-backdrop" id="helpDialog" hidden><section class="dialog dialog-help" role="dialog" aria-modal="true" aria-labelledby="helpTitle" tabindex="-1"><header class="dialog-header"><div><span class="dialog-eyebrow">A LITTLE GUIDANCE</span><h2 id="helpTitle">말할 내용에 집중하세요.</h2></div><button type="button" data-action="close" aria-label="사용법 닫기">닫기 ×</button></header><div class="dialog-body"><p>이 예제의 원본은 <a href="slides.md">slides.md</a>입니다. Markdown을 수정한 뒤 빌드하면 content.js와 이 화면이 갱신됩니다. 브라우저에서 편집한 내용은 content.js로 내보낼 수 있으며 Markdown 원고를 자동 수정하지 않습니다. <a href="../index.html">예제 모음으로 돌아가기</a></p><p><strong>내용 편집</strong>을 켜면 현재 슬라이드의 문장을 직접 바꿀 수 있습니다. <strong>내용 내보내기</strong>로 내려받은 content.js를 이 폴더의 파일과 교체하면 다른 컴퓨터에서도 같은 내용을 사용할 수 있습니다.</p><dl class="shortcut-list"><div><dt>← / → · Space · Page Up / Down</dt><dd>이전 / 다음 슬라이드</dd></div><div><dt>Home / End</dt><dd>첫 장 / 마지막 장</dd></div><div><dt>O · F · P · ?</dt><dd>전체 보기 · 전체 화면 · 발표자 창 · 도움말</dd></div><div><dt>Esc</dt><dd>열린 창 또는 편집 닫기</dd></div></dl><p>PDF는 브라우저의 인쇄 창에서 <strong>가로 · 여백 없음 · 배경 그래픽 켜기</strong>로 저장하세요. 발표자 노트는 PDF에 포함되지 않습니다.</p><p>편집 내용은 현재 브라우저와 폴더별로 저장됩니다. 중요한 내용은 content.js로 내보내 보관하세요.</p><button type="button" data-action="reset" class="button-danger">이 폴더의 편집 내용 초기화</button></div></section></div>
+    <div class="toast" id="toast" role="status" hidden></div>
+    <div id="announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+    <noscript>이 발표 템플릿을 보려면 브라우저에서 JavaScript를 사용해야 합니다.</noscript>
+  </body>
+</html>

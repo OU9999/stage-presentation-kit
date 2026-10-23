@@ -21,3 +21,7 @@ temp/
 !/output/pdf/
 /output/pdf/*
 !/output/pdf/stage-sample.pdf
+!/output/pdf/product-launch.pdf
+!/output/pdf/engineering-review.pdf
+!/output/pdf/photo-story.pdf
+!/output/pdf/workshop.pdf
