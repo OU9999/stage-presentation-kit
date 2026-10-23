@@ -131,7 +131,7 @@ quiet: true
 
 JSON에는 `chart`, `left/right`, `items`, `steps`, `value/unit`처럼 현재 렌더러가 지원하는 필드만 넣습니다. 각 필드와 수량은 [입력 계약](CONFIG.md)을 따릅니다. `steps`는 `title/description` 객체 1~3개이며, `demo.steps`는 문자열 배열 0~3개입니다. 이미지 항목은 다음처럼 지정합니다.
 
-`bento`, `icon-wall`, `metric-pair`의 `items`도 같은 JSON fence에 적습니다. `bento`의 `preset`은 `recap` 또는 `seoul`이며 정확히 12타일입니다. 각 항목의 `type`을 `media`, `metric`, `text`로 구분합니다. `icon-wall`은 `icon` 의미 키 또는 `src` 이미지 중 하나를 가진 1~22개 항목, `metric-pair`는 `value`와 `label`을 가진 정확히 2개 항목입니다. 이 세 양식에서는 일반 Markdown 이미지 목록으로 배치를 추정하지 않습니다. `categories.items[].icon`에도 같은 의미 아이콘 키를 쓸 수 있습니다.
+`bento`, `icon-wall`, `metric-pair`의 `items`도 같은 JSON fence에 적습니다. `bento`의 `preset`은 `recap` 또는 `seoul`이며 정확히 12타일입니다. 각 항목의 `type`을 `media`, `metric`, `text`로 구분하고, 아래 `editorial` 변형에는 `artifact`도 넣을 수 있습니다. `icon-wall`은 `icon` 의미 키 또는 `src` 이미지 중 하나를 가진 1~22개 항목, `metric-pair`는 `value`와 `label`을 가진 정확히 2개 항목입니다. 이 세 양식에서는 일반 Markdown 이미지 목록으로 배치를 추정하지 않습니다. `categories.items[].icon`에도 같은 의미 아이콘 키를 쓸 수 있습니다.
 
 ````md
 <!-- stage
@@ -160,9 +160,26 @@ quiet: true
 
 한 필드는 한 곳에서만 지정합니다. metadata와 JSON의 같은 키, Markdown 제목과 JSON `title`, 문단과 JSON `subtitle/caption`, Markdown 이미지와 JSON `items`가 겹치면 **값이 같아도 오류**입니다. 이미지를 Markdown으로 적은 장에 `src`, `video`, `alt`를 중복 지정할 수도 없습니다. 합칠 순서에 따라 내용을 덮어쓰는 방식은 제공하지 않습니다.
 
+## 편집형 혼합 타일 C안
+
+[현장 구성 원고의 4장](examples/devday-compositions/slides.md)은 승인한 C안을 `bento`의 공통 데이터로 작성한 예제입니다. `layout: bento`, `preset: seoul`, `variant: editorial`을 지정하고 `items` 12개를 채웁니다. 새 렌더러를 만들거나 문장을 이미지로 그릴 필요가 없습니다.
+
+첫 수정에서는 원고의 항목 순서를 유지하고 **문자·숫자·사진 경로만 바꾸세요**. `seoul`의 순서는 다음과 같습니다. 번호는 `items`의 1번째부터 시작합니다.
+
+| 위치 | 항목 번호 | C안의 역할 |
+| --- | --- | --- |
+| 위쪽 왼쪽부터 | 1 · 2 · 3 | 수치 · 사진 · 수치 |
+| 오른쪽 높은 영역 | 4 | 주역이 되는 표지 |
+| 가운데 왼쪽부터 | 5 · 6 · 7 · 8 | 인용 · 파형 · 주제 개념도 · 행동 UI |
+| 아래 왼쪽부터 | 9 · 10 · 11 · 12 | 발견 문서 · 수치 · 과정 · 실행 목록 |
+
+예를 들어 인용은 `{ "type": "artifact", "kind": "quote", "text": "어디서 시작하나요?" }`, 행동 UI는 `{ "type": "artifact", "kind": "task", "text": "첫 안내 문장 고치기" }`만으로 작성할 수 있습니다. 도구 아이콘·파형·표지 그래픽은 자동으로 표시합니다. 나머지 필수 필드와 수량은 [artifact 입력 계약](CONFIG.md#c안처럼-한-이야기로-엮기)에 있습니다.
+
+모든 문장은 브라우저 편집·저장·내보내기를 이용할 수 있습니다. Markdown 원고가 자동으로 바뀌지는 않으므로 내보낸 수정은 원고에도 반영하세요. 발표 내용을 바로 바꿔 쓰고 빌드도 생략하려면 [다른 주제의 params 스타터](examples/editorial-starter.js) 내용을 루트 `content.js`에 복사하고 `index.html`을 엽니다.
+
 ## 경로와 생성 파일
 
-미디어 경로는 **Markdown 원고가 있는 폴더**를 기준으로 적습니다. `src`, `video`, `poster`와 `items` 안의 같은 필드에 모두 적용됩니다. 다른 폴더에 빌드해도 같은 원본 파일을 가리키도록 상대 경로를 다시 계산합니다. 미디어를 출력 폴더로 복사하지 않습니다.
+미디어 경로는 **Markdown 원고가 있는 폴더**를 기준으로 적습니다. `src`, `video`, `poster`와 `items` 안의 같은 필드, `artifact`의 표지 `src`와 `task.tools[].src`에 적용됩니다. 다른 폴더에 빌드해도 같은 원본 파일을 가리키도록 상대 경로를 다시 계산합니다. 미디어를 출력 폴더로 복사하지 않습니다. 지원하지 않는 임의 객체 안의 `src`는 경로로 해석하지 않습니다.
 
 ```sh
 node scripts/markdown-deck.cjs examples/photo-story/slides.md /tmp/my-photo-presentation

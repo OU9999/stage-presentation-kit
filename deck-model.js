@@ -12,6 +12,17 @@
   var record = function (value) { return value !== null && typeof value === "object" && !Array.isArray(value); };
   var iconNames = ["brain", "price", "speed", "image", "voice", "record", "compare", "select", "share", "code", "chart", "search", "book", "calendar", "mail", "globe", "check", "folder", "music", "spark"];
   var itemTones = ["blue", "green", "orange", "purple", "yellow", "white"];
+  var artifactFields = {
+    cover: ["label", "title", "subtitle", "footer", "edition", "src", "alt", "fit", "focalPoint"],
+    quote: ["label", "text"], waveform: ["label", "text"], concepts: ["items", "caption"],
+    task: ["title", "progress", "text", "tools"], report: ["number", "label", "title", "items"],
+    process: ["title", "items"], actions: ["title", "items", "icon"]
+  };
+
+  function normalizeIcon(value) {
+    var key = typeof value === "string" ? value.trim().toLowerCase() : "";
+    return iconNames.indexOf(key) >= 0 ? key : null;
+  }
 
   // A small authored composition, not a free-form grid engine. Every cell is used once.
   function bentoPreset(preset) {
@@ -74,7 +85,7 @@
       if (object[key] !== undefined && choices.indexOf(object[key]) < 0) issue("warning", path + "." + key, "지원 값: " + choices.join(" / ") + ". 기본 표시를 사용합니다.", slideIndex);
     }
     function icon(object, path, slideIndex) {
-      if (object.icon !== undefined && (typeof object.icon !== "string" || iconNames.indexOf(object.icon) < 0)) issue("error", path + ".icon", "지원하는 의미 아이콘 키를 사용하세요: " + iconNames.join(" / ") + ".", slideIndex);
+      if (object.icon !== undefined && !normalizeIcon(object.icon)) issue("error", path + ".icon", "지원하는 의미 아이콘 키를 사용하세요: " + iconNames.join(" / ") + ".", slideIndex);
     }
     function displayValue(object, path, slideIndex) {
       if (typeof object.value !== "string" && !Number.isFinite(object.value)) issue("error", path + ".value", "주 수치는 문자열 또는 유한한 숫자여야 합니다.", slideIndex);
@@ -90,6 +101,49 @@
       if (object.zoom !== undefined && (!Number.isFinite(object.zoom) || object.zoom < 1 || object.zoom > 3)) issue("warning", path + ".zoom", "1~3 사이의 유한한 숫자를 사용하세요. 범위 밖 값은 기존 규칙에 따라 제한됩니다.", slideIndex);
       if (!object.src && !object.video) issue("warning", path + ".src", "src 또는 video 경로가 없어 미디어 자리 표시자를 보여줍니다.", slideIndex);
       if (object.src && !object.alt) issue("warning", path + ".alt", "이미지를 설명하는 alt를 적어주세요.", slideIndex);
+    }
+    function unknownFields(object, allowed, path, slideIndex) {
+      Object.keys(object).forEach(function (key) {
+        if (allowed.indexOf(key) < 0) issue("warning", path + "." + key, "이 종류에서 사용하지 않는 필드입니다. 철자를 확인하세요. 원본 값은 보존됩니다.", slideIndex);
+      });
+    }
+    function stringItems(value, min, max, path, slideIndex) {
+      if (list(value, min, max, path, slideIndex)) value.forEach(function (item, index) {
+        if (typeof item !== "string") issue("error", path + "." + index, "문자열로 입력하세요.", slideIndex);
+      });
+    }
+    function stillImage(object, path, slideIndex) {
+      ["src", "alt"].forEach(function (key) { text(object, key, path, slideIndex); });
+      if (object.src && !object.alt) issue("warning", path + ".alt", "이미지를 설명하는 alt를 적어주세요.", slideIndex);
+      ["video", "poster"].forEach(function (key) {
+        if (object[key] !== undefined) issue("error", path + "." + key, "이 결과물에는 정지 이미지 src를 사용하세요. 영상은 media 타일에서 지원합니다.", slideIndex);
+      });
+    }
+    function artifact(item, path, slideIndex) {
+      if (!owns(artifactFields, item.kind)) { issue("error", path + ".kind", "지원 종류: " + Object.keys(artifactFields).join(" / ") + ".", slideIndex); return; }
+      unknownFields(item, ["type", "kind", "tone"].concat(artifactFields[item.kind]), path, slideIndex);
+      ["label", "subtitle", "footer", "edition", "text", "caption", "progress", "number"].filter(function (key) { return artifactFields[item.kind].indexOf(key) >= 0; }).forEach(function (key) { text(item, key, path, slideIndex, key === "text"); });
+      if (artifactFields[item.kind].indexOf("title") >= 0) {
+        if (item.kind === "cover" && Array.isArray(item.title)) stringItems(item.title, 1, 4, path + ".title", slideIndex);
+        else text(item, "title", path, slideIndex, item.kind === "cover" || item.kind === "report");
+      }
+      if (item.kind === "cover") {
+        stillImage(item, path, slideIndex);
+        text(item, "focalPoint", path, slideIndex);
+        choice(item, "fit", ["contain", "cover"], path, slideIndex);
+      }
+      if (["concepts", "report", "process", "actions"].indexOf(item.kind) >= 0) stringItems(item.items, item.kind === "process" ? 2 : 1, item.kind === "process" ? 4 : 3, path + ".items", slideIndex);
+      if (item.kind === "actions") icon(item, path, slideIndex);
+      if (item.kind === "task" && item.tools !== undefined && list(item.tools, 1, 4, path + ".tools", slideIndex)) item.tools.forEach(function (tool, index) {
+        var toolPath = path + ".tools." + index;
+        if (!record(tool)) { issue("error", toolPath, "icon 또는 src를 가진 객체여야 합니다.", slideIndex); return; }
+        unknownFields(tool, ["icon", "src", "alt", "label", "tone"], toolPath, slideIndex);
+        ["src", "alt", "label"].forEach(function (key) { text(tool, key, toolPath, slideIndex); });
+        icon(tool, toolPath, slideIndex);
+        choice(tool, "tone", itemTones, toolPath, slideIndex);
+        if (Boolean(tool.src) === Boolean(tool.icon)) issue("error", toolPath, "src 또는 icon 중 하나만 지정하세요.", slideIndex);
+        stillImage(tool, toolPath, slideIndex);
+      });
     }
     if (!record(config)) {
       issue("error", "$", "window.PRESENTATION은 slides 배열을 가진 객체여야 합니다.");
@@ -167,6 +221,8 @@
         });
       }
       if (slide.layout === "bento") {
+        choice(slide, "variant", ["editorial"], path, slideIndex);
+        if (Array.isArray(slide.items) && slide.items.some(function (item) { return record(item) && item.type === "artifact"; }) && slide.variant !== "editorial") issue("error", path + ".variant", "artifact 결과물에는 variant: \"editorial\"을 지정하세요.", slideIndex);
         if (!bentoPreset(slide.preset)) issue("error", path + ".preset", "bento의 지원 preset은 recap / seoul입니다.", slideIndex);
         if (list(slide.items, 12, 12, path + ".items", slideIndex)) slide.items.forEach(function (item, itemIndex) {
           var itemPath = path + ".items." + itemIndex;
@@ -183,7 +239,8 @@
           } else if (item.type === "text") {
             text(item, "label", itemPath, slideIndex);
             text(item, "text", itemPath, slideIndex, true);
-          } else issue("error", itemPath + ".type", "media / metric / text 중 하나를 사용하세요.", slideIndex);
+          } else if (item.type === "artifact") artifact(item, itemPath, slideIndex);
+          else issue("error", itemPath + ".type", "media / metric / text / artifact 중 하나를 사용하세요.", slideIndex);
         });
       }
       if (slide.layout === "icon-wall") {
@@ -214,5 +271,5 @@
     });
     return issues;
   }
-  return { validateDeck: validateDeck, packMosaic: packMosaic, bentoPreset: bentoPreset, iconWallSlots: iconWallSlots, iconNames: iconNames.slice() };
+  return { validateDeck: validateDeck, packMosaic: packMosaic, bentoPreset: bentoPreset, iconWallSlots: iconWallSlots, iconNames: iconNames.slice(), normalizeIcon: normalizeIcon };
 });

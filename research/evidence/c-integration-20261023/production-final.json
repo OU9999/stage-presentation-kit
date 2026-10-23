@@ -1,0 +1,59 @@
+{
+  "state": {
+    "url": "http://localhost:4317/examples/devday-compositions/index.html#4",
+    "theme": "stage",
+    "diagnosticsHidden": true,
+    "tiles": 12,
+    "fields": 43,
+    "images": [
+      {
+        "src": "../../assets/photos/capture.jpg",
+        "width": 1600,
+        "ok": true
+      },
+      {
+        "src": "../../assets/photos/listen.jpg",
+        "width": 1600,
+        "ok": true
+      },
+      {
+        "src": "../../assets/photos/write.jpg",
+        "width": 1600,
+        "ok": true
+      },
+      {
+        "src": "../../assets/photos/observe.jpg",
+        "width": 1600,
+        "ok": true
+      },
+      {
+        "src": "../../assets/photos/portrait-one.jpg",
+        "width": 1600,
+        "ok": true
+      },
+      {
+        "src": "../../assets/photos/portrait-two.jpg",
+        "width": 1600,
+        "ok": true
+      },
+      {
+        "src": "../../assets/photos/write.jpg",
+        "width": 1600,
+        "ok": true
+      }
+    ],
+    "resources": [
+      "http://localhost:4317/styles.css?v=819c38f3e3ec",
+      "http://localhost:4317/examples/devday-compositions/content.js?v=4770213b72ba",
+      "http://localhost:4317/deck-model.js?v=df2624fd79a3",
+      "http://localhost:4317/app.js?v=cb1b9721b0bc"
+    ]
+  },
+  "rect": {
+    "x": 100,
+    "y": 110,
+    "width": 1600,
+    "height": 900
+  },
+  "errors": []
+}

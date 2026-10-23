@@ -1,0 +1,34 @@
+{
+  "url": "http://localhost:4317/examples/",
+  "width": 1600,
+  "scrollWidth": 1600,
+  "preview": "previews/devday-compositions.png?v=d2384ff6d328",
+  "images": [
+    {
+      "src": "previews/devday-compositions.png?v=d2384ff6d328",
+      "width": 1600,
+      "ok": true
+    },
+    {
+      "src": "previews/product-launch.png?v=2723ec93a05f",
+      "width": 1557,
+      "ok": true
+    },
+    {
+      "src": "previews/engineering-review.png?v=422ef28bcd68",
+      "width": 1557,
+      "ok": true
+    },
+    {
+      "src": "previews/photo-story.png?v=21b5a3bab7de",
+      "width": 1557,
+      "ok": true
+    },
+    {
+      "src": "previews/workshop.png?v=e702e2cde1b7",
+      "width": 1557,
+      "ok": true
+    }
+  ],
+  "starter": "http://localhost:4317/examples/editorial-starter.js"
+}

@@ -1,0 +1,28 @@
+{
+  "url": "http://localhost:4317/output/c-implementation-qa-illWJg/index.html#1",
+  "noBuildCopy": true,
+  "resources": [
+    "styles.css?v=819c38f3e3ec",
+    "content.js?v=e9489518aa39",
+    "deck-model.js?v=df2624fd79a3",
+    "app.js?v=cb1b9721b0bc"
+  ],
+  "downloadName": "content.js",
+  "title": [
+    "Sprint",
+    "Notes."
+  ],
+  "report": [
+    "조건을 먼저 보여줘요.",
+    "선택 기준이 어렵다.",
+    "완료 상태가 모호하다."
+  ],
+  "state": {
+    "title": "Sprint",
+    "report": "조건을 먼저 보여줘요.",
+    "tiles": 12,
+    "fields": 42,
+    "diagnosticsHidden": true
+  },
+  "errors": []
+}

@@ -89,6 +89,8 @@ window.PRESENTATION = {
 
 `brain`, `price`, `speed`, `image`, `voice`, `record`, `compare`, `select`, `share`, `code`, `chart`, `search`, `book`, `calendar`, `mail`, `globe`, `check`, `folder`, `music`, `spark`.
 
+아이콘 키는 앞뒤 공백과 대소문자 차이를 허용합니다. 원본 입력은 내보내기에 그대로 보존합니다.
+
 ```js
 {
   layout: "categories", align: "center", quiet: true,
@@ -114,13 +116,39 @@ window.PRESENTATION = {
 | `recap` | 6열×3행 | 좌측 큰 주역, 상단 가로 타일, 가운데 세로 타일, 작은 요약 타일 |
 | `seoul` | 12열×6행 | 상단 3개·중간 4개·하단 4개와 우측 세로 주역. 서울·도쿄 현장 사진의 혼합 타일 원리를 자체 자료로 적용 |
 
-각 항목의 `type`은 다음 세 가지입니다.
+각 항목의 `type`은 다음 네 가지입니다.
 
 - `media`: 기존 `src`/`video`/`poster`/`alt`/`fit`/`focalPoint`/`zoom` 규칙. `label`·`caption`은 선택이며 텍스트 층을 줄이려면 생략합니다.
 - `metric`: `value`는 표시용 문자열 또는 유한한 숫자, `label`은 문자열, `unit`은 선택입니다. `tone`은 수치에 적용됩니다.
 - `text`: `text`는 문자열, `label`은 선택입니다. `tone`으로 문장의 의미색을 정합니다.
+- `artifact`: 아래 편집형 구성에서 사용하는 표지·인용·개념도·작업 UI·발견·실행 목록입니다.
 
 항목은 정확히 12개입니다. `column`, `row`, `columnSpan`, `rowSpan`, `span`을 따로 넣으면 오류를 알립니다. 프리셋이 배치를 정하므로 겹침·빈칸을 만들거나 초과 항목을 숨기지 않습니다. 12개보다 적은 자료에는 기존 `mosaic` 또는 `results`를 사용하세요. 모바일 읽기에서는 모든 타일을 입력 순서로 펼칩니다.
+
+### C안처럼 한 이야기로 엮기
+
+`bento`에 `variant: "editorial"`을 추가하면 사진과 결과물 자체의 표면을 살리고 수치·문자 타일의 경계를 낮춥니다. 기존 `seoul`·`recap` 배치와 `media`·`metric`·`text` 입력을 그대로 사용합니다. `variant`를 생략한 기존 발표의 표시는 바뀌지 않습니다. `artifact`는 이 변형 안에서만 사용하며, 임의 HTML이나 좌표를 입력하지 않습니다.
+
+가장 빠른 시작점은 [릴리스 회고 한 장](examples/editorial-starter.js)입니다. 파일 내용을 저장소 루트의 `content.js`로 복사하면 빌드 없이 쓸 수 있습니다. 사진 경로도 루트 기준입니다. 제목·짧은 문장·숫자·사진을 바꾸면 같은 구성으로 다른 이야기를 만들 수 있습니다.
+
+`type: "artifact"` 다음에 `kind`와 필요한 내용만 지정합니다. **굵은 필드가 필수**입니다. 표의 필드 외에 공통 `tone`을 선택할 수 있습니다.
+
+| kind | 필드 | 표현 |
+| --- | --- | --- |
+| `cover` | **`title`**: 문자열 또는 문자열 배열 1~4줄. 선택 `label`, `subtitle`, `footer`, `edition` | 세로 표지와 내장 추상 그래픽. `src`·`alt`·`fit`·`focalPoint`로 사용자의 정지 이미지를 그래픽 영역에 넣을 수 있음 |
+| `quote` | **`text`**, 선택 `label` | 인용 조각. `\n`으로 줄바꿈 |
+| `waveform` | **`text`**, 선택 `label` | 짧은 문장과 내장 개념 파형. 실제 녹음·오디오 재생·실측 파형이 아님 |
+| `concepts` | **`items`: 문자열 1~3개**, 선택 `caption` | 주제를 연결한 개념도. 일부만 소개하면 `caption`에 발췌임을 표시 |
+| `task` | **`text`**, 선택 `title`, `progress`, `tools` | 한 행동과 보조 도구 4개. `tools`를 생략하면 내장 의미 아이콘 사용 |
+| `report` | **`title`**, **`items`: 문자열 1~3개**, 선택 `number`, `label` | 발견을 압축한 문서 조각 |
+| `process` | **`items`: 문자열 2~4개**, 선택 `title` | 단계의 관계를 보여주는 개념도. 자동 계산된 성과·실제 데이터 그래프가 아님 |
+| `actions` | **`items`: 문자열 1~3개**, 선택 `title`, `icon` | 다음 행동 목록. 아이콘을 생략하면 내장 문서 아이콘 사용 |
+
+`task.tools`를 직접 바꿀 때는 `{ icon: "record" }` 또는 `{ src: "assets/my-tool.svg", alt: "도구 설명" }` 같은 객체 1~4개를 지정합니다. 각 도구에 `label`, `tone`도 넣을 수 있습니다. 빈 배열·`icon`과 `src`의 동시 사용은 오류입니다. `cover.src`와 `tools[].src`는 정지 이미지용이며 `video`·`poster`를 지원하지 않습니다. 영상은 기존 `type: "media"` 타일에 넣습니다.
+
+표지·인용·문서·개념도의 문장은 SVG 안에 굳히지 않고 일반 편집 가능한 글자로 렌더링합니다. 그래픽과 기본 도구는 공통 렌더러가 그리므로 매번 SVG나 아이콘 키를 작성하지 않아도 됩니다. 글자 수와 내용에 맞는 슬롯을 선택하고, 긴 설명은 별도 장이나 노트로 옮기세요. `seoul`에서 오른쪽 높은 표지는 배열의 네 번째 항목입니다. [배열 순서와 작은 원고 예시](MARKDOWN.md#편집형-혼합-타일-c안)를 참고하세요.
+
+새 `artifact`와 도구 객체의 지원하지 않는 필드는 오타를 찾을 수 있게 경고합니다. 원본 데이터는 내보내기에 보존하며, 그 안의 임의 `src`를 미디어 경로로 바꾸거나 파일 검사를 하지 않습니다. 경고를 숨기려고 원문을 삭제하지 않습니다.
 
 `metric-pair`는 다음처럼 씁니다. 장 전체의 포인트색 하나를 강제하지 않고 비교하는 대상마다 의미색을 지정합니다. 임의의 가상 수치는 예시라고 명시하세요.
 

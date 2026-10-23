@@ -109,6 +109,7 @@
   }
 
   function semanticIcon(name) {
+    name = model.normalizeIcon(name);
     var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg.setAttribute("viewBox", "0 0 24 24");
     svg.setAttribute("fill", "none");
@@ -229,6 +230,137 @@
     figure.append(media(item, preview, path));
     optional(figure, "figcaption", kind + "-caption media-item-caption", slide, path + "caption");
     return figure;
+  }
+
+  // Artwork is decorative geometry. All author-supplied words remain editable DOM fields.
+  function artifactArt(kind) {
+    var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("viewBox", kind === "cover" ? "0 0 280 180" : kind === "waveform" ? "0 0 170 70" : "0 0 54 54");
+    svg.setAttribute("aria-hidden", "true");
+    svg.setAttribute("focusable", "false");
+    function shape(tag, attrs) {
+      var node = document.createElementNS("http://www.w3.org/2000/svg", tag);
+      Object.keys(attrs).forEach(function (key) { node.setAttribute(key, attrs[key]); });
+      svg.append(node);
+    }
+    if (kind === "cover") {
+      shape("rect", { width: 280, height: 180, fill: "#d8dee1" });
+      shape("circle", { cx: 60, cy: 100, r: 105, fill: "#80a9de" });
+      shape("circle", { cx: 205, cy: 180, r: 107, fill: "#e9b17c" });
+      shape("circle", { cx: 233, cy: -10, r: 43, fill: "#b6a4cd" });
+      shape("path", { d: "M-10 172C40 75 90 13 137 53S208 172 290 50", fill: "none", stroke: "#244b76", "stroke-width": 8 });
+      [[70, 62], [160, 79], [238, 115]].forEach(function (point) { shape("circle", { cx: point[0], cy: point[1], r: 8, fill: "#eeede5" }); });
+    } else if (kind === "waveform") {
+      shape("path", { d: "M5 31V39M16 24V46M27 29V41M38 15V55M49 22V48M60 6V64M71 17V53M82 24V46M93 11V59M104 19V51M115 28V42M126 18V52M137 25V45M148 31V39M159 29V41", fill: "none", stroke: "currentColor", "stroke-width": 5, "stroke-linecap": "round" });
+    } else if (kind === "quote") {
+      shape("path", { d: "M0 32Q14 10 27 30T54 25", fill: "none", stroke: "currentColor", "stroke-width": 3 });
+    } else {
+      shape("circle", { cx: 23, cy: 29, r: 22, fill: "#86a8d0" });
+      shape("circle", { cx: 37, cy: 19, r: 14, fill: "#e8ad7a" });
+      shape("path", { d: "M2 49Q27 1 52 49", fill: "none", stroke: "#2f557f", "stroke-width": 4 });
+    }
+    return svg;
+  }
+
+  function artifact(slide, itemIndex, preview) {
+    var item = slide.items[itemIndex];
+    var path = "items." + itemIndex + ".";
+    var kind = item.kind;
+    var surface = element("div", "artifact artifact-" + kind);
+    function copy(tag, className, key) { return field(tag, className, slide, path + key); }
+    function addOptional(parent, tag, className, key) { optional(parent, tag, className, slide, path + key); }
+    function heading() {
+      var result = Array.isArray(item.title) ? element("h2", "artifact-title") : copy("h2", "artifact-title", "title");
+      if (Array.isArray(item.title)) item.title.forEach(function (_, index) { result.append(copy("span", "title-line", "title." + index)); });
+      return result;
+    }
+    if (kind === "cover") {
+      addOptional(surface, "p", "artifact-kicker", "label");
+      surface.append(heading());
+      addOptional(surface, "p", "artifact-subtitle", "subtitle");
+      var art = element("div", "artifact-cover-art");
+      art.append(item.src ? media({ src: item.src, alt: item.alt, fit: item.fit, focalPoint: item.focalPoint }, preview, path) : artifactArt("cover"));
+      surface.append(art);
+      if (item.footer || item.edition) {
+        var footer = element("div", "artifact-cover-footer");
+        addOptional(footer, "span", "artifact-footer", "footer");
+        addOptional(footer, "span", "artifact-edition", "edition");
+        surface.append(footer);
+      }
+    } else if (kind === "quote" || kind === "waveform") {
+      addOptional(surface, "p", "artifact-kicker", "label");
+      if (kind === "waveform") surface.append(artifactArt(kind));
+      surface.append(copy(kind === "quote" ? "blockquote" : "p", "artifact-text", "text"));
+      if (kind === "quote") surface.append(artifactArt(kind));
+    } else if (kind === "concepts") {
+      var concepts = element("div", "artifact-concepts-map");
+      concepts.dataset.count = String(item.items.length);
+      var links = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      links.setAttribute("viewBox", "0 0 222 200");
+      links.setAttribute("aria-hidden", "true");
+      var link = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      link.setAttribute("d", item.items.length > 2 ? "M62 50L157 70L112 149ZM62 50L36 113L112 149L184 157L157 70" : item.items.length > 1 ? "M62 50L157 70" : "");
+      link.setAttribute("fill", "none");
+      link.setAttribute("stroke", "currentColor");
+      links.append(link);
+      concepts.append(links);
+      item.items.forEach(function (_, index) { concepts.append(copy("span", "artifact-concept", "items." + index)); });
+      surface.append(concepts);
+      addOptional(surface, "p", "artifact-caption", "caption");
+    } else if (kind === "task") {
+      var task = element("div", "artifact-task-surface");
+      var taskTitle = element("div", "artifact-task-header");
+      addOptional(taskTitle, "h2", "artifact-task-title", "title");
+      addOptional(taskTitle, "span", "artifact-task-progress", "progress");
+      if (item.title || item.progress) task.append(taskTitle);
+      var taskRow = element("div", "artifact-task-row");
+      var check = element("span", "artifact-check", "✓");
+      check.setAttribute("aria-hidden", "true");
+      taskRow.append(check, copy("p", "artifact-task-text", "text"));
+      task.append(taskRow);
+      var tools = element("div", "artifact-tools");
+      var defaults = [{ icon: "record", tone: "blue" }, { icon: "voice", tone: "orange" }, { icon: "brain", tone: "purple" }, { icon: "share", tone: "green" }];
+      (item.tools || defaults).forEach(function (tool, index) {
+        var toolNode = element("div", "artifact-tool");
+        if (itemTones.indexOf(tool.tone) >= 0) toolNode.dataset.tone = tool.tone;
+        else toolNode.dataset.tone = defaults[index].tone;
+        toolNode.append(tool.src ? media({ src: tool.src, alt: tool.alt }, preview, path + "tools." + index + ".") : semanticIcon(tool.icon));
+        if (tool.label && item.tools) {
+          toolNode.setAttribute("aria-label", tool.label);
+          toolNode.append(copy("span", "artifact-tool-label", "tools." + index + ".label"));
+        }
+        tools.append(toolNode);
+      });
+      surface.append(task, tools);
+    } else if (kind === "report") {
+      var reportMark = element("div", "artifact-report-mark");
+      addOptional(reportMark, "span", "artifact-report-number", "number");
+      reportMark.append(artifactArt("report"));
+      var reportCopy = element("div", "artifact-report-copy");
+      addOptional(reportCopy, "p", "artifact-kicker", "label");
+      reportCopy.append(heading());
+      item.items.forEach(function (_, index) { reportCopy.append(copy("p", "artifact-report-line", "items." + index)); });
+      surface.append(reportMark, reportCopy);
+    } else if (kind === "process") {
+      var process = element("ol", "artifact-process-steps");
+      item.items.forEach(function (_, index) {
+        var step = element("li", "artifact-process-step");
+        var number = element("span", "artifact-process-number", String(index + 1));
+        number.setAttribute("aria-hidden", "true");
+        step.append(number, copy("span", "artifact-process-label", "items." + index));
+        process.append(step);
+      });
+      surface.append(process);
+      if (item.title) surface.append(heading());
+    } else if (kind === "actions") {
+      var actionHeading = element("div", "artifact-actions-header");
+      actionHeading.append(semanticIcon(item.icon || "record"));
+      if (item.title) actionHeading.append(heading());
+      var actions = element("ul", "artifact-actions-list");
+      item.items.forEach(function (_, index) { actions.append(copy("li", "artifact-action", "items." + index)); });
+      surface.append(actionHeading, actions);
+    }
+    return surface;
   }
 
   function renderErrorSlide(index, errors) {
@@ -428,6 +560,7 @@
       var composition = model.bentoPreset(slide.preset);
       var bento = element("div", "bento-grid");
       article.dataset.preset = slide.preset || "recap";
+      if (slide.variant === "editorial") article.dataset.variant = "editorial";
       bento.style.setProperty("--bento-columns", String(composition.columns));
       bento.style.setProperty("--bento-rows", String(composition.rows));
       slide.items.forEach(function (item, itemIndex) {
@@ -435,6 +568,7 @@
         var tile = element("figure", "bento-item");
         var tilePath = "items." + itemIndex + ".";
         tile.dataset.type = item.type;
+        if (item.type === "artifact") tile.dataset.kind = item.kind;
         tile.dataset.itemIndex = String(itemIndex);
         tile.dataset.columnSpan = String(slot.columnSpan);
         tile.dataset.rowSpan = String(slot.rowSpan);
@@ -449,6 +583,8 @@
             optional(tileCaption, "p", "bento-text", slide, tilePath + "caption");
             tile.append(tileCaption);
           }
+        } else if (item.type === "artifact") {
+          tile.append(artifact(slide, itemIndex, preview));
         } else {
           var bentoCopy = element("div", "bento-copy");
           if (item.type === "metric") {
@@ -712,6 +848,8 @@
       var style = getComputedStyle(field);
       if (!bounds.width || !bounds.height || style.visibility === "hidden") return;
       var container = body.contains(field) ? bodyBounds : slideBounds;
+      var tile = field.closest(".bento-item");
+      if (tile) container = tile.getBoundingClientRect();
       var path = field.dataset.owner === "deck" ? "$." + field.dataset.field : "slides." + state.index + "." + field.dataset.field;
       var range = document.createRange();
       range.selectNodeContents(field);

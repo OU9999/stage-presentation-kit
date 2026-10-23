@@ -95,6 +95,12 @@ Markdown을 쓰는 발표는 `slides.md`가 원본입니다. 생성된 `content.
 
 다른 주제의 시작점은 [릴리스 회고 params](examples/project-review.js)입니다. 복사한 폴더의 루트 `content.js`를 이 파일의 내용으로 교체해 사용합니다. 필드 타입·수량 제한·오류 복구는 [CONFIG.md](CONFIG.md)를 참조하세요.
 
+### C안으로 빠르게 시작하기
+
+[Field Notes 결과](examples/devday-compositions/index.html#4)는 사진·인용·발견·다음 행동을 한 이야기로 연결합니다. [한 장짜리 릴리스 회고 스타터](examples/editorial-starter.js)의 내용을 복사한 폴더의 **루트 `content.js`**로 교체하면 설치·빌드 없이 같은 구성을 쓸 수 있습니다. 우선 제목·문장·수치·사진만 바꾸세요. 표지 그림·파형·도구 아이콘은 자동으로 그리며, 문장은 화면에서 편집하고 저장·내보낼 수 있습니다.
+
+Markdown을 선호하면 [현장 구성 원고](examples/devday-compositions/slides.md)의 4장을 복사한 뒤 다시 생성합니다. `layout: bento`, `preset: seoul`, `variant: editorial`이 배치를 담당합니다. [배열 순서와 작성법](MARKDOWN.md#편집형-혼합-타일-c안), [필수 필드만 보는 계약](CONFIG.md#c안처럼-한-이야기로-엮기)을 함께 제공합니다. 기존 `bento`도 같은 양식에서 계속 사용할 수 있습니다.
+
 ## 발표와 공유
 
 - 방향키로 이동하고, 화면의 버튼으로 전체 슬라이드 목록과 단축키 안내를 엽니다.
@@ -135,11 +141,17 @@ Markdown을 쓰는 발표는 `slides.md`가 원본입니다. 생성된 `content.
 
 [원본과 적용 결과 비교](research/visual-implementation.html)에서 사진·아이콘·수치·혼합 타일의 변경을 볼 수 있습니다. [서울 조사](research/seoul-devday-visual-research-20261023.md), [도쿄·벵갈루루 조사](research/completed-cities-visual-research-20261023.md), [구현 diff와 수용 기준](research/visual-implementation-diff-20261023.md)을 별도로 남겼습니다.
 
-새 [현장 구성 예제](examples/devday-compositions/index.html)는 SF의 6열 사진과 의미색 범주, 서울의 아이콘월·두 수치, 서울과 도쿄에서 확인한 혼합 타일 구성을 재사용합니다. `bento`의 `seoul`·`recap`은 정확히 12개의 고정 슬롯을 사용하고, 문장·아이콘 키·이미지 경로·수치만 교체합니다. 기존 `mosaic`은 Figma 제품 데모와 가까운 독자 작품 모음으로 유지하며 현장 혼합 타일과 구분합니다.
+새 [현장 구성 예제](examples/devday-compositions/index.html)는 SF의 6열 사진과 의미색 범주, 서울의 아이콘월·두 수치, 서울과 도쿄에서 확인한 혼합 타일 구성을 재사용합니다. `bento`의 `seoul`·`recap`은 정확히 12개의 고정 슬롯을 사용합니다. 4장은 [재조사와 C안](research/review-20261023/)에 따라 한 가상 프로젝트의 결과물로 편집했으며 `variant: editorial`과 구조화한 `artifact`로 문장·사진·수치를 바꿔 쓸 수 있습니다. 기존 `mosaic`은 Figma 제품 데모와 가까운 독자 작품 모음으로 유지하며 현장 혼합 타일과 구분합니다.
 
 현장 사진은 연구 근거입니다. 발표 예제에는 스톡 사진과 자체 SVG를 사용하며 원본 로고·캐릭터·슬라이드를 넣지 않습니다. 도쿄의 모든 패턴이나 벵갈루루의 발표 전체를 구현했다는 뜻은 아닙니다. 확인한 장면과 남은 한계는 각 조사에 기록했습니다.
 
-## 이번 변경의 검증 상태
+## C안 제품화 검증
+
+`node --test tests/*.test.cjs` **163개 통과**. C안의 12타일·8종 결과물·편집 가능한 글자와 사진 로딩, 세 테마, 390px 읽기 모드, 실제 문장 수정·저장·새로고침·다운로드, 발표자 창 양방향 이동, `file://` 오프라인 재생을 확인했습니다. 긴 문장의 정확한 경고 경로와 원문 보존도 확인했습니다. [개발팀 검증 범위와 근거](research/implementation-c-20261023.md).
+
+다른 주제의 스타터를 별도 폴더에 복사해 **빌드 없이 실행**하고 표지·발견 문장을 편집·저장·복원·실제 다운로드한 데이터까지 총괄이 독립 확인했습니다. 갱신한 미리보기·PDF와 최종 자원 식별값은 [총괄 통합 검증](research/implementation-c-integration-20261023.md)을 참조하세요. 아래의 이전 55장 검증과 이번 C안의 확인 범위를 구분합니다.
+
+## 이전 혼합 타일 추가 시 검증
 
 `node --test tests/*.test.cjs` **111개 통과**. 5개 발표·35장과 기존20장, 총55장을 실제 키보드로 탐색해 경고·미디어 실패·브라우저 오류0을 확인했습니다. 390px 읽기·6개 발표의 오프라인 실행·새 양식의 편집/복원/다운로드·발표자 창 양방향 이동과 PDF55페이지 렌더도 확인했습니다. [검증 범위와 증거](research/implementation-verification-20261023.md).
 

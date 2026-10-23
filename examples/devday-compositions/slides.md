@@ -123,10 +123,10 @@ notes: SF 키노트 23:00의 원형 픽토그램과 같은 색 이름을 참고�
 <!-- stage
 layout: bento
 preset: seoul
+variant: editorial
 quiet: true
-notes: 서울 10월22일과 도쿄 10월20일 현장 사진에서 확인한 사진·문서·UI·수치 혼합과 오른쪽 높은 주역 타일을 참고한 12슬롯 고정 프리셋입니다. 모든 숫자와 UI는 가상이며 스톡 사진 크레딧은 assets/CREDITS.md에 있습니다.
+notes: C안의 관찰→주제→다음 행동을 공통 양식으로 표현합니다. 오른쪽 표지가 주역이고 실행 UI가 보조 앵커입니다. 숫자는 서로 다른 작업 단위인 가상 수치이며 전환율이 아닙니다. 파형과 과정은 실제 녹음·데이터가 아닌 개념도입니다. 도형·파형·도구 아이콘은 공통 렌더러가 그립니다. 모든 문자는 편집·저장·내보내기가 됩니다. 예제의 스톡 사진은 실제 참여자를 뜻하지 않으며 assets/CREDITS.md에 크레딧이 있습니다.
 -->
-
 
 ```stage
 {
@@ -135,81 +135,106 @@ notes: 서울 10월22일과 도쿄 10월20일 현장 사진에서 확인한 사�
       "type": "metric",
       "value": "24",
       "unit": "개",
-      "label": "모아 둔 아이디어",
+      "label": "남겨 둔 관찰",
       "tone": "blue"
     },
     {
       "type": "media",
-      "src": "../../assets/stage/shape-study.svg",
-      "alt": "직접 만든 파랑·주황·보라 입체 도형",
+      "src": "../../assets/photos/write.jpg",
+      "alt": "관찰 기록이라는 가상 이야기에 쓰인 필기 장면 스톡 사진",
       "fit": "cover",
-      "focalPoint": "50% 58%"
+      "focalPoint": "42% 43%",
+      "caption": "작은 장면을 놓치지 않기"
     },
     {
       "type": "metric",
       "value": "6",
       "unit": "가지",
-      "label": "연결한 작업",
+      "label": "함께 묶은 주제",
       "tone": "orange"
     },
     {
-      "type": "media",
-      "src": "../../assets/stage/signal-study.svg",
-      "alt": "빛나는 고리를 그린 가상 제품의 시각물",
-      "fit": "contain"
+      "type": "artifact",
+      "kind": "cover",
+      "label": "A FIELD STUDY",
+      "title": [
+        "Field",
+        "Notes."
+      ],
+      "subtitle": "관찰을 다음 행동으로.",
+      "footer": "기록 / 분류 / 다음 행동",
+      "edition": "STUDY\nEDITION"
     },
     {
-      "type": "media",
-      "src": "../../assets/photos/write.jpg",
-      "alt": "야외에서 생각을 적는 인물의 스톡 사진",
-      "fit": "cover",
-      "focalPoint": "45% 50%"
+      "type": "artifact",
+      "kind": "quote",
+      "label": "기록 조각 / 08",
+      "text": "“처음에\n어디로 가죠?”"
     },
     {
-      "type": "text",
-      "label": "BUILD",
-      "text": "생각을\n실행으로.",
-      "tone": "white"
+      "type": "artifact",
+      "kind": "waveform",
+      "label": "듣고 남긴 장면",
+      "text": "맥락까지\n함께 기록하기."
     },
     {
-      "type": "text",
-      "label": "CREATE",
-      "text": "다르게\n만들어요.",
-      "tone": "purple"
+      "type": "artifact",
+      "kind": "concepts",
+      "items": [
+        "동선",
+        "안내",
+        "첫 경험"
+      ],
+      "caption": "정리한 주제 중 일부"
     },
     {
-      "type": "media",
-      "src": "../../assets/stage/work-panel.svg",
-      "alt": "가상 프로젝트의 작업을 정리한 자체 제작 UI",
-      "fit": "contain"
+      "type": "artifact",
+      "kind": "task",
+      "title": "다음 행동",
+      "progress": "1 / 3",
+      "text": "첫 화면의 안내 고치기"
     },
     {
-      "type": "media",
-      "src": "../../assets/examples/report.svg",
-      "alt": "자체 제작한 가상 관찰 보고서",
-      "fit": "contain"
+      "type": "artifact",
+      "kind": "report",
+      "number": "01",
+      "label": "한 장으로 정리한 발견",
+      "title": "시작의 장벽",
+      "items": [
+        "안내가 늦다.",
+        "동선이 안 보인다.",
+        "선택지가 많다."
+      ]
     },
     {
       "type": "metric",
       "value": "3",
-      "unit": "단계",
-      "label": "다음 행동으로 연결",
+      "unit": "개",
+      "label": "정해 둔 다음 행동",
       "tone": "purple"
     },
     {
-      "type": "media",
-      "src": "../../assets/photos/landscape.jpg",
-      "alt": "푸른 호수와 산의 풀컬러 스톡 사진",
-      "fit": "cover"
+      "type": "artifact",
+      "kind": "process",
+      "title": "다음 일을 정하는 흐름",
+      "items": [
+        "기록",
+        "분류",
+        "결정"
+      ]
     },
     {
-      "type": "media",
-      "src": "../../assets/examples/dashboard.svg",
-      "alt": "가상 수치를 표시하는 자체 제작 대시보드",
-      "fit": "contain"
+      "type": "artifact",
+      "kind": "actions",
+      "title": "공유된 실행 목록",
+      "items": [
+        "첫 안내 앞당기기",
+        "다음 동선 보이기",
+        "처음 고를 일 줄이기"
+      ]
     }
   ],
-  "source": "구성용 가상 수치 · 자체 제작 UI와 시각물 · Pexels 스톡 사진"
+  "source": "Field Notes · 한 프로젝트의 결과물을 회수하는 가상 예제 · 자체 제작 UI·문서·도식 + Pexels 스톡 사진"
 }
 ```
 

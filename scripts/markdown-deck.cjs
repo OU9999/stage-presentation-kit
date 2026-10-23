@@ -19,7 +19,7 @@ const FIELDS = {
   steps: ["title", "steps"], gallery: ["title", "subtitle", "items", "variant", "source"],
   mosaic: ["title", "subtitle", "items", "source"], results: ["title", "subtitle", "items", "source"],
   categories: ["title", "subtitle", "items", "source"],
-  bento: ["title", "subtitle", "items", "preset", "source"],
+  bento: ["title", "subtitle", "items", "preset", "variant", "source"],
   "icon-wall": ["title", "subtitle", "items", "source"],
   "metric-pair": ["title", "items", "support", "source"]
 };
@@ -219,7 +219,18 @@ function eachMedia(deck, callback) {
   deck.slides.forEach((slide, slideIndex) => {
     for (const key of ["src", "video", "poster"]) if (own(slide, key)) callback(slide, key, `slides.${slideIndex}.${key}`);
     if (Array.isArray(slide.items)) slide.items.forEach((item, itemIndex) => {
-      if (record(item)) for (const key of ["src", "video", "poster"]) if (own(item, key)) callback(item, key, `slides.${slideIndex}.items.${itemIndex}.${key}`);
+      if (!record(item)) return;
+      // Only declared media fields participate. Arbitrary authored data stays literal.
+      if (slide.layout === "bento" && item.type === "artifact") {
+        if (item.kind === "cover" && own(item, "src")) callback(item, "src", `slides.${slideIndex}.items.${itemIndex}.src`);
+        if (item.kind === "task" && Array.isArray(item.tools)) {
+          item.tools.forEach((tool, toolIndex) => {
+            if (record(tool) && own(tool, "src")) callback(tool, "src", `slides.${slideIndex}.items.${itemIndex}.tools.${toolIndex}.src`);
+          });
+        }
+        return;
+      }
+      for (const key of ["src", "video", "poster"]) if (own(item, key)) callback(item, key, `slides.${slideIndex}.items.${itemIndex}.${key}`);
     });
   });
 }

@@ -1,0 +1,85 @@
+{
+  "shared": {
+    "app": "cb1b9721b0bc",
+    "styles": "819c38f3e3ec",
+    "model": "df2624fd79a3"
+  },
+  "geometry": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "artifacts": 8,
+    "fields": 43,
+    "warnings": "작성자 점검 0",
+    "images": [
+      {
+        "path": "../../assets/photos/write.jpg",
+        "complete": true,
+        "width": 1600
+      }
+    ]
+  },
+  "errors": [],
+  "network": [
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/index.html",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "url": "http://localhost:4317/styles.css?v=819c38f3e3ec",
+      "status": 200,
+      "type": "Stylesheet"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/content.js?v=4770213b72ba",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "url": "http://localhost:4317/deck-model.js?v=df2624fd79a3",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "url": "http://localhost:4317/app.js?v=cb1b9721b0bc",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "url": "chrome-extension://aeblfdkhhhdcdjpifhhbdiojplfjncoa/inline/injected.js",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/capture.jpg",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/write.jpg",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/observe.jpg",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/portrait-one.jpg",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/portrait-two.jpg",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/listen.jpg",
+      "status": 200,
+      "type": "Image"
+    }
+  ],
+  "navigation": "#4 → ArrowRight #5 → ArrowLeft #4"
+}
