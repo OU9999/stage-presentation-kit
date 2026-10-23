@@ -1,0 +1,98 @@
+[
+  {
+    "hash": "#2",
+    "title": "2. 이미지 갤러리",
+    "opacity": "1",
+    "text": "시선을 담아,\n장면을 기록합니다.\n소리를 듣고,\n작업에 집중합니다.\n생각을 적어,\n다음으로 이어갑니다.\n작은 차이를,\n다시 들여다봅니다.\n일상 가까이,\n가능성을 발견합니다.\n밖으로 나가,\n새로운 시선을 만납니다.",
+    "images": [
+      {
+        "src": "http://localhost:4317/assets/photos/capture.jpg",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4317/assets/photos/listen.jpg",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4317/assets/photos/write.jpg",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4317/assets/photos/observe.jpg",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4317/assets/photos/portrait-one.jpg",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4317/assets/photos/portrait-two.jpg",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "hash": "#3",
+    "title": "3. 서로 다른 역할을, 한눈에.",
+    "opacity": "1",
+    "text": "서로 다른 역할을, 한눈에.\n생각\n정리\n속도\n이미지\n공유",
+    "images": []
+  },
+  {
+    "hash": "#4",
+    "title": "4. 혼합 결과 타일",
+    "opacity": "1",
+    "text": "24개\n모아 둔 아이디어\n6가지\n연결한 작업\nBUILD\n\n생각을\n실행으로.\n\nCREATE\n\n다르게\n만들어요.\n\n3단계\n다음 행동으로 연결\n\n구성용 가상 수치 · 자체 제작 UI와 시각물 · Pexels 스톡 사진",
+    "images": [
+      {
+        "src": "http://localhost:4317/assets/stage/shape-study.svg",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4317/assets/stage/signal-study.svg",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4317/assets/photos/write.jpg",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4317/assets/stage/work-panel.svg",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4317/assets/examples/report.svg",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4317/assets/photos/landscape.jpg",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:4317/assets/examples/dashboard.svg",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "hash": "#5",
+    "title": "5. 함께 만들어요.",
+    "opacity": "1",
+    "text": "함께 만들어요.\n\n서로 다른 도구를, 하나의 흐름으로.",
+    "images": []
+  },
+  {
+    "hash": "#6",
+    "title": "6. 두 수치 비교",
+    "opacity": "1",
+    "text": "24\n개\n모아 둔 아이디어\n6\n가지\n연결한 작업\n\n양식 설명용 가상 수치 · 실제 측정 결과가 아닙니다.",
+    "images": []
+  },
+  {
+    "hash": "#7",
+    "title": "7. 당신의 장면으로, 다음 이야기를.",
+    "opacity": "1",
+    "text": "당신의 장면으로,\n다음 이야기를.\n\n문장과 자료를 바꾸면, 같은 양식으로 다시 발표합니다.\n\nslides.md 수정 → 다시 생성 → 발표",
+    "images": []
+  }
+]

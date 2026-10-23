@@ -1,0 +1,31 @@
+{
+  "checked": "2026-10-23",
+  "method": "ego-browser visible YouTube page plus page metadata",
+  "keynote": {
+    "url": "https://www.youtube.com/watch?v=Fls_onRviPM&t=2870s",
+    "videoId": "Fls_onRviPM",
+    "title": "OpenAI DevDay 2026 Keynote (FULL)",
+    "author": "OpenAI",
+    "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+    "channelUrl": "http://www.youtube.com/@OpenAI",
+    "published": "2026-09-29T11:42:29-07:00",
+    "upload": "2026-09-29T11:42:29-07:00",
+    "live": {
+      "isLiveNow": false,
+      "startTimestamp": "2026-09-29T16:48:03+00:00",
+      "endTimestamp": "2026-09-29T17:55:42+00:00"
+    },
+    "currentTime": 2870.547941
+  },
+  "codex": {
+    "url": "https://www.youtube.com/watch?v=XkKdbPhIvbY&t=1200s",
+    "videoId": "XkKdbPhIvbY",
+    "title": "Codex Has Left The Laptop | DevDay 2026",
+    "author": "OpenAI",
+    "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+    "channelUrl": "http://www.youtube.com/@OpenAI",
+    "published": "2026-10-07T14:10:48-07:00",
+    "upload": "2026-10-07T14:10:48-07:00",
+    "length": "1321"
+  }
+}

@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23111%27/%3E%3Cpath d=%27M8 10h16M16 10v15%27 stroke=%27%23eee%27 stroke-width=%273%27/%3E%3C/svg%3E">
+  <title>배치와 경계 — 디자인 비교 시안</title>
+  <style>
+    :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif; background: #111; color: #f2f2ef; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: inherit; text-underline-offset: 4px; }
+    button { font: inherit; }
+    .shell { width: min(1460px, 100%); margin: 0 auto; padding: 24px; }
+    .toolbar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-bottom: 18px; }
+    .heading { margin: 0; font-size: 16px; font-weight: 550; letter-spacing: -.035em; }
+    .heading small { margin-left: 10px; font-size: 11px; color: #989892; font-weight: 400; }
+    .switcher { display: flex; flex-wrap: wrap; gap: 6px; }
+    .switcher button { cursor: pointer; border: 1px solid #3a3a37; border-radius: 6px; color: #c9c9c3; padding: 9px 14px; background: transparent; font-size: 13px; }
+    .switcher button[aria-pressed="true"] { color: #141413; background: #eaeae3; border-color: #eaeae3; }
+    .switcher button:hover { border-color: #aaa; }
+    button:focus-visible, a:focus-visible { outline: 2px solid #91bdf5; outline-offset: 4px; }
+    .viewport { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #080808; border: 1px solid #282826; }
+    .slide { position: absolute; left: 0; top: 0; width: 1600px; height: 900px; transform-origin: 0 0; background: #080808; color: #f6f6f4; padding: 78px 92px 70px; word-break: keep-all; }
+    .stage-inner { display: flex; flex-direction: column; width: 100%; height: 100%; }
+    .tiles { display: grid; grid-template-columns: repeat(12, minmax(0,1fr)); grid-template-rows: repeat(6, minmax(0,1fr)); gap: 12px; flex: 1; min-height: 0; }
+    .tile { display: flex; align-items: center; justify-content: center; position: relative; min-width: 0; min-height: 0; overflow: hidden; border: 1px solid rgba(246,246,244,.22); border-radius: 18px; background: rgba(246,246,244,.045); }
+    .tile img { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; }
+    .tile img.cover { object-fit: cover; }
+    .copy { display: flex; flex-direction: column; width: 100%; height: 100%; align-items: center; justify-content: center; text-align: center; padding: 22px; }
+    .metric-value { margin: 0; font-size: 94px; line-height: 1.15; letter-spacing: -.06em; font-weight: 430; font-variant-numeric: tabular-nums; }
+    .metric-unit { font-size: .42em; margin-left: .12em; letter-spacing: -.035em; }
+    .label { margin: 14px 0 0; font-size: 23px; line-height: 1.35; letter-spacing: -.025em; }
+    .text-value { margin: 0; font-size: 36px; line-height: 1.2; letter-spacing: -.045em; white-space: pre-line; font-weight: 430; }
+    .blue { color: #73b9eb; } .orange { color: #f2925e; } .purple { color: #b59af5; }
+    .source { flex: 0 0 auto; margin: 16px 0 0; color: #a5a5a0; font-size: 18px; line-height: 1.5; }
+    .slide[data-variant="b"] .tile { background: transparent; border-color: transparent; }
+    .slide[data-variant="b"] .tile.metric, .slide[data-variant="b"] .tile.text { border-color: rgba(246,246,244,.12); background: #0b0b0b; }
+    .slide[data-variant="b"] .tile.ui { border-radius: 0; }
+    .slide[data-variant="c"] .tile { border-color: rgba(246,246,244,.12); background: #0b0b0b; }
+    .slide[data-variant="c"] .tile.artifact, .slide[data-variant="c"] .tile.photo, .slide[data-variant="c"] .tile.interface { border-color: transparent; background: transparent; }
+    .slide[data-variant="c"] .metric-value { font-size: 100px; }
+    .slide[data-variant="c"] .label { color: #deded8; margin-top: 10px; }
+    .photo-caption { position: absolute; left: 22px; bottom: 18px; padding: 6px 10px; color: #fff; background: #0009; font-size: 16px; border-radius: 4px; }
+    .cover-page { display: flex; flex-direction: column; width: 100%; height: 100%; color: #1e292e; background: #eeede5; padding: 29px 28px 24px; }
+    .artifact-kicker { margin: 0; font-size: 14px; letter-spacing: .1em; font-weight: 500; }
+    .cover-page h2 { margin: 24px 0 0; font-size: 60px; line-height: .96; letter-spacing: -.065em; font-weight: 560; }
+    .cover-page .cover-subtitle { margin: 16px 0 0; font-size: 22px; line-height: 1.3; letter-spacing: -.04em; }
+    .cover-art { display: block; width: 100%; flex: 1; min-height: 130px; margin-top: 12px; border-radius: 6px; }
+    .cover-footer { display: flex; justify-content: space-between; align-items: end; margin-top: 12px; font-size: 12px; line-height: 1.4; border-top: 1px solid #b7beb8; padding-top: 12px; }
+    .fragment { width: 100%; height: 100%; padding: 22px 22px 18px; background: #e4e9e9; color: #16344d; display: flex; flex-direction: column; }
+    .fragment .artifact-kicker { color: #62717a; font-size: 13px; }
+    .fragment blockquote { margin: auto 0; font-size: 34px; line-height: 1.22; letter-spacing: -.045em; }
+    .fragment svg { width: 55px; height: 22px; }
+    .sound { position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-between; padding: 24px 20px; background: #121d26; color: #a8c8f0; }
+    .sound svg { width: 100%; height: 70px; }
+    .sound p { margin: 0; font-size: 18px; line-height: 1.3; }
+    .sound .artifact-kicker { font-size: 12px; color: #86a0b9; }
+    .map-art { width: 100%; height: 100%; background: #1d1923; color: #c0abe6; }
+    .map-art svg { width: 100%; height: 100%; display: block; }
+    .ui-group { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-between; gap: 14px; }
+    .task-surface { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: center; gap: 15px; padding: 20px 24px; background: #e7eff7; color: #213d5c; border-radius: 18px; }
+    .task-title { display: flex; align-items: center; justify-content: space-between; font-size: 20px; font-weight: 500; }
+    .task-title span { color: #667b91; font-size: 14px; font-weight: 400; }
+    .task-row { display: flex; gap: 12px; align-items: center; font-size: 23px; letter-spacing: -.03em; }
+    .check { display: inline-flex; width: 24px; height: 24px; align-items: center; justify-content: center; flex: 0 0 auto; color: #365a8c; border: 1.5px solid #7899c2; border-radius: 6px; font-size: 15px; }
+    .tools { display: flex; gap: 12px; justify-content: space-between; }
+    .tool { display: flex; align-items: center; justify-content: center; width: 64px; height: 50px; border-radius: 13px; background: #e8ebe5; color: #34628d; }
+    .tool:nth-child(2) { color: #9b6b3f; } .tool:nth-child(3) { color: #72569b; } .tool:nth-child(4) { color: #366e6d; }
+    .tool svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .report-detail { display: flex; width: 100%; height: 100%; color: #302d27; background: #e9e4d8; padding: 23px; gap: 22px; }
+    .report-detail .mini-cover { width: 76px; flex: 0 0 auto; border-right: 1px solid #c6c1b6; padding-right: 16px; display: flex; flex-direction: column; justify-content: space-between; }
+    .report-detail .mini-cover span { font-size: 44px; line-height: 1; letter-spacing: -.07em; }
+    .report-detail .mini-cover svg { width: 54px; height: 54px; }
+    .report-detail h3 { margin: 10px 0 12px; font-size: 26px; line-height: 1.2; font-weight: 500; letter-spacing: -.05em; }
+    .report-detail p { margin: 9px 0 0; font-size: 18px; line-height: 1.3; letter-spacing: -.03em; }
+    .report-detail .artifact-kicker { font-size: 12px; color: #7a7469; }
+    .journey { display: flex; width: 100%; height: 100%; flex-direction: column; justify-content: center; padding: 25px; }
+    .journey svg { width: 100%; height: 100px; overflow: visible; }
+    .journey h3 { margin: 4px 0 0; font-size: 25px; line-height: 1.3; letter-spacing: -.035em; font-weight: 450; }
+    .journey p { margin: 8px 0 0; font-size: 16px; line-height: 1.4; color: #8b9297; }
+    .share { display: flex; width: 100%; height: 100%; justify-content: center; flex-direction: column; padding: 25px; background: #10232a; color: #a4c6cb; }
+    .share header { display: flex; align-items: center; gap: 12px; }
+    .share svg { width: 30px; height: 30px; flex: 0 0 auto; color: #b8dce0; }
+    .share h3 { margin: 0; font-size: 23px; font-weight: 450; letter-spacing: -.04em; }
+    .share ul { margin: 18px 0 0; padding: 0; list-style: none; font-size: 21px; line-height: 1.4; letter-spacing: -.035em; }
+    .share li + li { margin-top: 6px; }
+    .share li::before { content: "↳"; margin-right: 9px; color: #557a85; }
+    .notes { display: grid; grid-template-columns: 1fr auto; gap: 14px; margin-top: 15px; align-items: start; }
+    .notes h2 { margin: 0 0 6px; font-size: 15px; font-weight: 500; letter-spacing: -.025em; }
+    .notes p { margin: 0; color: #a8a8a1; font-size: 12px; line-height: 1.7; max-width: 940px; }
+    .notes a { font-size: 12px; white-space: nowrap; }
+    .footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-top: 18px; padding-top: 13px; border-top: 1px solid #2a2a28; color: #81817b; font-size: 10px; line-height: 1.6; }
+    .full-view .shell { width: 100%; padding: 12px; }
+    .full-view .footer { display: none; }
+    @media (max-width: 650px) {
+      .shell { padding: 12px; }
+      .toolbar { gap: 12px; margin-bottom: 12px; }
+      .heading { width: 100%; font-size: 14px; }
+      .heading small { font-size: 10px; }
+      .switcher { width: 100%; gap: 5px; }
+      .switcher button { flex: 1; padding: 9px 7px; font-size: 11px; }
+      .notes { grid-template-columns: 1fr; gap: 8px; }
+      .notes h2 { font-size: 13px; }
+      .notes p { font-size: 11px; }
+      .notes a { font-size: 11px; }
+      .footer { margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+<main class="shell">
+  <header class="toolbar">
+    <h1 class="heading">배치·내용·경계 비교<small>독립 디자인 시안 · 제품 반영 전</small></h1>
+    <nav class="switcher" aria-label="시안 선택">
+      <button type="button" data-view="a" aria-pressed="false">A · 현재 처리</button>
+      <button type="button" data-view="b" aria-pressed="false">B · 경계 분리</button>
+      <button type="button" data-view="c" aria-pressed="true">C · 권장 편집</button>
+    </nav>
+  </header>
+  <div class="viewport" id="viewport">
+    <section class="slide" id="slide" aria-label="디자인 시안" data-variant="c">
+      <div class="stage-inner"><div class="tiles" id="tiles"></div><p class="source" id="source"></p></div>
+    </section>
+  </div>
+  <div class="notes" aria-live="polite">
+    <div><h2 id="note-title"></h2><p id="note-copy"></p></div>
+    <a id="expand" href="?view=full#c" target="_blank" rel="noopener">새 창에서 크게 보기 ↗</a>
+  </div>
+  <footer class="footer">
+    <span>A/B: 동일자산 배치비교 · 현재 제품의 정확한 복제 화면이 아닙니다.</span>
+    <span>C: 자체 제작 결과물·가상 수치 · <a href="../../../assets/CREDITS.md">스톡 사진 credit</a> · <a href="../index.html" target="_top">연구 비교 보드</a></span>
+  </footer>
+</main>
+<template id="current-template">
+  <article class="tile metric"><div class="copy blue"><p class="metric-value">24<span class="metric-unit">개</span></p><p class="label">모아 둔 아이디어</p></div></article>
+  <article class="tile media"><img src="../../../assets/stage/shape-study.svg" alt="직접 만든 파랑·주황·보라 입체 도형" class="cover" style="object-position:50% 58%"></article>
+  <article class="tile metric"><div class="copy orange"><p class="metric-value">6<span class="metric-unit">가지</span></p><p class="label">연결한 작업</p></div></article>
+  <article class="tile media"><img src="../../../assets/stage/signal-study.svg" alt="빛나는 고리를 그린 가상 제품의 시각물"></article>
+  <article class="tile media"><img src="../../../assets/photos/write.jpg" alt="야외에서 생각을 적는 인물의 스톡 사진" class="cover" style="object-position:45% 50%"></article>
+  <article class="tile text"><div class="copy"><p class="label" style="margin:0">BUILD</p><p class="text-value">생각을
+실행으로.</p></div></article>
+  <article class="tile text"><div class="copy purple"><p class="label" style="margin:0">CREATE</p><p class="text-value">다르게
+만들어요.</p></div></article>
+  <article class="tile media ui"><img src="../../../assets/stage/work-panel.svg" alt="가상 프로젝트의 작업을 정리한 자체 제작 UI"></article>
+  <article class="tile media ui"><img src="../../../assets/examples/report.svg" alt="자체 제작한 가상 관찰 보고서"></article>
+  <article class="tile metric"><div class="copy purple"><p class="metric-value">3<span class="metric-unit">단계</span></p><p class="label">다음 행동으로 연결</p></div></article>
+  <article class="tile media"><img src="../../../assets/photos/landscape.jpg" alt="푸른 호수와 산의 풀컬러 스톡 사진" class="cover"></article>
+  <article class="tile media ui"><img src="../../../assets/examples/dashboard.svg" alt="가상 수치를 표시하는 자체 제작 대시보드"></article>
+</template>
+<template id="edited-template">
+  <article class="tile metric"><div class="copy blue"><p class="metric-value">24<span class="metric-unit">개</span></p><p class="label">남겨 둔 관찰</p></div></article>
+  <article class="tile photo"><img src="../../../assets/photos/write.jpg" alt="관찰 기록이라는 가상 이야기에 쓰인 필기 장면 스톡 사진" class="cover" style="object-position:42% 43%"><span class="photo-caption">작은 장면을 놓치지 않기</span></article>
+  <article class="tile metric"><div class="copy orange"><p class="metric-value">6<span class="metric-unit">가지</span></p><p class="label">함께 묶은 주제</p></div></article>
+  <article class="tile artifact">
+    <div class="cover-page">
+      <p class="artifact-kicker">A FIELD STUDY</p>
+      <h2>Field<br>Notes.</h2>
+      <p class="cover-subtitle">관찰을 다음 행동으로.</p>
+      <svg class="cover-art" viewBox="0 0 280 230" preserveAspectRatio="xMidYMid slice" role="img" aria-label="여러 관찰이 하나의 경로로 이어지는 자체 제작 표지 그래픽">
+        <defs><clipPath id="cover-clip"><rect width="280" height="230" rx="6"/></clipPath></defs>
+        <g clip-path="url(#cover-clip)"><rect width="280" height="230" fill="#d8dee1"/><circle cx="60" cy="120" r="90" fill="#80a9de"/><circle cx="205" cy="195" r="107" fill="#e9b17c"/><circle cx="233" cy="30" r="43" fill="#b6a4cd"/>
+        <path d="M-10 202C40 105 90 43 137 83S208 202 290 80" fill="none" stroke="#244b76" stroke-width="8"/><circle cx="70" cy="92" r="8" fill="#eeede5"/><circle cx="160" cy="109" r="8" fill="#eeede5"/><circle cx="238" cy="145" r="8" fill="#eeede5"/></g>
+      </svg>
+      <div class="cover-footer"><span>기록 / 분류 / 다음 행동</span><span>STUDY<br>EDITION</span></div>
+    </div>
+  </article>
+  <article class="tile artifact"><div class="fragment"><p class="artifact-kicker">기록 조각 / 08</p><blockquote>“처음에<br>어디로 가죠?”</blockquote><svg viewBox="0 0 55 22" aria-hidden="true"><path d="M0 15Q14 0 27 13T55 10" fill="none" stroke="#638db9" stroke-width="3"/></svg></div></article>
+  <article class="tile artifact"><div class="sound"><p class="artifact-kicker">듣고 남긴 장면</p><svg viewBox="0 0 170 70" role="img" aria-label="녹음 자료의 개념 파형"><path d="M5 31V39M16 24V46M27 29V41M38 15V55M49 22V48M60 6V64M71 17V53M82 24V46M93 11V59M104 19V51M115 28V42M126 18V52M137 25V45M148 31V39M159 29V41" fill="none" stroke="#9ebbe9" stroke-width="5" stroke-linecap="round"/></svg><p>맥락까지<br>함께 기록하기.</p></div></article>
+  <article class="tile artifact"><div class="map-art"><svg viewBox="0 0 222 225" role="img" aria-label="정리한 여섯 주제 중 동선·안내·첫 경험 세 주제만 발췌한 자체 제작 개념도"><g fill="none" stroke="#6d598d" stroke-width="1.4"><path d="M62 60L157 80L112 159Z"/><path d="M62 60L36 123L112 159L184 167L157 80"/></g><g fill="#9f8ac5"><circle cx="62" cy="60" r="26"/><circle cx="157" cy="80" r="33"/><circle cx="112" cy="159" r="39"/></g><g fill="#d9c8f0"><circle cx="36" cy="123" r="8"/><circle cx="184" cy="167" r="11"/></g><g fill="#17121d" font-family="sans-serif" font-size="17" text-anchor="middle"><text x="62" y="66">동선</text><text x="157" y="86">안내</text><text x="112" y="165">첫 경험</text></g><text x="111" y="213" fill="#9986b8" font-family="sans-serif" font-size="12" text-anchor="middle">정리한 주제 중 일부</text></svg></div></article>
+  <article class="tile interface"><div class="ui-group"><div class="task-surface"><div class="task-title">다음 행동<span>1 / 3</span></div><div class="task-row"><span class="check">✓</span>첫 화면의 안내 고치기</div></div><div class="tools" aria-label="정리된 결과물의 종류"><span class="tool" title="관찰 기록"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg></span><span class="tool" title="음성 기록"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4M8 6v12M12 3v18M16 7v10M20 10v4"/></svg></span><span class="tool" title="주제 분류"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7" cy="7" r="3"/><circle cx="17" cy="8" r="3"/><circle cx="12" cy="17" r="3"/><path d="M9 9l2 5M15 10l-2 4"/></svg></span><span class="tool" title="공유 문서"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5M5 13v7h14v-7"/></svg></span></div></div></article>
+  <article class="tile artifact"><div class="report-detail"><div class="mini-cover"><span>01</span><svg viewBox="0 0 54 54" aria-hidden="true"><circle cx="23" cy="29" r="22" fill="#86a8d0"/><circle cx="37" cy="19" r="14" fill="#e8ad7a"/><path d="M2 49Q27 1 52 49" fill="none" stroke="#2f557f" stroke-width="4"/></svg></div><div><p class="artifact-kicker">한 장으로 정리한 발견</p><h3>시작의 장벽</h3><p>안내가 늦다.</p><p>동선이 안 보인다.</p><p>선택지가 많다.</p></div></div></article>
+  <article class="tile metric"><div class="copy purple"><p class="metric-value">3<span class="metric-unit">개</span></p><p class="label">정해 둔 다음 행동</p></div></article>
+  <article class="tile"><div class="journey"><svg viewBox="0 0 290 100" role="img" aria-label="기록, 분류, 결정의 세 단계 개념도"><path d="M30 40H260" fill="none" stroke="#4f6278" stroke-width="2"/><g fill="#0b0b0b" stroke="#9aafc8" stroke-width="2"><circle cx="30" cy="40" r="18"/><circle cx="145" cy="40" r="18"/><circle cx="260" cy="40" r="18"/></g><g fill="#a2b9d6" font-size="16" font-family="sans-serif" text-anchor="middle"><text x="30" y="46">1</text><text x="145" y="46">2</text><text x="260" y="46">3</text><text x="30" y="85">기록</text><text x="145" y="85">분류</text><text x="260" y="85">결정</text></g></svg><h3>다음 일을 정하는 흐름</h3></div></article>
+  <article class="tile artifact"><div class="share"><header><svg viewBox="0 0 30 30" aria-hidden="true"><rect x="6" y="3" width="18" height="24" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 10h8M11 15h8M11 20h5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><h3>공유된 실행 목록</h3></header><ul><li>첫 안내 앞당기기</li><li>다음 동선 보이기</li><li>처음 고를 일 줄이기</li></ul></div></article>
+</template>
+<script>
+  (() => {
+    const slots = [[1,1,3,2],[4,1,3,2],[7,1,3,2],[10,1,3,4],[1,3,2,2],[3,3,2,2],[5,3,2,2],[7,3,3,2],[1,5,3,2],[4,5,3,2],[7,5,3,2],[10,5,3,2]];
+    const descriptions = {
+      a: ['A · 동일자산 배치비교 — 현재의 공통 경계 처리', '현재 #4와 같은 12개 자산·수치·문구·배치·fit으로 재구성했습니다. 모든 칸에 같은 중립선과 wash를 둡니다. 실제 제품의 정확한 복제 화면은 아닙니다.'],
+      b: ['B · 동일자산 배치비교 — 미디어별 경계만 분리', 'A와 자산·텍스트·위치·크롭·가터가 같습니다. 어두운 문자·수치에만 약한 구조선을 남기고, 사진과 UI는 공통 wrapper의 선·wash를 걷었습니다. 자산 내부의 프레임과 contain 여백은 그대로라서, 경계만 바꿨을 때의 한계도 보입니다.'],
+      c: ['C · 권장 편집 — 소재까지 바꾼 별도안', '같은 배치 뼈대에 ‘관찰 기록 → 주제 정리 → 다음 행동’이라는 한 이야기를 넣었습니다. 오른쪽 완성 보고서가 주역, 가운데 실행 UI가 보조입니다. 가상 수치는 서로 다른 작업 단위이며 전환율을 뜻하지 않습니다. A/B와 달리 콘텐츠·크롭·타이포도 달라진 편집안입니다.']
+    };
+    const slide = document.getElementById('slide');
+    const tiles = document.getElementById('tiles');
+    const viewport = document.getElementById('viewport');
+    if (new URLSearchParams(location.search).get('view') === 'full') document.body.classList.add('full-view');
+    function scale() { slide.style.transform = 'scale(' + (viewport.clientWidth / 1600) + ')'; }
+    function show(requested) {
+      const view = Object.hasOwn(descriptions, requested) ? requested : 'c';
+      slide.dataset.variant = view;
+      tiles.replaceChildren(document.getElementById(view === 'c' ? 'edited-template' : 'current-template').content.cloneNode(true));
+      [...tiles.children].forEach((tile, i) => {
+        const [column,row,columnSpan,rowSpan] = slots[i];
+        tile.style.gridColumn = column + ' / span ' + columnSpan;
+        tile.style.gridRow = row + ' / span ' + rowSpan;
+      });
+      document.querySelectorAll('[data-view]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.view === view)));
+      document.getElementById('note-title').textContent = descriptions[view][0];
+      document.getElementById('note-copy').textContent = descriptions[view][1];
+      document.getElementById('source').textContent = view === 'c' ? 'Field Notes · 한 프로젝트의 결과물을 회수하는 가상 예제 · 자체 제작 UI·문서·도식 + Pexels 스톡 사진' : '구성용 가상 수치 · 자체 제작 UI와 시각물 · Pexels 스톡 사진';
+      document.getElementById('expand').href = '?view=full#' + view;
+      slide.setAttribute('aria-label', descriptions[view][0]);
+      scale();
+    }
+    document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => {
+      history.replaceState(null, '', location.pathname + location.search + '#' + button.dataset.view);
+      show(button.dataset.view);
+    }));
+    window.addEventListener('hashchange', () => show(location.hash.slice(1)));
+    new ResizeObserver(scale).observe(viewport);
+    show(location.hash.slice(1));
+  })();
+</script>
+</body>
+</html>

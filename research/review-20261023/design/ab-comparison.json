@@ -1,0 +1,673 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "same": true,
+  "a": [
+    {
+      "text": "24개\n\n모아 둔 아이디어",
+      "gridColumn": "1 / span 3",
+      "gridRow": "1 / span 2",
+      "width": 299.71875,
+      "height": 198.3600616455078,
+      "x": 104.92499542236328,
+      "y": 147.2624969482422,
+      "padding": "0px",
+      "copy": [
+        {
+          "class": "copy blue",
+          "font": "16px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "16px",
+          "padding": "22px",
+          "lineHeight": "normal"
+        },
+        {
+          "class": "metric-value",
+          "font": "",
+          "fontSize": "94px",
+          "padding": "0px",
+          "lineHeight": "108.1px"
+        },
+        {
+          "class": "label",
+          "font": "23px / 31.05px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "23px",
+          "padding": "0px",
+          "lineHeight": "31.05px"
+        }
+      ],
+      "images": []
+    },
+    {
+      "text": "",
+      "gridColumn": "4 / span 3",
+      "gridRow": "1 / span 2",
+      "width": 299.71875,
+      "height": 198.3600616455078,
+      "x": 415.0687255859375,
+      "y": 147.2624969482422,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/stage/shape-study.svg",
+          "fit": "cover",
+          "focal": "50% 58%",
+          "x": 415.9375,
+          "y": 148.13125610351562,
+          "width": 297.981201171875,
+          "height": 196.62255859375,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "6가지\n\n연결한 작업",
+      "gridColumn": "7 / span 3",
+      "gridRow": "1 / span 2",
+      "width": 299.71868896484375,
+      "height": 198.3600616455078,
+      "x": 725.2124633789062,
+      "y": 147.2624969482422,
+      "padding": "0px",
+      "copy": [
+        {
+          "class": "copy orange",
+          "font": "16px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "16px",
+          "padding": "22px",
+          "lineHeight": "normal"
+        },
+        {
+          "class": "metric-value",
+          "font": "",
+          "fontSize": "94px",
+          "padding": "0px",
+          "lineHeight": "108.1px"
+        },
+        {
+          "class": "label",
+          "font": "23px / 31.05px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "23px",
+          "padding": "0px",
+          "lineHeight": "31.05px"
+        }
+      ],
+      "images": []
+    },
+    {
+      "text": "",
+      "gridColumn": "10 / span 3",
+      "gridRow": "1 / span 4",
+      "width": 299.71875,
+      "height": 407.15191650390625,
+      "x": 1035.356201171875,
+      "y": 147.2624969482422,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/stage/signal-study.svg",
+          "fit": "contain",
+          "focal": "50% 50%",
+          "x": 1036.2249755859375,
+          "y": 148.13125610351562,
+          "width": 297.981201171875,
+          "height": 405.4143981933594,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "",
+      "gridColumn": "1 / span 2",
+      "gridRow": "3 / span 2",
+      "width": 196.33749389648438,
+      "height": 198.36688232421875,
+      "x": 104.92499542236328,
+      "y": 356.04754638671875,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/photos/write.jpg",
+          "fit": "cover",
+          "focal": "45% 50%",
+          "x": 105.79374694824219,
+          "y": 356.9162902832031,
+          "width": 194.59999084472656,
+          "height": 196.62936401367188,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "BUILD\n\n생각을\n실행으로.",
+      "gridColumn": "3 / span 2",
+      "gridRow": "3 / span 2",
+      "width": 196.33749389648438,
+      "height": 198.36688232421875,
+      "x": 311.6875,
+      "y": 356.04754638671875,
+      "padding": "0px",
+      "copy": [
+        {
+          "class": "copy",
+          "font": "16px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "16px",
+          "padding": "22px",
+          "lineHeight": "normal"
+        },
+        {
+          "class": "label",
+          "font": "23px / 31.05px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "23px",
+          "padding": "0px",
+          "lineHeight": "31.05px"
+        },
+        {
+          "class": "text-value",
+          "font": "430 36px / 43.2px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "36px",
+          "padding": "0px",
+          "lineHeight": "43.2px"
+        }
+      ],
+      "images": []
+    },
+    {
+      "text": "CREATE\n\n다르게\n만들어요.",
+      "gridColumn": "5 / span 2",
+      "gridRow": "3 / span 2",
+      "width": 196.3375244140625,
+      "height": 198.36688232421875,
+      "x": 518.449951171875,
+      "y": 356.04754638671875,
+      "padding": "0px",
+      "copy": [
+        {
+          "class": "copy purple",
+          "font": "16px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "16px",
+          "padding": "22px",
+          "lineHeight": "normal"
+        },
+        {
+          "class": "label",
+          "font": "23px / 31.05px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "23px",
+          "padding": "0px",
+          "lineHeight": "31.05px"
+        },
+        {
+          "class": "text-value",
+          "font": "430 36px / 43.2px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "36px",
+          "padding": "0px",
+          "lineHeight": "43.2px"
+        }
+      ],
+      "images": []
+    },
+    {
+      "text": "",
+      "gridColumn": "7 / span 3",
+      "gridRow": "3 / span 2",
+      "width": 299.71868896484375,
+      "height": 198.36688232421875,
+      "x": 725.2124633789062,
+      "y": 356.04754638671875,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/stage/work-panel.svg",
+          "fit": "contain",
+          "focal": "50% 50%",
+          "x": 726.0812377929688,
+          "y": 356.9162902832031,
+          "width": 297.98126220703125,
+          "height": 196.62936401367188,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "",
+      "gridColumn": "1 / span 3",
+      "gridRow": "5 / span 2",
+      "width": 299.71875,
+      "height": 198.360107421875,
+      "x": 104.92499542236328,
+      "y": 564.83935546875,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/examples/report.svg",
+          "fit": "contain",
+          "focal": "50% 50%",
+          "x": 105.79374694824219,
+          "y": 565.7081298828125,
+          "width": 297.98126220703125,
+          "height": 196.62255859375,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "3단계\n\n다음 행동으로 연결",
+      "gridColumn": "4 / span 3",
+      "gridRow": "5 / span 2",
+      "width": 299.71875,
+      "height": 198.360107421875,
+      "x": 415.0687255859375,
+      "y": 564.83935546875,
+      "padding": "0px",
+      "copy": [
+        {
+          "class": "copy purple",
+          "font": "16px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "16px",
+          "padding": "22px",
+          "lineHeight": "normal"
+        },
+        {
+          "class": "metric-value",
+          "font": "",
+          "fontSize": "94px",
+          "padding": "0px",
+          "lineHeight": "108.1px"
+        },
+        {
+          "class": "label",
+          "font": "23px / 31.05px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "23px",
+          "padding": "0px",
+          "lineHeight": "31.05px"
+        }
+      ],
+      "images": []
+    },
+    {
+      "text": "",
+      "gridColumn": "7 / span 3",
+      "gridRow": "5 / span 2",
+      "width": 299.71868896484375,
+      "height": 198.360107421875,
+      "x": 725.2124633789062,
+      "y": 564.83935546875,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/photos/landscape.jpg",
+          "fit": "cover",
+          "focal": "50% 50%",
+          "x": 726.0812377929688,
+          "y": 565.7081298828125,
+          "width": 297.98126220703125,
+          "height": 196.62255859375,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "",
+      "gridColumn": "10 / span 3",
+      "gridRow": "5 / span 2",
+      "width": 299.71875,
+      "height": 198.360107421875,
+      "x": 1035.356201171875,
+      "y": 564.83935546875,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/examples/dashboard.svg",
+          "fit": "contain",
+          "focal": "50% 50%",
+          "x": 1036.2249755859375,
+          "y": 565.7081298828125,
+          "width": 297.981201171875,
+          "height": 196.62255859375,
+          "loaded": true
+        }
+      ]
+    }
+  ],
+  "b": [
+    {
+      "text": "24개\n\n모아 둔 아이디어",
+      "gridColumn": "1 / span 3",
+      "gridRow": "1 / span 2",
+      "width": 299.71875,
+      "height": 198.3600616455078,
+      "x": 104.92499542236328,
+      "y": 147.2624969482422,
+      "padding": "0px",
+      "copy": [
+        {
+          "class": "copy blue",
+          "font": "16px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "16px",
+          "padding": "22px",
+          "lineHeight": "normal"
+        },
+        {
+          "class": "metric-value",
+          "font": "",
+          "fontSize": "94px",
+          "padding": "0px",
+          "lineHeight": "108.1px"
+        },
+        {
+          "class": "label",
+          "font": "23px / 31.05px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "23px",
+          "padding": "0px",
+          "lineHeight": "31.05px"
+        }
+      ],
+      "images": []
+    },
+    {
+      "text": "",
+      "gridColumn": "4 / span 3",
+      "gridRow": "1 / span 2",
+      "width": 299.71875,
+      "height": 198.3600616455078,
+      "x": 415.0687255859375,
+      "y": 147.2624969482422,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/stage/shape-study.svg",
+          "fit": "cover",
+          "focal": "50% 58%",
+          "x": 415.9375,
+          "y": 148.13125610351562,
+          "width": 297.981201171875,
+          "height": 196.62255859375,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "6가지\n\n연결한 작업",
+      "gridColumn": "7 / span 3",
+      "gridRow": "1 / span 2",
+      "width": 299.71868896484375,
+      "height": 198.3600616455078,
+      "x": 725.2124633789062,
+      "y": 147.2624969482422,
+      "padding": "0px",
+      "copy": [
+        {
+          "class": "copy orange",
+          "font": "16px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "16px",
+          "padding": "22px",
+          "lineHeight": "normal"
+        },
+        {
+          "class": "metric-value",
+          "font": "",
+          "fontSize": "94px",
+          "padding": "0px",
+          "lineHeight": "108.1px"
+        },
+        {
+          "class": "label",
+          "font": "23px / 31.05px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "23px",
+          "padding": "0px",
+          "lineHeight": "31.05px"
+        }
+      ],
+      "images": []
+    },
+    {
+      "text": "",
+      "gridColumn": "10 / span 3",
+      "gridRow": "1 / span 4",
+      "width": 299.71875,
+      "height": 407.15191650390625,
+      "x": 1035.356201171875,
+      "y": 147.2624969482422,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/stage/signal-study.svg",
+          "fit": "contain",
+          "focal": "50% 50%",
+          "x": 1036.2249755859375,
+          "y": 148.13125610351562,
+          "width": 297.981201171875,
+          "height": 405.4143981933594,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "",
+      "gridColumn": "1 / span 2",
+      "gridRow": "3 / span 2",
+      "width": 196.33749389648438,
+      "height": 198.36688232421875,
+      "x": 104.92499542236328,
+      "y": 356.04754638671875,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/photos/write.jpg",
+          "fit": "cover",
+          "focal": "45% 50%",
+          "x": 105.79374694824219,
+          "y": 356.9162902832031,
+          "width": 194.59999084472656,
+          "height": 196.62936401367188,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "BUILD\n\n생각을\n실행으로.",
+      "gridColumn": "3 / span 2",
+      "gridRow": "3 / span 2",
+      "width": 196.33749389648438,
+      "height": 198.36688232421875,
+      "x": 311.6875,
+      "y": 356.04754638671875,
+      "padding": "0px",
+      "copy": [
+        {
+          "class": "copy",
+          "font": "16px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "16px",
+          "padding": "22px",
+          "lineHeight": "normal"
+        },
+        {
+          "class": "label",
+          "font": "23px / 31.05px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "23px",
+          "padding": "0px",
+          "lineHeight": "31.05px"
+        },
+        {
+          "class": "text-value",
+          "font": "430 36px / 43.2px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "36px",
+          "padding": "0px",
+          "lineHeight": "43.2px"
+        }
+      ],
+      "images": []
+    },
+    {
+      "text": "CREATE\n\n다르게\n만들어요.",
+      "gridColumn": "5 / span 2",
+      "gridRow": "3 / span 2",
+      "width": 196.3375244140625,
+      "height": 198.36688232421875,
+      "x": 518.449951171875,
+      "y": 356.04754638671875,
+      "padding": "0px",
+      "copy": [
+        {
+          "class": "copy purple",
+          "font": "16px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "16px",
+          "padding": "22px",
+          "lineHeight": "normal"
+        },
+        {
+          "class": "label",
+          "font": "23px / 31.05px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "23px",
+          "padding": "0px",
+          "lineHeight": "31.05px"
+        },
+        {
+          "class": "text-value",
+          "font": "430 36px / 43.2px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "36px",
+          "padding": "0px",
+          "lineHeight": "43.2px"
+        }
+      ],
+      "images": []
+    },
+    {
+      "text": "",
+      "gridColumn": "7 / span 3",
+      "gridRow": "3 / span 2",
+      "width": 299.71868896484375,
+      "height": 198.36688232421875,
+      "x": 725.2124633789062,
+      "y": 356.04754638671875,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/stage/work-panel.svg",
+          "fit": "contain",
+          "focal": "50% 50%",
+          "x": 726.0812377929688,
+          "y": 356.9162902832031,
+          "width": 297.98126220703125,
+          "height": 196.62936401367188,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "",
+      "gridColumn": "1 / span 3",
+      "gridRow": "5 / span 2",
+      "width": 299.71875,
+      "height": 198.360107421875,
+      "x": 104.92499542236328,
+      "y": 564.83935546875,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/examples/report.svg",
+          "fit": "contain",
+          "focal": "50% 50%",
+          "x": 105.79374694824219,
+          "y": 565.7081298828125,
+          "width": 297.98126220703125,
+          "height": 196.62255859375,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "3단계\n\n다음 행동으로 연결",
+      "gridColumn": "4 / span 3",
+      "gridRow": "5 / span 2",
+      "width": 299.71875,
+      "height": 198.360107421875,
+      "x": 415.0687255859375,
+      "y": 564.83935546875,
+      "padding": "0px",
+      "copy": [
+        {
+          "class": "copy purple",
+          "font": "16px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "16px",
+          "padding": "22px",
+          "lineHeight": "normal"
+        },
+        {
+          "class": "metric-value",
+          "font": "",
+          "fontSize": "94px",
+          "padding": "0px",
+          "lineHeight": "108.1px"
+        },
+        {
+          "class": "label",
+          "font": "23px / 31.05px -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "23px",
+          "padding": "0px",
+          "lineHeight": "31.05px"
+        }
+      ],
+      "images": []
+    },
+    {
+      "text": "",
+      "gridColumn": "7 / span 3",
+      "gridRow": "5 / span 2",
+      "width": 299.71868896484375,
+      "height": 198.360107421875,
+      "x": 725.2124633789062,
+      "y": 564.83935546875,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/photos/landscape.jpg",
+          "fit": "cover",
+          "focal": "50% 50%",
+          "x": 726.0812377929688,
+          "y": 565.7081298828125,
+          "width": 297.98126220703125,
+          "height": 196.62255859375,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "text": "",
+      "gridColumn": "10 / span 3",
+      "gridRow": "5 / span 2",
+      "width": 299.71875,
+      "height": 198.360107421875,
+      "x": 1035.356201171875,
+      "y": 564.83935546875,
+      "padding": "0px",
+      "copy": [],
+      "images": [
+        {
+          "src": "../../../assets/examples/dashboard.svg",
+          "fit": "contain",
+          "focal": "50% 50%",
+          "x": 1036.2249755859375,
+          "y": 565.7081298828125,
+          "width": 297.981201171875,
+          "height": 196.62255859375,
+          "loaded": true
+        }
+      ]
+    }
+  ]
+}

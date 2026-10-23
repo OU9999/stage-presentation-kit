@@ -1,0 +1,326 @@
+{
+  "title": "OpenAI DevDay Exchange Tokyo 2026 参加レポート",
+  "url": "https://zenn.dev/elith/articles/devday-exchange-tokyo-2026",
+  "date": [
+    {
+      "text": "2026/10/21",
+      "date": "2026-10-21T01:12:57+00:00"
+    }
+  ],
+  "intro": "株式会社Elith\nPublicationへの投稿\n🗼\nOpenAI DevDay Exchange Tokyo 2026 参加レポート\n2026/10/21に公開\n12\n2\nイベントレポート\nOpenAI\nAgent\nChatGPT\nCodex\nTech\n\n2026年10月20日に東京で開かれた OpenAI DevDay Exchange Tokyo に参加しました。数週間前にサンフランシスコで開かれた DevDay 2026 を受けて東京で開かれたイベントで、15時から20時まで、メインステージとブレイクアウトステージ(5階)の2会場でセッションが進みました。\n\nこの記事は、当日の録音の文字起こしと、筆者が会場で撮った写真をもとに、聞いたセッションの内容をできるだけ漏らさずまとめたものです。英語のセッションは日本語に訳して書いています。人名・製品名・数値は、録音を聞き直し、公開情報とも照らし合わせて確かめました。\n\nタイムテーブルと、筆者が聞いたセッション\n\nメインステージで基調講演から Plugins のセッションまでを聞いたあと、16:45 からは5階のブレイクアウトに移って Agents API と Codex Security の2本を聞き、18:00 からメインステージに戻りました。そのため、同じ時間帯にメインステージで行われた「ChatGPT Sites ではじめる次世代 Web アプリ開発」と「GPT-Live と画像生成を用いた音声エージェント開発」は聞いていません。\n\n会場に掲示されたタイムテーブルを図にしたもの(時刻は掲示どおり)。実際の開始・終了時刻は各セッションの見出しに書きました。\n\n会場のタイムテーブル掲示。下の「Activations」には Demos、ImageGen Photobooth、Codex Pet Station、The Commons が並んでいます。\n\n当日語られた主な発表\n\n基調講演と各セッションで紹介された製品・機能を一覧にしました。多くは数週間前の DevDay 2026(サンフランシスコ)で発表済みのもので、東京では日本向けの数字や事例を交えて紹介されました。\n\n分野\t名前\t当日の説明\n働き方\tDots\tGPT-6 Astra で動く常時稼働の AI エージェント。自分のコンピューターとブラウザを持ち、頼まれなくても問題を見つけて知らせる。ChatGPT Pro、Business Premium、Enterprise で提供中。Dots との会話は利用枠を消費しない\n\tChatGPT Space\t自分、チームメイト、それぞれの Dots が一緒に働く場。ページとファイルを置き、ページに指示を与えると内容が常に更新される\n\tSpecialist Dots\t企業向けの「バーチャルなチームメイト」。会",
+  "images": [
+    {
+      "src": "https://static.zenn.studio/user-upload/avatar/4f37df2337.jpeg",
+      "alt": "株式会社Elith"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/avatar/4f37df2337.jpeg",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/avatar/c4dd185faf.jpeg",
+      "alt": ""
+    },
+    {
+      "src": "https://zenn.dev/images/topic.png",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/topics/8a2239106d.png",
+      "alt": ""
+    },
+    {
+      "src": "https://zenn.dev/images/topic.png",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/topics/6ed7f22f2d.png",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/topics/91d7cd367b.png",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/images/drawing/tech-icon.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/7e5b7bcbedc1e80eaeec4c5f.png?sha=9730440e722c88b9be910f341e49874bcdf6639b",
+      "alt": "会場掲示のタイムテーブル。メインステージは15時から19時台まで9枠、ブレイクアウトステージは16時45分と17時20分の2枠。筆者はメインステージの前半4本、ブレイクアウトの2本、メインステージの後半2本とレセプションに参加した",
+      "caption": "\n会場に掲示されたタイムテーブルを図にしたもの(時刻は掲示どおり)。実際の開始・終了時刻は各セッションの見出しに書きました。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/1ad1586af27197c3d0c7fa03.jpg?sha=c119ab612f0b80bdcbe6b820273d92985a41a2ce",
+      "alt": "OpenAI DevDay Exchange Tokyo のタイムテーブル掲示。Main Stage と Breakout Stage の2列と、Activations の一覧",
+      "caption": "\n会場のタイムテーブル掲示。下の「Activations」には Demos、ImageGen Photobooth、Codex Pet Station、The Commons が並んでいます。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/b660ecc49a2527e7c8e9c173.jpg?sha=fe96adfb356e8b983f625c09e1705b58216ab845",
+      "alt": "基調講演のステージ。背後のスライドに 12億 ChatGPT の週間アクティブユーザー数、40以上 モデルの発表、250万 OpenAI を活用する企業、GPT-6 Astra、GPT-6 Sol・Luna、ChatGPT Images 2.5、ChatGPT Voice などのタイル",
+      "caption": "\n15:09 基調講演の冒頭。スライドには「12億 ChatGPT の週間アクティブユーザー数」「40以上 モデルの発表」「250万 OpenAI を活用する企業」のほか、GPT-6 Astra、GPT-6 Sol・Luna、ChatGPT Images 2.5、ChatGPT Voice などのタイルが並んでいます。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/4c425730d1f1e573258b6447.jpg?sha=21df79975b7bd75f2ab3a0f44ddbc449aef9d8cb",
+      "alt": "スライド「ループエンジニアリングのその先へ [Bonnie Chatterjee]」とステージ上の登壇者",
+      "caption": "\n15:37 タイトルスライド。英語で話し、スライドは日本語でした。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/a6abff86437e2b0b0b4fc6bd.png?sha=d234831a673a21d27ea91f4e3d9da7916517495f",
+      "alt": "Codex のループの仕組み。モデル、ハーネス、会話の3つが1ターンのループを回し、ターンが終わるとハーネスが /goal がまだ有効かを確認して、有効なら目標と『続けて』を添えて次のターンを始める。コンテキストが上限に近づくとコンパクションで作業状態にまとめる",
+      "caption": "\nChatterjee さんの説明をもとに、1ターンのループ、/goal による継続、コンパクションの関係を図にしました。ゴールはターンをまたいで残り、コンパクションはコンテキストウィンドウをまたいで作業を続けさせます。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/1ebc1a143a9a2ea265526f6c.jpg?sha=840b675d6ed10ab662bb45a802da884b9a5b7f68",
+      "alt": "スライド「マネージャー」。あなた、マネージャー、そして機能を作成する、バグを調査する、プレイテストを実施するの3つのエージェントをつなぐ図",
+      "caption": "\n15:49 「マネージャー」の図。あなた ⇄ マネージャー ⇄ 3つのエージェント(機能を作成する/バグを調査する/プレイテストを実施する)。あなたが特定のタスクを直接制御する線もあります。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/b1076f9f64d69a7d915a655c.jpg?sha=9cee3fbc514878e7db0ac8ae35d76a7123078112",
+      "alt": "プロンプト入力欄のスライド。レビュー待ちの各PRについて独立したチャットを立ち上げる指示",
+      "caption": "\n15:49 Codex にスレッドを管理させる指示の例。全文は下に書き起こしました。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/956aee06743a983afa00cdd0.jpg?sha=57b436d29114cd9725286603f8782c6d9ba9cb82",
+      "alt": "AGENTS.md と書かれたスライド。作業ログを1つ作成する指示",
+      "caption": "\n15:52 作業ログを作らせる AGENTS.md の例。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/c6e1b82a301fedaa3245c46c.jpg?sha=74bb4390992eae6d92cca84f2029cb478928269b",
+      "alt": "「目標」から4つの Agent Team に枝分かれし、それぞれがさらに分岐する図",
+      "caption": "\n15:55 目標から4つの Agent Team に分かれる図。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/d98a40e7d0870cc56b57c376.jpg?sha=e081b61b702038a6ec8d7b3092e9344224253ca5",
+      "alt": "同じ図で各チームの枝がさらに右へ長く伸びた状態",
+      "caption": "\n15:55 掘り下げが進むと、各チームの枝が右へ長く伸びていきます。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/eec3163215a5a3b0e55dd0a1.jpg?sha=0f5aad8a3433005b4d1c5c9e0539f96c5db34cc8",
+      "alt": "スライド「Plugin による ChatGPT プラットフォームの可能性 [Corey Ching]」と登壇者",
+      "caption": "\n15:57 Corey Ching さん。プラグインの初期には、申請用の GitHub リポジトリを管理していたそうです。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/a6dd712c8e52e0bdb70a78a7.jpg?sha=7db45d07d61c23fff005ae294f37d0602a273c1e",
+      "alt": "スライド「ランキングの指標」。コンバージョン率、アクティブ利用、継続率の3つ",
+      "caption": "\n16:01 ディレクトリと会話内の提案のどちらでも使われるランキングの指標。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/f6c1d714cf30e8972dee2f61.jpg?sha=2163a54e6ce5fc62583cb6ef72b6d425f54e4261",
+      "alt": "スライド「2026年 新たな連携先」。サイドバー、サイドパネル、入力欄、ファイルビューアーと、ChatGPT 画面のワイヤーフレーム",
+      "caption": "\n16:07 2026年に開発者が手を入れられるようになった場所。サイドバー、サイドパネル、入力欄、ファイルビューアー。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/d8af7092a758cf38ba78409f.png?sha=4dcbba132f58fd6a121b4c62feb962825f5c7e13",
+      "alt": "ChatGPT の画面のどこにプラグインが入れるかを示す図。左のサイドバー、会話の横のサイドパネル、入力欄の @メンションのメニュー、ファイルを開くビューア。サイドパネルと会話のあいだでは選択中の要素と会話の内容が双方向に受け渡される",
+      "caption": "\nChing さんの説明とスライドをもとに、プラグインが入れる4つの場所を ChatGPT の画面に重ねました。サイドパネルでは、UI で選んだ要素がコンテキストとして会話に渡り、会話の内容も UI 側に渡ります。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/0b91090e3d5584593fe03ffb.jpg?sha=a32f11713ed9a213074cadb6c127123f87fbe888",
+      "alt": "スライド「プラグインの設定から MCP サーバーに接続」。Plugins で追加、ファイルを取得・配置、設定を読み込むの3ステップと、プラグインのフォルダ構成、mcp.json の抜粋",
+      "caption": "\n16:07 プラグインの設定から MCP サーバーに接続するまで。内容を下に書き起こしました。"
+    },
+    {
+      "src": "https://static.zenn.studio/images/copy-icon.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/images/wrap-icon.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/e11260a11ee1330d1a87bb5c.jpg?sha=d885aa4496a99dd37cd74f97869cd5d347635bc3",
+      "alt": "プロンプト入力欄のスライド。@plugin-creator に共有 TODO リストを作成し Sites にデプロイして Codex プラグインとしてパッケージ化するよう頼む例と、MCP ホスティングから MCP デプロイ完了への流れ",
+      "caption": "\n16:21 「@plugin-creator エージェントが MCP サーバー経由で閲覧・更新できる共有 TODO リストを作成し、Sites にデプロイして、Codex プラグインとしてパッケージ化してください。」→ MCP ホスティング → MCP デプロイ完了。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/3d72bae9ad0faa4d5c6a65be.png?sha=c3651d51fd9a035bed24e159198514717ae4057e",
+      "alt": "推論の階層。土台が Responses API、その上に Codex、頂点が Agents API。右側は Assistants API から Agents API までの年表",
+      "caption": "\n登壇者が示した「推論の階層」と、話の中で出てきた年表。Agents API は「皆さんの思い描くことを形にして、プロダクトの可能性を最大限に引き出すためのもの」と説明されました。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/6a0c8a469794f15f78ca3fbf.jpg?sha=5ed1db7c739b9d0da6fa1f2e54311d08375042bf",
+      "alt": "Agents API の内部構成のスライド。AGENTS API REQUEST から CODEX-WORKER に振り分けられ、RESPONSES API、GPU、SAFETY、LIFECYCLE EVENTS QUEUE、STATE MGMT SERVICE、DATABASE、ENV REG SERVICE、ENV PUB SUB SERVICE、ENV-0〜2 につながる",
+      "caption": "\n16:51 ブレイクアウト会場で映された Agents API の内部構成。下の図はこれを日本語にして描き直したもの。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/748b2d59e324fc72aadd0b19.png?sha=1a8d7ef8b5ae0e0749b21fc0fbec95d7894151a1",
+      "alt": "Agents API の内部構成。リクエストは Codex ワーカーに振り分けられ、ワーカーは Responses API で推論し、イベントをキューに発行して状態管理サービスがデータベースに保存する。実行環境は環境レジストリで探し、Pub/Sub でコマンドを配信する",
+      "caption": "\nスライドの構成図を日本語で描き直しました。Responses API からの矢印は「プロンプトキャッシュが効く GPU へ送る」もの。ENV-0〜2 は、お客様のサンドボックスか OpenAI がホストするサンドボックスのどちらか。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/216d93e1f8ad28cfcffc6988.png?sha=d739a1a342f030e5040128afd1314c4ce8617f21",
+      "alt": "振替予約デモの役割分担。運航画面から予約ごとにセッションを起動し、セッションの中では主エージェントと2つのサブエージェントがスキルに沿って調べる。空席の照会ツールは主エージェントだけが呼ぶ。振替案はファイルで返り、アプリが条件を検証して座席を仮押さえし、担当者が承認する",
+      "caption": "\nデモの構成。並列は2種類あり、予約ごとの独立したセッションと、1つのセッションの中のサブエージェントを使い分けています。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/7836e88cabedbc9835ccab09.jpg?sha=d52ce012cc794bf110fc8e309f8947e5b9ad88cf",
+      "alt": "スライド「Codex Security: 脆弱性の発見から修正・検証まで [Hiroaki Towata]」と演台の登壇者",
+      "caption": "\n17:22 登壇者の Towata さん。最初に小さなドキュメントサービスを例に CLI で各工程を見せ、最後にクラウドの画面を紹介する、という構成でした。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/93c2de140570686cde7d2a27.jpg?sha=6c9114d4957417507e1ade457b64f28f98b6b917",
+      "alt": "グラフ。縦軸サイバー能力、横軸時間。白い線のフロンティア、緑の線の防御側の能力、青い点線のオープンウェイト。緑の線の途中に継続的な防御を実践という注記",
+      "caption": "\n17:23 白い線がフロンティアモデル、青い点線がオープンウェイトモデル、緑の線が防御側が実際に使えている能力。緑の線が上がり始める点に「継続的な防御を実践」とあります。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/29dd7df7b1d8dced866934ca.png?sha=501b6f3cea097e56b6fead74958ec6742d1e963b",
+      "alt": "Codex Security の5つの工程。コンテキストを渡す、スキャン、結果を整理、パッチと検証、開発工程へ。下段はデモでの具体例",
+      "caption": "\nTowata さんが示した5つの工程と、デモでそれぞれの工程に当たるもの。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/b58626b2b80283c5b5422189.jpg?sha=29337605ca506894c9a02888bae21db2571cac5d",
+      "alt": "スライド「01 エージェントにコンテキストを付与」。スキャンへの入力(スキャンプロンプト、検証)とナレッジベース(SECURITY.md、WAF の設定、システム構成)",
+      "caption": "\n17:25 スキャンへの入力(スキャンプロンプト、検証)と、ナレッジベース(SECURITY.md、WAF の設定、システム構成)。"
+    },
+    {
+      "src": "https://static.zenn.studio/images/copy-icon.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/images/wrap-icon.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/images/copy-icon.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/images/wrap-icon.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/bd0e564a2860f863acf3eab6.jpg?sha=19caa0c33538657cfd72d3ed2fe3792e64553b5f",
+      "alt": "ターミナル画面。cat prompt.md の出力",
+      "caption": "\n17:27 スキャン指示(prompt.md)。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/70caa54eaca6d0c15b932a6f.jpg?sha=b1d0f47f3e6fa322ea657ff4c2b8428720703798",
+      "alt": "ターミナル画面。cat knowledge-base.md の出力",
+      "caption": "\n17:27 ナレッジベース(knowledge-base.md)。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/d286778815d5c3e3610682a1.jpg?sha=56a850a370207bedbae206f4f255f6150db05cd2",
+      "alt": "ターミナル画面。CODEX SECURITY · document-demo · gpt-5.6-sol (high)。complete_codex_security_scan、レポートとスキャン ID の検証、トークン数と実行時間の表示",
+      "caption": "\n17:29 スキャンの終盤。ヘッダーは「CODEX SECURITY · document-demo · gpt-5.6-sol (high)」。report.md、exports/results.sarif、scan-manifest.json、findings.json、coverage.json の存在とスキャン ID を確かめています。最下行は TOKENS 106,797 uncached input, 1,476,224 cache reads, 0 cache writes, 24,194 output, 1,607,215 total / TIME 03:49。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/702cbc69712581f688810b19.jpg?sha=dd00e3875ebb78a9854243efac7bd42d458eb082",
+      "alt": "スライド「03 検出結果を整理する」。重複排除、優先順位付け、担当者の割り当てと、codex-security dedupe コマンドの出力",
+      "caption": "\n17:30 codex-security dedupe --scan 0a7b36cc --findings-url http://127.0.0.1:43149 --concurrency 1 の出力。uniqueFindingIds が1件、duplicateGroups に2件の検出結果がまとめられ、deduplicationStatus: completed。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/9270ef69e3a1ef4ff74cba98.jpg?sha=9891f6116c3dd364a6cb3e734daf0d59071deba3",
+      "alt": "スライド「04 パッチを生成し修正を検証する」。スクリプトを実行、開発環境を起動、K8s でテストと、スキャン結果、標準の検証、カスタムトリガー、パッチ生成の流れ",
+      "caption": "\n17:34 スキャン結果 → 標準の検証 → カスタムトリガー → パッチ生成。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/c74029f2c30f45a1336b57f3.jpg?sha=929a4fb040187c6579dfb10347eb6c8b69d27f46",
+      "alt": "ターミナル画面。codex-security patch コマンド",
+      "caption": "\n17:36 パッチ生成のコマンド。全文は下に書き起こしました。"
+    },
+    {
+      "src": "https://static.zenn.studio/images/copy-icon.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/images/wrap-icon.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/3fd0e4f8b3e60e80ca092682.jpg?sha=c570f925620d28fe44826c1781d9d5a3a19019a2",
+      "alt": "スライド「05 開発工程にスキャンを組み込む」。検証済みの検出結果、Codex がパッチを生成、Codex が攻撃の阻止を検証、PR のドラフト、先に進めるかは人が判断の流れ",
+      "caption": "\n17:37 検証済みの検出結果 → Codex がパッチを生成 → Codex が攻撃の阻止を検証(元の攻撃経路を再現)→ PR のドラフト → 先に進めるかは人が判断(CI・レビュー・マージ)。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/20c76b653eff083c1118f38f.jpg?sha=ed88b8c59db4f07fe98727dfb036104b8ff96733",
+      "alt": "グラフ「パッチ生成の評価」。横軸は1件あたりのコスト、縦軸はスコア。GPT-6 Astra と GPT-5.6 Sol の推論設定 low、medium、high、xhigh ごとの点",
+      "caption": "\n17:38 横軸は1件あたりのコスト(1〜5ドル)、縦軸はスコア(50〜70%)。紫が GPT-6 Astra、オレンジが GPT-5.6 Sol で、点は推論設定(low / medium / high / xhigh)。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/4e73e9a54b791122d095066b.png?sha=eae3139d448858264ba9ce56c7f6f541c76e16aa",
+      "alt": "セキュリティ対応の作業量の推移の概念図。スキャンの範囲を広げると見えていなかった問題が見えて作業量が増え、山を越えると検証・重複排除・優先順位付けで集中して減らし、その後は日々の変更を確認して低い水準を保つ",
+      "caption": "\n会場で映された概念図(下の写真)を、説明に沿って描き直しました。左の上り坂は「スキャンしたことで急にシステムが危険になったという意味ではない」と補足されていました。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/64caec97849d414e2d974f09.jpg?sha=87a773f1f0886d2d22c47097a765dab300c5663c",
+      "alt": "ブレイクアウト会場の全景。演台の登壇者と、スクリーンに映ったオレンジの曲線",
+      "caption": "\n17:40 ブレイクアウト会場。スクリーンに映っているのが作業量の推移の概念図。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/dfc42c9c886010e003a1bbb3.jpg?sha=a6c834db906ceb7732602f7879f5d729327aa8e1",
+      "alt": "Codex Security Cloud のダッシュボード上部。Overview タブに選択リポジトリ数、重大度別のオープンな検出結果、修正済みの件数、継続スキャンの数、30日間のパイプライン",
+      "caption": "\n17:43 Codex Security Cloud のダッシュボード上部(ChatGPT の中で表示)。Overview / Findings / Repositories / Scans のタブ、オープンな検出結果の重大度別件数、修正済みの件数、直近30日のパイプライン(New / Triaged / In Progress / Fixed)が並びます。下にあった個別の検出結果の一覧は写していません。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/9fa8479f652a602d6e71bc07.jpg?sha=f7f1757faf48c4f434be1a4e7c7dc460a4b6901e",
+      "alt": "メインステージ。スクリーンに Kazuhiro Sera, OpenAI Developer Experience と表示され、登壇者が立っている",
+      "caption": "\n18:00 司会の瀬良和弘さん(OpenAI Developer Experience)。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/17ef5912026d46f8f311d680.jpg?sha=e8ce72af249c4a24155875502acffc90d877e09f",
+      "alt": "メインステージ。スクリーンに sakana.ai [David Ha] と表示され、壇上で2人が握手している",
+      "caption": "\n18:01 Sakana AI の David Ha さんが登壇。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/a163ea15e637a661a0a392a8.png?sha=c9de5b2de6eabf58d7a886f1fb871fc0802d1905",
+      "alt": "Sakana Fugu の仕組み。タスクを受けた Fugu が、推論のステップごとに OpenAI、Anthropic、Google のモデルや Fugu 自身を呼び分ける。Fugu Max はコストと性能のバランス、Fugu Ultra はフロンティアモデルどうしを組み合わせて性能を最優先する",
+      "caption": "\nHa さんの説明をもとにした Fugu の仕組み。「1人のスーパーヒーローより、アベンジャーズのチーム」とたとえていました。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/af6e7eab5b245fecfb4b691b.jpg?sha=fc32d65282223c39752a02370e7ce73d4b3d00fc",
+      "alt": "スライド「Conceptual overview of The AI Scientist-v3 (Agentic Scientist) workflow」。Task Setup、Parallel Investigation、Evidence Generation、Paper Writing の4列",
+      "caption": "\n18:13 The AI Scientist-v3(Agentic Scientist)のワークフロー。Task Setup(タスクの記述 → Task Agent → 評価関数 → 初期プログラム)、Parallel Investigation(Ideation Agent と Execution Agent のワーカー群、共有メモリ)、Evidence Generation(ベースラインとアブレーション、複数シードでの比較、勝者の分析)、Paper Writing(計画 → 執筆 → レビュー → 論文)。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/e91b9b8bc94c9707af15170b.jpg?sha=2b0ef44c36aca549b60b6be690817d52b8f11c80",
+      "alt": "スライド「Codex による脆弱性修正の自動化 [小坂佳範・GenerativeX]」と演台の登壇者",
+      "caption": "\n18:16 GenerativeX の小坂佳範さん。プレゼンは日本語でした。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/e7892f9cc509203447cc30c8.png?sha=decc5c602f222a21f0aa29490bb39180454af285",
+      "alt": "GenerativeX の脆弱性対応の流れ。2時47分に修正版が公開され、ボットが1分ごとの照合で検知し、人の判断で WAF により一括遮断し、Codex がパッケージ更新と PR、CI、E2E テストを行い、再リリースして WAF を元に戻す。次の目標は遮断も自動化すること",
+      "caption": "\n小坂さんの説明をもとにした、当日の夜の流れ。今回は遮断のルールだけ人が判断し、遮断の操作自体もコーディングエージェントで行いました。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/cdfb876769422b25fd0f7b51.jpg?sha=4e39cc9d2905c5da1b8b3f6d73a42dad471afff1",
+      "alt": "スライド「Codex は GX のクラウドの Sandbox 基盤で動いている」。上流の advisory(GitHub・OSV)、照合・判定・通知、Sandbox 基盤の中の Codex・社内の CLI・Skill、Cloudflare WAF、GitHub、承認つきリリース",
+      "caption": "\n18:25 「Codex は GX のクラウドの Sandbox 基盤で動いている」。上流の advisory(GitHub・OSV)→ 照合・判定・通知(1分ごとに全 repo の依存と照らし合わせる)→ Cloudflare WAF(公開名を遮断)/ Sandbox 基盤(修正ごとに起動して捨てる)の中で Codex・社内の CLI(結果を JSON で返す)・Skill(修正の手順書)→ GitHub(修正の PR・CI)→ 承認つきリリース(本番の環境へ)。「人がやるのは承認だけ」。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/0e8d536f8f27734bd664f38b.jpg?sha=f6b85bd5cef493d0fb7be810cb260dd6b4022e5c",
+      "alt": "スライド「明日から始められること」。01 CI/CD を CLI から起動できるようにする、02 脆弱性の修正の手順を Skill に書く、03 検知から遮断・修正までを全自動にする",
+      "caption": "\n18:29 明日から始められること。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/8b4fcd6f3ece06942d72c7bf.jpg?sha=4b58bef56ba1c97849a56b11552c24654102ca2b",
+      "alt": "スライド「リーダーシップ Q&A」。Sean Saito モデレーター、Bonnie Chatterjee OpenAI、Corey Ching OpenAI。3人が椅子に座って話している",
+      "caption": "\n18:32 左から Sean Saito さん、Bonnie Chatterjee さん、Corey Ching さん。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/deployed-images/8e7d48bccd7261f8a75a1cd6.jpg?sha=72ba7593b5cbde5a59c951573721ef626a33fbfc",
+      "alt": "メインステージの全景。スクリーンに 100 free の文字があり、登壇者がマイクで話している。客席は満席に近い",
+      "caption": "\n19:02 閉会のアナウンス。スクリーンには「100 free」の文字。"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/avatar/c4dd185faf.jpeg",
+      "alt": "Shimogauchi.R"
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/avatar/4f37df2337.jpeg",
+      "alt": "株式会社Elith"
+    },
+    {
+      "src": "https://static.zenn.studio/images/drawing/discussion.png",
+      "alt": ""
+    },
+    {
+      "src": "https://static.zenn.studio/user-upload/avatar/c4dd185faf.jpeg",
+      "alt": "Shimogauchi.R"
+    },
+    {
+      "src": "https://storage.googleapis.com/zenn-dev-production-static-asset/permanent/hackathon/google-cloud-japan-ai-hackathon-vol5/bannerIcon.png",
+      "alt": "第5回 Agentic AI Hackathon 10/15 提出締切！"
+    }
+  ]
+}

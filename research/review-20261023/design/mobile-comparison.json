@@ -1,0 +1,118 @@
+{
+  "deviceEmulation": false,
+  "cssViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "measures": [
+    {
+      "variant": "a",
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "viewport": {
+        "width": 366,
+        "height": 205.875,
+        "ratio": 1.7777777777777777
+      },
+      "tileCount": 12,
+      "images": [
+        {
+          "src": "../../../assets/stage/shape-study.svg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/stage/signal-study.svg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/photos/write.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/stage/work-panel.svg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/examples/report.svg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/photos/landscape.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/examples/dashboard.svg",
+          "loaded": true
+        }
+      ],
+      "expandLink": "?view=full#a"
+    },
+    {
+      "variant": "b",
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "viewport": {
+        "width": 366,
+        "height": 205.875,
+        "ratio": 1.7777777777777777
+      },
+      "tileCount": 12,
+      "images": [
+        {
+          "src": "../../../assets/stage/shape-study.svg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/stage/signal-study.svg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/photos/write.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/stage/work-panel.svg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/examples/report.svg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/photos/landscape.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../../assets/examples/dashboard.svg",
+          "loaded": true
+        }
+      ],
+      "expandLink": "?view=full#b"
+    },
+    {
+      "variant": "c",
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "viewport": {
+        "width": 366,
+        "height": 205.875,
+        "ratio": 1.7777777777777777
+      },
+      "tileCount": 12,
+      "images": [
+        {
+          "src": "../../../assets/photos/write.jpg",
+          "loaded": true
+        }
+      ],
+      "expandLink": "?view=full#c"
+    }
+  ],
+  "failures": []
+}

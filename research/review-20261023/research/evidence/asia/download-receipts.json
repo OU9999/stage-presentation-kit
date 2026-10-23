@@ -1,0 +1,16 @@
+[
+  {
+    "file": "seoul-news1-high.jpg",
+    "url": "https://i3n.news1.kr/system/photos/2026/10/22/8174714/high.jpg",
+    "status": 200,
+    "bytes": 256126,
+    "sha256": "abcd5905f9caeec47ead46f7dbad3c4cfc178aed0952f67abe86fc56d5a05af7"
+  },
+  {
+    "file": "seoul-digitaltoday-original.jpeg",
+    "url": "https://cdn.digitaltoday.co.kr/news/photo/202610/709421_657018_257.jpeg",
+    "status": 200,
+    "bytes": 200261,
+    "sha256": "e5fde2cc21a2d7e031874cf2b4d2117162ab8340c6518f462aa1f92a977ae325"
+  }
+]

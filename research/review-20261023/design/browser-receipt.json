@@ -1,0 +1,81 @@
+{
+  "desktop": {
+    "header": "배치·내용·경계 비교독립 디자인 시안 · 제품 반영 전",
+    "hash": "#c",
+    "innerWidth": 1440,
+    "innerHeight": 1100,
+    "clientWidth": 1440,
+    "scrollWidth": 1440,
+    "viewport": {
+      "width": 1392,
+      "height": 783,
+      "ratio": 1.7777777777777777
+    },
+    "heroArtHeight": 124.04800415039062,
+    "pressed": [
+      {
+        "view": "a",
+        "pressed": "false"
+      },
+      {
+        "view": "b",
+        "pressed": "false"
+      },
+      {
+        "view": "c",
+        "pressed": "true"
+      }
+    ]
+  },
+  "expansion": {
+    "url": "http://localhost:4317/research/review-20261023/design/proposal.html?view=full#c",
+    "fullView": true,
+    "mode": "c",
+    "imagesLoaded": true
+  },
+  "popupLabel": "p5",
+  "popupClosed": true,
+  "network": [
+    {
+      "url": "http://localhost:4317/research/review-20261023/design/proposal.html",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "url": "http://localhost:4317/assets/stage/shape-study.svg",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "http://localhost:4317/assets/stage/signal-study.svg",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/write.jpg",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "http://localhost:4317/assets/examples/report.svg",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/landscape.jpg",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "http://localhost:4317/assets/stage/work-panel.svg",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "http://localhost:4317/assets/examples/dashboard.svg",
+      "status": 200,
+      "type": "Image"
+    }
+  ],
+  "failures": []
+}

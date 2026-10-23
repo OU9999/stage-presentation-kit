@@ -1,0 +1,101 @@
+{
+  "local_links": 221,
+  "missing": [],
+  "resources": [
+    {
+      "url": "http://localhost:4317/assets/examples/dashboard.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "http://localhost:4317/assets/examples/report.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/landscape.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/write.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/assets/stage/shape-study.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "http://localhost:4317/assets/stage/signal-study.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "http://localhost:4317/assets/stage/work-panel.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/color-devday/keynote-48m30-playing.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/completed-cities/tokyo-colored-chart.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/completed-cities/tokyo-manager-icons.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/completed-cities/tokyo-mcp-flow.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/completed-cities/tokyo-ranking-icons.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/seoul-devday/seoul-kim-openai.jpeg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/seoul-devday/seoul-kim-yonhap.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "http://localhost:4317/research/review-20261023/current-slide-4.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/review-20261023/design/proposal.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/research/review-20261023/research/evidence/asia/seoul-news1-high.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/research/review-20261023/research/evidence/general/codex-live-20m00.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/review-20261023/research/evidence/west/sf-keynote-25m00-live.png",
+      "status": 200,
+      "type": "image/png"
+    }
+  ]
+}

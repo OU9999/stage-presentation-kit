@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23111%27/%3E%3Cpath d=%27M8 10h16M16 10v15%27 stroke=%27%23eee%27 stroke-width=%273%27/%3E%3C/svg%3E">
+  <title>DevDay 구성 재검토 — STAGE</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b0b0c; --text:#f2f2ef; --muted:#a2a2a0; --line:#ffffff24; --blue:#8cbfff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:36px; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; line-height:1.7; }
+    a { color:inherit; text-underline-offset:4px; }
+    button { font:inherit; color:inherit; cursor:pointer; }
+    button:focus-visible,a:focus-visible { outline:2px solid var(--blue); outline-offset:5px; }
+    .wrap { width:min(1440px,calc(100% - 100px)); margin:auto; }
+    header { display:flex; justify-content:space-between; align-items:center; gap:24px; padding:25px 0; border-bottom:1px solid var(--line); }
+    .brand { text-decoration:none; font-weight:650; font-size:20px; letter-spacing:-1px; }
+    .brand span { font-weight:400; font-size:12px; letter-spacing:0; color:var(--muted); margin-left:18px; }
+    nav { display:flex; flex-wrap:wrap; gap:24px; font-size:13px; color:var(--muted); }
+    nav a { text-decoration:none; }
+    nav a:hover { color:white; }
+    .hero { padding:56px 0 44px; }
+    .eyebrow { color:var(--muted); font-size:11px; letter-spacing:2px; font-weight:600; }
+    h1 { margin:22px 0; font-size:clamp(42px,5vw,68px); font-weight:500; line-height:1.13; letter-spacing:-.06em; }
+    .lede { max-width:820px; font-size:clamp(17px,1.5vw,22px); color:#c0c0bd; letter-spacing:-.025em; }
+    .meta { margin-top:34px; display:flex; gap:24px; flex-wrap:wrap; font-size:12px; color:var(--muted); }
+    section { padding:64px 0; border-top:1px solid var(--line); }
+    .section-head { display:flex; align-items:baseline; justify-content:space-between; gap:26px; margin-bottom:32px; }
+    h2 { font-size:clamp(26px,3vw,40px); font-weight:500; line-height:1.25; letter-spacing:-.045em; margin:0; }
+    h2 small { display:block; margin-bottom:16px; color:var(--muted); font-size:11px; letter-spacing:2px; font-weight:500; }
+    .section-head p { max-width:550px; color:var(--muted); font-size:14px; margin:0; }
+    .comparison { display:grid; grid-template-columns:1fr 1fr; gap:28px; }
+    figure { margin:0; min-width:0; }
+    .image-button { padding:0; display:block; width:100%; border:1px solid var(--line); background:#101011; overflow:hidden; text-align:left; }
+    .image-button img { display:block; width:100%; height:100%; object-fit:contain; }
+    .frame { aspect-ratio:16/10; }
+    .image-button:hover { border-color:#ffffff66; }
+    figcaption { padding:14px 0; font-size:12px; color:var(--muted); }
+    figcaption strong { display:block; color:var(--text); font-size:15px; margin-bottom:5px; font-weight:500; }
+    .findings { display:grid; grid-template-columns:repeat(3,1fr); gap:34px; margin-top:38px; }
+    .finding { border-top:1px solid var(--line); padding-top:20px; }
+    .finding .number { font-size:12px; color:var(--muted); }
+    h3 { margin:14px 0 10px; font-size:21px; font-weight:500; letter-spacing:-.03em; line-height:1.4; }
+    .finding p,.note { font-size:14px; color:var(--muted); }
+    .detail { display:grid; grid-template-columns:1.25fr 1fr; gap:38px; align-items:center; margin-top:44px; }
+    .detail .image-button { aspect-ratio:4/3; }
+    .detail p { color:var(--muted); font-size:15px; }
+    .quote { margin:22px 0; padding-left:18px; border-left:2px solid #b7b7b0; font-size:19px; line-height:1.6; letter-spacing:-.025em; }
+    .proposal { width:100%; height:920px; border:1px solid var(--line); background:#080808; display:block; }
+    .proposal-link { display:flex; justify-content:space-between; gap:16px; font-size:13px; margin:18px 0; color:var(--muted); }
+    .filters { display:flex; flex-wrap:wrap; gap:8px; margin:30px 0; }
+    .filters button { border:1px solid var(--line); background:transparent; border-radius:30px; padding:7px 17px; font-size:13px; }
+    .filters button[aria-pressed="true"] { background:#eeeeea; color:#131313; border-color:#eeeeea; }
+    .patterns { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:40px 26px; }
+    article[hidden] { display:none; }
+    .pattern .image-button { aspect-ratio:16/10; }
+    .pattern h3 { font-size:19px; }
+    .pattern p { font-size:13px; color:var(--muted); }
+    .pattern p b { font-weight:500; color:var(--text); }
+    .pattern .source { font-size:11px; }
+    .table-scroll { overflow-x:auto; }
+    table { width:100%; border-collapse:collapse; min-width:640px; text-align:left; font-size:13px; }
+    th { color:var(--muted); font-weight:400; font-size:11px; letter-spacing:1px; }
+    th,td { padding:18px 18px 18px 0; border-bottom:1px solid var(--line); vertical-align:top; }
+    .priority { display:grid; grid-template-columns:80px 1fr 1fr; gap:25px; padding:25px 0; border-bottom:1px solid var(--line); }
+    .priority strong { font-size:15px; font-weight:500; }
+    .priority p { font-size:14px; margin:0; color:var(--muted); }
+    details { border-bottom:1px solid var(--line); padding:22px 0; }
+    summary { cursor:pointer; font-size:15px; }
+    details p,details li { color:var(--muted); font-size:13px; }
+    footer { padding:34px 0 60px; color:var(--muted); font-size:12px; }
+    dialog { width:min(1500px,95vw); max-width:none; padding:20px; border:1px solid #555; background:#111; color:white; }
+    dialog::backdrop { background:#000d; }
+    .dialog-top { display:flex; align-items:center; justify-content:space-between; gap:20px; font-size:13px; margin-bottom:16px; }
+    .dialog-top button { border:1px solid #777; background:none; padding:5px 16px; }
+    dialog img { width:100%; max-height:80vh; object-fit:contain; display:block; }
+    @media(max-width:900px) { .wrap { width:calc(100% - 44px); } .patterns { grid-template-columns:repeat(2,minmax(0,1fr)); } .findings { grid-template-columns:1fr; gap:10px; } .detail { gap:25px; } .proposal { height:960px; } }
+    @media(max-width:600px) { header { align-items:flex-start; } .brand span { display:none; } nav { gap:10px 16px; max-width:210px; } .hero { padding:62px 0 44px; } .section-head,.proposal-link { display:block; } .section-head p { margin-top:20px; } .comparison,.patterns,.detail { grid-template-columns:1fr; } section { padding:44px 0; } .priority { grid-template-columns:40px 1fr; gap:16px; } .priority p { grid-column:2; } .proposal { height:1040px; } .proposal-link span { display:block; margin-top:12px; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header><a class="brand" href="../../examples/">STAGE <span>RESEARCH & DESIGN</span></a><nav aria-label="검토 내용"><a href="#comparison">현재와 원본</a><a href="#proposal">디자인 제안</a><a href="#patterns">다른 요소</a><a href="#evidence">근거와 범위</a></nav></header>
+    <main>
+      <div class="hero">
+        <p class="eyebrow">DEVDAY COMPOSITIONS / REVIEW 2026.10.23</p>
+        <h1>같은 틀에서도,<br>다르게 보이는 이유.</h1>
+        <p class="lede">엇갈리는 분할과 큰 주역 타일은 이미 있습니다. 결과물의 위계, 매체마다 다른 프레임, 한 장으로 이어지는 내용이 현재 화면의 완성도를 좌우합니다.</p>
+        <div class="meta"><span>대상: 현장 구성 예제 4번 + 다른 발표 요소</span><span>현재 구현 · 원본 관찰 · 디자인 제안 구분</span><span>제품 수정 전 검토</span></div>
+      </div>
+      <section id="comparison">
+        <div class="section-head"><h2><small>01 / CURRENT & REFERENCE</small>배치의 뼈대와,<br>안에 담긴 것.</h2><p>원본에도 정렬과 얇은 경계가 있습니다. 행마다 달라지는 분할과 매체의 자체 형태가 결합돼, 같은 크기 카드의 반복과 다른 인상을 만듭니다. 이미지를 누르면 원본 크기로 비교할 수 있습니다.</p></div>
+        <div class="comparison">
+          <figure><button class="image-button frame" data-zoom="current-slide-4.png" data-caption="현재 예제 4번 · 1920×939 브라우저 화면"><img src="current-slide-4.png" alt="현재 현장 구성 예제 4번: 수치, 일반 문장 카드, 사진과 UI가 같은 타일 테두리 안에 배치됨"></button><figcaption><strong>현재 예제 · 실제 렌더</strong>12개 타일, 공통 중립 테두리, 서로 다른 소재의 사진·SVG. <a href="../../examples/devday-compositions/index.html#4">기존 발표 열기 ↗</a></figcaption></figure>
+          <figure><button class="image-button frame" data-zoom="../evidence/seoul-devday/seoul-kim-openai.jpeg" data-caption="서울 2026.10.22 · OpenAI 제공 / 디지털투데이 게재 · 연구 비교용"><img src="../evidence/seoul-devday/seoul-kim-openai.jpeg" alt="서울 DevDay 현장: 제품 비주얼, UI, 수치가 크기와 형태를 달리하며 하나의 화면을 이룸"></button><figcaption><strong>서울 · 실제 발표 장면</strong>2026.10.22 행사 · 사진 OpenAI 제공 / 디지털투데이. <a href="https://www.digitaltoday.co.kr/news/articleView.html?idxno=709421" target="_blank" rel="noopener">원문·사진 credit ↗</a></figcaption></figure>
+        </div>
+        <div class="findings">
+          <div class="finding"><span class="number">01</span><h3>내용에도 크기 차이가 필요합니다.</h3><p>주역 제품, 기능 묶음, 수치와 결과물이 서로 다른 역할을 가집니다. 현재 BUILD·CREATE 카드와 작은 대시보드는 역할에 비해 구호와 세부 정보가 경쟁합니다.</p></div>
+          <div class="finding"><span class="number">02</span><h3>모든 영역을 한 번 더 감쌌습니다.</h3><p>현재 12개 영역은 같은 경계·바탕·반경을 사용합니다. 원본의 UI+아이콘 묶음은 매체 자체의 윤곽과 빈 공간으로도 형태가 만들어집니다.</p></div>
+          <div class="finding"><span class="number">03</span><h3>각각의 자료가 한 장으로 이어져야 합니다.</h3><p>필기 인물, 호수, 링 포스터, 세 종류 UI를 모으는 것만으로 중심 메시지가 생기지는 않습니다. 같은 이야기의 결과물을 먼저 고르고 크롭과 읽히는 크기를 정합니다.</p></div>
+        </div>
+        <div class="detail">
+          <figure><button class="image-button" data-zoom="research/evidence/asia/seoul-news1-high.jpg" data-caption="서울 근접 사진 · 뉴스1 김정현 기자 · 원본의 UI+아이콘 묶음 확인"><img src="research/evidence/asia/seoul-news1-high.jpg" alt="뉴스1 근접 사진: 가로 UI와 네 개의 작은 아이콘이 개별 형태를 유지하며 하나의 영역을 이룸" loading="lazy"></button><figcaption>2026.10.22 서울 · 뉴스1 김정현 기자. <a href="https://www.news1.kr/it-science/internet-platform/6329233" target="_blank" rel="noopener">원문 ↗</a></figcaption></figure>
+          <div><p class="eyebrow">CLOSER LOOK / 이번 재조사의 추가 근거</p><h3>공통 테두리와<br>매체의 자체 윤곽을 나눠 봅니다.</h3><p>가로 UI와 아래 네 아이콘은 각각 자체의 면색과 모양을 가집니다. 주변 수치·제품 타일과 같은 큰 사각형으로 일률적으로 묶인 인상이 약합니다.</p><p class="quote">경계선의 색만 바꾸기보다,<br>어디에 경계가 필요한지 먼저 정합니다.</p><p>현재 CSS의 선은 모두 <code>rgba(246,246,244,.22)</code>인 중립색입니다. 촬영 사진의 녹색·청색 반사를 공식 색상값으로 옮기지는 않습니다. 제안의 색·간격 수치는 시안 조정값입니다.</p></div>
+        </div>
+      </section>
+      <section id="proposal">
+        <div class="section-head"><h2><small>02 / DESIGN PROPOSAL</small>시안에서 비교합니다.</h2><p>같은 결과물 안에서 위계와 프레임 처리를 바꿔 살펴봅니다. 아래는 제품 반영 전 독립적인 검토용 시안입니다.</p></div>
+        <iframe class="proposal" id="proposalFrame" src="design/proposal.html" title="동일 자산의 A/B 비교와 권장 편집안 C" loading="lazy"></iframe>
+        <p class="proposal-link"><a href="design/proposal.html" target="_blank" rel="noopener">시안만 넓게 열기 ↗</a><span>A/B: 자산·배치 고정, 경계 처리 비교 · C: 내용까지 편집한 별도 제안</span></p>
+      </section>
+      <section id="patterns">
+        <div class="section-head"><h2><small>03 / BEYOND THE COLLAGE</small>사진 배치 밖의 문법.</h2><p>각 장의 목적에 맞게 정보의 크기와 밀도를 선택합니다. 정지 사진에서 보이는 사실과 적용 제안을 구분했습니다.</p></div>
+        <div class="filters" role="group" aria-label="검토 요소 필터"><button data-filter="all" aria-pressed="true">전체</button><button data-filter="media" aria-pressed="false">사진 · UI</button><button data-filter="information" aria-pressed="false">타이포 · 수치</button><button data-filter="relation" aria-pressed="false">아이콘 · 관계</button></div>
+        <p class="sr-status note" role="status" id="filterStatus">8개 요소 표시</p>
+        <div class="patterns">
+          <article class="pattern" data-group="media"><button class="image-button" data-zoom="../evidence/color-devday/keynote-48m30-playing.png" data-caption="SF Keynote 48:30 · OpenAI 공식 영상 · 인물 6열"><img src="../evidence/color-devday/keynote-48m30-playing.png" alt="SF 키노트의 같은 높이 인물 사진 여섯 장" loading="lazy"></button><h3>사진군의 편집</h3><p><b>관찰</b> 동일한 외곽과 짧은 상단 설명, 일관된 촬영 시리즈가 사진을 연결합니다.</p><p><b>제안</b> 행위·시선·인물 크기를 함께 고르고 캡션이 실제 크롭과 맞게 합니다.</p><a class="source" href="https://www.youtube.com/watch?v=Fls_onRviPM&t=2910s" target="_blank" rel="noopener">SF Keynote · 48:30 ↗</a></article>
+          <article class="pattern" data-group="media"><button class="image-button" data-zoom="research/evidence/west/sf-keynote-25m00-live.png" data-caption="SF Keynote 25:00 · 이번 조사에서 부분 재생 후 캡처 · 주장과 결과물"><img src="research/evidence/west/sf-keynote-25m00-live.png" alt="짧은 주장 옆에 문서와 UI 등 네 가지 결과물이 놓인 화면" loading="lazy"></button><h3>주장과 결과물</h3><p><b>관찰</b> 왼쪽 짧은 주장과 오른쪽 결과물의 역할이 구분됩니다.</p><p><b>제안</b> 작은 UI 전체 대신 설명할 부분을 보여 주고, 캡처의 내부 액자와 바깥 액자가 겹치지 않게 합니다.</p><a class="source" href="https://www.youtube.com/watch?v=Fls_onRviPM&t=1500s" target="_blank" rel="noopener">SF Keynote · 25:00 ↗</a></article>
+          <article class="pattern" data-group="information"><button class="image-button" data-zoom="../evidence/seoul-devday/seoul-kim-yonhap.webp" data-caption="서울 2026.10.22 · 연합뉴스 / 서울신문 게재 · 두 수치"><img src="../evidence/seoul-devday/seoul-kim-yonhap.webp" alt="동일 위계의 큰 파랑과 주황 수치를 배치한 서울 발표 장면" loading="lazy"></button><h3>수치와 의미색</h3><p><b>관찰</b> 같은 위계의 수치와 짧은 설명, 대상을 구분하는 색을 사용합니다.</p><p><b>제안</b> 단위·범위·설명을 숫자 가까이에 두고 비교 기준과 기준선을 맞춥니다.</p><a class="source" href="https://m.go.seoul.co.kr/news/economy/industry/2026/10/22/20261022500319" target="_blank" rel="noopener">서울신문 · 사진 연합뉴스 ↗</a></article>
+          <article class="pattern" data-group="information"><button class="image-button" data-zoom="research/evidence/general/codex-live-20m00.png" data-caption="Codex 세션 20:00 · 이번 조사에서 부분 재생 후 캡처"><img src="research/evidence/general/codex-live-20m00.png" alt="검정 무대의 큰 흰색 문장과 주황색 의미 단위" loading="lazy"></button><h3>타이포와 강조</h3><p><b>관찰</b> 문장 전체의 의미 단위를 색으로 묶고 한 장의 초점을 만듭니다.</p><p><b>제안</b> 큰 문장 장에서는 분류명·부제·출처가 읽기의 초점을 늘리는지 살핍니다.</p><a class="source" href="https://www.youtube.com/watch?v=XkKdbPhIvbY&t=1200s" target="_blank" rel="noopener">Codex 세션 · 20:00 ↗</a></article>
+          <article class="pattern" data-group="relation"><button class="image-button" data-zoom="../evidence/completed-cities/tokyo-ranking-icons.jpg" data-caption="도쿄 2026.10.20 · Shimogauchi.R 직접 촬영 · 작은 아이콘과 하단 라벨"><img src="../evidence/completed-cities/tokyo-ranking-icons.jpg" alt="좌상단 작은 아이콘과 하단 라벨 사이에 넓은 여백을 둔 세 카드" loading="lazy"></button><h3>아이콘의 크기와 여백</h3><p><b>관찰</b> 작은 아이콘과 하단 라벨 사이를 넓게 비운 카드도 있습니다.</p><p><b>제안</b> 요약·설명·관계도에서 아이콘의 역할을 정하고 광학 크기·선굵기·라벨 축을 통일합니다.</p><a class="source" href="https://zenn.dev/elith/articles/devday-exchange-tokyo-2026" target="_blank" rel="noopener">도쿄 참석기 · 저자 직접 촬영 ↗</a></article>
+          <article class="pattern" data-group="relation"><button class="image-button" data-zoom="../evidence/completed-cities/tokyo-manager-icons.jpg" data-caption="도쿄 2026.10.20 · Shimogauchi.R · 역할 관계도"><img src="../evidence/completed-cities/tokyo-manager-icons.jpg" alt="서로 다른 색의 역할 노드가 선으로 연결된 도쿄 발표 화면" loading="lazy"></button><h3>색과 관계</h3><p><b>관찰</b> 색이 역할 노드를 식별하고 선과 배치가 관계를 설명합니다.</p><p><b>제안</b> 같은 역할에 같은 색을 쓰고, 장식 아이콘 대신 노드·연결·라벨의 대응을 만듭니다.</p><a class="source" href="https://zenn.dev/elith/articles/devday-exchange-tokyo-2026" target="_blank" rel="noopener">도쿄 참석기 · 역할 관계도 ↗</a></article>
+          <article class="pattern" data-group="information"><button class="image-button" data-zoom="../evidence/completed-cities/tokyo-colored-chart.jpg" data-caption="도쿄 2026.10.20 · Shimogauchi.R · 선과 라벨의 대응"><img src="../evidence/completed-cities/tokyo-colored-chart.jpg" alt="색을 대응시킨 선과 끝 라벨을 사용하는 발표 차트" loading="lazy"></button><h3>차트의 읽는 순서</h3><p><b>관찰</b> 선과 끝 라벨이 색으로 연결돼 관계를 읽게 합니다.</p><p><b>제안</b> 핵심 변화 하나를 크게 보여 줍니다. 실제 데이터와 설명용 개념도를 구분합니다.</p><a class="source" href="https://zenn.dev/elith/articles/devday-exchange-tokyo-2026" target="_blank" rel="noopener">도쿄 참석기 · 보안 세션 ↗</a></article>
+          <article class="pattern" data-group="media"><button class="image-button" data-zoom="../evidence/completed-cities/tokyo-mcp-flow.jpg" data-caption="도쿄 2026.10.20 · Shimogauchi.R · 단계·설정·연결 대상"><img src="../evidence/completed-cities/tokyo-mcp-flow.jpg" alt="단계와 파일 설정, 연결 대상을 함께 보여 주는 도쿄 기술 세션 화면" loading="lazy"></button><h3>코드와 데모</h3><p><b>관찰</b> 단계·설정·연결 대상이 한 흐름 안에서 설명됩니다.</p><p><b>제안</b> 설명할 행과 대상의 크기를 확보하고, 조작 화면과 요약 화면에 각각 읽는 시간을 줍니다.</p><a class="source" href="https://zenn.dev/elith/articles/devday-exchange-tokyo-2026" target="_blank" rel="noopener">도쿄 참석기 · 기술 세션 ↗</a></article>
+        </div>
+        <p class="note">전환·모션은 정지 사진으로 확정할 수 없습니다. 이번에 직접 부분 재생한 구간과 기존 보존 프레임은 아래 조사 보고서에서 구분합니다. 전편 시청이나 원본 제작 도구·폰트·CSS 확인을 뜻하지 않습니다.</p>
+      </section>
+      <section id="priorities">
+        <div class="section-head"><h2><small>04 / NEXT DESIGN DECISIONS</small>수정할 때의 순서.</h2><p>먼저 내용과 위계를 정하고, 재사용할 규칙으로 옮긴 뒤 실제 발표 크기에서 검증합니다.</p></div>
+        <div class="priority"><strong>P0</strong><strong>한 장의 메시지와 결과물 선택</strong><p>주역 1~2개와 증거·보조의 역할을 정합니다. BUILD·CREATE가 차지한 영역을 실제 보여 줄 결과물로 재편집합니다.</p></div>
+        <div class="priority"><strong>P0</strong><strong>미디어별 프레임 처리</strong><p>이미지 면, 수치/문자 바탕, UI+아이콘 묶음을 구분해 공통 테두리와 내부 프레임의 중복을 줄입니다.</p></div>
+        <div class="priority"><strong>P1</strong><strong>크롭·글자·광학 정렬</strong><p>사진의 행위가 보이는지, UI의 핵심이 읽히는지, 수치·아이콘의 기준선이 일관적인지 확인합니다.</p></div>
+        <div class="priority"><strong>P2</strong><strong>장별 문법과 전환</strong><p>사진군·혼합 요약·큰 수치·관계도·데모의 밀도를 달리합니다. 모션은 직접 확인한 연속 구간만 근거로 검토합니다.</p></div>
+      </section>
+      <section id="evidence">
+        <div class="section-head"><h2><small>05 / SOURCES & LIMITS</small>어디까지 확인했는가.</h2><p>서울·도쿄의 유사 장면은 같은 구성 계열의 지역 변형입니다. 서로 독립적인 디자인 규칙 두 개로 세지 않았습니다. 사진은 비교·연구 자료이며 발표 예제용 자산으로 옮기지 않았습니다.</p></div>
+        <div class="table-scroll"><table><thead><tr><th>범위</th><th>행사 · 공개 자료</th><th>이번 확인과 한계</th></tr></thead><tbody>
+          <tr><td>미국 / SF</td><td><a href="https://openai.com/index/devday-2026-recap/" target="_blank" rel="noopener">OpenAI 공식 recap</a><br><a href="https://www.youtube.com/watch?v=Fls_onRviPM&t=2870s" target="_blank" rel="noopener">Keynote 47:50</a> · <a href="https://www.youtube.com/watch?v=XkKdbPhIvbY&t=1200s" target="_blank" rel="noopener">Codex 20:00</a></td><td>공식 영상의 정체성·게시 정보 및 대표 구간 부분 재생. 보존 프레임을 함께 검수. 전체 영상을 시청한 조사가 아님.</td></tr>
+          <tr><td>아시아 / 서울</td><td>행사 2026.10.22<br><a href="https://www.news1.kr/it-science/internet-platform/6329233" target="_blank" rel="noopener">뉴스1</a> · <a href="https://www.digitaltoday.co.kr/news/articleView.html?idxno=709421" target="_blank" rel="noopener">디지털투데이</a> · <a href="https://m.go.seoul.co.kr/news/economy/industry/2026/10/22/20261022500319" target="_blank" rel="noopener">서울신문</a></td><td>원문·캡션·고해상 사진 확인. 뉴스1 김정현 / OpenAI 제공 / 서울신문 민나리·연합뉴스의 사진 credit를 구분. 투사·조명색을 원본 색상값으로 측정하지 않음.</td></tr>
+          <tr><td>아시아 / 도쿄</td><td>행사 2026.10.20 · 게시 10.21<br><a href="https://zenn.dev/elith/articles/devday-exchange-tokyo-2026" target="_blank" rel="noopener">Shimogauchi.R 참석기</a></td><td>저자가 직접 촬영했다고 명시한 실제 세션 사진. 기사에 다시 그린 도식과 구분. 원본 슬라이드 파일·제작자 소속은 확인하지 못함.</td></tr>
+          <tr><td>아시아 / 벵갈루루</td><td>행사 2026.10.16 · 게시 10.18<br><a href="https://robinfrancis.in/blog/my-first-openai-devday-exchange-bengaluru/" target="_blank" rel="noopener">Robin Francis 참석기</a></td><td>현장과 수치 화면 보조 근거. 발표 화면의 개별 제작 소속은 미확인으로 유지.</td></tr>
+          <tr><td>유럽</td><td><a href="https://events.openai.com/devdayexchange2026/-1?lang=en" target="_blank" rel="noopener">Exchange 2026 공식 일정</a><br><a href="https://www.youtube.com/watch?v=RndBNbHuV4s&t=600s" target="_blank" rel="noopener">2024 Sana 게스트 세션 10:00</a></td><td>10.23 기준 베를린 10.26 · 파리 10.28 · 런던 11.03은 예정 행사. 과거 Sana 세션의 밝은 기술 화면도 확인했으나 연도·게스트·공식 설명의 발표자 이름 충돌을 분리했다. 2026의 디자인 규칙으로 채택하지 않음.</td></tr>
+        </tbody></table></div>
+        <details><summary>보고서와 현재 구현 근거</summary><ul><li><a href="baseline.md">현재 렌더·CSS·자산 기준 확인</a></li><li><a href="research/synthesis.md">리서치 팀 종합</a> · <a href="research/general.md">전반</a> · <a href="research/asia.md">아시아</a> · <a href="research/west.md">미국·유럽</a></li><li><a href="design/synthesis.md">디자인 팀 종합</a> · <a href="design/verification.md">시안 검증</a></li><li><a href="integration-verification.md">총괄의 통합 확인</a></li><li><a href="current-scenes.json">현재 2~7번 슬라이드의 렌더·미디어 확인</a></li></ul><p>기존 SF 24:00의 문서·인용 분류는 이번 live 화면과 일치하지 않아 정확한 타임스탬프를 미확인으로 교정했습니다. 이 보드의 판단 근거로 사용하지 않았습니다.</p><p>구현 기준 main / 078628e. 역할명은 검토 관점을 나타내며 실제 Apple·Vercel·OpenAI 근무 경력이나 원본 제작 참여를 주장하지 않습니다.</p></details>
+      </section>
+    </main>
+    <footer>STAGE · 사용자 요청에 따른 리서치와 디자인 검토 · 원본·제안·미확인 범위를 분리해 기록합니다.</footer>
+  </div>
+  <dialog id="imageDialog" aria-label="근거 이미지 확대"><div class="dialog-top"><span id="imageCaption"></span><button type="button" id="closeDialog">닫기</button></div><img id="dialogImage" alt=""></dialog>
+  <script>
+    const proposalFrame=document.getElementById('proposalFrame');
+    let proposalObserver;
+    proposalFrame.addEventListener('load',()=>{const body=proposalFrame.contentDocument?.body;if(!body)return;proposalObserver?.disconnect();const fit=()=>{proposalFrame.style.height=Math.ceil(body.getBoundingClientRect().height)+4+'px';};proposalObserver=new ResizeObserver(fit);proposalObserver.observe(body);fit();});
+    const dialog=document.getElementById('imageDialog'), large=document.getElementById('dialogImage'), caption=document.getElementById('imageCaption');
+    document.querySelectorAll('[data-zoom]').forEach(button=>button.addEventListener('click',()=>{large.src=button.dataset.zoom;large.alt=button.querySelector('img').alt;caption.textContent=button.dataset.caption;dialog.showModal();}));
+    document.getElementById('closeDialog').addEventListener('click',()=>dialog.close());
+    dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
+    document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(other=>other.setAttribute('aria-pressed',String(other===button)));let count=0;document.querySelectorAll('.pattern').forEach(article=>{article.hidden=button.dataset.filter!=='all'&&article.dataset.group!==button.dataset.filter;if(!article.hidden)count++;});document.getElementById('filterStatus').textContent=count+'개 요소 표시';}));
+  </script>
+</body>
+</html>
