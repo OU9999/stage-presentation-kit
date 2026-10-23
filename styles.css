@@ -413,6 +413,26 @@ body[data-editing="true"] .media-overlay .media-caption { pointer-events: auto; 
 .button-danger { border: 1px solid #654e36; background: transparent; color: #e4c6a2; padding: 9px 12px; font-size: 12px; border-radius: 5px; }
 .button-danger:hover { background: #392b1e; }
 
+/* Author diagnostics stay in the controls; only invalid slides use an error card. */
+.diagnostics-badge { color: #edcfa8 !important; border-color: #766149 !important; background: #2c261e !important; white-space: nowrap; }
+.dialog-diagnostics { max-width: 790px; }
+.diagnostics-list { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
+.diagnostic-item { display: block; width: 100%; padding: 16px; border: 1px solid var(--chrome-border); border-radius: 6px; background: #141414; text-align: left; color: var(--chrome-text); }
+.diagnostic-location { display: block; color: var(--chrome-muted); font-size: 11px; line-height: 1.5; margin-bottom: 7px; overflow-wrap: anywhere; }
+.diagnostic-message { font-size: 14px; line-height: 1.65; overflow-wrap: anywhere; }
+.diagnostic-severity { display: inline-block; color: #edcfa8; font-size: 10px; line-height: 1.5; margin-right: 8px; }
+.diagnostics-guidance { margin: 22px 0 18px; color: var(--chrome-muted); font-size: 12px; line-height: 1.75; }
+.dialog-diagnostics [data-action="read-diagnostics"] { border: 1px solid var(--chrome-border); background: var(--chrome-panel); color: var(--chrome-text); font-size: 12px; padding: 9px 12px; border-radius: 5px; }
+.layout-error .slide-body { display: block; overflow: auto; padding-right: 16px; }
+.layout-error .slide-title { font-size: 68px; }
+.error-summary { font-size: 29px; line-height: 1.5; color: var(--slide-muted); margin: 25px 0 0; }
+.error-list { display: grid; gap: 22px; list-style: none; margin: 32px 0 0; padding: 0; }
+.error-item { padding-top: 20px; border-top: 1px solid var(--slide-line); }
+.error-path { display: block; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 22px; line-height: 1.5; color: var(--slide-accent); margin-bottom: 8px; overflow-wrap: anywhere; }
+.error-message { display: block; font-size: 28px; line-height: 1.5; }
+.error-guidance { font-size: 23px; line-height: 1.5; color: var(--slide-muted); margin: 24px 0 0; }
+.error-raw { display: none; }
+
 /* Presenter view deliberately shares the exact slide renderer. */
 body[data-presenter="true"] { height: 100dvh; overflow: hidden; }
 .presenter-workspace { height: calc(100dvh - 148px); padding: 28px 32px; display: grid; grid-template-columns: minmax(0, 2fr) minmax(300px, .8fr); gap: 28px; }
@@ -520,6 +540,13 @@ body[data-mode="read"] #slideStage .results-copy .source-line { font-size: 14px;
 body[data-mode="read"] #slideStage .result-item .media-frame { min-height: 130px; }
 body[data-mode="read"] #slideStage .result-label { font-size: 16px; }
 body[data-mode="read"] #slideStage .result-caption { font-size: 13px; }
+body[data-mode="read"] #slideStage .layout-error .slide-body { overflow: visible; padding-right: 0; }
+body[data-mode="read"] #slideStage .layout-error .slide-title { font-size: 40px; }
+body[data-mode="read"] #slideStage .error-summary { font-size: 20px; }
+body[data-mode="read"] #slideStage .error-message { font-size: 19px; }
+body[data-mode="read"] #slideStage .error-path { font-size: 15px; }
+body[data-mode="read"] #slideStage .error-guidance { font-size: 17px; }
+body[data-mode="read"] #slideStage .error-raw { display: block; margin: 24px 0 0; padding: 18px; font: 14px/1.7 ui-monospace, SFMono-Regular, Consolas, monospace; white-space: pre-wrap; overflow-wrap: anywhere; background: var(--slide-wash); border: 1px solid var(--slide-line); }
 body[data-mode="read"] .presenter-bar { position: sticky; bottom: 0; z-index: 40; background: var(--chrome-bg); border-top: 1px solid var(--chrome-border); }
 
 @media (max-width: 1100px) {
@@ -638,6 +665,17 @@ body[data-mode="read"] .presenter-bar { position: sticky; bottom: 0; z-index: 40
   .presenter-notes { overflow: visible; }
 }
 
+/* Inline mosaic packing belongs to the stage; phone reading follows DOM order. */
+@media screen and (max-width: 740px) {
+  body[data-mode="read"] #slideStage .mosaic-item { grid-column: auto !important; grid-row: auto !important; }
+  .presenter-bar:has(.diagnostics-badge:not([hidden])) .progress-track { width: 64px; }
+  .presenter-bar:has(.diagnostics-badge:not([hidden])) #slideLabel,
+  .presenter-bar:has(.diagnostics-badge:not([hidden])) .slide-status-divider { display: none; }
+  .diagnostics-badge { padding-inline: 7px !important; font-size: 11px !important; }
+  .diagnostic-item { padding: 13px; }
+  body[data-mode="read"] #slideStage .layout-error .slide-title { font-size: 34px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
@@ -752,5 +790,12 @@ body[data-mode="read"] .presenter-bar { position: sticky; bottom: 0; z-index: 40
   body[data-mode="read"] #slideStage .result-caption { font-size: 16px; }
   body[data-mode="read"] #slideStage .categories-grid { grid-template-columns: repeat(var(--category-count, 5), minmax(0, 1fr)); grid-template-rows: none; }
   body[data-mode="read"] #slideStage .category-item { padding-block: 0; }
+  .error-raw { display: none !important; }
+  body[data-mode="read"] #slideStage .layout-error .slide-body { overflow: hidden; padding-right: 16px; }
+  body[data-mode="read"] #slideStage .layout-error .slide-title { font-size: 68px; }
+  body[data-mode="read"] #slideStage .error-summary { font-size: 29px; }
+  body[data-mode="read"] #slideStage .error-message { font-size: 28px; }
+  body[data-mode="read"] #slideStage .error-path { font-size: 22px; }
+  body[data-mode="read"] #slideStage .error-guidance { font-size: 23px; }
   [contenteditable="true"], [data-field] { outline: 0 !important; }
 }

@@ -2,29 +2,39 @@
 (function () {
   "use strict";
 
-  var original = window.PRESENTATION;
   var stage = document.getElementById("slideStage");
-  if (!original || !Array.isArray(original.slides) || !original.slides.length) {
-    stage.textContent = "content.js에 슬라이드가 없습니다. window.PRESENTATION.slides를 확인하세요.";
+  var model = window.STAGE_MODEL;
+  if (!model) {
+    stage.textContent = "deck-model.js를 불러오지 못했습니다. index.html의 스크립트 경로를 확인하세요.";
     return;
   }
-  var clone = function (value) { return JSON.parse(JSON.stringify(value)); };
+  var record = function (value) { return value !== null && typeof value === "object" && !Array.isArray(value); };
+  var owns = function (value, key) { return Object.prototype.hasOwnProperty.call(value, key); };
+  var clone = function (value) { try { var text = JSON.stringify(value); return text === undefined ? value : JSON.parse(text); } catch (_) { return value; } };
+  var original = clone(window.PRESENTATION);
   var params = new URLSearchParams(location.search);
   var isPresenter = params.get("presenter") === "1";
   var themes = ["stage", "paper", "midnight"];
   var names = { cover: "표지", statement: "큰 문장", section: "섹션", compare: "비교", metric: "숫자", image: "이미지", demo: "데모", quote: "인용", steps: "단계", closing: "마무리", chart: "메시지와 차트", media: "전체 화면 시연", gallery: "이미지 갤러리", mosaic: "이미지 모자이크", results: "메시지와 결과", categories: "분류와 역할" };
   var tones = ["orange", "purple", "blue", "green", "yellow"];
-  var storageKey = "stage-kit:v1:" + String(original.id || "deck") + ":" + location.pathname;
-  var sourceSignature = JSON.stringify(original);
-  var deck = clone(original);
+  var storageKey = "stage-kit:v1:" + (record(original) && typeof original.id === "string" ? original.id : "deck") + ":" + location.pathname;
+  var sourceSignature;
+  try { sourceSignature = JSON.stringify(original); } catch (_) { sourceSignature = null; }
+  var rawDeck = clone(original);
+  var deck;
+  var validationIssues = [];
+  var rootFatal = false;
+  var geometryIssues = Object.create(null);
+  var diagnosticsTimer;
   var restored = false;
   try {
     var saved = JSON.parse(localStorage.getItem(storageKey) || "null");
-    if (saved && saved.sourceSignature === sourceSignature && saved.deck && Array.isArray(saved.deck.slides) && saved.deck.slides.length) {
-      deck = saved.deck;
+    if (saved && saved.sourceSignature === sourceSignature && owns(saved, "deck")) {
+      rawDeck = clone(saved.deck);
       restored = true;
     }
   } catch (_) { /* Local storage can be unavailable for local files. */ }
+  refreshValidation();
   var state = {
     index: Math.max(0, Math.min(deck.slides.length - 1, (parseInt(location.hash.slice(1), 10) || 1) - 1)),
     mode: "present", editing: false, theme: themes.indexOf(deck.theme) >= 0 ? deck.theme : "stage"
@@ -49,6 +59,22 @@
       try { sessionStorage.setItem(tokenKey, token); } catch (_) { /* window.name is the fallback. */ }
     }
     if (!window.name || window.name.indexOf("stage-audience:") === 0) window.name = "stage-audience:" + token;
+  }
+
+  function refreshValidation() {
+    try {
+      validationIssues = model.validateDeck(rawDeck);
+      JSON.stringify(rawDeck);
+    } catch (_) {
+      validationIssues = [{ severity: "error", path: "$", message: "설정을 읽을 수 없습니다. 순환 참조 없이 JSON으로 저장할 수 있는 데이터인지 확인하세요." }];
+    }
+    rootFatal = validationIssues.some(function (issue) { return issue.severity === "error" && issue.slideIndex === undefined; });
+    deck = rootFatal ? { title: "발표 설정을 확인하세요", theme: "stage", speaker: "", date: "", footer: "CONTENT CHECK", slides: [null] } : rawDeck;
+  }
+
+  function slideName(index) {
+    var slide = deck.slides[index];
+    return record(slide) && owns(names, slide.layout) ? names[slide.layout] : "입력 확인";
   }
 
   function element(tag, className, text) {
@@ -112,8 +138,9 @@
     } catch (_) { return ""; }
   }
 
-  function media(slide, preview) {
+  function media(slide, preview, path) {
     var wrap = element("div", "media-frame");
+    wrap.dataset.mediaPath = (path || "") + (slide.video ? "video" : "src");
     var src = slide.video || slide.src;
     if (src) {
       var item;
@@ -134,11 +161,14 @@
       var zoom = Number.isFinite(slide.zoom) ? Math.max(1, Math.min(3, slide.zoom)) : 1;
       item.style.transform = "scale(" + zoom + ")";
       item.style.transformOrigin = slide.focalPoint || "50% 50%";
+      if (!preview) item.addEventListener(slide.video ? "loadedmetadata" : "load", scheduleDiagnostics);
       item.addEventListener("error", function () {
         item.hidden = true;
+        wrap.dataset.mediaError = String(src);
         var fallback = element("div", "image-placeholder");
         fallback.append(element("span", "placeholder-symbol", "↗"), element("p", "placeholder-title", "미디어를 찾을 수 없습니다."), element("span", "placeholder-path", String(src)), element("small", "placeholder-hint", "content.js의 파일 경로를 확인하세요."));
         wrap.append(fallback);
+        if (!preview) scheduleDiagnostics();
       }, { once: true });
       wrap.append(item);
     } else {
@@ -152,16 +182,47 @@
   function mediaItem(slide, index, kind, preview) {
     var item = slide.items[index] || {};
     var figure = element("figure", kind + "-item");
+    figure.dataset.itemIndex = String(index);
     var path = "items." + index + ".";
     if (kind === "mosaic") figure.dataset.span = Number(item.span) === 2 ? "2" : "1";
     optional(figure, "div", kind + "-label media-item-label", slide, path + "label");
-    figure.append(media(item, preview));
+    figure.append(media(item, preview, path));
     optional(figure, "figcaption", kind + "-caption media-item-caption", slide, path + "caption");
     return figure;
   }
 
+  function renderErrorSlide(index, errors) {
+    var article = element("article", "slide layout-error");
+    article.dataset.layout = "error";
+    article.dataset.index = String(index);
+    article.dataset.theme = state.theme;
+    article.setAttribute("aria-label", (index + 1) + "번 슬라이드 입력 확인");
+    var inner = element("div", "slide-inner");
+    inner.append(element("div", "slide-eyebrow", "CONTENT CHECK"));
+    var body = element("div", "slide-body");
+    body.append(element("h1", "slide-title", rootFatal ? "발표 설정을 확인하세요." : (index + 1) + "번 슬라이드를 확인하세요."), element("p", "error-summary", rootFatal ? "발표 설정을 고치면 다시 표시됩니다. 원본 데이터는 보존됩니다." : "다른 슬라이드는 계속 볼 수 있습니다. 원본 데이터와 항목은 그대로 보존됩니다."));
+    var list = element("ul", "error-list");
+    errors.forEach(function (issue) {
+      var item = element("li", "error-item");
+      item.append(element("code", "error-path", issue.path), element("span", "error-message", issue.message));
+      list.append(item);
+    });
+    body.append(list, element("p", "error-guidance", "content.js의 표시된 경로를 고치세요. 항목이 많다면 장을 나누고, 읽기 모드에서 원본 내용을 확인하세요."));
+    var raw;
+    try { raw = JSON.stringify(rootFatal ? rawDeck : deck.slides[index], null, 2); } catch (_) { raw = "설정을 JSON으로 표시할 수 없습니다. content.js 원본을 확인하세요."; }
+    body.append(element("pre", "error-raw", raw === undefined ? "undefined" : raw));
+    inner.append(body);
+    var footer = element("footer", "slide-footer");
+    footer.append(element("span", "slide-footer-label", "원본 데이터는 내용 내보내기로 보관할 수 있습니다."), element("span", "slide-page", String(index + 1).padStart(2, "0")));
+    inner.append(footer);
+    article.append(inner);
+    return article;
+  }
+
   function renderSlide(slide, index, preview) {
-    var layout = names[slide.layout] ? slide.layout : "statement";
+    var errors = validationIssues.filter(function (issue) { return issue.severity === "error" && (rootFatal ? issue.slideIndex === undefined : issue.slideIndex === index); });
+    if (errors.length) return renderErrorSlide(index, errors);
+    var layout = owns(names, slide.layout) ? slide.layout : "statement";
     var article = element("article", "slide layout-" + layout);
     article.dataset.layout = layout;
     article.dataset.index = String(index);
@@ -258,7 +319,15 @@
         mediaGrid.style.setProperty("--gallery-count", String(Array.isArray(slide.items) ? Math.max(1, slide.items.length) : 1));
       }
       if (Array.isArray(slide.items)) {
-        slide.items.forEach(function (_, itemIndex) { mediaGrid.append(mediaItem(slide, itemIndex, layout, preview)); });
+        var positions = layout === "mosaic" ? model.packMosaic(slide.items) : null;
+        slide.items.forEach(function (_, itemIndex) {
+          var item = mediaItem(slide, itemIndex, layout, preview);
+          if (positions) {
+            item.style.gridRow = String(positions[itemIndex].row);
+            item.style.gridColumn = positions[itemIndex].column + " / span " + positions[itemIndex].span;
+          }
+          mediaGrid.append(item);
+        });
       }
       body.append(mediaGrid);
       optional(body, "p", "source-line", slide, "source");
@@ -359,7 +428,10 @@
   }
 
   function render() {
-    document.title = deck.title + (isPresenter ? " — 발표자" : " — Stage");
+    refreshValidation();
+    geometryIssues = Object.create(null);
+    state.index = Math.max(0, Math.min(deck.slides.length - 1, state.index));
+    document.title = (deck.title || "발표 자료") + (isPresenter ? " — 발표자" : " — Stage");
     document.body.dataset.theme = state.theme;
     document.body.dataset.mode = state.mode;
     document.body.dataset.presenter = String(isPresenter);
@@ -374,6 +446,7 @@
       document.querySelectorAll('[data-action="export"], [data-action="presenter"], [data-action="print"]').forEach(function (button) { button.hidden = true; });
     }
     updateActive(false);
+    updateDiagnostics();
     requestAnimationFrame(scaleStages);
   }
 
@@ -391,7 +464,7 @@
       if (!active) slide.querySelectorAll("video").forEach(function (video) { video.pause(); });
     });
     document.getElementById("slideCounter").textContent = String(state.index + 1).padStart(2, "0") + " / " + String(deck.slides.length).padStart(2, "0");
-    document.getElementById("slideLabel").textContent = names[deck.slides[state.index].layout] || "슬라이드";
+    document.getElementById("slideLabel").textContent = slideName(state.index);
     document.getElementById("slideProgress").style.width = ((state.index + 1) / deck.slides.length * 100) + "%";
     document.querySelectorAll('[data-action="previous"]').forEach(function (button) { button.disabled = state.index === 0; });
     document.querySelectorAll('[data-action="next"]').forEach(function (button) { button.disabled = state.index === deck.slides.length - 1; });
@@ -400,9 +473,10 @@
     document.getElementById("editButton").textContent = state.editing ? "편집 마침" : "내용 편집";
     document.getElementById("modeButton").setAttribute("aria-pressed", String(state.mode === "read"));
     document.getElementById("modeButton").textContent = state.mode === "read" ? "발표 모드" : "읽기 모드";
-    document.getElementById("announcer").textContent = (state.index + 1) + " / " + deck.slides.length + ", " + (names[deck.slides[state.index].layout] || "슬라이드");
+    document.getElementById("announcer").textContent = (state.index + 1) + " / " + deck.slides.length + ", " + slideName(state.index);
     if (isPresenter) renderPresenter();
     if (scroll && state.mode === "read") stage.children[state.index].scrollIntoView({ behavior: "smooth", block: "start" });
+    scheduleDiagnostics();
   }
 
   function scaleStages() {
@@ -411,6 +485,119 @@
       var height = viewport.clientHeight;
       if (width && height) viewport.style.setProperty("--stage-scale", String(Math.max(0.05, Math.min((width - 24) / 1600, (height - 24) / 900))));
     });
+    scheduleDiagnostics();
+  }
+
+  function createDiagnostics() {
+    if (isPresenter) return;
+    var badge = element("button", "diagnostics-badge", "작성자 점검");
+    badge.id = "diagnosticsBadge";
+    badge.type = "button";
+    badge.dataset.action = "diagnostics";
+    badge.hidden = true;
+    document.querySelector(".utility-controls").prepend(badge);
+    var backdrop = element("div", "dialog-backdrop");
+    backdrop.id = "diagnosticsDialog";
+    backdrop.hidden = true;
+    var dialog = element("section", "dialog dialog-diagnostics");
+    dialog.setAttribute("role", "dialog");
+    dialog.setAttribute("aria-modal", "true");
+    dialog.setAttribute("aria-labelledby", "diagnosticsTitle");
+    var header = element("header", "dialog-header");
+    var heading = element("div");
+    heading.append(element("span", "dialog-eyebrow", "CONTENT CHECK"));
+    var title = element("h2", "", "작성자 점검");
+    title.id = "diagnosticsTitle";
+    heading.append(title);
+    var close = element("button", "", "닫기 ×");
+    close.type = "button";
+    close.dataset.action = "close";
+    header.append(heading, close);
+    var body = element("div", "dialog-body");
+    var list = element("ul", "diagnostics-list");
+    list.id = "diagnosticsList";
+    var read = element("button", "button", "읽기 모드에서 전체 내용 보기");
+    read.type = "button";
+    read.dataset.action = "read-diagnostics";
+    body.append(list, element("p", "diagnostics-guidance", "표시된 content.js 경로를 확인하세요. 긴 문장은 줄이거나 다음 장으로 나누고, 초과 항목은 별도 슬라이드로 옮기세요. 입력과 원본 데이터는 자동으로 삭제하지 않습니다."), read);
+    dialog.append(header, body);
+    backdrop.append(dialog);
+    document.body.append(backdrop);
+  }
+
+  function allIssues() {
+    var result = validationIssues.slice();
+    Object.keys(geometryIssues).forEach(function (key) { result = result.concat(geometryIssues[key]); });
+    return result;
+  }
+
+  function updateDiagnostics() {
+    if (isPresenter) return;
+    var badge = document.getElementById("diagnosticsBadge");
+    if (!badge) return;
+    var issues = allIssues();
+    badge.hidden = issues.length === 0;
+    badge.textContent = "작성자 점검 " + issues.length;
+    badge.setAttribute("aria-label", issues.length + "개 입력 오류 또는 분량 경고 확인");
+    var list = document.getElementById("diagnosticsList");
+    list.replaceChildren();
+    issues.forEach(function (issue) {
+      var item = element("li", "diagnostic-item");
+      item.dataset.severity = issue.severity;
+      var location = issue.slideIndex === undefined ? "발표 설정" : (issue.slideIndex + 1) + "번 슬라이드";
+      item.append(element("span", "diagnostic-severity", issue.severity === "error" ? "오류" : "경고"), element("code", "diagnostic-location", location + " · " + issue.path), element("p", "diagnostic-message", issue.message));
+      list.append(item);
+    });
+  }
+
+  function scheduleDiagnostics() {
+    if (isPresenter) return;
+    clearTimeout(diagnosticsTimer);
+    diagnosticsTimer = setTimeout(measureActiveSlide, 220);
+  }
+
+  function measureActiveSlide() {
+    if (isPresenter || state.mode !== "present") return;
+    var slide = stage.children[state.index];
+    if (!slide || slide.dataset.layout === "error") { updateDiagnostics(); return; }
+    var body = slide.querySelector(".slide-body");
+    if (!body) return;
+    var slideBounds = slide.getBoundingClientRect();
+    var bodyBounds = body.getBoundingClientRect();
+    if (!slideBounds.width || !bodyBounds.width) return;
+    var tolerance = Math.max(1, 6 * slideBounds.width / 1600);
+    var issues = [];
+    var seen = Object.create(null);
+    function add(path, message) {
+      if (seen[path]) return;
+      seen[path] = true;
+      issues.push({ severity: "warning", slideIndex: state.index, path: path, message: message });
+    }
+    function outside(bounds, container) {
+      return bounds.left < container.left - tolerance || bounds.right > container.right + tolerance || bounds.top < container.top - tolerance || bounds.bottom > container.bottom + tolerance;
+    }
+    slide.querySelectorAll("[data-field]").forEach(function (field) {
+      var bounds = field.getBoundingClientRect();
+      var style = getComputedStyle(field);
+      if (!bounds.width || !bounds.height || style.visibility === "hidden") return;
+      var container = body.contains(field) ? bodyBounds : slideBounds;
+      var path = field.dataset.owner === "deck" ? "$." + field.dataset.field : "slides." + state.index + "." + field.dataset.field;
+      var range = document.createRange();
+      range.selectNodeContents(field);
+      var textBounds = range.getBoundingClientRect();
+      var clipping = ["hidden", "clip", "auto", "scroll"];
+      var clipped = (clipping.indexOf(style.overflowY) >= 0 && field.clientHeight > 0 && field.scrollHeight > field.clientHeight + 6) || (clipping.indexOf(style.overflowX) >= 0 && field.clientWidth > 0 && field.scrollWidth > field.clientWidth + 6);
+      if (outside(bounds, container) || (textBounds.width && outside(textBounds, container)) || clipped) add(path, "글자가 발표 영역을 벗어나거나 잘립니다. 문장을 줄이거나 슬라이드를 나누세요. 읽기 모드에서는 전체 내용을 확인할 수 있습니다.");
+    });
+    body.querySelectorAll(".media-frame").forEach(function (frame) {
+      var bounds = frame.getBoundingClientRect();
+      var path = "slides." + state.index + "." + (frame.dataset.mediaPath || "src");
+      if (frame.dataset.mediaError) add(path, "미디어를 불러오지 못했습니다. 파일 경로를 확인하세요: " + frame.dataset.mediaError);
+      else if (bounds.width <= 1 || bounds.height <= 1) add(path, "미디어 프레임의 크기가 0에 가깝습니다. 제목·설명을 줄이거나 항목을 다음 장으로 나누세요.");
+      else if (outside(bounds, bodyBounds)) add(path, "미디어 프레임이 발표 영역을 벗어납니다. 항목이나 설명을 다음 장으로 나누세요.");
+    });
+    geometryIssues[state.index] = issues;
+    updateDiagnostics();
   }
 
   function goTo(index, remote) {
@@ -431,13 +618,15 @@
   function persist() {
     clearTimeout(saveTimer);
     if (isPresenter) return;
+    refreshValidation();
     try {
-      localStorage.setItem(storageKey, JSON.stringify({ sourceSignature: sourceSignature, deck: deck, savedAt: new Date().toISOString() }));
+      localStorage.setItem(storageKey, JSON.stringify({ sourceSignature: sourceSignature, deck: rawDeck, savedAt: new Date().toISOString() }));
       document.getElementById("saveStatus").textContent = "이 브라우저에 저장됨";
     } catch (_) {
       document.getElementById("saveStatus").textContent = "파일로 내보내 보관하세요";
     }
     revision = Date.now();
+    updateDiagnostics();
     syncPresenter();
   }
 
@@ -467,14 +656,14 @@
         var card = element("button", "overview-card" + (index === state.index ? " is-current" : ""));
         card.type = "button";
         card.dataset.slide = String(index);
-        card.setAttribute("aria-label", (index + 1) + ". " + names[slide.layout]);
+        card.setAttribute("aria-label", (index + 1) + ". " + slideName(index));
         var thumb = element("div", "overview-thumb");
         thumb.setAttribute("aria-hidden", "true");
         var miniature = renderSlide(slide, index, true);
         miniature.classList.add("is-active");
         miniature.querySelectorAll("a,video,button").forEach(function (item) { item.tabIndex = -1; if (item.tagName === "VIDEO") item.controls = false; });
         thumb.append(miniature);
-        card.append(thumb, element("span", "overview-label", String(index + 1).padStart(2, "0") + " / " + names[slide.layout]));
+        card.append(thumb, element("span", "overview-label", String(index + 1).padStart(2, "0") + " / " + slideName(index)));
         grid.append(card);
       });
     }
@@ -494,7 +683,9 @@
 
   function exportContent() {
     persist();
-    var contents = "/* Stage 발표 원본 — 이 파일을 발표 폴더의 content.js와 교체하세요. */\nwindow.PRESENTATION = " + JSON.stringify(deck, null, 2) + ";\n";
+    var serialized;
+    try { serialized = JSON.stringify(rawDeck, null, 2); } catch (_) { toast("원본을 JSON으로 내보낼 수 없습니다. 순환 참조 없이 저장할 수 있는 데이터인지 content.js를 확인하세요."); return; }
+    var contents = "/* Stage 발표 원본 — 이 파일을 발표 폴더의 content.js와 교체하세요. */\nwindow.PRESENTATION = " + (serialized === undefined ? "undefined" : serialized) + ";\n";
     var objectUrl = URL.createObjectURL(new Blob([contents], { type: "text/javascript;charset=utf-8" }));
     var link = element("a");
     link.href = objectUrl;
@@ -530,7 +721,7 @@
 
   function syncPresenter() {
     if (isPresenter || !presenterWindow || presenterWindow.closed) return;
-    post(presenterWindow, "state", { deck: deck, index: state.index, theme: state.theme, revision: revision, startedAt: startedAt });
+    post(presenterWindow, "state", { deck: rawDeck, index: state.index, theme: state.theme, revision: revision, startedAt: startedAt });
   }
 
   function renderPresenter() {
@@ -543,14 +734,14 @@
     currentSlide.classList.add("is-active");
     currentStage.append(currentSlide);
     current.append(currentStage);
-    if (deck.slides[state.index + 1]) {
+    if (state.index + 1 < deck.slides.length) {
       var nextStage = element("div", "slide-stage");
       var nextSlide = renderSlide(deck.slides[state.index + 1], state.index + 1, true);
       nextSlide.classList.add("is-active");
       nextStage.append(nextSlide);
       next.append(nextStage);
     } else next.append(element("p", "presenter-end", "마지막 슬라이드입니다."));
-    document.getElementById("presenterNotes").textContent = deck.slides[state.index].notes || "이 슬라이드에는 노트가 없습니다. content.js의 notes에 메모를 넣으세요.";
+    document.getElementById("presenterNotes").textContent = (record(deck.slides[state.index]) && typeof deck.slides[state.index].notes === "string" && deck.slides[state.index].notes) || "이 슬라이드에는 노트가 없습니다. content.js의 notes에 메모를 넣으세요.";
     document.getElementById("presenterPosition").textContent = (state.index + 1) + " / " + deck.slides.length;
     requestAnimationFrame(scaleStages);
   }
@@ -561,13 +752,14 @@
     if (location.protocol !== "file:" && event.origin !== location.origin) return;
     if (isPresenter) {
       if (event.source !== window.opener || message.kind !== "state") return;
-      if (!message.deck || !Array.isArray(message.deck.slides) || !message.deck.slides.length) return;
-      var remoteIndex = Math.max(0, Math.min(message.deck.slides.length - 1, Number(message.index) || 0));
+      if (!owns(message, "deck")) return;
+      var remoteIndex = Math.max(0, Number(message.index) || 0);
       var remoteTheme = themes.indexOf(message.theme) >= 0 ? message.theme : "stage";
       var changed = lastRemoteState !== message.revision || state.index !== remoteIndex || state.theme !== remoteTheme;
       if (changed) {
-        deck = clone(message.deck);
-        state.index = remoteIndex;
+        rawDeck = clone(message.deck);
+        refreshValidation();
+        state.index = Math.min(deck.slides.length - 1, remoteIndex);
         state.theme = remoteTheme;
       }
       startedAt = Number(message.startedAt) || Date.now();
@@ -596,6 +788,13 @@
     if (action === "previous") goTo(state.index - 1);
     if (action === "next") goTo(state.index + 1);
     if (action === "overview") openDialog("overviewDialog");
+    if (action === "diagnostics") openDialog("diagnosticsDialog");
+    if (action === "read-diagnostics") {
+      state.mode = "read";
+      document.body.dataset.mode = state.mode;
+      closeDialog();
+      updateActive(true);
+    }
     if (action === "help") openDialog("helpDialog");
     if (action === "close") closeDialog();
     if (action === "presenter") openPresenter();
@@ -612,7 +811,8 @@
     if (action === "reset" && window.confirm("이 폴더의 브라우저 편집 내용을 지우고 content.js 원본으로 돌아갈까요?")) {
       clearTimeout(saveTimer);
       try { localStorage.removeItem(storageKey); } catch (_) { /* Optional storage. */ }
-      deck = clone(original);
+      rawDeck = clone(original);
+      refreshValidation();
       state.theme = themes.indexOf(deck.theme) >= 0 ? deck.theme : "stage";
       state.index = Math.min(state.index, deck.slides.length - 1);
       state.editing = false;
@@ -644,6 +844,7 @@
       object.highlight = nextValue;
     }
     setAt(object, path, nextValue);
+    scheduleDiagnostics();
     document.getElementById("saveStatus").textContent = "저장 중…";
     clearTimeout(saveTimer);
     saveTimer = setTimeout(persist, 250);
@@ -712,5 +913,6 @@
     sendToAudience("hello", { revision: null });
   }
   document.getElementById("saveStatus").textContent = restored ? "저장한 편집 내용" : "원본 템플릿";
+  createDiagnostics();
   render();
 })();

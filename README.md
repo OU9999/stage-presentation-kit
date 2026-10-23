@@ -2,7 +2,7 @@
 
 주제에 맞는 레이아웃을 골라 내용을 바꾸는 발표 키트입니다. 설치나 빌드 과정 없이 `index.html`을 브라우저에서 열면 됩니다. 한글 시스템 글꼴과 로컬 파일만 사용합니다.
 
-[전체 예제 미리보기](example-preview.png) · [표지 미리보기](preview.png) · [샘플 PDF](output/pdf/stage-sample.pdf) · [디자인 가이드](DESIGN.md) · [원본 장면 비교 보드](research/index.html) · [사진·컬러 비교 보드](research/color.html) · [실제 세션 조사와 수정 기준](research/decisions.md)
+[전체 예제 미리보기](example-preview.png) · [표지 미리보기](preview.png) · [샘플 PDF](output/pdf/stage-sample.pdf) · [디자인 가이드](DESIGN.md) · [입력 계약과 수량](CONFIG.md) · [원본 장면 비교 보드](research/index.html) · [사진·컬러 비교 보드](research/color.html) · [실제 세션 조사와 수정 기준](research/decisions.md)
 
 현재 예제는 **20장·16개 양식**입니다. [사진 모음](index.html#3), [디지털 크롭 비교](index.html#5), [컬러 선언](index.html#6), [결과물 2×2](index.html#10), [작품 콜라주](index.html#11), [유색 소개](index.html#12)를 바로 볼 수 있습니다. [예제와 연구 근거의 연결](EXAMPLES.md)도 기록했습니다.
 
@@ -56,13 +56,15 @@ open index.html
 
 차트의 `chart.rows`에는 항목 이름과 0 이상의 수치를 넣고, `chart.max`에 비교의 최댓값을 지정합니다. `highlight: true`인 행만 명도로 강조합니다. `quiet: true`를 지정하면 보조 라벨과 하단 문구를 숨길 수 있습니다.
 
-새 이미지 양식의 `items`에는 `src`, `alt`, `label`, `caption`, `fit`, `focalPoint`를 넣습니다. 사진 모음은 `variant: "portraits"`, 조건 비교는 `variant: "strip"`을 지정합니다. `mosaic`의 `span`은 1 또는 2이며 예제는 합이 8입니다. `results`는 네 항목을 권장합니다. 문서·UI·타이포 작품의 중요한 내용이 잘리지 않도록 `fit: "contain"`을 우선하세요.
+새 이미지 양식의 `items`에는 `src`, `alt`, `label`, `caption`, `fit`, `focalPoint`를 넣습니다. 사진 모음은 `variant: "portraits"`, 조건 비교는 `variant: "strip"`을 지정합니다. `mosaic`은 숫자 span 1 또는 2, 합계 8 이하를 4열×2행에 배치합니다. 작품 모음은 빈 칸을 채우며, 원본과 모바일 읽기 순서는 유지합니다. `results`는 1~4개를 지원합니다. 문서·UI·타이포 작품의 중요한 내용이 잘리지 않도록 `fit: "contain"`을 우선하세요.
 
 `tone`은 `orange`, `purple`, `blue`, `green`, `yellow` 중 하나이고, `highlight`에 강조할 문장이나 이름을 넣습니다. `surface: "butter"`는 그 장만 담황색 소개 화면으로 표시합니다. 범주는 항목별 `tone`에 `blue`, `green`, `orange`, `purple`을 사용합니다. `zoom`은 1~3의 **표시 프레임 기준 디지털 확대**이며 기본값은 1입니다. 광학 배율을 뜻하지 않습니다. 색·배치·이미지 경로는 `content.js`, 문장과 항목 설명은 화면의 편집 기능에서 바꿉니다.
 
 `styles.css`의 테마 색상과 공통 타이포를 바꾸면 전체 발표에 적용됩니다. `DESIGN.md`에서 각 레이아웃의 사용 기준과 권장 문장 길이를 확인할 수 있습니다.
 
 이미지와 영상은 `assets/`에 넣고 상대 경로로 연결하면 오프라인으로 재생할 수 있습니다. 외부 데모 링크는 연결된 사이트와 네트워크가 필요합니다. 현재 샘플은 실시간 외부 서비스에 의존하지 않습니다.
+
+다른 주제의 시작점은 [릴리스 회고 params](examples/project-review.js)입니다. 복사한 폴더의 루트 `content.js`를 이 파일의 내용으로 교체해 사용합니다. 필드 타입·수량 제한·오류 복구는 [CONFIG.md](CONFIG.md)를 참조하세요.
 
 ## 발표와 공유
 
@@ -78,7 +80,11 @@ open index.html
 | --- | --- |
 | `index.html` | 브라우저에서 여는 시작 파일 |
 | `content.js` | 재사용할 발표 내용과 노트 |
-| `app.js` | 탐색·편집·발표자 창 동작 |
+| `app.js` | 렌더링·탐색·편집·발표자 창·작성자 점검 |
+| `deck-model.js` | 입력 검증과 콜라주 배치 |
+| `CONFIG.md` | 파라미터 계약·수량·오류 복구 |
+| `examples/` | 다른 주제의 발표 데이터 예제 |
+| `tests/` | Node 기본 실행기로 검사하는 입력·배치 회귀 검증 |
 | `styles.css` | 레이아웃·테마·인쇄 스타일 |
 | `DESIGN.md` | 디자인 원칙과 레이아웃 사용법 |
 | `assets/` | 로컬 이미지와 데모 자료 |
@@ -108,3 +114,7 @@ open index.html
 실제 발표 기기의 글꼴과 화면 비율은 리허설에서 확인하세요. 이 기록은 다른 운영체제나 물리 리모컨의 검증을 뜻하지 않습니다.
 
 추가 사진·컬러 비교 보드는 8개 사례와 20개 근거 프레임의 로딩, 역할별 필터, 확대·닫기, 원본 시점 링크를 확인했습니다. 초기 보드에서 390px 화면의 필터·확대 창과 가로 넘침 없음을 확인했습니다. 최종판은 데스크톱에서 확인했으며, 이후 조정한 표지 배치와 이미지 높이를 모바일에서 다시 확인하지는 않았습니다. 이는 연구 보드의 확인 결과입니다.
+
+## 입력 안정성 검증
+
+입력·수량 오류는 해당 장에서 안내하고 원본 데이터를 보존합니다. 긴 문장은 실제 화면 크기에서 작성자 점검으로 알립니다. [수정과 검증 기록](research/reusability-hardening.md)에 실패 입력과 결과가 있습니다. `node --test tests/*.test.cjs` 43개와 실제 브라우저의 정상·실패 데이터, 모바일·발표자 창·PDF를 확인했습니다. 런타임에는 Node나 패키지 설치가 필요하지 않습니다.
