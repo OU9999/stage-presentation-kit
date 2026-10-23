@@ -4,13 +4,13 @@
 
 [전체 예제 미리보기](example-preview.png) · [표지 미리보기](preview.png) · [샘플 PDF](output/pdf/stage-sample.pdf) · [디자인 가이드](DESIGN.md) · [입력 계약과 수량](CONFIG.md) · [원본 장면 비교 보드](research/index.html) · [사진·컬러 비교 보드](research/color.html) · [실제 세션 조사와 수정 기준](research/decisions.md)
 
-**[Markdown 발표 예제 4개 열기](examples/index.html)** · [네 가지 결과 미리보기](examples/previews/collection.png) · [Markdown 작성법](MARKDOWN.md)
+**[Markdown 발표 예제 5개·35장 열기](examples/index.html)** · [다섯 가지 결과 미리보기](examples/previews/collection.png) · [Markdown 작성법](MARKDOWN.md)
 
-제품 소개·기술 개선 보고·사진 중심 이야기·워크숍을 각각 별도 발표로 제공합니다. 각 폴더에는 수정할 `slides.md`와 바로 열 수 있는 `index.html`이 있고, [PDF](output/pdf/)도 함께 보관합니다. 수치와 제품명은 양식 설명용 가상 예시입니다.
+제품 소개·기술 개선 보고·사진 중심 이야기·워크숍·현장 구성 연구를 각각 7장짜리 별도 발표로 제공합니다. 공통 렌더러는 19개 양식을 지원합니다. 각 폴더에는 수정할 `slides.md`와 바로 열 수 있는 `index.html`이 있고, [PDF](output/pdf/)도 함께 보관합니다. 수치와 제품명은 양식 설명용 가상 예시입니다.
 
-네 예제 모두 **Stage 검정 바탕·큰 글자·넉넉한 여백**을 기본으로 합니다. 사진과 결과물은 원래 컬러를 살리고, 강조 문장과 범주의 색으로 흐름을 만듭니다.
+다섯 예제 모두 **Stage 검정 바탕·큰 글자·넉넉한 여백**을 기본으로 합니다. 사진과 결과물은 원래 컬러를 살리고, 강조 문장과 범주의 색으로 흐름을 만듭니다.
 
-기존 양식 모음은 **20장·16개 양식**입니다. [사진 모음](index.html#3), [디지털 크롭 비교](index.html#5), [컬러 선언](index.html#6), [결과물 2×2](index.html#10), [작품 콜라주](index.html#11), [유색 소개](index.html#12)를 바로 볼 수 있습니다. [예제와 연구 근거의 연결](EXAMPLES.md)도 기록했습니다.
+기존 양식 모음은 **20장·16개 양식**입니다. [사진 모음](index.html#3), [디지털 크롭 비교](index.html#5), [컬러 선언](index.html#6), [결과물 2×2](index.html#10), [작품 콜라주](index.html#11), [보라색 이름 소개](index.html#12)를 바로 볼 수 있습니다. [예제와 연구 근거의 연결](EXAMPLES.md)도 기록했습니다.
 
 ## 시작하기
 
@@ -42,7 +42,7 @@ open index.html
 3. 생성된 `index.html`을 열어 발표합니다. 생성 후 재생에는 Node.js가 필요하지 않습니다.
 
 ```sh
-# 저장소의 네 가지 예제 다시 생성
+# 저장소의 다섯 가지 예제 다시 생성
 node scripts/build-examples.cjs
 
 # 수정한 Markdown을 새 폴더에 생성
@@ -76,15 +76,18 @@ Markdown을 쓰는 발표는 `slides.md`가 원본입니다. 생성된 `content.
 | `gallery` | 같은 비율의 사진 모음 `portraits` 또는 조건 비교 `strip` |
 | `mosaic` | 비율과 크기가 다른 작품·제품 콜라주 |
 | `results` | 짧은 주장 옆 문서·UI 등 결과물 2×2 |
-| `categories` | 아이콘·이름을 같은 의미색으로 연결한 범주 |
+| `categories` | 같은 선굵기의 자체 SVG 아이콘·이름을 의미색으로 연결한 범주 |
+| `bento` | 사진·UI·수치·짧은 문장을 서로 다른 폭과 높이의 12개 타일로 결합 |
+| `icon-wall` | 중앙 메시지 주위에 배치한 이미지 또는 의미 아이콘 1~22개 |
+| `metric-pair` | 같은 위계의 두 수치와 각 대상의 의미색 |
 
-`cover`, `statement`, `section`, `closing`에 `align: "center"`를 지정하면 중앙에 큰 메시지를 놓습니다. 이 변형에서는 반복 라벨과 하단 문구를 줄여 문장에 집중합니다. `chart`의 수치와 항목, `media`의 파일 경로도 같은 내용 파일에서 교체합니다. 샘플은 중립 문장 → 풀컬러 사진 → 조건 비교 → 유색 선언과 범주 → 발표자 소개 → 근거·결과물 → 소개 색면과 중립 복귀의 흐름입니다. 데이터는 실제 성과가 아닌 양식용 예시입니다.
+`cover`, `statement`, `section`, `closing`에 `align: "center"`를 지정하면 중앙에 큰 메시지를 놓습니다. 이 변형에서는 반복 라벨과 하단 문구를 줄여 문장에 집중합니다. `chart`의 수치와 항목, `media`의 파일 경로도 같은 내용 파일에서 교체합니다. 샘플은 중립 문장 → 풀컬러 사진 → 조건 비교 → 유색 선언과 범주 → 발표자 소개 → 근거·결과물 → 보라색 이름 소개와 중립 복귀의 흐름입니다. 데이터는 실제 성과가 아닌 양식용 예시입니다.
 
 차트의 `chart.rows`에는 항목 이름과 0 이상의 수치를 넣고, `chart.max`에 비교의 최댓값을 지정합니다. `highlight: true`인 행만 명도로 강조합니다. `quiet: true`를 지정하면 보조 라벨과 하단 문구를 숨길 수 있습니다.
 
 새 이미지 양식의 `items`에는 `src`, `alt`, `label`, `caption`, `fit`, `focalPoint`를 넣습니다. 사진 모음은 `variant: "portraits"`, 조건 비교는 `variant: "strip"`을 지정합니다. `mosaic`은 숫자 span 1 또는 2, 합계 8 이하를 4열×2행에 배치합니다. 작품 모음은 빈 칸을 채우며, 원본과 모바일 읽기 순서는 유지합니다. `results`는 1~4개를 지원합니다. 문서·UI·타이포 작품의 중요한 내용이 잘리지 않도록 `fit: "contain"`을 우선하세요.
 
-`tone`은 `orange`, `purple`, `blue`, `green`, `yellow` 중 하나이고, `highlight`에 강조할 문장이나 이름을 넣습니다. `surface: "butter"`는 그 장만 담황색 소개 화면으로 표시합니다. 범주는 항목별 `tone`에 `blue`, `green`, `orange`, `purple`을 사용합니다. `zoom`은 1~3의 **표시 프레임 기준 디지털 확대**이며 기본값은 1입니다. 광학 배율을 뜻하지 않습니다. 색·배치·이미지 경로는 `content.js`, 문장과 항목 설명은 화면의 편집 기능에서 바꿉니다.
+`tone`은 `orange`, `purple`, `blue`, `green`, `yellow` 중 하나이고, `highlight`에 강조할 문장이나 이름을 넣습니다. `surface: "butter"`는 그 장만 담황색 소개 화면으로 표시합니다. 범주와 새 혼합 구성은 항목별 `tone`에 `blue`, `green`, `orange`, `purple`, `yellow`, `white`를 사용합니다. 현재 예제는 검정 바탕을 유지합니다. `zoom`은 1~3의 **표시 프레임 기준 디지털 확대**이며 기본값은 1입니다. 광학 배율을 뜻하지 않습니다. 색·배치·이미지 경로는 `content.js`, 문장과 항목 설명은 화면의 편집 기능에서 바꿉니다.
 
 `styles.css`의 테마 색상과 공통 타이포를 바꾸면 전체 발표에 적용됩니다. `DESIGN.md`에서 각 레이아웃의 사용 기준과 권장 문장 길이를 확인할 수 있습니다.
 
@@ -109,7 +112,7 @@ Markdown을 쓰는 발표는 `slides.md`가 원본입니다. 생성된 `content.
 | `app.js` | 렌더링·탐색·편집·발표자 창·작성자 점검 |
 | `deck-model.js` | 입력 검증과 콜라주 배치 |
 | `CONFIG.md` | 파라미터 계약·수량·오류 복구 |
-| `examples/` | 네 가지 Markdown 발표·생성 결과·갤러리·기존 params 예제 |
+| `examples/` | 다섯 가지 Markdown 발표·35장 생성 결과·갤러리·기존 params 예제 |
 | `scripts/` | 패키지 설치 없는 Markdown 변환·예제 일괄 생성 |
 | `MARKDOWN.md` | 지원 Markdown 문법과 변환 규칙 |
 | `tests/` | Node 기본 실행기로 검사하는 입력·배치 회귀 검증 |
@@ -120,7 +123,7 @@ Markdown을 쓰는 발표는 `slides.md`가 원본입니다. 생성된 `content.
 
 ## 참고와 범위
 
-사진과 컬러는 별도로 추가 조사했습니다. [사진·컬러 비교 보드](research/color.html)에서 인물 이미지 모음, 조건별 사진 스트립, 작품 콜라주, 의미색, 유색 타이포, 발표자 소개 색면을 실제 프레임으로 비교할 수 있습니다. [DevDay 추가 조사](research/devday-color-photo-analysis.md)와 [외부 추가 조사](research/external-color-photo-analysis.md)는 전후 장면과 관찰 범위를 기록합니다. 중립 바탕을 원본 사진의 흑백 처리나 데이터·상태 이외의 색 금지로 해석하지 않습니다. 현재 예제는 풀컬러 스톡 사진 7장과 자체 제작 SVG를 사용하며, 다중 사진·결과물 모음·유색 소개 양식을 구현했습니다. [운영 기준과 구현 상태](research/color-design-criteria.md), [사진 크레딧](assets/CREDITS.md)을 함께 확인할 수 있습니다.
+사진과 컬러는 별도로 추가 조사했습니다. [사진·컬러 비교 보드](research/color.html)에서 인물 이미지 모음, 조건별 사진 스트립, 작품 콜라주, 의미색, 유색 타이포, 발표자 소개 색면을 실제 프레임으로 비교할 수 있습니다. [DevDay 추가 조사](research/devday-color-photo-analysis.md)와 [외부 추가 조사](research/external-color-photo-analysis.md)는 전후 장면과 관찰 범위를 기록합니다. 중립 바탕을 원본 사진의 흑백 처리나 데이터·상태 이외의 색 금지로 해석하지 않습니다. 현재 예제는 풀컬러 스톡 사진 7장과 자체 제작 SVG를 사용하며, 다중 사진·결과물 모음·의미색 아이콘·혼합 타일 양식을 구현했습니다. [운영 기준과 구현 상태](research/color-design-criteria.md), [사진 크레딧](assets/CREDITS.md)을 함께 확인할 수 있습니다.
 
 [OpenAI DevDay 2026 키노트](https://www.youtube.com/watch?v=Fls_onRviPM)와 [Codex Has Left The Laptop 세션](https://www.youtube.com/watch?v=XkKdbPhIvbY)의 실제 영상 구간을 재생하고 대표 프레임을 직접 확인했습니다. [Apple WWDC25](https://developer.apple.com/videos/play/wwdc2025/356/), [Figma Config 2025](https://www.youtube.com/watch?v=5q8YAUTYAyk), [Vercel Ship 2025](https://www.youtube.com/watch?v=lNmO7fDiyuE)도 비교했습니다. 사이트의 색상 대신 메시지·도표·시연의 배치와 정보량 차이를 참고한 독자 템플릿입니다.
 
@@ -128,9 +131,23 @@ Markdown을 쓰는 발표는 `slides.md`가 원본입니다. 생성된 `content.
 
 발표 재생은 설치 없이 유지하며, Markdown을 수정했을 때만 Node.js로 다시 생성합니다. 코드 하이라이트·수식·복잡한 Markdown 확장과 플러그인이 필요하면 [Slidev](https://sli.dev/)나 [reveal.js](https://revealjs.com/)도 별도로 검토할 수 있습니다.
 
-## 확인한 동작
+## 현장 사진에서 구현까지
 
-2026-10-23 macOS의 Chromium 154에서 데스크톱과 390×844 모바일 에뮬레이션으로 확인했습니다. 현재 20장 예제의 확인 범위는 다음과 같습니다.
+[원본과 적용 결과 비교](research/visual-implementation.html)에서 사진·아이콘·수치·혼합 타일의 변경을 볼 수 있습니다. [서울 조사](research/seoul-devday-visual-research-20261023.md), [도쿄·벵갈루루 조사](research/completed-cities-visual-research-20261023.md), [구현 diff와 수용 기준](research/visual-implementation-diff-20261023.md)을 별도로 남겼습니다.
+
+새 [현장 구성 예제](examples/devday-compositions/index.html)는 SF의 6열 사진과 의미색 범주, 서울의 아이콘월·두 수치, 서울과 도쿄에서 확인한 혼합 타일 구성을 재사용합니다. `bento`의 `seoul`·`recap`은 정확히 12개의 고정 슬롯을 사용하고, 문장·아이콘 키·이미지 경로·수치만 교체합니다. 기존 `mosaic`은 Figma 제품 데모와 가까운 독자 작품 모음으로 유지하며 현장 혼합 타일과 구분합니다.
+
+현장 사진은 연구 근거입니다. 발표 예제에는 스톡 사진과 자체 SVG를 사용하며 원본 로고·캐릭터·슬라이드를 넣지 않습니다. 도쿄의 모든 패턴이나 벵갈루루의 발표 전체를 구현했다는 뜻은 아닙니다. 확인한 장면과 남은 한계는 각 조사에 기록했습니다.
+
+## 이번 변경의 검증 상태
+
+`node --test tests/*.test.cjs` **111개 통과**. 5개 발표·35장과 기존20장, 총55장을 실제 키보드로 탐색해 경고·미디어 실패·브라우저 오류0을 확인했습니다. 390px 읽기·6개 발표의 오프라인 실행·새 양식의 편집/복원/다운로드·발표자 창 양방향 이동과 PDF55페이지 렌더도 확인했습니다. [검증 범위와 증거](research/implementation-verification-20261023.md).
+
+## 이전 버전에서 확인한 동작
+
+아래는 사진·컬러 양식을 추가했을 때의 검증 이력입니다. 이번 혼합 타일·아이콘월 추가분의 최종 검증을 대신하지 않습니다.
+
+2026-10-23 macOS의 Chromium 154에서 데스크톱과 390×844 모바일 에뮬레이션으로 확인했습니다. 당시 20장 예제의 확인 범위는 다음과 같습니다.
 
 - 20장 전체의 렌더링과 텍스트 잘림 없음, 16개 양식, 사진·SVG 로딩. 사진과 작품의 주요 크롭도 직접 검수했습니다.
 - 새 사진 모음의 항목 설명 편집·새로고침 복원·실제 `content.js` 다운로드와 데이터 확인.
@@ -143,6 +160,6 @@ Markdown을 쓰는 발표는 `slides.md`가 원본입니다. 생성된 `content.
 
 추가 사진·컬러 비교 보드는 8개 사례와 20개 근거 프레임의 로딩, 역할별 필터, 확대·닫기, 원본 시점 링크를 확인했습니다. 초기 보드에서 390px 화면의 필터·확대 창과 가로 넘침 없음을 확인했습니다. 최종판은 데스크톱에서 확인했으며, 이후 조정한 표지 배치와 이미지 높이를 모바일에서 다시 확인하지는 않았습니다. 이는 연구 보드의 확인 결과입니다.
 
-## 입력 안정성 검증
+## 이전 입력 안정성 검증
 
 입력·수량 오류는 해당 장에서 안내하고 원본 데이터를 보존합니다. 긴 문장은 실제 화면 크기에서 작성자 점검으로 알립니다. [수정과 검증 기록](research/reusability-hardening.md)에 실패 입력과 결과가 있습니다. `node --test tests/*.test.cjs` 43개와 실제 브라우저의 정상·실패 데이터, 모바일·발표자 창·PDF를 확인했습니다. 런타임에는 Node나 패키지 설치가 필요하지 않습니다.

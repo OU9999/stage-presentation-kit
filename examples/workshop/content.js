@@ -26,37 +26,33 @@ window.PRESENTATION = {
       "title": [
         "먼저,",
         "한 문장으로."
-      ],
-      "subtitle": "오늘 전달할 생각을 짧게 적어봅니다."
+      ]
     },
     {
       "layout": "categories",
+      "align": "center",
       "quiet": true,
       "notes": "색을 활동의 역할과 연결합니다. 이름과 심벌을 함께 써서 색만으로 의미를 전달하지 않습니다.",
       "items": [
         {
-          "symbol": "◉",
           "label": "기록",
-          "description": "무엇을 보았나요?",
-          "tone": "blue"
+          "tone": "blue",
+          "icon": "record"
         },
         {
-          "symbol": "↔",
           "label": "비교",
-          "description": "어떤 차이가 있나요?",
-          "tone": "green"
+          "tone": "green",
+          "icon": "compare"
         },
         {
-          "symbol": "✳",
           "label": "선택",
-          "description": "무엇을 남길까요?",
-          "tone": "orange"
+          "tone": "orange",
+          "icon": "select"
         },
         {
-          "symbol": "↗",
           "label": "공유",
-          "description": "어떻게 전할까요?",
-          "tone": "purple"
+          "tone": "purple",
+          "icon": "share"
         }
       ],
       "title": "네 가지 질문으로 점검합니다."

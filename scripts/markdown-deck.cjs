@@ -18,12 +18,16 @@ const FIELDS = {
   media: MEDIA, demo: ["title", "steps", "url", ...MEDIA], quote: ["quote", "attribution", "support"],
   steps: ["title", "steps"], gallery: ["title", "subtitle", "items", "variant", "source"],
   mosaic: ["title", "subtitle", "items", "source"], results: ["title", "subtitle", "items", "source"],
-  categories: ["title", "subtitle", "items", "source"]
+  categories: ["title", "subtitle", "items", "source"],
+  bento: ["title", "subtitle", "items", "preset", "source"],
+  "icon-wall": ["title", "subtitle", "items", "source"],
+  "metric-pair": ["title", "items", "support", "source"]
 };
 const PARAGRAPH = {
   cover: "subtitle", statement: "subtitle", section: "subtitle", closing: "takeaway",
   metric: "support", chart: "subtitle", image: "caption", media: "caption", demo: "caption",
-  quote: "attribution", gallery: "subtitle", mosaic: "subtitle", results: "subtitle", categories: "subtitle"
+  quote: "attribution", gallery: "subtitle", mosaic: "subtitle", results: "subtitle", categories: "subtitle",
+  bento: "subtitle", "icon-wall": "subtitle", "metric-pair": "support"
 };
 const own = (object, key) => Object.prototype.hasOwnProperty.call(object, key);
 const record = value => value !== null && typeof value === "object" && !Array.isArray(value);

@@ -6,7 +6,7 @@
  * gallery.variant: portraits | strip / items: src, alt, label, caption, fit, focalPoint
  * mosaic: items[].span=1|2; 예제는 합계8. results: items 4개. categories: 항목별 tone.
  * tone: orange | purple | blue | green | yellow. highlight: 강조할 문장/이름 전체.
- * surface: butter 는 그 장만 밝은 소개 색면으로 표시합니다.
+ * surface: butter 는 선택적 소개 색면입니다. 기본 예제는 검정 무대를 유지합니다.
  * zoom: 1~3(표시 프레임의 디지털 확대). fit/focalPoint/zoom을 함께 확인하세요.
  * quiet:true는 반복 라벨/푸터를 숨깁니다. notes는 발표자 창에서 읽습니다.
  */
@@ -43,59 +43,51 @@ window.PRESENTATION = {
       "layout": "gallery",
       "variant": "portraits",
       "quiet": true,
-      "title": "여섯 장면, 여섯 개의 시선.",
       "items": [
         {
           "src": "assets/photos/capture.jpg",
           "alt": "거리에서 휴대폰으로 장면을 기록하는 인물",
-          "label": "저마다의 시선으로",
-          "caption": "다음 장면의 시작",
+          "label": "시선을 담아,\n장면을 기록합니다.",
           "fit": "cover",
-          "focalPoint": "47% 38%"
+          "focalPoint": "68% 45%"
         },
         {
           "src": "assets/photos/listen.jpg",
           "alt": "창가에서 헤드폰을 쓰고 노트북을 사용하는 인물",
-          "label": "소리에 집중하고",
-          "caption": "몰입하는 시간",
+          "label": "소리를 듣고,\n작업에 집중합니다.",
           "fit": "cover",
-          "focalPoint": "52% 30%"
+          "focalPoint": "52% 40%"
         },
         {
           "src": "assets/photos/write.jpg",
           "alt": "야외 테이블에서 노트에 생각을 적는 인물",
-          "label": "잠시 생각을 모으고",
-          "caption": "한 줄의 메모",
+          "label": "생각을 적어,\n다음으로 이어갑니다.",
           "fit": "cover",
-          "focalPoint": "48% 33%"
+          "focalPoint": "45% 50%"
         },
         {
           "src": "assets/photos/observe.jpg",
           "alt": "한쪽 눈에 돋보기를 대고 관찰하는 인물",
-          "label": "다시 들여다보고",
-          "caption": "다르게 보는 눈",
+          "label": "작은 차이를,\n다시 들여다봅니다.",
           "fit": "cover",
           "focalPoint": "48% 34%"
         },
         {
           "src": "assets/photos/portrait-one.jpg",
           "alt": "작업 공간에서 현금을 들고 앉아 있는 인물",
-          "label": "일상에서 발견하고",
-          "caption": "익숙한 공간",
+          "label": "일상 가까이,\n가능성을 발견합니다.",
           "fit": "cover",
           "focalPoint": "48% 30%"
         },
         {
           "src": "assets/photos/portrait-two.jpg",
           "alt": "도시 거리에서 갈색 옷을 입고 서 있는 인물",
-          "label": "다음으로 나아갑니다",
-          "caption": "새로운 장면",
+          "label": "밖으로 나가,\n새로운 시선을 만납니다.",
           "fit": "cover",
           "focalPoint": "49% 28%"
         }
       ],
-      "source": "사진: Pexels · 인물 장면을 보여주는 스톡 이미지",
-      "notes": "DevDay 48:30의 동일한 세로 틀과 상단 설명을 참고했습니다. 실제 행사 참여자 소개가 아닌 스톡 장면 모음입니다. src·alt·label·caption·focalPoint를 함께 바꾸세요. 사진의 색은 보존하고 틀과 간격으로 정돈합니다."
+      "notes": "SF 키노트 48:30의 상단 설명과 동일 세로 프레임을 16:9로 재구성했습니다. 사진은 서로 다른 Pexels 스톡 장면이며 원본의 통일 촬영 시리즈를 재현한 것은 아닙니다. 원래 색을 유지하고 행동이 보이는 크롭을 선택했습니다. 작가와 원본: assets/CREDITS.md. src·alt·label·focalPoint를 함께 바꾸세요."
     },
     {
       "id": "full-color-scene",
@@ -177,31 +169,28 @@ window.PRESENTATION = {
       "title": "색에는, 역할을 맡깁니다.",
       "items": [
         {
-          "symbol": "◉",
           "label": "관찰",
-          "description": "원래의 색을 보존합니다.",
-          "tone": "blue"
+          "tone": "blue",
+          "icon": "search"
         },
         {
-          "symbol": "↔",
           "label": "비교",
-          "description": "조건과 대상을 연결합니다.",
-          "tone": "green"
+          "tone": "green",
+          "icon": "compare"
         },
         {
-          "symbol": "✳",
           "label": "강조",
-          "description": "한 메시지에 시선을 모읍니다.",
-          "tone": "orange"
+          "tone": "orange",
+          "icon": "select"
         },
         {
-          "symbol": "↗",
           "label": "전환",
-          "description": "새로운 시작을 알립니다.",
-          "tone": "purple"
+          "tone": "purple",
+          "icon": "share"
         }
       ],
-      "notes": "DevDay 23:00의 범주 아이콘과 같은 색 라벨에서 도출한 예시입니다. 아이콘·이름·설명을 함께 써서 색만으로 의미를 전달하지 않습니다. 실제 프로젝트의 범주로 바꾸세요."
+      "notes": "SF 키노트 23:00의 원형 픽토그램과 같은 색 이름을 참고한 독자 SVG입니다. 아이콘 키와 라벨을 함께 바꾸세요. 추가 질문과 설명은 말로 덧붙이고 화면에는 범주만 남깁니다.",
+      "align": "center"
     },
     {
       "id": "new-voice",
@@ -256,34 +245,29 @@ window.PRESENTATION = {
         "하나의 생각이,",
         "다양한 결과로."
       ],
-      "subtitle": "문서, 데이터, 이미지, 화면으로 이어집니다.",
       "items": [
         {
           "src": "assets/examples/report.svg",
           "alt": "관찰 과정을 정리한 독자 제작 예시 문서",
-          "label": "문서",
           "fit": "contain"
         },
         {
           "src": "assets/examples/objects.svg",
           "alt": "파랑 입체 도형과 주황 구체의 독자 제작 이미지",
-          "label": "이미지",
           "fit": "contain"
         },
         {
           "src": "assets/examples/dashboard.svg",
           "alt": "가상 지표와 파란 선 도표가 있는 독자 제작 대시보드",
-          "label": "데이터",
           "fit": "contain"
         },
         {
           "src": "assets/workspace-demo.svg",
           "alt": "문서와 편집 화면을 보여주는 독자 제작 작업 공간 UI",
-          "label": "작업 화면",
           "fit": "contain"
         }
       ],
-      "source": "자체 제작 · 양식용 가상 문서와 화면",
+      "source": "자체 제작 · 양식용 가상 자료",
       "notes": "DevDay 25:00의 주장 옆 2×2 결과물 배열을 참고했습니다. 사람 사진 모음과 다른 양식입니다. 문서와 UI는 잘리지 않도록 contain을 기본으로 두고, 실제 자료와 출처로 바꾸세요."
     },
     {
@@ -332,19 +316,20 @@ window.PRESENTATION = {
         }
       ],
       "source": "사진: Pexels · 포스터·문서·도형: 자체 제작",
-      "notes": "Figma 데모의 비대칭 작품 배열과 DevDay 후반의 제품 요약을 함께 참고했습니다. span 합은 8입니다(2+1+1 / 1+1+2). 서로 다른 비율과 색을 보존하며 외곽과 간격을 맞춥니다. 처음 설명하는 장면보다 결과를 회수할 때 쓰기 좋습니다."
+      "notes": "Figma 제품 데모 계열의 4×2 작품 모음입니다. span 합은 8입니다. DevDay 현장 사진의 12개 혼합 타일은 별도 bento 양식과 devday-compositions 예제를 사용하세요."
     },
     {
       "id": "warm-introduction",
       "layout": "section",
       "align": "center",
       "quiet": true,
-      "surface": "butter",
       "title": [
         "이서윤"
       ],
       "subtitle": "다음 이야기를 만드는 사람.",
-      "notes": "Figma의 연노랑 발표자 소개 색면을 참고했습니다. 이름은 가상의 예시입니다. surface: butter는 이 장만 밝은 색면과 어두운 글자로 표시합니다. 모든 챕터의 기본 배경이라는 뜻이 아닙니다."
+      "notes": "SF 키노트의 보라색 이름 소개를 참고해 검정 무대 위에 큰 이름을 놓았습니다. 가상 이름을 발표자 이름으로 바꾸세요. 밝은 butter 표면은 선택 기능으로만 유지합니다.",
+      "tone": "purple",
+      "highlight": "이서윤"
     },
     {
       "id": "back-to-message",
@@ -353,7 +338,7 @@ window.PRESENTATION = {
       "title": [
         "이제, 핵심에 집중합니다."
       ],
-      "notes": "소개용 색면 다음에 중립적인 큰 문장으로 돌아옵니다. 컬러를 쓴 뒤의 화면 밀도와 역할까지 함께 설계하는 예시입니다."
+      "notes": "이름 소개 다음에 중립적인 큰 문장으로 돌아옵니다."
     },
     {
       "id": "comparison",

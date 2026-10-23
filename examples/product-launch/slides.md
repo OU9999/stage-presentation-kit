@@ -29,7 +29,6 @@ notes: 제품의 기능 목록보다 사용자가 얻을 한 가지 변화를 �
 # 기다리는 시간을,
 # 다음 행동으로.
 
-한곳이 제안하는 가상의 작업 흐름입니다.
 
 ---
 
@@ -60,17 +59,32 @@ notes: 제품의 결과를 가상 문서와 이미지로 보여주는 장입니�
 # 정리한 생각이,
 # 여러 결과로.
 
-가상 문서와 화면으로 출력의 형태를 설명합니다.
 
 ```stage
 {
   "items": [
-    { "src": "../../assets/examples/report.svg", "alt": "자체 제작한 가상 관찰 보고서", "label": "문서", "fit": "contain" },
-    { "src": "../../assets/examples/dashboard.svg", "alt": "가상 수치를 담은 자체 제작 지표판", "label": "지표", "fit": "contain" },
-    { "src": "../../assets/examples/poster-wide.svg", "alt": "자체 제작한 보라색 타이포 포스터", "label": "표현", "fit": "contain" },
-    { "src": "../../assets/examples/objects.svg", "alt": "파랑과 주황 도형으로 만든 자체 제작 이미지", "label": "이미지", "fit": "contain" }
+    {
+      "src": "../../assets/examples/report.svg",
+      "alt": "자체 제작한 가상 관찰 보고서",
+      "fit": "contain"
+    },
+    {
+      "src": "../../assets/examples/dashboard.svg",
+      "alt": "가상 수치를 담은 자체 제작 지표판",
+      "fit": "contain"
+    },
+    {
+      "src": "../../assets/examples/poster-wide.svg",
+      "alt": "자체 제작한 보라색 타이포 포스터",
+      "fit": "contain"
+    },
+    {
+      "src": "../../assets/examples/objects.svg",
+      "alt": "파랑과 주황 도형으로 만든 자체 제작 이미지",
+      "fit": "contain"
+    }
   ],
-  "source": "자체 제작한 가상 결과물 · 실제 제품 화면이 아닙니다."
+  "source": "자체 제작 · 양식용 가상 자료"
 }
 ```
 

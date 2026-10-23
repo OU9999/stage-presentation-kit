@@ -15,3 +15,15 @@ The photographs are downloaded local files. Opening the deck does not contact a 
 Photo source pages and the [Pexels License](https://www.pexels.com/license/) were checked on 2026-10-23. Gallery fit/focalPoint and zoom change the display crop; no grayscale filter or color tint is applied. Digital zoom is a CSS display demonstration, not an optical camera comparison.
 
 The five files in `examples/` are original SVG illustrations made for this kit. Their documents, figures and UI data are fictional examples. They do not reproduce OpenAI, Figma or Apple assets. The two SVG files in the parent assets folder were also made for this kit.
+
+The three SVG files in `stage/` are also original assets made for this kit:
+
+| File | Content |
+| --- | --- |
+| `stage/shape-study.svg` | Colored geometric objects, 720×960 |
+| `stage/work-panel.svg` | Fictional project interface, 960×720 |
+| `stage/signal-study.svg` | Glass-ring artwork for a fictional product, 720×1080 |
+
+The 20 semantic icons drawn inline in `app.js` are original geometric SVG drawings with a shared 24×24 viewBox and 1.8 stroke weight. Their names describe ideas and actions; they are not service logos or a list of sponsors. The icon wall can also display a user's own local icon images without changing their colors.
+
+Photographs and video frames in `research/evidence/` are source evidence for comparison, credited in the linked research reports and manifests. They are separate from the reusable example assets. The examples apply composition principles using the stock photographs and original SVGs listed here; they do not embed the original event slides, app logos or characters.

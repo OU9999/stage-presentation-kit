@@ -3,7 +3,7 @@
 const path = require("node:path");
 const { buildDeck } = require("./markdown-deck.cjs");
 const repoRoot = path.resolve(__dirname, "..");
-const slugs = ["product-launch", "engineering-review", "photo-story", "workshop"];
+const slugs = ["product-launch", "engineering-review", "photo-story", "workshop", "devday-compositions"];
 function buildExamples() {
   return slugs.map(slug => {
     const directory = path.join(repoRoot, "examples", slug);

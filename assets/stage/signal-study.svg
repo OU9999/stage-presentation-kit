@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1080" viewBox="0 0 720 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Signal study — original product visual</title>
+  <desc id="desc">An independent blue and violet glass ring on a dark background for a fictional product named Signal. This is not a real company product.</desc>
+  <defs>
+    <radialGradient id="bg" cx="55%" cy="49%" r="70%"><stop stop-color="#162545"/><stop offset=".6" stop-color="#10131f"/><stop offset="1" stop-color="#090b10"/></radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c3ddff"/><stop offset=".22" stop-color="#6ab8f4"/><stop offset=".48" stop-color="#5c6fce"/><stop offset=".77" stop-color="#b59af5"/><stop offset="1" stop-color="#355986"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#7db4ff" stop-opacity=".24"/><stop offset="1" stop-color="#7db4ff" stop-opacity="0"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="23"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h720v1080H0z"/>
+  <ellipse cx="370" cy="566" rx="332" ry="368" fill="url(#light)"/>
+  <ellipse cx="360" cy="833" rx="200" ry="24" fill="#2d4e83" opacity=".45" filter="url(#glow)"/>
+  <g transform="rotate(-24 360 557)">
+    <ellipse cx="360" cy="560" rx="218" ry="265" fill="none" stroke="#314a79" stroke-width="74" opacity=".25" filter="url(#glow)"/>
+    <ellipse cx="360" cy="557" rx="199" ry="252" fill="none" stroke="url(#ring)" stroke-width="65"/>
+    <ellipse cx="354" cy="550" rx="213" ry="265" fill="none" stroke="#c8e6ff" stroke-width="3" opacity=".75"/>
+    <ellipse cx="359" cy="556" rx="168" ry="218" fill="none" stroke="#243752" stroke-width="5" opacity=".9"/>
+  </g>
+  <circle cx="536" cy="362" r="31" fill="#e6d9ff"/>
+  <circle cx="165" cy="691" r="11" fill="#80bcf2"/>
+  <g font-family="Arial, sans-serif" fill="#f3f5f9">
+    <text x="360" y="144" font-size="72" text-anchor="middle" letter-spacing="-3">Signal</text>
+    <text x="360" y="192" font-size="20" fill="#94a4bf" text-anchor="middle" letter-spacing="4">ONE CLEAR CONNECTION</text>
+    <text x="360" y="967" font-size="17" text-anchor="middle" fill="#a5b0c5">A study in color, light and form.</text>
+    <text x="360" y="1011" font-size="12" text-anchor="middle" letter-spacing="1.5" fill="#68768f">ORIGINAL ARTWORK · FICTIONAL PRODUCT</text>
+  </g>
+</svg>

@@ -15,8 +15,32 @@
   var params = new URLSearchParams(location.search);
   var isPresenter = params.get("presenter") === "1";
   var themes = ["stage", "paper", "midnight"];
-  var names = { cover: "표지", statement: "큰 문장", section: "섹션", compare: "비교", metric: "숫자", image: "이미지", demo: "데모", quote: "인용", steps: "단계", closing: "마무리", chart: "메시지와 차트", media: "전체 화면 시연", gallery: "이미지 갤러리", mosaic: "이미지 모자이크", results: "메시지와 결과", categories: "분류와 역할" };
+  var names = { cover: "표지", statement: "큰 문장", section: "섹션", compare: "비교", metric: "숫자", image: "이미지", demo: "데모", quote: "인용", steps: "단계", closing: "마무리", chart: "메시지와 차트", media: "전체 화면 시연", gallery: "이미지 갤러리", mosaic: "이미지 모자이크", results: "메시지와 결과", categories: "분류와 역할", bento: "혼합 결과 타일", "icon-wall": "아이콘월", "metric-pair": "두 수치 비교" };
   var tones = ["orange", "purple", "blue", "green", "yellow"];
+  var itemTones = tones.concat("white");
+  // Original geometric drawings, with one viewBox and stroke weight; no font glyphs or brand logos.
+  var iconPaths = {
+    brain: "M9 5a3 3 0 0 0-5 2 3.5 3.5 0 0 0-1 6 3.5 3.5 0 0 0 4 5 3 3 0 0 0 5 2V5a3 3 0 0 0-3 0ZM15 5a3 3 0 0 1 5 2 3.5 3.5 0 0 1 1 6 3.5 3.5 0 0 1-4 5 3 3 0 0 1-5 2M7 8c3 0 3 4 1 5M5 14c2-1 4 0 4 2M17 8c-3 0-3 4-1 5M19 14c-2-1-4 0-4 2",
+    price: "M15.5 7.5c-1-2-6-2-6 1 0 3 6 2 6 5 0 3-5 3-7 1M12 4v15M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z",
+    speed: "m13 2-9 12h7l-1 8 10-13h-7l1-7Z",
+    image: "M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2ZM3 17l6-6 5 5 3-3 4 4M10 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z",
+    voice: "M3 10v4M7.5 6v12M12 3v18M16.5 7v10M21 10v4",
+    record: "M8 4H5v17h14V4h-3M8 2h8v5H8V2ZM8 11h8M8 15h8M8 18h5",
+    compare: "M3 7h16m-4-4 4 4-4 4M21 17H5m4-4-4 4 4 4",
+    select: "m4 3 6 17 3-7 7-3L4 3ZM14 15l5 5",
+    share: "M9 8l6-3M9 16l6 3M9 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM21 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM21 20a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z",
+    code: "m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18",
+    chart: "M3 3v18h18M7 16v-5M12 16V7M17 16V4",
+    search: "M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm-2 5 6 6",
+    book: "M12 5c-3-2-6-2-10-1v15c4-1 7-1 10 1 3-2 6-2 10-1V4c-4-1-7-1-10 1Zm0 0v15",
+    calendar: "M5 4h14a2 2 0 0 1 2 2v14H3V6a2 2 0 0 1 2-2ZM7 2v5m10-5v5M3 9h18M7 13h2m6 0h2M7 17h2m6 0h2",
+    mail: "M3 5h18v14H3V5Zm0 0 9 8 9-8",
+    globe: "M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM3 12h18M12 3c-5 5-5 13 0 18 5-5 5-13 0-18Z",
+    check: "m6 12 4 4 8-8M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z",
+    folder: "M3 5h7l2 3h9v12H3V5Z",
+    music: "M10 17V4l11-2v13M10 7l11-2M10 17c0 4-7 5-7 1 0-3 7-4 7-1Zm11-2c0 4-7 5-7 1 0-3 7-4 7-1Z",
+    spark: "m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5L12 2Z"
+  };
   var storageKey = "stage-kit:v1:" + (record(original) && typeof original.id === "string" ? original.id : "deck") + ":" + location.pathname;
   var sourceSignature;
   try { sourceSignature = JSON.stringify(original); } catch (_) { sourceSignature = null; }
@@ -82,6 +106,22 @@
     if (className) el.className = className;
     if (text !== undefined && text !== null) el.textContent = String(text);
     return el;
+  }
+
+  function semanticIcon(name) {
+    var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("viewBox", "0 0 24 24");
+    svg.setAttribute("fill", "none");
+    svg.setAttribute("stroke", "currentColor");
+    svg.setAttribute("stroke-width", "1.8");
+    svg.setAttribute("stroke-linecap", "round");
+    svg.setAttribute("stroke-linejoin", "round");
+    svg.setAttribute("aria-hidden", "true");
+    svg.setAttribute("focusable", "false");
+    var path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", owns(iconPaths, name) ? iconPaths[name] : "");
+    svg.append(path);
+    return svg;
   }
 
   function valueAt(object, path) {
@@ -225,6 +265,7 @@
     var layout = owns(names, slide.layout) ? slide.layout : "statement";
     var article = element("article", "slide layout-" + layout);
     article.dataset.layout = layout;
+    article.dataset.hasTitle = slide.title ? "true" : "false";
     article.dataset.index = String(index);
     article.dataset.theme = slide.theme || state.theme;
     if (tones.indexOf(slide.tone) >= 0) article.dataset.tone = slide.tone;
@@ -268,6 +309,22 @@
       number.append(field("span", "metric-number", slide, "value"));
       optional(number, "span", "metric-unit", slide, "unit");
       body.append(number, field("h1", "metric-label", slide, "label"));
+      optional(body, "p", "metric-support", slide, "support");
+      optional(body, "p", "source-line", slide, "source");
+    } else if (layout === "metric-pair") {
+      if (slide.title) body.append(title(slide));
+      var metricPairs = element("div", "metric-pair-grid");
+      slide.items.forEach(function (item, itemIndex) {
+        var metricItem = element("section", "metric-pair-item");
+        var metricPath = "items." + itemIndex + ".";
+        if (itemTones.indexOf(item.tone) >= 0) metricItem.dataset.tone = item.tone;
+        var metricValue = element("div", "metric-value");
+        metricValue.append(field("span", "metric-number", slide, metricPath + "value"));
+        optional(metricValue, "span", "metric-unit", slide, metricPath + "unit");
+        metricItem.append(metricValue, field("h2", "metric-label", slide, metricPath + "label"));
+        metricPairs.append(metricItem);
+      });
+      body.append(metricPairs);
       optional(body, "p", "metric-support", slide, "support");
       optional(body, "p", "source-line", slide, "source");
     } else if (layout === "chart") {
@@ -352,10 +409,11 @@
         slide.items.forEach(function (item, itemIndex) {
           item = item || {};
           var category = element("section", "category-item");
-          if (["blue", "green", "orange", "purple"].indexOf(item.tone) >= 0) category.dataset.tone = item.tone;
+          if (itemTones.indexOf(item.tone) >= 0) category.dataset.tone = item.tone;
           var icon = element("div", "category-icon");
-          var symbol = field("span", "category-symbol", slide, "items." + itemIndex + ".symbol");
+          var symbol = item.icon ? element("span", "category-symbol") : field("span", "category-symbol", slide, "items." + itemIndex + ".symbol");
           symbol.setAttribute("aria-hidden", "true");
+          if (item.icon) symbol.append(semanticIcon(item.icon));
           icon.append(symbol);
           category.append(icon, field("h2", "category-label", slide, "items." + itemIndex + ".label"));
           optional(category, "p", "category-description", slide, "items." + itemIndex + ".description");
@@ -363,6 +421,79 @@
         });
       }
       body.append(categoryGrid);
+      optional(body, "p", "source-line", slide, "source");
+    } else if (layout === "bento") {
+      if (slide.title) body.append(title(slide));
+      optional(body, "p", "slide-subtitle", slide, "subtitle");
+      var composition = model.bentoPreset(slide.preset);
+      var bento = element("div", "bento-grid");
+      article.dataset.preset = slide.preset || "recap";
+      bento.style.setProperty("--bento-columns", String(composition.columns));
+      bento.style.setProperty("--bento-rows", String(composition.rows));
+      slide.items.forEach(function (item, itemIndex) {
+        var slot = composition.slots[itemIndex];
+        var tile = element("figure", "bento-item");
+        var tilePath = "items." + itemIndex + ".";
+        tile.dataset.type = item.type;
+        tile.dataset.itemIndex = String(itemIndex);
+        tile.dataset.columnSpan = String(slot.columnSpan);
+        tile.dataset.rowSpan = String(slot.rowSpan);
+        tile.style.gridColumn = slot.column + " / span " + slot.columnSpan;
+        tile.style.gridRow = slot.row + " / span " + slot.rowSpan;
+        if (itemTones.indexOf(item.tone) >= 0) tile.dataset.tone = item.tone;
+        if (item.type === "media") {
+          tile.append(media(item, preview, tilePath));
+          if (item.label || item.caption) {
+            var tileCaption = element("figcaption", "bento-media-caption");
+            optional(tileCaption, "div", "bento-label", slide, tilePath + "label");
+            optional(tileCaption, "p", "bento-text", slide, tilePath + "caption");
+            tile.append(tileCaption);
+          }
+        } else {
+          var bentoCopy = element("div", "bento-copy");
+          if (item.type === "metric") {
+            var bentoValue = element("div", "bento-value");
+            bentoValue.append(field("span", "bento-number", slide, tilePath + "value"));
+            optional(bentoValue, "span", "bento-unit", slide, tilePath + "unit");
+            bentoCopy.append(bentoValue);
+          }
+          optional(bentoCopy, "div", "bento-label", slide, tilePath + "label");
+          if (item.type === "text") bentoCopy.append(field("p", "bento-text", slide, tilePath + "text"));
+          tile.append(bentoCopy);
+        }
+        bento.append(tile);
+      });
+      body.append(bento);
+      optional(body, "p", "source-line", slide, "source");
+    } else if (layout === "icon-wall") {
+      var wall = element("div", "icon-wall-grid");
+      var wallCopy = element("div", "icon-wall-copy");
+      if (slide.title) wallCopy.append(title(slide));
+      optional(wallCopy, "p", "slide-subtitle", slide, "subtitle");
+      wall.append(wallCopy);
+      var wallSlots = model.iconWallSlots(slide.items.length);
+      slide.items.forEach(function (item, itemIndex) {
+        var wallItem = element("figure", "icon-wall-item");
+        var wallPath = "items." + itemIndex + ".";
+        wallItem.dataset.itemIndex = String(itemIndex);
+        wallItem.style.gridColumn = String(wallSlots[itemIndex].column);
+        wallItem.style.gridRow = String(wallSlots[itemIndex].row);
+        if (itemTones.indexOf(item.tone) >= 0) wallItem.dataset.tone = item.tone;
+        var wallIcon;
+        if (item.icon) {
+          wallIcon = element("div", "icon-wall-icon");
+          wallIcon.append(semanticIcon(item.icon));
+          wallIcon.setAttribute("role", "img");
+          wallIcon.setAttribute("aria-label", item.alt || item.label || item.icon);
+        } else {
+          wallIcon = media(Object.assign({}, item, { fit: "contain" }), preview, wallPath);
+          wallIcon.classList.add("icon-wall-icon");
+        }
+        wallItem.append(wallIcon);
+        optional(wallItem, "figcaption", "icon-wall-label", slide, wallPath + "label");
+        wall.append(wallItem);
+      });
+      body.append(wall);
       optional(body, "p", "source-line", slide, "source");
     } else if (layout === "media") {
       body.append(media(slide, preview));

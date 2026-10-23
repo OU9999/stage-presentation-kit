@@ -251,3 +251,37 @@ test('TC-M12 rebuilding changed Markdown and shared runtime updates their cache 
   const runtimeChanged = buildDeck(input, output, { repoRoot: runtime });
   assert.notEqual(reference(fs.readFileSync(runtimeChanged.files.index, 'utf8'), 'app.js'), priorApp, 'changed runtime content must get a fresh script address');
 });
+
+test('TC-V17 the fifth composition example retains seven authored slides and completes nineteen-layout local reuse', () => {
+  const directory = path.join(repoRoot, 'examples', 'devday-compositions');
+  const sourcePath = path.join(directory, 'slides.md');
+  const expected = parseMarkdown(fs.readFileSync(sourcePath, 'utf8'), { sourcePath, outputDir: directory, repoRoot });
+  const actual = readContent(path.join(directory, 'content.js')).deck;
+  assert.deepEqual(actual, expected, 'the displayed example must come from its committed Markdown source');
+  assert.equal(actual.slides.length, 7, 'the complete seven-slide composition example must be retained');
+  assert.equal(actual.theme, 'stage', 'the new example must retain the neutral DevDay stage theme');
+  assert.deepEqual(modelErrors(actual), []);
+  for (const layout of ['bento', 'icon-wall', 'metric-pair']) assert.ok(actual.slides.some(slide => slide.layout === layout), `${layout}: the new composition must be demonstrated`);
+
+  const references = [...fs.readFileSync(path.join(directory, 'index.html'), 'utf8').matchAll(/(?:src|href)="([^"]+)"/g)].map(match => match[1]);
+  for (const slide of actual.slides) {
+    for (const item of [slide, ...(slide.items || [])]) {
+      for (const key of ['src', 'video', 'poster']) if (item[key]) references.push(item[key]);
+    }
+  }
+  for (const reference of references) {
+    if (reference.startsWith('#') || reference.startsWith('data:')) continue;
+    assert.ok(!/^[a-z][a-z\d+.-]*:/i.test(reference), `runtime media and code must work offline: ${reference}`);
+    assert.ok(!path.isAbsolute(reference), `runtime paths must survive moving the repository: ${reference}`);
+    const resolved = path.resolve(directory, decodeURIComponent(reference.split(/[?#]/, 1)[0]));
+    assert.ok(fs.statSync(resolved).isFile(), `the referenced local file must exist: ${reference}`);
+    assert.ok(!resolved.startsWith(path.join(repoRoot, 'research', 'evidence') + path.sep), 'reference photographs must stay research evidence instead of becoming presentation assets');
+  }
+  const layouts = new Set(actual.slides.map(slide => slide.layout));
+  for (const slug of exampleSlugs) {
+    const saved = readContent(path.join(repoRoot, 'examples', slug, 'content.js')).deck;
+    assert.equal(saved.slides.length, 7, `${slug}: adding a fifth deck must retain all seven existing slides`);
+    saved.slides.forEach(slide => layouts.add(slide.layout));
+  }
+  assert.equal(layouts.size, 19, 'the five examples together must demonstrate all nineteen reusable layouts');
+});

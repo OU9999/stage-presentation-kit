@@ -1,0 +1,24 @@
+{
+  "verifiedAt": "2026-10-23 Asia/Seoul",
+  "comparisonBase": "740817555e069ad1642616cc5d4e48b013edb303",
+  "runtime": {
+    "app.js": "79b895bc4005e1d8bcc8ef02fa6562f79e49944ab7b281964edd6a00f37f7076",
+    "styles.css": "25037dfd145cc8e43d74cfb489ba4e0abcb96244cb3845d6c591cfb10873670e",
+    "deck-model.js": "f13b33aab2a8955334b279ab7d4d7cfda61088d89b6cf0c5ea12e82e58463876",
+    "content.js": "e0f3113755da4d2a195110e44522674609d3bbc32bc19de188763f14b06008d6"
+  },
+  "decks": {
+    "devday-compositions": "39ac52facca59cb8a282175c0d95859163b7a24b5962b698485d5997cadb9040",
+    "product-launch": "c5e57c516662f9631e4c4a5a2912e8e256209f0ad005c59736073ad659bb334f",
+    "engineering-review": "fb0badc9ecd149ab112d35743c8f8549996c095cab1ce2c5e44584e6e6fbe9aa",
+    "photo-story": "1b8efbbb6830d77ba465198317b12b996ce955a8acd0669b103b9c0c2b7d4f55",
+    "workshop": "3fcf1dbfbd7bded30065e8d791a1e95c0759aa3547762859bfb7308dc03cf161"
+  },
+  "desktop": {
+    "slides": 55,
+    "warnings": 0,
+    "runtimeErrors": 0,
+    "failedMedia": 0
+  },
+  "tests": 111
+}

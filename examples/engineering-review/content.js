@@ -78,34 +78,29 @@ window.PRESENTATION = {
         {
           "src": "../../assets/examples/report.svg",
           "alt": "자체 제작한 가상 설계 검토 문서",
-          "label": "설계 기록",
           "fit": "contain"
         },
         {
           "src": "../../assets/examples/dashboard.svg",
           "alt": "가상 지표를 표시하는 자체 제작 대시보드",
-          "label": "비교 지표",
           "fit": "contain"
         },
         {
           "src": "../../assets/workspace-demo.svg",
           "alt": "문서와 편집 화면이 있는 자체 제작 작업 공간",
-          "label": "검토 화면",
           "fit": "contain"
         },
         {
           "src": "../../assets/examples/objects.svg",
           "alt": "입체 도형으로 만든 자체 제작 시각화 시안",
-          "label": "표현 시안",
           "fit": "contain"
         }
       ],
-      "source": "자체 제작한 가상 자료 · 실제 개선의 증거로 사용하지 마세요.",
+      "source": "자체 제작 · 양식용 가상 자료",
       "title": [
         "근거는,",
         "다시 읽을 수 있게."
-      ],
-      "subtitle": "가상 보고서와 화면을 한곳에 모읍니다."
+      ]
     },
     {
       "layout": "quote",

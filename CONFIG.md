@@ -1,6 +1,6 @@
 # Params로 새 발표 만들기
 
-Markdown 원고로 관리하려면 [작성법](MARKDOWN.md)과 [네 가지 발표 예제](examples/index.html)를 사용하세요. 변환 결과는 아래와 같은 입력 계약을 따릅니다.
+Markdown 원고로 관리하려면 [작성법](MARKDOWN.md)과 [다섯 가지 발표 예제](examples/index.html)를 사용하세요. 변환 결과는 아래와 같은 입력 계약을 따릅니다.
 
 `content.js`의 `window.PRESENTATION`이 발표의 입력 계약입니다. 발표 폴더 전체를 복사한 뒤 이 객체와 로컬 미디어를 바꾸면 됩니다. HTML·렌더러·CSS를 주제마다 수정할 필요는 없습니다. 다른 주제의 짧은 시작점은 [project-review.js](examples/project-review.js)입니다. 이 파일의 내용으로 복사한 폴더의 루트 `content.js`를 교체하세요.
 
@@ -27,10 +27,10 @@ window.PRESENTATION = {
 | `title`, `speaker`, `date`, `footer` | 발표 정보 문자열. 실제 날짜는 입력한 값 사용 |
 | `theme` | `stage` / `paper` / `midnight`. 생략하면 `stage` |
 | `slides` | 한 장 이상의 슬라이드 객체 배열 |
-| `slides[].layout` | 아래 16개 양식 중 하나. 이름 오타도 해당 장의 오류로 안내 |
+| `slides[].layout` | 아래 19개 양식 중 하나. 이름 오타도 해당 장의 오류로 안내 |
 | `title` | 문자열 또는 문자열 배열. 배열은 의도한 줄바꿈이며 긴 줄은 화면 폭에서 다시 줄바꿈될 수 있음 |
 | `subtitle`, `source`, `notes` | 문자열. 출처와 발표자 노트는 따로 관리 |
-| `align` | `center` 또는 생략. 기본 왼쪽 정렬, 중앙 메시지 변형은 cover/statement/section/closing 지원 |
+| `align` | `center` 또는 생략. 기본 왼쪽 정렬, 중앙 메시지 변형은 cover/statement/section/closing 지원. categories의 제목도 중앙 정렬 가능 |
 | `quiet` | `true` / `false`. 반복 라벨·하단 정보 숨김 |
 | `tone` | `orange` / `purple` / `blue` / `green` / `yellow`. 의미 있는 색 강조용 |
 | `highlight` | 제목 안에서 강조할 문자열. 한 줄 전체를 강조하면 화면에서 그 줄을 수정할 때도 색이 따라감 |
@@ -59,7 +59,10 @@ window.PRESENTATION = {
 | `gallery` | variant, items | 이미지 1~6개. `portraits` / `strip` |
 | `mosaic` | items | 1~8개, 각 span은 숫자 1 또는 2. 총 span 8 이하, 4열×2행에 배치 |
 | `results` | title, subtitle, items, source | 미디어 1~4개, 좌측 주장과 우측 2×2 틀 |
-| `categories` | title, items | 1~5개. label/description/symbol/tone |
+| `categories` | title, items | 1~5개. label/description/icon/symbol/tone. 의미 아이콘 또는 기존 문자 심벌 |
+| `bento` | preset, items, title, subtitle, source | 정확히 12개 혼합 타일. `recap` / `seoul` 고정 배치 |
+| `icon-wall` | title, subtitle, items, source | 이미지 또는 의미 아이콘 1~22개. 8열×5행의 외곽, 중앙은 메시지 |
+| `metric-pair` | title, items, support, source | 정확히 2개. 각 value/unit/label/tone. 동등한 두 수치 |
 
 `mosaic`은 작품 모음용입니다. 빈 칸을 채우기 위해 뒤 항목이 데스크톱 화면의 앞 빈 칸에 놓일 수 있습니다. 원본 데이터와 DOM의 순서는 바꾸지 않으며 모바일 읽기에서는 입력 순서로 한 열을 만듭니다. 시간·단계·비교 순서가 중요하면 `gallery`나 `steps`를 사용하세요. 기존 예제의 `[2,1,1,1,1,2]` 배치도 그대로 사용할 수 있습니다.
 
@@ -78,7 +81,59 @@ window.PRESENTATION = {
 - `src`, `video`, `poster`는 **열린 HTML 문서의 위치**를 기준으로 합니다. 루트 index.html에서 `assets/people.jpg`는 루트 assets 폴더입니다.
 - 사진에는 `cover`와 `focalPoint`로 초점을 정할 수 있습니다. 문서·UI·타이포 작품은 `contain`으로 핵심 내용의 잘림을 피합니다.
 - `zoom`은 1~3 사이의 숫자로 표시 프레임을 디지털 확대합니다. 광학 배율을 뜻하지 않습니다.
-- 범주의 tone은 `blue`, `green`, `orange`, `purple` 중 하나입니다. 이미지 자체의 색은 바꾸지 않습니다.
+- 범주와 새 구성의 항목별 tone은 `blue`, `green`, `orange`, `purple`, `yellow`, `white` 중 하나입니다. 이미지 자체의 색은 바꾸지 않습니다.
+
+## 의미 아이콘과 중앙 메시지
+
+`categories.items[].icon`에는 아래 키를 지정합니다. 같은 24×24 viewBox, 1.8 선굵기의 자체 선형 SVG가 들어갑니다. 폰트·외부 CDN·브랜드 로고에 의존하지 않습니다. 기존 `symbol`도 사용할 수 있으며 둘 다 있으면 `icon`을 표시합니다. 알 수 없는 아이콘 키는 해당 장의 입력 오류입니다.
+
+`brain`, `price`, `speed`, `image`, `voice`, `record`, `compare`, `select`, `share`, `code`, `chart`, `search`, `book`, `calendar`, `mail`, `globe`, `check`, `folder`, `music`, `spark`.
+
+```js
+{
+  layout: "categories", align: "center", quiet: true,
+  title: "무엇이 달라지는가",
+  items: [
+    { icon: "brain", label: "이해", tone: "blue" },
+    { icon: "speed", label: "속도", tone: "white" },
+    { icon: "image", label: "이미지", tone: "orange" }
+  ]
+}
+```
+
+`icon-wall`은 중앙 제목과 설명 주위로 타일을 배치합니다. 항목마다 `icon` 또는 `src` 중 하나만 사용합니다. `src`에는 자체 아이콘 파일을 넣고 `alt`로 설명하세요. `label`은 선택입니다. 이미지의 원래 컬러는 그대로 유지하고 파일 전체를 `contain`으로 표시합니다. 항목별 `tone`은 의미 SVG의 색을 정합니다. 사진·영상 카드에는 `gallery`나 `bento`를 사용하세요.
+
+순서는 위쪽 8개, 아래쪽 8개, 가운데 세 행의 좌우 6개입니다. 22개를 채우면 완전한 외곽이 됩니다. 적은 수의 항목도 같은 슬롯에서 표시하며 자동으로 복제하지 않습니다. 읽기 모드의 좁은 화면에서는 중앙 메시지 뒤에 입력 순서로 항목을 표시합니다.
+
+## 혼합 타일과 두 수치
+
+`bento`는 사진·UI·일러스트·수치·짧은 문장을 하나의 요약 화면에 놓습니다. `preset`을 생략하면 `recap`입니다. 두 프리셋은 같은 12항목을 다른 고정 슬롯에 배치합니다. 원본 데이터를 재정렬하지 않습니다.
+
+| preset | 격자 | 배치 역할 |
+| --- | --- | --- |
+| `recap` | 6열×3행 | 좌측 큰 주역, 상단 가로 타일, 가운데 세로 타일, 작은 요약 타일 |
+| `seoul` | 12열×6행 | 상단 3개·중간 4개·하단 4개와 우측 세로 주역. 서울·도쿄 현장 사진의 혼합 타일 원리를 자체 자료로 적용 |
+
+각 항목의 `type`은 다음 세 가지입니다.
+
+- `media`: 기존 `src`/`video`/`poster`/`alt`/`fit`/`focalPoint`/`zoom` 규칙. `label`·`caption`은 선택이며 텍스트 층을 줄이려면 생략합니다.
+- `metric`: `value`는 표시용 문자열 또는 유한한 숫자, `label`은 문자열, `unit`은 선택입니다. `tone`은 수치에 적용됩니다.
+- `text`: `text`는 문자열, `label`은 선택입니다. `tone`으로 문장의 의미색을 정합니다.
+
+항목은 정확히 12개입니다. `column`, `row`, `columnSpan`, `rowSpan`, `span`을 따로 넣으면 오류를 알립니다. 프리셋이 배치를 정하므로 겹침·빈칸을 만들거나 초과 항목을 숨기지 않습니다. 12개보다 적은 자료에는 기존 `mosaic` 또는 `results`를 사용하세요. 모바일 읽기에서는 모든 타일을 입력 순서로 펼칩니다.
+
+`metric-pair`는 다음처럼 씁니다. 장 전체의 포인트색 하나를 강제하지 않고 비교하는 대상마다 의미색을 지정합니다. 임의의 가상 수치는 예시라고 명시하세요.
+
+```js
+{
+  layout: "metric-pair", quiet: true, title: "초안에서, 실행까지",
+  items: [
+    { value: "24", unit: "분", label: "이전 작업", tone: "blue" },
+    { value: "8", unit: "분", label: "개선 작업", tone: "orange" }
+  ],
+  source: "양식 설명용 가상 수치"
+}
+```
 
 ## 점검과 복구
 
@@ -97,3 +152,13 @@ node --test tests/*.test.cjs
 ```
 
 이 명령의 통과는 브라우저의 글꼴·크롭·PDF·실제 넘침 검증을 대신하지 않습니다. 콘텐츠를 바꾼 뒤에는 실제 발표 기기에서도 리허설하세요.
+
+공개 모델은 브라우저의 `window.STAGE_MODEL`과 Node의 `require("./deck-model.js")`에서 같습니다. `validateDeck(config)`와 `packMosaic(items)` 외에 다음 읽기 전용 조회를 제공합니다. 반환된 배치 객체를 수정해도 다음 호출이나 검증 규칙에는 영향을 주지 않습니다.
+
+```js
+const { bentoPreset, iconWallSlots, iconNames } = require("./deck-model.js");
+bentoPreset("seoul"); // { columns: 12, rows: 6, slots: [{ column, row, columnSpan, rowSpan }, ...] }
+bentoPreset("recap"); // { columns: 6, rows: 3, slots: [12개] }
+iconWallSlots(22); // [{ column, row }, ...] / 1~22 밖이면 null
+// 알 수 없는 preset은 null. iconNames는 지원 의미 아이콘 문자열 배열입니다.
+```

@@ -16,6 +16,9 @@ h1 { font-size: clamp(48px, 5.4vw, 80px); font-weight: 550; letter-spacing: -.06
 .intro-meta span + span::before { content: "/"; padding: 0 14px; color: #66665f; }
 .example-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px 32px; }
 .example-card { min-width: 0; }
+.example-card.is-featured { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 36px; align-items: center; padding-bottom: 48px; border-bottom: 1px solid var(--line); }
+.is-featured .card-content { padding: 0; }
+.is-featured h2 { font-size: clamp(28px, 3vw, 40px); }
 .preview { display: block; aspect-ratio: 16 / 9; background: #20201e; overflow: hidden; border: 1px solid var(--line); }
 .preview img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s ease; }
 .preview:hover img { transform: scale(1.015); }
@@ -25,9 +28,11 @@ h2 { margin: 0; font-size: 27px; font-weight: 550; line-height: 1.35; letter-spa
 .card-content > p:not(.card-kicker) { color: #b7b6ae; font-size: 14px; line-height: 1.75; margin: 14px 0 16px; }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; }
 .tags span { border: 1px solid var(--line); padding: 5px 9px; font-size: 11px; color: var(--muted); }
-.card-links { display: flex; align-items: center; gap: 22px; margin-top: 25px; font-size: 12px; }
+.card-links { display: flex; align-items: center; flex-wrap: wrap; gap: 14px 22px; margin-top: 25px; font-size: 12px; }
 .card-links a:not(.primary-link) { color: var(--muted); }
 .primary-link { font-size: 13px; }
+.research-link { display: inline-block; margin-top: 22px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+.research-links { display: flex; flex-wrap: wrap; gap: 14px 26px; margin-top: 28px; font-size: 12px; color: var(--muted); line-height: 1.6; }
 .authoring { margin-top: 92px; padding: 48px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
 .authoring .eyebrow { margin-bottom: 20px; }
 .authoring h2 { font-size: 34px; line-height: 1.3; }
@@ -57,6 +62,8 @@ pre { margin: 20px 0; overflow-x: auto; line-height: 1.7; font-size: 13px; }
   .intro-meta span + span::before { padding: 0 10px; }
   .example-grid, .authoring { grid-template-columns: minmax(0, 1fr); }
   .example-grid { gap: 40px; }
+  .example-card.is-featured { grid-template-columns: minmax(0, 1fr); gap: 0; padding-bottom: 40px; }
+  .is-featured .card-content { padding-top: 20px; }
   .card-content { padding-top: 20px; }
   .card-content > p:not(.card-kicker) { font-size: 13px; }
   .authoring { margin-top: 60px; gap: 28px; padding-top: 36px; }

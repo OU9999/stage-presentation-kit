@@ -1,0 +1,861 @@
+{
+  "pages": [
+    {
+      "path": "examples/index.html",
+      "width": 1672,
+      "scrollWidth": 1672,
+      "images": 5,
+      "broken": 0,
+      "cards": 5,
+      "statuses": [
+        {
+          "path": "/index.html",
+          "status": 200
+        },
+        {
+          "path": "/MARKDOWN.md",
+          "status": 200
+        },
+        {
+          "path": "/examples/devday-compositions/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/devday-compositions/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/devday-compositions/slides.md",
+          "status": 200
+        },
+        {
+          "path": "/output/pdf/devday-compositions.pdf",
+          "status": 200
+        },
+        {
+          "path": "/research/visual-implementation.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/product-launch/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/product-launch/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/product-launch/slides.md",
+          "status": 200
+        },
+        {
+          "path": "/output/pdf/product-launch.pdf",
+          "status": 200
+        },
+        {
+          "path": "/examples/engineering-review/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/engineering-review/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/engineering-review/slides.md",
+          "status": 200
+        },
+        {
+          "path": "/output/pdf/engineering-review.pdf",
+          "status": 200
+        },
+        {
+          "path": "/examples/photo-story/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/photo-story/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/photo-story/slides.md",
+          "status": 200
+        },
+        {
+          "path": "/output/pdf/photo-story.pdf",
+          "status": 200
+        },
+        {
+          "path": "/examples/workshop/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/workshop/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/workshop/slides.md",
+          "status": 200
+        },
+        {
+          "path": "/output/pdf/workshop.pdf",
+          "status": 200
+        },
+        {
+          "path": "/MARKDOWN.md",
+          "status": 200
+        },
+        {
+          "path": "/research/visual-implementation.html",
+          "status": 200
+        },
+        {
+          "path": "/research/seoul-devday-visual-research-20261023.md",
+          "status": 200
+        },
+        {
+          "path": "/research/completed-cities-visual-research-20261023.md",
+          "status": 200
+        },
+        {
+          "path": "/research/visual-implementation-diff-20261023.md",
+          "status": 200
+        },
+        {
+          "path": "/assets/CREDITS.md",
+          "status": 200
+        },
+        {
+          "path": "/index.html",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "research/visual-implementation.html",
+      "width": 1672,
+      "scrollWidth": 1672,
+      "images": 15,
+      "broken": 0,
+      "cards": 0,
+      "statuses": [
+        {
+          "path": "/examples/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/devday-compositions/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/devday-compositions/index.html",
+          "status": 200
+        },
+        {
+          "path": "/examples/devday-compositions/slides.md",
+          "status": 200
+        },
+        {
+          "path": "/output/pdf/devday-compositions.pdf",
+          "status": 200
+        },
+        {
+          "path": "/research/visual-implementation-diff-20261023.md",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/completed-cities/tokyo-keynote-bento.jpg",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/completed-cities/bengaluru-developer-keynote.webp",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/reaudit-devday/portraits-4830.png",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/reaudit-current/photos.png",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/implementation/photos.png",
+          "status": 200
+        },
+        {
+          "path": "/examples/devday-compositions/index.html",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/reaudit-devday/icons-2300.png",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/reaudit-current/icons.png",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/implementation/icons.png",
+          "status": 200
+        },
+        {
+          "path": "/examples/devday-compositions/index.html",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/seoul-devday/seoul-kim-openai.jpeg",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/reaudit-current/mosaic.png",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/implementation/bento.png",
+          "status": 200
+        },
+        {
+          "path": "/examples/devday-compositions/index.html",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/seoul-devday/seoul-presentation-seoulnews.webp",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/implementation/icon-wall.png",
+          "status": 200
+        },
+        {
+          "path": "/examples/devday-compositions/index.html",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/seoul-devday/seoul-kim-yonhap.webp",
+          "status": 200
+        },
+        {
+          "path": "/research/evidence/implementation/metric-pair.png",
+          "status": 200
+        },
+        {
+          "path": "/examples/devday-compositions/index.html",
+          "status": 200
+        },
+        {
+          "path": "/research/implementation-verification-20261023.md",
+          "status": 200
+        },
+        {
+          "path": "/research/completed-cities-visual-research-20261023.md",
+          "status": 200
+        },
+        {
+          "path": "/research/seoul-devday-visual-research-20261023.md",
+          "status": 200
+        },
+        {
+          "path": "/research/visual-implementation-diff-20261023.md",
+          "status": 200
+        },
+        {
+          "path": "/research/devday-visual-reaudit-20261023.md",
+          "status": 200
+        },
+        {
+          "path": "/research/visual-origin-reaudit-20261023.md",
+          "status": 200
+        },
+        {
+          "path": "/research/visual-reaudit.html",
+          "status": 200
+        }
+      ]
+    }
+  ],
+  "alignment": [
+    {
+      "align": null,
+      "textAlign": "start"
+    },
+    {
+      "align": "center",
+      "textAlign": "center"
+    }
+  ],
+  "runtime": {
+    "scripts": [
+      "http://localhost:4317/examples/devday-compositions/content.js?v=39ac52facca5",
+      "http://localhost:4317/deck-model.js?v=f13b33aab2a8",
+      "http://localhost:4317/app.js?v=79b895bc4005"
+    ],
+    "styles": [
+      "http://localhost:4317/styles.css?v=25037dfd145c"
+    ],
+    "title": "화면이 설명하는 발표 — 현장 구성 양식 — Stage",
+    "tiles": 12
+  },
+  "responses": [
+    {
+      "url": "http://localhost:4317/examples/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/gallery.css?v=035c20d7204e",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://localhost:4317/examples/previews/devday-compositions.png?v=b87a3d1ad9ca",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/examples/previews/product-launch.png?v=2723ec93a05f",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/examples/previews/photo-story.png?v=21b5a3bab7de",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/examples/previews/workshop.png?v=e702e2cde1b7",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/examples/previews/engineering-review.png?v=422ef28bcd68",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "chrome-extension://aeblfdkhhhdcdjpifhhbdiojplfjncoa/inline/injected.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://localhost:4317/MARKDOWN.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/output/pdf/devday-compositions.pdf",
+      "status": 200,
+      "mimeType": "application/pdf"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/slides.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/output/pdf/product-launch.pdf",
+      "status": 200,
+      "mimeType": "application/pdf"
+    },
+    {
+      "url": "http://localhost:4317/examples/product-launch/slides.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/research/visual-implementation.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/research/visual-implementation.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/engineering-review/slides.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/product-launch/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/output/pdf/engineering-review.pdf",
+      "status": 200,
+      "mimeType": "application/pdf"
+    },
+    {
+      "url": "http://localhost:4317/examples/photo-story/slides.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/output/pdf/photo-story.pdf",
+      "status": 200,
+      "mimeType": "application/pdf"
+    },
+    {
+      "url": "http://localhost:4317/examples/workshop/slides.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/output/pdf/workshop.pdf",
+      "status": 200,
+      "mimeType": "application/pdf"
+    },
+    {
+      "url": "http://localhost:4317/MARKDOWN.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/research/seoul-devday-visual-research-20261023.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/research/completed-cities-visual-research-20261023.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/research/visual-implementation-diff-20261023.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/assets/CREDITS.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/examples/engineering-review/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/workshop/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/photo-story/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/product-launch/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/engineering-review/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/workshop/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/photo-story/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/research/visual-implementation.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "chrome-extension://aeblfdkhhhdcdjpifhhbdiojplfjncoa/inline/injected.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/completed-cities/bengaluru-developer-keynote.webp",
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/completed-cities/tokyo-keynote-bento.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/reaudit-devday/portraits-4830.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/reaudit-current/photos.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/implementation/photos.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/reaudit-devday/icons-2300.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/implementation/icons.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/reaudit-current/icons.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/implementation/bento.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/seoul-devday/seoul-kim-yonhap.webp",
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/seoul-devday/seoul-kim-openai.jpeg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/reaudit-current/mosaic.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/seoul-devday/seoul-presentation-seoulnews.webp",
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/implementation/icon-wall.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/implementation/metric-pair.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/examples/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/slides.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/output/pdf/devday-compositions.pdf",
+      "status": 200,
+      "mimeType": "application/pdf"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/completed-cities/tokyo-keynote-bento.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/research/visual-implementation-diff-20261023.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/completed-cities/bengaluru-developer-keynote.webp",
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/reaudit-devday/portraits-4830.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/reaudit-current/photos.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/implementation/photos.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/reaudit-devday/icons-2300.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/reaudit-current/icons.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/implementation/icons.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/seoul-devday/seoul-kim-openai.jpeg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/reaudit-current/mosaic.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/implementation/bento.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/seoul-devday/seoul-presentation-seoulnews.webp",
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/implementation/icon-wall.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/seoul-devday/seoul-kim-yonhap.webp",
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/research/evidence/implementation/metric-pair.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/research/implementation-verification-20261023.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/research/completed-cities-visual-research-20261023.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/research/seoul-devday-visual-research-20261023.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/research/visual-implementation-diff-20261023.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/research/devday-visual-reaudit-20261023.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/research/visual-origin-reaudit-20261023.md",
+      "status": 200,
+      "mimeType": "text/markdown"
+    },
+    {
+      "url": "http://localhost:4317/research/visual-reaudit.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/output/cities-alignment/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/styles.css?v=25037dfd145c",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://localhost:4317/output/cities-alignment/content.js?v=39ac52facca5",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://localhost:4317/app.js?v=79b895bc4005",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://localhost:4317/deck-model.js?v=f13b33aab2a8",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "chrome-extension://aeblfdkhhhdcdjpifhhbdiojplfjncoa/inline/injected.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://localhost:4317/styles.css?v=25037dfd145c",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://localhost:4317/deck-model.js?v=f13b33aab2a8",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://localhost:4317/app.js?v=79b895bc4005",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://localhost:4317/examples/devday-compositions/content.js?v=39ac52facca5",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/write.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/portrait-two.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/capture.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/listen.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/observe.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/portrait-one.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "chrome-extension://aeblfdkhhhdcdjpifhhbdiojplfjncoa/inline/injected.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://localhost:4317/assets/examples/report.svg",
+      "status": 200,
+      "mimeType": "image/svg+xml"
+    },
+    {
+      "url": "http://localhost:4317/assets/photos/landscape.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "http://localhost:4317/assets/examples/dashboard.svg",
+      "status": 200,
+      "mimeType": "image/svg+xml"
+    },
+    {
+      "url": "http://localhost:4317/assets/stage/work-panel.svg",
+      "status": 200,
+      "mimeType": "image/svg+xml"
+    },
+    {
+      "url": "http://localhost:4317/assets/stage/shape-study.svg",
+      "status": 200,
+      "mimeType": "image/svg+xml"
+    },
+    {
+      "url": "http://localhost:4317/assets/stage/signal-study.svg",
+      "status": 200,
+      "mimeType": "image/svg+xml"
+    }
+  ],
+  "errors": []
+}

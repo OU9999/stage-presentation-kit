@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "stage-sample",
+    "pages": 20,
+    "size": "1200 x 675.12 pts"
+  },
+  {
+    "slug": "product-launch",
+    "pages": 7,
+    "size": "1200 x 675.12 pts"
+  },
+  {
+    "slug": "engineering-review",
+    "pages": 7,
+    "size": "1200 x 675.12 pts"
+  },
+  {
+    "slug": "photo-story",
+    "pages": 7,
+    "size": "1200 x 675.12 pts"
+  },
+  {
+    "slug": "workshop",
+    "pages": 7,
+    "size": "1200 x 675.12 pts"
+  },
+  {
+    "slug": "devday-compositions",
+    "pages": 7,
+    "size": "1200 x 675.12 pts"
+  }
+]

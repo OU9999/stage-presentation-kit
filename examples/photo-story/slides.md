@@ -23,21 +23,55 @@ notes: 스톡 사진과 자체 제작 작품을 엮은 가상 사진 에세이�
 layout: gallery
 variant: portraits
 quiet: true
-notes: 사진의 원래 색을 유지하며 같은 세로 틀과 간격으로 정돈합니다. 인물의 성격이나 실제 경험이 아니라 사진에서 관찰한 행동을 설명합니다.
+notes: SF 키노트 48:30의 상단 설명과 세로 사진 6개 구성을 16:9로 재구성했습니다. 원래 색을 유지하며 행동이 보이는 크롭을 선택했습니다. 서로 다른 스톡 사진이며 통일 촬영 시리즈를 재현한 것은 아닙니다. 사진 작가와 원본은 assets/CREDITS.md에 있습니다.
 -->
-# 서로 다른 시선들.
 
 ```stage
 {
   "items": [
-    { "src": "../../assets/photos/capture.jpg", "alt": "휴대폰으로 장면을 기록하는 인물", "label": "기록하고", "caption": "한 순간의 포착", "fit": "cover", "focalPoint": "47% 38%" },
-    { "src": "../../assets/photos/listen.jpg", "alt": "헤드폰을 쓰고 노트북을 사용하는 인물", "label": "집중하고", "caption": "소리를 듣는 시간", "fit": "cover", "focalPoint": "52% 30%" },
-    { "src": "../../assets/photos/write.jpg", "alt": "야외 테이블에서 노트에 글을 쓰는 인물", "label": "적어보고", "caption": "한 줄의 메모", "fit": "cover", "focalPoint": "48% 33%" },
-    { "src": "../../assets/photos/observe.jpg", "alt": "눈에 돋보기를 대고 관찰하는 인물", "label": "들여다보고", "caption": "가까이 보는 눈", "fit": "cover", "focalPoint": "48% 34%" },
-    { "src": "../../assets/photos/portrait-one.jpg", "alt": "작업 공간에 앉아 현금을 들고 있는 인물", "label": "장면을 만나고", "caption": "일상의 한 자리", "fit": "cover", "focalPoint": "48% 30%" },
-    { "src": "../../assets/photos/portrait-two.jpg", "alt": "도시 거리에서 갈색 옷을 입고 서 있는 인물", "label": "밖을 바라봅니다", "caption": "거리의 한 순간", "fit": "cover", "focalPoint": "49% 28%" }
-  ],
-  "source": "사진은 모두 Pexels 스톡 이미지 · 작가와 원본은 assets/CREDITS.md"
+    {
+      "src": "../../assets/photos/capture.jpg",
+      "alt": "휴대폰으로 장면을 기록하는 인물",
+      "label": "시선을 담아,\n장면을 기록합니다.",
+      "fit": "cover",
+      "focalPoint": "68% 45%"
+    },
+    {
+      "src": "../../assets/photos/listen.jpg",
+      "alt": "헤드폰을 쓰고 노트북을 사용하는 인물",
+      "label": "소리를 듣고,\n작업에 집중합니다.",
+      "fit": "cover",
+      "focalPoint": "52% 40%"
+    },
+    {
+      "src": "../../assets/photos/write.jpg",
+      "alt": "야외 테이블에서 노트에 글을 쓰는 인물",
+      "label": "생각을 적어,\n다음으로 이어갑니다.",
+      "fit": "cover",
+      "focalPoint": "45% 50%"
+    },
+    {
+      "src": "../../assets/photos/observe.jpg",
+      "alt": "눈에 돋보기를 대고 관찰하는 인물",
+      "label": "작은 차이를,\n다시 들여다봅니다.",
+      "fit": "cover",
+      "focalPoint": "48% 34%"
+    },
+    {
+      "src": "../../assets/photos/portrait-one.jpg",
+      "alt": "작업 공간에 앉아 현금을 들고 있는 인물",
+      "label": "일상 가까이,\n가능성을 발견합니다.",
+      "fit": "cover",
+      "focalPoint": "48% 30%"
+    },
+    {
+      "src": "../../assets/photos/portrait-two.jpg",
+      "alt": "도시 거리에서 갈색 옷을 입고 서 있는 인물",
+      "label": "밖으로 나가,\n새로운 시선을 만납니다.",
+      "fit": "cover",
+      "focalPoint": "49% 28%"
+    }
+  ]
 }
 ```
 

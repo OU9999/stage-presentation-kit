@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <link rel="icon" href="data:," />
+  <title>STAGE — 수정 전 시각 자료 검토</title>
+  <style>
+    :root{color-scheme:dark;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:#111;color:#eee;line-height:1.7}*{box-sizing:border-box}body{margin:0}a{color:inherit;text-underline-offset:.25em}a:focus-visible{outline:2px solid #ddd;outline-offset:5px}header,main,footer{max-width:1440px;margin:auto;padding:0 48px}header{min-height:90px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #333}header a{font-size:13px;color:#aaa}.brand{font-size:22px;font-weight:600;letter-spacing:-.06em;color:#eee;text-decoration:none}.brand span{margin-left:16px;font-size:11px;font-weight:400;letter-spacing:.03em;color:#aaa}.intro{padding:64px 0 36px}.eyebrow{font-size:10px;letter-spacing:.14em;color:#999;margin:0 0 24px}h1{font-size:clamp(38px,5vw,68px);line-height:1.18;font-weight:500;letter-spacing:-.06em;margin:0 0 28px}h2{font-size:31px;line-height:1.35;font-weight:500;letter-spacing:-.04em;margin:10px 0 18px}h3{font-size:20px;font-weight:500;letter-spacing:-.025em;margin:12px 0}p{margin:0 0 18px}.lead{max-width:850px;color:#bdbdb7;font-size:17px}.jump{display:flex;flex-wrap:wrap;gap:12px 24px;font-size:12px;padding:0 0 36px;color:#bbb}.section{padding:40px 0 48px;border-top:1px solid #343430;scroll-margin-top:24px}.section-intro{max-width:900px;color:#b8b8b0;font-size:14px}.status{display:inline-block;border:1px solid #5d5748;color:#d6bc8d;font-size:10px;padding:3px 8px;letter-spacing:.04em}.status.good{border-color:#4c5a50;color:#a5c1ad}.status.new{border-color:#4e5965;color:#a6b8d0}.pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:26px}figure{margin:0;min-width:0}.frame{display:block;aspect-ratio:16/9;background:#191919;border:1px solid #343430}.frame img{display:block;width:100%;height:100%;object-fit:contain}figcaption{font-size:11px;color:#999;line-height:1.65;margin-top:10px}figcaption strong{color:#ccc;font-weight:500}.finding{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px}.finding p{font-size:14px;color:#bcbcb5;margin:0}.finding strong{display:block;color:#eee;font-size:12px;margin-bottom:8px;font-weight:500}.seoul-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:26px 0}.seoul-grid p{font-size:13px;color:#b8b8b0}.note{font-size:11px;color:#96968f;max-width:1000px}.priority{padding:24px 28px;background:#1b1b19;margin-top:30px;font-size:14px;color:#c6c6be}.priority ol{padding-left:22px;margin:10px 0 0}.priority li{padding:5px 0}.reports{display:flex;flex-wrap:wrap;gap:14px 26px;font-size:12px;margin-top:26px}footer{padding-top:24px;padding-bottom:36px;color:#8e8e88;font-size:10px;letter-spacing:.06em}code{font-size:.9em;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}@media(max-width:760px){header,main,footer{padding-left:20px;padding-right:20px}header{min-height:76px}.brand span{display:none}header a:last-child{font-size:11px}.intro{padding-top:44px}.lead{font-size:15px}h2{font-size:26px}.pair,.finding,.seoul-grid{grid-template-columns:minmax(0,1fr)}.pair,.finding{gap:20px}.seoul-grid{gap:30px}.section{padding-top:32px}.priority{padding:20px}.frame{aspect-ratio:16/9}}
+  </style>
+</head>
+<body>
+  <header><a class="brand" href="../examples/index.html">STAGE <span>VISUAL RESEARCH / 2026.10.23</span></a><a href="../examples/index.html">현재 예제 모음 ↗</a></header>
+  <main>
+    <section class="intro"><p class="priority"><strong>수정 전 기록 · 7408175</strong><br />이 페이지의 “현재”는 변경 전 예제를 뜻합니다. <a href="visual-implementation.html">현장 근거와 실제 수정 결과 비교 ↗</a></p>
+      <p class="eyebrow">DEV DAY / WHAT WE ACTUALLY APPLIED</p>
+      <h1>닮은 부분과,<br />아직 다른 부분.</h1>
+      <p class="lead">사진 6열과 색 라벨, 큰 강조 문장의 원리는 반영됐습니다. 사진의 비중·아이콘의 일관성·다양한 크기의 제품 타일까지 충분히 옮긴 상태는 아닙니다. 세 탐색 에이전트의 재검토와 현재 화면 대조를 모았습니다.</p>
+      <p class="note">원본 영상 프레임에는 무대·발표자·카메라 원근이 포함됩니다. 원본 슬라이드 파일과 정확한 색상·간격은 확보하지 않았습니다. 아래 비교는 관찰과 우리 구현의 차이를 설명하며 OpenAI의 공식 디자인 규정을 뜻하지 않습니다.</p>
+    </section>
+    <nav class="jump" aria-label="검토 항목"><a href="#seoul">서울 행사 자료</a><a href="#photos">사진 6열</a><a href="#icons">컬러와 아이콘</a><a href="#recap">제품 타일</a><a href="#color">강조 문장</a><a href="#reports">보고서</a></nav>
+
+    <section class="section" id="seoul">
+      <span class="status new">SEOUL / NEW EVIDENCE</span>
+      <h2>10월 22일 서울의 실제 발표 화면</h2>
+      <p class="section-intro"><a href="https://events.openai.com/devdayexchange2026/-1?lang=en">공식 DevDay Exchange 2026 일정</a>에 서울 10월 22일이 명시돼 있습니다. 아래는 서울 현장 보도의 사진을 직접 열어 확인한 자료입니다. 행사 웹페이지나 포토월의 색을 슬라이드 근거로 사용하지 않았습니다.</p>
+      <div class="seoul-grid">
+        <article><figure><a class="frame" href="evidence/seoul-devday/seoul-presentation-seoulnews.webp"><img src="evidence/seoul-devday/seoul-presentation-seoulnews.webp" alt="서울 행사에서 파란 중앙 메시지 주위를 여러 앱 아이콘이 둥근 흰 사각 타일로 둘러싼 발표 화면" /></a><figcaption><strong>중앙 메시지와 앱 아이콘 벽</strong><br /><a href="https://m.go.seoul.co.kr/news/economy/industry/2026/10/22/20261022500319">서울신문 · 10월 22일</a> · 민나리 기자</figcaption></figure><p>다수의 아이콘으로 중앙에 메시지를 위한 빈자리를 만듭니다. 현재 양식에는 이 배치를 위한 전용 구성이 없습니다.</p></article>
+        <article><figure><a class="frame" href="evidence/seoul-devday/seoul-kim-openai.jpeg"><img src="evidence/seoul-devday/seoul-kim-openai.jpeg" alt="서울 발표 무대에서 사진과 일러스트, 밝은 제품 UI, 큰 수치를 서로 다른 크기의 둥근 타일에 섞은 화면" /></a><figcaption><strong>사진·UI·일러스트·수치의 혼합 타일</strong><br /><a href="https://www.digitaltoday.co.kr/news/articleView.html?idxno=709421">디지털투데이 · 10월 23일</a> · 사진 OpenAI 제공</figcaption></figure><p>폭뿐 아니라 높이와 내용의 밀도도 다릅니다. 현재 고정 2행 콜라주보다 강약이 풍부하고, 밝은 문서 면도 그대로 살아 있습니다.</p></article>
+        <article><figure><a class="frame" href="evidence/seoul-devday/seoul-kim-yonhap.webp"><img src="evidence/seoul-devday/seoul-kim-yonhap.webp" alt="한국에서의 ChatGPT를 제목으로 큰 파랑 수치와 큰 주황 수치를 두 열에 배치한 서울 발표 화면" /></a><figcaption><strong>두 열의 큰 수치와 의미색</strong><br /><a href="https://m.go.seoul.co.kr/news/economy/industry/2026/10/22/20261022500319">서울신문 게재 · 10월 22일</a> · 사진 연합뉴스</figcaption></figure><p>색은 수치의 두 의미를 구분합니다. 현재 단일 수치 양식과 일반 두 열 목록만으로는 이 큰 수치의 대비를 충분히 표현하지 못합니다.</p></article>
+      </div>
+      <p class="note">이 사진들은 일부 발표 화면의 근거입니다. 행사 전체의 장별 순서·전환·컬러 빈도나 발표 파일을 확인한 것은 아닙니다. 사진의 수치·제품명은 연구 자료이며 우리 가상 예제의 성과로 사용하지 않습니다.</p>
+    </section>
+
+    <section class="section" id="photos">
+      <span class="status">일부 반영 / 사진의 비중과 크롭 차이</span>
+      <h2>같은 6열이지만, 사진이 차지하는 힘은 다릅니다.</h2>
+      <div class="pair">
+        <figure><a class="frame" href="evidence/reaudit-devday/portraits-4830.png"><img src="evidence/reaudit-devday/portraits-4830.png" alt="DevDay 원본의 짧은 상단 설명과 큰 세로 사진 여섯 장" /></a><figcaption><strong>DevDay 원본</strong> · <a href="https://www.youtube.com/watch?v=Fls_onRviPM&t=2910s">키노트 48:30</a> · 이번 재생 확인</figcaption></figure>
+        <figure><a class="frame" href="evidence/reaudit-current/photos.png"><img src="evidence/reaudit-current/photos.png" alt="현재 사진 예제의 큰 제목과 상단 라벨, 세로 사진 여섯 장, 하단 캡션과 출처" /></a><figcaption><strong>현재 예제</strong> · <a href="../examples/photo-story/index.html#2">사진 이야기 2장</a> · 현재 브라우저에서 캡처</figcaption></figure>
+      </div>
+      <div class="finding"><p><strong>반영한 것</strong>사진 6장의 동일한 프레임, 상하 정렬, 일정 간격, 풀컬러 이미지와 사진 위의 라벨입니다.</p><p><strong>남은 차이</strong>큰 전체 제목과 하단 설명이 추가돼 사진 높이는 캔버스의 54.5%, 사진 면적 합은 44.8%입니다. 첫 사진은 휴대폰이 잘려 ‘기록’이라는 행동이 보이지 않습니다. 원본의 둥근 모서리와 한 시리즈 같은 이미지 선택도 충분히 반영되지 않았습니다.</p></div>
+      <p class="note">현재 비율은 브라우저 DOM에서 측정했습니다. 원본은 카메라 원근이 있는 영상으로 관찰했으며 같은 정밀도로 수치를 측정한 것이 아닙니다.</p>
+    </section>
+
+    <section class="section" id="icons">
+      <span class="status">일부 반영 / 아이콘 체계 차이</span>
+      <h2>색 원과 라벨은 닮았고, 아이콘은 아직 문자 기호입니다.</h2>
+      <div class="pair">
+        <figure><a class="frame" href="evidence/reaudit-devday/icons-2300.png"><img src="evidence/reaudit-devday/icons-2300.png" alt="DevDay의 선형 픽토그램 다섯 개와 같은 색의 범주 라벨, 중앙 정렬 제목" /></a><figcaption><strong>DevDay 원본</strong> · <a href="https://www.youtube.com/watch?v=Fls_onRviPM&t=1380s">키노트 23:00</a> · 이번 재생 확인</figcaption></figure>
+        <figure><a class="frame" href="evidence/reaudit-current/icons.png"><img src="evidence/reaudit-current/icons.png" alt="현재 워크숍 예제의 색 원 안에 들어간 네 문자 기호와 라벨" /></a><figcaption><strong>현재 예제</strong> · <a href="../examples/workshop/index.html#3">워크숍 3장</a></figcaption></figure>
+      </div>
+      <div class="finding"><p><strong>반영한 것</strong>어두운 바탕, 수평 등간격, 원 안의 어두운 심벌, 원과 라벨의 의미색 연결입니다.</p><p><strong>남은 차이</strong>원본은 범주의 뜻을 바로 읽을 수 있는 일관된 선형 그림입니다. 현재는 <code>◉ ↔ ✳ ↗</code> 문자열을 사용해 선 굵기·광학 크기가 통일되지 않습니다. 제목의 정렬과 위치도 다르며, 원본에는 흰색 범주도 있습니다.</p></div>
+    </section>
+
+    <section class="section" id="recap">
+      <span class="status">차이 큼 / 고정 격자와 제품 요약</span>
+      <h2>제품을 회수하는 타일과 작품 6칸은 다른 구성입니다.</h2>
+      <div class="pair">
+        <figure><a class="frame" href="evidence/reaudit-devday/collage-4750.png"><img src="evidence/reaudit-devday/collage-4750.png" alt="DevDay의 제품명과 캐릭터, UI와 로고를 서로 다른 크기의 여러 둥근 타일에 배치한 화면" /></a><figcaption><strong>DevDay 원본</strong> · <a href="https://www.youtube.com/watch?v=Fls_onRviPM&t=2870s">키노트 47:50</a> · 서울의 혼합 타일 사진도 관련 근거</figcaption></figure>
+        <figure><a class="frame" href="evidence/reaudit-current/mosaic.png"><img src="evidence/reaudit-current/mosaic.png" alt="현재의 높이가 같은 두 행에 여섯 작품을 2+1+1과 1+1+2로 배치한 화면" /></a><figcaption><strong>현재 예제</strong> · <a href="../examples/photo-story/index.html#6">사진 이야기 6장</a> · 구체적 격자 비율은 Figma 데모 참고</figcaption></figure>
+      </div>
+      <div class="finding"><p><strong>원본에서 보이는 구성</strong>사진·앱·문자·수치·로고가 서로 다른 크기와 높이를 갖고 공통 모서리와 간격으로 묶입니다. 서울 현장 자료에서도 이 구성을 확인했습니다.</p><p><strong>현재 양식의 한계</strong>4열×2행에 가로 폭만 1칸 또는 2칸으로 바꾸는 양식입니다. 높이를 가로지르는 타일이나 중앙 메시지를 둘러싼 아이콘 배열은 표현하지 못합니다.</p></div>
+    </section>
+
+    <section class="section" id="color">
+      <span class="status good">원리 반영 / 큰 의미 단위의 강조</span>
+      <h2>한 줄을 색으로 강조하는 방식은 가깝습니다.</h2>
+      <div class="pair">
+        <figure><a class="frame" href="evidence/reaudit-devday/codex-2001.png"><img src="evidence/reaudit-devday/codex-2001.png" alt="Codex DevDay 세션의 흰 첫 줄과 주황 두 번째 줄로 구성한 큰 선언" /></a><figcaption><strong>DevDay 원본</strong> · <a href="https://www.youtube.com/watch?v=XkKdbPhIvbY&t=1200s">Codex 20:00 부근</a> · 이번 재생 확인</figcaption></figure>
+        <figure><a class="frame" href="evidence/reaudit-current/statement.png"><img src="evidence/reaudit-current/statement.png" alt="현재 제품 예제의 흰 첫 줄과 주황 두 번째 줄로 구성한 큰 문장" /></a><figcaption><strong>현재 예제</strong> · <a href="../examples/product-launch/index.html#2">제품 소개 2장</a></figcaption></figure>
+      </div>
+      <p class="section-intro" style="margin-top:24px">색을 작은 장식에 반복하기보다 한 의미 단위 전체에 주는 방식은 반영됐습니다. 정확한 글꼴·색상값을 재현했다는 의미는 아닙니다. 보라색 이름 소개를 워크숍 문장에 적용한 것은 우리 템플릿의 확장입니다.</p>
+    </section>
+
+    <section class="section" id="reports">
+      <span class="status">출처 구분과 다음 수정의 기준</span>
+      <h2>현재 적용 수준을 분명히 기록합니다.</h2>
+      <p class="section-intro">주장 옆 2×2 결과물은 DevDay 직접 참고입니다. 노랑 라벨의 사진 조건 비교는 Apple, 현재 고정 6칸 작품 배열의 구체적인 비율은 Figma 제품 데모에서 참고했습니다. DevDay와 서울에도 더 복잡한 혼합 타일이 존재하므로 콜라주 전체를 Figma만의 방식으로 단정하지 않습니다.</p>
+      <div class="priority"><strong>우선 수정할 부분</strong><ol><li>사진 주변의 설명을 줄이고, 큰 사진·상단 설명·행동이 보이는 크롭을 회복합니다.</li><li>문자 기호를 같은 선 굵기와 광학 크기를 가진 독자 SVG 아이콘으로 바꿉니다.</li><li>높이와 폭이 다른 제품 요약 타일, 중앙 메시지를 둘러싼 아이콘 구성을 별도 양식으로 만듭니다.</li></ol></div>
+      <div class="reports"><a href="devday-visual-reaudit-20261023.md">DevDay 영상 재검토</a><a href="visual-origin-reaudit-20261023.md">외부 출처·구현 대조</a><a href="seoul-devday-visual-research-20261023.md">서울 행사 자료 탐색</a><a href="evidence/reaudit-current/measurements.json">현재 화면 측정 기록</a></div>
+    </section>
+  </main>
+  <footer>현재 예제 기준: 7408175 / 2026.10.23 · 원본 이미지는 조사 근거이며 발표 자산으로 재사용하지 않습니다.</footer>
+</body>
+</html>

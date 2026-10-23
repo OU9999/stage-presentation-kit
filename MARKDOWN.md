@@ -1,18 +1,18 @@
 # Markdown으로 발표 만들기
 
-Markdown은 원고이고, `content.js`는 브라우저가 읽는 변환 결과입니다. 문장·사진·설정을 원고에 적고 빌드하면 지금의 16개 슬라이드 양식으로 표시됩니다. AI 연결 없이 실행되며, AI에게 원고 초안을 부탁한 뒤 같은 문법으로 검토하고 빌드해도 됩니다.
+Markdown은 원고이고, `content.js`는 브라우저가 읽는 변환 결과입니다. 문장·사진·설정을 원고에 적고 빌드하면 지금의 19개 슬라이드 양식으로 표시됩니다. AI 연결 없이 실행되며, AI에게 원고 초안을 부탁한 뒤 같은 문법으로 검토하고 빌드해도 됩니다.
 
 **Node.js 18 이상**이 필요합니다. npm 설치나 추가 의존성은 없습니다. 생성한 발표를 보는 데에는 Node.js가 필요하지 않습니다.
 
 ```sh
-# 준비된 예제 네 개를 모두 다시 생성
+# 준비된 예제 다섯 개를 모두 다시 생성
 node scripts/build-examples.cjs
 
 # 원하는 원고 하나를 원하는 폴더에 생성
 node scripts/markdown-deck.cjs examples/product-launch/slides.md examples/product-launch
 ```
 
-생성한 폴더의 `index.html`을 열면 됩니다. 네 원고는 [제품 소개](examples/product-launch/slides.md), [엔지니어링 회고](examples/engineering-review/slides.md), [사진 이야기](examples/photo-story/slides.md), [워크숍](examples/workshop/slides.md)입니다. 완성 화면은 [예제 모음](examples/index.html)에서 비교할 수 있습니다.
+생성한 폴더의 `index.html`을 열면 됩니다. 원고는 [제품 소개](examples/product-launch/slides.md), [엔지니어링 회고](examples/engineering-review/slides.md), [사진 이야기](examples/photo-story/slides.md), [워크숍](examples/workshop/slides.md), [DevDay 구성 연구](examples/devday-compositions/slides.md)입니다. 완성 화면은 [예제 모음](examples/index.html)에서 비교할 수 있습니다.
 
 ## 가장 작은 원고
 
@@ -68,6 +68,8 @@ notes: "첫 문장은 천천히 읽습니다.\n다음 장에서 구체적으로 
 | quote | quote | attribution |
 | steps | title | 지원하지 않음. steps JSON 사용 |
 | gallery, mosaic, results, categories | title | subtitle |
+| bento, icon-wall | title | subtitle |
+| metric-pair | title | support |
 
 제목은 본문 앞에 작성합니다. `#` 행을 여러 개 연속해서 쓰면 의도한 줄바꿈이 됩니다. 기본 `title`은 문자열 배열로, `metric.label`과 `quote.quote`는 줄바꿈을 포함한 문자열로 변환합니다. `##` 이하의 제목은 지원하지 않습니다.
 
@@ -129,6 +131,8 @@ quiet: true
 
 JSON에는 `chart`, `left/right`, `items`, `steps`, `value/unit`처럼 현재 렌더러가 지원하는 필드만 넣습니다. 각 필드와 수량은 [입력 계약](CONFIG.md)을 따릅니다. `steps`는 `title/description` 객체 1~3개이며, `demo.steps`는 문자열 배열 0~3개입니다. 이미지 항목은 다음처럼 지정합니다.
 
+`bento`, `icon-wall`, `metric-pair`의 `items`도 같은 JSON fence에 적습니다. `bento`의 `preset`은 `recap` 또는 `seoul`이며 정확히 12타일입니다. 각 항목의 `type`을 `media`, `metric`, `text`로 구분합니다. `icon-wall`은 `icon` 의미 키 또는 `src` 이미지 중 하나를 가진 1~22개 항목, `metric-pair`는 `value`와 `label`을 가진 정확히 2개 항목입니다. 이 세 양식에서는 일반 Markdown 이미지 목록으로 배치를 추정하지 않습니다. `categories.items[].icon`에도 같은 의미 아이콘 키를 쓸 수 있습니다.
+
 ````md
 <!-- stage
 layout: gallery
@@ -166,7 +170,7 @@ node scripts/markdown-deck.cjs examples/photo-story/slides.md /tmp/my-photo-pres
 
 이 명령은 출력 폴더의 `index.html`, `content.js`만 만듭니다. HTML은 공유 `styles.css`, `deck-model.js`, `app.js`를 상대 경로로 참조하므로 배포·이동할 때에는 공유 런타임과 미디어도 함께 있어야 합니다. 기본 예제는 저장소 폴더 구조 그대로 복사하면 됩니다. 임의의 출력 폴더를 웹 서버로 열 때에는 이 상대 경로들이 같은 서버에서 접근 가능한지도 확인하세요.
 
-로컬 미디어 파일이 없으면 빌드가 실패합니다. HTTP(S), `file:` URL과 이미지·영상 `data:` URI도 입력할 수 있지만, 네 예제는 모두 로컬 자산만 사용합니다. `mailto:`·`javascript:` 같은 미디어에 맞지 않는 URI는 오류입니다. 사진 출처 파일은 빌드가 변경하지 않습니다.
+로컬 미디어 파일이 없으면 빌드가 실패합니다. HTTP(S), `file:` URL과 이미지·영상 `data:` URI도 입력할 수 있지만, 다섯 예제는 모두 로컬 자산만 사용합니다. `mailto:`·`javascript:` 같은 미디어에 맞지 않는 URI는 오류입니다. 사진 출처 파일은 빌드가 변경하지 않습니다.
 
 공유 자산과 생성 데이터에는 실제 내용의 해시를 query로 붙여 다시 빌드한 결과가 이전 캐시에 가려지지 않도록 합니다. 빌드 때 시각을 삽입하지 않아 같은 입력과 런타임에서는 같은 파일이 생성됩니다.
 

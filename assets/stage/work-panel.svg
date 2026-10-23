@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">Field Notes — fictional project interface</title>
+  <desc id="desc">A fictional white and blue workspace with a review checklist, three collaborators and a progress chart. The data is illustrative.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eff5ff"/><stop offset="1" stop-color="#b8d3f7"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#e9eef7"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h960v720H0z"/>
+  <rect x="44" y="45" width="872" height="630" rx="28" fill="url(#card)"/>
+  <path d="M44 137h872" stroke="#dce2ea" stroke-width="2"/>
+  <circle cx="91" cy="92" r="15" fill="#507dcc"/>
+  <path d="m84 92 5 5 10-11" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Arial, sans-serif">
+    <text x="122" y="101" font-size="28" font-weight="600" fill="#23324b">Field Notes</text>
+    <text x="694" y="99" font-size="17" fill="#758196">SAMPLE WORKSPACE</text>
+    <text x="91" y="204" font-size="18" fill="#6480a6" letter-spacing="2">REVIEW / WEEK 06</text>
+    <text x="91" y="253" font-size="39" font-weight="600" letter-spacing="-1" fill="#25354f">Make the next step clear.</text>
+    <text x="91" y="292" font-size="22" fill="#788395">A shared view of the work that matters.</text>
+  </g>
+  <g fill="#fff" stroke="#dce3ed" stroke-width="2">
+    <rect x="89" y="337" width="477" height="82" rx="16"/>
+    <rect x="89" y="435" width="477" height="82" rx="16"/>
+    <rect x="89" y="533" width="477" height="82" rx="16"/>
+    <rect x="594" y="337" width="277" height="278" rx="16"/>
+  </g>
+  <g fill="none" stroke="#5b87cb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="112" y="364" width="26" height="26" rx="7"/>
+    <path d="m117 376 5 5 11-12"/>
+    <rect x="112" y="462" width="26" height="26" rx="7"/>
+    <path d="m117 474 5 5 11-12"/>
+    <rect x="112" y="560" width="26" height="26" rx="7" stroke="#c5cdda"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#35465e" font-size="24">
+    <text x="157" y="385">Collect the evidence</text>
+    <text x="157" y="483">Choose one direction</text>
+    <text x="157" y="581">Share the next step</text>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <text x="621" y="378" font-size="18" fill="#8792a1">MOMENTUM</text>
+    <text x="621" y="430" font-size="38" fill="#527fbd">A little, daily.</text>
+  </g>
+  <path d="M620 553h223M620 515h223M620 477h223" stroke="#edf0f6" stroke-width="2"/>
+  <path d="m622 563 35-17 38-35 37 11 36-49 39 8 34-34" fill="none" stroke="#7098d8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m622 563 35-17 38-35 37 11 36-49 39 8 34-34v139H622Z" fill="#b6d0f0" opacity=".2"/>
+  <text x="90" y="650" font-family="Arial, sans-serif" font-size="13" fill="#91a0b4" letter-spacing="1">FICTIONAL PRODUCT · ILLUSTRATIVE DATA</text>
+</svg>
