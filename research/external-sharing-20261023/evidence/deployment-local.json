@@ -1,0 +1,126 @@
+{
+  "checkedAt": "2026-10-23T09:10:46.146Z",
+  "head": "f2991dcd5454d570b97d436f018f7aaf44fdf740",
+  "scope": "Read-only architecture/size/setup inventory. No dist, CLI installation, account changes, or deployment.",
+  "slideCount": 7,
+  "slidesWithNotes": 7,
+  "localMedia": [
+    {
+      "path": "assets/photos/capture.jpg",
+      "bytes": 136815
+    },
+    {
+      "path": "assets/photos/listen.jpg",
+      "bytes": 269985
+    },
+    {
+      "path": "assets/photos/write.jpg",
+      "bytes": 151172
+    },
+    {
+      "path": "assets/photos/observe.jpg",
+      "bytes": 299027
+    },
+    {
+      "path": "assets/photos/portrait-one.jpg",
+      "bytes": 388844
+    },
+    {
+      "path": "assets/photos/portrait-two.jpg",
+      "bytes": 585525
+    }
+  ],
+  "remoteMedia": [],
+  "runtime": [
+    {
+      "path": "index.html",
+      "bytes": 6873
+    },
+    {
+      "path": "styles.css",
+      "bytes": 86714
+    },
+    {
+      "path": "app.js",
+      "bytes": 63955
+    },
+    {
+      "path": "deck-model.js",
+      "bytes": 20518
+    }
+  ],
+  "mediaBytes": 1831368,
+  "runtimeBytes": 178060,
+  "contentBytes": 11933,
+  "commands": {
+    "wrangler": null,
+    "vercel": null,
+    "netlify": null,
+    "gh": "/opt/homebrew/bin/gh",
+    "node": "/Users/ou9999-wdl/.nvm/versions/node/v24.22.1/bin/node",
+    "npm": "/Users/ou9999-wdl/.nvm/versions/node/v24.22.1/bin/npm"
+  },
+  "repositoryConfig": [
+    {
+      "path": ".github",
+      "exists": false
+    },
+    {
+      "path": "wrangler.toml",
+      "exists": false
+    },
+    {
+      "path": "wrangler.json",
+      "exists": false
+    },
+    {
+      "path": "wrangler.jsonc",
+      "exists": false
+    },
+    {
+      "path": "vercel.json",
+      "exists": false
+    },
+    {
+      "path": "netlify.toml",
+      "exists": false
+    }
+  ],
+  "authPathPresence": [
+    {
+      "candidate": "~/.wrangler",
+      "exists": false
+    },
+    {
+      "candidate": "~/.config/.wrangler",
+      "exists": false
+    },
+    {
+      "candidate": "~/Library/Preferences/.wrangler",
+      "exists": false
+    },
+    {
+      "candidate": "~/Library/Preferences/wrangler",
+      "exists": false
+    }
+  ],
+  "authEnvironmentPresence": [
+    {
+      "variable": "CLOUDFLARE_API_TOKEN",
+      "present": false
+    },
+    {
+      "variable": "CLOUDFLARE_ACCOUNT_ID",
+      "present": false
+    },
+    {
+      "variable": "CF_API_TOKEN",
+      "present": false
+    },
+    {
+      "variable": "CF_ACCOUNT_ID",
+      "present": false
+    }
+  ],
+  "limits": "Presence checks do not establish whether a Cloudflare account exists or has permissions. No credentials were read or printed."
+}

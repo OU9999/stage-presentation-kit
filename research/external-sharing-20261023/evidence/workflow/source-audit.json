@@ -1,0 +1,102 @@
+{
+  "checkedAt": "2026-10-23T09:06:47.876Z",
+  "scope": "Static source/data inspection; no browser operation or deployment",
+  "input": "examples/devday-compositions/content.js",
+  "slides": 7,
+  "notesFields": [
+    {
+      "path": "slides.0.notes",
+      "characters": 117
+    },
+    {
+      "path": "slides.1.notes",
+      "characters": 115
+    },
+    {
+      "path": "slides.2.notes",
+      "characters": 71
+    },
+    {
+      "path": "slides.3.notes",
+      "characters": 236
+    },
+    {
+      "path": "slides.4.notes",
+      "characters": 123
+    },
+    {
+      "path": "slides.5.notes",
+      "characters": 107
+    },
+    {
+      "path": "slides.6.notes",
+      "characters": 75
+    }
+  ],
+  "media": [
+    {
+      "field": "slides.1.items.0.src",
+      "value": "../../assets/photos/capture.jpg",
+      "local": true,
+      "resolved": "assets/photos/capture.jpg",
+      "exists": true
+    },
+    {
+      "field": "slides.1.items.1.src",
+      "value": "../../assets/photos/listen.jpg",
+      "local": true,
+      "resolved": "assets/photos/listen.jpg",
+      "exists": true
+    },
+    {
+      "field": "slides.1.items.2.src",
+      "value": "../../assets/photos/write.jpg",
+      "local": true,
+      "resolved": "assets/photos/write.jpg",
+      "exists": true
+    },
+    {
+      "field": "slides.1.items.3.src",
+      "value": "../../assets/photos/observe.jpg",
+      "local": true,
+      "resolved": "assets/photos/observe.jpg",
+      "exists": true
+    },
+    {
+      "field": "slides.1.items.4.src",
+      "value": "../../assets/photos/portrait-one.jpg",
+      "local": true,
+      "resolved": "assets/photos/portrait-one.jpg",
+      "exists": true
+    },
+    {
+      "field": "slides.1.items.5.src",
+      "value": "../../assets/photos/portrait-two.jpg",
+      "local": true,
+      "resolved": "assets/photos/portrait-two.jpg",
+      "exists": true
+    },
+    {
+      "field": "slides.3.items.1.src",
+      "value": "../../assets/photos/write.jpg",
+      "local": true,
+      "resolved": "assets/photos/write.jpg",
+      "exists": true
+    }
+  ],
+  "sourceProperties": {
+    "presenterQuery": true,
+    "directPresenterNotes": true,
+    "windowPostMessage": true,
+    "openerTransport": true,
+    "fetchCall": false,
+    "webSocket": false,
+    "serviceWorker": false
+  },
+  "generatedOutputOnly": [
+    "index.html",
+    "content.js"
+  ],
+  "sourceHead": "f2991dcd5454d570b97d436f018f7aaf44fdf740",
+  "uniqueLocalMediaFiles": 6
+}
