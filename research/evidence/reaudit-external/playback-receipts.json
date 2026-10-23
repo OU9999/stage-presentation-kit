@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-23",
+  "taskSpaceId": 7,
+  "page": "p3",
+  "scope": "Official source video segments replayed and sought; not full-video viewing. Captures contain video area only. Local research evidence, not published.",
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=H3KnMyojEQU",
+      "observedInitialTitle": "Apple Event — September 9, 2025 - YouTube",
+      "observedLocalizedTitle": "Apple 이벤트 — 9월 9일",
+      "channel": "Apple",
+      "localizedStreamDate": "2025. 9. 10.",
+      "segments": [
+        { "fromSeconds": 3862, "observedPausedSeconds": 3864.063747, "capture": "apple-64m24-live.png" },
+        { "fromSeconds": 3869, "observedPausedSeconds": 3870.392569, "capture": "apple-64m30-live.png" }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5q8YAUTYAyk",
+      "observedTitle": "Config 2025: Figma product launch keynote (Dylan Field, CEO & Co-founder, Figma) LIVE at Moscone",
+      "channel": "Figma",
+      "localizedStreamDate": "2025. 5. 8.",
+      "segments": [
+        { "fromSeconds": 1079, "observedPausedSeconds": 1081.066019, "capture": "figma-18m01-live.png" },
+        { "fromSeconds": 580, "observedPausedSeconds": 581.048392, "capture": "figma-09m41-live.png" }
+      ]
+    }
+  ],
+  "handoff": { "source": "Figma", "pausedSeconds": 581.048392, "paused": true, "browserOperationsStopped": true }
+}

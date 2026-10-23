@@ -1,0 +1,3 @@
+# Preserve byte-identical public HTML snapshots, including upstream whitespace.
+# Source and documentation outside this evidence directory use normal checks.
+research/evidence/completed-cities/*.html -text -whitespace

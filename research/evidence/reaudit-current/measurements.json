@@ -1,0 +1,986 @@
+{
+  "head": "740817555e069ad1642616cc5d4e48b013edb303",
+  "source": "Live browser DOM normalized to canvas percent. No source-video geometry inferred.",
+  "measurements": [
+    {
+      "name": "photos",
+      "url": "http://localhost:4317/examples/photo-story/index.html#2",
+      "layout": "gallery",
+      "title": "서로 다른 시선들.",
+      "canvas": {
+        "width": 1600,
+        "height": 900
+      },
+      "mediaAreaPercent": 44.83,
+      "elements": [
+        {
+          "class": "slide-title",
+          "text": "서로 다른 시선들.",
+          "box": {
+            "x": 5.75,
+            "y": 8.67,
+            "width": 87.5,
+            "height": 8.53
+          },
+          "radius": "0px",
+          "fontSize": "64px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-label media-item-label",
+          "text": "기록하고",
+          "box": {
+            "x": 5.75,
+            "y": 20.53,
+            "width": 13.71,
+            "height": 6.6
+          },
+          "radius": "0px",
+          "fontSize": "22px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 5.75,
+            "y": 28.69,
+            "width": 13.71,
+            "height": 54.5
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-caption media-item-caption",
+          "text": "한 순간의 포착",
+          "box": {
+            "x": 5.75,
+            "y": 84.52,
+            "width": 13.71,
+            "height": 2.8
+          },
+          "radius": "0px",
+          "fontSize": "18px",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "class": "gallery-label media-item-label",
+          "text": "집중하고",
+          "box": {
+            "x": 20.71,
+            "y": 20.53,
+            "width": 13.71,
+            "height": 6.6
+          },
+          "radius": "0px",
+          "fontSize": "22px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 20.71,
+            "y": 28.69,
+            "width": 13.71,
+            "height": 54.5
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-caption media-item-caption",
+          "text": "소리를 듣는 시간",
+          "box": {
+            "x": 20.71,
+            "y": 84.52,
+            "width": 13.71,
+            "height": 2.8
+          },
+          "radius": "0px",
+          "fontSize": "18px",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "class": "gallery-label media-item-label",
+          "text": "적어보고",
+          "box": {
+            "x": 35.67,
+            "y": 20.53,
+            "width": 13.71,
+            "height": 6.6
+          },
+          "radius": "0px",
+          "fontSize": "22px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 35.67,
+            "y": 28.69,
+            "width": 13.71,
+            "height": 54.5
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-caption media-item-caption",
+          "text": "한 줄의 메모",
+          "box": {
+            "x": 35.67,
+            "y": 84.52,
+            "width": 13.71,
+            "height": 2.8
+          },
+          "radius": "0px",
+          "fontSize": "18px",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "class": "gallery-label media-item-label",
+          "text": "들여다보고",
+          "box": {
+            "x": 50.62,
+            "y": 20.53,
+            "width": 13.71,
+            "height": 6.6
+          },
+          "radius": "0px",
+          "fontSize": "22px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 50.62,
+            "y": 28.69,
+            "width": 13.71,
+            "height": 54.5
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-caption media-item-caption",
+          "text": "가까이 보는 눈",
+          "box": {
+            "x": 50.62,
+            "y": 84.52,
+            "width": 13.71,
+            "height": 2.8
+          },
+          "radius": "0px",
+          "fontSize": "18px",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "class": "gallery-label media-item-label",
+          "text": "장면을 만나고",
+          "box": {
+            "x": 65.58,
+            "y": 20.53,
+            "width": 13.71,
+            "height": 6.6
+          },
+          "radius": "0px",
+          "fontSize": "22px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 65.58,
+            "y": 28.69,
+            "width": 13.71,
+            "height": 54.5
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-caption media-item-caption",
+          "text": "일상의 한 자리",
+          "box": {
+            "x": 65.58,
+            "y": 84.52,
+            "width": 13.71,
+            "height": 2.8
+          },
+          "radius": "0px",
+          "fontSize": "18px",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "class": "gallery-label media-item-label",
+          "text": "밖을 바라봅니다",
+          "box": {
+            "x": 80.54,
+            "y": 20.53,
+            "width": 13.71,
+            "height": 6.6
+          },
+          "radius": "0px",
+          "fontSize": "22px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 80.54,
+            "y": 28.69,
+            "width": 13.71,
+            "height": 54.5
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-caption media-item-caption",
+          "text": "거리의 한 순간",
+          "box": {
+            "x": 80.54,
+            "y": 84.52,
+            "width": 13.71,
+            "height": 2.8
+          },
+          "radius": "0px",
+          "fontSize": "18px",
+          "color": "rgb(164, 164, 161)"
+        }
+      ],
+      "icons": [],
+      "frame": {
+        "x": 57.33331298828125,
+        "y": 110,
+        "width": 1557.33349609375,
+        "height": 876
+      }
+    },
+    {
+      "name": "icons",
+      "url": "http://localhost:4317/examples/workshop/index.html#3",
+      "layout": "categories",
+      "title": "네 가지 질문으로 점검합니다.",
+      "canvas": {
+        "width": 1600,
+        "height": 900
+      },
+      "mediaAreaPercent": 0,
+      "elements": [
+        {
+          "class": "slide-title",
+          "text": "네 가지 질문으로 점검합니다.",
+          "box": {
+            "x": 5.75,
+            "y": 8.67,
+            "width": 87.5,
+            "height": 8.53
+          },
+          "radius": "0px",
+          "fontSize": "64px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "category-icon",
+          "text": "◉",
+          "box": {
+            "x": 12.64,
+            "y": 43.52,
+            "width": 6.75,
+            "height": 12
+          },
+          "radius": "50%",
+          "fontSize": "16px",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "class": "category-label",
+          "text": "기록",
+          "box": {
+            "x": 5.75,
+            "y": 58.41,
+            "width": 20.53,
+            "height": 4.77
+          },
+          "radius": "0px",
+          "fontSize": "33px",
+          "color": "rgb(115, 185, 235)"
+        },
+        {
+          "class": "category-description",
+          "text": "무엇을 보았나요?",
+          "box": {
+            "x": 5.75,
+            "y": 65.4,
+            "width": 20.53,
+            "height": 3.83
+          },
+          "radius": "0px",
+          "fontSize": "23px",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "class": "category-icon",
+          "text": "↔",
+          "box": {
+            "x": 35.3,
+            "y": 43.52,
+            "width": 6.75,
+            "height": 12
+          },
+          "radius": "50%",
+          "fontSize": "16px",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "class": "category-label",
+          "text": "비교",
+          "box": {
+            "x": 28.41,
+            "y": 58.41,
+            "width": 20.53,
+            "height": 4.77
+          },
+          "radius": "0px",
+          "fontSize": "33px",
+          "color": "rgb(130, 204, 153)"
+        },
+        {
+          "class": "category-description",
+          "text": "어떤 차이가 있나요?",
+          "box": {
+            "x": 28.41,
+            "y": 65.4,
+            "width": 20.53,
+            "height": 3.83
+          },
+          "radius": "0px",
+          "fontSize": "23px",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "class": "category-icon",
+          "text": "✳",
+          "box": {
+            "x": 57.95,
+            "y": 43.52,
+            "width": 6.75,
+            "height": 12
+          },
+          "radius": "50%",
+          "fontSize": "16px",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "class": "category-label",
+          "text": "선택",
+          "box": {
+            "x": 51.06,
+            "y": 58.41,
+            "width": 20.53,
+            "height": 4.77
+          },
+          "radius": "0px",
+          "fontSize": "33px",
+          "color": "rgb(242, 146, 94)"
+        },
+        {
+          "class": "category-description",
+          "text": "무엇을 남길까요?",
+          "box": {
+            "x": 51.06,
+            "y": 65.4,
+            "width": 20.53,
+            "height": 3.83
+          },
+          "radius": "0px",
+          "fontSize": "23px",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "class": "category-icon",
+          "text": "↗",
+          "box": {
+            "x": 80.61,
+            "y": 43.52,
+            "width": 6.75,
+            "height": 12
+          },
+          "radius": "50%",
+          "fontSize": "16px",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "class": "category-label",
+          "text": "공유",
+          "box": {
+            "x": 73.72,
+            "y": 58.41,
+            "width": 20.53,
+            "height": 4.77
+          },
+          "radius": "0px",
+          "fontSize": "33px",
+          "color": "rgb(181, 154, 245)"
+        },
+        {
+          "class": "category-description",
+          "text": "어떻게 전할까요?",
+          "box": {
+            "x": 73.72,
+            "y": 65.4,
+            "width": 20.53,
+            "height": 3.83
+          },
+          "radius": "0px",
+          "fontSize": "23px",
+          "color": "rgb(164, 164, 161)"
+        }
+      ],
+      "icons": [
+        {
+          "symbol": "◉",
+          "element": "SPAN",
+          "svgCount": 0
+        },
+        {
+          "symbol": "↔",
+          "element": "SPAN",
+          "svgCount": 0
+        },
+        {
+          "symbol": "✳",
+          "element": "SPAN",
+          "svgCount": 0
+        },
+        {
+          "symbol": "↗",
+          "element": "SPAN",
+          "svgCount": 0
+        }
+      ],
+      "frame": {
+        "x": 57.33331298828125,
+        "y": 110,
+        "width": 1557.33349609375,
+        "height": 876
+      }
+    },
+    {
+      "name": "results",
+      "url": "http://localhost:4317/examples/product-launch/index.html#4",
+      "layout": "results",
+      "title": "정리한 생각이,여러 결과로.",
+      "canvas": {
+        "width": 1600,
+        "height": 900
+      },
+      "mediaAreaPercent": 38.09,
+      "elements": [
+        {
+          "class": "slide-title",
+          "text": "정리한 생각이,여러 결과로.",
+          "box": {
+            "x": 5.75,
+            "y": 31.18,
+            "width": 31.27,
+            "height": 19.52
+          },
+          "radius": "0px",
+          "fontSize": "72px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "result-label media-item-label",
+          "text": "문서",
+          "box": {
+            "x": 40.9,
+            "y": 8.67,
+            "width": 26.05,
+            "height": 3
+          },
+          "radius": "0px",
+          "fontSize": "20px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 40.9,
+            "y": 12.78,
+            "width": 26.05,
+            "height": 36.56
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "result-label media-item-label",
+          "text": "지표",
+          "box": {
+            "x": 68.2,
+            "y": 8.67,
+            "width": 26.05,
+            "height": 3
+          },
+          "radius": "0px",
+          "fontSize": "20px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 68.2,
+            "y": 12.78,
+            "width": 26.05,
+            "height": 36.56
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "result-label media-item-label",
+          "text": "표현",
+          "box": {
+            "x": 40.9,
+            "y": 51.56,
+            "width": 26.05,
+            "height": 3
+          },
+          "radius": "0px",
+          "fontSize": "20px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 40.9,
+            "y": 55.67,
+            "width": 26.05,
+            "height": 36.56
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "result-label media-item-label",
+          "text": "이미지",
+          "box": {
+            "x": 68.2,
+            "y": 51.56,
+            "width": 26.05,
+            "height": 3
+          },
+          "radius": "0px",
+          "fontSize": "20px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 68.2,
+            "y": 55.67,
+            "width": 26.05,
+            "height": 36.56
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "icons": [],
+      "frame": {
+        "x": 57.33331298828125,
+        "y": 110,
+        "width": 1557.33349609375,
+        "height": 876
+      }
+    },
+    {
+      "name": "statement",
+      "url": "http://localhost:4317/examples/product-launch/index.html#2",
+      "layout": "statement",
+      "title": "기다리는 시간을,다음 행동으로.",
+      "canvas": {
+        "width": 1600,
+        "height": 900
+      },
+      "mediaAreaPercent": 0,
+      "elements": [
+        {
+          "class": "slide-title",
+          "text": "기다리는 시간을,다음 행동으로.",
+          "box": {
+            "x": 26.38,
+            "y": 28.62,
+            "width": 47.25,
+            "height": 33.6
+          },
+          "radius": "0px",
+          "fontSize": "126px",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "icons": [],
+      "frame": {
+        "x": 57.33331298828125,
+        "y": 110,
+        "width": 1557.33349609375,
+        "height": 876
+      }
+    },
+    {
+      "name": "mosaic",
+      "url": "http://localhost:4317/examples/photo-story/index.html#6",
+      "layout": "mosaic",
+      "title": "장면과 작품을, 다시 엮습니다.",
+      "canvas": {
+        "width": 1600,
+        "height": 900
+      },
+      "mediaAreaPercent": 55.53,
+      "elements": [
+        {
+          "class": "slide-title",
+          "text": "장면과 작품을, 다시 엮습니다.",
+          "box": {
+            "x": 5.75,
+            "y": 8.67,
+            "width": 87.5,
+            "height": 8.53
+          },
+          "radius": "0px",
+          "fontSize": "64px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 5.75,
+            "y": 20.53,
+            "width": 43.62,
+            "height": 32.28
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 50.62,
+            "y": 20.53,
+            "width": 21.19,
+            "height": 32.28
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 73.06,
+            "y": 20.53,
+            "width": 21.19,
+            "height": 32.28
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 5.75,
+            "y": 55.04,
+            "width": 21.19,
+            "height": 32.28
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 28.19,
+            "y": 55.04,
+            "width": 21.19,
+            "height": 32.28
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 50.62,
+            "y": 55.04,
+            "width": 43.63,
+            "height": 32.28
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "icons": [],
+      "frame": {
+        "x": 57.33331298828125,
+        "y": 110,
+        "width": 1557.33349609375,
+        "height": 876
+      }
+    },
+    {
+      "name": "photo-strip",
+      "url": "http://localhost:4317/examples/photo-story/index.html#5",
+      "layout": "gallery",
+      "title": "같은 사진을, 다른 범위로.",
+      "canvas": {
+        "width": 1600,
+        "height": 900
+      },
+      "mediaAreaPercent": 23.94,
+      "elements": [
+        {
+          "class": "slide-title",
+          "text": "같은 사진을, 다른 범위로.",
+          "box": {
+            "x": 5.75,
+            "y": 8.67,
+            "width": 87.5,
+            "height": 8.53
+          },
+          "radius": "0px",
+          "fontSize": "64px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-label media-item-label",
+          "text": "기본 프레임",
+          "box": {
+            "x": 5.75,
+            "y": 68.45,
+            "width": 21.19,
+            "height": 3.3
+          },
+          "radius": "0px",
+          "fontSize": "22px",
+          "color": "rgb(233, 205, 114)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 5.75,
+            "y": 38.53,
+            "width": 21.19,
+            "height": 28.25
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-caption media-item-caption",
+          "text": "전체의 맥락",
+          "box": {
+            "x": 5.75,
+            "y": 73.08,
+            "width": 21.19,
+            "height": 2.8
+          },
+          "radius": "0px",
+          "fontSize": "18px",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "class": "gallery-label media-item-label",
+          "text": "1.4× 디지털 크롭",
+          "box": {
+            "x": 28.19,
+            "y": 68.45,
+            "width": 21.19,
+            "height": 3.3
+          },
+          "radius": "0px",
+          "fontSize": "22px",
+          "color": "rgb(233, 205, 114)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 28.19,
+            "y": 38.53,
+            "width": 21.19,
+            "height": 28.25
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-caption media-item-caption",
+          "text": "산과 호수",
+          "box": {
+            "x": 28.19,
+            "y": 73.08,
+            "width": 21.19,
+            "height": 2.8
+          },
+          "radius": "0px",
+          "fontSize": "18px",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "class": "gallery-label media-item-label",
+          "text": "2× 디지털 크롭",
+          "box": {
+            "x": 50.62,
+            "y": 68.45,
+            "width": 21.19,
+            "height": 3.3
+          },
+          "radius": "0px",
+          "fontSize": "22px",
+          "color": "rgb(233, 205, 114)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 50.62,
+            "y": 38.53,
+            "width": 21.19,
+            "height": 28.25
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-caption media-item-caption",
+          "text": "능선의 모양",
+          "box": {
+            "x": 50.62,
+            "y": 73.08,
+            "width": 21.19,
+            "height": 2.8
+          },
+          "radius": "0px",
+          "fontSize": "18px",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "class": "gallery-label media-item-label",
+          "text": "2.8× 디지털 크롭",
+          "box": {
+            "x": 73.06,
+            "y": 68.45,
+            "width": 21.19,
+            "height": 3.3
+          },
+          "radius": "0px",
+          "fontSize": "22px",
+          "color": "rgb(233, 205, 114)"
+        },
+        {
+          "class": "media-frame",
+          "text": "",
+          "box": {
+            "x": 73.06,
+            "y": 38.53,
+            "width": 21.19,
+            "height": 28.25
+          },
+          "radius": "0px",
+          "fontSize": "16px",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "class": "gallery-caption media-item-caption",
+          "text": "더 좁은 범위",
+          "box": {
+            "x": 73.06,
+            "y": 73.08,
+            "width": 21.19,
+            "height": 2.8
+          },
+          "radius": "0px",
+          "fontSize": "18px",
+          "color": "rgb(164, 164, 161)"
+        }
+      ],
+      "icons": [],
+      "frame": {
+        "x": 57.33331298828125,
+        "y": 110,
+        "width": 1557.33349609375,
+        "height": 876
+      }
+    },
+    {
+      "name": "purple",
+      "url": "http://localhost:4317/examples/workshop/index.html#2",
+      "layout": "section",
+      "title": "먼저,한 문장으로.",
+      "canvas": {
+        "width": 1600,
+        "height": 900
+      },
+      "mediaAreaPercent": 0,
+      "elements": [
+        {
+          "class": "slide-title",
+          "text": "먼저,한 문장으로.",
+          "box": {
+            "x": 30.31,
+            "y": 30.19,
+            "width": 39.38,
+            "height": 35.84
+          },
+          "radius": "0px",
+          "fontSize": "144px",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "icons": [],
+      "frame": {
+        "x": 57.33331298828125,
+        "y": 110,
+        "width": 1557.33349609375,
+        "height": 876
+      }
+    }
+  ]
+}

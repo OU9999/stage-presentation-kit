@@ -1,0 +1,19 @@
+{
+  "keynote": {
+    "url": "https://www.youtube.com/watch?v=Fls_onRviPM",
+    "title": "OpenAI DevDay 2026 Keynote (FULL)",
+    "channel": "OpenAI",
+    "channelUrl": "https://www.youtube.com/@OpenAI",
+    "datePublished": "2026-09-29T11:42:29-07:00",
+    "durationSeconds": 3214.141,
+    "verification": "YouTube visible title, verified channel link, player getVideoData, meta itemprop datePublished"
+  },
+  "codex": {
+    "url": "https://www.youtube.com/watch?v=XkKdbPhIvbY",
+    "title": "Codex Has Left The Laptop | DevDay 2026",
+    "channel": "OpenAI",
+    "datePublished": "2026-10-07T14:10:48-07:00",
+    "verification": "YouTube visible title, channel, player getVideoData, meta itemprop datePublished"
+  },
+  "limits": "Local stage source files were unavailable. Geometry observations use filmed stage screens with perspective. No full-session playback or exact source token/ratio claim."
+}

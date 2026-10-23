@@ -1,0 +1,66 @@
+[
+  {
+    "name": "name-2415",
+    "target": 1455,
+    "start": 1455,
+    "time": 1456.026555,
+    "paused": true,
+    "ready": 4,
+    "seeking": false,
+    "rect": {
+      "x": 16,
+      "y": 68,
+      "width": 1344,
+      "height": 756
+    },
+    "playback": "advanced"
+  },
+  {
+    "name": "results-2500",
+    "target": 1500,
+    "start": 1500,
+    "time": 1501.088416,
+    "paused": true,
+    "ready": 4,
+    "seeking": false,
+    "rect": {
+      "x": 16,
+      "y": 68,
+      "width": 1344,
+      "height": 756
+    },
+    "playback": "advanced"
+  },
+  {
+    "name": "collage-4750",
+    "target": 2870,
+    "start": 2870,
+    "time": 2871.101563,
+    "paused": true,
+    "ready": 4,
+    "seeking": false,
+    "rect": {
+      "x": 16,
+      "y": 68,
+      "width": 1344,
+      "height": 756
+    },
+    "playback": "advanced"
+  },
+  {
+    "name": "portraits-4830",
+    "target": 2910,
+    "start": 2910,
+    "time": 2911.08032,
+    "paused": true,
+    "ready": 4,
+    "seeking": false,
+    "rect": {
+      "x": 16,
+      "y": 68,
+      "width": 1344,
+      "height": 756
+    },
+    "playback": "advanced"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "class": "img-fluid resize-target ",
+    "src": "//assets.swoogo.com/uploads/5328380-681e53305ecf3.svg",
+    "alt": "OpenAI DevDay Exchange 2026",
+    "style": "margin: 0 auto;display:block; max-height:300px;"
+  },
+  {
+    "class": "img-fluid resize-target ",
+    "src": "//assets.swoogo.com/uploads/5328380-681e53305ecf3.svg",
+    "alt": "OpenAI DevDay Exchange 2026",
+    "style": " max-height:300px;"
+  },
+  {
+    "class": "img-fluid rounded mt-none mb-none",
+    "src": "//assets.swoogo.com/uploads/full/7424858-6a833d1f62e75.png",
+    "alt": "",
+    "style": "margin: 0 auto;display:block;"
+  }
+]

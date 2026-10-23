@@ -1,0 +1,98 @@
+[
+  {
+    "file": "seoul-presentation-seoulnews.webp",
+    "source_image_url": "https://img.seoul.co.kr/img/upload/2026/10/22/SSC_20261022191333_O2.png.webp",
+    "article_url": "https://m.go.seoul.co.kr/news/economy/industry/2026/10/22/20261022500319",
+    "credit": "민나리 기자 / 서울신문",
+    "visual_class": "actual slide: icon wall",
+    "event_date": "2026-10-22",
+    "retrieved_date": "2026-10-23",
+    "width": 1200,
+    "height": 675,
+    "sha256": "cb727c9416f84b33df79910aa43ac78a9ef8c3a5e2f22002c7d7be00ba72fa8d"
+  },
+  {
+    "file": "seoul-kim-openai.jpeg",
+    "source_image_url": "https://cdn.digitaltoday.co.kr/news/photo/202610/709421_657018_257.jpeg",
+    "article_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=709421",
+    "credit": "OpenAI via DigitalToday",
+    "visual_class": "actual slide: mixed-media mosaic",
+    "event_date": "2026-10-22",
+    "retrieved_date": "2026-10-23",
+    "width": 1280,
+    "height": 842,
+    "sha256": "e5fde2cc21a2d7e031874cf2b4d2117162ab8340c6518f462aa1f92a977ae325"
+  },
+  {
+    "file": "seoul-kim-yonhap.webp",
+    "source_image_url": "https://img.seoul.co.kr/img/upload/2026/10/22/SSC_20261022191323_O2.jpg.webp",
+    "article_url": "https://m.go.seoul.co.kr/news/economy/industry/2026/10/22/20261022500319",
+    "credit": "연합뉴스 via 서울신문",
+    "visual_class": "actual slide: two colored metrics",
+    "event_date": "2026-10-22",
+    "retrieved_date": "2026-10-23",
+    "width": 1200,
+    "height": 766,
+    "sha256": "60d462eb15735f91b59f2617c2823f6c90d82ab93bae9041c1efea53f15bc972"
+  },
+  {
+    "file": "seoul-albert-news1.jpg",
+    "source_image_url": "https://image.news1.kr/system/photos/2026/10/22/8174715/article.jpg",
+    "article_url": "https://www.news1.kr/it-science/internet-platform/6329233",
+    "credit": "김정현 기자 / 뉴스1",
+    "visual_class": "actual slide: product title and characters",
+    "event_date": "2026-10-22",
+    "retrieved_date": "2026-10-23",
+    "width": 560,
+    "height": 420,
+    "sha256": "603b7859a7019b5a10b520b346560825778f734af6123432e117d735cbddd932"
+  },
+  {
+    "file": "seoul-kim-news1.jpg",
+    "source_image_url": "https://image.news1.kr/system/photos/2026/10/22/8174714/article.jpg",
+    "article_url": "https://www.news1.kr/it-science/internet-platform/6329233",
+    "credit": "김정현 기자 / 뉴스1",
+    "visual_class": "actual slide: mixed-media mosaic close view",
+    "event_date": "2026-10-22",
+    "retrieved_date": "2026-10-23",
+    "width": 560,
+    "height": 420,
+    "sha256": "830af7d775abaa071f2709af040b30ca9905ac727c45e37d8de4481b046b9d61"
+  },
+  {
+    "file": "seoulnews-stage-sequence.gif",
+    "source_image_url": "https://img.seoul.co.kr/img/upload/2026/10/22/SSC_20261022191322_O2.gif",
+    "article_url": "https://m.go.seoul.co.kr/news/economy/industry/2026/10/22/20261022500319",
+    "credit": "민나리 기자 / 서울신문",
+    "visual_class": "stage branding animation; not content slide",
+    "event_date": "2026-10-22",
+    "retrieved_date": "2026-10-23",
+    "width": 654,
+    "height": 368,
+    "sha256": "da0662e8bd64d89561b97d36b7169f61e4187de7b85af576b67f8d15c7bef912"
+  },
+  {
+    "file": "seoul-media-briefing.webp",
+    "source_image_url": "https://img.seoul.co.kr/img/upload/2026/10/22/SSC_20261022191327_O2.jpg.webp",
+    "article_url": "https://m.go.seoul.co.kr/news/economy/industry/2026/10/22/20261022500319",
+    "credit": "서울신문 현장 사진",
+    "visual_class": "press briefing title slide; not main stage evidence",
+    "event_date": "2026-10-22",
+    "retrieved_date": "2026-10-23",
+    "width": 1200,
+    "height": 799,
+    "sha256": "e65cad702941a1d7753587df6640b0477e03091f2471b099ca6c0aa901b6cad8"
+  },
+  {
+    "file": "seoul-lgcns-news1.jpg",
+    "source_image_url": "https://image.news1.kr/system/photos/2026/10/22/8174716/article.jpg",
+    "article_url": "https://www.news1.kr/it-science/internet-platform/6329233",
+    "credit": "LG CNS via 뉴스1",
+    "visual_class": "partner slide; not OpenAI-authored evidence",
+    "event_date": "2026-10-22",
+    "retrieved_date": "2026-10-23",
+    "width": 560,
+    "height": 333,
+    "sha256": "1fd7350393c35fe5688a71db96f11d6ebceeafa8b9c05aa76e3c2305faf0b901"
+  }
+]
