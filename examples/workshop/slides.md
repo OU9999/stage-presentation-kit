@@ -1,7 +1,7 @@
 ---
 id: example-workshop
 title: 한 장의 생각 — 가상 워크숍 진행안
-theme: paper
+theme: stage
 speaker: 진행자 이름
 date: 2026. 10. 23.
 footer: 가상 워크숍 진행안
@@ -22,8 +22,9 @@ notes: 발표 디자인 워크숍을 가정한 진행안입니다. 실제 행사
 <!-- stage
 layout: section
 align: center
-surface: butter
-notes: 활동을 시작하는 전환 장면입니다. 소개용 색면을 이 장에만 사용하고 다음 활동 화면으로 넘어갑니다.
+tone: purple
+highlight: 한 문장으로.
+notes: 검정 무대와 큰 글자를 유지하며 활동을 시작합니다. 핵심 문장 한 줄에 보라색을 써서 다음 활동으로 시선을 옮깁니다.
 -->
 # 먼저,
 # 한 문장으로.

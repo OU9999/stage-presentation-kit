@@ -1,7 +1,7 @@
 ---
 id: example-engineering-review
 title: 반복 가능한 검증 — 가상 기술 개선 보고
-theme: paper
+theme: stage
 speaker: 발표자 이름
 date: 2026. 10. 23.
 footer: 가상 기술 개선 보고

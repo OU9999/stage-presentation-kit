@@ -7,7 +7,7 @@
 window.PRESENTATION = {
   id: "project-review-example",
   title: "릴리스, 다음을 위한 회고",
-  theme: "paper",
+  theme: "stage",
   speaker: "예시 발표자",
   date: "2027. 01. 15.",
   footer: "PROJECT REVIEW / EXAMPLE",

@@ -1,7 +1,7 @@
 ---
 id: example-photo-story
 title: 보는 범위 — 스톡 사진으로 만든 가상 에세이
-theme: midnight
+theme: stage
 speaker: 발표자 이름
 date: 2026. 10. 23.
 footer: 가상 사진 에세이

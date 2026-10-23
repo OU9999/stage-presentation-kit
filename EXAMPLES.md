@@ -7,11 +7,13 @@
 | 예제 | 구성과 색의 역할 | 원문 | 결과 |
 | --- | --- | --- | --- |
 | 제품 소개 | Stage 바탕, 주황 한 문장, 주요 수치, 문서·UI 결과와 시연 | [slides.md](examples/product-launch/slides.md) | [발표](examples/product-launch/index.html) · [PDF](output/pdf/product-launch.pdf) |
-| 기술 개선 보고 | Paper 바탕, 전후 비교, 단일 도표, 파랑 한 문장, 다음 행동 | [slides.md](examples/engineering-review/slides.md) | [발표](examples/engineering-review/index.html) · [PDF](output/pdf/engineering-review.pdf) |
-| 사진 중심 이야기 | Midnight 바탕, 풀컬러 사진 모음·큰 사진·콜라주, 중립 문장 | [slides.md](examples/photo-story/slides.md) | [발표](examples/photo-story/index.html) · [PDF](output/pdf/photo-story.pdf) |
-| 워크숍 | Paper 바탕, 소개 색면, 범주별 의미색, 실습 세 단계 | [slides.md](examples/workshop/slides.md) | [발표](examples/workshop/index.html) · [PDF](output/pdf/workshop.pdf) |
+| 기술 개선 보고 | Stage 검정 바탕, 전후 비교, 단일 도표, 파랑 한 문장, 다음 행동 | [slides.md](examples/engineering-review/slides.md) | [발표](examples/engineering-review/index.html) · [PDF](output/pdf/engineering-review.pdf) |
+| 사진 중심 이야기 | Stage 검정 바탕, 풀컬러 사진 모음·큰 사진·콜라주, 중립 문장 | [slides.md](examples/photo-story/slides.md) | [발표](examples/photo-story/index.html) · [PDF](output/pdf/photo-story.pdf) |
+| 워크숍 | Stage 검정 바탕, 보라색 문장 전환, 범주별 의미색, 실습 세 단계 | [slides.md](examples/workshop/slides.md) | [발표](examples/workshop/index.html) · [PDF](output/pdf/workshop.pdf) |
 
 이 예제들은 실제 회사·제품·연구 결과에 대한 주장이 아닙니다. 수치·발언은 가상으로 만들었고 사진은 기존 크레딧의 스톡 자료를 재사용했습니다. 생성된 HTML은 공통 `app.js`·`styles.css`·`deck-model.js`와 `assets/`를 참조하므로 공유할 때는 저장소 폴더 전체를 함께 옮깁니다. Markdown 작성·변환·발표에 AI 서비스는 필요하지 않습니다.
+
+네 발표의 기본 무대는 모두 Stage 검정 바탕입니다. DevDay 세션에서 참고한 큰 타이포와 여백을 공통으로 유지하고, 레이아웃·사진 구성·강조색으로 주제에 맞는 변화를 만듭니다. 사진·작품·문서·UI 자체의 원래 색과 밝기는 유지합니다.
 
 2026-10-23 Chromium에서 28장을 실제로 탐색해 입력 오류·분량 경고·미디어 로딩 실패가 없음을 확인했습니다. 390px 읽기 모드와 네 발표의 `file://` 실행, 각 7페이지 PDF도 확인했습니다. Markdown 문장을 수정한 뒤 재생성하고 브라우저를 새로고침해 새 데이터 주소와 실제 문장 변경을 검증했습니다. `node --test tests/*.test.cjs`는 기존 43개와 Markdown 19개, 총 62개를 통과했습니다. PDF와 미리보기 이미지는 이때의 원문으로 저장한 결과이며 이후 원문 수정 시 별도로 다시 저장합니다.
 
