@@ -1,0 +1,172 @@
+{
+  "checkedAt": "2026-10-23T09:38:49.668Z",
+  "head": "f9553170e56bcca24909d22e7ebd0f8d7df01f0d",
+  "scope": "Read-only local tracked/history inventory and four credential-shape checks. No remote visibility/Pages/account change; no legal rights determination or complete secrets audit.",
+  "trackedCount": 383,
+  "trackedTopLevelCounts": {
+    "(root)": 16,
+    "assets": 18,
+    "examples": 25,
+    "output": 6,
+    "research": 310,
+    "scripts": 2,
+    "tests": 6
+  },
+  "reachableCommitCount": 10,
+  "deletedPaths": [],
+  "licenseCandidates": [],
+  "notes": [
+    {
+      "path": "content.js",
+      "slideCount": 20,
+      "noteCount": 20,
+      "reviewed": "All note strings directly read: sample composition guidance, fictional scenario disclosure, presentation guidance, and source/credit notes; not treated as confidential content merely because the field is notes."
+    },
+    {
+      "path": "examples/project-review.js",
+      "slideCount": 6,
+      "noteCount": 6,
+      "reviewed": "All note strings directly read: sample composition guidance, fictional scenario disclosure, presentation guidance, and source/credit notes; not treated as confidential content merely because the field is notes."
+    },
+    {
+      "path": "examples/editorial-starter.js",
+      "slideCount": 1,
+      "noteCount": 1,
+      "reviewed": "All note strings directly read: sample composition guidance, fictional scenario disclosure, presentation guidance, and source/credit notes; not treated as confidential content merely because the field is notes."
+    },
+    {
+      "path": "examples/product-launch/content.js",
+      "slideCount": 7,
+      "noteCount": 7,
+      "reviewed": "All note strings directly read: sample composition guidance, fictional scenario disclosure, presentation guidance, and source/credit notes; not treated as confidential content merely because the field is notes."
+    },
+    {
+      "path": "examples/engineering-review/content.js",
+      "slideCount": 7,
+      "noteCount": 7,
+      "reviewed": "All note strings directly read: sample composition guidance, fictional scenario disclosure, presentation guidance, and source/credit notes; not treated as confidential content merely because the field is notes."
+    },
+    {
+      "path": "examples/photo-story/content.js",
+      "slideCount": 7,
+      "noteCount": 7,
+      "reviewed": "All note strings directly read: sample composition guidance, fictional scenario disclosure, presentation guidance, and source/credit notes; not treated as confidential content merely because the field is notes."
+    },
+    {
+      "path": "examples/workshop/content.js",
+      "slideCount": 7,
+      "noteCount": 7,
+      "reviewed": "All note strings directly read: sample composition guidance, fictional scenario disclosure, presentation guidance, and source/credit notes; not treated as confidential content merely because the field is notes."
+    },
+    {
+      "path": "examples/devday-compositions/content.js",
+      "slideCount": 7,
+      "noteCount": 7,
+      "reviewed": "All note strings directly read: sample composition guidance, fictional scenario disclosure, presentation guidance, and source/credit notes; not treated as confidential content merely because the field is notes."
+    }
+  ],
+  "totalNoteStrings": 62,
+  "sourceArchives": [
+    {
+      "path": "research/evidence/completed-cities/bengaluru-robin.html",
+      "bytes": 122207
+    },
+    {
+      "path": "research/evidence/completed-cities/official-schedule.html",
+      "bytes": 108631
+    },
+    {
+      "path": "research/evidence/completed-cities/tokyo-zenn.html",
+      "bytes": 570495
+    },
+    {
+      "path": "research/review-20261023/research/evidence/west/exchange-2026-source.html",
+      "bytes": 108632
+    },
+    {
+      "path": "research/review-20261023/research/evidence/west/exchange-2026-text.txt",
+      "bytes": 92214
+    }
+  ],
+  "researchImageOrFrameFiles": 226,
+  "trackedPDFs": [
+    "output/pdf/devday-compositions.pdf",
+    "output/pdf/engineering-review.pdf",
+    "output/pdf/photo-story.pdf",
+    "output/pdf/product-launch.pdf",
+    "output/pdf/stage-sample.pdf",
+    "output/pdf/workshop.pdf"
+  ],
+  "credentialShapeCheck": {
+    "textOnly": true,
+    "revisions": 10,
+    "patternCategories": [
+      "private_key_header",
+      "github_token_shape",
+      "aws_access_key_shape",
+      "openai_key_shape"
+    ],
+    "matchPathsAndTypesOnly": [],
+    "interpretation": "No output values; empty matches do not prove absence of secrets. Binary data, every credential format, and all external copies were not audited."
+  },
+  "disclosureFiles": [
+    "AGENTS.md",
+    "WORK_LOG.md"
+  ],
+  "workingTreeStatusAtReview": [
+    "M WORK_LOG.md",
+    " M research/external-sharing-20261023/deployment.md",
+    " M research/external-sharing-20261023/synthesis.md",
+    "?? research/external-sharing-20261023/cost-github-pages.md",
+    "?? research/external-sharing-20261023/current-repo-pages-draft.md",
+    "?? research/external-sharing-20261023/evidence/current-repo-pages.json",
+    "?? research/external-sharing-20261023/evidence/github-pages-cost.json",
+    "?? research/external-sharing-20261023/evidence/github-pages-manager-review.json",
+    "?? research/external-sharing-20261023/evidence/public-sharing-security.json",
+    "?? research/external-sharing-20261023/github-pages-cost-draft.md",
+    "?? research/external-sharing-20261023/public-sharing-security-draft.md"
+  ],
+  "rightsRecords": {
+    "examplesCreditFile": "assets/CREDITS.md",
+    "researchCreditSources": [
+      "research/review-20261023/research/general.md",
+      "research/review-20261023/research/asia.md",
+      "research/review-20261023/research/west.md",
+      "research/review-20261023/research/synthesis.md"
+    ],
+    "finding": "Sample stock/original assets and third-party research evidence are explicitly separated; credit and source verification is recorded, but inspected documentation does not establish a blanket grant to redistribute every research photo/frame or archived webpage."
+  },
+  "officialSources": [
+    {
+      "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository",
+      "checkedOn": "2026-10-23",
+      "supports": "Public repository visibility differs from an open-source reuse license; public view/fork and existing copies."
+    },
+    {
+      "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility",
+      "checkedOn": "2026-10-23",
+      "supports": "Public visibility exposes code and related repository history; privacy switch is a separate action."
+    }
+  ],
+  "trackedHeadBytes": 122171167,
+  "researchHeadBytes": 106213528,
+  "outputPDFHeadBytes": 10868745,
+  "collaboration": {
+    "peer": "/root/engineering_manager/deployment_engineer",
+    "readPeerDraft": "research/external-sharing-20261023/current-repo-pages-draft.md",
+    "resolved": [
+      {
+        "objection": "Does publicising the current full tool require a separate publication packager, private source repository, and notes removal?",
+        "resolution": "No: if full source/examples/research/history disclosure is intended, current relative paths and sample notes can be published directly; Pages setup is separate."
+      },
+      {
+        "objection": "Does sharing a presentation URL imply permission to disclose all 383 tracked files, 310 research files, WORK_LOG, and 10 commits?",
+        "resolution": "No: website artifact selection does not hide the public Git repository or its history; choose based on the intended disclosure scope."
+      },
+      {
+        "objection": "Does the lack of a LICENSE or unverified blanket redistribution grant prove publishing is technically prohibited or unlawful?",
+        "resolution": "No: public visibility, open-source reuse licensing, and third-party material permissions are distinct; document what was checked without making a legal determination."
+      }
+    ]
+  }
+}

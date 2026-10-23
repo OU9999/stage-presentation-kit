@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-10-23T09:29:44.354Z",
+  "reviewer": "/root/engineering_manager",
+  "sourceHead": "f9553170e56bcca24909d22e7ebd0f8d7df01f0d",
+  "scope": "Follow-up document, source and official-document review only; no product tests/browser work, deployment, account mutation, repository creation/public transition, service signup, billing activation, Git stage/commit/push.",
+  "currentRecommendation": "PRIVATE authoring repository plus a new PUBLIC artifact-only repository served by GitHub Pages; initial local publication without private CI or new cross-repository credentials.",
+  "reasonForChange": "Previous Workers-first review did not adequately assess the Free public deployment-repository path. Existing GitHub tooling and simple free static publishing take priority. Workers static hosting also has a free tier.",
+  "reportsReviewed": [
+    "cost-github-pages.md",
+    "github-pages-cost-draft.md",
+    "public-sharing-security-draft.md",
+    "synthesis.md",
+    "deployment.md",
+    "workflow.md"
+  ],
+  "reportHashes": {
+    "cost-github-pages.md": "8194322e3378038a2ef2f185f16aadc3d131cfc1542adc57dbf873fa2c2c1abc",
+    "github-pages-cost-draft.md": "31dc00076ffbe560d1c6ba36d1b365f1705cc439e84f92d93fc1e1667b0a7388",
+    "public-sharing-security-draft.md": "2037ed37056461120339ef5a21b69a5064cbf19c0851cd84f55243d45e5146d3",
+    "synthesis.md": "5ce21065981ebf3888bdef9e1193b78b33dde87ee672eb7728ba349fc7df5438",
+    "deployment.md": "3f5d9e57eb276d61792cfd35190db52655b89503d2ca2c7999e3693f543f75d3",
+    "workflow.md": "2ee20da265611e35fdbfaa071a45d76563f3a2575567db47999a052ba2644e97"
+  },
+  "preservedHistoricalEvidence": {
+    "path": "research/external-sharing-20261023/evidence/manager-review.json",
+    "unchangedSinceSourceHead": true,
+    "sha256": "d0af1cf2f28b061f54447d40244f8f028904eb5dca33e253f60abda58ab8d7e2",
+    "previousSnapshotBodiesPreserved": {
+      "synthesis.md": true,
+      "deployment.md": true
+    }
+  },
+  "checks": {
+    "localLinks": 38,
+    "missingLocalLinks": [],
+    "whitespaceIssues": [],
+    "jsonEvidenceParsed": [
+      "evidence/github-pages-cost.json",
+      "evidence/public-sharing-security.json"
+    ],
+    "independentSourceReview": {
+      "sourceUnchangedSinceCImplementation": true,
+      "slides": 7,
+      "notesInSlides": 7,
+      "uniqueLocalMedia": 6,
+      "mediaBytes": 1831368,
+      "localStorageDoesNotPublish": true,
+      "notesNeedRemovalFromDeliveredData": true,
+      "viewerUiIsConvenienceNotServerWriteAccessControl": true
+    }
+  },
+  "collaborationReviewed": [
+    {
+      "objectionBy": "product_workflow_engineer",
+      "issue": "Does PUBLIC Git history force retaining Workers?",
+      "resolution": "Both read drafts and agreed fresh artifact-only history preserves PRIVATE source history; current public materials may use Pages. Public copies cannot be recalled by either host."
+    },
+    {
+      "objectionBy": "deployment_engineer",
+      "issue": "Does audience editing threaten the server original?",
+      "resolution": "Workflow engineer rechecked code: edits persist only in the local browser. Public viewer UI is follow-up UX; excluding delivered notes remains necessary."
+    },
+    {
+      "reviewBy": "product_workflow_engineer",
+      "issue": "Are private CI and new cross-repository credentials necessary for first publication?",
+      "resolution": "After reading cost draft and evidence, confirmed initial local Git publication does not need them; optional CI requires separate scoped permissions."
+    }
+  ],
+  "officialDocumentsIndependentlyOpened": [
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits",
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https",
+    "https://docs.github.com/en/actions/concepts/security/github_token",
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site",
+    "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
+    "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository"
+  ],
+  "limitations": [
+    "GitHub plan not_returned in root read-only API observation; Free/Pro not established.",
+    "No new repository/Pages URL/settings or actual external deployment exists from this work.",
+    "No full secret audit or penetration test performed.",
+    "Public bundle packager remains unimplemented; public viewer is optional follow-up UX."
+  ]
+}

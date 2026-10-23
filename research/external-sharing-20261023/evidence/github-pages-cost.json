@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-10-23T09:24:37.247Z",
+  "head": "f9553170e56bcca24909d22e7ebd0f8d7df01f0d",
+  "branch": "main",
+  "scope": "Read-only current static presentation inventory. No publishing bundle or deployment created.",
+  "slideCount": 7,
+  "localMedia": [
+    {
+      "path": "assets/photos/capture.jpg",
+      "bytes": 136815
+    },
+    {
+      "path": "assets/photos/listen.jpg",
+      "bytes": 269985
+    },
+    {
+      "path": "assets/photos/write.jpg",
+      "bytes": 151172
+    },
+    {
+      "path": "assets/photos/observe.jpg",
+      "bytes": 299027
+    },
+    {
+      "path": "assets/photos/portrait-one.jpg",
+      "bytes": 388844
+    },
+    {
+      "path": "assets/photos/portrait-two.jpg",
+      "bytes": 585525
+    }
+  ],
+  "runtime": [
+    {
+      "path": "index.html",
+      "bytes": 6873
+    },
+    {
+      "path": "styles.css",
+      "bytes": 86714
+    },
+    {
+      "path": "app.js",
+      "bytes": 63955
+    },
+    {
+      "path": "deck-model.js",
+      "bytes": 20518
+    }
+  ],
+  "mediaBytes": 1831368,
+  "runtimeBytes": 178060,
+  "contentBytes": 11933,
+  "totalInputBytes": 2021361,
+  "accountEvidence": {
+    "source": "root read-only observation relayed 2026-10-23",
+    "login": "OU9999",
+    "sourceRepository": "OU9999/stage-presentation-kit",
+    "sourceVisibility": "PRIVATE",
+    "plan": "not_returned; Free/Pro not established"
+  },
+  "officialSources": [
+    {
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
+      "checkedOn": "2026-10-23",
+      "verified": "Free public vs paid private Pages; static files; publishing delay"
+    },
+    {
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits",
+      "checkedOn": "2026-10-23",
+      "verified": "1GB site,100GB/month soft bandwidth,business/SaaS restriction"
+    },
+    {
+      "url": "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
+      "checkedOn": "2026-10-23",
+      "verified": "public/Pages standard runner free;private generic CI allowance;larger runner charges"
+    },
+    {
+      "url": "https://docs.github.com/en/actions/concepts/security/github_token",
+      "checkedOn": "2026-10-23",
+      "verified": "self-repository scope;token-push Pages build limitation"
+    },
+    {
+      "url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens",
+      "checkedOn": "2026-10-23",
+      "verified": "fine-grained selected repository permissions"
+    },
+    {
+      "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys",
+      "checkedOn": "2026-10-23",
+      "verified": "single repository and writable deploy key conditions"
+    },
+    {
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site",
+      "checkedOn": "2026-10-23",
+      "verified": "branch deployment with underlying Pages workflow"
+    },
+    {
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "checkedOn": "2026-10-23",
+      "verified": "project site path and one user site per account"
+    },
+    {
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages",
+      "checkedOn": "2026-10-23",
+      "verified": "Pages deploy job pages:write,id-token:write permissions;source-repository access is separate"
+    }
+  ],
+  "limitations": [
+    "No credentials were read or printed.",
+    "Account plan/current quota is not known.",
+    "PUBLIC deployment repository and Pages URL do not exist as a result of this investigation.",
+    "Size is original input estimate;sanitized publication bundle will differ."
+  ]
+}

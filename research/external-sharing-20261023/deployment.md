@@ -1,5 +1,7 @@
 # 외부 발표 링크 — 배포 설계
 
+> **후속 검토로 권고 변경:** PRIVATE 원본을 유지하면서 공개 결과만 별도 PUBLIC 저장소의 GitHub Pages로 제공하는 무료 경로를 추가 평가했다. [비용·보안·github.io 재검토](cost-github-pages.md)가 현재 권고이며, 아래 Workers 기본안은 이전 검토의 기록이다. 기존 조사·근거는 보존한다.
+
 확인일: 2026-10-23 · 코드 기준: `f2991dcd5454d570b97d436f018f7aaf44fdf740` · 작성: `/root/engineering_manager/deployment_engineer` · 상태: 조사·제안. 배포·계정 변경·CLI 설치를 실행하지 않았다.
 
 사용자가 정한 범위는 **링크를 받은 사람이 로그인 없이 열람하는 공개 발표**다. 원본 GitHub 저장소 `OU9999/stage-presentation-kit`은 PRIVATE를 유지한다(총괄의 현재 실측 통지). 공개할 발표의 결과물만 별도 폴더로 만드는 방식이 맞다.

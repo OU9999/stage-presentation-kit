@@ -1,0 +1,104 @@
+{
+  "checkedAt": "2026-10-23T09:23:24.715Z",
+  "codeHead": "f9553170e56bcca24909d22e7ebd0f8d7df01f0d",
+  "scope": "Read-only source and sample-data review; no credential audit, network penetration test, browser test, deployment, or account change.",
+  "sourceFileHashes": {
+    "app.js": "cb1b9721b0bc2897c5c0c44c959d2d967f4d5a3f272a7824c7c544863ac21d3a",
+    "styles.css": "819c38f3e3ec0f5bcb35b8a6094a4bafc3ae8a2a5cdad377923caa1de2acf545",
+    "deck-model.js": "df2624fd79a3c03a580c7bfc48b192756bc640d3fa0688a084638c4a62bd1dc7",
+    "examples/devday-compositions/content.js": "4770213b72ba00367fbaa20d0cab4100259cb9272110ce1a344ae4b39c622670"
+  },
+  "sample": {
+    "slides": 7,
+    "notesFields": [
+      {
+        "path": "slides.0.notes",
+        "characters": 117
+      },
+      {
+        "path": "slides.1.notes",
+        "characters": 115
+      },
+      {
+        "path": "slides.2.notes",
+        "characters": 71
+      },
+      {
+        "path": "slides.3.notes",
+        "characters": 236
+      },
+      {
+        "path": "slides.4.notes",
+        "characters": 123
+      },
+      {
+        "path": "slides.5.notes",
+        "characters": 107
+      },
+      {
+        "path": "slides.6.notes",
+        "characters": 75
+      }
+    ],
+    "researchFilesInSourceRepo": 310,
+    "trackedPDFs": [
+      "output/pdf/devday-compositions.pdf",
+      "output/pdf/engineering-review.pdf",
+      "output/pdf/photo-story.pdf",
+      "output/pdf/product-launch.pdf",
+      "output/pdf/stage-sample.pdf",
+      "output/pdf/workshop.pdf"
+    ]
+  },
+  "codeObservations": {
+    "rawDeckJSONExport": true,
+    "idPathLocalStorage": true,
+    "signatureGuard": true,
+    "presenterByQuery": true,
+    "directNotesRendering": true,
+    "openerPostMessage": true,
+    "fetchCall": false,
+    "webSocket": false,
+    "printHidesPresenter": true
+  },
+  "syntheticValidation": {
+    "inputUnchanged": true,
+    "notesStillPresent": true,
+    "unknownExtensionStillPresent": true
+  },
+  "officialSources": [
+    {
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "verified": "2026-10-23",
+      "supports": "GitHub Free public repository Pages; static assets; github.io default URL"
+    },
+    {
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https",
+      "verified": "2026-10-23",
+      "supports": "HTTPS traffic encryption; github.io automatic HTTPS; Pages public even if source repository private"
+    },
+    {
+      "url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository",
+      "verified": "2026-10-23",
+      "supports": "Removing a file from latest revision does not remove historical copies or third-party clones"
+    }
+  ],
+  "directCollaboration": {
+    "peer": "/root/engineering_manager/deployment_engineer",
+    "readPeerDraft": "research/external-sharing-20261023/github-pages-cost-draft.md",
+    "resolved": [
+      {
+        "objection": "Does public deployment Git history require keeping Workers as default?",
+        "decision": "No: a fresh public artifact-only history does not copy private source history; previous public releases remain public and that tradeoff must be explicit."
+      },
+      {
+        "objection": "Does current audience editing permit modifying the server source?",
+        "decision": "No server write API is present; viewer-control cleanup is optional UX/release consistency work, while notes removal is the actual publication-data boundary."
+      },
+      {
+        "objection": "Does initial publishing require new cross-repository CI credentials?",
+        "decision": "No: initial local package review and git push use existing Git authentication; cross-repository CI permissions are a separate later option."
+      }
+    ]
+  }
+}
