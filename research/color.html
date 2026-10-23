@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STAGE — 사진과 컬러를 쓰는 순간</title>
+  <style>
+    :root{color-scheme:dark;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:#101010;color:#f3f1ed}
+    *{box-sizing:border-box}body{margin:0}a{color:inherit;text-underline-offset:4px}button{font:inherit;color:inherit;cursor:pointer}a:focus-visible,button:focus-visible{outline:2px solid #fff;outline-offset:5px}button:disabled{cursor:default}main{max-width:1480px;margin:auto;padding:40px 36px 100px}header{padding:44px 0 36px}.back{font-size:14px;color:#b5b2ac}.eyebrow{font-size:12px;letter-spacing:.13em;color:#aaa79f;text-transform:uppercase}h1{font-size:clamp(40px,5.4vw,78px);font-weight:450;letter-spacing:-.055em;line-height:1.15;margin:20px 0 25px;word-break:keep-all}p{line-height:1.8;color:#b9b6af;margin:12px 0;word-break:keep-all}.intro{max-width:850px;font-size:18px}.principle{font-size:clamp(21px,2.1vw,30px);color:#f3f1ed;max-width:1000px;margin-top:30px;line-height:1.5}.sources{display:flex;gap:20px;flex-wrap:wrap;font-size:13px;margin-top:24px;color:#bbb8b0}.filters{display:flex;gap:8px;flex-wrap:wrap;padding:20px 0;border-top:1px solid #363636;border-bottom:1px solid #363636}.filters button{border:1px solid #555;border-radius:24px;background:transparent;padding:9px 17px;font-size:14px}.filters button[aria-pressed=true]{background:#eeeae1;color:#151515;border-color:#eeeae1}.count{align-self:center;margin-left:auto;color:#aaa79f;font-size:13px}article{padding:52px 0 50px;border-bottom:1px solid #363636}article[hidden]{display:none}.case-head{display:grid;grid-template-columns:1fr minmax(270px,440px);gap:36px;align-items:end;margin-bottom:25px}.case-id{font-size:12px;color:#aaa79f;margin:0 0 13px}h2{font-size:clamp(26px,2.4vw,36px);font-weight:450;line-height:1.3;letter-spacing:-.035em;margin:0;word-break:keep-all}.case-head p{font-size:15px;margin:0}.frames{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.frames.pair{grid-template-columns:repeat(2,minmax(0,1fr))}.frames.single{grid-template-columns:1fr}.single figure{max-width:1050px}figure{margin:0;min-width:0}.frame-button{border:0;padding:0;background:#030303;width:100%;display:block;position:relative;text-align:left}.frame-button:after{content:'확대 ↗';position:absolute;right:9px;bottom:9px;padding:4px 7px;background:#101010cc;color:#eee;font-size:11px;opacity:0;transition:opacity .15s}.frame-button:hover:after,.frame-button:focus-visible:after{opacity:1}img{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;display:block;background:#030303}.stamp{display:flex;justify-content:space-between;gap:10px;align-items:center;margin:13px 0 8px;font-size:11px;color:#bdb9b0;line-height:1.4}.type{border:1px solid #555;padding:3px 7px;border-radius:3px}h3{font-size:17px;font-weight:500;line-height:1.5;margin:0;word-break:keep-all}figcaption p{font-size:13px;line-height:1.75;margin-top:7px}.takeaway{display:grid;grid-template-columns:110px 1fr;gap:14px;margin-top:25px;background:#1b1b1a;padding:19px 22px;font-size:14px;line-height:1.8}.takeaway strong{font-weight:500}.takeaway span{color:#c9c6bf}.limit{font-size:12px;color:#96938b;margin-top:13px;max-width:1000px}.closing{max-width:1000px;padding-top:54px}.closing h2{margin-bottom:22px}.roles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px}.role{padding:18px 0;border-top:1px solid #363636}.role b{font-size:16px;font-weight:500}.role p{font-size:14px;margin:7px 0}.status{font-size:13px;border-left:2px solid #888;padding-left:18px;margin-top:28px}.footer{font-size:12px;margin-top:36px;max-width:950px}dialog{width:min(1380px,96vw);max-height:95vh;border:1px solid #555;background:#141414;color:#eee;padding:16px}dialog::backdrop{background:#000d}dialog img{max-height:73vh;object-fit:contain}dialog .dialog-bar{display:flex;align-items:center;gap:20px;justify-content:space-between;padding-top:16px}dialog p{margin:0;font-size:14px}dialog button{background:transparent;border:1px solid #777;padding:8px 18px}dialog a{font-size:13px;white-space:nowrap}.dialog-caption{flex:1}.dialog-actions{display:flex;gap:18px;align-items:center}
+    .header-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.hero img{border:1px solid #343434}.hero figcaption{padding-top:16px}.hero figcaption p{font-size:13px;margin-top:6px}header h1{font-size:clamp(36px,4.4vw,66px)}header .intro{font-size:16px}.header-grid .hero{margin-top:18px}
+    @media(max-width:1050px){.header-grid{grid-template-columns:1fr;gap:20px}.hero{max-width:850px}}
+    @media(max-width:950px){.case-head{grid-template-columns:1fr;gap:14px}.frames{gap:12px}.roles{grid-template-columns:1fr}.stamp{display:block}.type{display:inline-block;margin-top:8px}}@media(max-width:650px){main{padding:24px 18px 64px}header{padding:25px 0}.intro{font-size:16px}.principle{font-size:22px}.sources{gap:13px;font-size:12px}.filters{gap:7px}.filters button{font-size:12px;padding:8px 12px}.count{width:100%;margin:4px 0 0}.frames,.frames.pair{grid-template-columns:1fr;gap:28px}article{padding:36px 0}.case-head{margin-bottom:22px}.stamp{display:flex}.type{margin:0}.takeaway{grid-template-columns:1fr;gap:3px;padding:16px}.frame-button:after{opacity:1}dialog{padding:10px}dialog .dialog-bar{display:block}.dialog-actions{justify-content:space-between;margin-top:12px}.closing{padding-top:36px}}
+  </style>
+</head>
+<body>
+<main>
+  <a class="back" href="index.html">← 전체 세션 조사</a>
+  <header>
+    <div class="header-grid"><div>
+    <div class="eyebrow">STAGE · Visual research 02 · 2026.10.23</div>
+    <h1>사진은 풍부하게.<br>컬러는 역할에 맞게.</h1>
+    <p class="intro">두 탐색 에이전트가 DevDay 2026과 Apple Event·Figma Config 2025에서 사진·작품·유색 타이포가 등장하는 장면을 다시 조사했습니다. 무채색이라는 공통점 뒤에 가려졌던 이미지의 배열, 색의 목적, 전후 흐름을 비교합니다.</p>
+    </div><figure class="hero"><a href="#case-01"><img src="evidence/color-devday/keynote-48m30-playing.png" alt="DevDay 2026의 풀컬러 인물 이미지 여섯 장과 정렬된 짧은 설명" width="1280" height="720"></a><figcaption><span class="eyebrow">DevDay 2026 · 48:30</span><p>색을 없애는 대신, 프레임과 간격을 통일합니다. <a href="#case-01">전후 장면 보기 ↓</a></p></figcaption></figure></div>
+    <p class="principle">중립적인 바탕 위에서도 사진은 풀컬러로,<br>주장은 한 줄의 색으로, 소개는 잠깐의 색면으로 전달합니다.</p>
+    <nav class="sources" aria-label="상세 근거"><a href="devday-color-photo-analysis.md">DevDay 탐색 보고서 ↗</a><a href="external-color-photo-analysis.md">외부 탐색 보고서 ↗</a><a href="color-design-criteria.md">디자인 적용 기준 ↗</a><a href="../DESIGN.md">전체 디자인 가이드 ↗</a></nav>
+  </header>
+  <nav class="filters" aria-label="사례 종류">
+    <button type="button" data-filter="all" aria-pressed="true">전체</button>
+    <button type="button" data-filter="photo" aria-pressed="false">사진·작품·결과물</button>
+    <button type="button" data-filter="meaning" aria-pressed="false">비교·범주·연결</button>
+    <button type="button" data-filter="emphasis" aria-pressed="false">주장·등장·전환</button>
+    <span class="count" aria-live="polite">8개 사례</span>
+  </nav>
+  <div id="cases"></div>
+  <section class="closing">
+    <div class="eyebrow">Template direction</div>
+    <h2>재사용할 것은 색 하나보다<br>색이 맡는 역할입니다.</h2>
+    <div class="roles">
+      <div class="role"><b>콘텐츠의 색</b><p>사진·작품·제품 화면의 색을 보존합니다. 여러 색은 프레임, 간격, 정렬, 캡션 위치로 정돈합니다.</p></div>
+      <div class="role"><b>관계를 읽히는 색</b><p>범주 아이콘과 이름, 비교 사진과 조건, 제품과 부품명처럼 대응하는 대상끼리 연결합니다.</p></div>
+      <div class="role"><b>메시지를 세우는 색</b><p>핵심 수치나 문장의 의미 단위를 통째로 강조합니다. 같은 강도의 배지와 장식을 곳곳에 반복하지 않습니다.</p></div>
+      <div class="role"><b>흐름을 바꾸는 색</b><p>발표자 소개에 색 타이포나 색면을 사용하고, 설명으로 들어가면 다시 화면의 밀도와 색의 역할을 바꿉니다.</p></div>
+    </div>
+    <p class="status">현재 키트는 20장 예제와 16개 양식을 제공합니다. 다중 사진, 조건 비교 스트립, 결과물 모음, 작품 콜라주와 유색 소개 변형을 실제 예제에 반영했습니다. <a href="../index.html#3">새 예제 보기 →</a> 이 보드의 원본 발표 이미지는 조사 근거이며 재사용 템플릿의 자산이 아닙니다.</p>
+    <p class="footer">확인 범위: 특정 시점의 프레임 관찰과 일부 구간 재생. DevDay 48:20–48:50은 연속 재생했습니다. 다른 전후 이미지는 관찰한 시점의 순서이며 모든 중간 전환을 확인했다는 뜻은 아닙니다. 방송 카메라 컷·무대 조명·발표자의 의상은 슬라이드 색의 근거로 합산하지 않았습니다. 전편의 컬러 빈도, 원본 제작 도구, 정확한 색상 토큰과 애니메이션 수치는 확인하지 않았습니다. 인물 비주얼의 촬영·합성·생성 여부도 판정하지 않았습니다.</p>
+  </section>
+</main>
+<dialog aria-label="근거 프레임 확대">
+  <img id="detail-image" alt="">
+  <div class="dialog-bar"><p class="dialog-caption"></p><div class="dialog-actions"><a id="detail-source" target="_blank" rel="noreferrer">원본 시점 보기 ↗</a><button type="button" id="close-detail">닫기</button></div></div>
+</dialog>
+<script>
+  const base = 'evidence/';
+  const videos = {
+    keynote:'https://www.youtube.com/watch?v=Fls_onRviPM',
+    codex:'https://www.youtube.com/watch?v=XkKdbPhIvbY',
+    apple:'https://www.youtube.com/watch?v=H3KnMyojEQU',
+    figma:'https://www.youtube.com/watch?v=5q8YAUTYAyk'
+  };
+  const frame = (file, video, time, stamp, type, title, description, alt) => ({file,video,time,stamp,type,title,description,alt});
+  const cases = [
+    {id:'01',tags:['photo'],title:'서로 다른 사람을 같은 무게로 보여줍니다.',summary:'DevDay · 같은 비율의 인물 이미지 여섯 장. 사진의 색과 피사체 크롭은 달라도 외곽 틀·간격·캡션 기준은 같습니다.',takeaway:'인물·고객 사례를 동등하게 소개할 때는 같은 비율의 프레임을 씁니다. 짧은 캡션은 사진 위의 중립 여백에 둡니다.',limit:'여기서 사진은 사진 형태의 인물 비주얼을 뜻하며 촬영·합성·생성 여부는 확인하지 않았습니다. 48:20–48:50 연속 재생 확인. 48:40은 발표자 카메라 컷이며, 사진 하나를 확대하는 슬라이드 효과로 해석하지 않았습니다.',frames:[
+      frame('color-devday/keynote-48m20.png','keynote',2900,'DevDay 2026 · 48:20','제품 요약 화면','제품들의 컬러를 모은 요약','크기와 비율이 다른 제품·브랜드 타일을 촘촘히 묶습니다.','DevDay의 여러 제품 비주얼과 UI를 모은 컬러 콜라주'),
+      frame('color-devday/keynote-48m30-playing.png','keynote',2910,'DevDay 2026 · 48:30','발표 스크린','동일한 틀의 인물 여섯 장','각 이미지 위에 짧은 흰 설명. 원래의 청록·주황·분홍·파랑 등이 함께 보입니다.','검정 스크린 위 풀컬러 세로 인물 이미지 여섯 장과 각 상단의 캡션'),
+      frame('color-devday/keynote-48m50-playing.png','keynote',2930,'DevDay 2026 · 48:50','브랜드 필름','인물 배열에서 브랜드 필름으로','이후에는 인물과 장소를 담은 영상이 화면을 맡습니다.','DevDay의 인물 이미지 배열 뒤에 등장한 풀컬러 브랜드 필름')
+    ]},
+    {id:'02',tags:['photo','meaning'],title:'한 장씩 이해한 뒤, 여러 장을 비교합니다.',summary:'Apple Event · 시야가 다른 사진을 크게 보여준 다음, 8장 스트립과 노란 조건 라벨로 요약합니다.',takeaway:'비교할 조건을 먼저 정합니다. 같은 프레임·같은 라벨 위치를 유지하고, 전체 비교판은 세부를 이해한 뒤 보여줍니다.',limit:'초점거리와 시야의 변화는 확인했습니다. 같은 파일의 크롭인지 별도 촬영인지는 영상만으로 단정하지 않습니다.',frames:[
+      frame('color-external/apple-september-64m22.png','apple',3862,'APPLE EVENT 2025 · 01:04:22','발표 이미지판','13 MM: 전체 공간','중앙의 큰 4:3 사진, 넓은 검정 바깥 여백, 하단 노란 조건 라벨.','주황과 연두 벽의 실내 인물 사진과 노란 13 MM 라벨'),
+      frame('color-external/apple-september-64m28.png','apple',3868,'APPLE EVENT 2025 · 01:04:28','발표 이미지판','200 MM: 한 인물에 집중','바깥 프레임을 유지하면서 관심 대상이 커집니다.','같은 공간 속 한 인물을 크게 보여주는 사진과 노란 200 MM 라벨'),
+      frame('color-external/apple-september-64m30.png','apple',3870,'APPLE EVENT 2025 · 01:04:30','발표 이미지판','8장과 하나의 비교 축','사진은 풀컬러. 노란 배율·초점거리 라벨은 서로 다른 사진을 같은 기준으로 읽게 합니다.','검정 바탕 위 여덟 사진의 가로 스트립과 노란 촬영 조건 라벨')
+    ]},
+    {id:'03',tags:['photo'],title:'색과 질감 자체가 근거라면 크게 보여줍니다.',summary:'Apple Event · 사진 한 장이 화면을 맡습니다. 주변을 같은 테마색으로 채우지 않아도 붉은 과실의 인상이 충분히 강합니다.',takeaway:'작품·제품·현장 사진에서 색과 질감이 중요하면 원본 컬러를 보존합니다. 캡션과 출처는 피사체의 핵심 영역을 피합니다.',limit:'검은 영역 일부는 사진 속 배경입니다. 별도의 슬라이드 배경과 동일하다고 단정하지 않습니다.',frames:[
+      frame('color-external/apple-september-63m40.png','apple',3820,'APPLE EVENT 2025 · 01:03:40','발표 이미지판','사진 한 장을 화면 전체에 보여줍니다.','붉은 석류와 재질이 주인공. 우하단의 작은 조건판은 사진색과 다른 노랑·흰색으로 읽힙니다.','검은 배경 위 붉은 석류의 큰 사진과 오른쪽 아래 작은 촬영 정보')
+    ]},
+    {id:'04',tags:['photo'],title:'작품의 방향성을 살려 콜라주를 만듭니다.',summary:'Figma Config · 제품 데모 안에서 완성되는 6개 작품의 비대칭 배열입니다. 가로·세로 작품을 같은 정방형으로 자르지 않습니다.',takeaway:'서로 다른 작품을 모을 때는 비율을 섞되 공통 외곽선과 일정한 간격을 유지합니다. 다양성은 내용이, 질서는 그리드가 맡습니다.',limit:'Figma 편집기 안의 결과물이며 원본 발표 슬라이드 콜라주는 아닙니다. 왼쪽 연사 영상과 바깥 살구색 영역은 방송 레이아웃입니다.',frames:[
+      frame('color-external/figma-grid-16m00.png','figma',960,'FIGMA CONFIG 2025 · 16:00','제품 데모','빈 작업 대상','어두운 편집 UI와 검정 작업 프레임. 유색 소스 작품은 주변에 이미 있습니다.','Figma 편집기의 빈 검정 그리드와 주변의 유색 작품'),
+      frame('color-external/figma-grid-16m40.png','figma',1000,'FIGMA CONFIG 2025 · 16:40','제품 데모','세 작품을 배치','위쪽의 큰 가로 작품과 작은 세로 작품들이 먼저 들어옵니다.','검정 그리드 상단에 세 유색 작품이 들어간 중간 단계'),
+      frame('color-external/figma-grid-18m00.png','figma',1080,'FIGMA CONFIG 2025 · 18:00','제품 데모','여섯 작품으로 완성','타이포·합성·사진형 작품의 색은 그대로, 두 행의 경계와 간격은 일정하게 맞춥니다.','가로 두 작품과 세로 네 작품을 섞은 풀컬러 비대칭 콜라주')
+    ]},
+    {id:'05',tags:['emphasis'],title:'색은 주장과 사람의 등장에도 쓰입니다.',summary:'DevDay·Codex·Apple의 서로 다른 세 장면입니다. 이름·문장·핵심 수치에도 큰 색 타이포가 등장합니다.',takeaway:'이름, 문장의 의미 단위, 핵심 수치 중 한 대상을 주인공으로 정합니다. 색상 하나를 발표 전체의 모든 제목과 배지에 반복할 필요는 없습니다.',limit:'아래 세 프레임은 연속된 전환이 아니라 서로 다른 목적의 비교 사례입니다. 원본의 정확한 색상 토큰은 확인하지 않았습니다.',frames:[
+      frame('color-devday/keynote-24m15.png','keynote',1455,'DevDay 2026 · 24:15','발표 스크린','보라색: 사람의 등장','큰 발표자 이름 하나를 색으로 세웁니다.','검정 스크린 위 보라색의 큰 Tejal Patwardhan 이름'),
+      frame('color-devday/codex-20m00.png','codex',1200,'CODEX 2026 · 20:00','발표 스크린','주황색: 한 줄의 선언','흰 첫 줄과 주황 둘째 줄. 한 문장의 의미 단위 전체가 강조됩니다.','검정 바탕의 흰 How we build와 주황 is changing 두 줄 문장'),
+      frame('color-external/apple-september-35m20.png','apple',2120,'APPLE EVENT 2025 · 35:20','발표 스크린','초록색: 한 개의 변화량','큰 녹색 수치와 작은 흰 비교 조건으로 위계를 만듭니다.','검정 바탕의 큰 녹색 +8 hours와 작은 흰 비교 조건')
+    ]},
+    {id:'06',tags:['meaning'],title:'대응하는 대상끼리 같은 색으로 연결합니다.',summary:'DevDay의 범주 아이콘·이름, Apple의 제품·부품명은 색으로 짝을 이룹니다. 사진 속 모든 색을 설명색으로 확장하지 않습니다.',takeaway:'색을 적용할 대상과 연결 관계를 정합니다. 범주명·아이콘을 함께 쓰고, 비교 조건을 글자로도 표시해 색만으로 의미를 전달하지 않습니다.',limit:'두 프레임은 서로 다른 발표의 비교 사례입니다. 이 색들을 모든 후속 장에 반복하는 공식 팔레트 규칙은 확인하지 않았습니다.',frames:[
+      frame('color-devday/keynote-23m00.png','keynote',1380,'DevDay 2026 · 23:00','발표 스크린','범주 아이콘 ↔ 이름','파랑·초록·흰색·주황·보라가 각 아이콘과 이름을 묶습니다.','검정 바탕의 다섯 범주 아이콘과 각각 같은 색의 라벨'),
+      frame('color-external/apple-september-36m00.png','apple',2160,'APPLE EVENT 2025 · 36:00','발표 스크린','제품색 ↔ 부품명','보라 기기와 보라 이름, 흰 세부 조건과 가는 연결선.','큰 보라색 휴대폰 카메라 이미지와 같은 보라색의 부품명')
+    ]},
+    {id:'07',tags:['emphasis'],title:'소개할 때 색면을 열고, 설명할 때 비웁니다.',summary:'Figma Config · 중앙의 실제 발표 화면이 검정 → 연노랑 이름 소개 → 검정으로 바뀝니다. 색면은 발표자 교체라는 사건에 연결됩니다.',takeaway:'소개·전환용 색면은 시작과 끝을 가진 장으로 설계합니다. 다음 설명 장의 정보량과 색의 역할까지 함께 결정합니다.',limit:'이 구간에서 검증한 용도는 발표자 소개입니다. 모든 챕터가 유색 배경이라는 규칙으로 일반화하지 않습니다. 09:55의 카메라 근접 촬영은 복귀 증거에서 제외했습니다.',frames:[
+      frame('color-external/figma-intro-09m28.png','figma',568,'FIGMA CONFIG 2025 · 09:28','중앙 발표 스크린','앞: 중립적인 챕터 이름','검정 바탕에 흰 Layout. 옆 장식과 무대 조명은 별도입니다.','Figma 무대 중앙의 검정 Layout 화면과 기존 발표자'),
+      frame('color-external/figma-intro-09m40.png','figma',580,'FIGMA CONFIG 2025 · 09:40','중앙 발표 스크린','등장: 연노랑 소개 화면','새 발표자 이름과 도형이 중앙의 밝은 색면에 놓입니다.','Figma 무대 중앙의 연노랑 Giorgio Caviglia 소개 화면'),
+      frame('color-external/figma-intro-10m10.png','figma',610,'FIGMA CONFIG 2025 · 10:10','중앙 발표 스크린','뒤: 설명을 위한 중립 화면','새 발표자가 검정 Layout 화면 앞에서 설명합니다.','새 발표자 뒤 중앙 스크린이 다시 검정 Layout으로 바뀐 모습')
+    ]},
+    {id:'08',tags:['photo'],title:'결과물 모음과 사진 모음은 다르게 설계합니다.',summary:'DevDay · 문서·3D 장면·분석 화면은 주장의 증거로, 제품·로고·캐릭터의 콜라주는 후반의 제품 요약 장으로 쓰입니다.',takeaway:'문서와 UI는 중요한 내용을 자르지 않는 배치를 우선합니다. 다양한 제품을 회수할 때는 크기가 다른 타일을 쓸 수 있습니다. 같은 비중의 인물 스트립과 구분해 선택합니다.',limit:'두 프레임은 연속 장면이 아닙니다. 2×2의 네 칸은 네 장의 사진이 아니라 서로 다른 결과 화면입니다.',frames:[
+      frame('color-devday/keynote-25m00.png','keynote',1500,'DevDay 2026 · 25:00','발표 스크린','짧은 주장 + 결과물 2×2','문서·3D 도시·분석 화면·양식이 서로 다른 작업 범위를 보여줍니다.','왼쪽의 짧은 흰 주장과 오른쪽의 서로 다른 결과 화면 네 개'),
+      frame('color-devday/keynote-47m50.png','keynote',2870,'DevDay 2026 · 47:50','발표 스크린','제품들을 회수하는 콜라주','크기가 다른 비주얼·문자·UI·캐릭터를 외곽과 간격으로 묶습니다.','다양한 색과 비율의 제품 이미지, UI, 로고, 문자를 모은 요약 콜라주')
+    ]}
+  ];
+  const escape = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
+  document.querySelector('#cases').innerHTML = cases.map(item => `<article data-tags="${item.tags.join(' ')}" aria-labelledby="case-${item.id}">
+    <div class="case-head"><div><p class="case-id">CASE ${item.id}</p><h2 id="case-${item.id}">${escape(item.title)}</h2></div><p>${escape(item.summary)}</p></div>
+    <div class="frames ${item.frames.length===1?'single':item.frames.length===2?'pair':''}">${item.frames.map((f,index) => `<figure>
+      <button type="button" class="frame-button" data-case="${item.id}" data-frame="${index}" aria-label="${escape(f.stamp+' '+f.title+' 프레임 확대')}"><img src="${base+f.file}" alt="${escape(f.alt)}" loading="lazy" width="1280" height="720"></button>
+      <figcaption><div class="stamp"><a href="${videos[f.video]}&amp;t=${f.time}s" target="_blank" rel="noreferrer">${escape(f.stamp)} ↗</a><span class="type">${escape(f.type)}</span></div><h3>${escape(f.title)}</h3><p>${escape(f.description)}</p></figcaption>
+    </figure>`).join('')}</div>
+    <div class="takeaway"><strong>양식으로 옮기면</strong><span>${escape(item.takeaway)}</span></div><p class="limit">관찰 범위 · ${escape(item.limit)}</p>
+  </article>`).join('');
+  const dialog = document.querySelector('dialog');
+  document.querySelector('.filters').addEventListener('click',event => {
+    const button=event.target.closest('[data-filter]');if(!button)return;
+    const selected=button.dataset.filter;
+    document.querySelectorAll('[data-filter]').forEach(node=>node.setAttribute('aria-pressed',String(node===button)));
+    let count=0;document.querySelectorAll('article').forEach(article=>{article.hidden=selected!=='all'&&!article.dataset.tags.split(' ').includes(selected);if(!article.hidden)count++;});
+    document.querySelector('.count').textContent=`${count}개 사례`;
+  });
+  document.querySelector('#cases').addEventListener('click',event=>{
+    const button=event.target.closest('.frame-button');if(!button)return;
+    const item=cases.find(item=>item.id===button.dataset.case);const f=item.frames[Number(button.dataset.frame)];
+    const img=document.querySelector('#detail-image');img.src=base+f.file;img.alt=f.alt;
+    document.querySelector('.dialog-caption').textContent=f.stamp+' · '+f.title;
+    document.querySelector('#detail-source').href=videos[f.video]+'&t='+f.time+'s';
+    dialog.showModal();
+  });
+  document.querySelector('#close-detail').addEventListener('click',()=>dialog.close());
+  dialog.addEventListener('click',event=>{if(event.target===dialog){const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();}});
+</script>
+</body>
+</html>

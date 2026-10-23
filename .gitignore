@@ -1,0 +1,23 @@
+# Local operating-system and editor files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local configuration, credentials, dependencies, and temporary files
+.env
+.env.*
+*.local
+node_modules/
+.cache/
+tmp/
+temp/
+*.log
+
+# Keep the shareable PDF; omit QA captures, intermediate renders, and exports.
+/output/*
+!/output/pdf/
+/output/pdf/*
+!/output/pdf/stage-sample.pdf

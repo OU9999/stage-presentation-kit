@@ -1,0 +1,130 @@
+[
+  {
+    "file": "figma-intro-09m28.png",
+    "time_seconds": 568,
+    "url": "https://www.youtube.com/watch?v=5q8YAUTYAyk&t=568s",
+    "year": 2025,
+    "role": "neutral-stage",
+    "title": "Figma: Layout"
+  },
+  {
+    "file": "figma-intro-09m40.png",
+    "time_seconds": 580,
+    "url": "https://www.youtube.com/watch?v=5q8YAUTYAyk&t=580s",
+    "year": 2025,
+    "role": "stage-transition",
+    "title": "Figma: speaker introduction"
+  },
+  {
+    "file": "figma-intro-10m10.png",
+    "time_seconds": 610,
+    "url": "https://www.youtube.com/watch?v=5q8YAUTYAyk&t=610s",
+    "year": 2025,
+    "role": "neutral-stage",
+    "title": "Figma: return to Layout"
+  },
+  {
+    "file": "figma-grid-16m00.png",
+    "time_seconds": 960,
+    "url": "https://www.youtube.com/watch?v=5q8YAUTYAyk&t=960s",
+    "year": 2025,
+    "role": "product-demo",
+    "title": "Figma: empty target grid"
+  },
+  {
+    "file": "figma-grid-16m40.png",
+    "time_seconds": 1000,
+    "url": "https://www.youtube.com/watch?v=5q8YAUTYAyk&t=1000s",
+    "year": 2025,
+    "role": "product-demo",
+    "title": "Figma: three mixed artworks"
+  },
+  {
+    "file": "figma-grid-18m00.png",
+    "time_seconds": 1080,
+    "url": "https://www.youtube.com/watch?v=5q8YAUTYAyk&t=1080s",
+    "year": 2025,
+    "role": "product-demo",
+    "title": "Figma: six mixed artworks"
+  },
+  {
+    "file": "figma-grid-19m00.png",
+    "time_seconds": 1140,
+    "url": "https://www.youtube.com/watch?v=5q8YAUTYAyk&t=1140s",
+    "year": 2025,
+    "role": "product-demo",
+    "title": "Figma: calendar, less color"
+  },
+  {
+    "file": "apple-september-35m20.png",
+    "time_seconds": 2120,
+    "url": "https://www.youtube.com/watch?v=H3KnMyojEQU&t=2120s",
+    "year": 2025,
+    "role": "data-emphasis",
+    "title": "Apple: green performance figure"
+  },
+  {
+    "file": "apple-september-36m00.png",
+    "time_seconds": 2160,
+    "url": "https://www.youtube.com/watch?v=H3KnMyojEQU&t=2160s",
+    "year": 2025,
+    "role": "product-annotation",
+    "title": "Apple: purple object and labels"
+  },
+  {
+    "file": "apple-september-63m40.png",
+    "time_seconds": 3820,
+    "url": "https://www.youtube.com/watch?v=H3KnMyojEQU&t=3820s",
+    "year": 2025,
+    "role": "presentation-photo",
+    "title": "Apple: pomegranate photo"
+  },
+  {
+    "file": "apple-september-64m22.png",
+    "time_seconds": 3862,
+    "url": "https://www.youtube.com/watch?v=H3KnMyojEQU&t=3862s",
+    "year": 2025,
+    "role": "presentation-photo",
+    "title": "Apple: 13 mm photo"
+  },
+  {
+    "file": "apple-september-64m28.png",
+    "time_seconds": 3868,
+    "url": "https://www.youtube.com/watch?v=H3KnMyojEQU&t=3868s",
+    "year": 2025,
+    "role": "presentation-photo",
+    "title": "Apple: 200 mm photo"
+  },
+  {
+    "file": "apple-september-64m30.png",
+    "time_seconds": 3870,
+    "url": "https://www.youtube.com/watch?v=H3KnMyojEQU&t=3870s",
+    "year": 2025,
+    "role": "presentation-photo-strip",
+    "title": "Apple: eight-photo summary"
+  },
+  {
+    "file": "apple-september-66m00.png",
+    "time_seconds": 3960,
+    "url": "https://www.youtube.com/watch?v=H3KnMyojEQU&t=3960s",
+    "year": 2025,
+    "role": "neutral-typography",
+    "title": "Apple: ProRes RAW"
+  },
+  {
+    "file": "apple-keynote-16m45.png",
+    "time_seconds": 1005,
+    "url": "https://www.youtube.com/watch?v=0_DjDdfqtUE&t=1005s",
+    "year": 2025,
+    "role": "product-ui",
+    "title": "Apple WWDC: photo library grid"
+  },
+  {
+    "file": "apple-keynote-17m00.png",
+    "time_seconds": 1020,
+    "url": "https://www.youtube.com/watch?v=0_DjDdfqtUE&t=1020s",
+    "year": 2025,
+    "role": "product-ui",
+    "title": "Apple WWDC: single photo"
+  }
+]

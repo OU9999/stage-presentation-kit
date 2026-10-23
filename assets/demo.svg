@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="600" viewBox="0 0 1400 600" role="img" aria-labelledby="title desc">
+  <title id="title">당신의 아이디어가 무대에 오르기까지</title>
+  <desc id="desc">문장과 이미지를 담은 파일이 발표 화면이 되고 청중에게 전달되는 과정을 세 단계로 표현했습니다.</desc>
+  <rect width="1400" height="600" fill="#111111"/>
+  <g fill="none" stroke="#5f5f5f" stroke-width="2"><path d="M390 300H570M830 300h180"/><path d="m550 290 20 10-20 10m440-10 20 10-20 10"/></g>
+  <g transform="translate(100 120)"><rect width="290" height="360" rx="12" fill="#202020" stroke="#595959"/><path d="M50 80h160M50 115h130M50 190h190M50 220h165M50 250h180M50 280h110" stroke="#a9a9a4" stroke-width="8" stroke-linecap="round"/><circle cx="237" cy="50" r="8" fill="#deded8"/></g>
+  <g transform="translate(570 165)"><rect width="260" height="270" rx="12" fill="#deded8"/><circle cx="130" cy="108" r="46" fill="none" stroke="#282828" stroke-width="3"/><path d="m117 84 38 24-38 24Z" fill="#282828"/><path d="M65 198h130M92 220h76" stroke="#282828" stroke-width="7" stroke-linecap="round"/></g>
+  <g transform="translate(1010 160)" fill="none" stroke="#b6b6b0" stroke-width="3"><rect width="290" height="210" rx="12" fill="#242424"/><path d="M145 210v55M85 265h120"/><path d="M45 65h200M45 100h145M45 145h175" stroke="#b6b6b0" stroke-width="7" stroke-linecap="round"/></g>
+</svg>
