@@ -5,7 +5,7 @@
 - 프로젝트: `/Users/ou9999-wdl/Documents/devday-presentation-kit`.
 - 제품 목표: 실제 OpenAI DevDay 세션의 시각 구성을 참고해 Markdown·params로 재사용하는 웹 발표 양식을 제공한다.
 - 현재 요청: 별도 저장소를 만들지 않고 현재 `OU9999/stage-presentation-kit`를 PUBLIC으로 전환하고 같은 저장소의 GitHub Pages로 실제 배포한다. 외부 발표 화면을 열고 변경을 커밋·푸시한다. 사용자가 공개 전환·배포·Git 전달을 명시 승인했다.
-- 상태: 엔지니어 매니저와 기존 두 실무자를 재개해 배포 준비·사용 가이드를 분담했다. 총괄은 GitHub 공개 전환·Pages 설정·커밋/푸시·외부 실제 렌더 검증을 담당한다. 시작 시 원격은 PRIVATE, main HEAD `f955317`이며 기존 조사 변경을 보존한다.
+- 상태: 현재 저장소 PUBLIC·같은 저장소 GitHub Pages 공개 배포와 외부 화면 검증을 완료했다. [C안 바로 보기](https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html#4), [예제 갤러리](https://ou9999.github.io/stage-presentation-kit/examples/), [실배포 근거](research/github-pages-deployment-20261023/verification.md), [작성·갱신 안내](DEPLOYMENT.md). 엔지니어 매니저·두 실무자는 완료·편집 종료했으며 최종 사용 가이드·증거도 같은 main에 전달한다.
 - 기록 담당자: 현재 세션 Codex.
 - 이번 실행 시작 기준: `main`, HEAD `f9553170e56bcca24909d22e7ebd0f8d7df01f0d`. C안 구현 전 기준은 `078628e`이며 당시 `AGENTS.md`·`WORK_LOG.md`는 미추적이었다.
 
@@ -37,7 +37,7 @@ I-02는 이전 인계에서 사용자와 위치를 재검토해 확정했다. �
 
 | 역할 | 실제 배치·상태 | 책임·인계 |
 | --- | --- | --- |
-| 현재 담당자 | `/root`, PUBLIC 전환·실배포 진행 중 | 총괄, 단일 로그, 실제 파일/이력·공식 문서 확인, 팀의 협의 결과 독립 검수와 전달. |
+| 현재 담당자 | `/root`, PUBLIC 전환·실배포·외부 동작 검증 완료 | 총괄, 단일 로그, 실제 파일/이력·공식 문서 확인, 팀의 협의 결과 독립 검수와 전달. |
 | 리서치 팀 매니저 | `/root/research_manager`, 최종 완료 | `research/review-20261023/research/` 소유. 대표 원본·새 캡처 직접 검수, 보고서 링크 97개 확인. |
 | DevDay 전반 리서치 | `/root/research_manager/general_research`, 초기·최종 취합 완료 | `research/review-20261023/research/general.md` 및 전용 evidence 소유. 공식 영상 정체성·부분 재생 확인 및 최신 근거 반영. |
 | DevDay 아시아 리서치 | `/root/research_manager/asia_research`, 작업 완료·종료 확인 | `research/review-20261023/research/asia.md` 및 전용 evidence 소유. 서울·도쿄·벵갈루루. 서울 1400×1050 근접 원본 추가 확보. |
@@ -48,9 +48,9 @@ I-02는 이전 인계에서 사용자와 위치를 재검토해 확정했다. �
 | 개발 팀 매니저 | `/root/development_manager`, 최종 완료 | 실제 두 실무자 운영·직접 API 협의, 코드·계약 리뷰와 독립 브라우저 검증. [개발팀 보고](research/implementation-c-20261023.md). |
 | 공통 런타임 개발 | `/root/development_manager/runtime_engineer`, 최종 완료·편집 종료 | `app.js`, `styles.css`, `deck-model.js`와 runtime/model 회귀43개 소유. 최종 계약 누출 패치 후 잠금. |
 | 작성 흐름·취합 개발 | `/root/development_manager/authoring_engineer`, 구현·취합 완료 | Markdown 변환·계약/가이드·원고·스타터·생성 파일과 작성 회귀9개 소유. 갤러리 파일은 편집 종료 후 총괄에게 직접 인계했다. |
-| 엔지니어 팀 매니저 | `/root/engineering_manager`, 최신 실행 승인 수신·배포팀 재개 | 기존 두 실무자 재개, 배포 설정/가이드 분담, 직접 교차 검수 및 팀 보고. Git·외부 API는 총괄 소유. |
-| 배포 엔지니어 | `/root/engineering_manager/deployment_engineer`, 재개 지시 | `.nojekyll`과 정적 배포 경로 검증 소유. 제품 런타임·Git·외부 API는 수정하지 않는다. |
-| 발표 흐름 엔지니어·취합 | `/root/engineering_manager/product_workflow_engineer`, 재개 지시 | `DEPLOYMENT.md`·README 공개 링크/갱신 가이드 소유. 현재 repo/main/root 사용 흐름 작성·교차 검수. |
+| 엔지니어 팀 매니저 | `/root/engineering_manager`, 배포 준비·독립 검수 완료·편집 종료 | 기존 두 실무자 재개, 배포 설정/가이드 분담, 직접 교차 검수 및 팀 보고. Git·외부 API는 총괄 소유. |
+| 배포 엔지니어 | `/root/engineering_manager/deployment_engineer`, 배포 준비·교차 검수 완료·편집 종료 | `.nojekyll`과 정적 배포 경로 검증 소유. 제품 런타임·Git·외부 API는 수정하지 않는다. |
+| 발표 흐름 엔지니어·취합 | `/root/engineering_manager/product_workflow_engineer`, 사용 가이드·교차 검수 완료·편집 종료 | `DEPLOYMENT.md`·README 공개 링크/갱신 가이드 소유. 현재 repo/main/root 사용 흐름 작성·교차 검수. |
 | 이전 탐색·디자인·구현·독립 검증 에이전트 | 이전 작업 인계 완료 | 다음 세션에서 계속 실행 중이라고 간주하지 않는다. |
 
 이전 팀은 총괄이 직접 조율했으며 팀별 매니저 구조로 소급 표기하지 않는다. 이번 지침 작성 중 새 실무 에이전트는 배치하지 않았으므로 새 팀원에게 보낼 변경 통지는 없다.
@@ -75,7 +75,7 @@ I-02는 이전 인계에서 사용자와 위치를 재검토해 확정했다. �
 | 실제 발표·공개 링크 공유 준비 | 엔지니어 팀 및 `/root` | 조사·설계 완료. [취합안](research/external-sharing-20261023/synthesis.md), [배포](research/external-sharing-20261023/deployment.md), [발표 흐름](research/external-sharing-20261023/workflow.md). 실제 발행 기능 구현·계정 연결·배포는 후속 작업이다. |
 | 비용·보안·GitHub Pages 재검토 | 재개한 엔지니어 팀 및 `/root` | 완료. [협의 결과](research/external-sharing-20261023/cost-github-pages.md). 추가 호스팅 결제 없이 가능한 경로와 노트·공개 이력의 위험을 구분했다. 실제 구현·설정 변경은 하지 않았다. |
 | 현재 저장소 자체의 PUBLIC 전환 검토 | 재개한 엔지니어 팀 및 `/root` | 완료. [토론 결과](research/external-sharing-20261023/repo-visibility.md). 전체 공개 의도이면 같은 repo로 가능하며, 실제 공개 전환/배포는 아직 하지 않았다. |
-| 현재 저장소 PUBLIC·Pages 실배포와 Git 전달 | 엔지니어 팀 및 `/root` | 진행 중. `.nojekyll`·사용 가이드 → 명시 경로 커밋/푸시 → 공개 전환/Pages 활성화 → 외부 C안·탐색·미디어·모바일·Console/Network → 최종 상태 기록/푸시. |
+| 현재 저장소 PUBLIC·Pages 실배포와 Git 전달 | 엔지니어 팀 및 `/root` | 공개 전환·Pages 실배포·외부 동작 검증 완료. 구성 `87396f0`까지 main 원격 일치, 최종 가이드·증거는 이번 문서 전달로 묶는다. 최종 push 후 해당 HEAD의 Pages built와 원격 일치를 확인한다. [실배포 검증](research/github-pages-deployment-20261023/verification.md). |
 
 ## 이번 인계의 확인 기록
 
@@ -219,3 +219,13 @@ I-02는 이전 인계에서 사용자와 위치를 재검토해 확정했다. �
 
 - 배포 전 검증: `node --test tests/*.test.cjs` 163/163 통과. 이전 미커밋 연구14파일을 링크56개·보고해시9개·JSON·공백 검사 후 `1cfc12392ab159d003d70ca65676bd5b89f3d58d`로 커밋했다. 변경을 매니저에게 직접 알렸다. 정적 project base129참조와 PDF6개의 사전 검수는 팀 증거로 분리하고, 실제 외부 배포는 총괄이 이어서 확인한다.
 - 새 외부 화면 검증용 ego-browser Space11/p1을 만들었다. 이전 사용자용 Space4/5/8은 조작하지 않는다. 기존 localhost4317 서버도 유지한다.
+
+## 2026-10-23 현재 저장소 PUBLIC·GitHub Pages 실배포 완료
+
+- Git 전달: 이전 비용/공개범위 조사14파일은 `1cfc123`, `.nojekyll`·실행 로그는 `87396f0ae76e3deac530f13c7a4f840a4175d6b1`로 커밋해 origin/main에 push했고 원격 SHA 일치를 확인했다. 이전 미커밋 작업을 누락하거나 지우지 않았다.
+- 실제 설정: `gh repo edit`로 PUBLIC 전환 후 API를 인증 없이 읽어 private=false를 확인했다. Pages source main/path `/`, build_type legacy, public=true, https_enforced=true. 최초 Pages 실행39935622992 성공, 같은87396f0 build status built·error null을 확인했다.
+- 실제 결과: [공개 C안](https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html#4), [갤러리](https://ou9999.github.io/stage-presentation-kit/examples/). HTTP129참조를 진입/PDF와 함께 중복 제거한58URL이 무인증200·로컬 SHA 일치. C안12타일·43필드·사진7개, 탐색·전체 보기·발표자 팝업 양방향 이동, 갤러리5미리보기와 클릭, 루트+5예제의 DOM55장·Home/End,390px 읽기 단일열/가로넘침0을 직접 확인했다. 관찰한 Console/Network 오류·경고0. 이번에55장 모두를 순차 육안 검수하거나 PDF6개를 재렌더한 것은 아니다.
+- 팀 인계: 매니저·두 실무자가 직접 교차 협의·검수 후 실제 완료·편집 종료했다. `.nojekyll`은 편집 종료 확인 후 총괄에게 인계했다. 팀의129정적 참조·해시30개·PDF6헤더와 문서 링크59개 검수는 총괄의 실제 외부 증거와 구분했다. 가이드/README에는 기존 별도 repo 제안 대신 같은 repo에서 원고→build→선택 commit/push→Pages 성공 확인 흐름을 반영했다.
+- 검증/산출물: [DEPLOYMENT.md](DEPLOYMENT.md), [팀 검수](research/github-pages-deployment-20261023/manager-review.md), [총괄 검증과 스크린샷·JSON](research/github-pages-deployment-20261023/verification.md). 테스트163개 통과. 제품·원고·생성 파일·AGENTS·외부 연구 원본은 이번 배포에서 수정하지 않았다.
+- 전달 기준: 최종 사용 가이드·보고·이 로그를 같은 main의 문서 커밋으로 push하고 최종 원격 SHA와 Pages 배포 HEAD의 일치·성공을 확인한다. 최종 문서 반영 뒤 실제 외부 C안을 다시 로드해 Space11/p1을 사용자에게 남긴다. 기존 localhost4317 PID67305 리스너는 확인했고 보존했다.
+- 다음 담당자: 새 지시가 오면 실제 원격/배포 상태를 다시 확인한다. 발표를 바꿀 때에는 DEPLOYMENT.md를 따라 원문과 생성 파일을 함께 반영한다. 화면 편집은 자기 브라우저 저장이며 GitHub 자동 저장이나 원격 청중 장 연동으로 간주하지 않는다.

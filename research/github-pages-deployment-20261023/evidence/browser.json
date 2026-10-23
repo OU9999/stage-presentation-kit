@@ -1,0 +1,235 @@
+{
+  "checkedAt": "2026-10-23T10:05:42.326Z",
+  "spaceId": 11,
+  "desktop": {
+    "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html#4",
+    "title": "화면이 설명하는 발표 — 현장 구성 양식 — Stage",
+    "tiles": 12,
+    "editableFields": 43,
+    "counter": "04 / 07",
+    "diagnosticsHidden": true,
+    "images": [
+      {
+        "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/capture.jpg",
+        "loaded": true
+      },
+      {
+        "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/listen.jpg",
+        "loaded": true
+      },
+      {
+        "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/write.jpg",
+        "loaded": true
+      },
+      {
+        "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/observe.jpg",
+        "loaded": true
+      },
+      {
+        "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-one.jpg",
+        "loaded": true
+      },
+      {
+        "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-two.jpg",
+        "loaded": true
+      },
+      {
+        "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/write.jpg",
+        "loaded": true
+      }
+    ],
+    "mode": "present",
+    "storageStatus": "원본 템플릿"
+  },
+  "navigation": {
+    "nextTo5": true,
+    "keyboardBackTo4": true,
+    "overviewCount": 7,
+    "overviewReturnTo4": true
+  },
+  "observedEvents": 34,
+  "diagnosticEvents": [],
+  "presenter": {
+    "page": "p2",
+    "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html?presenter=1&session=b0a3bfb7-01a8-48ac-b319-520b88ec9bc3#4",
+    "position": "4 / 7",
+    "audienceToPresenter": true,
+    "presenterToAudience": true
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "mode": "read",
+    "counter": "04 / 07",
+    "scrollWidth": 390,
+    "noHorizontalOverflow": true,
+    "tiles": 12,
+    "fields": 43,
+    "images": [
+      {
+        "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/write.jpg",
+        "loaded": true
+      }
+    ],
+    "screenshots": [
+      {
+        "tileIndex": 0,
+        "path": "mobile-c.png"
+      },
+      {
+        "tileIndex": 3,
+        "path": "mobile-cover-c.png"
+      },
+      {
+        "tileIndex": 6,
+        "path": "mobile-middle-c.png"
+      },
+      {
+        "tileIndex": 11,
+        "path": "mobile-end-c.png"
+      }
+    ],
+    "tileWidths": [
+      314,
+      314,
+      314,
+      314,
+      314,
+      314,
+      314,
+      314,
+      314,
+      314,
+      314,
+      314
+    ]
+  },
+  "entrypoints": [
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/#1",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "renderedSlides": 20,
+      "counter": "01 / 20",
+      "diagnosticsHidden": true,
+      "activeImages": [],
+      "firstLastNavigation": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/product-launch/index.html#1",
+      "title": "한곳 — 가상 제품 소개 — Stage",
+      "renderedSlides": 7,
+      "counter": "01 / 07",
+      "diagnosticsHidden": true,
+      "activeImages": [],
+      "firstLastNavigation": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/engineering-review/index.html#1",
+      "title": "반복 가능한 검증 — 가상 기술 개선 보고 — Stage",
+      "renderedSlides": 7,
+      "counter": "01 / 07",
+      "diagnosticsHidden": true,
+      "activeImages": [],
+      "firstLastNavigation": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/photo-story/index.html#1",
+      "title": "보는 범위 — 스톡 사진으로 만든 가상 에세이 — Stage",
+      "renderedSlides": 7,
+      "counter": "01 / 07",
+      "diagnosticsHidden": true,
+      "activeImages": [],
+      "firstLastNavigation": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/workshop/index.html#1",
+      "title": "한 장의 생각 — 가상 워크숍 진행안 — Stage",
+      "renderedSlides": 7,
+      "counter": "01 / 07",
+      "diagnosticsHidden": true,
+      "activeImages": [],
+      "firstLastNavigation": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html#1",
+      "title": "화면이 설명하는 발표 — 현장 구성 양식 — Stage",
+      "renderedSlides": 7,
+      "counter": "01 / 07",
+      "diagnosticsHidden": true,
+      "activeImages": [],
+      "firstLastNavigation": true
+    }
+  ],
+  "followupEvents": 496,
+  "followupDiagnosticEvents": [],
+  "gallery": {
+    "url": "https://ou9999.github.io/stage-presentation-kit/examples/",
+    "cards": 5,
+    "loadedPreviews": 5,
+    "clickedCLink": true
+  },
+  "galleryDiagnosticEvents": [],
+  "reloadResponses": [
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/styles.css?v=819c38f3e3ec",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/content.js?v=4770213b72ba",
+      "status": 200,
+      "mimeType": "application/javascript"
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/deck-model.js?v=df2624fd79a3",
+      "status": 200,
+      "mimeType": "application/javascript"
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/app.js?v=cb1b9721b0bc",
+      "status": 200,
+      "mimeType": "application/javascript"
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/capture.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/listen.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/observe.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/write.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "chrome-extension://aeblfdkhhhdcdjpifhhbdiojplfjncoa/inline/injected.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-one.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-two.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg"
+    }
+  ],
+  "reloadDiagnosticEvents": []
+}

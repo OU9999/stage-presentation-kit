@@ -1,0 +1,532 @@
+{
+  "checkedAt": "2026-10-23T09:58:24.690984+00:00",
+  "authentication": "No Authorization header or cookies",
+  "base": "https://ou9999.github.io/stage-presentation-kit/",
+  "referenceRows": 129,
+  "uniqueRequests": 58,
+  "results": [
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/styles.css?v=819c38f3e3ec",
+      "target": "styles.css",
+      "status": 200,
+      "bytes": 86714,
+      "contentType": "text/css; charset=utf-8",
+      "sha256": "819c38f3e3ec0f5bcb35b8a6094a4bafc3ae8a2a5cdad377923caa1de2acf545",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/content.js?v=e0f3113755da",
+      "target": "content.js",
+      "status": 200,
+      "bytes": 17758,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "e0f3113755da4d2a195110e44522674609d3bbc32bc19de188763f14b06008d6",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/deck-model.js?v=df2624fd79a3",
+      "target": "deck-model.js",
+      "status": 200,
+      "bytes": 20518,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "df2624fd79a3c03a580c7bfc48b192756bc640d3fa0688a084638c4a62bd1dc7",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/app.js?v=cb1b9721b0bc",
+      "target": "app.js",
+      "status": 200,
+      "bytes": 63955,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "cb1b9721b0bc2897c5c0c44c959d2d967f4d5a3f272a7824c7c544863ac21d3a",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/gallery.css?v=035c20d7204e",
+      "target": "examples/gallery.css",
+      "status": 200,
+      "bytes": 5661,
+      "contentType": "text/css; charset=utf-8",
+      "sha256": "035c20d7204ee9a0a641cbba49daa81907e38deb77654d097579522d0f40c39f",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/index.html",
+      "target": "index.html",
+      "status": 200,
+      "bytes": 6873,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "d87e69d3176cd11b16c7208dcfb498a324b007b9c91d00616939e0b379207bb8",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/MARKDOWN.md",
+      "target": "MARKDOWN.md",
+      "status": 200,
+      "bytes": 12855,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "e05259f2d59bb44744ad8bb773b2bccbd568541cb7e751dc73bd14fc3ddf55cc",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html#4",
+      "target": "examples/devday-compositions/index.html",
+      "status": 200,
+      "bytes": 7055,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "74325459909a575ea676faed1bc1a2853d87d2c0393409b6dcd2004ebe9c6fcd",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/previews/devday-compositions.png?v=d2384ff6d328",
+      "target": "examples/previews/devday-compositions.png",
+      "status": 200,
+      "bytes": 267731,
+      "contentType": "image/png",
+      "sha256": "d2384ff6d328b08b86f446bd8b9ef5b899f82312089bce0c8f6dfb505826cdae",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html",
+      "target": "examples/devday-compositions/index.html",
+      "status": 200,
+      "bytes": 7055,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "74325459909a575ea676faed1bc1a2853d87d2c0393409b6dcd2004ebe9c6fcd",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/slides.md",
+      "target": "examples/devday-compositions/slides.md",
+      "status": 200,
+      "bytes": 10277,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "c3ce8bc212ca32bf01b7718379fd3d4728ae752180f95729a1dd2e83a334fcea",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/devday-compositions.pdf",
+      "target": "output/pdf/devday-compositions.pdf",
+      "status": 200,
+      "bytes": 2572804,
+      "contentType": "application/pdf",
+      "sha256": "453b1a63cff58daa4bb990b7967c06fca8ae0bfc151f3ae65c0e88961666696a",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/editorial-starter.js",
+      "target": "examples/editorial-starter.js",
+      "status": 200,
+      "bytes": 2665,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "9bc70dc1192c82a959f5f6bcde45d3a6f1d55de592909e4b7dfa3dcd694d8acc",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/visual-implementation.html",
+      "target": "research/visual-implementation.html",
+      "status": 200,
+      "bytes": 16395,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "b28dced3c91e53b4136394da027d1bd42becbf02fc859af2a4b04e22baade8a9",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/product-launch/index.html#2",
+      "target": "examples/product-launch/index.html",
+      "status": 200,
+      "bytes": 7032,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "8d9322be7fed1d6cfba6cb4ed0f48eaa5cb3afc7259a4b3cd5481661eb006509",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/previews/product-launch.png?v=2723ec93a05f",
+      "target": "examples/previews/product-launch.png",
+      "status": 200,
+      "bytes": 25808,
+      "contentType": "image/png",
+      "sha256": "2723ec93a05fc0e0ab5c885684522b669ba475b80c959f2fe465ccd24fd3b15f",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/product-launch/index.html",
+      "target": "examples/product-launch/index.html",
+      "status": 200,
+      "bytes": 7032,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "8d9322be7fed1d6cfba6cb4ed0f48eaa5cb3afc7259a4b3cd5481661eb006509",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/product-launch/slides.md",
+      "target": "examples/product-launch/slides.md",
+      "status": 200,
+      "bytes": 3478,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "0873999caba1c28b84da9229a861923e1c9ae5b07db1868707f4e3bb9a6ff46a",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/product-launch.pdf",
+      "target": "output/pdf/product-launch.pdf",
+      "status": 200,
+      "bytes": 753240,
+      "contentType": "application/pdf",
+      "sha256": "7e2f797974b77c8f789c2677fcae24248cb212f0620e68878994a1110de3c3ba",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/engineering-review/index.html#3",
+      "target": "examples/engineering-review/index.html",
+      "status": 200,
+      "bytes": 7056,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "6506a965fd903ea6ecd0256cbc0be731218861cddd5e9af042b20d8541ad6f28",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/previews/engineering-review.png?v=422ef28bcd68",
+      "target": "examples/previews/engineering-review.png",
+      "status": 200,
+      "bytes": 45552,
+      "contentType": "image/png",
+      "sha256": "422ef28bcd6885b4b597c13252e0ed839a3413e3b3ab3d30a6112dbdcdca57cf",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/engineering-review/index.html",
+      "target": "examples/engineering-review/index.html",
+      "status": 200,
+      "bytes": 7056,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "6506a965fd903ea6ecd0256cbc0be731218861cddd5e9af042b20d8541ad6f28",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/engineering-review/slides.md",
+      "target": "examples/engineering-review/slides.md",
+      "status": 200,
+      "bytes": 3929,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "58071b61676696b8be9ffa0d5ea72232f815a40c8c7f7c45e5464afd998b7bec",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/engineering-review.pdf",
+      "target": "output/pdf/engineering-review.pdf",
+      "status": 200,
+      "bytes": 842063,
+      "contentType": "application/pdf",
+      "sha256": "2eb604abaf721866503d3062a653d0dd7578e1bbb4a5087df257ddbf45c43682",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/photo-story/index.html#2",
+      "target": "examples/photo-story/index.html",
+      "status": 200,
+      "bytes": 7062,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "0ffdeef0b7f98e25fcd83391699e87567a294b49073699cc5b2fb64263c5e496",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/previews/photo-story.png?v=21b5a3bab7de",
+      "target": "examples/previews/photo-story.png",
+      "status": 200,
+      "bytes": 1235203,
+      "contentType": "image/png",
+      "sha256": "21b5a3bab7de44cab28af1e731935f1d75c0398923112304bcd28db33a4a2237",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/photo-story/index.html",
+      "target": "examples/photo-story/index.html",
+      "status": 200,
+      "bytes": 7062,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "0ffdeef0b7f98e25fcd83391699e87567a294b49073699cc5b2fb64263c5e496",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/photo-story/slides.md",
+      "target": "examples/photo-story/slides.md",
+      "status": 200,
+      "bytes": 6380,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "d493ed012e00316edc843856c8f2313fe3a0957ef293a2076790ff375514f1f4",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/photo-story.pdf",
+      "target": "output/pdf/photo-story.pdf",
+      "status": 200,
+      "bytes": 2592327,
+      "contentType": "application/pdf",
+      "sha256": "cb6fedc8f1217bb2236d4d3455b8e68e47d9d7a210be72a6ff07a28b137a1040",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/workshop/index.html#3",
+      "target": "examples/workshop/index.html",
+      "status": 200,
+      "bytes": 7049,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "cde351c7bd69450c2acd2bf16c99b9333b1f817c7d810005cceb404f7c4ff4b2",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/previews/workshop.png?v=e702e2cde1b7",
+      "target": "examples/previews/workshop.png",
+      "status": 200,
+      "bytes": 30690,
+      "contentType": "image/png",
+      "sha256": "e702e2cde1b7bf36e9928b0b69ae0b7767019e85d151979ab07a68399520e9aa",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/workshop/index.html",
+      "target": "examples/workshop/index.html",
+      "status": 200,
+      "bytes": 7049,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "cde351c7bd69450c2acd2bf16c99b9333b1f817c7d810005cceb404f7c4ff4b2",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/workshop/slides.md",
+      "target": "examples/workshop/slides.md",
+      "status": 200,
+      "bytes": 3350,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "86a841c60a6e914bed6f87845b67fa88de8f79a11d82be621fe65f0e7af605e4",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/workshop.pdf",
+      "target": "output/pdf/workshop.pdf",
+      "status": 200,
+      "bytes": 539109,
+      "contentType": "application/pdf",
+      "sha256": "8061bdb4b3114977b92295e46bbdcce7cb16007915c78a42f1e0d1916022c6c5",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/seoul-devday-visual-research-20261023.md",
+      "target": "research/seoul-devday-visual-research-20261023.md",
+      "status": 200,
+      "bytes": 9949,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "7a1aceccc38f7e4a12c0fbda58863288d564ccb33cee679750679a30150136d5",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/completed-cities-visual-research-20261023.md",
+      "target": "research/completed-cities-visual-research-20261023.md",
+      "status": 200,
+      "bytes": 11017,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "7aff6f119e1db126d8467c7f3282a968ebe4a13dfc11ca28ff9fc0a43db077b9",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/visual-implementation-diff-20261023.md",
+      "target": "research/visual-implementation-diff-20261023.md",
+      "status": 200,
+      "bytes": 11088,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "b6c057279deb91f064df70ef30094f4d6b2b89fc229ef8ccd8f8b3628c3eeab9",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/CREDITS.md",
+      "target": "assets/CREDITS.md",
+      "status": 200,
+      "bytes": 2846,
+      "contentType": "text/markdown; charset=utf-8",
+      "sha256": "e8a6331f0267f5ba3baaa7e36aae121e3443a294cebdcaeff0719b3cb8945492",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/product-launch/content.js?v=c5e57c516662",
+      "target": "examples/product-launch/content.js",
+      "status": 200,
+      "bytes": 4278,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "c5e57c516662f9631e4c4a5a2912e8e256209f0ad005c59736073ad659bb334f",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/index.html",
+      "target": "examples/index.html",
+      "status": 200,
+      "bytes": 8588,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "c505a7d81fba999ac7a65e20c447349db16817f91292e8c03c287187a45f9aa9",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/engineering-review/content.js?v=fb0badc9ecd1",
+      "target": "examples/engineering-review/content.js",
+      "status": 200,
+      "bytes": 4961,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "fb0badc9ecd149ab112d35743c8f8549996c095cab1ce2c5e44584e6e6fbe9aa",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/photo-story/content.js?v=1b8efbbb6830",
+      "target": "examples/photo-story/content.js",
+      "status": 200,
+      "bytes": 7807,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "1b8efbbb6830d77ba465198317b12b996ce955a8acd0669b103b9c0c2b7d4f55",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/workshop/content.js?v=3fcf1dbfbd7b",
+      "target": "examples/workshop/content.js",
+      "status": 200,
+      "bytes": 4256,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "3fcf1dbfbd7bded30065e8d791a1e95c0759aa3547762859bfb7308dc03cf161",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/content.js?v=4770213b72ba",
+      "target": "examples/devday-compositions/content.js",
+      "status": 200,
+      "bytes": 11933,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "4770213b72ba00367fbaa20d0cab4100259cb9272110ce1a344ae4b39c622670",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/capture.jpg",
+      "target": "assets/photos/capture.jpg",
+      "status": 200,
+      "bytes": 136815,
+      "contentType": "image/jpeg",
+      "sha256": "2751c9fe1a7db9131964097e766b9406b48f44d338b5742e49bf62412a90f6c7",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/listen.jpg",
+      "target": "assets/photos/listen.jpg",
+      "status": 200,
+      "bytes": 269985,
+      "contentType": "image/jpeg",
+      "sha256": "b492caded632887f2ead0bb231e9c90f0bffeb673f12e813abb5c31a9e5b8476",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/write.jpg",
+      "target": "assets/photos/write.jpg",
+      "status": 200,
+      "bytes": 151172,
+      "contentType": "image/jpeg",
+      "sha256": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/observe.jpg",
+      "target": "assets/photos/observe.jpg",
+      "status": 200,
+      "bytes": 299027,
+      "contentType": "image/jpeg",
+      "sha256": "8b3f37a204ad147736f71453ffda4ae3dbbe2c11f549c4607916a0f6df924744",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-one.jpg",
+      "target": "assets/photos/portrait-one.jpg",
+      "status": 200,
+      "bytes": 388844,
+      "contentType": "image/jpeg",
+      "sha256": "d027d13049e7ab4d858f63d68f17b4b88067a831e5bfbcc6e4550693ddddaaca",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-two.jpg",
+      "target": "assets/photos/portrait-two.jpg",
+      "status": 200,
+      "bytes": 585525,
+      "contentType": "image/jpeg",
+      "sha256": "b4e1f667597dc0c1c4f1b114bf50c1450a8f0d11fc30e03fc913b150b1e9c356",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "target": "assets/photos/landscape.jpg",
+      "status": 200,
+      "bytes": 267321,
+      "contentType": "image/jpeg",
+      "sha256": "c1971525c2a1b19bf2a3902d196e05e41e9f32596fd7e8ba1db80ced5c3c9a94",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/examples/report.svg",
+      "target": "assets/examples/report.svg",
+      "status": 200,
+      "bytes": 1132,
+      "contentType": "image/svg+xml",
+      "sha256": "1c6df0654172ddf44fd33dc4d28b81c8fbc45419f34ea96a49daaf14515820a0",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/examples/objects.svg",
+      "target": "assets/examples/objects.svg",
+      "status": 200,
+      "bytes": 919,
+      "contentType": "image/svg+xml",
+      "sha256": "dbb7a3c44b42b33e1015a909556172cf853e2fd9b6ba6e35e2d12006d6cd3492",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/examples/dashboard.svg",
+      "target": "assets/examples/dashboard.svg",
+      "status": 200,
+      "bytes": 1427,
+      "contentType": "image/svg+xml",
+      "sha256": "faafa8c7d4fe7cdb2a9e807753df2023cfcb55eb9b1f6718bdaf79a7aef4fd00",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/workspace-demo.svg",
+      "target": "assets/workspace-demo.svg",
+      "status": 200,
+      "bytes": 5523,
+      "contentType": "image/svg+xml",
+      "sha256": "4d4bfc8d51e3746dd1f0bdb53d0f149a7e51f98c79342ad4d9247eb8eb5b1dbf",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/examples/poster-wide.svg",
+      "target": "assets/examples/poster-wide.svg",
+      "status": 200,
+      "bytes": 619,
+      "contentType": "image/svg+xml",
+      "sha256": "7bfbc21adad03a526342fe1af0884b693bfaa7770fdf40d93fb389e50a58706b",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/assets/examples/poster.svg",
+      "target": "assets/examples/poster.svg",
+      "status": 200,
+      "bytes": 678,
+      "contentType": "image/svg+xml",
+      "sha256": "7425a10ee3a3acbde3abb59d56634f020578f31c750b77a501e4fbbde2ff76cd",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/stage-sample.pdf",
+      "target": "output/pdf/stage-sample.pdf",
+      "status": 200,
+      "bytes": 3569202,
+      "contentType": "application/pdf",
+      "sha256": "ff899e369896716d93f674436b14e309e317415a246af48ee3a8435aa473c16b",
+      "matchesLocal": true
+    }
+  ],
+  "failures": []
+}

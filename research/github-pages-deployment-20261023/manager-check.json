@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-10-23T10:01:06.972Z",
+  "reviewer": "/root/engineering_manager",
+  "headAtReview": "87396f0ae76e3deac530f13c7a4f840a4175d6b1",
+  "filesReviewed": [
+    "README.md",
+    "DEPLOYMENT.md",
+    "research/github-pages-deployment-20261023/manager-review.md",
+    "research/github-pages-deployment-20261023/deployment-check.json",
+    ".nojekyll"
+  ],
+  "sha256": {
+    "README.md": "780a4a52b40a3a6111e826a38e209a01135a97a1ce92d20600e0c1970d127516",
+    "DEPLOYMENT.md": "60f7fcc28a85cf2c16bd91f3d1af664daaa6f9932e2aff5e2253e55ac9847f9c",
+    "research/github-pages-deployment-20261023/manager-review.md": "7cc4790b87916521bf4e8ec77dd813e39faf532a1140beb16a71c909a425ccaf",
+    "research/github-pages-deployment-20261023/deployment-check.json": "d2792b10c0f21e38918d2efecb01557dcb96f86610f7673202cff77f33e72855",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "checks": {
+    "localDocumentLinks": 59,
+    "missingLocalLinks": [],
+    "markdownWhitespaceIssues": [],
+    "staticReferences": 129,
+    "staticReferenceProblems": [],
+    "cacheHashes": 30,
+    "cacheHashMismatches": 0,
+    "pdfs": 6,
+    "pdfHeaderProblems": 0,
+    "nojekyllBytes": 0,
+    "protectedProductPathChanges": []
+  },
+  "rootEvidenceIndependentlyRead": {
+    "github": {
+      "repository": {
+        "full_name": "OU9999/stage-presentation-kit",
+        "visibility": "public",
+        "private": false,
+        "html_url": "https://github.com/OU9999/stage-presentation-kit",
+        "anonymousAccess": true
+      },
+      "pages": {
+        "html_url": "https://ou9999.github.io/stage-presentation-kit/",
+        "source": {
+          "branch": "main",
+          "path": "/"
+        },
+        "build_type": "legacy",
+        "public": true,
+        "https_enforced": true,
+        "status": "built"
+      },
+      "configurationCommit": "87396f0ae76e3deac530f13c7a4f840a4175d6b1"
+    },
+    "http": {
+      "authentication": "No Authorization header or cookies",
+      "referenceRows": 129,
+      "uniqueRequests": 58,
+      "reportedFailures": [],
+      "independentlyComparedHttpResults": 58,
+      "httpVsLocalByteProblems": []
+    }
+  },
+  "collaboration": {
+    "deploymentContributor": "/root/engineering_manager/deployment_engineer",
+    "authoringContributorAndIntegrator": "/root/engineering_manager/product_workflow_engineer",
+    "concreteIssue": "Bare /examples/... could omit the repository prefix when read as a host-root path.",
+    "resolution": "Guide now distinguishes repository-relative paths from complete project-site URLs; both contributors read the final guide and static-check evidence."
+  },
+  "scope": "Manager reviewed files, hashes and root-provided GitHub/HTTP evidence. Root alone performs account/API mutations, Git delivery and final browser verification.",
+  "remainingRootWork": "Final navigation/mobile/Console/Network verification report, documentation commit/push, and final-HEAD Pages success check remain root-owned at this review time."
+}

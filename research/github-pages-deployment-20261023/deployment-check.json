@@ -1,0 +1,1590 @@
+{
+  "checkedAt": "2026-10-23T09:54:28.204Z",
+  "baselineHead": "1cfc12392ab159d003d70ca65676bd5b89f3d58d",
+  "branch": "main",
+  "authorization": "User explicitly authorized current repository PUBLIC conversion, same-repository Pages deployment, opening result, commit and push. API/Git mutation belongs to root only.",
+  "owner": "/root/engineering_manager/deployment_engineer",
+  "ownedFiles": [
+    ".nojekyll",
+    "research/github-pages-deployment-20261023/deployment-check.json"
+  ],
+  "publishing": {
+    "provider": "GitHub Pages",
+    "repository": "OU9999/stage-presentation-kit",
+    "sourceBranch": "main",
+    "sourcePath": "/",
+    "buildType": "legacy branch publishing",
+    "baseURL": "https://ou9999.github.io/stage-presentation-kit/",
+    "customWorkflowAdded": false,
+    "additionalBackendAdded": false,
+    "remoteDeploymentVerification": "PENDING: root owns API deployment and final browser QA. These static checks do not prove a live Pages deployment."
+  },
+  "nojekyll": {
+    "path": ".nojekyll",
+    "exists": true,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "entrypoints": [
+    {
+      "role": "root 20-slide template collection",
+      "url": "https://ou9999.github.io/stage-presentation-kit/"
+    },
+    {
+      "role": "example gallery",
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/"
+    },
+    {
+      "role": "selected C slide 4 in seven-slide example",
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html#4"
+    },
+    {
+      "role": "C seven-slide PDF",
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/devday-compositions.pdf"
+    }
+  ],
+  "decks": [
+    {
+      "path": "content.js",
+      "title": "작은 장면, 큰 이야기",
+      "slides": 20
+    },
+    {
+      "path": "examples/product-launch/content.js",
+      "title": "한곳 — 가상 제품 소개",
+      "slides": 7
+    },
+    {
+      "path": "examples/engineering-review/content.js",
+      "title": "반복 가능한 검증 — 가상 기술 개선 보고",
+      "slides": 7
+    },
+    {
+      "path": "examples/photo-story/content.js",
+      "title": "보는 범위 — 스톡 사진으로 만든 가상 에세이",
+      "slides": 7
+    },
+    {
+      "path": "examples/workshop/content.js",
+      "title": "한 장의 생각 — 가상 워크숍 진행안",
+      "slides": 7
+    },
+    {
+      "path": "examples/devday-compositions/content.js",
+      "title": "화면이 설명하는 발표 — 현장 구성 양식",
+      "slides": 7
+    }
+  ],
+  "htmlReferences": [
+    {
+      "from": "index.html",
+      "ref": "styles.css?v=819c38f3e3ec",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/styles.css?v=819c38f3e3ec",
+      "underProjectBase": true,
+      "localTarget": "styles.css",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "index.html",
+      "ref": "content.js?v=e0f3113755da",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/content.js?v=e0f3113755da",
+      "underProjectBase": true,
+      "localTarget": "content.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "index.html",
+      "ref": "deck-model.js?v=df2624fd79a3",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/deck-model.js?v=df2624fd79a3",
+      "underProjectBase": true,
+      "localTarget": "deck-model.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "index.html",
+      "ref": "app.js?v=cb1b9721b0bc",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/app.js?v=cb1b9721b0bc",
+      "underProjectBase": true,
+      "localTarget": "app.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "gallery.css?v=035c20d7204e",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/gallery.css?v=035c20d7204e",
+      "underProjectBase": true,
+      "localTarget": "examples/gallery.css",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/index.html",
+      "underProjectBase": true,
+      "localTarget": "index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../MARKDOWN.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/MARKDOWN.md",
+      "underProjectBase": true,
+      "localTarget": "MARKDOWN.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "devday-compositions/index.html#4",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html#4",
+      "underProjectBase": true,
+      "localTarget": "examples/devday-compositions/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "previews/devday-compositions.png?v=d2384ff6d328",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/previews/devday-compositions.png?v=d2384ff6d328",
+      "underProjectBase": true,
+      "localTarget": "examples/previews/devday-compositions.png",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "devday-compositions/index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html",
+      "underProjectBase": true,
+      "localTarget": "examples/devday-compositions/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "devday-compositions/slides.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/slides.md",
+      "underProjectBase": true,
+      "localTarget": "examples/devday-compositions/slides.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../output/pdf/devday-compositions.pdf",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/output/pdf/devday-compositions.pdf",
+      "underProjectBase": true,
+      "localTarget": "output/pdf/devday-compositions.pdf",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "editorial-starter.js",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/editorial-starter.js",
+      "underProjectBase": true,
+      "localTarget": "examples/editorial-starter.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../research/visual-implementation.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/research/visual-implementation.html",
+      "underProjectBase": true,
+      "localTarget": "research/visual-implementation.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "product-launch/index.html#2",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/product-launch/index.html#2",
+      "underProjectBase": true,
+      "localTarget": "examples/product-launch/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "previews/product-launch.png?v=2723ec93a05f",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/previews/product-launch.png?v=2723ec93a05f",
+      "underProjectBase": true,
+      "localTarget": "examples/previews/product-launch.png",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "product-launch/index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/product-launch/index.html",
+      "underProjectBase": true,
+      "localTarget": "examples/product-launch/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "product-launch/slides.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/product-launch/slides.md",
+      "underProjectBase": true,
+      "localTarget": "examples/product-launch/slides.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../output/pdf/product-launch.pdf",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/output/pdf/product-launch.pdf",
+      "underProjectBase": true,
+      "localTarget": "output/pdf/product-launch.pdf",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "engineering-review/index.html#3",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/engineering-review/index.html#3",
+      "underProjectBase": true,
+      "localTarget": "examples/engineering-review/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "previews/engineering-review.png?v=422ef28bcd68",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/previews/engineering-review.png?v=422ef28bcd68",
+      "underProjectBase": true,
+      "localTarget": "examples/previews/engineering-review.png",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "engineering-review/index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/engineering-review/index.html",
+      "underProjectBase": true,
+      "localTarget": "examples/engineering-review/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "engineering-review/slides.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/engineering-review/slides.md",
+      "underProjectBase": true,
+      "localTarget": "examples/engineering-review/slides.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../output/pdf/engineering-review.pdf",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/output/pdf/engineering-review.pdf",
+      "underProjectBase": true,
+      "localTarget": "output/pdf/engineering-review.pdf",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "photo-story/index.html#2",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/photo-story/index.html#2",
+      "underProjectBase": true,
+      "localTarget": "examples/photo-story/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "previews/photo-story.png?v=21b5a3bab7de",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/previews/photo-story.png?v=21b5a3bab7de",
+      "underProjectBase": true,
+      "localTarget": "examples/previews/photo-story.png",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "photo-story/index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/photo-story/index.html",
+      "underProjectBase": true,
+      "localTarget": "examples/photo-story/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "photo-story/slides.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/photo-story/slides.md",
+      "underProjectBase": true,
+      "localTarget": "examples/photo-story/slides.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../output/pdf/photo-story.pdf",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/output/pdf/photo-story.pdf",
+      "underProjectBase": true,
+      "localTarget": "output/pdf/photo-story.pdf",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "workshop/index.html#3",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/workshop/index.html#3",
+      "underProjectBase": true,
+      "localTarget": "examples/workshop/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "previews/workshop.png?v=e702e2cde1b7",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/previews/workshop.png?v=e702e2cde1b7",
+      "underProjectBase": true,
+      "localTarget": "examples/previews/workshop.png",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "workshop/index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/workshop/index.html",
+      "underProjectBase": true,
+      "localTarget": "examples/workshop/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "workshop/slides.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/workshop/slides.md",
+      "underProjectBase": true,
+      "localTarget": "examples/workshop/slides.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../output/pdf/workshop.pdf",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/output/pdf/workshop.pdf",
+      "underProjectBase": true,
+      "localTarget": "output/pdf/workshop.pdf",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../MARKDOWN.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/MARKDOWN.md",
+      "underProjectBase": true,
+      "localTarget": "MARKDOWN.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../research/visual-implementation.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/research/visual-implementation.html",
+      "underProjectBase": true,
+      "localTarget": "research/visual-implementation.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../research/seoul-devday-visual-research-20261023.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/research/seoul-devday-visual-research-20261023.md",
+      "underProjectBase": true,
+      "localTarget": "research/seoul-devday-visual-research-20261023.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../research/completed-cities-visual-research-20261023.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/research/completed-cities-visual-research-20261023.md",
+      "underProjectBase": true,
+      "localTarget": "research/completed-cities-visual-research-20261023.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../research/visual-implementation-diff-20261023.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/research/visual-implementation-diff-20261023.md",
+      "underProjectBase": true,
+      "localTarget": "research/visual-implementation-diff-20261023.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../assets/CREDITS.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/CREDITS.md",
+      "underProjectBase": true,
+      "localTarget": "assets/CREDITS.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/index.html",
+      "ref": "../index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/index.html",
+      "underProjectBase": true,
+      "localTarget": "index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/index.html",
+      "ref": "../../styles.css?v=819c38f3e3ec",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/styles.css?v=819c38f3e3ec",
+      "underProjectBase": true,
+      "localTarget": "styles.css",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/index.html",
+      "ref": "content.js?v=c5e57c516662",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/product-launch/content.js?v=c5e57c516662",
+      "underProjectBase": true,
+      "localTarget": "examples/product-launch/content.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/index.html",
+      "ref": "../../deck-model.js?v=df2624fd79a3",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/deck-model.js?v=df2624fd79a3",
+      "underProjectBase": true,
+      "localTarget": "deck-model.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/index.html",
+      "ref": "../../app.js?v=cb1b9721b0bc",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/app.js?v=cb1b9721b0bc",
+      "underProjectBase": true,
+      "localTarget": "app.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/index.html",
+      "ref": "slides.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/product-launch/slides.md",
+      "underProjectBase": true,
+      "localTarget": "examples/product-launch/slides.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/index.html",
+      "ref": "../index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/index.html",
+      "underProjectBase": true,
+      "localTarget": "examples/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/engineering-review/index.html",
+      "ref": "../../styles.css?v=819c38f3e3ec",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/styles.css?v=819c38f3e3ec",
+      "underProjectBase": true,
+      "localTarget": "styles.css",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/engineering-review/index.html",
+      "ref": "content.js?v=fb0badc9ecd1",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/engineering-review/content.js?v=fb0badc9ecd1",
+      "underProjectBase": true,
+      "localTarget": "examples/engineering-review/content.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/engineering-review/index.html",
+      "ref": "../../deck-model.js?v=df2624fd79a3",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/deck-model.js?v=df2624fd79a3",
+      "underProjectBase": true,
+      "localTarget": "deck-model.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/engineering-review/index.html",
+      "ref": "../../app.js?v=cb1b9721b0bc",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/app.js?v=cb1b9721b0bc",
+      "underProjectBase": true,
+      "localTarget": "app.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/engineering-review/index.html",
+      "ref": "slides.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/engineering-review/slides.md",
+      "underProjectBase": true,
+      "localTarget": "examples/engineering-review/slides.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/engineering-review/index.html",
+      "ref": "../index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/index.html",
+      "underProjectBase": true,
+      "localTarget": "examples/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/index.html",
+      "ref": "../../styles.css?v=819c38f3e3ec",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/styles.css?v=819c38f3e3ec",
+      "underProjectBase": true,
+      "localTarget": "styles.css",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/index.html",
+      "ref": "content.js?v=1b8efbbb6830",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/photo-story/content.js?v=1b8efbbb6830",
+      "underProjectBase": true,
+      "localTarget": "examples/photo-story/content.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/index.html",
+      "ref": "../../deck-model.js?v=df2624fd79a3",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/deck-model.js?v=df2624fd79a3",
+      "underProjectBase": true,
+      "localTarget": "deck-model.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/index.html",
+      "ref": "../../app.js?v=cb1b9721b0bc",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/app.js?v=cb1b9721b0bc",
+      "underProjectBase": true,
+      "localTarget": "app.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/index.html",
+      "ref": "slides.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/photo-story/slides.md",
+      "underProjectBase": true,
+      "localTarget": "examples/photo-story/slides.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/index.html",
+      "ref": "../index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/index.html",
+      "underProjectBase": true,
+      "localTarget": "examples/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/workshop/index.html",
+      "ref": "../../styles.css?v=819c38f3e3ec",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/styles.css?v=819c38f3e3ec",
+      "underProjectBase": true,
+      "localTarget": "styles.css",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/workshop/index.html",
+      "ref": "content.js?v=3fcf1dbfbd7b",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/workshop/content.js?v=3fcf1dbfbd7b",
+      "underProjectBase": true,
+      "localTarget": "examples/workshop/content.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/workshop/index.html",
+      "ref": "../../deck-model.js?v=df2624fd79a3",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/deck-model.js?v=df2624fd79a3",
+      "underProjectBase": true,
+      "localTarget": "deck-model.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/workshop/index.html",
+      "ref": "../../app.js?v=cb1b9721b0bc",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/app.js?v=cb1b9721b0bc",
+      "underProjectBase": true,
+      "localTarget": "app.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/workshop/index.html",
+      "ref": "slides.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/workshop/slides.md",
+      "underProjectBase": true,
+      "localTarget": "examples/workshop/slides.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/workshop/index.html",
+      "ref": "../index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/index.html",
+      "underProjectBase": true,
+      "localTarget": "examples/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/index.html",
+      "ref": "../../styles.css?v=819c38f3e3ec",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/styles.css?v=819c38f3e3ec",
+      "underProjectBase": true,
+      "localTarget": "styles.css",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/index.html",
+      "ref": "content.js?v=4770213b72ba",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/content.js?v=4770213b72ba",
+      "underProjectBase": true,
+      "localTarget": "examples/devday-compositions/content.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/index.html",
+      "ref": "../../deck-model.js?v=df2624fd79a3",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/deck-model.js?v=df2624fd79a3",
+      "underProjectBase": true,
+      "localTarget": "deck-model.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/index.html",
+      "ref": "../../app.js?v=cb1b9721b0bc",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/app.js?v=cb1b9721b0bc",
+      "underProjectBase": true,
+      "localTarget": "app.js",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/index.html",
+      "ref": "slides.md",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/slides.md",
+      "underProjectBase": true,
+      "localTarget": "examples/devday-compositions/slides.md",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/index.html",
+      "ref": "../index.html",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/examples/index.html",
+      "underProjectBase": true,
+      "localTarget": "examples/index.html",
+      "exists": true,
+      "trackedAtBaseline": true
+    }
+  ],
+  "mediaReferences": [
+    {
+      "from": "content.js",
+      "field": "deck.slides.2.items.0.src",
+      "ref": "assets/photos/capture.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/capture.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/capture.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.2.items.1.src",
+      "ref": "assets/photos/listen.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/listen.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/listen.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.2.items.2.src",
+      "ref": "assets/photos/write.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/write.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/write.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.2.items.3.src",
+      "ref": "assets/photos/observe.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/observe.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/observe.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.2.items.4.src",
+      "ref": "assets/photos/portrait-one.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-one.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/portrait-one.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.2.items.5.src",
+      "ref": "assets/photos/portrait-two.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-two.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/portrait-two.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.3.src",
+      "ref": "assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.4.items.0.src",
+      "ref": "assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.4.items.1.src",
+      "ref": "assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.4.items.2.src",
+      "ref": "assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.4.items.3.src",
+      "ref": "assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.9.items.0.src",
+      "ref": "assets/examples/report.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/report.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/report.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.9.items.1.src",
+      "ref": "assets/examples/objects.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/objects.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/objects.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.9.items.2.src",
+      "ref": "assets/examples/dashboard.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/dashboard.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/dashboard.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.9.items.3.src",
+      "ref": "assets/workspace-demo.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/workspace-demo.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/workspace-demo.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.10.items.0.src",
+      "ref": "assets/examples/poster-wide.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/poster-wide.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/poster-wide.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.10.items.1.src",
+      "ref": "assets/photos/listen.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/listen.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/listen.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.10.items.2.src",
+      "ref": "assets/examples/objects.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/objects.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/objects.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.10.items.3.src",
+      "ref": "assets/photos/portrait-two.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-two.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/portrait-two.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.10.items.4.src",
+      "ref": "assets/examples/report.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/report.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/report.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.10.items.5.src",
+      "ref": "assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.15.src",
+      "ref": "assets/examples/poster.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/poster.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/poster.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "content.js",
+      "field": "deck.slides.16.src",
+      "ref": "assets/examples/dashboard.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/dashboard.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/dashboard.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/content.js",
+      "field": "deck.slides.3.items.0.src",
+      "ref": "../../assets/examples/report.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/report.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/report.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/content.js",
+      "field": "deck.slides.3.items.1.src",
+      "ref": "../../assets/examples/dashboard.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/dashboard.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/dashboard.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/content.js",
+      "field": "deck.slides.3.items.2.src",
+      "ref": "../../assets/examples/poster-wide.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/poster-wide.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/poster-wide.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/content.js",
+      "field": "deck.slides.3.items.3.src",
+      "ref": "../../assets/examples/objects.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/objects.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/objects.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/content.js",
+      "field": "deck.slides.4.src",
+      "ref": "../../assets/examples/dashboard.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/dashboard.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/dashboard.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/product-launch/content.js",
+      "field": "deck.slides.5.src",
+      "ref": "../../assets/photos/capture.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/capture.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/capture.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/engineering-review/content.js",
+      "field": "deck.slides.3.items.0.src",
+      "ref": "../../assets/examples/report.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/report.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/report.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/engineering-review/content.js",
+      "field": "deck.slides.3.items.1.src",
+      "ref": "../../assets/examples/dashboard.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/dashboard.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/dashboard.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/engineering-review/content.js",
+      "field": "deck.slides.3.items.2.src",
+      "ref": "../../assets/workspace-demo.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/workspace-demo.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/workspace-demo.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/engineering-review/content.js",
+      "field": "deck.slides.3.items.3.src",
+      "ref": "../../assets/examples/objects.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/objects.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/objects.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.1.items.0.src",
+      "ref": "../../assets/photos/capture.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/capture.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/capture.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.1.items.1.src",
+      "ref": "../../assets/photos/listen.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/listen.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/listen.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.1.items.2.src",
+      "ref": "../../assets/photos/write.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/write.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/write.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.1.items.3.src",
+      "ref": "../../assets/photos/observe.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/observe.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/observe.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.1.items.4.src",
+      "ref": "../../assets/photos/portrait-one.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-one.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/portrait-one.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.1.items.5.src",
+      "ref": "../../assets/photos/portrait-two.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-two.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/portrait-two.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.2.src",
+      "ref": "../../assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.4.items.0.src",
+      "ref": "../../assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.4.items.1.src",
+      "ref": "../../assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.4.items.2.src",
+      "ref": "../../assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.4.items.3.src",
+      "ref": "../../assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.5.items.0.src",
+      "ref": "../../assets/examples/poster-wide.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/poster-wide.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/poster-wide.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.5.items.1.src",
+      "ref": "../../assets/photos/listen.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/listen.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/listen.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.5.items.2.src",
+      "ref": "../../assets/examples/objects.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/objects.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/objects.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.5.items.3.src",
+      "ref": "../../assets/photos/portrait-two.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-two.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/portrait-two.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.5.items.4.src",
+      "ref": "../../assets/examples/report.svg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/examples/report.svg",
+      "underProjectBase": true,
+      "localTarget": "assets/examples/report.svg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/photo-story/content.js",
+      "field": "deck.slides.5.items.5.src",
+      "ref": "../../assets/photos/landscape.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/landscape.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/landscape.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/workshop/content.js",
+      "field": "deck.slides.4.src",
+      "ref": "../../assets/photos/write.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/write.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/write.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/content.js",
+      "field": "deck.slides.1.items.0.src",
+      "ref": "../../assets/photos/capture.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/capture.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/capture.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/content.js",
+      "field": "deck.slides.1.items.1.src",
+      "ref": "../../assets/photos/listen.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/listen.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/listen.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/content.js",
+      "field": "deck.slides.1.items.2.src",
+      "ref": "../../assets/photos/write.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/write.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/write.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/content.js",
+      "field": "deck.slides.1.items.3.src",
+      "ref": "../../assets/photos/observe.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/observe.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/observe.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/content.js",
+      "field": "deck.slides.1.items.4.src",
+      "ref": "../../assets/photos/portrait-one.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-one.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/portrait-one.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/content.js",
+      "field": "deck.slides.1.items.5.src",
+      "ref": "../../assets/photos/portrait-two.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/portrait-two.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/portrait-two.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    },
+    {
+      "from": "examples/devday-compositions/content.js",
+      "field": "deck.slides.3.items.1.src",
+      "ref": "../../assets/photos/write.jpg",
+      "resolvedURL": "https://ou9999.github.io/stage-presentation-kit/assets/photos/write.jpg",
+      "underProjectBase": true,
+      "localTarget": "assets/photos/write.jpg",
+      "exists": true,
+      "trackedAtBaseline": true
+    }
+  ],
+  "pdfChecks": [
+    {
+      "path": "output/pdf/devday-compositions.pdf",
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/devday-compositions.pdf",
+      "bytes": 2572804,
+      "header": "%PDF-",
+      "isPdf": true,
+      "sha256": "453b1a63cff58daa4bb990b7967c06fca8ae0bfc151f3ae65c0e88961666696a",
+      "trackedAtBaseline": true
+    },
+    {
+      "path": "output/pdf/engineering-review.pdf",
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/engineering-review.pdf",
+      "bytes": 842063,
+      "header": "%PDF-",
+      "isPdf": true,
+      "sha256": "2eb604abaf721866503d3062a653d0dd7578e1bbb4a5087df257ddbf45c43682",
+      "trackedAtBaseline": true
+    },
+    {
+      "path": "output/pdf/photo-story.pdf",
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/photo-story.pdf",
+      "bytes": 2592327,
+      "header": "%PDF-",
+      "isPdf": true,
+      "sha256": "cb6fedc8f1217bb2236d4d3455b8e68e47d9d7a210be72a6ff07a28b137a1040",
+      "trackedAtBaseline": true
+    },
+    {
+      "path": "output/pdf/product-launch.pdf",
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/product-launch.pdf",
+      "bytes": 753240,
+      "header": "%PDF-",
+      "isPdf": true,
+      "sha256": "7e2f797974b77c8f789c2677fcae24248cb212f0620e68878994a1110de3c3ba",
+      "trackedAtBaseline": true
+    },
+    {
+      "path": "output/pdf/stage-sample.pdf",
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/stage-sample.pdf",
+      "bytes": 3569202,
+      "header": "%PDF-",
+      "isPdf": true,
+      "sha256": "ff899e369896716d93f674436b14e309e317415a246af48ee3a8435aa473c16b",
+      "trackedAtBaseline": true
+    },
+    {
+      "path": "output/pdf/workshop.pdf",
+      "url": "https://ou9999.github.io/stage-presentation-kit/output/pdf/workshop.pdf",
+      "bytes": 539109,
+      "header": "%PDF-",
+      "isPdf": true,
+      "sha256": "8061bdb4b3114977b92295e46bbdcce7cb16007915c78a42f1e0d1916022c6c5",
+      "trackedAtBaseline": true
+    }
+  ],
+  "summary": {
+    "htmlReferences": 71,
+    "mediaReferences": 58,
+    "totalRelativeReferences": 129,
+    "missingTargets": 0,
+    "outsideProjectBase": 0,
+    "pdfs": 6,
+    "invalidPdfHeaders": 0,
+    "untrackedReferenceTargets": 0,
+    "cacheHashes": 30,
+    "mismatchedCacheHashes": 0
+  },
+  "limits": [
+    "All relative-reference checks are URL resolution plus filesystem presence, not browser rendering/Network/Console checks.",
+    "PDF checks verify file presence, header, size, hash and URL only; visual PDF QA is not repeated.",
+    "Existing runtime,generated examples,AGENTS,previous research snapshots and README were not edited.",
+    "No Git staging/commit/push,repository visibility change,Pages API mutation,account change or server launch was performed by this contributor."
+  ],
+  "cacheHashChecks": [
+    {
+      "from": "index.html",
+      "target": "styles.css",
+      "expected": "819c38f3e3ec",
+      "actual": "819c38f3e3ec",
+      "matches": true
+    },
+    {
+      "from": "index.html",
+      "target": "content.js",
+      "expected": "e0f3113755da",
+      "actual": "e0f3113755da",
+      "matches": true
+    },
+    {
+      "from": "index.html",
+      "target": "deck-model.js",
+      "expected": "df2624fd79a3",
+      "actual": "df2624fd79a3",
+      "matches": true
+    },
+    {
+      "from": "index.html",
+      "target": "app.js",
+      "expected": "cb1b9721b0bc",
+      "actual": "cb1b9721b0bc",
+      "matches": true
+    },
+    {
+      "from": "examples/index.html",
+      "target": "examples/gallery.css",
+      "expected": "035c20d7204e",
+      "actual": "035c20d7204e",
+      "matches": true
+    },
+    {
+      "from": "examples/index.html",
+      "target": "examples/previews/devday-compositions.png",
+      "expected": "d2384ff6d328",
+      "actual": "d2384ff6d328",
+      "matches": true
+    },
+    {
+      "from": "examples/index.html",
+      "target": "examples/previews/product-launch.png",
+      "expected": "2723ec93a05f",
+      "actual": "2723ec93a05f",
+      "matches": true
+    },
+    {
+      "from": "examples/index.html",
+      "target": "examples/previews/engineering-review.png",
+      "expected": "422ef28bcd68",
+      "actual": "422ef28bcd68",
+      "matches": true
+    },
+    {
+      "from": "examples/index.html",
+      "target": "examples/previews/photo-story.png",
+      "expected": "21b5a3bab7de",
+      "actual": "21b5a3bab7de",
+      "matches": true
+    },
+    {
+      "from": "examples/index.html",
+      "target": "examples/previews/workshop.png",
+      "expected": "e702e2cde1b7",
+      "actual": "e702e2cde1b7",
+      "matches": true
+    },
+    {
+      "from": "examples/product-launch/index.html",
+      "target": "styles.css",
+      "expected": "819c38f3e3ec",
+      "actual": "819c38f3e3ec",
+      "matches": true
+    },
+    {
+      "from": "examples/product-launch/index.html",
+      "target": "examples/product-launch/content.js",
+      "expected": "c5e57c516662",
+      "actual": "c5e57c516662",
+      "matches": true
+    },
+    {
+      "from": "examples/product-launch/index.html",
+      "target": "deck-model.js",
+      "expected": "df2624fd79a3",
+      "actual": "df2624fd79a3",
+      "matches": true
+    },
+    {
+      "from": "examples/product-launch/index.html",
+      "target": "app.js",
+      "expected": "cb1b9721b0bc",
+      "actual": "cb1b9721b0bc",
+      "matches": true
+    },
+    {
+      "from": "examples/engineering-review/index.html",
+      "target": "styles.css",
+      "expected": "819c38f3e3ec",
+      "actual": "819c38f3e3ec",
+      "matches": true
+    },
+    {
+      "from": "examples/engineering-review/index.html",
+      "target": "examples/engineering-review/content.js",
+      "expected": "fb0badc9ecd1",
+      "actual": "fb0badc9ecd1",
+      "matches": true
+    },
+    {
+      "from": "examples/engineering-review/index.html",
+      "target": "deck-model.js",
+      "expected": "df2624fd79a3",
+      "actual": "df2624fd79a3",
+      "matches": true
+    },
+    {
+      "from": "examples/engineering-review/index.html",
+      "target": "app.js",
+      "expected": "cb1b9721b0bc",
+      "actual": "cb1b9721b0bc",
+      "matches": true
+    },
+    {
+      "from": "examples/photo-story/index.html",
+      "target": "styles.css",
+      "expected": "819c38f3e3ec",
+      "actual": "819c38f3e3ec",
+      "matches": true
+    },
+    {
+      "from": "examples/photo-story/index.html",
+      "target": "examples/photo-story/content.js",
+      "expected": "1b8efbbb6830",
+      "actual": "1b8efbbb6830",
+      "matches": true
+    },
+    {
+      "from": "examples/photo-story/index.html",
+      "target": "deck-model.js",
+      "expected": "df2624fd79a3",
+      "actual": "df2624fd79a3",
+      "matches": true
+    },
+    {
+      "from": "examples/photo-story/index.html",
+      "target": "app.js",
+      "expected": "cb1b9721b0bc",
+      "actual": "cb1b9721b0bc",
+      "matches": true
+    },
+    {
+      "from": "examples/workshop/index.html",
+      "target": "styles.css",
+      "expected": "819c38f3e3ec",
+      "actual": "819c38f3e3ec",
+      "matches": true
+    },
+    {
+      "from": "examples/workshop/index.html",
+      "target": "examples/workshop/content.js",
+      "expected": "3fcf1dbfbd7b",
+      "actual": "3fcf1dbfbd7b",
+      "matches": true
+    },
+    {
+      "from": "examples/workshop/index.html",
+      "target": "deck-model.js",
+      "expected": "df2624fd79a3",
+      "actual": "df2624fd79a3",
+      "matches": true
+    },
+    {
+      "from": "examples/workshop/index.html",
+      "target": "app.js",
+      "expected": "cb1b9721b0bc",
+      "actual": "cb1b9721b0bc",
+      "matches": true
+    },
+    {
+      "from": "examples/devday-compositions/index.html",
+      "target": "styles.css",
+      "expected": "819c38f3e3ec",
+      "actual": "819c38f3e3ec",
+      "matches": true
+    },
+    {
+      "from": "examples/devday-compositions/index.html",
+      "target": "examples/devday-compositions/content.js",
+      "expected": "4770213b72ba",
+      "actual": "4770213b72ba",
+      "matches": true
+    },
+    {
+      "from": "examples/devday-compositions/index.html",
+      "target": "deck-model.js",
+      "expected": "df2624fd79a3",
+      "actual": "df2624fd79a3",
+      "matches": true
+    },
+    {
+      "from": "examples/devday-compositions/index.html",
+      "target": "app.js",
+      "expected": "cb1b9721b0bc",
+      "actual": "cb1b9721b0bc",
+      "matches": true
+    }
+  ],
+  "localChangesObservedDuringCheck": [
+    "M WORK_LOG.md"
+  ]
+}

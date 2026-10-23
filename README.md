@@ -2,6 +2,8 @@
 
 주제에 맞는 레이아웃을 골라 내용을 바꾸는 발표 키트입니다. 설치나 빌드 과정 없이 `index.html`을 브라우저에서 열면 됩니다. 한글 시스템 글꼴과 로컬 파일만 사용합니다.
 
+**외부 발표 링크:** [C안 4번](https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html#4) · [예제 고르기](https://ou9999.github.io/stage-presentation-kit/examples/) · [20장 양식 모음](https://ou9999.github.io/stage-presentation-kit/). 같은 공개 저장소의 GitHub Pages에 배포했습니다. [작성·갱신 안내](DEPLOYMENT.md)에서 원고를 바꿔 같은 링크로 발행하는 절차를 확인하세요.
+
 [전체 예제 미리보기](example-preview.png) · [표지 미리보기](preview.png) · [샘플 PDF](output/pdf/stage-sample.pdf) · [디자인 가이드](DESIGN.md) · [입력 계약과 수량](CONFIG.md) · [원본 장면 비교 보드](research/index.html) · [사진·컬러 비교 보드](research/color.html) · [실제 세션 조사와 수정 기준](research/decisions.md)
 
 **[Markdown 발표 예제 5개·35장 열기](examples/index.html)** · [다섯 가지 결과 미리보기](examples/previews/collection.png) · [Markdown 작성법](MARKDOWN.md)
@@ -23,7 +25,7 @@
 
 ## GitHub에서 가져오기
 
-비공개 저장소는 접근 권한이 있는 GitHub 계정으로 인증한 뒤 복제합니다.
+발표는 위 웹주소로 보고, 내용을 바꾸려면 저장소를 복제합니다. 공개 저장소는 읽기용 GitHub 인증이 필요하지 않으며 원격에 수정 사항을 push하려면 쓰기 권한이 있는 계정을 사용합니다.
 
 ```sh
 git clone https://github.com/OU9999/stage-presentation-kit.git
@@ -31,7 +33,7 @@ cd stage-presentation-kit
 open index.html
 ```
 
-`open`은 macOS 명령입니다. 다른 운영체제에서는 폴더의 `index.html`을 브라우저로 열면 됩니다. GitHub 저장소를 만드는 것만으로 웹에 배포되지는 않습니다. 런타임·사진·가이드·연구 근거와 샘플 PDF를 보관하며, `output/example/` 등의 중간 검수 파일은 제외합니다.
+`open`은 macOS 명령입니다. 다른 운영체제에서는 폴더의 `index.html`을 브라우저로 열면 됩니다. 이 프로젝트는 현재 저장소의 `main`·루트를 GitHub Pages 발행 대상으로 사용합니다. 공개 전환과 Pages 활성화·배포 성공은 별개입니다. 런타임·사진·가이드·연구 근거와 샘플 PDF를 보관하며, `output/example/` 등의 중간 검수 파일은 제외합니다.
 
 ## Markdown으로 새 발표 만들기
 
@@ -107,9 +109,9 @@ Markdown을 선호하면 [현장 구성 원고](examples/devday-compositions/sli
 - `O`는 전체 보기, `F`는 전체 화면, `P`는 발표자 창, `?`는 사용법입니다. `Home`과 `End`로 첫 장과 마지막 장으로 이동할 수 있습니다.
 - 발표자 창은 발표 화면과 분리해 사용합니다. 화면 공유나 프로젝터에는 청중용 창을 선택하세요. 팝업이 차단되면 해당 사이트의 팝업을 허용한 뒤 다시 엽니다.
 - PDF는 인쇄 기능에서 PDF 저장을 선택합니다. 가로 방향, 여백 없음, 배경 그래픽 켜기, 브라우저 머리글·바닥글 끄기를 권장합니다. PDF에는 모션과 실시간 데모가 담기지 않습니다.
-- 웹으로 공유하려면 폴더 전체를 정적 호스팅에 올립니다. 공개 배포는 별도 작업입니다. 배포 파일에 포함된 발표자 노트도 소스에서 읽을 수 있으므로 공개해도 되는 내용만 적으세요.
+- 같은 저장소의 GitHub Pages로 외부 링크를 공유합니다. 원고·생성 결과·사진을 commit/push하고 해당 커밋의 Pages 배포 성공과 실제 링크를 확인하세요. 발표자 노트도 원본에서 읽을 수 있으므로 공개할 내용으로 관리합니다.
 
-반복해서 외부 발표 링크를 발행하려면 [엔지니어 팀의 외부 공유 제안](research/external-sharing-20261023/synthesis.md)을 참고하세요. 선택한 발표의 공개용 파일과 청중 화면을 분리해 정적 호스팅하고, 같은 URL로 갱신하는 단계안입니다. 공개 패키저·청중 모드·통합 발행 명령은 아직 구현 전이며, 현재의 화면 편집·저장은 내 브라우저에만 적용됩니다.
+실제 갱신 절차는 [DEPLOYMENT.md](DEPLOYMENT.md)를 따릅니다. 화면의 **내용 편집**은 내 브라우저에 저장하며, **내용 내보내기**는 `content.js`를 내려받습니다. 공개 사이트를 즉시 수정하지 않습니다. Markdown 원고는 화면 편집과 자동 동기화되지 않으므로 원문에도 반영한 뒤 다시 생성하세요. 현재 전체 저장소를 공개해 같은 저장소에서 발행하는 방식이며, 이전 [외부 공유 검토](research/external-sharing-20261023/repo-visibility.md)는 결정 과정의 기록입니다.
 
 ## 파일 구성
 
@@ -123,6 +125,7 @@ Markdown을 선호하면 [현장 구성 원고](examples/devday-compositions/sli
 | `examples/` | 다섯 가지 Markdown 발표·35장 생성 결과·갤러리·기존 params 예제 |
 | `scripts/` | 패키지 설치 없는 Markdown 변환·예제 일괄 생성 |
 | `MARKDOWN.md` | 지원 Markdown 문법과 변환 규칙 |
+| `DEPLOYMENT.md` | 공개 발표 주소·작성부터 같은 링크 갱신까지의 사용 절차 |
 | `tests/` | Node 기본 실행기로 검사하는 입력·배치 회귀 검증 |
 | `styles.css` | 레이아웃·테마·인쇄 스타일 |
 | `DESIGN.md` | 디자인 원칙과 레이아웃 사용법 |
