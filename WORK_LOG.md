@@ -4,10 +4,10 @@
 
 - 프로젝트: `/Users/ou9999-wdl/Documents/devday-presentation-kit`.
 - 제품 목표: 실제 OpenAI DevDay 세션의 시각 구성을 참고해 Markdown·params로 재사용하는 웹 발표 양식을 제공한다.
-- 현재 요청: 완료한 변경을 커밋·푸시하고, 실제 발표도구로 사용·외부 링크 공유하기 위한 엔지니어 팀을 준비한다. 사용자 선택은 링크가 있으면 누구나 열람이며, 재사용성과 편의성 우선 기준을 유지한다.
-- 상태: 기존 변경3커밋을 origin/main에 푸시하고 원격·로컬 `f2991dc` 일치를 확인했다. 커밋 전 전체 테스트163개 통과. 엔지니어 매니저와 실무자2명의 외부 공유 조사·구체 구현안·독립 검수를 완료했다. [취합안](research/external-sharing-20261023/synthesis.md). 이번에는 공개 배포나 새 발행 기능을 구현하지 않았다. 사용자 확인용 기존 localhost4317 서버·완료 Space8 p2는 보존한다.
+- 현재 요청: 별도 저장소를 만들지 않고 현재 `OU9999/stage-presentation-kit`를 PUBLIC으로 전환하고 같은 저장소의 GitHub Pages로 실제 배포한다. 외부 발표 화면을 열고 변경을 커밋·푸시한다. 사용자가 공개 전환·배포·Git 전달을 명시 승인했다.
+- 상태: 엔지니어 매니저와 기존 두 실무자를 재개해 배포 준비·사용 가이드를 분담했다. 총괄은 GitHub 공개 전환·Pages 설정·커밋/푸시·외부 실제 렌더 검증을 담당한다. 시작 시 원격은 PRIVATE, main HEAD `f955317`이며 기존 조사 변경을 보존한다.
 - 기록 담당자: 현재 세션 Codex.
-- 확인한 기준: `main`, HEAD `078628eeb45fa39d867d0ad33d0cf33d08819a72`. 편집 전 `AGENTS.md`와 `WORK_LOG.md`는 미추적 파일이었다.
+- 이번 실행 시작 기준: `main`, HEAD `f9553170e56bcca24909d22e7ebd0f8d7df01f0d`. C안 구현 전 기준은 `078628e`이며 당시 `AGENTS.md`·`WORK_LOG.md`는 미추적이었다.
 
 ## 현재 지침과 결정
 
@@ -25,6 +25,11 @@
 | I-10 | C안은 명시적인 `bento/editorial`과 구조화한 결과물8종으로 재사용한다. | 고정 문구·슬라이드ID에 묶인 구현 없이, 문장은 native 편집 필드로 두고 기본 그림·아이콘은 자동 렌더링한다. 한 장 스타터를 루트 `content.js`에 복사하면 빌드 없이 사용한다. |
 | I-11 | 사용자가 현재 변경의 커밋·푸시를 승인하고 외부 공유 엔지니어 팀 구성을 요청했다. | I-09의 전달 미요청 상태를 이번 전달 범위에서 대체한다. Git 원격 전달과 외부 웹 발행은 구분하며, 이번 팀 산출물은 실제 코드·공식 근거에 따른 배포/사용 흐름 권고와 구체 작업안이다. |
 | I-12 | 외부 발표 링크는 링크가 있으면 누구나 열람한다. | 사용자 비동기 답변으로 확정. 현재 소스 저장소는 PRIVATE이며 그대로 유지하고, 발표 결과만 공개할 수 있는 경로를 우선 검토한다. |
+| I-13 | 비용·보안·github.io 적합성을 기존 매니저와 팀원이 다시 협의해 보고한다. | Cloudflare 권고를 확정 전제로 두지 않는다. 비공개 원본+별도 공개 배포 저장소를 포함해 무료 GitHub Pages 경로와 실제 공개 위험을 비교한다. 이번에는 조사 문서·로그만 갱신한다. |
+| I-14 | 이번 팀의 현재 권고는 GitHub Pages다. | 앞선 Workers 우선 권고는 이전 검토 기록으로 보존한다. 비공개 개발 원본은 그대로 두고 공개 결과만 새 PUBLIC 배포 저장소에 올리면 GitHub Free로 시작할 수 있다. 이는 사용자에게 제시한 권고이며 저장소 생성·공개 배포를 승인받거나 실행했다는 뜻이 아니다. |
+| I-15 | 현재 저장소 자체의 PUBLIC 전환도 선택지로 검토한다. | I-12/I-14의 PRIVATE 유지 방식은 이전 권고이며 새 질문에서 절대 조건으로 고수하지 않는다. 기술적 Pages 가능성과 저장소 파일·이력·노트·연구 자료의 전체 공개 효과를 분리한다. 사용자 질문을 실제 공개 전환 실행 승인으로 해석하지 않는다. |
+| I-16 | 전체 공개 의도라면 현재 저장소 PUBLIC+같은 저장소 Pages가 가능하다. | 별도 배포 repo·패키저·노트 제거·청중 모드는 이 경우 선행 필수가 아니다. 저장소 공개와 Pages 활성화는 별도며, Pages 게시 파일을 선별해도 PUBLIC Git 파일/이력을 숨기지는 못한다. 발표 결과만 공개하려면 기존 분리안이 맞다. |
+| I-17 | 사용자가 현재 저장소의 PUBLIC 전환·동일 저장소 Pages 실제 배포·화면 열기·커밋/푸시를 명시 승인했다. | I-12/I-14의 PRIVATE·분리 저장소 권고와 I-13/I-15의 조사 한정은 이번 실행 범위에서 대체한다. 별도 repo·유료 호스팅·새 backend를 만들지 않는다. main/root에 정적 파일을 제공하고 실제 외부 URL과 배포 커밋을 검증한다. |
 
 I-02는 이전 인계에서 사용자와 위치를 재검토해 확정했다. 당시 전역 스킬 두 개를 완성하고 프로젝트 지침에도 핵심 절차를 포함했으나, 현재 프로젝트 지침의 범위는 I-06을 따른다. 이번 요청에서는 전역 스킬을 수정하지 않았다.
 
@@ -32,7 +37,7 @@ I-02는 이전 인계에서 사용자와 위치를 재검토해 확정했다. �
 
 | 역할 | 실제 배치·상태 | 책임·인계 |
 | --- | --- | --- |
-| 현재 담당자 | `/root`, Git 전달·엔지니어 팀 결과 통합 | 총괄, 단일 로그, 기존 변경 검수·단위별 커밋·원격 검증, 엔지니어 팀 독립 결과 검수와 제안 전달. |
+| 현재 담당자 | `/root`, PUBLIC 전환·실배포 진행 중 | 총괄, 단일 로그, 실제 파일/이력·공식 문서 확인, 팀의 협의 결과 독립 검수와 전달. |
 | 리서치 팀 매니저 | `/root/research_manager`, 최종 완료 | `research/review-20261023/research/` 소유. 대표 원본·새 캡처 직접 검수, 보고서 링크 97개 확인. |
 | DevDay 전반 리서치 | `/root/research_manager/general_research`, 초기·최종 취합 완료 | `research/review-20261023/research/general.md` 및 전용 evidence 소유. 공식 영상 정체성·부분 재생 확인 및 최신 근거 반영. |
 | DevDay 아시아 리서치 | `/root/research_manager/asia_research`, 작업 완료·종료 확인 | `research/review-20261023/research/asia.md` 및 전용 evidence 소유. 서울·도쿄·벵갈루루. 서울 1400×1050 근접 원본 추가 확보. |
@@ -43,9 +48,9 @@ I-02는 이전 인계에서 사용자와 위치를 재검토해 확정했다. �
 | 개발 팀 매니저 | `/root/development_manager`, 최종 완료 | 실제 두 실무자 운영·직접 API 협의, 코드·계약 리뷰와 독립 브라우저 검증. [개발팀 보고](research/implementation-c-20261023.md). |
 | 공통 런타임 개발 | `/root/development_manager/runtime_engineer`, 최종 완료·편집 종료 | `app.js`, `styles.css`, `deck-model.js`와 runtime/model 회귀43개 소유. 최종 계약 누출 패치 후 잠금. |
 | 작성 흐름·취합 개발 | `/root/development_manager/authoring_engineer`, 구현·취합 완료 | Markdown 변환·계약/가이드·원고·스타터·생성 파일과 작성 회귀9개 소유. 갤러리 파일은 편집 종료 후 총괄에게 직접 인계했다. |
-| 엔지니어 팀 매니저 | `/root/engineering_manager`, 최종 완료·편집 종료 | 배포 구조와 실제 발표 흐름 두 실무자의 직접 협의·근거 독립 검수. 최종6파일을 총괄에게 인계했다. |
-| 배포 엔지니어 | `/root/engineering_manager/deployment_engineer`, 최종 완료·편집 종료 | 비공개 소스와 공개 발표의 호스팅 경로·계정/서비스 전제·공식 문서·실제 파일 크기 검토. |
-| 발표 흐름 엔지니어·취합 | `/root/engineering_manager/product_workflow_engineer`, 최종 완료·편집 종료 | 작성→미리보기→발행→청중 링크→업데이트의 코드 기반 초기 보고와 최종 통합 제안. |
+| 엔지니어 팀 매니저 | `/root/engineering_manager`, 최신 실행 승인 수신·배포팀 재개 | 기존 두 실무자 재개, 배포 설정/가이드 분담, 직접 교차 검수 및 팀 보고. Git·외부 API는 총괄 소유. |
+| 배포 엔지니어 | `/root/engineering_manager/deployment_engineer`, 재개 지시 | `.nojekyll`과 정적 배포 경로 검증 소유. 제품 런타임·Git·외부 API는 수정하지 않는다. |
+| 발표 흐름 엔지니어·취합 | `/root/engineering_manager/product_workflow_engineer`, 재개 지시 | `DEPLOYMENT.md`·README 공개 링크/갱신 가이드 소유. 현재 repo/main/root 사용 흐름 작성·교차 검수. |
 | 이전 탐색·디자인·구현·독립 검증 에이전트 | 이전 작업 인계 완료 | 다음 세션에서 계속 실행 중이라고 간주하지 않는다. |
 
 이전 팀은 총괄이 직접 조율했으며 팀별 매니저 구조로 소급 표기하지 않는다. 이번 지침 작성 중 새 실무 에이전트는 배치하지 않았으므로 새 팀원에게 보낼 변경 통지는 없다.
@@ -64,10 +69,13 @@ I-02는 이전 인계에서 사용자와 위치를 재검토해 확정했다. �
 | 작업 | 담당자 | 상태·다음 행동 |
 | --- | --- | --- |
 | 스킬 형식과 프로젝트 지침 발견 경로 확인 | 이번 인계 총괄 | 완료. 공식 스킬 validator 2개 통과, 프로젝트 cwd에서 Codex prompt-input의 실제 발견 결과 확인. |
-| 기존 지침·연구·C안 구현의 Git 전달 | `/root` | 완료. `39871a0`·`d7faef0`·`f2991dc`를 main에 푸시하고 원격 SHA 일치 확인. 외부 공유 제안·이번 로그는 팀 검수 후 추가 전달한다. |
+| 기존 지침·연구·C안 구현의 Git 전달 | `/root` | 완료. `39871a0`·`d7faef0`·`f2991dc` 및 외부 공유 제안 `f955317`까지 이전 요청에서 main에 푸시하고 원격 SHA 일치 확인. |
 | DevDay 원본 재조사·디자인 제안 | 현재 세션 Codex 및 리서치·디자인 매니저 | 완료. [비교 보드](research/review-20261023/index.html), [시안](research/review-20261023/design/proposal.html), [총괄 통합 검증](research/review-20261023/integration-verification.md). |
 | C안 공통 양식 구현·작성 편의·회귀 확인 | `/root/development_manager` 및 실무자, 총괄 검증 | 완료. [실제4번](examples/devday-compositions/index.html#4), [한 장 스타터](examples/editorial-starter.js), [통합 검증](research/implementation-c-integration-20261023.md). 다른 주제의 복사·편집·저장·복원·실제 다운로드까지 확인했다. |
 | 실제 발표·공개 링크 공유 준비 | 엔지니어 팀 및 `/root` | 조사·설계 완료. [취합안](research/external-sharing-20261023/synthesis.md), [배포](research/external-sharing-20261023/deployment.md), [발표 흐름](research/external-sharing-20261023/workflow.md). 실제 발행 기능 구현·계정 연결·배포는 후속 작업이다. |
+| 비용·보안·GitHub Pages 재검토 | 재개한 엔지니어 팀 및 `/root` | 완료. [협의 결과](research/external-sharing-20261023/cost-github-pages.md). 추가 호스팅 결제 없이 가능한 경로와 노트·공개 이력의 위험을 구분했다. 실제 구현·설정 변경은 하지 않았다. |
+| 현재 저장소 자체의 PUBLIC 전환 검토 | 재개한 엔지니어 팀 및 `/root` | 완료. [토론 결과](research/external-sharing-20261023/repo-visibility.md). 전체 공개 의도이면 같은 repo로 가능하며, 실제 공개 전환/배포는 아직 하지 않았다. |
+| 현재 저장소 PUBLIC·Pages 실배포와 Git 전달 | 엔지니어 팀 및 `/root` | 진행 중. `.nojekyll`·사용 가이드 → 명시 경로 커밋/푸시 → 공개 전환/Pages 활성화 → 외부 C안·탐색·미디어·모바일·Console/Network → 최종 상태 기록/푸시. |
 
 ## 이번 인계의 확인 기록
 
@@ -176,3 +184,38 @@ I-02는 이전 인계에서 사용자와 위치를 재검토해 확정했다. �
 - 검증: 팀과 총괄이 새 Markdown3개 로컬 링크23개 누락0, JSON3개 파싱과 최종 보고 해시 일치를 확인했다. 노트7장·미디어7참조/고유6사진·컴파일러의 index/content만 생성·localStorage/export/opener의 실제 코드와 원문을 대조했다. 총괄도 Cloudflare 최신 Pages 권고와 정적 Assets 공식 문서를 직접 열었다. 이번에는 제품 코드가 바뀌지 않아 브라우저·제품 테스트를 다시 반복하지 않았다.
 - 인계 후 staged 검사에서 배포 보고서의 마지막 빈 줄1개를 찾아 총괄이 제거했다. 보고 본문은 바뀌지 않았으며, 매니저의 원래 검수 해시와 총괄의 끝줄 정리 후 해시를 `manager-review.json`에 함께 남겼다. 변경을 매니저에게 직접 통지했고 최종 staged 공백·링크·보고 해시를 확인한다.
 - 추가 전달 범위: `research/external-sharing-20261023/`의 최종6파일, README의 발견 링크, 이 로그를 별도 문서 커밋으로 묶는다. 실제 공개 URL·새 발행 기능은 아직 없으며 Git push를 그 완료로 보고하지 않는다. 다음 제품 구현 때는 위 작업 묶음·수용 기준과 호스팅 계정 가용성을 확인한다.
+
+## 2026-10-23 비용·보안·GitHub Pages 재검토 완료
+
+- 사용자 질문: 추가 결제가 필요한지, 보안 위험이 있는지, github.io로 충분한지 기존 매니저와 팀원들이 의논한 결과를 요청했다. 총괄이 기존 매니저를 재개했고 매니저가 기존 두 실무자를 실제 재개했다. 새 중복 팀은 만들지 않았다.
+- 현재 사실: 시작 시 main `f9553170e56bcca24909d22e7ebd0f8d7df01f0d`·작업 트리 clean. `gh repo view`로 개발 원본 PRIVATE를 재확인했다. `gh api user`는 OU9999와 plan 미반환이므로 현재 Free/Pro를 단정하지 않았다. 계정 비밀은 읽거나 출력하지 않았다.
+- 권고 변경: 현재 공개 발표에는 GitHub Pages가 충분하다. 개발 원본 PRIVATE를 유지하고 공개 결과만 새 PUBLIC 배포 저장소에 새 이력으로 발행하면 GitHub Free에서도 추가 호스팅 결제 없이 시작할 수 있다. 앞선 Workers 우선 검토에서 이 경로를 충분히 평가하지 않은 점을 보완했다. Workers 정적 자산도 무료 범위가 있으므로 비용 때문에 배제한다는 결론은 아니다.
+- 실제 상호 협의: 발표 흐름 담당이 PUBLIC Git 이력 노출을 제기했고, 공개 결과만 새 이력으로 시작하면 원본 이력을 공개하지 않는다는 데 합의했다. 배포 담당이 편집 버튼을 서버 원본 보호 문제로 과장하지 말자고 반론했고, 상대가 localStorage/Blob 경로를 다시 확인해 수용했다. 두 담당은 초기 로컬 push에 새 cross-repo secret/PRIVATE CI가 필수인지 서로의 초안·근거를 읽어 확인했다. 매니저가 이 세 협의와 직접 공식 검수를 분리해 기록했다.
+- 최소 출발점: 노트가 없는 공개 표시 데이터와 필요한 runtime·사진·credit만 독립 폴더로 모으고, 새 PUBLIC 배포 저장소의 Pages로 제공한다. 현재 약2MB는 Pages 사이트1GB·월100GB soft bandwidth에 여유가 있다. 기존 Git 인증으로 로컬 발행하면 추가 Cloudflare 계정·PRIVATE CI·새 CI secret은 첫 공유의 전제조건이 아니다. 실제 packager·새 repo·Pages URL은 아직 없다.
+- 보안 판단: HTML·JS·사진과 PUBLIC 저장소의 과거 공개본은 누구나 받을 수 있다. 원본의 notes7장·임의 확장 데이터·연구 원본·다른 발표를 배포에서 실제 제외한다. HTTPS는 전송 보호이며 접근 제한이 아니다. 사용자 localhost 포트를 외부에 열 필요는 없다. 현재 브라우저 편집은 자기 localStorage만 바꾸므로 청중 모드는 배포본 일관성/편의 작업이며 노트 제거와 구분했다. 전면 보안 감사·실제 유출 사고 발견으로 확대하지 않았다.
+- 결과물: [최종 협의 결과](research/external-sharing-20261023/cost-github-pages.md), [비용/운영 초안](research/external-sharing-20261023/github-pages-cost-draft.md), [보안/공개 범위 초안](research/external-sharing-20261023/public-sharing-security-draft.md), [새 매니저 검수](research/external-sharing-20261023/evidence/github-pages-manager-review.json). 이전 synthesis/deployment에는 새 권고 포인터만 추가했고 원래 본문·이전 검수 JSON은 바이트 보존했다.
+- 총괄 검수: 공식 Pages 플랜·한도·HTTPS·Actions 무료 조건, Workers 정적 과금 문서를 직접 확인했다. 로컬 링크38개 누락0, Markdown6개 EOF/후행 공백0, JSON 파싱·최종 보고 해시6개 일치·기존 검수 증거 보존을 독립 확인했다. 매니저·두 실무자의 완료/편집 종료 상태를 실제 대조했다. 제품 코드가 바뀌지 않아 제품 테스트·브라우저 검증은 반복하지 않았다.
+- 이번 요청의 조사·협의·보고 준비는 완료했다. 변경은 문서·로그만 로컬 미커밋 상태로 보존하며 계정·요금제·저장소 공개 전환·새 저장소 생성·배포·Git 전달은 수행하지 않았다. 다음 구현 지시가 오면 현재 GitHub Pages 권고와 공개 산출물 경계를 기준으로 진행한다.
+
+## 2026-10-23 현재 저장소 자체의 PUBLIC 전환 토론 완료
+
+- 최신 질문을 매니저에게 직접 전달하고 기존 두 실무자를 실제 재개했다. 기술 담당은 현재 repo 직접 Pages, 공개 범위 담당은 현재 파일·Git 이력·노트·자료 권리를 나눠 초안을 작성했다. 공개 범위 담당이 최종 보고를 취합했고 매니저가 독립 검수했다.
+- 팀 합의는 기술적으로 YES다. 도구·예제·연구·작업/Git 이력 전체를 공개하려는 목적이면 현재 repo를 PUBLIC으로 바꾸고 같은 저장소 Pages를 쓰는 것이 단순하다. 기존 분리안은 발표 결과만 공개할 때의 선택이며 별도 repo가 무료 Pages의 필수 조건은 아니다.
+- 필요한 설정은 공개 전환과 별도로 `.nojekyll`·Pages `main`/`/(root)` source·실제 배포 확인이다. 현재 구조를 통째로 제공하면 공통 runtime과 사진의 상대 경로가 함께 남으므로 독립 패키저가 선행 필수는 아니다. 의도적으로 예제 노트까지 공개하는 경우 노트 제거·새 viewer도 기술적 필수 조건이 아니다.
+- 공개 범위 실측: HEAD383파일 122,171,167bytes, 연구310파일 106,213,528bytes, 도달 가능한10커밋·삭제경로0, PDF6개와 AGENTS/WORK_LOG 포함. 현재 GitHub에 올린 파일/과거 버전이 공개되며 미커밋/미추적 후속 문서는 commit/push 전에는 새로 올라가지 않는다. Pages artifact 선별은 PUBLIC Git의 나머지 파일·이력을 숨기는 방법이 아니다.
+- 노트62개는 가상 예제·양식 작성·출처/사진 안내로 실무자가 실제 읽어 분류했다. 기밀 노트 발견으로 과장하지 않았다. 제한된4종 자격증명 형태 검사 일치0도 완전한 비밀 정보 감사·공개 안전 보장으로 확대하지 않았다. 현재 LICENSE류 파일은 없지만 PUBLIC/Pages 불가 사유는 아니다. 타인의 코드 재사용 허용 조건을 정하는 일과 별개다.
+- 연구 자료는 출처/credit 기록과 포괄 재배포 확인 기록을 구분했다. 후자는 검토 문서에서 확인하지 못했으며 권한 부재·위법 확정으로 판정하지 않았다. 전체 공개를 원하면 원본 자료 포함 여부와 자료별 조건을 정리하고, 향후 비공개 실제 발표 원고/노트를 PUBLIC 도구 저장소에 섞지 않는 경계를 권고한다.
+- 실제 반론·합의: 기술 담당은 전체 공개 의도에서도 별도 패키저·노트 제거가 필수인지 질문했고 공개 범위 담당이 그렇지 않음에 동의했다. 공개 범위 담당은 발표 링크 공유가 연구310파일·작업로그·10커밋 전체 공개 의도를 뜻하는지 질문했고, 기술 담당이 두 공개 범위가 다르다는 데 동의했다. 현재 사용자 질문을 공개 전환 실행 승인으로 해석하지 않았다.
+- 결과물: [팀 최종 합의](research/external-sharing-20261023/repo-visibility.md), [같은 repo Pages 기술 검토](research/external-sharing-20261023/current-repo-pages-draft.md), [전체 공개 범위 검토](research/external-sharing-20261023/current-repo-disclosure-draft.md), [새 매니저 검수](research/external-sharing-20261023/evidence/repo-visibility-manager-review.json). 직전 cost 보고에는 후속 포인터만 추가하고 원래 본문·기존 근거를 보존했다.
+- 총괄 검증: Git ls-tree로383파일/122,171,167bytes·연구310개/106,213,528bytes·최대파일3,569,202bytes를 독립 대조했다. 공식 visibility/Pages source/license 문서를 직접 확인했다. 최종9보고서 해시 일치·로컬 링크56개 누락0·Markdown EOF/후행 공백0·JSON 파싱을 확인했고, project base에서129참조 URL을 별도 재계산해 대상 파일 존재·경로 이탈0을 확인했다. 정적 검사이며 실제 외부 Pages 렌더 검증은 아니다.
+- 매니저와 두 실무자의 실제 완료/편집 종료 상태를 확인했다. 마지막 `gh repo view`에서도 PRIVATE이며 계정·공개 전환·Pages 설정·배포·Git stage/commit/push·제품 코드는 바꾸지 않았다. 앞선 미커밋 변경을 보존했고 이번 문서도 로컬에 둔다. 다음 구현은 사용자가 원하는 공개 범위를 확정하는 지시에 맞춰 진행한다.
+
+## 2026-10-23 현재 저장소 PUBLIC·GitHub Pages 실행 시작
+
+- 사용자의 명시 승인으로 현재 repo PUBLIC 전환·동일 repo Pages 배포·결과 화면 열기·커밋/푸시를 실행한다. 새 저장소 분리안은 채택하지 않는다. I-17을 매니저에게 직접 알렸고 수신 확인을 받았다. 매니저가 기존 두 실무자를 재개하며 총괄 포함4슬롯을 지킨다.
+- 시작 상태 재확인: main `f9553170e56bcca24909d22e7ebd0f8d7df01f0d`, 원격 PRIVATE, ADMIN. 이전 질문의 미커밋 조사 문서와 로그를 보존한다. 실제 `AGENTS.md`의 네 항목은 수정하지 않는다.
+- 소유권: 총괄은 WORK_LOG·Git 전달·GitHub API·최종 외부 브라우저 검증, 배포 실무자는 `.nojekyll`·정적 경로, 작성 흐름 실무자는 `DEPLOYMENT.md`·README, 매니저는 `research/github-pages-deployment-20261023/manager-review.md`와 팀 검수 근거.
+- 공식 Pages 문서와 gh CLI help를 확인했다. `main`/`/` branch source와 `.nojekyll`로 제공한다. 실제 배포 성공 전에는 예상 URL을 검증 완료로 표시하지 않는다.
+
+- 배포 전 검증: `node --test tests/*.test.cjs` 163/163 통과. 이전 미커밋 연구14파일을 링크56개·보고해시9개·JSON·공백 검사 후 `1cfc12392ab159d003d70ca65676bd5b89f3d58d`로 커밋했다. 변경을 매니저에게 직접 알렸다. 정적 project base129참조와 PDF6개의 사전 검수는 팀 증거로 분리하고, 실제 외부 배포는 총괄이 이어서 확인한다.
+- 새 외부 화면 검증용 ego-browser Space11/p1을 만들었다. 이전 사용자용 Space4/5/8은 조작하지 않는다. 기존 localhost4317 서버도 유지한다.
