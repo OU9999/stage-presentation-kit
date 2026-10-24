@@ -49,6 +49,26 @@ notes: "첫 문장은 천천히 읽습니다.\n다음 장에서 구체적으로 
 
 발표자와 날짜는 문서 상단에서 지정합니다. 표지 한 장의 JSON에 `speaker`, `date`를 넣는 방식은 지원하지 않습니다.
 
+## 장별 모션
+
+장별 metadata 또는 `stage` JSON에 `motion`을 넣습니다. 두 위치에 중복 지정하지 않습니다.
+
+```md
+<!-- stage
+layout: statement
+align: center
+tone: orange
+highlight: 다음 행동으로.
+motion: rise
+-->
+# 생각을,
+# 다음 행동으로.
+```
+
+`none`은 정적 표시, `fade`는 짧은 기본 전환, `rise`는 제목과 보조 문구, `stagger`는 단계·범주·결과 항목의 순차 등장, `chart`는 장식 막대의 진입입니다. 생략하면 `fade`입니다. `motion`의 잘못된 값은 빌드를 실패시키며 기존 생성 결과를 보존합니다. `stage` JSON도 같은 다섯 문자열을 사용합니다.
+
+읽기·편집·전체 보기·발표자 미리보기·인쇄와 시스템 모션 줄이기에서는 모든 내용을 정적으로 표시합니다. `stagger`·`chart`에 맞는 효과 대상이 없는 양식도 정적 완성 화면을 유지합니다. [시간·지원 양식과 입력 계약](CONFIG.md#모션-선택)을 함께 확인하세요. 예제는 [제품 소개의 선언·결과·정적 데모](examples/product-launch/slides.md)와 [기술 보고의 파랑 비교 차트](examples/engineering-review/slides.md)에 있습니다.
+
 ## 문장이 들어가는 위치
 
 현재 화면에 실제로 표시되는 필드로 변환합니다. 지원하지 않는 위치의 본문을 조용히 버리지 않습니다.

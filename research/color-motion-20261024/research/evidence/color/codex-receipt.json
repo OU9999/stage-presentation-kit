@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-24T11:28:49.789Z",
+  "url": "https://www.youtube.com/watch?v=XkKdbPhIvbY&t=1200s",
+  "title": "Codex Has Left The Laptop | DevDay 2026",
+  "author": "OpenAI",
+  "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+  "currentTime": 1200.536295,
+  "paused": true,
+  "readyState": 4,
+  "clip": {
+    "x": 16,
+    "y": 68,
+    "width": 700,
+    "height": 394
+  },
+  "requestedTime": 1200,
+  "file": "codex-20m00.png"
+}

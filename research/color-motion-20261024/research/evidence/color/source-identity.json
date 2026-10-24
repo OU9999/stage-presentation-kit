@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-24T11:29:46.991Z",
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=Fls_onRviPM",
+      "title": "OpenAI DevDay 2026 Keynote (FULL)",
+      "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "author": "OpenAI",
+      "publishDate": "2026-09-29T11:42:29-07:00",
+      "uploadDate": "2026-09-29T11:42:29-07:00",
+      "ownerProfileUrl": "http://www.youtube.com/@OpenAI",
+      "lengthSeconds": "3214"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XkKdbPhIvbY",
+      "title": "Codex Has Left The Laptop | DevDay 2026",
+      "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "author": "OpenAI",
+      "publishDate": "2026-10-07T14:10:48-07:00",
+      "uploadDate": "2026-10-07T14:10:48-07:00",
+      "ownerProfileUrl": "http://www.youtube.com/@OpenAI",
+      "lengthSeconds": "1321"
+    }
+  ],
+  "hub": {
+    "url": "https://openai.com/ko-KR/devday/2026/",
+    "title": "OpenAI DevDay 2026 | OpenAI",
+    "links": [
+      {
+        "text": "(새 창에서 열기)",
+        "href": "https://www.youtube.com/OpenAI"
+      }
+    ],
+    "sessions": [
+      "노트북을 벗어난 Codex",
+      "Codex와 함께, 혼자 하던 작업을 협업으로"
+    ]
+  }
+}

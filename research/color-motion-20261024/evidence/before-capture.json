@@ -1,0 +1,47 @@
+[
+  {
+    "hash": 6,
+    "name": "statement",
+    "width": 1440,
+    "height": 1000,
+    "active": "5",
+    "opacity": "1",
+    "running": 0
+  },
+  {
+    "hash": 7,
+    "name": "categories",
+    "width": 1440,
+    "height": 1000,
+    "active": "6",
+    "opacity": "1",
+    "running": 0
+  },
+  {
+    "hash": 8,
+    "name": "speaker",
+    "width": 1440,
+    "height": 1000,
+    "active": "7",
+    "opacity": "1",
+    "running": 0
+  },
+  {
+    "hash": 9,
+    "name": "chart",
+    "width": 1440,
+    "height": 1000,
+    "active": "8",
+    "opacity": "1",
+    "running": 0
+  },
+  {
+    "hash": 15,
+    "name": "metric",
+    "width": 1440,
+    "height": 1000,
+    "active": "14",
+    "opacity": "1",
+    "running": 0
+  }
+]

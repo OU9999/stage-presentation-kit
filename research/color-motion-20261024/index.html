@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STAGE — 컬러와 모션 개선</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b0b0c;--text:#f6f6f4;--muted:#a5a5aa;--line:#303034;--blue:#24a8ff}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;line-height:1.6}
+    a{color:inherit;text-underline-offset:.25em}button,input{font:inherit}button,a,input{outline-offset:5px}:focus-visible{outline:2px solid var(--blue)}
+    .wrap{max-width:1240px;margin:auto;padding:0 36px}nav{display:flex;align-items:center;justify-content:space-between;padding:25px 0;border-bottom:1px solid var(--line);font-size:13px}nav strong{font-size:22px;letter-spacing:-.06em}nav a{text-decoration:none;color:var(--muted)}
+    header{padding:76px 0 52px}.eyebrow{color:var(--muted);font-size:12px;letter-spacing:.12em;margin:0 0 22px}h1{font-weight:500;font-size:clamp(36px,5.4vw,68px);letter-spacing:-.055em;line-height:1.2;margin:0 0 26px}header p{color:var(--muted);max-width:740px;margin:0;font-size:17px;word-break:keep-all}.primary{display:inline-flex;margin-top:28px;padding:12px 20px;background:var(--text);color:#101011;text-decoration:none;border-radius:5px;font-size:14px;font-weight:600}
+    section{padding:35px 0 52px;border-top:1px solid var(--line)}h2{font-size:25px;font-weight:500;letter-spacing:-.04em;margin:0 0 12px}.lead{color:var(--muted);font-size:14px;margin:0 0 24px;word-break:keep-all}
+    .tabs{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0}button{color:var(--text);background:transparent;border:1px solid var(--line);border-radius:5px;padding:9px 15px;cursor:pointer;font-size:13px}button:hover{border-color:#75757b}button[aria-pressed=true]{border-color:var(--text);background:#232326}
+    .comparison{position:relative;aspect-ratio:1.44;overflow:hidden;border:1px solid var(--line);background:#111}.comparison img{display:block;width:100%;height:100%;object-fit:contain}.after{position:absolute;inset:0;clip-path:inset(0 50% 0 0)}.divider{position:absolute;top:0;bottom:0;left:50%;width:2px;background:#fff;pointer-events:none}.badge{position:absolute;top:14px;background:#080808d9;border:1px solid #ffffff33;padding:4px 11px;font-size:11px;border-radius:3px}.badge.left{left:14px}.badge.right{right:14px}
+    .slider-label{display:flex;align-items:center;gap:20px;font-size:12px;color:var(--muted);margin-top:17px}.slider-label input{flex:1;min-width:60px;accent-color:var(--text)}#comparisonNote{font-size:14px;color:var(--muted);margin:16px 0 0}.points{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:35px}.points h3{font-size:17px;font-weight:500;margin:0 0 9px}.points p{font-size:14px;color:var(--muted);margin:0;word-break:keep-all}
+    iframe{display:block;border:1px solid var(--line);width:100%;height:640px;background:#111}.links{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:13px;margin-top:25px;color:var(--muted)}footer{padding:24px 0 45px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}footer p{margin:8px 0}footer a{margin-right:15px}
+    @media(max-width:650px){.wrap{padding:0 20px}header{padding:48px 0 35px}header p{font-size:15px}.points{grid-template-columns:1fr;gap:24px}.comparison{margin:0 -9px}iframe{height:450px}button{padding:8px 11px}.slider-label{gap:12px}.badge{top:7px;padding:2px 6px}.badge.left{left:7px}.badge.right{right:7px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <nav aria-label="페이지 이동"><strong>STAGE</strong><a href="../../index.html">발표 열기 ↗</a></nav>
+  <header>
+    <p class="eyebrow">COLOR &amp; MOTION / 2026.10.24</p>
+    <h1>색은 선명하게.<br>강조는 정확하게.</h1>
+    <p>실제 DevDay 발표 장면을 비교해 강조색과 정보 위계를 다듬고, 문장·항목·도표에 맞는 짧은 모션을 적용했습니다.</p>
+    <a class="primary" href="../../index.html#6">개선된 발표 보기 ↗</a>
+  </header>
+  <section aria-labelledby="comparisonTitle">
+    <h2 id="comparisonTitle">같은 장면, 달라진 초점.</h2>
+    <p class="lead">아래 장면을 선택하고 슬라이더를 움직여 개선 전후를 비교하세요.</p>
+    <div class="tabs" aria-label="비교할 장면">
+      <button type="button" data-scene="statement" aria-pressed="true">핵심 문장</button>
+      <button type="button" data-scene="categories" aria-pressed="false">범주</button>
+      <button type="button" data-scene="speaker" aria-pressed="false">이름 소개</button>
+      <button type="button" data-scene="chart" aria-pressed="false">도표</button>
+      <button type="button" data-scene="metric" aria-pressed="false">핵심 수치</button>
+    </div>
+    <div class="comparison">
+      <img id="beforeImage" src="evidence/before-statement.png" alt="개선 전 핵심 문장">
+      <div class="after" id="afterLayer"><img id="afterImage" src="evidence/after-statement.png" alt="개선 후 핵심 문장"></div>
+      <div class="divider" id="divider"></div>
+      <span class="badge left">개선 후</span><span class="badge right">개선 전</span>
+    </div>
+    <label class="slider-label" for="comparisonSlider"><span>개선 전후 비교</span><input id="comparisonSlider" type="range" min="0" max="100" value="50" aria-label="개선 후 이미지의 표시 비율"><output id="comparisonValue" for="comparisonSlider">50%</output></label>
+    <p id="comparisonNote" aria-live="polite">주황색의 선명도를 높이고, 강조할 한 문장에 집중했습니다.</p>
+    <div class="points">
+      <div><h3>선명한 의미색</h3><p>주장·이름·범주·비교 대상에 색을 배정했습니다. 사진과 결과물은 고유한 색을 유지합니다.</p></div>
+      <div><h3>차분한 보조 정보</h3><p>라벨·출처·구조선은 중립색으로 정리해, 중요한 대상과 경쟁하지 않게 했습니다.</p></div>
+      <div><h3>내용을 따르는 모션</h3><p>짧은 전환, 문장 등장, 항목의 순차 등장, 막대 표시를 선택할 수 있습니다.</p></div>
+    </div>
+  </section>
+  <section aria-labelledby="motionTitle">
+    <h2 id="motionTitle">발표 흐름에서 확인하세요.</h2>
+    <p class="lead">장면 버튼을 누르면 해당 장으로 이동하며 다시 재생합니다. 시스템에서 모션 줄이기를 선택하면 정적으로 표시합니다.</p>
+    <div class="tabs" aria-label="모션 장면 이동">
+      <button type="button" data-slide="6">문장 등장 ↗</button>
+      <button type="button" data-slide="7">범주 순차 등장 ↗</button>
+      <button type="button" data-slide="9">막대 도표 ↗</button>
+      <button type="button" data-slide="19">실행 단계 ↗</button>
+    </div>
+    <iframe id="liveDeck" src="../../index.html#6" title="개선된 STAGE 발표의 실제 실행 화면" loading="lazy" allow="fullscreen"></iframe>
+    <p class="lead" style="margin-top:20px">읽기·편집·전체 보기·발표자 미리보기·PDF에서는 모든 내용을 즉시 표시합니다. 숫자는 모션과 관계없이 최종값으로 유지합니다.</p>
+    <div class="links"><a href="../../index.html#6">발표를 새 화면에서 열기</a><a href="design/preview.html">디자인 시안</a><a href="engineering/synthesis.md">기술 구조 검토</a><a href="verification.md">검증 기록</a></div>
+  </section>
+  <footer>
+    <p>현재 HTML/CSS/JavaScript 구조를 유지했습니다. 이번 요구는 CSS와 작은 JavaScript 확장으로 구현하며, React·발표·모션 라이브러리는 향후 편집기와 기능 규모에 따라 다시 검토합니다.</p>
+    <p>색상과 모션 수치는 STAGE의 독자 사양입니다. OpenAI 공식 색상값이나 원본 애니메이션 수치를 재현했다고 주장하지 않습니다.</p>
+    <p><a href="research/color.md">원본 컬러 근거</a><a href="research/motion.md">모션 조사</a><a href="design/synthesis.md">디자인 결정</a></p>
+  </footer>
+</div>
+<script>
+  const scenes={statement:["핵심 문장","주황색의 선명도를 높이고, 강조할 한 문장에 집중했습니다."],categories:["범주","범주마다 선명한 의미색을 연결하고 제목은 중립색으로 유지했습니다."],speaker:["이름 소개","보라색 이름에 시선이 모이도록 보조 정보와 장식의 색을 정리했습니다."],chart:["도표","비교할 막대 하나에 파랑을 배정하고, 수치와 나머지 막대는 중립으로 유지했습니다."],metric:["핵심 수치","숫자는 의미색으로 강조하고, 작은 라벨과 보조 정보는 중립색으로 분리했습니다."]};
+  const slider=document.getElementById("comparisonSlider");
+  slider.addEventListener("input",()=>{document.getElementById("afterLayer").style.clipPath=`inset(0 ${100-Number(slider.value)}% 0 0)`;document.getElementById("divider").style.left=slider.value+"%";document.getElementById("comparisonValue").value=slider.value+"%";});
+  document.querySelectorAll("[data-scene]").forEach(button=>button.addEventListener("click",()=>{const name=button.dataset.scene;document.querySelectorAll("[data-scene]").forEach(item=>item.setAttribute("aria-pressed",String(item===button)));for(const kind of ["before","after"]){const image=document.getElementById(kind+"Image");image.src=`evidence/${kind}-${name}.png`;image.alt=(kind==="before"?"개선 전 ":"개선 후 ")+scenes[name][0];}document.getElementById("comparisonNote").textContent=scenes[name][1];}));
+  document.querySelectorAll("[data-slide]").forEach(button=>button.addEventListener("click",()=>{document.getElementById("liveDeck").src="../../index.html?preview="+Date.now()+"#"+button.dataset.slide;}));
+</script>
+</body>
+</html>

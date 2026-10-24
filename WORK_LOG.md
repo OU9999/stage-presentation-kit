@@ -1,6 +1,61 @@
 # STAGE 작업 로그
 
-## 목표와 현재 상태
+## 현재 작업 — 2026-10-24 커밋·푸시와 다음 작업 인계
+
+- 요청·승인: 사용자가 완료한 개선의 커밋과 푸시를 명시 지시했다. 아래 개선 단계의 Git 전달 미포함 지침을 이번 전달 범위에서 대체한다.
+- 담당자: 총괄 `/root`가 Git 전달과 이 로그를 담당한다. 리서치·디자인·엔지니어링 팀은 완료·편집 종료 상태를 유지한다.
+- 전달 범위: 컬러·모션 구현과 계약 테스트, 원고·생성 예제·작성 안내, PDF 6개·미리보기 8개, 조사·디자인·검증 근거·비교 보드 및 기존 로컬 세팅을 포함한 작업 로그.
+- 사전 확인: `main`, `origin=https://github.com/OU9999/stage-presentation-kit.git`, `git fetch origin` 후 HEAD와 origin/main 차이 0/0. 테스트 168개 통과·실패 0, 공통 코드 4파일은 최종 검수 SHA와 일치, 공백 검사 통과.
+- 다음 행동: 개선을 커밋·푸시하고 실제 원격 SHA 일치를 확인한 뒤 인계 기록을 보관한다. 다음 작업은 사용자의 새 지시를 받은 후 시작한다.
+
+## 완료 기록 — 2026-10-24 DevDay 컬러·모션 개선
+
+- 목표: 실제 DevDay 자료와 현재 구현의 컬러 차이를 조사하고, 발표에 맞는 모션·기술 구조·디자인을 연결해 개선한 실제 프로젝트를 제공한다.
+- 현재 지침: 사용자는 `$coordinate`·`$manager`를 호출하고 세 팀의 조사·기술 검토·디자인 준비 및 개선 결과 전달을 지시했다. 대기 지침을 실행 지침으로 대체한다. 팀마다 매니저와 상호 보완적인 전문성의 실무자 두 명을 실제 배치한다.
+- 문제 제기: 사용자는 DevDay를 참고한 현재 프로젝트의 컬러 강조가 실제 DevDay 발표자료와 달라 보인다고 관찰했다. 원인이나 특정 색상값은 아직 검증하지 않았다.
+- 팀별 범위: 리서치는 DevDay 컬러 근거·발표 모션, 엔지니어링은 현행 HTML/CSS/JS와 React·관련 라이브러리의 필요성 검토 및 구현, 디자인은 조사·기술 제약을 반영한 컬러·모션 사양을 담당한다. OpenAI·Apple 디자인은 역할 관점이며 실제 회사 출신 경력을 주장하지 않는다.
+- 담당자·편집 소유권: 총괄 `/root`가 조율·WORK_LOG·기준 화면·최종 브라우저 검증을 담당한다. 팀 산출물은 `research/color-motion-20261024/`에 두고 제품 코드 소유권은 단계별로 인계한다. 기존 미커밋 로그 변경을 보존한다.
+- 결정·결과: Coordinate·Manager·ego-browser 스킬을 읽었다. 총괄 포함 동시 실행 4명 한도에 맞춰 리서치 → 엔지니어링 검토 → 디자인 → 엔지니어링 구현 순서로 팀을 운영한다. 각 팀의 두 실무자는 서로 직접 협의하며 한 명이 자신의 실무와 취합을 함께 맡는다.
+- 완료 상태: 세 팀의 조사·기술 검토·디자인을 실제 제품에 적용하고 자동 회귀·실제 모션·축소 모션·모바일·발표자·PDF·비교 화면 검증을 완료했다. [결과 화면](research/color-motion-20261024/index.html), [통합 검증](research/color-motion-20261024/verification.md). 이번 요청의 미완료 작업은 없으며 다음 사용자 지시를 기다린다. 새 커밋·푸시·외부 배포는 이번 지시에 포함하지 않는다.
+- 담당자 통지: 각 매니저 생성 시 현재 목표·소유권·직접 연락 경로와 단계 변경을 일대일로 전달한다.
+
+### 이번 팀 실제 배치와 진행
+
+- 리서치 매니저: `/root/research_manager`. 실무자는 `/root/research_manager/color_researcher`(컬러·원본 근거), `/root/research_manager/motion_researcher`(모션·접근성과 취합). 서로 직접 연락 경로·소유권을 전달했음을 매니저가 확인했다.
+- 브라우저: 이번 목표 전용 ego-browser TaskSpace 2. 총괄 p1을 기준·최종 검증에 사용하며 팀은 같은 Space 안에서 전용 탭만 생성한다. 팀이 다른 탭을 조작하거나 Space를 종료하지 않도록 직접 지시했다.
+- 기준 검증: 루트 6·7·15장 1440×1000 캡처와 기존 테스트 163/163 통과. [기준 근거](research/color-motion-20261024/baseline.md). 로컬 서버 4317, 실행 세션 26401을 유지한다.
+- 리서치 완료: 매니저와 두 실무자 편집 종료. 공식 영상 2개·4장면을 새로 확인했고 총괄도 보라 이름·주황 선언 원본 프레임을 직접 검수했다. [리서치 취합](research/color-motion-20261024/research/synthesis.md). 선명한 강조색·보조 메타와 색 역할 분리·선택 막대 의미색 복구 및 5종 선택형 모션을 권고한다. 팔레트·타이밍은 STAGE 제안이며 공식 원본값이 아니다.
+- 엔지니어링 1차: `/root/engineering_manager`를 실제 배치해 HTML/CSS/JS·React·발표/모션 라이브러리 검토와 구현계약을 요청했다. `engineering/` 문서 소유, 이 단계 제품 수정 없음. 리서치 매니저에게 해당 인계와 편집 종료 유지를 직접 통지했다.
+- 엔지니어링 실무: `/root/engineering_manager/architecture_engineer`는 현행 구조·React·reveal.js, `/root/engineering_manager/motion_engineer`는 CSS·WAAPI·GSAP·Motion과 취합을 맡았다. 서로 직접 협의하며 매니저는 코드 경로를 별도 검토한다. 총괄도 React 공식문서의 정적호스팅 가능과 MDN `Element.animate()`를 직접 확인했다.
+- 엔지니어링 1차 완료: [기술 취합](research/color-motion-20261024/engineering/synthesis.md). 현재 HTML/CSS/JS와 CSS keyframes + 작은 JS 분기를 채택했다. React/reveal.js도 정적·무빌드 경로가 가능하지만 이번 범위의 전환 이익이 작다는 판단이다. 제품 수정 없이 두 실무자와 매니저의 편집 종료를 확인했다.
+- 디자인 진행: `/root/design_manager`에 리서치·기술 문서, 직접 연락 경로, 확정할 팔레트·역할·타이밍·적용장과 독립 프리뷰 검증을 배정했다. OpenAI 발표/브랜드와 Apple 상호작용/모션의 상호 보완적 관점 두 실무자를 실제 생성하게 했다. 엔지니어링 매니저에게 인계와 이후 같은 실무자 재개 계획을 직접 통지했다.
+- 디자인 실무: `/root/design_manager/brand_designer`(팔레트·위계와 preview HTML/CSS), `/root/design_manager/motion_designer`(상호작용·모션, preview JS와 취합). 매니저 p6에서 독립 검수한다. 두 디자이너가 직접 DOM/JS 계약·5종 타이밍을 합의하고 엔지니어링 매니저에게 직접 전달했다.
+- 기준 보정 결정: 디자인 매니저가 일부 기준 캡처의 전환 중 투명도를 지적해, 총괄이 제품 수정 전에 5장 모두 애니메이션 종료 후 재캡처했다. `before-capture.json`은 동일 1440×1000·opacity 1·실행 중 효과 0을 확인한다. 보정 완료를 매니저에게 직접 통지했다.
+- 통합 산출물 소유: 총괄이 `research/color-motion-20261024/index.html`에 개선 전후와 라이브 덱을 연결한 비교 보드를 준비한다. 디자인팀의 `design/preview.*`와 소유권이 겹치지 않으며 해당 매니저에게 직접 알렸다.
+- 산출물 동기화: 최종 코드 반영 뒤 총괄이 PDF 6개와 미리보기·갤러리 preview hash를 갱신한다. 이 범위를 엔지니어링 매니저에게 직접 통지해 제품·생성 원고 편집과 중복되지 않게 했다.
+- 브라우저 검수 조정: 디자인 매니저는 시안의 상태 예외·390px을 확인했으나 한 호출에서 애니메이션 시간이 멈춘 현상을 보고했다. 여러 탭의 비활성 프레임 영향 가능성이 있어, 최종 재생·종료 확인은 다른 팀 브라우저 작업 종료 뒤 총괄 p1만 전경으로 실행한다. 구현 이상으로 단정하지 않는다.
+- 디자인 최종 완료: [확정 디자인](research/color-motion-20261024/design/synthesis.md)·독립 프리뷰와 매니저 근거를 인수했다. 링크 28개 누락 0, 390px 넘침 0, 모션 끄기·reduce·인쇄 정적 상태 확인. 실제 제품 검증과 구분한다. 두 실무자 편집 종료와 엔지니어링 매니저 직접 인계를 확인했다.
+- 엔지니어링 2차 실행: 동일 매니저와 실무자 두 명을 실제 재개했다. motion_engineer는 `app.js`·`styles.css`, architecture_engineer는 모델·compiler·루트 content·원고·문서·계약 테스트·루트 hash·5예제 재생성·구현 취합을 담당한다. 런타임 편집 종료 후 작성 담당 혼자 생성하며, p3·p4·p5를 재사용한다.
+- 단위 색 결정: 구현팀이 디자인 문서의 단위 표현을 질문해 총괄이 synthesis의 중립 밝기 원칙에 따라 숫자만 의미색, `.metric-unit`은 `--slide-muted`(metric-pair 포함)로 확정했다. 크기·배치·수치는 보존한다. 엔지니어링·디자인 매니저 각각에게 근거와 조치를 직접 통지했다.
+- 제품 인수 완료: 엔지니어링 매니저·동일 두 실무자 편집·브라우저 작업 종료를 확인했다. 총괄도 전체 168/168 통과를 독립 실행했다. 최종 app `ec970a351872`, styles `66752a982bf1`, model `d62fc5037c36`, root content `370215d8ac4a`다. 리서치·디자인 매니저를 실무자 재개 없이 다시 실행해 최종 5장과 원본/사양의 독립 정적 검수를 받았고, 모두 이견 없이 편집 종료했다.
+- 출력 보정: 총괄은 최초 screen 에뮬레이션 상태에서 생성한 1페이지 PDF 초안을 페이지 수 검사로 거절했다. 명시적 print·file:// 원본으로 재생성해 PDF 6개가 20/7/7/7/7/7페이지임을 pdfinfo로 확인했다. 미리보기 8개와 갤러리 hash도 갱신했다. 대표 PDF 6·9장을 Poppler로 렌더해 핵심 문장·차트가 완전히 표시되는지 직접 확인했다.
+- QA 상태 복구: runtime의 실제 루트 테마 검수 뒤 남은 저장 키를 발견했다. 정확한 해당 키의 deck가 현재 원본과 완전히 동일함을 확인하고 `/tmp/stage-qa-root-storage-20261024.json`에 복구본을 남긴 뒤 해당 QA 키만 제거했다. 다른 키·쿠키·프로필은 건드리지 않았다.
+- 로컬 서버: 이미지 요청이 중단되는 현상을 확인해 이번에 시작했던 서버만 종료하고, 출력 로그를 `/tmp/stage-color-motion-server-20261024.log`로 보내는 같은 localhost:4317 서버로 교체했다(실행 세션 81568). 새 브라우저 검사에서 이미지 실패 0을 확인했다. 최초 요청 때 기존 서버는 없었으므로 사용자 서버를 종료하지 않았다.
+- 총괄 최종 검증: 실제 root의 rise/stagger/chart 실행·종료 및 최종값 보존, reduce·편집·전체 보기 정적 상태, 읽기 smooth→instant, 390px 전체 20장·넘침 0, 발표자 양방향 9→10→9장, End→Home 활성 1장, 실제 이미지 23개·실패 0, 비교 슬라이더·iframe 이동과 모바일을 확인했다. [최종 브라우저 JSON](research/color-motion-20261024/evidence/final-browser.json). 자동화 재실행은 새 document로 시작해 이전 읽기·편집 상태를 배제했다.
+- 최종 전달: `http://localhost:4317/research/color-motion-20261024/`에서 전후 5장과 실제 발표를 확인한다. 사용자용 p1만 남기고 이번 팀 생성 탭 p2~p7은 정리했다. 로컬 서버 PID 48523·세션 81568은 유지한다. QA의 동일 원고 저장 키도 다시 복구본을 남긴 뒤 제거해 원본 상태로 돌렸다. 다른 사용자 키는 보존했다. 팀 매니저들에게 검증 결과와 편집 종료 유지를 각각 직접 통지했다.
+- 최종 정적 확인: 로컬 링크 274개 누락 0, JSON 13개 파싱, 6덱 runtime/content query 24개·갤러리 preview query 5개 실제 SHA 일치, `git diff --check` 통과. 통합 검증 문서의 실제 HTTP 200도 확인했다. [정적 근거](research/color-motion-20261024/evidence/static-checks.json). 제품·연구·로그 변경은 로컬 미커밋 상태로 보존한다.
+
+## 완료 기록 — 2026-10-24 로컬 세팅
+
+- 요청: `https://github.com/OU9999/stage-presentation-kit`를 문서 폴더에 세팅한다.
+- 담당자: 현재 세션 Codex `/root`. 이번 작업은 단독으로 진행했다. 아래의 팀·배포 지시는 이전 작업 기록이다.
+- 위치: `/Users/ou9999/Documents/stage-presentation-kit`.
+- 결과: `origin`을 원래 저장소로 설정한 `main` 복제 완료. 기준 커밋은 `1f3531f46fad6cefbb32ed240fcacffbaf4bcd8c`다.
+- 실행 환경: Node.js `v25.6.1` 확인. README에 따라 패키지 설치·빌드 없이 로컬 `index.html`을 직접 연다. Markdown을 바꾼 경우에는 기존 `scripts/markdown-deck.cjs` 또는 `scripts/build-examples.cjs`를 사용한다.
+- 검증: `node --test tests/*.test.cjs` 163개 통과, 실패 0. ego-browser에서 `file:///Users/ou9999/Documents/stage-presentation-kit/index.html`의 표지·발표 조작 버튼·`01 / 20` 표시를 확인했다.
+- 결정: 기존 발표 내용과 생성 결과를 그대로 사용하고 이번 세팅 결과는 이 로그에 기록한다. 미완료 작업 없음.
+
+## 이전 작업 목표와 상태 — 2026-10-23
 
 - 프로젝트: `/Users/ou9999-wdl/Documents/devday-presentation-kit`.
 - 제품 목표: 실제 OpenAI DevDay 세션의 시각 구성을 참고해 Markdown·params로 재사용하는 웹 발표 양식을 제공한다.

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>STAGE — 색과 움직임</title>
+  <link rel="stylesheet" href="preview.css">
+  <script src="preview.js" defer></script>
+</head>
+<body data-motion-enabled="true">
+  <main class="preview-shell">
+    <header class="page-header">
+      <a class="wordmark" href="../../../index.html#6">STAGE <span>발표의 다음 장면</span></a>
+      <span class="edition">COLOR &amp; MOTION / 2026</span>
+    </header>
+    <section class="intro" aria-labelledby="previewTitle">
+      <p class="eyebrow">색은 더 선명하게. 시선은 한 곳에.</p>
+      <h1 id="previewTitle">이야기가 먼저 보이도록.</h1>
+      <p>중요한 대상에 색을 주고, 설명의 순서에 맞춰 짧게 움직입니다.</p>
+    </section>
+    <div class="scene-toolbar">
+      <nav class="scene-nav" aria-label="발표 장면">
+        <button type="button" data-scene-target="statement" aria-pressed="true">한 문장</button>
+        <button type="button" data-scene-target="categories" aria-pressed="false">다섯 역할</button>
+        <button type="button" data-scene-target="speaker" aria-pressed="false">사람 소개</button>
+        <button type="button" data-scene-target="chart" aria-pressed="false">한 가지 근거</button>
+        <button type="button" data-scene-target="steps" aria-pressed="false">다음 행동</button>
+      </nav>
+      <div class="playback-controls">
+        <label class="motion-choice" title="시스템의 움직임 줄이기 설정을 따릅니다."><input type="checkbox" id="motionToggle" checked>움직임</label>
+        <button type="button" id="replayButton">다시 보기 <span aria-hidden="true">↻</span></button>
+      </div>
+    </div>
+    <div class="preview-stage" aria-label="발표 디자인 미리보기">
+      <article class="scene scene-statement is-active" data-scene="statement" data-motion="rise" aria-label="핵심 문장">
+        <h2 class="scene-title">보여주는 방식이,<br><span class="tone-orange">이해를 바꿉니다.</span></h2>
+      </article>
+      <article class="scene scene-categories" data-scene="categories" data-motion="stagger" aria-label="색의 역할">
+        <h2 class="scene-title">색에는, 역할을 맡깁니다.</h2>
+        <div class="category-grid">
+          <div class="category-item tone-blue"><span class="category-symbol"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="17" cy="17" r="9"></circle><path d="m24 24 9 9"></path></svg></span><span>관찰</span></div>
+          <div class="category-item tone-green"><span class="category-symbol"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="m15 13 5-5a8 8 0 0 1 12 12l-5 5M25 27l-5 5A8 8 0 0 1 8 20l5-5M14 26l12-12"></path></svg></span><span>연결</span></div>
+          <div class="category-item tone-white"><span class="category-symbol"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M12 6h17v28H12zM17 14h7M17 20h7M17 26h4"></path></svg></span><span>기록</span></div>
+          <div class="category-item tone-orange"><span class="category-symbol"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="m15 8 17 12-17 12z"></path></svg></span><span>실행</span></div>
+          <div class="category-item tone-purple"><span class="category-symbol"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="10" cy="20" r="4"></circle><circle cx="29" cy="10" r="4"></circle><circle cx="29" cy="30" r="4"></circle><path d="m14 18 11-6M14 22l11 6"></path></svg></span><span>공유</span></div>
+        </div>
+      </article>
+      <article class="scene scene-speaker" data-scene="speaker" data-motion="rise" aria-label="발표자 소개">
+        <p class="scene-kicker">다음 이야기를 이끌 사람</p>
+        <h2 class="scene-title tone-purple">김하늘</h2>
+        <p class="scene-support">프로덕트 디자이너</p>
+      </article>
+      <article class="scene scene-chart" data-scene="chart" data-motion="chart" aria-label="하나의 비교 근거">
+        <div class="chart-copy"><h2 class="scene-title">관찰을,<br>근거로<br>연결합니다.</h2><p class="scene-support">같은 기준으로 비교합니다.</p></div>
+        <div class="chart-visual">
+          <p class="chart-heading">공통 과업 완료 비율</p>
+          <div class="chart-row"><span class="chart-label">기준 A</span><div class="chart-track"><div class="chart-bar" style="width:42%" aria-hidden="true"></div></div><span class="chart-value">42<span>%</span></span></div>
+          <div class="chart-row"><span class="chart-label">기준 B</span><div class="chart-track"><div class="chart-bar" style="width:67%" aria-hidden="true"></div></div><span class="chart-value">67<span>%</span></span></div>
+          <div class="chart-row is-highlighted"><span class="chart-label">개선안</span><div class="chart-track"><div class="chart-bar" style="width:91%" aria-hidden="true"></div></div><span class="chart-value">91<span>%</span></span></div>
+          <p class="chart-source">설명용 가상 데이터 · 동일 과업·조건 가정</p>
+        </div>
+      </article>
+      <article class="scene scene-steps" data-scene="steps" data-motion="stagger" aria-label="세 가지 다음 행동">
+        <h2 class="scene-title">다음 행동은 쉽고 분명하게.</h2>
+        <div class="steps-grid">
+          <div class="step"><span class="step-number">01</span><h3>관찰합니다.</h3><p>실제 장면에서<br>작은 차이를 찾습니다.</p></div>
+          <div class="step"><span class="step-number">02</span><h3>정리합니다.</h3><p>핵심 의미를<br>한 문장으로 묶습니다.</p></div>
+          <div class="step"><span class="step-number">03</span><h3>이어갑니다.</h3><p>다음에 할 일을<br>함께 결정합니다.</p></div>
+        </div>
+      </article>
+    </div>
+    <div class="scene-caption"><div><p id="sceneDescription">큰 문장 한 덩어리에 주황을 집중합니다. 작은 움직임으로 시선을 안내합니다.</p><p class="motion-note">시스템의 움직임 줄이기 설정을 따릅니다.</p></div><span id="sceneStatus" class="sr-only" role="status" aria-live="polite">한 문장</span><span class="aspect-label">16 : 9</span></div>
+    <footer class="page-footer"><span>원본 장면의 색 역할을 참고한 STAGE 디자인입니다.</span><a href="../../../index.html#6">발표 열기 <span aria-hidden="true">↗</span></a></footer>
+  </main>
+</body>
+</html>

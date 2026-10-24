@@ -6,6 +6,7 @@
  * gallery.variant: portraits | strip / items: src, alt, label, caption, fit, focalPoint
  * mosaic: items[].span=1|2; 예제는 합계8. results: items 4개. categories: 항목별 tone.
  * tone: orange | purple | blue | green | yellow. highlight: 강조할 문장/이름 전체.
+ * motion: none | fade | rise | stagger | chart. 생략하면 fade, 읽기·편집·인쇄는 정적.
  * surface: butter 는 선택적 소개 색면입니다. 기본 예제는 검정 무대를 유지합니다.
  * zoom: 1~3(표시 프레임의 디지털 확대). fit/focalPoint/zoom을 함께 확인하세요.
  * quiet:true는 반복 라벨/푸터를 숨깁니다. notes는 발표자 창에서 읽습니다.
@@ -152,6 +153,7 @@ window.PRESENTATION = {
     },
     {
       "id": "color-statement",
+      "motion": "rise",
       "layout": "statement",
       "align": "center",
       "tone": "orange",
@@ -164,6 +166,7 @@ window.PRESENTATION = {
     },
     {
       "id": "color-roles",
+      "motion": "stagger",
       "layout": "categories",
       "quiet": true,
       "title": "색에는, 역할을 맡깁니다.",
@@ -194,6 +197,7 @@ window.PRESENTATION = {
     },
     {
       "id": "new-voice",
+      "motion": "rise",
       "layout": "section",
       "align": "center",
       "quiet": true,
@@ -203,10 +207,12 @@ window.PRESENTATION = {
       ],
       "highlight": "김하늘",
       "subtitle": "작은 관찰에서, 다음 가능성으로.",
-      "notes": "보라색 이름만 크게 놓은 발표자 소개 양식입니다. 이름은 가상의 예시입니다. slide.tone과 highlight에 발표자 이름 전체를 지정합니다. 다음 장은 중립적인 근거 화면입니다."
+      "notes": "보라색 이름만 크게 놓은 발표자 소개 양식입니다. 이름은 가상의 예시입니다. slide.tone과 highlight에 발표자 이름 전체를 지정합니다. 다음 장은 선택 막대 하나에만 파랑을 쓰는 근거 화면입니다."
     },
     {
       "id": "one-proof",
+      "motion": "chart",
+      "tone": "blue",
       "layout": "chart",
       "quiet": true,
       "title": [
@@ -320,6 +326,7 @@ window.PRESENTATION = {
     },
     {
       "id": "warm-introduction",
+      "motion": "rise",
       "layout": "section",
       "align": "center",
       "quiet": true,
@@ -418,6 +425,7 @@ window.PRESENTATION = {
     },
     {
       "id": "next-steps",
+      "motion": "stagger",
       "layout": "steps",
       "eyebrow": "07 / A SIMPLE WAY FORWARD",
       "title": [

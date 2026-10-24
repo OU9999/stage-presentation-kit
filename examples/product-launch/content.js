@@ -21,6 +21,7 @@ window.PRESENTATION = {
       "layout": "statement",
       "align": "center",
       "tone": "orange",
+      "motion": "rise",
       "highlight": "다음 행동으로.",
       "notes": "제품의 기능 목록보다 사용자가 얻을 한 가지 변화를 먼저 말합니다. 이 문장은 가상 제품의 제안입니다.",
       "title": [
@@ -41,6 +42,7 @@ window.PRESENTATION = {
     {
       "layout": "results",
       "quiet": true,
+      "motion": "stagger",
       "notes": "제품의 결과를 가상 문서와 이미지로 보여주는 장입니다. 실제 제품 화면이나 실제 성과 자료가 아닙니다.",
       "items": [
         {
@@ -72,6 +74,7 @@ window.PRESENTATION = {
     },
     {
       "layout": "demo",
+      "motion": "none",
       "notes": "정적 화면으로 데모의 순서를 설명하는 예시입니다. 실제로 동작하는 제품 시연이 아닙니다.",
       "steps": [
         "작업을 하나 고릅니다.",

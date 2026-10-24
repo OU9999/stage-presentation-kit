@@ -8,7 +8,7 @@ const { fileURLToPath } = require("node:url");
 const model = require("../deck-model.js");
 
 const FRONT_KEYS = new Set(["id", "title", "theme", "speaker", "date", "footer"]);
-const COMMON = ["id", "layout", "eyebrow", "notes", "theme", "tone", "surface", "align", "quiet", "highlight"];
+const COMMON = ["id", "layout", "eyebrow", "notes", "theme", "tone", "surface", "align", "quiet", "highlight", "motion"];
 const MEDIA = ["src", "video", "poster", "alt", "fit", "focalPoint", "zoom", "caption"];
 const FIELDS = {
   cover: ["title", "subtitle"], statement: ["title", "subtitle", "support"],

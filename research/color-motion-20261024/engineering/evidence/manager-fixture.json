@@ -1,0 +1,9 @@
+{
+  "directory": "/var/folders/_8/7g708b8d7mg66fk0n9d7gndh0000gn/T/stage-manager-color-motion-TX5KoJ",
+  "url": "file:///var/folders/_8/7g708b8d7mg66fk0n9d7gndh0000gn/T/stage-manager-color-motion-TX5KoJ/index.html",
+  "hashes": {
+    "app.js": "ec970a351872fe3bc57df3b8484e76bd741ac0fa8dafdbe68453e3ea4cc580b4",
+    "styles.css": "66752a982bf1a73ce19c7938c99f38a450d313f4c5d67b83c9dcf50e94478207",
+    "deck-model.js": "d62fc5037c36519b6ad7cc73dd322325c024ee6a9fe997d48e49d1fea1ed9956"
+  }
+}

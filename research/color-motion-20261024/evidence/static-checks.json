@@ -1,0 +1,156 @@
+{
+  "localLinks": 274,
+  "missing": [],
+  "jsonFilesParsed": 13,
+  "contentRuntimeQueries": 24,
+  "queries": [
+    {
+      "file": "index.html",
+      "resource": "styles.css",
+      "match": true
+    },
+    {
+      "file": "index.html",
+      "resource": "content.js",
+      "match": true
+    },
+    {
+      "file": "index.html",
+      "resource": "deck-model.js",
+      "match": true
+    },
+    {
+      "file": "index.html",
+      "resource": "app.js",
+      "match": true
+    },
+    {
+      "file": "examples/workshop/index.html",
+      "resource": "../../styles.css",
+      "match": true
+    },
+    {
+      "file": "examples/workshop/index.html",
+      "resource": "content.js",
+      "match": true
+    },
+    {
+      "file": "examples/workshop/index.html",
+      "resource": "../../deck-model.js",
+      "match": true
+    },
+    {
+      "file": "examples/workshop/index.html",
+      "resource": "../../app.js",
+      "match": true
+    },
+    {
+      "file": "examples/engineering-review/index.html",
+      "resource": "../../styles.css",
+      "match": true
+    },
+    {
+      "file": "examples/engineering-review/index.html",
+      "resource": "content.js",
+      "match": true
+    },
+    {
+      "file": "examples/engineering-review/index.html",
+      "resource": "../../deck-model.js",
+      "match": true
+    },
+    {
+      "file": "examples/engineering-review/index.html",
+      "resource": "../../app.js",
+      "match": true
+    },
+    {
+      "file": "examples/photo-story/index.html",
+      "resource": "../../styles.css",
+      "match": true
+    },
+    {
+      "file": "examples/photo-story/index.html",
+      "resource": "content.js",
+      "match": true
+    },
+    {
+      "file": "examples/photo-story/index.html",
+      "resource": "../../deck-model.js",
+      "match": true
+    },
+    {
+      "file": "examples/photo-story/index.html",
+      "resource": "../../app.js",
+      "match": true
+    },
+    {
+      "file": "examples/devday-compositions/index.html",
+      "resource": "../../styles.css",
+      "match": true
+    },
+    {
+      "file": "examples/devday-compositions/index.html",
+      "resource": "content.js",
+      "match": true
+    },
+    {
+      "file": "examples/devday-compositions/index.html",
+      "resource": "../../deck-model.js",
+      "match": true
+    },
+    {
+      "file": "examples/devday-compositions/index.html",
+      "resource": "../../app.js",
+      "match": true
+    },
+    {
+      "file": "examples/product-launch/index.html",
+      "resource": "../../styles.css",
+      "match": true
+    },
+    {
+      "file": "examples/product-launch/index.html",
+      "resource": "content.js",
+      "match": true
+    },
+    {
+      "file": "examples/product-launch/index.html",
+      "resource": "../../deck-model.js",
+      "match": true
+    },
+    {
+      "file": "examples/product-launch/index.html",
+      "resource": "../../app.js",
+      "match": true
+    }
+  ],
+  "galleryQueries": [
+    {
+      "name": "devday-compositions.png",
+      "hash": "6146e529adee"
+    },
+    {
+      "name": "product-launch.png",
+      "hash": "1acffbfc0eda"
+    },
+    {
+      "name": "engineering-review.png",
+      "hash": "970a241f9722"
+    },
+    {
+      "name": "photo-story.png",
+      "hash": "d44f624af795"
+    },
+    {
+      "name": "workshop.png",
+      "hash": "1dff012bfcd5"
+    }
+  ],
+  "productHashes": {
+    "app.js": "ec970a351872",
+    "styles.css": "66752a982bf1",
+    "deck-model.js": "d62fc5037c36",
+    "content.js": "370215d8ac4a"
+  }
+}

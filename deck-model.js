@@ -171,6 +171,7 @@
       ["quiet"].forEach(function (key) { if (slide[key] !== undefined && typeof slide[key] !== "boolean") issue("error", path + "." + key, "true 또는 false를 입력하세요.", slideIndex); });
       choice(slide, "theme", ["stage", "paper", "midnight"], path, slideIndex);
       choice(slide, "tone", ["orange", "purple", "blue", "green", "yellow"], path, slideIndex);
+      if (slide.motion !== undefined && ["none", "fade", "rise", "stagger", "chart"].indexOf(slide.motion) < 0) issue("error", path + ".motion", "none / fade / rise / stagger / chart 중 하나를 입력하거나 motion을 생략하세요.", slideIndex);
       choice(slide, "surface", ["butter"], path, slideIndex);
       choice(slide, "align", ["center"], path, slideIndex);
       if (slide.number !== undefined && typeof slide.number !== "string" && !Number.isFinite(slide.number)) issue("error", path + ".number", "섹션 번호는 문자열 또는 유한한 숫자여야 합니다.", slideIndex);

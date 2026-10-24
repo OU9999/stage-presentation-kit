@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "app.js",
+      "bytes": 64897,
+      "sha256": "ec970a351872fe3bc57df3b8484e76bd741ac0fa8dafdbe68453e3ea4cc580b4"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 89602,
+      "sha256": "66752a982bf1a73ce19c7938c99f38a450d313f4c5d67b83c9dcf50e94478207"
+    },
+    {
+      "path": "research/color-motion-20261024/evidence/before-statement.png",
+      "bytes": 39095,
+      "sha256": "3faef52fa8fe205b3d4fd09a1b6643283448b79c30994146469b14c08be387c7"
+    },
+    {
+      "path": "research/color-motion-20261024/evidence/before-categories.png",
+      "bytes": 44512,
+      "sha256": "4378737a3f210a1d118581b5b827d28e585d902e9044792fb42224745d9bd479"
+    },
+    {
+      "path": "research/color-motion-20261024/evidence/before-speaker.png",
+      "bytes": 31180,
+      "sha256": "80406381460b5f876dd685f6afeb579b7c8c5e95f17d3a6ad6eaed110ac13c1f"
+    },
+    {
+      "path": "research/color-motion-20261024/evidence/before-chart.png",
+      "bytes": 55199,
+      "sha256": "a1657cf333f57242b41dc742e2d6dd6f2ae4d1a47f6b11a11cda344148a8fc6f"
+    },
+    {
+      "path": "research/color-motion-20261024/evidence/before-metric.png",
+      "bytes": 51266,
+      "sha256": "1d3ece60f179cbfc2191eafd426ecf239be41f0eaa7558356d02482f67ff16aa"
+    },
+    {
+      "path": "research/color-motion-20261024/evidence/after-statement.png",
+      "bytes": 39350,
+      "sha256": "6b4b4ec9139004117e42dae3dc677d949851fe6e4a8da1a5062879d09c8f8a6b"
+    },
+    {
+      "path": "research/color-motion-20261024/evidence/after-categories.png",
+      "bytes": 44718,
+      "sha256": "e766d6f0edfca3ec9aac9ada9995d1f2a9499baed784b6d3b564cb754818b039"
+    },
+    {
+      "path": "research/color-motion-20261024/evidence/after-speaker.png",
+      "bytes": 31488,
+      "sha256": "d655891d50f891000a3fa555db7c3cd12f5afe6a70e05566077aa63646cd2a74"
+    },
+    {
+      "path": "research/color-motion-20261024/evidence/after-chart.png",
+      "bytes": 55562,
+      "sha256": "9cf5651a58f813930031231bc3372783d5757d88f66c8d73a2997e532a2648ad"
+    },
+    {
+      "path": "research/color-motion-20261024/evidence/after-metric.png",
+      "bytes": 51562,
+      "sha256": "58b75239597519b188aa2ed7a056574910d879dc46c5ab477ce7817d38444473"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "checkedAt": "2026-10-24T11:43:47.528Z",
+  "results": [
+    {
+      "scene": "statement",
+      "animations": [
+        {
+          "name": "scene-rise",
+          "state": "running",
+          "time": 0,
+          "duration": 280,
+          "delay": 0
+        }
+      ],
+      "selected": "statement",
+      "text": "보여주는 방식이, 이해를 바꿉니다.",
+      "wide": false
+    },
+    {
+      "scene": "categories",
+      "animations": [
+        {
+          "name": "item-arrive",
+          "state": "running",
+          "time": 0,
+          "duration": 300,
+          "delay": 0
+        },
+        {
+          "name": "item-arrive",
+          "state": "running",
+          "time": 0,
+          "duration": 300,
+          "delay": 60
+        },
+        {
+          "name": "item-arrive",
+          "state": "running",
+          "time": 0,
+          "duration": 300,
+          "delay": 120
+        },
+        {
+          "name": "item-arrive",
+          "state": "running",
+          "time": 0,
+          "duration": 300,
+          "delay": 180
+        },
+        {
+          "name": "item-arrive",
+          "state": "running",
+          "time": 0,
+          "duration": 300,
+          "delay": 240
+        }
+      ],
+      "selected": "categories",
+      "text": "색에는, 역할을 맡깁니다. 관찰 연결 기록 실행 공유",
+      "wide": false
+    },
+    {
+      "scene": "speaker",
+      "animations": [
+        {
+          "name": "scene-rise",
+          "state": "running",
+          "time": 0,
+          "duration": 280,
+          "delay": 0
+        },
+        {
+          "name": "scene-rise",
+          "state": "running",
+          "time": 0,
+          "duration": 280,
+          "delay": 60
+        }
+      ],
+      "selected": "speaker",
+      "text": "다음 이야기를 이끌 사람 김하늘 프로덕트 디자이너",
+      "wide": false
+    },
+    {
+      "scene": "chart",
+      "animations": [
+        {
+          "name": "bar-arrive",
+          "state": "running",
+          "time": 0,
+          "duration": 440,
+          "delay": 0
+        },
+        {
+          "name": "bar-arrive",
+          "state": "running",
+          "time": 0,
+          "duration": 440,
+          "delay": 40
+        },
+        {
+          "name": "bar-arrive",
+          "state": "running",
+          "time": 0,
+          "duration": 440,
+          "delay": 80
+        }
+      ],
+      "selected": "chart",
+      "text": "관찰을, 근거로 연결합니다. 같은 기준으로 비교합니다. 공통 과업 완료 비율 기준 A 42% 기준 B 67% 개선안 91% 설명용 가상 데이터 · 동일 과업·조건 가정",
+      "wide": false
+    },
+    {
+      "scene": "steps",
+      "animations": [
+        {
+          "name": "item-arrive",
+          "state": "running",
+          "time": 0,
+          "duration": 300,
+          "delay": 0
+        },
+        {
+          "name": "item-arrive",
+          "state": "running",
+          "time": 0,
+          "duration": 300,
+          "delay": 60
+        },
+        {
+          "name": "item-arrive",
+          "state": "running",
+          "time": 0,
+          "duration": 300,
+          "delay": 120
+        }
+      ],
+      "selected": "steps",
+      "text": "다음 행동은 쉽고 분명하게. 01 관찰합니다. 실제 장면에서 작은 차이를 찾습니다. 02 정리합니다. 핵심 의미를 한 문장으로 묶습니다. 03 이어갑니다. 다음에 할 일을 함께 결정합니다.",
+      "wide": false
+    },
+    {
+      "animations": [
+        {
+          "name": "bar-arrive",
+          "time": 0,
+          "state": "running"
+        },
+        {
+          "name": "bar-arrive",
+          "time": 0,
+          "state": "running"
+        },
+        {
+          "name": "bar-arrive",
+          "time": 0,
+          "state": "running"
+        }
+      ],
+      "colors": [
+        "rgb(101, 101, 99)",
+        "rgb(101, 101, 99)",
+        "rgb(36, 168, 255)"
+      ],
+      "values": [
+        "42%",
+        "67%",
+        "91%"
+      ],
+      "chartAfter700ms": "chart"
+    },
+    {
+      "toggleOff": "false",
+      "animations": 0
+    },
+    {
+      "reduced": true,
+      "enabled": "true",
+      "animations": 0
+    },
+    {
+      "mobileWidth": 390,
+      "scrollWidth": 390,
+      "navCount": 5,
+      "active": "categories",
+      "categoryCount": 5,
+      "animations": 0
+    },
+    {
+      "printScenes": [
+        {
+          "scene": "statement",
+          "display": "flex",
+          "opacity": "1",
+          "animations": 0
+        },
+        {
+          "scene": "categories",
+          "display": "flex",
+          "opacity": "1",
+          "animations": 0
+        },
+        {
+          "scene": "speaker",
+          "display": "flex",
+          "opacity": "1",
+          "animations": 0
+        },
+        {
+          "scene": "chart",
+          "display": "flex",
+          "opacity": "1",
+          "animations": 0
+        },
+        {
+          "scene": "steps",
+          "display": "flex",
+          "opacity": "1",
+          "animations": 0
+        }
+      ]
+    }
+  ],
+  "separateRoundAfterReplay": {
+    "scene": "chart",
+    "animations": [],
+    "bars": [
+      {
+        "width": "140.141px",
+        "transform": "none"
+      },
+      {
+        "width": "223.562px",
+        "transform": "none"
+      },
+      {
+        "width": "303.648px",
+        "transform": "none"
+      }
+    ],
+    "reduced": false,
+    "enabled": "true"
+  }
+}

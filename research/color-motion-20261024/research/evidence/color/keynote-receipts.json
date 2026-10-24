@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-24T11:28:23.184Z",
+  "receipts": [
+    {
+      "url": "https://www.youtube.com/watch?v=Fls_onRviPM&t=1380s",
+      "title": "OpenAI DevDay 2026 Keynote (FULL)",
+      "author": "OpenAI",
+      "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "currentTime": 1380.537307,
+      "paused": true,
+      "readyState": 4,
+      "clip": {
+        "x": 16,
+        "y": 68,
+        "width": 700,
+        "height": 394
+      },
+      "requestedTime": 1380,
+      "file": "keynote-23m00.png"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Fls_onRviPM&t=1380s",
+      "title": "OpenAI DevDay 2026 Keynote (FULL)",
+      "author": "OpenAI",
+      "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "currentTime": 1470.540504,
+      "paused": true,
+      "readyState": 4,
+      "clip": {
+        "x": 16,
+        "y": 68,
+        "width": 700,
+        "height": 394
+      },
+      "requestedTime": 1470,
+      "file": "keynote-24m30.png"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Fls_onRviPM&t=1380s",
+      "title": "OpenAI DevDay 2026 Keynote (FULL)",
+      "author": "OpenAI",
+      "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "currentTime": 1550.536397,
+      "paused": true,
+      "readyState": 4,
+      "clip": {
+        "x": 16,
+        "y": 68,
+        "width": 700,
+        "height": 394
+      },
+      "requestedTime": 1550,
+      "file": "keynote-25m50.png"
+    }
+  ]
+}

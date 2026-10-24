@@ -1,0 +1,20 @@
+{
+  "checkedOn": "2026-10-24",
+  "method": "web tool search and direct page opens; local source inspection",
+  "sources": [
+    {"url":"https://www.w3.org/WAI/WCAG22/Techniques/css/C39","result":"opened full body; reduced-motion CSS technique and test procedure"},
+    {"url":"https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions","result":"official search body; AAA criterion and disable interaction animation principle"},
+    {"url":"https://developer.mozilla.org/en-US/docs/Web/API/Element/animate","result":"opened body; DOM animation and returned Animation object"},
+    {"url":"https://developer.mozilla.org/en-US/docs/Web/API/Animation/cancel","result":"opened body; cancel behavior and finished promise rejection"},
+    {"url":"https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/CSS","result":"opened and located Choosing properties to animate; opacity/transform and layout costs"},
+    {"url":"https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia","result":"opened body; matches and change event"},
+    {"url":"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView","result":"opened body; explicit smooth vs instant/auto"},
+    {"url":"https://developer.apple.com/design/human-interface-guidelines/motion","result":"official search text visible; direct page returned JavaScript shell and linked Markdown request failed; supplementary principle only"}
+  ],
+  "localEvidence":[
+    {"file":"styles.css","observed":"active slide 240ms opacity fade; read/overview/print/reduced-motion exceptions"},
+    {"file":"app.js","observed":"updateActive calls explicit smooth scroll in read mode; renderPresenter marks preview slides active; chart keeps final value text separate from aria-hidden decorative bars"},
+    {"file":"deck-model.js","observed":"motion configuration not present in current enumerated slide fields"}
+  ],
+  "notVerified":["DevDay original duration or easing","runtime prototype","browser animation cancellation","performance profile","full accessibility conformance"]
+}

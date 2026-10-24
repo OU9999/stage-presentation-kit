@@ -1,0 +1,92 @@
+{
+  "fixture": "file:///var/folders/_8/7g708b8d7mg66fk0n9d7gndh0000gn/T/stage-manager-color-motion-TX5KoJ/index.html",
+  "hashes": {
+    "app.js": "ec970a351872fe3bc57df3b8484e76bd741ac0fa8dafdbe68453e3ea4cc580b4",
+    "styles.css": "66752a982bf1a73ce19c7938c99f38a450d313f4c5d67b83c9dcf50e94478207",
+    "deck-model.js": "d62fc5037c36519b6ad7cc73dd322325c024ee6a9fe997d48e49d1fea1ed9956"
+  },
+  "themes": [
+    {
+      "theme": "stage",
+      "statement": "rgb(255, 122, 61)",
+      "name": "rgb(160, 128, 255)",
+      "chart": [
+        "rgb(164, 164, 161)",
+        "rgb(164, 164, 161)",
+        "rgb(36, 168, 255)"
+      ],
+      "chartValues": [
+        "32점",
+        "56점",
+        "84점"
+      ],
+      "metric": "rgb(105, 207, 130)",
+      "unit": "rgb(164, 164, 161)",
+      "eyebrow": "rgb(164, 164, 161)",
+      "pairUnits": [
+        "rgb(164, 164, 161)",
+        "rgb(164, 164, 161)"
+      ],
+      "running": 0
+    },
+    {
+      "theme": "paper",
+      "statement": "rgb(165, 74, 39)",
+      "name": "rgb(115, 81, 158)",
+      "chart": [
+        "rgb(102, 102, 96)",
+        "rgb(102, 102, 96)",
+        "rgb(39, 95, 137)"
+      ],
+      "chartValues": [
+        "32점",
+        "56점",
+        "84점"
+      ],
+      "metric": "rgb(45, 106, 67)",
+      "unit": "rgb(102, 102, 96)",
+      "eyebrow": "rgb(102, 102, 96)",
+      "pairUnits": [
+        "rgb(102, 102, 96)",
+        "rgb(102, 102, 96)"
+      ],
+      "running": 0
+    },
+    {
+      "theme": "midnight",
+      "statement": "rgb(255, 122, 61)",
+      "name": "rgb(160, 128, 255)",
+      "chart": [
+        "rgb(168, 173, 180)",
+        "rgb(168, 173, 180)",
+        "rgb(36, 168, 255)"
+      ],
+      "chartValues": [
+        "32점",
+        "56점",
+        "84점"
+      ],
+      "metric": "rgb(105, 207, 130)",
+      "unit": "rgb(168, 173, 180)",
+      "eyebrow": "rgb(168, 173, 180)",
+      "pairUnits": [
+        "rgb(168, 173, 180)",
+        "rgb(168, 173, 180)"
+      ],
+      "running": 0
+    }
+  ],
+  "reload": {
+    "title": "검증한 문장입니다.",
+    "motion": "rise",
+    "status": "저장한 편집 내용"
+  },
+  "mobileRead": {
+    "mode": "read",
+    "width": 390,
+    "scrollWidth": 390,
+    "visible": 7,
+    "running": 0,
+    "zeroOpacity": 0
+  }
+}

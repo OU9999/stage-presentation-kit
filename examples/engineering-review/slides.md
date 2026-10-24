@@ -46,6 +46,8 @@ notes: 같은 작업을 처리하는 두 가상 설계를 비교합니다. 실�
 <!-- stage
 layout: chart
 quiet: true
+tone: blue
+motion: chart
 notes: 수치와 조건은 모두 가상입니다. 실제 발표에서는 부하 조건, 표본, 측정 방식과 원본 기록을 함께 제시하세요.
 -->
 # 같은 부하에서,

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "output/pdf/devday-compositions.pdf",
+    "pages": 7
+  },
+  {
+    "file": "output/pdf/engineering-review.pdf",
+    "pages": 7
+  },
+  {
+    "file": "output/pdf/photo-story.pdf",
+    "pages": 7
+  },
+  {
+    "file": "output/pdf/product-launch.pdf",
+    "pages": 7
+  },
+  {
+    "file": "output/pdf/stage-sample.pdf",
+    "pages": 20
+  },
+  {
+    "file": "output/pdf/workshop.pdf",
+    "pages": 7
+  }
+]

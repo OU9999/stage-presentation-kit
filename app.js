@@ -18,6 +18,8 @@
   var names = { cover: "표지", statement: "큰 문장", section: "섹션", compare: "비교", metric: "숫자", image: "이미지", demo: "데모", quote: "인용", steps: "단계", closing: "마무리", chart: "메시지와 차트", media: "전체 화면 시연", gallery: "이미지 갤러리", mosaic: "이미지 모자이크", results: "메시지와 결과", categories: "분류와 역할", bento: "혼합 결과 타일", "icon-wall": "아이콘월", "metric-pair": "두 수치 비교" };
   var tones = ["orange", "purple", "blue", "green", "yellow"];
   var itemTones = tones.concat("white");
+  var motions = ["none", "fade", "rise", "stagger", "chart"];
+  var motionPreference = typeof window !== "undefined" && typeof window.matchMedia === "function" ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
   // Original geometric drawings, with one viewBox and stroke weight; no font glyphs or brand logos.
   var iconPaths = {
     brain: "M9 5a3 3 0 0 0-5 2 3.5 3.5 0 0 0-1 6 3.5 3.5 0 0 0 4 5 3 3 0 0 0 5 2V5a3 3 0 0 0-3 0ZM15 5a3 3 0 0 1 5 2 3.5 3.5 0 0 1 1 6 3.5 3.5 0 0 1-4 5 3 3 0 0 1-5 2M7 8c3 0 3 4 1 5M5 14c2-1 4 0 4 2M17 8c-3 0-3 4-1 5M19 14c-2-1-4 0-4 2",
@@ -400,6 +402,7 @@
     article.dataset.hasTitle = slide.title ? "true" : "false";
     article.dataset.index = String(index);
     article.dataset.theme = slide.theme || state.theme;
+    article.dataset.motion = motions.indexOf(slide.motion) >= 0 ? slide.motion : "fade";
     if (tones.indexOf(slide.tone) >= 0) article.dataset.tone = slide.tone;
     if (slide.surface === "butter") article.dataset.surface = "butter";
     if (slide.align === "center") {
@@ -742,7 +745,7 @@
     document.getElementById("modeButton").textContent = state.mode === "read" ? "발표 모드" : "읽기 모드";
     document.getElementById("announcer").textContent = (state.index + 1) + " / " + deck.slides.length + ", " + slideName(state.index);
     if (isPresenter) renderPresenter();
-    if (scroll && state.mode === "read") stage.children[state.index].scrollIntoView({ behavior: "smooth", block: "start" });
+    if (scroll && state.mode === "read") stage.children[state.index].scrollIntoView({ behavior: motionPreference && motionPreference.matches ? "instant" : "smooth", block: "start" });
     scheduleDiagnostics();
   }
 
@@ -1163,6 +1166,16 @@
     if (!isPresenter) goTo((parseInt(location.hash.slice(1), 10) || 1) - 1);
   });
   window.addEventListener("resize", scaleStages);
+  function onMotionPreferenceChange(event) {
+    if (event.matches && state.mode === "read") {
+      // Complete a pending smooth navigation immediately when the preference changes.
+      stage.children[state.index].scrollIntoView({ behavior: "instant", block: "start" });
+    }
+  }
+  if (motionPreference) {
+    if (typeof motionPreference.addEventListener === "function") motionPreference.addEventListener("change", onMotionPreferenceChange);
+    else if (typeof motionPreference.addListener === "function") motionPreference.addListener(onMotionPreferenceChange);
+  }
   window.addEventListener("beforeunload", function () { if (saveTimer) persist(); });
   document.addEventListener("fullscreenchange", scaleStages);
   if (window.ResizeObserver) {

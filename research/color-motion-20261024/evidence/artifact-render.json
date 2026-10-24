@@ -1,0 +1,144 @@
+{
+  "captures": [
+    {
+      "hash": 6,
+      "name": "statement",
+      "width": 1440,
+      "height": 1000,
+      "active": "5",
+      "opacity": "1",
+      "running": 0
+    },
+    {
+      "hash": 7,
+      "name": "categories",
+      "width": 1440,
+      "height": 1000,
+      "active": "6",
+      "opacity": "1",
+      "running": 0
+    },
+    {
+      "hash": 8,
+      "name": "speaker",
+      "width": 1440,
+      "height": 1000,
+      "active": "7",
+      "opacity": "1",
+      "running": 0
+    },
+    {
+      "hash": 9,
+      "name": "chart",
+      "width": 1440,
+      "height": 1000,
+      "active": "8",
+      "opacity": "1",
+      "running": 0
+    },
+    {
+      "hash": 15,
+      "name": "metric",
+      "width": 1440,
+      "height": 1000,
+      "active": "14",
+      "opacity": "1",
+      "running": 0
+    }
+  ],
+  "pdfs": [
+    {
+      "slug": "stage-sample",
+      "print": true,
+      "visible": 20,
+      "running": 0,
+      "bytes": 3569297
+    },
+    {
+      "slug": "devday-compositions",
+      "print": true,
+      "visible": 7,
+      "running": 0,
+      "bytes": 2572775
+    },
+    {
+      "slug": "product-launch",
+      "print": true,
+      "visible": 7,
+      "running": 0,
+      "bytes": 753379
+    },
+    {
+      "slug": "engineering-review",
+      "print": true,
+      "visible": 7,
+      "running": 0,
+      "bytes": 842199
+    },
+    {
+      "slug": "photo-story",
+      "print": true,
+      "visible": 7,
+      "running": 0,
+      "bytes": 2592325
+    },
+    {
+      "slug": "workshop",
+      "print": true,
+      "visible": 7,
+      "running": 0,
+      "bytes": 539093
+    }
+  ],
+  "previews": [
+    {
+      "slug": "stage-sample",
+      "x": 100,
+      "y": 158,
+      "width": 1600,
+      "height": 900,
+      "bytes": 34862
+    },
+    {
+      "slug": "devday-compositions",
+      "x": 100,
+      "y": 158,
+      "width": 1600,
+      "height": 900,
+      "bytes": 266735
+    },
+    {
+      "slug": "product-launch",
+      "x": 100,
+      "y": 158,
+      "width": 1600,
+      "height": 900,
+      "bytes": 27088
+    },
+    {
+      "slug": "engineering-review",
+      "x": 100,
+      "y": 158,
+      "width": 1600,
+      "height": 900,
+      "bytes": 47151
+    },
+    {
+      "slug": "photo-story",
+      "x": 100,
+      "y": 158,
+      "width": 1600,
+      "height": 900,
+      "bytes": 1277708
+    },
+    {
+      "slug": "workshop",
+      "x": 100,
+      "y": 158,
+      "width": 1600,
+      "height": 900,
+      "bytes": 31149
+    }
+  ],
+  "pdfCaptureNote": "Final PDFs generated from file:// with explicit print media; screen-emulated single-page drafts were rejected."
+}

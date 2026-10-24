@@ -32,11 +32,30 @@ window.PRESENTATION = {
 | `subtitle`, `source`, `notes` | 문자열. 출처와 발표자 노트는 따로 관리 |
 | `align` | `center` 또는 생략. 기본 왼쪽 정렬, 중앙 메시지 변형은 cover/statement/section/closing 지원. categories의 제목도 중앙 정렬 가능 |
 | `quiet` | `true` / `false`. 반복 라벨·하단 정보 숨김 |
-| `tone` | `orange` / `purple` / `blue` / `green` / `yellow`. 의미 있는 색 강조용 |
+| `tone` | `orange` / `purple` / `blue` / `green` / `yellow`. 핵심 문장·수치·선택 막대의 의미색. 수치의 단위와 보조 메타는 중립 |
+| `motion` | `none` / `fade` / `rise` / `stagger` / `chart`. 생략하면 `fade`. 잘못된 값은 해당 장의 오류로 안내 |
 | `highlight` | 제목 안에서 강조할 문자열. 한 줄 전체를 강조하면 화면에서 그 줄을 수정할 때도 색이 따라감 |
 | `surface` | `butter` 또는 생략. 소개 화면 한 장의 담황색 표면 |
 
 현재 입력 계약은 JSON으로 보관 가능한 값입니다. 함수·순환 참조를 넣지 않습니다. 임의의 브랜드 HEX·글꼴·새 표면을 추가하려면 공통 `styles.css`를 수정합니다.
+
+## 모션 선택
+
+```js
+{ layout: "statement", align: "center", title: "기억할 한 문장.", motion: "rise" }
+```
+
+| `motion` | 관객 발표 화면의 동작 |
+| --- | --- |
+| `none` | 즉시 표시 |
+| `fade` 또는 생략 | 200ms의 짧은 투명도 전환 |
+| `rise` | 제목 280ms·16px 상승, 짧은 보조 문구는 60ms 뒤 등장 |
+| `stagger` | `steps`, `categories`, `results`의 항목을 300ms·60ms 간격으로 등장. 최대 지연 240ms |
+| `chart` | `chart`의 장식 막대만 440ms로 표시. 행 간 지연 40ms·최대 80ms, 수치와 라벨은 처음부터 최종값 |
+
+같은 `motion`을 다른 주제에 복사해도 동작하며 특정 ID나 문장을 요구하지 않습니다. `stagger`·`chart`에 맞는 대상이 없는 양식은 정적으로 표시합니다. `motion`은 장별 필드이며 발표 정보의 기본값 필드는 추가하지 않습니다.
+
+읽기·편집·전체 보기·발표자 미리보기·인쇄/PDF에서는 모든 내용이 즉시 표시됩니다. 시스템의 모션 줄이기 설정은 효과와 읽기 모드의 부드러운 이동에도 반영합니다. 장 이동은 모션 완료를 기다리지 않습니다. 이 값은 [STAGE의 디자인 사양](research/color-motion-20261024/design/motion-spec.md)이며 DevDay 원본의 타이밍 측정값이 아닙니다.
 
 ## 양식과 수량
 
