@@ -1,0 +1,67 @@
+{
+  "source": "examples/visual-story/data.json",
+  "canonicalLines": 350,
+  "cases": [
+    {
+      "name": "다른 서비스의 7개 시점",
+      "issues": [
+        {
+          "path": "weeklyCohorts",
+          "message": "현재 SVG 양식은 12개 항목을 지원합니다. 개수를 바꾸려면 생성 양식도 수정하세요."
+        }
+      ]
+    },
+    {
+      "name": "5개 지원문의 범주",
+      "issues": [
+        {
+          "path": "interviews.categories",
+          "message": "현재 SVG 양식은 4개 항목을 지원합니다. 개수를 바꾸려면 생성 양식도 수정하세요."
+        }
+      ]
+    },
+    {
+      "name": "2단계 승인 흐름",
+      "issues": [
+        {
+          "path": "journeyMap.nodes",
+          "message": "현재 SVG 양식은 4개 항목을 지원합니다. 개수를 바꾸려면 생성 양식도 수정하세요."
+        },
+        {
+          "path": "journeyMap.path",
+          "message": "현재 SVG 양식은 4개 항목을 지원합니다. 개수를 바꾸려면 생성 양식도 수정하세요."
+        }
+      ]
+    },
+    {
+      "name": "5단계 제작 흐름",
+      "issues": [
+        {
+          "path": "journeyMap.nodes",
+          "message": "현재 SVG 양식은 4개 항목을 지원합니다. 개수를 바꾸려면 생성 양식도 수정하세요."
+        },
+        {
+          "path": "journeyMap.nodes.4.id",
+          "message": "현재 데이터 계약은 undefined 값을 사용합니다."
+        },
+        {
+          "path": "journeyMap.path",
+          "message": "현재 SVG 양식은 4개 항목을 지원합니다. 개수를 바꾸려면 생성 양식도 수정하세요."
+        },
+        {
+          "path": "journeyMap.path.4",
+          "message": "현재 데이터 계약은 undefined 값을 사용합니다."
+        }
+      ]
+    },
+    {
+      "name": "실제 업무 자료의 허구 표시 해제",
+      "issues": [
+        {
+          "path": "meta.fictional",
+          "message": "현재 데이터 계약은 true 값을 사용합니다."
+        }
+      ]
+    }
+  ]
+}

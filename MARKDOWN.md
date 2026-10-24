@@ -1,11 +1,11 @@
 # Markdown으로 발표 만들기
 
-Markdown은 원고이고, `content.js`는 브라우저가 읽는 변환 결과입니다. 문장·사진·설정을 원고에 적고 빌드하면 지금의 19개 슬라이드 양식으로 표시됩니다. AI 연결 없이 실행되며, AI에게 원고 초안을 부탁한 뒤 같은 문법으로 검토하고 빌드해도 됩니다.
+Markdown은 원고이고, `content.js`는 브라우저가 읽는 변환 결과입니다. 문장·사진·설정을 원고에 적고 빌드하면 지금의 20개 슬라이드 양식으로 표시됩니다. AI 연결 없이 실행되며, AI에게 원고 초안을 부탁한 뒤 같은 문법으로 검토하고 빌드해도 됩니다.
 
 **Node.js 18 이상**이 필요합니다. npm 설치나 추가 의존성은 없습니다. 생성한 발표를 보는 데에는 Node.js가 필요하지 않습니다.
 
 ```sh
-# 준비된 예제 여섯 개를 모두 다시 생성
+# 선택형: 기존5 Markdown 변환 + 직접원본 HTML 참조 갱신
 node scripts/build-examples.cjs
 
 # 원하는 원고 하나를 원하는 폴더에 생성
@@ -228,8 +228,16 @@ const { deck: built, issues, files } = buildDeck(inputPath, outputDir, { repoRoo
 
 `parseMarkdown`은 원고를 데이터로 바꾸며 파일을 쓰거나 미디어의 실재 여부를 검사하지 않습니다. `sourcePath`와 `outputDir`을 함께 주면 미디어 경로를 재계산합니다. `buildDeck`은 모델과 실제 파일까지 검사한 뒤 두 출력 파일을 만듭니다. 잘못된 입력은 `Error`로 보고합니다.
 
-## data.json에서 생성하는 예제
+## 직접 원본 시각자료와 Markdown
 
-[숫자·그래프·도식 예제](examples/visual-story/README.md)의 `slides.md`는 `data.json`에서 계산해 생성하는 파일입니다. 기존 다섯 Markdown 예제의 작성 원본 계약과 다릅니다. 수치·관계를 바꿀 때는 `examples/visual-story/data.json`을 수정하고 `node scripts/build-visual-story.cjs`를 실행합니다. `node scripts/build-examples.cjs`에도 이 과정이 포함됩니다.
+[새 시각자료 예제](examples/visual-story/README.md)와 [독립 실행 스타터](examples/visual-starter/README.md)는 content.js를 직접 수정합니다. 빌드·SVG 생성·예제 전용 JSON 스키마가 필요하지 않습니다. `build-examples.cjs`는 이 직접 원본을 덮어쓰지 않습니다.
 
-같은 명령이 숫자 포함 Markdown·여덟 SVG·content.js·index.html·[읽을 수 있는 데이터 표](examples/visual-story/data.html)를 갱신합니다. 생성 Markdown이나 SVG의 숫자를 따로 수정하면 다음 생성 때 덮어씁니다. native 문구의 브라우저 편집과 내보내기는 데이터 원본·SVG·표로 역반영되지 않습니다.
+Markdown이 편하면 같은 visual 객체를 stage JSON으로 넣습니다.
+
+```stage
+{ "layout": "visual", "title": "문의가 모이는 곳",
+  "visual": { "kind": "bars", "labels": ["계정", "결제", "사용법"],
+    "values": [12, 18, 9], "unit": "건", "focus": 1, "emphasis": "focus" } }
+```
+
+자료 배열을 Markdown과 별도 SVG 원고에 복제하지 않습니다. 기존 compiler는 visual 입력도 같은 모델로 검사하며 그림·큰 값·읽기 표는 웹에서 직접 만듭니다. [여덟 종류와 필드](CONFIG.md#시각자료-visual)를 확인하세요.

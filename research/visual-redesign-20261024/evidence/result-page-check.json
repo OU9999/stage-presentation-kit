@@ -1,0 +1,17 @@
+{
+  "mobile": {
+    "viewport": 390,
+    "body": 390,
+    "images": true,
+    "links": [
+      "../../examples/visual-story/index.html#3",
+      "../../examples/visual-starter/index.html",
+      "../../examples/visual-starter/README.md"
+    ]
+  },
+  "desktop": {
+    "viewport": 1440,
+    "body": 1440,
+    "images": true
+  }
+}

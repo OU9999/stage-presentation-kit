@@ -1,0 +1,173 @@
+{
+  "invalid": {
+    "error": "slides.1.visual.values.1: 이 표현은 0 이상의 원값을 사용합니다.",
+    "hero": "12",
+    "dialogOpen": true
+  },
+  "edited": {
+    "hero": "16",
+    "label": "작성 · 36.4%",
+    "rows": [
+      "탐색818.2%",
+      "작성1636.4%",
+      "공유1022.7%",
+      "설정613.6%",
+      "기타49.1%"
+    ]
+  },
+  "exported": {
+    "kind": "composition",
+    "labels": [
+      "탐색",
+      "작성",
+      "공유",
+      "설정",
+      "기타"
+    ],
+    "values": [
+      8,
+      16,
+      10,
+      6,
+      4
+    ],
+    "unit": "건",
+    "focus": 1,
+    "emphasis": "focus",
+    "composition": "split"
+  },
+  "currentTable": {
+    "url": "file:///Users/ou9999/Documents/stage-presentation-kit/research/visual-redesign-20261024/qa-reuse/index.html?final=composition#2",
+    "mode": "read",
+    "open": true,
+    "rows": [
+      "탐색\t8\t18.2%",
+      "작성\t16\t36.4%",
+      "공유\t10\t22.7%",
+      "설정\t6\t13.6%",
+      "기타\t4\t9.1%"
+    ],
+    "focus": "SUMMARY"
+  },
+  "restored": "12",
+  "themes": [
+    {
+      "theme": "paper",
+      "background": "rgb(242, 240, 232)",
+      "hero": "rgb(39, 95, 137)",
+      "errors": 0
+    },
+    {
+      "theme": "midnight",
+      "background": "rgb(21, 26, 32)",
+      "hero": "rgb(36, 168, 255)",
+      "errors": 0
+    },
+    {
+      "theme": "stage",
+      "background": "rgb(8, 8, 8)",
+      "hero": "rgb(36, 168, 255)",
+      "errors": 0
+    }
+  ],
+  "reduced": {
+    "running": 0,
+    "active": "2"
+  },
+  "overview": {
+    "cards": 10,
+    "errors": 0,
+    "running": 0
+  },
+  "mobileReuse": {
+    "viewport": 390,
+    "scroll": 390,
+    "slides": [
+      {
+        "index": "0",
+        "width": 366,
+        "scroll": 366,
+        "table": 1,
+        "cellSize": "16px"
+      },
+      {
+        "index": "1",
+        "width": 366,
+        "scroll": 366,
+        "table": 1,
+        "cellSize": "16px"
+      },
+      {
+        "index": "2",
+        "width": 366,
+        "scroll": 366,
+        "table": 1,
+        "cellSize": "16px"
+      },
+      {
+        "index": "3",
+        "width": 366,
+        "scroll": 366,
+        "table": 1,
+        "cellSize": "16px"
+      },
+      {
+        "index": "4",
+        "width": 366,
+        "scroll": 366,
+        "table": 1,
+        "cellSize": "16px"
+      },
+      {
+        "index": "5",
+        "width": 366,
+        "scroll": 366,
+        "table": 1,
+        "cellSize": "16px"
+      },
+      {
+        "index": "6",
+        "width": 366,
+        "scroll": 366,
+        "table": 1,
+        "cellSize": "16px"
+      },
+      {
+        "index": "7",
+        "width": 366,
+        "scroll": 366,
+        "table": 1,
+        "cellSize": "16px"
+      },
+      {
+        "index": "8",
+        "width": 366,
+        "scroll": 366,
+        "table": 1,
+        "cellSize": "16px"
+      },
+      {
+        "index": "9",
+        "width": 366,
+        "scroll": 366,
+        "table": 1,
+        "cellSize": "16px"
+      }
+    ],
+    "errors": 0
+  },
+  "tableKeyboard": {
+    "hash": "#3",
+    "left": 38,
+    "width": 314,
+    "scroll": 352
+  },
+  "mobileStory": {
+    "viewport": 390,
+    "scroll": 390,
+    "slides": 12,
+    "errors": 0,
+    "tables": 9,
+    "frames": 0
+  }
+}

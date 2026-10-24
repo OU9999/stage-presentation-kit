@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>STAGE — 그래프도, 같은 무대 위에.</title>
+  <link rel="stylesheet" href="prototype.css">
+  <script src="data.js" defer></script><script src="prototype.js" defer></script>
+</head>
+<body>
+  <header class="prototype-header"><a href="../../../index.html">STAGE</a><nav aria-label="장면 선택"><button type="button" data-scene="trend" aria-pressed="true">흐름</button><button type="button" data-scene="funnel" aria-pressed="false">전환</button><button type="button" data-scene="matrix" aria-pressed="false">선택</button></nav><span>하나의 이야기, 같은 무대</span></header>
+  <main class="prototype-shell">
+    <div class="stage" aria-label="발표 디자인 프로토타입">
+      <article id="trend" class="scene scene-trend is-active" aria-label="첫 공유율의 흐름"></article>
+      <article id="funnel" class="scene scene-funnel" aria-label="처음부터 첫 공유까지"></article>
+      <article id="matrix" class="scene scene-matrix" aria-label="먼저 확인할 제안"></article>
+    </div>
+    <details class="reading-data"><summary>수치와 비교 기준 펼치기</summary><div id="tables"></div></details>
+  </main>
+</body>
+</html>

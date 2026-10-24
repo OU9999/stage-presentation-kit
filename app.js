@@ -10,12 +10,21 @@
   }
   var record = function (value) { return value !== null && typeof value === "object" && !Array.isArray(value); };
   var owns = function (value, key) { return Object.prototype.hasOwnProperty.call(value, key); };
-  var clone = function (value) { try { var text = JSON.stringify(value); return text === undefined ? value : JSON.parse(text); } catch (_) { return value; } };
+  // Preserve invalid numeric values until validation; JSON cloning would disguise them as null gaps.
+  function clone(value, seen) {
+    if (value === null || typeof value !== "object") return value;
+    seen = seen || new Map();
+    if (seen.has(value)) return seen.get(value);
+    var copy = Array.isArray(value) ? [] : {};
+    seen.set(value, copy);
+    Object.keys(value).forEach(function (key) { if (key !== "__proto__") copy[key] = clone(value[key], seen); });
+    return copy;
+  }
   var original = clone(window.PRESENTATION);
   var params = new URLSearchParams(location.search);
   var isPresenter = params.get("presenter") === "1";
   var themes = ["stage", "paper", "midnight"];
-  var names = { cover: "표지", statement: "큰 문장", section: "섹션", compare: "비교", metric: "숫자", image: "이미지", demo: "데모", quote: "인용", steps: "단계", closing: "마무리", chart: "메시지와 차트", media: "전체 화면 시연", gallery: "이미지 갤러리", mosaic: "이미지 모자이크", results: "메시지와 결과", categories: "분류와 역할", bento: "혼합 결과 타일", "icon-wall": "아이콘월", "metric-pair": "두 수치 비교" };
+  var names = { cover: "표지", statement: "큰 문장", section: "섹션", compare: "비교", metric: "숫자", image: "이미지", demo: "데모", quote: "인용", steps: "단계", closing: "마무리", chart: "메시지와 차트", media: "전체 화면 시연", gallery: "이미지 갤러리", mosaic: "이미지 모자이크", results: "메시지와 결과", categories: "분류와 역할", bento: "혼합 결과 타일", "icon-wall": "아이콘월", "metric-pair": "두 수치 비교", visual: "데이터 시각화" };
   var tones = ["orange", "purple", "blue", "green", "yellow"];
   var itemTones = tones.concat("white");
   var motions = ["none", "fade", "rise", "stagger", "chart"];
@@ -420,6 +429,39 @@
       var meta = element("div", "cover-meta");
       meta.append(field("span", "cover-speaker", slide, "speaker", "", "deck"), field("span", "cover-date", slide, "date", "", "deck"));
       body.append(meta);
+    } else if (layout === "visual") {
+      if (!window.StageVisual) { body.append(element("p", "error-message", "visual.js 경로를 확인하세요.")); }
+      else {
+        var renderedVisual = window.StageVisual.render(slide.visual);
+        article.dataset.kind = slide.visual.kind;
+        article.dataset.composition = slide.visual.composition || ((slide.visual.kind === "funnel" || slide.visual.kind === "bars") && renderedVisual.hero ? "split" : "wide");
+        article.dataset.hasHero = String(!!renderedVisual.hero);
+        var visualCopy = element("header", "visual-copy");
+        visualCopy.append(title(slide));
+        optional(visualCopy, "p", "slide-subtitle", slide, "subtitle");
+        var visualContext = [slide.visual.period, slide.visual.unit ? "단위: " + slide.visual.unit : "", slide.visual.source].filter(Boolean).join(" · ");
+        if (visualContext) visualCopy.append(element("p", "visual-context", visualContext));
+        optional(visualCopy, "p", "source-line", slide, "source");
+        body.append(visualCopy);
+        if (renderedVisual.hero) {
+          var visualHero = element("aside", "visual-hero"), heroLine = element("div");
+          heroLine.append(element("span", "visual-hero-value", window.StageVisual.format(renderedVisual.hero.value)), element("span", "visual-hero-unit", renderedVisual.hero.unit));
+          visualHero.append(heroLine, element("p", "visual-hero-label", renderedVisual.hero.label));
+          body.append(visualHero);
+        }
+        if (!preview && slide.visual.kind === "heatmap") {
+          renderedVisual.plot.tabIndex = 0;
+          renderedVisual.plot.setAttribute("role", "region");
+          renderedVisual.plot.setAttribute("aria-label", "히트맵 · 방향키로 가로 스크롤");
+        }
+        body.append(renderedVisual.plot);
+        if (!preview) {
+          var dataDetails = element("details", "visual-data-details");
+          dataDetails.open = true;
+          dataDetails.append(element("summary", "", "같은 원본의 데이터 표"), window.StageVisual.tableNode(renderedVisual.table));
+          body.append(dataDetails);
+        }
+      }
     } else if (layout === "statement") {
       body.append(title(slide));
       optional(body, "p", "statement-support", slide, "support");
@@ -713,7 +755,7 @@
     document.getElementById("presenterWorkspace").hidden = !isPresenter;
     if (isPresenter) {
       document.querySelector(".app-header").hidden = true;
-      document.querySelectorAll('[data-action="export"], [data-action="presenter"], [data-action="print"]').forEach(function (button) { button.hidden = true; });
+      document.querySelectorAll('[data-action="export"], [data-action="presenter"]').forEach(function (button) { button.hidden = true; });
     }
     updateActive(false);
     updateDiagnostics();
@@ -739,6 +781,8 @@
     document.querySelectorAll('[data-action="previous"]').forEach(function (button) { button.disabled = state.index === 0; });
     document.querySelectorAll('[data-action="next"]').forEach(function (button) { button.disabled = state.index === deck.slides.length - 1; });
     document.getElementById("editBanner").hidden = !state.editing;
+    var visualEditButton = document.getElementById("visualEditButton");
+    if (visualEditButton) visualEditButton.hidden = !state.editing || !record(deck.slides[state.index]) || deck.slides[state.index].layout !== "visual";
     document.getElementById("editButton").setAttribute("aria-pressed", String(state.editing));
     document.getElementById("editButton").textContent = state.editing ? "편집 마침" : "내용 편집";
     document.getElementById("modeButton").setAttribute("aria-pressed", String(state.mode === "read"));
@@ -793,6 +837,70 @@
     dialog.append(header, body);
     backdrop.append(dialog);
     document.body.append(backdrop);
+  }
+
+  function showCurrentData() {
+    var target = state.index;
+    var details = stage.children[target] && stage.children[target].querySelector(".visual-data-details");
+    if (!details) {
+      target = Array.from(stage.children).findIndex(function (slide) { return !!slide.querySelector(".visual-data-details"); });
+      details = target >= 0 && stage.children[target].querySelector(".visual-data-details");
+    }
+    if (!details) { toast("이 발표에는 데이터 표가 있는 시각자료가 없습니다."); return; }
+    closeDialog();
+    state.mode = "read";
+    document.body.dataset.mode = state.mode;
+    goTo(target);
+    details.open = true;
+    requestAnimationFrame(function () {
+      // This is the current deck's table, including edits; never reload the disk source.
+      details.scrollIntoView({ behavior: "instant", block: "start" });
+      var summary = details.querySelector("summary");
+      if (summary) summary.focus({ preventScroll: true });
+    });
+  }
+
+  var visualEditorIndex = null;
+  function createVisualEditor() {
+    if (isPresenter) return;
+    var button = element("button", "visual-json-button", "시각자료 데이터 편집");
+    button.type = "button"; button.id = "visualEditButton"; button.dataset.action = "visual-edit"; button.hidden = true;
+    document.getElementById("editBanner").insertBefore(button, document.getElementById("editBanner").lastElementChild);
+    var backdrop = element("div", "dialog-backdrop"); backdrop.id = "visualEditDialog"; backdrop.hidden = true;
+    var dialog = element("section", "dialog dialog-visual-edit"); dialog.setAttribute("role", "dialog"); dialog.setAttribute("aria-modal", "true"); dialog.setAttribute("aria-labelledby", "visualEditTitle");
+    var header = element("header", "dialog-header"), heading = element("h2", "", "시각자료 데이터 편집"); heading.id = "visualEditTitle";
+    var cancelTop = element("button", "", "닫기 ×"); cancelTop.type = "button"; cancelTop.dataset.action = "close"; header.append(heading, cancelTop);
+    var body = element("div", "dialog-body"), label = element("label", "", "현재 슬라이드의 visual 설정 (JSON)"); label.htmlFor = "visualJsonInput";
+    var input = element("textarea", "visual-json-input"); input.id = "visualJsonInput"; input.spellcheck = false; input.setAttribute("aria-describedby", "visualJsonHelp visualJsonErrors");
+    var help = element("p", "", "라벨·값·단위·강조 항목을 바꾸세요. 적용하면 그림, 큰 값, 데이터 표가 함께 바뀝니다. 취소하면 현재 자료를 유지합니다."); help.id = "visualJsonHelp";
+    var errors = element("p", "visual-json-errors"); errors.id = "visualJsonErrors"; errors.setAttribute("role", "status"); errors.setAttribute("aria-live", "polite");
+    var actions = element("div", "visual-json-actions"), cancel = element("button", "", "취소"), apply = element("button", "button-primary", "적용");
+    cancel.type = "button"; cancel.dataset.action = "close"; apply.type = "button"; apply.dataset.action = "visual-apply"; actions.append(cancel, apply);
+    body.append(label, help, input, errors, actions); dialog.append(header, body); backdrop.append(dialog); document.body.append(backdrop);
+  }
+  function openVisualEditor() {
+    var slide = deck.slides[state.index];
+    if (!state.editing || !record(slide) || slide.layout !== "visual") return;
+    visualEditorIndex = state.index;
+    document.getElementById("visualJsonInput").value = JSON.stringify(slide.visual, null, 2);
+    document.getElementById("visualJsonErrors").textContent = "";
+    document.getElementById("visualJsonInput").removeAttribute("aria-invalid");
+    openDialog("visualEditDialog"); document.getElementById("visualJsonInput").focus();
+  }
+  function applyVisualEditor() {
+    var input = document.getElementById("visualJsonInput"), next, issues;
+    try { next = JSON.parse(input.value); }
+    catch (error) { issues = [{ path: "visual", message: "JSON 문법을 확인하세요. " + error.message }]; }
+    if (!issues) issues = model.validateVisual(next, "slides." + visualEditorIndex + ".visual", visualEditorIndex);
+    if (issues.length) {
+      input.setAttribute("aria-invalid", "true");
+      document.getElementById("visualJsonErrors").textContent = issues.map(function (issue) { return issue.path + ": " + issue.message; }).join("\n");
+      return;
+    }
+    if (!Number.isInteger(visualEditorIndex) || !record(rawDeck.slides[visualEditorIndex])) return;
+    rawDeck.slides[visualEditorIndex].visual = next;
+    closeDialog(); persist(); render();
+    toast("시각자료와 데이터 표를 함께 갱신했습니다. 내용 내보내기로 파일을 보관하세요.");
   }
 
   function allIssues() {
@@ -887,12 +995,17 @@
     syncPresenter();
   }
 
+  function finiteJson(key, value) {
+    if (typeof value === "number" && !Number.isFinite(value)) throw new Error("JSON에 저장할 수 없는 숫자: " + key);
+    return value;
+  }
+
   function persist() {
     clearTimeout(saveTimer);
     if (isPresenter) return;
     refreshValidation();
     try {
-      localStorage.setItem(storageKey, JSON.stringify({ sourceSignature: sourceSignature, deck: rawDeck, savedAt: new Date().toISOString() }));
+      localStorage.setItem(storageKey, JSON.stringify({ sourceSignature: sourceSignature, deck: rawDeck, savedAt: new Date().toISOString() }, finiteJson));
       document.getElementById("saveStatus").textContent = "이 브라우저에 저장됨";
     } catch (_) {
       document.getElementById("saveStatus").textContent = "파일로 내보내 보관하세요";
@@ -956,7 +1069,7 @@
   function exportContent() {
     persist();
     var serialized;
-    try { serialized = JSON.stringify(rawDeck, null, 2); } catch (_) { toast("원본을 JSON으로 내보낼 수 없습니다. 순환 참조 없이 저장할 수 있는 데이터인지 content.js를 확인하세요."); return; }
+    try { serialized = JSON.stringify(rawDeck, finiteJson, 2); } catch (_) { toast("원본을 JSON으로 내보낼 수 없습니다. 작성자 점검에서 유한하지 않은 숫자 또는 순환 참조를 확인하세요."); return; }
     var contents = "/* Stage 발표 원본 — 이 파일을 발표 폴더의 content.js와 교체하세요. */\nwindow.PRESENTATION = " + (serialized === undefined ? "undefined" : serialized) + ";\n";
     var objectUrl = URL.createObjectURL(new Blob([contents], { type: "text/javascript;charset=utf-8" }));
     var link = element("a");
@@ -1057,6 +1170,7 @@
     var button = event.target.closest("[data-action]");
     if (!button || button.disabled) return;
     var action = button.dataset.action;
+    if (action === "current-data") { event.preventDefault(); showCurrentData(); return; }
     if (action === "previous") goTo(state.index - 1);
     if (action === "next") goTo(state.index + 1);
     if (action === "overview") openDialog("overviewDialog");
@@ -1071,6 +1185,8 @@
     if (action === "close") closeDialog();
     if (action === "presenter") openPresenter();
     if (action === "edit") toggleEdit();
+    if (action === "visual-edit") openVisualEditor();
+    if (action === "visual-apply") applyVisualEditor();
     if (action === "export") exportContent();
     if (action === "mode") { state.mode = state.mode === "present" ? "read" : "present"; document.body.dataset.mode = state.mode; updateActive(false); requestAnimationFrame(scaleStages); }
     if (action === "fullscreen") {
@@ -1078,7 +1194,6 @@
       else if (document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(function () { toast("전체 화면을 사용할 수 없습니다. 브라우저의 전체 화면 메뉴를 사용하세요."); });
       else toast("브라우저의 전체 화면 메뉴를 사용하세요.");
     }
-    if (action === "print") { if (state.editing) toggleEdit(); window.print(); }
     if (action === "timer") { if (isPresenter) sendToAudience("timer"); else startedAt = Date.now(); }
     if (action === "reset" && window.confirm("이 폴더의 브라우저 편집 내용을 지우고 content.js 원본으로 돌아갈까요?")) {
       clearTimeout(saveTimer);
@@ -1125,16 +1240,18 @@
   document.addEventListener("keydown", function (event) {
     // Native media controls own arrows, Home/End, Space, and other shortcuts.
     if (event.target.closest("video, audio")) return;
+    // Focused readable-data regions own native scrolling; the slide must not navigate.
+    if (event.target.closest(".visual-table-scroll, .visual-plot[tabindex='0']") && ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End", "PageUp", "PageDown", " "].indexOf(event.key) >= 0) return;
     var editing = event.target.closest("[contenteditable=plaintext-only], [contenteditable=true], input, textarea, select");
-    if (editing) {
+    if (editing && !currentDialog) {
       if (event.key === "Escape" && state.editing) { event.preventDefault(); toggleEdit(); document.getElementById("editButton").focus(); }
       return;
     }
     if (event.altKey || event.ctrlKey || event.metaKey) return;
     if (currentDialog) {
-      if (event.key === "Escape") { event.preventDefault(); closeDialog(); }
+      if (event.key === "Escape") { event.preventDefault(); closeDialog(); return; }
       if (event.key === "Tab") {
-        var focusable = Array.from(currentDialog.querySelectorAll("button,a[href],input,select,[tabindex='0']")).filter(function (item) { return !item.hidden && !item.disabled; });
+        var focusable = Array.from(currentDialog.querySelectorAll("button,a[href],input,textarea,select,[tabindex='0']")).filter(function (item) { return !item.hidden && !item.disabled; });
         var first = focusable[0];
         var last = focusable[focusable.length - 1];
         if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
@@ -1196,5 +1313,6 @@
   }
   document.getElementById("saveStatus").textContent = restored ? "저장한 편집 내용" : "원본 템플릿";
   createDiagnostics();
+  createVisualEditor();
   render();
 })();

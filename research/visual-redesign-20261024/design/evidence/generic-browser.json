@@ -1,0 +1,134 @@
+{
+  "desktop": [
+    {
+      "kind": "line",
+      "bodyOverflow": false,
+      "plot": true,
+      "hero": "80",
+      "tableRows": 7,
+      "nativeOutside": []
+    },
+    {
+      "kind": "bars",
+      "bodyOverflow": false,
+      "plot": true,
+      "hero": "18",
+      "tableRows": 5,
+      "nativeOutside": []
+    },
+    {
+      "kind": "composition",
+      "bodyOverflow": false,
+      "plot": true,
+      "hero": "12",
+      "tableRows": 5,
+      "nativeOutside": []
+    },
+    {
+      "kind": "funnel",
+      "bodyOverflow": false,
+      "plot": true,
+      "hero": "90",
+      "tableRows": 5,
+      "nativeOutside": []
+    },
+    {
+      "kind": "flow",
+      "bodyOverflow": false,
+      "plot": true,
+      "hero": null,
+      "tableRows": 5,
+      "nativeOutside": []
+    },
+    {
+      "kind": "matrix",
+      "bodyOverflow": false,
+      "plot": true,
+      "hero": null,
+      "tableRows": 5,
+      "nativeOutside": []
+    },
+    {
+      "kind": "timeline",
+      "bodyOverflow": false,
+      "plot": true,
+      "hero": null,
+      "tableRows": 4,
+      "nativeOutside": []
+    },
+    {
+      "kind": "heatmap",
+      "bodyOverflow": false,
+      "plot": true,
+      "hero": null,
+      "tableRows": 2,
+      "nativeOutside": []
+    }
+  ],
+  "mobile": [
+    {
+      "kind": "line",
+      "scrollWidth": 390,
+      "width": 390,
+      "tableFont": "16px",
+      "tableRows": 7,
+      "detailsOpen": true
+    },
+    {
+      "kind": "bars",
+      "scrollWidth": 390,
+      "width": 390,
+      "tableFont": "16px",
+      "tableRows": 5,
+      "detailsOpen": true
+    },
+    {
+      "kind": "composition",
+      "scrollWidth": 390,
+      "width": 390,
+      "tableFont": "16px",
+      "tableRows": 5,
+      "detailsOpen": true
+    },
+    {
+      "kind": "funnel",
+      "scrollWidth": 390,
+      "width": 390,
+      "tableFont": "16px",
+      "tableRows": 5,
+      "detailsOpen": true
+    },
+    {
+      "kind": "flow",
+      "scrollWidth": 390,
+      "width": 390,
+      "tableFont": "16px",
+      "tableRows": 5,
+      "detailsOpen": true
+    },
+    {
+      "kind": "matrix",
+      "scrollWidth": 390,
+      "width": 390,
+      "tableFont": "16px",
+      "tableRows": 5,
+      "detailsOpen": true
+    },
+    {
+      "kind": "timeline",
+      "scrollWidth": 390,
+      "width": 390,
+      "tableFont": "16px",
+      "tableRows": 4,
+      "detailsOpen": true
+    },
+    {
+      "kind": "heatmap",
+      "scrollWidth": 390,
+      "width": 390,
+      "tableFont": "16px",
+      "tableRows": 2,
+      "detailsOpen": true
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-24",
+  "manager": "/root/engineering_manager",
+  "workers": [
+    "/root/engineering_manager/runtime_engineer",
+    "/root/engineering_manager/authoring_engineer"
+  ],
+  "tests": {
+    "count": 185,
+    "pass": 185,
+    "fail": 0
+  },
+  "protected": {
+    "count": 13,
+    "changed": []
+  },
+  "runtime": [
+    {
+      "file": "app.js",
+      "sha256": "7e774f101b165cc23508053f57ff246e8a43a9c43bb7dd51834e00cb33bcf87a",
+      "portableCopyMatches": true
+    },
+    {
+      "file": "styles.css",
+      "sha256": "66752a982bf1a73ce19c7938c99f38a450d313f4c5d67b83c9dcf50e94478207",
+      "portableCopyMatches": true
+    },
+    {
+      "file": "deck-model.js",
+      "sha256": "398ae06f5ea53f0576fd9ed91a0f00f4dd6026d20fa689b453e072e4e86286ba",
+      "portableCopyMatches": true
+    },
+    {
+      "file": "visual.js",
+      "sha256": "8b6c81cb0cf73a12ab6dc04e78b95db17b463d0d0f66510a81edf890468d86b1",
+      "portableCopyMatches": true
+    },
+    {
+      "file": "visual.css",
+      "sha256": "a135350a6268e92b881b25b345391f0b3aeedd1de5f64680cec3224529e3634f",
+      "portableCopyMatches": true
+    }
+  ],
+  "browser": {
+    "space": 9,
+    "page": "p2",
+    "fixture": "/tmp/stage-native-manager-qa-20261024",
+    "sourcePathStorageChanged": false,
+    "editedRatio": {
+      "before": 80,
+      "after": 90,
+      "raw": [
+        153,
+        170
+      ],
+      "tableLastRow": [
+        "마지막 관찰",
+        "90",
+        "153",
+        "170"
+      ],
+      "nativeTitle": "다른 주제, 같은 시각화.",
+      "reloadRestored": true,
+      "actualDownloadValidated": true,
+      "downloadModelIssues": 0
+    },
+    "invalidApply": {
+      "denominator": 0,
+      "field": "slides.0.visual.denominators.6",
+      "existingHeroPreserved": 90,
+      "escapeDiscardsDraft": true,
+      "editingKept": true
+    },
+    "presenter": {
+      "popup": "p4",
+      "receivedHero": 90,
+      "receivedTitle": true,
+      "controlledAudienceNext": true,
+      "closedOnlyOwnPopup": true
+    },
+    "currentTable": {
+      "urlKept": true,
+      "mode": "read",
+      "summaryFocused": true,
+      "tableOpened": true,
+      "hero": 90,
+      "width": 314,
+      "scrollWidth": 352,
+      "arrowRightScrollLeft": 38,
+      "hashKept": "#1",
+      "bodyOverflow": 0
+    },
+    "mobileLine": {
+      "viewport": 390,
+      "plotHeight": 220,
+      "narrowViewBox": "0 0 600 400",
+      "tableFont": "16px",
+      "bodyOverflow": 0
+    },
+    "flowLogicalFont": 36,
+    "visualMediaFrames": 0
+  },
+  "limits": [
+    "제품원본 대신 격리 복사본에서 저장·내보내기를 검수함",
+    "별도 data.html은 디스크 content.js를 읽으며 상단 표는 현재 편집값을 사용함",
+    "PDF·인쇄·최종 PNG는 검수 범위가 아님"
+  ]
+}

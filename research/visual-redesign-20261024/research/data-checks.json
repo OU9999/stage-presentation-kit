@@ -1,0 +1,114 @@
+{
+  "checkedAt": "2026-10-24T14:29:44.765Z",
+  "method": "Independent inline Node calculation + actual StageVisual renderer with lightweight DOM. No browser or new test files. Floating results compared with 1e-9 tolerance and displayed formatting checked separately.",
+  "sha12": {
+    "visual.js": "02e26db1c3cc",
+    "deck-model.js": "398ae06f5ea5",
+    "examples/visual-story/content.js": "dfbc18e6e41e",
+    "examples/visual-starter/content.js": "5a5aa9c772ed",
+    "examples/visual-starter.js": "5a5aa9c772ed"
+  },
+  "checksPassed": 13,
+  "checks": [
+    "12-slides-eight-kinds",
+    "period-counts-and-primary-render",
+    "weekly-ratio-thirty-fifty-eight",
+    "funnel-steps-fourteen-six-difference",
+    "interview-forty-eight-composition",
+    "effort-eighteen",
+    "native-nine-tables",
+    "starter-seven-point-eighty",
+    "starter-five-category-forty",
+    "flow-two-five-generic",
+    "null-not-zero",
+    "zero-denominator-diagnostic",
+    "zero-total-no-fake-share"
+  ],
+  "periodCounts": [
+    420,
+    1200,
+    660,
+    1200
+  ],
+  "primary": {
+    "baseline": 35,
+    "followup": 55,
+    "differencePp": 20,
+    "relativePercent": 57.1
+  },
+  "weekly": {
+    "first": 30,
+    "last": 58
+  },
+  "stepRates": [
+    [
+      70,
+      71.42857142857143,
+      70
+    ],
+    [
+      80,
+      81.25,
+      84.61538461538461
+    ]
+  ],
+  "largestStepDifferencePp": 14.6,
+  "nativeStepHeroPercent": 84.6,
+  "interviewTotal": 48,
+  "effortTotal": 18,
+  "generic": {
+    "lastRatioPercent": 80,
+    "categoryCount": 5,
+    "compositionTotal": 40,
+    "compositionShares": [
+      20,
+      30,
+      25,
+      15,
+      10
+    ],
+    "flowCounts": [
+      2,
+      5
+    ]
+  },
+  "missing": {
+    "null": "gap and missing table cell, not zero",
+    "zeroDenominator": "validation error before render",
+    "zeroTotal": "composition calculation unavailable"
+  },
+  "independentReuseFixture": {
+    "path": "/tmp/stage-reuse-story-20261024-R7xH3G/support-reuse/content.js",
+    "verifiedFromFile": true,
+    "ratioLast": {
+      "numerator": 64,
+      "denominator": 80,
+      "percent": 80
+    },
+    "compositionValues": [
+      6,
+      8,
+      12,
+      10,
+      4
+    ],
+    "compositionTotal": 40,
+    "shares": [
+      15,
+      20,
+      30,
+      25,
+      10
+    ],
+    "flowCount": 5
+  },
+  "contextCorrection": {
+    "verifiedFromFile": true,
+    "subtitle": "가입 후 7일 내 첫 공유율 · 기준 W1–W4 / 후반 W9–W12",
+    "contentSha12": "dfbc18e6e41e",
+    "kpiValuesUnchanged": [
+      35,
+      55
+    ]
+  }
+}

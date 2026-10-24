@@ -1,6 +1,6 @@
 # Params로 새 발표 만들기
 
-Markdown 원고로 관리하려면 [작성법](MARKDOWN.md)과 [다섯 가지 발표 예제](examples/index.html)를 사용하세요. 변환 결과는 아래와 같은 입력 계약을 따릅니다.
+Markdown 원고로 관리하려면 [작성법](MARKDOWN.md)과 [발표 예제와 스타터](examples/index.html)를 사용하세요. 변환 결과는 아래와 같은 입력 계약을 따릅니다.
 
 `content.js`의 `window.PRESENTATION`이 발표의 입력 계약입니다. 발표 폴더 전체를 복사한 뒤 이 객체와 로컬 미디어를 바꾸면 됩니다. HTML·렌더러·CSS를 주제마다 수정할 필요는 없습니다. 다른 주제의 짧은 시작점은 [project-review.js](examples/project-review.js)입니다. 이 파일의 내용으로 복사한 폴더의 루트 `content.js`를 교체하세요.
 
@@ -27,7 +27,7 @@ window.PRESENTATION = {
 | `title`, `speaker`, `date`, `footer` | 발표 정보 문자열. 실제 날짜는 입력한 값 사용 |
 | `theme` | `stage` / `paper` / `midnight`. 생략하면 `stage` |
 | `slides` | 한 장 이상의 슬라이드 객체 배열 |
-| `slides[].layout` | 아래 19개 양식 중 하나. 이름 오타도 해당 장의 오류로 안내 |
+| `slides[].layout` | 아래 20개 양식 중 하나. 이름 오타도 해당 장의 오류로 안내 |
 | `title` | 문자열 또는 문자열 배열. 배열은 의도한 줄바꿈이며 긴 줄은 화면 폭에서 다시 줄바꿈될 수 있음 |
 | `subtitle`, `source`, `notes` | 문자열. 출처와 발표자 노트는 따로 관리 |
 | `align` | `center` 또는 생략. 기본 왼쪽 정렬, 중앙 메시지 변형은 cover/statement/section/closing 지원. categories의 제목도 중앙 정렬 가능 |
@@ -55,7 +55,7 @@ window.PRESENTATION = {
 
 같은 `motion`을 다른 주제에 복사해도 동작하며 특정 ID나 문장을 요구하지 않습니다. `stagger`·`chart`에 맞는 대상이 없는 양식은 정적으로 표시합니다. `motion`은 장별 필드이며 발표 정보의 기본값 필드는 추가하지 않습니다.
 
-읽기·편집·전체 보기·발표자 미리보기·인쇄/PDF에서는 모든 내용이 즉시 표시됩니다. 시스템의 모션 줄이기 설정은 효과와 읽기 모드의 부드러운 이동에도 반영합니다. 장 이동은 모션 완료를 기다리지 않습니다. 이 값은 [STAGE의 디자인 사양](research/color-motion-20261024/design/motion-spec.md)이며 DevDay 원본의 타이밍 측정값이 아닙니다.
+읽기·편집·전체 보기·발표자 미리보기에서는 모든 내용이 즉시 표시됩니다. 시스템의 모션 줄이기 설정은 효과와 읽기 모드의 부드러운 이동에도 반영합니다. 장 이동은 모션 완료를 기다리지 않습니다. 이 값은 [STAGE의 디자인 사양](research/color-motion-20261024/design/motion-spec.md)이며 DevDay 원본의 타이밍 측정값이 아닙니다.
 
 ## 양식과 수량
 
@@ -71,6 +71,7 @@ window.PRESENTATION = {
 | `metric` | value, unit, label, support, source | value는 유한한 숫자 또는 표시용 문자열. 주 수치 하나 |
 | `chart` | chart.title/unit/max/rows, source | rows 1~6개. 각 행은 label/value/highlight. value는 0 이상 숫자 또는 내보낸 숫자 문자열 |
 | `image` | title, src, alt, fit, caption | 이미지 한 장 |
+| `visual` | title, subtitle, visual, source | 독립 자료의 여덟 표현. 수량은 자료 배열에 맞춤 |
 | `media` | src 또는 video, poster, caption | 전체 화면 미디어 한 개 |
 | `demo` | title, src 또는 video, steps, url | 미디어 한 개, steps는 문자열 배열 0~3개 |
 | `quote` | quote, attribution, support | 짧은 인용문과 출처 |
@@ -84,6 +85,32 @@ window.PRESENTATION = {
 | `metric-pair` | title, items, support, source | 정확히 2개. 각 value/unit/label/tone. 동등한 두 수치 |
 
 `mosaic`은 작품 모음용입니다. 빈 칸을 채우기 위해 뒤 항목이 데스크톱 화면의 앞 빈 칸에 놓일 수 있습니다. 원본 데이터와 DOM의 순서는 바꾸지 않으며 모바일 읽기에서는 입력 순서로 한 열을 만듭니다. 시간·단계·비교 순서가 중요하면 `gallery`나 `steps`를 사용하세요. 기존 예제의 `[2,1,1,1,1,2]` 배치도 그대로 사용할 수 있습니다.
+
+## 시각자료 visual
+
+```js
+{ layout: "visual", title: "일곱 번의 관찰",
+  visual: { kind: "line", labels: ["1주", "2주", "3주", "4주", "5주", "6주", "7주"],
+    values: [65, 65, 70, 70, 74, 75, 80], unit: "%", focus: 6,
+    emphasis: "focus", composition: "wide" } }
+```
+
+| `visual.kind` | 자료 입력 | 동작 |
+| --- | --- | --- |
+| `line` | labels + values 또는 series | 입력 길이의 추세. null은 관측 없음으로 선을 끊음 |
+| `bars` | labels + values 또는 series | 0 기준 비교 막대. 음수 방향과 원래 부호 보존 |
+| `composition` | labels + values | 비음수 원값의 비중. 합계0은 계산 불가로 표시 |
+| `funnel` | labels + series의 label/values | 같은 단계의 계열을 비교. 단계 수 고정 없음 |
+| `flow` | items 문자열 또는 label 객체 | 2/5단계 등의 순서를 연결. 분기일 때만 id/links |
+| `matrix` | items의 label/x/y, xLabel/yLabel | 원래 좌표와 이름. 같은 좌표도 허용 |
+| `timeline` | items의 label/start/end, unit | 상대 기간. 종료가 시작보다 앞선 입력은 진단 |
+| `heatmap` | rows, columns, values 행렬, unit | 실제 행/열 수의 셀과 동일 자료의 표 |
+
+`series`는 `{label, values}` 객체 배열입니다. 직접 values와 series를 함께 넣지 않습니다. 비율을 원래 정수에서 계산할 때는 labels와 같은 길이의 `numerators`·`denominators`를 넣고 단위를 `%`로 둡니다. values/series와 분자·분모 입력을 겹치지 않습니다. 분모0이나 유한하지 않은 숫자는 진단하며 없는 관측을0으로 만들지 않습니다. `%`만 보고100 상한을 추정하지 않습니다.
+
+`focus`는 0부터 시작하는 항목 위치이고 큰 강조값은 해당 자료에서 자동 계산합니다. matrix의 복수 강조는 위치 배열을 사용하며 여러 좌표의 합계를 임의로 만들지 않습니다. `emphasis: "focus"`가 그 큰 값을 표시합니다. `composition: "wide"`는 넓은 구도, `"split"`은 메시지와 plot을 나란히 놓는 구도입니다. `domain: [최소, 최대]`, matrix의 `xDomain/yDomain`은 필요한 경우에만 명시합니다. 데이터와 맞지 않는 범위나 배열 대응은 진단합니다.
+
+시작점은 [실행 스타터](examples/visual-starter/index.html)와 [한 파일 원본](examples/visual-starter.js)입니다. 설치·빌드·SVG 편집·프로젝트 전체 스키마는 필요하지 않습니다. 화면의 시각자료 JSON 편집은 그림·강조값·읽기 표에 즉시 반영되고 내보낸 content.js로 보관합니다. 별도 data.html은 같은 디스크 원본을 읽으므로 내보낸 파일을 교체한 뒤 새로고침합니다.
 
 ## 이미지 항목
 
@@ -186,9 +213,9 @@ window.PRESENTATION = {
 
 잘못된 layout·배열 타입·항목 수는 해당 슬라이드의 오류로 안내하고 나머지 장은 계속 사용할 수 있게 합니다. 원본 항목은 내보내기에 보존하므로 오류 경로를 보고 `content.js`에서 수정할 수 있습니다. 문법 오류로 content.js 자체를 실행할 수 없는 경우에는 원본 파일의 JavaScript 문법부터 고쳐야 합니다.
 
-형식은 맞지만 문장이 길거나 미디어 프레임이 사라지는 경우에는 활성 장의 실제 크기로 점검합니다. 문제가 있으면 작성자 점검에서 장 번호·문제 위치와 조정 방법을 확인하세요. 읽기 모드는 긴 문장의 전체 내용을 확인할 때 사용할 수 있습니다. 경고는 작성자 조작 UI이며 PDF의 슬라이드 본문에 넣지 않습니다. 글자를 자동으로 과도하게 줄이거나 초과 항목을 조용히 버리지 않습니다.
+형식은 맞지만 문장이 길거나 미디어 프레임이 사라지는 경우에는 활성 장의 실제 크기로 점검합니다. 문제가 있으면 작성자 점검에서 장 번호·문제 위치와 조정 방법을 확인하세요. 읽기 모드는 긴 문장의 전체 내용을 확인할 때 사용할 수 있습니다. 경고는 작성자 조작 UI입니다. 글자를 자동으로 과도하게 줄이거나 초과 항목을 조용히 버리지 않습니다.
 
-브라우저 편집은 문자 수정용입니다. 항목 수·이미지 경로·배치·색 옵션은 원본 데이터에서 바꿉니다. 저장은 발표 id와 HTML 경로로 구분하며, 원본 객체가 바뀌면 이전 브라우저 편집본을 자동 복원하지 않습니다. 중요한 편집은 먼저 content.js로 내보내 보관하세요.
+브라우저 편집은 native 문자와 visual JSON 수정을 지원합니다. 항목 수·이미지 경로·배치·색 옵션은 원본 데이터에서 바꿉니다. 저장은 발표 id와 HTML 경로로 구분하며, 원본 객체가 바뀌면 이전 브라우저 편집본을 자동 복원하지 않습니다. 중요한 편집은 먼저 content.js로 내보내 보관하세요.
 
 ## 개발 검증
 
@@ -198,7 +225,7 @@ window.PRESENTATION = {
 node --test tests/*.test.cjs
 ```
 
-이 명령의 통과는 브라우저의 글꼴·크롭·PDF·실제 넘침 검증을 대신하지 않습니다. 콘텐츠를 바꾼 뒤에는 실제 발표 기기에서도 리허설하세요.
+이 명령의 통과는 브라우저의 글꼴·크롭·실제 넘침 검증을 대신하지 않습니다. 콘텐츠를 바꾼 뒤에는 실제 발표 기기에서도 리허설하세요.
 
 공개 모델은 브라우저의 `window.STAGE_MODEL`과 Node의 `require("./deck-model.js")`에서 같습니다. `validateDeck(config)`와 `packMosaic(items)` 외에 다음 읽기 전용 조회를 제공합니다. 반환된 배치 객체를 수정해도 다음 호출이나 검증 규칙에는 영향을 주지 않습니다.
 

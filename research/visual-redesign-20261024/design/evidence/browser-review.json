@@ -1,0 +1,36 @@
+{
+  "desktop": [
+    {
+      "id": "trend",
+      "wide": false,
+      "mediaFrames": 0,
+      "svgRects": 0,
+      "nativeOutside": [],
+      "svgTextOutside": []
+    },
+    {
+      "id": "funnel",
+      "wide": false,
+      "mediaFrames": 0,
+      "svgRects": 0,
+      "nativeOutside": [],
+      "svgTextOutside": []
+    },
+    {
+      "id": "matrix",
+      "wide": false,
+      "mediaFrames": 0,
+      "svgRects": 0,
+      "nativeOutside": [],
+      "svgTextOutside": []
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "scenes": 3,
+    "tables": 3,
+    "detailsOpen": true,
+    "tableFont": "16px"
+  }
+}

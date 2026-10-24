@@ -1,0 +1,28 @@
+{
+  "files": 43,
+  "links": 355,
+  "hashes": 76,
+  "runtime": [
+    {
+      "file": "styles.css",
+      "identical": true
+    },
+    {
+      "file": "visual.css",
+      "identical": true
+    },
+    {
+      "file": "deck-model.js",
+      "identical": true
+    },
+    {
+      "file": "visual.js",
+      "identical": true
+    },
+    {
+      "file": "app.js",
+      "identical": true
+    }
+  ],
+  "issues": []
+}

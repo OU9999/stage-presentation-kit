@@ -7,7 +7,7 @@
 })(typeof window !== "undefined" ? window : null, function () {
   "use strict";
   var layouts = Object.create(null);
-  ["cover", "statement", "section", "compare", "metric", "image", "demo", "quote", "steps", "closing", "chart", "media", "gallery", "mosaic", "results", "categories", "bento", "icon-wall", "metric-pair"].forEach(function (name) { layouts[name] = true; });
+  ["cover", "statement", "section", "compare", "metric", "image", "demo", "quote", "steps", "closing", "chart", "media", "gallery", "mosaic", "results", "categories", "bento", "icon-wall", "metric-pair", "visual"].forEach(function (name) { layouts[name] = true; });
   var owns = function (object, key) { return Object.prototype.hasOwnProperty.call(object, key); };
   var record = function (value) { return value !== null && typeof value === "object" && !Array.isArray(value); };
   var iconNames = ["brain", "price", "speed", "image", "voice", "record", "compare", "select", "share", "code", "chart", "search", "book", "calendar", "mail", "globe", "check", "folder", "music", "spark"];
@@ -67,6 +67,76 @@
       if (!found) return null;
     }
     return positions;
+  }
+
+  function validateVisual(visual, path, slideIndex) {
+    path = path || "visual";
+    var issues = [];
+    function error(key, message) { var result = { severity: "error", path: path + (key ? "." + key : ""), message: message }; if (slideIndex !== undefined) result.slideIndex = slideIndex; issues.push(result); }
+    function array(value, key) { if (!Array.isArray(value) || !value.length) { error(key, "한 개 이상의 항목을 배열로 입력하세요."); return false; } return true; }
+    function finite(value, key, nullable) { if (!(nullable && value === null) && (typeof value !== "number" || !Number.isFinite(value))) error(key, "유한한 숫자" + (nullable ? " 또는 관측값이 없는 null" : "") + "를 입력하세요. 숫자 문자열은 사용하지 않습니다."); }
+    function labels(value, key) { if (!array(value, key)) return false; value.forEach(function (item, i) { if (typeof item !== "string") error(key + "." + i, "라벨은 문자열로 입력하세요."); }); return true; }
+    function numbers(value, key, count, nullable, nonnegative) { if (!array(value, key)) return; if (value.length !== count) error(key, "라벨/축과 같은 " + count + "개 값을 입력하세요."); value.forEach(function (n, i) { finite(n, key + "." + i, nullable); if (nonnegative && typeof n === "number" && n < 0) error(key + "." + i, "이 표현은 0 이상의 원값을 사용합니다."); }); }
+    function domain(key) { if (visual[key] === undefined) return; var d = visual[key]; if (!Array.isArray(d) || d.length !== 2 || !d.every(function (n) { return typeof n === "number" && Number.isFinite(n); }) || d[0] >= d[1]) error(key, "작은 값, 큰 값 순서의 서로 다른 유한 숫자 두 개를 입력하세요."); }
+    if (!record(visual)) { error("", "kind와 해당 자료를 가진 visual 객체를 입력하세요."); return issues; }
+    var kinds = ["line", "bars", "composition", "funnel", "flow", "matrix", "timeline", "heatmap"];
+    if (kinds.indexOf(visual.kind) < 0) { error("kind", kinds.join(" / ") + " 중 하나를 입력하세요."); return issues; }
+    ["unit", "source", "period", "label", "xLabel", "yLabel"].forEach(function (key) { if (visual[key] !== undefined && typeof visual[key] !== "string") error(key, "문자열로 입력하세요."); });
+    if (visual.composition !== undefined && ["wide", "split"].indexOf(visual.composition) < 0) error("composition", "wide 또는 split을 입력하세요.");
+    if (visual.emphasis !== undefined && visual.emphasis !== "focus" && visual.emphasis !== "none") error("emphasis", "focus 또는 none을 입력하거나 생략하세요.");
+    domain("domain"); domain("xDomain"); domain("yDomain");
+    var count = 0;
+    if (["line", "bars", "composition", "funnel"].indexOf(visual.kind) >= 0) {
+      if (labels(visual.labels, "labels")) count = visual.labels.length;
+      var methods = Number(visual.values !== undefined) + Number(visual.series !== undefined) + Number(visual.numerators !== undefined || visual.denominators !== undefined);
+      if (methods !== 1) error("values", "values, series, numerators+denominators 중 한 방식만 입력하세요.");
+      var nonnegative = visual.kind === "composition" || visual.kind === "funnel";
+      if (visual.kind === "composition" && (visual.series !== undefined || visual.numerators !== undefined || visual.denominators !== undefined)) error("values", "구성비는 labels와 비음수 원값 values를 사용합니다.");
+      if (visual.values !== undefined) numbers(visual.values, "values", count, visual.kind !== "composition", nonnegative);
+      if (visual.kind === "composition" && Array.isArray(visual.values) && visual.values.every(function (n) { return typeof n === "number" && Number.isFinite(n); }) && !Number.isFinite(visual.values.reduce(function (sum, n) { return sum + n; }, 0))) error("values", "원값 합계가 유한한 범위를 벗어납니다. 단위를 바꾸거나 입력을 확인하세요.");
+      if (visual.series !== undefined && array(visual.series, "series")) visual.series.forEach(function (series, i) { var key = "series." + i; if (!record(series)) { error(key, "label과 values를 가진 객체를 입력하세요."); return; } if (series.label !== undefined && typeof series.label !== "string") error(key + ".label", "문자열로 입력하세요."); numbers(series.values, key + ".values", count, true, nonnegative); });
+      if (visual.numerators !== undefined || visual.denominators !== undefined) {
+        numbers(visual.numerators, "numerators", count, false, nonnegative);
+        numbers(visual.denominators, "denominators", count, false, false);
+        if (Array.isArray(visual.denominators)) visual.denominators.forEach(function (d, i) { if (typeof d === "number" && d !== 0 && Array.isArray(visual.numerators) && typeof visual.numerators[i] === "number" && !Number.isFinite(visual.numerators[i] / d * 100)) error("numerators." + i, "계산 결과가 유한한 범위를 벗어납니다. 단위를 바꾸거나 입력을 확인하세요."); if (d === 0) error("denominators." + i, "분모가 0이어서 비율을 계산할 수 없습니다. 관측값을 확인하세요."); if (typeof d === "number" && d < 0) error("denominators." + i, "비율 계산의 분모는 양수여야 합니다."); });
+      }
+    } else if (["flow", "matrix", "timeline"].indexOf(visual.kind) >= 0) {
+      if (array(visual.items, "items")) {
+        count = visual.items.length;
+        visual.items.forEach(function (item, i) {
+          var key = "items." + i;
+          if (visual.kind === "flow" && typeof item === "string") return;
+          if (!record(item)) { error(key, visual.kind === "flow" ? "문자열 또는 label 객체를 입력하세요." : "label과 좌표/기간을 가진 객체를 입력하세요."); return; }
+          if (typeof item.label !== "string") error(key + ".label", "문자열 라벨을 입력하세요.");
+          if (visual.kind === "matrix") { finite(item.x, key + ".x"); finite(item.y, key + ".y"); }
+          if (visual.kind === "timeline") { finite(item.start, key + ".start"); finite(item.end, key + ".end"); if (typeof item.start === "number" && typeof item.end === "number" && item.end < item.start) error(key + ".end", "종료는 시작보다 앞설 수 없습니다."); }
+        });
+      }
+      if (visual.links !== undefined) {
+        if (visual.kind !== "flow") error("links", "연결은 flow에서 사용하세요.");
+        else if (!Array.isArray(visual.links)) error("links", "from/to 연결 객체 배열을 입력하세요.");
+        else if (Array.isArray(visual.items)) {
+          var ids = Object.create(null);
+          visual.items.forEach(function (item, i) { var id = record(item) && item.id !== undefined ? item.id : i; if (record(item) && item.id !== undefined && typeof item.id !== "string") error("items." + i + ".id", "ID는 문자열로 입력하세요. 숫자 연결은 배열 인덱스입니다."); if (owns(ids, String(id))) error("items." + i + ".id", "연결에 쓰는 ID는 중복될 수 없습니다."); ids[String(id)] = true; });
+          visual.links.forEach(function (link, i) { if (!record(link)) { error("links." + i, "from/to 객체를 입력하세요."); return; } ["from", "to"].forEach(function (key) { var ref = link[key], valid = Number.isInteger(ref) ? ref >= 0 && ref < count : typeof ref === "string" && owns(ids, ref); if (!valid) error("links." + i + "." + key, "존재하는 항목 ID 또는 배열 인덱스를 입력하세요."); }); });
+        }
+      }
+    } else if (visual.kind === "heatmap") {
+      var hasRows = labels(visual.rows, "rows"), hasCols = labels(visual.columns, "columns");
+      if (array(visual.values, "values")) {
+        if (hasRows && visual.values.length !== visual.rows.length) error("values", "rows와 같은 수의 행을 입력하세요.");
+        visual.values.forEach(function (row, i) { numbers(row, "values." + i, hasCols ? visual.columns.length : 0, true, false); });
+      }
+      count = hasRows ? visual.rows.length : 0;
+    }
+    if (visual.focus !== undefined) (Array.isArray(visual.focus) ? visual.focus : [visual.focus]).forEach(function (index, i) { if (!Number.isInteger(index) || index < 0 || index >= count) error("focus" + (Array.isArray(visual.focus) ? "." + i : ""), "입력 항목 범위 안의 0부터 시작하는 정수 인덱스를 입력하세요."); });
+    return issues;
+  }
+
+  function visualSeries(visual) {
+    if (Array.isArray(visual.series)) return visual.series.map(function (s, i) { return { label: s.label || "계열 " + (i + 1), values: s.values.slice() }; });
+    if (Array.isArray(visual.numerators)) return [{ label: visual.label || "값", values: visual.numerators.map(function (n, i) { return n / visual.denominators[i] * 100; }) }];
+    return [{ label: visual.label || "값", values: Array.isArray(visual.values) ? visual.values.slice() : [] }];
   }
 
   function validateDeck(config) {
@@ -159,7 +229,7 @@
       var path = "slides." + slideIndex;
       if (!record(slide)) { issue("error", path, "이 슬라이드는 객체여야 합니다. null 또는 배열을 바꾸세요.", slideIndex); return; }
       if (typeof slide.layout !== "string" || !owns(layouts, slide.layout)) {
-        issue("error", path + ".layout", "지원하는 19개 layout 이름을 사용하세요.", slideIndex);
+        issue("error", path + ".layout", "지원하는 layout 이름을 사용하세요.", slideIndex);
         return;
       }
       ["id", "eyebrow", "subtitle", "notes", "highlight", "support", "source", "takeaway", "action", "url", "quote", "attribution", "label", "unit"].forEach(function (key) { text(slide, key, path, slideIndex); });
@@ -175,6 +245,7 @@
       choice(slide, "surface", ["butter"], path, slideIndex);
       choice(slide, "align", ["center"], path, slideIndex);
       if (slide.number !== undefined && typeof slide.number !== "string" && !Number.isFinite(slide.number)) issue("error", path + ".number", "섹션 번호는 문자열 또는 유한한 숫자여야 합니다.", slideIndex);
+      if (slide.layout === "visual") issues = issues.concat(validateVisual(slide.visual, path + ".visual", slideIndex));
       if (slide.layout === "metric") displayValue(slide, path, slideIndex);
       if (slide.layout === "compare") {
         ["left", "right"].forEach(function (side) {
@@ -272,5 +343,5 @@
     });
     return issues;
   }
-  return { validateDeck: validateDeck, packMosaic: packMosaic, bentoPreset: bentoPreset, iconWallSlots: iconWallSlots, iconNames: iconNames.slice(), normalizeIcon: normalizeIcon };
+  return { validateDeck: validateDeck, validateVisual: validateVisual, visualSeries: visualSeries, packMosaic: packMosaic, bentoPreset: bentoPreset, iconWallSlots: iconWallSlots, iconNames: iconNames.slice(), normalizeIcon: normalizeIcon };
 });

@@ -1,0 +1,65 @@
+{
+  "slides": [
+    {
+      "slug": "product-launch",
+      "count": 7,
+      "issues": []
+    },
+    {
+      "slug": "engineering-review",
+      "count": 7,
+      "issues": []
+    },
+    {
+      "slug": "photo-story",
+      "count": 7,
+      "issues": []
+    },
+    {
+      "slug": "workshop",
+      "count": 7,
+      "issues": []
+    },
+    {
+      "slug": "devday-compositions",
+      "count": 7,
+      "issues": []
+    },
+    {
+      "slug": "visual-story",
+      "count": 12,
+      "issues": []
+    }
+  ],
+  "total": 47,
+  "changedProtected": [],
+  "nondeterministic": [],
+  "outputs": {
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/product-launch/index.html": "36b79ba15a8cda5e3c987b40dfe4931ec43016532d0dfb386e8298e8ebbd6c39",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/product-launch/content.js": "be39bc3f3cdca15be00635a8aa2173458e558bb05babdf3bb85a666c0241db19",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/engineering-review/index.html": "c5c836acaf81d2f5d278df25d6515bbf43f723162e41b4d17bd428d9bdb989af",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/engineering-review/content.js": "6d6df6f07be23d3b7e6a7eb2334b86324cf4d5168787362eebe8bf0bcaf2fb08",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/photo-story/index.html": "eac4ddf0a68e8539738b53ce16b788e74777354ac7a64643ed427031e077450b",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/photo-story/content.js": "1b8efbbb6830d77ba465198317b12b996ce955a8acd0669b103b9c0c2b7d4f55",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/workshop/index.html": "b2c1290154605c1571454274d4156909f67d10b8a9dc509a6b2a77adbf24f712",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/workshop/content.js": "3fcf1dbfbd7bded30065e8d791a1e95c0759aa3547762859bfb7308dc03cf161",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/devday-compositions/index.html": "3ded2695f0ea024838a57370965ee1d15fcafdf053ff49c0044b5a7749252145",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/devday-compositions/content.js": "4770213b72ba00367fbaa20d0cab4100259cb9272110ce1a344ae4b39c622670",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/index.html": "5dbb72533a206378a500b957f9c4a194178a2c126d2a57e84377d835fe937001",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/data.html": "01e949e243c58c1a70377061a5b0cb15cfd575c22eafa92f05dedb5c218aa366",
+    "examples/visual-starter/index.html": "f07a63d726034b51ea19fdd0fac62fe949cab7c0f44b2cc38845e1cc50bbcb13",
+    "examples/visual-starter/data.html": "2405f1e04ecfa1bf039dc100f9467c5c0c3b35483a1cc0d01d635339d4672feb",
+    "examples/visual-starter/runtime/styles.css": "66752a982bf1a73ce19c7938c99f38a450d313f4c5d67b83c9dcf50e94478207",
+    "examples/visual-starter/runtime/visual.css": "a135350a6268e92b881b25b345391f0b3aeedd1de5f64680cec3224529e3634f",
+    "examples/visual-starter/runtime/deck-model.js": "398ae06f5ea53f0576fd9ed91a0f00f4dd6026d20fa689b453e072e4e86286ba",
+    "examples/visual-starter/runtime/visual.js": "8b6c81cb0cf73a12ab6dc04e78b95db17b463d0d0f66510a81edf890468d86b1",
+    "examples/visual-starter/runtime/app.js": "7e774f101b165cc23508053f57ff246e8a43a9c43bb7dd51834e00cb33bcf87a"
+  },
+  "runtime": {
+    "app.js": "7e774f101b165cc23508053f57ff246e8a43a9c43bb7dd51834e00cb33bcf87a",
+    "styles.css": "66752a982bf1a73ce19c7938c99f38a450d313f4c5d67b83c9dcf50e94478207",
+    "deck-model.js": "398ae06f5ea53f0576fd9ed91a0f00f4dd6026d20fa689b453e072e4e86286ba",
+    "visual.js": "8b6c81cb0cf73a12ab6dc04e78b95db17b463d0d0f66510a81edf890468d86b1",
+    "visual.css": "a135350a6268e92b881b25b345391f0b3aeedd1de5f64680cec3224529e3634f"
+  }
+}
