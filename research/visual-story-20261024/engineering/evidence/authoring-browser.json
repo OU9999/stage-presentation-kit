@@ -1,0 +1,87 @@
+{
+  "url": "file:///var/folders/_8/7g708b8d7mg66fk0n9d7gndh0000gn/T/visual-story-authoring-browser-7SL7kg/data.html",
+  "width": 390,
+  "documentWidth": 390,
+  "tables": 10,
+  "captions": 10,
+  "missingScope": 0,
+  "anchors": [
+    "periods",
+    "weekly",
+    "funnel",
+    "interviews",
+    "step-rates",
+    "journey",
+    "priorities",
+    "roadmap",
+    "effort",
+    "next-validation"
+  ],
+  "scrollers": [
+    {
+      "width": 352,
+      "scrollWidth": 610,
+      "tabIndex": 0
+    },
+    {
+      "width": 352,
+      "scrollWidth": 530,
+      "tabIndex": 0
+    },
+    {
+      "width": 352,
+      "scrollWidth": 648,
+      "tabIndex": 0
+    },
+    {
+      "width": 352,
+      "scrollWidth": 390,
+      "tabIndex": 0
+    },
+    {
+      "width": 352,
+      "scrollWidth": 940,
+      "tabIndex": 0
+    },
+    {
+      "width": 352,
+      "scrollWidth": 409,
+      "tabIndex": 0
+    },
+    {
+      "width": 352,
+      "scrollWidth": 501,
+      "tabIndex": 0
+    },
+    {
+      "width": 352,
+      "scrollWidth": 500,
+      "tabIndex": 0
+    },
+    {
+      "width": 352,
+      "scrollWidth": 646,
+      "tabIndex": 0
+    },
+    {
+      "width": 352,
+      "scrollWidth": 616,
+      "tabIndex": 0
+    }
+  ],
+  "font": "16px",
+  "links": [
+    {
+      "text": "발표로 돌아가기",
+      "href": "file:///var/folders/_8/7g708b8d7mg66fk0n9d7gndh0000gn/T/visual-story-authoring-browser-7SL7kg/index.html"
+    },
+    {
+      "text": "재생성 가이드",
+      "href": "file:///Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/README.md"
+    },
+    {
+      "text": "입력 data.json",
+      "href": "file:///Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/data.json"
+    }
+  ]
+}

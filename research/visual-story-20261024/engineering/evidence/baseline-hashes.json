@@ -1,0 +1,22 @@
+{
+  "app.js": "ec970a351872fe3bc57df3b8484e76bd741ac0fa8dafdbe68453e3ea4cc580b4",
+  "styles.css": "66752a982bf1a73ce19c7938c99f38a450d313f4c5d67b83c9dcf50e94478207",
+  "deck-model.js": "d62fc5037c36519b6ad7cc73dd322325c024ee6a9fe997d48e49d1fea1ed9956",
+  "content.js": "370215d8ac4af3123c4f08358bd82fa9554658a9a9baba4fd69f2d34eb84c424",
+  "index.html": "aa720aabb240f1432e0409cc7b50fa779a8d8ff0a4bb0db198adf010f2e13b10",
+  "examples/product-launch/slides.md": "dc3709c3867ec39e54e122c264281383da9946e449aef02f1da53db1b2be0a17",
+  "examples/product-launch/content.js": "be39bc3f3cdca15be00635a8aa2173458e558bb05babdf3bb85a666c0241db19",
+  "examples/product-launch/index.html": "dfbdcc20c09e29d823aee4d7730b3681ff5875d5f989e43c9d9d96d42cfedece",
+  "examples/engineering-review/slides.md": "9f33fca78aa466abdbcfd1511cf5159588176949a3bd1e21702fd64ca71a4a7c",
+  "examples/engineering-review/content.js": "6d6df6f07be23d3b7e6a7eb2334b86324cf4d5168787362eebe8bf0bcaf2fb08",
+  "examples/engineering-review/index.html": "084df58e5c6dc171101d666c8b47286ab05012a5741043bc9ae975d8973a432e",
+  "examples/photo-story/slides.md": "d493ed012e00316edc843856c8f2313fe3a0957ef293a2076790ff375514f1f4",
+  "examples/photo-story/content.js": "1b8efbbb6830d77ba465198317b12b996ce955a8acd0669b103b9c0c2b7d4f55",
+  "examples/photo-story/index.html": "873e3c2a013b84db42bad2b1a53090f57e0da1df05d8dccdd9abae3528b00889",
+  "examples/workshop/slides.md": "86a841c60a6e914bed6f87845b67fa88de8f79a11d82be621fe65f0e7af605e4",
+  "examples/workshop/content.js": "3fcf1dbfbd7bded30065e8d791a1e95c0759aa3547762859bfb7308dc03cf161",
+  "examples/workshop/index.html": "66ac07a76b7cfddbe529e3154707edc8935b41ed0f597186ece2b80763283d83",
+  "examples/devday-compositions/slides.md": "c3ce8bc212ca32bf01b7718379fd3d4728ae752180f95729a1dd2e83a334fcea",
+  "examples/devday-compositions/content.js": "4770213b72ba00367fbaa20d0cab4100259cb9272110ce1a344ae4b39c622670",
+  "examples/devday-compositions/index.html": "921cc345c47cd3c513722e56a2c3e96bcff8206ab035aa6b22dc292125ddf2f6"
+}

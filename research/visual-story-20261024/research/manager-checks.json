@@ -1,0 +1,67 @@
+{
+  "checksPassed": 18,
+  "checks": [
+    "12 ordered distinct weeks",
+    "cohort integer bounds",
+    "periods disjoint complete",
+    "period totals",
+    "overall totals",
+    "nested funnel baseline",
+    "nested funnel followup",
+    "stage rate rounding",
+    "percentage point change",
+    "relative percentage change",
+    "interview sum",
+    "display composition sum",
+    "initiative ids and scores",
+    "journey references",
+    "roadmap range",
+    "effort dimensions",
+    "effort totals",
+    "next plan references"
+  ],
+  "periods": {
+    "baseline": {
+      "registered": 1200,
+      "activated": 420
+    },
+    "rollout": {
+      "registered": 1200,
+      "activated": 546
+    },
+    "followup": {
+      "registered": 1200,
+      "activated": 660
+    }
+  },
+  "stageRates": {
+    "baseline": [
+      "70.0",
+      "71.4",
+      "70.0"
+    ],
+    "followup": [
+      "80.0",
+      "81.3",
+      "84.6"
+    ]
+  },
+  "largestStageChangePercentagePoints": "14.6",
+  "interviewDisplayShares": [
+    "37.5",
+    "25.0",
+    "20.8",
+    "16.7"
+  ],
+  "effortRows": [
+    6,
+    6,
+    6
+  ],
+  "effortColumns": [
+    5,
+    7,
+    6
+  ],
+  "totalPersonWeeks": 18
+}

@@ -1,0 +1,15 @@
+{
+  "newHtmlLocalReferences": 14,
+  "missing": [],
+  "plannedRootPdf": [
+    "output/pdf/visual-story.pdf"
+  ],
+  "inputSha256": "17cf742e0b54b82fba914f0663fd7303688348f9fff60cafcb153bef8c1053af",
+  "sourceSnapshotMatches": true,
+  "runtimeSlideRoutes": [
+    {
+      "file": "index.html",
+      "anchor": "#1"
+    }
+  ]
+}

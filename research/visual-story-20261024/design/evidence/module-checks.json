@@ -1,0 +1,79 @@
+{
+  "checks": [
+    {
+      "name": "renderFunnel",
+      "bytes": 4595,
+      "deterministic": true,
+      "immutableInput": true,
+      "externalRequests": false
+    },
+    {
+      "name": "renderTrend",
+      "bytes": 5481,
+      "deterministic": true,
+      "immutableInput": true,
+      "externalRequests": false
+    },
+    {
+      "name": "renderComposition",
+      "bytes": 3155,
+      "deterministic": true,
+      "immutableInput": true,
+      "externalRequests": false
+    },
+    {
+      "name": "renderStepRates",
+      "bytes": 3954,
+      "deterministic": true,
+      "immutableInput": true,
+      "externalRequests": false
+    },
+    {
+      "name": "renderJourney",
+      "bytes": 4570,
+      "deterministic": true,
+      "immutableInput": true,
+      "externalRequests": false
+    },
+    {
+      "name": "renderPriority",
+      "bytes": 5068,
+      "deterministic": true,
+      "immutableInput": true,
+      "externalRequests": false
+    },
+    {
+      "name": "renderRoadmap",
+      "bytes": 5507,
+      "deterministic": true,
+      "immutableInput": true,
+      "externalRequests": false
+    },
+    {
+      "name": "renderEffort",
+      "bytes": 5103,
+      "deterministic": true,
+      "immutableInput": true,
+      "externalRequests": false
+    }
+  ],
+  "numerical": {
+    "halfUp": "81.3%",
+    "observation": "+20%p",
+    "lastStep": "+14.6%p"
+  },
+  "files": [
+    {
+      "file": "scripts/visual-story/theme.cjs",
+      "sha256": "ce060d65ef85cff86443cd396f9a64ce47cc7f19ab32b68152eabc6b2adacfdd"
+    },
+    {
+      "file": "scripts/visual-story/charts.cjs",
+      "sha256": "3e29a71f10490a4ab16ade3272cb64090d217efb7c5deed51015e1e36401adb1"
+    },
+    {
+      "file": "scripts/visual-story/diagrams.cjs",
+      "sha256": "0b46f8872e4efb7a1ebc160c5086eff046aea7062b85e2af134977b88dc54bb0"
+    }
+  ]
+}

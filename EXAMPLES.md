@@ -1,11 +1,12 @@
 # 실제 연구를 반영한 예제
 
-## Markdown으로 만드는 다섯 가지 발표
+## 여섯 가지 발표와 두 작성 흐름
 
-[예제 모음 화면](examples/index.html)에서 실제 슬라이드의 미리보기와 발표·원문·PDF를 함께 볼 수 있습니다. [다섯 가지 결과 이미지](examples/previews/collection.png)도 제공합니다. 각 발표는 원문을 수정한 뒤 `node scripts/build-examples.cjs`로 다시 만들 수 있습니다. 자세한 입력 방식은 [MARKDOWN.md](MARKDOWN.md)에 있습니다.
+[예제 모음 화면](examples/index.html)에서 실제 슬라이드의 미리보기와 발표·원문·PDF를 함께 볼 수 있습니다. [여섯 가지 결과 이미지](examples/previews/collection.png)도 제공합니다. 기존 다섯 발표는 Markdown을, 데이터 발표는 data.json을 수정한 뒤 `node scripts/build-examples.cjs`로 다시 만들 수 있습니다. 자세한 입력 방식은 [MARKDOWN.md](MARKDOWN.md)에 있습니다.
 
 | 예제 | 구성과 색의 역할 | 원문 | 결과 |
 | --- | --- | --- | --- |
+| 숫자·그래프·도식 | 가상 12주 제품 개선, KPI·퍼널·추세·구성비·흐름·우선순위·일정·히트맵 | [data.json](examples/visual-story/data.json) · [가이드](examples/visual-story/README.md) | [발표](examples/visual-story/index.html) · [계산표](examples/visual-story/data.html) · [PDF](output/pdf/visual-story.pdf) |
 | 현장 구성 연구 | SF의 사진·의미색 범주, 서울의 아이콘월·두 수치, 서울·도쿄 혼합 타일 | [slides.md](examples/devday-compositions/slides.md) | [발표](examples/devday-compositions/index.html) · [PDF](output/pdf/devday-compositions.pdf) |
 | 제품 소개 | Stage 바탕, 주황 한 문장, 주요 수치, 문서·UI 결과와 시연 | [slides.md](examples/product-launch/slides.md) | [발표](examples/product-launch/index.html) · [PDF](output/pdf/product-launch.pdf) |
 | 기술 개선 보고 | Stage 검정 바탕, 전후 비교, 단일 도표, 파랑 한 문장, 다음 행동 | [slides.md](examples/engineering-review/slides.md) | [발표](examples/engineering-review/index.html) · [PDF](output/pdf/engineering-review.pdf) |
@@ -14,7 +15,9 @@
 
 이 예제들은 실제 회사·제품·연구 결과에 대한 주장이 아닙니다. 수치·발언은 가상으로 만들었고 사진은 기존 크레딧의 스톡 자료를 재사용했습니다. 생성된 HTML은 공통 `app.js`·`styles.css`·`deck-model.js`와 `assets/`를 참조하므로 공유할 때는 저장소 폴더 전체를 함께 옮깁니다. Markdown 작성·변환·발표에 AI 서비스는 필요하지 않습니다.
 
-다섯 발표는 각 7장·총 35장이며, 공통 렌더러는 19개 양식을 지원합니다. 기본 무대는 모두 Stage 검정 바탕입니다. DevDay 세션에서 참고한 큰 타이포와 여백을 공통으로 유지하고, 레이아웃·사진 구성·강조색으로 주제에 맞는 변화를 만듭니다. 사진·작품·문서·UI 자체의 원래 색과 밝기는 유지합니다.
+기존 다섯 발표는 각 7장, 데이터 발표는 12장·총 47장이며, 공통 렌더러는 19개 양식을 지원합니다. 기본 무대는 모두 Stage 검정 바탕입니다. DevDay 세션에서 참고한 큰 타이포와 여백을 공통으로 유지하고, 레이아웃·사진 구성·강조색으로 주제에 맞는 변화를 만듭니다. 사진·작품·문서·UI 자체의 원래 색과 밝기는 유지합니다.
+
+데이터 예제의 수정 원본은 `data.json` 하나이며, 숫자 포함 `slides.md`·SVG 여덟 개·`data.html`·발표 파일을 함께 재생성합니다. 생성 Markdown을 손편집 원본으로 오인하지 마세요. 작은 그림의 세부 수치·분모·관계는 같은 입력에서 만든 실제 HTML 표로 읽습니다.
 
 **이전 네 예제의 검증 이력:** 2026-10-23 Chromium에서 28장을 실제로 탐색해 입력 오류·분량 경고·미디어 로딩 실패가 없음을 확인했습니다. 390px 읽기 모드와 네 발표의 `file://` 실행, 각 7페이지 PDF도 확인했습니다. Markdown 문장을 수정한 뒤 재생성하고 브라우저를 새로고침해 새 데이터 주소와 실제 문장 변경을 검증했습니다. `node --test tests/*.test.cjs`는 기존 43개와 Markdown 19개, 총 62개를 통과했습니다. PDF와 미리보기 이미지는 이후 원문 수정 시 별도로 다시 저장합니다. 이 기록은 이번 현장 구성 추가분의 브라우저 검증을 뜻하지 않습니다.
 

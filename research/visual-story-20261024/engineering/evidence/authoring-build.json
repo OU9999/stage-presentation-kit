@@ -1,0 +1,62 @@
+{
+  "examples": [
+    {
+      "slug": "product-launch",
+      "slides": 7,
+      "issues": []
+    },
+    {
+      "slug": "engineering-review",
+      "slides": 7,
+      "issues": []
+    },
+    {
+      "slug": "photo-story",
+      "slides": 7,
+      "issues": []
+    },
+    {
+      "slug": "workshop",
+      "slides": 7,
+      "issues": []
+    },
+    {
+      "slug": "devday-compositions",
+      "slides": 7,
+      "issues": []
+    },
+    {
+      "slug": "visual-story",
+      "slides": 12,
+      "issues": []
+    }
+  ],
+  "slideTotal": 47,
+  "generatedFiles": 22,
+  "changedOld": [],
+  "nondeterministic": [],
+  "hashes": {
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/product-launch/content.js": "be39bc3f3cdca15be00635a8aa2173458e558bb05babdf3bb85a666c0241db19",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/product-launch/index.html": "dfbdcc20c09e29d823aee4d7730b3681ff5875d5f989e43c9d9d96d42cfedece",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/engineering-review/content.js": "6d6df6f07be23d3b7e6a7eb2334b86324cf4d5168787362eebe8bf0bcaf2fb08",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/engineering-review/index.html": "084df58e5c6dc171101d666c8b47286ab05012a5741043bc9ae975d8973a432e",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/photo-story/content.js": "1b8efbbb6830d77ba465198317b12b996ce955a8acd0669b103b9c0c2b7d4f55",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/photo-story/index.html": "873e3c2a013b84db42bad2b1a53090f57e0da1df05d8dccdd9abae3528b00889",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/workshop/content.js": "3fcf1dbfbd7bded30065e8d791a1e95c0759aa3547762859bfb7308dc03cf161",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/workshop/index.html": "66ac07a76b7cfddbe529e3154707edc8935b41ed0f597186ece2b80763283d83",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/devday-compositions/content.js": "4770213b72ba00367fbaa20d0cab4100259cb9272110ce1a344ae4b39c622670",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/devday-compositions/index.html": "921cc345c47cd3c513722e56a2c3e96bcff8206ab035aa6b22dc292125ddf2f6",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/slides.md": "dfbfd0a96b9ac074dab2526e9aa8718cfb628e99803e3a13cb55672e100e99c0",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/content.js": "5919d18c90beca0a8fb4f50e99b9e254fc928d4ed8da2b9ed815677cb683ebcd",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/index.html": "e3e4eceda2aba7c2d0ee96159f5f1e2129114b72a0e5029df7883eaeaa354196",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/data.html": "cff4f9e91d0d854c90938be0a9580e2a484537b6040357a04517b77e4d0ed5a8",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/assets/funnel.svg": "74098aa9c3fe6b2a0720a4cea59d41200ffbbb5efa910653e28fc41370140173",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/assets/trend.svg": "a0c885c0b62a5818d2a5721027930797629b555b26859c8f4df737d0d31da46a",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/assets/composition.svg": "d04326eb28b846675738ad29dac85c2181438d4e540265a63e3d2d4a0db62164",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/assets/step-rates.svg": "80de799d8602c6f1a1c784374f1b3f9ae8ea29ba3d0b3de8f98bf64151ed32c1",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/assets/journey.svg": "0419d2a5a34acbe45d8efdb8782952ac78b1e283597dba82b3ddebe024beeef3",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/assets/priorities.svg": "9cf4125e24458b7df9b7b4667affd9a1f774b32edc895060e14dd4c07a8c8cd1",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/assets/roadmap.svg": "792378d4e83146ed30a755df027420141393e826bb79ae0eeb3cdac2c7c26ce7",
+    "/Users/ou9999/Documents/stage-presentation-kit/examples/visual-story/assets/effort.svg": "9ebe4287541175ed9fa2a1e59e65394d85117b9bb5ae3d957425793cc47ffd55"
+  }
+}

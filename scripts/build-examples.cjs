@@ -2,13 +2,16 @@
 "use strict";
 const path = require("node:path");
 const { buildDeck } = require("./markdown-deck.cjs");
+const { buildVisualStory } = require("./build-visual-story.cjs");
 const repoRoot = path.resolve(__dirname, "..");
 const slugs = ["product-launch", "engineering-review", "photo-story", "workshop", "devday-compositions"];
 function buildExamples() {
-  return slugs.map(slug => {
+  const results = slugs.map(slug => {
     const directory = path.join(repoRoot, "examples", slug);
     return { slug, ...buildDeck(path.join(directory, "slides.md"), directory, { repoRoot }) };
   });
+  results.push({ slug: "visual-story", ...buildVisualStory() });
+  return results;
 }
 module.exports = { buildExamples };
 if (require.main === module) {

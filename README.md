@@ -6,11 +6,11 @@
 
 [전체 예제 미리보기](example-preview.png) · [표지 미리보기](preview.png) · [샘플 PDF](output/pdf/stage-sample.pdf) · [디자인 가이드](DESIGN.md) · [입력 계약과 수량](CONFIG.md) · [원본 장면 비교 보드](research/index.html) · [사진·컬러 비교 보드](research/color.html) · [실제 세션 조사와 수정 기준](research/decisions.md)
 
-**[Markdown 발표 예제 5개·35장 열기](examples/index.html)** · [다섯 가지 결과 미리보기](examples/previews/collection.png) · [Markdown 작성법](MARKDOWN.md)
+**[발표 예제 6개·47장 열기](examples/index.html)** · [여섯 가지 결과 미리보기](examples/previews/collection.png) · [Markdown 작성법](MARKDOWN.md)
 
-제품 소개·기술 개선 보고·사진 중심 이야기·워크숍·현장 구성 연구를 각각 7장짜리 별도 발표로 제공합니다. 공통 렌더러는 19개 양식을 지원합니다. 각 폴더에는 수정할 `slides.md`와 바로 열 수 있는 `index.html`이 있고, [PDF](output/pdf/)도 함께 보관합니다. 수치와 제품명은 양식 설명용 가상 예시입니다.
+제품 소개·기술 개선 보고·사진 중심 이야기·워크숍·현장 구성 연구는 각각 7장입니다. 새 [숫자·그래프·도식 예제](examples/visual-story/index.html)는 가상 제품 개선을 12장으로 설명합니다. 총 47장이며 공통 렌더러는 기존 19개 양식을 사용합니다. 기존 다섯 예제는 `slides.md`, 데이터 예제는 [data.json](examples/visual-story/data.json)이 수정 원본입니다. [데이터·계산표](examples/visual-story/data.html)와 [재생성 가이드](examples/visual-story/README.md), [PDF](output/pdf/)를 함께 제공합니다. 수치와 제품명은 양식 설명용 가상 예시입니다.
 
-다섯 예제 모두 **Stage 검정 바탕·큰 글자·넉넉한 여백**을 기본으로 합니다. 사진과 결과물은 원래 컬러를 살리고, 강조 문장과 범주의 색으로 흐름을 만듭니다.
+여섯 예제 모두 **Stage 검정 바탕·큰 글자·넉넉한 여백**을 기본으로 합니다. 사진과 결과물은 원래 컬러를 살리고, 강조 문장과 범주의 색으로 흐름을 만듭니다.
 
 [컬러·모션 개선 비교](research/color-motion-20261024/index.html)에서 원본 근거와 개선 화면을 볼 수 있습니다. 강조색은 핵심 문장·이름·수치·선택한 막대에 집중하고, 보조 라벨과 경계는 중립으로 유지합니다. `motion`으로 짧은 전환·제목 등장·항목 순차 등장·차트 진입을 선택할 수 있습니다.
 
@@ -46,7 +46,7 @@ open index.html
 3. 생성된 `index.html`을 열어 발표합니다. 생성 후 재생에는 Node.js가 필요하지 않습니다.
 
 ```sh
-# 저장소의 다섯 가지 예제 다시 생성
+# 저장소의 여섯 가지 예제 다시 생성
 node scripts/build-examples.cjs
 
 # 수정한 Markdown을 새 폴더에 생성
@@ -55,7 +55,17 @@ node scripts/markdown-deck.cjs examples/product-launch/slides.md examples/my-tal
 
 이 입력기는 STAGE에서 지원하는 Markdown 문법을 사용합니다. Marp 테마·지시문 호환을 뜻하지 않습니다. 사진·도표·콜라주에는 작은 배치 설정을 함께 작성합니다. [지원 문법과 매핑](MARKDOWN.md)을 확인하세요.
 
-Markdown을 쓰는 발표는 `slides.md`가 원본입니다. 생성된 `content.js`를 직접 고치거나 화면에서 편집한 내용은 Markdown으로 돌아오지 않습니다. 오래 보관할 수정은 원문에 반영한 뒤 재생성하세요. PDF와 미리보기 이미지는 자동 갱신하지 않으므로 최종 내용으로 다시 저장해야 합니다.
+기존 다섯 Markdown 발표는 `slides.md`가 원본입니다. 생성된 `content.js`를 직접 고치거나 화면에서 편집한 내용은 Markdown으로 돌아오지 않습니다. 오래 보관할 수정은 원문에 반영한 뒤 재생성하세요. PDF와 미리보기 이미지는 자동 갱신하지 않으므로 최종 내용으로 다시 저장해야 합니다.
+
+## 데이터로 그래프·도식 발표 만들기
+
+[12장 데이터 이야기](examples/visual-story/index.html)는 KPI와 여덟 SVG를 하나의 가상 프로젝트로 엮습니다. 수정 원본은 `examples/visual-story/data.json` 하나입니다. 원본 정수에서 비율·차이를 계산해 숫자 포함 Markdown·SVG·내용 파일·HTML 표를 함께 생성합니다.
+
+```sh
+node scripts/build-visual-story.cjs
+```
+
+이 예제의 `slides.md`는 생성물이므로 손편집 원본으로 사용하지 않습니다. 화면 편집·content.js 내보내기는 SVG·표·data.json으로 역반영되지 않습니다. 작은 SVG 라벨은 [실제 HTML 표와 계산](examples/visual-story/data.html)에서 읽을 수 있습니다. [수정 범위와 재생성 안내](examples/visual-story/README.md)를 따르세요.
 
 ## Params로 새 발표 만들기
 
@@ -126,7 +136,7 @@ Markdown을 선호하면 [현장 구성 원고](examples/devday-compositions/sli
 | `app.js` | 렌더링·탐색·편집·발표자 창·작성자 점검 |
 | `deck-model.js` | 입력 검증과 콜라주 배치 |
 | `CONFIG.md` | 파라미터 계약·수량·오류 복구 |
-| `examples/` | 다섯 가지 Markdown 발표·35장 생성 결과·갤러리·기존 params 예제 |
+| `examples/` | 기존 다섯 Markdown 발표와 데이터 발표·47장 생성 결과·갤러리·기존 params 예제 |
 | `scripts/` | 패키지 설치 없는 Markdown 변환·예제 일괄 생성 |
 | `MARKDOWN.md` | 지원 Markdown 문법과 변환 규칙 |
 | `DEPLOYMENT.md` | 공개 발표 주소·작성부터 같은 링크 갱신까지의 사용 절차 |

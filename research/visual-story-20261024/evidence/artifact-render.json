@@ -1,0 +1,209 @@
+{
+  "slides": [
+    {
+      "index": 0,
+      "layout": "cover",
+      "label": "1. 첫 경험을, 다음 행동으로.",
+      "images": [],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "index": 1,
+      "layout": "metric-pair",
+      "label": "2. 활성화율의 관찰 차이, +20%p.",
+      "images": [],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "index": 2,
+      "layout": "image",
+      "label": "3. 첫 공유까지, 어디가 달랐을까?",
+      "images": [
+        {
+          "src": "assets/funnel.svg",
+          "loaded": true
+        }
+      ],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "index": 3,
+      "layout": "image",
+      "label": "4. 변화가 이어지는 시간을 봅니다.",
+      "images": [
+        {
+          "src": "assets/trend.svg",
+          "loaded": true
+        }
+      ],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "index": 4,
+      "layout": "image",
+      "label": "5. 사람들이 말한, 첫 마찰.",
+      "images": [
+        {
+          "src": "assets/composition.svg",
+          "loaded": true
+        }
+      ],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "index": 5,
+      "layout": "image",
+      "label": "6. 다음 연결을, 더 자세히.",
+      "images": [
+        {
+          "src": "assets/step-rates.svg",
+          "loaded": true
+        }
+      ],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "index": 6,
+      "layout": "image",
+      "label": "7. 마찰을, 다음 행동에 연결합니다.",
+      "images": [
+        {
+          "src": "assets/journey.svg",
+          "loaded": true
+        }
+      ],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "index": 7,
+      "layout": "image",
+      "label": "8. 무엇을 먼저, 확인할까요?",
+      "images": [
+        {
+          "src": "assets/priorities.svg",
+          "loaded": true
+        }
+      ],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "index": 8,
+      "layout": "image",
+      "label": "9. 관찰에서, 적용과 확인까지.",
+      "images": [
+        {
+          "src": "assets/roadmap.svg",
+          "loaded": true
+        }
+      ],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "index": 9,
+      "layout": "image",
+      "label": "10. 사람의 시간을, 나눠 봅니다.",
+      "images": [
+        {
+          "src": "assets/effort.svg",
+          "loaded": true
+        }
+      ],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "index": 10,
+      "layout": "steps",
+      "label": "11. 관찰 차이 다음에는, 다시 검증합니다.",
+      "images": [],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    },
+    {
+      "index": 11,
+      "layout": "closing",
+      "label": "12. 작게 적용하고, 같은 기준으로 다시 봅니다.",
+      "images": [],
+      "clip": {
+        "x": 100,
+        "y": 158,
+        "width": 1600,
+        "height": 900
+      }
+    }
+  ],
+  "pdf": {
+    "visible": 12,
+    "running": 0,
+    "bytes": 721246
+  },
+  "previews": [
+    {
+      "path": "examples/previews/visual-story.png",
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "path": "examples/previews/visual-story-overview.png",
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 675
+    }
+  ]
+}

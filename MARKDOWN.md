@@ -5,7 +5,7 @@ Markdown은 원고이고, `content.js`는 브라우저가 읽는 변환 결과�
 **Node.js 18 이상**이 필요합니다. npm 설치나 추가 의존성은 없습니다. 생성한 발표를 보는 데에는 Node.js가 필요하지 않습니다.
 
 ```sh
-# 준비된 예제 다섯 개를 모두 다시 생성
+# 준비된 예제 여섯 개를 모두 다시 생성
 node scripts/build-examples.cjs
 
 # 원하는 원고 하나를 원하는 폴더에 생성
@@ -207,7 +207,7 @@ node scripts/markdown-deck.cjs examples/photo-story/slides.md /tmp/my-photo-pres
 
 이 명령은 출력 폴더의 `index.html`, `content.js`만 만듭니다. HTML은 공유 `styles.css`, `deck-model.js`, `app.js`를 상대 경로로 참조하므로 배포·이동할 때에는 공유 런타임과 미디어도 함께 있어야 합니다. 기본 예제는 저장소 폴더 구조 그대로 복사하면 됩니다. 임의의 출력 폴더를 웹 서버로 열 때에는 이 상대 경로들이 같은 서버에서 접근 가능한지도 확인하세요.
 
-로컬 미디어 파일이 없으면 빌드가 실패합니다. HTTP(S), `file:` URL과 이미지·영상 `data:` URI도 입력할 수 있지만, 다섯 예제는 모두 로컬 자산만 사용합니다. `mailto:`·`javascript:` 같은 미디어에 맞지 않는 URI는 오류입니다. 사진 출처 파일은 빌드가 변경하지 않습니다.
+로컬 미디어 파일이 없으면 빌드가 실패합니다. HTTP(S), `file:` URL과 이미지·영상 `data:` URI도 입력할 수 있지만, 여섯 예제는 모두 로컬 자산만 사용합니다. `mailto:`·`javascript:` 같은 미디어에 맞지 않는 URI는 오류입니다. 사진 출처 파일은 빌드가 변경하지 않습니다.
 
 공유 자산과 생성 데이터에는 실제 내용의 해시를 query로 붙여 다시 빌드한 결과가 이전 캐시에 가려지지 않도록 합니다. 빌드 때 시각을 삽입하지 않아 같은 입력과 런타임에서는 같은 파일이 생성됩니다.
 
@@ -227,3 +227,9 @@ const { deck: built, issues, files } = buildDeck(inputPath, outputDir, { repoRoo
 ```
 
 `parseMarkdown`은 원고를 데이터로 바꾸며 파일을 쓰거나 미디어의 실재 여부를 검사하지 않습니다. `sourcePath`와 `outputDir`을 함께 주면 미디어 경로를 재계산합니다. `buildDeck`은 모델과 실제 파일까지 검사한 뒤 두 출력 파일을 만듭니다. 잘못된 입력은 `Error`로 보고합니다.
+
+## data.json에서 생성하는 예제
+
+[숫자·그래프·도식 예제](examples/visual-story/README.md)의 `slides.md`는 `data.json`에서 계산해 생성하는 파일입니다. 기존 다섯 Markdown 예제의 작성 원본 계약과 다릅니다. 수치·관계를 바꿀 때는 `examples/visual-story/data.json`을 수정하고 `node scripts/build-visual-story.cjs`를 실행합니다. `node scripts/build-examples.cjs`에도 이 과정이 포함됩니다.
+
+같은 명령이 숫자 포함 Markdown·여덟 SVG·content.js·index.html·[읽을 수 있는 데이터 표](examples/visual-story/data.html)를 갱신합니다. 생성 Markdown이나 SVG의 숫자를 따로 수정하면 다음 생성 때 덮어씁니다. native 문구의 브라우저 편집과 내보내기는 데이터 원본·SVG·표로 역반영되지 않습니다.

@@ -1,0 +1,30 @@
+{
+  "offline": {
+    "url": "file:///var/folders/_8/7g708b8d7mg66fk0n9d7gndh0000gn/T/stage-visual-story-manager-iSzl9s/examples/visual-story/index.html#1",
+    "slides": 12,
+    "loadedSvg": 8,
+    "documentWidth": 390,
+    "viewport": 390,
+    "headerWidth": 390,
+    "dataLink": "file:///var/folders/_8/7g708b8d7mg66fk0n9d7gndh0000gn/T/stage-visual-story-manager-iSzl9s/examples/visual-story/data.html"
+  },
+  "restored": {
+    "title": "검증한 다음 행동으로.",
+    "status": "저장한 편집 내용",
+    "motion": "rise"
+  },
+  "read": {
+    "mode": "read",
+    "width": 390,
+    "documentWidth": 390,
+    "visible": 12,
+    "images": 8,
+    "running": 0
+  },
+  "tableLink": {
+    "url": "file:///var/folders/_8/7g708b8d7mg66fk0n9d7gndh0000gn/T/stage-visual-story-manager-iSzl9s/examples/visual-story/data.html",
+    "tables": 10,
+    "width": 390,
+    "documentWidth": 390
+  }
+}

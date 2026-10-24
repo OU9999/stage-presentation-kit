@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-10-24T12:33:29.578Z",
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "drawings": [
+      {
+        "id": "funnel",
+        "viewBox": "0 0 1280 640",
+        "title": true,
+        "description": true,
+        "minFont": 26,
+        "outside": [],
+        "collisions": []
+      },
+      {
+        "id": "trend",
+        "viewBox": "0 0 1280 640",
+        "title": true,
+        "description": true,
+        "minFont": 26,
+        "outside": [],
+        "collisions": []
+      },
+      {
+        "id": "composition",
+        "viewBox": "0 0 1280 640",
+        "title": true,
+        "description": true,
+        "minFont": 26,
+        "outside": [],
+        "collisions": []
+      },
+      {
+        "id": "step-rates",
+        "viewBox": "0 0 1280 640",
+        "title": true,
+        "description": true,
+        "minFont": 26,
+        "outside": [],
+        "collisions": []
+      },
+      {
+        "id": "journey",
+        "viewBox": "0 0 1280 640",
+        "title": true,
+        "description": true,
+        "minFont": 26,
+        "outside": [],
+        "collisions": []
+      },
+      {
+        "id": "priorities",
+        "viewBox": "0 0 1280 640",
+        "title": true,
+        "description": true,
+        "minFont": 26,
+        "outside": [],
+        "collisions": []
+      },
+      {
+        "id": "roadmap",
+        "viewBox": "0 0 1280 640",
+        "title": true,
+        "description": true,
+        "minFont": 26,
+        "outside": [],
+        "collisions": []
+      },
+      {
+        "id": "effort",
+        "viewBox": "0 0 1280 640",
+        "title": true,
+        "description": true,
+        "minFont": 26,
+        "outside": [],
+        "collisions": []
+      }
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "svgCount": 8,
+    "minNativeText": 13,
+    "caveat": "디자인 검토용 시안입니다. 작은 화면의 SVG 세부 축·라벨은 축소되므로 최종 예제에는 같은 데이터의 요약과 실제 HTML 표를 함께 제공합니다. 원본과 집계 기준은 데이터 계약에 있습니다."
+  }
+}

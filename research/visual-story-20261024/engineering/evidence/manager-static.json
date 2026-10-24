@@ -1,0 +1,75 @@
+{
+  "protectedFiles": 20,
+  "changedProtectedFiles": 0,
+  "arithmetic": {
+    "baseline": {
+      "registered": 1200,
+      "activated": 420
+    },
+    "followup": {
+      "registered": 1200,
+      "activated": 660
+    },
+    "activationDifference": "20.0",
+    "lastStepDifference": "14.6",
+    "stepRounding": "81.3",
+    "effortTotal": 18
+  },
+  "xml": [
+    "examples/visual-story/assets/effort.svg",
+    "examples/visual-story/assets/funnel.svg",
+    "examples/visual-story/assets/roadmap.svg",
+    "examples/visual-story/assets/journey.svg",
+    "examples/visual-story/assets/priorities.svg",
+    "examples/visual-story/assets/composition.svg",
+    "examples/visual-story/assets/step-rates.svg",
+    "examples/visual-story/assets/trend.svg"
+  ],
+  "newDeckQueries": [
+    "../../styles.css?v=66752a982bf1",
+    "content.js?v=e87810a01eee",
+    "../../deck-model.js?v=d62fc5037c36",
+    "../../app.js?v=ec970a351872"
+  ],
+  "beforeSvgVersioningQueries": [
+    "../../styles.css?v=66752a982bf1",
+    "content.js?v=cda4951191e9",
+    "../../deck-model.js?v=d62fc5037c36",
+    "../../app.js?v=ec970a351872"
+  ],
+  "svgQueries": [
+    {
+      "src": "assets/funnel.svg?v=74098aa9c3fe",
+      "match": true
+    },
+    {
+      "src": "assets/trend.svg?v=a0c885c0b62a",
+      "match": true
+    },
+    {
+      "src": "assets/composition.svg?v=d04326eb28b8",
+      "match": true
+    },
+    {
+      "src": "assets/step-rates.svg?v=80de799d8602",
+      "match": true
+    },
+    {
+      "src": "assets/journey.svg?v=0419d2a5a34a",
+      "match": true
+    },
+    {
+      "src": "assets/priorities.svg?v=9cf4125e2445",
+      "match": true
+    },
+    {
+      "src": "assets/roadmap.svg?v=792378d4e831",
+      "match": true
+    },
+    {
+      "src": "assets/effort.svg?v=9ebe42875411",
+      "match": true
+    }
+  ],
+  "finalizedBy": "/root"
+}

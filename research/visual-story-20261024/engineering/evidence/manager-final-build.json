@@ -1,0 +1,145 @@
+{
+  "examples": [
+    {
+      "slug": "product-launch",
+      "slides": 7,
+      "issues": 0
+    },
+    {
+      "slug": "engineering-review",
+      "slides": 7,
+      "issues": 0
+    },
+    {
+      "slug": "photo-story",
+      "slides": 7,
+      "issues": 0
+    },
+    {
+      "slug": "workshop",
+      "slides": 7,
+      "issues": 0
+    },
+    {
+      "slug": "devday-compositions",
+      "slides": 7,
+      "issues": 0
+    },
+    {
+      "slug": "visual-story",
+      "slides": 12,
+      "issues": 0
+    }
+  ],
+  "deterministicOutputs": 22,
+  "protectedFiles": 20,
+  "hashes": {
+    "examples/product-launch/content.js": "be39bc3f3cdca15be00635a8aa2173458e558bb05babdf3bb85a666c0241db19",
+    "examples/product-launch/index.html": "dfbdcc20c09e29d823aee4d7730b3681ff5875d5f989e43c9d9d96d42cfedece",
+    "examples/engineering-review/content.js": "6d6df6f07be23d3b7e6a7eb2334b86324cf4d5168787362eebe8bf0bcaf2fb08",
+    "examples/engineering-review/index.html": "084df58e5c6dc171101d666c8b47286ab05012a5741043bc9ae975d8973a432e",
+    "examples/photo-story/content.js": "1b8efbbb6830d77ba465198317b12b996ce955a8acd0669b103b9c0c2b7d4f55",
+    "examples/photo-story/index.html": "873e3c2a013b84db42bad2b1a53090f57e0da1df05d8dccdd9abae3528b00889",
+    "examples/workshop/content.js": "3fcf1dbfbd7bded30065e8d791a1e95c0759aa3547762859bfb7308dc03cf161",
+    "examples/workshop/index.html": "66ac07a76b7cfddbe529e3154707edc8935b41ed0f597186ece2b80763283d83",
+    "examples/devday-compositions/content.js": "4770213b72ba00367fbaa20d0cab4100259cb9272110ce1a344ae4b39c622670",
+    "examples/devday-compositions/index.html": "921cc345c47cd3c513722e56a2c3e96bcff8206ab035aa6b22dc292125ddf2f6",
+    "examples/visual-story/slides.md": "25e9d0f2d4a865607651d40f353677c9e37cabfa58842b567dac6c1d24a83788",
+    "examples/visual-story/content.js": "e87810a01eee204315723b4856bb42470f211192c90c5ea3fc9067edecacdd96",
+    "examples/visual-story/index.html": "d2b8e04241586898d1199c590fc2835b971454e6ad22e0ce21d543a9aa3e22bb",
+    "examples/visual-story/data.html": "1b1dfd399941b16c0002691350daef34b0b3bc0ab4fa2b272171c7d08f87389a",
+    "examples/visual-story/assets/funnel.svg": "74098aa9c3fe6b2a0720a4cea59d41200ffbbb5efa910653e28fc41370140173",
+    "examples/visual-story/assets/trend.svg": "a0c885c0b62a5818d2a5721027930797629b555b26859c8f4df737d0d31da46a",
+    "examples/visual-story/assets/composition.svg": "d04326eb28b846675738ad29dac85c2181438d4e540265a63e3d2d4a0db62164",
+    "examples/visual-story/assets/step-rates.svg": "80de799d8602c6f1a1c784374f1b3f9ae8ea29ba3d0b3de8f98bf64151ed32c1",
+    "examples/visual-story/assets/journey.svg": "0419d2a5a34acbe45d8efdb8782952ac78b1e283597dba82b3ddebe024beeef3",
+    "examples/visual-story/assets/priorities.svg": "9cf4125e24458b7df9b7b4667affd9a1f774b32edc895060e14dd4c07a8c8cd1",
+    "examples/visual-story/assets/roadmap.svg": "792378d4e83146ed30a755df027420141393e826bb79ae0eeb3cdac2c7c26ce7",
+    "examples/visual-story/assets/effort.svg": "9ebe4287541175ed9fa2a1e59e65394d85117b9bb5ae3d957425793cc47ffd55"
+  },
+  "correction": "Removed unrelated comparison windows from SVG-slide source notes; clarified activation-definition grammar. SVG figures and native slide text unchanged.",
+  "sourceHashes": {
+    "scripts/visual-story/data.cjs": "92ada1f6ce6db070e331f60b6c5e225c62f9d7a235e65679de06a0d8e455e23c",
+    "scripts/visual-story/tables.cjs": "5c6e84f141987c8e7d373d0ee5552f6a298d2d8acd52e3f87dffab2d6e4973a4",
+    "scripts/visual-story/diagrams.cjs": "a283a654e01dc55de0ccccd77a2285f0df948288159b035c8fa839cc68cc2c4c",
+    "scripts/visual-story/theme.cjs": "b896155099328e805f570c8384c35a6596b3a09c3c5a2131dde6f877b3ecda33",
+    "scripts/visual-story/authoring.cjs": "0e76604f4976ee07cb76cae637abf5034c25a9812c57a664a19e10ec243c13d5",
+    "scripts/visual-story/charts.cjs": "e89193c224356e9fa4cfad5626998cfb6165f1d9e07aabe2f7a39c8b78e37218",
+    "scripts/build-visual-story.cjs": "e46f7c1f7a2b0d1113712d15344dea7753127746be1646e727c1ef97b6e5f806",
+    "scripts/build-examples.cjs": "da14a6958a169c3d2a71f54f5e63816b3e2cec9559d5d01ea709ea6cf3fb8a42",
+    "tests/visual-story.test.cjs": "a75a8320e549e2d4613432e45e389d76baa90585abfb6380b8708d483e56b37d"
+  },
+  "beforeSvgVersioning": {
+    "hashes": {
+      "examples/product-launch/content.js": "be39bc3f3cdca15be00635a8aa2173458e558bb05babdf3bb85a666c0241db19",
+      "examples/product-launch/index.html": "dfbdcc20c09e29d823aee4d7730b3681ff5875d5f989e43c9d9d96d42cfedece",
+      "examples/engineering-review/content.js": "6d6df6f07be23d3b7e6a7eb2334b86324cf4d5168787362eebe8bf0bcaf2fb08",
+      "examples/engineering-review/index.html": "084df58e5c6dc171101d666c8b47286ab05012a5741043bc9ae975d8973a432e",
+      "examples/photo-story/content.js": "1b8efbbb6830d77ba465198317b12b996ce955a8acd0669b103b9c0c2b7d4f55",
+      "examples/photo-story/index.html": "873e3c2a013b84db42bad2b1a53090f57e0da1df05d8dccdd9abae3528b00889",
+      "examples/workshop/content.js": "3fcf1dbfbd7bded30065e8d791a1e95c0759aa3547762859bfb7308dc03cf161",
+      "examples/workshop/index.html": "66ac07a76b7cfddbe529e3154707edc8935b41ed0f597186ece2b80763283d83",
+      "examples/devday-compositions/content.js": "4770213b72ba00367fbaa20d0cab4100259cb9272110ce1a344ae4b39c622670",
+      "examples/devday-compositions/index.html": "921cc345c47cd3c513722e56a2c3e96bcff8206ab035aa6b22dc292125ddf2f6",
+      "examples/visual-story/slides.md": "404ba13a3e660ed4da1b519c9ae09d16eb2a830e6641a76d256f7bf41b9f5ad7",
+      "examples/visual-story/content.js": "cda4951191e9ee75fac59072c3a0fee1ae0f7a6b2bc8e959799e4d5236fc0d23",
+      "examples/visual-story/index.html": "2e93e53c9982fda7502ea4fe1dab4905db725de83ce53c3bcc51284587643841",
+      "examples/visual-story/data.html": "1b1dfd399941b16c0002691350daef34b0b3bc0ab4fa2b272171c7d08f87389a",
+      "examples/visual-story/assets/funnel.svg": "74098aa9c3fe6b2a0720a4cea59d41200ffbbb5efa910653e28fc41370140173",
+      "examples/visual-story/assets/trend.svg": "a0c885c0b62a5818d2a5721027930797629b555b26859c8f4df737d0d31da46a",
+      "examples/visual-story/assets/composition.svg": "d04326eb28b846675738ad29dac85c2181438d4e540265a63e3d2d4a0db62164",
+      "examples/visual-story/assets/step-rates.svg": "80de799d8602c6f1a1c784374f1b3f9ae8ea29ba3d0b3de8f98bf64151ed32c1",
+      "examples/visual-story/assets/journey.svg": "0419d2a5a34acbe45d8efdb8782952ac78b1e283597dba82b3ddebe024beeef3",
+      "examples/visual-story/assets/priorities.svg": "9cf4125e24458b7df9b7b4667affd9a1f774b32edc895060e14dd4c07a8c8cd1",
+      "examples/visual-story/assets/roadmap.svg": "792378d4e83146ed30a755df027420141393e826bb79ae0eeb3cdac2c7c26ce7",
+      "examples/visual-story/assets/effort.svg": "9ebe4287541175ed9fa2a1e59e65394d85117b9bb5ae3d957425793cc47ffd55"
+    },
+    "sourceHashes": {
+      "scripts/visual-story/data.cjs": "92ada1f6ce6db070e331f60b6c5e225c62f9d7a235e65679de06a0d8e455e23c",
+      "scripts/visual-story/tables.cjs": "5c6e84f141987c8e7d373d0ee5552f6a298d2d8acd52e3f87dffab2d6e4973a4",
+      "scripts/visual-story/diagrams.cjs": "a283a654e01dc55de0ccccd77a2285f0df948288159b035c8fa839cc68cc2c4c",
+      "scripts/visual-story/theme.cjs": "b896155099328e805f570c8384c35a6596b3a09c3c5a2131dde6f877b3ecda33",
+      "scripts/visual-story/authoring.cjs": "2a685373a158e9065cdf9ec8128e2401617f210390cd4c3fd0bc8743dd9676cb",
+      "scripts/visual-story/charts.cjs": "e89193c224356e9fa4cfad5626998cfb6165f1d9e07aabe2f7a39c8b78e37218",
+      "scripts/build-visual-story.cjs": "8a30c7c802b9d42b4ea95624af1f773725f758fd3e181c04982bae99eaef8285",
+      "scripts/build-examples.cjs": "da14a6958a169c3d2a71f54f5e63816b3e2cec9559d5d01ea709ea6cf3fb8a42",
+      "tests/visual-story.test.cjs": "b8b6cb06bec0d516dd855e9f007b526f1dd78d378c71304142746ab5d8b2dbd5"
+    }
+  },
+  "svgQueries": [
+    {
+      "src": "assets/funnel.svg?v=74098aa9c3fe",
+      "match": true
+    },
+    {
+      "src": "assets/trend.svg?v=a0c885c0b62a",
+      "match": true
+    },
+    {
+      "src": "assets/composition.svg?v=d04326eb28b8",
+      "match": true
+    },
+    {
+      "src": "assets/step-rates.svg?v=80de799d8602",
+      "match": true
+    },
+    {
+      "src": "assets/journey.svg?v=0419d2a5a34a",
+      "match": true
+    },
+    {
+      "src": "assets/priorities.svg?v=9cf4125e2445",
+      "match": true
+    },
+    {
+      "src": "assets/roadmap.svg?v=792378d4e831",
+      "match": true
+    },
+    {
+      "src": "assets/effort.svg?v=9ebe42875411",
+      "match": true
+    }
+  ],
+  "finalizedBy": "/root",
+  "finalization": "After the engineering manager added SVG SHA queries and reran 181 tests, root independently rechecked the final tests, current hashes and actual browser resources. Previous hashes are retained."
+}

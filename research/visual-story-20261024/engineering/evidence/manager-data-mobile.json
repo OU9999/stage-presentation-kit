@@ -1,0 +1,133 @@
+{
+  "url": "http://localhost:4317/examples/visual-story/data.html#periods",
+  "width": 390,
+  "documentWidth": 390,
+  "tables": 10,
+  "captions": 10,
+  "missingScopes": 0,
+  "regions": [
+    {
+      "section": "periods",
+      "width": 352,
+      "scrollWidth": 610,
+      "tabindex": 0,
+      "minimumFont": 16
+    },
+    {
+      "section": "weekly",
+      "width": 352,
+      "scrollWidth": 530,
+      "tabindex": 0,
+      "minimumFont": 16
+    },
+    {
+      "section": "funnel",
+      "width": 352,
+      "scrollWidth": 648,
+      "tabindex": 0,
+      "minimumFont": 16
+    },
+    {
+      "section": "interviews",
+      "width": 352,
+      "scrollWidth": 390,
+      "tabindex": 0,
+      "minimumFont": 16
+    },
+    {
+      "section": "step-rates",
+      "width": 352,
+      "scrollWidth": 940,
+      "tabindex": 0,
+      "minimumFont": 16
+    },
+    {
+      "section": "journey",
+      "width": 352,
+      "scrollWidth": 409,
+      "tabindex": 0,
+      "minimumFont": 16
+    },
+    {
+      "section": "priorities",
+      "width": 352,
+      "scrollWidth": 501,
+      "tabindex": 0,
+      "minimumFont": 16
+    },
+    {
+      "section": "roadmap",
+      "width": 352,
+      "scrollWidth": 500,
+      "tabindex": 0,
+      "minimumFont": 16
+    },
+    {
+      "section": "effort",
+      "width": 352,
+      "scrollWidth": 646,
+      "tabindex": 0,
+      "minimumFont": 16
+    },
+    {
+      "section": "next-validation",
+      "width": 352,
+      "scrollWidth": 616,
+      "tabindex": 0,
+      "minimumFont": 16
+    }
+  ],
+  "anchors": [
+    {
+      "hash": "#periods",
+      "exists": true
+    },
+    {
+      "hash": "#weekly",
+      "exists": true
+    },
+    {
+      "hash": "#funnel",
+      "exists": true
+    },
+    {
+      "hash": "#interviews",
+      "exists": true
+    },
+    {
+      "hash": "#step-rates",
+      "exists": true
+    },
+    {
+      "hash": "#journey",
+      "exists": true
+    },
+    {
+      "hash": "#priorities",
+      "exists": true
+    },
+    {
+      "hash": "#roadmap",
+      "exists": true
+    },
+    {
+      "hash": "#effort",
+      "exists": true
+    },
+    {
+      "hash": "#next-validation",
+      "exists": true
+    }
+  ],
+  "periodRows": [
+    "기준\tW1–W4\t1,200\t420\t35%",
+    "변경 적용\tW5–W8\t1,200\t546\t45.5%",
+    "후반 관찰\tW9–W12\t1,200\t660\t55%"
+  ],
+  "effortTotal": "기간별 합계\t5\t7\t6\t18",
+  "keyboardScroll": {
+    "section": "step-rates",
+    "scrollLeft": 40,
+    "focused": true
+  }
+}
