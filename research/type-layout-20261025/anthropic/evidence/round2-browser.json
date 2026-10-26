@@ -1,0 +1,303 @@
+{
+  "checks": [
+    {
+      "index": 0,
+      "width": 1600,
+      "bodyScroll": 1600,
+      "stage": {
+        "width": 1600,
+        "height": 900
+      },
+      "outside": [],
+      "tableRows": 0,
+      "compact": null
+    },
+    {
+      "index": 1,
+      "width": 1600,
+      "bodyScroll": 1600,
+      "stage": {
+        "width": 1600,
+        "height": 900
+      },
+      "outside": [],
+      "hero": "660",
+      "tableRows": 4,
+      "details": false,
+      "compact": null
+    },
+    {
+      "index": 2,
+      "width": 1600,
+      "bodyScroll": 1600,
+      "stage": {
+        "width": 1600,
+        "height": 900
+      },
+      "outside": [],
+      "hero": "58",
+      "tableRows": 12,
+      "details": false,
+      "compact": {
+        "display": "none",
+        "height": 0
+      }
+    },
+    {
+      "index": 3,
+      "width": 1600,
+      "bodyScroll": 1600,
+      "stage": {
+        "width": 1600,
+        "height": 900
+      },
+      "outside": [],
+      "tableRows": 4,
+      "details": false,
+      "compact": null
+    },
+    {
+      "index": 4,
+      "width": 1600,
+      "bodyScroll": 1600,
+      "stage": {
+        "width": 1600,
+        "height": 900
+      },
+      "outside": [],
+      "tableRows": 0,
+      "compact": null
+    },
+    {
+      "index": 5,
+      "width": 1600,
+      "bodyScroll": 1600,
+      "stage": {
+        "width": 1600,
+        "height": 900
+      },
+      "outside": [],
+      "hero": "72.5",
+      "tableRows": 7,
+      "details": false,
+      "compact": {
+        "display": "none",
+        "height": 0
+      }
+    },
+    {
+      "index": 6,
+      "width": 1600,
+      "bodyScroll": 1600,
+      "stage": {
+        "width": 1600,
+        "height": 900
+      },
+      "outside": [],
+      "hero": "9,876,543.2",
+      "tableRows": 2,
+      "details": false,
+      "compact": null
+    },
+    {
+      "index": 0,
+      "width": 1068,
+      "bodyScroll": 1068,
+      "stage": {
+        "width": 1068,
+        "height": 840
+      },
+      "outside": [],
+      "tableRows": 0,
+      "compact": null
+    },
+    {
+      "index": 1,
+      "width": 1068,
+      "bodyScroll": 1068,
+      "stage": {
+        "width": 1068,
+        "height": 840
+      },
+      "outside": [],
+      "hero": "660",
+      "tableRows": 4,
+      "details": false,
+      "compact": null
+    },
+    {
+      "index": 2,
+      "width": 1068,
+      "bodyScroll": 1068,
+      "stage": {
+        "width": 1068,
+        "height": 840
+      },
+      "outside": [],
+      "hero": "58",
+      "tableRows": 12,
+      "details": false,
+      "compact": {
+        "display": "none",
+        "height": 0
+      }
+    },
+    {
+      "index": 3,
+      "width": 1068,
+      "bodyScroll": 1068,
+      "stage": {
+        "width": 1068,
+        "height": 840
+      },
+      "outside": [],
+      "tableRows": 4,
+      "details": false,
+      "compact": null
+    },
+    {
+      "index": 4,
+      "width": 1068,
+      "bodyScroll": 1068,
+      "stage": {
+        "width": 1068,
+        "height": 840
+      },
+      "outside": [],
+      "tableRows": 0,
+      "compact": null
+    },
+    {
+      "index": 5,
+      "width": 1068,
+      "bodyScroll": 1068,
+      "stage": {
+        "width": 1068,
+        "height": 840
+      },
+      "outside": [],
+      "hero": "72.5",
+      "tableRows": 7,
+      "details": false,
+      "compact": {
+        "display": "none",
+        "height": 0
+      }
+    },
+    {
+      "index": 6,
+      "width": 1068,
+      "bodyScroll": 1068,
+      "stage": {
+        "width": 1068,
+        "height": 840
+      },
+      "outside": [],
+      "hero": "9,876,543.2",
+      "tableRows": 2,
+      "details": false,
+      "compact": null
+    },
+    {
+      "index": 0,
+      "width": 390,
+      "bodyScroll": 390,
+      "stage": {
+        "width": 390,
+        "height": 734
+      },
+      "outside": [],
+      "tableRows": 0,
+      "compact": null
+    },
+    {
+      "index": 1,
+      "width": 390,
+      "bodyScroll": 390,
+      "stage": {
+        "width": 390,
+        "height": 1292.484375
+      },
+      "outside": [],
+      "hero": "660",
+      "tableRows": 4,
+      "details": true,
+      "compact": null
+    },
+    {
+      "index": 2,
+      "width": 390,
+      "bodyScroll": 390,
+      "stage": {
+        "width": 390,
+        "height": 1516.6640625
+      },
+      "outside": [],
+      "hero": "58",
+      "tableRows": 12,
+      "details": true,
+      "compact": {
+        "display": "block",
+        "height": 228
+      }
+    },
+    {
+      "index": 3,
+      "width": 390,
+      "bodyScroll": 390,
+      "stage": {
+        "width": 390,
+        "height": 959.0546875
+      },
+      "outside": [],
+      "tableRows": 4,
+      "details": true,
+      "compact": null
+    },
+    {
+      "index": 4,
+      "width": 390,
+      "bodyScroll": 390,
+      "stage": {
+        "width": 390,
+        "height": 734
+      },
+      "outside": [],
+      "tableRows": 0,
+      "compact": null
+    },
+    {
+      "index": 5,
+      "width": 390,
+      "bodyScroll": 390,
+      "stage": {
+        "width": 390,
+        "height": 1225.9921875
+      },
+      "outside": [],
+      "hero": "72.5",
+      "tableRows": 7,
+      "details": true,
+      "compact": {
+        "display": "block",
+        "height": 228
+      }
+    },
+    {
+      "index": 6,
+      "width": 390,
+      "bodyScroll": 390,
+      "stage": {
+        "width": 390,
+        "height": 857.40625
+      },
+      "outside": [],
+      "hero": "9,876,543.2",
+      "tableRows": 2,
+      "details": true,
+      "compact": null
+    }
+  ],
+  "editPreserved": true,
+  "note": "독립시안정적관찰; 제품저장/내보내기검증아님; background RAF1회timeout후reload/sync관찰. CSS?r=2로최종교정로딩."
+}

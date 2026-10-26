@@ -1,0 +1,16 @@
+{
+  "corpusExactMatch": true,
+  "sourceSlides": [
+    "opening",
+    "funnel",
+    "weekly",
+    "journey"
+  ],
+  "syntax": [
+    "shared/corpus.js",
+    "apple-openai/prototype.js",
+    "anthropic/prototype.js"
+  ],
+  "localLinks": 58,
+  "missing": []
+}

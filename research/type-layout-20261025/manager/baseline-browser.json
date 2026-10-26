@@ -1,0 +1,210 @@
+[
+  {
+    "slide": "",
+    "index": "0",
+    "body": "present",
+    "fields": [
+      {
+        "class": "slide-title",
+        "text": "첫 경험을,다음 행동으로.",
+        "font": "130px",
+        "lineHeight": "149.5px",
+        "width": 667,
+        "height": 299,
+        "x": 505,
+        "y": 307,
+        "screenWidth": 590,
+        "screenHeight": 264
+      },
+      {
+        "class": "slide-subtitle",
+        "text": "12주 가상 제품 개선 프로젝트",
+        "font": "30px",
+        "lineHeight": "46.5px",
+        "width": 328,
+        "height": 47,
+        "x": 655,
+        "y": 610,
+        "screenWidth": 290,
+        "screenHeight": 41
+      }
+    ]
+  },
+  {
+    "slide": "",
+    "index": "2",
+    "body": "present",
+    "fields": [
+      {
+        "class": "slide-title",
+        "text": "첫 공유까지, 어디가 달랐을까?",
+        "font": "64px",
+        "lineHeight": "73.6px",
+        "width": 533,
+        "height": 147,
+        "x": 174,
+        "y": 179,
+        "screenWidth": 471,
+        "screenHeight": 130
+      },
+      {
+        "class": "slide-subtitle",
+        "text": "각 기간의 같은 단계 인원을 비교합니다.",
+        "font": "27px",
+        "lineHeight": "40.5px",
+        "width": 533,
+        "height": 41,
+        "x": 174,
+        "y": 329,
+        "screenWidth": 471,
+        "screenHeight": 36
+      },
+      {
+        "class": "visual-context",
+        "text": "단위: 명",
+        "font": "19px",
+        "lineHeight": "28.5px",
+        "width": 533,
+        "height": 29,
+        "x": 174,
+        "y": 380,
+        "screenWidth": 471,
+        "screenHeight": 25
+      },
+      {
+        "class": "visual-hero",
+        "text": "660명첫 공유",
+        "font": "16px",
+        "lineHeight": "normal",
+        "width": 533,
+        "height": 184,
+        "x": 174,
+        "y": 557,
+        "screenWidth": 471,
+        "screenHeight": 163
+      },
+      {
+        "class": "q-plot q-rows q-funnel visual-plot",
+        "text": "[plot]",
+        "font": "16px",
+        "lineHeight": "normal",
+        "width": 799,
+        "height": 752,
+        "x": 719,
+        "y": 179,
+        "screenWidth": 707,
+        "screenHeight": 665
+      }
+    ]
+  },
+  {
+    "slide": "",
+    "index": "3",
+    "body": "present",
+    "fields": [
+      {
+        "class": "slide-title",
+        "text": "변화가 이어지는 시간을 봅니다.",
+        "font": "72px",
+        "lineHeight": "82.8px",
+        "width": 1185,
+        "height": 83,
+        "x": 174,
+        "y": 179,
+        "screenWidth": 1048,
+        "screenHeight": 73
+      },
+      {
+        "class": "slide-subtitle",
+        "text": "가입 후 7일 내 첫 프로젝트 공유 · 마지막 코호트도 W13 종료까지 추적",
+        "font": "27px",
+        "lineHeight": "40.5px",
+        "width": 1040,
+        "height": 41,
+        "x": 174,
+        "y": 272,
+        "screenWidth": 920,
+        "screenHeight": 36
+      },
+      {
+        "class": "visual-context",
+        "text": "단위: %",
+        "font": "19px",
+        "lineHeight": "28.5px",
+        "width": 1185,
+        "height": 29,
+        "x": 174,
+        "y": 323,
+        "screenWidth": 1048,
+        "screenHeight": 25
+      },
+      {
+        "class": "visual-hero",
+        "text": "58%W12",
+        "font": "16px",
+        "lineHeight": "normal",
+        "width": 189,
+        "height": 184,
+        "x": 1259,
+        "y": 182,
+        "screenWidth": 167,
+        "screenHeight": 163
+      },
+      {
+        "class": "q-plot q-line visual-plot",
+        "text": "[plot]",
+        "font": "16px",
+        "lineHeight": "normal",
+        "width": 1416,
+        "height": 530,
+        "x": 174,
+        "y": 375,
+        "screenWidth": 1252,
+        "screenHeight": 469
+      }
+    ]
+  },
+  {
+    "slide": "",
+    "index": "6",
+    "body": "present",
+    "fields": [
+      {
+        "class": "slide-title",
+        "text": "마찰을, 다음 행동에 연결합니다.",
+        "font": "72px",
+        "lineHeight": "82.8px",
+        "width": 1400,
+        "height": 83,
+        "x": 174,
+        "y": 179,
+        "screenWidth": 1238,
+        "screenHeight": 73
+      },
+      {
+        "class": "slide-subtitle",
+        "text": "제안 기능과 경험의 순서 · 실제 이동량이나 인과 관계가 아님",
+        "font": "27px",
+        "lineHeight": "40.5px",
+        "width": 1040,
+        "height": 41,
+        "x": 174,
+        "y": 272,
+        "screenWidth": 920,
+        "screenHeight": 36
+      },
+      {
+        "class": "system-plot system-flow-plot visual-plot",
+        "text": "[plot]",
+        "font": "16px",
+        "lineHeight": "normal",
+        "width": 1416,
+        "height": 577,
+        "x": 174,
+        "y": 334,
+        "screenWidth": 1252,
+        "screenHeight": 510
+      }
+    ]
+  }
+]

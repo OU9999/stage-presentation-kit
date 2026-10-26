@@ -3,21 +3,28 @@
 .layout-visual[data-theme="paper"],.visual-data-page[data-theme="paper"] { --visual-blue:#275f89;--visual-green:#2d6a43;--visual-purple:#73519e;--visual-orange:#a54a27;--visual-cell-ink:#f2f0e8; }
 .layout-visual:not([data-tone]) { --slide-accent:var(--visual-blue); }
 .layout-visual { container-type:inline-size; }
-.layout-visual .slide-body { display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto minmax(0,1fr);grid-template-areas:"copy hero" "plot plot";gap:30px 42px; }
-.visual-copy { grid-area:copy;min-width:0; }
-.layout-visual .slide-title { font-size:72px;line-height:1.15; }
-.layout-visual .slide-subtitle { font-size:27px;line-height:1.5;margin-top:22px; }
-.visual-context { color:var(--slide-muted);font-size:19px;line-height:1.5;margin:18px 0 0; }
-.visual-hero { grid-area:hero;align-self:center;text-align:right;min-width:0; }
-.visual-hero-value { font-size:136px;line-height:1;letter-spacing:-.065em;color:var(--slide-accent);font-variant-numeric:tabular-nums; }
-.visual-hero-unit { font-size:42px;line-height:1.2;margin-left:8px;color:var(--slide-muted); }
-.visual-hero-label { color:var(--slide-muted);font-size:21px;line-height:1.45;margin:18px 0 0; }
+.layout-visual .slide-body { display:grid;grid-template-columns:minmax(0,1fr) 300px;grid-template-rows:auto minmax(0,1fr);grid-template-areas:"copy hero" "plot plot";gap:40px 48px; }
+.visual-copy { grid-area:copy;min-width:0;align-self:start; }
+.layout-visual .slide-title { font-size:74px;line-height:1.18;max-width:15em;letter-spacing:-.045em; }
+.layout-visual .slide-subtitle { font-size:26px;line-height:1.55;margin-top:24px;max-width:36em;text-wrap:pretty; }
+.visual-context { color:var(--slide-muted);font-size:18px;line-height:1.5;margin:16px 0 0; }
+.visual-hero { grid-area:hero;align-self:start;text-align:right;min-width:0; }
+.visual-hero-line { display:flex;justify-content:flex-end;align-items:baseline;gap:8px; }
+.visual-hero-value { display:inline-block;flex:0 0 auto;white-space:nowrap;font-size:128px;line-height:1;letter-spacing:-.065em;color:var(--slide-accent);font-variant-numeric:tabular-nums; }
+.visual-hero-unit { flex:0 0 auto;font-size:40px;line-height:1.2;color:var(--slide-muted); }
+.visual-hero-label { color:var(--slide-muted);font-size:22px;line-height:1.5;margin:16px 0 0;overflow-wrap:anywhere; }
 .visual-plot { grid-area:plot;min-width:0;min-height:0;width:100%;align-self:stretch; }
 .visual-plot svg { display:block;width:100%;height:100%;overflow:visible; }
-.layout-visual[data-composition="split"] .slide-body { grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);grid-template-rows:auto minmax(0,1fr);grid-template-areas:"copy plot" "hero plot";column-gap:84px; }
+.layout-visual[data-composition="split"] .slide-body { grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);grid-template-rows:auto minmax(0,1fr);grid-template-areas:"copy hero" "copy plot";column-gap:80px;row-gap:32px; }
 .layout-visual[data-composition="split"] .visual-hero { text-align:left; }
-.layout-visual[data-composition="split"] .slide-title { font-size:64px; }
+.layout-visual[data-composition="split"] .visual-hero-line { justify-content:flex-start; }
+.layout-visual[data-composition="split"] .slide-title { font-size:64px;line-height:1.2;max-width:11em; }
 .layout-visual[data-has-hero="false"] .slide-body { grid-template-columns:minmax(0,1fr);grid-template-areas:"copy" "plot"; }
+.layout-visual.has-long-value .slide-body,.layout-visual.has-long-copy .slide-body { grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto minmax(0,1fr);grid-template-areas:"copy" "hero" "plot";gap:28px; }
+.layout-visual.has-long-copy .slide-title { font-size:64px;max-width:19em; }
+.layout-visual.has-long-value .visual-hero,.layout-visual.has-long-copy .visual-hero { text-align:left; }
+.layout-visual.has-long-value .visual-hero-line,.layout-visual.has-long-copy .visual-hero-line { justify-content:flex-start;flex-wrap:wrap; }
+.layout-visual[data-kind="flow"]:not(.has-long-copy) .slide-body { grid-template-rows:auto auto;align-content:center;row-gap:72px; }
 .visual-data-details { display:none;grid-column:1/-1;min-width:0; }
 .visual-data-details summary { cursor:pointer;font-size:16px;color:var(--slide-muted);padding:16px 0; }
 .visual-table-scroll { width:100%;max-width:100%;overflow:auto; }
@@ -32,7 +39,9 @@
 .visual-json-input { width:100%;min-height:300px;resize:vertical;background:var(--chrome-bg);color:var(--chrome-text);border:1px solid var(--chrome-border);padding:16px;font:14px/1.6 ui-monospace,SFMono-Regular,monospace;tab-size:2; }
 .visual-json-errors { color:#f1b68d;white-space:pre-wrap;line-height:1.65;font-size:14px; }
 .visual-json-actions { display:flex;gap:12px;justify-content:flex-end;margin-top:20px; }
-body[data-mode="read"] #slideStage .layout-visual .slide-body { display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto auto auto;grid-template-areas:"copy hero" "plot plot" "data data";gap:36px; }
+body[data-mode="read"] #slideStage .layout-visual .slide-body { display:grid;grid-template-columns:minmax(0,1fr) 260px;grid-template-rows:auto auto auto;grid-template-areas:"copy hero" "plot plot" "data data";gap:36px; }
+body[data-mode="read"] #slideStage .layout-visual[data-has-hero="false"] .slide-body { grid-template-columns:minmax(0,1fr);grid-template-areas:"copy" "plot" "data"; }
+body[data-mode="read"] #slideStage .layout-visual.has-long-value .slide-body,body[data-mode="read"] #slideStage .layout-visual.has-long-copy .slide-body { grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto auto auto;grid-template-areas:"copy" "hero" "plot" "data"; }
 body[data-mode="read"] #slideStage .layout-visual .visual-data-details { display:block;grid-area:data; }
 body[data-mode="read"] #slideStage .layout-visual .visual-plot { min-height:280px; }
 body[data-mode="read"] #slideStage .layout-visual .q-line-svg { height:350px; }
@@ -49,22 +58,23 @@ body[data-mode="read"] #slideStage .layout-visual .q-line-svg { height:350px; }
 
 
 /* The logical presentation keeps readable diagram names; short flows use the space. */
-.layout-visual .flow-title { font-size:36px;line-height:1.4; }
+.layout-visual .flow-title { font-size:38px;line-height:1.4; }
 .layout-visual .system-flow:has(> :nth-child(2):last-child) .flow-title { font-size:52px; }
 .layout-visual .matrix-readable { font-size:21px; }
 .layout-visual .matrix-readable .matrix-collision-note { font-size:18px; }
 @media(max-width:740px) {
  body[data-mode="read"] #slideStage .layout-visual .slide-inner { min-height:0; }
  body[data-mode="read"] #slideStage .layout-visual .slide-body { display:flex;flex-direction:column;gap:28px; }
- body[data-mode="read"] #slideStage .layout-visual .slide-title { font-size:34px;line-height:1.25; }
- body[data-mode="read"] #slideStage .layout-visual .slide-subtitle { font-size:17px;margin-top:18px; }
+ body[data-mode="read"] #slideStage .layout-visual .slide-title { font-size:35px;line-height:1.26; }
+ body[data-mode="read"] #slideStage .layout-visual .slide-subtitle { font-size:18px;line-height:1.65;margin-top:24px; }
  body[data-mode="read"] #slideStage .layout-visual .visual-context { font-size:13px;margin-top:16px; }
- body[data-mode="read"] #slideStage .layout-visual .visual-hero { text-align:left;align-self:flex-start; }
- body[data-mode="read"] #slideStage .layout-visual .visual-hero-value { font-size:86px; }
- body[data-mode="read"] #slideStage .layout-visual .visual-hero-unit { font-size:30px; }
- body[data-mode="read"] #slideStage .layout-visual .visual-hero-label { font-size:15px;margin-top:12px; }
+ body[data-mode="read"] #slideStage .layout-visual .visual-hero { text-align:left;align-self:stretch;max-width:100%; }
+ body[data-mode="read"] #slideStage .layout-visual .visual-hero-line { justify-content:flex-start;flex-wrap:wrap; }
+ body[data-mode="read"] #slideStage .layout-visual .visual-hero-value { font-size:80px; }
+ body[data-mode="read"] #slideStage .layout-visual .visual-hero-unit { font-size:26px; }
+ body[data-mode="read"] #slideStage .layout-visual .visual-hero-label { font-size:16px;margin-top:12px; }
  body[data-mode="read"] #slideStage .layout-visual .visual-plot { min-height:0; }
- body[data-mode="read"] #slideStage .layout-visual .flow-title { font-size:23px; }
+ body[data-mode="read"] #slideStage .layout-visual .flow-title { font-size:24px;line-height:1.45; }
  body[data-mode="read"] #slideStage .layout-visual .matrix-readable { font-size:16px; }
  body[data-mode="read"] #slideStage .layout-visual .matrix-readable .matrix-collision-note { font-size:14px; }
  body[data-mode="read"] #slideStage .layout-visual .visual-data-details { display:block; }

@@ -11,7 +11,7 @@ function buildExamples() {
     return { slug, ...buildDeck(path.join(directory, "slides.md"), directory, { repoRoot }) };
   });
   results.push({ slug: "visual-story", ...refreshDirectDeck(path.join(repoRoot, "examples/visual-story"), { repoRoot }) });
-  refreshDirectDeck(path.join(repoRoot, "examples/visual-starter"), { repoRoot, standalone: true });
+  ["visual-starter", "text-layout"].forEach(slug => refreshDirectDeck(path.join(repoRoot, "examples", slug), { repoRoot, standalone: true }));
   return results;
 }
 module.exports = { buildExamples };

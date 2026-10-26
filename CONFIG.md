@@ -112,6 +112,8 @@ window.PRESENTATION = {
 
 시작점은 [실행 스타터](examples/visual-starter/index.html)와 [한 파일 원본](examples/visual-starter.js)입니다. 설치·빌드·SVG 편집·프로젝트 전체 스키마는 필요하지 않습니다. 화면의 시각자료 JSON 편집은 그림·강조값·읽기 표에 즉시 반영되고 내보낸 content.js로 보관합니다. 별도 data.html은 같은 디스크 원본을 읽으므로 내보낸 파일을 교체한 뒤 새로고침합니다.
 
+`wide`는 제목과300px 강조값 열 아래로 차트를 전폭 배치합니다. `split`은 왼쪽 주장/설명과 오른쪽 강조값/차트를 같은 시작선에 묶습니다. 값+단위의 실제 폭이 열을 넘으면 전폭의 독립 행으로 옮기며 원본 값을 바꾸지 않습니다. [글 배치8장](examples/text-layout/index.html)에서 긴 한국어·다른7주 자료·긴 숫자로 바꿔 볼 수 있습니다. 정의와 긴 본문은 기존 `statement`의 `title`→`support`→`subtitle` 순서로 구성합니다.
+
 ## 이미지 항목
 
 ```js

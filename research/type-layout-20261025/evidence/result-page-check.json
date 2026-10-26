@@ -1,0 +1,33 @@
+{
+  "gallery": {
+    "width": 1600,
+    "height": 3626,
+    "failed": 0
+  },
+  "tabs": [
+    {
+      "selected": "trend",
+      "loaded": true
+    },
+    {
+      "selected": "flow",
+      "loaded": true
+    },
+    {
+      "selected": "prose",
+      "loaded": true
+    },
+    {
+      "selected": "funnel",
+      "loaded": true
+    }
+  ],
+  "slider": {
+    "value": "51",
+    "clip": "inset(0px 49% 0px 0px)"
+  },
+  "mobile": {
+    "width": 390,
+    "body": 390
+  }
+}

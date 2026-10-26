@@ -1,0 +1,42 @@
+{
+  "middle": {
+    "viewport": 1068,
+    "bodyWidth": 1068,
+    "stageWidth": 1068,
+    "title": "변화가 이어지는 시간을 봅니다."
+  },
+  "mobile": [
+    {
+      "id": "weekly",
+      "viewport": 390,
+      "width": 390,
+      "compact": "block",
+      "titleSize": "35px",
+      "rows": 12
+    },
+    {
+      "id": "long-korean",
+      "viewport": 390,
+      "width": 390,
+      "compact": null,
+      "titleSize": "35px",
+      "rows": 0
+    },
+    {
+      "id": "portable-support",
+      "viewport": 390,
+      "width": 390,
+      "compact": "block",
+      "titleSize": "35px",
+      "rows": 7
+    },
+    {
+      "id": "large-number",
+      "viewport": 390,
+      "width": 390,
+      "compact": null,
+      "titleSize": "35px",
+      "rows": 2
+    }
+  ]
+}

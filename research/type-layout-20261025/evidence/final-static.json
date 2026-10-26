@@ -1,0 +1,58 @@
+{
+  "files": 38,
+  "links": 390,
+  "hashes": 76,
+  "runtime": [
+    {
+      "deck": "visual-starter",
+      "file": "styles.css",
+      "identical": true
+    },
+    {
+      "deck": "visual-starter",
+      "file": "visual.css",
+      "identical": true
+    },
+    {
+      "deck": "visual-starter",
+      "file": "deck-model.js",
+      "identical": true
+    },
+    {
+      "deck": "visual-starter",
+      "file": "visual.js",
+      "identical": true
+    },
+    {
+      "deck": "visual-starter",
+      "file": "app.js",
+      "identical": true
+    },
+    {
+      "deck": "text-layout",
+      "file": "styles.css",
+      "identical": true
+    },
+    {
+      "deck": "text-layout",
+      "file": "visual.css",
+      "identical": true
+    },
+    {
+      "deck": "text-layout",
+      "file": "deck-model.js",
+      "identical": true
+    },
+    {
+      "deck": "text-layout",
+      "file": "visual.js",
+      "identical": true
+    },
+    {
+      "deck": "text-layout",
+      "file": "app.js",
+      "identical": true
+    }
+  ],
+  "issues": []
+}

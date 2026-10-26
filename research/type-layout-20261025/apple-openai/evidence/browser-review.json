@@ -1,0 +1,122 @@
+{
+  "taskSpace": 11,
+  "page": "p2",
+  "desktop": [
+    {
+      "id": "opening",
+      "overflow": [],
+      "copyHeroOverlap": false,
+      "long": false
+    },
+    {
+      "id": "funnel",
+      "overflow": [],
+      "copyHeroOverlap": false,
+      "long": false
+    },
+    {
+      "id": "weekly",
+      "overflow": [],
+      "copyHeroOverlap": false,
+      "long": false
+    },
+    {
+      "id": "journey",
+      "overflow": [],
+      "copyHeroOverlap": false,
+      "long": false
+    },
+    {
+      "id": "long-korean",
+      "overflow": [],
+      "copyHeroOverlap": false,
+      "long": false
+    },
+    {
+      "id": "portable-support",
+      "overflow": [],
+      "copyHeroOverlap": false,
+      "long": false
+    },
+    {
+      "id": "large-number",
+      "overflow": [],
+      "copyHeroOverlap": false,
+      "long": true
+    }
+  ],
+  "mobile": [
+    {
+      "id": "opening",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "titleSize": "51px",
+      "contextSize": "18px",
+      "tableRows": 0,
+      "tableCell": null,
+      "visibleLine": null
+    },
+    {
+      "id": "funnel",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "titleSize": "35px",
+      "contextSize": "17px",
+      "tableRows": 4,
+      "tableCell": "16px",
+      "visibleLine": null
+    },
+    {
+      "id": "weekly",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "titleSize": "35px",
+      "contextSize": "17px",
+      "tableRows": 12,
+      "tableCell": "16px",
+      "visibleLine": "block"
+    },
+    {
+      "id": "journey",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "titleSize": "35px",
+      "contextSize": "17px",
+      "tableRows": 4,
+      "tableCell": "16px",
+      "visibleLine": null
+    },
+    {
+      "id": "long-korean",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "titleSize": "35px",
+      "contextSize": "17px",
+      "tableRows": 0,
+      "tableCell": null,
+      "visibleLine": null
+    },
+    {
+      "id": "portable-support",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "titleSize": "35px",
+      "contextSize": "17px",
+      "tableRows": 7,
+      "tableCell": "16px",
+      "visibleLine": "block"
+    },
+    {
+      "id": "large-number",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "titleSize": "35px",
+      "contextSize": "17px",
+      "tableRows": 2,
+      "tableCell": "16px",
+      "visibleLine": null
+    }
+  ],
+  "resizePreserved": true,
+  "scope": "Prototype DOM check only, product editor persistence/export not asserted"
+}

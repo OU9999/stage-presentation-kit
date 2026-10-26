@@ -15,6 +15,8 @@
 
 [독립 실행 스타터](examples/visual-starter/index.html)는 예제 카드와 별도로 제공하는 3장짜리 시작점입니다. 폴더를 다른 위치에 복사해 content.js의 자료만 바꿉니다. [한 파일 원본](examples/visual-starter.js)에서 원하는 장 하나만 기존 발표에 추가해도 됩니다. 기본 12주·4분류·3역할 같은 프로젝트 스키마는 요구하지 않습니다.
 
+[글 배치 스타터8장](examples/text-layout/index.html)은 선언·좌우 비교·전폭 추세·흐름·긴 본문·큰 수치의 배치를 고르는 예제입니다. 기존 `align`, title 배열, `composition`과 statement의 설명 필드만 사용하며 폴더째 복사해 빌드 없이 실행합니다. [같은 원고 전후 비교](research/type-layout-20261025/index.html), [팀의 두 차례 비평](research/type-layout-20261025/discussion.md)을 제공합니다.
+
 visual은 사진 프레임을 거치지 않습니다. 제목·넓은 plot·자동 큰 값·native 범례가 같은 무대를 쓰고 읽기 표는 같은 입력을 사용합니다. 화면의 JSON 편집은 발표 안 모든 표현에 즉시 반영됩니다. 별도 표 페이지는 내보낸 content.js를 교체한 뒤 새로고침하면 같은 결과를 읽습니다.
 
 이 예제의 회사·제품·수치·발언은 가상이며 실제 성과나 인과 효과가 아닙니다. 사진은 기존 크레딧의 스톡 자료를 재사용합니다. 직접 원본 재생에는 Node나 AI가 필요하지 않습니다.

@@ -1,0 +1,73 @@
+{
+  "state": {
+    "classes": "slide layout-visual is-quiet is-active has-long-value",
+    "font": "128px",
+    "hero": "9,876,543.2",
+    "clip": {
+      "x": 49.77777099609375,
+      "y": 110,
+      "width": 1628.4443359375,
+      "height": 916,
+      "scale": 0.9825328165600917
+    }
+  },
+  "mobile": {
+    "width": 390,
+    "body": 390,
+    "slides": [
+      {
+        "index": "0",
+        "width": 366,
+        "scroll": 366,
+        "font": null
+      },
+      {
+        "index": "1",
+        "width": 366,
+        "scroll": 366,
+        "hero": "660",
+        "font": "80px"
+      },
+      {
+        "index": "2",
+        "width": 366,
+        "scroll": 366,
+        "hero": "58",
+        "font": "80px"
+      },
+      {
+        "index": "3",
+        "width": 366,
+        "scroll": 366,
+        "font": null
+      },
+      {
+        "index": "4",
+        "width": 366,
+        "scroll": 366,
+        "font": null
+      },
+      {
+        "index": "5",
+        "width": 366,
+        "scroll": 366,
+        "hero": "72.5",
+        "font": "80px"
+      },
+      {
+        "index": "6",
+        "width": 366,
+        "scroll": 366,
+        "hero": "9,876,543.2",
+        "font": "65px"
+      },
+      {
+        "index": "7",
+        "width": 366,
+        "scroll": 366,
+        "hero": "9,876,543.2",
+        "font": "65px"
+      }
+    ]
+  }
+}

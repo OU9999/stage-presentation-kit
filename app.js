@@ -439,12 +439,12 @@
         var visualCopy = element("header", "visual-copy");
         visualCopy.append(title(slide));
         optional(visualCopy, "p", "slide-subtitle", slide, "subtitle");
-        var visualContext = [slide.visual.period, slide.visual.unit ? "단위: " + slide.visual.unit : "", slide.visual.source].filter(Boolean).join(" · ");
+        var visualContext = [slide.visual.period, slide.visual.unit && !renderedVisual.hero ? "단위: " + slide.visual.unit : "", slide.visual.source].filter(Boolean).join(" · ");
         if (visualContext) visualCopy.append(element("p", "visual-context", visualContext));
         optional(visualCopy, "p", "source-line", slide, "source");
         body.append(visualCopy);
         if (renderedVisual.hero) {
-          var visualHero = element("aside", "visual-hero"), heroLine = element("div");
+          var visualHero = element("aside", "visual-hero"), heroLine = element("div", "visual-hero-line");
           heroLine.append(element("span", "visual-hero-value", window.StageVisual.format(renderedVisual.hero.value)), element("span", "visual-hero-unit", renderedVisual.hero.unit));
           visualHero.append(heroLine, element("p", "visual-hero-label", renderedVisual.hero.label));
           body.append(visualHero);
@@ -789,8 +789,32 @@
     document.getElementById("modeButton").textContent = state.mode === "read" ? "발표 모드" : "읽기 모드";
     document.getElementById("announcer").textContent = (state.index + 1) + " / " + deck.slides.length + ", " + slideName(state.index);
     if (isPresenter) renderPresenter();
+    requestAnimationFrame(fitTextLayouts);
     if (scroll && state.mode === "read") stage.children[state.index].scrollIntoView({ behavior: motionPreference && motionPreference.matches ? "instant" : "smooth", block: "start" });
     scheduleDiagnostics();
+  }
+
+  // Reflow measured text without changing authored copy or the editable DOM.
+  function fitTextLayouts() {
+    document.querySelectorAll(".layout-visual").forEach(function (slide) {
+      if (!slide.clientWidth) return;
+      var body = slide.querySelector(".slide-body"), copy = slide.querySelector(".visual-copy");
+      var hero = slide.querySelector(".visual-hero"), line = slide.querySelector(".visual-hero-line"), value = slide.querySelector(".visual-hero-value");
+      slide.classList.remove("has-long-value", "has-long-copy");
+      if (value) value.style.removeProperty("font-size");
+      if (document.body.dataset.mode === "present" && copy && body && copy.offsetHeight > body.clientHeight * .4) slide.classList.add("has-long-copy");
+      if (!hero || !line || !value) return;
+      var parts = Array.from(line.children);
+      var naturalWidth = parts.reduce(function (total, part) { return total + part.offsetWidth; }, 0) + (parseFloat(getComputedStyle(line).columnGap) || 0) * Math.max(0, parts.length - 1);
+      if (naturalWidth > hero.clientWidth + 2) slide.classList.add("has-long-value");
+      // Give long numbers a full row first. Only the number may need a local fit.
+      var available = hero.clientWidth;
+      if (value.scrollWidth > available + 2 && available > 0) {
+        var current = parseFloat(getComputedStyle(value).fontSize);
+        var narrow = document.body.dataset.mode === "read" && window.matchMedia("(max-width:740px)").matches;
+        value.style.fontSize = Math.max(narrow ? 44 : 72, Math.floor(current * available / value.scrollWidth)) + "px";
+      }
+    });
   }
 
   function scaleStages() {
@@ -799,6 +823,7 @@
       var height = viewport.clientHeight;
       if (width && height) viewport.style.setProperty("--stage-scale", String(Math.max(0.05, Math.min((width - 24) / 1600, (height - 24) / 900))));
     });
+    fitTextLayouts();
     scheduleDiagnostics();
   }
 
@@ -1057,6 +1082,7 @@
     document.body.classList.add("dialog-open");
     var focus = currentDialog.querySelector(".is-current") || currentDialog.querySelector("button") || currentDialog.querySelector(".dialog");
     focus.focus();
+    requestAnimationFrame(fitTextLayouts);
   }
 
   function toggleEdit() {
@@ -1231,6 +1257,7 @@
       object.highlight = nextValue;
     }
     setAt(object, path, nextValue);
+    requestAnimationFrame(fitTextLayouts);
     scheduleDiagnostics();
     document.getElementById("saveStatus").textContent = "저장 중…";
     clearTimeout(saveTimer);

@@ -4,6 +4,8 @@
 
 **[발표 예제 6개·47장](examples/index.html)** · [새 시각자료 발표](examples/visual-story/index.html) · [바로 복사하는 스타터](examples/visual-starter/index.html) · [입력 계약](CONFIG.md) · [선택형 Markdown 작성](MARKDOWN.md)
 
+[글 배치 스타터8장](examples/text-layout/index.html) · [글 배치 전후 비교](research/type-layout-20261025/index.html): Apple·OpenAI·Anthropic의 실제 발표 장면을 대조하고 두 차례 비평한 결과를 적용했습니다. 넓은 추세와 설명형 좌우 배치를 구분하고, 긴 숫자는 제목 폭을 빼앗지 않게 실제 폭으로 재배치합니다. [복사·편집 안내](examples/text-layout/README.md).
+
 [시각자료 개선 전후 비교](research/visual-redesign-20261024/index.html)에서 실제 화면을 비교할 수 있습니다. 현재 웹 발표는 자동 검사185개와 실제 편집·내보내기·모바일·재사용 검수를 통과했습니다. [검증 근거](research/visual-redesign-20261024/verification.md).
 
 ## 바로 시작하기

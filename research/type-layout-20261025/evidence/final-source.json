@@ -1,0 +1,13 @@
+{
+  "baseline": "1b395a5",
+  "hashes": {
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "visual.css": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+    "content.js": "370215d8ac4af3123c4f08358bd82fa9554658a9a9baba4fd69f2d34eb84c424",
+    "deck-model.js": "398ae06f5ea53f0576fd9ed91a0f00f4dd6026d20fa689b453e072e4e86286ba",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "app.js": "81571a906a6cfd90635d7f0e5a9e230f1aa323f2ccf1baf51cd01effda9be0f3",
+    "examples/visual-story/content.js": "dfbc18e6e41e2a5d6bc51b3368fcdf2d5d5bf3a6931d432cd2d34627d6bb1bad",
+    "examples/text-layout/content.js": "ec211da102cc9d9c7644abf03da00afbb74a6fd7386438d1d475ffa883febab6"
+  }
+}

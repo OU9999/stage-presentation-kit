@@ -1,0 +1,103 @@
+{
+  "initial": {
+    "long": true,
+    "value": "9,876,543.2"
+  },
+  "resize": {
+    "sameNode": true,
+    "text": "자료와 근거의 거리를 직접 바꿔 봅니다."
+  },
+  "small": {
+    "long": false,
+    "hero": "321",
+    "title": "자료와 근거의 거리를 직접 바꿔 봅니다."
+  },
+  "exported": {
+    "title": "자료와 근거의 거리를 직접 바꿔 봅니다.",
+    "value": 9876543.2,
+    "firstTitle": [
+      "첫 경험을,",
+      "다음 행동으로."
+    ]
+  },
+  "restored": {
+    "title": "자료와 근거의 거리를 직접 바꿔 봅니다.",
+    "hero": "9,876,543.2",
+    "long": true
+  },
+  "presenter": {
+    "title": "자료와 근거의 거리를 직접 바꿔 봅니다.",
+    "hero": "9,876,543.2",
+    "long": true
+  },
+  "presenterNavigated": true,
+  "overview": {
+    "cards": 8,
+    "lastLong": true,
+    "lastHero": "9,876,543.2"
+  },
+  "mobile": {
+    "viewport": 390,
+    "body": 390,
+    "slides": [
+      {
+        "index": "0",
+        "client": 366,
+        "scroll": 366,
+        "title": "36px",
+        "heroFont": null
+      },
+      {
+        "index": "1",
+        "client": 366,
+        "scroll": 366,
+        "title": "35px",
+        "heroFont": "80px"
+      },
+      {
+        "index": "2",
+        "client": 366,
+        "scroll": 366,
+        "title": "35px",
+        "heroFont": "80px"
+      },
+      {
+        "index": "3",
+        "client": 366,
+        "scroll": 366,
+        "title": "35px",
+        "heroFont": null
+      },
+      {
+        "index": "4",
+        "client": 366,
+        "scroll": 366,
+        "title": "35px",
+        "heroFont": null
+      },
+      {
+        "index": "5",
+        "client": 366,
+        "scroll": 366,
+        "title": "35px",
+        "heroFont": "80px"
+      },
+      {
+        "index": "6",
+        "client": 366,
+        "scroll": 366,
+        "title": "35px",
+        "heroFont": "65px"
+      },
+      {
+        "index": "7",
+        "client": 366,
+        "scroll": 366,
+        "title": "35px",
+        "heroFont": "65px"
+      }
+    ],
+    "tableFont": "16px"
+  },
+  "sourcePreserved": true
+}
