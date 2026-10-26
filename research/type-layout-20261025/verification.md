@@ -32,4 +32,4 @@
 
 기존 루트 원고·5개 Markdown·제품 개선 원고의 내용/수치를 바꾸지 않았다. 새8장은 복사 가능한 가상 자료다. [최종 소스 SHA](evidence/final-source.json), [정적 참조·사본 검수](evidence/final-static.json)에 현재 파일을 기록한다. 이전 날짜의 검수/해시는 그 작업 당시 이력으로 보존한다.
 
-디자인 매니저와 두 실무 모두 종료했다. 운영 지침·소유권·결정은 단일 [WORK_LOG](../../WORK_LOG.md)에 있다. 이번 새 글 배치 변경은 로컬 검토 상태이며 새 커밋·푸시·외부 배포·PDF 생성은 하지 않았다.
+디자인 매니저와 두 실무 모두 종료했다. 운영 지침·소유권·결정은 단일 [WORK_LOG](../../WORK_LOG.md)에 있다. 최초 검수 시에는 로컬 검토 상태로 인계했고, 2026-10-26에 글 배치 개선을 [bfd9bad](https://github.com/OU9999/stage-presentation-kit/commit/bfd9badae811b6a086a1eb9a13b090276781fbdc)로 커밋해 origin/main에 푸시했다. 이전 두 커밋도 함께 전달됐다. 제품 소스·검수 SHA는 그대로이며 새 PDF 생성이나 별도 외부 배포 설정은 하지 않았다.
