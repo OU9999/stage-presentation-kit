@@ -268,7 +268,7 @@ function escapeHtml(value) {
 function generatedHtml(template, deck, inputPath, outputDir, repoRoot, content) {
   let html = template.replace(/<title>[\s\S]*?<\/title>/i, () => `<title>${escapeHtml(deck.title)} — Stage</title>`);
   const hash = value => crypto.createHash("sha256").update(value).digest("hex").slice(0, 12);
-  html = html.replace(/\b(href|src)=("|')(?:\.\/)?(styles\.css|visual\.css|deck-model\.js|visual\.js|app\.js)(?:[?#][^"']*)?\2/g, (_, attribute, quote, file) => {
+  html = html.replace(/\b(href|src)=("|')(?:\.\/)?(styles\.css|visual\.css|blocks\.css|deck-model\.js|visual\.js|blocks\.js|app\.js)(?:[?#][^"']*)?\2/g, (_, attribute, quote, file) => {
     const sharedPath = path.join(repoRoot, file);
     return `${attribute}=${quote}${escapeHtml(posix(path.relative(outputDir, sharedPath)))}?v=${hash(fs.readFileSync(sharedPath))}${quote}`;
   });
@@ -302,7 +302,7 @@ function buildDeck(inputPath, outputDir, options = {}) {
     const absolute = path.resolve(output, ref.filename);
     if (!fs.existsSync(absolute) || !fs.statSync(absolute).isFile()) throw new Error(`${fieldPath}: 미디어 파일이 없습니다: ${object[key]}`);
   });
-  for (const file of ["styles.css", "visual.css", "deck-model.js", "visual.js", "app.js"]) if (!fs.existsSync(path.join(repoRoot, file))) throw new Error(`공유 런타임 파일이 없습니다: ${file}`);
+  for (const file of ["styles.css", "visual.css", "blocks.css", "deck-model.js", "visual.js", "blocks.js", "app.js"]) if (!fs.existsSync(path.join(repoRoot, file))) throw new Error(`공유 런타임 파일이 없습니다: ${file}`);
   const template = fs.readFileSync(path.join(repoRoot, "index.html"), "utf8");
   const json = JSON.stringify(deck, null, 2).replace(/</g, "\\u003c").replace(/\u2028/g, "\\u2028").replace(/\u2029/g, "\\u2029");
   const content = "/* Generated from " + path.basename(input).replace(/[\r\n*\/]/g, "_") + ". Edit the Markdown source and rebuild. */\nwindow.PRESENTATION = " + json + ";\n";

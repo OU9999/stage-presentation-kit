@@ -7,7 +7,7 @@
 })(typeof window !== "undefined" ? window : null, function () {
   "use strict";
   var layouts = Object.create(null);
-  ["cover", "statement", "section", "compare", "metric", "image", "demo", "quote", "steps", "closing", "chart", "media", "gallery", "mosaic", "results", "categories", "bento", "icon-wall", "metric-pair", "visual"].forEach(function (name) { layouts[name] = true; });
+  ["cover", "statement", "section", "compare", "metric", "image", "demo", "quote", "steps", "closing", "chart", "media", "gallery", "mosaic", "results", "categories", "bento", "icon-wall", "metric-pair", "visual", "blocks"].forEach(function (name) { layouts[name] = true; });
   var owns = function (object, key) { return Object.prototype.hasOwnProperty.call(object, key); };
   var record = function (value) { return value !== null && typeof value === "object" && !Array.isArray(value); };
   var iconNames = ["brain", "price", "speed", "image", "voice", "record", "compare", "select", "share", "code", "chart", "search", "book", "calendar", "mail", "globe", "check", "folder", "music", "spark"];
@@ -139,6 +139,40 @@
     return [{ label: visual.label || "값", values: Array.isArray(visual.values) ? visual.values.slice() : [] }];
   }
 
+  // Validate the compiled semantic tree without trusting generated content.js.
+  function validateBlocks(nodes, path, slideIndex) {
+    var issues = [], ancestors = new Set(), count = 0;
+    var tags = "p h1 h2 h3 h4 h5 h6 ul ol li blockquote pre code table thead tbody tr th td strong em s a img br hr".split(" ");
+    function fail(at, message) { issues.push({severity:"error", path:at, slideIndex:slideIndex, message:message}); }
+    function visit(node, at, depth) {
+      if (++count > 20000 || depth > 64) { fail(at, "Markdown 트리가 너무 깊거나 큽니다."); return; }
+      if (!record(node) || ancestors.has(node)) { fail(at, "Markdown 노드는 순환 참조 없는 객체여야 합니다."); return; }
+      if (node.type === "text") { if (typeof node.value !== "string") fail(at, "텍스트 값은 문자열이어야 합니다."); return; }
+      if (node.type !== "element" || tags.indexOf(node.tag) < 0 || !Array.isArray(node.children)) { fail(at, "지원하는 Markdown 요소와 children 배열이 필요합니다."); return; }
+      if (node.position !== undefined && (!record(node.position) || !Number.isInteger(node.position.line) || node.position.line < 1 || !Number.isInteger(node.position.endLine) || node.position.endLine < node.position.line)) fail(at + ".position", "원고 줄 범위를 확인하세요.");
+      if (node.attrs !== undefined && !record(node.attrs)) fail(at + ".attrs", "속성은 객체여야 합니다.");
+      else Object.keys(node.attrs || {}).forEach(function (key) {
+        var value = node.attrs[key], valid = false;
+        if (key === "title" || (key === "alt" && node.tag === "img")) valid = typeof value === "string";
+        if ((key === "href" && node.tag === "a") || (key === "src" && node.tag === "img")) {
+          valid = typeof value === "string" && !/[\u0000-\u0020\u007f]/.test(value);
+          var scheme = valid && /^([a-z][a-z0-9+.-]*):/i.exec(value);
+          if (scheme) valid = /^(https?)$/i.test(scheme[1]) || (key === "href" && /^mailto$/i.test(scheme[1])) || (key === "src" && /^data:image\/(?:png|jpeg|gif|webp);base64,[a-z0-9+/=]+$/i.test(value));
+        }
+        if (key === "start" && node.tag === "ol") valid = Number.isInteger(Number(value)) && Number(value) >= 0;
+        if (key === "align" && /^(th|td)$/.test(node.tag)) valid = /^(left|center|right)$/.test(value);
+        if (key === "class" && node.tag === "code") valid = typeof value === "string" && /^language-[a-z0-9_+-]+$/i.test(value);
+        if (!valid) fail(at + ".attrs." + key, "지원하지 않는 Markdown 속성 또는 URL입니다.");
+      });
+      ancestors.add(node);
+      node.children.forEach(function (child, i) { if (count <= 20000) visit(child, at + ".children." + i, depth + 1); });
+      ancestors.delete(node);
+    }
+    if (!Array.isArray(nodes)) fail(path, "Markdown 본문은 배열이어야 합니다.");
+    else nodes.forEach(function (node, i) { if (count <= 20000) visit(node, path + "." + i, 0); });
+    return issues;
+  }
+
   function validateDeck(config) {
     var issues = [];
     function issue(severity, path, message, slideIndex) {
@@ -245,6 +279,13 @@
       choice(slide, "surface", ["butter"], path, slideIndex);
       choice(slide, "align", ["center"], path, slideIndex);
       if (slide.number !== undefined && typeof slide.number !== "string" && !Number.isFinite(slide.number)) issue("error", path + ".number", "섹션 번호는 문자열 또는 유한한 숫자여야 합니다.", slideIndex);
+      if (slide.layout === "blocks") {
+        issues = issues.concat(validateBlocks(slide.blocks, path + ".blocks", slideIndex));
+        if (slide.heading !== undefined) {
+          issues = issues.concat(validateBlocks([slide.heading], path + ".heading", slideIndex));
+          if (!record(slide.heading) || slide.heading.type !== "element" || slide.heading.tag !== "h1") issue("error", path + ".heading", "승격 제목은 h1 요소여야 합니다.", slideIndex);
+        }
+      }
       if (slide.layout === "visual") issues = issues.concat(validateVisual(slide.visual, path + ".visual", slideIndex));
       if (slide.layout === "metric") displayValue(slide, path, slideIndex);
       if (slide.layout === "compare") {
@@ -343,5 +384,5 @@
     });
     return issues;
   }
-  return { validateDeck: validateDeck, validateVisual: validateVisual, visualSeries: visualSeries, packMosaic: packMosaic, bentoPreset: bentoPreset, iconWallSlots: iconWallSlots, iconNames: iconNames.slice(), normalizeIcon: normalizeIcon };
+  return { validateBlocks: validateBlocks, validateDeck: validateDeck, validateVisual: validateVisual, visualSeries: visualSeries, packMosaic: packMosaic, bentoPreset: bentoPreset, iconWallSlots: iconWallSlots, iconNames: iconNames.slice(), normalizeIcon: normalizeIcon };
 });

@@ -1,14 +1,26 @@
 # STAGE — 재사용하는 웹 발표 템플릿
 
-발표 폴더를 복사하고 `content.js`의 문장과 자료를 바꾼 뒤 `index.html`을 엽니다. 설치·빌드·AI 연결이 필요하지 않습니다. 로컬 CSS와 JavaScript, 한국어 시스템 글꼴로 `file://`에서도 재생합니다.
+`talks/발표이름/slides.md`만 수정하면 같은 STAGE 스타일의 발표와 읽기 자료를 만듭니다. 공통 테마는 `stage.config.json` 한 곳에서 바꾸며 여러 발표가 원고와 자산을 독립적으로 유지합니다. 생성한 화면은 로컬 CSS·JavaScript와 한국어 시스템 글꼴로 재생합니다.
 
-**[발표 예제 6개·47장](examples/index.html)** · [새 시각자료 발표](examples/visual-story/index.html) · [바로 복사하는 스타터](examples/visual-starter/index.html) · [입력 계약](CONFIG.md) · [선택형 Markdown 작성](MARKDOWN.md)
+```sh
+npm ci
+npm run dev
+# http://127.0.0.1:4320 에서 확인 · 원고를 저장하면 자동 갱신
+npm run build
+# presentations/ 전체가 공유할 결과물
+```
+
+Node.js 20 이상이 필요합니다. 새 발표는 `talks/` 아래 폴더에 `slides.md`를 추가하면 모음에 자동 등록됩니다. `---`로 장을 나누고 일반 제목·문단·목록·코드·인용·표·이미지를 작성하세요. [Markdown 작성 안내](MARKDOWN-FIRST.md)와 서로 다른 주제의 [두 원고](talks/)를 제공합니다. 원고가 수정의 기준이며 생성 화면은 읽기 전용입니다. 발표 재생에는 패키지 설치가 필요하지 않습니다.
+
+기존 `content.js` 직접 작성과 폴더 복사 방식도 사용할 수 있습니다. 이 방식의 설치 없는 시작·화면 편집은 아래 설명을 따릅니다.
+
+**[Markdown 발표 모음](presentations/)** · [발표 예제 6개·47장](examples/index.html) · [새 시각자료 발표](examples/visual-story/index.html) · [바로 복사하는 스타터](examples/visual-starter/index.html) · [입력 계약](CONFIG.md) · [새 Markdown 작성](MARKDOWN-FIRST.md) · [기존 전용 문법](MARKDOWN.md)
 
 [글 배치 스타터8장](examples/text-layout/index.html) · [글 배치 전후 비교](research/type-layout-20261025/index.html): Apple·OpenAI·Anthropic의 실제 발표 장면을 대조하고 두 차례 비평한 결과를 적용했습니다. 넓은 추세와 설명형 좌우 배치를 구분하고, 긴 숫자는 제목 폭을 빼앗지 않게 실제 폭으로 재배치합니다. [복사·편집 안내](examples/text-layout/README.md).
 
 [시각자료 개선 전후 비교](research/visual-redesign-20261024/index.html)에서 실제 화면을 비교할 수 있습니다. 현재 웹 발표는 자동 검사185개와 실제 편집·내보내기·모바일·재사용 검수를 통과했습니다. [검증 근거](research/visual-redesign-20261024/verification.md).
 
-## 바로 시작하기
+## 기존 폴더로 시작하기
 
 1. [실행 가능한 스타터 폴더](examples/visual-starter/) 전체를 원하는 위치에 복사합니다.
 2. `index.html`을 열고 `content.js`의 제목·문장·자료를 바꿉니다.
@@ -24,7 +36,7 @@
 
 `layout: visual`은 선·막대·구성비·퍼널·흐름·좌표·일정·히트맵 여덟 종류입니다. 사진용 사각 프레임 없이 제목·자료·큰 값이 같은 무대를 사용합니다. 강조 숫자는 `focus`의 자료에서 계산하므로 따로 복제하지 않습니다. 자세한 [필드와 예시](CONFIG.md#시각자료-visual), [디자인 원칙](DESIGN.md)을 확인하세요.
 
-## 화면에서 편집하기
+## 기존 content.js 화면에서 편집하기
 
 **내용 편집**에서 native 문장을 바꿉니다. visual 장에서는 **시각자료 데이터 편집**으로 JSON을 수정하면 그림·강조값·발표 안 읽기 표가 함께 바뀝니다. 잘못된 JSON·배열 대응·숫자·필요한 분모/참조는 적용 전에 안내합니다. 설치나 SVG 재생성을 요구하지 않습니다.
 
@@ -34,7 +46,7 @@
 
 ## 기존 발표와 Markdown
 
-공통 렌더러는 기존 19개 양식에 visual을 더한 **20개 레이아웃**을 지원합니다. 루트 20장 모음과 기존 다섯 발표의 원고 내용은 유지합니다. [C안의 한 장 스타터](examples/editorial-starter.js)와 [기존 params 예제](examples/project-review.js)도 사용할 수 있습니다.
+공통 렌더러는 기존 **20개 레이아웃**과 일반 Markdown 본문 양식을 지원합니다. 루트 20장 모음과 기존 다섯 발표의 원고 내용은 유지합니다. [C안의 한 장 스타터](examples/editorial-starter.js)와 [기존 params 예제](examples/project-review.js)도 사용할 수 있습니다.
 
 Markdown을 선호하면 기존 다섯 예제의 `slides.md`를 수정하고 선택적으로 변환합니다. 직접 원본 예제와 스타터는 이 명령이 `content.js`를 덮어쓰지 않습니다.
 
@@ -80,7 +92,7 @@ node scripts/markdown-deck.cjs examples/product-launch/slides.md examples/my-tal
 
 전편 시청이나 원본 제작 도구의 확인을 뜻하지 않습니다. 시청 범위, 타임스탬프, 프레임, 관찰과 제안의 구분은 [세션 조사](research/devday-session-analysis.md)와 [외부 사례 조사](research/external-presentation-analysis.md)에 있습니다. 원본 로고·전용 글꼴·발표 이미지를 슬라이드의 배경으로 재사용하지 않았습니다.
 
-발표 재생은 설치 없이 유지하며, Markdown을 수정했을 때만 Node.js로 다시 생성합니다. 코드 하이라이트·수식·복잡한 Markdown 확장과 플러그인이 필요하면 [Slidev](https://sli.dev/)나 [reveal.js](https://revealjs.com/)도 별도로 검토할 수 있습니다.
+발표 재생은 설치 없이 유지합니다. 새 Markdown 흐름은 `npm run dev`가 원고 변경을 자동 반영하고 `npm run build`로 공유 폴더를 생성합니다. 기존 전용 문법은 위의 legacy 변환 명령을 사용합니다. 코드 하이라이트·수식·복잡한 Markdown 확장과 플러그인이 필요하면 [Slidev](https://sli.dev/)나 [reveal.js](https://revealjs.com/)도 별도로 검토할 수 있습니다.
 
 ## 현장 사진에서 구현까지
 

@@ -1,0 +1,142 @@
+{
+  "slides": [
+    {
+      "url": "http://localhost:4317/presentations/product-notes/#1",
+      "h1": 1,
+      "images": [],
+      "overflow": [],
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4317/presentations/product-notes/#2",
+      "h1": 1,
+      "images": [
+        {
+          "alt": "가상의 제품 대시보드",
+          "loaded": true
+        }
+      ],
+      "overflow": [],
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4317/presentations/product-notes/#3",
+      "h1": 1,
+      "images": [],
+      "overflow": [],
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4317/presentations/product-notes/#4",
+      "h1": 1,
+      "images": [],
+      "overflow": [],
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4317/presentations/product-notes/#5",
+      "h1": 1,
+      "images": [],
+      "overflow": [],
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4317/presentations/product-notes/#6",
+      "h1": 1,
+      "images": [],
+      "overflow": [],
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4317/presentations/team-learning/#1",
+      "h1": 1,
+      "images": [],
+      "overflow": [],
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4317/presentations/team-learning/#2",
+      "h1": 1,
+      "images": [
+        {
+          "alt": "자체 제작한 가상 보고서",
+          "loaded": true
+        }
+      ],
+      "overflow": [],
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4317/presentations/team-learning/#3",
+      "h1": 1,
+      "images": [],
+      "overflow": [],
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4317/presentations/team-learning/#4",
+      "h1": 1,
+      "images": [],
+      "overflow": [],
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4317/presentations/team-learning/#5",
+      "h1": 1,
+      "images": [],
+      "overflow": [],
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4317/presentations/team-learning/#6",
+      "h1": 1,
+      "images": [],
+      "overflow": [],
+      "errors": []
+    }
+  ],
+  "crossDeck": {
+    "url": "http://localhost:4317/presentations/team-learning/read.html",
+    "mode": "read",
+    "slides": 6
+  },
+  "deepLink": {
+    "hash": "#2",
+    "top": 92.1640625,
+    "headerBottom": 76
+  },
+  "mobile": {
+    "width": 390,
+    "overflow": false,
+    "headerTop": 0,
+    "bodyFont": "18px",
+    "codeFont": "15px",
+    "slides": 6
+  },
+  "networkFailures": [],
+  "otherVerified": {
+    "readOnlyStorageReads": 0,
+    "readOnlyStorageWrites": 0,
+    "readOnlyVisibleEditExportReset": 0,
+    "overviewCards": 6,
+    "overviewInteractiveLinks": 0,
+    "previewIds": 0,
+    "presenterCurrent": 1,
+    "presenterNext": 1,
+    "invalidNotesKeptPrevious": true,
+    "errorOverlayIncludesSourceLine": true,
+    "sourceOnlyFixReloaded": true,
+    "longSlideListCount": 22,
+    "longReadListCount": 22,
+    "longReadLastItem": "진단을 확인할 긴 문장 21",
+    "overflowDiagnosticsIncludeSourceLine": true,
+    "codeScrollArrowRightKeptSlide4": true
+  },
+  "legacySmoke": {
+    "visualStarterSlides": 3,
+    "editingEnabled": true,
+    "editableFields": 3,
+    "compositionSlides": 7,
+    "compositionHash4Layout": "bento"
+  }
+}

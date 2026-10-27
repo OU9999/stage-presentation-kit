@@ -35,7 +35,7 @@ function refreshDirectDeck(directory, options = {}) {
   let runtimeRoot = repoRoot;
   if (options.standalone) {
     runtimeRoot = path.join(directory, "runtime");
-    const assets = ["styles.css", "visual.css", "deck-model.js", "visual.js", "app.js"].map(file => [file, fs.readFileSync(path.join(repoRoot, file))]);
+    const assets = ["styles.css", "visual.css", "blocks.css", "deck-model.js", "visual.js", "blocks.js", "app.js"].map(file => [file, fs.readFileSync(path.join(repoRoot, file))]);
     fs.mkdirSync(runtimeRoot, { recursive: true });
     assets.forEach(([file, bytes]) => fs.writeFileSync(path.join(runtimeRoot, file), bytes));
   }

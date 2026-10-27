@@ -1,0 +1,29 @@
+{
+  "format": "stage-project-v1",
+  "title": "STAGE · 한 원고로 발표하고 공유하기",
+  "theme": "stage",
+  "decks": [
+    {
+      "id": "product-notes",
+      "source": "talks/product-notes/slides.md",
+      "slug": "product-notes",
+      "format": "markdown-v1",
+      "title": "작은 제품을 함께 개선하기",
+      "links": {
+        "slides": "product-notes/index.html",
+        "read": "product-notes/read.html"
+      }
+    },
+    {
+      "id": "team-learning",
+      "source": "talks/team-learning/slides.md",
+      "slug": "team-learning",
+      "format": "markdown-v1",
+      "title": "팀의 학습을 남기는 방법",
+      "links": {
+        "slides": "team-learning/index.html",
+        "read": "team-learning/read.html"
+      }
+    }
+  ]
+}

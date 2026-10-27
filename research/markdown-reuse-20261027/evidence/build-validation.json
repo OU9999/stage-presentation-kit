@@ -1,0 +1,69 @@
+{
+  "tests": {
+    "total": 210,
+    "pass": 210,
+    "fail": 0
+  },
+  "deterministicFiles": 20,
+  "sourceFilesUnchanged": 4,
+  "htmlLocalReferences": 57,
+  "manifest": {
+    "format": "stage-project-v1",
+    "title": "STAGE · 한 원고로 발표하고 공유하기",
+    "theme": "stage",
+    "decks": [
+      {
+        "id": "product-notes",
+        "source": "talks/product-notes/slides.md",
+        "slug": "product-notes",
+        "format": "markdown-v1",
+        "title": "작은 제품을 함께 개선하기",
+        "links": {
+          "slides": "product-notes/index.html",
+          "read": "product-notes/read.html"
+        }
+      },
+      {
+        "id": "team-learning",
+        "source": "talks/team-learning/slides.md",
+        "slug": "team-learning",
+        "format": "markdown-v1",
+        "title": "팀의 학습을 남기는 방법",
+        "links": {
+          "slides": "team-learning/index.html",
+          "read": "team-learning/read.html"
+        }
+      }
+    ]
+  },
+  "outputHashes": {
+    "presentations/.stage-generated.json": "1a8e0d3556733acdbc15b20e9c1a0fd606ebd1a243955d0cf1f2c371a3ff5b7a",
+    "presentations/_runtime/app.js": "895df1da1f6818da23eed7b5f090f10c9d64502b8028aab508a9bdfb17884fe4",
+    "presentations/_runtime/blocks.css": "a711cad4dfdc34b702749ea3cab3d4a7b3e907e5564a785938d60ea5c9e1a4f1",
+    "presentations/_runtime/blocks.js": "ab4b9545781caa7c07571e2b05e8f7b64075aa5ded442cc3f5ff24c6b56cdf05",
+    "presentations/_runtime/deck-model.js": "46f4fdf578cf46e66b4677d888efd8b1715acdfc27381d824f0b3b111faeda6a",
+    "presentations/_runtime/styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "presentations/_runtime/visual.css": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+    "presentations/_runtime/visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "presentations/index.html": "e3ed1d580f4a4ddfa0bdd2960547466f3e47d00db2672ce0c7c30f443461f18c",
+    "presentations/manifest.json": "fcd00ba9bf5bc4045fea216b262688bfcc072b0d8febd9c976e7568ea6d8b486",
+    "presentations/product-notes/assets/9a0a97c09248-checklist.txt": "9a0a97c092488091279592184084fcfab9de137c1fee7e73b91a956a61b46357",
+    "presentations/product-notes/assets/faafa8c7d4fe-dashboard.svg": "faafa8c7d4fe7cdb2a9e807753df2023cfcb55eb9b1f6718bdaf79a7aef4fd00",
+    "presentations/product-notes/content.js": "c7f6cceee7404367be06ce986ff9bb3f66eaad9b1b94cfc0cf18c3cc92ff47ca",
+    "presentations/product-notes/index.html": "38f5c2fbcfb4fcdf1a2a0e9973d271638366c69a9c7dc12e630916e17a167eb6",
+    "presentations/product-notes/read.html": "202961263a06576259e3522d2b58149885430064e9aeb62672b09143ec825f5b",
+    "presentations/team-learning/assets/1c6df0654172-report.svg": "1c6df0654172ddf44fd33dc4d28b81c8fbc45419f34ea96a49daaf14515820a0",
+    "presentations/team-learning/assets/e15a64e3ec29-reading.txt": "e15a64e3ec29d599b11733bd228875c674f049c46fa46072565541bf733ad25c",
+    "presentations/team-learning/content.js": "00b9b6f05cd0f087bc0bf5555d4549a4aac50a9bb6bd590fbb2de0ea284c8d96",
+    "presentations/team-learning/index.html": "b70462d84a4a297019e41b00c6de25135336888c71b7b1d0066f0c5636d1b953",
+    "presentations/team-learning/read.html": "9081cb4f2bf199bcd6ada135d6c5fee8e46715225638c45beb18ca9b1eced8e5"
+  },
+  "runtimeHashes": {
+    "app.js": "895df1da1f6818da23eed7b5f090f10c9d64502b8028aab508a9bdfb17884fe4",
+    "deck-model.js": "46f4fdf578cf46e66b4677d888efd8b1715acdfc27381d824f0b3b111faeda6a",
+    "blocks.js": "ab4b9545781caa7c07571e2b05e8f7b64075aa5ded442cc3f5ff24c6b56cdf05",
+    "blocks.css": "a711cad4dfdc34b702749ea3cab3d4a7b3e907e5564a785938d60ea5c9e1a4f1",
+    "scripts/stage.cjs": "f65be32a389de935d2ffca53c28f7baa7ca7d8d67428c6db4df9050b58fde617",
+    "scripts/markdown-document.cjs": "0d2904a1803fb54e1bb2721ba599d40ba6c16caed9289edcf9ba0c84b07bd6d2"
+  }
+}

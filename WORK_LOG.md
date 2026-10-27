@@ -1,5 +1,41 @@
 # STAGE 작업 로그
 
+## 현재 구현 — 2026-10-27 Markdown 작성·검증·후속 점검·커밋
+
+- 최신 요청·승인: 사용자가 합의한 Markdown 작성 흐름의 구현, 검증과 후속 점검, 그 뒤 커밋을 지시했다. 이전 제품 읽기 전용·구현 미포함 지침을 이번 구현 범위에서 대체한다. 범위는 일반 Markdown·공통 STAGE 발표/읽기·자동 미리보기·두 덱 독립 생성과 기존 20양식 호환이다. portable/offline 전용 기능·CI 배포·React 편집기·화면→MD 역저장은 이번 필수 범위가 아니다.
+- 전달 범위: 최신 추가 지침으로 커밋 후 원격 푸시까지 승인됐다. 최종 검증·사후 검토 뒤 커밋/push하고 기존 GitHub Pages 배포 완료 및 새 발표·읽기 공개 주소를 점검한다. 이전 공개 배포와 기존 사용자 브라우저/로컬 서버를 보존한다. 시작 HEAD는 `835453787bd3fdf75837a618674e6fb20828ee7a`, 이전 조사 폴더·로그 변경도 보존하고 관련 설계 기록으로 함께 전달한다.
+- 담당자·소유권: root만 WORK_LOG와 공통 runtime `blocks.js/blocks.css`, `deck-model.js`, `app.js`, 루트 template와 legacy 참조/standalone 재생성 및 최종 browser QA·커밋을 소유한다. 기존 engineering_manager와 두 실무자를 재개해 새 parser와 프로젝트 builder/dev 서버를 분담한다. 같은 파일 동시 편집은 하지 않는다. 구현 이후 research_manager를 별도 검토자로 재개한다.
+- 공통 계약: 새 deck은 `format:"markdown-v1"`, `document:{sourcePath,revision}`, 일반 장은 `layout:"blocks"`, 선택 rich `heading`과 본문 `blocks`, `origin:{line,endLine}`를 갖는다. 노드는 `{type:"text",value}` 또는 `{type:"element",tag,attrs,children,position:{line,endLine}}`의 allowlist 의미 DOM 트리다. 첫 의미 H1만 heading으로 한 번 소비한다. 기존 20양식은 명시 stage layout/JSON의 legacy 어댑터로 유지한다. 새 모드는 화면 편집/생성물 export를 원본 저장으로 제공하지 않는다.
+- 도구 결정: Node build 의존성으로 markdown-it 15.0.3와 yaml 2.9.1을 exact pin한다. 공식 문서/registry를 직접 확인했다. 런타임은 기존 classic scripts로 유지한다. 프로젝트 설정은 theme/sourceDir/outputDir를 한 번 정하고 talks/**/slides.md를 찾아 컬렉션과 덱별 index/read/content·공통 runtime·참조 자산을 생성한다. dev는 생성물을 HTTP로 제공하고 source 변경 시 재build/reload한다.
+- 모델 확인(2026-10-27 09:01 UTC): 공식 최신 Sol 페이지와 현재 runtime catalog를 재확인했다. 최신 `gpt-6.1-sol` 및 현재 가용 ID 목록은 기존 스냅샷과 같으며, 기존 manager/두 실무자의 `gpt-6.1-sol/high/초기fork none`을 요약 인계로 재사용한다. 독립 구현·후속 검토에 맞는 배정이며 이전 capacity 종료 산출물을 중복 작성하지 않는다.
+- 구현 진행: parser의 의미 보존·원문 위치·첫 H1·명시 legacy adapter·불지원 구조키 거절 13개와 root renderer/model의 의미 보존·preview 비활성 링크·부정 속성/URL·순환 트리 4개 검사를 통과했다. 새로운 runtime 7파일 계약과 읽기전용 원고·줄번호 넘침 안내를 builder 담당자에게 직접 인계했다. 기존 Markdown 변환 20검사도 통과했다.
+- 통합 교정: C++ 코드 언어 class 허용 범위를 parser/model/renderer에 맞춘다. 새 help에 남은 legacy 화면 편집 안내를 제거하도록 B에게 직접 요청했다. 출력 marker의 절대경로가 프로젝트 이동 후 재build를 막는 경계도 매니저에게 전달해 portable marker와 회귀를 요청했다. 새 원고의 notes/role/appendix/sourceDownload는 실제 구조키만 초기 오류로 안내하고 일반 본문 언급/코드 예시는 허용한다. 기존 compiler의 notes 동작은 유지한다.
+- 구현·검증 완료: 일반 parser/blocks runtime·project build/dev·두 원고·안내·기존 20양식 호환을 구현했다. A/B 실제 코드 교차 검토와 매니저 독립 실행, 리서치 별도 사후 검토를 마쳤고 필수 미해결 결함은 없다. 모든 팀 writer가 편집 종료했다. 최종 자동210/210 통과, 생성20파일 연속 바이트동일·원고4파일 불변·HTML참조57개 누락0이다.
+- 총괄 browser 완료: 두 덱12장 H1중복/본문넘침/이미지실패/실행오류/Network실패0, 모바일390 가로넘침0·본문18/code15, 다른덱 읽기 링크 실제이동, read#2 완료top92/header76, 원고권위 storage get/set0·edit/export/reset노출0, overview6·preview링크/id0·presenter현재/다음1씩 확인했다. 임시project 원고오류→정상본문보존→원고수정SSE복구, 긴22목록 원문/read보존·source:line경고, 코드방향키의 장이동차단도 확인했다. legacy visual3장 편집3필드·구성7장#4도 정상이다.
+- 교정 결과: rich code class의 C++ 범위를 일치시켰고 전용 도움말·상대 marker·watch의 외부 누락자산/sourceRoot삭제복원/config후보복구를 보완했다. 실제 이미지+목록2장 넘침은 내용삭제 없이 이미지 표시 크기로 수정했다. read#2 최초이동·sticky 여백·이미지 load/error 후 진단 갱신을 추가했다.
+- 근거: [구현](research/markdown-reuse-20261027/implementation.md), [독립 후속검토](research/markdown-reuse-20261027/post-review.md), [최종검증](research/markdown-reuse-20261027/verification.md), evidence의 build/browser JSON과 실제 desktop/mobile PNG. 원고·생성물·기존 runtime참조를 함께 전달한다. Node24 실기이며 Node20실기·Phase2 노트/부록/source·선택 portable/offline/CI/source patch는 완료로 주장하지 않는다.
+- Git 사전 확인: origin을 fetch했고 HEAD...origin/main은0/0으로 동일하다. 기존 Pages는 main/루트 legacy 발행을 유지하며 .nojekyll로 _runtime도 정적 제공한다. 최종검증 뒤 관련 변경만 한 기능 단위로 커밋·push한다.
+- 미완료: 커밋·원격push·해당 커밋의 Pages 배포 완료와 새 공개 화면 점검, 최종 인계.
+
+## 현재 검토 완료 — 2026-10-27 Markdown 원본·재사용 구조와 팀 회의
+
+- 목표·최신 지침: 사용자가 여러 발표와 자료 공유에 재사용할 구조의 내부 검사를 팀에 맡기고 회의를 요청했다. 작성자는 간단한 Markdown 원본으로 자신의 발표 스타일을 얻으려 한다. 이번 완료 기준은 코드·작성 흐름의 실제 감사, 재현 근거, 두 팀의 직접 토론과 합의한 작성/구조 설계다. 전체 구현이나 새 Git 전달·배포는 이번 지시에 포함하지 않는다.
+- 우선순위 변경: 기존 content.js 직접 편집·무빌드 사용 중심은 현행 기준으로만 기록한다. 새 설계는 Markdown을 주 원본으로 두고 공통 스타일과 화면을 생성하는 흐름을 중심으로 검토한다. 원고 변경 후 자동 빌드/미리보기와 CI 생성은 가능한 선택이며 과거 무빌드 계약을 새 요구의 거절 근거로 삼지 않는다. portable 결과·기존 원고 호환은 비용/출력 조건으로 다룬다. 기존 STAGE 스타일을 재사용하며 새 디자인 스타일을 임의로 만들지 않는다.
+- 기준: main HEAD `835453787bd3fdf75837a618674e6fb20828ee7a`, 시작 작업 트리 clean. 직전 커밋·GitHub Pages 검증은 완료 상태를 유지한다. React/Vite 필요성 조사는 기존 산출물을 재사용하고 이번 Markdown/다중 문서 구조 질문에 집중한다.
+- 담당자·소유권: 총괄 `/root`만 이 단일 로그·최종 합의/통합 검증을 기록한다. 팀 산출물은 `research/markdown-reuse-20261027/`의 research/engineering 하위에 분리한다. 제품·기존 발표 원고·현재 배포 코드는 읽기 전용이며 실제 변환 재현은 임시 폴더에서 수행한다.
+- 팀 운영: 기존 완료 팀/실무자의 상태와 writer 종료를 먼저 확인하고 중복 배정 없이 재개한다. 동시 실행 4명 한도 때문에 리서치 매니저+두 실무자 → 엔지니어링 매니저+두 실무자 순차 검사 후 두 매니저가 함께 직접 회의한다. 실무자마다 실제 초안을 맡기고 한 명을 취합자로 지정한다. 회의는 단순 전달이 아니라 서로의 코드 근거·반례·대안으로 작성 문법/공통 모델/테마/출력·호환 경계를 결정한다.
+- 모델 확인(2026-10-27 08:20~08:23 UTC): 공식 [모델 목록](https://developers.openai.com/api/docs/models)·[출시 기록](https://developers.openai.com/api/docs/changelog)을 새 작업에서 검색 후 직접 열어 최신 Sol `gpt-6.1-sol`을 확인했다. 현재 spawn catalog의 실제 목록은 `gpt-6.1-sol`, `gpt-6-astra`, `gpt-6.1-terra`, `gpt-6-sol`, `gpt-6-luna`로 동일하다. 일반 기술 판단·작성 계약·통합은 `gpt-6.1-sol/high/fork_turns=none`을 사용하고 요약 인계로 진행한다. 기존 담당자 재개 시 원래 같은 모델/effort·요약 배정 조건과 현재 스냅샷을 대조한다.
+- 미완료: 이번 내부 검사·실제 재현·두 매니저 회의·합의 문서와 총괄 검증은 완료했다. 새 parser/blocks renderer·watch·공유 projection·packager는 후속 구현 범위이며 이번에 구현했다고 표시하지 않는다.
+- 실제 리서치 재개: 기존 `/root/research_manager`와 완료 상태의 두 실무자를 canonical follow-up으로 재개했다. `/root/research_manager/vite_researcher`는 작성 계약·5~6장 제안 원고, `/root/research_manager/react_researcher`는 현행 작성/공유 흐름 감사와 취합을 맡았다. 이전 산출물은 편집 종료를 유지하고 새 연구 폴더만 소유한다. 매니저가 모델/effort 및 새 우선순위를 직접 확인·통보했다.
+- 리서치 1차 완료: research/의 작성 계약·흐름 감사·취합·매니저 검수 4문서와 6장 제안 원고를 작성했다. 로컬 링크 25개·공백·제품 diff를 매니저가 검수했다. 두 실무자가 직접 교차 검토하고 소유권 인계를 마쳤다. 일반 본문 blocks 보존에는 새 parser뿐 아니라 모델/본문 renderer가 필요하며, 기존 모델/스타일/20양식은 호환 어댑터로 재사용하는 안이다. React 작성 UI는 필수 전제가 아니다.
+- 실행 상태·복구 판단: vite_researcher는 completed, react_researcher는 완료/편집 종료·파일 인계 후 마지막 final 단계에서 `Selected model is at capacity` errored였다. 매니저가 실제 파일·종료 메시지·소유권 인수를 확인해 재시도/대체 writer 없이 완료 산출물을 인수했다. 미실행 작업으로 간주해 조사를 중복 배정하지 않는다. 새 배정 전에 08:34 UTC 공식 최신 Sol/현재 catalog를 다시 대조했으며 최신 ID는 그대로 `gpt-6.1-sol`, 일시 capacity를 모델 품질 문제나 조용한 모델 변경으로 처리하지 않는다.
+- 엔지니어링 인계·계속 진행: 기존 `/root/engineering_manager`를 새 요약 계약으로 재개했다. research/ 4문서를 인수해 기존 두 실무자의 구조 감사와 실제 compiler/공유 재현을 관리하고, 완료 후 연구 매니저와 직접 회의한다. 모델/effort·초기 none 인계는 동일하며 실제 재확인 시각은 08:35 UTC다. 사용자의 계속 진행 요청은 목표·검사/회의 범위의 변경 없이 반영했고 매니저에게 직접 통보했다.
+- 엔지니어링 완료: 기존 두 실무자가 구조 감사와 compiler 감사/실행 근거·취합을 분담하고 직접 교차 검토했다. 실제 compiler 18입력은 성공8/거절10, 세 preflight 실패의 이전 성공본 보존, 생성물 수정의 재build 덮어쓰기, output 두파일의 외부 의존, notes/원고 링크를 확인했다. 제품8파일 SHA 불변이며 브라우저 offline/I/O atomic 검증으로 확대하지 않는다. 매니저가 실제 /tmp 입력18개·성공content8개·runtime10사본·문서/링크를 독립 검수했고 두 실무자는 completed·편집 종료했다.
+- 실제 회의 완료: 실무자 슬롯 반환 뒤 두 매니저를 함께 실행해 R1/R2 직접 제안·반례·수정·상호 수신 확인을 진행했다. R1은 첫 의미블록 H1만 제목으로 한 번 소비·원문/inline 보존·legacy 구분·blocks 검증/renderer/진단/복제 경계, R2는 MD 권위와 읽기전용 preview·도구관리 registry·원고/노트/첨부 projection·원격 의존과 offline 구분을 합의했다. 원격미디어와 본문 원고첨부 반례, 첫 제목 승격과 진단 빈칸으로 초기안을 실제 수정했다. 두 매니저는 자기 팀의 종합·검수에 반영 후 편집 종료했다.
+- 최종 권고·범위: 1단계 일반 Markdown+기존STAGE 발표/읽기+자동 preview+두 덱 독립성, 2단계 공유 projection 정확성, portable/offline/CI·source patch·React UI는 선택/후속으로 분리한다. 노트/부록/source 정책은 팀 기본 제안이며 사용자 확정 요구와 구분한다. parser 제품·schema 명칭·역할 구문·registry UX·atomic 교체는 구현 시 선택한다.
+- 산출물·총괄 검증: [검사 결과](research/markdown-reuse-20261027/RESULT.md), [실제 회의록](research/markdown-reuse-20261027/MEETING.md), 양팀 보고서8개와 compiler 재현 script/JSON. 총괄은 원본 입력18개·성공content8개·제품SHA8개·runtime사본10개·매니저 인계 SHA를 별도로 대조하고 Markdown10파일의 실제 문서 링크97개 누락0·공백을 확인했다. 코드 예시의 가상 경로와 실제 문서 링크는 구분했다. [통합 검증 기록](research/markdown-reuse-20261027/integration-receipt.json).
+- 전달 상태: 현재 추적 변경은 이 WORK_LOG뿐이고 신규 조사 폴더만 추가했다. 제품·기존 발표 원고·Git HEAD/원격·배포·브라우저/기존 로컬 서버는 변경하지 않았다. 이 새 검사 결과의 커밋/게시 지시는 받지 않아 로컬에 보관한다. 리뷰와 회의 범위에 남은 작업은 없다.
+
 ## 현재 전달 — 2026-10-27 커밋·GitHub Pages 실배포 점검 완료
 
 - 최신 요청·승인: 사용자가 현재 변경을 커밋하고 github.io 배포 환경의 정상 표시까지 점검하도록 지시했다. 아래 단계의 로컬 전용·Git 전달 미포함 지침을 이번 커밋·push·기존 Pages 배포/검증 범위에서 대체한다.

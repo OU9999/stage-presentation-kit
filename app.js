@@ -21,10 +21,11 @@
     return copy;
   }
   var original = clone(window.PRESENTATION);
+  var markdownSource = record(original) && original.format === "markdown-v1";
   var params = new URLSearchParams(location.search);
   var isPresenter = params.get("presenter") === "1";
   var themes = ["stage", "paper", "midnight"];
-  var names = { cover: "표지", statement: "큰 문장", section: "섹션", compare: "비교", metric: "숫자", image: "이미지", demo: "데모", quote: "인용", steps: "단계", closing: "마무리", chart: "메시지와 차트", media: "전체 화면 시연", gallery: "이미지 갤러리", mosaic: "이미지 모자이크", results: "메시지와 결과", categories: "분류와 역할", bento: "혼합 결과 타일", "icon-wall": "아이콘월", "metric-pair": "두 수치 비교", visual: "데이터 시각화" };
+  var names = { blocks: "Markdown", cover: "표지", statement: "큰 문장", section: "섹션", compare: "비교", metric: "숫자", image: "이미지", demo: "데모", quote: "인용", steps: "단계", closing: "마무리", chart: "메시지와 차트", media: "전체 화면 시연", gallery: "이미지 갤러리", mosaic: "이미지 모자이크", results: "메시지와 결과", categories: "분류와 역할", bento: "혼합 결과 타일", "icon-wall": "아이콘월", "metric-pair": "두 수치 비교", visual: "데이터 시각화" };
   var tones = ["orange", "purple", "blue", "green", "yellow"];
   var itemTones = tones.concat("white");
   var motions = ["none", "fade", "rise", "stagger", "chart"];
@@ -63,7 +64,7 @@
   var diagnosticsTimer;
   var restored = false;
   try {
-    var saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+    var saved = markdownSource ? null : JSON.parse(localStorage.getItem(storageKey) || "null");
     if (saved && saved.sourceSignature === sourceSignature && owns(saved, "deck")) {
       rawDeck = clone(saved.deck);
       restored = true;
@@ -72,7 +73,7 @@
   refreshValidation();
   var state = {
     index: Math.max(0, Math.min(deck.slides.length - 1, (parseInt(location.hash.slice(1), 10) || 1) - 1)),
-    mode: "present", editing: false, theme: themes.indexOf(deck.theme) >= 0 ? deck.theme : "stage"
+    mode: !isPresenter && document.body.dataset.view === "read" ? "read" : "present", editing: false, theme: themes.indexOf(deck.theme) >= 0 ? deck.theme : "stage"
   };
   var revision = Date.now();
   var saveTimer;
@@ -423,7 +424,20 @@
     var inner = element("div", "slide-inner");
     inner.append(field("div", "slide-eyebrow", slide, "eyebrow"));
     var body = element("div", "slide-body");
-    if (layout === "cover") {
+    if (layout === "blocks") {
+      if (!window.StageBlocks) body.append(element("p", "error-message", "blocks.js 경로를 확인하세요."));
+      else {
+        var blockOptions = {preview: !!preview, sourcePath: deck.document && deck.document.sourcePath, onMediaChange: preview ? null : scheduleDiagnostics};
+        if (slide.heading) {
+          var heading = window.StageBlocks.renderNode(slide.heading, blockOptions);
+          heading.classList.add("slide-title");
+          body.append(heading);
+        }
+        var markdownBody = element("div", "markdown-body");
+        markdownBody.append(window.StageBlocks.renderNodes(slide.blocks, blockOptions));
+        body.append(markdownBody);
+      }
+    } else if (layout === "cover") {
       body.append(title(slide));
       optional(body, "p", "slide-subtitle", slide, "subtitle");
       var meta = element("div", "cover-meta");
@@ -748,6 +762,11 @@
     document.body.dataset.mode = state.mode;
     document.body.dataset.presenter = String(isPresenter);
     document.body.dataset.editing = String(state.editing);
+    if (markdownSource) {
+      document.body.dataset.authoring = "markdown";
+      document.querySelectorAll('[data-action="edit"], [data-action="export"], [data-action="reset"]').forEach(function (control) { control.hidden = true; });
+      document.getElementById("saveStatus").textContent = "Markdown 원고";
+    }
     document.getElementById("themeSelect").value = state.theme;
     stage.replaceChildren();
     deck.slides.forEach(function (slide, index) { stage.append(renderSlide(slide, index, false)); });
@@ -768,7 +787,7 @@
       slide.classList.toggle("is-active", active);
       slide.hidden = state.mode === "present" && !active;
       slide.querySelectorAll("[data-field]").forEach(function (editable) {
-        var enabled = state.editing && active && !isPresenter;
+        var enabled = !markdownSource && state.editing && active && !isPresenter;
         editable.contentEditable = enabled ? "plaintext-only" : "false";
         editable.classList.toggle("editable", enabled);
         if (enabled) editable.setAttribute("spellcheck", "false");
@@ -994,6 +1013,17 @@
       var clipped = (clipping.indexOf(style.overflowY) >= 0 && field.clientHeight > 0 && field.scrollHeight > field.clientHeight + 6) || (clipping.indexOf(style.overflowX) >= 0 && field.clientWidth > 0 && field.scrollWidth > field.clientWidth + 6);
       if (outside(bounds, container) || (textBounds.width && outside(textBounds, container)) || clipped) add(path, "글자가 발표 영역을 벗어나거나 잘립니다. 문장을 줄이거나 슬라이드를 나누세요. 읽기 모드에서는 전체 내용을 확인할 수 있습니다.");
     });
+    if (slide.dataset.layout === "blocks") {
+      slide.querySelectorAll(".block-node, .markdown-body img").forEach(function (node) {
+        if (node.closest(".blocks-scroll") && !node.classList.contains("blocks-scroll")) return;
+        var bounds = node.getBoundingClientRect();
+        var positioned = node.closest("[data-source-line]");
+        var line = positioned ? positioned.dataset.sourceLine : "?";
+        var source = (deck.document && deck.document.sourcePath || "Markdown") + ":" + line;
+        if (node.dataset.mediaError) add(source, "이미지를 불러오지 못했습니다: " + node.dataset.mediaError);
+        else if (bounds.width && bounds.height && outside(bounds, bodyBounds)) add(source, "원고 " + source + "의 내용이 발표 영역을 벗어납니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.");
+      });
+    }
     body.querySelectorAll(".media-frame").forEach(function (frame) {
       var bounds = frame.getBoundingClientRect();
       var path = "slides." + state.index + "." + (frame.dataset.mediaPath || "src");
@@ -1027,7 +1057,7 @@
 
   function persist() {
     clearTimeout(saveTimer);
-    if (isPresenter) return;
+    if (isPresenter || markdownSource) return;
     refreshValidation();
     try {
       localStorage.setItem(storageKey, JSON.stringify({ sourceSignature: sourceSignature, deck: rawDeck, savedAt: new Date().toISOString() }, finiteJson));
@@ -1086,6 +1116,7 @@
   }
 
   function toggleEdit() {
+    if (markdownSource) { toast("Markdown 원고를 수정하면 미리보기에 반영됩니다."); return; }
     state.editing = !state.editing;
     document.body.dataset.editing = String(state.editing);
     if (!state.editing) { persist(); render(); }
@@ -1093,6 +1124,7 @@
   }
 
   function exportContent() {
+    if (markdownSource) { toast("원본 Markdown 파일을 보관하세요."); return; }
     persist();
     var serialized;
     try { serialized = JSON.stringify(rawDeck, finiteJson, 2); } catch (_) { toast("원본을 JSON으로 내보낼 수 없습니다. 작성자 점검에서 유한하지 않은 숫자 또는 순환 참조를 확인하세요."); return; }
@@ -1152,7 +1184,7 @@
       nextStage.append(nextSlide);
       next.append(nextStage);
     } else next.append(element("p", "presenter-end", "마지막 슬라이드입니다."));
-    document.getElementById("presenterNotes").textContent = (record(deck.slides[state.index]) && typeof deck.slides[state.index].notes === "string" && deck.slides[state.index].notes) || "이 슬라이드에는 노트가 없습니다. content.js의 notes에 메모를 넣으세요.";
+    document.getElementById("presenterNotes").textContent = (record(deck.slides[state.index]) && typeof deck.slides[state.index].notes === "string" && deck.slides[state.index].notes) || (markdownSource ? "이 발표는 Markdown 원고로 작성되었습니다." : "이 슬라이드에는 노트가 없습니다. content.js의 notes에 메모를 넣으세요.");
     document.getElementById("presenterPosition").textContent = (state.index + 1) + " / " + deck.slides.length;
     requestAnimationFrame(scaleStages);
   }
@@ -1268,7 +1300,7 @@
     // Native media controls own arrows, Home/End, Space, and other shortcuts.
     if (event.target.closest("video, audio")) return;
     // Focused readable-data regions own native scrolling; the slide must not navigate.
-    if (event.target.closest(".visual-table-scroll, .visual-plot[tabindex='0']") && ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End", "PageUp", "PageDown", " "].indexOf(event.key) >= 0) return;
+    if (event.target.closest(".visual-table-scroll, .visual-plot[tabindex='0'], .blocks-scroll") && ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End", "PageUp", "PageDown", " "].indexOf(event.key) >= 0) return;
     var editing = event.target.closest("[contenteditable=plaintext-only], [contenteditable=true], input, textarea, select");
     if (editing && !currentDialog) {
       if (event.key === "Escape" && state.editing) { event.preventDefault(); toggleEdit(); document.getElementById("editButton").focus(); }
@@ -1342,4 +1374,7 @@
   createDiagnostics();
   createVisualEditor();
   render();
+  if (!isPresenter && state.mode === "read" && location.hash) requestAnimationFrame(function () {
+    stage.children[state.index].scrollIntoView({behavior: "instant", block: "start"});
+  });
 })();

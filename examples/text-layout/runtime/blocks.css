@@ -1,0 +1,44 @@
+/* General Markdown uses the same STAGE palette and stage geometry. */
+.layout-blocks .slide-body { gap: 30px; }
+.layout-blocks .slide-title { flex: 0 0 auto; margin: 0; font-size: 70px; line-height: 1.18; letter-spacing: -.045em; }
+.markdown-body { min-width: 0; font-size: 30px; line-height: 1.55; overflow-wrap: anywhere; }
+.markdown-body > :first-child { margin-top: 0; }
+.markdown-body > :last-child { margin-bottom: 0; }
+.markdown-body p { margin: 0 0 .7em; }
+.markdown-body :is(h1,h2,h3,h4,h5,h6) { margin: .8em 0 .4em; line-height: 1.25; letter-spacing: -.03em; }
+.markdown-body h1 { font-size: 1.7em; }
+.markdown-body h2 { font-size: 1.4em; }
+.markdown-body h3 { font-size: 1.15em; }
+.markdown-body :is(h4,h5,h6) { font-size: 1em; }
+.markdown-body :is(ul,ol) { margin: .5em 0 .7em; padding-left: 1.5em; }
+.markdown-body li + li { margin-top: .28em; }
+.markdown-body li > p { margin: .2em 0; }
+.markdown-body blockquote { margin: .7em 0; border-left: 4px solid var(--slide-accent); padding: .25em 1em; color: var(--slide-muted); }
+.markdown-body a, .layout-blocks .slide-title a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .2em; }
+.markdown-body :is(strong,em), .layout-blocks .slide-title :is(strong,em) { color: var(--slide-accent); }
+.markdown-body code { font: .8em/1.5 ui-monospace, SFMono-Regular, Consolas, monospace; background: var(--slide-wash); padding: .12em .25em; border-radius: 4px; }
+.markdown-body pre { margin: 0; padding: 22px 26px; font-size: 26px; background: var(--slide-wash); }
+.markdown-body pre code { background: none; padding: 0; font: inherit; white-space: pre; overflow-wrap: normal; }
+.markdown-body .blocks-scroll { max-width: 100%; overflow: auto; margin: .65em 0; border: 1px solid var(--slide-line); border-radius: 8px; }
+.blocks-scroll:focus-visible { outline: 2px solid var(--slide-accent); outline-offset: 4px; }
+.markdown-body table { width: 100%; border-collapse: collapse; font-size: .85em; }
+.markdown-body :is(th,td) { padding: .5em .7em; border-bottom: 1px solid var(--slide-line); text-align: left; white-space: normal; }
+.markdown-body th { font-weight: 600; background: var(--slide-wash); }
+.markdown-body img { display: block; max-width: 100%; max-height: 230px; height: auto; object-fit: contain; margin: .5em 0; }
+.markdown-body .blocks-image-error { min-height: 80px; border: 1px dashed var(--slide-line); }
+.markdown-body hr { border: 0; border-top: 1px solid var(--slide-line); margin: 1em 0; }
+@media screen {
+  body[data-mode="read"] #slideStage .layout-blocks { width: 100%; height: auto; min-height: 0; padding: 0; aspect-ratio: auto; scroll-margin-top: 92px; transform: none !important; overflow: visible; }
+  body[data-mode="read"] #slideStage .layout-blocks .slide-inner { position: relative; inset: auto; width: 100%; height: auto; min-height: 0; padding: 44px clamp(24px,5vw,80px); }
+  body[data-mode="read"] #slideStage .layout-blocks .slide-body { position: static; display: flex; margin: 0; gap: 24px; overflow: visible; }
+  body[data-mode="read"] #slideStage .layout-blocks .slide-eyebrow:empty { display: none; }
+  body[data-mode="read"] #slideStage .layout-blocks .slide-title { font-size: clamp(30px,4vw,46px); }
+  body[data-mode="read"] #slideStage .layout-blocks .markdown-body { font-size: 18px; line-height: 1.8; }
+  body[data-mode="read"] #slideStage .layout-blocks pre { font-size: 15px; padding: 16px; }
+  body[data-mode="read"] #slideStage .layout-blocks img { max-height: none; }
+  body[data-mode="read"] #slideStage .layout-blocks .slide-footer { position: static; margin-top: 36px; font-size: 12px; }
+}
+.stage-document-links { font-size: 14px; white-space: nowrap; }
+@media screen and (max-width: 740px) {
+  .stage-document-links { font-size: 11px; }
+}

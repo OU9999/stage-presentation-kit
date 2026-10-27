@@ -1,0 +1,70 @@
+{
+  "verifiedAt": "2026-10-27T08:53:07.247704+00:00",
+  "head": "835453787bd3fdf75837a618674e6fb20828ee7a",
+  "markdownFiles": 10,
+  "localLinksChecked": 97,
+  "linkCheckScope": "Actual Markdown links excluding fenced and inline code examples.",
+  "probeCases": 18,
+  "buildSuccesses": 8,
+  "buildRejections": 10,
+  "successfulOutputHashesChecked": 8,
+  "originalCaseSourcesChecked": 18,
+  "productHashesChecked": 8,
+  "runtimeCopiesChecked": 10,
+  "productUnchanged": true,
+  "meetingRounds": 2,
+  "teamStatus": {
+    "researchManager": "completed; final synthesis updated",
+    "researchAuthoringContributor": "completed",
+    "researchWorkflowContributor": "deliverables and ownership handed off; final response errored at model capacity; manager verified and accepted outputs",
+    "engineeringManager": "completed; meeting decisions integrated",
+    "engineeringContributors": "both completed"
+  },
+  "limits": [
+    "Current compiler audit and architecture proposal only.",
+    "No new parser/renderer/watch/share packager or publication.",
+    "Dependency closure was a static path check; not browser offline verification."
+  ],
+  "reports": [
+    {
+      "path": "research/markdown-reuse-20261027/MEETING.md",
+      "sha256": "347b960b41eec41b6279082d626c301c15a979bf046561917473058d5be5fd09"
+    },
+    {
+      "path": "research/markdown-reuse-20261027/RESULT.md",
+      "sha256": "88e4f5e36bd48862e4feda3bb38259a9d298c35e7c0be1b2a7c2ab0646d31181"
+    },
+    {
+      "path": "research/markdown-reuse-20261027/engineering/architecture-audit.md",
+      "sha256": "8b8dc7185efebf0f2aece2399c34a46a7e7b17bde955250834123c6f9ff27110"
+    },
+    {
+      "path": "research/markdown-reuse-20261027/engineering/compiler-audit.md",
+      "sha256": "4e488d971cc6c1d4746699a995958ab7149b0b5fd31093d00328a4eb80e3972b"
+    },
+    {
+      "path": "research/markdown-reuse-20261027/engineering/manager-review.md",
+      "sha256": "47be655f094758758eb70a19db89f2d0d3d0bafe07128b98f6e16f7bd3dff85c"
+    },
+    {
+      "path": "research/markdown-reuse-20261027/engineering/synthesis.md",
+      "sha256": "334e92ca767e27bd061c7616a20d22577769473475322ac41a99b5daf787e677"
+    },
+    {
+      "path": "research/markdown-reuse-20261027/research/authoring-contract.md",
+      "sha256": "1e619dcc496228d695c80c2e91b2a1e61f8761f64600ddc2d59689c483235546"
+    },
+    {
+      "path": "research/markdown-reuse-20261027/research/manager-review.md",
+      "sha256": "a262c926bd14d4c74be0ce0607f334bcabd6fee1ab7fb34e364f8a65d4b4fc78"
+    },
+    {
+      "path": "research/markdown-reuse-20261027/research/synthesis.md",
+      "sha256": "48ca6030d2b751ac7b4db6424fb0d8669f07b27581fe7cf365c824a37412306b"
+    },
+    {
+      "path": "research/markdown-reuse-20261027/research/workflow-audit.md",
+      "sha256": "b1b6b5ae86e57fc65c9361f7a310823cf02710485b8d1c4ef5584cd00dee5f03"
+    }
+  ]
+}

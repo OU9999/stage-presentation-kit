@@ -1,0 +1,595 @@
+{
+  "capturedAt": "2026-10-27T08:39:14.206Z",
+  "head": "835453787bd3fdf75837a618674e6fb20828ee7a",
+  "node": "v24.22.1",
+  "temp": "/tmp/stage-markdown-audit-X3r6Hc",
+  "command": "node compiler-probe.cjs REPO RESULT_JSON",
+  "productSha256": {
+    "scripts/markdown-deck.cjs": "ced20cca57b0d706c5d962a74fbd16c9fe23c380e09fd42dd1ecc23f02c701aa",
+    "scripts/build-examples.cjs": "06a7698e42130597f12bbedc75d972086f81fe95bcd67c16844049dadee72717",
+    "deck-model.js": "398ae06f5ea53f0576fd9ed91a0f00f4dd6026d20fa689b453e072e4e86286ba",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "app.js": "81571a906a6cfd90635d7f0e5a9e230f1aa323f2ccf1baf51cd01effda9be0f3",
+    "index.html": "44e4d3b49d2a7416839eadcf573d11dea6c126bd34b3b8caa01c84899d4f7eab",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "visual.css": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7"
+  },
+  "productUnchanged": true,
+  "cases": [
+    {
+      "name": "basic",
+      "source": "# Title\n\nFirst line\nsecond line\n\nSecond paragraph.",
+      "parsed": {
+        "id": "slides",
+        "title": "Title",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "statement",
+            "title": "Title",
+            "subtitle": "First line second line\n\nSecond paragraph."
+          }
+        ]
+      },
+      "build": {
+        "ok": true,
+        "deck": {
+          "id": "slides",
+          "title": "Title",
+          "theme": "stage",
+          "slides": [
+            {
+              "layout": "statement",
+              "title": "Title",
+              "subtitle": "First line second line\n\nSecond paragraph."
+            }
+          ]
+        },
+        "issues": [],
+        "files": [
+          "content.js",
+          "index.html"
+        ],
+        "contentSha": "537df64b8787d34a45847a35263ceb2744493e2fd6eedc4cdfb60f0114372cc0",
+        "sourceContainsNotes": false,
+        "generatedContentContainsNotes": false,
+        "generatedContentEscapesRawHtml": false,
+        "sourceLinkPresent": true,
+        "content": "/* Generated from slides.md. Edit the Markdown source and rebuild. */\nwindow.PRESENTATION = {\n  \"id\": \"slides\",\n  \"title\": \"Title\",\n  \"theme\": \"stage\",\n  \"slides\": [\n    {\n      \"layout\": \"statement\",\n      \"title\": \"Title\",\n      \"subtitle\": \"First line second line\\n\\nSecond paragraph.\"\n    }\n  ]\n};\n"
+      }
+    },
+    {
+      "name": "repeated-h1",
+      "source": "# First\n# Second\n\nBody",
+      "parsed": {
+        "id": "slides",
+        "title": "First Second",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "statement",
+            "title": [
+              "First",
+              "Second"
+            ],
+            "subtitle": "Body"
+          }
+        ]
+      },
+      "build": {
+        "ok": true,
+        "deck": {
+          "id": "slides",
+          "title": "First Second",
+          "theme": "stage",
+          "slides": [
+            {
+              "layout": "statement",
+              "title": [
+                "First",
+                "Second"
+              ],
+              "subtitle": "Body"
+            }
+          ]
+        },
+        "issues": [],
+        "files": [
+          "content.js",
+          "index.html"
+        ],
+        "contentSha": "088352e0597e2198a3996ec19488bcf0c78ec60220884b59e1f5e6136cb662f7",
+        "sourceContainsNotes": false,
+        "generatedContentContainsNotes": false,
+        "generatedContentEscapesRawHtml": false,
+        "sourceLinkPresent": true,
+        "content": "/* Generated from slides.md. Edit the Markdown source and rebuild. */\nwindow.PRESENTATION = {\n  \"id\": \"slides\",\n  \"title\": \"First Second\",\n  \"theme\": \"stage\",\n  \"slides\": [\n    {\n      \"layout\": \"statement\",\n      \"title\": [\n        \"First\",\n        \"Second\"\n      ],\n      \"subtitle\": \"Body\"\n    }\n  ]\n};\n"
+      }
+    },
+    {
+      "name": "h2",
+      "source": "# Title\n\n## Subheading",
+      "parseError": "슬라이드 1: 제목은 단일 #만 지원합니다. 여러 줄 제목은 # 행을 연속해서 쓰세요.",
+      "build": {
+        "ok": false,
+        "error": "슬라이드 1: 제목은 단일 #만 지원합니다. 여러 줄 제목은 # 행을 연속해서 쓰세요."
+      }
+    },
+    {
+      "name": "unordered-default",
+      "source": "# Title\n\n- One\n- Two",
+      "parseError": "슬라이드 1: - 목록 자동 변환은 demo.steps만 지원합니다. 다른 양식은 stage JSON을 사용하세요.",
+      "build": {
+        "ok": false,
+        "error": "슬라이드 1: - 목록 자동 변환은 demo.steps만 지원합니다. 다른 양식은 stage JSON을 사용하세요."
+      }
+    },
+    {
+      "name": "unordered-demo",
+      "source": "<!-- stage\nlayout: demo\n-->\n# Title\n\n- One\n- Two",
+      "parsed": {
+        "id": "slides",
+        "title": "Title",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "demo",
+            "title": "Title",
+            "steps": [
+              "One",
+              "Two"
+            ]
+          }
+        ]
+      },
+      "build": {
+        "ok": true,
+        "deck": {
+          "id": "slides",
+          "title": "Title",
+          "theme": "stage",
+          "slides": [
+            {
+              "layout": "demo",
+              "title": "Title",
+              "steps": [
+                "One",
+                "Two"
+              ]
+            }
+          ]
+        },
+        "issues": [
+          {
+            "severity": "warning",
+            "path": "slides.0.src",
+            "message": "src 또는 video 경로가 없어 미디어 자리 표시자를 보여줍니다.",
+            "slideIndex": 0
+          }
+        ],
+        "files": [
+          "content.js",
+          "index.html"
+        ],
+        "contentSha": "792d4db997b322f9ea6b70dcb6840258b8a6a0d9145f940108d91d0571d7f594",
+        "sourceContainsNotes": false,
+        "generatedContentContainsNotes": false,
+        "generatedContentEscapesRawHtml": false,
+        "sourceLinkPresent": true,
+        "content": "/* Generated from slides.md. Edit the Markdown source and rebuild. */\nwindow.PRESENTATION = {\n  \"id\": \"slides\",\n  \"title\": \"Title\",\n  \"theme\": \"stage\",\n  \"slides\": [\n    {\n      \"layout\": \"demo\",\n      \"title\": \"Title\",\n      \"steps\": [\n        \"One\",\n        \"Two\"\n      ]\n    }\n  ]\n};\n"
+      }
+    },
+    {
+      "name": "ordered",
+      "source": "# Title\n\n1. One\n2. Two",
+      "parseError": "슬라이드 1: 이 목록·표·인용 본문 문법은 지원하지 않습니다. stage JSON의 해당 필드를 사용하세요.",
+      "build": {
+        "ok": false,
+        "error": "슬라이드 1: 이 목록·표·인용 본문 문법은 지원하지 않습니다. stage JSON의 해당 필드를 사용하세요."
+      }
+    },
+    {
+      "name": "image-default",
+      "source": "# Title\n\n![Alt](./media.svg)",
+      "parseError": "슬라이드 1: layout 'statement'는 Markdown 이미지를 표시하지 않습니다. 이미지 양식을 선택하세요.",
+      "build": {
+        "ok": false,
+        "error": "슬라이드 1: layout 'statement'는 Markdown 이미지를 표시하지 않습니다. 이미지 양식을 선택하세요."
+      }
+    },
+    {
+      "name": "image-explicit",
+      "source": "<!-- stage\nlayout: image\n-->\n# Title\n\n![Alt](./media.svg)\n\nCaption",
+      "parsed": {
+        "id": "slides",
+        "title": "Title",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "image",
+            "title": "Title",
+            "caption": "Caption",
+            "src": "../media.svg",
+            "alt": "Alt"
+          }
+        ]
+      },
+      "build": {
+        "ok": true,
+        "deck": {
+          "id": "slides",
+          "title": "Title",
+          "theme": "stage",
+          "slides": [
+            {
+              "layout": "image",
+              "title": "Title",
+              "caption": "Caption",
+              "src": "../media.svg",
+              "alt": "Alt"
+            }
+          ]
+        },
+        "issues": [],
+        "files": [
+          "content.js",
+          "index.html"
+        ],
+        "contentSha": "8e015bb3e65ac6b9f09f2bc4651ddda25e8d078d040da825c0fed4c27347e822",
+        "sourceContainsNotes": false,
+        "generatedContentContainsNotes": false,
+        "generatedContentEscapesRawHtml": false,
+        "sourceLinkPresent": true,
+        "content": "/* Generated from slides.md. Edit the Markdown source and rebuild. */\nwindow.PRESENTATION = {\n  \"id\": \"slides\",\n  \"title\": \"Title\",\n  \"theme\": \"stage\",\n  \"slides\": [\n    {\n      \"layout\": \"image\",\n      \"title\": \"Title\",\n      \"caption\": \"Caption\",\n      \"src\": \"../media.svg\",\n      \"alt\": \"Alt\"\n    }\n  ]\n};\n"
+      }
+    },
+    {
+      "name": "inline-literal",
+      "source": "# **Title**\n\n**strong** *emphasis* `code` [missing](./missing.pdf) <b>raw</b>",
+      "parsed": {
+        "id": "slides",
+        "title": "**Title**",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "statement",
+            "title": "**Title**",
+            "subtitle": "**strong** *emphasis* `code` [missing](./missing.pdf) <b>raw</b>"
+          }
+        ]
+      },
+      "build": {
+        "ok": true,
+        "deck": {
+          "id": "slides",
+          "title": "**Title**",
+          "theme": "stage",
+          "slides": [
+            {
+              "layout": "statement",
+              "title": "**Title**",
+              "subtitle": "**strong** *emphasis* `code` [missing](./missing.pdf) <b>raw</b>"
+            }
+          ]
+        },
+        "issues": [],
+        "files": [
+          "content.js",
+          "index.html"
+        ],
+        "contentSha": "410c18ca74fcded0b37d8044a95c68c40c7dbbc859fedf431915ff0916a40396",
+        "sourceContainsNotes": false,
+        "generatedContentContainsNotes": false,
+        "generatedContentEscapesRawHtml": true,
+        "sourceLinkPresent": true,
+        "content": "/* Generated from slides.md. Edit the Markdown source and rebuild. */\nwindow.PRESENTATION = {\n  \"id\": \"slides\",\n  \"title\": \"**Title**\",\n  \"theme\": \"stage\",\n  \"slides\": [\n    {\n      \"layout\": \"statement\",\n      \"title\": \"**Title**\",\n      \"subtitle\": \"**strong** *emphasis* `code` [missing](./missing.pdf) \\u003cb>raw\\u003c/b>\"\n    }\n  ]\n};\n"
+      }
+    },
+    {
+      "name": "code-fence-separator",
+      "source": "# Title\n\n```js\nconst x = `\n---\n`;\n```",
+      "parseError": "슬라이드 1: 설정에는 ```stage JSON fence만 사용할 수 있습니다. 코드 예시는 이미지나 JSON 문자열로 넣으세요.",
+      "build": {
+        "ok": false,
+        "error": "슬라이드 1: 설정에는 ```stage JSON fence만 사용할 수 있습니다. 코드 예시는 이미지나 JSON 문자열로 넣으세요."
+      }
+    },
+    {
+      "name": "quote",
+      "source": "# Title\n\n> A quote",
+      "parseError": "슬라이드 1: 이 목록·표·인용 본문 문법은 지원하지 않습니다. stage JSON의 해당 필드를 사용하세요.",
+      "build": {
+        "ok": false,
+        "error": "슬라이드 1: 이 목록·표·인용 본문 문법은 지원하지 않습니다. stage JSON의 해당 필드를 사용하세요."
+      }
+    },
+    {
+      "name": "table",
+      "source": "# Title\n\n| A | B |\n| --- | --- |\n| 1 | 2 |",
+      "parseError": "슬라이드 1: 이 목록·표·인용 본문 문법은 지원하지 않습니다. stage JSON의 해당 필드를 사용하세요.",
+      "build": {
+        "ok": false,
+        "error": "슬라이드 1: 이 목록·표·인용 본문 문법은 지원하지 않습니다. stage JSON의 해당 필드를 사용하세요."
+      }
+    },
+    {
+      "name": "duplicate-field",
+      "source": "<!-- stage\nsubtitle: Config\n-->\n# Title\n\nBody",
+      "parseError": "슬라이드 1: 'subtitle' 중복 정의입니다 (문단). 한 곳에서만 지정하세요.",
+      "build": {
+        "ok": false,
+        "error": "슬라이드 1: 'subtitle' 중복 정의입니다 (문단). 한 곳에서만 지정하세요."
+      }
+    },
+    {
+      "name": "unsupported-blocks",
+      "source": "<!-- stage\nlayout: statement\n-->\n```stage\n{\"blocks\":[{\"type\":\"paragraph\",\"text\":\"Lost?\"}]}\n```\n# Title",
+      "parseError": "슬라이드 1: layout 'statement'에서 표시하지 않는 필드 'blocks'입니다.",
+      "build": {
+        "ok": false,
+        "error": "슬라이드 1: layout 'statement'에서 표시하지 않는 필드 'blocks'입니다."
+      }
+    },
+    {
+      "name": "notes",
+      "source": "<!-- stage\nnotes: PRIVATE_SENTINEL_73\n-->\n# Title\n\nPublic body",
+      "parsed": {
+        "id": "slides",
+        "title": "Title",
+        "theme": "stage",
+        "slides": [
+          {
+            "notes": "PRIVATE_SENTINEL_73",
+            "layout": "statement",
+            "title": "Title",
+            "subtitle": "Public body"
+          }
+        ]
+      },
+      "build": {
+        "ok": true,
+        "deck": {
+          "id": "slides",
+          "title": "Title",
+          "theme": "stage",
+          "slides": [
+            {
+              "notes": "PRIVATE_SENTINEL_73",
+              "layout": "statement",
+              "title": "Title",
+              "subtitle": "Public body"
+            }
+          ]
+        },
+        "issues": [],
+        "files": [
+          "content.js",
+          "index.html"
+        ],
+        "contentSha": "ffe90cf780a06252468e8b9a2e041632e1f2b667e1f11ba0922a581a0037b21c",
+        "sourceContainsNotes": true,
+        "generatedContentContainsNotes": true,
+        "generatedContentEscapesRawHtml": false,
+        "sourceLinkPresent": true,
+        "content": "/* Generated from slides.md. Edit the Markdown source and rebuild. */\nwindow.PRESENTATION = {\n  \"id\": \"slides\",\n  \"title\": \"Title\",\n  \"theme\": \"stage\",\n  \"slides\": [\n    {\n      \"notes\": \"PRIVATE_SENTINEL_73\",\n      \"layout\": \"statement\",\n      \"title\": \"Title\",\n      \"subtitle\": \"Public body\"\n    }\n  ]\n};\n"
+      }
+    },
+    {
+      "name": "missing-media",
+      "source": "<!-- stage\nlayout: image\n-->\n# Title\n\n![Alt](./missing.svg)",
+      "parsed": {
+        "id": "slides",
+        "title": "Title",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "image",
+            "title": "Title",
+            "src": "../missing.svg",
+            "alt": "Alt"
+          }
+        ]
+      },
+      "build": {
+        "ok": false,
+        "error": "slides.0.src: 미디어 파일이 없습니다: ../missing.svg"
+      }
+    },
+    {
+      "name": "remote-media",
+      "source": "<!-- stage\nlayout: image\n-->\n# Title\n\n![Alt](https://example.invalid/unverified.svg)",
+      "parsed": {
+        "id": "slides",
+        "title": "Title",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "image",
+            "title": "Title",
+            "src": "https://example.invalid/unverified.svg",
+            "alt": "Alt"
+          }
+        ]
+      },
+      "build": {
+        "ok": true,
+        "deck": {
+          "id": "slides",
+          "title": "Title",
+          "theme": "stage",
+          "slides": [
+            {
+              "layout": "image",
+              "title": "Title",
+              "src": "https://example.invalid/unverified.svg",
+              "alt": "Alt"
+            }
+          ]
+        },
+        "issues": [],
+        "files": [
+          "content.js",
+          "index.html"
+        ],
+        "contentSha": "dfb2fb61921b509f525abe808a2b649549a770abb8a6331b8bc7d70447ed3c56",
+        "sourceContainsNotes": false,
+        "generatedContentContainsNotes": false,
+        "generatedContentEscapesRawHtml": false,
+        "sourceLinkPresent": true,
+        "content": "/* Generated from slides.md. Edit the Markdown source and rebuild. */\nwindow.PRESENTATION = {\n  \"id\": \"slides\",\n  \"title\": \"Title\",\n  \"theme\": \"stage\",\n  \"slides\": [\n    {\n      \"layout\": \"image\",\n      \"title\": \"Title\",\n      \"src\": \"https://example.invalid/unverified.svg\",\n      \"alt\": \"Alt\"\n    }\n  ]\n};\n"
+      }
+    },
+    {
+      "name": "inline-missing-link",
+      "source": "# Title\n\n[Attachment](./missing.pdf)",
+      "parsed": {
+        "id": "slides",
+        "title": "Title",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "statement",
+            "title": "Title",
+            "subtitle": "[Attachment](./missing.pdf)"
+          }
+        ]
+      },
+      "build": {
+        "ok": true,
+        "deck": {
+          "id": "slides",
+          "title": "Title",
+          "theme": "stage",
+          "slides": [
+            {
+              "layout": "statement",
+              "title": "Title",
+              "subtitle": "[Attachment](./missing.pdf)"
+            }
+          ]
+        },
+        "issues": [],
+        "files": [
+          "content.js",
+          "index.html"
+        ],
+        "contentSha": "561b8ae99bc8982be4b94ec897168b42c2ae182a62b306163bc3e125f0ed8c57",
+        "sourceContainsNotes": false,
+        "generatedContentContainsNotes": false,
+        "generatedContentEscapesRawHtml": false,
+        "sourceLinkPresent": true,
+        "content": "/* Generated from slides.md. Edit the Markdown source and rebuild. */\nwindow.PRESENTATION = {\n  \"id\": \"slides\",\n  \"title\": \"Title\",\n  \"theme\": \"stage\",\n  \"slides\": [\n    {\n      \"layout\": \"statement\",\n      \"title\": \"Title\",\n      \"subtitle\": \"[Attachment](./missing.pdf)\"\n    }\n  ]\n};\n"
+      }
+    }
+  ],
+  "mediaRewrite": {
+    "source": "./space%20name.svg?v=2#figure",
+    "output": "../space%20name.svg?v=2#figure",
+    "fileCopied": false
+  },
+  "identities": [
+    {
+      "source": "/tmp/stage-markdown-audit-X3r6Hc/alpha/slides.md",
+      "output": "/tmp/stage-markdown-audit-X3r6Hc/alpha/compiled/index.html",
+      "id": "slides",
+      "title": "alpha"
+    },
+    {
+      "source": "/tmp/stage-markdown-audit-X3r6Hc/beta/slides.md",
+      "output": "/tmp/stage-markdown-audit-X3r6Hc/beta/compiled/index.html",
+      "id": "slides",
+      "title": "beta"
+    }
+  ],
+  "rebuild": {
+    "manualGeneratedEditOverwritten": true,
+    "sourceUnchanged": true,
+    "failures": [
+      {
+        "name": "parse",
+        "error": "슬라이드 1: 제목은 단일 #만 지원합니다. 여러 줄 제목은 # 행을 연속해서 쓰세요.",
+        "lastGoodOutputPreserved": true
+      },
+      {
+        "name": "model",
+        "error": "입력 검증 실패:\nslides.0.visual: kind와 해당 자료를 가진 visual 객체를 입력하세요.",
+        "lastGoodOutputPreserved": true
+      },
+      {
+        "name": "missing-media",
+        "error": "slides.0.src: 미디어 파일이 없습니다: ../missing.svg",
+        "lastGoodOutputPreserved": true
+      }
+    ]
+  },
+  "closure": {
+    "compiledFiles": [
+      "content.js",
+      "index.html"
+    ],
+    "references": [
+      {
+        "value": "../../../../Users/ou9999-wdl/Documents/devday-presentation-kit/styles.css?v=8b448e36f1ef",
+        "originalExists": true,
+        "outsideCompiled": true,
+        "afterRelocationExists": false
+      },
+      {
+        "value": "../../../../Users/ou9999-wdl/Documents/devday-presentation-kit/visual.css?v=65145a3f2c21",
+        "originalExists": true,
+        "outsideCompiled": true,
+        "afterRelocationExists": false
+      },
+      {
+        "value": "content.js?v=77d5dd18c434",
+        "originalExists": true,
+        "outsideCompiled": false,
+        "afterRelocationExists": true
+      },
+      {
+        "value": "../../../../Users/ou9999-wdl/Documents/devday-presentation-kit/deck-model.js?v=398ae06f5ea5",
+        "originalExists": true,
+        "outsideCompiled": true,
+        "afterRelocationExists": false
+      },
+      {
+        "value": "../../../../Users/ou9999-wdl/Documents/devday-presentation-kit/visual.js?v=02e26db1c3cc",
+        "originalExists": true,
+        "outsideCompiled": true,
+        "afterRelocationExists": false
+      },
+      {
+        "value": "../../../../Users/ou9999-wdl/Documents/devday-presentation-kit/app.js?v=81571a906a6c",
+        "originalExists": true,
+        "outsideCompiled": true,
+        "afterRelocationExists": false
+      },
+      {
+        "value": "../slides.md",
+        "originalExists": true,
+        "outsideCompiled": true,
+        "afterRelocationExists": false
+      },
+      {
+        "value": "../../../../Users/ou9999-wdl/Documents/devday-presentation-kit/examples/index.html",
+        "originalExists": true,
+        "outsideCompiled": true,
+        "afterRelocationExists": false
+      }
+    ],
+    "media": {
+      "value": "../space%20name.svg?v=2#figure",
+      "outsideCompiled": true,
+      "assetCopied": false
+    },
+    "standalone": false,
+    "method": "Static dependency/path closure only; no browser/file-protocol execution"
+  },
+  "limitations": [
+    "Tests current compiler only; no new parser/CLI/watch/source patch/renderer implementation",
+    "No package install, browser, live publication, complete UI regression or existing185 test rerun",
+    "Preflight parse/model/missing-media failures preserve existing files; filesystem write failure/atomic multi-file publish not tested",
+    "Identical fallback deck id is not proof of current storage collision: storage also includes location.pathname",
+    "Relocation is a static dependency closure check, not an actual browser run"
+  ]
+}

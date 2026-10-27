@@ -8,12 +8,19 @@
 
 | 용도 | 주소 |
 | --- | --- |
+| Markdown 발표·읽기 모음 | [두 원고에서 생성한 발표 모음](https://ou9999.github.io/stage-presentation-kit/presentations/) |
 | 사용자가 고른 C안 | [현장 구성 예제 4번](https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html#4) |
 | 예제를 골라 시작하기 | [예제 갤러리](https://ou9999.github.io/stage-presentation-kit/examples/) |
 | 기존 양식을 모두 살펴보기 | [20장 양식 모음](https://ou9999.github.io/stage-presentation-kit/) |
 | Vite·React 검토와 편집 시제품 | [검토 결과 화면](https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/) · [공개 배포 검증](research/vite-react-20261027/DEPLOYMENT.md) |
 
 루트 주소의 내용은 20장 양식 모음입니다. C안은 현장 구성 7장 중 4번이므로 위 직접 링크를 공유하세요. `#4`는 처음 보여줄 장을 정합니다. 청중은 설치·GitHub 로그인 없이 링크를 열어 각자 장을 넘겨 봅니다. Pages 발행 후에는 사용자의 로컬 서버나 컴퓨터를 켜둘 필요가 없습니다.
+
+## 새 Markdown 원고의 배포
+
+새 작성 흐름은 [MARKDOWN-FIRST.md](MARKDOWN-FIRST.md)를 따릅니다. `talks/주제/slides.md`를 수정하고 `npm ci` 후 `npm run dev`에서 확인합니다. `npm run build`로 만든 `presentations/` 전체와 원본·설정·바뀐 참조 자산을 함께 커밋하고 푸시합니다. GitHub Pages가 Node 빌드를 대신 실행하지 않으므로 생성물을 함께 반영해야 합니다. 이 저장소의 공개 원고 `talks/`와 공유 결과 `presentations/`는 구분됩니다.
+
+`presentations/` 아래 발표·읽기 화면은 읽기 전용입니다. 오류가 나면 원고를 수정해 다시 생성하세요. 자체 미리보기 서버는 생성 결과만 제공하며 원본 Markdown을 자동 내려받기로 노출하지 않습니다. 저장소 전체를 Pages에 게시하므로 저장소에 추가한 원고 자체는 공개됩니다. 아래 절차는 기존 `examples/` 전용 문법·직접 `content.js` 작성 방식의 호환 안내입니다.
 
 ## 1. 원고를 고친다
 
