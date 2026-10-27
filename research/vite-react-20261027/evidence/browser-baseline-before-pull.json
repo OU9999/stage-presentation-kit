@@ -1,0 +1,2165 @@
+{
+  "capturedAt": "2026-10-27T07:20:27.890Z",
+  "base": "http://127.0.0.1:4317",
+  "environment": {
+    "viewport": "1440x1000",
+    "cache": "disabled on audited page",
+    "cpuThrottling": "none",
+    "networkThrottling": "none",
+    "server": "Python http.server, no response compression"
+  },
+  "limitations": [
+    "Three local runs per deck, not field Core Web Vitals.",
+    "LCP is a buffered observation before navigation input, not a field percentile.",
+    "Keyboard syncEventMs measures event processing; twoAnimationFramesMs includes frame scheduling and is not INP.",
+    "No React or Vite implementation has been benchmarked.",
+    "syncEventMs listener ran before the app handler; invalid timing. twoAnimationFramesMs was affected by scheduling. Use keyboard data only to verify final traversal."
+  ],
+  "decks": [
+    {
+      "path": "/",
+      "runs": [
+        {
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "navigation": {
+            "name": "http://127.0.0.1:4317/",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 160.1000000089407,
+            "navigationId": 4715,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.0",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 8,
+            "domainLookupStart": 13.900000005960464,
+            "domainLookupEnd": 13.900000005960464,
+            "connectStart": 13.900000005960464,
+            "secureConnectionStart": 0,
+            "connectEnd": 14.100000008940697,
+            "requestStart": 14.299999997019768,
+            "responseStart": 19.799999997019768,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 19.799999997019768,
+            "responseEnd": 20.299999997019768,
+            "transferSize": 7173,
+            "encodedBodySize": 6873,
+            "decodedBodySize": 6873,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 25.100000008940697,
+            "unloadEventEnd": 25.100000008940697,
+            "domInteractive": 47.20000000298023,
+            "domContentLoadedEventStart": 83.6000000089407,
+            "domContentLoadedEventEnd": 84.5,
+            "domComplete": 160.1000000089407,
+            "loadEventStart": 160.1000000089407,
+            "loadEventEnd": 160.1000000089407,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {}
+          },
+          "paints": [
+            {
+              "name": "first-paint",
+              "entryType": "paint",
+              "startTime": 140,
+              "duration": 0,
+              "navigationId": 4715,
+              "paintTime": 67,
+              "presentationTime": 140
+            },
+            {
+              "name": "first-contentful-paint",
+              "entryType": "paint",
+              "startTime": 140,
+              "duration": 0,
+              "navigationId": 4715,
+              "paintTime": 67,
+              "presentationTime": 140
+            }
+          ],
+          "lcp": [
+            {
+              "startTime": 140,
+              "duration": 0,
+              "size": 1728
+            },
+            {
+              "startTime": 156,
+              "duration": 0,
+              "size": 49606
+            }
+          ],
+          "longTasks": [],
+          "resources": [
+            {
+              "name": "http://127.0.0.1:4317/styles.css?v=66752a982bf1",
+              "initiatorType": "link",
+              "transferSize": 89902,
+              "encodedBodySize": 89602,
+              "decodedBodySize": 89602,
+              "duration": 31.5
+            },
+            {
+              "name": "http://127.0.0.1:4317/content.js?v=370215d8ac4a",
+              "initiatorType": "script",
+              "transferSize": 18364,
+              "encodedBodySize": 18064,
+              "decodedBodySize": 18064,
+              "duration": 45.8999999910593
+            },
+            {
+              "name": "http://127.0.0.1:4317/deck-model.js?v=d62fc5037c36",
+              "initiatorType": "script",
+              "transferSize": 21073,
+              "encodedBodySize": 20773,
+              "decodedBodySize": 20773,
+              "duration": 44.1000000089407
+            },
+            {
+              "name": "http://127.0.0.1:4317/app.js?v=ec970a351872",
+              "initiatorType": "script",
+              "transferSize": 65197,
+              "encodedBodySize": 64897,
+              "decodedBodySize": 64897,
+              "duration": 47.1000000089407
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+              "initiatorType": "img",
+              "transferSize": 137115,
+              "encodedBodySize": 136815,
+              "decodedBodySize": 136815,
+              "duration": 12.900000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+              "initiatorType": "img",
+              "transferSize": 299327,
+              "encodedBodySize": 299027,
+              "decodedBodySize": 299027,
+              "duration": 26.80000001192093
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+              "initiatorType": "img",
+              "transferSize": 270285,
+              "encodedBodySize": 269985,
+              "decodedBodySize": 269985,
+              "duration": 25.900000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/write.jpg",
+              "initiatorType": "img",
+              "transferSize": 151472,
+              "encodedBodySize": 151172,
+              "decodedBodySize": 151172,
+              "duration": 24.80000001192093
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+              "initiatorType": "img",
+              "transferSize": 0,
+              "encodedBodySize": 0,
+              "decodedBodySize": 0,
+              "duration": 10.099999994039536
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+              "initiatorType": "img",
+              "transferSize": 267621,
+              "encodedBodySize": 267321,
+              "decodedBodySize": 267321,
+              "duration": 35.5
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+              "initiatorType": "img",
+              "transferSize": 389144,
+              "encodedBodySize": 388844,
+              "decodedBodySize": 388844,
+              "duration": 29
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/report.svg",
+              "initiatorType": "img",
+              "transferSize": 1432,
+              "encodedBodySize": 1132,
+              "decodedBodySize": 1132,
+              "duration": 43.6000000089407
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/objects.svg",
+              "initiatorType": "img",
+              "transferSize": 1219,
+              "encodedBodySize": 919,
+              "decodedBodySize": 919,
+              "duration": 51.79999999701977
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/dashboard.svg",
+              "initiatorType": "img",
+              "transferSize": 1727,
+              "encodedBodySize": 1427,
+              "decodedBodySize": 1427,
+              "duration": 57.79999999701977
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/workspace-demo.svg",
+              "initiatorType": "img",
+              "transferSize": 5823,
+              "encodedBodySize": 5523,
+              "decodedBodySize": 5523,
+              "duration": 62.400000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/poster-wide.svg",
+              "initiatorType": "img",
+              "transferSize": 919,
+              "encodedBodySize": 619,
+              "decodedBodySize": 619,
+              "duration": 62.79999999701977
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/poster.svg",
+              "initiatorType": "img",
+              "transferSize": 978,
+              "encodedBodySize": 678,
+              "decodedBodySize": 678,
+              "duration": 69.8999999910593
+            }
+          ],
+          "dom": {
+            "elements": 510,
+            "slides": 20,
+            "hiddenSlides": 19,
+            "fields": 112,
+            "images": [
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/write.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2400,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/report.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/objects.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/dashboard.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/workspace-demo.svg",
+                "complete": true,
+                "width": 1600,
+                "height": 900,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/poster-wide.svg",
+                "complete": true,
+                "width": 1600,
+                "height": 600,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/objects.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/report.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/poster.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/dashboard.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              }
+            ]
+          },
+          "saveStatus": "원본 템플릿"
+        },
+        {
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "navigation": {
+            "name": "http://127.0.0.1:4317/",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 125.5,
+            "navigationId": 6808,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.0",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 1.1000000089406967,
+            "domainLookupStart": 3.300000011920929,
+            "domainLookupEnd": 3.300000011920929,
+            "connectStart": 3.300000011920929,
+            "secureConnectionStart": 0,
+            "connectEnd": 3.5,
+            "requestStart": 3.6000000089406967,
+            "responseStart": 9.800000011920929,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 9.800000011920929,
+            "responseEnd": 13.400000005960464,
+            "transferSize": 7173,
+            "encodedBodySize": 6873,
+            "decodedBodySize": 6873,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 12.300000011920929,
+            "unloadEventEnd": 12.300000011920929,
+            "domInteractive": 20,
+            "domContentLoadedEventStart": 49.400000005960464,
+            "domContentLoadedEventEnd": 49.5,
+            "domComplete": 125.20000000298023,
+            "loadEventStart": 125.5,
+            "loadEventEnd": 125.5,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {}
+          },
+          "paints": [
+            {
+              "name": "first-paint",
+              "entryType": "paint",
+              "startTime": 68,
+              "duration": 0,
+              "navigationId": 6808,
+              "paintTime": 37.5,
+              "presentationTime": 68
+            },
+            {
+              "name": "first-contentful-paint",
+              "entryType": "paint",
+              "startTime": 68,
+              "duration": 0,
+              "navigationId": 6808,
+              "paintTime": 37.5,
+              "presentationTime": 68
+            }
+          ],
+          "lcp": [
+            {
+              "startTime": 68,
+              "duration": 0,
+              "size": 1728
+            },
+            {
+              "startTime": 100,
+              "duration": 0,
+              "size": 49606
+            }
+          ],
+          "longTasks": [],
+          "resources": [
+            {
+              "name": "http://127.0.0.1:4317/styles.css?v=66752a982bf1",
+              "initiatorType": "link",
+              "transferSize": 89902,
+              "encodedBodySize": 89602,
+              "decodedBodySize": 89602,
+              "duration": 19.700000002980232
+            },
+            {
+              "name": "http://127.0.0.1:4317/deck-model.js?v=d62fc5037c36",
+              "initiatorType": "script",
+              "transferSize": 21073,
+              "encodedBodySize": 20773,
+              "decodedBodySize": 20773,
+              "duration": 20.099999994039536
+            },
+            {
+              "name": "http://127.0.0.1:4317/content.js?v=370215d8ac4a",
+              "initiatorType": "script",
+              "transferSize": 18364,
+              "encodedBodySize": 18064,
+              "decodedBodySize": 18064,
+              "duration": 20
+            },
+            {
+              "name": "http://127.0.0.1:4317/app.js?v=ec970a351872",
+              "initiatorType": "script",
+              "transferSize": 65197,
+              "encodedBodySize": 64897,
+              "decodedBodySize": 64897,
+              "duration": 28
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+              "initiatorType": "img",
+              "transferSize": 0,
+              "encodedBodySize": 0,
+              "decodedBodySize": 0,
+              "duration": 4.800000011920929
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+              "initiatorType": "img",
+              "transferSize": 137115,
+              "encodedBodySize": 136815,
+              "decodedBodySize": 136815,
+              "duration": 15
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/write.jpg",
+              "initiatorType": "img",
+              "transferSize": 151472,
+              "encodedBodySize": 151172,
+              "decodedBodySize": 151172,
+              "duration": 22.80000001192093
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+              "initiatorType": "img",
+              "transferSize": 299327,
+              "encodedBodySize": 299027,
+              "decodedBodySize": 299027,
+              "duration": 32.900000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+              "initiatorType": "img",
+              "transferSize": 270285,
+              "encodedBodySize": 269985,
+              "decodedBodySize": 269985,
+              "duration": 41.80000001192093
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+              "initiatorType": "img",
+              "transferSize": 389144,
+              "encodedBodySize": 388844,
+              "decodedBodySize": 388844,
+              "duration": 48.400000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/report.svg",
+              "initiatorType": "img",
+              "transferSize": 1432,
+              "encodedBodySize": 1132,
+              "decodedBodySize": 1132,
+              "duration": 58.70000000298023
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+              "initiatorType": "img",
+              "transferSize": 267621,
+              "encodedBodySize": 267321,
+              "decodedBodySize": 267321,
+              "duration": 60.099999994039536
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/workspace-demo.svg",
+              "initiatorType": "img",
+              "transferSize": 0,
+              "encodedBodySize": 0,
+              "decodedBodySize": 0,
+              "duration": 42.900000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/poster.svg",
+              "initiatorType": "img",
+              "transferSize": 0,
+              "encodedBodySize": 0,
+              "decodedBodySize": 0,
+              "duration": 49.400000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/objects.svg",
+              "initiatorType": "img",
+              "transferSize": 1219,
+              "encodedBodySize": 919,
+              "decodedBodySize": 919,
+              "duration": 62.400000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/dashboard.svg",
+              "initiatorType": "img",
+              "transferSize": 1727,
+              "encodedBodySize": 1427,
+              "decodedBodySize": 1427,
+              "duration": 66.70000000298023
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/poster-wide.svg",
+              "initiatorType": "img",
+              "transferSize": 919,
+              "encodedBodySize": 619,
+              "decodedBodySize": 619,
+              "duration": 70.6000000089407
+            }
+          ],
+          "dom": {
+            "elements": 520,
+            "slides": 20,
+            "hiddenSlides": 19,
+            "fields": 112,
+            "images": [
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/write.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2400,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/report.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/objects.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/dashboard.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/workspace-demo.svg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/poster-wide.svg",
+                "complete": true,
+                "width": 1600,
+                "height": 600,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/objects.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/report.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1078,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/poster.svg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/dashboard.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              }
+            ]
+          },
+          "saveStatus": "원본 템플릿"
+        },
+        {
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "navigation": {
+            "name": "http://127.0.0.1:4317/",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 87.29999999701977,
+            "navigationId": 6003,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.0",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 1,
+            "domainLookupStart": 1.8999999910593033,
+            "domainLookupEnd": 1.8999999910593033,
+            "connectStart": 1.8999999910593033,
+            "secureConnectionStart": 0,
+            "connectEnd": 2.2999999970197678,
+            "requestStart": 2.3999999910593033,
+            "responseStart": 3.7000000029802322,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 3.7000000029802322,
+            "responseEnd": 4.5,
+            "transferSize": 7173,
+            "encodedBodySize": 6873,
+            "decodedBodySize": 6873,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 5.5999999940395355,
+            "unloadEventEnd": 5.5999999940395355,
+            "domInteractive": 17.200000002980232,
+            "domContentLoadedEventStart": 41.20000000298023,
+            "domContentLoadedEventEnd": 41.3999999910593,
+            "domComplete": 87.29999999701977,
+            "loadEventStart": 87.29999999701977,
+            "loadEventEnd": 87.29999999701977,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {}
+          },
+          "paints": [
+            {
+              "name": "first-paint",
+              "entryType": "paint",
+              "startTime": 88,
+              "duration": 0,
+              "navigationId": 6003,
+              "paintTime": 44.29999999701977,
+              "presentationTime": 88
+            },
+            {
+              "name": "first-contentful-paint",
+              "entryType": "paint",
+              "startTime": 88,
+              "duration": 0,
+              "navigationId": 6003,
+              "paintTime": 44.29999999701977,
+              "presentationTime": 88
+            }
+          ],
+          "lcp": [
+            {
+              "startTime": 88,
+              "duration": 0,
+              "size": 49606
+            }
+          ],
+          "longTasks": [],
+          "resources": [
+            {
+              "name": "http://127.0.0.1:4317/styles.css?v=66752a982bf1",
+              "initiatorType": "link",
+              "transferSize": 89902,
+              "encodedBodySize": 89602,
+              "decodedBodySize": 89602,
+              "duration": 22.899999991059303
+            },
+            {
+              "name": "http://127.0.0.1:4317/content.js?v=370215d8ac4a",
+              "initiatorType": "script",
+              "transferSize": 18364,
+              "encodedBodySize": 18064,
+              "decodedBodySize": 18064,
+              "duration": 18.599999994039536
+            },
+            {
+              "name": "http://127.0.0.1:4317/deck-model.js?v=d62fc5037c36",
+              "initiatorType": "script",
+              "transferSize": 21073,
+              "encodedBodySize": 20773,
+              "decodedBodySize": 20773,
+              "duration": 26.900000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/app.js?v=ec970a351872",
+              "initiatorType": "script",
+              "transferSize": 65197,
+              "encodedBodySize": 64897,
+              "decodedBodySize": 64897,
+              "duration": 30.200000002980232
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+              "initiatorType": "img",
+              "transferSize": 137115,
+              "encodedBodySize": 136815,
+              "decodedBodySize": 136815,
+              "duration": 12.800000011920929
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+              "initiatorType": "img",
+              "transferSize": 270285,
+              "encodedBodySize": 269985,
+              "decodedBodySize": 269985,
+              "duration": 19.200000002980232
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+              "initiatorType": "img",
+              "transferSize": 0,
+              "encodedBodySize": 0,
+              "decodedBodySize": 0,
+              "duration": 6.5999999940395355
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/write.jpg",
+              "initiatorType": "img",
+              "transferSize": 151472,
+              "encodedBodySize": 151172,
+              "decodedBodySize": 151172,
+              "duration": 19.599999994039536
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+              "initiatorType": "img",
+              "transferSize": 299327,
+              "encodedBodySize": 299027,
+              "decodedBodySize": 299027,
+              "duration": 23.799999997019768
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+              "initiatorType": "img",
+              "transferSize": 389144,
+              "encodedBodySize": 388844,
+              "decodedBodySize": 388844,
+              "duration": 27.899999991059303
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+              "initiatorType": "img",
+              "transferSize": 0,
+              "encodedBodySize": 0,
+              "decodedBodySize": 0,
+              "duration": 8.400000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/report.svg",
+              "initiatorType": "img",
+              "transferSize": 0,
+              "encodedBodySize": 0,
+              "decodedBodySize": 0,
+              "duration": 9.900000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/objects.svg",
+              "initiatorType": "img",
+              "transferSize": 1219,
+              "encodedBodySize": 919,
+              "decodedBodySize": 919,
+              "duration": 25.100000008940697
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/dashboard.svg",
+              "initiatorType": "img",
+              "transferSize": 1727,
+              "encodedBodySize": 1427,
+              "decodedBodySize": 1427,
+              "duration": 30.600000008940697
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/workspace-demo.svg",
+              "initiatorType": "img",
+              "transferSize": 5823,
+              "encodedBodySize": 5523,
+              "decodedBodySize": 5523,
+              "duration": 32.400000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/poster-wide.svg",
+              "initiatorType": "img",
+              "transferSize": 0,
+              "encodedBodySize": 0,
+              "decodedBodySize": 0,
+              "duration": 21
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/examples/poster.svg",
+              "initiatorType": "img",
+              "transferSize": 978,
+              "encodedBodySize": 678,
+              "decodedBodySize": 678,
+              "duration": 34.29999999701977
+            }
+          ],
+          "dom": {
+            "elements": 555,
+            "slides": 20,
+            "hiddenSlides": 19,
+            "fields": 112,
+            "images": [
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/write.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2400,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/report.svg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/objects.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/dashboard.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/workspace-demo.svg",
+                "complete": true,
+                "width": 1600,
+                "height": 900,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/poster-wide.svg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/objects.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/report.svg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/landscape.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/poster.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/examples/dashboard.svg",
+                "complete": true,
+                "width": 1280,
+                "height": 960,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              }
+            ]
+          },
+          "saveStatus": "원본 템플릿"
+        }
+      ],
+      "keyboard": [
+        {
+          "key": "ArrowRight",
+          "start": 270.8999999910593,
+          "syncEventMs": 0.30000001192092896,
+          "twoAnimationFramesMs": 1040.2000000029802,
+          "hash": "#2"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 1389.7000000029802,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 53.3999999910593,
+          "hash": "#3"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 1468.0999999940395,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 25.799999997019768,
+          "hash": "#4"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 1530.7999999970198,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 31.200000002980232,
+          "hash": "#5"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 1592.7999999970198,
+          "syncEventMs": 0.09999999403953552,
+          "twoAnimationFramesMs": 51.70000000298023,
+          "hash": "#6"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 1655.2999999970198,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 1038.7000000029802,
+          "hash": "#7"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 2766,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 944.7000000029802,
+          "hash": "#8"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 3763.7000000029802,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 981.5999999940395,
+          "hash": "#9"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 4761.5999999940395,
+          "syncEventMs": 0.10000000894069672,
+          "twoAnimationFramesMs": 1066.5,
+          "hash": "#10"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 5851.70000000298,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 1026.0999999940395,
+          "hash": "#11"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 6985.79999999702,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 941.2000000029802,
+          "hash": "#12"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 8001.899999991059,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 942.3000000119209,
+          "hash": "#13"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 8993.09999999404,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 984.6000000089407,
+          "hash": "#14"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 9985,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 1026.2000000029802,
+          "hash": "#15"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 11084.5,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 975.8999999910593,
+          "hash": "#16"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 12093.09999999404,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 984.9000000059605,
+          "hash": "#17"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 13117.79999999702,
+          "syncEventMs": 0.09999999403953552,
+          "twoAnimationFramesMs": 1010.2999999970198,
+          "hash": "#18"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 14216.79999999702,
+          "syncEventMs": 0.09999999403953552,
+          "twoAnimationFramesMs": 1013.4000000059605,
+          "hash": "#19"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 15444.59999999404,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 816.7000000029802,
+          "hash": "#20"
+        }
+      ],
+      "endState": {
+        "hash": "#20",
+        "active": "20. 당신의 장면으로, 이야기를 시작하세요."
+      }
+    },
+    {
+      "path": "/examples/devday-compositions/index.html",
+      "runs": [
+        {
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "navigation": {
+            "name": "http://127.0.0.1:4317/examples/devday-compositions/index.html",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 81.59999999403954,
+            "navigationId": 650,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.0",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 2.2999999970197678,
+            "domainLookupStart": 3.7000000029802322,
+            "domainLookupEnd": 3.7999999970197678,
+            "connectStart": 3.7999999970197678,
+            "secureConnectionStart": 0,
+            "connectEnd": 3.8999999910593033,
+            "requestStart": 4,
+            "responseStart": 8.5,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 8.5,
+            "responseEnd": 8.899999991059303,
+            "transferSize": 7355,
+            "encodedBodySize": 7055,
+            "decodedBodySize": 7055,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 0,
+            "unloadEventEnd": 0,
+            "domInteractive": 20.200000002980232,
+            "domContentLoadedEventStart": 42.3999999910593,
+            "domContentLoadedEventEnd": 42.599999994039536,
+            "domComplete": 81.59999999403954,
+            "loadEventStart": 81.59999999403954,
+            "loadEventEnd": 81.59999999403954,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {}
+          },
+          "paints": [
+            {
+              "name": "first-paint",
+              "entryType": "paint",
+              "startTime": 112,
+              "duration": 0,
+              "navigationId": 650,
+              "paintTime": 36.5,
+              "presentationTime": 112
+            },
+            {
+              "name": "first-contentful-paint",
+              "entryType": "paint",
+              "startTime": 112,
+              "duration": 0,
+              "navigationId": 650,
+              "paintTime": 36.5,
+              "presentationTime": 112
+            }
+          ],
+          "lcp": [
+            {
+              "startTime": 112,
+              "duration": 0,
+              "size": 1728
+            },
+            {
+              "startTime": 148,
+              "duration": 0,
+              "size": 83342
+            }
+          ],
+          "longTasks": [],
+          "resources": [
+            {
+              "name": "http://127.0.0.1:4317/styles.css?v=66752a982bf1",
+              "initiatorType": "link",
+              "transferSize": 89902,
+              "encodedBodySize": 89602,
+              "decodedBodySize": 89602,
+              "duration": 19.899999991059303
+            },
+            {
+              "name": "http://127.0.0.1:4317/examples/devday-compositions/content.js?v=4770213b72ba",
+              "initiatorType": "script",
+              "transferSize": 12233,
+              "encodedBodySize": 11933,
+              "decodedBodySize": 11933,
+              "duration": 18.900000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/app.js?v=ec970a351872",
+              "initiatorType": "script",
+              "transferSize": 65197,
+              "encodedBodySize": 64897,
+              "decodedBodySize": 64897,
+              "duration": 22.900000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/deck-model.js?v=d62fc5037c36",
+              "initiatorType": "script",
+              "transferSize": 21073,
+              "encodedBodySize": 20773,
+              "decodedBodySize": 20773,
+              "duration": 24.5
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+              "initiatorType": "img",
+              "transferSize": 137115,
+              "encodedBodySize": 136815,
+              "decodedBodySize": 136815,
+              "duration": 7.5999999940395355
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/write.jpg",
+              "initiatorType": "img",
+              "transferSize": 151472,
+              "encodedBodySize": 151172,
+              "decodedBodySize": 151172,
+              "duration": 5.9000000059604645
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+              "initiatorType": "img",
+              "transferSize": 299327,
+              "encodedBodySize": 299027,
+              "decodedBodySize": 299027,
+              "duration": 8.200000002980232
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+              "initiatorType": "img",
+              "transferSize": 389144,
+              "encodedBodySize": 388844,
+              "decodedBodySize": 388844,
+              "duration": 10
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+              "initiatorType": "img",
+              "transferSize": 270285,
+              "encodedBodySize": 269985,
+              "decodedBodySize": 269985,
+              "duration": 9.700000002980232
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+              "initiatorType": "img",
+              "transferSize": 585825,
+              "encodedBodySize": 585525,
+              "decodedBodySize": 585525,
+              "duration": 11.200000002980232
+            }
+          ],
+          "dom": {
+            "elements": 470,
+            "slides": 7,
+            "hiddenSlides": 6,
+            "fields": 79,
+            "images": [
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/write.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2400,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/write.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              }
+            ]
+          },
+          "saveStatus": "원본 템플릿"
+        },
+        {
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "navigation": {
+            "name": "http://127.0.0.1:4317/examples/devday-compositions/index.html",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 68,
+            "navigationId": 3922,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.0",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 1.2000000029802322,
+            "domainLookupStart": 2.1000000089406967,
+            "domainLookupEnd": 2.1000000089406967,
+            "connectStart": 2.1000000089406967,
+            "secureConnectionStart": 0,
+            "connectEnd": 2.2999999970197678,
+            "requestStart": 2.4000000059604645,
+            "responseStart": 3.2999999970197678,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 3.2999999970197678,
+            "responseEnd": 3.7999999970197678,
+            "transferSize": 7355,
+            "encodedBodySize": 7055,
+            "decodedBodySize": 7055,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 6,
+            "unloadEventEnd": 6,
+            "domInteractive": 12.400000005960464,
+            "domContentLoadedEventStart": 35.5,
+            "domContentLoadedEventEnd": 35.70000000298023,
+            "domComplete": 67.90000000596046,
+            "loadEventStart": 68,
+            "loadEventEnd": 68,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {}
+          },
+          "paints": [
+            {
+              "name": "first-paint",
+              "entryType": "paint",
+              "startTime": 88,
+              "duration": 0,
+              "navigationId": 3922,
+              "paintTime": 28.100000008940697,
+              "presentationTime": 88
+            },
+            {
+              "name": "first-contentful-paint",
+              "entryType": "paint",
+              "startTime": 88,
+              "duration": 0,
+              "navigationId": 3922,
+              "paintTime": 28.100000008940697,
+              "presentationTime": 88
+            }
+          ],
+          "lcp": [
+            {
+              "startTime": 88,
+              "duration": 0,
+              "size": 1728
+            },
+            {
+              "startTime": 88,
+              "duration": 0,
+              "size": 83342
+            }
+          ],
+          "longTasks": [],
+          "resources": [
+            {
+              "name": "http://127.0.0.1:4317/styles.css?v=66752a982bf1",
+              "initiatorType": "link",
+              "transferSize": 89902,
+              "encodedBodySize": 89602,
+              "decodedBodySize": 89602,
+              "duration": 16.599999994039536
+            },
+            {
+              "name": "http://127.0.0.1:4317/examples/devday-compositions/content.js?v=4770213b72ba",
+              "initiatorType": "script",
+              "transferSize": 12233,
+              "encodedBodySize": 11933,
+              "decodedBodySize": 11933,
+              "duration": 18.899999991059303
+            },
+            {
+              "name": "http://127.0.0.1:4317/deck-model.js?v=d62fc5037c36",
+              "initiatorType": "script",
+              "transferSize": 21073,
+              "encodedBodySize": 20773,
+              "decodedBodySize": 20773,
+              "duration": 21.799999997019768
+            },
+            {
+              "name": "http://127.0.0.1:4317/app.js?v=ec970a351872",
+              "initiatorType": "script",
+              "transferSize": 65197,
+              "encodedBodySize": 64897,
+              "decodedBodySize": 64897,
+              "duration": 24.200000002980232
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+              "initiatorType": "img",
+              "transferSize": 137115,
+              "encodedBodySize": 136815,
+              "decodedBodySize": 136815,
+              "duration": 9.300000011920929
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+              "initiatorType": "img",
+              "transferSize": 270285,
+              "encodedBodySize": 269985,
+              "decodedBodySize": 269985,
+              "duration": 11.599999994039536
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/write.jpg",
+              "initiatorType": "img",
+              "transferSize": 151472,
+              "encodedBodySize": 151172,
+              "decodedBodySize": 151172,
+              "duration": 14
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+              "initiatorType": "img",
+              "transferSize": 389144,
+              "encodedBodySize": 388844,
+              "decodedBodySize": 388844,
+              "duration": 19.599999994039536
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+              "initiatorType": "img",
+              "transferSize": 299327,
+              "encodedBodySize": 299027,
+              "decodedBodySize": 299027,
+              "duration": 20.399999991059303
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+              "initiatorType": "img",
+              "transferSize": 585825,
+              "encodedBodySize": 585525,
+              "decodedBodySize": 585525,
+              "duration": 26.200000002980232
+            }
+          ],
+          "dom": {
+            "elements": 470,
+            "slides": 7,
+            "hiddenSlides": 6,
+            "fields": 79,
+            "images": [
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/write.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2400,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/write.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              }
+            ]
+          },
+          "saveStatus": "원본 템플릿"
+        },
+        {
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "navigation": {
+            "name": "http://127.0.0.1:4317/examples/devday-compositions/index.html",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 70.70000000298023,
+            "navigationId": 6626,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.0",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 0.6000000089406967,
+            "domainLookupStart": 1.800000011920929,
+            "domainLookupEnd": 1.800000011920929,
+            "connectStart": 1.800000011920929,
+            "secureConnectionStart": 0,
+            "connectEnd": 2,
+            "requestStart": 2.2000000029802322,
+            "responseStart": 7.200000002980232,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 7.200000002980232,
+            "responseEnd": 8,
+            "transferSize": 7355,
+            "encodedBodySize": 7055,
+            "decodedBodySize": 7055,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 9.800000011920929,
+            "unloadEventEnd": 9.800000011920929,
+            "domInteractive": 18,
+            "domContentLoadedEventStart": 37.80000001192093,
+            "domContentLoadedEventEnd": 38,
+            "domComplete": 70.70000000298023,
+            "loadEventStart": 70.70000000298023,
+            "loadEventEnd": 70.70000000298023,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {}
+          },
+          "paints": [
+            {
+              "name": "first-paint",
+              "entryType": "paint",
+              "startTime": 72,
+              "duration": 0,
+              "navigationId": 6626,
+              "paintTime": 28.400000005960464,
+              "presentationTime": 72
+            },
+            {
+              "name": "first-contentful-paint",
+              "entryType": "paint",
+              "startTime": 72,
+              "duration": 0,
+              "navigationId": 6626,
+              "paintTime": 28.400000005960464,
+              "presentationTime": 72
+            }
+          ],
+          "lcp": [
+            {
+              "startTime": 72,
+              "duration": 0,
+              "size": 1728
+            },
+            {
+              "startTime": 72,
+              "duration": 0,
+              "size": 83342
+            }
+          ],
+          "longTasks": [],
+          "resources": [
+            {
+              "name": "http://127.0.0.1:4317/styles.css?v=66752a982bf1",
+              "initiatorType": "link",
+              "transferSize": 89902,
+              "encodedBodySize": 89602,
+              "decodedBodySize": 89602,
+              "duration": 14
+            },
+            {
+              "name": "http://127.0.0.1:4317/examples/devday-compositions/content.js?v=4770213b72ba",
+              "initiatorType": "script",
+              "transferSize": 12233,
+              "encodedBodySize": 11933,
+              "decodedBodySize": 11933,
+              "duration": 13.099999994039536
+            },
+            {
+              "name": "http://127.0.0.1:4317/app.js?v=ec970a351872",
+              "initiatorType": "script",
+              "transferSize": 65197,
+              "encodedBodySize": 64897,
+              "decodedBodySize": 64897,
+              "duration": 15.200000002980232
+            },
+            {
+              "name": "http://127.0.0.1:4317/deck-model.js?v=d62fc5037c36",
+              "initiatorType": "script",
+              "transferSize": 21073,
+              "encodedBodySize": 20773,
+              "decodedBodySize": 20773,
+              "duration": 15.900000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+              "initiatorType": "img",
+              "transferSize": 0,
+              "encodedBodySize": 0,
+              "decodedBodySize": 0,
+              "duration": 4.4000000059604645
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+              "initiatorType": "img",
+              "transferSize": 270285,
+              "encodedBodySize": 269985,
+              "decodedBodySize": 269985,
+              "duration": 8.900000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/write.jpg",
+              "initiatorType": "img",
+              "transferSize": 151472,
+              "encodedBodySize": 151172,
+              "decodedBodySize": 151172,
+              "duration": 10.400000005960464
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+              "initiatorType": "img",
+              "transferSize": 299327,
+              "encodedBodySize": 299027,
+              "decodedBodySize": 299027,
+              "duration": 16.5
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+              "initiatorType": "img",
+              "transferSize": 389144,
+              "encodedBodySize": 388844,
+              "decodedBodySize": 388844,
+              "duration": 24.099999994039536
+            },
+            {
+              "name": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+              "initiatorType": "img",
+              "transferSize": 585825,
+              "encodedBodySize": 585525,
+              "decodedBodySize": 585525,
+              "duration": 30.399999991059303
+            }
+          ],
+          "dom": {
+            "elements": 475,
+            "slides": 7,
+            "hiddenSlides": 6,
+            "fields": 79,
+            "images": [
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/capture.jpg",
+                "complete": true,
+                "width": 0,
+                "height": 0,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/listen.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/write.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/observe.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-one.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2400,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/portrait-two.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 2397,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              },
+              {
+                "src": "http://127.0.0.1:4317/assets/photos/write.jpg",
+                "complete": true,
+                "width": 1600,
+                "height": 1067,
+                "loading": "auto",
+                "insideHiddenSlide": true
+              }
+            ]
+          },
+          "saveStatus": "원본 템플릿"
+        }
+      ],
+      "keyboard": [
+        {
+          "key": "ArrowRight",
+          "start": 232.5,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 94.80000001192093,
+          "hash": "#2"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 396.30000001192093,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 65.09999999403954,
+          "hash": "#3"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 559.5,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 32.900000005960464,
+          "hash": "#4"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 649,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 245.70000000298023,
+          "hash": "#5"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 923.9000000059605,
+          "syncEventMs": 0,
+          "twoAnimationFramesMs": 1037.4000000059605,
+          "hash": "#6"
+        },
+        {
+          "key": "ArrowRight",
+          "start": 2015.2000000029802,
+          "syncEventMs": 0.10000000894069672,
+          "twoAnimationFramesMs": 1013.4000000059605,
+          "hash": "#7"
+        }
+      ],
+      "endState": {
+        "hash": "#7",
+        "active": "7. 당신의 장면으로, 다음 이야기를."
+      }
+    }
+  ],
+  "head": "23f41f2aeb66a84cdb30e66d62986d8081686e2c",
+  "status": "Superseded by post-pull measurements; preserved historical baseline.",
+  "keyboardTimingValid": false
+}

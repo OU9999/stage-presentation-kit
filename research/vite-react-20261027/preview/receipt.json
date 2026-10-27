@@ -1,0 +1,15 @@
+{
+  "originBuildHead": "a1b621c26d7e124a3c8d33eb288723ac7683c950",
+  "originDirectory": "/tmp/stage-vite-react-probe.vVYnYS/dist",
+  "adaptation": "Copied production fixture for local presentation. Entry HTML base changed to relative paths and preview-only CSS added. Existing product and original evidence unchanged.",
+  "preservedFiles": [
+    ".vite/manifest.json",
+    "assets/editor-DAdjzpHn.js",
+    "assets/modulepreload-polyfill-P2Xu9kJm.js",
+    "assets/vanilla-CGEeU8qd.js",
+    "content.js",
+    "deck-model.js",
+    "legacy-bridge.js",
+    "visual.js"
+  ]
+}

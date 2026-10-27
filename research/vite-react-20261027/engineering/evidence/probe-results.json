@@ -1,0 +1,132 @@
+{
+  "capturedAt": "2026-10-27T07:35:01.031Z",
+  "head": "a1b621c26d7e124a3c8d33eb288723ac7683c950",
+  "node": "v24.22.1",
+  "checks": [
+    "Current product HTML has four classic defer scripts in content/model/visual/app order",
+    "index.html: built classic tags/order/base preserved; module output present (static check)",
+    "vanilla.html: built classic tags/order/base preserved; module output present (static check)",
+    "Node VM explicit classic initialization and pure model/bridge valid commit + invalid rejection passed; no browser scheduling/DOM test",
+    "Copied production model and visual source are byte-identical to current product source"
+  ],
+  "files": [
+    {
+      "path": ".vite/manifest.json",
+      "bytes": 548,
+      "gzipBytes": 209,
+      "sha256": "fffc8b29c50413bbce670ffd5a657ac7af88cf9f0807919058039df893a80095"
+    },
+    {
+      "path": "assets/editor-DAdjzpHn.js",
+      "bytes": 220559,
+      "gzipBytes": 68349,
+      "sha256": "476362c0211c189436f08840ceb239120ba95a47b7f6c4e13c49d9a67d28f01e"
+    },
+    {
+      "path": "assets/modulepreload-polyfill-P2Xu9kJm.js",
+      "bytes": 670,
+      "gzipBytes": 389,
+      "sha256": "418c206484b89b68ef5f067277831e583fc9193a62aadf4de269acaaeb12a85f"
+    },
+    {
+      "path": "assets/vanilla-CGEeU8qd.js",
+      "bytes": 396,
+      "gzipBytes": 271,
+      "sha256": "2689ba21920bc7bf1b0d1edf03dbd9e93f6a862fe14198bb5bf5b472bf1ec3c1"
+    },
+    {
+      "path": "content.js",
+      "bytes": 284,
+      "gzipBytes": 219,
+      "sha256": "f5ba608aaf8f1b09fc81c5fb63119a8bb209396c7d476be5b95697b1318ec13e"
+    },
+    {
+      "path": "deck-model.js",
+      "bytes": 29874,
+      "gzipBytes": 7580,
+      "sha256": "398ae06f5ea53f0576fd9ed91a0f00f4dd6026d20fa689b453e072e4e86286ba"
+    },
+    {
+      "path": "index.html",
+      "bytes": 692,
+      "gzipBytes": 319,
+      "sha256": "42e2441dc1103e35d27cd3363399d4089a88d8bc98975273cf6501c38ea7f49b"
+    },
+    {
+      "path": "legacy-bridge.js",
+      "bytes": 1067,
+      "gzipBytes": 543,
+      "sha256": "9b12223a76130744a39f7e5749a2cf7dba925f6430d1630be8d7f05cad1a0b4f"
+    },
+    {
+      "path": "vanilla.html",
+      "bytes": 683,
+      "gzipBytes": 320,
+      "sha256": "99317ae46ff1df6c1b481d743cb59418910dafd11482a9f1954be3304ac8e0db"
+    },
+    {
+      "path": "visual.js",
+      "bytes": 29597,
+      "gzipBytes": 8434,
+      "sha256": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9"
+    }
+  ],
+  "manifest": {
+    "_modulepreload-polyfill-P2Xu9kJm.js": {
+      "file": "assets/modulepreload-polyfill-P2Xu9kJm.js",
+      "name": "modulepreload-polyfill"
+    },
+    "index.html": {
+      "file": "assets/editor-DAdjzpHn.js",
+      "name": "editor",
+      "src": "index.html",
+      "isEntry": true,
+      "imports": [
+        "_modulepreload-polyfill-P2Xu9kJm.js"
+      ]
+    },
+    "vanilla.html": {
+      "file": "assets/vanilla-CGEeU8qd.js",
+      "name": "vanilla",
+      "src": "vanilla.html",
+      "isEntry": true,
+      "imports": [
+        "_modulepreload-polyfill-P2Xu9kJm.js"
+      ]
+    }
+  },
+  "entries": {
+    "index.html": {
+      "files": [
+        "assets/editor-DAdjzpHn.js",
+        "assets/modulepreload-polyfill-P2Xu9kJm.js",
+        "content.js",
+        "deck-model.js",
+        "index.html",
+        "legacy-bridge.js",
+        "visual.js"
+      ],
+      "rawBytes": 282743,
+      "sumIndividualGzipBytes": 85833
+    },
+    "vanilla.html": {
+      "files": [
+        "assets/modulepreload-polyfill-P2Xu9kJm.js",
+        "assets/vanilla-CGEeU8qd.js",
+        "content.js",
+        "deck-model.js",
+        "legacy-bridge.js",
+        "vanilla.html",
+        "visual.js"
+      ],
+      "rawBytes": 62571,
+      "sumIndividualGzipBytes": 17756
+    }
+  },
+  "limitations": [
+    "Small isolated fixture; not full app conversion or functionally equal vanilla/React benchmark",
+    "Static production outputs and Node VM initialization only; no browser UI, file protocol, runtime perf, IME, presenter or full 20-layout regression",
+    "Gzip calculated per file offline with Node zlib; not HTTP transfer measurements; entries include shared files once each",
+    "Original app.js is never imported; legacy-bridge.js is a fixture, not actual application integration"
+  ]
+}

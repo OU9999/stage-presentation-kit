@@ -1,0 +1,213 @@
+{
+  "head": "a1b621c26d7e124a3c8d33eb288723ac7683c950",
+  "capturedAt": "2026-10-27T07:25:05.555Z",
+  "method": {
+    "viewport": "1440x1000",
+    "cache": "disabled on audited page",
+    "cpuThrottling": "none",
+    "networkThrottling": "none",
+    "server": "Python http.server, no response compression"
+  },
+  "limitations": [
+    "Three local runs per deck, not field Core Web Vitals.",
+    "LCP is a buffered observation before navigation input, not a field percentile.",
+    "Keyboard syncEventMs captures document handler processing before window bubbling; excludes deferred diagnostics, layout and paint. It is not INP.",
+    "No React or Vite implementation has been benchmarked."
+  ],
+  "decks": [
+    {
+      "path": "/",
+      "slides": 20,
+      "elements": [
+        515,
+        515,
+        515
+      ],
+      "fcpMs": [
+        148,
+        84,
+        72
+      ],
+      "stageReadyObservedMs": [
+        146.40000000596046,
+        45.29999999701977,
+        29.700000002980232
+      ],
+      "observedLcpMs": [
+        232,
+        100,
+        88
+      ],
+      "longTasks": [
+        [
+          {
+            "startTime": 97.90000000596046,
+            "duration": 64
+          }
+        ],
+        [],
+        []
+      ],
+      "initialImageElements": 23,
+      "initialImagesInsideHiddenSlides": 23,
+      "initialUniqueImageUrls": 13,
+      "localBytesForRequestedImages": 2108987,
+      "requestedImageFileSizes": {
+        "assets/photos/write.jpg": 151172,
+        "assets/photos/portrait-one.jpg": 388844,
+        "assets/examples/poster-wide.svg": 619,
+        "assets/photos/listen.jpg": 269985,
+        "assets/photos/capture.jpg": 136815,
+        "assets/photos/observe.jpg": 299027,
+        "assets/workspace-demo.svg": 5523,
+        "assets/examples/poster.svg": 678,
+        "assets/examples/dashboard.svg": 1427,
+        "assets/examples/report.svg": 1132,
+        "assets/photos/portrait-two.jpg": 585525,
+        "assets/examples/objects.svg": 919,
+        "assets/photos/landscape.jpg": 267321
+      },
+      "keyboardEvents": 19,
+      "medianSyncKeyboardMs": 1.2000000029802322,
+      "maxSyncKeyboardMs": 2,
+      "endState": {
+        "hash": "#20",
+        "active": "20. 당신의 장면으로, 이야기를 시작하세요."
+      },
+      "medianFcpMs": 84
+    },
+    {
+      "path": "/examples/devday-compositions/index.html",
+      "slides": 7,
+      "elements": [
+        485,
+        490,
+        490
+      ],
+      "fcpMs": [
+        148,
+        104,
+        136
+      ],
+      "stageReadyObservedMs": [
+        35.599999994039536,
+        32.5,
+        102.6000000089407
+      ],
+      "observedLcpMs": [
+        148,
+        104,
+        136
+      ],
+      "longTasks": [
+        [],
+        [],
+        []
+      ],
+      "initialImageElements": 7,
+      "initialImagesInsideHiddenSlides": 7,
+      "initialUniqueImageUrls": 6,
+      "localBytesForRequestedImages": 1831368,
+      "requestedImageFileSizes": {
+        "assets/photos/write.jpg": 151172,
+        "assets/photos/portrait-one.jpg": 388844,
+        "assets/photos/listen.jpg": 269985,
+        "assets/photos/capture.jpg": 136815,
+        "assets/photos/observe.jpg": 299027,
+        "assets/photos/portrait-two.jpg": 585525
+      },
+      "keyboardEvents": 6,
+      "medianSyncKeyboardMs": 0.7999999970197678,
+      "maxSyncKeyboardMs": 1.7999999970197678,
+      "endState": {
+        "hash": "#7",
+        "active": "7. 당신의 장면으로, 다음 이야기를."
+      },
+      "medianFcpMs": 136
+    },
+    {
+      "path": "/examples/visual-story/index.html",
+      "slides": 12,
+      "elements": [
+        853,
+        853,
+        853
+      ],
+      "fcpMs": [
+        168,
+        64,
+        64
+      ],
+      "stageReadyObservedMs": [
+        52.30000001192093,
+        26.5,
+        33
+      ],
+      "observedLcpMs": [
+        168,
+        64,
+        64
+      ],
+      "longTasks": [
+        [],
+        [],
+        []
+      ],
+      "initialImageElements": 0,
+      "initialImagesInsideHiddenSlides": 0,
+      "initialUniqueImageUrls": 0,
+      "localBytesForRequestedImages": 0,
+      "requestedImageFileSizes": {},
+      "keyboardEvents": 11,
+      "medianSyncKeyboardMs": 1.800000011920929,
+      "maxSyncKeyboardMs": 14.099999994039536,
+      "endState": {
+        "hash": "#12",
+        "active": "12. 작게 적용하고, 같은 기준으로 다시 봅니다."
+      },
+      "medianFcpMs": 64
+    },
+    {
+      "path": "/examples/text-layout/index.html",
+      "slides": 8,
+      "elements": [
+        623,
+        623,
+        623
+      ],
+      "fcpMs": [
+        96,
+        68,
+        88
+      ],
+      "stageReadyObservedMs": [
+        43.5,
+        26.30000001192093,
+        27.5
+      ],
+      "observedLcpMs": [
+        96,
+        68,
+        88
+      ],
+      "longTasks": [
+        [],
+        [],
+        []
+      ],
+      "initialImageElements": 0,
+      "initialImagesInsideHiddenSlides": 0,
+      "initialUniqueImageUrls": 0,
+      "localBytesForRequestedImages": 0,
+      "requestedImageFileSizes": {},
+      "keyboardEvents": 7,
+      "medianSyncKeyboardMs": 1.2999999970197678,
+      "maxSyncKeyboardMs": 249.69999998807907,
+      "endState": {
+        "hash": "#8",
+        "active": "8. 자료가 달라져도, 값과 설명의 관계를 유지합니다."
+      },
+      "medianFcpMs": 88
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "verifiedAt": "2026-10-27T07:42:18.077493+00:00",
+  "head": "a1b621c26d7e124a3c8d33eb288723ac7683c950",
+  "mainEqualsOriginMain": true,
+  "productWorktreeUnmodified": true,
+  "upstreamWorkLogPreserved": true,
+  "markdownFiles": 10,
+  "localLinksChecked": 90,
+  "missingLinks": [],
+  "jsonFilesParsed": 13,
+  "engineeringReportHashesMatchManagerHandoff": true,
+  "probeDistFilesIndependentlyMatched": 10,
+  "existingTestsPassed": 185,
+  "browserDecks": 4,
+  "browserNavigationEvents": 43,
+  "outlierRepeatEvents": 16,
+  "browserTaskSpaceFinished": 34,
+  "taskOwnedServerStopped": 72232,
+  "reports": [
+    {
+      "path": "research/vite-react-20261027/RESULT.md",
+      "sha256": "a05b5296b358bcf45915d457c6fa3a7cd92946be1128d55325b87b15f29f67e9"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/README.md",
+      "sha256": "593ff4bb35d94e381c84a9dc14271800de2a6aa679312d4c1c88034d78c7c00f"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/manager-review.md",
+      "sha256": "b43b25a8201d6ab917b33310961af47d3e24e3a69db6adf941be177b371cd098"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/migration-design.md",
+      "sha256": "91db887e0c1956739f72cf33a100fad09ea83b52356a2a11537131eee35a1767"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/performance-audit.md",
+      "sha256": "c469e76a7d8fac39b0bce54625559f7c7b0efe358c935c8f924d841b61a74883"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/synthesis.md",
+      "sha256": "31571c21a89ac260366c21817adef01d68321d91db653f94038d09acb1911128"
+    },
+    {
+      "path": "research/vite-react-20261027/research/manager-review.md",
+      "sha256": "d8b7e81f431f23fc30e044188fc5976c041b8841729ce3d1e7206808fec62778"
+    },
+    {
+      "path": "research/vite-react-20261027/research/react-draft.md",
+      "sha256": "579b3d63a780745730264a99eafb915bf191a633274dae3c19a8876ad566b0fe"
+    },
+    {
+      "path": "research/vite-react-20261027/research/synthesis.md",
+      "sha256": "ac6281e7582daabe4002c07ac876f6520bfa9703e78f7ca10513369131f06c1c"
+    },
+    {
+      "path": "research/vite-react-20261027/research/vite-draft.md",
+      "sha256": "ad7b690b59123cec115fe8635bdf0679af07d5946203955c8f26d0e2f84f1b6f"
+    }
+  ],
+  "limits": [
+    "No full application Vite/React migration.",
+    "No functionally equivalent framework performance comparison.",
+    "Probe validation covers production build, static output and Node VM only."
+  ],
+  "teamsCompleted": {
+    "research_manager": true,
+    "research_contributors": 2,
+    "engineering_manager": true,
+    "engineering_contributors": 2
+  },
+  "workLogSha256": "41fb5846afffcfb369665faba7496e035436460e1b74901801a3fa4b1d4e929f"
+}

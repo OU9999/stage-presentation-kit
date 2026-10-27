@@ -1,0 +1,25 @@
+{
+  "verifiedAt": "2026-10-27T07:58:52.741Z",
+  "valid": {
+    "value": 72,
+    "table": "대상별 비교\n대상\t값 (%)\nBefore\t30\nAfter\t72"
+  },
+  "invalid": {
+    "valuePreserved": true,
+    "error": "Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+  },
+  "cancelDraft": true,
+  "initialDataRestored": true,
+  "scope": "Actual isolated React panel; existing product remains separate.",
+  "panelMobile": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "player": {
+    "slides": 12
+  },
+  "overviewMobile": {
+    "width": 390,
+    "scrollWidth": 390
+  }
+}

@@ -1,0 +1,207 @@
+STAGE isolated production probe; 2026-10-27; cwd /tmp/stage-vite-react-probe.vVYnYS; registry https://registry.npmjs.org/
+Initial npm install created package-lock in isolated directory only; replay below uses npm ci.
+Earlier prepare command issued from repo root failed MODULE_NOT_FOUND; rerun from isolated cwd succeeded. No product mutation resulted.
+
+$ node --version
+v24.22.1
+
+exit=0
+
+$ npm --version
+11.19.1
+
+exit=0
+
+$ npm view vite version engines dist-tags --json
+{
+  "version": "8.3.5",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "dist-tags": {
+    "alpha": "6.0.0-alpha.24",
+    "beta": "8.3.0-beta.1",
+    "latest": "8.3.5",
+    "previous": "6.4.5"
+  }
+}
+
+exit=0
+
+$ npm view react version dist-tags --json
+{
+  "version": "19.3.1",
+  "dist-tags": {
+    "beta": "19.0.0-beta-26f2496093-20240514",
+    "rc": "19.0.0-rc.1",
+    "next": "19.3.0-canary-d5736f09-20260507",
+    "latest": "19.3.1",
+    "backport": "19.1.10",
+    "experimental": "0.0.0-experimental-fd51cb10-20261026",
+    "canary": "19.3.0-canary-fd51cb10-20261026"
+  }
+}
+
+exit=0
+
+$ npm view react-dom version peerDependencies --json
+{
+  "version": "19.3.1",
+  "peerDependencies": {
+    "react": "^19.3.1"
+  }
+}
+
+exit=0
+
+$ node prepare.mjs /Users/ou9999-wdl/Documents/devday-presentation-kit
+deck-model.js 398ae06f5ea53f0576fd9ed91a0f00f4dd6026d20fa689b453e072e4e86286ba
+visual.js 02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9
+
+exit=0
+
+$ npm ci --ignore-scripts --no-audit --no-fund
+
+added 19 packages in 397ms
+
+exit=0
+
+$ npm run build
+
+> stage-isolated-editor-probe@0.0.0 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+<script src="/stage-presentation-kit/content.js"> in "/index.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/deck-model.js"> in "/index.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/visual.js"> in "/index.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/legacy-bridge.js"> in "/index.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/content.js"> in "/vanilla.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/deck-model.js"> in "/vanilla.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/visual.js"> in "/vanilla.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/legacy-bridge.js"> in "/vanilla.html" can't be bundled without type="module" attribute
+✓ 17 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/.vite/manifest.json                          0.54 kB │ gzip:  0.20 kB
+dist/vanilla.html                                 0.68 kB │ gzip:  0.32 kB
+dist/index.html                                   0.69 kB │ gzip:  0.31 kB
+dist/assets/vanilla-CfNUQr3k.js                   0.37 kB │ gzip:  0.27 kB
+dist/assets/modulepreload-polyfill-P2Xu9kJm.js    0.67 kB │ gzip:  0.38 kB
+dist/assets/editor-BeyvEl3b.js                  220.52 kB │ gzip: 69.08 kB
+
+✓ built in 83ms
+
+exit=0
+
+$ node verify.mjs /Users/ou9999-wdl/Documents/devday-presentation-kit
+{
+  "checks": [
+    "Current product HTML has four classic defer scripts in content/model/visual/app order",
+    "index.html: built classic tags/order/base preserved; module output present (static check)",
+    "vanilla.html: built classic tags/order/base preserved; module output present (static check)",
+    "Node VM explicit classic initialization and pure model/bridge valid commit + invalid rejection passed; no browser scheduling/DOM test",
+    "Copied production model and visual source are byte-identical to current product source"
+  ],
+  "entries": {
+    "index.html": {
+      "files": [
+        "assets/editor-BeyvEl3b.js",
+        "assets/modulepreload-polyfill-P2Xu9kJm.js",
+        "content.js",
+        "deck-model.js",
+        "index.html",
+        "legacy-bridge.js",
+        "visual.js"
+      ],
+      "rawBytes": 282651,
+      "sumIndividualGzipBytes": 85796
+    },
+    "vanilla.html": {
+      "files": [
+        "assets/modulepreload-polyfill-P2Xu9kJm.js",
+        "assets/vanilla-CfNUQr3k.js",
+        "content.js",
+        "deck-model.js",
+        "legacy-bridge.js",
+        "vanilla.html",
+        "visual.js"
+      ],
+      "rawBytes": 62490,
+      "sumIndividualGzipBytes": 17727
+    }
+  }
+}
+
+exit=0
+
+Final revision: explicit bridge-ready event + parsed DOM gates; rebuilt after manager review.
+$ npm run build
+
+> stage-isolated-editor-probe@0.0.0 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+<script src="/stage-presentation-kit/content.js"> in "/index.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/deck-model.js"> in "/index.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/visual.js"> in "/index.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/legacy-bridge.js"> in "/index.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/content.js"> in "/vanilla.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/deck-model.js"> in "/vanilla.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/visual.js"> in "/vanilla.html" can't be bundled without type="module" attribute
+<script src="/stage-presentation-kit/legacy-bridge.js"> in "/vanilla.html" can't be bundled without type="module" attribute
+✓ 17 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/.vite/manifest.json                          0.54 kB │ gzip:  0.20 kB
+dist/vanilla.html                                 0.68 kB │ gzip:  0.32 kB
+dist/index.html                                   0.69 kB │ gzip:  0.31 kB
+dist/assets/vanilla-CGEeU8qd.js                   0.39 kB │ gzip:  0.27 kB
+dist/assets/modulepreload-polyfill-P2Xu9kJm.js    0.67 kB │ gzip:  0.38 kB
+dist/assets/editor-DAdjzpHn.js                  220.55 kB │ gzip: 69.08 kB
+
+✓ built in 82ms
+
+exit=0
+$ node verify.mjs /Users/ou9999-wdl/Documents/devday-presentation-kit
+{
+  "checks": [
+    "Current product HTML has four classic defer scripts in content/model/visual/app order",
+    "index.html: built classic tags/order/base preserved; module output present (static check)",
+    "vanilla.html: built classic tags/order/base preserved; module output present (static check)",
+    "Node VM explicit classic initialization and pure model/bridge valid commit + invalid rejection passed; no browser scheduling/DOM test",
+    "Copied production model and visual source are byte-identical to current product source"
+  ],
+  "entries": {
+    "index.html": {
+      "files": [
+        "assets/editor-DAdjzpHn.js",
+        "assets/modulepreload-polyfill-P2Xu9kJm.js",
+        "content.js",
+        "deck-model.js",
+        "index.html",
+        "legacy-bridge.js",
+        "visual.js"
+      ],
+      "rawBytes": 282743,
+      "sumIndividualGzipBytes": 85833
+    },
+    "vanilla.html": {
+      "files": [
+        "assets/modulepreload-polyfill-P2Xu9kJm.js",
+        "assets/vanilla-CGEeU8qd.js",
+        "content.js",
+        "deck-model.js",
+        "legacy-bridge.js",
+        "vanilla.html",
+        "visual.js"
+      ],
+      "rawBytes": 62571,
+      "sumIndividualGzipBytes": 17756
+    }
+  }
+}
+
+exit=0

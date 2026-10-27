@@ -1,0 +1,70 @@
+{
+  "head": "a1b621c26d7e124a3c8d33eb288723ac7683c950",
+  "files": [
+    {
+      "path": "probe-source/README.md",
+      "bytes": 1604,
+      "sha256": "593ff4bb35d94e381c84a9dc14271800de2a6aa679312d4c1c88034d78c7c00f"
+    },
+    {
+      "path": "probe-source/index.html",
+      "bytes": 476,
+      "sha256": "35813031d861d937a492cd069f1d441e25ae6c712fdbcfc7428b6a862795d0bc"
+    },
+    {
+      "path": "probe-source/package-lock.json",
+      "bytes": 26540,
+      "sha256": "ee390fa45c6ae55329e5f3e9f83346555f011461675d5b820a70b3bd3abbd618"
+    },
+    {
+      "path": "probe-source/package.json",
+      "bytes": 273,
+      "sha256": "15cf3f4b0952b6e0423474d7822349a4aeab31964b99fa9520e80afcfe3bc7c6"
+    },
+    {
+      "path": "probe-source/prepare.mjs",
+      "bytes": 467,
+      "sha256": "4f600785ba82ef6f866c7e1b0ae7c39f6738b898dd455eb43893e8cacc0f24db"
+    },
+    {
+      "path": "probe-source/public/content.js",
+      "bytes": 284,
+      "sha256": "f5ba608aaf8f1b09fc81c5fb63119a8bb209396c7d476be5b95697b1318ec13e"
+    },
+    {
+      "path": "probe-source/public/legacy-bridge.js",
+      "bytes": 1067,
+      "sha256": "9b12223a76130744a39f7e5749a2cf7dba925f6430d1630be8d7f05cad1a0b4f"
+    },
+    {
+      "path": "probe-source/src/bootstrap.js",
+      "bytes": 799,
+      "sha256": "44a6d2bbe10dad9ed7accfe4de29714e392dad553725551739b2c46eb6e19200"
+    },
+    {
+      "path": "probe-source/src/panel.jsx",
+      "bytes": 1125,
+      "sha256": "27ac5b0c4d94e65e68dfaea6c60cafd115d51538e5e899e560b5e7b07a558134"
+    },
+    {
+      "path": "probe-source/src/vanilla.js",
+      "bytes": 453,
+      "sha256": "06bc8a246d1dd2e475e38befedc9fdd6667ba6c54a851f0b82e45caa8196bc43"
+    },
+    {
+      "path": "probe-source/vanilla.html",
+      "bytes": 464,
+      "sha256": "5d18c2eb65a8c133297236b105f08ad66c99511216411a173ed2c6cfe4ce673e"
+    },
+    {
+      "path": "probe-source/verify.mjs",
+      "bytes": 4519,
+      "sha256": "5bc253c077c17cb7df6bbae54e1be13fce797e426e90ed6182e00dd923649275"
+    },
+    {
+      "path": "probe-source/vite.config.js",
+      "bytes": 321,
+      "sha256": "0bab1578bb10b309e9ed838b19f5b7d237b560470b6c8cc787cd513cf3dec2d4"
+    }
+  ]
+}

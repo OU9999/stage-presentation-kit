@@ -1,0 +1,14 @@
+{
+  "head": "a1b621c26d7e124a3c8d33eb288723ac7683c950",
+  "command": "node --test tests/*.test.cjs",
+  "completedAt": "2026-10-27T07:25:05.517018+00:00",
+  "exitCode": 0,
+  "counts": {
+    "tests": 185,
+    "pass": 185,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0
+  },
+  "scope": "Existing regression suite on pulled source; no framework migration implemented."
+}

@@ -1,0 +1,99 @@
+{
+  "head": "a1b621c26d7e124a3c8d33eb288723ac7683c950",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 6976,
+      "gzipBytes": 2583,
+      "sha256": "44e4d3b49d2a7416839eadcf573d11dea6c126bd34b3b8caa01c84899d4f7eab"
+    },
+    {
+      "path": "app.js",
+      "bytes": 74802,
+      "gzipBytes": 19229,
+      "sha256": "81571a906a6cfd90635d7f0e5a9e230f1aa323f2ccf1baf51cd01effda9be0f3"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 90612,
+      "gzipBytes": 15475,
+      "sha256": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4"
+    },
+    {
+      "path": "deck-model.js",
+      "bytes": 29874,
+      "gzipBytes": 7496,
+      "sha256": "398ae06f5ea53f0576fd9ed91a0f00f4dd6026d20fa689b453e072e4e86286ba"
+    },
+    {
+      "path": "visual.js",
+      "bytes": 29597,
+      "gzipBytes": 8369,
+      "sha256": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9"
+    },
+    {
+      "path": "visual.css",
+      "bytes": 19547,
+      "gzipBytes": 4010,
+      "sha256": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7"
+    },
+    {
+      "path": "content.js",
+      "bytes": 18064,
+      "gzipBytes": 5527,
+      "sha256": "370215d8ac4af3123c4f08358bd82fa9554658a9a9baba4fd69f2d34eb84c424"
+    },
+    {
+      "path": "examples/devday-compositions/content.js",
+      "bytes": 11933,
+      "gzipBytes": 3366,
+      "sha256": "4770213b72ba00367fbaa20d0cab4100259cb9272110ce1a344ae4b39c622670"
+    },
+    {
+      "path": "examples/visual-story/content.js",
+      "bytes": 6791,
+      "gzipBytes": 2888,
+      "sha256": "dfbc18e6e41e2a5d6bc51b3368fcdf2d5d5bf3a6931d432cd2d34627d6bb1bad"
+    },
+    {
+      "path": "examples/text-layout/content.js",
+      "bytes": 7340,
+      "gzipBytes": 1890,
+      "sha256": "ec211da102cc9d9c7644abf03da00afbb74a6fd7386438d1d475ffa883febab6"
+    }
+  ],
+  "photos": [
+    {
+      "path": "assets/photos/portrait-one.jpg",
+      "bytes": 388844
+    },
+    {
+      "path": "assets/photos/landscape.jpg",
+      "bytes": 267321
+    },
+    {
+      "path": "assets/photos/observe.jpg",
+      "bytes": 299027
+    },
+    {
+      "path": "assets/photos/listen.jpg",
+      "bytes": 269985
+    },
+    {
+      "path": "assets/photos/capture.jpg",
+      "bytes": 136815
+    },
+    {
+      "path": "assets/photos/write.jpg",
+      "bytes": 151172
+    },
+    {
+      "path": "assets/photos/portrait-two.jpg",
+      "bytes": 585525
+    }
+  ],
+  "notes": [
+    "gzip is offline size estimation, not observed production compression.",
+    "React/Vite comparative benchmark not performed."
+  ]
+}

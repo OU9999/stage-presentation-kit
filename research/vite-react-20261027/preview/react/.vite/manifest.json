@@ -1,0 +1,24 @@
+{
+  "_modulepreload-polyfill-P2Xu9kJm.js": {
+    "file": "assets/modulepreload-polyfill-P2Xu9kJm.js",
+    "name": "modulepreload-polyfill"
+  },
+  "index.html": {
+    "file": "assets/editor-DAdjzpHn.js",
+    "name": "editor",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill-P2Xu9kJm.js"
+    ]
+  },
+  "vanilla.html": {
+    "file": "assets/vanilla-CGEeU8qd.js",
+    "name": "vanilla",
+    "src": "vanilla.html",
+    "isEntry": true,
+    "imports": [
+      "_modulepreload-polyfill-P2Xu9kJm.js"
+    ]
+  }
+}

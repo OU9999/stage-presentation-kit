@@ -1,0 +1,76 @@
+{
+  "head": "23f41f2aeb66a84cdb30e66d62986d8081686e2c",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 6873,
+      "gzipBytes": 2533,
+      "sha256": "aa720aabb240f1432e0409cc7b50fa779a8d8ff0a4bb0db198adf010f2e13b10"
+    },
+    {
+      "path": "app.js",
+      "bytes": 64897,
+      "gzipBytes": 16731,
+      "sha256": "ec970a351872fe3bc57df3b8484e76bd741ac0fa8dafdbe68453e3ea4cc580b4"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 89602,
+      "gzipBytes": 15265,
+      "sha256": "66752a982bf1a73ce19c7938c99f38a450d313f4c5d67b83c9dcf50e94478207"
+    },
+    {
+      "path": "deck-model.js",
+      "bytes": 20773,
+      "gzipBytes": 5299,
+      "sha256": "d62fc5037c36519b6ad7cc73dd322325c024ee6a9fe997d48e49d1fea1ed9956"
+    },
+    {
+      "path": "content.js",
+      "bytes": 18064,
+      "gzipBytes": 5527,
+      "sha256": "370215d8ac4af3123c4f08358bd82fa9554658a9a9baba4fd69f2d34eb84c424"
+    },
+    {
+      "path": "examples/devday-compositions/content.js",
+      "bytes": 11933,
+      "gzipBytes": 3366,
+      "sha256": "4770213b72ba00367fbaa20d0cab4100259cb9272110ce1a344ae4b39c622670"
+    }
+  ],
+  "photos": [
+    {
+      "path": "assets/photos/portrait-one.jpg",
+      "bytes": 388844
+    },
+    {
+      "path": "assets/photos/landscape.jpg",
+      "bytes": 267321
+    },
+    {
+      "path": "assets/photos/observe.jpg",
+      "bytes": 299027
+    },
+    {
+      "path": "assets/photos/listen.jpg",
+      "bytes": 269985
+    },
+    {
+      "path": "assets/photos/capture.jpg",
+      "bytes": 136815
+    },
+    {
+      "path": "assets/photos/write.jpg",
+      "bytes": 151172
+    },
+    {
+      "path": "assets/photos/portrait-two.jpg",
+      "bytes": 585525
+    }
+  ],
+  "notes": [
+    "gzip is offline size estimation, not an observed production response.",
+    "No build output or React comparison exists in this audit."
+  ],
+  "status": "Superseded by post-pull measurements; preserved historical baseline."
+}

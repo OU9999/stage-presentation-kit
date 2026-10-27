@@ -1,5 +1,47 @@
 # STAGE 작업 로그
 
+## 현재 전달 — 2026-10-27 커밋·GitHub Pages 실배포 점검
+
+- 최신 요청·승인: 사용자가 현재 변경을 커밋하고 github.io 배포 환경의 정상 표시까지 점검하도록 지시했다. 아래 단계의 로컬 전용·Git 전달 미포함 지침을 이번 커밋·push·기존 Pages 배포/검증 범위에서 대체한다.
+- 담당자·범위: 총괄 `/root`가 기존 조사·결과 화면·React 최소 시제품·검증 근거와 이 단일 로그를 검수해 전달한다. 관련 없는 변경은 없으며 제품 전체 React 전환은 전달 범위가 아니다. 기존 `main`·루트 branch source의 GitHub Pages를 유지한다.
+- 사전 상태: `main` HEAD `a1b621c26d7e124a3c8d33eb288723ac7683c950`, 추적 변경은 WORK_LOG 하나이고 신규 파일은 `research/vite-react-20261027/` 아래에만 있다. 현재 Pages는 public·HTTPS·legacy source main/`/`, 직전 배포 a1b621c 성공을 실제 GitHub API로 확인했다.
+- 검증 계획: 현재 diff·저장소 커밋 관례·공개 entry의 상대 경로/자산·모델/시제품 원본·기존 회귀를 확인한 뒤 커밋/push한다. 해당 SHA의 Pages 성공을 기다리고 공개 결과 화면에서 실제 탭·기존 발표·React 적용/오류/취소·390px·network/console을 점검한다.
+- 미완료: 배포 전 검사, 커밋/push, 배포 완료 확인, 실제 공개 화면 검증 및 완료 기록 전달.
+
+## 현재 화면 제공 — 2026-10-27
+
+- 최신 지침: 사용자가 검토 이후 “화면 제공해봐”라고 요청했다. 기존 조사 완료 상태를 보존하고 검토 요약·현재 발표·React 최소 편집 시제품을 실제 로컬 화면에서 제공한다.
+- 범위·담당자: 총괄 `/root`가 `research/vite-react-20261027/index.html`과 화면 제공용 `preview/`·검증 근거 및 이 로그를 담당한다. 완료한 팀을 재소환하지 않고 제품 런타임·기존 증거 원본은 보존한다. 로컬 미리보기이며 외부 게시·Git 전달은 포함하지 않는다.
+- 결정: 기존 Vite dist를 화면용 하위 폴더에 복사하고 진입 HTML의 base 경로·표시용 스타일만 조정한다. 실제 app.js와 연결되지 않은 편집 패널 시제품임을 화면에 명시한다. 기존 발표도 같은 결과 화면에서 열 수 있게 한다. Sites의 local-only 흐름과 ego-browser로 확인한다.
+- 결과: [로컬 결과 화면](research/vite-react-20261027/index.html)을 작성했다. 검토 요약·성능 후보와 현재 12장 발표/React 편집 시제품 전환을 제공한다. 원본 build 8개 비HTML 파일은 바이트 동일하게 복사했고, 파생 preview 진입 HTML의 상대 경로·표시용 CSS만 추가했다. 제품과 기존 조사 증거 원본은 보존했다.
+- 검증: 현재 발표 12장 생성, 탭 전환, React 실제 키보드 입력 58→72 적용과 표 일치, 무효 JSON 적용 거절·기존값 보존, Cancel draft와 초기값 58 복원을 확인했다. 결과 화면·React 패널 모두 390px viewport/scrollWidth=390으로 가로 넘침 0. [실제 UI 근거](research/vite-react-20261027/evidence/screen-check.json), [실행 스크립트](research/vite-react-20261027/evidence/screen-check-final.mjs), desktop/mobile PNG를 보관했다. iframe 좌표 기반 자동 클릭/입력의 불확실성은 독립 탭의 실제 키보드 입력 검증으로 해소했다.
+- 서버·인계: Python 서버에서 app.js 연결 reset이 재현돼 종료하고 같은 4317의 Node 정적 서버로 교체한 뒤 현재 발표의 정상 렌더를 확인했다. 서버 `/tmp/stage-vite-result-server.mjs`·실행 세션 87892를 사용자가 화면을 계속 볼 수 있도록 유지한다. 이번 목표의 ego-browser Space35는 결과 p1만 남긴다. 기존 사용자 Space는 조작하지 않았다.
+- 미완료: 이번 화면 제공 범위에는 없음. 기존 React 전체 이행·성능 비교 미검증은 이전 검토 결과와 동일하게 구분한다. 새 commit/push/외부 게시는 하지 않는다.
+
+## 현재 상태 — 2026-10-27 원격 통합 및 Vite·React 성능 검토 완료
+
+- 목표·현재 지침: 사용자가 현재 HTML 중심 프로젝트를 Vite 기반 React로 바꾸고 성능을 높일 수 있는지 리서치팀·엔지니어링팀 검토를 요청하고 `$coordinate`·`$manager`를 명시 호출했다. 이번 범위는 근거 조사·현행 성능 측정·전환 설계 및 권고이며 제품 전체 전환·배포·Git 전달은 실행하지 않는다. 과거 완료 작업의 대기를 이번 조사 범위에서 대체한다.
+- 기준: `main`, HEAD `23f41f2aeb66a84cdb30e66d62986d8081686e2c`, 시작 작업 트리 깨끗함. 과거 React 검토는 `research/color-motion-20261024/engineering/architecture.md`에 있으므로 재사용하되 이번 Vite·성능 질문을 별도로 검증한다.
+- 담당자·소유권: 총괄 `/root`만 이 단일 작업 로그를 편집하고 최종 통합·브라우저 기준 측정을 담당한다. 팀 산출물은 기존 저장소 연구 문서 관례대로 `research/vite-react-20261027/` 아래 보관한다. 제품 파일·원고·생성물은 읽기 전용이다. 각 팀 매니저는 자기 팀의 두 실무자와 직접 협의하고 변경 사항을 총괄에게 메시지로 전달한다.
+- 운영 결정: 실제 동시 실행 한도 4명(총괄 포함)이므로 리서치팀(매니저+실무자2) 완료 후 엔지니어링팀(매니저+실무자2)을 순차 운영한다. 아직 실행하지 않은 팀을 실행 중으로 표시하지 않는다.
+- 모델 확인(2026-10-27 07:16~07:18 UTC): 공식 [모델 목록](https://developers.openai.com/api/docs/models)·[출시 기록](https://developers.openai.com/api/docs/changelog)·[모델 페이지](https://developers.openai.com/api/docs/models/gpt-6.1-sol)를 검색 후 직접 열어 최신 Sol `gpt-6.1-sol`(2026-09-29 출시)을 확인했다. 현재 `collaboration.spawn_agent` runtime catalog는 `gpt-6.1-sol`, `gpt-6-astra`, `gpt-6.1-terra`, `gpt-6-sol`, `gpt-6-luna`를 제공한다. 이번 일반 기술 조사·통합 배정은 `gpt-6.1-sol` / `high` / `fork_turns=none`을 사용한다. 요약 인계가 가능하고 원문 전체 상속이 필요하지 않다. 각 매니저는 같은 스냅샷을 유효성 확인 후 재사용한다.
+- 미완료: 이번 요청의 pull·두 팀 검토·현행 측정·최소 격리 빌드·최종 검증은 모두 완료했다. 제품 전환·실제 앱 연결·동등 기능 성능 비교·portable/IME/발표자 회귀는 후속 구현 범위이며 이번 검토의 완료 결과와 구분한다.
+- 중단 복구: 사용자가 두 번의 실수 중단 뒤 계속 진행을 명시했다. 실제 agent·writer·파일 상태 확인 후 기존 `/root/research_manager`를 follow-up으로 재개했다. 중복 매니저나 대체 writer를 생성하지 않았다. 당시 실무자·산출물 미생성을 매니저가 확인했다. 권한은 full access로 갱신되어 재개 이후 추가 승인 요청 없이 진행한다.
+- 실제 리서치 배치: `/root/research_manager/vite_researcher`가 Vite, `/root/research_manager/react_researcher`가 React와 취합을 맡았다. 매니저가 상호 직접 연락과 모델 스냅샷 재사용을 확인했다.
+- pull 이전 총괄 기준 측정(현재 판단에는 미사용): 로컬 Python 서버 4317(실행 세션 4488), 이번 목표 전용 ego-browser Space34/p1. 루트20장과 DevDay7장을 캐시 비활성·1440×1000·CPU/네트워크 제한 없이 각각3회 로드, 실제 키보드로19회·6회 이동. 기존 사용자 Space는 조작하지 않았다. 근거 `research/vite-react-20261027/evidence/browser-baseline.{mjs,json}`, 파일·gzip 추정은 `source-sizes.json`. 현행 자동 테스트168/168 통과. 로컬 관찰이며 실제 배포 CWV·React/Vite 비교 벤치마크로 확대하지 않는다.
+
+- 최신 사용자 지침: 사용자가 `git pull`을 함께 처리하고 결과만 보고하도록 지시했다. 총괄이 기존 로그만 임시 stash하고 원격4커밋을 `git pull --ff-only`로 수신했다. 원격 완료 기록 전체와 이번 조사 로그를 결합해 보존하며 연구 산출물은 그대로 유지했다. 현재 기준은 `a1b621c26d7e124a3c8d33eb288723ac7683c950`이다.
+- 영향·재검증: 최신 원격은 native 시각화·JSON 데이터 편집·직접 작성기·독립 runtime 복사 스타터·타이포 배치를 추가했다. 초기168검사/구형성능기준은 pull 이전 기록으로만 보존하고 현재 HEAD에서 새 측정·테스트를 수행한다. 원격에서 확인한 웹 발표 우선·PDF 작업 제외와 무설치/file:// 재사용 요구를 이번 전환 비용 평가에 반영한다. 리서치 매니저와 두 실무자에게 기준 변경 보류를 직접 통지하고 수신 확인했다.
+- 최신 기준 검증 완료: HEAD a1b621c와 origin/main 차이0/0, 자동185/185 통과. root20·DevDay7·visual12·text8장을 각각3회 로드하고 실제 키보드43회로 끝장 이동을 확인했다. 문서FCP 중앙값은84/136/64/88ms이며 무제한 localhost의 소표본 관찰이다. 최초 본문 완료·현장CWV·전환 개선율로 해석하지 않는다. 초기 baseline은 `*-before-pull.*`로 분리 보존했고 잘못 등록한 초기 keyboard timing은 무효로 명시했다. 현행 이벤트 계측은 window bubble로 수정했으며 deferred layout/paint를 포함하지 않는다.
+- 리서치 완료: 매니저와 실무자 2명이 최신 기준 초안 2개·취합·독립 검수를 완료하고 편집을 종료했다. `research/vite-react-20261027/research/` 문서 4개·로컬 링크 21개 누락 0. Vite/React 모두 가능하나 기본 ESM 출력의 file 재생·단일 content 교체 대체는 미검증이며 기존 편집기 DOM 소유권 분리가 필요하다. 공식 문서와 현행 측정은 구분했다.
+- 엔지니어링 인계: 실제 `/root/engineering_manager`를 `gpt-6.1-sol/high/fork_turns=none`으로 배치했다(일반 엔지니어링 판단·요약 인계 가능, 같은 모델 스냅샷 재사용). 연구 매니저를 직접 인계만 follow-up 재개해 양 매니저 간 최신 계약·근거·미확인을 주고받게 했다. 연구팀이 직접 인계와 수신 확인 후 슬롯을 반환했고 `/root/engineering_manager/performance_auditor`와 `/root/engineering_manager/migration_designer`가 성능 감사와 전환 설계/격리 build 검증·취합을 각각 맡았다. 두 실무자 모두 `gpt-6.1-sol/high/fork_turns=none`, 제품은 계속 읽기 전용이다.
+- 측정 한계 보완: text-layout에서 단일 이벤트 249.7ms가 관찰되어 같은 원본 두 차례 16이벤트로 재검증했다. 최대 8.2ms·신규 longtask 0으로 재현되지 않아 원시값은 보존하고 원인/성능 우열은 확정하지 않는다. `evidence/keyboard-outlier-check.json`에 근거를 보관했다.
+- pull 보존 검수: 현재 로그에 원격 WORK_LOG 본문 전체와 pull 이전 조사 섹션이 모두 있음을 독립 assert했다. pull용으로만 생성한 stash는 검증 후 정리했으며 /tmp 백업과 `evidence/pull-receipt.json`을 남겼다. 기존 사용자 stash나 제품 파일은 변경하지 않았다.
+- 최종 결정·결과: 두 팀은 Vite로 개발·빌드를 정리하고 React 작성 UI를 점진 도입하며 경량 portable 재생기를 유지하는 경로에 합의했다. 성능 후보는 현재/인접 미디어 준비·fit 읽기/쓰기와 호출 병합·발표자 전체 갱신·JSON 적용 범위이며 개선율은 미검증이다. [통합 결과](research/vite-react-20261027/RESULT.md), [리서치 취합](research/vite-react-20261027/research/synthesis.md), [엔지니어링 취합](research/vite-react-20261027/engineering/synthesis.md).
+- 엔지니어링 완료: 성능 감사·전환 설계·취합·매니저 검수 4문서와 최소 probe 소스/lock·로그·결과를 완성했다. `/tmp` 격리에서 Vite 8.3.5 + React/DOM 19.3.1 production build 및 Node VM 입력 검증을 확인했다. 실제 app.js는 포함하지 않는 작은 fixture다. 매니저가 준비 시점 경계를 교정하고 최종 dist 10파일·소스·lock을 독립 검수했다. 두 매니저와 실무자 4명 모두 완료·편집 종료했다.
+- 총괄 최종 검증: 팀 보고 SHA·실제 dist 10파일의 SHA/크기·현행 model/visual 바이트 일치, Markdown 10파일의 로컬 링크·JSON 파싱·공백, 원격 로그 본문 보존을 독립 확인했다. 제품 worktree 변경은 없고 현재 추적 변경은 이 로그뿐이며 조사 결과는 신규 `research/vite-react-20261027/`에 있다. 새 commit/push/배포는 이번 요청에 포함하지 않았다. [최종 검증 근거](research/vite-react-20261027/evidence/integration-receipt.json).
+- 정리·인계: 이번 목표 전용 Browser Space34는 keep 없이 종료했고 총괄이 시작한 측정 서버 PID72232도 종료했다. 기존 사용자 Space는 조작하지 않았다. Ego Lite 업데이트 알림은 사용자에게 전달했다. 결과만 보고하라는 최신 지침에 맞춰 최종 권고·검증·한계를 보고하며 추가 팀 업무는 배정하지 않는다.
+
 ## 완료 기록 — 2026-10-26 커밋·푸시 전달
 
 - 최신 요청: 사용자가 커밋 후 푸시까지 마쳤는지 확인했다. 현재 완료한 개선을 원격까지 전달해 마무리한다.

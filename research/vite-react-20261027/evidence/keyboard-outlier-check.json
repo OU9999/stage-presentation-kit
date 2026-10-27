@@ -1,0 +1,177 @@
+{
+  "head": "a1b621c26d7e124a3c8d33eb288723ac7683c950",
+  "capturedAt": "2026-10-27T07:27:25.144Z",
+  "reason": "Investigate one 249.7ms synchronous keyboard sample on text-layout; same browser and source, no code changes.",
+  "previous": {
+    "url": "http://127.0.0.1:4317/examples/text-layout/index.html#8",
+    "longTasks": [
+      {
+        "startTime": 475.79999999701977,
+        "duration": 253
+      },
+      {
+        "startTime": 1430.1000000089407,
+        "duration": 60
+      },
+      {
+        "startTime": 1544.5,
+        "duration": 132
+      },
+      {
+        "startTime": 43287.40000000596,
+        "duration": 289
+      }
+    ],
+    "keyboard": [
+      {
+        "key": "ArrowRight",
+        "start": 215.40000000596046,
+        "syncEventMs": 1.2999999970197678,
+        "hash": "#2"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 276.90000000596046,
+        "syncEventMs": 0.5,
+        "hash": "#3"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 338.5,
+        "syncEventMs": 0.5,
+        "hash": "#4"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 397.70000000298023,
+        "syncEventMs": 0.7000000029802322,
+        "hash": "#5"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 478.1000000089407,
+        "syncEventMs": 249.69999998807907,
+        "hash": "#6"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 928,
+        "syncEventMs": 4.4000000059604645,
+        "hash": "#7"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 1057.2000000029802,
+        "syncEventMs": 5.0999999940395355,
+        "hash": "#8"
+      }
+    ]
+  },
+  "repeat": {
+    "url": "http://127.0.0.1:4317/examples/text-layout/index.html#8",
+    "longTasks": [],
+    "keyboard": [
+      {
+        "key": "Home",
+        "start": 132916.10000000894,
+        "syncEventMs": 8.199999988079071,
+        "hash": "#1"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133141,
+        "syncEventMs": 1.2000000029802322,
+        "hash": "#2"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133206.79999999702,
+        "syncEventMs": 0.7000000029802322,
+        "hash": "#3"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133268.40000000596,
+        "syncEventMs": 0.5,
+        "hash": "#4"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133329,
+        "syncEventMs": 0.6000000089406967,
+        "hash": "#5"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133389.60000000894,
+        "syncEventMs": 0.7999999970197678,
+        "hash": "#6"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133448.20000000298,
+        "syncEventMs": 0.5,
+        "hash": "#7"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133506.20000000298,
+        "syncEventMs": 0.9000000059604645,
+        "hash": "#8"
+      },
+      {
+        "key": "Home",
+        "start": 133565.40000000596,
+        "syncEventMs": 2.2999999970197678,
+        "hash": "#1"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133626.40000000596,
+        "syncEventMs": 0.5,
+        "hash": "#2"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133690.70000000298,
+        "syncEventMs": 2.2000000029802322,
+        "hash": "#3"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133754.90000000596,
+        "syncEventMs": 1.2000000029802322,
+        "hash": "#4"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133815.10000000894,
+        "syncEventMs": 0.5999999940395355,
+        "hash": "#5"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133873.79999999702,
+        "syncEventMs": 0.5,
+        "hash": "#6"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 133943.20000000298,
+        "syncEventMs": 1.7000000029802322,
+        "hash": "#7"
+      },
+      {
+        "key": "ArrowRight",
+        "start": 134006.70000000298,
+        "syncEventMs": 1.7000000029802322,
+        "hash": "#8"
+      }
+    ]
+  },
+  "limitations": [
+    "Diagnostic event processing excludes deferred layout and paint.",
+    "Two local repetitions cannot establish p75/p95 or field INP.",
+    "An unreplicated slow sample is preserved; this is not a causal performance trace."
+  ]
+}
