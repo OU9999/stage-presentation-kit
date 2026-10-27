@@ -1,0 +1,612 @@
+{
+  "verifiedAt": "2026-10-27T08:07:04.276335+00:00",
+  "commit": "8323db8ec9f1b3b1b9d29d04857fed2c8ef79f93",
+  "baseUrl": "https://ou9999.github.io/stage-presentation-kit/",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "url": "https://ou9999.github.io/stage-presentation-kit/.nojekyll?verify=8323db8",
+      "status": 200,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matchesLocal": true,
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "WORK_LOG.md",
+      "url": "https://ou9999.github.io/stage-presentation-kit/WORK_LOG.md?verify=8323db8",
+      "status": 200,
+      "bytes": 108229,
+      "sha256": "8ac43f1e5c64126760bba08e96c839c9a188197614692205ef4cd8756e74fe79",
+      "matchesLocal": true,
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "app.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/app.js?verify=8323db8",
+      "status": 200,
+      "bytes": 74802,
+      "sha256": "81571a906a6cfd90635d7f0e5a9e230f1aa323f2ccf1baf51cd01effda9be0f3",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "deck-model.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/deck-model.js?verify=8323db8",
+      "status": 200,
+      "bytes": 29874,
+      "sha256": "398ae06f5ea53f0576fd9ed91a0f00f4dd6026d20fa689b453e072e4e86286ba",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "examples/visual-story/content.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/visual-story/content.js?verify=8323db8",
+      "status": 200,
+      "bytes": 6791,
+      "sha256": "dfbc18e6e41e2a5d6bc51b3368fcdf2d5d5bf3a6931d432cd2d34627d6bb1bad",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "examples/visual-story/index.html",
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/visual-story/index.html?verify=8323db8",
+      "status": 200,
+      "bytes": 7267,
+      "sha256": "7cac97e09f254e497527370f9aa396d3e0ff8a296f49d7eb3fe4a4da5d99c9f4",
+      "matchesLocal": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "index.html",
+      "url": "https://ou9999.github.io/stage-presentation-kit/index.html?verify=8323db8",
+      "status": 200,
+      "bytes": 6976,
+      "sha256": "44e4d3b49d2a7416839eadcf573d11dea6c126bd34b3b8caa01c84899d4f7eab",
+      "matchesLocal": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/RESULT.md",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/RESULT.md?verify=8323db8",
+      "status": 200,
+      "bytes": 9240,
+      "sha256": "a05b5296b358bcf45915d457c6fa3a7cd92946be1128d55325b87b15f29f67e9",
+      "matchesLocal": true,
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-build-log.txt",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-build-log.txt?verify=8323db8",
+      "status": 200,
+      "bytes": 7526,
+      "sha256": "3d8b1ad8f92f9b274b2aac5b05252267ba64970e1a3d87fe780cc48dc4f0e950",
+      "matchesLocal": true,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-results.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-results.json?verify=8323db8",
+      "status": 200,
+      "bytes": 4249,
+      "sha256": "7f6521695c53e4fcef317151fb523a16e92d5c4f4d1beaa4b240a549a82d79c3",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source-sha256.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source-sha256.json?verify=8323db8",
+      "status": 200,
+      "bytes": 2169,
+      "sha256": "924540cb49a46258126c3a4a073c31cca24504f39e8c53e20cab17c057d82813",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/README.md",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/README.md?verify=8323db8",
+      "status": 200,
+      "bytes": 1604,
+      "sha256": "593ff4bb35d94e381c84a9dc14271800de2a6aa679312d4c1c88034d78c7c00f",
+      "matchesLocal": true,
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/index.html",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/index.html?verify=8323db8",
+      "status": 200,
+      "bytes": 476,
+      "sha256": "35813031d861d937a492cd069f1d441e25ae6c712fdbcfc7428b6a862795d0bc",
+      "matchesLocal": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/package-lock.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/package-lock.json?verify=8323db8",
+      "status": 200,
+      "bytes": 26540,
+      "sha256": "ee390fa45c6ae55329e5f3e9f83346555f011461675d5b820a70b3bd3abbd618",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/package.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/package.json?verify=8323db8",
+      "status": 200,
+      "bytes": 273,
+      "sha256": "15cf3f4b0952b6e0423474d7822349a4aeab31964b99fa9520e80afcfe3bc7c6",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/prepare.mjs",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/prepare.mjs?verify=8323db8",
+      "status": 200,
+      "bytes": 467,
+      "sha256": "4f600785ba82ef6f866c7e1b0ae7c39f6738b898dd455eb43893e8cacc0f24db",
+      "matchesLocal": true,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/public/content.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/public/content.js?verify=8323db8",
+      "status": 200,
+      "bytes": 284,
+      "sha256": "f5ba608aaf8f1b09fc81c5fb63119a8bb209396c7d476be5b95697b1318ec13e",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/public/legacy-bridge.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/public/legacy-bridge.js?verify=8323db8",
+      "status": 200,
+      "bytes": 1067,
+      "sha256": "9b12223a76130744a39f7e5749a2cf7dba925f6430d1630be8d7f05cad1a0b4f",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/src/bootstrap.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/src/bootstrap.js?verify=8323db8",
+      "status": 200,
+      "bytes": 799,
+      "sha256": "44a6d2bbe10dad9ed7accfe4de29714e392dad553725551739b2c46eb6e19200",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/src/panel.jsx",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/src/panel.jsx?verify=8323db8",
+      "status": 200,
+      "bytes": 1125,
+      "sha256": "27ac5b0c4d94e65e68dfaea6c60cafd115d51538e5e899e560b5e7b07a558134",
+      "matchesLocal": true,
+      "contentType": "text/jsx"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/src/vanilla.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/src/vanilla.js?verify=8323db8",
+      "status": 200,
+      "bytes": 453,
+      "sha256": "06bc8a246d1dd2e475e38befedc9fdd6667ba6c54a851f0b82e45caa8196bc43",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/vanilla.html",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/vanilla.html?verify=8323db8",
+      "status": 200,
+      "bytes": 464,
+      "sha256": "5d18c2eb65a8c133297236b105f08ad66c99511216411a173ed2c6cfe4ce673e",
+      "matchesLocal": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/verify.mjs",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/verify.mjs?verify=8323db8",
+      "status": 200,
+      "bytes": 4519,
+      "sha256": "5bc253c077c17cb7df6bbae54e1be13fce797e426e90ed6182e00dd923649275",
+      "matchesLocal": true,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/evidence/probe-source/vite.config.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/evidence/probe-source/vite.config.js?verify=8323db8",
+      "status": 200,
+      "bytes": 321,
+      "sha256": "0bab1578bb10b309e9ed838b19f5b7d237b560470b6c8cc787cd513cf3dec2d4",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/manager-review.md",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/manager-review.md?verify=8323db8",
+      "status": 200,
+      "bytes": 7310,
+      "sha256": "b43b25a8201d6ab917b33310961af47d3e24e3a69db6adf941be177b371cd098",
+      "matchesLocal": true,
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/migration-design.md",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/migration-design.md?verify=8323db8",
+      "status": 200,
+      "bytes": 17999,
+      "sha256": "91db887e0c1956739f72cf33a100fad09ea83b52356a2a11537131eee35a1767",
+      "matchesLocal": true,
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/performance-audit.md",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/performance-audit.md?verify=8323db8",
+      "status": 200,
+      "bytes": 19499,
+      "sha256": "c469e76a7d8fac39b0bce54625559f7c7b0efe358c935c8f924d841b61a74883",
+      "matchesLocal": true,
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/engineering/synthesis.md",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/engineering/synthesis.md?verify=8323db8",
+      "status": 200,
+      "bytes": 12250,
+      "sha256": "31571c21a89ac260366c21817adef01d68321d91db653f94038d09acb1911128",
+      "matchesLocal": true,
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/baseline-summary.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/baseline-summary.json?verify=8323db8",
+      "status": 200,
+      "bytes": 5364,
+      "sha256": "03f818291dda47115d0680ef5326cb3684cd9b56c3d6971b8636d0e53f12421e",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/browser-baseline-before-pull.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/browser-baseline-before-pull.json?verify=8323db8",
+      "status": 200,
+      "bytes": 75939,
+      "sha256": "c5824beb7d8917239ad797ee87ebb592ef30093dbb959bd56ead3c80e19959df",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/browser-baseline-before-pull.mjs",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/browser-baseline-before-pull.mjs?verify=8323db8",
+      "status": 200,
+      "bytes": 4746,
+      "sha256": "864962e490ea5ebc43316f01680d67bdec91e3b1916e9565c7e4006fc451f751",
+      "matchesLocal": true,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/browser-baseline.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/browser-baseline.json?verify=8323db8",
+      "status": 200,
+      "bytes": 113351,
+      "sha256": "134401046b900e8b3df5a5473b251f549ea4ddf8b21438d5eda02abfcc3ffcee",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/browser-baseline.mjs",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/browser-baseline.mjs?verify=8323db8",
+      "status": 200,
+      "bytes": 5212,
+      "sha256": "b03b17e0396ef41695337f1ac6129c5367dcb4bea5edbfeb239093d8bf0f5695",
+      "matchesLocal": true,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/integration-receipt.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/integration-receipt.json?verify=8323db8",
+      "status": 200,
+      "bytes": 2759,
+      "sha256": "95af41a6714ef55643455519e4925ccf233f19322bdb7b2d00a2a060b1c91947",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/keyboard-outlier-check.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/keyboard-outlier-check.json?verify=8323db8",
+      "status": 200,
+      "bytes": 4288,
+      "sha256": "196d9240182462186807bfc783e7f7eccbebff7653691c3418d0165e3b842631",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/keyboard-outlier-check.mjs",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/keyboard-outlier-check.mjs?verify=8323db8",
+      "status": 200,
+      "bytes": 1464,
+      "sha256": "d81e3e5aa2bff28a7fdb8691b3d3ad76efe9bc7316b7c24241e4729d3e6a951a",
+      "matchesLocal": true,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/pull-receipt.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/pull-receipt.json?verify=8323db8",
+      "status": 200,
+      "bytes": 454,
+      "sha256": "79e448a890015a7cf9dfd04b6d38a8a279e8e825f8c3a09d094b0fd8a59389b2",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/react-screen-desktop.png",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/react-screen-desktop.png?verify=8323db8",
+      "status": 200,
+      "bytes": 58201,
+      "sha256": "1940fa2e2783672eebfab2bdc03b3e5227a209caaebb43ea017b3e8377747305",
+      "matchesLocal": true,
+      "contentType": "image/png"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/react-screen-mobile.png",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/react-screen-mobile.png?verify=8323db8",
+      "status": 200,
+      "bytes": 38865,
+      "sha256": "ec68c916f2bb7acadb3a7639798b515a95c0c50a1d44a7369d8cedaa1a1b559a",
+      "matchesLocal": true,
+      "contentType": "image/png"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/result-react-screen.png",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/result-react-screen.png?verify=8323db8",
+      "status": 200,
+      "bytes": 81838,
+      "sha256": "493abb56ca9382cdaa288f9354096eb2040ada22b5b8ba31b10f4caa61f31183",
+      "matchesLocal": true,
+      "contentType": "image/png"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/result-screen-desktop.png",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/result-screen-desktop.png?verify=8323db8",
+      "status": 200,
+      "bytes": 95003,
+      "sha256": "493ca59d8aca59723e595e4f95b1f8663e2e273860ca5fa38726a3ebcecb95c8",
+      "matchesLocal": true,
+      "contentType": "image/png"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/result-screen-mobile.png",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/result-screen-mobile.png?verify=8323db8",
+      "status": 200,
+      "bytes": 63310,
+      "sha256": "48a0a8d45938e6e0291b9cd0c199d9da6e3e5cb65f8d9fc00e5470389fc9953b",
+      "matchesLocal": true,
+      "contentType": "image/png"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/screen-check-final.mjs",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/screen-check-final.mjs?verify=8323db8",
+      "status": 200,
+      "bytes": 3749,
+      "sha256": "ba458877eaaf4d78e8b2d1527306e45dccc23f61a8d2fbf531514d7feb339957",
+      "matchesLocal": true,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/screen-check.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/screen-check.json?verify=8323db8",
+      "status": 200,
+      "bytes": 588,
+      "sha256": "f43a4b20bf5ad5c5c96af6c0828b033de99943908903a9ce9059278662ada163",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/source-sizes-before-pull.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/source-sizes-before-pull.json?verify=8323db8",
+      "status": 200,
+      "bytes": 1945,
+      "sha256": "51b843a5f46c9e9d9fddcb399d935940ca93935302e30ccf7c79a43f0a4197a5",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/source-sizes.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/source-sizes.json?verify=8323db8",
+      "status": 200,
+      "bytes": 2575,
+      "sha256": "7a9901196f733732c50e42e5096db800c2154c4e51416eb151d300aa4c2df40c",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/evidence/tests.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/evidence/tests.json?verify=8323db8",
+      "status": 200,
+      "bytes": 372,
+      "sha256": "756db13250146a676a46238d62dba3248daaa7128212d166b867986ef73350f4",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/index.html",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/index.html?verify=8323db8",
+      "status": 200,
+      "bytes": 11989,
+      "sha256": "14744ec7ef1e0828ab27dbfc23e3df7a8508a5413afb448fdf3e8c7e3c43d7b3",
+      "matchesLocal": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/react/.vite/manifest.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/.vite/manifest.json?verify=8323db8",
+      "status": 200,
+      "bytes": 548,
+      "sha256": "fffc8b29c50413bbce670ffd5a657ac7af88cf9f0807919058039df893a80095",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/react/assets/editor-DAdjzpHn.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/assets/editor-DAdjzpHn.js?verify=8323db8",
+      "status": 200,
+      "bytes": 220559,
+      "sha256": "476362c0211c189436f08840ceb239120ba95a47b7f6c4e13c49d9a67d28f01e",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/react/assets/modulepreload-polyfill-P2Xu9kJm.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/assets/modulepreload-polyfill-P2Xu9kJm.js?verify=8323db8",
+      "status": 200,
+      "bytes": 670,
+      "sha256": "418c206484b89b68ef5f067277831e583fc9193a62aadf4de269acaaeb12a85f",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/react/assets/vanilla-CGEeU8qd.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/assets/vanilla-CGEeU8qd.js?verify=8323db8",
+      "status": 200,
+      "bytes": 396,
+      "sha256": "2689ba21920bc7bf1b0d1edf03dbd9e93f6a862fe14198bb5bf5b472bf1ec3c1",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/react/content.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/content.js?verify=8323db8",
+      "status": 200,
+      "bytes": 284,
+      "sha256": "f5ba608aaf8f1b09fc81c5fb63119a8bb209396c7d476be5b95697b1318ec13e",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/react/deck-model.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/deck-model.js?verify=8323db8",
+      "status": 200,
+      "bytes": 29874,
+      "sha256": "398ae06f5ea53f0576fd9ed91a0f00f4dd6026d20fa689b453e072e4e86286ba",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/react/index.html",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/index.html?verify=8323db8",
+      "status": 200,
+      "bytes": 1149,
+      "sha256": "794c924171dce77944afd9b71be4d8ab30d2fe5f79dc119a1a46a21bd988b67f",
+      "matchesLocal": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/react/legacy-bridge.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/legacy-bridge.js?verify=8323db8",
+      "status": 200,
+      "bytes": 1067,
+      "sha256": "9b12223a76130744a39f7e5749a2cf7dba925f6430d1630be8d7f05cad1a0b4f",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/react/preview.css",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/preview.css?verify=8323db8",
+      "status": 200,
+      "bytes": 1959,
+      "sha256": "f69021915dcd6e294457b738cf86ccbb9e991c09a15f25a0ea429ebb18b70f50",
+      "matchesLocal": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/react/vanilla.html",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/vanilla.html?verify=8323db8",
+      "status": 200,
+      "bytes": 1140,
+      "sha256": "716b029e48a8abd37ec3903714d25cda322668f771946d4fe8f9ae4ad4d5198f",
+      "matchesLocal": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/react/visual.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/visual.js?verify=8323db8",
+      "status": 200,
+      "bytes": 29597,
+      "sha256": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/preview/receipt.json",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/receipt.json?verify=8323db8",
+      "status": 200,
+      "bytes": 570,
+      "sha256": "1f51a104cf852f406ebf3a54f53e25bdd5a6c8093de09ea3ec9c4f3ec76a17fb",
+      "matchesLocal": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/research/manager-review.md",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/research/manager-review.md?verify=8323db8",
+      "status": 200,
+      "bytes": 6176,
+      "sha256": "d8b7e81f431f23fc30e044188fc5976c041b8841729ce3d1e7206808fec62778",
+      "matchesLocal": true,
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/research/react-draft.md",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/research/react-draft.md?verify=8323db8",
+      "status": 200,
+      "bytes": 11965,
+      "sha256": "579b3d63a780745730264a99eafb915bf191a633274dae3c19a8876ad566b0fe",
+      "matchesLocal": true,
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/research/synthesis.md",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/research/synthesis.md?verify=8323db8",
+      "status": 200,
+      "bytes": 14859,
+      "sha256": "ac6281e7582daabe4002c07ac876f6520bfa9703e78f7ca10513369131f06c1c",
+      "matchesLocal": true,
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "research/vite-react-20261027/research/vite-draft.md",
+      "url": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/research/vite-draft.md?verify=8323db8",
+      "status": 200,
+      "bytes": 16717,
+      "sha256": "ad7b690b59123cec115fe8635bdf0679af07d5946203955c8f26d0e2f84f1b6f",
+      "matchesLocal": true,
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "styles.css",
+      "url": "https://ou9999.github.io/stage-presentation-kit/styles.css?verify=8323db8",
+      "status": 200,
+      "bytes": 90612,
+      "sha256": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "matchesLocal": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "visual.css",
+      "url": "https://ou9999.github.io/stage-presentation-kit/visual.css?verify=8323db8",
+      "status": 200,
+      "bytes": 19547,
+      "sha256": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+      "matchesLocal": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "visual.js",
+      "url": "https://ou9999.github.io/stage-presentation-kit/visual.js?verify=8323db8",
+      "status": 200,
+      "bytes": 29597,
+      "sha256": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "matchesLocal": true,
+      "contentType": "application/javascript; charset=utf-8"
+    }
+  ],
+  "allStatus200": true,
+  "allHashesMatch": true
+}

@@ -1,0 +1,52 @@
+{
+  "verifiedAt": "2026-10-27T08:08:45.580Z",
+  "codeCommit": "8323db8ec9f1b3b1b9d29d04857fed2c8ef79f93",
+  "baseUrl": "https://ou9999.github.io/stage-presentation-kit/",
+  "overview": {
+    "existingPlayerSlides": 12,
+    "reactIframe": "https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/preview/react/index.html",
+    "keyboardTabs": true,
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "iframeWidth": 352,
+      "iframeScrollWidth": 352
+    }
+  },
+  "react": {
+    "applied": {
+      "value": 72,
+      "table": "대상별 비교\n대상\t값 (%)\nBefore\t30\nAfter\t72"
+    },
+    "invalid": {
+      "preserved": true,
+      "errorVisible": true
+    },
+    "cancel": true,
+    "initialRestored": true,
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390
+    }
+  },
+  "player": {
+    "slides": 12,
+    "next": true,
+    "end": true,
+    "home": true
+  },
+  "errors": {
+    "overview": {
+      "top": [],
+      "iframe": []
+    },
+    "react": [],
+    "player": []
+  },
+  "protocolErrors": {
+    "overview": [],
+    "react": [],
+    "player": []
+  },
+  "errorCount": 0
+}

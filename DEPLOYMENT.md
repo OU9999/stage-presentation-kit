@@ -11,6 +11,7 @@
 | 사용자가 고른 C안 | [현장 구성 예제 4번](https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html#4) |
 | 예제를 골라 시작하기 | [예제 갤러리](https://ou9999.github.io/stage-presentation-kit/examples/) |
 | 기존 양식을 모두 살펴보기 | [20장 양식 모음](https://ou9999.github.io/stage-presentation-kit/) |
+| Vite·React 검토와 편집 시제품 | [검토 결과 화면](https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/) · [공개 배포 검증](research/vite-react-20261027/DEPLOYMENT.md) |
 
 루트 주소의 내용은 20장 양식 모음입니다. C안은 현장 구성 7장 중 4번이므로 위 직접 링크를 공유하세요. `#4`는 처음 보여줄 장을 정합니다. 청중은 설치·GitHub 로그인 없이 링크를 열어 각자 장을 넘겨 봅니다. Pages 발행 후에는 사용자의 로컬 서버나 컴퓨터를 켜둘 필요가 없습니다.
 

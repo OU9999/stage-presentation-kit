@@ -1,12 +1,16 @@
 # STAGE 작업 로그
 
-## 현재 전달 — 2026-10-27 커밋·GitHub Pages 실배포 점검
+## 현재 전달 — 2026-10-27 커밋·GitHub Pages 실배포 점검 완료
 
 - 최신 요청·승인: 사용자가 현재 변경을 커밋하고 github.io 배포 환경의 정상 표시까지 점검하도록 지시했다. 아래 단계의 로컬 전용·Git 전달 미포함 지침을 이번 커밋·push·기존 Pages 배포/검증 범위에서 대체한다.
 - 담당자·범위: 총괄 `/root`가 기존 조사·결과 화면·React 최소 시제품·검증 근거와 이 단일 로그를 검수해 전달한다. 관련 없는 변경은 없으며 제품 전체 React 전환은 전달 범위가 아니다. 기존 `main`·루트 branch source의 GitHub Pages를 유지한다.
 - 사전 상태: `main` HEAD `a1b621c26d7e124a3c8d33eb288723ac7683c950`, 추적 변경은 WORK_LOG 하나이고 신규 파일은 `research/vite-react-20261027/` 아래에만 있다. 현재 Pages는 public·HTTPS·legacy source main/`/`, 직전 배포 a1b621c 성공을 실제 GitHub API로 확인했다.
 - 검증 계획: 현재 diff·저장소 커밋 관례·공개 entry의 상대 경로/자산·모델/시제품 원본·기존 회귀를 확인한 뒤 커밋/push한다. 해당 SHA의 Pages 성공을 기다리고 공개 결과 화면에서 실제 탭·기존 발표·React 적용/오류/취소·390px·network/console을 점검한다.
-- 미완료: 배포 전 검사, 커밋/push, 배포 완료 확인, 실제 공개 화면 검증 및 완료 기록 전달.
+- 커밋·배포 결과: 조사·화면·시제품·기존 검증 58파일을 `8323db8ec9f1b3b1b9d29d04857fed2c8ef79f93` (`Add Vite and React migration review with interactive preview`)로 커밋하고 origin/main에 push했다. Pages 실행40471061531 success, Pages build commit도 같은 SHA·built·error null임을 실제 API로 확인했다.
+- 사전 검사: 전체 회귀185/185 통과, 공개 entry의 상대 참조26개·JSON16개·제품 원본 SHA·복사한 build8파일 SHA·공백 검사를 통과했다. 설치/새 빌드 없이 검증한 동일 산출물을 게시했다.
+- 외부 검증: 무인증 github.io의 신규/공통67URL 모두200·로컬SHA 일치. ego-browser Space36에서 공개 결과·기존12장 iframe·마우스/키보드 탭·실제React72적용/표일치·무효JSON보존/오류·취소/초기58복원·기존발표 next/End/Home·390px 가로 넘침0을 직접 확인했다. 관찰한 Runtime/Console/Network/window 오류0. 제품 전체 React 전환·성능 개선율 검증으로 확대하지 않는다.
+- 산출물: [공개 결과](https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/), [배포 검증](research/vite-react-20261027/DEPLOYMENT.md), `evidence/pages-{deployment,http,browser}.json`과 실행 스크립트·desktop/mobile PNG. Git 전달과 실배포 근거를 별도 후속 문서 커밋으로 보관하며 root DEPLOYMENT.md에도 공개 진입점을 추가한다.
+- 인계·미완료: 요청한 코드 커밋·배포와 실제 공개 화면 검증을 완료했다. 완료 기록을 같은 main에 push하고 해당 최종 SHA의 Pages 성공과 원격 일치를 확인해 전달한다. Space36 결과 p1을 사용자에게 남기고 검증용 p2/p3는 종료한다. 이전 사용자 Space35와 로컬 서버는 보존한다. 전체 React 이행 등 후속 구현은 별도 사용자 지시 범위다.
 
 ## 현재 화면 제공 — 2026-10-27
 

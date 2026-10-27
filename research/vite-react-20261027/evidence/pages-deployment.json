@@ -1,0 +1,31 @@
+{
+  "verifiedAt": "2026-10-27T08:11:17.854233+00:00",
+  "codeCommit": "8323db8ec9f1b3b1b9d29d04857fed2c8ef79f93",
+  "workflow": {
+    "id": 40471061531,
+    "name": "pages build and deployment",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/OU9999/stage-presentation-kit/actions/runs/40471061531",
+    "head_sha": "8323db8ec9f1b3b1b9d29d04857fed2c8ef79f93"
+  },
+  "pages": {
+    "status": "built",
+    "html_url": "https://ou9999.github.io/stage-presentation-kit/",
+    "build_type": "legacy",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "public": true,
+    "https_enforced": true
+  },
+  "preCommitTests": {
+    "command": "node --test tests/*.test.cjs",
+    "tests": 185,
+    "passed": 185,
+    "failed": 0
+  },
+  "publicHttpReceipt": "pages-http.json",
+  "publicBrowserReceipt": "pages-browser.json"
+}
