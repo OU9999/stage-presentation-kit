@@ -15,7 +15,9 @@
 - 교정 결과: rich code class의 C++ 범위를 일치시켰고 전용 도움말·상대 marker·watch의 외부 누락자산/sourceRoot삭제복원/config후보복구를 보완했다. 실제 이미지+목록2장 넘침은 내용삭제 없이 이미지 표시 크기로 수정했다. read#2 최초이동·sticky 여백·이미지 load/error 후 진단 갱신을 추가했다.
 - 근거: [구현](research/markdown-reuse-20261027/implementation.md), [독립 후속검토](research/markdown-reuse-20261027/post-review.md), [최종검증](research/markdown-reuse-20261027/verification.md), evidence의 build/browser JSON과 실제 desktop/mobile PNG. 원고·생성물·기존 runtime참조를 함께 전달한다. Node24 실기이며 Node20실기·Phase2 노트/부록/source·선택 portable/offline/CI/source patch는 완료로 주장하지 않는다.
 - Git 사전 확인: origin을 fetch했고 HEAD...origin/main은0/0으로 동일하다. 기존 Pages는 main/루트 legacy 발행을 유지하며 .nojekyll로 _runtime도 정적 제공한다. 최종검증 뒤 관련 변경만 한 기능 단위로 커밋·push한다.
-- 미완료: 커밋·원격push·해당 커밋의 Pages 배포 완료와 새 공개 화면 점검, 최종 인계.
+- 커밋·공개 완료: 기능 커밋 `884e390aedbf0d8b3deae9ecb72de881451c61f0`을 origin/main에 push했고 [Pages run40481041830](https://github.com/OU9999/stage-presentation-kit/actions/runs/40481041830)의 성공·해당 SHA를 확인했다. 생성 공개19파일+루트/기존6파일 총25개 HTTP200·로컬SHA일치다. 공개 브라우저에서 모음2개·두 발표6장/#2·SVG·code구분선·390px 읽기6장/H1 6개/표4행/#2/상호read링크·넘침0·실행/Network실패0을 확인했다. [공개검증](research/markdown-reuse-20261027/DEPLOYMENT.md)과 evidence에 API/HTTP/browser 근거를 보존한다.
+- 마지막 전달: 검증 기록만 후속 커밋으로 같은 main에 전달한다. 제품/생성물은 공개검증된 기능 커밋과 바이트가 같다. 최종 commit/push 뒤 HEAD와 원격 동기화·Pages 성공을 확인한다. 새 TaskSpace44에는 공개 모음 p1만 남기고 이전 사용자 Spaces·4317서버를 보존한다. 새 작성용 dev4320도 유지한다. ego-browser 업데이트 알림은 이전에 안내한 상태이며 사용자 승인 없이 업그레이드하지 않았다.
+- 미완료: 구현·검증·별도 사후검토·기능 커밋/push·실제 Pages 점검에 남은 작업은 없다. 검증 기록 인계 커밋의 최종 원격 동기화 확인은 직후 수행한다.
 
 ## 현재 검토 완료 — 2026-10-27 Markdown 원본·재사용 구조와 팀 회의
 

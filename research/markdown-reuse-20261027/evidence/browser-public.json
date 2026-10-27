@@ -1,0 +1,60 @@
+{
+  "slides": [
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/presentations/product-notes/#2",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "slides": 6,
+      "index": "1",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://ou9999.github.io/stage-presentation-kit/presentations/product-notes/assets/faafa8c7d4fe-dashboard.svg"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/presentations/team-learning/#2",
+      "title": "팀의 학습을 남기는 방법 — Stage",
+      "slides": 6,
+      "index": "1",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://ou9999.github.io/stage-presentation-kit/presentations/team-learning/assets/1c6df0654172-report.svg"
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "code": {
+    "text": "const separator = `\n---\n`;\nconst nextAction = \"상태 문구를 한 문장으로 설명하기\";\nconsole.log(nextAction, separator);\n",
+    "errors": []
+  },
+  "reading": {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/team-learning/read.html#2",
+    "mode": "read",
+    "width": 390,
+    "overflow": false,
+    "slides": 6,
+    "h1": 6,
+    "tableRows": 4,
+    "sourceLink": "../product-notes/read.html#2",
+    "top": 91.8828125,
+    "errors": []
+  },
+  "gallery": {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/",
+    "title": "STAGE · 한 원고로 발표하고 공유하기",
+    "cards": 2,
+    "links": [
+      "https://ou9999.github.io/stage-presentation-kit/presentations/product-notes/index.html",
+      "https://ou9999.github.io/stage-presentation-kit/presentations/product-notes/read.html",
+      "https://ou9999.github.io/stage-presentation-kit/presentations/team-learning/index.html",
+      "https://ou9999.github.io/stage-presentation-kit/presentations/team-learning/read.html"
+    ],
+    "errors": []
+  },
+  "networkFailures": [],
+  "qaNote": "Initial generic selector waited on the hidden first slide at #2. Scoped the wait to .is-active; no product change was required."
+}

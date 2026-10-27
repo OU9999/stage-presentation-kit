@@ -18,4 +18,4 @@
 
 새 모드의 notes/role/appendix/sourceDownload 구조 설정·영구 heading anchor·별도 portable/offline·CI·화면→Markdown 저장은 이번 범위 밖이다. 원격 자료의 offline 재생이나 전원 장애 때 모든 파일 시스템 원자성을 보장하지 않는다. 공개 저장소의 원고 자체는 공개이며, 공유 결과 폴더만 제공하는 dev 서버와 구분한다.
 
-커밋·푸시와 공개 Pages 후속 검증은 총괄이 이어서 수행하고 단일 [WORK_LOG](../../WORK_LOG.md)에 기록한다.
+기능 커밋 `884e390`의 원격 푸시·Pages 배포와 실제 공개 화면 점검도 완료했다. [공개 검증](DEPLOYMENT.md)과 단일 [WORK_LOG](../../WORK_LOG.md)에 기록했다.
