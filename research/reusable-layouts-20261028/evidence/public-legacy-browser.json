@@ -1,0 +1,288 @@
+[
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/#3",
+    "title": "작은 장면, 큰 이야기 — Stage",
+    "index": "2",
+    "layout": "gallery",
+    "variant": "portraits",
+    "headingSize": null,
+    "text": "시선을 담아,\n장면을 기록합니다.소리를 듣고,\n작업에 집중합니다.생각을 적어,\n다음으로 이어갑니다.작은 차이를,\n다시 들여다봅니다.일상 가까이,\n가능성을 발견합니다.밖으로 나가,\n새로운 시선을 만납니다.",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 101.75999450683594,
+      "y": 195.51998901367188,
+      "width": 1236.47998046875,
+      "height": 631.679931640625,
+      "right": 1338.239974975586,
+      "bottom": 827.1999206542969
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "assets/photos/capture.jpg",
+        "alt": "거리에서 휴대폰으로 장면을 기록하는 인물",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "68% 45%",
+        "box": {
+          "x": 101.75999450683594,
+          "y": 305.58624267578125,
+          "width": 189.27561950683594,
+          "height": 473.18902587890625,
+          "right": 291.0356140136719,
+          "bottom": 778.7752685546875
+        }
+      },
+      {
+        "src": "assets/photos/listen.jpg",
+        "alt": "창가에서 헤드폰을 쓰고 노트북을 사용하는 인물",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "52% 40%",
+        "box": {
+          "x": 311.19561767578125,
+          "y": 305.58624267578125,
+          "width": 189.28216552734375,
+          "height": 473.2021484375,
+          "right": 500.477783203125,
+          "bottom": 778.7883911132812
+        }
+      },
+      {
+        "src": "assets/photos/write.jpg",
+        "alt": "야외 테이블에서 노트에 생각을 적는 인물",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 50%",
+        "box": {
+          "x": 520.6378173828125,
+          "y": 305.58624267578125,
+          "width": 189.27557373046875,
+          "height": 473.18902587890625,
+          "right": 709.9133911132812,
+          "bottom": 778.7752685546875
+        }
+      },
+      {
+        "src": "assets/photos/observe.jpg",
+        "alt": "한쪽 눈에 돋보기를 대고 관찰하는 인물",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "48% 34%",
+        "box": {
+          "x": 730.0734252929688,
+          "y": 305.58624267578125,
+          "width": 189.28216552734375,
+          "height": 473.2021484375,
+          "right": 919.3555908203125,
+          "bottom": 778.7883911132812
+        }
+      },
+      {
+        "src": "assets/photos/portrait-one.jpg",
+        "alt": "작업 공간에서 현금을 들고 앉아 있는 인물",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2400,
+        "fit": "cover",
+        "focus": "48% 30%",
+        "box": {
+          "x": 939.515625,
+          "y": 305.58624267578125,
+          "width": 189.2821044921875,
+          "height": 473.2021484375,
+          "right": 1128.7977294921875,
+          "bottom": 778.7883911132812
+        }
+      },
+      {
+        "src": "assets/photos/portrait-two.jpg",
+        "alt": "도시 거리에서 갈색 옷을 입고 서 있는 인물",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "49% 28%",
+        "box": {
+          "x": 1148.957763671875,
+          "y": 305.58624267578125,
+          "width": 189.275634765625,
+          "height": 473.18902587890625,
+          "right": 1338.2333984375,
+          "bottom": 778.7752685546875
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "editableNodes": 0,
+    "localStorageCalls": [
+      {
+        "method": "getItem",
+        "key": "stage-kit:v1:stage-photo-color-example:/stage-presentation-kit/"
+      }
+    ],
+    "filename": null
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/#4",
+    "title": "화면이 설명하는 발표 — 현장 구성 양식 — Stage",
+    "index": "3",
+    "layout": "bento",
+    "variant": "editorial",
+    "headingSize": null,
+    "text": "24개남겨 둔 관찰작은 장면을 놓치지 않기6가지함께 묶은 주제A FIELD STUDYFieldNotes.관찰을 다음 행동으로.기록 / 분류 / 다음 행동STUDY\nEDITION기록 조각 / 08“처음에\n어디로 가죠?”듣고 남긴 장면맥락까지\n함께 기록하기.동선안내첫 경험정리한 주제 중 일부다음 행동1 / 3✓첫 화면의 안내 고치기01한 장으로 정리한 발견시작의 장벽안내가 늦다.동선이 안 보인다.선택지가 많다.3개정해 둔 다음 행동1기록2분류3결정다음 일을 정하는 흐름공유된 실행 목록첫 안내 앞당기기다음 동선 보이기처음 고를 일 줄이기Field Notes · 한 프로젝트의 결과물을 회수하는 가상 예제 · 자체 제작 UI·문서·도식 + Pexels 스톡 사진",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 631.679931640625,
+      "right": 1314.7199401855469,
+      "bottom": 827.1999206542969
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../assets/photos/write.jpg",
+        "alt": "관찰 기록이라는 가상 이야기에 쓰인 필기 장면 스톡 사진",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "42% 43%",
+        "box": {
+          "x": 426,
+          "y": 196.36000061035156,
+          "width": 288.1199951171875,
+          "height": 190.11561584472656,
+          "right": 714.1199951171875,
+          "bottom": 386.4756164550781
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "editableNodes": 0,
+    "localStorageCalls": [
+      {
+        "method": "getItem",
+        "key": "stage-kit:v1:example-devday-compositions:/stage-presentation-kit/examples/devday-compositions/"
+      }
+    ],
+    "filename": null
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/#5",
+    "title": "화면이 설명하는 발표 — 현장 구성 양식 — Stage",
+    "index": "4",
+    "layout": "icon-wall",
+    "heading": "함께 만들어요.",
+    "headingSize": "104px",
+    "text": "함께 만들어요.서로 다른 도구를, 하나의 흐름으로.",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 631.679931640625,
+      "right": 1314.7199401855469,
+      "bottom": 827.1999206542969
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "editableNodes": 0,
+    "localStorageCalls": [
+      {
+        "method": "getItem",
+        "key": "stage-kit:v1:example-devday-compositions:/stage-presentation-kit/examples/devday-compositions/"
+      }
+    ],
+    "filename": null
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/examples/visual-story/#2",
+    "title": "첫 경험을, 다음 행동으로. — Stage",
+    "index": "1",
+    "layout": "visual",
+    "composition": "split",
+    "heading": "서로 다른 관찰을, 같은 기준으로.",
+    "headingSize": "64px",
+    "text": "서로 다른 관찰을, 같은 기준으로.가입 후 7일 내 첫 공유율 · 기준 W1–W4 / 후반 W9–W1255%후반 · W9–W12기준 · W1–W435%후반 · W9–W1255%같은 원본의 데이터 표대상별 비교대상값 (%)기준 · W1–W435후반 · W9–W1255",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 631.679931640625,
+      "right": 1314.7199401855469,
+      "bottom": 827.1999206542969
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "editableNodes": 0,
+    "localStorageCalls": [
+      {
+        "method": "getItem",
+        "key": "stage-kit:v1:first-value-native-visual:/stage-presentation-kit/examples/visual-story/"
+      }
+    ],
+    "filename": null
+  }
+]

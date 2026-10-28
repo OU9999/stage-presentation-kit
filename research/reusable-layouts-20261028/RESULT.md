@@ -48,7 +48,7 @@ compose: bento
 - 정량 후검수에서 Stage 노란 내장 아이콘 선/밝은 plate 대비2.7975를 발견해 기존 팔레트 mix70→65%로 교정했다. 최종5색 stroke/plate 최소는Stage3.182647·Paper5.109290이다. custom 고유색·배치·본문은 그대로다. [교정 후 실측](evidence/final-color-browser.json).
 - 디자인 매니저가 새17장·수량8장·Paper8장·최종색2장 총35개 PNG를 직접 열어 추가 필수 미감 교정 없음으로 인수했다. 자동 검사 수와 시각 판정을 구분했다.
 
-기존 root20장·이전 Markdown16장·기존 bento/wall2장·native visual8종,총46장을 실제 순회해 경고·이미지 실패·브라우저 오류0을 확인했다. 전체 보기9장/혼합12타일/아이콘월2개,preview링크/id0,발표자 현재/다음과양방향이동,두 새 원고의 상호읽기 링크/#6이동도 통과했다. [회귀·상호작용](evidence/regression-browser.json). 공개 배포 결과는 [배포 검수](DEPLOYMENT.md)에 기록한다.
+기존 root20장·이전 Markdown16장·기존 bento/wall2장·native visual8종,총46장을 실제 순회해 경고·이미지 실패·브라우저 오류0을 확인했다. 전체 보기9장/혼합12타일/아이콘월2개,preview링크/id0,발표자 현재/다음과양방향이동,두 새 원고의 상호읽기 링크/#6이동도 통과했다. [회귀·상호작용](evidence/regression-browser.json). 공개 배포에서도77파일200/바이트일치,새12화면·Paper1화면·모바일17장·기존4화면·결과보드가 정상이다. [배포 검수](DEPLOYMENT.md)에 API와 실제 화면 근거를 기록했다.
 
 결과 보드의6개 배치 선택·원고/발표 링크·390px 화면을 확인했다. 별도19입력의 읽기 전문은 모두 원문과 일치하고 의도적 fallback3개가 유지된다. 공개용 수량 예제16장은 경고 없이 따로 열 수 있다. [보드·전체 읽기 검수](evidence/board-read-browser.json) · [로컬 참조 누락0](evidence/links.json) · [생성 재현](evidence/build-reproducibility.json).
 
