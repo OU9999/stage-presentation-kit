@@ -2,7 +2,7 @@ window.PRESENTATION = {
   "format": "markdown-v1",
   "document": {
     "sourcePath": "research/presentation-renewal-20261028/evidence/edge-deck/slides.md",
-    "revision": "285e6e50be5411c9ee64d6d15d5901484223100c0f6076038693ae18952efad8"
+    "revision": "16713ab2b48938247be2d1cef4bdcd0db8f221c99993b34867ed891481f9c3bd"
   },
   "id": "renewal-edge-cases",
   "title": "서로 다른 2장의 자료",

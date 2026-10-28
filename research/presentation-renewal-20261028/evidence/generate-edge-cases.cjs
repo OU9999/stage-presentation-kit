@@ -12,7 +12,7 @@ cases.push({ id: "focus-count-mismatch", expected: "document", warning: true, so
 cases.push({ id: "unfit-gallery", expected: "document", warning: true, source: "<!-- stage-slide\ncompose: gallery\n-->\n# 한 이미지와 본문\n\n" + photo(1) + "\n\n[자료 링크](https://example.com)도 그대로 남아야 합니다." });
 cases.push({ id: "unfit-editorial", expected: "document", warning: true, source: "<!-- stage-slide\ncompose: editorial\n-->\n# 그룹 없는 본문\n\n이 문장과 **강조**는 삭제하지 않습니다." });
 cases.push({ id: "code-table", expected: "document", source: "# 긴 코드와 표를 읽습니다\n\n```js\nconst message = '" + "원문".repeat(80) + "';\n---\n```\n\n| 이름 | 값 | 조건 |\n| --- | --- | --- |\n| 원고 | 한 번 | " + "긴 조건 ".repeat(12) + "|" });
-cases.push({ id: "intentional-overflow", expected: "document", overflow: true, source: "# " + "긴 한국어 원문을 지우지 않고 진단합니다. ".repeat(40) + "\n\n- 마지막 항목도 원문에 남습니다." });
+cases.push({ id: "intentional-overflow", expected: "document", overflow: true, source: "# " + "긴 한국어 원문을 지우지 않고 진단합니다. ".repeat(40).trimEnd() + "\n\n- 마지막 항목도 원문에 남습니다." });
 const directory = path.join(__dirname, "edge-deck"); fs.mkdirSync(directory, { recursive: true });
 const sourcePath = path.join(directory, "slides.md"), source = cases.map(item => item.source).join("\n\n---\n\n");
 fs.writeFileSync(sourcePath, source);
