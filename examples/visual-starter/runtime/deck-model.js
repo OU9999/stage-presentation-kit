@@ -11,6 +11,28 @@
   var owns = function (object, key) { return Object.prototype.hasOwnProperty.call(object, key); };
   var record = function (value) { return value !== null && typeof value === "object" && !Array.isArray(value); };
   var iconNames = ["brain", "price", "speed", "image", "voice", "record", "compare", "select", "share", "code", "chart", "search", "book", "calendar", "mail", "globe", "check", "folder", "music", "spark"];
+  var iconPaths = {
+    brain: "M9 5a3 3 0 0 0-5 2 3.5 3.5 0 0 0-1 6 3.5 3.5 0 0 0 4 5 3 3 0 0 0 5 2V5a3 3 0 0 0-3 0ZM15 5a3 3 0 0 1 5 2 3.5 3.5 0 0 1 1 6 3.5 3.5 0 0 1-4 5 3 3 0 0 1-5 2M7 8c3 0 3 4 1 5M5 14c2-1 4 0 4 2M17 8c-3 0-3 4-1 5M19 14c-2-1-4 0-4 2",
+    price: "M15.5 7.5c-1-2-6-2-6 1 0 3 6 2 6 5 0 3-5 3-7 1M12 4v15M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z",
+    speed: "m13 2-9 12h7l-1 8 10-13h-7l1-7Z",
+    image: "M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2ZM3 17l6-6 5 5 3-3 4 4M10 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z",
+    voice: "M3 10v4M7.5 6v12M12 3v18M16.5 7v10M21 10v4",
+    record: "M8 4H5v17h14V4h-3M8 2h8v5H8V2ZM8 11h8M8 15h8M8 18h5",
+    compare: "M3 7h16m-4-4 4 4-4 4M21 17H5m4-4-4 4 4 4",
+    select: "m4 3 6 17 3-7 7-3L4 3ZM14 15l5 5",
+    share: "M9 8l6-3M9 16l6 3M9 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM21 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM21 20a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z",
+    code: "m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18",
+    chart: "M3 3v18h18M7 16v-5M12 16V7M17 16V4",
+    search: "M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm-2 5 6 6",
+    book: "M12 5c-3-2-6-2-10-1v15c4-1 7-1 10 1 3-2 6-2 10-1V4c-4-1-7-1-10 1Zm0 0v15",
+    calendar: "M5 4h14a2 2 0 0 1 2 2v14H3V6a2 2 0 0 1 2-2ZM7 2v5m10-5v5M3 9h18M7 13h2m6 0h2M7 17h2m6 0h2",
+    mail: "M3 5h18v14H3V5Zm0 0 9 8 9-8",
+    globe: "M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM3 12h18M12 3c-5 5-5 13 0 18 5-5 5-13 0-18Z",
+    check: "m6 12 4 4 8-8M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z",
+    folder: "M3 5h7l2 3h9v12H3V5Z",
+    music: "M10 17V4l11-2v13M10 7l11-2M10 17c0 4-7 5-7 1 0-3 7-4 7-1Zm11-2c0 4-7 5-7 1 0-3 7-4 7-1Z",
+    spark: "m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5L12 2Z"
+  };
   var itemTones = ["blue", "green", "orange", "purple", "yellow", "white"];
   var artifactFields = {
     cover: ["label", "title", "subtitle", "footer", "edition", "src", "alt", "fit", "focalPoint"],
@@ -34,6 +56,90 @@
     return { columns: seoul ? 12 : 6, rows: seoul ? 6 : 3, slots: slots.map(function (slot) {
       return { column: slot[0], row: slot[1], columnSpan: slot[2], rowSpan: slot[3] };
     }) };
+  }
+
+  // New Markdown planners do not alter the legacy fixed composition APIs.
+  function planBento(count, options) {
+    options = options || {};
+    if (!Number.isInteger(count) || count < 1 || count > 12) return null;
+    var variant = options.variant || "balanced", primary = options.primaryIndex;
+    if (primary === undefined || primary === -1) primary = -1;
+    else if (!Number.isInteger(primary) || primary < 0 || primary >= count) return null;
+    if (variant === "seoul" || variant === "recap") {
+      if (count !== 12) return null;
+      var fixed = bentoPreset(variant);
+      var anchor = variant === "seoul" ? 3 : 0;
+      if (primary >= 0 && primary !== anchor) {
+        var swap = fixed.slots[primary]; fixed.slots[primary] = fixed.slots[anchor]; fixed.slots[anchor] = swap;
+      }
+      return fixed;
+    }
+    if (variant !== "balanced") return null;
+    var composed = null;
+    if (count === 5) composed = { columns: 12, rows: 6, slots: [
+      { column: 1, row: 1, columnSpan: 4, rowSpan: 6 },
+      { column: 5, row: 1, columnSpan: 4, rowSpan: 3 }, { column: 9, row: 1, columnSpan: 4, rowSpan: 3 },
+      { column: 5, row: 4, columnSpan: 4, rowSpan: 3 }, { column: 9, row: 4, columnSpan: 4, rowSpan: 3 }
+    ] };
+    if (count === 8) composed = { columns: 12, rows: 6, slots: [
+      { column: 1, row: 1, columnSpan: 6, rowSpan: 4 },
+      { column: 7, row: 1, columnSpan: 3, rowSpan: 2 }, { column: 10, row: 1, columnSpan: 3, rowSpan: 2 },
+      { column: 7, row: 3, columnSpan: 3, rowSpan: 2 }, { column: 10, row: 3, columnSpan: 3, rowSpan: 2 },
+      { column: 1, row: 5, columnSpan: 4, rowSpan: 2 }, { column: 5, row: 5, columnSpan: 4, rowSpan: 2 }, { column: 9, row: 5, columnSpan: 4, rowSpan: 2 }
+    ] };
+    if (count === 12) composed = bentoPreset("recap");
+    if (composed) {
+      if (primary > 0) { var promoted = composed.slots[primary]; composed.slots[primary] = composed.slots[0]; composed.slots[0] = promoted; }
+      return composed;
+    }
+    var slots = new Array(count);
+    var indices = Array.from({ length: count }, function (_, i) { return i; });
+    function weight(index) { return index === primary ? 3 : 1; }
+    // Integer guillotine partition: full coverage, one rectangle per authored group.
+    // Exported cells are doubled on both axes to keep a useful minimum tile height.
+    function partition(items, x, y, width, height) {
+      if (items.length === 1) {
+        slots[items[0]] = { column: x * 2 + 1, row: y * 2 + 1, columnSpan: width * 2, rowSpan: height * 2 };
+        return;
+      }
+      var total = items.reduce(function (sum, index) { return sum + weight(index); }, 0);
+      var preferred = width >= height ? "x" : "y", best = null, leftWeight = 0;
+      for (var split = 1; split < items.length; split += 1) {
+        leftWeight += weight(items[split - 1]);
+        ["x", "y"].forEach(function (axis) {
+          var dimension = axis === "x" ? width : height, cross = axis === "x" ? height : width;
+          var lower = Math.ceil(split / cross), upper = dimension - Math.ceil((items.length - split) / cross);
+          if (lower > upper || dimension < 2) return;
+          var cut = Math.max(lower, Math.min(upper, Math.round(dimension * leftWeight / total)));
+          var score = Math.abs(leftWeight / total - .5) + (axis === preferred ? 0 : .2);
+          if (!best || score < best.score) best = { split: split, axis: axis, cut: cut, score: score };
+        });
+      }
+      if (best.axis === "x") {
+        partition(items.slice(0, best.split), x, y, best.cut, height);
+        partition(items.slice(best.split), x + best.cut, y, width - best.cut, height);
+      } else {
+        partition(items.slice(0, best.split), x, y, width, best.cut);
+        partition(items.slice(best.split), x, y + best.cut, width, height - best.cut);
+      }
+    }
+    partition(indices, 0, 0, 6, 3);
+    return { columns: 12, rows: 6, slots: slots };
+  }
+
+  function planIconWall(count) {
+    if (!Number.isInteger(count) || count < 1 || count > 22) return null;
+    var perimeter = [], column, row;
+    for (column = 1; column <= 8; column += 1) perimeter.push({ column: column, row: 1 });
+    for (row = 2; row <= 4; row += 1) perimeter.push({ column: 8, row: row });
+    for (column = 8; column >= 1; column -= 1) perimeter.push({ column: column, row: 5 });
+    for (row = 4; row >= 2; row -= 1) perimeter.push({ column: 1, row: row });
+    var slots = [];
+    for (var i = 0; i < count; i += 1) {
+      var point = perimeter[Math.floor((i + .5) * perimeter.length / count)];
+      slots.push({ column: point.column, row: point.row, columnSpan: 1, rowSpan: 1 });
+    }
+    return { columns: 8, rows: 5, slots: slots, copy: { column: 2, row: 2, columnSpan: 6, rowSpan: 3 } };
   }
 
   function iconWallSlots(count) {
@@ -207,10 +313,24 @@
         if (!match || Number(match[1]) > 100 || Number(match[2]) > 100) fail(location, "focus는 0~100%의 두 위치여야 합니다.");
       }
       function settings(object, location, group) {
-        var allowed = group ? ["start", "end", "tone", "primary", "fit", "focus", "origin"] : ["compose", "fit", "focus", "groups"];
+        var allowed = group ? ["start", "end", "tone", "primary", "fit", "focus", "origin", "icon"] : ["compose", "fit", "focus", "groups", "variant", "icons"];
         Object.keys(object).forEach(function (key) { if (allowed.indexOf(key) < 0) fail(location + "." + key, "지원하지 않는 조판 설정 키입니다."); });
-        if (object.compose !== undefined && ["auto", "message", "split", "media", "gallery", "mosaic", "editorial", "quote", "closing", "document"].indexOf(object.compose) < 0) fail(location + ".compose", "지원하는 compose 이름을 사용하세요.");
+        if (object.compose !== undefined && ["auto", "message", "split", "media", "gallery", "mosaic", "editorial", "quote", "closing", "document", "bento", "icon-wall"].indexOf(object.compose) < 0) fail(location + ".compose", "지원하는 compose 이름을 사용하세요.");
         if (object.fit !== undefined && ["contain", "cover"].indexOf(object.fit) < 0) fail(location + ".fit", "fit은 contain/cover여야 합니다.");
+        if (!group && object.variant !== undefined && ["portraits", "strip", "staggered", "balanced", "seoul", "recap"].indexOf(object.variant) < 0) fail(location + ".variant", "지원하는 variant 이름을 사용하세요.");
+        if (group && object.icon !== undefined && !normalizeIcon(object.icon)) fail(location + ".icon", "지원하는 기존 아이콘 이름을 사용하세요.");
+        if (!group && object.icons !== undefined) {
+          if (!Array.isArray(object.icons)) fail(location + ".icons", "icons는 아이콘 이름 또는 {icon, tone}의 배열이어야 합니다.");
+          else object.icons.forEach(function (item, index) {
+            var entry = location + ".icons." + index;
+            if (typeof item === "string") { if (!normalizeIcon(item)) fail(entry, "지원하는 기존 아이콘 이름을 사용하세요."); return; }
+            if (!record(item)) { fail(entry, "아이콘 이름 또는 {icon, tone} 객체를 사용하세요."); return; }
+            Object.keys(item).forEach(function (key) { if (["icon", "tone"].indexOf(key) < 0) fail(entry + "." + key, "지원하지 않는 아이콘 설정 키입니다."); });
+            if (!normalizeIcon(item.icon)) fail(entry + ".icon", "지원하는 기존 아이콘 이름이 필요합니다.");
+            if (item.tone !== undefined && ["orange", "purple", "blue", "green", "yellow", "neutral"].indexOf(item.tone) < 0) fail(entry + ".tone", "지원하는 의미색을 사용하세요.");
+          });
+        }
+
         if (object.focus !== undefined) focus(object.focus, location + ".focus", group);
         if (group && object.tone !== undefined && ["orange", "purple", "blue", "green", "yellow", "neutral"].indexOf(object.tone) < 0) fail(location + ".tone", "지원하는 그룹 tone을 사용하세요.");
         if (group && object.primary !== undefined && typeof object.primary !== "boolean") fail(location + ".primary", "primary는 true/false여야 합니다.");
@@ -436,5 +556,5 @@
     });
     return issues;
   }
-  return { validateBlocks: validateBlocks, validateDeck: validateDeck, validateVisual: validateVisual, visualSeries: visualSeries, packMosaic: packMosaic, bentoPreset: bentoPreset, iconWallSlots: iconWallSlots, iconNames: iconNames.slice(), normalizeIcon: normalizeIcon };
+  return { validateBlocks: validateBlocks, validateDeck: validateDeck, validateVisual: validateVisual, visualSeries: visualSeries, packMosaic: packMosaic, bentoPreset: bentoPreset, planBento: planBento, planIconWall: planIconWall, iconWallSlots: iconWallSlots, iconNames: iconNames.slice(), iconPaths: iconPaths, normalizeIcon: normalizeIcon };
 });

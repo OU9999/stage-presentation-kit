@@ -1,0 +1,162 @@
+{
+  "buttons": [
+    {
+      "selected": "세로 사진",
+      "image": "evidence/screens/photo-02.png",
+      "live": "../../presentations/photo-essay/#2",
+      "source": "../../talks/photo-essay/slides.md",
+      "snippet": "<!-- stage-slide\ncompose: gallery\nvariant: portraits\n-->\n\n![사진 설명](./photo.jpg \"사진 제목\")\n\n![다른 사진 설명](./another.jpg \"다른 장면\")"
+    },
+    {
+      "selected": "사진 스트립",
+      "image": "evidence/screens/photo-03.png",
+      "live": "../../presentations/photo-essay/#3",
+      "source": "../../talks/photo-essay/slides.md",
+      "snippet": "<!-- stage-slide\ncompose: gallery\nvariant: strip\n-->\n# 사진 사이의 흐름\n\n![사진 설명](./photo.jpg \"한 장면\")\n\n![다른 사진 설명](./another.jpg \"다른 장면\")"
+    },
+    {
+      "selected": "불균등 모자이크",
+      "image": "evidence/screens/photo-05.png",
+      "live": "../../presentations/photo-essay/#5",
+      "source": "../../talks/photo-essay/slides.md",
+      "snippet": "<!-- stage-slide\ncompose: mosaic\nvariant: staggered\n-->\n# 넓은 장면과 작은 단서\n\n![설명](./one.jpg \"단서\")\n\n… 같은 방식으로 사진 여섯 장"
+    },
+    {
+      "selected": "혼합 타일",
+      "image": "evidence/screens/exhibit-05.png",
+      "live": "../../presentations/community-exhibit/#5",
+      "source": "../../talks/community-exhibit/slides.md",
+      "snippet": "<!-- stage-slide\ncompose: bento\n-->\n\n<!-- stage-group\ntone: blue\nicon: image\n-->\n## 남겨 둔 기록\n\n**24** 개\n\n## 함께 읽을 원칙\n\n> 관찰과 짐작을 구분합니다.\n\n… H2 자료를 더하면 배치도 바뀝니다."
+    },
+    {
+      "selected": "내장 아이콘월",
+      "image": "evidence/screens/exhibit-07.png",
+      "live": "../../presentations/community-exhibit/#7",
+      "source": "../../talks/community-exhibit/slides.md",
+      "snippet": "<!-- stage-slide\ncompose: icon-wall\nicons: [search, code, book]\n-->\n# 함께 살펴볼 도구\n\n- **찾아보기** · [자료](./guide.md)\n- 만들기\n- 함께 읽기"
+    },
+    {
+      "selected": "내 이미지로 아이콘월",
+      "image": "evidence/screens/exhibit-08.png",
+      "live": "../../presentations/community-exhibit/#8",
+      "source": "../../talks/community-exhibit/slides.md",
+      "snippet": "<!-- stage-slide\ncompose: icon-wall\n-->\n# 우리만의 표식\n\n- ![눈 모양](./look.svg) **살펴보기**\n- ![질문 모양](./ask.svg) 질문하기\n- ![메모 모양](./note.svg) 기록 남기기"
+    }
+  ],
+  "allRead": [
+    {
+      "number": 1,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 2,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 3,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 4,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 5,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 6,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 7,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 8,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 9,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 10,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 11,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 12,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 13,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 14,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 15,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 16,
+      "matches": true,
+      "warnings": null
+    },
+    {
+      "number": 17,
+      "matches": true,
+      "warnings": "선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다."
+    },
+    {
+      "number": 18,
+      "matches": true,
+      "warnings": "선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다."
+    },
+    {
+      "number": 19,
+      "matches": true,
+      "warnings": "icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다."
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "images": [
+      1344,
+      1344,
+      1344,
+      1344,
+      1344,
+      1344,
+      1344
+    ],
+    "buttons": 6,
+    "errors": []
+  },
+  "publicCountExample": {
+    "slides": 16,
+    "warnings": 0
+  }
+}

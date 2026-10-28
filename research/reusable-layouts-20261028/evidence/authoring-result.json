@@ -1,0 +1,37 @@
+{
+  "project": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-reusable-authoring-DF4sA3",
+  "configPath": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-reusable-authoring-DF4sA3/stage.config.json",
+  "sourcePath": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-reusable-authoring-DF4sA3/talks/flexible/slides.md",
+  "before": "<!-- stage-slide\ncompose: gallery\nvariant: portraits\nfit: cover\nfocus: [\"68% 45%\",\"52% 40%\"]\n-->\n\n![스톡 사진 capture](../../assets/photos/capture.jpg \"기록\")\n\n![스톡 사진 listen](../../assets/photos/listen.jpg \"듣기\")\n\n---\n\n<!-- stage-slide\ncompose: bento\n-->\n\n# 기록과 다음 행동\n\n<!-- stage-group\ntone: blue\n-->\n## 남겨 둔 기록\n\n**24** 개\n\n가상 편집 예시입니다.\n\n<!-- stage-group\nprimary: true\nfit: cover\nfocus: '45% 43%'\n-->\n## 기록하는 장면\n\n![스톡 사진 write](../../assets/photos/write.jpg \"스톡 장면 · Pexels\")\n\n## 함께 읽을 원칙\n\n> 관찰과 짐작을 구분합니다.\n\n<!-- stage-group\nicon: record\ntone: green\n-->\n## 다음에 할 일\n\n- 이름을 함께 읽습니다.\n- 같은 질문으로 돌아옵니다.\n\n## 맥락을 남깁니다\n\n**같은 원고**에서 자료와 [외부 참고](https://example.com)를 확인합니다.\n\n---\n\n<!-- stage-slide\ncompose: icon-wall\nicons: [{\"icon\":\"brain\",\"tone\":\"blue\"},{\"icon\":\"price\",\"tone\":\"green\"},{\"icon\":\"speed\",\"tone\":\"orange\"},{\"icon\":\"image\",\"tone\":\"purple\"},{\"icon\":\"voice\",\"tone\":\"yellow\"}]\n-->\n\n# 함께 살펴볼 도구\n\n가상 역할 이름이며 실제 서비스 목록이 아닙니다.\n\n- **역할 1** · [자료](https://example.com/0)\n- **역할 2** · [자료](https://example.com/1)\n- **역할 3** · [자료](https://example.com/2)\n- **역할 4** · [자료](https://example.com/3)\n- **역할 5** · [자료](https://example.com/4)\n\n---\n\n<!-- stage-slide\ncompose: icon-wall\n-->\n\n# 우리만의 표식\n\n- ![자체 제작 표식 1](../community-exhibit/icons/ask.svg) **표식 1** [설명](https://example.com/0)\n- ![자체 제작 표식 2](../community-exhibit/icons/leave-note.svg) **표식 2** [설명](https://example.com/1)\n- ![자체 제작 표식 3](../community-exhibit/icons/look.svg) **표식 3** [설명](https://example.com/2)",
+  "after": "<!-- stage-slide\ncompose: gallery\nvariant: portraits\nfit: cover\nfocus: [\"68% 45%\",\"52% 40%\",\"45% 50%\"]\n-->\n\n![스톡 사진 capture](../../assets/photos/capture.jpg \"기록\")\n\n![스톡 사진 listen](../../assets/photos/listen.jpg \"듣기\")\n\n![스톡 사진 write](../../assets/photos/write.jpg \"쓰기\")\n\n---\n\n<!-- stage-slide\ncompose: bento\n-->\n\n# 다른 발표의 검토 질문\n\n<!-- stage-group\ntone: blue\n-->\n## 남겨 둔 기록\n\n**31** 개\n\n가상 편집 예시입니다.\n\n<!-- stage-group\nprimary: true\nfit: cover\nfocus: '45% 43%'\n-->\n## 기록하는 장면\n\n![스톡 사진 write](../../assets/photos/write.jpg \"스톡 장면 · Pexels\")\n\n## 함께 읽을 원칙\n\n> 관찰과 짐작을 구분합니다.\n\n<!-- stage-group\nicon: record\ntone: green\n-->\n## 다음에 할 일\n\n- 이름을 함께 읽습니다.\n- 같은 질문으로 돌아옵니다.\n\n## 맥락을 남깁니다\n\n**같은 원고**에서 자료와 [외부 참고](https://example.com)를 확인합니다.\n\n<!-- stage-group\nfit: contain\n-->\n## 찾아 둔 단서\n\n![스톡 사진 observe](../../assets/photos/observe.jpg \"서로 다른 스톡 장면\")\n\n<!-- stage-group\ntone: orange\n-->\n## 확인할 질문\n\n**6** 가지\n\n서로 다른 작업 단위이며 성과가 아닙니다.\n\n## 읽는 순서\n\n1. 맥락\n2. 관찰\n3. 질문\n\n---\n\n<!-- stage-slide\ncompose: icon-wall\nicons: [{\"icon\":\"brain\",\"tone\":\"blue\"},{\"icon\":\"price\",\"tone\":\"green\"},{\"icon\":\"speed\",\"tone\":\"orange\"},{\"icon\":\"image\",\"tone\":\"purple\"},{\"icon\":\"voice\",\"tone\":\"yellow\"},{\"icon\":\"record\",\"tone\":\"blue\"},{\"icon\":\"compare\",\"tone\":\"green\"},{\"icon\":\"select\",\"tone\":\"orange\"},{\"icon\":\"share\",\"tone\":\"purple\"},{\"icon\":\"code\",\"tone\":\"yellow\"},{\"icon\":\"chart\",\"tone\":\"blue\"},{\"icon\":\"search\",\"tone\":\"green\"}]\n-->\n\n# 함께 살펴볼 도구\n\n가상 역할 이름이며 실제 서비스 목록이 아닙니다.\n\n- **다시 확인할 역할** · [자료](../photo-essay/slides.md)\n- **역할 2** · [자료](https://example.com/1)\n- **역할 3** · [자료](https://example.com/2)\n- **역할 4** · [자료](https://example.com/3)\n- **역할 5** · [자료](https://example.com/4)\n- **역할 6** · [자료](https://example.com/5)\n- **역할 7** · [자료](https://example.com/6)\n- **역할 8** · [자료](https://example.com/7)\n- **역할 9** · [자료](https://example.com/8)\n- **역할 10** · [자료](https://example.com/9)\n- **역할 11** · [자료](https://example.com/10)\n- **역할 12** · [자료](https://example.com/11)\n\n---\n\n<!-- stage-slide\ncompose: icon-wall\n-->\n\n# 우리만의 표식\n\n- ![자체 제작 표식 1](../community-exhibit/icons/look.svg) **표식 1** [설명](https://example.com/0)\n- ![자체 제작 표식 2](../community-exhibit/icons/leave-note.svg) **표식 2** [설명](https://example.com/1)\n- ![자체 제작 표식 3](../community-exhibit/icons/look.svg) **표식 3** [설명](https://example.com/2)",
+  "beforeSha": "6f902e150ffc1ac9d144c4b5b2add53c67983a478a27b8d93490ffb0ff2b0004",
+  "afterSha": "1160081fc9a1879daa30557313a263fa69b1ff7e682b43f5e08217763fc6e19f",
+  "changes": {
+    "photos": [
+      2,
+      3
+    ],
+    "groups": [
+      5,
+      8
+    ],
+    "icons": [
+      5,
+      12
+    ],
+    "customSource": [
+      "ask.svg",
+      "look.svg"
+    ],
+    "value": [
+      24,
+      31
+    ],
+    "labelAndLink": true
+  },
+  "outputBeforeEdit": "0fa7f337d9dfab217ccb599ece9339b064f775ed8eb994a684d7af9e07b05610",
+  "goodOutputSha": "065a3ec4c43d225047626e50b12d84ec0f27a6ae81691bc6372292c3a9f9b7e4",
+  "lastGoodPreserved": true,
+  "sourceOnlyEdits": true,
+  "autoRebuildVerified": true
+}

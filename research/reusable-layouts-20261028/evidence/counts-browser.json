@@ -1,0 +1,3540 @@
+[
+  {
+    "id": "portraits-2",
+    "composition": "gallery",
+    "variant": "portraits",
+    "count": 2,
+    "number": 1,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#1",
+    "title": "발표 자료 — Stage",
+    "index": "0",
+    "layout": "blocks",
+    "headingSize": null,
+    "text": "기록듣기",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/capture.jpg",
+        "alt": "스톡 사진 capture",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "68% 45%",
+        "box": {
+          "x": 320.1600036621094,
+          "y": 231.13467407226562,
+          "width": 194.87997436523438,
+          "height": 487.1999816894531,
+          "right": 515.0399780273438,
+          "bottom": 718.3346557617188
+        }
+      },
+      {
+        "src": "../../../../assets/photos/listen.jpg",
+        "alt": "스톡 사진 listen",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "52% 40%",
+        "box": {
+          "x": 924.9599609375,
+          "y": 231.13467407226562,
+          "width": 194.8800048828125,
+          "height": 487.1999816894531,
+          "right": 1119.8399658203125,
+          "bottom": 718.3346557617188
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-01.png"
+  },
+  {
+    "id": "portraits-3",
+    "composition": "gallery",
+    "variant": "portraits",
+    "count": 3,
+    "number": 2,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#2",
+    "title": "발표 자료 — Stage",
+    "index": "1",
+    "layout": "blocks",
+    "headingSize": null,
+    "text": "기록듣기쓰기",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/capture.jpg",
+        "alt": "스톡 사진 capture",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "68% 45%",
+        "box": {
+          "x": 219.36000061035156,
+          "y": 231.13467407226562,
+          "width": 194.87998962402344,
+          "height": 487.1999816894531,
+          "right": 414.239990234375,
+          "bottom": 718.3346557617188
+        }
+      },
+      {
+        "src": "../../../../assets/photos/listen.jpg",
+        "alt": "스톡 사진 listen",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "52% 40%",
+        "box": {
+          "x": 622.5599975585938,
+          "y": 231.13467407226562,
+          "width": 194.8800048828125,
+          "height": 487.1999816894531,
+          "right": 817.4400024414062,
+          "bottom": 718.3346557617188
+        }
+      },
+      {
+        "src": "../../../../assets/photos/write.jpg",
+        "alt": "스톡 사진 write",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 50%",
+        "box": {
+          "x": 1025.760009765625,
+          "y": 231.13467407226562,
+          "width": 194.8800048828125,
+          "height": 487.1999816894531,
+          "right": 1220.6400146484375,
+          "bottom": 718.3346557617188
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-02.png"
+  },
+  {
+    "id": "portraits-6",
+    "composition": "gallery",
+    "variant": "portraits",
+    "count": 6,
+    "number": 3,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#3",
+    "title": "발표 자료 — Stage",
+    "index": "2",
+    "layout": "blocks",
+    "headingSize": null,
+    "text": "기록듣기쓰기관찰발견다른 시선",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/capture.jpg",
+        "alt": "스톡 사진 capture",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "68% 45%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 247.9346923828125,
+          "width": 181.44000244140625,
+          "height": 453.5999755859375,
+          "right": 306.7200012207031,
+          "bottom": 701.53466796875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/listen.jpg",
+        "alt": "스톡 사진 listen",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "52% 40%",
+        "box": {
+          "x": 326.8800048828125,
+          "y": 247.9346923828125,
+          "width": 181.43997192382812,
+          "height": 453.5999755859375,
+          "right": 508.3199768066406,
+          "bottom": 701.53466796875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/write.jpg",
+        "alt": "스톡 사진 write",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 50%",
+        "box": {
+          "x": 528.47998046875,
+          "y": 247.9346923828125,
+          "width": 181.44000244140625,
+          "height": 453.5999755859375,
+          "right": 709.9199829101562,
+          "bottom": 701.53466796875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/observe.jpg",
+        "alt": "스톡 사진 observe",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "48% 34%",
+        "box": {
+          "x": 730.0799560546875,
+          "y": 247.9346923828125,
+          "width": 181.44000244140625,
+          "height": 453.5999755859375,
+          "right": 911.5199584960938,
+          "bottom": 701.53466796875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/portrait-one.jpg",
+        "alt": "스톡 사진 portrait-one",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2400,
+        "fit": "cover",
+        "focus": "48% 30%",
+        "box": {
+          "x": 931.6799926757812,
+          "y": 247.9346923828125,
+          "width": 181.44000244140625,
+          "height": 453.5999755859375,
+          "right": 1113.1199951171875,
+          "bottom": 701.53466796875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/portrait-two.jpg",
+        "alt": "스톡 사진 portrait-two",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "49% 28%",
+        "box": {
+          "x": 1133.2799072265625,
+          "y": 247.9346923828125,
+          "width": 181.4400634765625,
+          "height": 453.5999755859375,
+          "right": 1314.719970703125,
+          "bottom": 701.53466796875
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-03.png"
+  },
+  {
+    "id": "strip-2",
+    "composition": "gallery",
+    "variant": "strip",
+    "count": 2,
+    "number": 4,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#4",
+    "title": "발표 자료 — Stage",
+    "index": "3",
+    "layout": "blocks",
+    "headingSize": null,
+    "text": "기록듣기",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/capture.jpg",
+        "alt": "스톡 사진 capture",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "68% 45%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 253.89999389648438,
+          "width": 584.6400146484375,
+          "height": 438.4800109863281,
+          "right": 709.9200134277344,
+          "bottom": 692.3800048828125
+        }
+      },
+      {
+        "src": "../../../../assets/photos/listen.jpg",
+        "alt": "스톡 사진 listen",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "52% 40%",
+        "box": {
+          "x": 730.0799560546875,
+          "y": 253.89999389648438,
+          "width": 584.6400146484375,
+          "height": 438.4800109863281,
+          "right": 1314.719970703125,
+          "bottom": 692.3800048828125
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-04.png"
+  },
+  {
+    "id": "strip-3",
+    "composition": "gallery",
+    "variant": "strip",
+    "count": 3,
+    "number": 5,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#5",
+    "title": "발표 자료 — Stage",
+    "index": "4",
+    "layout": "blocks",
+    "headingSize": null,
+    "text": "기록듣기쓰기",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/capture.jpg",
+        "alt": "스톡 사진 capture",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "68% 45%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 329.5,
+          "width": 383.03997802734375,
+          "height": 287.280029296875,
+          "right": 508.3199768066406,
+          "bottom": 616.780029296875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/listen.jpg",
+        "alt": "스톡 사진 listen",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "52% 40%",
+        "box": {
+          "x": 528.47998046875,
+          "y": 329.5,
+          "width": 383.03997802734375,
+          "height": 287.280029296875,
+          "right": 911.5199584960938,
+          "bottom": 616.780029296875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/write.jpg",
+        "alt": "스톡 사진 write",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 50%",
+        "box": {
+          "x": 931.6799926757812,
+          "y": 329.5,
+          "width": 383.03997802734375,
+          "height": 287.280029296875,
+          "right": 1314.719970703125,
+          "bottom": 616.780029296875
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-05.png"
+  },
+  {
+    "id": "strip-6",
+    "composition": "gallery",
+    "variant": "strip",
+    "count": 6,
+    "number": 6,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#6",
+    "title": "발표 자료 — Stage",
+    "index": "5",
+    "layout": "blocks",
+    "headingSize": null,
+    "text": "기록듣기쓰기관찰발견다른 시선",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/capture.jpg",
+        "alt": "스톡 사진 capture",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "68% 45%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 405.1000061035156,
+          "width": 181.44000244140625,
+          "height": 136.07998657226562,
+          "right": 306.7200012207031,
+          "bottom": 541.1799926757812
+        }
+      },
+      {
+        "src": "../../../../assets/photos/listen.jpg",
+        "alt": "스톡 사진 listen",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "52% 40%",
+        "box": {
+          "x": 326.8800048828125,
+          "y": 405.1000061035156,
+          "width": 181.43997192382812,
+          "height": 136.07998657226562,
+          "right": 508.3199768066406,
+          "bottom": 541.1799926757812
+        }
+      },
+      {
+        "src": "../../../../assets/photos/write.jpg",
+        "alt": "스톡 사진 write",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 50%",
+        "box": {
+          "x": 528.47998046875,
+          "y": 405.1000061035156,
+          "width": 181.44000244140625,
+          "height": 136.07998657226562,
+          "right": 709.9199829101562,
+          "bottom": 541.1799926757812
+        }
+      },
+      {
+        "src": "../../../../assets/photos/observe.jpg",
+        "alt": "스톡 사진 observe",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "48% 34%",
+        "box": {
+          "x": 730.0799560546875,
+          "y": 405.1000061035156,
+          "width": 181.44000244140625,
+          "height": 136.07998657226562,
+          "right": 911.5199584960938,
+          "bottom": 541.1799926757812
+        }
+      },
+      {
+        "src": "../../../../assets/photos/portrait-one.jpg",
+        "alt": "스톡 사진 portrait-one",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2400,
+        "fit": "cover",
+        "focus": "48% 30%",
+        "box": {
+          "x": 931.6799926757812,
+          "y": 405.1000061035156,
+          "width": 181.44000244140625,
+          "height": 136.07998657226562,
+          "right": 1113.1199951171875,
+          "bottom": 541.1799926757812
+        }
+      },
+      {
+        "src": "../../../../assets/photos/portrait-two.jpg",
+        "alt": "스톡 사진 portrait-two",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "49% 28%",
+        "box": {
+          "x": 1133.2799072265625,
+          "y": 405.1000061035156,
+          "width": 181.4400634765625,
+          "height": 136.07998657226562,
+          "right": 1314.719970703125,
+          "bottom": 541.1799926757812
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-06.png"
+  },
+  {
+    "id": "staggered-6",
+    "composition": "mosaic",
+    "variant": "staggered",
+    "count": 6,
+    "number": 7,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#7",
+    "title": "발표 자료 — Stage",
+    "index": "6",
+    "layout": "blocks",
+    "heading": "서로 다른 자료를 한눈에",
+    "headingSize": "64px",
+    "text": "서로 다른 자료를 한눈에기록듣기쓰기관찰발견다른 시선",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/capture.jpg",
+        "alt": "스톡 사진 capture",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "68% 45%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 285.2293701171875,
+          "width": 586.3199462890625,
+          "height": 206.3052978515625,
+          "right": 711.5999450683594,
+          "bottom": 491.53466796875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/listen.jpg",
+        "alt": "스톡 사진 listen",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "52% 40%",
+        "box": {
+          "x": 728.3999633789062,
+          "y": 285.2293701171875,
+          "width": 284.760009765625,
+          "height": 206.3052978515625,
+          "right": 1013.1599731445312,
+          "bottom": 491.53466796875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/write.jpg",
+        "alt": "스톡 사진 write",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 50%",
+        "box": {
+          "x": 1029.9599609375,
+          "y": 285.2293701171875,
+          "width": 284.760009765625,
+          "height": 206.3052978515625,
+          "right": 1314.719970703125,
+          "bottom": 491.53466796875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/observe.jpg",
+        "alt": "스톡 사진 observe",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "48% 34%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 544.4547119140625,
+          "width": 284.7599792480469,
+          "height": 206.3052978515625,
+          "right": 410.03997802734375,
+          "bottom": 750.760009765625
+        }
+      },
+      {
+        "src": "../../../../assets/photos/portrait-one.jpg",
+        "alt": "스톡 사진 portrait-one",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2400,
+        "fit": "cover",
+        "focus": "48% 30%",
+        "box": {
+          "x": 426.8399963378906,
+          "y": 544.4547119140625,
+          "width": 284.7599792480469,
+          "height": 206.3052978515625,
+          "right": 711.5999755859375,
+          "bottom": 750.760009765625
+        }
+      },
+      {
+        "src": "../../../../assets/photos/portrait-two.jpg",
+        "alt": "스톡 사진 portrait-two",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 2397,
+        "fit": "cover",
+        "focus": "49% 28%",
+        "box": {
+          "x": 728.3999633789062,
+          "y": 544.4547119140625,
+          "width": 586.3200073242188,
+          "height": 206.3052978515625,
+          "right": 1314.719970703125,
+          "bottom": 750.760009765625
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-07.png"
+  },
+  {
+    "id": "bento-5",
+    "composition": "bento",
+    "variant": "balanced",
+    "count": 5,
+    "number": 8,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#8",
+    "title": "발표 자료 — Stage",
+    "index": "7",
+    "layout": "blocks",
+    "heading": "기록과 다음 행동",
+    "headingSize": "60px",
+    "text": "기록과 다음 행동남겨 둔 기록24 개가상 편집 예시입니다.기록하는 장면스톡 장면 · Pexels함께 읽을 원칙관찰과 짐작을 구분합니다.다음에 할 일이름을 함께 읽습니다.같은 질문으로 돌아옵니다.맥락을 남깁니다같은 원고에서 자료와 외부 참고를 확인합니다.",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/write.jpg",
+        "alt": "스톡 사진 write",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 43%",
+        "box": {
+          "x": 126.1199951171875,
+          "y": 282.03997802734375,
+          "width": 388.0799560546875,
+          "height": 476.87060546875,
+          "right": 514.199951171875,
+          "bottom": 758.9105834960938
+        }
+      }
+    ],
+    "tiles": [
+      {
+        "kind": "value",
+        "tone": "blue",
+        "text": "남겨 둔 기록24 개가상 편집 예시입니다.",
+        "box": {
+          "x": 525.1199951171875,
+          "y": 281.20001220703125,
+          "width": 389.75994873046875,
+          "height": 247.79998779296875,
+          "right": 914.8799438476562,
+          "bottom": 529
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(246, 246, 244, 0.043)"
+      },
+      {
+        "kind": "image",
+        "text": "기록하는 장면스톡 장면 · Pexels",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 281.20001220703125,
+          "width": 389.7599792480469,
+          "height": 505.67999267578125,
+          "right": 515.0399780273438,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "quote",
+        "text": "함께 읽을 원칙관찰과 짐작을 구분합니다.",
+        "box": {
+          "x": 924.9599609375,
+          "y": 281.20001220703125,
+          "width": 389.760009765625,
+          "height": 247.79998779296875,
+          "right": 1314.719970703125,
+          "bottom": 529
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "list",
+        "tone": "green",
+        "text": "다음에 할 일이름을 함께 읽습니다.같은 질문으로 돌아옵니다.",
+        "box": {
+          "x": 525.1199951171875,
+          "y": 539.0799560546875,
+          "width": 389.75994873046875,
+          "height": 247.800048828125,
+          "right": 914.8799438476562,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0694118 0.109412 0.0792157)"
+      },
+      {
+        "kind": "text",
+        "text": "맥락을 남깁니다같은 원고에서 자료와 외부 참고를 확인합니다.",
+        "box": {
+          "x": 924.9599609375,
+          "y": 539.0799560546875,
+          "width": 389.760009765625,
+          "height": 247.800048828125,
+          "right": 1314.719970703125,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      }
+    ],
+    "wall": null,
+    "accents": [
+      {
+        "text": "남겨 둔 기록",
+        "color": "rgb(164, 164, 161)"
+      },
+      {
+        "text": "24",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "기록하는 장면",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "함께 읽을 원칙",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "다음에 할 일",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "맥락을 남깁니다",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "같은 원고",
+        "color": "rgb(8, 8, 8)"
+      }
+    ],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-08.png"
+  },
+  {
+    "id": "bento-8",
+    "composition": "bento",
+    "variant": "balanced",
+    "count": 8,
+    "number": 9,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#9",
+    "title": "발표 자료 — Stage",
+    "index": "8",
+    "layout": "blocks",
+    "heading": "기록과 다음 행동",
+    "headingSize": "60px",
+    "text": "기록과 다음 행동남겨 둔 기록24 개가상 편집 예시입니다.기록하는 장면스톡 장면 · Pexels함께 읽을 원칙관찰과 짐작을 구분합니다.다음에 할 일이름을 함께 읽습니다.같은 질문으로 돌아옵니다.맥락을 남깁니다같은 원고에서 자료와 외부 참고를 확인합니다.찾아 둔 단서서로 다른 스톡 장면확인할 질문6 가지서로 다른 작업 단위이며 성과가 아닙니다.읽는 순서맥락관찰질문",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/write.jpg",
+        "alt": "스톡 사진 write",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 43%",
+        "box": {
+          "x": 126.1199951171875,
+          "y": 282.03997802734375,
+          "width": 588,
+          "height": 304.94622802734375,
+          "right": 714.1199951171875,
+          "bottom": 586.9862060546875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/observe.jpg",
+        "alt": "스톡 사진 observe",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 126.1199951171875,
+          "y": 625.8756103515625,
+          "width": 388.0799560546875,
+          "height": 133.03497314453125,
+          "right": 514.199951171875,
+          "bottom": 758.9105834960938
+        }
+      }
+    ],
+    "tiles": [
+      {
+        "kind": "value",
+        "tone": "blue",
+        "text": "남겨 둔 기록24 개가상 편집 예시입니다.",
+        "box": {
+          "x": 725.0399780273438,
+          "y": 281.20001220703125,
+          "width": 289.79998779296875,
+          "height": 161.83779907226562,
+          "right": 1014.8399658203125,
+          "bottom": 443.0378112792969
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(246, 246, 244, 0.043)"
+      },
+      {
+        "kind": "image",
+        "text": "기록하는 장면스톡 장면 · Pexels",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 281.20001220703125,
+          "width": 589.679931640625,
+          "height": 333.75555419921875,
+          "right": 714.9599304199219,
+          "bottom": 614.95556640625
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "quote",
+        "text": "함께 읽을 원칙관찰과 짐작을 구분합니다.",
+        "box": {
+          "x": 1024.919921875,
+          "y": 281.20001220703125,
+          "width": 289.800048828125,
+          "height": 161.83779907226562,
+          "right": 1314.719970703125,
+          "bottom": 443.0378112792969
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "list",
+        "tone": "green",
+        "text": "다음에 할 일이름을 함께 읽습니다.같은 질문으로 돌아옵니다.",
+        "box": {
+          "x": 725.0399780273438,
+          "y": 453.1177978515625,
+          "width": 289.79998779296875,
+          "height": 161.8377685546875,
+          "right": 1014.8399658203125,
+          "bottom": 614.95556640625
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0694118 0.109412 0.0792157)"
+      },
+      {
+        "kind": "text",
+        "text": "맥락을 남깁니다같은 원고에서 자료와 외부 참고를 확인합니다.",
+        "box": {
+          "x": 1024.919921875,
+          "y": 453.1177978515625,
+          "width": 289.800048828125,
+          "height": 161.8377685546875,
+          "right": 1314.719970703125,
+          "bottom": 614.95556640625
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "image",
+        "text": "찾아 둔 단서서로 다른 스톡 장면",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 625.03564453125,
+          "width": 389.7599792480469,
+          "height": 161.8443603515625,
+          "right": 515.0399780273438,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "value",
+        "tone": "orange",
+        "text": "확인할 질문6 가지서로 다른 작업 단위이며 성과가 아닙니다.",
+        "box": {
+          "x": 525.1199951171875,
+          "y": 625.03564453125,
+          "width": 389.75994873046875,
+          "height": 161.8443603515625,
+          "right": 914.8799438476562,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(246, 246, 244, 0.043)"
+      },
+      {
+        "kind": "list",
+        "text": "읽는 순서맥락관찰질문",
+        "box": {
+          "x": 924.9599609375,
+          "y": 625.03564453125,
+          "width": 389.760009765625,
+          "height": 161.8443603515625,
+          "right": 1314.719970703125,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0423529 0.0941177 0.128235)"
+      }
+    ],
+    "wall": null,
+    "accents": [
+      {
+        "text": "남겨 둔 기록",
+        "color": "rgb(164, 164, 161)"
+      },
+      {
+        "text": "24",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "기록하는 장면",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "함께 읽을 원칙",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "다음에 할 일",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "맥락을 남깁니다",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "같은 원고",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "찾아 둔 단서",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "확인할 질문",
+        "color": "rgb(164, 164, 161)"
+      },
+      {
+        "text": "6",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "읽는 순서",
+        "color": "rgb(246, 246, 244)"
+      }
+    ],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-09.png"
+  },
+  {
+    "id": "bento-12",
+    "composition": "bento",
+    "variant": "balanced",
+    "count": 12,
+    "number": 10,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#10",
+    "title": "발표 자료 — Stage",
+    "index": "9",
+    "layout": "blocks",
+    "heading": "기록과 다음 행동",
+    "headingSize": "60px",
+    "text": "기록과 다음 행동남겨 둔 기록24 개가상 편집 예시입니다.기록하는 장면스톡 장면 · Pexels함께 읽을 원칙관찰과 짐작을 구분합니다.다음에 할 일이름을 함께 읽습니다.같은 질문으로 돌아옵니다.맥락을 남깁니다같은 원고에서 자료와 외부 참고를 확인합니다.찾아 둔 단서서로 다른 스톡 장면확인할 질문6 가지서로 다른 작업 단위이며 성과가 아닙니다.읽는 순서맥락관찰질문공유할 기록짧은 설명과 다음 행동을 함께 남깁니다.함께 보는 장면기록하기 · Pexels검토의 기준모르는 것은 질문으로 남깁니다.이후의 확인해석을 다시 읽습니다.근거의 위치를 남깁니다.",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/write.jpg",
+        "alt": "스톡 사진 write",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 43%",
+        "box": {
+          "x": 126.1199951171875,
+          "y": 282.03997802734375,
+          "width": 388.0799560546875,
+          "height": 304.94622802734375,
+          "right": 514.199951171875,
+          "bottom": 586.9862060546875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/observe.jpg",
+        "alt": "스톡 사진 observe",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 925.7999877929688,
+          "y": 453.9577941894531,
+          "width": 188.15997314453125,
+          "height": 309.4875183105469,
+          "right": 1113.9599609375,
+          "bottom": 763.4453125
+        }
+      },
+      {
+        "src": "../../../../assets/photos/capture.jpg",
+        "alt": "스톡 사진 capture",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 525.9599609375,
+          "y": 625.8756103515625,
+          "width": 188.1600341796875,
+          "height": 137.5697021484375,
+          "right": 714.1199951171875,
+          "bottom": 763.4453125
+        }
+      }
+    ],
+    "tiles": [
+      {
+        "kind": "value",
+        "tone": "blue",
+        "text": "남겨 둔 기록24 개가상 편집 예시입니다.",
+        "box": {
+          "x": 525.1199951171875,
+          "y": 281.20001220703125,
+          "width": 389.75994873046875,
+          "height": 161.83779907226562,
+          "right": 914.8799438476562,
+          "bottom": 443.0378112792969
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(246, 246, 244, 0.043)"
+      },
+      {
+        "kind": "image",
+        "text": "기록하는 장면스톡 장면 · Pexels",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 281.20001220703125,
+          "width": 389.7599792480469,
+          "height": 333.75555419921875,
+          "right": 515.0399780273438,
+          "bottom": 614.95556640625
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "quote",
+        "text": "함께 읽을 원칙관찰과 짐작을 구분합니다.",
+        "box": {
+          "x": 924.9599609375,
+          "y": 281.20001220703125,
+          "width": 389.760009765625,
+          "height": 161.83779907226562,
+          "right": 1314.719970703125,
+          "bottom": 443.0378112792969
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "list",
+        "tone": "green",
+        "text": "다음에 할 일이름을 함께 읽습니다.같은 질문으로 돌아옵니다.",
+        "box": {
+          "x": 525.1199951171875,
+          "y": 453.1177978515625,
+          "width": 189.8399658203125,
+          "height": 161.8377685546875,
+          "right": 714.9599609375,
+          "bottom": 614.95556640625
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0694118 0.109412 0.0792157)"
+      },
+      {
+        "kind": "text",
+        "text": "맥락을 남깁니다같은 원고에서 자료와 외부 참고를 확인합니다.",
+        "box": {
+          "x": 725.0399780273438,
+          "y": 453.1177978515625,
+          "width": 189.8399658203125,
+          "height": 161.8377685546875,
+          "right": 914.8799438476562,
+          "bottom": 614.95556640625
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "image",
+        "text": "찾아 둔 단서서로 다른 스톡 장면",
+        "box": {
+          "x": 924.9599609375,
+          "y": 453.1177978515625,
+          "width": 189.8399658203125,
+          "height": 333.76220703125,
+          "right": 1114.7999267578125,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "value",
+        "tone": "orange",
+        "text": "확인할 질문6 가지서로 다른 작업 단위이며 성과가 아닙니다.",
+        "box": {
+          "x": 1124.8800048828125,
+          "y": 453.1177978515625,
+          "width": 189.8399658203125,
+          "height": 161.8377685546875,
+          "right": 1314.719970703125,
+          "bottom": 614.95556640625
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(246, 246, 244, 0.043)"
+      },
+      {
+        "kind": "list",
+        "text": "읽는 순서맥락관찰질문",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 625.03564453125,
+          "width": 189.83999633789062,
+          "height": 161.8443603515625,
+          "right": 315.1199951171875,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0423529 0.0941177 0.128235)"
+      },
+      {
+        "kind": "text",
+        "text": "공유할 기록짧은 설명과 다음 행동을 함께 남깁니다.",
+        "box": {
+          "x": 325.1999816894531,
+          "y": 625.03564453125,
+          "width": 189.83999633789062,
+          "height": 161.8443603515625,
+          "right": 515.0399780273438,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "image",
+        "text": "함께 보는 장면기록하기 · Pexels",
+        "box": {
+          "x": 525.1199951171875,
+          "y": 625.03564453125,
+          "width": 189.8399658203125,
+          "height": 161.8443603515625,
+          "right": 714.9599609375,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "quote",
+        "text": "검토의 기준모르는 것은 질문으로 남깁니다.",
+        "box": {
+          "x": 725.0399780273438,
+          "y": 625.03564453125,
+          "width": 189.8399658203125,
+          "height": 161.8443603515625,
+          "right": 914.8799438476562,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "list",
+        "text": "이후의 확인해석을 다시 읽습니다.근거의 위치를 남깁니다.",
+        "box": {
+          "x": 1124.8800048828125,
+          "y": 625.03564453125,
+          "width": 189.8399658203125,
+          "height": 161.8443603515625,
+          "right": 1314.719970703125,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0423529 0.0941177 0.128235)"
+      }
+    ],
+    "wall": null,
+    "accents": [
+      {
+        "text": "남겨 둔 기록",
+        "color": "rgb(164, 164, 161)"
+      },
+      {
+        "text": "24",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "기록하는 장면",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "함께 읽을 원칙",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "다음에 할 일",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "맥락을 남깁니다",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "같은 원고",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "찾아 둔 단서",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "확인할 질문",
+        "color": "rgb(164, 164, 161)"
+      },
+      {
+        "text": "6",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "읽는 순서",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "공유할 기록",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "다음 행동",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "함께 보는 장면",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "검토의 기준",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "이후의 확인",
+        "color": "rgb(246, 246, 244)"
+      }
+    ],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-10.png"
+  },
+  {
+    "id": "bento-seoul-12",
+    "composition": "bento",
+    "variant": "seoul",
+    "count": 12,
+    "number": 11,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#11",
+    "title": "발표 자료 — Stage",
+    "index": "10",
+    "layout": "blocks",
+    "headingSize": null,
+    "text": "남겨 둔 기록24 개가상 편집 예시입니다.기록하는 장면스톡 장면 · Pexels함께 읽을 원칙관찰과 짐작을 구분합니다.다음에 할 일이름을 함께 읽습니다.같은 질문으로 돌아옵니다.맥락을 남깁니다같은 원고에서 자료와 외부 참고를 확인합니다.찾아 둔 단서서로 다른 스톡 장면확인할 질문6 가지서로 다른 작업 단위이며 성과가 아닙니다.읽는 순서맥락관찰질문공유할 기록짧은 설명과 다음 행동을 함께 남깁니다.함께 보는 장면기록하기 · Pexels검토의 기준모르는 것은 질문으로 남깁니다.이후의 확인해석을 다시 읽습니다.근거의 위치를 남깁니다.",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/write.jpg",
+        "alt": "스톡 사진 write",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 43%",
+        "box": {
+          "x": 426,
+          "y": 196.36000061035156,
+          "width": 288.1199951171875,
+          "height": 164.49562072753906,
+          "right": 714.1199951171875,
+          "bottom": 360.8556213378906
+        }
+      },
+      {
+        "src": "../../../../assets/photos/observe.jpg",
+        "alt": "스톡 사진 observe",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 326.03997802734375,
+          "y": 396.8377990722656,
+          "width": 188.15997314453125,
+          "height": 166.12313842773438,
+          "right": 514.199951171875,
+          "bottom": 562.9609375
+        }
+      },
+      {
+        "src": "../../../../assets/photos/capture.jpg",
+        "alt": "스톡 사진 capture",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 426,
+          "y": 597.3156127929688,
+          "width": 288.1199951171875,
+          "height": 164.502197265625,
+          "right": 714.1199951171875,
+          "bottom": 761.8178100585938
+        }
+      }
+    ],
+    "tiles": [
+      {
+        "kind": "value",
+        "tone": "blue",
+        "text": "남겨 둔 기록24 개가상 편집 예시입니다.",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 289.79998779296875,
+          "height": 190.39779663085938,
+          "right": 415.0799865722656,
+          "bottom": 385.91778564453125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(246, 246, 244, 0.043)"
+      },
+      {
+        "kind": "image",
+        "text": "기록하는 장면스톡 장면 · Pexels",
+        "box": {
+          "x": 425.15997314453125,
+          "y": 195.51998901367188,
+          "width": 289.79998779296875,
+          "height": 190.39779663085938,
+          "right": 714.9599609375,
+          "bottom": 385.91778564453125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "quote",
+        "text": "함께 읽을 원칙관찰과 짐작을 구분합니다.",
+        "box": {
+          "x": 725.0399780273438,
+          "y": 195.51998901367188,
+          "width": 289.79998779296875,
+          "height": 190.39779663085938,
+          "right": 1014.8399658203125,
+          "bottom": 385.91778564453125
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "list",
+        "tone": "green",
+        "text": "다음에 할 일이름을 함께 읽습니다.같은 질문으로 돌아옵니다.",
+        "box": {
+          "x": 1024.919921875,
+          "y": 195.51998901367188,
+          "width": 289.800048828125,
+          "height": 390.8756408691406,
+          "right": 1314.719970703125,
+          "bottom": 586.3956298828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0694118 0.109412 0.0792157)"
+      },
+      {
+        "kind": "text",
+        "text": "맥락을 남깁니다같은 원고에서 자료와 외부 참고를 확인합니다.",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 395.997802734375,
+          "width": 189.83999633789062,
+          "height": 190.3978271484375,
+          "right": 315.1199951171875,
+          "bottom": 586.3956298828125
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "image",
+        "text": "찾아 둔 단서서로 다른 스톡 장면",
+        "box": {
+          "x": 325.1999816894531,
+          "y": 395.997802734375,
+          "width": 189.83999633789062,
+          "height": 190.3978271484375,
+          "right": 515.0399780273438,
+          "bottom": 586.3956298828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "value",
+        "tone": "orange",
+        "text": "확인할 질문6 가지서로 다른 작업 단위이며 성과가 아닙니다.",
+        "box": {
+          "x": 525.1199951171875,
+          "y": 395.997802734375,
+          "width": 189.8399658203125,
+          "height": 190.3978271484375,
+          "right": 714.9599609375,
+          "bottom": 586.3956298828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(246, 246, 244, 0.043)"
+      },
+      {
+        "kind": "list",
+        "text": "읽는 순서맥락관찰질문",
+        "box": {
+          "x": 725.0399780273438,
+          "y": 395.997802734375,
+          "width": 289.79998779296875,
+          "height": 190.3978271484375,
+          "right": 1014.8399658203125,
+          "bottom": 586.3956298828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0423529 0.0941177 0.128235)"
+      },
+      {
+        "kind": "text",
+        "text": "공유할 기록짧은 설명과 다음 행동을 함께 남깁니다.",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 596.4755859375,
+          "width": 289.79998779296875,
+          "height": 190.4044189453125,
+          "right": 415.0799865722656,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "image",
+        "text": "함께 보는 장면기록하기 · Pexels",
+        "box": {
+          "x": 425.15997314453125,
+          "y": 596.4755859375,
+          "width": 289.79998779296875,
+          "height": 190.4044189453125,
+          "right": 714.9599609375,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "quote",
+        "text": "검토의 기준모르는 것은 질문으로 남깁니다.",
+        "box": {
+          "x": 725.0399780273438,
+          "y": 596.4755859375,
+          "width": 289.79998779296875,
+          "height": 190.4044189453125,
+          "right": 1014.8399658203125,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "list",
+        "text": "이후의 확인해석을 다시 읽습니다.근거의 위치를 남깁니다.",
+        "box": {
+          "x": 1024.919921875,
+          "y": 596.4755859375,
+          "width": 289.800048828125,
+          "height": 190.4044189453125,
+          "right": 1314.719970703125,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0423529 0.0941177 0.128235)"
+      }
+    ],
+    "wall": null,
+    "accents": [
+      {
+        "text": "남겨 둔 기록",
+        "color": "rgb(164, 164, 161)"
+      },
+      {
+        "text": "24",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "기록하는 장면",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "함께 읽을 원칙",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "다음에 할 일",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "맥락을 남깁니다",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "같은 원고",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "찾아 둔 단서",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "확인할 질문",
+        "color": "rgb(164, 164, 161)"
+      },
+      {
+        "text": "6",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "읽는 순서",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "공유할 기록",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "다음 행동",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "함께 보는 장면",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "검토의 기준",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "이후의 확인",
+        "color": "rgb(246, 246, 244)"
+      }
+    ],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-11.png"
+  },
+  {
+    "id": "bento-recap-12",
+    "composition": "bento",
+    "variant": "recap",
+    "count": 12,
+    "number": 12,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#12",
+    "title": "발표 자료 — Stage",
+    "index": "11",
+    "layout": "blocks",
+    "headingSize": null,
+    "text": "남겨 둔 기록24 개가상 편집 예시입니다.기록하는 장면스톡 장면 · Pexels함께 읽을 원칙관찰과 짐작을 구분합니다.다음에 할 일이름을 함께 읽습니다.같은 질문으로 돌아옵니다.맥락을 남깁니다같은 원고에서 자료와 외부 참고를 확인합니다.찾아 둔 단서서로 다른 스톡 장면확인할 질문6 가지서로 다른 작업 단위이며 성과가 아닙니다.읽는 순서맥락관찰질문공유할 기록짧은 설명과 다음 행동을 함께 남깁니다.함께 보는 장면기록하기 · Pexels검토의 기준모르는 것은 질문으로 남깁니다.이후의 확인해석을 다시 읽습니다.근거의 위치를 남깁니다.",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../assets/photos/write.jpg",
+        "alt": "스톡 사진 write",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 43%",
+        "box": {
+          "x": 525.9599609375,
+          "y": 196.36000061035156,
+          "width": 388.08001708984375,
+          "height": 161.5884246826172,
+          "right": 914.0399780273438,
+          "bottom": 357.94842529296875
+        }
+      },
+      {
+        "src": "../../../../assets/photos/observe.jpg",
+        "alt": "스톡 사진 observe",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 925.7999877929688,
+          "y": 396.8377990722656,
+          "width": 188.15997314453125,
+          "height": 366.6075134277344,
+          "right": 1113.9599609375,
+          "bottom": 763.4453125
+        }
+      },
+      {
+        "src": "../../../../assets/photos/capture.jpg",
+        "alt": "스톡 사진 capture",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 525.9599609375,
+          "y": 597.3156127929688,
+          "width": 188.1600341796875,
+          "height": 166.12969970703125,
+          "right": 714.1199951171875,
+          "bottom": 763.4453125
+        }
+      }
+    ],
+    "tiles": [
+      {
+        "kind": "value",
+        "tone": "blue",
+        "text": "남겨 둔 기록24 개가상 편집 예시입니다.",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 389.7599792480469,
+          "height": 390.8756408691406,
+          "right": 515.0399780273438,
+          "bottom": 586.3956298828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(246, 246, 244, 0.043)"
+      },
+      {
+        "kind": "image",
+        "text": "기록하는 장면스톡 장면 · Pexels",
+        "box": {
+          "x": 525.1199951171875,
+          "y": 195.51998901367188,
+          "width": 389.75994873046875,
+          "height": 190.39779663085938,
+          "right": 914.8799438476562,
+          "bottom": 385.91778564453125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "quote",
+        "text": "함께 읽을 원칙관찰과 짐작을 구분합니다.",
+        "box": {
+          "x": 924.9599609375,
+          "y": 195.51998901367188,
+          "width": 389.760009765625,
+          "height": 190.39779663085938,
+          "right": 1314.719970703125,
+          "bottom": 385.91778564453125
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "list",
+        "tone": "green",
+        "text": "다음에 할 일이름을 함께 읽습니다.같은 질문으로 돌아옵니다.",
+        "box": {
+          "x": 525.1199951171875,
+          "y": 395.997802734375,
+          "width": 189.8399658203125,
+          "height": 190.3978271484375,
+          "right": 714.9599609375,
+          "bottom": 586.3956298828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0694118 0.109412 0.0792157)"
+      },
+      {
+        "kind": "text",
+        "text": "맥락을 남깁니다같은 원고에서 자료와 외부 참고를 확인합니다.",
+        "box": {
+          "x": 725.0399780273438,
+          "y": 395.997802734375,
+          "width": 189.8399658203125,
+          "height": 190.3978271484375,
+          "right": 914.8799438476562,
+          "bottom": 586.3956298828125
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "image",
+        "text": "찾아 둔 단서서로 다른 스톡 장면",
+        "box": {
+          "x": 924.9599609375,
+          "y": 395.997802734375,
+          "width": 189.8399658203125,
+          "height": 390.8822021484375,
+          "right": 1114.7999267578125,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "value",
+        "tone": "orange",
+        "text": "확인할 질문6 가지서로 다른 작업 단위이며 성과가 아닙니다.",
+        "box": {
+          "x": 1124.8800048828125,
+          "y": 395.997802734375,
+          "width": 189.8399658203125,
+          "height": 190.3978271484375,
+          "right": 1314.719970703125,
+          "bottom": 586.3956298828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(246, 246, 244, 0.043)"
+      },
+      {
+        "kind": "list",
+        "text": "읽는 순서맥락관찰질문",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 596.4755859375,
+          "width": 189.83999633789062,
+          "height": 190.4044189453125,
+          "right": 315.1199951171875,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0423529 0.0941177 0.128235)"
+      },
+      {
+        "kind": "text",
+        "text": "공유할 기록짧은 설명과 다음 행동을 함께 남깁니다.",
+        "box": {
+          "x": 325.1999816894531,
+          "y": 596.4755859375,
+          "width": 189.83999633789062,
+          "height": 190.4044189453125,
+          "right": 515.0399780273438,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "image",
+        "text": "함께 보는 장면기록하기 · Pexels",
+        "box": {
+          "x": 525.1199951171875,
+          "y": 596.4755859375,
+          "width": 189.8399658203125,
+          "height": 190.4044189453125,
+          "right": 714.9599609375,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "kind": "quote",
+        "text": "검토의 기준모르는 것은 질문으로 남깁니다.",
+        "box": {
+          "x": 725.0399780273438,
+          "y": 596.4755859375,
+          "width": 189.8399658203125,
+          "height": 190.4044189453125,
+          "right": 914.8799438476562,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(8, 8, 8)",
+        "background": "color(srgb 0.865882 0.928 0.962039)"
+      },
+      {
+        "kind": "list",
+        "text": "이후의 확인해석을 다시 읽습니다.근거의 위치를 남깁니다.",
+        "box": {
+          "x": 1124.8800048828125,
+          "y": 596.4755859375,
+          "width": 189.8399658203125,
+          "height": 190.4044189453125,
+          "right": 1314.719970703125,
+          "bottom": 786.8800048828125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "color(srgb 0.0423529 0.0941177 0.128235)"
+      }
+    ],
+    "wall": null,
+    "accents": [
+      {
+        "text": "남겨 둔 기록",
+        "color": "rgb(164, 164, 161)"
+      },
+      {
+        "text": "24",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "기록하는 장면",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "함께 읽을 원칙",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "다음에 할 일",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "맥락을 남깁니다",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "같은 원고",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "찾아 둔 단서",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "확인할 질문",
+        "color": "rgb(164, 164, 161)"
+      },
+      {
+        "text": "6",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "읽는 순서",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "공유할 기록",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "다음 행동",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "함께 보는 장면",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "검토의 기준",
+        "color": "rgb(8, 8, 8)"
+      },
+      {
+        "text": "이후의 확인",
+        "color": "rgb(246, 246, 244)"
+      }
+    ],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-12.png"
+  },
+  {
+    "id": "wall-5",
+    "composition": "icon-wall",
+    "count": 5,
+    "number": 13,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#13",
+    "title": "발표 자료 — Stage",
+    "index": "12",
+    "layout": "blocks",
+    "heading": "함께 살펴볼 도구",
+    "headingSize": "92px",
+    "text": "함께 살펴볼 도구가상 역할 이름이며 실제 서비스 목록이 아닙니다.역할 1 · 자료역할 2 · 자료역할 3 · 자료역할 4 · 자료역할 5 · 자료",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [
+      {
+        "tone": "blue",
+        "text": "역할 1 · 자료",
+        "box": {
+          "x": 426.41998291015625,
+          "y": 195.51998901367188,
+          "width": 135.45001220703125,
+          "height": 110.20407104492188,
+          "right": 561.8699951171875,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "green",
+        "text": "역할 2 · 자료",
+        "box": {
+          "x": 1028.699951171875,
+          "y": 195.51998901367188,
+          "width": 135.4500732421875,
+          "height": 110.20407104492188,
+          "right": 1164.1500244140625,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "orange",
+        "text": "역할 3 · 자료",
+        "box": {
+          "x": 1179.27001953125,
+          "y": 676.6627807617188,
+          "width": 135.449951171875,
+          "height": 110.21063232421875,
+          "right": 1314.719970703125,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "purple",
+        "text": "역할 4 · 자료",
+        "box": {
+          "x": 576.989990234375,
+          "y": 676.6627807617188,
+          "width": 135.45001220703125,
+          "height": 110.21063232421875,
+          "right": 712.4400024414062,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "yellow",
+        "text": "역할 5 · 자료",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 556.3787231445312,
+          "width": 135.44998168945312,
+          "height": 110.2041015625,
+          "right": 260.72998046875,
+          "bottom": 666.5828247070312
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "wall": {
+      "x": 275.8499755859375,
+      "y": 315.8040771484375,
+      "width": 888.300048828125,
+      "height": 350.7852783203125,
+      "right": 1164.1500244140625,
+      "bottom": 666.58935546875
+    },
+    "accents": [
+      {
+        "text": "역할 1",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "역할 2",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "역할 3",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "역할 4",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "역할 5",
+        "color": "rgb(237, 207, 102)"
+      }
+    ],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-13.png"
+  },
+  {
+    "id": "wall-12",
+    "composition": "icon-wall",
+    "count": 12,
+    "number": 14,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#14",
+    "title": "발표 자료 — Stage",
+    "index": "13",
+    "layout": "blocks",
+    "heading": "함께 살펴볼 도구",
+    "headingSize": "92px",
+    "text": "함께 살펴볼 도구가상 역할 이름이며 실제 서비스 목록이 아닙니다.역할 1 · 자료역할 2 · 자료역할 3 · 자료역할 4 · 자료역할 5 · 자료역할 6 · 자료역할 7 · 자료역할 8 · 자료역할 9 · 자료역할 10 · 자료역할 11 · 자료역할 12 · 자료",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [
+      {
+        "tone": "blue",
+        "text": "역할 1 · 자료",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 135.44998168945312,
+          "height": 110.20407104492188,
+          "right": 260.72998046875,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "green",
+        "text": "역할 2 · 자료",
+        "box": {
+          "x": 426.41998291015625,
+          "y": 195.51998901367188,
+          "width": 135.45001220703125,
+          "height": 110.20407104492188,
+          "right": 561.8699951171875,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "orange",
+        "text": "역할 3 · 자료",
+        "box": {
+          "x": 727.5599975585938,
+          "y": 195.51998901367188,
+          "width": 135.449951171875,
+          "height": 110.20407104492188,
+          "right": 863.0099487304688,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "purple",
+        "text": "역할 4 · 자료",
+        "box": {
+          "x": 1028.699951171875,
+          "y": 195.51998901367188,
+          "width": 135.4500732421875,
+          "height": 110.20407104492188,
+          "right": 1164.1500244140625,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "yellow",
+        "text": "역할 5 · 자료",
+        "box": {
+          "x": 1179.27001953125,
+          "y": 315.8040771484375,
+          "width": 135.449951171875,
+          "height": 110.20404052734375,
+          "right": 1314.719970703125,
+          "bottom": 426.00811767578125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "blue",
+        "text": "역할 6 · 자료",
+        "box": {
+          "x": 1179.27001953125,
+          "y": 556.3787231445312,
+          "width": 135.449951171875,
+          "height": 110.2041015625,
+          "right": 1314.719970703125,
+          "bottom": 666.5828247070312
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "green",
+        "text": "역할 7 · 자료",
+        "box": {
+          "x": 1179.27001953125,
+          "y": 676.6627807617188,
+          "width": 135.449951171875,
+          "height": 110.21063232421875,
+          "right": 1314.719970703125,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "orange",
+        "text": "역할 8 · 자료",
+        "box": {
+          "x": 878.1299438476562,
+          "y": 676.6627807617188,
+          "width": 135.45001220703125,
+          "height": 110.21063232421875,
+          "right": 1013.5799560546875,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "purple",
+        "text": "역할 9 · 자료",
+        "box": {
+          "x": 576.989990234375,
+          "y": 676.6627807617188,
+          "width": 135.45001220703125,
+          "height": 110.21063232421875,
+          "right": 712.4400024414062,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "yellow",
+        "text": "역할 10 · 자료",
+        "box": {
+          "x": 275.8499755859375,
+          "y": 676.6627807617188,
+          "width": 135.45001220703125,
+          "height": 110.21063232421875,
+          "right": 411.29998779296875,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "blue",
+        "text": "역할 11 · 자료",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 556.3787231445312,
+          "width": 135.44998168945312,
+          "height": 110.2041015625,
+          "right": 260.72998046875,
+          "bottom": 666.5828247070312
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "green",
+        "text": "역할 12 · 자료",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 315.8040771484375,
+          "width": 135.44998168945312,
+          "height": 110.20404052734375,
+          "right": 260.72998046875,
+          "bottom": 426.00811767578125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "wall": {
+      "x": 275.8499755859375,
+      "y": 315.8040771484375,
+      "width": 888.300048828125,
+      "height": 350.7852783203125,
+      "right": 1164.1500244140625,
+      "bottom": 666.58935546875
+    },
+    "accents": [
+      {
+        "text": "역할 1",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "역할 2",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "역할 3",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "역할 4",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "역할 5",
+        "color": "rgb(237, 207, 102)"
+      },
+      {
+        "text": "역할 6",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "역할 7",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "역할 8",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "역할 9",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "역할 10",
+        "color": "rgb(237, 207, 102)"
+      },
+      {
+        "text": "역할 11",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "역할 12",
+        "color": "rgb(105, 207, 130)"
+      }
+    ],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-14.png"
+  },
+  {
+    "id": "wall-22",
+    "composition": "icon-wall",
+    "count": 22,
+    "number": 15,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#15",
+    "title": "발표 자료 — Stage",
+    "index": "14",
+    "layout": "blocks",
+    "heading": "함께 살펴볼 도구",
+    "headingSize": "92px",
+    "text": "함께 살펴볼 도구가상 역할 이름이며 실제 서비스 목록이 아닙니다.역할 1 · 자료역할 2 · 자료역할 3 · 자료역할 4 · 자료역할 5 · 자료역할 6 · 자료역할 7 · 자료역할 8 · 자료역할 9 · 자료역할 10 · 자료역할 11 · 자료역할 12 · 자료역할 13 · 자료역할 14 · 자료역할 15 · 자료역할 16 · 자료역할 17 · 자료역할 18 · 자료역할 19 · 자료역할 20 · 자료역할 21 · 자료역할 22 · 자료",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [
+      {
+        "tone": "blue",
+        "text": "역할 1 · 자료",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 135.44998168945312,
+          "height": 110.20407104492188,
+          "right": 260.72998046875,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "green",
+        "text": "역할 2 · 자료",
+        "box": {
+          "x": 275.8499755859375,
+          "y": 195.51998901367188,
+          "width": 135.45001220703125,
+          "height": 110.20407104492188,
+          "right": 411.29998779296875,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "orange",
+        "text": "역할 3 · 자료",
+        "box": {
+          "x": 426.41998291015625,
+          "y": 195.51998901367188,
+          "width": 135.45001220703125,
+          "height": 110.20407104492188,
+          "right": 561.8699951171875,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "purple",
+        "text": "역할 4 · 자료",
+        "box": {
+          "x": 576.989990234375,
+          "y": 195.51998901367188,
+          "width": 135.45001220703125,
+          "height": 110.20407104492188,
+          "right": 712.4400024414062,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "yellow",
+        "text": "역할 5 · 자료",
+        "box": {
+          "x": 727.5599975585938,
+          "y": 195.51998901367188,
+          "width": 135.449951171875,
+          "height": 110.20407104492188,
+          "right": 863.0099487304688,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "blue",
+        "text": "역할 6 · 자료",
+        "box": {
+          "x": 878.1299438476562,
+          "y": 195.51998901367188,
+          "width": 135.45001220703125,
+          "height": 110.20407104492188,
+          "right": 1013.5799560546875,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "green",
+        "text": "역할 7 · 자료",
+        "box": {
+          "x": 1028.699951171875,
+          "y": 195.51998901367188,
+          "width": 135.4500732421875,
+          "height": 110.20407104492188,
+          "right": 1164.1500244140625,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "orange",
+        "text": "역할 8 · 자료",
+        "box": {
+          "x": 1179.27001953125,
+          "y": 195.51998901367188,
+          "width": 135.449951171875,
+          "height": 110.20407104492188,
+          "right": 1314.719970703125,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "purple",
+        "text": "역할 9 · 자료",
+        "box": {
+          "x": 1179.27001953125,
+          "y": 315.8040771484375,
+          "width": 135.449951171875,
+          "height": 110.20404052734375,
+          "right": 1314.719970703125,
+          "bottom": 426.00811767578125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "yellow",
+        "text": "역할 10 · 자료",
+        "box": {
+          "x": 1179.27001953125,
+          "y": 436.0881042480469,
+          "width": 135.449951171875,
+          "height": 110.21060180664062,
+          "right": 1314.719970703125,
+          "bottom": 546.2987060546875
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "blue",
+        "text": "역할 11 · 자료",
+        "box": {
+          "x": 1179.27001953125,
+          "y": 556.3787231445312,
+          "width": 135.449951171875,
+          "height": 110.2041015625,
+          "right": 1314.719970703125,
+          "bottom": 666.5828247070312
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "green",
+        "text": "역할 12 · 자료",
+        "box": {
+          "x": 1179.27001953125,
+          "y": 676.6627807617188,
+          "width": 135.449951171875,
+          "height": 110.21063232421875,
+          "right": 1314.719970703125,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "orange",
+        "text": "역할 13 · 자료",
+        "box": {
+          "x": 1028.699951171875,
+          "y": 676.6627807617188,
+          "width": 135.4500732421875,
+          "height": 110.21063232421875,
+          "right": 1164.1500244140625,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "purple",
+        "text": "역할 14 · 자료",
+        "box": {
+          "x": 878.1299438476562,
+          "y": 676.6627807617188,
+          "width": 135.45001220703125,
+          "height": 110.21063232421875,
+          "right": 1013.5799560546875,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "yellow",
+        "text": "역할 15 · 자료",
+        "box": {
+          "x": 727.5599975585938,
+          "y": 676.6627807617188,
+          "width": 135.449951171875,
+          "height": 110.21063232421875,
+          "right": 863.0099487304688,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "blue",
+        "text": "역할 16 · 자료",
+        "box": {
+          "x": 576.989990234375,
+          "y": 676.6627807617188,
+          "width": 135.45001220703125,
+          "height": 110.21063232421875,
+          "right": 712.4400024414062,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "green",
+        "text": "역할 17 · 자료",
+        "box": {
+          "x": 426.41998291015625,
+          "y": 676.6627807617188,
+          "width": 135.45001220703125,
+          "height": 110.21063232421875,
+          "right": 561.8699951171875,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "orange",
+        "text": "역할 18 · 자료",
+        "box": {
+          "x": 275.8499755859375,
+          "y": 676.6627807617188,
+          "width": 135.45001220703125,
+          "height": 110.21063232421875,
+          "right": 411.29998779296875,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "purple",
+        "text": "역할 19 · 자료",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 676.6627807617188,
+          "width": 135.44998168945312,
+          "height": 110.21063232421875,
+          "right": 260.72998046875,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "yellow",
+        "text": "역할 20 · 자료",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 556.3787231445312,
+          "width": 135.44998168945312,
+          "height": 110.2041015625,
+          "right": 260.72998046875,
+          "bottom": 666.5828247070312
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "blue",
+        "text": "역할 21 · 자료",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 436.0881042480469,
+          "width": 135.44998168945312,
+          "height": 110.21060180664062,
+          "right": 260.72998046875,
+          "bottom": 546.2987060546875
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "tone": "green",
+        "text": "역할 22 · 자료",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 315.8040771484375,
+          "width": 135.44998168945312,
+          "height": 110.20404052734375,
+          "right": 260.72998046875,
+          "bottom": 426.00811767578125
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "wall": {
+      "x": 275.8499755859375,
+      "y": 315.8040771484375,
+      "width": 888.300048828125,
+      "height": 350.7852783203125,
+      "right": 1164.1500244140625,
+      "bottom": 666.58935546875
+    },
+    "accents": [
+      {
+        "text": "역할 1",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "역할 2",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "역할 3",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "역할 4",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "역할 5",
+        "color": "rgb(237, 207, 102)"
+      },
+      {
+        "text": "역할 6",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "역할 7",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "역할 8",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "역할 9",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "역할 10",
+        "color": "rgb(237, 207, 102)"
+      },
+      {
+        "text": "역할 11",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "역할 12",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "역할 13",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "역할 14",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "역할 15",
+        "color": "rgb(237, 207, 102)"
+      },
+      {
+        "text": "역할 16",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "역할 17",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "역할 18",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "역할 19",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "역할 20",
+        "color": "rgb(237, 207, 102)"
+      },
+      {
+        "text": "역할 21",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "역할 22",
+        "color": "rgb(105, 207, 130)"
+      }
+    ],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-15.png"
+  },
+  {
+    "id": "wall-custom-3",
+    "composition": "icon-wall",
+    "count": 3,
+    "number": 16,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#16",
+    "title": "발표 자료 — Stage",
+    "index": "15",
+    "layout": "blocks",
+    "heading": "우리만의 표식",
+    "headingSize": "92px",
+    "text": "우리만의 표식 표식 1 설명 표식 2 설명 표식 3 설명",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../talks/community-exhibit/icons/ask.svg",
+        "alt": "자체 제작 표식 1",
+        "complete": true,
+        "naturalWidth": 150,
+        "naturalHeight": 150,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 611.114990234375,
+          "y": 205.21937561035156,
+          "width": 67.20001220703125,
+          "height": 67.19999694824219,
+          "right": 678.3150024414062,
+          "bottom": 272.41937255859375
+        }
+      },
+      {
+        "src": "../../../../talks/community-exhibit/icons/leave-note.svg",
+        "alt": "자체 제작 표식 2",
+        "complete": true,
+        "naturalWidth": 150,
+        "naturalHeight": 150,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 1213.39501953125,
+          "y": 686.3687133789062,
+          "width": 67.199951171875,
+          "height": 67.20001220703125,
+          "right": 1280.594970703125,
+          "bottom": 753.5687255859375
+        }
+      },
+      {
+        "src": "../../../../talks/community-exhibit/icons/look.svg",
+        "alt": "자체 제작 표식 3",
+        "complete": true,
+        "naturalWidth": 150,
+        "naturalHeight": 150,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 159.40499877929688,
+          "y": 686.3687133789062,
+          "width": 67.19999694824219,
+          "height": 67.20001220703125,
+          "right": 226.60499572753906,
+          "bottom": 753.5687255859375
+        }
+      }
+    ],
+    "tiles": [
+      {
+        "text": " 표식 1 설명",
+        "box": {
+          "x": 576.989990234375,
+          "y": 195.51998901367188,
+          "width": 135.45001220703125,
+          "height": 110.20407104492188,
+          "right": 712.4400024414062,
+          "bottom": 305.72406005859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": " 표식 2 설명",
+        "box": {
+          "x": 1179.27001953125,
+          "y": 676.6627807617188,
+          "width": 135.449951171875,
+          "height": 110.21063232421875,
+          "right": 1314.719970703125,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": " 표식 3 설명",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 676.6627807617188,
+          "width": 135.44998168945312,
+          "height": 110.21063232421875,
+          "right": 260.72998046875,
+          "bottom": 786.8734130859375
+        },
+        "color": "rgb(246, 246, 244)",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "wall": {
+      "x": 275.8499755859375,
+      "y": 315.8040771484375,
+      "width": 888.300048828125,
+      "height": 350.7852783203125,
+      "right": 1164.1500244140625,
+      "bottom": 666.58935546875
+    },
+    "accents": [
+      {
+        "text": "표식 1",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "표식 2",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "표식 3",
+        "color": "rgb(36, 168, 255)"
+      }
+    ],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/reusable-layouts-20261028/evidence/screens/case-16.png"
+  },
+  {
+    "id": "preset-count-mismatch",
+    "composition": "document",
+    "warning": true,
+    "number": 17,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#17",
+    "title": "발표 자료 — Stage",
+    "index": "16",
+    "layout": "blocks",
+    "headingSize": null,
+    "text": "남겨 둔 기록24 개가상 편집 예시입니다.기록하는 장면스톡 장면 · Pexels함께 읽을 원칙관찰과 짐작을 구분합니다.다음에 할 일이름을 함께 읽습니다.같은 질문으로 돌아옵니다.맥락을 남깁니다같은 원고에서 자료와 외부 참고를 확인합니다.",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [
+      {
+        "tag": "FIGURE",
+        "line": "589",
+        "text": "스톡 장면 · Pexels"
+      },
+      {
+        "tag": "FIGCAPTION",
+        "line": "589",
+        "text": "스톡 장면 · Pexels"
+      },
+      {
+        "tag": "H2",
+        "line": "591",
+        "text": "함께 읽을 원칙"
+      },
+      {
+        "tag": "BLOCKQUOTE",
+        "line": "593",
+        "text": "관찰과 짐작을 구분합니다."
+      },
+      {
+        "tag": "P",
+        "line": "593",
+        "text": "관찰과 짐작을 구분합니다."
+      },
+      {
+        "tag": "H2",
+        "line": "599",
+        "text": "다음에 할 일"
+      },
+      {
+        "tag": "UL",
+        "line": "601",
+        "text": "이름을 함께 읽습니다.같은 질문으로 돌아옵니다."
+      },
+      {
+        "tag": "LI",
+        "line": "601",
+        "text": "이름을 함께 읽습니다."
+      },
+      {
+        "tag": "P",
+        "line": "601",
+        "text": "이름을 함께 읽습니다."
+      },
+      {
+        "tag": "LI",
+        "line": "602",
+        "text": "같은 질문으로 돌아옵니다."
+      },
+      {
+        "tag": "P",
+        "line": "602",
+        "text": "같은 질문으로 돌아옵니다."
+      },
+      {
+        "tag": "H2",
+        "line": "604",
+        "text": "맥락을 남깁니다"
+      },
+      {
+        "tag": "P",
+        "line": "606",
+        "text": "같은 원고에서 자료와 외부 참고를 확인합니다."
+      }
+    ],
+    "images": [
+      {
+        "src": "../../../../assets/photos/write.jpg",
+        "alt": "스톡 사진 write",
+        "complete": true,
+        "naturalWidth": 1600,
+        "naturalHeight": 1067,
+        "fit": "cover",
+        "focus": "45% 43%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 399.0231018066406,
+          "width": 1189.43994140625,
+          "height": 386.3999938964844,
+          "right": 1314.7199401855469,
+          "bottom": 785.423095703125
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "남겨 둔 기록",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "24",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "기록하는 장면",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "함께 읽을 원칙",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "다음에 할 일",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "맥락을 남깁니다",
+        "color": "rgb(246, 246, 244)"
+      },
+      {
+        "text": "같은 원고",
+        "color": "rgb(36, 168, 255)"
+      }
+    ],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:589원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:589의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:591원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:591의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:593원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:593의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:599원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:599의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:601원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:601의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:602원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:602의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:604원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:604의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:606원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:606의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": null
+  },
+  {
+    "id": "icons-count-mismatch",
+    "composition": "document",
+    "warning": true,
+    "number": 18,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#18",
+    "title": "발표 자료 — Stage",
+    "index": "17",
+    "layout": "blocks",
+    "heading": "개수가 다른 선택",
+    "headingSize": "72px",
+    "text": "개수가 다른 선택하나둘셋",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:589원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:589의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:591원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:591의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:593원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:593의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:599원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:599의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:601원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:601의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:602원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:602의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:604원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:604의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:606원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:606의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": null
+  },
+  {
+    "id": "wall-23",
+    "composition": "document",
+    "warning": true,
+    "number": 19,
+    "url": "http://127.0.0.1:4323/research/reusable-layouts-20261028/evidence/check-deck/#19",
+    "title": "발표 자료 — Stage",
+    "index": "18",
+    "layout": "blocks",
+    "heading": "많은 항목을 보존합니다",
+    "headingSize": "72px",
+    "text": "많은 항목을 보존합니다역할 1역할 2역할 3역할 4역할 5역할 6역할 7역할 8역할 9역할 10역할 11역할 12역할 13역할 14역할 15역할 16역할 17역할 18역할 19역할 20역할 21역할 22역할 23",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [
+      {
+        "tag": "UL",
+        "line": "630",
+        "text": "역할 1역할 2역할 3역할 4역할 5역할 6역할 7역할 8역할 9역할 10역할 11역할 12역할 13역할 14역할 15역할 16역할 17역할 18역할 19역할 20역할 21역할 2"
+      },
+      {
+        "tag": "LI",
+        "line": "640",
+        "text": "역할 11"
+      },
+      {
+        "tag": "P",
+        "line": "640",
+        "text": "역할 11"
+      },
+      {
+        "tag": "LI",
+        "line": "641",
+        "text": "역할 12"
+      },
+      {
+        "tag": "P",
+        "line": "641",
+        "text": "역할 12"
+      },
+      {
+        "tag": "LI",
+        "line": "642",
+        "text": "역할 13"
+      },
+      {
+        "tag": "P",
+        "line": "642",
+        "text": "역할 13"
+      },
+      {
+        "tag": "LI",
+        "line": "643",
+        "text": "역할 14"
+      },
+      {
+        "tag": "P",
+        "line": "643",
+        "text": "역할 14"
+      },
+      {
+        "tag": "LI",
+        "line": "644",
+        "text": "역할 15"
+      },
+      {
+        "tag": "P",
+        "line": "644",
+        "text": "역할 15"
+      },
+      {
+        "tag": "LI",
+        "line": "645",
+        "text": "역할 16"
+      },
+      {
+        "tag": "P",
+        "line": "645",
+        "text": "역할 16"
+      },
+      {
+        "tag": "LI",
+        "line": "646",
+        "text": "역할 17"
+      },
+      {
+        "tag": "P",
+        "line": "646",
+        "text": "역할 17"
+      },
+      {
+        "tag": "LI",
+        "line": "647",
+        "text": "역할 18"
+      },
+      {
+        "tag": "P",
+        "line": "647",
+        "text": "역할 18"
+      },
+      {
+        "tag": "LI",
+        "line": "648",
+        "text": "역할 19"
+      },
+      {
+        "tag": "P",
+        "line": "648",
+        "text": "역할 19"
+      },
+      {
+        "tag": "LI",
+        "line": "649",
+        "text": "역할 20"
+      },
+      {
+        "tag": "P",
+        "line": "649",
+        "text": "역할 20"
+      },
+      {
+        "tag": "LI",
+        "line": "650",
+        "text": "역할 21"
+      },
+      {
+        "tag": "P",
+        "line": "650",
+        "text": "역할 21"
+      },
+      {
+        "tag": "LI",
+        "line": "651",
+        "text": "역할 22"
+      },
+      {
+        "tag": "P",
+        "line": "651",
+        "text": "역할 22"
+      },
+      {
+        "tag": "LI",
+        "line": "652",
+        "text": "역할 23"
+      },
+      {
+        "tag": "P",
+        "line": "652",
+        "text": "역할 23"
+      }
+    ],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": "경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:568선택한 bento preset과 H2 자료 수가 맞지 않습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고18번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:610선택한 icon-wall 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.\nicons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:623icon-wall 자료 수가 지원 범위를 벗어납니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:589원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:589의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:591원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:591의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:593원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:593의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:599원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:599의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:601원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:601의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:602원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:602의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:604원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:604의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고17번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:606원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:606의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:630원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:630의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:640원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:640의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:641원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:641의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:642원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:642의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:643원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:643의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:644원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:644의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:645원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:645의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:646원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:646의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:647원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:647의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:648원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:648의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:649원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:649의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:650원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:650의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:651원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:651의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고19번 슬라이드 · research/reusable-layouts-20261028/evidence/check-deck/slides.md:652원고 research/reusable-layouts-20261028/evidence/check-deck/slides.md:652의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": null
+  }
+]

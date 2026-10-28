@@ -1,0 +1,2543 @@
+{
+  "slides": [
+    {
+      "url": "http://127.0.0.1:4323/#1",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "0",
+      "layout": "cover",
+      "heading": "작은 장면,큰 이야기.",
+      "headingSize": "130px",
+      "text": "작은 장면,큰 이야기.이미지와 컬러로 만드는 다음 발표.발표자 이름2026. 10. 23.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#2",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "1",
+      "layout": "statement",
+      "heading": "먼저, 사람을 봅니다.",
+      "headingSize": "126px",
+      "text": "먼저, 사람을 봅니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#3",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "2",
+      "layout": "gallery",
+      "variant": "portraits",
+      "headingSize": null,
+      "text": "시선을 담아,\n장면을 기록합니다.소리를 듣고,\n작업에 집중합니다.생각을 적어,\n다음으로 이어갑니다.작은 차이를,\n다시 들여다봅니다.일상 가까이,\n가능성을 발견합니다.밖으로 나가,\n새로운 시선을 만납니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 101.75999450683594,
+        "y": 195.51998901367188,
+        "width": 1236.47998046875,
+        "height": 631.679931640625,
+        "right": 1338.239974975586,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/photos/capture.jpg",
+          "alt": "거리에서 휴대폰으로 장면을 기록하는 인물",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "68% 45%",
+          "box": {
+            "x": 101.75999450683594,
+            "y": 305.58624267578125,
+            "width": 189.27561950683594,
+            "height": 473.18902587890625,
+            "right": 291.0356140136719,
+            "bottom": 778.7752685546875
+          }
+        },
+        {
+          "src": "assets/photos/listen.jpg",
+          "alt": "창가에서 헤드폰을 쓰고 노트북을 사용하는 인물",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 2397,
+          "fit": "cover",
+          "focus": "52% 40%",
+          "box": {
+            "x": 311.19561767578125,
+            "y": 305.58624267578125,
+            "width": 189.28216552734375,
+            "height": 473.2021484375,
+            "right": 500.477783203125,
+            "bottom": 778.7883911132812
+          }
+        },
+        {
+          "src": "assets/photos/write.jpg",
+          "alt": "야외 테이블에서 노트에 생각을 적는 인물",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "45% 50%",
+          "box": {
+            "x": 520.6378173828125,
+            "y": 305.58624267578125,
+            "width": 189.27557373046875,
+            "height": 473.18902587890625,
+            "right": 709.9133911132812,
+            "bottom": 778.7752685546875
+          }
+        },
+        {
+          "src": "assets/photos/observe.jpg",
+          "alt": "한쪽 눈에 돋보기를 대고 관찰하는 인물",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "48% 34%",
+          "box": {
+            "x": 730.0734252929688,
+            "y": 305.58624267578125,
+            "width": 189.28216552734375,
+            "height": 473.2021484375,
+            "right": 919.3555908203125,
+            "bottom": 778.7883911132812
+          }
+        },
+        {
+          "src": "assets/photos/portrait-one.jpg",
+          "alt": "작업 공간에서 현금을 들고 앉아 있는 인물",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 2400,
+          "fit": "cover",
+          "focus": "48% 30%",
+          "box": {
+            "x": 939.515625,
+            "y": 305.58624267578125,
+            "width": 189.2821044921875,
+            "height": 473.2021484375,
+            "right": 1128.7977294921875,
+            "bottom": 778.7883911132812
+          }
+        },
+        {
+          "src": "assets/photos/portrait-two.jpg",
+          "alt": "도시 거리에서 갈색 옷을 입고 서 있는 인물",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 2397,
+          "fit": "cover",
+          "focus": "49% 28%",
+          "box": {
+            "x": 1148.957763671875,
+            "y": 305.58624267578125,
+            "width": 189.275634765625,
+            "height": 473.18902587890625,
+            "right": 1338.2333984375,
+            "bottom": 778.7752685546875
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#4",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "3",
+      "layout": "media",
+      "headingSize": null,
+      "text": "Moraine Lake · James Wheeler / Pexels",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/photos/landscape.jpg",
+          "alt": "푸른 호수에 주황빛 산과 초록 숲이 비치는 풍경",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1078,
+          "fit": "cover",
+          "focus": "50% 48%",
+          "box": {
+            "x": 48,
+            "y": 130,
+            "width": 1344,
+            "height": 756,
+            "right": 1392,
+            "bottom": 886
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#5",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "4",
+      "layout": "gallery",
+      "variant": "strip",
+      "heading": "같은 장면을, 다른 범위로.",
+      "headingSize": "64px",
+      "text": "같은 장면을, 다른 범위로.프레임을 고정하고, 관찰할 범위를 바꿉니다.기본 프레임전체의 맥락1.4× 디지털 크롭산과 호수2× 디지털 크롭능선의 표정2.8× 디지털 크롭가까이 보는 디테일James Wheeler / Pexels · 기본 표시 프레임 기준의 디지털 확대 예시",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/photos/landscape.jpg",
+          "alt": "같은 호수 사진의 1배 디지털 표시 크롭",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1078,
+          "fit": "cover",
+          "focus": "46% 32%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 421.2962341308594,
+            "width": 284.7599792480469,
+            "height": 213.56997680664062,
+            "right": 410.03997802734375,
+            "bottom": 634.8662109375
+          }
+        },
+        {
+          "src": "assets/photos/landscape.jpg",
+          "alt": "같은 호수 사진의 1.4배 디지털 표시 크롭",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1078,
+          "fit": "cover",
+          "focus": "46% 32%",
+          "box": {
+            "x": 374.4441833496094,
+            "y": 393.95928955078125,
+            "width": 398.6639709472656,
+            "height": 298.99798583984375,
+            "right": 773.108154296875,
+            "bottom": 692.957275390625
+          }
+        },
+        {
+          "src": "assets/photos/landscape.jpg",
+          "alt": "같은 호수 사진의 2배 디지털 표시 크롭",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1078,
+          "fit": "cover",
+          "focus": "46% 32%",
+          "box": {
+            "x": 597.410400390625,
+            "y": 352.953857421875,
+            "width": 569.52001953125,
+            "height": 427.1400146484375,
+            "right": 1166.930419921875,
+            "bottom": 780.0938720703125
+          }
+        },
+        {
+          "src": "assets/photos/landscape.jpg",
+          "alt": "같은 호수 사진의 2.8배 디지털 표시 크롭",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1078,
+          "fit": "cover",
+          "focus": "46% 32%",
+          "box": {
+            "x": 794.1787109375,
+            "y": 298.2799072265625,
+            "width": 797.3280029296875,
+            "height": 597.9959716796875,
+            "right": 1591.5067138671875,
+            "bottom": 896.27587890625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#6",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "5",
+      "layout": "statement",
+      "heading": "보여주는 방식이,이해를 바꿉니다.",
+      "headingSize": "126px",
+      "text": "보여주는 방식이,이해를 바꿉니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#7",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "6",
+      "layout": "categories",
+      "heading": "색에는, 역할을 맡깁니다.",
+      "headingSize": "64px",
+      "text": "색에는, 역할을 맡깁니다.관찰비교강조전환",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#8",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "7",
+      "layout": "section",
+      "heading": "김하늘",
+      "headingSize": "144px",
+      "text": "김하늘작은 관찰에서, 다음 가능성으로.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#9",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "8",
+      "layout": "chart",
+      "heading": "관찰을,근거로 연결합니다.",
+      "headingSize": "82px",
+      "text": "관찰을,근거로 연결합니다.같은 기준에서 차이를 확인합니다.비교 데이터 · 양식 예시옵션 A32점옵션 B56점옵션 C84점양식 설명용 가상 수치 · 실제 데이터와 출처로 교체하세요.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#10",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "9",
+      "layout": "results",
+      "heading": "하나의 생각이,다양한 결과로.",
+      "headingSize": "72px",
+      "text": "하나의 생각이,다양한 결과로.자체 제작 · 양식용 가상 자료",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/examples/report.svg",
+          "alt": "관찰 과정을 정리한 독자 제작 예시 문서",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 598.5281372070312,
+            "y": 196.36000061035156,
+            "width": 348.4359130859375,
+            "height": 305.760009765625,
+            "right": 946.9640502929688,
+            "bottom": 502.12001037597656
+          }
+        },
+        {
+          "src": "assets/examples/objects.svg",
+          "alt": "파랑 입체 도형과 주황 구체의 독자 제작 이미지",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 965.4440307617188,
+            "y": 196.36000061035156,
+            "width": 348.43597412109375,
+            "height": 305.760009765625,
+            "right": 1313.8800048828125,
+            "bottom": 502.12001037597656
+          }
+        },
+        {
+          "src": "assets/examples/dashboard.svg",
+          "alt": "가상 지표와 파란 선 도표가 있는 독자 제작 대시보드",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 598.5281372070312,
+            "y": 520.5999755859375,
+            "width": 348.4359130859375,
+            "height": 305.760009765625,
+            "right": 946.9640502929688,
+            "bottom": 826.3599853515625
+          }
+        },
+        {
+          "src": "assets/workspace-demo.svg",
+          "alt": "문서와 편집 화면을 보여주는 독자 제작 작업 공간 UI",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 900,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 965.4440307617188,
+            "y": 520.5999755859375,
+            "width": 348.43597412109375,
+            "height": 305.760009765625,
+            "right": 1313.8800048828125,
+            "bottom": 826.3599853515625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#11",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "10",
+      "layout": "mosaic",
+      "heading": "서로 다른 결과를, 하나의 이야기로.",
+      "headingSize": "64px",
+      "text": "서로 다른 결과를, 하나의 이야기로.사진: Pexels · 포스터·문서·도형: 자체 제작",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/examples/poster-wide.svg",
+          "alt": "연보라 바탕에 큰 보라 타이포와 주황 원을 놓은 포스터",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 600,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 285.2293701171875,
+            "width": 586.3199462890625,
+            "height": 244.06591796875,
+            "right": 711.5999450683594,
+            "bottom": 529.2952880859375
+          }
+        },
+        {
+          "src": "assets/photos/listen.jpg",
+          "alt": "헤드폰을 쓴 인물의 풀컬러 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 2397,
+          "fit": "cover",
+          "focus": "50% 15%",
+          "box": {
+            "x": 728.3999633789062,
+            "y": 285.2293701171875,
+            "width": 284.760009765625,
+            "height": 244.06591796875,
+            "right": 1013.1599731445312,
+            "bottom": 529.2952880859375
+          }
+        },
+        {
+          "src": "assets/examples/objects.svg",
+          "alt": "푸른 도형과 주황 구체를 배치한 작품",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 1029.9599609375,
+            "y": 285.2293701171875,
+            "width": 284.760009765625,
+            "height": 244.06591796875,
+            "right": 1314.719970703125,
+            "bottom": 529.2952880859375
+          }
+        },
+        {
+          "src": "assets/photos/portrait-two.jpg",
+          "alt": "갈색 옷을 입고 도시 거리에 서 있는 인물",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 2397,
+          "fit": "cover",
+          "focus": "50% 0%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 546.0953369140625,
+            "width": 284.7599792480469,
+            "height": 244.06591796875,
+            "right": 410.03997802734375,
+            "bottom": 790.1612548828125
+          }
+        },
+        {
+          "src": "assets/examples/report.svg",
+          "alt": "관찰 기록 문서 전체",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 426.8399963378906,
+            "y": 546.0953369140625,
+            "width": 284.7599792480469,
+            "height": 244.06591796875,
+            "right": 711.5999755859375,
+            "bottom": 790.1612548828125
+          }
+        },
+        {
+          "src": "assets/photos/landscape.jpg",
+          "alt": "호수와 산의 컬러 풍경",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1078,
+          "fit": "cover",
+          "focus": "50% 50%",
+          "box": {
+            "x": 728.3999633789062,
+            "y": 546.0953369140625,
+            "width": 586.3200073242188,
+            "height": 244.06591796875,
+            "right": 1314.719970703125,
+            "bottom": 790.1612548828125
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#12",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "11",
+      "layout": "section",
+      "heading": "이서윤",
+      "headingSize": "144px",
+      "text": "이서윤다음 이야기를 만드는 사람.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#13",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "12",
+      "layout": "statement",
+      "heading": "이제, 핵심에 집중합니다.",
+      "headingSize": "126px",
+      "text": "이제, 핵심에 집중합니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#14",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "13",
+      "layout": "compare",
+      "heading": "차이는,같은 기준에서.",
+      "headingSize": "76px",
+      "text": "차이는,같은 기준에서.익숙한 시선장면 전체를 봅니다.핵심 정보를 찾습니다.맥락을 함께 읽습니다.새로운 시선다른 범위를 봅니다.비교 조건을 정합니다.한 가지 차이를 발견합니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 262.7200012207031,
+        "width": 1189.43994140625,
+        "height": 510.7200012207031,
+        "right": 1314.7199401855469,
+        "bottom": 773.4400024414062
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#15",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "14",
+      "layout": "metric",
+      "headingSize": null,
+      "text": "42%변화를, 한 숫자로.수치의 의미와 비교 조건을 함께.예시 수치 · 실제 자료와 출처로 교체하세요",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 262.7200012207031,
+        "width": 1189.43994140625,
+        "height": 510.7200012207031,
+        "right": 1314.7199401855469,
+        "bottom": 773.4400024414062
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#16",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "15",
+      "layout": "image",
+      "heading": "한 장에 담는, 하나의 인상.",
+      "headingSize": "62px",
+      "text": "한 장에 담는, 하나의 인상.MAKE ROOM FOR IDEAS · 자체 제작 포스터 예시",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 262.7200012207031,
+        "width": 1189.43994140625,
+        "height": 510.7200012207031,
+        "right": 1314.7199401855469,
+        "bottom": 773.4400024414062
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/examples/poster.svg",
+          "alt": "연보라 포스터의 보라 타이포와 주황 원",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 126.1199951171875,
+            "y": 342.9728088378906,
+            "width": 1187.760009765625,
+            "height": 384.6871643066406,
+            "right": 1313.8800048828125,
+            "bottom": 727.6599731445312
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#17",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "16",
+      "layout": "demo",
+      "heading": "보여주는 순간,이해가 됩니다.",
+      "headingSize": "62px",
+      "text": "보여주는 순간,이해가 됩니다.무엇을 할지 먼저 말하기결과가 보이는 한 장면의미를 한 문장으로 연결정적 화면 시연 예시 · 실제 시연 화면으로 교체하세요.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 262.7200012207031,
+        "width": 1189.43994140625,
+        "height": 510.7200012207031,
+        "right": 1314.7199401855469,
+        "bottom": 773.4400024414062
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/examples/dashboard.svg",
+          "alt": "가상 신호 데이터를 보여주는 독자 제작 대시보드",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 614.6062622070312,
+            "y": 263.55999755859375,
+            "width": 699.2737426757812,
+            "height": 469.13995361328125,
+            "right": 1313.8800048828125,
+            "bottom": 732.699951171875
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#18",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "17",
+      "layout": "quote",
+      "headingSize": null,
+      "text": "좋은 문장은,\n다음 생각을 열어줍니다.인용한 사람 또는 자료실제 인용문과 정확한 출처로 교체하세요.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 262.7200012207031,
+        "width": 1189.43994140625,
+        "height": 510.7200012207031,
+        "right": 1314.7199401855469,
+        "bottom": 773.4400024414062
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#19",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "18",
+      "layout": "steps",
+      "heading": "다음 행동은쉽고 분명하게.",
+      "headingSize": "76px",
+      "text": "다음 행동은쉽고 분명하게.01복사하기이 폴더로 새 발표를 시작하세요.02바꿔 쓰기문장과 이미지를 당신의 것으로.03리허설하기실제 화면에서 한 번 말해보세요.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 262.7200012207031,
+        "width": 1189.43994140625,
+        "height": 510.7200012207031,
+        "right": 1314.7199401855469,
+        "bottom": 773.4400024414062
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/#20",
+      "title": "작은 장면, 큰 이야기 — Stage",
+      "index": "19",
+      "layout": "closing",
+      "heading": "당신의 장면으로,이야기를 시작하세요.",
+      "headingSize": "118px",
+      "text": "당신의 장면으로,이야기를 시작하세요.기억할 한 장면, 분명한 한 메시지.질문을 받겠습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:stage-photo-color-example:/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/product-notes/#1",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "0",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "작은 관찰에서, 다음 행동으로.",
+      "headingSize": "118px",
+      "text": "작은 관찰에서, 다음 행동으로.가상 제품 개선 이야기 · 관찰한 장면을 작은 결정으로 연결합니다.사진은 실제 참여자와 무관한 스톡 이미지입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "다음 행동으로.",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/product-notes/#2",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "1",
+      "layout": "blocks",
+      "composition": "split",
+      "heading": "답을 내기 전에, 장면을 남깁니다.",
+      "headingSize": "72px",
+      "text": "답을 내기 전에, 장면을 남깁니다.기록하는 장면 · LinkedIn Sales Navigator / Pexels어떤 일을 시작하려는지 묻습니다.멈춘 순간을 짧게 적습니다.해결책보다 실제 행동을 먼저 봅니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/478e6580030c-write.jpg",
+          "alt": "야외 테이블에서 노트에 쓰는 인물을 담은 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "45% 43%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 293.294677734375,
+            "width": 596.6558837890625,
+            "height": 457.46533203125,
+            "right": 721.9358825683594,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "실제 행동",
+          "color": "rgb(36, 168, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/product-notes/#3",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "2",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "관찰과 다음 행동을 구분합니다.",
+      "headingSize": "72px",
+      "text": "관찰과 다음 행동을 구분합니다.장면가상 검토에서 남긴 관찰다음에 확인할 일설정 찾기메뉴를 두 번 오감이름을 쉽게 바꾸기결과 확인완료 상태를 다시 질문함상태 문구 비교하기설명을 위한 가상 기록입니다. 사진 속 인물의 행동을 조사한 결과가 아닙니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/product-notes/#4",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "3",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "기록을, 결정할 수 있는 모양으로.",
+      "headingSize": "64px",
+      "text": "기록을, 결정할 수 있는 모양으로.함께 읽을 한 장한 장에 묶은 관찰 · 자체 제작 가상 문서남겨 둔 관찰24 개장면을 다시 찾을 기록입니다.다음에 확인할 행동2 개이름과 상태 문구를 확인합니다.가상 수치 · 서로 다른 작업 단위 · 전환율이나 성과가 아닙니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/1c6df0654172-report.svg",
+          "alt": "관찰과 다음 행동을 정리한 자체 제작 가상 보고서",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 353.6893615722656,
+            "width": 786.239990234375,
+            "height": 397.0706481933594,
+            "right": 911.5199890136719,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "함께 읽을 한 장",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "남겨 둔 관찰",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "24",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "다음에 확인할 행동",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "2",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/product-notes/#5",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "quote",
+      "headingSize": null,
+      "text": "무엇을 만들었는지보다,\n무엇을 이해했는지부터 이야기합니다.가상 팀이 정한 검토 원칙",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/product-notes/#6",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "5",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "이번에는 상태 문구 하나를 바꿉니다.",
+      "headingSize": "118px",
+      "text": "이번에는 상태 문구 하나를 바꿉니다.완료 여부를 묻지 않아도 다음 행동을 알 수 있는지 확인합니다.작은 변경 뒤에도 같은 질문으로 다시 살핍니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "상태 문구 하나",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/product-notes/#7",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "6",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "바꾸고, 같은 장면으로 돌아갑니다.",
+      "headingSize": "72px",
+      "text": "바꾸고, 같은 장면으로 돌아갑니다.검토 체크리스트에서 관찰과 해석을 나눕니다.상태 문구를 바꾸고 다음 행동이 분명한지 함께 읽습니다.모르는 점은 팀 학습 발표의 질문으로 남깁니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/product-notes/#8",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "7",
+      "layout": "blocks",
+      "composition": "closing",
+      "heading": "작게 바꾸고, 다시 봅니다.",
+      "headingSize": "110px",
+      "text": "작게 바꾸고, 다시 봅니다.다음 검토에서는 같은 장면과 같은 질문으로 돌아옵니다.사진·자체 제작 자료의 출처",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "다시 봅니다.",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/team-learning/#1",
+      "title": "같은 장면에서 다른 질문 찾기 — Stage",
+      "index": "0",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "같은 장면에서, 다른 질문을.",
+      "headingSize": "118px",
+      "text": "같은 장면에서, 다른 질문을.사진을 함께 보며 관찰과 짐작을 나누는 가상 워크숍입니다.등장인물은 실제 참여자가 아닌 스톡 사진의 피사체입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "다른 질문을.",
+          "color": "rgb(160, 128, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/team-learning/#2",
+      "title": "같은 장면에서 다른 질문 찾기 — Stage",
+      "index": "1",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "먼저, 장면 전체를 봅니다.",
+      "headingSize": "54px",
+      "text": "먼저, 장면 전체를 봅니다.넓게 보기 · James Wheeler / Pexels",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/c1971525c2a1-landscape.jpg",
+          "alt": "산과 숲이 호수를 둘러싼 풍경 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1078,
+          "fit": "cover",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 475.61065673828125,
+            "right": 1314.7199401855469,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/team-learning/#3",
+      "title": "같은 장면에서 다른 질문 찾기 — Stage",
+      "index": "2",
+      "layout": "blocks",
+      "composition": "gallery",
+      "heading": "기록하고, 듣고, 적는 시선.",
+      "headingSize": "64px",
+      "text": "기록하고, 듣고, 적는 시선.기록하기 · Andrea Piacquadio / Pexels듣기 · Christina Morillo / Pexels적기 · LinkedIn Sales Navigator / Pexels",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/2751c9fe1a7d-capture.jpg",
+          "alt": "휴대폰을 들고 장면을 기록하는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "50% 38%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 285.2293701171875,
+            "width": 385.2778015136719,
+            "height": 465.5306396484375,
+            "right": 510.55780029296875,
+            "bottom": 750.760009765625
+          }
+        },
+        {
+          "src": "assets/b492caded632-listen.jpg",
+          "alt": "헤드폰을 쓰고 노트북 앞에 앉은 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 2397,
+          "fit": "cover",
+          "focus": "50% 38%",
+          "box": {
+            "x": 527.3577880859375,
+            "y": 285.2293701171875,
+            "width": 385.27783203125,
+            "height": 465.5306396484375,
+            "right": 912.6356201171875,
+            "bottom": 750.760009765625
+          }
+        },
+        {
+          "src": "assets/478e6580030c-write.jpg",
+          "alt": "노트에 글을 쓰는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "50% 38%",
+          "box": {
+            "x": 929.4356079101562,
+            "y": 285.2293701171875,
+            "width": 385.27777099609375,
+            "height": 465.5306396484375,
+            "right": 1314.71337890625,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/team-learning/#4",
+      "title": "같은 장면에서 다른 질문 찾기 — Stage",
+      "index": "3",
+      "layout": "blocks",
+      "composition": "mosaic",
+      "heading": "넓게, 가까이, 밖으로.",
+      "headingSize": "64px",
+      "text": "넓게, 가까이, 밖으로.넓은 범위 · James Wheeler / Pexels가까운 단서 · Andrea Piacquadio / Pexels주변의 맥락 · William Adams / Pexels서로 다른 스톡 사진입니다. 같은 장소나 인물의 전후 비교가 아닙니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/c1971525c2a1-landscape.jpg",
+          "alt": "산과 호수를 넓게 담은 풍경 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1078,
+          "fit": "cover",
+          "focus": "50% 40%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 285.2293701171875,
+            "width": 787.3555908203125,
+            "height": 423.5306396484375,
+            "right": 912.6355895996094,
+            "bottom": 708.760009765625
+          }
+        },
+        {
+          "src": "assets/8b3f37a204ad-observe.jpg",
+          "alt": "한쪽 눈 앞에 돋보기를 댄 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "50% 25%",
+          "box": {
+            "x": 929.4356079101562,
+            "y": 285.2293701171875,
+            "width": 385.27777099609375,
+            "height": 185.3052978515625,
+            "right": 1314.71337890625,
+            "bottom": 470.53466796875
+          }
+        },
+        {
+          "src": "assets/b4e1f667597d-portrait-two.jpg",
+          "alt": "도시 거리에서 갈색 옷을 입고 선 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 2397,
+          "fit": "cover",
+          "focus": "50% 0%",
+          "box": {
+            "x": 929.4356079101562,
+            "y": 523.4547119140625,
+            "width": 385.27777099609375,
+            "height": 185.3052978515625,
+            "right": 1314.71337890625,
+            "bottom": 708.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/team-learning/#5",
+      "title": "같은 장면에서 다른 질문 찾기 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "quote",
+      "headingSize": null,
+      "text": "보이는 것과,\n짐작한 것을 나눕니다.가상 워크숍의 대화 원칙",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/team-learning/#6",
+      "title": "같은 장면에서 다른 질문 찾기 — Stage",
+      "index": "5",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "단서 옆에, 질문을 놓습니다.",
+      "headingSize": "64px",
+      "text": "단서 옆에, 질문을 놓습니다.보이는 단서눈앞의 돋보기 · Andrea Piacquadio / Pexels아직 모르는 것무엇을 찾고 있을까요?사진 밖에는 무엇이 있을까요?다음 장면에서 무엇을 확인할까요?",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/8b3f37a204ad-observe.jpg",
+          "alt": "한쪽 눈 앞에 돋보기를 댄 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "48% 34%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 353.6893615722656,
+            "width": 637.7830810546875,
+            "height": 397.0706481933594,
+            "right": 763.0630798339844,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "보이는 단서",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "아직 모르는 것",
+          "color": "rgb(160, 128, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/team-learning/#7",
+      "title": "같은 장면에서 다른 질문 찾기 — Stage",
+      "index": "6",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "함께 읽고, 질문 하나를 남깁니다.",
+      "headingSize": "72px",
+      "text": "함께 읽고, 질문 하나를 남깁니다.함께 읽기 안내를 따라 보이는 단서를 먼저 표시합니다.제품 개선 발표의 장면으로 돌아가 질문을 붙입니다.외부 자료는 Markdown 안내처럼 원문 링크로 남깁니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/team-learning/#8",
+      "title": "같은 장면에서 다른 질문 찾기 — Stage",
+      "index": "7",
+      "layout": "blocks",
+      "composition": "closing",
+      "heading": "다음 장면에서, 다시 묻습니다.",
+      "headingSize": "110px",
+      "text": "다음 장면에서, 다시 묻습니다.정답 하나보다 함께 확인할 질문 하나를 가져가세요.스톡 사진과 자체 제작 자료의 출처",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "다시 묻습니다.",
+          "color": "rgb(160, 128, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/examples/devday-compositions/#4",
+      "title": "화면이 설명하는 발표 — 현장 구성 양식 — Stage",
+      "index": "3",
+      "layout": "bento",
+      "variant": "editorial",
+      "headingSize": null,
+      "text": "24개남겨 둔 관찰작은 장면을 놓치지 않기6가지함께 묶은 주제A FIELD STUDYFieldNotes.관찰을 다음 행동으로.기록 / 분류 / 다음 행동STUDY\nEDITION기록 조각 / 08“처음에\n어디로 가죠?”듣고 남긴 장면맥락까지\n함께 기록하기.동선안내첫 경험정리한 주제 중 일부다음 행동1 / 3✓첫 화면의 안내 고치기01한 장으로 정리한 발견시작의 장벽안내가 늦다.동선이 안 보인다.선택지가 많다.3개정해 둔 다음 행동1기록2분류3결정다음 일을 정하는 흐름공유된 실행 목록첫 안내 앞당기기다음 동선 보이기처음 고를 일 줄이기Field Notes · 한 프로젝트의 결과물을 회수하는 가상 예제 · 자체 제작 UI·문서·도식 + Pexels 스톡 사진",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "../../assets/photos/write.jpg",
+          "alt": "관찰 기록이라는 가상 이야기에 쓰인 필기 장면 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "42% 43%",
+          "box": {
+            "x": 426,
+            "y": 196.36000061035156,
+            "width": 288.1199951171875,
+            "height": 190.11561584472656,
+            "right": 714.1199951171875,
+            "bottom": 386.4756164550781
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:example-devday-compositions:/examples/devday-compositions/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/examples/devday-compositions/#5",
+      "title": "화면이 설명하는 발표 — 현장 구성 양식 — Stage",
+      "index": "4",
+      "layout": "icon-wall",
+      "heading": "함께 만들어요.",
+      "headingSize": "104px",
+      "text": "함께 만들어요.서로 다른 도구를, 하나의 흐름으로.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:example-devday-compositions:/examples/devday-compositions/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/examples/visual-story/#2",
+      "title": "첫 경험을, 다음 행동으로. — Stage",
+      "index": "1",
+      "layout": "visual",
+      "composition": "split",
+      "heading": "서로 다른 관찰을, 같은 기준으로.",
+      "headingSize": "64px",
+      "text": "서로 다른 관찰을, 같은 기준으로.가입 후 7일 내 첫 공유율 · 기준 W1–W4 / 후반 W9–W1255%후반 · W9–W12기준 · W1–W435%후반 · W9–W1255%같은 원본의 데이터 표대상별 비교대상값 (%)기준 · W1–W435후반 · W9–W1255",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:first-value-native-visual:/examples/visual-story/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/examples/visual-story/#3",
+      "title": "첫 경험을, 다음 행동으로. — Stage",
+      "index": "2",
+      "layout": "visual",
+      "composition": "split",
+      "heading": "첫 공유까지, 어디가 달랐을까?",
+      "headingSize": "64px",
+      "text": "첫 공유까지, 어디가 달랐을까?각 기간의 같은 단계 인원을 비교합니다.660명첫 공유신규 가입1,200명1,200명프로젝트 시작840명960명초안 완성600명780명첫 공유420명660명기준 · W1–W4후반 · W9–W12같은 원본의 데이터 표단계별 값대상기준 · W1–W4 (명)후반 · W9–W12 (명)신규 가입1,2001,200프로젝트 시작840960초안 완성600780첫 공유420660",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:first-value-native-visual:/examples/visual-story/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/examples/visual-story/#4",
+      "title": "첫 경험을, 다음 행동으로. — Stage",
+      "index": "3",
+      "layout": "visual",
+      "composition": "wide",
+      "heading": "변화가 이어지는 시간을 봅니다.",
+      "headingSize": "74px",
+      "text": "변화가 이어지는 시간을 봅니다.가입 후 7일 내 첫 프로젝트 공유 · 마지막 코호트도 W13 종료까지 추적58%W12관찰값 추세02958W1W5W8W12관찰값 추세 · 좁은 화면02958W1W12같은 원본의 데이터 표관찰값과 추세대상값 (%)분자분모W13090300W234102300W337111300W439117300W541123300W644132300W747141300W850150300W952156300W1054162300W1156168300W1258174300",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:first-value-native-visual:/examples/visual-story/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/examples/visual-story/#5",
+      "title": "첫 경험을, 다음 행동으로. — Stage",
+      "index": "4",
+      "layout": "visual",
+      "composition": "wide",
+      "heading": "사람들이 말한, 첫 마찰.",
+      "headingSize": "74px",
+      "text": "사람들이 말한, 첫 마찰.미활성 사용자 중 선정한 가상 인터뷰 · 대표 이유 하나씩18명빈 화면에서 시작하기 어려움 · 37.5%37.5%25%20.8%16.7%빈 화면에서 시작하기 어려움18명 · 37.5%다음 행동이 불명확함12명 · 25%공유 전 확신이 부족함10명 · 20.8%기타8명 · 16.7%같은 원본의 데이터 표구성 원값과 비중분류원값 (명)비중빈 화면에서 시작하기 어려움1837.5%다음 행동이 불명확함1225%공유 전 확신이 부족함1020.8%기타816.7%",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:first-value-native-visual:/examples/visual-story/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/examples/visual-story/#7",
+      "title": "첫 경험을, 다음 행동으로. — Stage",
+      "index": "6",
+      "layout": "visual",
+      "composition": "wide",
+      "heading": "마찰을, 다음 행동에 연결합니다.",
+      "headingSize": "74px",
+      "text": "마찰을, 다음 행동에 연결합니다.제안 기능과 경험의 순서 · 실제 이동량이나 인과 관계가 아님01가입02템플릿으로 시작03안내 따라 초안04미리보고 공유같은 원본의 데이터 표흐름의 순서와 연결순서단계다음 단계1가입템플릿으로 시작2템플릿으로 시작안내 따라 초안3안내 따라 초안미리보고 공유4미리보고 공유마지막 단계",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:first-value-native-visual:/examples/visual-story/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/examples/visual-story/#8",
+      "title": "첫 경험을, 다음 행동으로. — Stage",
+      "index": "7",
+      "layout": "visual",
+      "composition": "wide",
+      "heading": "무엇을 먼저, 확인할까요?",
+      "headingSize": "74px",
+      "text": "무엇을 먼저, 확인할까요?예상 영향 × 노력 · 가상 기획 판단, 측정 성과가 아님노력과 예상 영향의 관계003366예상 영향 ↑노력 →시작 템플릿다음 행동 안내공유 미리보기대시보드 확장1. 시작 템플릿노력 2 · 예상 영향 52. 다음 행동 안내노력 2 · 예상 영향 43. 공유 미리보기노력 3 · 예상 영향 44. 대시보드 확장노력 5 · 예상 영향 2같은 원본의 데이터 표좌표와 항목항목노력예상 영향시작 템플릿25다음 행동 안내24공유 미리보기34대시보드 확장52",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "1. 시작 템플릿",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "2. 다음 행동 안내",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "3. 공유 미리보기",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "4. 대시보드 확장",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:first-value-native-visual:/examples/visual-story/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/examples/visual-story/#9",
+      "title": "첫 경험을, 다음 행동으로. — Stage",
+      "index": "8",
+      "layout": "visual",
+      "composition": "wide",
+      "heading": "관찰에서, 적용과 확인까지.",
+      "headingSize": "74px",
+      "text": "관찰에서, 적용과 확인까지.시작·끝 주 포함 · 최종 코호트 추적은 W13 종료에 확정단위: 주1주12주기준 관찰·인터뷰1–4주구현·점진 적용5–8주후반 코호트 관찰9–12주같은 원본의 데이터 표과업별 시작과 끝과업시작(주)끝(주)기준 관찰·인터뷰14구현·점진 적용58후반 코호트 관찰912",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "기준 관찰·인터뷰",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "구현·점진 적용",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "후반 코호트 관찰",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:first-value-native-visual:/examples/visual-story/"
+        }
+      ],
+      "filename": null
+    },
+    {
+      "url": "http://127.0.0.1:4323/examples/visual-story/#10",
+      "title": "첫 경험을, 다음 행동으로. — Stage",
+      "index": "9",
+      "layout": "visual",
+      "composition": "wide",
+      "heading": "사람의 시간을, 나눠 봅니다.",
+      "headingSize": "74px",
+      "text": "사람의 시간을, 나눠 봅니다.역할 × 기간의 가상 계획 · 인·주는 경과 주수와 다름단위: 인·주기준 관찰변경 적용후반 관찰조사321설계132개발·품질123숫자가 실제 값이며 색은 크기를 보조합니다. 단위: 인·주같은 원본의 데이터 표행과 열별 값 · 인·주구분기준 관찰변경 적용후반 관찰조사321설계132개발·품질123",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:first-value-native-visual:/examples/visual-story/"
+        }
+      ],
+      "filename": null
+    }
+  ],
+  "overview": {
+    "cards": 9,
+    "bento": 12,
+    "walls": 2,
+    "activeLinks": 0,
+    "ids": 0
+  },
+  "presenter": {
+    "current": 12,
+    "next": "document",
+    "links": 0,
+    "bidirectional": true
+  },
+  "crossDeckForward": "http://127.0.0.1:4323/presentations/community-exhibit/read.html",
+  "crossDeckBack": "http://127.0.0.1:4323/presentations/photo-essay/read.html#6"
+}

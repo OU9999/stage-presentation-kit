@@ -1,0 +1,128 @@
+[
+  {
+    "id": "portraits-2",
+    "composition": "gallery",
+    "variant": "portraits",
+    "count": 2,
+    "number": 1
+  },
+  {
+    "id": "portraits-3",
+    "composition": "gallery",
+    "variant": "portraits",
+    "count": 3,
+    "number": 2
+  },
+  {
+    "id": "portraits-6",
+    "composition": "gallery",
+    "variant": "portraits",
+    "count": 6,
+    "number": 3
+  },
+  {
+    "id": "strip-2",
+    "composition": "gallery",
+    "variant": "strip",
+    "count": 2,
+    "number": 4
+  },
+  {
+    "id": "strip-3",
+    "composition": "gallery",
+    "variant": "strip",
+    "count": 3,
+    "number": 5
+  },
+  {
+    "id": "strip-6",
+    "composition": "gallery",
+    "variant": "strip",
+    "count": 6,
+    "number": 6
+  },
+  {
+    "id": "staggered-6",
+    "composition": "mosaic",
+    "variant": "staggered",
+    "count": 6,
+    "number": 7
+  },
+  {
+    "id": "bento-5",
+    "composition": "bento",
+    "variant": "balanced",
+    "count": 5,
+    "number": 8
+  },
+  {
+    "id": "bento-8",
+    "composition": "bento",
+    "variant": "balanced",
+    "count": 8,
+    "number": 9
+  },
+  {
+    "id": "bento-12",
+    "composition": "bento",
+    "variant": "balanced",
+    "count": 12,
+    "number": 10
+  },
+  {
+    "id": "bento-seoul-12",
+    "composition": "bento",
+    "variant": "seoul",
+    "count": 12,
+    "number": 11
+  },
+  {
+    "id": "bento-recap-12",
+    "composition": "bento",
+    "variant": "recap",
+    "count": 12,
+    "number": 12
+  },
+  {
+    "id": "wall-5",
+    "composition": "icon-wall",
+    "count": 5,
+    "number": 13
+  },
+  {
+    "id": "wall-12",
+    "composition": "icon-wall",
+    "count": 12,
+    "number": 14
+  },
+  {
+    "id": "wall-22",
+    "composition": "icon-wall",
+    "count": 22,
+    "number": 15
+  },
+  {
+    "id": "wall-custom-3",
+    "composition": "icon-wall",
+    "count": 3,
+    "number": 16
+  },
+  {
+    "id": "preset-count-mismatch",
+    "composition": "document",
+    "warning": true,
+    "number": 17
+  },
+  {
+    "id": "icons-count-mismatch",
+    "composition": "document",
+    "warning": true,
+    "number": 18
+  },
+  {
+    "id": "wall-23",
+    "composition": "document",
+    "warning": true,
+    "number": 19
+  }
+]

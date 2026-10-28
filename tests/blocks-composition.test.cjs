@@ -10,7 +10,7 @@ const { planSlide } = require('../blocks.js');
 
 class Node {
   constructor(tag) {
-    this.tagName = tag; this.children = []; this.attrs = {}; this.dataset = {}; this.style = {}; this.className = ''; this.value = '';
+    this.tagName = tag; this.children = []; this.attrs = {}; this.dataset = {}; this.style = { setProperty(key, value) { this[key] = value; } }; this.className = ''; this.value = '';
     this.events = {};
     this.classList = { add: (...names) => { this.className += ' ' + names.join(' '); } };
   }
@@ -21,7 +21,7 @@ class Node {
   get textContent() { return this.value + this.children.map(child => child.textContent).join(''); }
 }
 const document = { createElement: tag => new Node(tag), createTextNode: value => Object.assign(new Node('#text'), { value }), createDocumentFragment: () => new Node('#fragment') };
-const context = { document, window: {} };
+const context = { document, window: { STAGE_MODEL: require('../deck-model.js') } };
 vm.runInNewContext(fs.readFileSync(require.resolve('../blocks.js'), 'utf8'), context);
 const renderer = context.window.StageBlocks;
 const nodes = root => [root, ...root.children.flatMap(nodes)];

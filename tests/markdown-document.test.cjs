@@ -209,3 +209,18 @@ test('the two authored eight-slide stories preserve semantic AST, references and
   }
   assert.equal(totalGroups,5);assert.equal(totalImages,10);
 });
+
+test('the two new reusable-layout stories keep their original AST, links, captions and source positions', () => {
+  const fs=require('node:fs'),path=require('node:path'),model=require('../deck-model.js');
+  for(const [name,count] of [['photo-essay',8],['community-exhibit',9]]){
+    const filename=path.join(__dirname,'../talks',name,'slides.md'),source=fs.readFileSync(filename,'utf8');
+    const deck=parseDocument(source,{sourcePath:'talks/'+name+'/slides.md',id:name});assert.equal(deck.slides.length,count);assert.deepEqual(model.validateDeck(deck),[]);
+    const masked=source.replace(/^<!-- stage-(?:slide|group)\n[\s\S]*?^-->[ \t]*$/gm,match=>match.split('\n').map(()=>'').join('\n'));
+    const canonical=parseDocument(masked);
+    deck.slides.forEach((slide,index)=>{assert.deepEqual(slide.heading,canonical.slides[index].heading);assert.deepEqual(slide.blocks,canonical.slides[index].blocks);});
+    assert.deepEqual(collectReferences(deck).map(ref=>({value:ref.owner[ref.key],position:ref.position})),collectReferences(canonical).map(ref=>({value:ref.owner[ref.key],position:ref.position})));
+    assert.equal(fs.readFileSync(filename,'utf8'),source);
+  }
+  const wall=parseDocument('# Custom\n\n- ![Own icon](./own.svg "Credit") **Label** [Reference](https://example.com)').slides[0];
+  assert.equal(wall.view,undefined);assert.equal(elements(wall.blocks,'img').length,1);assert.equal(elements(wall.blocks,'a').length,1);assert.equal(elements(wall.blocks,'strong').length,1);
+});

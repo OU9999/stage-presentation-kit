@@ -1,0 +1,473 @@
+{
+  "scope": "Independent Node VM semantics, source/links/images/list start and plan checks; no browser/ratio/aesthetic assertion",
+  "node": "v24.22.1",
+  "inputs": 25,
+  "slides": 54,
+  "planner": {
+    "bentoPlans": 36,
+    "wallPlans": 22,
+    "legacyComparisons": 6,
+    "baseline": "f1f76a9"
+  },
+  "results": [
+    {
+      "name": "product-notes",
+      "slides": [
+        {
+          "composition": "message",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "split",
+          "variant": null,
+          "images": 1,
+          "warnings": 0
+        },
+        {
+          "composition": "document",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "editorial",
+          "variant": null,
+          "images": 1,
+          "warnings": 0
+        },
+        {
+          "composition": "quote",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "message",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "document",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "closing",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "team-learning",
+      "slides": [
+        {
+          "composition": "message",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "media",
+          "variant": null,
+          "images": 1,
+          "warnings": 0
+        },
+        {
+          "composition": "gallery",
+          "variant": null,
+          "images": 3,
+          "warnings": 0
+        },
+        {
+          "composition": "mosaic",
+          "variant": null,
+          "images": 3,
+          "warnings": 0
+        },
+        {
+          "composition": "quote",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "editorial",
+          "variant": null,
+          "images": 1,
+          "warnings": 0
+        },
+        {
+          "composition": "document",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "closing",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "photo-essay",
+      "slides": [
+        {
+          "composition": "message",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "gallery",
+          "variant": "portraits",
+          "images": 6,
+          "warnings": 0
+        },
+        {
+          "composition": "gallery",
+          "variant": "strip",
+          "images": 4,
+          "warnings": 0
+        },
+        {
+          "composition": "quote",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "mosaic",
+          "variant": "staggered",
+          "images": 6,
+          "warnings": 0
+        },
+        {
+          "composition": "document",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "document",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "closing",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "community-exhibit",
+      "slides": [
+        {
+          "composition": "message",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "split",
+          "variant": null,
+          "images": 1,
+          "warnings": 0
+        },
+        {
+          "composition": "media",
+          "variant": null,
+          "images": 1,
+          "warnings": 0
+        },
+        {
+          "composition": "quote",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "bento",
+          "variant": "seoul",
+          "images": 4,
+          "warnings": 0
+        },
+        {
+          "composition": "document",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "icon-wall",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "icon-wall",
+          "variant": null,
+          "images": 3,
+          "warnings": 0
+        },
+        {
+          "composition": "closing",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "balanced-5",
+      "slides": [
+        {
+          "composition": "bento",
+          "variant": "balanced",
+          "images": 1,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "balanced-8",
+      "slides": [
+        {
+          "composition": "bento",
+          "variant": "balanced",
+          "images": 2,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "balanced-12",
+      "slides": [
+        {
+          "composition": "bento",
+          "variant": "balanced",
+          "images": 3,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "preset-seoul",
+      "slides": [
+        {
+          "composition": "bento",
+          "variant": "seoul",
+          "images": 3,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "preset-recap",
+      "slides": [
+        {
+          "composition": "bento",
+          "variant": "recap",
+          "images": 3,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "preset-count-mismatch",
+      "slides": [
+        {
+          "composition": "document",
+          "variant": null,
+          "images": 2,
+          "warnings": 1
+        }
+      ]
+    },
+    {
+      "name": "bento-prelude",
+      "slides": [
+        {
+          "composition": "document",
+          "variant": null,
+          "images": 1,
+          "warnings": 1
+        }
+      ]
+    },
+    {
+      "name": "wall-5",
+      "slides": [
+        {
+          "composition": "icon-wall",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "wall-12",
+      "slides": [
+        {
+          "composition": "icon-wall",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "wall-22",
+      "slides": [
+        {
+          "composition": "icon-wall",
+          "variant": null,
+          "images": 0,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "wall-overflow",
+      "slides": [
+        {
+          "composition": "document",
+          "variant": null,
+          "images": 0,
+          "warnings": 1
+        }
+      ]
+    },
+    {
+      "name": "wall-tail",
+      "slides": [
+        {
+          "composition": "document",
+          "variant": null,
+          "images": 0,
+          "warnings": 2
+        }
+      ]
+    },
+    {
+      "name": "wall-ordered-start",
+      "slides": [
+        {
+          "composition": "document",
+          "variant": null,
+          "images": 0,
+          "warnings": 2
+        }
+      ]
+    },
+    {
+      "name": "custom-wall",
+      "slides": [
+        {
+          "composition": "icon-wall",
+          "variant": null,
+          "images": 3,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "portraits-2",
+      "slides": [
+        {
+          "composition": "gallery",
+          "variant": "portraits",
+          "images": 2,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "portraits-3",
+      "slides": [
+        {
+          "composition": "gallery",
+          "variant": "portraits",
+          "images": 3,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "portraits-6",
+      "slides": [
+        {
+          "composition": "gallery",
+          "variant": "portraits",
+          "images": 6,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "strip-2",
+      "slides": [
+        {
+          "composition": "gallery",
+          "variant": "strip",
+          "images": 2,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "strip-3",
+      "slides": [
+        {
+          "composition": "gallery",
+          "variant": "strip",
+          "images": 3,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "strip-6",
+      "slides": [
+        {
+          "composition": "gallery",
+          "variant": "strip",
+          "images": 6,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "staggered-six",
+      "slides": [
+        {
+          "composition": "mosaic",
+          "variant": "staggered",
+          "images": 6,
+          "warnings": 0
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "scripts/markdown-document.cjs": "175d028ecd94dab6e026459124d8f26ff6ff00fbe70255e3b1225baf051e7bdc",
+    "deck-model.js": "53f266e64e754e57bf06531df5e58a7333db9fb8c64a5f29d96bf69de4c428e2",
+    "blocks.js": "6238a42a3298944a6d023cb81b3f73af9c6d3e038b1c8437c08b1fd307b5de32",
+    "blocks.css": "b513e16205a1f900a16d0dcbc4ae44000d3e561428f0264b500138ba1463f5a9",
+    "talks/product-notes/slides.md": "6b8e3dfcfb9837a34ad30681f902320fa3bc014d13855bd49ffe4dc670c2a3ce",
+    "talks/team-learning/slides.md": "a7b435f2869e037fa951e58efc9da6799898a368f4186a0909da0610e1c7cbe8",
+    "talks/photo-essay/slides.md": "4c9dcefb6832841129eafc25812c19172c1578b5b26e3104322148136841b9ac",
+    "talks/community-exhibit/slides.md": "e60d2b2b60624784d9a68ab4cdb88f9aeef0372ec11280e1c77cb14894bac8fe"
+  }
+}

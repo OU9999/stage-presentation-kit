@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960" role="img" aria-labelledby="title desc">
+  <title id="title">Shape study — original sample artwork</title>
+  <desc id="desc">Blue, orange, yellow and violet geometric solids floating above a dark surface. An independent illustration for a fictional presentation.</desc>
+  <defs>
+    <radialGradient id="background" cx="50%" cy="43%" r="76%"><stop stop-color="#263144"/><stop offset=".67" stop-color="#121820"/><stop offset="1" stop-color="#0c0e12"/></radialGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b6ddff"/><stop offset=".45" stop-color="#649af0"/><stop offset="1" stop-color="#2c4bb0"/></linearGradient>
+    <radialGradient id="orange" cx="31%" cy="23%" r="85%"><stop stop-color="#ffe2a7"/><stop offset=".39" stop-color="#f5a25f"/><stop offset=".76" stop-color="#d66d43"/><stop offset="1" stop-color="#7e3d35"/></radialGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d0baff"/><stop offset=".5" stop-color="#8b71d7"/><stop offset="1" stop-color="#55418f"/></linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffedb0"/><stop offset="1" stop-color="#d9a642"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <path fill="url(#background)" d="M0 0h720v960H0z"/>
+  <ellipse cx="363" cy="770" rx="252" ry="42" fill="#000" opacity=".48" filter="url(#shadow)"/>
+  <g transform="translate(126 292) rotate(-14 126 158)">
+    <path d="M0 45 198 0l56 53v251L56 350 0 297Z" fill="#253c77"/>
+    <path d="m0 45 198-45 56 53-198 47Z" fill="#bbdcfc"/>
+    <path d="m56 100 198-47v251L56 350Z" fill="url(#blue)"/>
+    <path d="m0 45 56 55v250L0 297Z" fill="#4163af"/>
+  </g>
+  <circle cx="469" cy="543" r="146" fill="url(#orange)"/>
+  <ellipse cx="429" cy="458" rx="51" ry="25" transform="rotate(-31 429 458)" fill="#ffe4b5" opacity=".23"/>
+  <g transform="translate(385 222) rotate(18 92 95)">
+    <path d="M0 0h156l32 37v156H32L0 156Z" fill="#946c29"/>
+    <path d="M0 0h156v156H0Z" fill="url(#yellow)"/>
+    <path d="m156 0 32 37v156l-32-37Z" fill="#ba8d3d"/>
+  </g>
+  <g transform="translate(239 655) rotate(-18 142 52)">
+    <path d="M24 0h236a26 26 0 0 1 24 26v50a26 26 0 0 1-24 26H24A24 24 0 0 1 0 78V24A24 24 0 0 1 24 0Z" fill="url(#violet)"/>
+    <path d="M24 8h236" fill="none" stroke="#ddd0ff" stroke-width="3" opacity=".6"/>
+  </g>
+  <g fill="#e6e8e9" font-family="Arial, sans-serif">
+    <text x="48" y="76" font-size="16" letter-spacing="3">STUDIO / SHAPE STUDIES</text>
+    <text x="48" y="891" font-size="17">Different forms. One space.</text>
+    <text x="48" y="921" font-size="12" fill="#939eac" letter-spacing="1">ORIGINAL ILLUSTRATION · FICTIONAL EXAMPLE</text>
+  </g>
+</svg>

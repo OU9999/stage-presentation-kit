@@ -1,0 +1,16 @@
+{
+  "baseline": "f1f76a9",
+  "preserved": [
+    "styles.css",
+    "visual.css",
+    "visual.js",
+    "talks/product-notes/slides.md",
+    "talks/team-learning/slides.md"
+  ],
+  "legacyApiComparisons": 33,
+  "sharedIcons": 20,
+  "runtimeFiles": 7,
+  "clonedRuntimeFiles": 21,
+  "versionReferences": 119,
+  "archivedEvidenceUnchanged": true
+}

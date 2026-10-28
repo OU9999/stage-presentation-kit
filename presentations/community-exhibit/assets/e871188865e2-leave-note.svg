@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Original STAGE example icon: leaving a note. No external brand artwork. -->
+  <path d="M15 8h25l11 11v37H15V8Z" stroke="#FF7A3D" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M40 8v12h11M24 30h18M24 39h18M24 48h11" stroke="#FF7A3D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

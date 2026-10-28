@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Original STAGE example icon: looking. No external brand artwork. -->
+  <path d="M7 32s9-16 25-16 25 16 25 16-9 16-25 16S7 32 7 32Z" stroke="#24A8FF" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="32" cy="32" r="8" fill="#24A8FF"/>
+</svg>

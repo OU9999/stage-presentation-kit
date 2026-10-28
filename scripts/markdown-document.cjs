@@ -5,13 +5,15 @@ const crypto = require('node:crypto');
 const MarkdownIt = require('markdown-it');
 const YAML = require('yaml');
 const legacy = require('./markdown-deck.cjs');
+const model = require('../deck-model.js');
 
 const md = new MarkdownIt({ html: false, linkify: false, typographer: false });
 const FRONT = new Set(['id', 'title', 'theme', 'speaker', 'date', 'footer']);
 const TAGS = new Set(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li', 'blockquote', 'pre', 'code', 'table', 'thead', 'tbody', 'tr', 'th', 'td', 'strong', 'em', 's', 'a', 'img', 'br', 'hr']);
 const UNSUPPORTED = new Set(['notes', 'appendix', 'role', 'sourceDownload']);
-const COMPOSITIONS = ['auto', 'message', 'split', 'media', 'gallery', 'mosaic', 'editorial', 'quote', 'closing', 'document'];
+const COMPOSITIONS = ['auto', 'message', 'split', 'media', 'gallery', 'mosaic', 'editorial', 'quote', 'closing', 'document', 'bento', 'icon-wall'];
 const TONES = ['orange', 'purple', 'blue', 'green', 'yellow', 'neutral'];
+const VARIANTS = ['portraits', 'strip', 'staggered', 'balanced', 'seoul', 'recap'];
 const own = (object, key) => Object.prototype.hasOwnProperty.call(object, key);
 const text = value => ({ type: 'text', value });
 const element = (tag, children, position, attrs) => ({ type: 'element', tag, ...(attrs && Object.keys(attrs).length ? { attrs } : {}), children, ...(position ? { position } : {}) });
@@ -254,12 +256,35 @@ function readControl(source, kind, line, fail) {
   try { values = document.contents === null ? {} : document.toJS({ maxAliasCount: 0 }); }
   catch (error) { fail('stage-' + kind + ': ' + error.message, line); }
   if (!values || typeof values !== 'object' || Array.isArray(values)) fail('stage-' + kind + '은 YAML key: value 객체여야 합니다.', line);
-  const allowed = kind === 'slide' ? ['compose', 'tone', 'fit', 'focus'] : ['tone', 'primary', 'fit', 'focus'];
+  const allowed = kind === 'slide' ? ['compose', 'tone', 'fit', 'focus', 'variant', 'icons'] : ['tone', 'primary', 'fit', 'focus', 'icon'];
   for (const [key, value] of Object.entries(values)) {
     if (!allowed.includes(key)) fail('stage-' + kind + "에서 지원하지 않는 키 '" + key + "'입니다.", line);
     if (key === 'compose' && !COMPOSITIONS.includes(value)) fail('compose: ' + COMPOSITIONS.join('/') + ' 중 하나를 사용하세요.', line);
     if (key === 'tone' && !TONES.includes(value)) fail('tone: ' + TONES.join('/') + ' 중 하나를 사용하세요.', line);
     if (key === 'fit' && !['contain', 'cover'].includes(value)) fail('fit: contain/cover 중 하나를 사용하세요.', line);
+    if (key === 'variant' && !VARIANTS.includes(value)) fail('variant: ' + VARIANTS.join('/') + ' 중 하나를 사용하세요.', line);
+    if (key === 'icon') {
+      const normalized = model.normalizeIcon(value);
+      if (!normalized) fail('icon: 기존 아이콘 이름 ' + model.iconNames.join('/') + ' 중 하나를 사용하세요.', line);
+      values.icon = normalized;
+    }
+    if (key === 'icons') {
+      if (!Array.isArray(value)) fail('icons는 아이콘 이름 또는 {icon, tone}의 배열이어야 합니다.', line);
+      values.icons = value.map((item, index) => {
+        if (typeof item === 'string') {
+          const normalized = model.normalizeIcon(item);
+          if (!normalized) fail('icons.' + index + ': 지원하지 않는 아이콘 이름입니다.', line);
+          return normalized;
+        }
+        if (!item || typeof item !== 'object' || Array.isArray(item)) fail('icons.' + index + ': 아이콘 이름 또는 {icon, tone} 객체를 사용하세요.', line);
+        for (const entry of Object.keys(item)) if (!['icon', 'tone'].includes(entry)) fail('icons.' + index + ': 지원하지 않는 키 ' + entry + '입니다.', line);
+        const normalized = model.normalizeIcon(item.icon);
+        if (!normalized) fail('icons.' + index + '.icon: 지원하는 기존 아이콘 이름이 필요합니다.', line);
+        if (item.tone !== undefined && !TONES.includes(item.tone)) fail('icons.' + index + '.tone: 지원하는 의미색을 사용하세요.', line);
+        return { icon: normalized, ...(item.tone !== undefined ? { tone: item.tone } : {}) };
+      });
+    }
+
     if (key === 'primary' && typeof value !== 'boolean') fail('primary는 true/false여야 합니다.', line);
     if (key === 'focus') {
       const normalizeFocus = position => {

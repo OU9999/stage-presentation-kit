@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Original STAGE example icon: asking. No external brand artwork. -->
+  <path d="M14 9h36a5 5 0 0 1 5 5v29a5 5 0 0 1-5 5H29L15 57v-9h-1a5 5 0 0 1-5-5V14a5 5 0 0 1 5-5Z" stroke="#A080FF" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M25 23a7 7 0 1 1 11 5.7c-3 1.5-4 2.5-4 5.3" stroke="#A080FF" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="41" r="2.5" fill="#A080FF"/>
+</svg>

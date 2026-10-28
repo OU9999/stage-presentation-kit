@@ -4,6 +4,28 @@
   "theme": "stage",
   "decks": [
     {
+      "id": "community-exhibit",
+      "source": "talks/community-exhibit/slides.md",
+      "slug": "community-exhibit",
+      "format": "markdown-v1",
+      "title": "작은 전시를 함께 여는 방법",
+      "links": {
+        "slides": "community-exhibit/index.html",
+        "read": "community-exhibit/read.html"
+      }
+    },
+    {
+      "id": "photo-essay",
+      "source": "talks/photo-essay/slides.md",
+      "slug": "photo-essay",
+      "format": "markdown-v1",
+      "title": "시선 사이에 남는 장면",
+      "links": {
+        "slides": "photo-essay/index.html",
+        "read": "photo-essay/read.html"
+      }
+    },
+    {
       "id": "product-notes",
       "source": "talks/product-notes/slides.md",
       "slug": "product-notes",

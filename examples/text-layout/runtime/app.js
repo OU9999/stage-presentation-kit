@@ -30,29 +30,8 @@
   var itemTones = tones.concat("white");
   var motions = ["none", "fade", "rise", "stagger", "chart"];
   var motionPreference = typeof window !== "undefined" && typeof window.matchMedia === "function" ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
-  // Original geometric drawings, with one viewBox and stroke weight; no font glyphs or brand logos.
-  var iconPaths = {
-    brain: "M9 5a3 3 0 0 0-5 2 3.5 3.5 0 0 0-1 6 3.5 3.5 0 0 0 4 5 3 3 0 0 0 5 2V5a3 3 0 0 0-3 0ZM15 5a3 3 0 0 1 5 2 3.5 3.5 0 0 1 1 6 3.5 3.5 0 0 1-4 5 3 3 0 0 1-5 2M7 8c3 0 3 4 1 5M5 14c2-1 4 0 4 2M17 8c-3 0-3 4-1 5M19 14c-2-1-4 0-4 2",
-    price: "M15.5 7.5c-1-2-6-2-6 1 0 3 6 2 6 5 0 3-5 3-7 1M12 4v15M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z",
-    speed: "m13 2-9 12h7l-1 8 10-13h-7l1-7Z",
-    image: "M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2ZM3 17l6-6 5 5 3-3 4 4M10 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z",
-    voice: "M3 10v4M7.5 6v12M12 3v18M16.5 7v10M21 10v4",
-    record: "M8 4H5v17h14V4h-3M8 2h8v5H8V2ZM8 11h8M8 15h8M8 18h5",
-    compare: "M3 7h16m-4-4 4 4-4 4M21 17H5m4-4-4 4 4 4",
-    select: "m4 3 6 17 3-7 7-3L4 3ZM14 15l5 5",
-    share: "M9 8l6-3M9 16l6 3M9 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM21 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM21 20a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z",
-    code: "m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18",
-    chart: "M3 3v18h18M7 16v-5M12 16V7M17 16V4",
-    search: "M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm-2 5 6 6",
-    book: "M12 5c-3-2-6-2-10-1v15c4-1 7-1 10 1 3-2 6-2 10-1V4c-4-1-7-1-10 1Zm0 0v15",
-    calendar: "M5 4h14a2 2 0 0 1 2 2v14H3V6a2 2 0 0 1 2-2ZM7 2v5m10-5v5M3 9h18M7 13h2m6 0h2M7 17h2m6 0h2",
-    mail: "M3 5h18v14H3V5Zm0 0 9 8 9-8",
-    globe: "M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM3 12h18M12 3c-5 5-5 13 0 18 5-5 5-13 0-18Z",
-    check: "m6 12 4 4 8-8M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z",
-    folder: "M3 5h7l2 3h9v12H3V5Z",
-    music: "M10 17V4l11-2v13M10 7l11-2M10 17c0 4-7 5-7 1 0-3 7-4 7-1Zm11-2c0 4-7 5-7 1 0-3 7-4 7-1Z",
-    spark: "m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5L12 2Z"
-  };
+  // Native and Markdown layouts share the same geometric drawings.
+  var iconPaths = model.iconPaths;
   var storageKey = "stage-kit:v1:" + (record(original) && typeof original.id === "string" ? original.id : "deck") + ":" + location.pathname;
   var sourceSignature;
   try { sourceSignature = JSON.stringify(original); } catch (_) { sourceSignature = null; }
@@ -434,6 +413,7 @@
         if (window.StageBlocks.renderSlide) {
           var renderedBlocks = window.StageBlocks.renderSlide(slide, blockOptions);
           article.dataset.composition = renderedBlocks.composition;
+          if (renderedBlocks.variant) article.dataset.variant = renderedBlocks.variant;
           if (renderedBlocks.quiet) article.classList.add("is-quiet");
           body.append(renderedBlocks.body);
         } else {
@@ -1029,9 +1009,11 @@
       if (outside(bounds, container) || (textBounds.width && outside(textBounds, container)) || clipped) add(path, "글자가 발표 영역을 벗어나거나 잘립니다. 문장을 줄이거나 슬라이드를 나누세요. 읽기 모드에서는 전체 내용을 확인할 수 있습니다.");
     });
     if (slide.dataset.layout === "blocks") {
-      slide.querySelectorAll(".block-node, .markdown-body img, .md-media figcaption").forEach(function (node) {
+      slide.querySelectorAll(".block-node, .markdown-body img, .md-media figcaption, .md-wall-label").forEach(function (node) {
         if (node.closest(".blocks-scroll") && !node.classList.contains("blocks-scroll")) return;
         var bounds = node.getBoundingClientRect();
+        var localTile = node.closest(".md-tile, .md-wall-item");
+        var localBounds = localTile ? localTile.getBoundingClientRect() : bodyBounds;
         var positioned = node.closest("[data-source-line]");
         var line = positioned ? positioned.dataset.sourceLine : "?";
         var source = (deck.document && deck.document.sourcePath || "Markdown") + ":" + line;
@@ -1042,7 +1024,8 @@
         var nodeStyle = getComputedStyle(node);
         var clipped = !scrollRegion && /^(hidden|clip|auto|scroll)$/.test(nodeStyle.overflowY) && node.clientHeight > 0 && node.scrollHeight > node.clientHeight + 6;
         if (node.dataset.mediaError) add(source, "이미지를 불러오지 못했습니다: " + node.dataset.mediaError);
-        else if (bounds.width && bounds.height && (outside(bounds, bodyBounds) || (!scrollRegion && glyphBounds.width && outside(glyphBounds, bodyBounds)) || clipped)) add(source, "원고 " + source + "의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.");
+        else if (node.tagName === "IMG" && (bounds.width <= 1 || bounds.height <= 1)) add(source, "원고 " + source + "의 이미지 표시 크기가 0에 가깝습니다. 장을 나누거나 배치를 확인하세요.");
+        else if (bounds.width && bounds.height && (outside(bounds, localBounds) || (!scrollRegion && glyphBounds.width && outside(glyphBounds, localBounds)) || clipped)) add(source, "원고 " + source + "의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.");
       });
     }
     body.querySelectorAll(".media-frame").forEach(function (frame) {

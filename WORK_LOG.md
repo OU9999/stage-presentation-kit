@@ -1,5 +1,21 @@
 # STAGE 작업 로그
 
+## 현재 구현 — 2026-10-28 재사용 배치와 Markdown 작성 통합
+
+- 최신 승인: 사용자가 팀원들과 회의해서 앞서 확인한 재사용성/작성 편의 개선을 진행하라고 지시했다. 직전 세 확인의 읽기전용 한계는 이번 실제 제품 구현 범위로 대체한다. 보고서만 추가하지 않고 구현·실제 다른 원고 검수·commit/push·Pages까지 완료한다.
+- 기준: 시작main HEAD f1f76a9·작업트리clean. git fetch origin과git pull --ff-only로최신임을확인했다. 이전감사/비율확인/229검사기록/기존16장원고는보존하고새작업은 research/reusable-layouts-20261028/에둔다.
+- 목표: 간단MD한원고에서기존2:5세로사진·4:3스트립·불균등모자이크·사진/문서/수치/인용/아이콘혼합타일과아이콘월을선택해재사용한다. 본문/이미지/라벨을JSON·HTML·CSS에다시입력하지않는다. 고정12프리셋은좋은선택지로보존하며5/8/12등자료수와5/12/22아이콘에서도사용가능한작성경로/균형배치를제공한다. 원고순서/의미/링크/alt·caption/read전문·개별초점·Stage/Paper색을유지한다.
+- 완료 기준: 양manager직접계약회의→디자인실무2명의CSS/새원고/작성기준→엔지니어링실무2명의parser/model/planner·renderer통합. 다른실제2주제와자료수변경·사진/아이콘교체·같은MD의read·390px·overview/presenter·기존legacy/native회귀·디자인독립후검수·공개Pages실화면을통과한다. 입력검증수/기존코드존재만으로미감/사용성합격을주장하지않는다.
+- 운영·소유: root만공통WORK_LOG·app통합·최종생성/브라우저/결과보드·README·Git전달을소유한다. 초기양manager만직접회의하고실무는동시4슬롯에맞춰디자인팀→엔지니어링팀으로순차실행한다. 디자인은blocks.css와신규talks2개/작성사양,엔지니어링A는parser/model/planner/tests,B는blocks.js·이양CSS·MARKDOWN-FIRST/통합tests를담당예정이다. 정확계약/파일범위는회의에서확정·직접인계한다.
+- 모델 확인(2026-10-28 04:08~04:11 UTC): 공식모델목록검색과 https://developers.openai.com/api/docs/models/gpt-6.1-sol 직접open으로최신Sol gpt-6.1-sol을재확인했다. 실제spawn catalog는 gpt-6.1-sol/gpt-6-astra/gpt-6.1-terra/gpt-6-sol/gpt-6-luna다. 기존manager/실무설정gpt-6.1-sol/high/초기fork none 요약재개를사용한다. 일반설계/구현/공용계약/통합범위이며같은작업내재배정은이스냅샷을대조한다. 시작manager2명과이전writer전원종료확인,중복writer0. capacity시확인후canonical재개최대1회,반복실패뒤소유/체크포인트인계확인하고새담당을결정한다.
+- 초기직접회의완료: 양manager가상호수신했다. gallery variant portraits/strip, mosaic variant staggered, compose bento/icon-wall, bento balanced기본+12seoul/recap선택을합의했다. 혼합은기존H2그룹+stage-group icon,wall은원list와icons이름/의미색배열결속(본문/label중복0),allcustom image-first목록도icons선택없이쓰도록root/DM합의했다. schema오류와유효수량/preset미스매치의원문fallback경고를구분한다. model.iconPaths20개공유·새pureplanBento/planIconWall·기존packMosaic를재사용하고기존nativeplanner는보존한다. DOM/CSSslot변수·반환variant계약을인수했고rootapp dataset연결완료다. EM은실무미재개상태로종료/슬롯반환,DM기존A/B가blocks CSS와신규talks/photo-essay·community-exhibit2서사를실제구현중이다.
+- 디자인구현인수: DM과A/B전원편집종료·CSS단독소유를engineeringB에게이양했다. 새photo-essay8장/community-exhibit9장총17장·자체SVG3개·scopedCSS를실질작성/직접교차검수후인수했다. sourceSHA photo4c9dcefb/exhibit e60d2b2b, CSS ea5ca9a9. compose명시8/기본9·장설정11·그룹설정12·builtin12/custom3이다. root는자체SVG3개의신규talk하위supportasset소유확장을허용했다. 사진5wideportrait초점0/역전면아이콘Stage·Paper대비는정적후보교정뒤실화면인수대상이다. EM을구현재개해A parser/model/planner/iconPaths·B renderer/CSS/문서두실무자배정을지시했다. root는19독립입력generator를준비했고4코드freeze후실행한다.
+- 통합 준비: model.iconPaths20개를HEAD app원본객체와독립VM대조한뒤root가공유참조로연결했다. app은variant와타일/아이콘별로컬넘침·표시크기0이미지를진단한다. root는19독립수량/실패입력·구원고/legacyAPI/7runtime보존검사·임시project의사진2→3/그룹5→8/wall5→12·label/link/customsrc교체와누락자산last-good검수를준비했다. orderedwall은번호를숨기지않도록원ol/start문서fallback으로계약을좁혔다. engineering4소스freeze인수후생성/실브라우저를실행한다.
+- 구현/실검수완료: engineeringA/B와manager전원편집종료·직접교차인수했다. 전체245/245·새17장원문텍스트일치/로컬넘침·이미지실패·오류0,19독립입력(정상16/fallback3)·정확사진비율·Stage/Paper8대표·390px17장/read#5약92·저장0을확인했다. 격리원고의사진2→3/H2 5→8/wall5→12/숫자·라벨·링크·customsrc변경과SSE자동새로고침/누락이미지last-good/복구가통과했다. 검수runner가Egohelper를NodeCLI로잘못실행한환경오류는원고불변을확인하고설치Node경로로교정해같은TaskSpace62에서재개했다.
+- 교정/독립인수: root정량후검수의Stageyellowstroke/plate2.7975를EM단독CSS mix70→65%한줄로보완,geometry/custom/본문불변을assert했다. 최종Stage5색최소3.182647/Paper5.109290이며DM이35PNG를직접열어최종필수미감교정0으로인수했다. DM소유spec의12gridcell오기도실제8cell로교정했다. 구원고/styles/visual보존·legacy33기하비교·20SVG·runtime21사본/119hash참조일치,기존46장실화면/overview9/presenter양방향/상호read링크도통과했다.
+- 최종로컬인수: 245/245를최종CSS와다시실행했고생성48파일repeatbuild가바이트동일하다.19입력전체read전문일치·fallback3개,보드6배치선택/정상16수량공개예제경고0/390px가로넘침0/로컬참조누락0을확인했다. lazy이미지는실제End/Home스크롤로로드를확인해검수대기의가정을교정했으며제품오류는없다. 양manager에게검수/커밋·Pages검증순서를직접통보했다.
+- 미완료: 기능커밋/푸시·공개Pages실확인·검증기록전달.
+
 ## 현재 평가 — 2026-10-28 기존 구성의 재사용성과 작성 편의
 
 - 최신 지침: 사용자가 앞서 찾은 사진/혼합타일/아이콘grid들이 재사용 가능하고 잘 쓰기 쉽게 되어 있는지 평가해 달라고 물었다. 기준HEAD f877a24·작업트리clean이다. 기존 위치 확인에서 실제 재사용 범위와 작성 부담 평가로 넓힌다.
