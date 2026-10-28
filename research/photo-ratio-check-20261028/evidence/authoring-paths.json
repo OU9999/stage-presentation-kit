@@ -1,0 +1,32 @@
+[
+  {
+    "id": "plain-six",
+    "layout": "blocks",
+    "composition": "gallery",
+    "issues": [],
+    "source": "![거리에서 휴대폰으로 장면을 기록하는 인물](assets/photos/capture.jpg)\n\n![창가에서 헤드폰을 쓰고 노트북을 사용하는 인물](assets/photos/listen.jpg)\n\n![야외 테이블에서 노트에 생각을 적는 인물](assets/photos/write.jpg)\n\n![한쪽 눈에 돋보기를 대고 관찰하는 인물](assets/photos/observe.jpg)\n\n![작업 공간에서 현금을 들고 앉아 있는 인물](assets/photos/portrait-one.jpg)\n\n![도시 거리에서 갈색 옷을 입고 서 있는 인물](assets/photos/portrait-two.jpg)"
+  },
+  {
+    "id": "legacy-portraits",
+    "layout": "gallery",
+    "variant": "portraits",
+    "composition": null,
+    "images": 6,
+    "issues": [],
+    "source": "<!-- stage\nlayout: gallery\nvariant: portraits\nquiet: true\n-->\n\n![거리에서 휴대폰으로 장면을 기록하는 인물](assets/photos/capture.jpg)\n\n![창가에서 헤드폰을 쓰고 노트북을 사용하는 인물](assets/photos/listen.jpg)\n\n![야외 테이블에서 노트에 생각을 적는 인물](assets/photos/write.jpg)\n\n![한쪽 눈에 돋보기를 대고 관찰하는 인물](assets/photos/observe.jpg)\n\n![작업 공간에서 현금을 들고 앉아 있는 인물](assets/photos/portrait-one.jpg)\n\n![도시 거리에서 갈색 옷을 입고 서 있는 인물](assets/photos/portrait-two.jpg)"
+  },
+  {
+    "id": "legacy-strip",
+    "layout": "gallery",
+    "variant": "strip",
+    "composition": null,
+    "images": 6,
+    "issues": [],
+    "source": "<!-- stage\nlayout: gallery\nvariant: strip\nquiet: true\n-->\n\n![거리에서 휴대폰으로 장면을 기록하는 인물](assets/photos/capture.jpg)\n\n![창가에서 헤드폰을 쓰고 노트북을 사용하는 인물](assets/photos/listen.jpg)\n\n![야외 테이블에서 노트에 생각을 적는 인물](assets/photos/write.jpg)\n\n![한쪽 눈에 돋보기를 대고 관찰하는 인물](assets/photos/observe.jpg)\n\n![작업 공간에서 현금을 들고 앉아 있는 인물](assets/photos/portrait-one.jpg)\n\n![도시 거리에서 갈색 옷을 입고 서 있는 인물](assets/photos/portrait-two.jpg)"
+  },
+  {
+    "id": "stage-slide-portraits",
+    "source": "<!-- stage-slide\ncompose: gallery\nvariant: portraits\n-->\n\n![A](a.jpg)\n\n![B](b.jpg)",
+    "error": "slides.md:1: stage-slide에서 지원하지 않는 키 'variant'입니다."
+  }
+]
