@@ -1,6 +1,6 @@
 # STAGE 작업 로그
 
-## 현재 제작 — 2026-10-28 LLM Wiki·지식 축적·출처·결정 기록
+## 제작 완료 — 2026-10-28 LLM Wiki·지식 축적·출처·결정 기록
 
 - 최신 지침: 실제 발표자료를 조사해 넣는다. 사용자가 coordinate·manager와 리서치·엔지니어링·발표 전문가 팀을 명시했다. 확정 청중/형식은 줌에서 가볍게 하는 AI 스터디, 약 20분이다. 앞선 개발자 대상 가정은 이 지침으로 대체한다.
 - 기준: main HEAD69bdbd5, 시작 clean. git fetch origin / git pull --ff-only로 최신을 확인했다. 기존 원고·공개 주소·DevDay 색/배치와 runtime을 보존한다. 기존 팀은 모두 완료 상태이며 이번 조사 writer는 아직 없다.
@@ -23,7 +23,9 @@
 - root 최종검증: 전체250/250·build:site/verify:site통과,기존13파일SHA불변. 신규원고추가로기존검사2개의4개고정가정을발견해실제source목록과manifest목록동등성검사로고쳤다. 생성물source revision과브라우저revision을대조한12장최종캡처/5교정장실독·Paper4장실독·390px12장전문순서/18px/가로넘침0·3이미지alt/contain/실패0·hash7약90px·storage/edit0을확인했다.
 - 후점검: overview12/preview링크0,발표자현재/다음각1과양방향이동,첨부4클릭→다운로드→생성물SHA동일을확인했다. 기존4323서버txt는octet-stream이므로URL이동대신download가정으로검수스크립트를교정했다(제품결함아님). 수정원고의hash이동만으로재load되지않는촬영조건은revision query/각round계측으로교정해재검수했다. 최종root소유writer외0,기존Space/서버보존.
 - 전달준비: talks/llm-wiki/README와root진입링크, 12장화면보드research/llm-wiki-20261028/index.html 및RESULT/최종근거를완성했다. user기존승인에따라commit스킬로논리단위기능커밋·푸시후Pages동일SHA와공개자산·read·첨부를확인한다.
-- 미완료: commit/push·Pages공개검수와최종기록전달.
+- 공개인수완료: 기능824cf3ae70412074b4927eccfee4ef4d942a38e6을main에push,Pages run40657676998 동일SHA success/API built확인. 공개36파일200/로컬바이트동일·12장동일원고revision/오류0·390pxread12장가로넘침0·첨부4실제클릭/UTF-8전문동일을확인했다. 근거는DEPLOYMENT/publicHTTP/publicbrowser/API JSON에보관한다.
+- 종료: TaskSpace76 계측p1을닫고계측없는공개5장p4만남겨finish정확히1회성공했다. 기존사용자Space/서버4323보존,다른writer0. 세manager에게실제공개결과/최종소유권유지를직접통보한다. 제품은공개검수824cf3a와같고검증기록만후속커밋·푸시한다.
+- 미완료: 발표제작·조사·검증·기능push/공개인수에는없다. 검증기록후속커밋의원격/최신Pages동기화를직후확인해보고한다.
 
 ## 현재 구현 — 2026-10-28 재사용 프로젝트의 빌드·템플릿·스타터 정리
 
