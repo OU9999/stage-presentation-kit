@@ -1,0 +1,1107 @@
+{
+  "starter": [
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/starters/markdown/presentations/my-talk/#1",
+      "title": "질문에서 다음 행동으로 — Stage",
+      "index": "0",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "좋은 질문을, 함께 만듭니다.",
+      "headingSize": "118px",
+      "text": "좋은 질문을, 함께 만듭니다.같은 장면을 보고, 다음에 확인할 일을 고르는 짧은 모임입니다.스톡 사진과 가상 진행 계획을 사용한 예시입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "함께 만듭니다.",
+          "color": "rgb(36, 168, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/starters/markdown/presentations/my-talk/#2",
+      "title": "질문에서 다음 행동으로 — Stage",
+      "index": "1",
+      "layout": "blocks",
+      "composition": "gallery",
+      "variant": "portraits",
+      "headingSize": null,
+      "text": "기록하기듣기적기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/2751c9fe1a7d-capture.jpg",
+          "alt": "휴대폰으로 장면을 기록하는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "68% 45%",
+          "box": {
+            "x": 219.36000061035156,
+            "y": 231.13467407226562,
+            "width": 194.87998962402344,
+            "height": 487.1999816894531,
+            "right": 414.239990234375,
+            "bottom": 718.3346557617188
+          }
+        },
+        {
+          "src": "assets/b492caded632-listen.jpg",
+          "alt": "헤드폰을 쓰고 노트북 앞에 있는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 2397,
+          "fit": "cover",
+          "focus": "52% 40%",
+          "box": {
+            "x": 622.5599975585938,
+            "y": 231.13467407226562,
+            "width": 194.8800048828125,
+            "height": 487.1999816894531,
+            "right": 817.4400024414062,
+            "bottom": 718.3346557617188
+          }
+        },
+        {
+          "src": "assets/478e6580030c-write.jpg",
+          "alt": "야외 테이블에서 노트에 쓰는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "45% 50%",
+          "box": {
+            "x": 1025.760009765625,
+            "y": 231.13467407226562,
+            "width": 194.8800048828125,
+            "height": 487.1999816894531,
+            "right": 1220.6400146484375,
+            "bottom": 718.3346557617188
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/starters/markdown/presentations/my-talk/#3",
+      "title": "질문에서 다음 행동으로 — Stage",
+      "index": "2",
+      "layout": "blocks",
+      "composition": "bento",
+      "variant": "balanced",
+      "heading": "다음 대화에 가져갈 단서",
+      "headingSize": "60px",
+      "text": "다음 대화에 가져갈 단서함께 볼 장면생각을 적는 장면남길 질문3 개가상 모임의 진행 계획대화의 원칙관찰과 짐작을 구분합니다.먼저 할 일장면을 고릅니다.질문을 남깁니다.다시 찾을 기록함께 읽을 메모에 다음 행동을 남깁니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/478e6580030c-write.jpg",
+          "alt": "노트에 생각을 적는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "45% 43%",
+          "box": {
+            "x": 126.1199951171875,
+            "y": 282.03997802734375,
+            "width": 388.0799560546875,
+            "height": 476.87060546875,
+            "right": 514.199951171875,
+            "bottom": 758.9105834960938
+          }
+        }
+      ],
+      "tiles": [
+        {
+          "kind": "image",
+          "text": "함께 볼 장면생각을 적는 장면",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 281.20001220703125,
+            "width": 389.7599792480469,
+            "height": 505.67999267578125,
+            "right": 515.0399780273438,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "value",
+          "tone": "orange",
+          "text": "남길 질문3 개가상 모임의 진행 계획",
+          "box": {
+            "x": 525.1199951171875,
+            "y": 281.20001220703125,
+            "width": 389.75994873046875,
+            "height": 247.79998779296875,
+            "right": 914.8799438476562,
+            "bottom": 529
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(246, 246, 244, 0.043)"
+        },
+        {
+          "kind": "quote",
+          "tone": "purple",
+          "text": "대화의 원칙관찰과 짐작을 구분합니다.",
+          "box": {
+            "x": 924.9599609375,
+            "y": 281.20001220703125,
+            "width": 389.760009765625,
+            "height": 247.79998779296875,
+            "right": 1314.719970703125,
+            "bottom": 529
+          },
+          "color": "rgb(8, 8, 8)",
+          "background": "color(srgb 0.924235 0.909176 0.962039)"
+        },
+        {
+          "kind": "list",
+          "tone": "green",
+          "text": "먼저 할 일장면을 고릅니다.질문을 남깁니다.",
+          "box": {
+            "x": 525.1199951171875,
+            "y": 539.0799560546875,
+            "width": 389.75994873046875,
+            "height": 247.800048828125,
+            "right": 914.8799438476562,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "color(srgb 0.0694118 0.109412 0.0792157)"
+        },
+        {
+          "kind": "text",
+          "text": "다시 찾을 기록함께 읽을 메모에 다음 행동을 남깁니다.",
+          "box": {
+            "x": 924.9599609375,
+            "y": 539.0799560546875,
+            "width": 389.760009765625,
+            "height": 247.800048828125,
+            "right": 1314.719970703125,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(8, 8, 8)",
+          "background": "color(srgb 0.865882 0.928 0.962039)"
+        }
+      ],
+      "wall": null,
+      "accents": [
+        {
+          "text": "함께 볼 장면",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "남길 질문",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "text": "3",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "대화의 원칙",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "text": "먼저 할 일",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "다시 찾을 기록",
+          "color": "rgb(8, 8, 8)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/starters/markdown/presentations/my-talk/#4",
+      "title": "질문에서 다음 행동으로 — Stage",
+      "index": "3",
+      "layout": "blocks",
+      "composition": "icon-wall",
+      "heading": "질문을, 다음 대화로.",
+      "headingSize": "92px",
+      "text": "질문을, 다음 대화로.살피기듣기기록하기확인하기나누기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [
+        {
+          "tone": "blue",
+          "text": "살피기",
+          "box": {
+            "x": 426.41998291015625,
+            "y": 195.51998901367188,
+            "width": 135.45001220703125,
+            "height": 110.20407104492188,
+            "right": 561.8699951171875,
+            "bottom": 305.72406005859375
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tone": "orange",
+          "text": "듣기",
+          "box": {
+            "x": 1028.699951171875,
+            "y": 195.51998901367188,
+            "width": 135.4500732421875,
+            "height": 110.20407104492188,
+            "right": 1164.1500244140625,
+            "bottom": 305.72406005859375
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tone": "green",
+          "text": "기록하기",
+          "box": {
+            "x": 1179.27001953125,
+            "y": 676.6627807617188,
+            "width": 135.449951171875,
+            "height": 110.21063232421875,
+            "right": 1314.719970703125,
+            "bottom": 786.8734130859375
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tone": "yellow",
+          "text": "확인하기",
+          "box": {
+            "x": 576.989990234375,
+            "y": 676.6627807617188,
+            "width": 135.45001220703125,
+            "height": 110.21063232421875,
+            "right": 712.4400024414062,
+            "bottom": 786.8734130859375
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tone": "purple",
+          "text": "나누기",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 556.3787231445312,
+            "width": 135.44998168945312,
+            "height": 110.2041015625,
+            "right": 260.72998046875,
+            "bottom": 666.5828247070312
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "wall": {
+        "x": 275.8499755859375,
+        "y": 315.8040771484375,
+        "width": 888.300048828125,
+        "height": 350.7852783203125,
+        "right": 1164.1500244140625,
+        "bottom": 666.58935546875
+      },
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/starters/markdown/presentations/my-talk/#5",
+      "title": "질문에서 다음 행동으로 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "모임이 끝나면, 한 문장을 남깁니다.",
+      "headingSize": "72px",
+      "text": "모임이 끝나면, 한 문장을 남깁니다.읽기 메모를 따라 관찰과 짐작을 나눕니다.아직 모르는 질문 하나를 고릅니다.다음에 확인할 행동을 적습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/starters/markdown/presentations/my-talk/#6",
+      "title": "질문에서 다음 행동으로 — Stage",
+      "index": "5",
+      "layout": "blocks",
+      "composition": "closing",
+      "heading": "질문 하나가, 다음 행동으로.",
+      "headingSize": "110px",
+      "text": "질문 하나가, 다음 행동으로.작게 정하고, 같은 장면에서 다시 확인합니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "다음 행동으로.",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    }
+  ],
+  "existing": [
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/presentations/community-exhibit/#5",
+      "title": "작은 전시를 함께 여는 방법 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "bento",
+      "variant": "seoul",
+      "headingSize": null,
+      "text": "놓아 볼 작품12 점가상 전시 계획준비의 기록기록하는 장면함께 던질 질문3 개관람을 여는 단서작은 전시의 표지자체 제작 가상 표지첫 질문어떤 장면이 남았나요?형태의 단서자체 제작 도형세 가지 관점장면질문다음 행동첫 안내작품 하나를 먼저 골라 보세요.함께 읽을 안내자체 제작 가상 문서함께 읽는 시간2 회가상 운영 계획관람의 흐름들어오기살펴보기남기기문을 열기 전에표지 놓기동선 걷기질문 읽기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/478e6580030c-write.jpg",
+          "alt": "노트에 쓰는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "45% 43%",
+          "box": {
+            "x": 426,
+            "y": 196.36000061035156,
+            "width": 288.1199951171875,
+            "height": 164.49562072753906,
+            "right": 714.1199951171875,
+            "bottom": 360.8556213378906
+          }
+        },
+        {
+          "src": "assets/7425a10ee3a3-poster.svg",
+          "alt": "아이디어를 위한 공간이라는 문구가 있는 자체 제작 포스터",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 1025.760009765625,
+            "y": 196.36000061035156,
+            "width": 288.1199951171875,
+            "height": 364.97344970703125,
+            "right": 1313.8800048828125,
+            "bottom": 561.3334503173828
+          }
+        },
+        {
+          "src": "assets/81cd1d19bbb8-shape-study.svg",
+          "alt": "색이 다른 입체 도형을 담은 자체 제작 그림",
+          "complete": true,
+          "naturalWidth": 720,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 326.03997802734375,
+            "y": 396.8377990722656,
+            "width": 188.15997314453125,
+            "height": 166.12313842773438,
+            "right": 514.199951171875,
+            "bottom": 562.9609375
+          }
+        },
+        {
+          "src": "assets/1c6df0654172-report.svg",
+          "alt": "관찰 순서를 정리한 자체 제작 가상 문서",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 126.1199951171875,
+            "y": 597.3156127929688,
+            "width": 288.1199951171875,
+            "height": 164.502197265625,
+            "right": 414.239990234375,
+            "bottom": 761.8178100585938
+          }
+        }
+      ],
+      "tiles": [
+        {
+          "kind": "value",
+          "tone": "blue",
+          "text": "놓아 볼 작품12 점가상 전시 계획",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 195.51998901367188,
+            "width": 289.79998779296875,
+            "height": 190.39779663085938,
+            "right": 415.0799865722656,
+            "bottom": 385.91778564453125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(246, 246, 244, 0.043)"
+        },
+        {
+          "kind": "image",
+          "text": "준비의 기록기록하는 장면",
+          "box": {
+            "x": 425.15997314453125,
+            "y": 195.51998901367188,
+            "width": 289.79998779296875,
+            "height": 190.39779663085938,
+            "right": 714.9599609375,
+            "bottom": 385.91778564453125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "value",
+          "tone": "orange",
+          "text": "함께 던질 질문3 개관람을 여는 단서",
+          "box": {
+            "x": 725.0399780273438,
+            "y": 195.51998901367188,
+            "width": 289.79998779296875,
+            "height": 190.39779663085938,
+            "right": 1014.8399658203125,
+            "bottom": 385.91778564453125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(246, 246, 244, 0.043)"
+        },
+        {
+          "kind": "image",
+          "text": "작은 전시의 표지자체 제작 가상 표지",
+          "box": {
+            "x": 1024.919921875,
+            "y": 195.51998901367188,
+            "width": 289.800048828125,
+            "height": 390.8756408691406,
+            "right": 1314.719970703125,
+            "bottom": 586.3956298828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "quote",
+          "tone": "purple",
+          "text": "첫 질문어떤 장면이 남았나요?",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 395.997802734375,
+            "width": 189.83999633789062,
+            "height": 190.3978271484375,
+            "right": 315.1199951171875,
+            "bottom": 586.3956298828125
+          },
+          "color": "rgb(8, 8, 8)",
+          "background": "color(srgb 0.924235 0.909176 0.962039)"
+        },
+        {
+          "kind": "image",
+          "text": "형태의 단서자체 제작 도형",
+          "box": {
+            "x": 325.1999816894531,
+            "y": 395.997802734375,
+            "width": 189.83999633789062,
+            "height": 190.3978271484375,
+            "right": 515.0399780273438,
+            "bottom": 586.3956298828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "list",
+          "tone": "green",
+          "text": "세 가지 관점장면질문다음 행동",
+          "box": {
+            "x": 525.1199951171875,
+            "y": 395.997802734375,
+            "width": 189.8399658203125,
+            "height": 190.3978271484375,
+            "right": 714.9599609375,
+            "bottom": 586.3956298828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "color(srgb 0.0694118 0.109412 0.0792157)"
+        },
+        {
+          "kind": "text",
+          "text": "첫 안내작품 하나를 먼저 골라 보세요.",
+          "box": {
+            "x": 725.0399780273438,
+            "y": 395.997802734375,
+            "width": 289.79998779296875,
+            "height": 190.3978271484375,
+            "right": 1014.8399658203125,
+            "bottom": 586.3956298828125
+          },
+          "color": "rgb(8, 8, 8)",
+          "background": "color(srgb 0.865882 0.928 0.962039)"
+        },
+        {
+          "kind": "image",
+          "text": "함께 읽을 안내자체 제작 가상 문서",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 596.4755859375,
+            "width": 289.79998779296875,
+            "height": 190.4044189453125,
+            "right": 415.0799865722656,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "value",
+          "tone": "purple",
+          "text": "함께 읽는 시간2 회가상 운영 계획",
+          "box": {
+            "x": 425.15997314453125,
+            "y": 596.4755859375,
+            "width": 289.79998779296875,
+            "height": 190.4044189453125,
+            "right": 714.9599609375,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(246, 246, 244, 0.043)"
+        },
+        {
+          "kind": "list",
+          "text": "관람의 흐름들어오기살펴보기남기기",
+          "box": {
+            "x": 725.0399780273438,
+            "y": 596.4755859375,
+            "width": 289.79998779296875,
+            "height": 190.4044189453125,
+            "right": 1014.8399658203125,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "color(srgb 0.0423529 0.0941177 0.128235)"
+        },
+        {
+          "kind": "list",
+          "text": "문을 열기 전에표지 놓기동선 걷기질문 읽기",
+          "box": {
+            "x": 1024.919921875,
+            "y": 596.4755859375,
+            "width": 289.800048828125,
+            "height": 190.4044189453125,
+            "right": 1314.719970703125,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "color(srgb 0.0423529 0.0941177 0.128235)"
+        }
+      ],
+      "wall": null,
+      "accents": [
+        {
+          "text": "놓아 볼 작품",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "text": "12",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "준비의 기록",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "함께 던질 질문",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "text": "3",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "작은 전시의 표지",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "첫 질문",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "text": "형태의 단서",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "세 가지 관점",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "첫 안내",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "text": "함께 읽을 안내",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "함께 읽는 시간",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "text": "2",
+          "color": "rgb(160, 128, 255)"
+        },
+        {
+          "text": "관람의 흐름",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "문을 열기 전에",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/presentations/photo-essay/#2",
+      "title": "시선 사이에 남는 장면 — Stage",
+      "index": "1",
+      "layout": "blocks",
+      "composition": "gallery",
+      "variant": "portraits",
+      "headingSize": null,
+      "text": "기록하기듣기적기들여다보기일상에서밖으로",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/2751c9fe1a7d-capture.jpg",
+          "alt": "휴대폰을 들고 장면을 기록하는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "68% 45%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 247.9346923828125,
+            "width": 181.44000244140625,
+            "height": 453.5999755859375,
+            "right": 306.7200012207031,
+            "bottom": 701.53466796875
+          }
+        },
+        {
+          "src": "assets/b492caded632-listen.jpg",
+          "alt": "헤드폰을 쓰고 노트북 앞에 앉은 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 2397,
+          "fit": "cover",
+          "focus": "52% 40%",
+          "box": {
+            "x": 326.8800048828125,
+            "y": 247.9346923828125,
+            "width": 181.43997192382812,
+            "height": 453.5999755859375,
+            "right": 508.3199768066406,
+            "bottom": 701.53466796875
+          }
+        },
+        {
+          "src": "assets/478e6580030c-write.jpg",
+          "alt": "노트에 글을 쓰는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "45% 50%",
+          "box": {
+            "x": 528.47998046875,
+            "y": 247.9346923828125,
+            "width": 181.44000244140625,
+            "height": 453.5999755859375,
+            "right": 709.9199829101562,
+            "bottom": 701.53466796875
+          }
+        },
+        {
+          "src": "assets/8b3f37a204ad-observe.jpg",
+          "alt": "한쪽 눈 앞에 돋보기를 댄 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "48% 34%",
+          "box": {
+            "x": 730.0799560546875,
+            "y": 247.9346923828125,
+            "width": 181.44000244140625,
+            "height": 453.5999755859375,
+            "right": 911.5199584960938,
+            "bottom": 701.53466796875
+          }
+        },
+        {
+          "src": "assets/d027d13049e7-portrait-one.jpg",
+          "alt": "작업 공간에서 현금을 들고 앉은 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 2400,
+          "fit": "cover",
+          "focus": "48% 30%",
+          "box": {
+            "x": 931.6799926757812,
+            "y": 247.9346923828125,
+            "width": 181.44000244140625,
+            "height": 453.5999755859375,
+            "right": 1113.1199951171875,
+            "bottom": 701.53466796875
+          }
+        },
+        {
+          "src": "assets/b4e1f667597d-portrait-two.jpg",
+          "alt": "도시 거리에서 갈색 옷을 입고 선 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 2397,
+          "fit": "cover",
+          "focus": "49% 28%",
+          "box": {
+            "x": 1133.2799072265625,
+            "y": 247.9346923828125,
+            "width": 181.4400634765625,
+            "height": 453.5999755859375,
+            "right": 1314.719970703125,
+            "bottom": 701.53466796875
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": null
+    },
+    {
+      "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/#4",
+      "title": "화면이 설명하는 발표 — 현장 구성 양식 — Stage",
+      "index": "3",
+      "layout": "bento",
+      "variant": "editorial",
+      "headingSize": null,
+      "text": "24개남겨 둔 관찰작은 장면을 놓치지 않기6가지함께 묶은 주제A FIELD STUDYFieldNotes.관찰을 다음 행동으로.기록 / 분류 / 다음 행동STUDY\nEDITION기록 조각 / 08“처음에\n어디로 가죠?”듣고 남긴 장면맥락까지\n함께 기록하기.동선안내첫 경험정리한 주제 중 일부다음 행동1 / 3✓첫 화면의 안내 고치기01한 장으로 정리한 발견시작의 장벽안내가 늦다.동선이 안 보인다.선택지가 많다.3개정해 둔 다음 행동1기록2분류3결정다음 일을 정하는 흐름공유된 실행 목록첫 안내 앞당기기다음 동선 보이기처음 고를 일 줄이기Field Notes · 한 프로젝트의 결과물을 회수하는 가상 예제 · 자체 제작 UI·문서·도식 + Pexels 스톡 사진",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "../../assets/photos/write.jpg",
+          "alt": "관찰 기록이라는 가상 이야기에 쓰인 필기 장면 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "42% 43%",
+          "box": {
+            "x": 426,
+            "y": 196.36000061035156,
+            "width": 288.1199951171875,
+            "height": 190.11561584472656,
+            "right": 714.1199951171875,
+            "bottom": 386.4756164550781
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "editableNodes": 0,
+      "localStorageCalls": [
+        {
+          "method": "getItem",
+          "key": "stage-kit:v1:example-devday-compositions:/stage-presentation-kit/examples/devday-compositions/"
+        }
+      ],
+      "filename": null
+    }
+  ],
+  "paper": {
+    "theme": "paper",
+    "tiles": 5
+  },
+  "overview": {
+    "cards": 6,
+    "tiles": 5,
+    "links": 0
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "slides": [
+      {
+        "number": 1,
+        "matches": true,
+        "images": []
+      },
+      {
+        "number": 2,
+        "matches": true,
+        "images": [
+          {
+            "naturalWidth": 1600,
+            "alt": "휴대폰으로 장면을 기록하는 인물의 스톡 사진",
+            "fit": "contain"
+          },
+          {
+            "naturalWidth": 1600,
+            "alt": "헤드폰을 쓰고 노트북 앞에 있는 인물의 스톡 사진",
+            "fit": "contain"
+          },
+          {
+            "naturalWidth": 1600,
+            "alt": "야외 테이블에서 노트에 쓰는 인물의 스톡 사진",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "matches": true,
+        "images": [
+          {
+            "naturalWidth": 1600,
+            "alt": "노트에 생각을 적는 인물의 스톡 사진",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "matches": true,
+        "images": []
+      },
+      {
+        "number": 5,
+        "matches": true,
+        "images": []
+      },
+      {
+        "number": 6,
+        "matches": true,
+        "images": []
+      }
+    ],
+    "storage": [],
+    "errors": []
+  },
+  "attachment": {
+    "url": "https://ou9999.github.io/stage-presentation-kit/starters/markdown/presentations/my-talk/assets/b4e53355dadd-reading.txt",
+    "readable": true
+  }
+}

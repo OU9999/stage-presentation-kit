@@ -14,7 +14,9 @@
 - 검증 완료: 전체250/250통과. 신규5검사는공통갱신/재현·stale source/hash/사본/누락/불필요출력·verify비수정/CLI실패·template독립·사전오류시전체last-good·스타터이동을검수한다. 기존watch에template변경반영도추가했다. 실사이트/예제120파일의verify비수정·전체build바이트재현과13원본SHA/루트HTML바이트동일을확인했다. 이전research변경0이다.
 - 실사용/미감 인수: TaskSpace66에서새6장·기존9대표/Paper2/390px6장read전문·alt·contain·저장0/overview6·5타일·5아이콘/presenter양방향을확인했다. 기존MD대표6PNG가이전최종화면과바이트동일이다. 별도스타터프로젝트CLI생성→이동후17파일동일→실제원고의5→8타일/5→12아이콘·제목·사진교체SSE반영→누락이미지last-good8타일보존/복구까지통과했다. 임시dev는49431이며최종확인뒤종료한다.
 - 최종 후점검: check의임시결과는OS임시경로에만만들며live결과의내용/수정시각비수정도회귀로확인했다. 최종전체250/250·repeatbuild/verify120파일/기존13원본보존이통과했다. 스타터제목은자료수에고정되지않게정리했고현재6장read전문도재확인했다. SSE초기DOM조건과배경Page의screenshot대기는null-safe조건/같은TaskSpace66의소유Page활성화로복구했으며제품오류는없다. 최신원고와스크린샷/JSON인수를완료했다.
-- 미완료: 기능커밋/push·공개Pages스타터실확인·검증기록전달.
+- 공개 인수 완료: 기능35a536fc6229cf40f3dc72d9afe0ca89ecf0b0be를main에push했고Pages run40643735903의동일SHA성공/built를확인했다. 공개83파일200/로컬SHA일치,스타터6장·기존대표3·Paper5타일/overview6·preview링크0/390px6장전문·alt·contain·저장0/실제첨부reading.txt열기를통과했다. 근거는새DEPLOYMENT/publicJSON/API에기록했다.
+- 종료·전달: 임시dev49431을종료했고기존4323은보존한다. TaskSpace66은계측용p1을닫고계측없는공개스타터p3만남겨정확히1회finish했다. 다른사용자Space는건드리지않았다. 제품코드/스타터/생성물은공개검수35a536f와같고검증기록만후속commit/push로전달한다. 양manager에게최종결과/기존writer종료유지를직접통보한다.
+- 미완료: 승인된계획·구현·검증·후속점검·기능push/공개확인에는없다. 검증기록후속커밋의원격/Pages동기화는직후확인해보고한다.
 
 ## 현재 점검 — 2026-10-28 재사용 경계와 폴더 구조
 
