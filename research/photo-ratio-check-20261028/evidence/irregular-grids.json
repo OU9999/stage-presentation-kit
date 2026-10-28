@@ -1,0 +1,298 @@
+[
+  {
+    "id": "bento",
+    "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/?grid-check=bento#4",
+    "layout": "bento",
+    "preset": "seoul",
+    "variant": "editorial",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756
+    },
+    "columns": "107px 107px 107px 107px 107px 107px 107px 107px 107px 107px 107px 107px",
+    "rows": "108.164px 108.164px 108.164px 108.164px 108.164px 108.164px",
+    "items": [
+      {
+        "type": "metric",
+        "column": "1 / span 3",
+        "row": "1 / span 2",
+        "transform": "none"
+      },
+      {
+        "type": "media",
+        "column": "4 / span 3",
+        "row": "1 / span 2",
+        "transform": "none"
+      },
+      {
+        "type": "metric",
+        "column": "7 / span 3",
+        "row": "1 / span 2",
+        "transform": "none"
+      },
+      {
+        "type": "artifact",
+        "column": "10 / span 3",
+        "row": "1 / span 4",
+        "transform": "none"
+      },
+      {
+        "type": "artifact",
+        "column": "1 / span 2",
+        "row": "3 / span 2",
+        "transform": "none"
+      },
+      {
+        "type": "artifact",
+        "column": "3 / span 2",
+        "row": "3 / span 2",
+        "transform": "none"
+      },
+      {
+        "type": "artifact",
+        "column": "5 / span 2",
+        "row": "3 / span 2",
+        "transform": "none"
+      },
+      {
+        "type": "artifact",
+        "column": "7 / span 3",
+        "row": "3 / span 2",
+        "transform": "none"
+      },
+      {
+        "type": "artifact",
+        "column": "1 / span 3",
+        "row": "5 / span 2",
+        "transform": "none"
+      },
+      {
+        "type": "metric",
+        "column": "4 / span 3",
+        "row": "5 / span 2",
+        "transform": "none"
+      },
+      {
+        "type": "artifact",
+        "column": "7 / span 3",
+        "row": "5 / span 2",
+        "transform": "none"
+      },
+      {
+        "type": "artifact",
+        "column": "10 / span 3",
+        "row": "5 / span 2",
+        "transform": "none"
+      }
+    ],
+    "failedImages": 0
+  },
+  {
+    "id": "icon-wall",
+    "url": "https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/?grid-check=icons#5",
+    "layout": "icon-wall",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756
+    },
+    "columns": "161.25px 161.25px 161.25px 161.25px 161.25px 161.25px 161.25px 161.25px",
+    "rows": "140.797px 140.797px 140.805px 140.797px 140.805px",
+    "items": [
+      {
+        "type": "icon-wall-copy",
+        "column": "2 / span 6",
+        "row": "2 / span 3",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "1",
+        "row": "1",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "2",
+        "row": "1",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "3",
+        "row": "1",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "4",
+        "row": "1",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "5",
+        "row": "1",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "6",
+        "row": "1",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "7",
+        "row": "1",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "8",
+        "row": "1",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "1",
+        "row": "5",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "2",
+        "row": "5",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "3",
+        "row": "5",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "4",
+        "row": "5",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "5",
+        "row": "5",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "6",
+        "row": "5",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "7",
+        "row": "5",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "8",
+        "row": "5",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "1",
+        "row": "2",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "8",
+        "row": "2",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "1",
+        "row": "3",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "8",
+        "row": "3",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "1",
+        "row": "4",
+        "transform": "none"
+      },
+      {
+        "type": "icon-wall-item",
+        "column": "8",
+        "row": "4",
+        "transform": "none"
+      }
+    ],
+    "failedImages": 0
+  },
+  {
+    "id": "mosaic",
+    "url": "https://ou9999.github.io/stage-presentation-kit/?grid-check=mosaic#11",
+    "layout": "mosaic",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756
+    },
+    "columns": "339px 339px 339px 339px",
+    "rows": "290.555px 290.555px",
+    "items": [
+      {
+        "type": "mosaic-item",
+        "column": "1 / span 2",
+        "row": "1",
+        "transform": "none"
+      },
+      {
+        "type": "mosaic-item",
+        "column": "3 / span 1",
+        "row": "1",
+        "transform": "none"
+      },
+      {
+        "type": "mosaic-item",
+        "column": "4 / span 1",
+        "row": "1",
+        "transform": "none"
+      },
+      {
+        "type": "mosaic-item",
+        "column": "1 / span 1",
+        "row": "2",
+        "transform": "none"
+      },
+      {
+        "type": "mosaic-item",
+        "column": "2 / span 1",
+        "row": "2",
+        "transform": "none"
+      },
+      {
+        "type": "mosaic-item",
+        "column": "3 / span 2",
+        "row": "2",
+        "transform": "none"
+      }
+    ],
+    "failedImages": 0
+  }
+]
