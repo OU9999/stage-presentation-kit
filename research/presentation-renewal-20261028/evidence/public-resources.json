@@ -1,0 +1,161 @@
+{
+  "checkedAt": "2026-10-28T03:24:24.770Z",
+  "commit": "826414cf563a4197b3912693376e43f951d60976",
+  "results": [
+    {
+      "file": "styles.css",
+      "status": 200,
+      "expected": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "actual": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "matches": true
+    },
+    {
+      "file": "visual.css",
+      "status": 200,
+      "expected": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+      "actual": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+      "matches": true
+    },
+    {
+      "file": "blocks.css",
+      "status": 200,
+      "expected": "2a4d6f9f0005ede94aa13d3cd7337a6f2ae8187e6890aa0ec4603cc63f220df2",
+      "actual": "2a4d6f9f0005ede94aa13d3cd7337a6f2ae8187e6890aa0ec4603cc63f220df2",
+      "matches": true
+    },
+    {
+      "file": "deck-model.js",
+      "status": 200,
+      "expected": "8edd4300080c79eb85fe5f30562b8cfd2515e69d3759ea8fc6eddc40c7cfec1d",
+      "actual": "8edd4300080c79eb85fe5f30562b8cfd2515e69d3759ea8fc6eddc40c7cfec1d",
+      "matches": true
+    },
+    {
+      "file": "visual.js",
+      "status": 200,
+      "expected": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "actual": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "matches": true
+    },
+    {
+      "file": "blocks.js",
+      "status": 200,
+      "expected": "8072e64dae0732ca398e5aff24d5aa737846b454044d0a7ee420b7105b9300a7",
+      "actual": "8072e64dae0732ca398e5aff24d5aa737846b454044d0a7ee420b7105b9300a7",
+      "matches": true
+    },
+    {
+      "file": "app.js",
+      "status": 200,
+      "expected": "b1de008b227c0a7125f9e937a32134a53c880e2050512a5e8d77cb8caea06316",
+      "actual": "b1de008b227c0a7125f9e937a32134a53c880e2050512a5e8d77cb8caea06316",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/styles.css",
+      "status": 200,
+      "expected": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "actual": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/visual.css",
+      "status": 200,
+      "expected": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+      "actual": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/blocks.css",
+      "status": 200,
+      "expected": "2a4d6f9f0005ede94aa13d3cd7337a6f2ae8187e6890aa0ec4603cc63f220df2",
+      "actual": "2a4d6f9f0005ede94aa13d3cd7337a6f2ae8187e6890aa0ec4603cc63f220df2",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/deck-model.js",
+      "status": 200,
+      "expected": "8edd4300080c79eb85fe5f30562b8cfd2515e69d3759ea8fc6eddc40c7cfec1d",
+      "actual": "8edd4300080c79eb85fe5f30562b8cfd2515e69d3759ea8fc6eddc40c7cfec1d",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/visual.js",
+      "status": 200,
+      "expected": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "actual": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/blocks.js",
+      "status": 200,
+      "expected": "8072e64dae0732ca398e5aff24d5aa737846b454044d0a7ee420b7105b9300a7",
+      "actual": "8072e64dae0732ca398e5aff24d5aa737846b454044d0a7ee420b7105b9300a7",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/app.js",
+      "status": 200,
+      "expected": "b1de008b227c0a7125f9e937a32134a53c880e2050512a5e8d77cb8caea06316",
+      "actual": "b1de008b227c0a7125f9e937a32134a53c880e2050512a5e8d77cb8caea06316",
+      "matches": true
+    },
+    {
+      "file": "presentations/product-notes/content.js",
+      "status": 200,
+      "expected": "eb9a7cd2ece3e06c32213884c64128e32fe5bb92cc8e4fa4fab8f5d93057d6fe",
+      "actual": "eb9a7cd2ece3e06c32213884c64128e32fe5bb92cc8e4fa4fab8f5d93057d6fe",
+      "matches": true
+    },
+    {
+      "file": "presentations/team-learning/content.js",
+      "status": 200,
+      "expected": "8641de99cb4117654ca261d0e87ac99b923f2e7cb7d05b0a9841e853d894cfe0",
+      "actual": "8641de99cb4117654ca261d0e87ac99b923f2e7cb7d05b0a9841e853d894cfe0",
+      "matches": true
+    },
+    {
+      "file": "research/presentation-renewal-20261028/index.html",
+      "status": 200,
+      "expected": "0a294fa03f42d3d72bc9810cd1ea84733e3a7f5b88eb24d576044cc9c173295b",
+      "actual": "0a294fa03f42d3d72bc9810cd1ea84733e3a7f5b88eb24d576044cc9c173295b",
+      "matches": true
+    },
+    {
+      "file": "research/presentation-renewal-20261028/preview.png",
+      "status": 200,
+      "expected": "d723581b6f251a621c8d0b86ad2c7db60f788db32fa51e5cb7ef934ae4b93736",
+      "actual": "d723581b6f251a621c8d0b86ad2c7db60f788db32fa51e5cb7ef934ae4b93736",
+      "matches": true
+    },
+    {
+      "file": "research/design-system-reaudit-20261028/evidence/controlled/message-plain.png",
+      "status": 200,
+      "expected": "9993544e1474db11482792ec0fa1dd2c1d5ad3a036b18860149ff96ec53bd7f7",
+      "actual": "9993544e1474db11482792ec0fa1dd2c1d5ad3a036b18860149ff96ec53bd7f7",
+      "matches": true
+    },
+    {
+      "file": "research/design-system-reaudit-20261028/evidence/controlled/image-plain.png",
+      "status": 200,
+      "expected": "a88266dc8adb395e06526875b6f2ef997374da53872eba07bb70f3bb5f3a468a",
+      "actual": "a88266dc8adb395e06526875b6f2ef997374da53872eba07bb70f3bb5f3a468a",
+      "matches": true
+    },
+    {
+      "file": "presentations/team-learning/assets/b4e1f667597d-portrait-two.jpg",
+      "status": 200,
+      "expected": "b4e1f667597dc0c1c4f1b114bf50c1450a8f0d11fc30e03fc913b150b1e9c356",
+      "actual": "b4e1f667597dc0c1c4f1b114bf50c1450a8f0d11fc30e03fc913b150b1e9c356",
+      "matches": true
+    },
+    {
+      "file": "presentations/product-notes/assets/478e6580030c-write.jpg",
+      "status": 200,
+      "expected": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "actual": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "matches": true
+    }
+  ],
+  "ready": true
+}

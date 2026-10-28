@@ -29,6 +29,6 @@
 
 기존 styles.css·visual.css·visual.js와 원래 내용/legacy 원고는 보존했다. 공통 런타임·독립 스타터·생성 발표를 함께 갱신했다. 새 프레임워크나 런타임 의존성은 추가하지 않았다. 읽기 원문과 발표의 내용 권위는 Markdown 한 곳이다. 이번 사진과 제품·수치는 스톡/가상 예시이며 실제 행사·참여자·성과 자료가 아니다.
 
-최종41문서/HTML의 로컬 참조473개·버전 해시159개에 오류가 없고, runtime 사본21개가 일치했다. 기존 원고·내용·시각 런타임 등19소스와 이전 감사146개 artifact의 SHA도 보존했다. [통합 기록](evidence/integration-result.json)에 범위를 남겼다. 결과 보드의 두 발표 필터·같은 원고 비교·390px 가로 넘침0·이미지 오류0도 [실제 확인](evidence/board-browser.json)했다.
+최종41문서/HTML의 로컬 참조476개·버전 해시159개에 오류가 없고, runtime 사본21개가 일치했다. 기존 원고·내용·시각 런타임 등19소스와 이전 감사146개 artifact의 SHA도 보존했다. [통합 기록](evidence/integration-result.json)에 범위를 남겼다. 결과 보드의 두 발표 필터·같은 원고 비교·390px 가로 넘침0·이미지 오류0도 [실제 확인](evidence/board-browser.json)했다.
 
-GitHub Pages 배포 검증은 공개 반영 뒤 전달 기록에 덧붙인다.
+GitHub Pages는 `826414c`의 built 상태를 확인했다(2026-10-28 03:23:37 UTC). 런타임·두 발표 데이터·주요 사진·이전 비교 이미지·결과 보드 등22개 공개 자원이 로컬 파일 SHA와 일치했다. 공개 제품 발표4번과 워크숍 발표4번, 총2장의 본문·초점도 로컬 검증본과 같고, 영역 이탈·실행/자원 오류가 없었다.390px 읽기에서 발표 간 링크로 제품 발표2번에 직접 진입해 가로 넘침0·원본 비율 사진·localStorage 호출0을 확인했다. 공개 보드의 필터·실제 발표 연결·이미지 로딩도 정상이다. [공개 자원](evidence/public-resources.json), [공개 브라우저](evidence/public-browser.json), [Pages 빌드](evidence/pages-build.json)에 근거를 남겼다.
