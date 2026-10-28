@@ -1,0 +1,509 @@
+{
+  "scope": "LLM Wiki source-copy integration; final browser and site regression are owned by root",
+  "producer": "/root/llm_engineering_manager/integration_reviewer",
+  "manager": "/root/llm_engineering_manager",
+  "managerReadVerificationAndReranFinalProbe": true,
+  "command": "node scripts/stage.cjs build --config <temporary-project>/stage.config.json",
+  "cliExitCode": 0,
+  "probeExitCode": 0,
+  "verification": {
+    "tempRoot": "OS temporary workspace: llm-wiki-integration-RwSXhF",
+    "source": {
+      "file": "talks/llm-wiki/slides.md",
+      "bytes": 8710,
+      "sha256": "23145e8c452a041ef55d7489c8fd00da96914a1e98b03d3ad03d423f52fcde58"
+    },
+    "inputs": [
+      {
+        "file": "talks/llm-wiki/slides.md",
+        "bytes": 8710,
+        "sha256": "23145e8c452a041ef55d7489c8fd00da96914a1e98b03d3ad03d423f52fcde58"
+      },
+      {
+        "file": "talks/llm-wiki/assets/wiki-layers.svg",
+        "bytes": 3232,
+        "sha256": "3933d033dc6136816cba87e783f0bc690b29a268ee01d6596f7708b6ca0aba78"
+      },
+      {
+        "file": "talks/llm-wiki/assets/knowledge-map.svg",
+        "bytes": 3919,
+        "sha256": "3fa6045e05537db5ee8d9f8a1b927cdbca73f54587ce2e8491be02dc6fdf4bdb"
+      },
+      {
+        "file": "talks/llm-wiki/assets/change-trace.svg",
+        "bytes": 3948,
+        "sha256": "7fa4c28da602dbd09b853070c561994566afe6668a3fadf3be9b66b3841bba21"
+      },
+      {
+        "file": "talks/llm-wiki/assets/speaker-guide.txt",
+        "bytes": 15781,
+        "sha256": "eeba1d88fabef7054b271560dc4ee010ab35bfeb12d685a4b2d2257f8f682fc8"
+      },
+      {
+        "file": "talks/llm-wiki/assets/sources.txt",
+        "bytes": 9497,
+        "sha256": "0827f3843e16b2db5ef056b6a8f0c5affc395bc4d492afd53f9da664cd5278ab"
+      },
+      {
+        "file": "talks/llm-wiki/assets/decision-example.txt",
+        "bytes": 9021,
+        "sha256": "58c5bbb5da45d15d04ad3393f83248d46c4be2f7cd3a6314afc334fba555d442"
+      },
+      {
+        "file": "talks/llm-wiki/assets/starter-template.txt",
+        "bytes": 8120,
+        "sha256": "c122e725c09d362019e1918bc26a8284dd06a125a760a21b2a3f78de5785320e"
+      }
+    ],
+    "slides": 12,
+    "modelIssues": [],
+    "planWarnings": [],
+    "compositions": [
+      "message",
+      "message",
+      "media",
+      "media",
+      "bento",
+      "bento",
+      "bento",
+      "bento",
+      "bento",
+      "media",
+      "bento",
+      "closing"
+    ],
+    "textAndASTPreserved": true,
+    "localRefs": [
+      {
+        "kind": "image",
+        "source": "./assets/wiki-layers.svg",
+        "output": "assets/3933d033dc61-wiki-layers.svg",
+        "bytes": 3232,
+        "sha256": "3933d033dc6136816cba87e783f0bc690b29a268ee01d6596f7708b6ca0aba78"
+      },
+      {
+        "kind": "link",
+        "source": "./assets/wiki-layers.svg",
+        "output": "assets/3933d033dc61-wiki-layers.svg",
+        "bytes": 3232,
+        "sha256": "3933d033dc6136816cba87e783f0bc690b29a268ee01d6596f7708b6ca0aba78"
+      },
+      {
+        "kind": "image",
+        "source": "./assets/knowledge-map.svg",
+        "output": "assets/3fa6045e0553-knowledge-map.svg",
+        "bytes": 3919,
+        "sha256": "3fa6045e05537db5ee8d9f8a1b927cdbca73f54587ce2e8491be02dc6fdf4bdb"
+      },
+      {
+        "kind": "link",
+        "source": "./assets/knowledge-map.svg",
+        "output": "assets/3fa6045e0553-knowledge-map.svg",
+        "bytes": 3919,
+        "sha256": "3fa6045e05537db5ee8d9f8a1b927cdbca73f54587ce2e8491be02dc6fdf4bdb"
+      },
+      {
+        "kind": "link",
+        "source": "./assets/decision-example.txt",
+        "output": "assets/58c5bbb5da45-decision-example.txt",
+        "bytes": 9021,
+        "sha256": "58c5bbb5da45d15d04ad3393f83248d46c4be2f7cd3a6314afc334fba555d442"
+      },
+      {
+        "kind": "image",
+        "source": "./assets/change-trace.svg",
+        "output": "assets/7fa4c28da602-change-trace.svg",
+        "bytes": 3948,
+        "sha256": "7fa4c28da602dbd09b853070c561994566afe6668a3fadf3be9b66b3841bba21"
+      },
+      {
+        "kind": "link",
+        "source": "./assets/change-trace.svg",
+        "output": "assets/7fa4c28da602-change-trace.svg",
+        "bytes": 3948,
+        "sha256": "7fa4c28da602dbd09b853070c561994566afe6668a3fadf3be9b66b3841bba21"
+      },
+      {
+        "kind": "link",
+        "source": "./assets/sources.txt",
+        "output": "assets/0827f3843e16-sources.txt",
+        "bytes": 9497,
+        "sha256": "0827f3843e16b2db5ef056b6a8f0c5affc395bc4d492afd53f9da664cd5278ab"
+      },
+      {
+        "kind": "link",
+        "source": "./assets/decision-example.txt",
+        "output": "assets/58c5bbb5da45-decision-example.txt",
+        "bytes": 9021,
+        "sha256": "58c5bbb5da45d15d04ad3393f83248d46c4be2f7cd3a6314afc334fba555d442"
+      },
+      {
+        "kind": "link",
+        "source": "./assets/starter-template.txt",
+        "output": "assets/c122e725c09d-starter-template.txt",
+        "bytes": 8120,
+        "sha256": "c122e725c09d362019e1918bc26a8284dd06a125a760a21b2a3f78de5785320e"
+      },
+      {
+        "kind": "link",
+        "source": "./assets/speaker-guide.txt",
+        "output": "assets/eeba1d88fabe-speaker-guide.txt",
+        "bytes": 15781,
+        "sha256": "eeba1d88fabef7054b271560dc4ee010ab35bfeb12d685a4b2d2257f8f682fc8"
+      }
+    ],
+    "sourceToCopyHashesEqual": true,
+    "assets": 7,
+    "html": [
+      {
+        "file": "index.html",
+        "localReferences": 3
+      },
+      {
+        "file": "llm-wiki/index.html",
+        "localReferences": 13
+      },
+      {
+        "file": "llm-wiki/read.html",
+        "localReferences": 13
+      }
+    ],
+    "sharedRuntime": [
+      "styles.css",
+      "visual.css",
+      "blocks.css",
+      "deck-model.js",
+      "visual.js",
+      "blocks.js",
+      "app.js"
+    ],
+    "checkDifferences": [],
+    "dependencies": [
+      "talks/llm-wiki/assets/wiki-layers.svg",
+      "talks/llm-wiki/assets/knowledge-map.svg",
+      "talks/llm-wiki/assets/decision-example.txt",
+      "talks/llm-wiki/assets/change-trace.svg",
+      "talks/llm-wiki/assets/sources.txt",
+      "talks/llm-wiki/assets/starter-template.txt",
+      "talks/llm-wiki/assets/speaker-guide.txt"
+    ],
+    "allLocalDependenciesWithinCopiedProject": true,
+    "outputFiles": 20,
+    "outputBytes": 439687
+  },
+  "sourceChanges": {
+    "sourceBytes": 8710,
+    "sourceSHA256": "23145e8c452a041ef55d7489c8fd00da96914a1e98b03d3ad03d423f52fcde58",
+    "slides": 12,
+    "bodyPreservedExceptApprovedIndexLogGrammar": true,
+    "approvedBefore": "`index`는 페이지 목록, `log`는 무엇을 언제 바꿨는지입니다.",
+    "approvedAfter": "`index`는 페이지 목록입니다. `log`는 무엇을 언제 바꿨는지 남깁니다.",
+    "titleAndGuideUnchanged": true,
+    "headingChanges": [
+      "5장 찾기와 변경 이력→index · 찾기/log · 변경 이력",
+      "11장 도입 효과는 미측정 H2추가"
+    ],
+    "changes": [
+      {
+        "slide": 5,
+        "before": {
+          "columns": 12,
+          "rows": 6,
+          "slots": [
+            {
+              "column": 1,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 5,
+              "row": 1,
+              "columnSpan": 2,
+              "rowSpan": 6
+            },
+            {
+              "column": 7,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 11,
+              "row": 1,
+              "columnSpan": 2,
+              "rowSpan": 6
+            }
+          ]
+        },
+        "after": {
+          "columns": 12,
+          "rows": 6,
+          "slots": [
+            {
+              "column": 1,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 5,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 3
+            },
+            {
+              "column": 9,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 3
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "columnSpan": 4,
+              "rowSpan": 3
+            },
+            {
+              "column": 9,
+              "row": 4,
+              "columnSpan": 4,
+              "rowSpan": 3
+            }
+          ]
+        }
+      },
+      {
+        "slide": 7,
+        "before": {
+          "columns": 12,
+          "rows": 6,
+          "slots": [
+            {
+              "column": 1,
+              "row": 1,
+              "columnSpan": 2,
+              "rowSpan": 6
+            },
+            {
+              "column": 3,
+              "row": 1,
+              "columnSpan": 8,
+              "rowSpan": 6
+            },
+            {
+              "column": 11,
+              "row": 1,
+              "columnSpan": 2,
+              "rowSpan": 6
+            }
+          ]
+        },
+        "after": {
+          "columns": 12,
+          "rows": 6,
+          "slots": [
+            {
+              "column": 1,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 5,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 9,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            }
+          ]
+        }
+      },
+      {
+        "slide": 8,
+        "before": {
+          "columns": 12,
+          "rows": 6,
+          "slots": [
+            {
+              "column": 1,
+              "row": 1,
+              "columnSpan": 2,
+              "rowSpan": 6
+            },
+            {
+              "column": 3,
+              "row": 1,
+              "columnSpan": 8,
+              "rowSpan": 6
+            },
+            {
+              "column": 11,
+              "row": 1,
+              "columnSpan": 2,
+              "rowSpan": 6
+            }
+          ]
+        },
+        "after": {
+          "columns": 12,
+          "rows": 6,
+          "slots": [
+            {
+              "column": 1,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 5,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 9,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            }
+          ]
+        }
+      },
+      {
+        "slide": 9,
+        "before": {
+          "columns": 12,
+          "rows": 6,
+          "slots": [
+            {
+              "column": 1,
+              "row": 1,
+              "columnSpan": 8,
+              "rowSpan": 6
+            },
+            {
+              "column": 9,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 4
+            },
+            {
+              "column": 9,
+              "row": 5,
+              "columnSpan": 4,
+              "rowSpan": 2
+            }
+          ]
+        },
+        "after": {
+          "columns": 12,
+          "rows": 6,
+          "slots": [
+            {
+              "column": 1,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 5,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 9,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            }
+          ]
+        }
+      },
+      {
+        "slide": 11,
+        "before": {
+          "columns": 12,
+          "rows": 6,
+          "slots": [
+            {
+              "column": 1,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 5,
+              "row": 1,
+              "columnSpan": 2,
+              "rowSpan": 6
+            },
+            {
+              "column": 7,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 11,
+              "row": 1,
+              "columnSpan": 2,
+              "rowSpan": 6
+            }
+          ]
+        },
+        "after": {
+          "columns": 12,
+          "rows": 6,
+          "slots": [
+            {
+              "column": 1,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 6
+            },
+            {
+              "column": 5,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 3
+            },
+            {
+              "column": 9,
+              "row": 1,
+              "columnSpan": 4,
+              "rowSpan": 3
+            },
+            {
+              "column": 5,
+              "row": 4,
+              "columnSpan": 4,
+              "rowSpan": 3
+            },
+            {
+              "column": 9,
+              "row": 4,
+              "columnSpan": 4,
+              "rowSpan": 3
+            }
+          ]
+        }
+      }
+    ],
+    "modelIssues": [],
+    "planWarnings": []
+  },
+  "timetable": {
+    "slides": 12,
+    "presentationSeconds": 1080,
+    "questionSeconds": 120,
+    "totalSeconds": 1200,
+    "measuredRehearsal": false
+  }
+}

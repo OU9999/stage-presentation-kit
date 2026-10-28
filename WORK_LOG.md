@@ -1,5 +1,30 @@
 # STAGE 작업 로그
 
+## 현재 제작 — 2026-10-28 LLM Wiki·지식 축적·출처·결정 기록
+
+- 최신 지침: 실제 발표자료를 조사해 넣는다. 사용자가 coordinate·manager와 리서치·엔지니어링·발표 전문가 팀을 명시했다. 확정 청중/형식은 줌에서 가볍게 하는 AI 스터디, 약 20분이다. 앞선 개발자 대상 가정은 이 지침으로 대체한다.
+- 기준: main HEAD69bdbd5, 시작 clean. git fetch origin / git pull --ff-only로 최신을 확인했다. 기존 원고·공개 주소·DevDay 색/배치와 runtime을 보존한다. 기존 팀은 모두 완료 상태이며 이번 조사 writer는 아직 없다.
+- 목표: 원문과 주장·해석·결정을 구분하는 작은 사례를 중심으로 실제 talks/llm-wiki/slides.md, 자체 시각 자료, 발표 진행 메모·출처/결정 예제 첨부, 생성 발표·읽기를 완성한다. 현재 LLM Wiki 원출처를 먼저 확인하고 일반 개념과 구분한다. 실증 없는 성능/정확도 주장과 가짜 실사례를 넣지 않는다.
+- 운영·담당: root만 공통 WORK_LOG·최종 통합/브라우저/검증/Git을 소유한다. 동시4슬롯에 맞춰 리서치 manager+실무2명 → 발표 전문가 manager+실무2명 → 엔지니어링 manager+실무2명으로 순차 수행한다. 각 팀은 실제 초기 산출물·취합 담당·직접 교차 검토를 갖추고 manager 간 직접 인계한다. 각 영역은 종료/소유권 인계 후 다음 writer가 편집한다.
+- 산출물·인수: research/llm-wiki-20261028/에서 실제 조사 근거/회의/검수 결과를 보관한다. 원고는 단일 Markdown, 첨부는 현재 builder가 지원하는 txt/svg 등을 쓴다. 20분 시간 배분·Zoom 가독성·출처 근거·변경/충돌/결정 예제·기존 디자인 활용을 검사한다. build/verify/기능 회귀와 실제 발표/read/mobile/presenter 점검 후 commit/push 및 GitHub Pages에서 확인한다.
+- 모델 확인(2026-10-28 07:50 UTC): 공식 https://developers.openai.com/api/docs/models/gpt-6.1-sol 및 /gpt-6-sol 을 실제 열어 최신 Sol gpt-6.1-sol과 이전 Sol의 newer 안내를 확인했다. 실제 spawn catalog는 gpt-6.1-sol / gpt-6-astra / gpt-6.1-terra / gpt-6-sol / gpt-6-luna 이다. 본 작업 manager/실무는 gpt-6.1-sol·high·fork none; 조사 해석/콘텐츠 계약/통합의 판단이 필요하므로 고정 목록 수집용 Luna가 아닌 해당 공통 기준을 적용한다. 동일 작업 배정은 이 스냅샷을 공유한다.
+- 리서치 인수 중: 실제 manager와 두 실무자(A 원출처, B 출처/ADR 및 취합)가 4개 1차 자료 S1/S10/S11/S12와 주장10개를 조사·직접 교차 검토했다. root도 gist 원문과 실제 synthesis/ledger를 읽었다. Karpathy의 설계 아이디어라는 범위, 파일 저장≠모델 학습, 검색과 위키 병행 가능, 링크≠주장 검증을 합의했다. 합성 E* 스터디 예제는 연구 S*와 분리하고 여러 원문→운영/개념/질문 연결 및 새 공지→주장/결정 재검토를 보여준다. S1 별도 수정일/revision SHA는 미확인으로 남긴다.
+- 브라우저: ego-browser 스킬/전체 guide v2.1.0을 읽고 새 TaskSpace76을 정확히 하나 만들었다. p1은 root 최종 QA 전용이며 조사팀에 별도Space/동시조작 금지를 각각 통보했다. 기존 사용자 Space/서버4323은 보존한다.
+- 연구팀 완료: manager가 4원출처/RAG본문과 5문서를 독립 확인하고 A/B 교차 검토·수정 반영 후 양writer 종료를 확인했다. RAG 예시 표번호의 혼동을 Table4/BroaderImpact로 바로잡고 source의 미확인 메타데이터는 그대로 표시한다. 신규 presentation_manager에게 manager 직접 인계/합의 후 연구팀 슬롯을 양보한다.
+- 발표팀 시작: 실제 presentation_manager가 연구 인수를 받고 실무A(20분 이야기·원고·진행가이드, 취합)와 B(기존 색/그리드·자체SVG·시각사양)를 관리한다. 새 talks/llm-wiki/와 research의 presentation/만 소유하며 후속 engineering 팀에 writer종료 뒤 인계한다. root는 README 발견 경로와 최종 QA만 소유한다.
+- 직접 회의 확정: 연구→발표 manager가 실제3문서를 읽고 S*/E*구분·schema는위키옆규칙·출처≠검증·ED1→ED2/11월5일범위·검색병행/파일≠학습·개념/질문/답축적을 직접 합의했다. 18분발표+2분질문=20분이다. 연구팀 전원completed뒤 발표 A story_integrator/B visual_designer 실제배정(gpt-6.1-sol/high/none)을 확인했다.
+- 첨부 인터페이스: 발표A는 assets/speaker-guide.txt, 발표B는 자체SVG3개를 소유한다. 후속엔지니어링이 assets/sources.txt, decision-example.txt, starter-template.txt를 작성하고 원고에서 해당 상대링크를 사용한다. root가최종생성·browser를 수행한다.
+- 발표팀 인수: 실제 원고12장·자체SVG3개·공개speaker-guide·시간표를 작성하고 A/B 직접 교차 검토했다. manager와root가 독립 확인 중 closing에 목록이 들어가 document로fallback되는1건을 찾아 문단링크로 교정, 최종 parseDocument→planSlide 12장경고0(message2/media3/bento6/closing1)을 manager가 확인했다. SVG를 축소한 모바일의 작은 글자는 본문/alt/원본열기로 보완하며 실제시각검수는아직이다. A/B 모두 final·writer종료를 확인했다.
+- 엔지니어링 시작: 실제 llm_engineering_manager를 생성하고 발표manager가 원고/도식/guide 소유권·12장18+2분·첨부3개·사실/제안/합성경계와남은시각검수를 직접인계중이다. 발표manager종료뒤 A(3txt실제제작/취합), B(기술·복사독립성/필요원고교정)를 시작한다. root는 최종전체build/250회귀/browser/Git/공개Pages를 소유한다.
+- 엔지니어링 1차 인수: 실무A가 sources/decision-example/starter-template.txt를 실제 작성하고 B와 직접 교차 검토 후 freeze/편집 종료했다. manager가 3첨부 전체와 출처4개/주장10개/가상기록 필드를 실독했고 임시복사 CLI 생성/7자산SHA/참조폐쇄/12장AST·본문보존/runtime7/check차이0을 독립 재실행했다. 시간표1200초는 계산 검증이며 실제 리허설 측정은 아니다.
+- 실제시각 1차: root build:site 성공, TaskSpace76에서12장 전체PNG/DOM을 확인했다. 오류/본문넘침/진단/이미지실패/저장접근0이다. 다만5/11의2칸타일과7/8의과대중앙·작은양옆,9의빽빽한하단을 눈으로 확인해 B에 직접 교정요청했다. 7/8/9 primary제거,5 index/log분리·11확인/효과미측정분리로 각5그룹, 기존의미/근거/한계보존·CSS/엔진변경0으로 합의했다.
+- 중단복구: llm_engineering_manager capacity오류1회를 확인했다. actual상태(Acompleted·B유일activewriter)와파일체크포인트를대조한뒤 기존manager followup1회로복구, 모델전환/팀재생성/중복writer0이다. B가시각교정과임시검증을갱신중이다.
+- 최종팀인수: 엔지니어링 A/B와manager가전원completed·편집종료했다.5/11각5그룹,7/8/9동등3그룹으로원고교정했고source SHA23145e8c…de58이다. 승인된index/log종결어미외기존의미/근거/한계유지,도식/guide/3txt해시불변·독립복사실행재검증을확인했다. manager 최소2검수근거파일을인수했다.
+- root 최종검증: 전체250/250·build:site/verify:site통과,기존13파일SHA불변. 신규원고추가로기존검사2개의4개고정가정을발견해실제source목록과manifest목록동등성검사로고쳤다. 생성물source revision과브라우저revision을대조한12장최종캡처/5교정장실독·Paper4장실독·390px12장전문순서/18px/가로넘침0·3이미지alt/contain/실패0·hash7약90px·storage/edit0을확인했다.
+- 후점검: overview12/preview링크0,발표자현재/다음각1과양방향이동,첨부4클릭→다운로드→생성물SHA동일을확인했다. 기존4323서버txt는octet-stream이므로URL이동대신download가정으로검수스크립트를교정했다(제품결함아님). 수정원고의hash이동만으로재load되지않는촬영조건은revision query/각round계측으로교정해재검수했다. 최종root소유writer외0,기존Space/서버보존.
+- 전달준비: talks/llm-wiki/README와root진입링크, 12장화면보드research/llm-wiki-20261028/index.html 및RESULT/최종근거를완성했다. user기존승인에따라commit스킬로논리단위기능커밋·푸시후Pages동일SHA와공개자산·read·첨부를확인한다.
+- 미완료: commit/push·Pages공개검수와최종기록전달.
+
 ## 현재 구현 — 2026-10-28 재사용 프로젝트의 빌드·템플릿·스타터 정리
 
 - 최신 승인: 사용자가 앞선 구조 점검에 맞춰 계획을 세우고 실제 작업을 진행하도록 지시했다. 읽기 전용 점검 범위를 구현·검증·후속 점검·commit/push·Pages 확인으로 확대한다. 기준 HEAD4d1adfa·시작 작업 트리 clean, fetch/pull로 최신을 확인했다.

@@ -15,6 +15,7 @@ const repo = path.resolve(__dirname, '..');
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const walk = p => fs.readdirSync(p, { withFileTypes: true }).flatMap(x => x.isDirectory() ? walk(path.join(p, x.name)) : [path.join(p, x.name)]);
 const snapshot = p => Object.fromEntries(walk(p).sort().map(f => [path.relative(p, f), hash(fs.readFileSync(f))]));
+const sourcePaths = root => walk(path.join(root, 'talks')).filter(f => path.basename(f) === 'slides.md').map(f => path.relative(root, f).split(path.sep).join('/')).sort();
 function fixture(t) {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'stage-site-test-'));
   t.after(() => fs.rmSync(directory, { recursive: true, force: true }));
@@ -38,7 +39,8 @@ test('one site build updates root, both legacy copies, both Markdown projects an
   const root = fixture(t), css = path.join(root, 'blocks.css');
   fs.appendFileSync(css, '\n/* shared site change */\n');
   const result = buildSite({ repoRoot: root });
-  assert.equal(result.examples, 8); assert.deepEqual(result.projects.map(x => x.decks), [4, 1]);
+  assert.equal(result.examples, 8); assert.deepEqual(result.projects.map(x => x.decks), [sourcePaths(root).length, 1]);
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root, 'presentations/manifest.json'), 'utf8')).decks.map(x => x.source).sort(), sourcePaths(root));
   const source = fs.readFileSync(css);
   for (const folder of ['examples/visual-starter/runtime', 'examples/text-layout/runtime', 'presentations/_runtime', 'starters/markdown/presentations/_runtime']) assert.deepEqual(fs.readFileSync(path.join(root, folder, 'blocks.css')), source);
   assert(fs.readFileSync(path.join(root, 'index.html'), 'utf8').includes('blocks.css?v=' + hash(source).slice(0, 12)));
@@ -73,7 +75,7 @@ test('verification detects stale source/runtime, missing and unexpected generate
 test('new and legacy Markdown use the canonical template independently of the public root page', t => {
   const root = fixture(t); fs.writeFileSync(path.join(root, 'index.html'), '<!doctype html><title>다른 첫 화면</title>');
   const result = buildProject({ repoRoot: root, configPath: path.join(root, 'stage.config.json') });
-  assert.equal(result.manifest.decks.length, 4);
+  assert.deepEqual(result.manifest.decks.map(x => x.source).sort(), sourcePaths(root));
   assert.match(fs.readFileSync(path.join(root, 'presentations/photo-essay/index.html'), 'utf8'), /id="helpDialog"/);
   const { buildExamples } = require('../scripts/build-examples.cjs'); buildExamples({ repoRoot: root });
   assert.match(fs.readFileSync(path.join(root, 'examples/product-launch/index.html'), 'utf8'), /id="slideStage"/);

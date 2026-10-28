@@ -1,0 +1,523 @@
+{
+  "paper": [
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html#5",
+      "title": "LLM Wiki: 답을 근거와 연결해 남기기 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "bento",
+      "variant": "balanced",
+      "heading": "읽고, 묻고, 다시 점검하기",
+      "headingSize": "60px",
+      "text": "읽고, 묻고, 다시 점검하기ingest · 반영새 자료를 읽고 관련 페이지에 연결합니다.query · 질문질문에 답하고, 유용한 결과를 다시 남깁니다.lint · 점검낡은 주장·빠진 연결·모순을 살핍니다. 누락은 가능합니다.index · 찾기index는 페이지 목록입니다.log · 변경 이력log는 무엇을 언제 바꿨는지 남깁니다.S1 · 반복 작업 원문",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [
+        {
+          "kind": "text",
+          "tone": "blue",
+          "text": "ingest · 반영새 자료를 읽고 관련 페이지에 연결합니다.",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 281.20001220703125,
+            "width": 389.7599792480469,
+            "height": 505.67999267578125,
+            "right": 515.0399780273438,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.118431 0.144784 0.157647)"
+        },
+        {
+          "kind": "text",
+          "tone": "purple",
+          "text": "query · 질문질문에 답하고, 유용한 결과를 다시 남깁니다.",
+          "box": {
+            "x": 525.1199951171875,
+            "y": 281.20001220703125,
+            "width": 389.75994873046875,
+            "height": 247.79998779296875,
+            "right": 914.8799438476562,
+            "bottom": 529
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.154196 0.138196 0.167529)"
+        },
+        {
+          "kind": "text",
+          "tone": "green",
+          "text": "lint · 점검낡은 주장·빠진 연결·모순을 살핍니다. 누락은 가능합니다.",
+          "box": {
+            "x": 924.9599609375,
+            "y": 281.20001220703125,
+            "width": 389.760009765625,
+            "height": 247.79998779296875,
+            "right": 1314.719970703125,
+            "bottom": 529
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.121255 0.149961 0.124706)"
+        },
+        {
+          "kind": "text",
+          "tone": "neutral",
+          "text": "index · 찾기index는 페이지 목록입니다.",
+          "box": {
+            "x": 525.1199951171875,
+            "y": 539.0799560546875,
+            "width": 389.75994873046875,
+            "height": 247.800048828125,
+            "right": 914.8799438476562,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.113725 0.113725 0.105882)"
+        },
+        {
+          "kind": "text",
+          "tone": "neutral",
+          "text": "log · 변경 이력log는 무엇을 언제 바꿨는지 남깁니다.S1 · 반복 작업 원문",
+          "box": {
+            "x": 924.9599609375,
+            "y": 539.0799560546875,
+            "width": 389.760009765625,
+            "height": 247.800048828125,
+            "right": 1314.719970703125,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.113725 0.113725 0.105882)"
+        }
+      ],
+      "wall": null,
+      "accents": [
+        {
+          "text": "ingest · 반영",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "query · 질문",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "lint · 점검",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "index · 찾기",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "log · 변경 이력",
+          "color": "rgb(242, 240, 232)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "research/llm-wiki-20261028/evidence/screens/paper-5.png"
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html#7",
+      "title": "LLM Wiki: 답을 근거와 연결해 남기기 — Stage",
+      "index": "6",
+      "layout": "blocks",
+      "composition": "bento",
+      "variant": "balanced",
+      "heading": "이 자료로 “매주”까지 말할 수 있을까요?",
+      "headingSize": "60px",
+      "text": "이 자료로 “매주”까지 말할 수 있을까요?자료 · E1“11월 5일 AI 스터디는 오후 8시에 시작한다.”합성 공지 1판 · 2026-10-20지원되는 주장 · EC1“11월 5일 시작은 오후 8시.”합성 주장 · 1판 기준 확인근거가 부족한 확장“매주 오후 8시.” → 반복 주기는 미확인입니다.자료 → 주장 → 결정 카드는 우리 제안이며 표준 양식이 아닙니다. 착안 S11",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [
+        {
+          "kind": "text",
+          "tone": "neutral",
+          "text": "자료 · E1“11월 5일 AI 스터디는 오후 8시에 시작한다.”합성 공지 1판 · 2026-10-20",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 281.20001220703125,
+            "width": 389.7599792480469,
+            "height": 505.67999267578125,
+            "right": 515.0399780273438,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.113725 0.113725 0.105882)"
+        },
+        {
+          "kind": "text",
+          "tone": "green",
+          "text": "지원되는 주장 · EC1“11월 5일 시작은 오후 8시.”합성 주장 · 1판 기준 확인",
+          "box": {
+            "x": 525.1199951171875,
+            "y": 281.20001220703125,
+            "width": 389.75994873046875,
+            "height": 505.67999267578125,
+            "right": 914.8799438476562,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.121255 0.149961 0.124706)"
+        },
+        {
+          "kind": "text",
+          "tone": "orange",
+          "text": "근거가 부족한 확장“매주 오후 8시.” → 반복 주기는 미확인입니다.자료 → 주장 → 결정 카드는 우리 제안이며 표준 양식이 아닙니다. 착안 S11",
+          "box": {
+            "x": 924.9599609375,
+            "y": 281.20001220703125,
+            "width": 389.760009765625,
+            "height": 505.67999267578125,
+            "right": 1314.719970703125,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.177725 0.134902 0.111529)"
+        }
+      ],
+      "wall": null,
+      "accents": [
+        {
+          "text": "자료 · E1",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "지원되는 주장 · EC1",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "근거가 부족한 확장",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "미확인",
+          "color": "rgb(242, 240, 232)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "research/llm-wiki-20261028/evidence/screens/paper-7.png"
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html#8",
+      "title": "LLM Wiki: 답을 근거와 연결해 남기기 — Stage",
+      "index": "7",
+      "layout": "blocks",
+      "composition": "bento",
+      "variant": "balanced",
+      "heading": "사실과 우리가 선택한 행동은 다릅니다",
+      "headingSize": "60px",
+      "text": "사실과 우리가 선택한 행동은 다릅니다확인한 주장 · EC111월 5일 시작은 오후 8시.합성 예제 · E1의 1판 기준운영자의 선택1판 기준 오후 8시 안내를 사용하기로 합니다.합성 결정 ED1 · 당시 accepted · 담당 민지 · 2026-10-21이유와 재검토도 남김혼선을 줄이기 위해 선택. 대안은 확인까지 안내 보류. 공지가 바뀌면 재검토합니다.S10 · 결정 기록 원문 · 스터디 적용은 우리 제안 · 전체 결정 카드",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [
+        {
+          "kind": "text",
+          "tone": "neutral",
+          "text": "확인한 주장 · EC111월 5일 시작은 오후 8시.합성 예제 · E1의 1판 기준",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 281.20001220703125,
+            "width": 389.7599792480469,
+            "height": 505.67999267578125,
+            "right": 515.0399780273438,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.113725 0.113725 0.105882)"
+        },
+        {
+          "kind": "text",
+          "tone": "yellow",
+          "text": "운영자의 선택1판 기준 오후 8시 안내를 사용하기로 합니다.합성 결정 ED1 · 당시 accepted · 담당 민지 · 2026-10-21",
+          "box": {
+            "x": 525.1199951171875,
+            "y": 281.20001220703125,
+            "width": 389.75994873046875,
+            "height": 505.67999267578125,
+            "right": 914.8799438476562,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.160314 0.145255 0.0983529)"
+        },
+        {
+          "kind": "text",
+          "tone": "orange",
+          "text": "이유와 재검토도 남김혼선을 줄이기 위해 선택. 대안은 확인까지 안내 보류. 공지가 바뀌면 재검토합니다.S10 · 결정 기록 원문 · 스터디 적용은 우리 제안 · 전체 결정 카드",
+          "box": {
+            "x": 924.9599609375,
+            "y": 281.20001220703125,
+            "width": 389.760009765625,
+            "height": 505.67999267578125,
+            "right": 1314.719970703125,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.177725 0.134902 0.111529)"
+        }
+      ],
+      "wall": null,
+      "accents": [
+        {
+          "text": "확인한 주장 · EC1",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "운영자의 선택",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "이유와 재검토도 남김",
+          "color": "rgb(242, 240, 232)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "research/llm-wiki-20261028/evidence/screens/paper-8.png"
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html#11",
+      "title": "LLM Wiki: 답을 근거와 연결해 남기기 — Stage",
+      "index": "10",
+      "layout": "blocks",
+      "composition": "bento",
+      "variant": "balanced",
+      "heading": "남기는 파일과 모델 학습은 구분합니다",
+      "headingSize": "60px",
+      "text": "남기는 파일과 모델 학습은 구분합니다파일 위키이 사례에서 지속되는 것은 열어 볼 수 있는 Markdown 파일입니다.설계 해석 · S1 원문모델 학습모델 가중치를 바꾸는 일입니다. 파일 저장 자체가 모델 학습은 아닙니다.이 설계 범위의 구분입니다.RAG와도 함께관련 자료를 검색해 답 생성에 씁니다. 위키도 검색과 함께 쓸 수 있습니다.정의는 원문, 병행은 해석 · S12 RAG 논문확인은 계속 필요출처가 있어도 오답·낡은 정보·검토 누락은 가능합니다.도입 효과는 미측정정확도·절감 효과·유지비는 이번에 측정하지 않았습니다.근거와 문장을 대조하는 검토 제안입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [
+        {
+          "kind": "text",
+          "tone": "blue",
+          "text": "파일 위키이 사례에서 지속되는 것은 열어 볼 수 있는 Markdown 파일입니다.설계 해석 · S1 원문",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 281.20001220703125,
+            "width": 389.7599792480469,
+            "height": 505.67999267578125,
+            "right": 515.0399780273438,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.118431 0.144784 0.157647)"
+        },
+        {
+          "kind": "text",
+          "tone": "purple",
+          "text": "모델 학습모델 가중치를 바꾸는 일입니다. 파일 저장 자체가 모델 학습은 아닙니다.이 설계 범위의 구분입니다.",
+          "box": {
+            "x": 525.1199951171875,
+            "y": 281.20001220703125,
+            "width": 389.75994873046875,
+            "height": 247.79998779296875,
+            "right": 914.8799438476562,
+            "bottom": 529
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.154196 0.138196 0.167529)"
+        },
+        {
+          "kind": "text",
+          "tone": "green",
+          "text": "RAG와도 함께관련 자료를 검색해 답 생성에 씁니다. 위키도 검색과 함께 쓸 수 있습니다.정의는 원문, 병행은 해석 · S12 RAG 논문",
+          "box": {
+            "x": 924.9599609375,
+            "y": 281.20001220703125,
+            "width": 389.760009765625,
+            "height": 247.79998779296875,
+            "right": 1314.719970703125,
+            "bottom": 529
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.121255 0.149961 0.124706)"
+        },
+        {
+          "kind": "text",
+          "tone": "orange",
+          "text": "확인은 계속 필요출처가 있어도 오답·낡은 정보·검토 누락은 가능합니다.",
+          "box": {
+            "x": 525.1199951171875,
+            "y": 539.0799560546875,
+            "width": 389.75994873046875,
+            "height": 247.800048828125,
+            "right": 914.8799438476562,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.177725 0.134902 0.111529)"
+        },
+        {
+          "kind": "text",
+          "tone": "neutral",
+          "text": "도입 효과는 미측정정확도·절감 효과·유지비는 이번에 측정하지 않았습니다.근거와 문장을 대조하는 검토 제안입니다.",
+          "box": {
+            "x": 924.9599609375,
+            "y": 539.0799560546875,
+            "width": 389.760009765625,
+            "height": 247.800048828125,
+            "right": 1314.719970703125,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(242, 240, 232)",
+          "background": "color(srgb 0.113725 0.113725 0.105882)"
+        }
+      ],
+      "wall": null,
+      "accents": [
+        {
+          "text": "파일 위키",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "모델 학습",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "RAG와도 함께",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "확인은 계속 필요",
+          "color": "rgb(242, 240, 232)"
+        },
+        {
+          "text": "도입 효과는 미측정",
+          "color": "rgb(242, 240, 232)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "research/llm-wiki-20261028/evidence/screens/paper-11.png"
+    }
+  ],
+  "mobile": {
+    "mode": "read",
+    "count": 12,
+    "missing": [],
+    "viewport": 390,
+    "scrollWidth": 390,
+    "images": [
+      {
+        "alt": "원자료 raw는 보존하고 연결된 wiki 파일을 갱신합니다. schema는 다음 단계가 아니라 옆에서 작업 방법을 정하는 규칙입니다.",
+        "width": 1280,
+        "fit": "contain"
+      },
+      {
+        "alt": "합성 예제. E1 공지 1판은 운영 페이지, E3 읽기 메모는 개념 페이지, E4 질문 메모는 질문 페이지에 연결됩니다. 운영·개념·질문 페이지를 서로 연결하고, 유용한 답은 검토한 뒤 위키 파일에 남깁니다.",
+        "width": 1280,
+        "fit": "contain"
+      },
+      {
+        "alt": "합성 예제. 변경 공지 E2의 명시적 변경을 확인해 EC2를 연결하고 사람이 ED2를 승인합니다. ED1은 삭제하지 않고 superseded by ED2로 보존합니다. 이번 11월 5일 안내만 교체하며 관련 안내는 점검할 일로 남깁니다.",
+        "width": 1280,
+        "fit": "contain"
+      }
+    ],
+    "links": [
+      {
+        "text": "출처·근거",
+        "href": "http://127.0.0.1:4323/presentations/llm-wiki/assets/0827f3843e16-sources.txt"
+      },
+      {
+        "text": "합성 결정 카드",
+        "href": "http://127.0.0.1:4323/presentations/llm-wiki/assets/58c5bbb5da45-decision-example.txt"
+      },
+      {
+        "text": "시작 템플릿",
+        "href": "http://127.0.0.1:4323/presentations/llm-wiki/assets/c122e725c09d-starter-template.txt"
+      },
+      {
+        "text": "진행 가이드 · 공개",
+        "href": "http://127.0.0.1:4323/presentations/llm-wiki/assets/eeba1d88fabe-speaker-guide.txt"
+      }
+    ],
+    "minBodyFont": 18,
+    "storage": [],
+    "errors": [],
+    "editable": 0,
+    "anchorTop": 90.3828125
+  }
+}

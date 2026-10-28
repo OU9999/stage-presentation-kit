@@ -15,6 +15,17 @@
       }
     },
     {
+      "id": "llm-wiki",
+      "source": "talks/llm-wiki/slides.md",
+      "slug": "llm-wiki",
+      "format": "markdown-v1",
+      "title": "LLM Wiki: 답을 근거와 연결해 남기기",
+      "links": {
+        "slides": "llm-wiki/index.html",
+        "read": "llm-wiki/read.html"
+      }
+    },
+    {
       "id": "photo-essay",
       "source": "talks/photo-essay/slides.md",
       "slug": "photo-essay",

@@ -2,6 +2,8 @@
 
 `talks/발표이름/slides.md`만 수정하면 같은 STAGE 스타일의 발표와 읽기 자료를 만듭니다. 공통 테마는 `stage.config.json` 한 곳에서 바꾸며 여러 발표가 원고와 자산을 독립적으로 유지합니다. 생성한 화면은 로컬 CSS·JavaScript와 한국어 시스템 글꼴로 재생합니다.
 
+실제 AI 스터디 자료: **[LLM Wiki · 지식 축적 · 출처 · 결정 기록](presentations/llm-wiki/)** — Zoom 약 20분. [읽기](presentations/llm-wiki/read.html) · [수정할 원고](talks/llm-wiki/slides.md).
+
 ```sh
 npm ci
 npm run dev
@@ -29,7 +31,7 @@ npm test
 
 `build/dev`는 선택한 Markdown 프로젝트를 빠르게 다룹니다. `build:site`는 루트20장·기존 예제·현재 원고·스타터의 생성물을 함께 갱신합니다. `verify:site`는 원본에서 예상 결과를 만들어 비교하며, 파일을 수정하지 않고 오래된 내용·cache hash·runtime 사본·누락·불필요 생성물을 알려 줍니다.
 
-Node.js 20 이상이 필요합니다. 새 발표는 `talks/` 아래 폴더에 `slides.md`를 추가하면 모음에 자동 등록됩니다. `---`로 장을 나누고 일반 제목·문단·목록·코드·인용·표·이미지를 작성하세요. [Markdown 작성 안내](MARKDOWN-FIRST.md)와 서로 다른 주제의 [네 원고](talks/)를 제공합니다. 원고가 수정의 기준이며 생성 화면은 읽기 전용입니다. 발표 재생에는 패키지 설치가 필요하지 않습니다.
+Node.js 20 이상이 필요합니다. 새 발표는 `talks/` 아래 폴더에 `slides.md`를 추가하면 모음에 자동 등록됩니다. `---`로 장을 나누고 일반 제목·문단·목록·코드·인용·표·이미지를 작성하세요. [Markdown 작성 안내](MARKDOWN-FIRST.md)와 [주제별 원고](talks/)를 제공합니다. 원고가 수정의 기준이며 생성 화면은 읽기 전용입니다. 발표 재생에는 패키지 설치가 필요하지 않습니다.
 
 짧은 선언, 사진과 설명, 여러 사진, 인용은 원고 형태에 맞춰 조판합니다. 세로 사진(2:5)·사진 스트립(4:3)·불균등 모자이크·혼합 타일·아이콘월이나 강조색·사진 초점이 필요하면 해당 장의 `stage-slide`와 H2 그룹의 `stage-group`에 작은 설정을 붙입니다. 문장·사진·값을 다른 형식에 다시 입력하지 않으며, 읽기 화면은 같은 원고의 전체 내용과 순서를 유지합니다. [제품 결정](presentations/product-notes/)·[사진 워크숍](presentations/team-learning/)·[사진 에세이](presentations/photo-essay/)·[전시 준비](presentations/community-exhibit/)에서 서로 다른 구성과 색의 흐름을 볼 수 있습니다. 혼합 타일은 H2 자료 수에 맞춰 배치하고, 아이콘월은 원래 목록을 사용합니다. 12칸 고정 배치는 선택 사항입니다.
 

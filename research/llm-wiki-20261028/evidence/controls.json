@@ -1,0 +1,50 @@
+{
+  "overview": {
+    "count": 12,
+    "links": 0
+  },
+  "presenter": {
+    "current": "6",
+    "next": "7",
+    "links": 0,
+    "syncBothDirections": true
+  },
+  "attachments": [
+    {
+      "text": "출처·근거",
+      "href": "http://127.0.0.1:4323/presentations/llm-wiki/assets/0827f3843e16-sources.txt",
+      "characters": 5005,
+      "korean": true,
+      "title": "LLM Wiki: 답을 근거와 연결해 남기기",
+      "sha256": "0827f3843e16b2db5ef056b6a8f0c5affc395bc4d492afd53f9da664cd5278ab",
+      "matchesGenerated": true
+    },
+    {
+      "text": "합성 결정 카드",
+      "href": "http://127.0.0.1:4323/presentations/llm-wiki/assets/58c5bbb5da45-decision-example.txt",
+      "characters": 4287,
+      "korean": true,
+      "title": "AI 스터디 준비: 자료·주장·결정 연결 예제",
+      "sha256": "58c5bbb5da45d15d04ad3393f83248d46c4be2f7cd3a6314afc334fba555d442",
+      "matchesGenerated": true
+    },
+    {
+      "text": "시작 템플릿",
+      "href": "http://127.0.0.1:4323/presentations/llm-wiki/assets/c122e725c09d-starter-template.txt",
+      "characters": 3861,
+      "korean": true,
+      "title": "자료 하나, 주장 하나, 결정 하나부터",
+      "sha256": "c122e725c09d362019e1918bc26a8284dd06a125a760a21b2a3f78de5785320e",
+      "matchesGenerated": true
+    },
+    {
+      "text": "진행 가이드 · 공개",
+      "href": "http://127.0.0.1:4323/presentations/llm-wiki/assets/eeba1d88fabe-speaker-guide.txt",
+      "characters": 7495,
+      "korean": true,
+      "title": "LLM Wiki: 답을 근거와 연결해 남기기",
+      "sha256": "eeba1d88fabef7054b271560dc4ee010ab35bfeb12d685a4b2d2257f8f682fc8",
+      "matchesGenerated": true
+    }
+  ]
+}

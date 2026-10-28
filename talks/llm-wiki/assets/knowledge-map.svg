@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">합성 예제: 공지와 읽기 메모, 질문이 연결된 wiki가 됩니다</title>
+  <desc id="desc">E1 공지 1판의 11월 5일 오후 8시 안내는 운영 페이지로, E3 출처와 주장에 관한 읽기 메모는 개념 페이지로, E4 링크가 있으면 믿어도 되는지 묻는 질문 메모는 질문 페이지로 연결합니다. 개념과 질문 페이지도 서로 연결하며, 질문에 대한 유용한 답은 사람이 검토한 뒤 관련 wiki 파일에 저장하는 운영 제안입니다. 모두 설명을 위해 만든 합성 예제입니다.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="#66748a"/></marker></defs>
+  <rect width="1280" height="720" rx="24" fill="#090b10"/>
+  <g font-family="Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+    <text x="48" y="57" fill="#98a2b3" font-size="25" letter-spacing="2">AI 스터디 준비</text>
+    <rect x="1034" y="24" width="198" height="48" rx="24" fill="#302315"/><text x="1133" y="56" text-anchor="middle" fill="#edcf66" font-size="26" font-weight="600">합성 예제</text>
+    <text x="48" y="112" fill="#bac3d0" font-size="27">원자료</text><text x="688" y="112" fill="#69cf82" font-size="27">연결된 wiki 파일</text>
+    <rect x="48" y="141" width="490" height="112" rx="18" fill="#111923" stroke="#24a8ff" stroke-width="2"/>
+    <text x="77" y="181" fill="#24a8ff" font-size="28" font-weight="600">E1 · 공지 1판</text><text x="77" y="226" fill="#f5f7fb" font-size="31">11월 5일 · 20:00</text>
+    <rect x="48" y="282" width="490" height="112" rx="18" fill="#191426" stroke="#a080ff" stroke-width="2"/>
+    <text x="77" y="322" fill="#a080ff" font-size="28" font-weight="600">E3 · 읽기 메모</text><text x="77" y="367" fill="#f5f7fb" font-size="31">출처와 주장을 구별하자</text>
+    <rect x="48" y="423" width="490" height="112" rx="18" fill="#241810" stroke="#ff7a3d" stroke-width="2"/>
+    <text x="77" y="463" fill="#ff7a3d" font-size="28" font-weight="600">E4 · 질문 메모</text><text x="77" y="508" fill="#f5f7fb" font-size="31">링크가 있으면 믿어도 될까?</text>
+    <g fill="none" stroke="#66748a" stroke-width="3" marker-end="url(#arrow)"><path d="M563 197H646"/><path d="M563 338H646"/><path d="M563 479H646"/></g>
+    <rect x="674" y="141" width="558" height="112" rx="18" fill="#111923" stroke="#24a8ff" stroke-width="2"/>
+    <text x="704" y="183" fill="#24a8ff" font-size="30" font-weight="700">운영</text><text x="704" y="228" fill="#f5f7fb" font-size="31">이번 모임 안내</text>
+    <rect x="674" y="282" width="558" height="112" rx="18" fill="#191426" stroke="#a080ff" stroke-width="2"/>
+    <text x="704" y="324" fill="#a080ff" font-size="30" font-weight="700">개념</text><text x="704" y="369" fill="#f5f7fb" font-size="31">출처와 주장 구별하기</text>
+    <rect x="674" y="423" width="558" height="112" rx="18" fill="#241810" stroke="#ff7a3d" stroke-width="2"/>
+    <text x="704" y="465" fill="#ff7a3d" font-size="30" font-weight="700">질문</text><text x="704" y="510" fill="#f5f7fb" font-size="31">출처가 있어도 확인할 것은?</text>
+    <path d="M1233 197H1256V479H1233 M1233 338H1256" fill="none" stroke="#66748a" stroke-width="3"/>
+    <rect x="48" y="597" width="1184" height="77" rx="18" fill="#101c17" stroke="#69cf82" stroke-width="2"/>
+    <text x="640" y="647" text-anchor="middle" fill="#d9f4e1" font-size="33" font-weight="600">유용한 질문의 답 → 사람 검토 → 관련 wiki에 저장</text>
+    <path d="M953 540V581" fill="none" stroke="#66748a" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+</svg>
