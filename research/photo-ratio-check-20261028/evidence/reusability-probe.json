@@ -1,0 +1,104 @@
+{
+  "baseline": "f877a24",
+  "starter": {
+    "file": "examples/editorial-starter.js",
+    "items": 12,
+    "errors": []
+  },
+  "bentoCounts": [
+    {
+      "count": 5,
+      "errors": [
+        {
+          "severity": "error",
+          "path": "slides.0.items",
+          "message": "12~12개를 지원합니다. 내용을 여러 슬라이드로 나누세요. 원본 항목은 보존됩니다.",
+          "slideIndex": 0
+        }
+      ]
+    },
+    {
+      "count": 8,
+      "errors": [
+        {
+          "severity": "error",
+          "path": "slides.0.items",
+          "message": "12~12개를 지원합니다. 내용을 여러 슬라이드로 나누세요. 원본 항목은 보존됩니다.",
+          "slideIndex": 0
+        }
+      ]
+    },
+    {
+      "count": 12,
+      "errors": []
+    },
+    {
+      "count": 13,
+      "errors": [
+        {
+          "severity": "error",
+          "path": "slides.0.items",
+          "message": "12~12개를 지원합니다. 내용을 여러 슬라이드로 나누세요. 원본 항목은 보존됩니다.",
+          "slideIndex": 0
+        }
+      ]
+    }
+  ],
+  "iconWallCounts": [
+    {
+      "count": 5,
+      "errors": [],
+      "slotsByRow": {
+        "1": 5
+      }
+    },
+    {
+      "count": 12,
+      "errors": [],
+      "slotsByRow": {
+        "1": 8,
+        "5": 4
+      }
+    },
+    {
+      "count": 22,
+      "errors": [],
+      "slotsByRow": {
+        "1": 8,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 8
+      }
+    },
+    {
+      "count": 23,
+      "errors": [
+        {
+          "severity": "error",
+          "path": "slides.0.items",
+          "message": "1~22개를 지원합니다. 내용을 여러 슬라이드로 나누세요. 원본 항목은 보존됩니다.",
+          "slideIndex": 0
+        }
+      ],
+      "slotsByRow": null
+    }
+  ],
+  "markdownChoices": [
+    {
+      "name": "bento",
+      "supported": false,
+      "error": "slides.md:1: compose: auto/message/split/media/gallery/mosaic/editorial/quote/closing/document 중 하나를 사용하세요."
+    },
+    {
+      "name": "icon-wall",
+      "supported": false,
+      "error": "slides.md:1: compose: auto/message/split/media/gallery/mosaic/editorial/quote/closing/document 중 하나를 사용하세요."
+    }
+  ],
+  "advancedMarkdownAdapter": {
+    "layout": "bento",
+    "items": 12,
+    "errors": []
+  }
+}
