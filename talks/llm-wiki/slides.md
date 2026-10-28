@@ -1,17 +1,17 @@
 ---
-title: 'LLM Wiki: 답을 근거와 연결해 남기기'
-footer: 'Zoom AI 스터디 · 20분 · 2026-10-28'
+title: 'LLM Wiki: 읽은 자료를 다음 질문으로 잇기'
+footer: 'Zoom AI 스터디 · 18분 발표 + 2분 질문 · 2026-10-28'
 ---
 
 <!-- stage-slide
 compose: message
 tone: blue
 -->
-# 전에 찾은 답, 이유도 찾을 수 있나요?
+# 다음 주에도 이 답을 설명할 수 있나요?
 
-**답과 함께 근거와 선택의 이유를 남겨 봅시다.**
+**답에서 근거로, 근거에서 다음 질문으로.**
 
-LLM Wiki에서 출발하는 20분 AI 스터디
+RAG와 LoRA를 읽는 작은 AI 스터디
 
 ---
 
@@ -19,13 +19,13 @@ LLM Wiki에서 출발하는 20분 AI 스터디
 compose: message
 tone: purple
 -->
-# 답을 이어 가는 파일 위키
+# 읽고 고치는 파일이 남습니다
 
-LLM이 자료를 읽고, 서로 연결된 Markdown 페이지를 계속 갱신합니다.
+LLM이 자료를 읽고, 연결된 Markdown 위키를 갱신합니다.
 
-Karpathy의 **설계 아이디어**입니다. 특정 완제품이나 표준은 아닙니다.
+실제 원문을 읽는 가상 스터디로 따라가 봅니다.
 
-[S1 · LLM Wiki 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+Karpathy의 설계 아이디어 · [LLM Wiki 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 
 ---
 
@@ -34,13 +34,130 @@ compose: media
 tone: blue
 fit: contain
 -->
-# 자료와 위키, 옆에는 작업 규칙
+# 원자료는 보존, 설명은 갱신
 
-![원자료 raw는 보존하고 연결된 wiki 파일을 갱신합니다. schema는 다음 단계가 아니라 옆에서 작업 방법을 정하는 규칙입니다.](./assets/wiki-layers.svg "자체 제작 개념도 · S1의 3층 설계")
+![원자료에서 연결된 위키를 갱신합니다. schema는 이 흐름의 옆에서 보존·근거·검토 방법을 정하는 작업 규칙입니다.](./assets/wiki-layers.svg)
 
-raw는 보존, wiki는 갱신. schema는 **옆에서 작업법을 정하는 규칙**입니다. 규칙 준수는 보장되지 않습니다.
+schema는 작업법을 정합니다. 규칙이 실제로 지켜졌는지는 결과에서 확인합니다. [설계 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 
-[도식 원본](./assets/wiki-layers.svg) · [S1 · 3층 설계 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+---
+
+<!-- stage-slide
+compose: editorial
+tone: blue
+-->
+# 세 원문에서, 읽기 메모로
+
+<!-- stage-group
+tone: blue
+-->
+## RAG · §2
+
+검색한 문서를 **답 생성에 사용**합니다.
+
+가상 메모의 질문: 이 논문에는 학습도 있을까?
+
+[Methods · Training](https://arxiv.org/html/2005.11401v4#S2)
+
+<!-- stage-group
+tone: purple
+-->
+## LoRA · 초록
+
+기본 가중치는 고정, **추가 행렬은 학습**합니다.
+
+가상 메모의 질문: 무엇이 바뀌는가?
+
+[Abstract · §4.1](https://arxiv.org/html/2106.09685v2)
+
+<!-- stage-group
+tone: green
+-->
+## LLM Wiki · 설계
+
+읽고 정리한 **파일을 계속 유지**합니다.
+
+가상 메모의 질문: 다음에 어떤 파일을 읽을까?
+
+[Architecture · Operations](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: blue
+-->
+# 검색과 모델 적응, 바뀌는 대상부터
+
+<!-- stage-group
+tone: blue
+-->
+## 검색 문맥
+
+관련 문서 → 답을 만들 때 읽는 문맥
+
+RAG 논문의 모델은 검색한 문서를 생성에 활용합니다.
+
+[§2 Methods](https://arxiv.org/html/2005.11401v4#S2) · 원논문에는 [§2.4 Training](https://arxiv.org/html/2005.11401v4#S2.SS4)도 있습니다.
+
+<!-- stage-group
+tone: purple
+-->
+## 학습 가능한 매개변수
+
+훈련 데이터 → 추가 행렬의 갱신
+
+LoRA는 기본 가중치를 고정하고 저랭크 행렬을 학습합니다.
+
+[Abstract · §4.1](https://arxiv.org/html/2106.09685v2)
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: green
+-->
+# 같은 질문: 다음 답에 어떻게 반영되나요?
+
+<!-- stage-group
+tone: green
+-->
+## 위키 갱신
+
+설명·연결 파일을 고칩니다.
+
+다음 질문에서 **필요한 파일을 다시 읽습니다.**
+
+확인할 것: 주장 범위·링크·수정 이유
+
+[파일 축적의 설계](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+
+<!-- stage-group
+tone: blue
+-->
+## 검색을 이용한 생성
+
+관련 자료를 찾습니다.
+
+찾은 자료를 **답의 문맥에 넣습니다.**
+
+확인할 것: 검색 누락·관련성·답의 지원
+
+[RAG §2](https://arxiv.org/html/2005.11401v4#S2)
+
+<!-- stage-group
+tone: purple
+-->
+## LoRA 모델 적응
+
+추가 행렬을 학습합니다.
+
+**학습 결과를 적용한 모델**로 답합니다.
+
+확인할 것: 데이터·목표·평가·적용 대상
+
+[LoRA Abstract·§4.1](https://arxiv.org/html/2106.09685v2)
 
 ---
 
@@ -49,289 +166,178 @@ compose: media
 tone: green
 fit: contain
 -->
-# 일정뿐 아니라 개념과 질문도 연결
+# 연결은 근거로 돌아가는 길
 
-![합성 예제. E1 공지 1판은 운영 페이지, E3 읽기 메모는 개념 페이지, E4 질문 메모는 질문 페이지에 연결됩니다. 운영·개념·질문 페이지를 서로 연결하고, 유용한 답은 검토한 뒤 위키 파일에 남깁니다.](./assets/knowledge-map.svg "합성 예제 · AI 스터디 준비 위키")
+![가상 학습 경로. RAG는 검색 개념에, LoRA는 모델 적응 개념에, LLM Wiki 설계는 파일 정리에 연결됩니다. 같은 질문으로 비교하고 위키 수정은 학습인가에 답합니다. 검토한 답은 관련 개념과 비교에 다시 연결합니다.](./assets/knowledge-map.svg)
 
-합성 공지 E1·읽기 메모 E3·질문 E4 → 운영·개념·질문 파일. 유용한 답은 **사람 검토 후 wiki에 저장**합니다.
-
-페이지 구성과 검토 후 저장은 우리 제안입니다. [도식 원본](./assets/knowledge-map.svg)
+질문에서 원문으로 근거를 되짚고, 원문에서 질문으로 수정할 후보를 찾습니다. [파일 예제와 읽는 법](./materials/study-guide.md#5-연결도를-읽는-법)
 
 ---
 
 <!-- stage-slide
-compose: bento
-tone: blue
--->
-# 읽고, 묻고, 다시 점검하기
-
-<!-- stage-group
-icon: folder
-tone: blue
--->
-## ingest · 반영
-
-새 자료를 읽고 관련 페이지에 연결합니다.
-
-<!-- stage-group
-icon: search
+compose: quote
 tone: purple
 -->
-## query · 질문
+# 질문 · 위키 파일을 고치면 모델도 학습하나요?
 
-질문에 답하고, 유용한 결과를 다시 남깁니다.
+> 이 예제에서 바뀌는 것은 파일입니다.
+> 다음 답에 쓰려면 다시 읽어야 합니다.
 
-<!-- stage-group
-icon: check
+모델 매개변수를 학습하는 절차와 구분합니다. 근거·범위를 검토한 답을 질문 페이지에 저장하고, 개념·비교 페이지에 연결합니다.
+
+남은 질문: 우리 자료에서 필요한 파일을 제대로 찾을 수 있을까요? [가상 질문 페이지 전문](./materials/study-guide.md#6-질문의-답을-다시-저장하는-query)
+
+---
+
+<!-- stage-slide
+compose: media
+tone: orange
+fit: contain
+-->
+# 새 근거는 예전 문장을 고칩니다
+
+![가상 위키의 수정 과정. 외부 파일을 쓰면 학습하지 않는다는 과도한 일반화를 삭제합니다. RAG Training과 LoRA의 학습 대상을 대조해 파일 수정과 매개변수 학습을 구분하는 문장으로 고칩니다. 현재 본문을 교정하고 변경 이유는 log에 남깁니다.](./assets/change-trace.svg)
+
+일반화를 지우고 범위를 고칩니다. 관련 질문도 검토하며, 이유는 이력에 남깁니다. [수정 diff](./materials/study-guide.md#7-ingest-새-자료를-넣을-때-실제로-달라지는-것) · [RAG §2.4](https://arxiv.org/html/2005.11401v4#S2.SS4) · [LoRA](https://arxiv.org/html/2106.09685v2)
+
+---
+
+<!-- stage-slide
+compose: editorial
 tone: green
 -->
-## lint · 점검
-
-낡은 주장·빠진 연결·모순을 살핍니다. 누락은 가능합니다.
-
-<!-- stage-group
-icon: record
-tone: neutral
--->
-## index · 찾기
-
-`index`는 페이지 목록입니다.
-
-<!-- stage-group
-icon: record
-tone: neutral
--->
-## log · 변경 이력
-
-`log`는 무엇을 언제 바꿨는지 남깁니다.
-
-[S1 · 반복 작업 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
-
----
-
-<!-- stage-slide
-compose: bento
-tone: purple
--->
-# 유용한 답도 다음 질문의 바탕으로
-
-<!-- stage-group
-primary: true
-tone: purple
-icon: search
--->
-## 질문 페이지 · E4
-
-“답에 링크가 있으면 문장 전체를 믿어도 될까요?”
-
-합성 예제
+# index는 지금, log는 바뀐 이유
 
 <!-- stage-group
 tone: green
-icon: book
 -->
-## 검토한 답 → 파일에 남김
+## index · 무엇부터 읽지?
 
-“링크된 자료가 이 문장과 적용 범위를 실제로 지원하는지 확인합니다.”
+처음 이해하기 → 검색 문맥 / 모델 적응
 
-개념 페이지에 연결하고 다음 질문에서 다시 씁니다. 합성 답안이며 자동 저장은 하지 않습니다.
+차이 알아보기 → 같은 기준의 비교
+
+질문에서 시작하기 → 위키 수정은 학습인가
+
+[가상 index 전문](./materials/study-guide.md#8-index와-log는-서로-다른-질문에-답한다)
 
 <!-- stage-group
 tone: orange
-icon: check
 -->
-## 링크는 확인할 단서
+## log · 무엇을 왜 고쳤지?
 
-출처 링크가 정답이나 신뢰를 보장하지는 않습니다.
+LoRA 메모를 개념에 연결했다.
 
-[S11 · 출처 정보 개요](https://www.w3.org/TR/2013/NOTE-prov-overview-20130430/) · [S12 · 한계 참고](https://arxiv.org/abs/2005.11401)
+‘외부 파일 사용 = 학습 없음’을 교정했다.
+
+이유: 파일 사용과 학습 대상을 섞었다.
+
+[가상 log 전문](./materials/study-guide.md#8-index와-log는-서로-다른-질문에-답한다)
 
 ---
 
 <!-- stage-slide
-compose: bento
-tone: orange
--->
-# 이 자료로 “매주”까지 말할 수 있을까요?
-
-<!-- stage-group
-tone: neutral
-icon: record
--->
-## 자료 · E1
-
-“11월 5일 AI 스터디는 오후 8시에 시작한다.”
-
-합성 공지 1판 · 2026-10-20
-
-<!-- stage-group
-tone: green
-icon: check
--->
-## 지원되는 주장 · EC1
-
-“11월 5일 시작은 오후 8시.”
-
-합성 주장 · 1판 기준 확인
-
-<!-- stage-group
-tone: orange
-icon: search
--->
-## 근거가 부족한 확장
-
-“매주 오후 8시.” → 반복 주기는 **미확인**입니다.
-
-자료 → 주장 → 결정 카드는 우리 제안이며 표준 양식이 아닙니다. [착안 S11](https://www.w3.org/TR/2013/NOTE-prov-overview-20130430/)
-
----
-
-<!-- stage-slide
-compose: bento
+compose: editorial
 tone: yellow
 -->
-# 사실과 우리가 선택한 행동은 다릅니다
-
-<!-- stage-group
-tone: neutral
-icon: record
--->
-## 확인한 주장 · EC1
-
-11월 5일 시작은 오후 8시.
-
-합성 예제 · E1의 1판 기준
+# 논문을 읽어도, 선택은 우리가 합니다
 
 <!-- stage-group
 tone: yellow
-icon: select
 -->
-## 운영자의 선택
+## 선택
 
-1판 기준 오후 8시 안내를 사용하기로 합니다.
+**검토한 질문 답부터 파일로 남긴다.**
 
-합성 결정 ED1 · 당시 accepted · 담당 민지 · 2026-10-21
+질문 1개 · 개념 2개 · 비교 1개부터
 
-<!-- stage-group
-tone: orange
-icon: compare
--->
-## 이유와 재검토도 남김
-
-혼선을 줄이기 위해 선택. 대안은 확인까지 안내 보류. 공지가 바뀌면 재검토합니다.
-
-[S10 · 결정 기록 원문](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions) · 스터디 적용은 우리 제안 · [전체 결정 카드](./assets/decision-example.txt)
-
----
-
-<!-- stage-slide
-compose: bento
-tone: orange
--->
-# 새 날짜보다, 명시적인 변경을 확인
-
-<!-- stage-group
-tone: orange
-icon: mail
--->
-## 새 자료 · E2
-
-“이번 11월 5일 모임은 오후 8시 30분으로 변경한다.”
-
-합성 변경 공지 2판 · 2026-10-27
+가상 스터디의 결정 · [전체 기록](./materials/study-guide.md#9-근거를-읽은-다음에도-결정은-남는다)
 
 <!-- stage-group
 tone: green
-icon: check
 -->
-## 새 주장 · EC2
+## 이유와 대안
 
-“11월 5일 시작은 오후 8시 30분.”
+다음 모임에 근거와 수정 이유를 다시 읽고 싶습니다.
 
-합성 주장 · 해당 날짜만 지원합니다. 다른 날짜로 넓히지 않습니다.
+채팅만 유지하거나, 검색부터 구축할 수도 있습니다.
+
+[결정 기록](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions)을 스터디에 응용했습니다.
 
 <!-- stage-group
-tone: purple
-icon: search
+tone: orange
 -->
-## 사람이 영향 범위 검토
+## 결과와 재검토
 
-운영 페이지·기존 주장·안내 결정을 함께 확인합니다.
+검토·연결 관리 시간이 듭니다.
 
-우리 제안 · 나중 자료라는 이유만으로 자동 교체하지 않습니다.
+페이지를 계속 못 찾거나 검토가 밀리면 다시 결정합니다.
+
 
 ---
 
 <!-- stage-slide
-compose: media
+compose: editorial
+tone: orange
+-->
+# 링크 다음에는, 문장을 확인합니다
+
+<!-- stage-group
+tone: orange
+-->
+## 링크는 있지만 틀린 요약
+
+“LoRA는 기본 가중치를 고정하므로 학습이 없다.”
+
+초록의 **추가 행렬을 학습한다**는 부분을 빠뜨렸습니다.
+
+[LoRA 초록으로 돌아가기](https://arxiv.org/html/2106.09685v2)
+
+<!-- stage-group
 tone: green
-fit: contain
 -->
-# 바꾸되, 예전 이유는 지우지 않습니다
+## 문장 지원과 진실 판단
 
-![합성 예제. 변경 공지 E2의 명시적 변경을 확인해 EC2를 연결하고 사람이 ED2를 승인합니다. ED1은 삭제하지 않고 superseded by ED2로 보존합니다. 이번 11월 5일 안내만 교체하며 관련 안내는 점검할 일로 남깁니다.](./assets/change-trace.svg "합성 예제 · E2 → EC2 → ED2, ED1의 대체 이력 보존")
+먼저 자료가 이 문장과 범위를 지원하는지 봅니다.
 
-합성 변경 공지 → 새 주장 → 새 안내 결정. 11월 5일 안내만 20:30으로. 이전 결정 ED1은 **superseded by ED2**로 보존합니다.
+지원되더라도 자료 자체의 조건·오류·다른 근거는 따로 검토합니다.
 
-합성 ED2 · accepted · 2026-10-28. 초대장 등은 점검할 일이며 실제 수정 완료를 뜻하지 않습니다.
-
-[도식 원본](./assets/change-trace.svg) · [S10 · 대체 이력 원문](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions) · 검토 절차는 우리 제안
+[ALCE 인용 평가](https://arxiv.org/html/2305.14627v2#S3.SS3) · [PROV 출처 정보](https://www.w3.org/TR/2013/NOTE-prov-overview-20130430/)
 
 ---
 
 <!-- stage-slide
-compose: bento
-tone: purple
+compose: editorial
+tone: blue
 -->
-# 남기는 파일과 모델 학습은 구분합니다
+# 작은 질문으로, 유지할 일을 확인합니다
 
 <!-- stage-group
 tone: blue
-icon: folder
 -->
-## 파일 위키
+## 읽기 · 반영
 
-이 사례에서 지속되는 것은 열어 볼 수 있는 Markdown 파일입니다.
+원문 두세 개와 질문 하나부터 시작합니다.
 
-설계 해석 · [S1 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
-
-<!-- stage-group
-tone: purple
-icon: brain
--->
-## 모델 학습
-
-모델 가중치를 바꾸는 일입니다. 파일 저장 자체가 모델 학습은 아닙니다.
-
-이 설계 범위의 구분입니다.
+관련 개념과 비교에 연결합니다.
 
 <!-- stage-group
 tone: green
-icon: search
 -->
-## RAG와도 함께
+## 찾기 · 질문
 
-관련 자료를 검색해 답 생성에 씁니다. 위키도 검색과 함께 쓸 수 있습니다.
+놓치는 페이지가 생기면 목차와 검색을 점검합니다.
 
-정의는 원문, 병행은 해석 · [S12 RAG 논문](https://arxiv.org/abs/2005.11401)
+검토한 답과 남은 질문을 이어갑니다.
 
 <!-- stage-group
 tone: orange
-icon: check
 -->
-## 확인은 계속 필요
+## 고치기 · 점검
 
-출처가 있어도 오답·낡은 정보·검토 누락은 가능합니다.
+주장·연결·이력에 검토 시간을 배정합니다.
 
-<!-- stage-group
-tone: neutral
-icon: compare
--->
-## 도입 효과는 미측정
-
-정확도·절감 효과·유지비는 이번에 측정하지 않았습니다.
-
-근거와 문장을 대조하는 검토 제안입니다.
+효과·절감·유지비는 미측정입니다. [운영의 tradeoff](./materials/study-guide.md#14-규모와-운영-비용의-tradeoff)
 
 ---
 
@@ -339,10 +345,10 @@ icon: compare
 compose: closing
 tone: blue
 -->
-# 자료 하나, 주장 하나, 결정 하나부터
+# 다음 질문에, 근거부터 이어 봅시다
 
 **무엇을 읽었고, 어디까지 알며, 왜 선택했나요?**
 
-남은 2분: 내 메모에서 다시 찾고 싶은 질문을 나눠 봅시다.
+질문 2분 · [공부 자료 목차](./materials/index.md)
 
-[출처·근거](./assets/sources.txt) · [합성 결정 카드](./assets/decision-example.txt) · [시작 템플릿](./assets/starter-template.txt) · [진행 가이드 · 공개](./assets/speaker-guide.txt)
+[학습 가이드](./materials/study-guide.md) · [발표 대본](./materials/speaker-script.md) · [원문 읽기](./materials/reference-library.md) · [실습과 해설](./materials/workshop.md)

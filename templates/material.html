@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="{{DESCRIPTION}}">
+  <title>{{TITLE}} — {{DECK_TITLE}}</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="{{STYLESHEET}}">
+</head>
+<body class="material-page" data-source="{{SOURCE_PATH}}" data-revision="{{REVISION}}">
+  <a class="material-skip" href="#material-content">본문으로 이동</a>
+  <header class="material-header">
+    <a class="material-brand" href="{{INDEX_URL}}">STAGE <span>학습 자료</span></a>
+    <nav class="material-header-nav" aria-label="발표와 학습 자료">
+      <a href="{{DECK_URL}}">발표</a><a href="{{READ_URL}}">슬라이드 읽기</a><a href="{{INDEX_URL}}">자료 모음</a>
+    </nav>
+  </header>
+  <main class="material-shell">
+    <details class="material-mobile-nav">
+      <summary>목차와 다른 자료</summary>
+      <div class="material-mobile-nav-content">
+        <nav class="material-doc-nav" aria-label="자료 목록">{{MATERIAL_NAV}}</nav>
+        <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2>{{TOC}}</nav>
+      </div>
+    </details>
+    <aside class="material-sidebar">
+      <nav class="material-doc-nav" aria-label="자료 목록">{{MATERIAL_NAV}}</nav>
+      <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2>{{TOC}}</nav>
+    </aside>
+    <article class="material-article" id="material-content">
+      <header class="material-intro"><p class="material-eyebrow">{{DECK_TITLE}}</p><h1 id="{{HEADING_ID}}">{{HEADING}}</h1>{{INTRO_DESCRIPTION}}</header>
+      <div class="material-content">{{CONTENT}}</div>
+      <footer class="material-footer"><a href="{{INDEX_URL}}">자료 모음으로</a> · <a href="{{DECK_URL}}">발표로 돌아가기</a></footer>
+    </article>
+  </main>
+</body>
+</html>

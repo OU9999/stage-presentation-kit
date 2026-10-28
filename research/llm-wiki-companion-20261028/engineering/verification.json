@@ -1,0 +1,352 @@
+{
+  "date": "2026-10-28",
+  "baseHEAD": "4c2e2fa",
+  "manager": "/root/llm_engineering_manager",
+  "contributors": {
+    "integrator": "/root/llm_engineering_manager/integration_reviewer",
+    "testsAndDocs": "/root/llm_engineering_manager/source_materials"
+  },
+  "integration": {
+    "project": "OS temporary independent project, moved before final rebuild",
+    "command": "node scripts/stage.cjs build --config <moved-temporary-project>/stage.config.json",
+    "cli": {
+      "status": 0,
+      "stdout": "1개 발표 생성: <moved-temporary-project>/presentations",
+      "stderr": ""
+    },
+    "slides": 14,
+    "documents": [
+      {
+        "source": "talks/llm-wiki/materials/index.md",
+        "title": "LLM Wiki 학습 자료",
+        "order": 1,
+        "revision": "4ea92522b61ff3d0d6ba855d7c95ae6fb6d1bdf2e3ac7d1f5da106e4b30288da",
+        "href": "llm-wiki/materials/index.html"
+      },
+      {
+        "source": "talks/llm-wiki/materials/study-guide.md",
+        "title": "LLM Wiki 혼자 공부하기",
+        "order": 2,
+        "revision": "89c1944d12fd3587915adcbf2a70c7d4c24079c099ed9dd14f1fd11ace1af86e",
+        "href": "llm-wiki/materials/study-guide.html"
+      },
+      {
+        "source": "talks/llm-wiki/materials/speaker-script.md",
+        "title": "18분 발표 대본과 2분 Q&A",
+        "order": 3,
+        "revision": "724aa9c3a8098577bc660a213a5aa4a920d6abc390e47fc03cbaabd11154e9db",
+        "href": "llm-wiki/materials/speaker-script.html"
+      },
+      {
+        "source": "talks/llm-wiki/materials/reference-library.md",
+        "title": "원문 읽기 안내와 용어 모음",
+        "order": 4,
+        "revision": "ea01ef2129a5111a68d12657b35fa0be5b2562c6f9a40b526f9544973fc7b649",
+        "href": "llm-wiki/materials/reference-library.html"
+      },
+      {
+        "source": "talks/llm-wiki/materials/workshop.md",
+        "title": "작은 스터디 위키 만들기",
+        "order": 5,
+        "revision": "842efe1549417790ecf3b61fb183a54a8daacae9cd0d66069580b18d95d8dc70",
+        "href": "llm-wiki/materials/workshop.html"
+      }
+    ],
+    "sourceHashes": [
+      {
+        "source": "talks/llm-wiki/README.md",
+        "bytes": 3055,
+        "sha256": "b15e9161228e908bd2f6e9589e94e6ae58094c2ee656c0df141a445952e53f58"
+      },
+      {
+        "source": "talks/llm-wiki/assets/change-trace.svg",
+        "bytes": 2906,
+        "sha256": "5efc5a198e7f6479ebced5f155635eeeefce5f409a8881ce28afcdd4b87b417f"
+      },
+      {
+        "source": "talks/llm-wiki/assets/decision-example.txt",
+        "bytes": 9021,
+        "sha256": "58c5bbb5da45d15d04ad3393f83248d46c4be2f7cd3a6314afc334fba555d442"
+      },
+      {
+        "source": "talks/llm-wiki/assets/knowledge-map.svg",
+        "bytes": 3422,
+        "sha256": "07411af0788bfcd8c06ff8c2b0fc026a16659892762aefb568248ee6b40cd109"
+      },
+      {
+        "source": "talks/llm-wiki/assets/sources.txt",
+        "bytes": 9497,
+        "sha256": "0827f3843e16b2db5ef056b6a8f0c5affc395bc4d492afd53f9da664cd5278ab"
+      },
+      {
+        "source": "talks/llm-wiki/assets/speaker-guide.txt",
+        "bytes": 15781,
+        "sha256": "eeba1d88fabef7054b271560dc4ee010ab35bfeb12d685a4b2d2257f8f682fc8"
+      },
+      {
+        "source": "talks/llm-wiki/assets/starter-template.txt",
+        "bytes": 8120,
+        "sha256": "c122e725c09d362019e1918bc26a8284dd06a125a760a21b2a3f78de5785320e"
+      },
+      {
+        "source": "talks/llm-wiki/assets/wiki-layers.svg",
+        "bytes": 2375,
+        "sha256": "9de04be0b94dbd0b736c6643068a5b09baba791ba960f5fb7f3215528fdd9dd8"
+      },
+      {
+        "source": "talks/llm-wiki/materials/index.md",
+        "bytes": 3437,
+        "sha256": "4ea92522b61ff3d0d6ba855d7c95ae6fb6d1bdf2e3ac7d1f5da106e4b30288da"
+      },
+      {
+        "source": "talks/llm-wiki/materials/reference-library.md",
+        "bytes": 17009,
+        "sha256": "ea01ef2129a5111a68d12657b35fa0be5b2562c6f9a40b526f9544973fc7b649"
+      },
+      {
+        "source": "talks/llm-wiki/materials/speaker-script.md",
+        "bytes": 26955,
+        "sha256": "724aa9c3a8098577bc660a213a5aa4a920d6abc390e47fc03cbaabd11154e9db"
+      },
+      {
+        "source": "talks/llm-wiki/materials/study-guide.md",
+        "bytes": 52073,
+        "sha256": "89c1944d12fd3587915adcbf2a70c7d4c24079c099ed9dd14f1fd11ace1af86e"
+      },
+      {
+        "source": "talks/llm-wiki/materials/workshop.md",
+        "bytes": 23745,
+        "sha256": "842efe1549417790ecf3b61fb183a54a8daacae9cd0d66069580b18d95d8dc70"
+      },
+      {
+        "source": "talks/llm-wiki/slides.md",
+        "bytes": 9211,
+        "sha256": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+      }
+    ],
+    "assets": [
+      {
+        "file": "07411af0788b-knowledge-map.svg",
+        "bytes": 3422,
+        "sha256": "07411af0788bfcd8c06ff8c2b0fc026a16659892762aefb568248ee6b40cd109"
+      },
+      {
+        "file": "5efc5a198e7f-change-trace.svg",
+        "bytes": 2906,
+        "sha256": "5efc5a198e7f6479ebced5f155635eeeefce5f409a8881ce28afcdd4b87b417f"
+      },
+      {
+        "file": "9de04be0b94d-wiki-layers.svg",
+        "bytes": 2375,
+        "sha256": "9de04be0b94dbd0b736c6643068a5b09baba791ba960f5fb7f3215528fdd9dd8"
+      }
+    ],
+    "pages": [
+      {
+        "file": "index.html",
+        "localLinks": 4
+      },
+      {
+        "file": "llm-wiki/index.html",
+        "localLinks": 14
+      },
+      {
+        "file": "llm-wiki/materials/index.html",
+        "localLinks": 32
+      },
+      {
+        "file": "llm-wiki/materials/reference-library.html",
+        "localLinks": 52
+      },
+      {
+        "file": "llm-wiki/materials/speaker-script.html",
+        "localLinks": 93
+      },
+      {
+        "file": "llm-wiki/materials/study-guide.html",
+        "localLinks": 91
+      },
+      {
+        "file": "llm-wiki/materials/workshop.html",
+        "localLinks": 70
+      },
+      {
+        "file": "llm-wiki/read.html",
+        "localLinks": 14
+      }
+    ],
+    "localLinks": 370,
+    "materialLinks": 338,
+    "outputFiles": 22,
+    "outputBytes": 593941,
+    "checkDifferences": [],
+    "portableByteIdentical": true,
+    "dependencies": [
+      "talks/llm-wiki/materials/index.md",
+      "talks/llm-wiki/materials/reference-library.md",
+      "talks/llm-wiki/materials/speaker-script.md",
+      "talks/llm-wiki/materials/study-guide.md",
+      "talks/llm-wiki/materials/workshop.md",
+      "talks/llm-wiki/assets/wiki-layers.svg",
+      "talks/llm-wiki/assets/knowledge-map.svg",
+      "talks/llm-wiki/assets/change-trace.svg",
+      "talks/llm-wiki/slides.md",
+      "templates/material.html",
+      "templates/materials.css"
+    ]
+  },
+  "compatibility": {
+    "project": "OS temporary compatibility fixture with identical current runtime/template/config",
+    "decks": [
+      "community-exhibit",
+      "photo-essay",
+      "product-notes",
+      "team-learning"
+    ],
+    "files": 48,
+    "allOutputBytesMatchHEAD": true,
+    "hashes": {
+      ".stage-generated.json": "1a8e0d3556733acdbc15b20e9c1a0fd606ebd1a243955d0cf1f2c371a3ff5b7a",
+      "_runtime/app.js": "720586ddf41431f78a8ab71dd54a6e4764fe971c4a892c70a3f59a0e5f204fc5",
+      "_runtime/blocks.css": "53e410e9bb90c436482208f7e721a8fd2d3e4dc45bbda4b6d5c75c2753d4d355",
+      "_runtime/blocks.js": "6238a42a3298944a6d023cb81b3f73af9c6d3e038b1c8437c08b1fd307b5de32",
+      "_runtime/deck-model.js": "53f266e64e754e57bf06531df5e58a7333db9fb8c64a5f29d96bf69de4c428e2",
+      "_runtime/styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "_runtime/visual.css": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+      "_runtime/visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "community-exhibit/assets/1c6df0654172-report.svg": "1c6df0654172ddf44fd33dc4d28b81c8fbc45419f34ea96a49daaf14515820a0",
+      "community-exhibit/assets/478e6580030c-write.jpg": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "community-exhibit/assets/7425a10ee3a3-poster.svg": "7425a10ee3a3acbde3abb59d56634f020578f31c750b77a501e4fbbde2ff76cd",
+      "community-exhibit/assets/81cd1d19bbb8-shape-study.svg": "81cd1d19bbb8074aace9d76aa38cff2efe739deebe73ecbd649038ed059ef2ea",
+      "community-exhibit/assets/82e2325989f1-ask.svg": "82e2325989f1d858862ee13b237f8a16e3d5b06e024d451929ed6de3695114b4",
+      "community-exhibit/assets/9a0a97c09248-checklist.txt": "9a0a97c092488091279592184084fcfab9de137c1fee7e73b91a956a61b46357",
+      "community-exhibit/assets/d23fdf84d59d-look.svg": "d23fdf84d59d3806a1c54bad21aa149cbf3746316edc66d4d59f27f656661c1b",
+      "community-exhibit/assets/e871188865e2-leave-note.svg": "e871188865e2649ef42beceb262f66f1013a128eceef6b3be0e12336d90951e5",
+      "community-exhibit/content.js": "2823c1d5f853aeede40ca9d7949eeca86ee22296a9d08205f4cb87a5bfa12ec3",
+      "community-exhibit/index.html": "0c1008b198747b6ef71c8f3b8c7a550324ddded669e7d4f61509381893caab7b",
+      "community-exhibit/read.html": "12d344459ea67f53266a5f59950884b910a80d2f22097e5c90758fc4b8722cfd",
+      "index.html": "9447b51672d2547c8f49fa07d33c100918ec304754591a025ad705a7066700d1",
+      "manifest.json": "118dbc98a8158ca54792edb359b268ad5748c371c250f614881d814704076a01",
+      "photo-essay/assets/2751c9fe1a7d-capture.jpg": "2751c9fe1a7db9131964097e766b9406b48f44d338b5742e49bf62412a90f6c7",
+      "photo-essay/assets/478e6580030c-write.jpg": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "photo-essay/assets/8b3f37a204ad-observe.jpg": "8b3f37a204ad147736f71453ffda4ae3dbbe2c11f549c4607916a0f6df924744",
+      "photo-essay/assets/b492caded632-listen.jpg": "b492caded632887f2ead0bb231e9c90f0bffeb673f12e813abb5c31a9e5b8476",
+      "photo-essay/assets/b4e1f667597d-portrait-two.jpg": "b4e1f667597dc0c1c4f1b114bf50c1450a8f0d11fc30e03fc913b150b1e9c356",
+      "photo-essay/assets/c1971525c2a1-landscape.jpg": "c1971525c2a1b19bf2a3902d196e05e41e9f32596fd7e8ba1db80ced5c3c9a94",
+      "photo-essay/assets/d027d13049e7-portrait-one.jpg": "d027d13049e7ab4d858f63d68f17b4b88067a831e5bfbcc6e4550693ddddaaca",
+      "photo-essay/assets/e15a64e3ec29-reading.txt": "e15a64e3ec29d599b11733bd228875c674f049c46fa46072565541bf733ad25c",
+      "photo-essay/content.js": "6c0b3a9b62de3316e1b25375847911de0bc1cb7383e0f17eb1edb87fa7ead97e",
+      "photo-essay/index.html": "9b0c7bf3ade72c8bb5214601d95158a648d860217737233f582c7dd0d1580137",
+      "photo-essay/read.html": "f2051b13c1d15f67a63281e57f41ebfd992b42409637656e2318278d16e3a571",
+      "product-notes/assets/1c6df0654172-report.svg": "1c6df0654172ddf44fd33dc4d28b81c8fbc45419f34ea96a49daaf14515820a0",
+      "product-notes/assets/478e6580030c-write.jpg": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "product-notes/assets/9a0a97c09248-checklist.txt": "9a0a97c092488091279592184084fcfab9de137c1fee7e73b91a956a61b46357",
+      "product-notes/content.js": "eb9a7cd2ece3e06c32213884c64128e32fe5bb92cc8e4fa4fab8f5d93057d6fe",
+      "product-notes/index.html": "c41938f1f18293a658bc8ba7b2a4b9eefc1f80ba59b3b6557f5648d7e78768b2",
+      "product-notes/read.html": "79806880785193d9f4ae07951c81c0f1cc1d4e07af4b0a152968dc5886d9ecd0",
+      "team-learning/assets/2751c9fe1a7d-capture.jpg": "2751c9fe1a7db9131964097e766b9406b48f44d338b5742e49bf62412a90f6c7",
+      "team-learning/assets/478e6580030c-write.jpg": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "team-learning/assets/8b3f37a204ad-observe.jpg": "8b3f37a204ad147736f71453ffda4ae3dbbe2c11f549c4607916a0f6df924744",
+      "team-learning/assets/b492caded632-listen.jpg": "b492caded632887f2ead0bb231e9c90f0bffeb673f12e813abb5c31a9e5b8476",
+      "team-learning/assets/b4e1f667597d-portrait-two.jpg": "b4e1f667597dc0c1c4f1b114bf50c1450a8f0d11fc30e03fc913b150b1e9c356",
+      "team-learning/assets/c1971525c2a1-landscape.jpg": "c1971525c2a1b19bf2a3902d196e05e41e9f32596fd7e8ba1db80ced5c3c9a94",
+      "team-learning/assets/e15a64e3ec29-reading.txt": "e15a64e3ec29d599b11733bd228875c674f049c46fa46072565541bf733ad25c",
+      "team-learning/content.js": "8641de99cb4117654ca261d0e87ac99b923f2e7cb7d05b0a9841e853d894cfe0",
+      "team-learning/index.html": "fcac13b4754d18179b3a9e6bb9703b4062845c5f9d2fc494f6c000475492d4b2",
+      "team-learning/read.html": "7b4de3005510c1de874fea9b1529293873eb9f67305924b3ecef8c1923f3852c"
+    },
+    "dependencies": [
+      "assets/photos/write.jpg",
+      "assets/examples/poster.svg",
+      "assets/stage/shape-study.svg",
+      "assets/examples/report.svg",
+      "talks/product-notes/checklist.txt",
+      "talks/community-exhibit/icons/look.svg",
+      "talks/community-exhibit/icons/ask.svg",
+      "talks/community-exhibit/icons/leave-note.svg",
+      "talks/photo-essay/slides.md",
+      "assets/photos/capture.jpg",
+      "assets/photos/listen.jpg",
+      "assets/photos/observe.jpg",
+      "assets/photos/portrait-one.jpg",
+      "assets/photos/portrait-two.jpg",
+      "assets/photos/landscape.jpg",
+      "talks/team-learning/reading.txt",
+      "talks/community-exhibit/slides.md",
+      "talks/team-learning/slides.md",
+      "talks/product-notes/slides.md"
+    ]
+  },
+  "contributorTests": {
+    "command": "node --test tests/materials.test.cjs tests/stage-project.test.cjs tests/site-build.test.cjs",
+    "independentlyRunByBothContributors": true,
+    "passed": 24,
+    "failed": 0,
+    "newMaterialTests": 11,
+    "existingTests": 13
+  },
+  "additionalBCompatibility": {
+    "method": "HEAD stage builder versus current builder with identical runtime/template/config",
+    "decks": 2,
+    "outputFiles": 16,
+    "allOutputBytesMatch": true,
+    "verificationScope": "reported by B and collected by A; temporary fixtures cleaned"
+  },
+  "managerIndependentVerification": {
+    "readBuilderDiffAndFinalTestsAndDocs": true,
+    "readAndReranIntegrationProbe": true,
+    "integrationProbeExitCode": 0,
+    "movedProjectCheckDifferences": [],
+    "checkPreservesOutputBytesAndMtimes": true,
+    "sourceRevisionsMatchCurrentFiveMaterials": true,
+    "allMaterialHeadingFragmentsResolve": true,
+    "localFileReferencesExcludingSameDocumentAnchors": 175,
+    "materialFileReferencesExcludingSameDocumentAnchors": 147,
+    "localTalkDependenciesWithinMovedProject": true,
+    "originalMaterialsLocalReferencesValidated": 62,
+    "originalMaterialH2H3Headings": 93
+  },
+  "sourceHashes": [
+    {
+      "file": "scripts/stage.cjs",
+      "bytes": 28423,
+      "sha256": "0a7faf4e82b4fe2828f40e66f896b60abf8c2c42680c800c13203f48889d4681"
+    },
+    {
+      "file": "scripts/materials.cjs",
+      "bytes": 6093,
+      "sha256": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab"
+    },
+    {
+      "file": "templates/material.html",
+      "bytes": 1930,
+      "sha256": "0851e62ab6757a4ad68084fb534dccf1f440317fb06df780041bcbf2eea6c665"
+    },
+    {
+      "file": "templates/materials.css",
+      "bytes": 10387,
+      "sha256": "1b61ac3b3119aa9aae8a080ea24e63eb0080abf0ce5749d469e2cf0977a0b702"
+    },
+    {
+      "file": "tests/materials.test.cjs",
+      "bytes": 21888,
+      "sha256": "97ed61aa4345d8fe58aab0de2386d92ced5e8ce071bfdf526cf5182b7a2c3fac"
+    },
+    {
+      "file": "MARKDOWN-FIRST.md",
+      "bytes": 21933,
+      "sha256": "2df9d2f474a2028c62fa979e7af0240100d465afdc882b8a17047c3716cd720d"
+    },
+    {
+      "file": "blocks.css",
+      "bytes": 31505,
+      "sha256": "53e410e9bb90c436482208f7e721a8fd2d3e4dc45bbda4b6d5c75c2753d4d355"
+    },
+    {
+      "file": "talks/llm-wiki/slides.md",
+      "bytes": 9211,
+      "sha256": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+    }
+  ],
+  "remainingOwner": "root: final full regression, browser navigation/print/presenter, build/verify, commit/push and Pages"
+}

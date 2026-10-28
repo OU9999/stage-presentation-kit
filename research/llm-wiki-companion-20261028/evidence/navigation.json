@@ -1,0 +1,39 @@
+{
+  "overview": {
+    "slides": 14,
+    "links": 0
+  },
+  "presenterBothDirections": true,
+  "stageToHubToGuideToScriptToRead": true,
+  "anchor": {
+    "id": "4-핵심-사례-세-자료를-읽고-하나의-질문에-답하기",
+    "top": 24.2109375
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "count": 14,
+    "body": "18px",
+    "heading": "26px",
+    "header": [
+      {
+        "left": 12,
+        "right": 75.6015625,
+        "top": 21,
+        "bottom": 48
+      },
+      {
+        "left": 85.6015625,
+        "right": 177.6875,
+        "top": 27.5,
+        "bottom": 41.5
+      },
+      {
+        "left": 235.78125,
+        "right": 378,
+        "top": 17,
+        "bottom": 52
+      }
+    ]
+  }
+}

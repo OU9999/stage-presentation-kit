@@ -113,10 +113,14 @@
 .layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="2"] { grid-template-columns:1.2fr 1fr; }
 .layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="2"] > .is-primary { grid-column:auto; }
 .layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"] > .is-primary { grid-row:span 2; }
-.layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"] > .md-group:not(.is-primary) { padding-top:12px; font-size:22px; line-height:1.4; }
-.layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"] > .md-group:not(.is-primary) > h2 { font-size:28px; margin-bottom:10px; }
-.layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"] > .md-group:not(.is-primary) > p { margin-bottom:.4em; }
+.layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"]:has(> .is-primary) > .md-group:not(.is-primary) { padding-top:12px; font-size:22px; line-height:1.4; }
+.layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"]:has(> .is-primary) > .md-group:not(.is-primary) > h2 { font-size:28px; margin-bottom:10px; }
+.layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"]:has(> .is-primary) > .md-group:not(.is-primary) > p { margin-bottom:.4em; }
 .layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"] > .md-group:not(.is-primary) .md-value-number { font-size:72px; }
+/* Equal columns carry the main explanation; compact copy belongs to primary sidebars. */
+.layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"]:not(:has(> .is-primary)) > .md-group { padding-top:12px; font-size:32px; line-height:1.5; }
+.layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"]:not(:has(> .is-primary)) > .md-group > h2 { font-size:40px; margin-bottom:18px; }
+.layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"]:not(:has(> .is-primary)) > .md-group > p { margin-bottom:.6em; }
 .layout-blocks[data-composition="editorial"] .markdown-body > :not(.md-group) { grid-column:1 / -1; }
 
 /* Explicit photo families preserve frame ratios independently of caption height. */

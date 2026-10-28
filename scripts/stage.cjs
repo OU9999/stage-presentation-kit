@@ -9,8 +9,11 @@ const { parseDocument, collectReferences } = require('./markdown-document.cjs');
 const model = require('../deck-model.js');
 const { RUNTIME, TEMPLATE, hash, readRuntime, loadTemplate, runtimeHtml } = require('./runtime.cjs');
 const { compareTrees } = require('./generated-files.cjs');
+const { parseMaterial, renderMaterial, materialPage } = require('./materials.cjs');
 
 const MARKER = '.stage-generated.json';
+const MATERIAL_TEMPLATE = 'templates/material.html';
+const MATERIAL_STYLE = 'templates/materials.css';
 const posix = value => value.split(path.sep).join('/');
 const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const inside = (parent, child) => child === parent || child.startsWith(parent + path.sep);
@@ -70,43 +73,92 @@ function relativeUrl(fromDirectory, target) {
   return encodePath(path.relative(fromDirectory, target)) || '.';
 }
 
+function discoverMaterials(record, project) {
+  const directory = path.join(path.dirname(record.source), 'materials');
+  record.assets = new Map();
+  record.dependencies = new Set();
+  record.materials = [];
+  if (!fs.existsSync(directory)) return;
+  if (!fs.statSync(directory).isDirectory()) throw new Error(record.relativeSource + ': materials는 폴더여야 합니다.');
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    if (!entry.isFile() || !/\.md$/i.test(entry.name)) continue;
+    if (!/^[a-z0-9][a-z0-9_-]*\.md$/.test(entry.name)) throw new Error('학습 자료 이름은 소문자 영문·숫자·-·_와 .md를 사용하세요: ' + entry.name);
+    const source = fs.realpathSync(path.join(directory, entry.name));
+    const relativeSource = posix(path.relative(project.projectRoot, source));
+    const material = parseMaterial(fs.readFileSync(source, 'utf8'), { sourcePath: relativeSource });
+    const output = path.join(record.slug, 'materials', entry.name.replace(/\.md$/, '.html'));
+    record.materials.push({ source, relativeSource, output, material });
+    record.dependencies.add(source);
+  }
+  record.materials.sort((a, b) => a.material.order - b.material.order || a.output.localeCompare(b.output));
+}
+
 function rewriteReferences(records) {
-  const bySource = new Map(records.map(record => [fs.realpathSync(record.source), record]));
+  const bySource = new Map();
   for (const record of records) {
-    record.assets = new Map();
-    record.dependencies = new Set();
-    for (const ref of collectReferences(record.deck)) {
-      const value = ref.owner[ref.key];
-      if (typeof value !== 'string' || !value) continue;
-      const fail = (message, watchFiles = []) => { const error = new Error(record.relativeSource + ':' + (ref.position?.line || 1) + ': ' + message + ' (' + value + ')'); error.watchFiles = watchFiles; throw error; };
-      if (/^(?:https?:|\/\/)/i.test(value) || (ref.kind === 'link' && /^mailto:/i.test(value)) || (['image', 'poster'].includes(ref.kind) && /^data:image\//i.test(value)) || (ref.kind === 'video' && /^data:video\//i.test(value))) continue;
-      if (/^[a-z][a-z\d+.-]*:/i.test(value)) fail('지원하지 않는 참조 URI입니다');
-      if (value.startsWith('#')) {
-        if (!/^#\d*$/.test(value)) fail('영구 heading anchor는 아직 지원하지 않습니다. #장번호를 사용하세요');
-        continue;
-      }
-      const match = /^([^?#]*)(\?[^#]*)?(#.*)?$/.exec(value);
-      let pathname;
-      try { pathname = decodeURIComponent(match[1]); } catch (_) { fail('URI 인코딩을 확인하세요'); }
-      if (!pathname) continue;
-      const target = path.resolve(path.dirname(record.source), pathname);
-      if (!fs.existsSync(target) || !fs.statSync(target).isFile()) fail('참조 파일이 없습니다', [target]);
-      const realTarget = fs.realpathSync(target);
-      record.dependencies.add(realTarget);
-      const suffix = (match[2] || '') + (match[3] || '');
-      if (/\.md$/i.test(realTarget)) {
-        const linked = bySource.get(realTarget);
-        if (!linked || ref.kind !== 'link') fail('등록된 slides.md만 읽기 화면으로 연결할 수 있습니다. 원본 Markdown은 자동 복사하지 않습니다');
-        if (match[3] && !/^#\d+$/.test(match[3])) fail('Markdown heading anchor는 아직 지원하지 않습니다. #장번호를 사용하세요');
-        ref.owner[ref.key] = relativeUrl(record.slug, path.join(linked.slug, 'read.html')) + suffix;
-      } else {
-        const bytes = fs.readFileSync(realTarget);
-        const basename = path.basename(realTarget).replace(/[^\p{L}\p{N}._-]+/gu, '-');
-        const destination = hash(bytes) + '-' + basename;
-        record.assets.set(destination, { bytes, source: realTarget });
-        ref.owner[ref.key] = 'assets/' + encodeURIComponent(destination) + suffix;
-      }
+    bySource.set(record.source, { record, output: path.join(record.slug, 'read.html') });
+    for (const document of record.materials) bySource.set(document.source, { record, ...document });
+  }
+  function resolve(record, context, value, ref) {
+    if (typeof value !== 'string' || !value) return value;
+    let referenceLabel = value;
+    try { const decoded = decodeURIComponent(value); if (decoded !== value) referenceLabel += '; ' + JSON.stringify(decoded); } catch (_) { /* The URI validation below reports the original value. */ }
+    const fail = (message, watchFiles = []) => { const error = new Error(context.relativeSource + ':' + (ref.line || ref.position?.line || 1) + ': ' + message + ' (' + referenceLabel + ')'); error.watchFiles = watchFiles; throw error; };
+    if (/^(?:https?:|\/\/)/i.test(value) || (ref.kind === 'link' && /^mailto:/i.test(value)) || (['image', 'poster'].includes(ref.kind) && /^data:image\//i.test(value)) || (ref.kind === 'video' && /^data:video\//i.test(value))) return value;
+    if (/^[a-z][a-z\d+.-]*:/i.test(value)) fail('지원하지 않는 참조 URI입니다');
+    const match = /^([^?#]*)(\?[^#]*)?(#.*)?$/.exec(value);
+    let pathname, anchor;
+    try { pathname = decodeURIComponent(match[1]); anchor = match[3] ? decodeURIComponent(match[3].slice(1)) : ''; } catch (_) { fail('URI 인코딩을 확인하세요'); }
+    const suffix = (match[2] || '') + (match[3] || '');
+    function validateAnchor(linked) {
+      if (!anchor) return;
+      if (linked.material) {
+        if (!linked.material.headingIds.includes(anchor)) fail('자료 heading anchor가 없습니다: #' + anchor);
+      } else if (!/^\d+$/.test(anchor) || (context.material && (Number(anchor) < 1 || Number(anchor) > linked.record.deck.slides.length))) fail('유효한 #장번호를 사용하세요');
     }
+    if (!pathname) {
+      validateAnchor(context.material ? context : { record });
+      return value;
+    }
+    const target = path.resolve(path.dirname(context.source), pathname);
+    if (!fs.existsSync(target) || !fs.statSync(target).isFile()) fail('참조 파일이 없습니다', [target]);
+    const realTarget = fs.realpathSync(target);
+    record.dependencies.add(realTarget);
+    if (/\.md$/i.test(realTarget)) {
+      const linked = bySource.get(realTarget);
+      if (!linked || ref.kind !== 'link') fail('등록된 slides.md와 materials/*.md만 연결할 수 있습니다. 임의 Markdown은 자동 복사하지 않습니다');
+      validateAnchor(linked);
+      return relativeUrl(context.outputDirectory, linked.output) + suffix;
+    }
+    const bytes = fs.readFileSync(realTarget);
+    const basename = path.basename(realTarget).replace(/[^\p{L}\p{N}._-]+/gu, '-');
+    const destination = hash(bytes) + '-' + basename;
+    record.assets.set(destination, { bytes, source: realTarget });
+    return relativeUrl(context.outputDirectory, path.join(record.slug, 'assets', destination)) + suffix;
+  }
+  for (const record of records) {
+    const context = { source: record.source, relativeSource: record.relativeSource, outputDirectory: record.slug };
+    for (const ref of collectReferences(record.deck)) ref.owner[ref.key] = resolve(record, context, ref.owner[ref.key], ref);
+    for (const document of record.materials) {
+      const context = { ...document, outputDirectory: path.dirname(document.output) };
+      document.rendered = renderMaterial(document.material, (value, ref) => resolve(record, context, value, ref));
+    }
+  }
+}
+
+function materialNavigation(record, current) {
+  const hub = '<li><a href="index.html"' + (!current ? ' class="is-current" aria-current="page"' : '') + '>자료 모음</a></li>';
+  return '<ul>' + (record.materials.some(document => path.basename(document.output) === 'index.html') ? '' : hub) + record.materials.map(document => '<li><a href="' + escape(encodePath(path.basename(document.output))) + '"' + (document === current ? ' class="is-current" aria-current="page"' : '') + '>' + escape(document.material.title) + '</a></li>').join('') + '</ul>';
+}
+
+function writeMaterials(directory, record, resources) {
+  if (!record.materials.length) return;
+  fs.mkdirSync(path.join(directory, 'materials'));
+  const options = current => ({ navigation: materialNavigation(record, current), deckTitle: record.deck.title, deckUrl: '../index.html', readUrl: '../read.html', indexUrl: 'index.html', stylesheet: relativeUrl(path.join(record.slug, 'materials'), '_runtime/materials.css') + '?v=' + hash(resources.style) });
+  for (const document of record.materials) fs.writeFileSync(path.join(directory, 'materials', path.basename(document.output)), materialPage(resources.template, document.material, { ...options(document), ...document.rendered }));
+  if (!record.materials.some(document => path.basename(document.output) === 'index.html')) {
+    const material = { title: '학습 자료', headingId: '학습-자료', headingHtml: '학습 자료', description: '', sourcePath: '', revision: hash(record.materials.map(document => document.material.revision).join('\n')) };
+    fs.writeFileSync(path.join(directory, 'materials/index.html'), materialPage(resources.template, material, { ...options(null), body: '<h2 id="자료-목록">자료 목록</h2>' + materialNavigation(record, null), toc: '<ul><li><a href="#자료-목록">자료 목록</a></li></ul>' }));
   }
 }
 
@@ -116,7 +168,9 @@ function presentationHtml(template, record, runtime, content, view) {
   html = runtimeHtml(html, runtime, prefix, content);
   html = html.replace(/<body\b([^>]*)>/i, (_, attrs) => '<body' + attrs.replace(/\sdata-view=["'][^"']*["']/g, '') + ' data-view="' + view + '">');
   const collection = relativeUrl(record.slug, 'index.html');
-  const navigation = '<nav class="stage-document-links" aria-label="발표 모음과 읽기"><a href="' + collection + '">발표 모음</a> · <a href="index.html">발표</a> · <a href="read.html">읽기</a></nav>';
+  const navigation = record.materials.length
+    ? '<nav class="stage-document-links" aria-label="발표 모음과 학습 자료"><a href="' + collection + '">발표 모음</a> · <a href="materials/index.html">학습 자료</a></nav>'
+    : '<nav class="stage-document-links" aria-label="발표 모음과 읽기"><a href="' + collection + '">발표 모음</a> · <a href="index.html">발표</a> · <a href="read.html">읽기</a></nav>';
   html = html.replace('<div class="header-actions">', navigation + '<div class="header-actions">');
   const marker = html.indexOf('id="helpDialog"');
   if (marker < 0) throw new Error('발표 template에 helpDialog가 없습니다.');
@@ -126,13 +180,22 @@ function presentationHtml(template, record, runtime, content, view) {
 }
 
 function collectionHtml(project, records, runtime) {
-  const cards = records.map(record => '<li><h2>' + escape(record.deck.title) + '</h2><p>' + record.deck.slides.length + '장</p><a href="' + encodePath(record.slug) + '/index.html">발표</a> · <a href="' + encodePath(record.slug) + '/read.html">읽기</a></li>').join('\n');
+  const cards = records.map(record => '<li><h2>' + escape(record.deck.title) + '</h2><p>' + record.deck.slides.length + '장</p><a href="' + encodePath(record.slug) + '/index.html">발표</a> · <a href="' + encodePath(record.slug) + '/read.html">읽기</a>' + (record.materials.length ? ' · <a href="' + encodePath(record.slug) + '/materials/index.html">학습 자료</a>' : '') + '</li>').join('\n');
   return '<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>' + escape(project.title) + '</title><link rel="icon" href="data:,"/><link rel="stylesheet" href="_runtime/styles.css?v=' + hash(runtime['styles.css']) + '"/><style>body.stage-collection{max-width:1120px;margin:0 auto;padding:64px 24px;overflow:auto}h1{font-size:clamp(32px,6vw,64px);letter-spacing:-.04em}ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}li{padding:28px;border:1px solid var(--chrome-border);background:var(--chrome-panel)}h2{font-size:24px;line-height:1.4}p{color:var(--chrome-muted)}a{color:var(--chrome-text);text-underline-offset:.25em}</style></head><body class="stage-collection" data-theme="' + escape(project.theme) + '"><main><p>STAGE · 발표와 읽기</p><h1>' + escape(project.title) + '</h1><ul>' + cards + '</ul></main></body></html>\n';
 }
 
 function buildProject(options = {}) {
   const project = loadProject(options);
-  const sources = walkFiles(project.sourceRoot).filter(file => path.basename(file) === 'slides.md');
+  const candidates = new Set(walkFiles(project.sourceRoot).filter(file => path.basename(file) === 'slides.md'));
+  const deckSources = new Map();
+  function isDeckSource(source) {
+    if (deckSources.has(source)) return deckSources.get(source);
+    const owner = path.join(path.dirname(path.dirname(source)), 'slides.md');
+    const material = path.basename(path.dirname(source)) === 'materials' && candidates.has(owner) && isDeckSource(owner);
+    deckSources.set(source, !material);
+    return !material;
+  }
+  const sources = [...candidates].filter(isDeckSource);
   if (!sources.length) throw new Error('sourceDir에 slides.md 원고가 없습니다.');
   const records = sources.map(source => {
     const folder = path.relative(project.sourceRoot, path.dirname(source));
@@ -152,10 +215,31 @@ function buildProject(options = {}) {
       seen.add(value);
     }
   }
+  for (const record of records) discoverMaterials(record, project);
   rewriteReferences(records);
   const runtime = readRuntime(project.repoRoot);
   const template = loadTemplate(project.repoRoot);
-  const manifest = { format: 'stage-project-v1', title: project.title, theme: project.theme, decks: records.map(record => ({ id: record.deck.id, source: record.relativeSource, slug: record.slug, format: record.deck.format, title: record.deck.title, links: { slides: encodePath(record.slug) + '/index.html', read: encodePath(record.slug) + '/read.html' } })) };
+  const hasMaterials = records.some(record => record.materials.length);
+  const materialResources = hasMaterials ? { template: fs.readFileSync(path.join(project.repoRoot, MATERIAL_TEMPLATE), 'utf8'), style: fs.readFileSync(path.join(project.repoRoot, MATERIAL_STYLE)) } : null;
+  const materialDependencies = hasMaterials ? [path.join(project.repoRoot, MATERIAL_TEMPLATE), path.join(project.repoRoot, MATERIAL_STYLE)] : [];
+  const manifest = {
+    format: 'stage-project-v1', title: project.title, theme: project.theme,
+    decks: records.map(record => {
+      const entry = {
+        id: record.deck.id, source: record.relativeSource, slug: record.slug,
+        format: record.deck.format, title: record.deck.title,
+        links: { slides: encodePath(record.slug) + '/index.html', read: encodePath(record.slug) + '/read.html' }
+      };
+      if (record.materials.length) {
+        entry.links.materials = encodePath(record.slug) + '/materials/index.html';
+        entry.materials = record.materials.map(document => ({
+          source: document.relativeSource, title: document.material.title,
+          order: document.material.order, revision: document.material.revision, href: encodePath(document.output)
+        }));
+      }
+      return entry;
+    })
+  };
   if (!options.check) fs.mkdirSync(path.dirname(project.output), { recursive: true });
   const staging = options.check
     ? fs.mkdtempSync(path.join(os.tmpdir(), 'stage-verify-'))
@@ -165,6 +249,7 @@ function buildProject(options = {}) {
   try {
     fs.mkdirSync(path.join(staging, '_runtime'));
     for (const [file, bytes] of Object.entries(runtime)) fs.writeFileSync(path.join(staging, '_runtime', file), bytes);
+    if (hasMaterials) fs.writeFileSync(path.join(staging, '_runtime/materials.css'), materialResources.style);
     for (const record of records) {
       const directory = path.join(staging, record.slug);
       fs.mkdirSync(path.join(directory, 'assets'), { recursive: true });
@@ -174,6 +259,7 @@ function buildProject(options = {}) {
       fs.writeFileSync(path.join(directory, 'content.js'), content);
       fs.writeFileSync(path.join(directory, 'index.html'), presentationHtml(template, record, runtime, content, 'present'));
       fs.writeFileSync(path.join(directory, 'read.html'), presentationHtml(template, record, runtime, content, 'read'));
+      writeMaterials(directory, record, materialResources);
     }
     fs.writeFileSync(path.join(staging, 'index.html'), collectionHtml(project, records, runtime));
     fs.writeFileSync(path.join(staging, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
@@ -203,7 +289,7 @@ function buildProject(options = {}) {
     fs.rmSync(staging, { recursive: true, force: true });
     throw error;
   }
-  return { outputDir: project.output, manifest, decks: records.map(record => record.deck), dependencies: [...new Set(records.flatMap(record => [...record.dependencies]))], differences };
+  return { outputDir: project.output, manifest, decks: records.map(record => record.deck), dependencies: [...new Set([...records.flatMap(record => [...record.dependencies]), ...materialDependencies])], differences };
 }
 
 const DEV_SCRIPT = `<script>(function(){var events=new EventSource('/__stage/events');events.addEventListener('built',function(){location.reload()});events.addEventListener('build-error',function(event){var box=document.getElementById('__stage_error');if(!box){box=document.createElement('pre');box.id='__stage_error';box.setAttribute('role','alert');box.style.cssText='position:fixed;bottom:0;left:0;right:0;z-index:99999;margin:0;padding:20px;background:#551a16;color:white;white-space:pre-wrap;max-height:40vh;overflow:auto;font:14px/1.5 monospace';document.body.append(box)}box.textContent='원고 빌드 오류 — 마지막 정상 화면을 유지합니다.\\n'+JSON.parse(event.data).message})})();</script>`;

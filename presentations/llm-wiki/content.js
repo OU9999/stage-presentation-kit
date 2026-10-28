@@ -3,23 +3,23 @@ window.PRESENTATION = {
   "format": "markdown-v1",
   "document": {
     "sourcePath": "talks/llm-wiki/slides.md",
-    "revision": "23145e8c452a041ef55d7489c8fd00da96914a1e98b03d3ad03d423f52fcde58"
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
   },
   "id": "llm-wiki",
-  "title": "LLM Wiki: 답을 근거와 연결해 남기기",
+  "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기",
   "theme": "stage",
-  "footer": "Zoom AI 스터디 · 20분 · 2026-10-28",
+  "footer": "Zoom AI 스터디 · 18분 발표 + 2분 질문 · 2026-10-28",
   "slides": [
     {
       "layout": "blocks",
-      "title": "전에 찾은 답, 이유도 찾을 수 있나요?",
+      "title": "다음 주에도 이 답을 설명할 수 있나요?",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "전에 찾은 답, 이유도 찾을 수 있나요?"
+            "value": "다음 주에도 이 답을 설명할 수 있나요?"
           }
         ],
         "position": {
@@ -42,7 +42,7 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "답과 함께 근거와 선택의 이유를 남겨 봅시다."
+                  "value": "답에서 근거로, 근거에서 다음 질문으로."
                 }
               ],
               "position": {
@@ -66,7 +66,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "LLM Wiki에서 출발하는 20분 AI 스터디"
+              "value": "RAG와 LoRA를 읽는 작은 AI 스터디"
             }
           ],
           "position": {
@@ -86,14 +86,14 @@ window.PRESENTATION = {
     },
     {
       "layout": "blocks",
-      "title": "답을 이어 가는 파일 위키",
+      "title": "읽고 고치는 파일이 남습니다",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "답을 이어 가는 파일 위키"
+            "value": "읽고 고치는 파일이 남습니다"
           }
         ],
         "position": {
@@ -108,7 +108,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "LLM이 자료를 읽고, 서로 연결된 Markdown 페이지를 계속 갱신합니다."
+              "value": "LLM이 자료를 읽고, 연결된 Markdown 위키를 갱신합니다."
             }
           ],
           "position": {
@@ -122,25 +122,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "Karpathy의 "
-            },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "설계 아이디어"
-                }
-              ],
-              "position": {
-                "line": 26,
-                "endLine": 26
-              }
-            },
-            {
-              "type": "text",
-              "value": "입니다. 특정 완제품이나 표준은 아닙니다."
+              "value": "실제 원문을 읽는 가상 스터디로 따라가 봅니다."
             }
           ],
           "position": {
@@ -153,6 +135,10 @@ window.PRESENTATION = {
           "tag": "p",
           "children": [
             {
+              "type": "text",
+              "value": "Karpathy의 설계 아이디어 · "
+            },
+            {
               "type": "element",
               "tag": "a",
               "attrs": {
@@ -161,7 +147,7 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "S1 · LLM Wiki 원문"
+                  "value": "LLM Wiki 원문"
                 }
               ],
               "position": {
@@ -187,14 +173,14 @@ window.PRESENTATION = {
     },
     {
       "layout": "blocks",
-      "title": "자료와 위키, 옆에는 작업 규칙",
+      "title": "원자료는 보존, 설명은 갱신",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "자료와 위키, 옆에는 작업 규칙"
+            "value": "원자료는 보존, 설명은 갱신"
           }
         ],
         "position": {
@@ -211,9 +197,8 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/3933d033dc61-wiki-layers.svg",
-                "alt": "원자료 raw는 보존하고 연결된 wiki 파일을 갱신합니다. schema는 다음 단계가 아니라 옆에서 작업 방법을 정하는 규칙입니다.",
-                "title": "자체 제작 개념도 · S1의 3층 설계"
+                "src": "assets/9de04be0b94d-wiki-layers.svg",
+                "alt": "원자료에서 연결된 위키를 갱신합니다. schema는 이 흐름의 옆에서 보존·근거·검토 방법을 정하는 작업 규칙입니다."
               },
               "children": [],
               "position": {
@@ -233,56 +218,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "raw는 보존, wiki는 갱신. schema는 "
-            },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "옆에서 작업법을 정하는 규칙"
-                }
-              ],
-              "position": {
-                "line": 41,
-                "endLine": 41
-              }
-            },
-            {
-              "type": "text",
-              "value": "입니다. 규칙 준수는 보장되지 않습니다."
-            }
-          ],
-          "position": {
-            "line": 41,
-            "endLine": 41
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "assets/3933d033dc61-wiki-layers.svg"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "도식 원본"
-                }
-              ],
-              "position": {
-                "line": 43,
-                "endLine": 43
-              }
-            },
-            {
-              "type": "text",
-              "value": " · "
+              "value": "schema는 작업법을 정합니다. 규칙이 실제로 지켜졌는지는 결과에서 확인합니다. "
             },
             {
               "type": "element",
@@ -293,24 +229,24 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "S1 · 3층 설계 원문"
+                  "value": "설계 원문"
                 }
               ],
               "position": {
-                "line": 43,
-                "endLine": 43
+                "line": 41,
+                "endLine": 41
               }
             }
           ],
           "position": {
-            "line": 43,
-            "endLine": 43
+            "line": 41,
+            "endLine": 41
           }
         }
       ],
       "origin": {
         "line": 32,
-        "endLine": 43
+        "endLine": 41
       },
       "tone": "blue",
       "view": {
@@ -320,39 +256,29 @@ window.PRESENTATION = {
     },
     {
       "layout": "blocks",
-      "title": "일정뿐 아니라 개념과 질문도 연결",
+      "title": "세 원문에서, 읽기 메모로",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "일정뿐 아니라 개념과 질문도 연결"
+            "value": "세 원문에서, 읽기 메모로"
           }
         ],
         "position": {
-          "line": 52,
-          "endLine": 52
+          "line": 49,
+          "endLine": 49
         }
       },
       "blocks": [
         {
           "type": "element",
-          "tag": "p",
+          "tag": "h2",
           "children": [
             {
-              "type": "element",
-              "tag": "img",
-              "attrs": {
-                "src": "assets/3fa6045e0553-knowledge-map.svg",
-                "alt": "합성 예제. E1 공지 1판은 운영 페이지, E3 읽기 메모는 개념 페이지, E4 질문 메모는 질문 페이지에 연결됩니다. 운영·개념·질문 페이지를 서로 연결하고, 유용한 답은 검토한 뒤 위키 파일에 남깁니다.",
-                "title": "합성 예제 · AI 스터디 준비 위키"
-              },
-              "children": [],
-              "position": {
-                "line": 54,
-                "endLine": 54
-              }
+              "type": "text",
+              "value": "RAG · §2"
             }
           ],
           "position": {
@@ -366,7 +292,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "합성 공지 E1·읽기 메모 E3·질문 E4 → 운영·개념·질문 파일. 유용한 답은 "
+              "value": "검색한 문서를 "
             },
             {
               "type": "element",
@@ -374,7 +300,7 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "사람 검토 후 wiki에 저장"
+                  "value": "답 생성에 사용"
                 }
               ],
               "position": {
@@ -398,72 +324,53 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "페이지 구성과 검토 후 저장은 우리 제안입니다. "
-            },
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "assets/3fa6045e0553-knowledge-map.svg"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "도식 원본"
-                }
-              ],
-              "position": {
-                "line": 58,
-                "endLine": 58
-              }
+              "value": "가상 메모의 질문: 이 논문에는 학습도 있을까?"
             }
           ],
           "position": {
             "line": 58,
             "endLine": 58
           }
-        }
-      ],
-      "origin": {
-        "line": 47,
-        "endLine": 58
-      },
-      "tone": "green",
-      "view": {
-        "compose": "media",
-        "fit": "contain"
-      }
-    },
-    {
-      "layout": "blocks",
-      "title": "읽고, 묻고, 다시 점검하기",
-      "heading": {
-        "type": "element",
-        "tag": "h1",
-        "children": [
-          {
-            "type": "text",
-            "value": "읽고, 묻고, 다시 점검하기"
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://arxiv.org/html/2005.11401v4#S2"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Methods · Training"
+                }
+              ],
+              "position": {
+                "line": 60,
+                "endLine": 60
+              }
+            }
+          ],
+          "position": {
+            "line": 60,
+            "endLine": 60
           }
-        ],
-        "position": {
-          "line": 66,
-          "endLine": 66
-        }
-      },
-      "blocks": [
+        },
         {
           "type": "element",
           "tag": "h2",
           "children": [
             {
               "type": "text",
-              "value": "ingest · 반영"
+              "value": "LoRA · 초록"
             }
           ],
           "position": {
-            "line": 72,
-            "endLine": 72
+            "line": 65,
+            "endLine": 65
           }
         },
         {
@@ -472,12 +379,71 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "새 자료를 읽고 관련 페이지에 연결합니다."
+              "value": "기본 가중치는 고정, "
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "추가 행렬은 학습"
+                }
+              ],
+              "position": {
+                "line": 67,
+                "endLine": 67
+              }
+            },
+            {
+              "type": "text",
+              "value": "합니다."
             }
           ],
           "position": {
-            "line": 74,
-            "endLine": 74
+            "line": 67,
+            "endLine": 67
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "가상 메모의 질문: 무엇이 바뀌는가?"
+            }
+          ],
+          "position": {
+            "line": 69,
+            "endLine": 69
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://arxiv.org/html/2106.09685v2"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Abstract · §4.1"
+                }
+              ],
+              "position": {
+                "line": 71,
+                "endLine": 71
+              }
+            }
+          ],
+          "position": {
+            "line": 71,
+            "endLine": 71
           }
         },
         {
@@ -486,138 +452,58 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "query · 질문"
+              "value": "LLM Wiki · 설계"
+            }
+          ],
+          "position": {
+            "line": 76,
+            "endLine": 76
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "읽고 정리한 "
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "파일을 계속 유지"
+                }
+              ],
+              "position": {
+                "line": 78,
+                "endLine": 78
+              }
+            },
+            {
+              "type": "text",
+              "value": "합니다."
+            }
+          ],
+          "position": {
+            "line": 78,
+            "endLine": 78
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "가상 메모의 질문: 다음에 어떤 파일을 읽을까?"
             }
           ],
           "position": {
             "line": 80,
             "endLine": 80
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "질문에 답하고, 유용한 결과를 다시 남깁니다."
-            }
-          ],
-          "position": {
-            "line": 82,
-            "endLine": 82
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "lint · 점검"
-            }
-          ],
-          "position": {
-            "line": 88,
-            "endLine": 88
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "낡은 주장·빠진 연결·모순을 살핍니다. 누락은 가능합니다."
-            }
-          ],
-          "position": {
-            "line": 90,
-            "endLine": 90
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "index · 찾기"
-            }
-          ],
-          "position": {
-            "line": 96,
-            "endLine": 96
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "element",
-              "tag": "code",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "index"
-                }
-              ],
-              "position": {
-                "line": 98,
-                "endLine": 98
-              }
-            },
-            {
-              "type": "text",
-              "value": "는 페이지 목록입니다."
-            }
-          ],
-          "position": {
-            "line": 98,
-            "endLine": 98
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "log · 변경 이력"
-            }
-          ],
-          "position": {
-            "line": 104,
-            "endLine": 104
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "element",
-              "tag": "code",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "log"
-                }
-              ],
-              "position": {
-                "line": 106,
-                "endLine": 106
-              }
-            },
-            {
-              "type": "text",
-              "value": "는 무엇을 언제 바꿨는지 남깁니다."
-            }
-          ],
-          "position": {
-            "line": 106,
-            "endLine": 106
           }
         },
         {
@@ -633,77 +519,54 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "S1 · 반복 작업 원문"
+                  "value": "Architecture · Operations"
                 }
               ],
               "position": {
-                "line": 108,
-                "endLine": 108
+                "line": 82,
+                "endLine": 82
               }
             }
           ],
           "position": {
-            "line": 108,
-            "endLine": 108
+            "line": 82,
+            "endLine": 82
           }
         }
       ],
       "origin": {
-        "line": 62,
-        "endLine": 108
+        "line": 45,
+        "endLine": 82
       },
       "tone": "blue",
       "view": {
-        "compose": "bento",
+        "compose": "editorial",
         "groups": [
           {
             "start": 0,
-            "end": 2,
-            "icon": "folder",
+            "end": 4,
             "tone": "blue",
             "origin": {
-              "line": 68,
-              "endLine": 71
-            }
-          },
-          {
-            "start": 2,
-            "end": 4,
-            "icon": "search",
-            "tone": "purple",
-            "origin": {
-              "line": 76,
-              "endLine": 79
+              "line": 51,
+              "endLine": 53
             }
           },
           {
             "start": 4,
-            "end": 6,
-            "icon": "check",
-            "tone": "green",
-            "origin": {
-              "line": 84,
-              "endLine": 87
-            }
-          },
-          {
-            "start": 6,
             "end": 8,
-            "icon": "record",
-            "tone": "neutral",
+            "tone": "purple",
             "origin": {
-              "line": 92,
-              "endLine": 95
+              "line": 62,
+              "endLine": 64
             }
           },
           {
             "start": 8,
-            "end": 11,
-            "icon": "record",
-            "tone": "neutral",
+            "end": 12,
+            "tone": "green",
             "origin": {
-              "line": 100,
-              "endLine": 103
+              "line": 73,
+              "endLine": 75
             }
           }
         ]
@@ -711,19 +574,19 @@ window.PRESENTATION = {
     },
     {
       "layout": "blocks",
-      "title": "유용한 답도 다음 질문의 바탕으로",
+      "title": "검색과 모델 적응, 바뀌는 대상부터",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "유용한 답도 다음 질문의 바탕으로"
+            "value": "검색과 모델 적응, 바뀌는 대상부터"
           }
         ],
         "position": {
-          "line": 116,
-          "endLine": 116
+          "line": 91,
+          "endLine": 91
         }
       },
       "blocks": [
@@ -733,12 +596,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "질문 페이지 · E4"
+              "value": "검색 문맥"
             }
           ],
           "position": {
-            "line": 123,
-            "endLine": 123
+            "line": 96,
+            "endLine": 96
           }
         },
         {
@@ -747,12 +610,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "“답에 링크가 있으면 문장 전체를 믿어도 될까요?”"
+              "value": "관련 문서 → 답을 만들 때 읽는 문맥"
             }
           ],
           "position": {
-            "line": 125,
-            "endLine": 125
+            "line": 98,
+            "endLine": 98
           }
         },
         {
@@ -761,12 +624,64 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "합성 예제"
+              "value": "RAG 논문의 모델은 검색한 문서를 생성에 활용합니다."
             }
           ],
           "position": {
-            "line": 127,
-            "endLine": 127
+            "line": 100,
+            "endLine": 100
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://arxiv.org/html/2005.11401v4#S2"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "§2 Methods"
+                }
+              ],
+              "position": {
+                "line": 102,
+                "endLine": 102
+              }
+            },
+            {
+              "type": "text",
+              "value": " · 원논문에는 "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://arxiv.org/html/2005.11401v4#S2.SS4"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "§2.4 Training"
+                }
+              ],
+              "position": {
+                "line": 102,
+                "endLine": 102
+              }
+            },
+            {
+              "type": "text",
+              "value": "도 있습니다."
+            }
+          ],
+          "position": {
+            "line": 102,
+            "endLine": 102
           }
         },
         {
@@ -775,12 +690,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "검토한 답 → 파일에 남김"
+              "value": "학습 가능한 매개변수"
             }
           ],
           "position": {
-            "line": 133,
-            "endLine": 133
+            "line": 107,
+            "endLine": 107
           }
         },
         {
@@ -789,12 +704,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "“링크된 자료가 이 문장과 적용 범위를 실제로 지원하는지 확인합니다.”"
+              "value": "훈련 데이터 → 추가 행렬의 갱신"
             }
           ],
           "position": {
-            "line": 135,
-            "endLine": 135
+            "line": 109,
+            "endLine": 109
           }
         },
         {
@@ -803,12 +718,188 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "개념 페이지에 연결하고 다음 질문에서 다시 씁니다. 합성 답안이며 자동 저장은 하지 않습니다."
+              "value": "LoRA는 기본 가중치를 고정하고 저랭크 행렬을 학습합니다."
             }
           ],
           "position": {
-            "line": 137,
-            "endLine": 137
+            "line": 111,
+            "endLine": 111
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://arxiv.org/html/2106.09685v2"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Abstract · §4.1"
+                }
+              ],
+              "position": {
+                "line": 113,
+                "endLine": 113
+              }
+            }
+          ],
+          "position": {
+            "line": 113,
+            "endLine": 113
+          }
+        }
+      ],
+      "origin": {
+        "line": 87,
+        "endLine": 113
+      },
+      "tone": "blue",
+      "view": {
+        "compose": "editorial",
+        "groups": [
+          {
+            "start": 0,
+            "end": 4,
+            "tone": "blue",
+            "origin": {
+              "line": 93,
+              "endLine": 95
+            }
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "tone": "purple",
+            "origin": {
+              "line": 104,
+              "endLine": 106
+            }
+          }
+        ]
+      }
+    },
+    {
+      "layout": "blocks",
+      "title": "같은 질문: 다음 답에 어떻게 반영되나요?",
+      "heading": {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "value": "같은 질문: 다음 답에 어떻게 반영되나요?"
+          }
+        ],
+        "position": {
+          "line": 121,
+          "endLine": 121
+        }
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "위키 갱신"
+            }
+          ],
+          "position": {
+            "line": 126,
+            "endLine": 126
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "설명·연결 파일을 고칩니다."
+            }
+          ],
+          "position": {
+            "line": 128,
+            "endLine": 128
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "다음 질문에서 "
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "필요한 파일을 다시 읽습니다."
+                }
+              ],
+              "position": {
+                "line": 130,
+                "endLine": 130
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
+            }
+          ],
+          "position": {
+            "line": 130,
+            "endLine": 130
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "확인할 것: 주장 범위·링크·수정 이유"
+            }
+          ],
+          "position": {
+            "line": 132,
+            "endLine": 132
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "파일 축적의 설계"
+                }
+              ],
+              "position": {
+                "line": 134,
+                "endLine": 134
+              }
+            }
+          ],
+          "position": {
+            "line": 134,
+            "endLine": 134
           }
         },
         {
@@ -817,7 +908,53 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "링크는 확인할 단서"
+              "value": "검색을 이용한 생성"
+            }
+          ],
+          "position": {
+            "line": 139,
+            "endLine": 139
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "관련 자료를 찾습니다."
+            }
+          ],
+          "position": {
+            "line": 141,
+            "endLine": 141
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "찾은 자료를 "
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "답의 문맥에 넣습니다."
+                }
+              ],
+              "position": {
+                "line": 143,
+                "endLine": 143
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             }
           ],
           "position": {
@@ -831,7 +968,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "출처 링크가 정답이나 신뢰를 보장하지는 않습니다."
+              "value": "확인할 것: 검색 누락·관련성·답의 지원"
             }
           ],
           "position": {
@@ -847,33 +984,12 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "a",
               "attrs": {
-                "href": "https://www.w3.org/TR/2013/NOTE-prov-overview-20130430/"
+                "href": "https://arxiv.org/html/2005.11401v4#S2"
               },
               "children": [
                 {
                   "type": "text",
-                  "value": "S11 · 출처 정보 개요"
-                }
-              ],
-              "position": {
-                "line": 147,
-                "endLine": 147
-              }
-            },
-            {
-              "type": "text",
-              "value": " · "
-            },
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "https://arxiv.org/abs/2005.11401"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "S12 · 한계 참고"
+                  "value": "RAG §2"
                 }
               ],
               "position": {
@@ -886,45 +1002,142 @@ window.PRESENTATION = {
             "line": 147,
             "endLine": 147
           }
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "LoRA 모델 적응"
+            }
+          ],
+          "position": {
+            "line": 152,
+            "endLine": 152
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "추가 행렬을 학습합니다."
+            }
+          ],
+          "position": {
+            "line": 154,
+            "endLine": 154
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "학습 결과를 적용한 모델"
+                }
+              ],
+              "position": {
+                "line": 156,
+                "endLine": 156
+              }
+            },
+            {
+              "type": "text",
+              "value": "로 답합니다."
+            }
+          ],
+          "position": {
+            "line": 156,
+            "endLine": 156
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "확인할 것: 데이터·목표·평가·적용 대상"
+            }
+          ],
+          "position": {
+            "line": 158,
+            "endLine": 158
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://arxiv.org/html/2106.09685v2"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "LoRA Abstract·§4.1"
+                }
+              ],
+              "position": {
+                "line": 160,
+                "endLine": 160
+              }
+            }
+          ],
+          "position": {
+            "line": 160,
+            "endLine": 160
+          }
         }
       ],
       "origin": {
-        "line": 112,
-        "endLine": 147
+        "line": 117,
+        "endLine": 160
       },
-      "tone": "purple",
+      "tone": "green",
       "view": {
-        "compose": "bento",
+        "compose": "editorial",
         "groups": [
           {
             "start": 0,
-            "end": 3,
-            "primary": true,
-            "tone": "purple",
-            "icon": "search",
-            "origin": {
-              "line": 118,
-              "endLine": 122
-            }
-          },
-          {
-            "start": 3,
-            "end": 6,
+            "end": 5,
             "tone": "green",
-            "icon": "book",
             "origin": {
-              "line": 129,
-              "endLine": 132
+              "line": 123,
+              "endLine": 125
             }
           },
           {
-            "start": 6,
-            "end": 9,
-            "tone": "orange",
-            "icon": "check",
+            "start": 5,
+            "end": 10,
+            "tone": "blue",
             "origin": {
-              "line": 139,
-              "endLine": 142
+              "line": 136,
+              "endLine": 138
+            }
+          },
+          {
+            "start": 10,
+            "end": 15,
+            "tone": "purple",
+            "origin": {
+              "line": 149,
+              "endLine": 151
             }
           }
         ]
@@ -932,71 +1145,38 @@ window.PRESENTATION = {
     },
     {
       "layout": "blocks",
-      "title": "이 자료로 “매주”까지 말할 수 있을까요?",
+      "title": "연결은 근거로 돌아가는 길",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "이 자료로 “매주”까지 말할 수 있을까요?"
+            "value": "연결은 근거로 돌아가는 길"
           }
         ],
         "position": {
-          "line": 155,
-          "endLine": 155
+          "line": 169,
+          "endLine": 169
         }
       },
       "blocks": [
         {
           "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "자료 · E1"
-            }
-          ],
-          "position": {
-            "line": 161,
-            "endLine": 161
-          }
-        },
-        {
-          "type": "element",
           "tag": "p",
           "children": [
             {
-              "type": "text",
-              "value": "“11월 5일 AI 스터디는 오후 8시에 시작한다.”"
-            }
-          ],
-          "position": {
-            "line": 163,
-            "endLine": 163
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "합성 공지 1판 · 2026-10-20"
-            }
-          ],
-          "position": {
-            "line": 165,
-            "endLine": 165
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "지원되는 주장 · EC1"
+              "type": "element",
+              "tag": "img",
+              "attrs": {
+                "src": "assets/07411af0788b-knowledge-map.svg",
+                "alt": "가상 학습 경로. RAG는 검색 개념에, LoRA는 모델 적응 개념에, LLM Wiki 설계는 파일 정리에 연결됩니다. 같은 질문으로 비교하고 위키 수정은 학습인가에 답합니다. 검토한 답은 관련 개념과 비교에 다시 연결합니다."
+              },
+              "children": [],
+              "position": {
+                "line": 171,
+                "endLine": 171
+              }
             }
           ],
           "position": {
@@ -1010,172 +1190,181 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "“11월 5일 시작은 오후 8시.”"
+              "value": "질문에서 원문으로 근거를 되짚고, 원문에서 질문으로 수정할 후보를 찾습니다. "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "materials/study-guide.html#5-%EC%97%B0%EA%B2%B0%EB%8F%84%EB%A5%BC-%EC%9D%BD%EB%8A%94-%EB%B2%95"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "파일 예제와 읽는 법"
+                }
+              ],
+              "position": {
+                "line": 173,
+                "endLine": 173
+              }
             }
           ],
           "position": {
             "line": 173,
             "endLine": 173
           }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "합성 주장 · 1판 기준 확인"
-            }
-          ],
-          "position": {
-            "line": 175,
-            "endLine": 175
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "근거가 부족한 확장"
-            }
-          ],
-          "position": {
-            "line": 181,
-            "endLine": 181
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "“매주 오후 8시.” → 반복 주기는 "
-            },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "미확인"
-                }
-              ],
-              "position": {
-                "line": 183,
-                "endLine": 183
-              }
-            },
-            {
-              "type": "text",
-              "value": "입니다."
-            }
-          ],
-          "position": {
-            "line": 183,
-            "endLine": 183
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "자료 → 주장 → 결정 카드는 우리 제안이며 표준 양식이 아닙니다. "
-            },
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "https://www.w3.org/TR/2013/NOTE-prov-overview-20130430/"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "착안 S11"
-                }
-              ],
-              "position": {
-                "line": 185,
-                "endLine": 185
-              }
-            }
-          ],
-          "position": {
-            "line": 185,
-            "endLine": 185
-          }
         }
       ],
       "origin": {
-        "line": 151,
-        "endLine": 185
+        "line": 164,
+        "endLine": 173
       },
-      "tone": "orange",
+      "tone": "green",
       "view": {
-        "compose": "bento",
-        "groups": [
-          {
-            "start": 0,
-            "end": 3,
-            "tone": "neutral",
-            "icon": "record",
-            "origin": {
-              "line": 157,
-              "endLine": 160
-            }
-          },
-          {
-            "start": 3,
-            "end": 6,
-            "tone": "green",
-            "icon": "check",
-            "origin": {
-              "line": 167,
-              "endLine": 170
-            }
-          },
-          {
-            "start": 6,
-            "end": 9,
-            "tone": "orange",
-            "icon": "search",
-            "origin": {
-              "line": 177,
-              "endLine": 180
-            }
-          }
-        ]
+        "compose": "media",
+        "fit": "contain"
       }
     },
     {
       "layout": "blocks",
-      "title": "사실과 우리가 선택한 행동은 다릅니다",
+      "title": "질문 · 위키 파일을 고치면 모델도 학습하나요?",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "사실과 우리가 선택한 행동은 다릅니다"
+            "value": "질문 · 위키 파일을 고치면 모델도 학습하나요?"
           }
         ],
         "position": {
-          "line": 193,
-          "endLine": 193
+          "line": 181,
+          "endLine": 181
         }
       },
       "blocks": [
         {
           "type": "element",
-          "tag": "h2",
+          "tag": "blockquote",
+          "children": [
+            {
+              "type": "element",
+              "tag": "p",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "이 예제에서 바뀌는 것은 파일입니다."
+                },
+                {
+                  "type": "text",
+                  "value": "\n"
+                },
+                {
+                  "type": "text",
+                  "value": "다음 답에 쓰려면 다시 읽어야 합니다."
+                }
+              ],
+              "position": {
+                "line": 183,
+                "endLine": 184
+              }
+            }
+          ],
+          "position": {
+            "line": 183,
+            "endLine": 184
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
           "children": [
             {
               "type": "text",
-              "value": "확인한 주장 · EC1"
+              "value": "모델 매개변수를 학습하는 절차와 구분합니다. 근거·범위를 검토한 답을 질문 페이지에 저장하고, 개념·비교 페이지에 연결합니다."
+            }
+          ],
+          "position": {
+            "line": 186,
+            "endLine": 186
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "남은 질문: 우리 자료에서 필요한 파일을 제대로 찾을 수 있을까요? "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "materials/study-guide.html#6-%EC%A7%88%EB%AC%B8%EC%9D%98-%EB%8B%B5%EC%9D%84-%EB%8B%A4%EC%8B%9C-%EC%A0%80%EC%9E%A5%ED%95%98%EB%8A%94-query"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "가상 질문 페이지 전문"
+                }
+              ],
+              "position": {
+                "line": 188,
+                "endLine": 188
+              }
+            }
+          ],
+          "position": {
+            "line": 188,
+            "endLine": 188
+          }
+        }
+      ],
+      "origin": {
+        "line": 177,
+        "endLine": 188
+      },
+      "tone": "purple",
+      "view": {
+        "compose": "quote"
+      }
+    },
+    {
+      "layout": "blocks",
+      "title": "새 근거는 예전 문장을 고칩니다",
+      "heading": {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "value": "새 근거는 예전 문장을 고칩니다"
+          }
+        ],
+        "position": {
+          "line": 197,
+          "endLine": 197
+        }
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "img",
+              "attrs": {
+                "src": "assets/5efc5a198e7f-change-trace.svg",
+                "alt": "가상 위키의 수정 과정. 외부 파일을 쓰면 학습하지 않는다는 과도한 일반화를 삭제합니다. RAG Training과 LoRA의 학습 대상을 대조해 파일 수정과 매개변수 학습을 구분하는 문장으로 고칩니다. 현재 본문을 교정하고 변경 이유는 log에 남깁니다."
+              },
+              "children": [],
+              "position": {
+                "line": 199,
+                "endLine": 199
+              }
             }
           ],
           "position": {
@@ -1189,203 +1378,99 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "11월 5일 시작은 오후 8시."
+              "value": "일반화를 지우고 범위를 고칩니다. 관련 질문도 검토하며, 이유는 이력에 남깁니다. "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "materials/study-guide.html#7-ingest-%EC%83%88-%EC%9E%90%EB%A3%8C%EB%A5%BC-%EB%84%A3%EC%9D%84-%EB%95%8C-%EC%8B%A4%EC%A0%9C%EB%A1%9C-%EB%8B%AC%EB%9D%BC%EC%A7%80%EB%8A%94-%EA%B2%83"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "수정 diff"
+                }
+              ],
+              "position": {
+                "line": 201,
+                "endLine": 201
+              }
+            },
+            {
+              "type": "text",
+              "value": " · "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://arxiv.org/html/2005.11401v4#S2.SS4"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "RAG §2.4"
+                }
+              ],
+              "position": {
+                "line": 201,
+                "endLine": 201
+              }
+            },
+            {
+              "type": "text",
+              "value": " · "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://arxiv.org/html/2106.09685v2"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "LoRA"
+                }
+              ],
+              "position": {
+                "line": 201,
+                "endLine": 201
+              }
             }
           ],
           "position": {
             "line": 201,
             "endLine": 201
           }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "합성 예제 · E1의 1판 기준"
-            }
-          ],
-          "position": {
-            "line": 203,
-            "endLine": 203
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "운영자의 선택"
-            }
-          ],
-          "position": {
-            "line": 209,
-            "endLine": 209
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "1판 기준 오후 8시 안내를 사용하기로 합니다."
-            }
-          ],
-          "position": {
-            "line": 211,
-            "endLine": 211
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "합성 결정 ED1 · 당시 accepted · 담당 민지 · 2026-10-21"
-            }
-          ],
-          "position": {
-            "line": 213,
-            "endLine": 213
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "이유와 재검토도 남김"
-            }
-          ],
-          "position": {
-            "line": 219,
-            "endLine": 219
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "혼선을 줄이기 위해 선택. 대안은 확인까지 안내 보류. 공지가 바뀌면 재검토합니다."
-            }
-          ],
-          "position": {
-            "line": 221,
-            "endLine": 221
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "S10 · 결정 기록 원문"
-                }
-              ],
-              "position": {
-                "line": 223,
-                "endLine": 223
-              }
-            },
-            {
-              "type": "text",
-              "value": " · 스터디 적용은 우리 제안 · "
-            },
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "assets/58c5bbb5da45-decision-example.txt"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "전체 결정 카드"
-                }
-              ],
-              "position": {
-                "line": 223,
-                "endLine": 223
-              }
-            }
-          ],
-          "position": {
-            "line": 223,
-            "endLine": 223
-          }
         }
       ],
       "origin": {
-        "line": 189,
-        "endLine": 223
+        "line": 192,
+        "endLine": 201
       },
-      "tone": "yellow",
+      "tone": "orange",
       "view": {
-        "compose": "bento",
-        "groups": [
-          {
-            "start": 0,
-            "end": 3,
-            "tone": "neutral",
-            "icon": "record",
-            "origin": {
-              "line": 195,
-              "endLine": 198
-            }
-          },
-          {
-            "start": 3,
-            "end": 6,
-            "tone": "yellow",
-            "icon": "select",
-            "origin": {
-              "line": 205,
-              "endLine": 208
-            }
-          },
-          {
-            "start": 6,
-            "end": 9,
-            "tone": "orange",
-            "icon": "compare",
-            "origin": {
-              "line": 215,
-              "endLine": 218
-            }
-          }
-        ]
+        "compose": "media",
+        "fit": "contain"
       }
     },
     {
       "layout": "blocks",
-      "title": "새 날짜보다, 명시적인 변경을 확인",
+      "title": "index는 지금, log는 바뀐 이유",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "새 날짜보다, 명시적인 변경을 확인"
+            "value": "index는 지금, log는 바뀐 이유"
           }
         ],
         "position": {
-          "line": 231,
-          "endLine": 231
+          "line": 209,
+          "endLine": 209
         }
       },
       "blocks": [
@@ -1395,12 +1480,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "새 자료 · E2"
+              "value": "index · 무엇부터 읽지?"
             }
           ],
           "position": {
-            "line": 237,
-            "endLine": 237
+            "line": 214,
+            "endLine": 214
           }
         },
         {
@@ -1409,12 +1494,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "“이번 11월 5일 모임은 오후 8시 30분으로 변경한다.”"
+              "value": "처음 이해하기 → 검색 문맥 / 모델 적응"
             }
           ],
           "position": {
-            "line": 239,
-            "endLine": 239
+            "line": 216,
+            "endLine": 216
           }
         },
         {
@@ -1423,12 +1508,53 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "합성 변경 공지 2판 · 2026-10-27"
+              "value": "차이 알아보기 → 같은 기준의 비교"
             }
           ],
           "position": {
-            "line": 241,
-            "endLine": 241
+            "line": 218,
+            "endLine": 218
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "질문에서 시작하기 → 위키 수정은 학습인가"
+            }
+          ],
+          "position": {
+            "line": 220,
+            "endLine": 220
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "materials/study-guide.html#8-index%EC%99%80-log%EB%8A%94-%EC%84%9C%EB%A1%9C-%EB%8B%A4%EB%A5%B8-%EC%A7%88%EB%AC%B8%EC%97%90-%EB%8B%B5%ED%95%9C%EB%8B%A4"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "가상 index 전문"
+                }
+              ],
+              "position": {
+                "line": 222,
+                "endLine": 222
+              }
+            }
+          ],
+          "position": {
+            "line": 222,
+            "endLine": 222
           }
         },
         {
@@ -1437,12 +1563,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "새 주장 · EC2"
+              "value": "log · 무엇을 왜 고쳤지?"
             }
           ],
           "position": {
-            "line": 247,
-            "endLine": 247
+            "line": 227,
+            "endLine": 227
           }
         },
         {
@@ -1451,12 +1577,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "“11월 5일 시작은 오후 8시 30분.”"
+              "value": "LoRA 메모를 개념에 연결했다."
             }
           ],
           "position": {
-            "line": 249,
-            "endLine": 249
+            "line": 229,
+            "endLine": 229
           }
         },
         {
@@ -1465,12 +1591,192 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "합성 주장 · 해당 날짜만 지원합니다. 다른 날짜로 넓히지 않습니다."
+              "value": "‘외부 파일 사용 = 학습 없음’을 교정했다."
             }
           ],
           "position": {
-            "line": 251,
-            "endLine": 251
+            "line": 231,
+            "endLine": 231
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "이유: 파일 사용과 학습 대상을 섞었다."
+            }
+          ],
+          "position": {
+            "line": 233,
+            "endLine": 233
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "materials/study-guide.html#8-index%EC%99%80-log%EB%8A%94-%EC%84%9C%EB%A1%9C-%EB%8B%A4%EB%A5%B8-%EC%A7%88%EB%AC%B8%EC%97%90-%EB%8B%B5%ED%95%9C%EB%8B%A4"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "가상 log 전문"
+                }
+              ],
+              "position": {
+                "line": 235,
+                "endLine": 235
+              }
+            }
+          ],
+          "position": {
+            "line": 235,
+            "endLine": 235
+          }
+        }
+      ],
+      "origin": {
+        "line": 205,
+        "endLine": 235
+      },
+      "tone": "green",
+      "view": {
+        "compose": "editorial",
+        "groups": [
+          {
+            "start": 0,
+            "end": 5,
+            "tone": "green",
+            "origin": {
+              "line": 211,
+              "endLine": 213
+            }
+          },
+          {
+            "start": 5,
+            "end": 10,
+            "tone": "orange",
+            "origin": {
+              "line": 224,
+              "endLine": 226
+            }
+          }
+        ]
+      }
+    },
+    {
+      "layout": "blocks",
+      "title": "논문을 읽어도, 선택은 우리가 합니다",
+      "heading": {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "value": "논문을 읽어도, 선택은 우리가 합니다"
+          }
+        ],
+        "position": {
+          "line": 243,
+          "endLine": 243
+        }
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "선택"
+            }
+          ],
+          "position": {
+            "line": 248,
+            "endLine": 248
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "검토한 질문 답부터 파일로 남긴다."
+                }
+              ],
+              "position": {
+                "line": 250,
+                "endLine": 250
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
+            }
+          ],
+          "position": {
+            "line": 250,
+            "endLine": 250
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "질문 1개 · 개념 2개 · 비교 1개부터"
+            }
+          ],
+          "position": {
+            "line": 252,
+            "endLine": 252
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "가상 스터디의 결정 · "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "materials/study-guide.html#9-%EA%B7%BC%EA%B1%B0%EB%A5%BC-%EC%9D%BD%EC%9D%80-%EB%8B%A4%EC%9D%8C%EC%97%90%EB%8F%84-%EA%B2%B0%EC%A0%95%EC%9D%80-%EB%82%A8%EB%8A%94%EB%8B%A4"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "전체 기록"
+                }
+              ],
+              "position": {
+                "line": 254,
+                "endLine": 254
+              }
+            }
+          ],
+          "position": {
+            "line": 254,
+            "endLine": 254
           }
         },
         {
@@ -1479,21 +1785,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "사람이 영향 범위 검토"
-            }
-          ],
-          "position": {
-            "line": 257,
-            "endLine": 257
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "운영 페이지·기존 주장·안내 결정을 함께 확인합니다."
+              "value": "이유와 대안"
             }
           ],
           "position": {
@@ -1507,91 +1799,80 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "우리 제안 · 나중 자료라는 이유만으로 자동 교체하지 않습니다."
+              "value": "다음 모임에 근거와 수정 이유를 다시 읽고 싶습니다."
             }
           ],
           "position": {
             "line": 261,
             "endLine": 261
           }
-        }
-      ],
-      "origin": {
-        "line": 227,
-        "endLine": 261
-      },
-      "tone": "orange",
-      "view": {
-        "compose": "bento",
-        "groups": [
-          {
-            "start": 0,
-            "end": 3,
-            "tone": "orange",
-            "icon": "mail",
-            "origin": {
-              "line": 233,
-              "endLine": 236
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "채팅만 유지하거나, 검색부터 구축할 수도 있습니다."
             }
-          },
-          {
-            "start": 3,
-            "end": 6,
-            "tone": "green",
-            "icon": "check",
-            "origin": {
-              "line": 243,
-              "endLine": 246
-            }
-          },
-          {
-            "start": 6,
-            "end": 9,
-            "tone": "purple",
-            "icon": "search",
-            "origin": {
-              "line": 253,
-              "endLine": 256
-            }
+          ],
+          "position": {
+            "line": 263,
+            "endLine": 263
           }
-        ]
-      }
-    },
-    {
-      "layout": "blocks",
-      "title": "바꾸되, 예전 이유는 지우지 않습니다",
-      "heading": {
-        "type": "element",
-        "tag": "h1",
-        "children": [
-          {
-            "type": "text",
-            "value": "바꾸되, 예전 이유는 지우지 않습니다"
-          }
-        ],
-        "position": {
-          "line": 270,
-          "endLine": 270
-        }
-      },
-      "blocks": [
+        },
         {
           "type": "element",
           "tag": "p",
           "children": [
             {
               "type": "element",
-              "tag": "img",
+              "tag": "a",
               "attrs": {
-                "src": "assets/7fa4c28da602-change-trace.svg",
-                "alt": "합성 예제. 변경 공지 E2의 명시적 변경을 확인해 EC2를 연결하고 사람이 ED2를 승인합니다. ED1은 삭제하지 않고 superseded by ED2로 보존합니다. 이번 11월 5일 안내만 교체하며 관련 안내는 점검할 일로 남깁니다.",
-                "title": "합성 예제 · E2 → EC2 → ED2, ED1의 대체 이력 보존"
+                "href": "https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
               },
-              "children": [],
+              "children": [
+                {
+                  "type": "text",
+                  "value": "결정 기록"
+                }
+              ],
               "position": {
-                "line": 272,
-                "endLine": 272
+                "line": 265,
+                "endLine": 265
               }
+            },
+            {
+              "type": "text",
+              "value": "을 스터디에 응용했습니다."
+            }
+          ],
+          "position": {
+            "line": 265,
+            "endLine": 265
+          }
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "결과와 재검토"
+            }
+          ],
+          "position": {
+            "line": 270,
+            "endLine": 270
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "검토·연결 관리 시간이 듭니다."
             }
           ],
           "position": {
@@ -1605,124 +1886,68 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "합성 변경 공지 → 새 주장 → 새 안내 결정. 11월 5일 안내만 20:30으로. 이전 결정 ED1은 "
-            },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "superseded by ED2"
-                }
-              ],
-              "position": {
-                "line": 274,
-                "endLine": 274
-              }
-            },
-            {
-              "type": "text",
-              "value": "로 보존합니다."
+              "value": "페이지를 계속 못 찾거나 검토가 밀리면 다시 결정합니다."
             }
           ],
           "position": {
             "line": 274,
             "endLine": 274
           }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "합성 ED2 · accepted · 2026-10-28. 초대장 등은 점검할 일이며 실제 수정 완료를 뜻하지 않습니다."
-            }
-          ],
-          "position": {
-            "line": 276,
-            "endLine": 276
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "assets/7fa4c28da602-change-trace.svg"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "도식 원본"
-                }
-              ],
-              "position": {
-                "line": 278,
-                "endLine": 278
-              }
-            },
-            {
-              "type": "text",
-              "value": " · "
-            },
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "S10 · 대체 이력 원문"
-                }
-              ],
-              "position": {
-                "line": 278,
-                "endLine": 278
-              }
-            },
-            {
-              "type": "text",
-              "value": " · 검토 절차는 우리 제안"
-            }
-          ],
-          "position": {
-            "line": 278,
-            "endLine": 278
-          }
         }
       ],
       "origin": {
-        "line": 265,
-        "endLine": 278
+        "line": 239,
+        "endLine": 274
       },
-      "tone": "green",
+      "tone": "yellow",
       "view": {
-        "compose": "media",
-        "fit": "contain"
+        "compose": "editorial",
+        "groups": [
+          {
+            "start": 0,
+            "end": 4,
+            "tone": "yellow",
+            "origin": {
+              "line": 245,
+              "endLine": 247
+            }
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "tone": "green",
+            "origin": {
+              "line": 256,
+              "endLine": 258
+            }
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "tone": "orange",
+            "origin": {
+              "line": 267,
+              "endLine": 269
+            }
+          }
+        ]
       }
     },
     {
       "layout": "blocks",
-      "title": "남기는 파일과 모델 학습은 구분합니다",
+      "title": "링크 다음에는, 문장을 확인합니다",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "남기는 파일과 모델 학습은 구분합니다"
+            "value": "링크 다음에는, 문장을 확인합니다"
           }
         ],
         "position": {
-          "line": 286,
-          "endLine": 286
+          "line": 283,
+          "endLine": 283
         }
       },
       "blocks": [
@@ -1732,7 +1957,53 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "파일 위키"
+              "value": "링크는 있지만 틀린 요약"
+            }
+          ],
+          "position": {
+            "line": 288,
+            "endLine": 288
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "“LoRA는 기본 가중치를 고정하므로 학습이 없다.”"
+            }
+          ],
+          "position": {
+            "line": 290,
+            "endLine": 290
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "초록의 "
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "추가 행렬을 학습한다"
+                }
+              ],
+              "position": {
+                "line": 292,
+                "endLine": 292
+              }
+            },
+            {
+              "type": "text",
+              "value": "는 부분을 빠뜨렸습니다."
             }
           ],
           "position": {
@@ -1745,8 +2016,21 @@ window.PRESENTATION = {
           "tag": "p",
           "children": [
             {
-              "type": "text",
-              "value": "이 사례에서 지속되는 것은 열어 볼 수 있는 Markdown 파일입니다."
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://arxiv.org/html/2106.09685v2"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "LoRA 초록으로 돌아가기"
+                }
+              ],
+              "position": {
+                "line": 294,
+                "endLine": 294
+              }
             }
           ],
           "position": {
@@ -1756,47 +2040,154 @@ window.PRESENTATION = {
         },
         {
           "type": "element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "문장 지원과 진실 판단"
+            }
+          ],
+          "position": {
+            "line": 299,
+            "endLine": 299
+          }
+        },
+        {
+          "type": "element",
           "tag": "p",
           "children": [
             {
               "type": "text",
-              "value": "설계 해석 · "
+              "value": "먼저 자료가 이 문장과 범위를 지원하는지 봅니다."
+            }
+          ],
+          "position": {
+            "line": 301,
+            "endLine": 301
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "지원되더라도 자료 자체의 조건·오류·다른 근거는 따로 검토합니다."
+            }
+          ],
+          "position": {
+            "line": 303,
+            "endLine": 303
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://arxiv.org/html/2305.14627v2#S3.SS3"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ALCE 인용 평가"
+                }
+              ],
+              "position": {
+                "line": 305,
+                "endLine": 305
+              }
+            },
+            {
+              "type": "text",
+              "value": " · "
             },
             {
               "type": "element",
               "tag": "a",
               "attrs": {
-                "href": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+                "href": "https://www.w3.org/TR/2013/NOTE-prov-overview-20130430/"
               },
               "children": [
                 {
                   "type": "text",
-                  "value": "S1 원문"
+                  "value": "PROV 출처 정보"
                 }
               ],
               "position": {
-                "line": 296,
-                "endLine": 296
+                "line": 305,
+                "endLine": 305
               }
             }
           ],
           "position": {
-            "line": 296,
-            "endLine": 296
+            "line": 305,
+            "endLine": 305
           }
-        },
+        }
+      ],
+      "origin": {
+        "line": 279,
+        "endLine": 305
+      },
+      "tone": "orange",
+      "view": {
+        "compose": "editorial",
+        "groups": [
+          {
+            "start": 0,
+            "end": 4,
+            "tone": "orange",
+            "origin": {
+              "line": 285,
+              "endLine": 287
+            }
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "tone": "green",
+            "origin": {
+              "line": 296,
+              "endLine": 298
+            }
+          }
+        ]
+      }
+    },
+    {
+      "layout": "blocks",
+      "title": "작은 질문으로, 유지할 일을 확인합니다",
+      "heading": {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "value": "작은 질문으로, 유지할 일을 확인합니다"
+          }
+        ],
+        "position": {
+          "line": 313,
+          "endLine": 313
+        }
+      },
+      "blocks": [
         {
           "type": "element",
           "tag": "h2",
           "children": [
             {
               "type": "text",
-              "value": "모델 학습"
+              "value": "읽기 · 반영"
             }
           ],
           "position": {
-            "line": 302,
-            "endLine": 302
+            "line": 318,
+            "endLine": 318
           }
         },
         {
@@ -1805,12 +2196,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "모델 가중치를 바꾸는 일입니다. 파일 저장 자체가 모델 학습은 아닙니다."
+              "value": "원문 두세 개와 질문 하나부터 시작합니다."
             }
           ],
           "position": {
-            "line": 304,
-            "endLine": 304
+            "line": 320,
+            "endLine": 320
           }
         },
         {
@@ -1819,80 +2210,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "이 설계 범위의 구분입니다."
-            }
-          ],
-          "position": {
-            "line": 306,
-            "endLine": 306
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "RAG와도 함께"
-            }
-          ],
-          "position": {
-            "line": 312,
-            "endLine": 312
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "관련 자료를 검색해 답 생성에 씁니다. 위키도 검색과 함께 쓸 수 있습니다."
-            }
-          ],
-          "position": {
-            "line": 314,
-            "endLine": 314
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "정의는 원문, 병행은 해석 · "
-            },
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "https://arxiv.org/abs/2005.11401"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "S12 RAG 논문"
-                }
-              ],
-              "position": {
-                "line": 316,
-                "endLine": 316
-              }
-            }
-          ],
-          "position": {
-            "line": 316,
-            "endLine": 316
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "확인은 계속 필요"
+              "value": "관련 개념과 비교에 연결합니다."
             }
           ],
           "position": {
@@ -1902,16 +2220,44 @@ window.PRESENTATION = {
         },
         {
           "type": "element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "찾기 · 질문"
+            }
+          ],
+          "position": {
+            "line": 327,
+            "endLine": 327
+          }
+        },
+        {
+          "type": "element",
           "tag": "p",
           "children": [
             {
               "type": "text",
-              "value": "출처가 있어도 오답·낡은 정보·검토 누락은 가능합니다."
+              "value": "놓치는 페이지가 생기면 목차와 검색을 점검합니다."
             }
           ],
           "position": {
-            "line": 324,
-            "endLine": 324
+            "line": 329,
+            "endLine": 329
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "검토한 답과 남은 질문을 이어갑니다."
+            }
+          ],
+          "position": {
+            "line": 331,
+            "endLine": 331
           }
         },
         {
@@ -1920,12 +2266,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "도입 효과는 미측정"
+              "value": "고치기 · 점검"
             }
           ],
           "position": {
-            "line": 330,
-            "endLine": 330
+            "line": 336,
+            "endLine": 336
           }
         },
         {
@@ -1934,12 +2280,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "정확도·절감 효과·유지비는 이번에 측정하지 않았습니다."
+              "value": "주장·연결·이력에 검토 시간을 배정합니다."
             }
           ],
           "position": {
-            "line": 332,
-            "endLine": 332
+            "line": 338,
+            "endLine": 338
           }
         },
         {
@@ -1948,71 +2294,65 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "근거와 문장을 대조하는 검토 제안입니다."
+              "value": "효과·절감·유지비는 미측정입니다. "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "materials/study-guide.html#14-%EA%B7%9C%EB%AA%A8%EC%99%80-%EC%9A%B4%EC%98%81-%EB%B9%84%EC%9A%A9%EC%9D%98-tradeoff"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "운영의 tradeoff"
+                }
+              ],
+              "position": {
+                "line": 340,
+                "endLine": 340
+              }
             }
           ],
           "position": {
-            "line": 334,
-            "endLine": 334
+            "line": 340,
+            "endLine": 340
           }
         }
       ],
       "origin": {
-        "line": 282,
-        "endLine": 334
+        "line": 309,
+        "endLine": 340
       },
-      "tone": "purple",
+      "tone": "blue",
       "view": {
-        "compose": "bento",
+        "compose": "editorial",
         "groups": [
           {
             "start": 0,
             "end": 3,
             "tone": "blue",
-            "icon": "folder",
             "origin": {
-              "line": 288,
-              "endLine": 291
+              "line": 315,
+              "endLine": 317
             }
           },
           {
             "start": 3,
             "end": 6,
-            "tone": "purple",
-            "icon": "brain",
+            "tone": "green",
             "origin": {
-              "line": 298,
-              "endLine": 301
+              "line": 324,
+              "endLine": 326
             }
           },
           {
             "start": 6,
             "end": 9,
-            "tone": "green",
-            "icon": "search",
-            "origin": {
-              "line": 308,
-              "endLine": 311
-            }
-          },
-          {
-            "start": 9,
-            "end": 11,
             "tone": "orange",
-            "icon": "check",
             "origin": {
-              "line": 318,
-              "endLine": 321
-            }
-          },
-          {
-            "start": 11,
-            "end": 14,
-            "tone": "neutral",
-            "icon": "compare",
-            "origin": {
-              "line": 326,
-              "endLine": 329
+              "line": 333,
+              "endLine": 335
             }
           }
         ]
@@ -2020,19 +2360,19 @@ window.PRESENTATION = {
     },
     {
       "layout": "blocks",
-      "title": "자료 하나, 주장 하나, 결정 하나부터",
+      "title": "다음 질문에, 근거부터 이어 봅시다",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "자료 하나, 주장 하나, 결정 하나부터"
+            "value": "다음 질문에, 근거부터 이어 봅시다"
           }
         ],
         "position": {
-          "line": 342,
-          "endLine": 342
+          "line": 348,
+          "endLine": 348
         }
       },
       "blocks": [
@@ -2054,8 +2394,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 344,
-                "endLine": 344
+                "line": 350,
+                "endLine": 350
               }
             },
             {
@@ -2064,8 +2404,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 344,
-            "endLine": 344
+            "line": 350,
+            "endLine": 350
           }
         },
         {
@@ -2074,12 +2414,29 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "남은 2분: 내 메모에서 다시 찾고 싶은 질문을 나눠 봅시다."
+              "value": "질문 2분 · "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "materials/index.html"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "공부 자료 목차"
+                }
+              ],
+              "position": {
+                "line": 352,
+                "endLine": 352
+              }
             }
           ],
           "position": {
-            "line": 346,
-            "endLine": 346
+            "line": 352,
+            "endLine": 352
           }
         },
         {
@@ -2090,17 +2447,17 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "a",
               "attrs": {
-                "href": "assets/0827f3843e16-sources.txt"
+                "href": "materials/study-guide.html"
               },
               "children": [
                 {
                   "type": "text",
-                  "value": "출처·근거"
+                  "value": "학습 가이드"
                 }
               ],
               "position": {
-                "line": 348,
-                "endLine": 348
+                "line": 354,
+                "endLine": 354
               }
             },
             {
@@ -2111,17 +2468,17 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "a",
               "attrs": {
-                "href": "assets/58c5bbb5da45-decision-example.txt"
+                "href": "materials/speaker-script.html"
               },
               "children": [
                 {
                   "type": "text",
-                  "value": "합성 결정 카드"
+                  "value": "발표 대본"
                 }
               ],
               "position": {
-                "line": 348,
-                "endLine": 348
+                "line": 354,
+                "endLine": 354
               }
             },
             {
@@ -2132,17 +2489,17 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "a",
               "attrs": {
-                "href": "assets/c122e725c09d-starter-template.txt"
+                "href": "materials/reference-library.html"
               },
               "children": [
                 {
                   "type": "text",
-                  "value": "시작 템플릿"
+                  "value": "원문 읽기"
                 }
               ],
               "position": {
-                "line": 348,
-                "endLine": 348
+                "line": 354,
+                "endLine": 354
               }
             },
             {
@@ -2153,29 +2510,29 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "a",
               "attrs": {
-                "href": "assets/eeba1d88fabe-speaker-guide.txt"
+                "href": "materials/workshop.html"
               },
               "children": [
                 {
                   "type": "text",
-                  "value": "진행 가이드 · 공개"
+                  "value": "실습과 해설"
                 }
               ],
               "position": {
-                "line": 348,
-                "endLine": 348
+                "line": 354,
+                "endLine": 354
               }
             }
           ],
           "position": {
-            "line": 348,
-            "endLine": 348
+            "line": 354,
+            "endLine": 354
           }
         }
       ],
       "origin": {
-        "line": 338,
-        "endLine": 348
+        "line": 344,
+        "endLine": 354
       },
       "tone": "blue",
       "view": {

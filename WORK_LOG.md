@@ -1,5 +1,28 @@
 # STAGE 작업 로그
 
+## 현재 개선 — 2026-10-28 공부 자료·대본·정보 모음과 스타일 재작업
+
+- 사용자 교정: 12장 발표와 txt 첨부만으로는 짧고 정보가 부족하다고 평가했다. 발표와 별개로 깊이 있는 공부 자료·대본·정보 모음집을 요구하고 스타일 문제 판단을 디자인팀에 맡겼다. 직전 완성 판정은 새 학습/디자인 요구를 충족했다는 뜻으로 재사용하지 않는다.
+- 기준: main4c2e2fa, 시작clean, fetch/pull 최신확인. 중단시 실행중writer/명령없음을 대조했다. 기존엔지니어링manager와실무2명은completed, 다른이전manager는현재목록에없다. 기존TaskSpace76은finished/user소유라조작하지않는다.
+- 목표: talks/llm-wiki/materials/에 읽기용 study-guide.md·장별speaker-script.md·주제별reference-library.md·해설있는workshop.md와자료목차를 작성한다. 일반Markdown에서목차/장내탐색/문서상호링크/발표복귀가있는실제HTML을생성하는공통작성경로를만든다. 같은슬라이드의읽기모드나txt파일을긴공부책자로대신하지않는다.
+- 내용 기준: 파일위키의누적/연결/질문반영/점검을실질적인AI스터디지식예제로보여준다. 기존시간공지예는범위검증보조로축소한다. 원자료→주장→해석→결정·판변경·충돌·낡은지식·출처지원과인용한계·RAG/학습관계·운영/검색/규모 tradeoff·예제파일/프롬프트·자가점검과모범해설·FAQ를충분히제공한다. 근거없는효과수치없이1차출처를주장근처에연결한다.
+- 운영: root만공통WORK_LOG/계약/최종통합/browser/Git. 동시4슬롯에맞춰학습콘텐츠manager+실무2(리서치/교육대본)→디자인manager+실무2(실제발표/도식·문서조판)→기존엔지니어링manager+실무2(공통자료빌더/링크·검증)순차인계한다. 각팀실질초안/직접교차검토/매니저직접인수후writer종료. 디자인선호는사용자에게재질문하지않고실물비교로판단한다.
+- 모델확인(2026-10-28 08:45UTC): 공식developers.openai.com/api/docs/models 및/models/gpt-6.1-sol 실제open으로최신Sol재확인. 실제runtime catalog gpt-6.1-sol/gpt-6-astra/gpt-6.1-terra/gpt-6-sol/gpt-6-luna. 이번판단/설계/통합은gpt-6.1-sol high fork none,동일작업snapshot각manager/실무공유.
+- 검증/전달: 기존발표URL/다른덱을보존,새자료목차와실제Markdown단독복사·HTML링크·긴코드/표/모바일·글자/밀도/도식가독성·발표자/읽기·전체회귀/verify를점검한다. 기존승인대로commit/push후Pages실화면까지확인한다. 새근거는research/llm-wiki-companion-20261028/에두고과거완료자료는보존한다.
+- 진행·분담보강: 학습팀이2실무자의자료심화를진행하는동안root는공통문서parser/render API와HTMLtemplate을작성해후속엔지니어링을준비한다. 디자인팀은자료CSS/발표·도식,엔지니어링A는프로젝트통합/참조/watch/manifest,B는회귀/작성안내를실질담당한다. 새TaskSpace84p1은root전용,기존76은조작하지않는다. 원래7색/구성/비교/단계예제4화면을새근거로캡처했다.
+- 학습팀 인수중: A가guide약24,114자·workshop약11,691자, B가script약11,864자·library약8,801자를실제작성했고manager가index와전문/6원문을독립검수했다. RAG/LoRA/wiki실제읽기→개념/비교/질문→검토답재저장·변경diff·FAQ/자가점검해설·실습입력/모범답/실패예를확인했다. A/B직접양방향교차검토,워크숍은B가읽지않았음을명시하고manager가별도독립검수했다. 기존시간공지중심의발표대본은다음디자인에서주역사례/장순서와동기화한다.
+- 디자인팀 시작: Bcompleted로빈1slot에서companion_design_manager를생성,콘텐츠manager와실물인수회의중이다. manager가native색표식/비교/현6·10PNG를직접열어밝은거대카드반복과작은핵심도식문제를독립확인했다. 콘텐츠팀종료뒤디자인A가발표/대본, B가실제SVG/장문자료CSS를맡는다.
+- 공통코드: root가scripts/materials.cjs와templates/material.html을작성했다. 실제5원문파싱·문서별목차/참조수집/코드·HTMLescape/중복heading/표wrapper/template smoke통과,프로젝트통합은후속엔지니어링담당이다. 원고자산은코드블록안가상위키경로와실제링크를구분한다.
+- 실제디자인구현: 새14장/18+2분·큰1200×450 SVG3개·열린editorial/관계/인용/아이콘조합을작성했다. root가임시14장prototype의3/6/7/9실PNG를확인해도식크기·핵심연결개선을확인했고,독립자료desktop18px/폭800·ToC34와mobile390본문진입을검수했다. 모바일탐색600px점유문제를manager/B와실제PNG로논의해rootHTMLnative details+B CSS로교정,닫힘기본/H1top264/첫본문437/Enter열기·닫기/단일내부scroll·bodyoverflow0을확인했다.
+- 범위정정: root와디자인manager가6장동등3열비교의실PNG를함께보고 blocks.css의기존3그룹22px축소가primary없는열에도적용되는문제로판단했다. 기존core불변제약을이한경우의조판교정에한해확대한다. 디자인B가blocks.css단독writer로동등3열/primary없음만본문32/h240안팎으로교정하고기하/색/primary있는구도는보존한다. root/엔지니어링은동시편집하지않는다. 전체runtime파생물재생성/기존3열원고회귀를인수범위에추가한다.
+- 엔지니어링인수준비: 기존llm_engineering_manager를새요구로재개,현재디자인manager와helper/API/CSS/원고·자료소유직접인수회의중이다. root와디자인manager/B/engineer manager의4slot내이며추가writer없다. 디자인전체종료뒤실무A프로젝트통합/B회귀·안내시작한다.
+- 디자인최종인수: A/B·manager가전원편집종료,14장원고와대본18+2·SVG3·materials.css·동등3열blocks.css교정을직접엔지니어링manager에인계했다. rootparser/HTML도완료해통합A에단독소유이양,원고/CSS/sourcefreeze를유지한다. A가프로젝트자료생성/참조/watch/manifest, B가회귀/작성안내실제구현에착수했다.
+- 최신추가지침: 사용자가이번개선도작업후commit/push까지제대로진행하라고재확정했다. 기존계획의공개Pages후점검까지유지하고최종검증후실제전달한다. 별도확인질문/승인대기는없다.
+- 엔지니어링최종완료: 기존manager/실무A(stage통합·취합)/B(11회귀·일반작성안내)가직접교차검토·24대상검사각통과후전원writer종료했다. manager가실제14장/자료5·이동후22출력동일·자료/전체338/370참조·check차이0·바이트/mtime비수정·현재source revision일치를독립재실행했다. 같은runtime/config조건에서기존4원고48출력이이전builder와같음을확인했다. 공통helper/template/CSS내용은root인계시와같다.
+- root후점검완료: build:site/verify:site·전체261/261통과. 실제생성14장currentrevision캡처/오류·본문넘침·진단0,Paper6·기존primary22/28·동등3열32/40·read39018/26을확인했다. 자료5개각1440/390원고text순서/누락0·source revision동일·본문18·body넘침0·JS0·모든codefocus·목차Enter·codeArrowRight통과. overview14/preview링크0·presenter양방향·발표→hub→guideToC→script→read14실이동과모바일header보존,인쇄코드줄바꿈/잘림0을확인했다.
+- 전달준비: 새심화자료/학습원문/대본·14장과스타일·공통재사용builder·안내/검수·전후화면보드를완성했다. 임시prototype HTML2폴더는제거했고새실화면/JSON만보관한다. 과거연구기록/다른원고는보존하며의도된공통CSS와cache hash만전체배포본에갱신했다. root가user재확정대로commit/push후Pages동일SHA/공개자료HTML본문/탐색과자산을검수한다.
+- 미완료: commit/push·Pages공개인수·최종검증기록전달.
+
 ## 제작 완료 — 2026-10-28 LLM Wiki·지식 축적·출처·결정 기록
 
 - 최신 지침: 실제 발표자료를 조사해 넣는다. 사용자가 coordinate·manager와 리서치·엔지니어링·발표 전문가 팀을 명시했다. 확정 청중/형식은 줌에서 가볍게 하는 AI 스터디, 약 20분이다. 앞선 개발자 대상 가정은 이 지침으로 대체한다.
