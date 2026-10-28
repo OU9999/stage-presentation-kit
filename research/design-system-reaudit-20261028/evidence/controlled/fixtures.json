@@ -1,0 +1,51 @@
+{
+  "purpose": "Current-path controlled comparison, not a future restoration prototype",
+  "sameAuthorBody": true,
+  "changes": "Only an existing supported legacy layout directive differs. Native versus generic renderer is the tested variable.",
+  "results": [
+    {
+      "id": "message-native",
+      "case": "message",
+      "mode": "native",
+      "sourcePath": "research/design-system-reaudit-20261028/evidence/controlled/message/native/slides.md",
+      "url": "research/design-system-reaudit-20261028/evidence/controlled/message/native/index.html",
+      "body": "# 다음 행동을 더 명확하게.\n\n같은 기록에서 중요한 한 가지를 전합니다.\n",
+      "bodySha256": "6c472045076f899cbbca3d606b9b058d074d17b0ef3a0f293fcf9aa80b38d8f6",
+      "contentSha256": "7fad5db0c36e9af9285c62349d1128b0931eedb99a31f19d745722e883f5c50f",
+      "layout": "statement"
+    },
+    {
+      "id": "message-plain",
+      "case": "message",
+      "mode": "plain",
+      "sourcePath": "research/design-system-reaudit-20261028/evidence/controlled/message/plain/slides.md",
+      "url": "research/design-system-reaudit-20261028/evidence/controlled/message/plain/index.html",
+      "body": "# 다음 행동을 더 명확하게.\n\n같은 기록에서 중요한 한 가지를 전합니다.\n",
+      "bodySha256": "6c472045076f899cbbca3d606b9b058d074d17b0ef3a0f293fcf9aa80b38d8f6",
+      "contentSha256": "8febcd63ebf8dbfdc3b4781ec37d79f021791b71c1e4ef620d6e4f4a26e49026",
+      "layout": "blocks"
+    },
+    {
+      "id": "image-native",
+      "case": "image",
+      "mode": "native",
+      "sourcePath": "research/design-system-reaudit-20261028/evidence/controlled/image/native/slides.md",
+      "url": "research/design-system-reaudit-20261028/evidence/controlled/image/native/index.html",
+      "body": "# 실제 작업 화면을 함께 봅니다.\n\n![동일한 가상 대시보드](../../../../../../assets/examples/dashboard.svg)\n\n화면의 구조와 다음 행동을 설명합니다.\n",
+      "bodySha256": "63191db1b6bcf799aec98cd9874a65b31f07141d979d9a90db4eaf454f29110f",
+      "contentSha256": "c584923e35cde06134ad9afaba03db6ca4f16562c1a6ce16756580d3046f985c",
+      "layout": "image"
+    },
+    {
+      "id": "image-plain",
+      "case": "image",
+      "mode": "plain",
+      "sourcePath": "research/design-system-reaudit-20261028/evidence/controlled/image/plain/slides.md",
+      "url": "research/design-system-reaudit-20261028/evidence/controlled/image/plain/index.html",
+      "body": "# 실제 작업 화면을 함께 봅니다.\n\n![동일한 가상 대시보드](../../../../../../assets/examples/dashboard.svg)\n\n화면의 구조와 다음 행동을 설명합니다.\n",
+      "bodySha256": "63191db1b6bcf799aec98cd9874a65b31f07141d979d9a90db4eaf454f29110f",
+      "contentSha256": "cdf0a7f2eccc590aaf264b68bf08b414331f615c61aadfd637d51ce7c1222ead",
+      "layout": "blocks"
+    }
+  ]
+}

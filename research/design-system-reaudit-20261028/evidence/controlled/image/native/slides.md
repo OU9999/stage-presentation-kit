@@ -1,0 +1,11 @@
+<!-- stage
+layout: image
+fit: contain
+quiet: true
+-->
+
+# 실제 작업 화면을 함께 봅니다.
+
+![동일한 가상 대시보드](../../../../../../assets/examples/dashboard.svg)
+
+화면의 구조와 다음 행동을 설명합니다.

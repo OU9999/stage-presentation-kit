@@ -1,0 +1,566 @@
+{
+  "sourcePolicy": "Disk content; ephemeral localStorage get/set bypass, no user state changed. Unique navigation resets Stage before each case.",
+  "measurementNote": "Parent title color and actual emphasis children are recorded separately. CSS palette tokens are not equivalent to painted child color.",
+  "results": [
+    {
+      "id": "orange-declaration",
+      "url": "http://127.0.0.1:4323/index.html?audit-color=orange-declaration#6",
+      "theme": "stage",
+      "slideTheme": "stage",
+      "tone": "orange",
+      "accent": "#ff7a3d",
+      "elements": [
+        {
+          "selector": ".slide-title",
+          "text": "보여주는 방식이,이해를 바꿉니다.",
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "orange"
+        },
+        {
+          "selector": ".accent-text",
+          "text": "이해를 바꿉니다.",
+          "color": "rgb(255, 122, 61)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "orange"
+        }
+      ]
+    },
+    {
+      "id": "orange-declaration-paper",
+      "url": "http://127.0.0.1:4323/index.html?audit-color=orange-declaration#6",
+      "theme": "paper",
+      "slideTheme": "paper",
+      "tone": "orange",
+      "accent": "#a54a27",
+      "elements": [
+        {
+          "selector": ".slide-title",
+          "text": "보여주는 방식이,이해를 바꿉니다.",
+          "color": "rgb(29, 29, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "orange"
+        },
+        {
+          "selector": ".accent-text",
+          "text": "이해를 바꿉니다.",
+          "color": "rgb(165, 74, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "orange"
+        }
+      ]
+    },
+    {
+      "id": "purple-transition",
+      "url": "http://127.0.0.1:4323/index.html?audit-color=purple-transition#8",
+      "theme": "stage",
+      "slideTheme": "stage",
+      "tone": "purple",
+      "accent": "#a080ff",
+      "elements": [
+        {
+          "selector": ".slide-title",
+          "text": "김하늘",
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "purple"
+        },
+        {
+          "selector": ".accent-text",
+          "text": "김하늘",
+          "color": "rgb(160, 128, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "purple"
+        }
+      ]
+    },
+    {
+      "id": "purple-transition-paper",
+      "url": "http://127.0.0.1:4323/index.html?audit-color=purple-transition#8",
+      "theme": "paper",
+      "slideTheme": "paper",
+      "tone": "purple",
+      "accent": "#73519e",
+      "elements": [
+        {
+          "selector": ".slide-title",
+          "text": "김하늘",
+          "color": "rgb(29, 29, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "purple"
+        },
+        {
+          "selector": ".accent-text",
+          "text": "김하늘",
+          "color": "rgb(115, 81, 158)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "purple"
+        }
+      ]
+    },
+    {
+      "id": "green-metric",
+      "url": "http://127.0.0.1:4323/index.html?audit-color=green-metric#15",
+      "theme": "stage",
+      "slideTheme": "stage",
+      "tone": "green",
+      "accent": "#69cf82",
+      "elements": [
+        {
+          "selector": ".metric-number",
+          "text": "42",
+          "color": "rgb(105, 207, 130)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "green"
+        },
+        {
+          "selector": ".metric-unit",
+          "text": "%",
+          "color": "rgb(164, 164, 161)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "green"
+        }
+      ]
+    },
+    {
+      "id": "green-metric-paper",
+      "url": "http://127.0.0.1:4323/index.html?audit-color=green-metric#15",
+      "theme": "paper",
+      "slideTheme": "paper",
+      "tone": "green",
+      "accent": "#2d6a43",
+      "elements": [
+        {
+          "selector": ".metric-number",
+          "text": "42",
+          "color": "rgb(45, 106, 67)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "green"
+        },
+        {
+          "selector": ".metric-unit",
+          "text": "%",
+          "color": "rgb(102, 102, 96)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "green"
+        }
+      ]
+    },
+    {
+      "id": "category-colors",
+      "url": "http://127.0.0.1:4323/index.html?audit-color=category-colors#7",
+      "theme": "stage",
+      "slideTheme": "stage",
+      "tone": null,
+      "accent": "#e8e8e5",
+      "elements": [
+        {
+          "selector": ".slide-title",
+          "text": "색에는, 역할을 맡깁니다.",
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": null
+        },
+        {
+          "selector": ".category-label",
+          "text": "관찰",
+          "color": "rgb(36, 168, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "blue"
+        },
+        {
+          "selector": ".category-label",
+          "text": "비교",
+          "color": "rgb(105, 207, 130)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "green"
+        },
+        {
+          "selector": ".category-label",
+          "text": "강조",
+          "color": "rgb(255, 122, 61)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "orange"
+        },
+        {
+          "selector": ".category-label",
+          "text": "전환",
+          "color": "rgb(160, 128, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "purple"
+        },
+        {
+          "selector": ".category-icon",
+          "text": "",
+          "color": "rgb(8, 8, 8)",
+          "background": "rgb(36, 168, 255)",
+          "tone": "blue"
+        },
+        {
+          "selector": ".category-icon",
+          "text": "",
+          "color": "rgb(8, 8, 8)",
+          "background": "rgb(105, 207, 130)",
+          "tone": "green"
+        },
+        {
+          "selector": ".category-icon",
+          "text": "",
+          "color": "rgb(8, 8, 8)",
+          "background": "rgb(255, 122, 61)",
+          "tone": "orange"
+        },
+        {
+          "selector": ".category-icon",
+          "text": "",
+          "color": "rgb(8, 8, 8)",
+          "background": "rgb(160, 128, 255)",
+          "tone": "purple"
+        }
+      ]
+    },
+    {
+      "id": "category-colors-paper",
+      "url": "http://127.0.0.1:4323/index.html?audit-color=category-colors#7",
+      "theme": "paper",
+      "slideTheme": "paper",
+      "tone": null,
+      "accent": "#252522",
+      "elements": [
+        {
+          "selector": ".slide-title",
+          "text": "색에는, 역할을 맡깁니다.",
+          "color": "rgb(29, 29, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": null
+        },
+        {
+          "selector": ".category-label",
+          "text": "관찰",
+          "color": "rgb(39, 95, 137)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "blue"
+        },
+        {
+          "selector": ".category-label",
+          "text": "비교",
+          "color": "rgb(45, 106, 67)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "green"
+        },
+        {
+          "selector": ".category-label",
+          "text": "강조",
+          "color": "rgb(165, 74, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "orange"
+        },
+        {
+          "selector": ".category-label",
+          "text": "전환",
+          "color": "rgb(115, 81, 158)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "purple"
+        },
+        {
+          "selector": ".category-icon",
+          "text": "",
+          "color": "rgb(242, 240, 232)",
+          "background": "rgb(39, 95, 137)",
+          "tone": "blue"
+        },
+        {
+          "selector": ".category-icon",
+          "text": "",
+          "color": "rgb(242, 240, 232)",
+          "background": "rgb(45, 106, 67)",
+          "tone": "green"
+        },
+        {
+          "selector": ".category-icon",
+          "text": "",
+          "color": "rgb(242, 240, 232)",
+          "background": "rgb(165, 74, 39)",
+          "tone": "orange"
+        },
+        {
+          "selector": ".category-icon",
+          "text": "",
+          "color": "rgb(242, 240, 232)",
+          "background": "rgb(115, 81, 158)",
+          "tone": "purple"
+        }
+      ]
+    },
+    {
+      "id": "yellow-labels",
+      "url": "http://127.0.0.1:4323/index.html?audit-color=yellow-labels#5",
+      "theme": "stage",
+      "slideTheme": "stage",
+      "tone": "yellow",
+      "accent": "#edcf66",
+      "elements": [
+        {
+          "selector": ".slide-title",
+          "text": "같은 장면을, 다른 범위로.",
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-label",
+          "text": "기본 프레임",
+          "color": "rgb(237, 207, 102)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-label",
+          "text": "1.4× 디지털 크롭",
+          "color": "rgb(237, 207, 102)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-label",
+          "text": "2× 디지털 크롭",
+          "color": "rgb(237, 207, 102)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-label",
+          "text": "2.8× 디지털 크롭",
+          "color": "rgb(237, 207, 102)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-caption",
+          "text": "전체의 맥락",
+          "color": "rgb(164, 164, 161)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-caption",
+          "text": "산과 호수",
+          "color": "rgb(164, 164, 161)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-caption",
+          "text": "능선의 표정",
+          "color": "rgb(164, 164, 161)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-caption",
+          "text": "가까이 보는 디테일",
+          "color": "rgb(164, 164, 161)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        }
+      ]
+    },
+    {
+      "id": "yellow-labels-paper",
+      "url": "http://127.0.0.1:4323/index.html?audit-color=yellow-labels#5",
+      "theme": "paper",
+      "slideTheme": "paper",
+      "tone": "yellow",
+      "accent": "#80600b",
+      "elements": [
+        {
+          "selector": ".slide-title",
+          "text": "같은 장면을, 다른 범위로.",
+          "color": "rgb(29, 29, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-label",
+          "text": "기본 프레임",
+          "color": "rgb(128, 96, 11)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-label",
+          "text": "1.4× 디지털 크롭",
+          "color": "rgb(128, 96, 11)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-label",
+          "text": "2× 디지털 크롭",
+          "color": "rgb(128, 96, 11)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-label",
+          "text": "2.8× 디지털 크롭",
+          "color": "rgb(128, 96, 11)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-caption",
+          "text": "전체의 맥락",
+          "color": "rgb(102, 102, 96)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-caption",
+          "text": "산과 호수",
+          "color": "rgb(102, 102, 96)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-caption",
+          "text": "능선의 표정",
+          "color": "rgb(102, 102, 96)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        },
+        {
+          "selector": ".gallery-caption",
+          "text": "가까이 보는 디테일",
+          "color": "rgb(102, 102, 96)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "yellow"
+        }
+      ]
+    },
+    {
+      "id": "pair-blue-orange",
+      "url": "http://127.0.0.1:4323/examples/devday-compositions/index.html?audit-color=pair-blue-orange#6",
+      "theme": "stage",
+      "slideTheme": "stage",
+      "tone": null,
+      "accent": "#e8e8e5",
+      "elements": [
+        {
+          "selector": ".metric-number",
+          "text": "24",
+          "color": "rgb(36, 168, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "blue"
+        },
+        {
+          "selector": ".metric-number",
+          "text": "6",
+          "color": "rgb(255, 122, 61)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "orange"
+        },
+        {
+          "selector": ".metric-unit",
+          "text": "개",
+          "color": "rgb(164, 164, 161)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "blue"
+        },
+        {
+          "selector": ".metric-unit",
+          "text": "가지",
+          "color": "rgb(164, 164, 161)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "orange"
+        }
+      ]
+    },
+    {
+      "id": "pair-blue-orange-paper",
+      "url": "http://127.0.0.1:4323/examples/devday-compositions/index.html?audit-color=pair-blue-orange#6",
+      "theme": "paper",
+      "slideTheme": "paper",
+      "tone": null,
+      "accent": "#252522",
+      "elements": [
+        {
+          "selector": ".metric-number",
+          "text": "24",
+          "color": "rgb(39, 95, 137)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "blue"
+        },
+        {
+          "selector": ".metric-number",
+          "text": "6",
+          "color": "rgb(165, 74, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "orange"
+        },
+        {
+          "selector": ".metric-unit",
+          "text": "개",
+          "color": "rgb(102, 102, 96)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "blue"
+        },
+        {
+          "selector": ".metric-unit",
+          "text": "가지",
+          "color": "rgb(102, 102, 96)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": "orange"
+        }
+      ]
+    },
+    {
+      "id": "new-product-strong",
+      "url": "http://127.0.0.1:4323/presentations/product-notes/index.html?audit-color=new-product-strong#2",
+      "theme": "stage",
+      "slideTheme": "stage",
+      "tone": null,
+      "accent": "#e8e8e5",
+      "elements": [
+        {
+          "selector": ".slide-title",
+          "text": "사용자의 장면부터 살핍니다",
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": null
+        },
+        {
+          "selector": ".markdown-body strong",
+          "text": "실제 행동",
+          "color": "rgb(232, 232, 229)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": null
+        }
+      ]
+    },
+    {
+      "id": "new-learning-strong",
+      "url": "http://127.0.0.1:4323/presentations/team-learning/index.html?audit-color=new-learning-strong#2",
+      "theme": "stage",
+      "slideTheme": "stage",
+      "tone": null,
+      "accent": "#e8e8e5",
+      "elements": [
+        {
+          "selector": ".slide-title",
+          "text": "한 장면과 여러 질문을 남깁니다",
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": null
+        },
+        {
+          "selector": ".markdown-body strong",
+          "text": "무엇을 알았는지",
+          "color": "rgb(232, 232, 229)",
+          "background": "rgba(0, 0, 0, 0)",
+          "tone": null
+        }
+      ]
+    }
+  ]
+}

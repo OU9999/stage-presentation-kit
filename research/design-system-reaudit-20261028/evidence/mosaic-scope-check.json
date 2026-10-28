@@ -1,0 +1,77 @@
+{
+  "original": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "originalPositions": [
+    {
+      "row": 1,
+      "column": 1,
+      "span": 2
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "span": 1
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "span": 1
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "span": 1
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "span": 1
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "span": 2
+    }
+  ],
+  "supported": [
+    1,
+    1,
+    1,
+    2,
+    1
+  ],
+  "supportedPositions": [
+    {
+      "row": 1,
+      "column": 1,
+      "span": 1
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "span": 1
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "span": 1
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "span": 2
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "span": 1
+    }
+  ],
+  "scope": "Actual kit sample is not claimed to reverse order. Supported packing can fill a prior-row gap. Reading/step/causal meaning is a separate condition."
+}

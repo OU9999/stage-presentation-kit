@@ -1,0 +1,2647 @@
+{
+  "space": 55,
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "sourcePolicy": "Disk content; localStorage deck restoration bypassed ephemerally without clearing user data.",
+  "note": "Geometry candidates are review leads, not automatic visual-defect judgments. Different topics are not controlled A/B.",
+  "results": [
+    {
+      "id": "kit-05",
+      "deck": "kit",
+      "index": 5,
+      "layout": "gallery",
+      "variant": "strip",
+      "preset": null,
+      "align": null,
+      "tone": "yellow",
+      "quiet": true,
+      "visualKind": null,
+      "title": "같은 장면을, 다른 범위로.",
+      "url": "index.html#5",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "gallery",
+        "title": "같은 장면을, 다른 범위로.",
+        "titleSize": "64px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "같은 장면을, 다른 범위로.프레임을 고정하고, 관찰할 범위를 바꿉니다.기본 프레임전체의 맥락1.4× 디지털 크롭산과 호수2× 디지털 크롭능선의 표정2.8× 디지털 크롭가까이 보는 디테일James Wheeler / Pexels · 기본 표시 프레임 기준의 디지털 확대 예시",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [
+          {
+            "src": "assets/photos/landscape.jpg",
+            "alt": "같은 호수 사진의 1배 디지털 표시 크롭",
+            "loaded": true,
+            "rect": {
+              "x": 125.27999877929688,
+              "y": 421.2962341308594,
+              "width": 284.7599792480469,
+              "height": 213.56997680664062,
+              "top": 421.2962341308594,
+              "right": 410.03997802734375,
+              "bottom": 634.8662109375,
+              "left": 125.27999877929688
+            }
+          },
+          {
+            "src": "assets/photos/landscape.jpg",
+            "alt": "같은 호수 사진의 1.4배 디지털 표시 크롭",
+            "loaded": true,
+            "rect": {
+              "x": 374.4441833496094,
+              "y": 393.95928955078125,
+              "width": 398.6639709472656,
+              "height": 298.99798583984375,
+              "top": 393.95928955078125,
+              "right": 773.108154296875,
+              "bottom": 692.957275390625,
+              "left": 374.4441833496094
+            }
+          },
+          {
+            "src": "assets/photos/landscape.jpg",
+            "alt": "같은 호수 사진의 2배 디지털 표시 크롭",
+            "loaded": true,
+            "rect": {
+              "x": 597.410400390625,
+              "y": 352.953857421875,
+              "width": 569.52001953125,
+              "height": 427.1400146484375,
+              "top": 352.953857421875,
+              "right": 1166.930419921875,
+              "bottom": 780.0938720703125,
+              "left": 597.410400390625
+            }
+          },
+          {
+            "src": "assets/photos/landscape.jpg",
+            "alt": "같은 호수 사진의 2.8배 디지털 표시 크롭",
+            "loaded": true,
+            "rect": {
+              "x": 794.1787109375,
+              "y": 298.2799072265625,
+              "width": 797.3280029296875,
+              "height": 597.9959716796875,
+              "top": 298.2799072265625,
+              "right": 1591.5067138671875,
+              "bottom": 896.27587890625,
+              "left": 794.1787109375
+            }
+          }
+        ],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/kit-05.png"
+    },
+    {
+      "id": "kit-06",
+      "deck": "kit",
+      "index": 6,
+      "layout": "statement",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": "orange",
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "보여주는 방식이,",
+        "이해를 바꿉니다."
+      ],
+      "url": "index.html#6",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "statement",
+        "title": "보여주는 방식이,이해를 바꿉니다.",
+        "titleSize": "126px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "보여주는 방식이,이해를 바꿉니다.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/kit-06.png"
+    },
+    {
+      "id": "kit-12",
+      "deck": "kit",
+      "index": 12,
+      "layout": "section",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": "purple",
+      "quiet": true,
+      "visualKind": null,
+      "title": [
+        "이서윤"
+      ],
+      "url": "index.html#12",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "section",
+        "title": "이서윤",
+        "titleSize": "144px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "이서윤다음 이야기를 만드는 사람.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/kit-12.png"
+    },
+    {
+      "id": "kit-13",
+      "deck": "kit",
+      "index": 13,
+      "layout": "statement",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "이제, 핵심에 집중합니다."
+      ],
+      "url": "index.html#13",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "statement",
+        "title": "이제, 핵심에 집중합니다.",
+        "titleSize": "126px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "이제, 핵심에 집중합니다.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/kit-13.png"
+    },
+    {
+      "id": "product-launch-01",
+      "deck": "product-launch",
+      "index": 1,
+      "layout": "cover",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "작게 만들고,",
+        "빠르게 확인합니다."
+      ],
+      "url": "examples/product-launch/index.html#1",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "cover",
+        "title": "작게 만들고,빠르게 확인합니다.",
+        "titleSize": "130px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "작게 만들고,빠르게 확인합니다.가상 업무 도구 ‘한곳’ 소개발표자 이름2026. 10. 23.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/product-launch-01.png"
+    },
+    {
+      "id": "product-launch-02",
+      "deck": "product-launch",
+      "index": 2,
+      "layout": "statement",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": "orange",
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "기다리는 시간을,",
+        "다음 행동으로."
+      ],
+      "url": "examples/product-launch/index.html#2",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "statement",
+        "title": "기다리는 시간을,다음 행동으로.",
+        "titleSize": "126px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "기다리는 시간을,다음 행동으로.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/product-launch-02.png"
+    },
+    {
+      "id": "product-launch-03",
+      "deck": "product-launch",
+      "index": 3,
+      "layout": "metric",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": "orange",
+      "quiet": false,
+      "visualKind": null,
+      "title": null,
+      "url": "examples/product-launch/index.html#3",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "metric",
+        "title": null,
+        "titleSize": null,
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "42%가상 시나리오의 처리 시간 감소같은 작업을 가정한 두 흐름을 비교한 예시입니다.설명용 가상 수치 · 실제 측정 결과가 아닙니다.",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/product-launch-03.png"
+    },
+    {
+      "id": "product-launch-04",
+      "deck": "product-launch",
+      "index": 4,
+      "layout": "results",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": true,
+      "visualKind": null,
+      "title": [
+        "정리한 생각이,",
+        "여러 결과로."
+      ],
+      "url": "examples/product-launch/index.html#4",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "results",
+        "title": "정리한 생각이,여러 결과로.",
+        "titleSize": "72px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "정리한 생각이,여러 결과로.자체 제작 · 양식용 가상 자료",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [
+          {
+            "src": "../../assets/examples/report.svg",
+            "alt": "자체 제작한 가상 관찰 보고서",
+            "loaded": true,
+            "rect": {
+              "x": 598.5281372070312,
+              "y": 196.36000061035156,
+              "width": 348.4359130859375,
+              "height": 305.760009765625,
+              "top": 196.36000061035156,
+              "right": 946.9640502929688,
+              "bottom": 502.12001037597656,
+              "left": 598.5281372070312
+            }
+          },
+          {
+            "src": "../../assets/examples/dashboard.svg",
+            "alt": "가상 수치를 담은 자체 제작 지표판",
+            "loaded": true,
+            "rect": {
+              "x": 965.4440307617188,
+              "y": 196.36000061035156,
+              "width": 348.43597412109375,
+              "height": 305.760009765625,
+              "top": 196.36000061035156,
+              "right": 1313.8800048828125,
+              "bottom": 502.12001037597656,
+              "left": 965.4440307617188
+            }
+          },
+          {
+            "src": "../../assets/examples/poster-wide.svg",
+            "alt": "자체 제작한 보라색 타이포 포스터",
+            "loaded": true,
+            "rect": {
+              "x": 598.5281372070312,
+              "y": 520.5999755859375,
+              "width": 348.4359130859375,
+              "height": 305.760009765625,
+              "top": 520.5999755859375,
+              "right": 946.9640502929688,
+              "bottom": 826.3599853515625,
+              "left": 598.5281372070312
+            }
+          },
+          {
+            "src": "../../assets/examples/objects.svg",
+            "alt": "파랑과 주황 도형으로 만든 자체 제작 이미지",
+            "loaded": true,
+            "rect": {
+              "x": 965.4440307617188,
+              "y": 520.5999755859375,
+              "width": 348.43597412109375,
+              "height": 305.760009765625,
+              "top": 520.5999755859375,
+              "right": 1313.8800048828125,
+              "bottom": 826.3599853515625,
+              "left": 965.4440307617188
+            }
+          }
+        ],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/product-launch-04.png"
+    },
+    {
+      "id": "product-launch-05",
+      "deck": "product-launch",
+      "index": 5,
+      "layout": "demo",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "한 번에,",
+        "결과를 확인합니다."
+      ],
+      "url": "examples/product-launch/index.html#5",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "demo",
+        "title": "한 번에,결과를 확인합니다.",
+        "titleSize": "62px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "한 번에,결과를 확인합니다.작업을 하나 고릅니다.결과를 함께 봅니다.다음 행동을 정합니다.독자 제작 정적 화면 · 가상 데이터",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [
+          {
+            "src": "../../assets/examples/dashboard.svg",
+            "alt": "가상 지표를 표시하는 자체 제작 대시보드",
+            "loaded": true,
+            "rect": {
+              "x": 614.6062622070312,
+              "y": 263.55999755859375,
+              "width": 699.2737426757812,
+              "height": 469.13995361328125,
+              "top": 263.55999755859375,
+              "right": 1313.8800048828125,
+              "bottom": 732.699951171875,
+              "left": 614.6062622070312
+            }
+          }
+        ],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/product-launch-05.png"
+    },
+    {
+      "id": "product-launch-06",
+      "deck": "product-launch",
+      "index": 6,
+      "layout": "image",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "화면 밖의 행동까지,",
+        "자연스럽게."
+      ],
+      "url": "examples/product-launch/index.html#6",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "image",
+        "title": "화면 밖의 행동까지,자연스럽게.",
+        "titleSize": "62px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "화면 밖의 행동까지,자연스럽게.Andrea Piacquadio / Pexels · 가상 제품의 맥락을 위한 스톡 사진",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [
+          {
+            "src": "../../assets/photos/capture.jpg",
+            "alt": "거리에서 휴대폰으로 장면을 기록하는 인물의 스톡 사진",
+            "loaded": true,
+            "rect": {
+              "x": 126.1199951171875,
+              "y": 403.9056091308594,
+              "width": 1187.760009765625,
+              "height": 323.7543640136719,
+              "top": 403.9056091308594,
+              "right": 1313.8800048828125,
+              "bottom": 727.6599731445312,
+              "left": 126.1199951171875
+            }
+          }
+        ],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/product-launch-06.png"
+    },
+    {
+      "id": "product-launch-07",
+      "deck": "product-launch",
+      "index": 7,
+      "layout": "closing",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "작은 가설부터,",
+        "직접 확인해보세요."
+      ],
+      "url": "examples/product-launch/index.html#7",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "closing",
+        "title": "작은 가설부터,직접 확인해보세요.",
+        "titleSize": "118px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "작은 가설부터,직접 확인해보세요.이 양식을 당신의 제품 이야기로 바꾸세요.문장, 수치, 화면을 실제 근거로 교체하세요.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/product-launch-07.png"
+    },
+    {
+      "id": "engineering-review-01",
+      "deck": "engineering-review",
+      "index": 1,
+      "layout": "cover",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "느린 흐름을,",
+        "측정 가능하게."
+      ],
+      "url": "examples/engineering-review/index.html#1",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "cover",
+        "title": "느린 흐름을,측정 가능하게.",
+        "titleSize": "130px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "느린 흐름을,측정 가능하게.가상의 요청 처리 시스템 개선 보고발표자 이름2026. 10. 23.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/engineering-review-01.png"
+    },
+    {
+      "id": "engineering-review-02",
+      "deck": "engineering-review",
+      "index": 2,
+      "layout": "compare",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": "blue",
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "같은 조건에서,",
+        "바뀐 부분만 봅니다."
+      ],
+      "url": "examples/engineering-review/index.html#2",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "compare",
+        "title": "같은 조건에서,바뀐 부분만 봅니다.",
+        "titleSize": "76px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "같은 조건에서,바뀐 부분만 봅니다.가상 현행안요청마다 같은 값을 계산합니다.작업이 끝날 때까지 기다립니다.결과를 따로 기록합니다.가상 개선안재사용할 값을 구분합니다.독립적인 작업을 나눕니다.같은 기준으로 결과를 남깁니다.",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/engineering-review-02.png"
+    },
+    {
+      "id": "engineering-review-03",
+      "deck": "engineering-review",
+      "index": 3,
+      "layout": "chart",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": "blue",
+      "quiet": true,
+      "visualKind": null,
+      "title": [
+        "같은 부하에서,",
+        "차이를 확인합니다."
+      ],
+      "url": "examples/engineering-review/index.html#3",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "chart",
+        "title": "같은 부하에서,차이를 확인합니다.",
+        "titleSize": "82px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "같은 부하에서,차이를 확인합니다.가상의 동일 요청 시나리오를 비교합니다.가상 응답 시간현행안300ms개선안120ms설명용 가상 수치 · 실제 벤치마크가 아닙니다.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/engineering-review-03.png"
+    },
+    {
+      "id": "engineering-review-04",
+      "deck": "engineering-review",
+      "index": 4,
+      "layout": "results",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": true,
+      "visualKind": null,
+      "title": [
+        "근거는,",
+        "다시 읽을 수 있게."
+      ],
+      "url": "examples/engineering-review/index.html#4",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "results",
+        "title": "근거는,다시 읽을 수 있게.",
+        "titleSize": "72px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "근거는,다시 읽을 수 있게.자체 제작 · 양식용 가상 자료",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [
+          {
+            "src": "../../assets/examples/report.svg",
+            "alt": "자체 제작한 가상 설계 검토 문서",
+            "loaded": true,
+            "rect": {
+              "x": 598.5281372070312,
+              "y": 196.36000061035156,
+              "width": 348.4359130859375,
+              "height": 305.760009765625,
+              "top": 196.36000061035156,
+              "right": 946.9640502929688,
+              "bottom": 502.12001037597656,
+              "left": 598.5281372070312
+            }
+          },
+          {
+            "src": "../../assets/examples/dashboard.svg",
+            "alt": "가상 지표를 표시하는 자체 제작 대시보드",
+            "loaded": true,
+            "rect": {
+              "x": 965.4440307617188,
+              "y": 196.36000061035156,
+              "width": 348.43597412109375,
+              "height": 305.760009765625,
+              "top": 196.36000061035156,
+              "right": 1313.8800048828125,
+              "bottom": 502.12001037597656,
+              "left": 965.4440307617188
+            }
+          },
+          {
+            "src": "../../assets/workspace-demo.svg",
+            "alt": "문서와 편집 화면이 있는 자체 제작 작업 공간",
+            "loaded": true,
+            "rect": {
+              "x": 598.5281372070312,
+              "y": 520.5999755859375,
+              "width": 348.4359130859375,
+              "height": 305.760009765625,
+              "top": 520.5999755859375,
+              "right": 946.9640502929688,
+              "bottom": 826.3599853515625,
+              "left": 598.5281372070312
+            }
+          },
+          {
+            "src": "../../assets/examples/objects.svg",
+            "alt": "입체 도형으로 만든 자체 제작 시각화 시안",
+            "loaded": true,
+            "rect": {
+              "x": 965.4440307617188,
+              "y": 520.5999755859375,
+              "width": 348.43597412109375,
+              "height": 305.760009765625,
+              "top": 520.5999755859375,
+              "right": 1313.8800048828125,
+              "bottom": 826.3599853515625,
+              "left": 965.4440307617188
+            }
+          }
+        ],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/engineering-review-04.png"
+    },
+    {
+      "id": "engineering-review-05",
+      "deck": "engineering-review",
+      "index": 5,
+      "layout": "quote",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": null,
+      "url": "examples/engineering-review/index.html#5",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "quote",
+        "title": null,
+        "titleSize": null,
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "좋은 개선은,\n다시 확인할 수 있습니다.가상 검토 회의를 위해 만든 문장",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/engineering-review-05.png"
+    },
+    {
+      "id": "engineering-review-06",
+      "deck": "engineering-review",
+      "index": 6,
+      "layout": "steps",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "다음 검증을,",
+        "짧게 나눕니다."
+      ],
+      "url": "examples/engineering-review/index.html#6",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "steps",
+        "title": "다음 검증을,짧게 나눕니다.",
+        "titleSize": "76px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "다음 검증을,짧게 나눕니다.01조건 고정같은 입력과 부하를 준비합니다.02값 재측정반복해서 기록하고 차이를 봅니다.03범위 확인영향받는 동작을 함께 확인합니다.",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/engineering-review-06.png"
+    },
+    {
+      "id": "engineering-review-07",
+      "deck": "engineering-review",
+      "index": 7,
+      "layout": "closing",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": "blue",
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "한 번의 숫자보다,",
+        "반복 가능한 검증."
+      ],
+      "url": "examples/engineering-review/index.html#7",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "closing",
+        "title": "한 번의 숫자보다,반복 가능한 검증.",
+        "titleSize": "118px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "한 번의 숫자보다,반복 가능한 검증.이 예제의 수치는 모두 가상입니다.실제 측정 조건, 기록, 출처로 바꾸세요.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/engineering-review-07.png"
+    },
+    {
+      "id": "photo-story-01",
+      "deck": "photo-story",
+      "index": 1,
+      "layout": "cover",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "보는 범위를 바꾸면,",
+        "이야기도 달라집니다."
+      ],
+      "url": "examples/photo-story/index.html#1",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "cover",
+        "title": "보는 범위를 바꾸면,이야기도 달라집니다.",
+        "titleSize": "130px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "보는 범위를 바꾸면,이야기도 달라집니다.스톡 사진으로 만든 가상의 사진 에세이발표자 이름2026. 10. 23.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/photo-story-01.png"
+    },
+    {
+      "id": "photo-story-02",
+      "deck": "photo-story",
+      "index": 2,
+      "layout": "gallery",
+      "variant": "portraits",
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": true,
+      "visualKind": null,
+      "title": null,
+      "url": "examples/photo-story/index.html#2",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "gallery",
+        "title": null,
+        "titleSize": null,
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 101.75999450683594,
+          "y": 195.51998901367188,
+          "width": 1236.47998046875,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1338.239974975586,
+          "bottom": 827.1999206542969,
+          "left": 101.75999450683594
+        },
+        "text": "시선을 담아,\n장면을 기록합니다.소리를 듣고,\n작업에 집중합니다.생각을 적어,\n다음으로 이어갑니다.작은 차이를,\n다시 들여다봅니다.일상 가까이,\n가능성을 발견합니다.밖으로 나가,\n새로운 시선을 만납니다.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [
+          {
+            "src": "../../assets/photos/capture.jpg",
+            "alt": "휴대폰으로 장면을 기록하는 인물",
+            "loaded": true,
+            "rect": {
+              "x": 101.75999450683594,
+              "y": 305.58624267578125,
+              "width": 189.27561950683594,
+              "height": 473.18902587890625,
+              "top": 305.58624267578125,
+              "right": 291.0356140136719,
+              "bottom": 778.7752685546875,
+              "left": 101.75999450683594
+            }
+          },
+          {
+            "src": "../../assets/photos/listen.jpg",
+            "alt": "헤드폰을 쓰고 노트북을 사용하는 인물",
+            "loaded": true,
+            "rect": {
+              "x": 311.19561767578125,
+              "y": 305.58624267578125,
+              "width": 189.28216552734375,
+              "height": 473.2021484375,
+              "top": 305.58624267578125,
+              "right": 500.477783203125,
+              "bottom": 778.7883911132812,
+              "left": 311.19561767578125
+            }
+          },
+          {
+            "src": "../../assets/photos/write.jpg",
+            "alt": "야외 테이블에서 노트에 글을 쓰는 인물",
+            "loaded": true,
+            "rect": {
+              "x": 520.6378173828125,
+              "y": 305.58624267578125,
+              "width": 189.27557373046875,
+              "height": 473.18902587890625,
+              "top": 305.58624267578125,
+              "right": 709.9133911132812,
+              "bottom": 778.7752685546875,
+              "left": 520.6378173828125
+            }
+          },
+          {
+            "src": "../../assets/photos/observe.jpg",
+            "alt": "눈에 돋보기를 대고 관찰하는 인물",
+            "loaded": true,
+            "rect": {
+              "x": 730.0734252929688,
+              "y": 305.58624267578125,
+              "width": 189.28216552734375,
+              "height": 473.2021484375,
+              "top": 305.58624267578125,
+              "right": 919.3555908203125,
+              "bottom": 778.7883911132812,
+              "left": 730.0734252929688
+            }
+          },
+          {
+            "src": "../../assets/photos/portrait-one.jpg",
+            "alt": "작업 공간에 앉아 현금을 들고 있는 인물",
+            "loaded": true,
+            "rect": {
+              "x": 939.515625,
+              "y": 305.58624267578125,
+              "width": 189.2821044921875,
+              "height": 473.2021484375,
+              "top": 305.58624267578125,
+              "right": 1128.7977294921875,
+              "bottom": 778.7883911132812,
+              "left": 939.515625
+            }
+          },
+          {
+            "src": "../../assets/photos/portrait-two.jpg",
+            "alt": "도시 거리에서 갈색 옷을 입고 서 있는 인물",
+            "loaded": true,
+            "rect": {
+              "x": 1148.957763671875,
+              "y": 305.58624267578125,
+              "width": 189.275634765625,
+              "height": 473.18902587890625,
+              "top": 305.58624267578125,
+              "right": 1338.2333984375,
+              "bottom": 778.7752685546875,
+              "left": 1148.957763671875
+            }
+          }
+        ],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/photo-story-02.png"
+    },
+    {
+      "id": "photo-story-03",
+      "deck": "photo-story",
+      "index": 3,
+      "layout": "media",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": true,
+      "visualKind": null,
+      "title": null,
+      "url": "examples/photo-story/index.html#3",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "media",
+        "title": null,
+        "titleSize": null,
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "text": "Moraine Lake · James Wheeler / Pexels · 스톡 사진",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [
+          {
+            "src": "../../assets/photos/landscape.jpg",
+            "alt": "푸른 호수에 산과 숲이 비치는 풀컬러 풍경 사진",
+            "loaded": true,
+            "rect": {
+              "x": 48,
+              "y": 130,
+              "width": 1344,
+              "height": 756,
+              "top": 130,
+              "right": 1392,
+              "bottom": 886,
+              "left": 48
+            }
+          }
+        ],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/photo-story-03.png"
+    },
+    {
+      "id": "photo-story-04",
+      "deck": "photo-story",
+      "index": 4,
+      "layout": "statement",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "넓게 보던 장면에서,",
+        "작은 차이를 발견합니다."
+      ],
+      "url": "examples/photo-story/index.html#4",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "statement",
+        "title": "넓게 보던 장면에서,작은 차이를 발견합니다.",
+        "titleSize": "126px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "넓게 보던 장면에서,작은 차이를 발견합니다.다음 화면은 같은 사진을 디지털로 확대한 예시입니다.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/photo-story-04.png"
+    },
+    {
+      "id": "photo-story-05",
+      "deck": "photo-story",
+      "index": 5,
+      "layout": "gallery",
+      "variant": "strip",
+      "preset": null,
+      "align": null,
+      "tone": "yellow",
+      "quiet": true,
+      "visualKind": null,
+      "title": "같은 사진을, 다른 범위로.",
+      "url": "examples/photo-story/index.html#5",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "gallery",
+        "title": "같은 사진을, 다른 범위로.",
+        "titleSize": "64px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "같은 사진을, 다른 범위로.촬영 조건이 아닌 표시 프레임의 디지털 확대입니다.기본 프레임전체의 맥락1.4× 디지털 크롭산과 호수2× 디지털 크롭능선의 모양2.8× 디지털 크롭더 좁은 범위James Wheeler / Pexels · 같은 원본 사진의 디지털 표시 확대 예시",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [
+          {
+            "src": "../../assets/photos/landscape.jpg",
+            "alt": "호수 사진의 기본 표시 프레임",
+            "loaded": true,
+            "rect": {
+              "x": 125.27999877929688,
+              "y": 421.2962341308594,
+              "width": 284.7599792480469,
+              "height": 213.56997680664062,
+              "top": 421.2962341308594,
+              "right": 410.03997802734375,
+              "bottom": 634.8662109375,
+              "left": 125.27999877929688
+            }
+          },
+          {
+            "src": "../../assets/photos/landscape.jpg",
+            "alt": "같은 호수 사진의 1.4배 디지털 표시 확대",
+            "loaded": true,
+            "rect": {
+              "x": 374.4441833496094,
+              "y": 393.95928955078125,
+              "width": 398.6639709472656,
+              "height": 298.99798583984375,
+              "top": 393.95928955078125,
+              "right": 773.108154296875,
+              "bottom": 692.957275390625,
+              "left": 374.4441833496094
+            }
+          },
+          {
+            "src": "../../assets/photos/landscape.jpg",
+            "alt": "같은 호수 사진의 2배 디지털 표시 확대",
+            "loaded": true,
+            "rect": {
+              "x": 597.410400390625,
+              "y": 352.953857421875,
+              "width": 569.52001953125,
+              "height": 427.1400146484375,
+              "top": 352.953857421875,
+              "right": 1166.930419921875,
+              "bottom": 780.0938720703125,
+              "left": 597.410400390625
+            }
+          },
+          {
+            "src": "../../assets/photos/landscape.jpg",
+            "alt": "같은 호수 사진의 2.8배 디지털 표시 확대",
+            "loaded": true,
+            "rect": {
+              "x": 794.1787109375,
+              "y": 298.2799072265625,
+              "width": 797.3280029296875,
+              "height": 597.9959716796875,
+              "top": 298.2799072265625,
+              "right": 1591.5067138671875,
+              "bottom": 896.27587890625,
+              "left": 794.1787109375
+            }
+          }
+        ],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/photo-story-05.png"
+    },
+    {
+      "id": "photo-story-06",
+      "deck": "photo-story",
+      "index": 6,
+      "layout": "mosaic",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": true,
+      "visualKind": null,
+      "title": "장면과 작품을, 다시 엮습니다.",
+      "url": "examples/photo-story/index.html#6",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "mosaic",
+        "title": "장면과 작품을, 다시 엮습니다.",
+        "titleSize": "64px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "장면과 작품을, 다시 엮습니다.사진은 Pexels 스톡 이미지 · 포스터, 도형, 문서는 자체 제작",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [
+          {
+            "src": "../../assets/examples/poster-wide.svg",
+            "alt": "큰 보라 타이포가 있는 자체 제작 가로 포스터",
+            "loaded": true,
+            "rect": {
+              "x": 125.27999877929688,
+              "y": 285.2293701171875,
+              "width": 586.3199462890625,
+              "height": 244.06591796875,
+              "top": 285.2293701171875,
+              "right": 711.5999450683594,
+              "bottom": 529.2952880859375,
+              "left": 125.27999877929688
+            }
+          },
+          {
+            "src": "../../assets/photos/listen.jpg",
+            "alt": "헤드폰을 쓴 인물의 스톡 사진",
+            "loaded": true,
+            "rect": {
+              "x": 728.3999633789062,
+              "y": 285.2293701171875,
+              "width": 284.760009765625,
+              "height": 244.06591796875,
+              "top": 285.2293701171875,
+              "right": 1013.1599731445312,
+              "bottom": 529.2952880859375,
+              "left": 728.3999633789062
+            }
+          },
+          {
+            "src": "../../assets/examples/objects.svg",
+            "alt": "푸른 도형과 주황 구체의 자체 제작 이미지",
+            "loaded": true,
+            "rect": {
+              "x": 1029.9599609375,
+              "y": 285.2293701171875,
+              "width": 284.760009765625,
+              "height": 244.06591796875,
+              "top": 285.2293701171875,
+              "right": 1314.719970703125,
+              "bottom": 529.2952880859375,
+              "left": 1029.9599609375
+            }
+          },
+          {
+            "src": "../../assets/photos/portrait-two.jpg",
+            "alt": "도시 거리에 서 있는 인물의 스톡 사진",
+            "loaded": true,
+            "rect": {
+              "x": 125.27999877929688,
+              "y": 546.0953369140625,
+              "width": 284.7599792480469,
+              "height": 244.06591796875,
+              "top": 546.0953369140625,
+              "right": 410.03997802734375,
+              "bottom": 790.1612548828125,
+              "left": 125.27999877929688
+            }
+          },
+          {
+            "src": "../../assets/examples/report.svg",
+            "alt": "관찰 기록을 담은 자체 제작 가상 문서",
+            "loaded": true,
+            "rect": {
+              "x": 426.8399963378906,
+              "y": 546.0953369140625,
+              "width": 284.7599792480469,
+              "height": 244.06591796875,
+              "top": 546.0953369140625,
+              "right": 711.5999755859375,
+              "bottom": 790.1612548828125,
+              "left": 426.8399963378906
+            }
+          },
+          {
+            "src": "../../assets/photos/landscape.jpg",
+            "alt": "호수와 산이 보이는 풀컬러 풍경 사진",
+            "loaded": true,
+            "rect": {
+              "x": 728.3999633789062,
+              "y": 546.0953369140625,
+              "width": 586.3200073242188,
+              "height": 244.06591796875,
+              "top": 546.0953369140625,
+              "right": 1314.719970703125,
+              "bottom": 790.1612548828125,
+              "left": 728.3999633789062
+            }
+          }
+        ],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/photo-story-06.png"
+    },
+    {
+      "id": "photo-story-07",
+      "deck": "photo-story",
+      "index": 7,
+      "layout": "closing",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "다음 이야기는,",
+        "당신의 장면으로."
+      ],
+      "url": "examples/photo-story/index.html#7",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "closing",
+        "title": "다음 이야기는,당신의 장면으로.",
+        "titleSize": "118px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "다음 이야기는,당신의 장면으로.사진의 색은 살리고, 프레임과 간격으로 묶습니다.직접 고른 사진과 정확한 크레딧으로 바꾸세요.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/photo-story-07.png"
+    },
+    {
+      "id": "workshop-01",
+      "deck": "workshop",
+      "index": 1,
+      "layout": "cover",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "한 장의 생각을,",
+        "함께 다듬는 시간."
+      ],
+      "url": "examples/workshop/index.html#1",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "cover",
+        "title": "한 장의 생각을,함께 다듬는 시간.",
+        "titleSize": "130px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "한 장의 생각을,함께 다듬는 시간.가상의 발표 디자인 워크숍 진행안진행자 이름2026. 10. 23.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/workshop-01.png"
+    },
+    {
+      "id": "workshop-02",
+      "deck": "workshop",
+      "index": 2,
+      "layout": "section",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": "purple",
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "먼저,",
+        "한 문장으로."
+      ],
+      "url": "examples/workshop/index.html#2",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "section",
+        "title": "먼저,한 문장으로.",
+        "titleSize": "144px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "먼저,한 문장으로.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/workshop-02.png"
+    },
+    {
+      "id": "workshop-03",
+      "deck": "workshop",
+      "index": 3,
+      "layout": "categories",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": null,
+      "quiet": true,
+      "visualKind": null,
+      "title": "네 가지 질문으로 점검합니다.",
+      "url": "examples/workshop/index.html#3",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "categories",
+        "title": "네 가지 질문으로 점검합니다.",
+        "titleSize": "64px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "네 가지 질문으로 점검합니다.기록비교선택공유",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/workshop-03.png"
+    },
+    {
+      "id": "workshop-04",
+      "deck": "workshop",
+      "index": 4,
+      "layout": "steps",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "한 번에 하나씩,",
+        "세 단계로 진행합니다."
+      ],
+      "url": "examples/workshop/index.html#4",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "steps",
+        "title": "한 번에 하나씩,세 단계로 진행합니다.",
+        "titleSize": "76px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "한 번에 하나씩,세 단계로 진행합니다.01한 문장 쓰기전달할 생각을 짧게 적습니다.02한 장면 고르기생각을 보여줄 이미지를 고릅니다.03함께 읽기보이는 것과 들리는 것을 비교합니다.",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/workshop-04.png"
+    },
+    {
+      "id": "workshop-05",
+      "deck": "workshop",
+      "index": 5,
+      "layout": "image",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "손으로 적고,",
+        "눈으로 살펴봅니다."
+      ],
+      "url": "examples/workshop/index.html#5",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "image",
+        "title": "손으로 적고,눈으로 살펴봅니다.",
+        "titleSize": "62px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "손으로 적고,눈으로 살펴봅니다.LinkedIn Sales Navigator / Pexels · 개인 작업을 표현한 스톡 사진",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [
+          {
+            "src": "../../assets/photos/write.jpg",
+            "alt": "야외 테이블에서 노트에 글을 쓰는 인물의 스톡 사진",
+            "loaded": true,
+            "rect": {
+              "x": 126.1199951171875,
+              "y": 403.9056091308594,
+              "width": 1187.760009765625,
+              "height": 323.7543640136719,
+              "top": 403.9056091308594,
+              "right": 1313.8800048828125,
+              "bottom": 727.6599731445312,
+              "left": 126.1199951171875
+            }
+          }
+        ],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/workshop-05.png"
+    },
+    {
+      "id": "workshop-06",
+      "deck": "workshop",
+      "index": 6,
+      "layout": "compare",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "함께 읽고,",
+        "한 문장만 고칩니다."
+      ],
+      "url": "examples/workshop/index.html#6",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "compare",
+        "title": "함께 읽고,한 문장만 고칩니다.",
+        "titleSize": "76px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "함께 읽고,한 문장만 고칩니다.가상 초안여러 생각을 한꺼번에 말합니다.어떤 장면을 볼지 모호합니다.가상 수정안기억할 한 생각을 고릅니다.그 생각을 보여줄 장면을 붙입니다.",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/workshop-06.png"
+    },
+    {
+      "id": "workshop-07",
+      "deck": "workshop",
+      "index": 7,
+      "layout": "closing",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "가장 남는 한 문장을,",
+        "가져가세요."
+      ],
+      "url": "examples/workshop/index.html#7",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "closing",
+        "title": "가장 남는 한 문장을,가져가세요.",
+        "titleSize": "118px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "가장 남는 한 문장을,가져가세요.이 진행안을 팀의 상황에 맞게 조정하세요.서로의 문장을 읽고 다음 발표에 적용합니다.",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/workshop-07.png"
+    },
+    {
+      "id": "visual-story-01",
+      "deck": "visual-story",
+      "index": 1,
+      "layout": "cover",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": "blue",
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "첫 경험을,",
+        "다음 행동으로."
+      ],
+      "url": "examples/visual-story/index.html#1",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "cover",
+        "title": "첫 경험을,다음 행동으로.",
+        "titleSize": "130px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "첫 경험을,다음 행동으로.12주 가상 제품 개선 프로젝트가상 프로젝트 팀12주 관찰 예시",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/visual-story-01.png"
+    },
+    {
+      "id": "visual-story-06",
+      "deck": "visual-story",
+      "index": 6,
+      "layout": "visual",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": true,
+      "visualKind": "bars",
+      "title": "다음 연결을, 더 자세히.",
+      "url": "examples/visual-story/index.html#6",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "visual",
+        "title": "다음 연결을, 더 자세히.",
+        "titleSize": "74px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "다음 연결을, 더 자세히.기준·후반 비교 · 분모: 각 구간의 직전 단계 인원84.6%초안 완성 → 첫 공유신규 가입 → 프로젝트 시작70%80%프로젝트 시작 → 초안 완성71.4%81.3%초안 완성 → 첫 공유70%84.6%기준 · W1–W4후반 · W9–W12같은 원본의 데이터 표대상별 비교대상기준 · W1–W4 (%)후반 · W9–W12 (%)신규 가입 → 프로젝트 시작7080프로젝트 시작 → 초안 완성71.481.3초안 완성 → 첫 공유7084.6",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/visual-story-06.png"
+    },
+    {
+      "id": "visual-story-11",
+      "deck": "visual-story",
+      "index": 11,
+      "layout": "steps",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "관찰 차이 다음에는,",
+        "다시 검증합니다."
+      ],
+      "url": "examples/visual-story/index.html#11",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "steps",
+        "title": "관찰 차이 다음에는,다시 검증합니다.",
+        "titleSize": "76px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "관찰 차이 다음에는,다시 검증합니다.01시작 템플릿신규 사용자의 첫 행동과 막힌 지점을 관찰합니다.02다음 행동 안내초안까지의 단계가 이해되는지 과업으로 점검합니다.03공유 미리보기공유 의미와 오류 경로를 확인한 뒤 별도 비교합니다.",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/visual-story-11.png"
+    },
+    {
+      "id": "visual-story-12",
+      "deck": "visual-story",
+      "index": 12,
+      "layout": "closing",
+      "variant": null,
+      "preset": null,
+      "align": "center",
+      "tone": null,
+      "quiet": false,
+      "visualKind": null,
+      "title": [
+        "작게 적용하고,",
+        "같은 기준으로 다시 봅니다."
+      ],
+      "url": "examples/visual-story/index.html#12",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "closing",
+        "title": "작게 적용하고,같은 기준으로 다시 봅니다.",
+        "titleSize": "118px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 195.51998901367188,
+          "width": 1189.43994140625,
+          "height": 631.679931640625,
+          "top": 195.51998901367188,
+          "right": 1314.7199401855469,
+          "bottom": 827.1999206542969,
+          "left": 125.27999877929688
+        },
+        "text": "작게 적용하고,같은 기준으로 다시 봅니다.자료 하나에서 그림·강조값·표를 함께 바꿉니다.파일에 보관한 원본 표 열기data.html",
+        "footer": {
+          "present": true,
+          "visible": false
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/visual-story-12.png"
+    },
+    {
+      "id": "visual-starter-01",
+      "deck": "visual-starter",
+      "index": 1,
+      "layout": "visual",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": false,
+      "visualKind": "line",
+      "title": "일곱 번의 관찰, 다음 질문.",
+      "url": "examples/visual-starter/index.html#1",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "visual",
+        "title": "일곱 번의 관찰, 다음 질문.",
+        "titleSize": "74px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "일곱 번의 관찰, 다음 질문.지원 과업 완료율 · 같은 과업의 관찰 비율80%7주관찰값 추세040801주3주5주7주관찰값 추세 · 좁은 화면040801주7주같은 원본의 데이터 표관찰값과 추세대상값 (%)분자분모1주65781202주65911403주70911304주701121605주741111506주751351807주80136170",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/visual-starter-01.png"
+    },
+    {
+      "id": "visual-starter-02",
+      "deck": "visual-starter",
+      "index": 2,
+      "layout": "visual",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": false,
+      "visualKind": "composition",
+      "title": "문의는 어디에 모였을까요?",
+      "url": "examples/visual-starter/index.html#2",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "visual",
+        "title": "문의는 어디에 모였을까요?",
+        "titleSize": "64px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "문의는 어디에 모였을까요?12건작성 · 30%20%30%25%15%탐색8건 · 20%작성12건 · 30%공유10건 · 25%설정6건 · 15%기타4건 · 10%같은 원본의 데이터 표구성 원값과 비중분류원값 (건)비중탐색820%작성1230%공유1025%설정615%기타410%",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/visual-starter-02.png"
+    },
+    {
+      "id": "visual-starter-03",
+      "deck": "visual-starter",
+      "index": 3,
+      "layout": "visual",
+      "variant": null,
+      "preset": null,
+      "align": null,
+      "tone": null,
+      "quiet": false,
+      "visualKind": "flow",
+      "title": "요청에서 답변까지.",
+      "url": "examples/visual-starter/index.html#3",
+      "reasons": [
+        "additional-cross-topic-coverage"
+      ],
+      "readiness": "ready",
+      "observed": {
+        "actualLayout": "visual",
+        "title": "요청에서 답변까지.",
+        "titleSize": "74px",
+        "stage": {
+          "x": 48,
+          "y": 130,
+          "width": 1344,
+          "height": 756,
+          "top": 130,
+          "right": 1392,
+          "bottom": 886,
+          "left": 48
+        },
+        "body": {
+          "x": 125.27999877929688,
+          "y": 262.7200012207031,
+          "width": 1189.43994140625,
+          "height": 510.7200012207031,
+          "top": 262.7200012207031,
+          "right": 1314.7199401855469,
+          "bottom": 773.4400024414062,
+          "left": 125.27999877929688
+        },
+        "text": "요청에서 답변까지.01요청 접수02답변 완료같은 원본의 데이터 표흐름의 순서와 연결순서단계다음 단계1요청 접수답변 완료2답변 완료마지막 단계",
+        "footer": {
+          "present": true,
+          "visible": true
+        },
+        "images": [],
+        "geometricCandidates": [],
+        "runtimeErrors": [],
+        "mode": "present"
+      },
+      "screenshot": "evidence/visual-starter-03.png"
+    }
+  ]
+}

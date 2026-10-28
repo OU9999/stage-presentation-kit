@@ -1,0 +1,82 @@
+{
+  "head": "cdb88b421d5a2fc018fe0269713e1ba16d4d8b20",
+  "shared": [
+    {
+      "file": "styles.css",
+      "before": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "after": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "same": true
+    },
+    {
+      "file": "visual.css",
+      "before": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+      "after": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+      "same": true
+    },
+    {
+      "file": "visual.js",
+      "before": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "after": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "same": true
+    }
+  ],
+  "decks": [
+    {
+      "slug": "product-notes",
+      "format": "markdown-v1",
+      "layouts": [
+        "blocks",
+        "blocks",
+        "blocks",
+        "blocks",
+        "blocks",
+        "blocks"
+      ],
+      "toneChoices": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "alignChoices": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "slug": "team-learning",
+      "format": "markdown-v1",
+      "layouts": [
+        "blocks",
+        "blocks",
+        "blocks",
+        "blocks",
+        "blocks",
+        "blocks"
+      ],
+      "toneChoices": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "alignChoices": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "note": "CSS/visual preservation proves legacy code survived, not that the new writing workflow preserves art direction."
+}

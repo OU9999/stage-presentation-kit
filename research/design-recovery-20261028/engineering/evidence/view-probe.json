@@ -1,0 +1,1408 @@
+{
+  "capturedAt": "2026-10-28T00:58:38.783Z",
+  "head": "cdb88b421d5a2fc018fe0269713e1ba16d4d8b20",
+  "node": "v24.22.1",
+  "temp": "/tmp/stage-view-audit-jnHhFK",
+  "productSha256": {
+    "scripts/markdown-document.cjs": "0d2904a1803fb54e1bb2721ba599d40ba6c16caed9289edcf9ba0c84b07bd6d2",
+    "scripts/markdown-deck.cjs": "18946ebac52a1334f319640be8edde7c0f2c0240608f23ec402a7478bb9fb5f4",
+    "scripts/stage.cjs": "f65be32a389de935d2ffca53c28f7baa7ca7d8d67428c6db4df9050b58fde617",
+    "deck-model.js": "46f4fdf578cf46e66b4677d888efd8b1715acdfc27381d824f0b3b111faeda6a",
+    "app.js": "895df1da1f6818da23eed7b5f090f10c9d64502b8028aab508a9bdfb17884fe4",
+    "blocks.js": "ab4b9545781caa7c07571e2b05e8f7b64075aa5ded442cc3f5ff24c6b56cdf05",
+    "blocks.css": "a711cad4dfdc34b702749ea3cab3d4a7b3e907e5564a785938d60ea5c9e1a4f1"
+  },
+  "productUnchanged": true,
+  "cases": [
+    {
+      "name": "plain",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/plain.md",
+      "source": "# A **single** claim\n\nContext and disclosure stay visible.\n\n![Figure](../../shared/figure.svg)\n\n[Reference](../plain/slides.md#1)\n",
+      "ok": true,
+      "deck": {
+        "format": "markdown-v1",
+        "document": {
+          "sourcePath": "cases/plain.md",
+          "revision": "77ca9c74162a3d310bdd04e810c783b901254bf4c99e53073fe5f2f55a49397a"
+        },
+        "id": "plain",
+        "title": "A single claim",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "blocks",
+            "title": "A single claim",
+            "heading": {
+              "type": "element",
+              "tag": "h1",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "A "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "single"
+                    }
+                  ],
+                  "position": {
+                    "line": 1,
+                    "endLine": 1
+                  }
+                },
+                {
+                  "type": "text",
+                  "value": " claim"
+                }
+              ],
+              "position": {
+                "line": 1,
+                "endLine": 1
+              }
+            },
+            "blocks": [
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Context and disclosure stay visible."
+                  }
+                ],
+                "position": {
+                  "line": 3,
+                  "endLine": 3
+                }
+              },
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "img",
+                    "attrs": {
+                      "src": "../../shared/figure.svg",
+                      "alt": "Figure"
+                    },
+                    "children": [],
+                    "position": {
+                      "line": 5,
+                      "endLine": 5
+                    }
+                  }
+                ],
+                "position": {
+                  "line": 5,
+                  "endLine": 5
+                }
+              },
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "a",
+                    "attrs": {
+                      "href": "../plain/slides.md#1"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Reference"
+                      }
+                    ],
+                    "position": {
+                      "line": 7,
+                      "endLine": 7
+                    }
+                  }
+                ],
+                "position": {
+                  "line": 7,
+                  "endLine": 7
+                }
+              }
+            ],
+            "origin": {
+              "line": 1,
+              "endLine": 7
+            }
+          }
+        ]
+      },
+      "issues": [],
+      "references": [
+        {
+          "key": "src",
+          "kind": "image",
+          "value": "../../shared/figure.svg",
+          "position": {
+            "line": 5,
+            "endLine": 5
+          }
+        },
+        {
+          "key": "href",
+          "kind": "link",
+          "value": "../plain/slides.md#1",
+          "position": {
+            "line": 7,
+            "endLine": 7
+          }
+        }
+      ],
+      "summary": {
+        "layout": "blocks",
+        "title": "A single claim",
+        "headingTag": "h1",
+        "topLevelTags": [
+          "p",
+          "p",
+          "p"
+        ],
+        "text": "A single claimContext and disclosure stay visible.Reference",
+        "origin": {
+          "line": 1,
+          "endLine": 7
+        }
+      }
+    },
+    {
+      "name": "hint-before-h1",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/hint-before-h1.md",
+      "source": "<!-- stage-view: message -->\n# A **single** claim\n\nContext and disclosure stay visible.\n\n![Figure](../../shared/figure.svg)\n\n[Reference](../plain/slides.md#1)\n",
+      "ok": true,
+      "deck": {
+        "format": "markdown-v1",
+        "document": {
+          "sourcePath": "cases/hint-before-h1.md",
+          "revision": "0e6bb8fc1774aaf5caf8295ec420052df60bc1c6263a02ab724457be573819bc"
+        },
+        "id": "hint-before-h1",
+        "title": "발표 자료",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "blocks",
+            "blocks": [
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<!-- stage-view: message -->"
+                  }
+                ],
+                "position": {
+                  "line": 1,
+                  "endLine": 1
+                }
+              },
+              {
+                "type": "element",
+                "tag": "h1",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "A "
+                  },
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "single"
+                      }
+                    ],
+                    "position": {
+                      "line": 2,
+                      "endLine": 2
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " claim"
+                  }
+                ],
+                "position": {
+                  "line": 2,
+                  "endLine": 2
+                }
+              },
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Context and disclosure stay visible."
+                  }
+                ],
+                "position": {
+                  "line": 4,
+                  "endLine": 4
+                }
+              },
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "img",
+                    "attrs": {
+                      "src": "../../shared/figure.svg",
+                      "alt": "Figure"
+                    },
+                    "children": [],
+                    "position": {
+                      "line": 6,
+                      "endLine": 6
+                    }
+                  }
+                ],
+                "position": {
+                  "line": 6,
+                  "endLine": 6
+                }
+              },
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "a",
+                    "attrs": {
+                      "href": "../plain/slides.md#1"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Reference"
+                      }
+                    ],
+                    "position": {
+                      "line": 8,
+                      "endLine": 8
+                    }
+                  }
+                ],
+                "position": {
+                  "line": 8,
+                  "endLine": 8
+                }
+              }
+            ],
+            "origin": {
+              "line": 1,
+              "endLine": 8
+            }
+          }
+        ]
+      },
+      "issues": [],
+      "references": [
+        {
+          "key": "src",
+          "kind": "image",
+          "value": "../../shared/figure.svg",
+          "position": {
+            "line": 6,
+            "endLine": 6
+          }
+        },
+        {
+          "key": "href",
+          "kind": "link",
+          "value": "../plain/slides.md#1",
+          "position": {
+            "line": 8,
+            "endLine": 8
+          }
+        }
+      ],
+      "summary": {
+        "layout": "blocks",
+        "title": null,
+        "headingTag": null,
+        "topLevelTags": [
+          "p",
+          "h1",
+          "p",
+          "p",
+          "p"
+        ],
+        "text": "<!-- stage-view: message -->A single claimContext and disclosure stay visible.Reference",
+        "origin": {
+          "line": 1,
+          "endLine": 8
+        }
+      }
+    },
+    {
+      "name": "hint-after-h1",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/hint-after-h1.md",
+      "source": "# A **single** claim\n\n<!-- stage-view: message -->\n\nContext and disclosure stay visible.",
+      "ok": true,
+      "deck": {
+        "format": "markdown-v1",
+        "document": {
+          "sourcePath": "cases/hint-after-h1.md",
+          "revision": "327ad2d80584760829c8de5d768f2d8f64d35ee67bc42bf8dcdbf1f21ad74d09"
+        },
+        "id": "hint-after-h1",
+        "title": "A single claim",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "blocks",
+            "title": "A single claim",
+            "heading": {
+              "type": "element",
+              "tag": "h1",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "A "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "single"
+                    }
+                  ],
+                  "position": {
+                    "line": 1,
+                    "endLine": 1
+                  }
+                },
+                {
+                  "type": "text",
+                  "value": " claim"
+                }
+              ],
+              "position": {
+                "line": 1,
+                "endLine": 1
+              }
+            },
+            "blocks": [
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<!-- stage-view: message -->"
+                  }
+                ],
+                "position": {
+                  "line": 3,
+                  "endLine": 3
+                }
+              },
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Context and disclosure stay visible."
+                  }
+                ],
+                "position": {
+                  "line": 5,
+                  "endLine": 5
+                }
+              }
+            ],
+            "origin": {
+              "line": 1,
+              "endLine": 5
+            }
+          }
+        ]
+      },
+      "issues": [],
+      "references": [],
+      "summary": {
+        "layout": "blocks",
+        "title": "A single claim",
+        "headingTag": "h1",
+        "topLevelTags": [
+          "p",
+          "p"
+        ],
+        "text": "A single claim<!-- stage-view: message -->Context and disclosure stay visible.",
+        "origin": {
+          "line": 1,
+          "endLine": 5
+        }
+      }
+    },
+    {
+      "name": "stage-metadata",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/stage-metadata.md",
+      "source": "<!-- stage\nlayout: statement\nalign: center\n-->\n# A claim\n\nContext and disclosure stay visible.",
+      "ok": true,
+      "deck": {
+        "format": "markdown-v1",
+        "document": {
+          "sourcePath": "cases/stage-metadata.md",
+          "revision": "f1612f8b1b067cdb901c4f5f57eba5cc61ba8e92766855943d0746621398d52f"
+        },
+        "id": "stage-metadata",
+        "title": "A claim",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "statement",
+            "align": "center",
+            "title": "A claim",
+            "subtitle": "Context and disclosure stay visible.",
+            "origin": {
+              "line": 1,
+              "endLine": 7
+            }
+          }
+        ]
+      },
+      "issues": [],
+      "references": [],
+      "summary": {
+        "layout": "statement",
+        "title": "A claim",
+        "headingTag": null,
+        "topLevelTags": [],
+        "text": "",
+        "origin": {
+          "line": 1,
+          "endLine": 7
+        }
+      }
+    },
+    {
+      "name": "stage-metadata-mixed",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/stage-metadata-mixed.md",
+      "source": "<!-- stage\nlayout: statement\n-->\n# Two values\n\n| Target | Value | Unit |\n| --- | --- | --- |\n| Ideas | 24 | items |\n| Tasks | 6 | kinds |\n\nFictional example, not measured results.\n",
+      "ok": false,
+      "error": "cases/stage-metadata-mixed.md:1: 명시 layout: 슬라이드 1: 이 목록·표·인용 본문 문법은 지원하지 않습니다. stage JSON의 해당 필드를 사용하세요."
+    },
+    {
+      "name": "stage-view-metadata-key",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/stage-view-metadata-key.md",
+      "source": "<!-- stage\nlayout: statement\nview: message\n-->\n# A claim",
+      "ok": false,
+      "error": "cases/stage-view-metadata-key.md:1: 명시 layout: 슬라이드 1: layout 'statement'에서 표시하지 않는 필드 'view'입니다."
+    },
+    {
+      "name": "frontmatter-view",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/frontmatter-view.md",
+      "source": "---\nview: message\n---\n# A claim",
+      "ok": false,
+      "error": "cases/frontmatter-view.md:2: frontmatter 'view'는 이번 Markdown 모드에서 지원하지 않습니다."
+    },
+    {
+      "name": "frontmatter-role",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/frontmatter-role.md",
+      "source": "---\nrole: message\n---\n# A claim",
+      "ok": false,
+      "error": "cases/frontmatter-role.md:2: frontmatter 'role'는 이번 Markdown 모드에서 지원하지 않습니다."
+    },
+    {
+      "name": "stage-notes",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/stage-notes.md",
+      "source": "<!-- stage\nlayout: statement\nnotes: private\n-->\n# A claim",
+      "ok": false,
+      "error": "cases/stage-notes.md:1: 'notes'는 이번 Markdown 모드에서 지원하지 않습니다. 발표자 노트를 공개 원고에 넣지 마세요."
+    },
+    {
+      "name": "ordinary-h2-groups",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/ordinary-h2-groups.md",
+      "source": "# Results\n\n## Record\n\n![Report](../../shared/figure.svg)\n\nA complete report.\n\n## Next action\n\n> Show the next step.\n\nNext review stays in source order.\n",
+      "ok": true,
+      "deck": {
+        "format": "markdown-v1",
+        "document": {
+          "sourcePath": "cases/ordinary-h2-groups.md",
+          "revision": "0065367cfac4db676f7bb872667c2b39441f925b722191a2f9611650b3a1e5ac"
+        },
+        "id": "ordinary-h2-groups",
+        "title": "Results",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "blocks",
+            "title": "Results",
+            "heading": {
+              "type": "element",
+              "tag": "h1",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Results"
+                }
+              ],
+              "position": {
+                "line": 1,
+                "endLine": 1
+              }
+            },
+            "blocks": [
+              {
+                "type": "element",
+                "tag": "h2",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Record"
+                  }
+                ],
+                "position": {
+                  "line": 3,
+                  "endLine": 3
+                }
+              },
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "img",
+                    "attrs": {
+                      "src": "../../shared/figure.svg",
+                      "alt": "Report"
+                    },
+                    "children": [],
+                    "position": {
+                      "line": 5,
+                      "endLine": 5
+                    }
+                  }
+                ],
+                "position": {
+                  "line": 5,
+                  "endLine": 5
+                }
+              },
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "A complete report."
+                  }
+                ],
+                "position": {
+                  "line": 7,
+                  "endLine": 7
+                }
+              },
+              {
+                "type": "element",
+                "tag": "h2",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Next action"
+                  }
+                ],
+                "position": {
+                  "line": 9,
+                  "endLine": 9
+                }
+              },
+              {
+                "type": "element",
+                "tag": "blockquote",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "p",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Show the next step."
+                      }
+                    ],
+                    "position": {
+                      "line": 11,
+                      "endLine": 11
+                    }
+                  }
+                ],
+                "position": {
+                  "line": 11,
+                  "endLine": 11
+                }
+              },
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Next review stays in source order."
+                  }
+                ],
+                "position": {
+                  "line": 13,
+                  "endLine": 13
+                }
+              }
+            ],
+            "origin": {
+              "line": 1,
+              "endLine": 13
+            }
+          }
+        ]
+      },
+      "issues": [],
+      "references": [
+        {
+          "key": "src",
+          "kind": "image",
+          "value": "../../shared/figure.svg",
+          "position": {
+            "line": 5,
+            "endLine": 5
+          }
+        }
+      ],
+      "summary": {
+        "layout": "blocks",
+        "title": "Results",
+        "headingTag": "h1",
+        "topLevelTags": [
+          "h2",
+          "p",
+          "p",
+          "h2",
+          "blockquote",
+          "p"
+        ],
+        "text": "ResultsRecordA complete report.Next actionShow the next step.Next review stays in source order.",
+        "origin": {
+          "line": 1,
+          "endLine": 13
+        }
+      }
+    },
+    {
+      "name": "ordinary-two-values",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/ordinary-two-values.md",
+      "source": "# Two values\n\n| Target | Value | Unit |\n| --- | --- | --- |\n| Ideas | 24 | items |\n| Tasks | 6 | kinds |\n\nFictional example, not measured results.\n",
+      "ok": true,
+      "deck": {
+        "format": "markdown-v1",
+        "document": {
+          "sourcePath": "cases/ordinary-two-values.md",
+          "revision": "431f6250529e8fafe5bb8a04314d4e600f013007ac70d823628ae66020e89cbc"
+        },
+        "id": "ordinary-two-values",
+        "title": "Two values",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "blocks",
+            "title": "Two values",
+            "heading": {
+              "type": "element",
+              "tag": "h1",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Two values"
+                }
+              ],
+              "position": {
+                "line": 1,
+                "endLine": 1
+              }
+            },
+            "blocks": [
+              {
+                "type": "element",
+                "tag": "table",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "thead",
+                    "children": [
+                      {
+                        "type": "element",
+                        "tag": "tr",
+                        "children": [
+                          {
+                            "type": "element",
+                            "tag": "th",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Target"
+                              }
+                            ],
+                            "position": {
+                              "line": 3,
+                              "endLine": 3
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "tag": "th",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Value"
+                              }
+                            ],
+                            "position": {
+                              "line": 3,
+                              "endLine": 3
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "tag": "th",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Unit"
+                              }
+                            ],
+                            "position": {
+                              "line": 3,
+                              "endLine": 3
+                            }
+                          }
+                        ],
+                        "position": {
+                          "line": 3,
+                          "endLine": 3
+                        }
+                      }
+                    ],
+                    "position": {
+                      "line": 3,
+                      "endLine": 3
+                    }
+                  },
+                  {
+                    "type": "element",
+                    "tag": "tbody",
+                    "children": [
+                      {
+                        "type": "element",
+                        "tag": "tr",
+                        "children": [
+                          {
+                            "type": "element",
+                            "tag": "td",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Ideas"
+                              }
+                            ],
+                            "position": {
+                              "line": 5,
+                              "endLine": 5
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "tag": "td",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "24"
+                              }
+                            ],
+                            "position": {
+                              "line": 5,
+                              "endLine": 5
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "tag": "td",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "items"
+                              }
+                            ],
+                            "position": {
+                              "line": 5,
+                              "endLine": 5
+                            }
+                          }
+                        ],
+                        "position": {
+                          "line": 5,
+                          "endLine": 5
+                        }
+                      },
+                      {
+                        "type": "element",
+                        "tag": "tr",
+                        "children": [
+                          {
+                            "type": "element",
+                            "tag": "td",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Tasks"
+                              }
+                            ],
+                            "position": {
+                              "line": 6,
+                              "endLine": 6
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "tag": "td",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "6"
+                              }
+                            ],
+                            "position": {
+                              "line": 6,
+                              "endLine": 6
+                            }
+                          },
+                          {
+                            "type": "element",
+                            "tag": "td",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "kinds"
+                              }
+                            ],
+                            "position": {
+                              "line": 6,
+                              "endLine": 6
+                            }
+                          }
+                        ],
+                        "position": {
+                          "line": 6,
+                          "endLine": 6
+                        }
+                      }
+                    ],
+                    "position": {
+                      "line": 5,
+                      "endLine": 6
+                    }
+                  }
+                ],
+                "position": {
+                  "line": 3,
+                  "endLine": 6
+                }
+              },
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Fictional example, not measured results."
+                  }
+                ],
+                "position": {
+                  "line": 8,
+                  "endLine": 8
+                }
+              }
+            ],
+            "origin": {
+              "line": 1,
+              "endLine": 8
+            }
+          }
+        ]
+      },
+      "issues": [],
+      "references": [],
+      "summary": {
+        "layout": "blocks",
+        "title": "Two values",
+        "headingTag": "h1",
+        "topLevelTags": [
+          "table",
+          "p"
+        ],
+        "text": "Two valuesTargetValueUnitIdeas24itemsTasks6kindsFictional example, not measured results.",
+        "origin": {
+          "line": 1,
+          "endLine": 8
+        }
+      }
+    },
+    {
+      "name": "code-separator",
+      "input": "/tmp/stage-view-audit-jnHhFK/cases/code-separator.md",
+      "source": "# Code\n\n```js\nconst separator = `\n---\n`;\n```",
+      "ok": true,
+      "deck": {
+        "format": "markdown-v1",
+        "document": {
+          "sourcePath": "cases/code-separator.md",
+          "revision": "d2f36efef4c87b4acfc2c8eb55df15929c125fc9fe0ab22d5d6ba44e92cd69ee"
+        },
+        "id": "code-separator",
+        "title": "Code",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "blocks",
+            "title": "Code",
+            "heading": {
+              "type": "element",
+              "tag": "h1",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Code"
+                }
+              ],
+              "position": {
+                "line": 1,
+                "endLine": 1
+              }
+            },
+            "blocks": [
+              {
+                "type": "element",
+                "tag": "pre",
+                "children": [
+                  {
+                    "type": "element",
+                    "tag": "code",
+                    "attrs": {
+                      "class": "language-js"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "const separator = `\n---\n`;\n"
+                      }
+                    ],
+                    "position": {
+                      "line": 3,
+                      "endLine": 7
+                    }
+                  }
+                ],
+                "position": {
+                  "line": 3,
+                  "endLine": 7
+                }
+              }
+            ],
+            "origin": {
+              "line": 1,
+              "endLine": 7
+            }
+          }
+        ]
+      },
+      "issues": [],
+      "references": [],
+      "summary": {
+        "layout": "blocks",
+        "title": "Code",
+        "headingTag": "h1",
+        "topLevelTags": [
+          "pre"
+        ],
+        "text": "Codeconst separator = `\n---\n`;\n",
+        "origin": {
+          "line": 1,
+          "endLine": 7
+        }
+      }
+    }
+  ],
+  "injectedModel": {
+    "property": "slide.view",
+    "value": "message",
+    "issues": [],
+    "parserNeverProducesProperty": true,
+    "runtimeReadsSlideView": false
+  },
+  "build": {
+    "output": "/private/tmp/stage-view-audit-jnHhFK/output",
+    "manifest": {
+      "format": "stage-project-v1",
+      "title": "STAGE 발표 모음",
+      "theme": "stage",
+      "decks": [
+        {
+          "id": "hinted",
+          "source": "talks/hinted/slides.md",
+          "slug": "hinted",
+          "format": "markdown-v1",
+          "title": "발표 자료",
+          "links": {
+            "slides": "hinted/index.html",
+            "read": "hinted/read.html"
+          }
+        },
+        {
+          "id": "plain",
+          "source": "talks/plain/slides.md",
+          "slug": "plain",
+          "format": "markdown-v1",
+          "title": "A single claim",
+          "links": {
+            "slides": "plain/index.html",
+            "read": "plain/read.html"
+          }
+        }
+      ]
+    },
+    "decks": [
+      {
+        "slug": "plain",
+        "deck": {
+          "format": "markdown-v1",
+          "document": {
+            "sourcePath": "talks/plain/slides.md",
+            "revision": "77ca9c74162a3d310bdd04e810c783b901254bf4c99e53073fe5f2f55a49397a"
+          },
+          "id": "plain",
+          "title": "A single claim",
+          "theme": "stage",
+          "slides": [
+            {
+              "layout": "blocks",
+              "title": "A single claim",
+              "heading": {
+                "type": "element",
+                "tag": "h1",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "A "
+                  },
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "single"
+                      }
+                    ],
+                    "position": {
+                      "line": 1,
+                      "endLine": 1
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " claim"
+                  }
+                ],
+                "position": {
+                  "line": 1,
+                  "endLine": 1
+                }
+              },
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "Context and disclosure stay visible."
+                    }
+                  ],
+                  "position": {
+                    "line": 3,
+                    "endLine": 3
+                  }
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "img",
+                      "attrs": {
+                        "src": "assets/0ea6867e76b7-figure.svg",
+                        "alt": "Figure"
+                      },
+                      "children": [],
+                      "position": {
+                        "line": 5,
+                        "endLine": 5
+                      }
+                    }
+                  ],
+                  "position": {
+                    "line": 5,
+                    "endLine": 5
+                  }
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "read.html#1"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Reference"
+                        }
+                      ],
+                      "position": {
+                        "line": 7,
+                        "endLine": 7
+                      }
+                    }
+                  ],
+                  "position": {
+                    "line": 7,
+                    "endLine": 7
+                  }
+                }
+              ],
+              "origin": {
+                "line": 1,
+                "endLine": 7
+              }
+            }
+          ]
+        },
+        "contentSha256": "6baef4f9b1a3ed0ad8796190d95b3aa7580744e00e1a354ff5b358a89d91419f",
+        "literalInGeneratedData": false,
+        "sameContentReferenceInPresentAndRead": true,
+        "presentBodyView": true,
+        "readBodyView": true,
+        "references": [
+          {
+            "key": "src",
+            "kind": "image",
+            "value": "assets/0ea6867e76b7-figure.svg",
+            "position": {
+              "line": 5,
+              "endLine": 5
+            }
+          },
+          {
+            "key": "href",
+            "kind": "link",
+            "value": "read.html#1",
+            "position": {
+              "line": 7,
+              "endLine": 7
+            }
+          }
+        ],
+        "assets": [
+          "0ea6867e76b7-figure.svg"
+        ]
+      },
+      {
+        "slug": "hinted",
+        "deck": {
+          "format": "markdown-v1",
+          "document": {
+            "sourcePath": "talks/hinted/slides.md",
+            "revision": "0e6bb8fc1774aaf5caf8295ec420052df60bc1c6263a02ab724457be573819bc"
+          },
+          "id": "hinted",
+          "title": "발표 자료",
+          "theme": "stage",
+          "slides": [
+            {
+              "layout": "blocks",
+              "blocks": [
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "<!-- stage-view: message -->"
+                    }
+                  ],
+                  "position": {
+                    "line": 1,
+                    "endLine": 1
+                  }
+                },
+                {
+                  "type": "element",
+                  "tag": "h1",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "A "
+                    },
+                    {
+                      "type": "element",
+                      "tag": "strong",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "single"
+                        }
+                      ],
+                      "position": {
+                        "line": 2,
+                        "endLine": 2
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "value": " claim"
+                    }
+                  ],
+                  "position": {
+                    "line": 2,
+                    "endLine": 2
+                  }
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "Context and disclosure stay visible."
+                    }
+                  ],
+                  "position": {
+                    "line": 4,
+                    "endLine": 4
+                  }
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "img",
+                      "attrs": {
+                        "src": "assets/0ea6867e76b7-figure.svg",
+                        "alt": "Figure"
+                      },
+                      "children": [],
+                      "position": {
+                        "line": 6,
+                        "endLine": 6
+                      }
+                    }
+                  ],
+                  "position": {
+                    "line": 6,
+                    "endLine": 6
+                  }
+                },
+                {
+                  "type": "element",
+                  "tag": "p",
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "a",
+                      "attrs": {
+                        "href": "../plain/read.html#1"
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Reference"
+                        }
+                      ],
+                      "position": {
+                        "line": 8,
+                        "endLine": 8
+                      }
+                    }
+                  ],
+                  "position": {
+                    "line": 8,
+                    "endLine": 8
+                  }
+                }
+              ],
+              "origin": {
+                "line": 1,
+                "endLine": 8
+              }
+            }
+          ]
+        },
+        "contentSha256": "9995d204803ebbb57e3c49df0e211845437c120314912d8ff7275bcf50901de8",
+        "literalInGeneratedData": true,
+        "sameContentReferenceInPresentAndRead": true,
+        "presentBodyView": true,
+        "readBodyView": true,
+        "references": [
+          {
+            "key": "src",
+            "kind": "image",
+            "value": "assets/0ea6867e76b7-figure.svg",
+            "position": {
+              "line": 6,
+              "endLine": 6
+            }
+          },
+          {
+            "key": "href",
+            "kind": "link",
+            "value": "../plain/read.html#1",
+            "position": {
+              "line": 8,
+              "endLine": 8
+            }
+          }
+        ],
+        "assets": [
+          "0ea6867e76b7-figure.svg"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Current APIs only; no stage-view parser/view implementation",
+    "Actual parse/model/isolated build and static data/source inspection; no browser/CSS/layout or visual-effect execution",
+    "A passing model with unknown slide.view does not imply a supported view API",
+    "No default build, server, package install, product edits or full210test rerun"
+  ]
+}

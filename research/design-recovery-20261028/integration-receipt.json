@@ -1,0 +1,106 @@
+{
+  "head": "cdb88b421d5a2fc018fe0269713e1ba16d4d8b20",
+  "scope": "Review and two-manager R1/R2 design agreement; no product implementation, commit, push or deployment",
+  "documents": 10,
+  "localMarkdownLinks": 131,
+  "missingLinks": [],
+  "htmlLocalReferences": 17,
+  "images": [
+    {
+      "file": "research/design-recovery-20261028/evidence/new-image-list.png",
+      "sha256": "e54a5ed27fdec77c2661d6cda793963bb586bbe596078897b5ee87ef8a0081e9",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "research/design-recovery-20261028/evidence/new-opening.png",
+      "sha256": "7ad23e0e70c71eea5cea128354c42b48d6afaa144db4af09b868b59c7e52a7b8",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "research/design-recovery-20261028/evidence/new-table.png",
+      "sha256": "8aa6f3efac9a084b9a1be410b35312f869c6e09ae10521ac855e5c3cfd6df557",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "research/design-recovery-20261028/evidence/old-editorial.png",
+      "sha256": "2a4d18fefef78415ef52e9b661d0365fcf2442239012231a13a15ace023164da",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "research/design-recovery-20261028/evidence/old-message.png",
+      "sha256": "b66065f058e1b81f48befe1a3c46f04e717fd4b6bdcb1adaa06032d5f237d8fd",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "research/design-recovery-20261028/evidence/old-metric-pair.png",
+      "sha256": "34c9714b1f7160198a7fadeec49d7c78df021fffd36fe5804c055a03e32ae7b2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "research/design-recovery-20261028/evidence/old-visual.png",
+      "sha256": "d8673e511521e70df557d466d5c59ba2e2fbfd9265f6317a0d709cafe4cf1288",
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "originalProbeChecks": {
+    "inputFiles": 12,
+    "successDeckJson": 7,
+    "generatedContentHashes": 2,
+    "protectedProductFiles": 7
+  },
+  "independentProbe": {
+    "resultPath": "/tmp/stage-design-recovery-root-probe.json",
+    "temp": "/tmp/stage-view-audit-QeP8I4",
+    "cases": 12,
+    "success": 7,
+    "rejected": 5,
+    "productUnchanged": true
+  },
+  "trackedChanges": [
+    "WORK_LOG.md"
+  ],
+  "artifactHashes": {
+    "research/design-recovery-20261028/MEETING.md": "d0caa2f0e4acc24d7280a4060bdb6211a9e670abd1ea85bca007d305d588a0b8",
+    "research/design-recovery-20261028/RESULT.md": "5fa19a8a0b63943355714e952cf4b1d7761498567532184016b7937aaecbc0d9",
+    "research/design-recovery-20261028/comparison.html": "f4cae705d1e4d67cd32b0edc5c322c7dd5062119995d698824734913822b5f8f",
+    "research/design-recovery-20261028/design/manager-review.md": "4e8c9e668f2e2ac46c8df573b852cf0919650bb7864d29b6df6aecdb3fa4cc28",
+    "research/design-recovery-20261028/design/story-proposal.md": "eb5fed196e7e170f82e420df642792eacd1e15f59b3b0f32b101b01a36041093",
+    "research/design-recovery-20261028/design/synthesis.md": "a7bd2ffed35bca1114ba8e0ef7122412b84a8b5e43771acebb9eed34ae249755",
+    "research/design-recovery-20261028/design/visual-audit.md": "76fa6f4ebcf72caef30eb5b8563812c7c46b1c9f46ebc5138a430386f467bb7f",
+    "research/design-recovery-20261028/engineering/authoring-migration.md": "e1360db1b6dfa23893380c8630a3653f17816b728c7a0313f52c1cbc2f8493ca",
+    "research/design-recovery-20261028/engineering/evidence/view-probe.cjs": "45f019b1167c396634bb062c5c085aaa9461b64a6cf0af3d207783db5c688892",
+    "research/design-recovery-20261028/engineering/evidence/view-probe.json": "11eda46313c7869ab11c2b64aaa43117939a81164a3ea7db045df9f4966313c4",
+    "research/design-recovery-20261028/engineering/manager-review.md": "cfc26802d5541d6acceafb16ef8f996d7c8d6010f7a130f44698a7c5200f687d",
+    "research/design-recovery-20261028/engineering/parser-view-audit.md": "3656a622760acbc43802c19dac6f2b88285ad2ce9c0e1fa86dd20e5022c5b6ae",
+    "research/design-recovery-20261028/engineering/synthesis.md": "156b2a4725c33ce9d468fd00a5a92a1ce3b41bd010153b04c6ae46eb6c2b89c1",
+    "research/design-recovery-20261028/evidence/code-baseline.json": "8c7776d852896f04e58200812a57462d5df42f79456483f0754f2d3b65600d82",
+    "research/design-recovery-20261028/evidence/new-image-list.png": "e54a5ed27fdec77c2661d6cda793963bb586bbe596078897b5ee87ef8a0081e9",
+    "research/design-recovery-20261028/evidence/new-opening.png": "7ad23e0e70c71eea5cea128354c42b48d6afaa144db4af09b868b59c7e52a7b8",
+    "research/design-recovery-20261028/evidence/new-table.png": "8aa6f3efac9a084b9a1be410b35312f869c6e09ae10521ac855e5c3cfd6df557",
+    "research/design-recovery-20261028/evidence/observations.json": "d02dcd1ab6d95471ee5284daccaae368c91e7d047e9a9950f0f9dba8d2fd5026",
+    "research/design-recovery-20261028/evidence/old-editorial.png": "2a4d18fefef78415ef52e9b661d0365fcf2442239012231a13a15ace023164da",
+    "research/design-recovery-20261028/evidence/old-message.png": "b66065f058e1b81f48befe1a3c46f04e717fd4b6bdcb1adaa06032d5f237d8fd",
+    "research/design-recovery-20261028/evidence/old-metric-pair.png": "34c9714b1f7160198a7fadeec49d7c78df021fffd36fe5804c055a03e32ae7b2",
+    "research/design-recovery-20261028/evidence/old-visual.png": "d8673e511521e70df557d466d5c59ba2e2fbfd9265f6317a0d709cafe4cf1288"
+  },
+  "limitations": [
+    "Current screenshot topics differ; not controlled same-copy before/after",
+    "New hint/view/pair/editorial contracts are unimplemented and not visually verified",
+    "Exact font/grid/media support and locale/value limits remain prototype decisions",
+    "Previous 210 functional tests were not rerun for this read-only review"
+  ],
+  "managerHandoffSha256": {
+    "design/synthesis.md": "a7bd2ffed35bca1114ba8e0ef7122412b84a8b5e43771acebb9eed34ae249755",
+    "design/manager-review.md": "4e8c9e668f2e2ac46c8df573b852cf0919650bb7864d29b6df6aecdb3fa4cc28",
+    "engineering/synthesis.md": "156b2a4725c33ce9d468fd00a5a92a1ce3b41bd010153b04c6ae46eb6c2b89c1",
+    "engineering/manager-review.md": "cfc26802d5541d6acceafb16ef8f996d7c8d6010f7a130f44698a7c5200f687d"
+  },
+  "allWritersComplete": true
+}

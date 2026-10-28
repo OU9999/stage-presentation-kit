@@ -1,0 +1,296 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "note": "Different authored topics. Screenshots identify output styles; they are not a controlled same-copy A/B experiment.",
+  "results": [
+    {
+      "id": "old-message",
+      "url": "http://127.0.0.1:4323/examples/text-layout/#1",
+      "layout": "cover",
+      "quiet": false,
+      "title": "첫 경험을,다음 행동으로.",
+      "titleSize": "130px",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "top": 130,
+        "right": 1392,
+        "bottom": 886,
+        "left": 48
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "top": 195.51998901367188,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969,
+        "left": 125.27999877929688
+      },
+      "images": [],
+      "text": "첫 경험을,다음 행동으로.12주 가상 제품 개선 프로젝트발표자 이름2026.10.25",
+      "screenshot": "evidence/old-message.png",
+      "footer": {
+        "nodePresent": true,
+        "visible": false,
+        "display": "none",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "old-editorial",
+      "url": "http://127.0.0.1:4323/examples/devday-compositions/#4",
+      "layout": "bento",
+      "quiet": true,
+      "titleSize": null,
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "top": 130,
+        "right": 1392,
+        "bottom": 886,
+        "left": 48
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "top": 195.51998901367188,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969,
+        "left": 125.27999877929688
+      },
+      "images": [
+        {
+          "src": "http://127.0.0.1:4323/assets/photos/write.jpg",
+          "loaded": true,
+          "rect": {
+            "x": 426,
+            "y": 196.36000061035156,
+            "width": 288.1199951171875,
+            "height": 190.11561584472656,
+            "top": 196.36000061035156,
+            "right": 714.1199951171875,
+            "bottom": 386.4756164550781,
+            "left": 426
+          }
+        }
+      ],
+      "text": "24개남겨 둔 관찰작은 장면을 놓치지 않기6가지함께 묶은 주제A FIELD STUDYFieldNotes.관찰을 다음 행동으로.기록 / 분류 / 다음 행동STUDY\nEDITION기록 조각 / 08“처음에\n어디로 가죠?”듣고 남긴 장면맥락까지\n함께 기록하기.동선안내첫 경험정리한 주제 중 일부다음 행동1 / 3✓첫 화면의 안내 고치기01한 장으로 정리한 발견시작의 장벽안내가 늦다.동선이 안 보인다.선택지가 많다.3개정해 둔 다음 행동1기록2분류3결정다음 일을 정하는 흐름공유된 실행 목록첫 안내 앞당기기다음 동선 보이기처음 고를 일 줄이기Field Notes · 한 프로젝트의 결과물을 회수하는 가상 예제 · 자체 제작 UI·문서·도식 + Pexels 스톡 사진",
+      "screenshot": "evidence/old-editorial.png",
+      "footer": {
+        "nodePresent": true,
+        "visible": false,
+        "display": "none",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "old-metric-pair",
+      "url": "http://127.0.0.1:4323/examples/devday-compositions/#6",
+      "layout": "metric-pair",
+      "quiet": true,
+      "titleSize": null,
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "top": 130,
+        "right": 1392,
+        "bottom": 886,
+        "left": 48
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "top": 195.51998901367188,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969,
+        "left": 125.27999877929688
+      },
+      "images": [],
+      "text": "24개모아 둔 아이디어6가지연결한 작업양식 설명용 가상 수치 · 실제 측정 결과가 아닙니다.",
+      "screenshot": "evidence/old-metric-pair.png",
+      "footer": {
+        "nodePresent": true,
+        "visible": false,
+        "display": "none",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "old-visual",
+      "url": "http://127.0.0.1:4323/examples/visual-starter/#1",
+      "layout": "visual",
+      "quiet": false,
+      "title": "일곱 번의 관찰, 다음 질문.",
+      "titleSize": "74px",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "top": 130,
+        "right": 1392,
+        "bottom": 886,
+        "left": 48
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 262.7200012207031,
+        "width": 1189.43994140625,
+        "height": 510.7200012207031,
+        "top": 262.7200012207031,
+        "right": 1314.7199401855469,
+        "bottom": 773.4400024414062,
+        "left": 125.27999877929688
+      },
+      "images": [],
+      "text": "일곱 번의 관찰, 다음 질문.지원 과업 완료율 · 같은 과업의 관찰 비율80%7주관찰값 추세040801주3주5주7주관찰값 추세 · 좁은 화면040801주7주같은 원본의 데이터 표관찰값과 추세대상값 (%)분자분모1주65781202주65911403주70911304주701121605주741111506주751351807주80136170",
+      "screenshot": "evidence/old-visual.png",
+      "footer": {
+        "nodePresent": true,
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "new-opening",
+      "url": "http://127.0.0.1:4323/presentations/product-notes/#1",
+      "layout": "blocks",
+      "quiet": false,
+      "title": "작은 제품을 함께 개선하기",
+      "titleSize": "70px",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "top": 130,
+        "right": 1392,
+        "bottom": 886,
+        "left": 48
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 262.7200012207031,
+        "width": 1189.43994140625,
+        "height": 510.7200012207031,
+        "top": 262.7200012207031,
+        "right": 1314.7199401855469,
+        "bottom": 773.4400024414062,
+        "left": 125.27999877929688
+      },
+      "images": [],
+      "text": "작은 제품을 함께 개선하기관찰한 장면과 다음 행동을 한 원고에서 관리합니다.이 발표의 수치와 이야기는 작성 흐름을 설명하기 위한 가상 자료입니다.",
+      "screenshot": "evidence/new-opening.png",
+      "footer": {
+        "nodePresent": true,
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "new-image-list",
+      "url": "http://127.0.0.1:4323/presentations/product-notes/#2",
+      "layout": "blocks",
+      "quiet": false,
+      "title": "사용자의 장면부터 살핍니다",
+      "titleSize": "70px",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "top": 130,
+        "right": 1392,
+        "bottom": 886,
+        "left": 48
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 262.7200012207031,
+        "width": 1189.43994140625,
+        "height": 510.7200012207031,
+        "top": 262.7200012207031,
+        "right": 1314.7199401855469,
+        "bottom": 773.4400024414062,
+        "left": 125.27999877929688
+      },
+      "images": [
+        {
+          "src": "http://127.0.0.1:4323/presentations/product-notes/assets/faafa8c7d4fe-dashboard.svg",
+          "loaded": true,
+          "rect": {
+            "x": 125.27999877929688,
+            "y": 369.89874267578125,
+            "width": 257.5978088378906,
+            "height": 193.20001220703125,
+            "top": 369.89874267578125,
+            "right": 382.8778076171875,
+            "bottom": 563.0987548828125,
+            "left": 125.27999877929688
+          }
+        }
+      ],
+      "text": "사용자의 장면부터 살핍니다어떤 일을 하려는지 먼저 묻습니다.멈춘 지점을 짧은 문장으로 기록합니다.해결책보다 실제 행동을 함께 봅니다.",
+      "screenshot": "evidence/new-image-list.png",
+      "footer": {
+        "nodePresent": true,
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "new-table",
+      "url": "http://127.0.0.1:4323/presentations/product-notes/#3",
+      "layout": "blocks",
+      "quiet": false,
+      "title": "관찰과 결정을 구분합니다",
+      "titleSize": "70px",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "top": 130,
+        "right": 1392,
+        "bottom": 886,
+        "left": 48
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 262.7200012207031,
+        "width": 1189.43994140625,
+        "height": 510.7200012207031,
+        "top": 262.7200012207031,
+        "right": 1314.7199401855469,
+        "bottom": 773.4400024414062,
+        "left": 125.27999877929688
+      },
+      "images": [],
+      "text": "관찰과 결정을 구분합니다같은 기록, 다른 역할기록관찰다음 행동설정 찾기메뉴를 두 번 오감이름을 쉽게 바꾸기결과 확인완료 상태를 다시 질문함상태 문구 비교하기표의 내용을 자동 차트로 바꾸지 않고 그대로 나눕니다.",
+      "screenshot": "evidence/new-table.png",
+      "footer": {
+        "nodePresent": true,
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible"
+      }
+    }
+  ]
+}

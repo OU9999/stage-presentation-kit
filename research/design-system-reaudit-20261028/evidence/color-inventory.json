@@ -1,0 +1,1139 @@
+{
+  "provenance": "STAGE implementation values based on earlier reference research; not official OpenAI HEX specifications",
+  "tokens": {
+    "stage": {
+      "orange": "#ff7a3d",
+      "purple": "#a080ff",
+      "blue": "#24a8ff",
+      "green": "#69cf82",
+      "yellow": "#edcf66"
+    },
+    "paper": {
+      "orange": "#a54a27",
+      "purple": "#73519e",
+      "blue": "#275f89",
+      "green": "#2d6a43",
+      "yellow": "#80600b"
+    }
+  },
+  "decks": [
+    {
+      "id": "kit",
+      "format": "legacy",
+      "slides": 20,
+      "tones": [
+        {
+          "index": 1,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 2,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 3,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 4,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 5,
+          "slideTone": "yellow",
+          "nestedTones": {
+            "slide.tone": "yellow"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 6,
+          "slideTone": "orange",
+          "nestedTones": {
+            "slide.tone": "orange"
+          },
+          "highlight": "이해를 바꿉니다.",
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 7,
+          "slideTone": null,
+          "nestedTones": {
+            "slide.items.0.tone": "blue",
+            "slide.items.1.tone": "green",
+            "slide.items.2.tone": "orange",
+            "slide.items.3.tone": "purple"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 8,
+          "slideTone": "purple",
+          "nestedTones": {
+            "slide.tone": "purple"
+          },
+          "highlight": "김하늘",
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 9,
+          "slideTone": "blue",
+          "nestedTones": {
+            "slide.tone": "blue"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 10,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 11,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 12,
+          "slideTone": "purple",
+          "nestedTones": {
+            "slide.tone": "purple"
+          },
+          "highlight": "이서윤",
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 13,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 14,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 15,
+          "slideTone": "green",
+          "nestedTones": {
+            "slide.tone": "green"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 16,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 17,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 18,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 19,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 20,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        }
+      ]
+    },
+    {
+      "id": "product-launch",
+      "format": "legacy",
+      "slides": 7,
+      "tones": [
+        {
+          "index": 1,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 2,
+          "slideTone": "orange",
+          "nestedTones": {
+            "slide.tone": "orange"
+          },
+          "highlight": "다음 행동으로.",
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 3,
+          "slideTone": "orange",
+          "nestedTones": {
+            "slide.tone": "orange"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 4,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 5,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 6,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 7,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        }
+      ]
+    },
+    {
+      "id": "engineering-review",
+      "format": "legacy",
+      "slides": 7,
+      "tones": [
+        {
+          "index": 1,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 2,
+          "slideTone": "blue",
+          "nestedTones": {
+            "slide.tone": "blue"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 3,
+          "slideTone": "blue",
+          "nestedTones": {
+            "slide.tone": "blue"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 4,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 5,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 6,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 7,
+          "slideTone": "blue",
+          "nestedTones": {
+            "slide.tone": "blue"
+          },
+          "highlight": "반복 가능한 검증.",
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        }
+      ]
+    },
+    {
+      "id": "photo-story",
+      "format": "legacy",
+      "slides": 7,
+      "tones": [
+        {
+          "index": 1,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 2,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 3,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 4,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 5,
+          "slideTone": "yellow",
+          "nestedTones": {
+            "slide.tone": "yellow"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 6,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 7,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        }
+      ]
+    },
+    {
+      "id": "workshop",
+      "format": "legacy",
+      "slides": 7,
+      "tones": [
+        {
+          "index": 1,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 2,
+          "slideTone": "purple",
+          "nestedTones": {
+            "slide.tone": "purple"
+          },
+          "highlight": "한 문장으로.",
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 3,
+          "slideTone": null,
+          "nestedTones": {
+            "slide.items.0.tone": "blue",
+            "slide.items.1.tone": "green",
+            "slide.items.2.tone": "orange",
+            "slide.items.3.tone": "purple"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 4,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 5,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 6,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 7,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        }
+      ]
+    },
+    {
+      "id": "devday-compositions",
+      "format": "legacy",
+      "slides": 7,
+      "tones": [
+        {
+          "index": 1,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 2,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 3,
+          "slideTone": null,
+          "nestedTones": {
+            "slide.items.0.tone": "blue",
+            "slide.items.1.tone": "green",
+            "slide.items.2.tone": "white",
+            "slide.items.3.tone": "orange",
+            "slide.items.4.tone": "purple"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 4,
+          "slideTone": null,
+          "nestedTones": {
+            "slide.items.0.tone": "blue",
+            "slide.items.2.tone": "orange",
+            "slide.items.9.tone": "purple"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 5,
+          "slideTone": "blue",
+          "nestedTones": {
+            "slide.tone": "blue",
+            "slide.items.0.tone": "blue",
+            "slide.items.1.tone": "green",
+            "slide.items.2.tone": "orange",
+            "slide.items.3.tone": "purple",
+            "slide.items.4.tone": "yellow",
+            "slide.items.5.tone": "blue",
+            "slide.items.6.tone": "green",
+            "slide.items.7.tone": "orange",
+            "slide.items.8.tone": "purple",
+            "slide.items.9.tone": "yellow",
+            "slide.items.10.tone": "blue",
+            "slide.items.11.tone": "green",
+            "slide.items.12.tone": "orange",
+            "slide.items.13.tone": "purple",
+            "slide.items.14.tone": "yellow",
+            "slide.items.15.tone": "blue",
+            "slide.items.16.tone": "green",
+            "slide.items.17.tone": "orange",
+            "slide.items.18.tone": "purple",
+            "slide.items.19.tone": "yellow",
+            "slide.items.20.tone": "blue",
+            "slide.items.21.tone": "green"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 6,
+          "slideTone": null,
+          "nestedTones": {
+            "slide.items.0.tone": "blue",
+            "slide.items.1.tone": "orange"
+          },
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 7,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        }
+      ]
+    },
+    {
+      "id": "visual-story",
+      "format": "legacy",
+      "slides": 12,
+      "tones": [
+        {
+          "index": 1,
+          "slideTone": "blue",
+          "nestedTones": {
+            "slide.tone": "blue"
+          },
+          "highlight": "다음 행동으로.",
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 2,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "bars",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 3,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "funnel",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 4,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "line",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 5,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "composition",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 6,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "bars",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 7,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "flow",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 8,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "matrix",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 9,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "timeline",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 10,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "heatmap",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 11,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 12,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        }
+      ]
+    },
+    {
+      "id": "visual-starter",
+      "format": "legacy",
+      "slides": 3,
+      "tones": [
+        {
+          "index": 1,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "line",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 2,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "composition",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 3,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "flow",
+          "strong": 0,
+          "em": 0
+        }
+      ]
+    },
+    {
+      "id": "text-layout",
+      "format": "legacy",
+      "slides": 8,
+      "tones": [
+        {
+          "index": 1,
+          "slideTone": "blue",
+          "nestedTones": {
+            "slide.tone": "blue"
+          },
+          "highlight": "다음 행동으로.",
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 2,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "funnel",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 3,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "line",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 4,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "flow",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 5,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 6,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "line",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 7,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "bars",
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 8,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": "bars",
+          "strong": 0,
+          "em": 0
+        }
+      ]
+    },
+    {
+      "id": "product-notes",
+      "format": "markdown-v1",
+      "slides": 6,
+      "tones": [
+        {
+          "index": 1,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 2,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 1,
+          "em": 0
+        },
+        {
+          "index": 3,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 4,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 5,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 6,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        }
+      ]
+    },
+    {
+      "id": "team-learning",
+      "format": "markdown-v1",
+      "slides": 6,
+      "tones": [
+        {
+          "index": 1,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 2,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 1,
+          "em": 0
+        },
+        {
+          "index": 3,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 4,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 5,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        },
+        {
+          "index": 6,
+          "slideTone": null,
+          "nestedTones": {},
+          "highlight": null,
+          "visualKind": null,
+          "strong": 0,
+          "em": 0
+        }
+      ]
+    }
+  ],
+  "probes": [
+    {
+      "id": "ordinary-strong",
+      "source": "# 다음 **행동**으로.\n\n중요한 **의미**를 남깁니다.",
+      "ok": true,
+      "layout": "blocks",
+      "tone": null,
+      "highlight": null,
+      "deck": {
+        "format": "markdown-v1",
+        "document": {
+          "sourcePath": "ordinary-strong.md",
+          "revision": "d9c7ff0734307d6cbe6b8eb7e5ab3375d2c04f74556f978b2a2392c70efbded5"
+        },
+        "id": "ordinary-strong",
+        "title": "다음 행동으로.",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "blocks",
+            "title": "다음 행동으로.",
+            "heading": {
+              "type": "element",
+              "tag": "h1",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "다음 "
+                },
+                {
+                  "type": "element",
+                  "tag": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "행동"
+                    }
+                  ],
+                  "position": {
+                    "line": 1,
+                    "endLine": 1
+                  }
+                },
+                {
+                  "type": "text",
+                  "value": "으로."
+                }
+              ],
+              "position": {
+                "line": 1,
+                "endLine": 1
+              }
+            },
+            "blocks": [
+              {
+                "type": "element",
+                "tag": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "중요한 "
+                  },
+                  {
+                    "type": "element",
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "의미"
+                      }
+                    ],
+                    "position": {
+                      "line": 3,
+                      "endLine": 3
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "를 남깁니다."
+                  }
+                ],
+                "position": {
+                  "line": 3,
+                  "endLine": 3
+                }
+              }
+            ],
+            "origin": {
+              "line": 1,
+              "endLine": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "frontmatter-tone",
+      "source": "---\ntone: orange\n---\n# 다음 행동으로.",
+      "ok": false,
+      "error": "frontmatter-tone.md:2: frontmatter 'tone'는 이번 Markdown 모드에서 지원하지 않습니다."
+    },
+    {
+      "id": "legacy-tone",
+      "source": "<!-- stage\nlayout: statement\nalign: center\ntone: orange\nhighlight: 다음 행동으로.\n-->\n# 다음 행동으로.",
+      "ok": true,
+      "layout": "statement",
+      "tone": "orange",
+      "highlight": "다음 행동으로.",
+      "deck": {
+        "format": "markdown-v1",
+        "document": {
+          "sourcePath": "legacy-tone.md",
+          "revision": "9e4eca3d2d7095807de60c8e9f4a66c79cde89be5945e5eb3e8dd5d97b93326b"
+        },
+        "id": "legacy-tone",
+        "title": "다음 행동으로.",
+        "theme": "stage",
+        "slides": [
+          {
+            "layout": "statement",
+            "align": "center",
+            "tone": "orange",
+            "highlight": "다음 행동으로.",
+            "title": "다음 행동으로.",
+            "origin": {
+              "line": 1,
+              "endLine": 7
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "classification": "Explicit tone fields differ from native palette and intrinsic image colors. No tone property does not mean no visible hue anywhere.",
+  "summary": {
+    "newDecks": [
+      {
+        "id": "product-notes",
+        "slides": 6,
+        "slideTones": 0,
+        "nestedTones": 0,
+        "strong": 1,
+        "em": 0
+      },
+      {
+        "id": "team-learning",
+        "slides": 6,
+        "slideTones": 0,
+        "nestedTones": 0,
+        "strong": 1,
+        "em": 0
+      }
+    ]
+  }
+}
