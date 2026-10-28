@@ -1,0 +1,50 @@
+"use strict";
+const fs = require("node:fs"), path = require("node:path");
+const root = __dirname;
+const screens = JSON.parse(fs.readFileSync(path.join(root, "evidence/screens.json"), "utf8"));
+const escape = value => String(value).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const items = screens.map(item => ({
+  deck: item.slug, number: item.number, title: item.heading || "함께 읽을 원칙",
+  composition: item.composition, image: "evidence/screens/" + path.basename(item.filename),
+  href: "../../presentations/" + item.slug + "/#" + item.number
+}));
+const cards = items.map((item, index) => `<button class="thumb" data-select="${index}" data-deck="${escape(item.deck)}" aria-pressed="${index === 0}"><img src="${escape(item.image)}" alt="${escape(item.title)}" loading="lazy"><span><b>${String(item.number).padStart(2, "0")}</b> ${escape(item.title)}</span><small>${escape(item.composition)}</small></button>`).join("\n");
+const first = items[0];
+const html = `<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>STAGE · Markdown의 무대를 되찾다</title>
+<style>
+:root{color-scheme:dark;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:#111;color:#f6f6f4;font-synthesis:none}*{box-sizing:border-box}body{margin:0}a{color:inherit;text-underline-offset:.25em}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid #24a8ff;outline-offset:5px}.wrap{max-width:1440px;padding:48px 5vw 72px;margin:auto}header{display:flex;align-items:center;justify-content:space-between;color:#a4a4a1;font-size:13px;gap:24px}header a{text-decoration:none}h1{font-size:clamp(38px,5.4vw,78px);line-height:1.15;letter-spacing:-.055em;font-weight:450;margin:70px 0 24px;max-width:13em}h1 em{color:#ff7a3d;font-style:normal}.intro{font-size:18px;line-height:1.8;color:#b8b8b3;max-width:45em}.links{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 48px}.links a{display:inline-flex;border:1px solid #444;padding:12px 17px;border-radius:5px;text-decoration:none;font-size:14px}.links a:first-child{background:#f6f6f4;color:#111;border-color:#f6f6f4}.section-heading{display:flex;gap:20px;justify-content:space-between;align-items:end;margin:48px 0 22px}h2{font-size:27px;letter-spacing:-.04em;font-weight:450;margin:0}.muted{color:#a4a4a1;font-size:14px;line-height:1.7}.filters{display:flex;flex-wrap:wrap;gap:8px}.filters button,.compare-controls button{background:none;border:1px solid #444;color:#b8b8b3;border-radius:5px;padding:10px 15px}.filters button[aria-pressed=true],.compare-controls button[aria-pressed=true]{background:#303030;border-color:#999;color:#fff}.hero{margin:0;border:1px solid #333;border-radius:8px;overflow:hidden;background:#080808}.hero a{display:block}.hero img{width:100%;aspect-ratio:16/9;object-fit:contain;display:block}.hero figcaption{padding:18px 22px;display:flex;justify-content:space-between;gap:18px;align-items:center;border-top:1px solid #333}.hero figcaption p{margin:0;font-size:17px;line-height:1.5}.hero figcaption a{font-size:13px;white-space:nowrap}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:24px 0 56px}.thumb{background:none;border:1px solid #333;color:#f6f6f4;border-radius:5px;padding:0;text-align:left;overflow:hidden}.thumb[hidden]{display:none}.thumb[aria-pressed=true]{border-color:#ff7a3d}.thumb img{width:100%;aspect-ratio:16/9;object-fit:contain;display:block;background:#080808}.thumb span{display:block;font-size:13px;line-height:1.6;padding:13px 13px 3px}.thumb b{color:#999;font-weight:400;margin-right:6px}.thumb small{display:block;color:#999;font-size:11px;padding:0 13px 14px}.compare-controls{display:flex;gap:8px;margin:22px 0}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:20px}.comparison figure{margin:0;border:1px solid #333;border-radius:6px;overflow:hidden}.comparison img{display:block;width:100%;aspect-ratio:1.44;object-fit:contain;background:#111}.comparison figcaption{padding:12px 16px;color:#aaa;font-size:13px;border-top:1px solid #333}.evidence{margin:22px 0;font-size:14px;line-height:1.8;color:#aaa}.how{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:64px;padding-top:36px;border-top:1px solid #333}.how p{font-size:16px;line-height:1.9;color:#b8b8b3}.how pre{white-space:pre-wrap;border:1px solid #333;padding:24px;font:14px/1.8 ui-monospace,SFMono-Regular,monospace;background:#171717;margin:0;border-radius:6px}footer{margin-top:64px;display:flex;justify-content:space-between;gap:24px;font-size:12px;line-height:1.8;color:#888}footer a{color:#aaa}@media(max-width:800px){.wrap{padding:28px 22px 48px}h1{margin-top:46px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.section-heading{align-items:start;flex-direction:column}.comparison,.how{grid-template-columns:1fr;gap:20px}.hero figcaption{align-items:start;flex-direction:column}footer{flex-direction:column}.intro{font-size:16px}}@media(prefers-reduced-motion:no-preference){.thumb{transition:border-color .15s}}
+</style></head><body><main class="wrap">
+<header><a href="../../presentations/">STAGE / MARKDOWN PRESENTATIONS</a><span>2026.10.28 · 실제 구현 결과</span></header>
+<h1>원고는 간단하게.<br>무대는 <em>풍부하게.</em></h1>
+<p class="intro">큰 문장과 넓은 사진, 서로 다른 크기의 그리드, 필요한 곳의 색을 되찾았습니다. 본문은 Markdown에 한 번만 쓰고, 발표와 읽기 자료를 함께 만듭니다.</p>
+<nav class="links" aria-label="개선된 발표"><a href="../../presentations/product-notes/">제품 결정 발표 ↗</a><a href="../../presentations/team-learning/">사진 워크숍 발표 ↗</a><a href="../../MARKDOWN-FIRST.md">Markdown 작성 안내</a></nav>
+<div class="section-heading"><h2>두 이야기, 열여섯 장의 리듬</h2><div class="filters" aria-label="발표 선택"><button data-filter="product-notes" aria-pressed="true">제품 결정 · 8장</button><button data-filter="team-learning" aria-pressed="false">사진 워크숍 · 8장</button></div></div>
+<figure class="hero"><a id="live" href="${first.href}"><img id="heroImage" src="${first.image}" alt="${escape(first.title)}"></a><figcaption><p id="heroTitle">${escape(first.title)}</p><a id="liveCaption" href="${first.href}">실제 발표에서 보기 ↗</a></figcaption></figure>
+<div class="grid" aria-label="실제 발표 화면">${cards}</div>
+<div class="section-heading"><h2>같은 원고로, 달라진 기본 조판</h2><p class="muted">아래 두 비교에는 배치 설정을 추가하지 않았습니다.</p></div>
+<div class="compare-controls" aria-label="같은 원고 비교"><button data-compare="message" aria-pressed="true">큰 문장</button><button data-compare="image" aria-pressed="false">넓은 이미지</button></div>
+<div class="comparison"><figure><img id="before" src="../design-system-reaudit-20261028/evidence/controlled/message-plain.png" alt="같은 원고의 개선 전 화면"><figcaption>이전 · 고정 제목과 세로 본문</figcaption></figure><figure><img id="after" src="evidence/controlled/message-after.png" alt="같은 원고의 개선 후 화면"><figcaption>개선 · 내용의 형태에 맞는 기본 조판</figcaption></figure></div>
+<p class="evidence">비교 원고·본문 해시는 동일합니다. 위의 두 발표는 이야기와 원고도 다시 구성한 별도 예제입니다. <a href="evidence/default-comparison.json">동일 원고 기록</a> · <a href="VERIFICATION.md">실제 검증과 범위</a></p>
+<section class="how"><div><h2>본문 한 번, 필요한 선택만.</h2><p>일반 제목·문단·목록·사진·인용의 형태를 보고 기본 구도를 고릅니다. 복잡한 편집형 그리드는 H2로 자료를 묶고, 색·대표 그룹·사진 초점만 짧게 선택합니다.</p><p>이 두 예제의 16장 중 11장은 배치 이름을 쓰지 않았습니다. 색과 사진 크롭 설정은 별도이며, 읽기 화면에는 같은 원고의 전체 내용과 순서를 남깁니다.</p><a href="../../talks/product-notes/slides.md">제품 Markdown 원고</a> · <a href="../../talks/team-learning/slides.md">워크숍 Markdown 원고</a></div><pre>&lt;!-- stage-slide
+compose: editorial
+--&gt;
+# 기록을, 결정할 수 있는 모양으로.
+
+&lt;!-- stage-group
+tone: blue
+--&gt;
+## 남겨 둔 관찰
+
+**24** 개
+
+장면을 다시 찾기 위한 기록입니다.</pre></section>
+<footer><span>예제의 제품·수치는 가상 자료입니다. 사진은 스톡 이미지이며 실제 참여자·조사 결과를 뜻하지 않습니다.<br>색은 기존 STAGE 팔레트를 사용합니다. 원본 행사 규격을 복제한 결과라는 뜻은 아닙니다.</span><span><a href="../../assets/CREDITS.md">사진·자료 출처</a> · <a href="MEETING.md">팀 회의와 결정</a></span></footer>
+</main><script>
+const items=${JSON.stringify(items).replace(/</g, "\\u003c")};
+function select(index){const item=items[index];document.getElementById('heroImage').src=item.image;document.getElementById('heroImage').alt=item.title;document.getElementById('heroTitle').textContent=String(item.number).padStart(2,'0')+' · '+item.title;document.getElementById('live').href=item.href;document.getElementById('liveCaption').href=item.href;document.querySelectorAll('[data-select]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.select)===index)));}
+function filter(deck){document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===deck)));document.querySelectorAll('[data-select]').forEach(b=>{b.hidden=b.dataset.deck!==deck});select(items.findIndex(item=>item.deck===deck));}
+document.querySelectorAll('[data-select]').forEach(b=>b.addEventListener('click',()=>select(Number(b.dataset.select))));document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>filter(b.dataset.filter)));document.querySelectorAll('[data-compare]').forEach(b=>b.addEventListener('click',()=>{const kind=b.dataset.compare;document.getElementById('before').src='../design-system-reaudit-20261028/evidence/controlled/'+kind+'-plain.png';document.getElementById('after').src='evidence/controlled/'+kind+'-after.png';document.querySelectorAll('[data-compare]').forEach(other=>other.setAttribute('aria-pressed',String(other===b)))}));filter('product-notes');
+</script></body></html>`;
+fs.writeFileSync(path.join(root, "index.html"), html);
+console.log("Wrote result board for " + items.length + " actual slides.");

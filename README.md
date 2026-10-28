@@ -12,6 +12,10 @@ npm run build
 
 Node.js 20 이상이 필요합니다. 새 발표는 `talks/` 아래 폴더에 `slides.md`를 추가하면 모음에 자동 등록됩니다. `---`로 장을 나누고 일반 제목·문단·목록·코드·인용·표·이미지를 작성하세요. [Markdown 작성 안내](MARKDOWN-FIRST.md)와 서로 다른 주제의 [두 원고](talks/)를 제공합니다. 원고가 수정의 기준이며 생성 화면은 읽기 전용입니다. 발표 재생에는 패키지 설치가 필요하지 않습니다.
 
+짧은 선언, 사진과 설명, 여러 사진, 인용은 원고 형태에 맞춰 조판합니다. 복잡한 모자이크·편집형 그리드나 강조색·사진 초점이 필요하면 해당 장의 `stage-slide`와 H2 그룹의 `stage-group`에 작은 설정을 붙입니다. 문장·사진·값을 다른 형식에 다시 입력하지 않으며, 읽기 화면은 같은 원고의 전체 내용과 순서를 유지합니다. [제품 결정 발표](presentations/product-notes/)와 [사진 워크숍 발표](presentations/team-learning/)에서 서로 다른 구성과 색의 흐름을 볼 수 있습니다.
+
+[개선된 16장과 같은 원고 전후 비교](https://ou9999.github.io/stage-presentation-kit/research/presentation-renewal-20261028/)에서 실제 화면을 확인할 수 있습니다. [팀 회의](research/presentation-renewal-20261028/MEETING.md)와 [검증 범위](research/presentation-renewal-20261028/VERIFICATION.md)도 함께 제공합니다.
+
 기존 `content.js` 직접 작성과 폴더 복사 방식도 사용할 수 있습니다. 이 방식의 설치 없는 시작·화면 편집은 아래 설명을 따릅니다.
 
 **[Markdown 발표 모음](presentations/)** · [발표 예제 6개·47장](examples/index.html) · [새 시각자료 발표](examples/visual-story/index.html) · [바로 복사하는 스타터](examples/visual-starter/index.html) · [입력 계약](CONFIG.md) · [새 Markdown 작성](MARKDOWN-FIRST.md) · [기존 전용 문법](MARKDOWN.md)

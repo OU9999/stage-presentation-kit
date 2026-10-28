@@ -1,0 +1,17 @@
+{
+  "selected": {
+    "visibleThumbs": 8,
+    "hero": "evidence/screens/team-04.png",
+    "live": "../../presentations/team-learning/#4"
+  },
+  "compare": {
+    "before": "../design-system-reaudit-20261028/evidence/controlled/image-plain.png",
+    "after": "evidence/controlled/image-after.png",
+    "failedImages": 0,
+    "errors": []
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  }
+}

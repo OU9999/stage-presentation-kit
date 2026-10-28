@@ -188,6 +188,55 @@
     function choice(object, key, choices, path, slideIndex) {
       if (object[key] !== undefined && choices.indexOf(object[key]) < 0) issue("warning", path + "." + key, "지원 값: " + choices.join(" / ") + ". 기본 표시를 사용합니다.", slideIndex);
     }
+    function blocksView(slide, path, slideIndex) {
+      if (slide.view === undefined) return;
+      var at = path + ".view", view = slide.view;
+      function fail(location, message) { issue("error", location, message, slideIndex); }
+      if (slide.layout !== "blocks") { fail(at, "view는 blocks 양식에서만 사용합니다."); return; }
+      if (!record(view)) { fail(at, "view는 compose/fit/focus/groups 객체여야 합니다."); return; }
+      function focus(value, location, group) {
+        if (Array.isArray(value)) {
+          if (group || value.length < 1 || value.length > 6) { fail(location, "장 focus 배열은 사진1~6개 위치만 지원합니다. 그룹은 문자열이어야 합니다."); return; }
+          value.forEach(function (position, index) {
+            if (Array.isArray(position)) fail(location + "." + index, "focus 위치는 두 백분율의 문자열이어야 합니다.");
+            else focus(position, location + "." + index, true);
+          });
+          return;
+        }
+        var match = typeof value === "string" && /^(\d+(?:\.\d+)?)%[ \t]+(\d+(?:\.\d+)?)%$/.exec(value);
+        if (!match || Number(match[1]) > 100 || Number(match[2]) > 100) fail(location, "focus는 0~100%의 두 위치여야 합니다.");
+      }
+      function settings(object, location, group) {
+        var allowed = group ? ["start", "end", "tone", "primary", "fit", "focus", "origin"] : ["compose", "fit", "focus", "groups"];
+        Object.keys(object).forEach(function (key) { if (allowed.indexOf(key) < 0) fail(location + "." + key, "지원하지 않는 조판 설정 키입니다."); });
+        if (object.compose !== undefined && ["auto", "message", "split", "media", "gallery", "mosaic", "editorial", "quote", "closing", "document"].indexOf(object.compose) < 0) fail(location + ".compose", "지원하는 compose 이름을 사용하세요.");
+        if (object.fit !== undefined && ["contain", "cover"].indexOf(object.fit) < 0) fail(location + ".fit", "fit은 contain/cover여야 합니다.");
+        if (object.focus !== undefined) focus(object.focus, location + ".focus", group);
+        if (group && object.tone !== undefined && ["orange", "purple", "blue", "green", "yellow", "neutral"].indexOf(object.tone) < 0) fail(location + ".tone", "지원하는 그룹 tone을 사용하세요.");
+        if (group && object.primary !== undefined && typeof object.primary !== "boolean") fail(location + ".primary", "primary는 true/false여야 합니다.");
+        if (group && object.origin !== undefined && (!record(object.origin) || !Number.isInteger(object.origin.line) || object.origin.line < 1 || !Number.isInteger(object.origin.endLine) || object.origin.endLine < object.origin.line)) fail(location + ".origin", "그룹 제어문의 원고 줄 범위를 확인하세요.");
+      }
+      settings(view, at, false);
+      if (view.groups === undefined) return;
+      if (!Array.isArray(view.groups)) { fail(at + ".groups", "groups는 노드 범위 설정의 배열이어야 합니다."); return; }
+      var previousEnd = -1, primary = 0;
+      view.groups.forEach(function (group, index) {
+        var location = at + ".groups." + index;
+        if (!record(group)) { fail(location, "그룹은 start/end와 선택 설정의 객체여야 합니다."); return; }
+        settings(group, location, true);
+        if (group.primary === true) primary += 1;
+        var blocks = Array.isArray(slide.blocks) ? slide.blocks : [];
+        if (!Number.isInteger(group.start) || !Number.isInteger(group.end) || group.start < 0 || group.end <= group.start || group.end > blocks.length) { fail(location, "그룹 start/end는 blocks의 유효한 시작 포함/끝 제외 범위여야 합니다."); return; }
+        if (group.start < previousEnd) fail(location, "그룹 범위가 겹치거나 원고 순서를 벗어납니다.");
+        previousEnd = group.end;
+        var first = blocks[group.start];
+        if (!record(first) || first.type !== "element" || first.tag !== "h2") { fail(location + ".start", "그룹은 최상위 H2 노드에서 시작해야 합니다."); return; }
+        var end = group.start + 1;
+        while (end < blocks.length && !(record(blocks[end]) && blocks[end].type === "element" && blocks[end].tag === "h2")) end += 1;
+        if (group.end !== end) fail(location + ".end", "그룹은 다음 H2 직전 또는 본문 끝까지 결속해야 합니다.");
+      });
+      if (primary > 1) fail(at + ".groups", "primary 그룹은 한 장에 하나만 지정하세요.");
+    }
     function icon(object, path, slideIndex) {
       if (object.icon !== undefined && !normalizeIcon(object.icon)) issue("error", path + ".icon", "지원하는 의미 아이콘 키를 사용하세요: " + iconNames.join(" / ") + ".", slideIndex);
     }
@@ -274,7 +323,10 @@
       }
       ["quiet"].forEach(function (key) { if (slide[key] !== undefined && typeof slide[key] !== "boolean") issue("error", path + "." + key, "true 또는 false를 입력하세요.", slideIndex); });
       choice(slide, "theme", ["stage", "paper", "midnight"], path, slideIndex);
-      choice(slide, "tone", ["orange", "purple", "blue", "green", "yellow"], path, slideIndex);
+      if (slide.layout === "blocks") {
+        if (slide.tone !== undefined && ["orange", "purple", "blue", "green", "yellow", "neutral"].indexOf(slide.tone) < 0) issue("error", path + ".tone", "지원하는 blocks tone을 사용하세요.", slideIndex);
+      } else choice(slide, "tone", ["orange", "purple", "blue", "green", "yellow"], path, slideIndex);
+      blocksView(slide, path, slideIndex);
       if (slide.motion !== undefined && ["none", "fade", "rise", "stagger", "chart"].indexOf(slide.motion) < 0) issue("error", path + ".motion", "none / fade / rise / stagger / chart 중 하나를 입력하거나 motion을 생략하세요.", slideIndex);
       choice(slide, "surface", ["butter"], path, slideIndex);
       choice(slide, "align", ["center"], path, slideIndex);

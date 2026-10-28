@@ -10,6 +10,8 @@ const md = new MarkdownIt({ html: false, linkify: false, typographer: false });
 const FRONT = new Set(['id', 'title', 'theme', 'speaker', 'date', 'footer']);
 const TAGS = new Set(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li', 'blockquote', 'pre', 'code', 'table', 'thead', 'tbody', 'tr', 'th', 'td', 'strong', 'em', 's', 'a', 'img', 'br', 'hr']);
 const UNSUPPORTED = new Set(['notes', 'appendix', 'role', 'sourceDownload']);
+const COMPOSITIONS = ['auto', 'message', 'split', 'media', 'gallery', 'mosaic', 'editorial', 'quote', 'closing', 'document'];
+const TONES = ['orange', 'purple', 'blue', 'green', 'yellow', 'neutral'];
 const own = (object, key) => Object.prototype.hasOwnProperty.call(object, key);
 const text = value => ({ type: 'text', value });
 const element = (tag, children, position, attrs) => ({ type: 'element', tag, ...(attrs && Object.keys(attrs).length ? { attrs } : {}), children, ...(position ? { position } : {}) });
@@ -72,18 +74,21 @@ function parseDocument(source, options = {}) {
     while (first < last && !lines[first].trim()) first += 1;
     while (last > first && !lines[last - 1].trim()) last -= 1;
     const origin = { line: first + 1, endLine: last };
-    const body = lines.slice(segment.start, segment.end).join('\n');
+    const rawLines = lines.slice(segment.start, segment.end);
+    const controls = extractControls(rawLines, segment.start, fail);
+    const body = controls.lines.join('\n');
     const tokens = md.parse(body, {});
     const fences = tokens.filter(token => token.type === 'fence');
     const codeLines = new Set();
     for (const token of tokens) if (token.map && ['fence', 'code_block'].includes(token.type)) {
       for (let i = token.map[0]; i < token.map[1]; i += 1) codeLines.add(i);
     }
-    const metadata = lines.slice(segment.start, segment.end).some((line, index) => !codeLines.has(index) && /^\s*<!--\s*stage\s*$/.test(line));
+    const metadata = controls.lines.some((line, index) => !codeLines.has(index) && /^\s*<!--\s*stage\s*$/.test(line));
     const stageTokens = fences.filter(token => token.level === 0 && token.info.trim() === 'stage');
     const stageFence = stageTokens.length > 0;
     if (stageTokens.some(token => token.markup !== '```')) fail('stage JSON은 세 백틱의 ```stage fence만 지원합니다.', origin.line);
     if (metadata || stageFence) {
+      if (controls.slide || controls.groups.length) fail('stage-slide/group은 기존 stage layout/JSON과 한 장에서 함께 사용할 수 없습니다.', origin.line);
       let converted;
       try {
         const adapted = legacy.parseMarkdown(body);
@@ -142,7 +147,18 @@ function parseDocument(source, options = {}) {
     const blocks = convert(tokens, origin);
     let heading;
     if (blocks[0] && blocks[0].type === 'element' && blocks[0].tag === 'h1') heading = blocks.shift();
-    return { layout: 'blocks', ...(heading ? { title: plain([heading]), heading } : {}), blocks, origin };
+    const groupBindings = controls.groups.map(control => {
+      const groupStart = blocks.findIndex(node => node.type === 'element' && node.tag === 'h2' && node.position.line === control.headingLine);
+      if (groupStart < 0) fail('stage-group은 최상위 H2 바로 앞에 두세요.', control.origin.line);
+      let groupEnd = groupStart + 1;
+      while (groupEnd < blocks.length && !(blocks[groupEnd].type === 'element' && blocks[groupEnd].tag === 'h2')) groupEnd += 1;
+      return { start: groupStart, end: groupEnd, ...control.values, origin: control.origin };
+    });
+    const slideSettings = controls.slide ? controls.slide.values : {};
+    const { tone, ...view } = slideSettings;
+    if (groupBindings.length) view.groups = groupBindings;
+    return { layout: 'blocks', ...(heading ? { title: plain([heading]), heading } : {}), blocks, origin,
+      ...(tone !== undefined ? { tone } : {}), ...(Object.keys(view).length ? { view } : {}) };
   });
   const firstTitle = slides[0].title || slides[0].label || slides[0].quote;
   return {
@@ -151,6 +167,113 @@ function parseDocument(source, options = {}) {
     title: Array.isArray(firstTitle) ? firstTitle.join(' ') : firstTitle || '발표 자료',
     theme: options.theme || 'stage', ...front, slides
   };
+}
+
+// Controls are metadata, not authored semantic nodes. Blank masking keeps source offsets.
+function extractControls(sourceLines, offset, fail) {
+  const lines = sourceLines.slice();
+  const protectedCode = new Set();
+  const inlineRanges = [];
+  const lineStarts = [];
+  let cursor = 0;
+  for (const line of sourceLines) { lineStarts.push(cursor); cursor += line.length + 1; }
+  const tokens = md.parse(sourceLines.join('\n'), {});
+  for (const token of tokens) {
+    if (!token.map) continue;
+    if (['fence', 'code_block'].includes(token.type)) {
+      for (let line = token.map[0]; line < token.map[1]; line += 1) protectedCode.add(line);
+    } else if (token.type === 'inline' && (token.children || []).some(child => child.type === 'code_inline')) {
+      // markdown-it bounds inline code to its containing paragraph/heading.
+      const raw = sourceLines.slice(token.map[0], token.map[1]).join('\n');
+      const runs = [...raw.matchAll(/`+/g)];
+      for (let i = 0; i < runs.length; i += 1) {
+        const opening = runs[i];
+        const prefix = raw.slice(0, opening.index);
+        const slashes = /\\*$/.exec(prefix)[0].length;
+        if (slashes % 2) continue;
+        let closing = i + 1;
+        while (closing < runs.length && runs[closing][0].length !== opening[0].length) closing += 1;
+        if (closing === runs.length) continue;
+        inlineRanges.push({ start: lineStarts[token.map[0]] + opening.index, end: lineStarts[token.map[0]] + runs[closing].index + runs[closing][0].length });
+        i = closing;
+      }
+    }
+  }
+  const inCode = (line, column) => protectedCode.has(line) || inlineRanges.some(range => range.start <= lineStarts[line] + column && range.end > lineStarts[line] + column);
+  let ordinaryComment = false;
+  let slide;
+  const groups = [];
+  for (let index = 0; index < sourceLines.length; index += 1) {
+    const line = sourceLines[index];
+    let commentScan = 0;
+    if (ordinaryComment) {
+      const end = line.indexOf('-->');
+      if (end < 0) continue;
+      ordinaryComment = false; commentScan = end + 3;
+    } else if (inCode(index, 0)) continue;
+    const opening = /^<!-- stage-(slide|group)$/.exec(line);
+    if (opening) {
+      let end = index + 1;
+      while (end < sourceLines.length && sourceLines[end].trim() !== '-->') end += 1;
+      if (end === sourceLines.length) fail('stage-' + opening[1] + ' 제어 주석이 닫히지 않았습니다.', offset + index + 1);
+      const values = readControl(sourceLines.slice(index + 1, end).join('\n'), opening[1], offset + index + 1, fail);
+      const control = { values, origin: { line: offset + index + 1, endLine: offset + end + 1 } };
+      if (opening[1] === 'slide') {
+        if (slide) fail('stage-slide은 한 장에 한 번만 지정하세요.', control.origin.line);
+        if (sourceLines.slice(0, index).some(value => value.trim())) fail('stage-slide은 장의 첫 내용 앞에 두세요.', control.origin.line);
+        slide = control;
+      } else {
+        let next = end + 1;
+        while (next < sourceLines.length && !sourceLines[next].trim()) next += 1;
+        if (next === sourceLines.length || !/^ {0,3}##(?:[ \t]+|$)/.test(sourceLines[next])) fail('stage-group은 H2 바로 앞에 두세요. 사이에는 빈 줄만 허용합니다.', control.origin.line);
+        control.headingLine = offset + next + 1;
+        groups.push(control);
+      }
+      for (let removed = index; removed <= end; removed += 1) lines[removed] = '';
+      index = end;
+      continue;
+    }
+    if (/^\s*<!--\s*stage-/.test(line)) fail('알 수 없거나 잘못된 stage 제어 구문입니다. stage-slide/group을 독립 여러 줄 주석으로 작성하세요.', offset + index + 1);
+    for (;;) {
+      const start = line.indexOf('<!--', commentScan);
+      if (start < 0) break;
+      if (inCode(index, start)) { commentScan = start + 4; continue; }
+      const end = line.indexOf('-->', start + 4);
+      if (end < 0) { ordinaryComment = true; break; }
+      commentScan = end + 3;
+    }
+  }
+  if (groups.filter(group => group.values.primary === true).length > 1) fail('primary: true인 stage-group은 한 장에 하나만 지정하세요.', groups.find(group => group.values.primary).origin.line);
+  return { lines, slide, groups };
+}
+
+function readControl(source, kind, line, fail) {
+  const document = YAML.parseDocument(source, { uniqueKeys: true });
+  if (document.errors.length) fail('stage-' + kind + ': ' + document.errors[0].message, line);
+  let values;
+  try { values = document.contents === null ? {} : document.toJS({ maxAliasCount: 0 }); }
+  catch (error) { fail('stage-' + kind + ': ' + error.message, line); }
+  if (!values || typeof values !== 'object' || Array.isArray(values)) fail('stage-' + kind + '은 YAML key: value 객체여야 합니다.', line);
+  const allowed = kind === 'slide' ? ['compose', 'tone', 'fit', 'focus'] : ['tone', 'primary', 'fit', 'focus'];
+  for (const [key, value] of Object.entries(values)) {
+    if (!allowed.includes(key)) fail('stage-' + kind + "에서 지원하지 않는 키 '" + key + "'입니다.", line);
+    if (key === 'compose' && !COMPOSITIONS.includes(value)) fail('compose: ' + COMPOSITIONS.join('/') + ' 중 하나를 사용하세요.', line);
+    if (key === 'tone' && !TONES.includes(value)) fail('tone: ' + TONES.join('/') + ' 중 하나를 사용하세요.', line);
+    if (key === 'fit' && !['contain', 'cover'].includes(value)) fail('fit: contain/cover 중 하나를 사용하세요.', line);
+    if (key === 'primary' && typeof value !== 'boolean') fail('primary는 true/false여야 합니다.', line);
+    if (key === 'focus') {
+      const normalizeFocus = position => {
+        const match = typeof position === 'string' && /^(\d+(?:\.\d+)?)%[ \t]+(\d+(?:\.\d+)?)%$/.exec(position.trim());
+        if (!match || Number(match[1]) > 100 || Number(match[2]) > 100) fail("focus는 '0% 0%'부터 '100% 100%' 사이의 두 위치여야 합니다.", line);
+        return match[1] + '% ' + match[2] + '%';
+      };
+      if (Array.isArray(value)) {
+        if (kind !== 'slide' || value.length < 1 || value.length > 6) fail('장 focus 배열은 gallery/mosaic의 원순서 사진1~6개 위치만 지원합니다. 그룹 focus는 문자열을 사용하세요.', line);
+        values.focus = value.map(normalizeFocus);
+      } else values.focus = normalizeFocus(value);
+    }
+  }
+  return values;
 }
 
 function plain(nodes) {

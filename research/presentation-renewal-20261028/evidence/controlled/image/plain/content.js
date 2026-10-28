@@ -1,0 +1,73 @@
+window.PRESENTATION = {
+  "format": "markdown-v1",
+  "document": {
+    "sourcePath": "research/presentation-renewal-20261028/evidence/controlled/image/plain/slides.md",
+    "revision": "63191db1b6bcf799aec98cd9874a65b31f07141d979d9a90db4eaf454f29110f"
+  },
+  "id": "renewal-image",
+  "title": "실제 작업 화면을 함께 봅니다.",
+  "theme": "stage",
+  "slides": [
+    {
+      "layout": "blocks",
+      "title": "실제 작업 화면을 함께 봅니다.",
+      "heading": {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "value": "실제 작업 화면을 함께 봅니다."
+          }
+        ],
+        "position": {
+          "line": 1,
+          "endLine": 1
+        }
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "img",
+              "attrs": {
+                "src": "../../../../../../assets/examples/dashboard.svg",
+                "alt": "동일한 가상 대시보드"
+              },
+              "children": [],
+              "position": {
+                "line": 3,
+                "endLine": 3
+              }
+            }
+          ],
+          "position": {
+            "line": 3,
+            "endLine": 3
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "화면의 구조와 다음 행동을 설명합니다."
+            }
+          ],
+          "position": {
+            "line": 5,
+            "endLine": 5
+          }
+        }
+      ],
+      "origin": {
+        "line": 1,
+        "endLine": 5
+      }
+    }
+  ]
+};

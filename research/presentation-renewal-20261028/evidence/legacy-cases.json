@@ -1,0 +1,351 @@
+[
+  {
+    "index": 1,
+    "layout": "cover",
+    "variant": null,
+    "preset": null,
+    "align": "center",
+    "tone": null,
+    "quiet": false,
+    "visualKind": null,
+    "title": [
+      "작은 장면,",
+      "큰 이야기."
+    ],
+    "url": "index.html#1"
+  },
+  {
+    "index": 2,
+    "layout": "statement",
+    "variant": null,
+    "preset": null,
+    "align": "center",
+    "tone": null,
+    "quiet": false,
+    "visualKind": null,
+    "title": [
+      "먼저, 사람을 봅니다."
+    ],
+    "url": "index.html#2"
+  },
+  {
+    "index": 3,
+    "layout": "gallery",
+    "variant": "portraits",
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": null,
+    "title": null,
+    "url": "index.html#3"
+  },
+  {
+    "index": 4,
+    "layout": "media",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": null,
+    "title": "하나의 풍경을 크게.",
+    "url": "index.html#4"
+  },
+  {
+    "index": 7,
+    "layout": "categories",
+    "variant": null,
+    "preset": null,
+    "align": "center",
+    "tone": null,
+    "quiet": true,
+    "visualKind": null,
+    "title": "색에는, 역할을 맡깁니다.",
+    "url": "index.html#7"
+  },
+  {
+    "index": 8,
+    "layout": "section",
+    "variant": null,
+    "preset": null,
+    "align": "center",
+    "tone": "purple",
+    "quiet": true,
+    "visualKind": null,
+    "title": [
+      "김하늘"
+    ],
+    "url": "index.html#8"
+  },
+  {
+    "index": 9,
+    "layout": "chart",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": "blue",
+    "quiet": true,
+    "visualKind": null,
+    "title": [
+      "관찰을,",
+      "근거로 연결합니다."
+    ],
+    "url": "index.html#9"
+  },
+  {
+    "index": 10,
+    "layout": "results",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": null,
+    "title": [
+      "하나의 생각이,",
+      "다양한 결과로."
+    ],
+    "url": "index.html#10"
+  },
+  {
+    "index": 11,
+    "layout": "mosaic",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": null,
+    "title": "서로 다른 결과를, 하나의 이야기로.",
+    "url": "index.html#11"
+  },
+  {
+    "index": 14,
+    "layout": "compare",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": false,
+    "visualKind": null,
+    "title": [
+      "차이는,",
+      "같은 기준에서."
+    ],
+    "url": "index.html#14"
+  },
+  {
+    "index": 15,
+    "layout": "metric",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": "green",
+    "quiet": false,
+    "visualKind": null,
+    "title": null,
+    "url": "index.html#15"
+  },
+  {
+    "index": 16,
+    "layout": "image",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": false,
+    "visualKind": null,
+    "title": "한 장에 담는, 하나의 인상.",
+    "url": "index.html#16"
+  },
+  {
+    "index": 17,
+    "layout": "demo",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": false,
+    "visualKind": null,
+    "title": [
+      "보여주는 순간,",
+      "이해가 됩니다."
+    ],
+    "url": "index.html#17"
+  },
+  {
+    "index": 18,
+    "layout": "quote",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": false,
+    "visualKind": null,
+    "title": null,
+    "url": "index.html#18"
+  },
+  {
+    "index": 19,
+    "layout": "steps",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": false,
+    "visualKind": null,
+    "title": [
+      "다음 행동은",
+      "쉽고 분명하게."
+    ],
+    "url": "index.html#19"
+  },
+  {
+    "index": 20,
+    "layout": "closing",
+    "variant": null,
+    "preset": null,
+    "align": "center",
+    "tone": null,
+    "quiet": false,
+    "visualKind": null,
+    "title": [
+      "당신의 장면으로,",
+      "이야기를 시작하세요."
+    ],
+    "url": "index.html#20"
+  },
+  {
+    "index": 4,
+    "layout": "bento",
+    "variant": "editorial",
+    "preset": "seoul",
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": null,
+    "title": null,
+    "url": "examples/devday-compositions/index.html#4"
+  },
+  {
+    "index": 5,
+    "layout": "icon-wall",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": "blue",
+    "quiet": true,
+    "visualKind": null,
+    "title": "함께 만들어요.",
+    "url": "examples/devday-compositions/index.html#5"
+  },
+  {
+    "index": 6,
+    "layout": "metric-pair",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": null,
+    "title": null,
+    "url": "examples/devday-compositions/index.html#6"
+  },
+  {
+    "index": 2,
+    "layout": "visual",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": "bars",
+    "title": "서로 다른 관찰을, 같은 기준으로.",
+    "url": "examples/visual-story/index.html#2"
+  },
+  {
+    "index": 3,
+    "layout": "visual",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": "funnel",
+    "title": "첫 공유까지, 어디가 달랐을까?",
+    "url": "examples/visual-story/index.html#3"
+  },
+  {
+    "index": 4,
+    "layout": "visual",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": "line",
+    "title": "변화가 이어지는 시간을 봅니다.",
+    "url": "examples/visual-story/index.html#4"
+  },
+  {
+    "index": 5,
+    "layout": "visual",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": "composition",
+    "title": "사람들이 말한, 첫 마찰.",
+    "url": "examples/visual-story/index.html#5"
+  },
+  {
+    "index": 7,
+    "layout": "visual",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": "flow",
+    "title": "마찰을, 다음 행동에 연결합니다.",
+    "url": "examples/visual-story/index.html#7"
+  },
+  {
+    "index": 8,
+    "layout": "visual",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": "matrix",
+    "title": "무엇을 먼저, 확인할까요?",
+    "url": "examples/visual-story/index.html#8"
+  },
+  {
+    "index": 9,
+    "layout": "visual",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": "timeline",
+    "title": "관찰에서, 적용과 확인까지.",
+    "url": "examples/visual-story/index.html#9"
+  },
+  {
+    "index": 10,
+    "layout": "visual",
+    "variant": null,
+    "preset": null,
+    "align": null,
+    "tone": null,
+    "quiet": true,
+    "visualKind": "heatmap",
+    "title": "사람의 시간을, 나눠 봅니다.",
+    "url": "examples/visual-story/index.html#10"
+  }
+]

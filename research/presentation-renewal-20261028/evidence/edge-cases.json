@@ -1,0 +1,142 @@
+[
+  {
+    "id": "gallery-2",
+    "expected": "gallery",
+    "number": 1,
+    "line": 1
+  },
+  {
+    "id": "gallery-3",
+    "expected": "gallery",
+    "number": 2,
+    "line": 13
+  },
+  {
+    "id": "gallery-4",
+    "expected": "gallery",
+    "number": 3,
+    "line": 27
+  },
+  {
+    "id": "gallery-5",
+    "expected": "gallery",
+    "number": 4,
+    "line": 43
+  },
+  {
+    "id": "gallery-6",
+    "expected": "gallery",
+    "number": 5,
+    "line": 61
+  },
+  {
+    "id": "mosaic-2",
+    "expected": "mosaic",
+    "number": 6,
+    "line": 81
+  },
+  {
+    "id": "mosaic-3",
+    "expected": "mosaic",
+    "number": 7,
+    "line": 93
+  },
+  {
+    "id": "mosaic-4",
+    "expected": "mosaic",
+    "number": 8,
+    "line": 107
+  },
+  {
+    "id": "mosaic-5",
+    "expected": "mosaic",
+    "number": 9,
+    "line": 123
+  },
+  {
+    "id": "mosaic-6",
+    "expected": "mosaic",
+    "number": 10,
+    "line": 141
+  },
+  {
+    "id": "tone-orange",
+    "expected": "message",
+    "number": 11,
+    "line": 161
+  },
+  {
+    "id": "tone-purple",
+    "expected": "message",
+    "number": 12,
+    "line": 170
+  },
+  {
+    "id": "tone-blue",
+    "expected": "message",
+    "number": 13,
+    "line": 179
+  },
+  {
+    "id": "tone-green",
+    "expected": "message",
+    "number": 14,
+    "line": 188
+  },
+  {
+    "id": "tone-yellow",
+    "expected": "message",
+    "number": 15,
+    "line": 197
+  },
+  {
+    "id": "tone-neutral",
+    "expected": "message",
+    "number": 16,
+    "line": 206
+  },
+  {
+    "id": "individual-focus",
+    "expected": "mosaic",
+    "focus": [
+      "50% 20%",
+      "50% 80%"
+    ],
+    "number": 17,
+    "line": 215
+  },
+  {
+    "id": "focus-count-mismatch",
+    "expected": "document",
+    "warning": true,
+    "number": 18,
+    "line": 228
+  },
+  {
+    "id": "unfit-gallery",
+    "expected": "document",
+    "warning": true,
+    "number": 19,
+    "line": 241
+  },
+  {
+    "id": "unfit-editorial",
+    "expected": "document",
+    "warning": true,
+    "number": 20,
+    "line": 252
+  },
+  {
+    "id": "code-table",
+    "expected": "document",
+    "number": 21,
+    "line": 261
+  },
+  {
+    "id": "intentional-overflow",
+    "expected": "document",
+    "overflow": true,
+    "number": 22,
+    "line": 274
+  }
+]

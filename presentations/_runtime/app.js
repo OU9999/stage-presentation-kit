@@ -413,7 +413,8 @@
     article.dataset.index = String(index);
     article.dataset.theme = slide.theme || state.theme;
     article.dataset.motion = motions.indexOf(slide.motion) >= 0 ? slide.motion : "fade";
-    if (tones.indexOf(slide.tone) >= 0) article.dataset.tone = slide.tone;
+    if (tones.indexOf(slide.tone) >= 0 || (layout === "blocks" && slide.tone === "neutral")) article.dataset.tone = slide.tone;
+    else if (layout === "blocks") article.dataset.tone = "blue";
     if (slide.surface === "butter") article.dataset.surface = "butter";
     if (slide.align === "center") {
       article.dataset.align = "center";
@@ -428,14 +429,23 @@
       if (!window.StageBlocks) body.append(element("p", "error-message", "blocks.js 경로를 확인하세요."));
       else {
         var blockOptions = {preview: !!preview, sourcePath: deck.document && deck.document.sourcePath, onMediaChange: preview ? null : scheduleDiagnostics};
-        if (slide.heading) {
-          var heading = window.StageBlocks.renderNode(slide.heading, blockOptions);
-          heading.classList.add("slide-title");
-          body.append(heading);
+        blockOptions.index = index;
+        blockOptions.total = deck.slides.length;
+        if (window.StageBlocks.renderSlide) {
+          var renderedBlocks = window.StageBlocks.renderSlide(slide, blockOptions);
+          article.dataset.composition = renderedBlocks.composition;
+          if (renderedBlocks.quiet) article.classList.add("is-quiet");
+          body.append(renderedBlocks.body);
+        } else {
+          if (slide.heading) {
+            var heading = window.StageBlocks.renderNode(slide.heading, blockOptions);
+            heading.classList.add("slide-title");
+            body.append(heading);
+          }
+          var markdownBody = element("div", "markdown-body");
+          markdownBody.append(window.StageBlocks.renderNodes(slide.blocks, blockOptions));
+          body.append(markdownBody);
         }
-        var markdownBody = element("div", "markdown-body");
-        markdownBody.append(window.StageBlocks.renderNodes(slide.blocks, blockOptions));
-        body.append(markdownBody);
       }
     } else if (layout === "cover") {
       body.append(title(slide));
@@ -877,7 +887,7 @@
     var read = element("button", "button", "읽기 모드에서 전체 내용 보기");
     read.type = "button";
     read.dataset.action = "read-diagnostics";
-    body.append(list, element("p", "diagnostics-guidance", "표시된 content.js 경로를 확인하세요. 긴 문장은 줄이거나 다음 장으로 나누고, 초과 항목은 별도 슬라이드로 옮기세요. 입력과 원본 데이터는 자동으로 삭제하지 않습니다."), read);
+    body.append(list, element("p", "diagnostics-guidance", markdownSource ? "표시된 Markdown 원고 위치를 확인하세요. 배치 선택을 바꾸거나 긴 내용을 다음 장으로 나눈 뒤 다시 생성하세요. 읽기 화면에는 전체 원문이 남습니다." : "표시된 content.js 경로를 확인하세요. 긴 문장은 줄이거나 다음 장으로 나누고, 초과 항목은 별도 슬라이드로 옮기세요. 입력과 원본 데이터는 자동으로 삭제하지 않습니다."), read);
     dialog.append(header, body);
     backdrop.append(dialog);
     document.body.append(backdrop);
@@ -949,6 +959,11 @@
 
   function allIssues() {
     var result = validationIssues.slice();
+    stage.querySelectorAll(".markdown-composition[data-composition-warning]").forEach(function (node) {
+      if (!node.dataset.compositionWarning) return;
+      var slide = node.closest(".slide");
+      result.push({ severity: "warning", slideIndex: Number(slide.dataset.index), path: (deck.document && deck.document.sourcePath || "Markdown") + ":" + (node.dataset.sourceLine || "?"), message: node.dataset.compositionWarning });
+    });
     Object.keys(geometryIssues).forEach(function (key) { result = result.concat(geometryIssues[key]); });
     return result;
   }
@@ -1014,14 +1029,20 @@
       if (outside(bounds, container) || (textBounds.width && outside(textBounds, container)) || clipped) add(path, "글자가 발표 영역을 벗어나거나 잘립니다. 문장을 줄이거나 슬라이드를 나누세요. 읽기 모드에서는 전체 내용을 확인할 수 있습니다.");
     });
     if (slide.dataset.layout === "blocks") {
-      slide.querySelectorAll(".block-node, .markdown-body img").forEach(function (node) {
+      slide.querySelectorAll(".block-node, .markdown-body img, .md-media figcaption").forEach(function (node) {
         if (node.closest(".blocks-scroll") && !node.classList.contains("blocks-scroll")) return;
         var bounds = node.getBoundingClientRect();
         var positioned = node.closest("[data-source-line]");
         var line = positioned ? positioned.dataset.sourceLine : "?";
         var source = (deck.document && deck.document.sourcePath || "Markdown") + ":" + line;
+        var textRange = document.createRange();
+        textRange.selectNodeContents(node);
+        var glyphBounds = textRange.getBoundingClientRect();
+        var scrollRegion = node.classList.contains("blocks-scroll");
+        var nodeStyle = getComputedStyle(node);
+        var clipped = !scrollRegion && /^(hidden|clip|auto|scroll)$/.test(nodeStyle.overflowY) && node.clientHeight > 0 && node.scrollHeight > node.clientHeight + 6;
         if (node.dataset.mediaError) add(source, "이미지를 불러오지 못했습니다: " + node.dataset.mediaError);
-        else if (bounds.width && bounds.height && outside(bounds, bodyBounds)) add(source, "원고 " + source + "의 내용이 발표 영역을 벗어납니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.");
+        else if (bounds.width && bounds.height && (outside(bounds, bodyBounds) || (!scrollRegion && glyphBounds.width && outside(glyphBounds, bodyBounds)) || clipped)) add(source, "원고 " + source + "의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.");
       });
     }
     body.querySelectorAll(".media-frame").forEach(function (frame) {

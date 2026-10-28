@@ -207,3 +207,18 @@ for (const [label, value] of [['object', { count: 42 }], ['array', [42]], ['bool
     assert.deepEqual(deck, original);
   });
 }
+
+test('blocks view validates composition settings and H2 bindings without mutating the authored tree', () => {
+  const {parseDocument}=require('../scripts/markdown-document.cjs');
+  const source='<!-- stage-slide\ncompose: editorial\ntone: neutral\nfit: cover\nfocus: "0% 100%"\n-->\n# H\n\n<!-- stage-group\nprimary: true\ntone: neutral\n-->\n## One\n\nText\n\n## Two\n\nEnd';
+  const deck=parseDocument(source);const original=clone(deck);
+  assert.deepEqual(errors(deck),[]);assert.deepEqual(deck,original);
+  const mutations=[
+    s=>s.view.extra=true,s=>s.view.tone='blue',s=>s.view.compose='invented',s=>s.view.fit='fill',s=>s.view.focus='100.1% 0%',s=>s.view.focus='0% 0%; color:red',s=>s.tone='pink',
+    s=>s.view.groups[0].copy='text',s=>s.view.groups[0].tone='pink',s=>s.view.groups[0].primary='yes',s=>s.view.groups[0].start=1,s=>s.view.groups[0].end=4,s=>s.view.groups[0].end=1,s=>s.view.groups[0].origin={line:5,endLine:3},s=>s.view.groups.push({...s.view.groups[0]}),s=>s.view.groups='bad'
+  ];
+  for(const mutate of mutations){const changed=clone(deck);mutate(changed.slides[0]);assert.ok(errors(changed).length,JSON.stringify(changed.slides[0].view));}
+  const legacyTone=validateDeck({title:'Legacy',slides:[{layout:'statement',title:'H',tone:'neutral'}]});
+  assert.ok(legacyTone.some(issue=>issue.path==='slides.0.tone'),'neutral remains outside legacy tone choices');
+  assert.ok(errors({title:'Legacy',slides:[{layout:'statement',title:'H',view:{compose:'message'}}]}).some(issue=>issue.path==='slides.0.view'));
+});

@@ -134,3 +134,78 @@ test('legacy adapter never silently drops a second slide made by its different n
   const source = metadata('layout: demo') + '# Demo\n\n- First\n\n  ---\n\n  Following text';
   assert.throws(() => parseDocument(source), /중첩 구분선|명시 layout/);
 });
+
+test('stage-slide masks control lines while keeping the leading heading, source positions and canonical nodes', () => {
+  const control = '<!-- stage-slide\ncompose: split\ntone: neutral\nfit: cover\nfocus: "0.5% 100%"\n-->\n';
+  const content = '# A **heading**\n\n![Alt](./figure.svg "Caption")\n\n- First\n- Second';
+  const slide = parseDocument(control + content, {sourcePath:'talks/control/slides.md'}).slides[0];
+  assert.equal(slide.title, 'A heading'); assert.equal(slide.tone, 'neutral');
+  assert.deepEqual(slide.view, {compose:'split', fit:'cover', focus:'0.5% 100%'});
+  assert.deepEqual(slide.heading.position, {line:7,endLine:7});
+  assert.equal(value(slide.blocks).includes('stage-slide'), false);
+  assert.equal(collectReferences({slides:[slide]})[0].position.line, 9);
+  const masked = control.split('\n').slice(0,-1).map(()=>'').join('\n')+'\n'+content;
+  const canonical = parseDocument(masked).slides[0];
+  assert.deepEqual(slide.heading, canonical.heading); assert.deepEqual(slide.blocks, canonical.blocks);
+});
+
+test('stage-group binds to post-heading blocks, stops at every H2 and preserves marker versus heading locations', () => {
+  const source = '# Heading\n\nIntro\n\n<!-- stage-group\nprimary: true\ntone: blue\nfit: contain\n-->\n\n## First\n\nText\n\n## Unselected\n\nMiddle\n\n<!-- stage-group\ntone: orange\n-->\n## Last\n\nEnd';
+  const slide = parseDocument(source).slides[0];
+  assert.deepEqual(slide.view.groups, [
+    {start:1,end:3,primary:true,tone:'blue',fit:'contain',origin:{line:5,endLine:9}},
+    {start:5,end:7,tone:'orange',origin:{line:19,endLine:21}}
+  ]);
+  assert.equal(slide.blocks[1].tag,'h2'); assert.equal(slide.blocks[1].position.line,11);
+  assert.equal(slide.blocks[3].tag,'h2'); assert.equal(slide.blocks[5].position.line,22);
+  assert.equal(value(slide.blocks).includes('stage-group'),false);
+  assert.equal(value(slide.blocks),'IntroFirstTextUnselectedMiddleLastEnd');
+});
+
+test('composition control examples in fences, inline code and ordinary HTML comments remain literal', () => {
+  const example = '<!-- stage-slide\ncompose: message\n-->';
+  for (const source of ['```html\n'+example+'\n```','~~~html\n'+example+'\n~~~','`example\n'+example+'\nend`','<!-- documentation\n'+example+'\n-->','<!-- documentation with `inline` code\n'+example+'\n-->','<!-- one --> <!-- documentation\n'+example+'\n-->']) {
+    const slide = parseDocument(source).slides[0];
+    assert.equal(slide.view,undefined,source); assert.equal(slide.tone,undefined);
+    assert.match(value(slide.blocks), /stage-slide/);
+  }
+  const inline = parseDocument('`<!-- stage-slide -->` and ordinary text').slides[0];
+  assert.equal(inline.view,undefined); assert.equal(elements(inline.blocks,'code').length,1);
+});
+
+test('bad control schema, placement, aliases, duplicate choices and legacy mixing report source locations', () => {
+  const slide = settings => '<!-- stage-slide\n'+settings+'\n-->\n# Heading';
+  const group = settings => '# Heading\n\n<!-- stage-group\n'+settings+'\n-->\n## Group\n\nText';
+  for (const source of [slide('compose: invented'),slide('tone: pink'),slide('fit: fill'),slide('focus: "101% 50%"'),slide('focus: "-1% 20%"'),slide('focus: "left center"'),slide('notes: private'),slide('compose: auto\ncompose: message'),group('primary: "true"'),group('compose: editorial'),group('focus: "10%; color:red 20%"'),'<!-- stage-unknown\nvalue: x\n-->\n# H','<!-- stage-slide tone: blue -->\n# H','# Before\n\n'+slide('tone: blue'),'<!-- stage-slide\ncompose: auto\n-->\n'+slide('tone: blue'),group('tone: blue').replace('## Group','Paragraph\n\n## Group'),'<!-- stage-slide\ncompose: auto\n-->\n'+metadata('layout: statement')+'# H','<!-- stage-slide\ncompose: auto\n-->\n```stage\n{"layout":"statement","title":"H"}\n```']) {
+    assert.throws(()=>parseDocument(source,{sourcePath:'talks/bad/slides.md'}),/talks\/bad\/slides.md:\d+:/,source);
+  }
+  const duplicatePrimary = group('primary: true')+'\n\n<!-- stage-group\nprimary: true\n-->\n## Second';
+  assert.throws(()=>parseDocument(duplicatePrimary),/primary/);
+  assert.throws(()=>parseDocument('# H\n\n<!-- stage-group\ntone: blue\n-->\n> ## Nested'),/H2/);
+});
+
+test('all composition names are syntax-valid even when renderer needs a document fallback', () => {
+  for (const compose of ['auto','message','split','media','gallery','mosaic','editorial','quote','closing','document']) {
+    assert.equal(parseDocument('<!-- stage-slide\ncompose: '+compose+'\n-->\n# H').slides[0].view.compose,compose);
+  }
+});
+
+test('the two authored eight-slide stories preserve semantic AST, references and whole-source positions', () => {
+  const fs = require('node:fs'); const path = require('node:path'); const model = require('../deck-model.js');
+  let totalGroups=0,totalImages=0;
+  for (const name of ['product-notes','team-learning']) {
+    const filename=path.join(__dirname,'../talks',name,'slides.md');const source=fs.readFileSync(filename,'utf8');
+    const deck=parseDocument(source,{sourcePath:'talks/'+name+'/slides.md',id:name});
+    assert.equal(deck.slides.length,8);assert.deepEqual(model.validateDeck(deck),[]);
+    const masked=source.replace(/^<!-- stage-(?:slide|group)\n[\s\S]*?^-->[ \t]*$/gm,match=>match.split('\n').map(()=>'').join('\n'));
+    const canonical=parseDocument(masked).slides;
+    deck.slides.forEach((slide,index)=>{
+      assert.deepEqual(slide.heading,canonical[index].heading);assert.deepEqual(slide.blocks,canonical[index].blocks);
+      if(slide.heading)assert.match(source.split('\n')[slide.heading.position.line-1],/^# /);
+      totalGroups+=(slide.view?.groups||[]).length;
+    });
+    totalImages+=collectReferences(deck).filter(ref=>ref.kind==='image').length;
+    assert.equal(fs.readFileSync(filename,'utf8'),source);
+  }
+  assert.equal(totalGroups,5);assert.equal(totalImages,10);
+});

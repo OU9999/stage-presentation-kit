@@ -1,0 +1,19 @@
+{
+  "head": "cdb88b421d5a2fc018fe0269713e1ba16d4d8b20",
+  "hashes": {
+    "blocks.css": "a711cad4dfdc34b702749ea3cab3d4a7b3e907e5564a785938d60ea5c9e1a4f1",
+    "blocks.js": "ab4b9545781caa7c07571e2b05e8f7b64075aa5ded442cc3f5ff24c6b56cdf05",
+    "app.js": "895df1da1f6818da23eed7b5f090f10c9d64502b8028aab508a9bdfb17884fe4",
+    "deck-model.js": "46f4fdf578cf46e66b4677d888efd8b1715acdfc27381d824f0b3b111faeda6a",
+    "scripts/markdown-document.cjs": "0d2904a1803fb54e1bb2721ba599d40ba6c16caed9289edcf9ba0c84b07bd6d2",
+    "scripts/stage.cjs": "f65be32a389de935d2ffca53c28f7baa7ca7d8d67428c6db4df9050b58fde617",
+    "talks/product-notes/slides.md": "25bc55191ad034cc8c30b1f32fa932c52453988769813717dcc3e61991266dc2",
+    "talks/team-learning/slides.md": "1d988a7d4dd52dbce1f737fd2b6e0f2308b72a2521686cba47cfa6a8c59296a8"
+  },
+  "controlledBaseline": "research/design-system-reaudit-20261028/evidence/controlled/observations.json",
+  "controlledPngs": [
+    "research/design-system-reaudit-20261028/evidence/controlled/message-plain.png",
+    "research/design-system-reaudit-20261028/evidence/controlled/image-plain.png"
+  ],
+  "previousAuditIsImmutable": true
+}

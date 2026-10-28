@@ -1,0 +1,346 @@
+{
+  "scope": "Node VM semantic/plan checks, no browser/layout/contrast assertion",
+  "node": "v24.22.1",
+  "projects": 26,
+  "slides": 40,
+  "results": [
+    {
+      "name": "product-notes",
+      "slides": [
+        {
+          "composition": "message",
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "split",
+          "images": 1,
+          "warnings": 0
+        },
+        {
+          "composition": "document",
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "editorial",
+          "images": 1,
+          "warnings": 0
+        },
+        {
+          "composition": "quote",
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "message",
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "document",
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "closing",
+          "images": 0,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "team-learning",
+      "slides": [
+        {
+          "composition": "message",
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "media",
+          "images": 1,
+          "warnings": 0
+        },
+        {
+          "composition": "gallery",
+          "images": 3,
+          "warnings": 0
+        },
+        {
+          "composition": "mosaic",
+          "images": 3,
+          "warnings": 0
+        },
+        {
+          "composition": "quote",
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "editorial",
+          "images": 1,
+          "warnings": 0
+        },
+        {
+          "composition": "document",
+          "images": 0,
+          "warnings": 0
+        },
+        {
+          "composition": "closing",
+          "images": 0,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "image-between-copy",
+      "slides": [
+        {
+          "composition": "document",
+          "images": 1,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "mixed-inline",
+      "slides": [
+        {
+          "composition": "document",
+          "images": 2,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "linked-image",
+      "slides": [
+        {
+          "composition": "document",
+          "images": 1,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "editorial-preface-and-condition",
+      "slides": [
+        {
+          "composition": "editorial",
+          "images": 0,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "fallback-table",
+      "slides": [
+        {
+          "composition": "document",
+          "images": 0,
+          "warnings": 1
+        }
+      ]
+    },
+    {
+      "name": "fallback-long-korean",
+      "slides": [
+        {
+          "composition": "document",
+          "images": 0,
+          "warnings": 1
+        }
+      ]
+    },
+    {
+      "name": "gallery-separated-2",
+      "slides": [
+        {
+          "composition": "gallery",
+          "images": 2,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "gallery-one-paragraph-2",
+      "slides": [
+        {
+          "composition": "gallery",
+          "images": 2,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "mosaic-2",
+      "slides": [
+        {
+          "composition": "mosaic",
+          "images": 2,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "gallery-separated-3",
+      "slides": [
+        {
+          "composition": "gallery",
+          "images": 3,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "gallery-one-paragraph-3",
+      "slides": [
+        {
+          "composition": "gallery",
+          "images": 3,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "mosaic-3",
+      "slides": [
+        {
+          "composition": "mosaic",
+          "images": 3,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "gallery-separated-4",
+      "slides": [
+        {
+          "composition": "gallery",
+          "images": 4,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "gallery-one-paragraph-4",
+      "slides": [
+        {
+          "composition": "gallery",
+          "images": 4,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "mosaic-4",
+      "slides": [
+        {
+          "composition": "mosaic",
+          "images": 4,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "gallery-separated-5",
+      "slides": [
+        {
+          "composition": "gallery",
+          "images": 5,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "gallery-one-paragraph-5",
+      "slides": [
+        {
+          "composition": "gallery",
+          "images": 5,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "mosaic-5",
+      "slides": [
+        {
+          "composition": "mosaic",
+          "images": 5,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "gallery-separated-6",
+      "slides": [
+        {
+          "composition": "gallery",
+          "images": 6,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "gallery-one-paragraph-6",
+      "slides": [
+        {
+          "composition": "gallery",
+          "images": 6,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "mosaic-6",
+      "slides": [
+        {
+          "composition": "mosaic",
+          "images": 6,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "gallery-per-image-focus",
+      "slides": [
+        {
+          "composition": "gallery",
+          "images": 2,
+          "warnings": 0
+        }
+      ]
+    },
+    {
+      "name": "focus-count-fallback",
+      "slides": [
+        {
+          "composition": "document",
+          "images": 2,
+          "warnings": 1
+        }
+      ]
+    },
+    {
+      "name": "focus-shape-fallback",
+      "slides": [
+        {
+          "composition": "document",
+          "images": 1,
+          "warnings": 1
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "scripts/markdown-document.cjs": "e26b4089aebbd296dc39df9fb01a1a20ea640061a342d1cb9d5119aa6151bab8",
+    "deck-model.js": "8edd4300080c79eb85fe5f30562b8cfd2515e69d3759ea8fc6eddc40c7cfec1d",
+    "blocks.js": "8072e64dae0732ca398e5aff24d5aa737846b454044d0a7ee420b7105b9300a7",
+    "blocks.css": "2a4d6f9f0005ede94aa13d3cd7337a6f2ae8187e6890aa0ec4603cc63f220df2",
+    "talks/product-notes/slides.md": "6b8e3dfcfb9837a34ad30681f902320fa3bc014d13855bd49ffe4dc670c2a3ce",
+    "talks/team-learning/slides.md": "a7b435f2869e037fa951e58efc9da6799898a368f4186a0909da0610e1c7cbe8"
+  }
+}

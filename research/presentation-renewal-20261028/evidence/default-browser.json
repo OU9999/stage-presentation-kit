@@ -1,0 +1,94 @@
+[
+  {
+    "case": "message",
+    "url": "http://127.0.0.1:4323/research/presentation-renewal-20261028/evidence/controlled/message/plain/?renewal=final",
+    "title": "다음 행동을 더 명확하게. — Stage",
+    "index": "0",
+    "layout": "blocks",
+    "composition": "message",
+    "heading": "다음 행동을 더 명확하게.",
+    "headingSize": "118px",
+    "text": "다음 행동을 더 명확하게.같은 기록에서 중요한 한 가지를 전합니다.",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 631.679931640625,
+      "right": 1314.7199401855469,
+      "bottom": 827.1999206542969
+    },
+    "overflow": [],
+    "images": [],
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/presentation-renewal-20261028/evidence/controlled/message-after.png"
+  },
+  {
+    "case": "image",
+    "url": "http://127.0.0.1:4323/research/presentation-renewal-20261028/evidence/controlled/image/plain/?renewal=final",
+    "title": "실제 작업 화면을 함께 봅니다. — Stage",
+    "index": "0",
+    "layout": "blocks",
+    "composition": "media",
+    "heading": "실제 작업 화면을 함께 봅니다.",
+    "headingSize": "54px",
+    "text": "실제 작업 화면을 함께 봅니다.화면의 구조와 다음 행동을 설명합니다.",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../../../../../assets/examples/dashboard.svg",
+        "alt": "동일한 가상 대시보드",
+        "complete": true,
+        "naturalWidth": 1280,
+        "naturalHeight": 960,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 275.14935302734375,
+          "width": 1189.43994140625,
+          "height": 467.04656982421875,
+          "right": 1314.7199401855469,
+          "bottom": 742.1959228515625
+        }
+      }
+    ],
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/presentation-renewal-20261028/evidence/controlled/image-after.png"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "overview": {
+    "cards": 8,
+    "compositions": [
+      "message",
+      "split",
+      "document",
+      "editorial",
+      "quote",
+      "message",
+      "document",
+      "closing"
+    ],
+    "interactiveLinks": 0
+  },
+  "presenter": {
+    "current": "editorial",
+    "next": "quote",
+    "links": 0,
+    "connection": "발표 화면과 연결됨"
+  },
+  "bidirectionalNavigation": {
+    "hash": "#6",
+    "composition": "message",
+    "errors": [],
+    "storage": []
+  }
+}

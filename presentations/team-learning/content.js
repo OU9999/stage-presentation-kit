@@ -3,27 +3,45 @@ window.PRESENTATION = {
   "format": "markdown-v1",
   "document": {
     "sourcePath": "talks/team-learning/slides.md",
-    "revision": "1d988a7d4dd52dbce1f737fd2b6e0f2308b72a2521686cba47cfa6a8c59296a8"
+    "revision": "a7b435f2869e037fa951e58efc9da6799898a368f4186a0909da0610e1c7cbe8"
   },
   "id": "team-learning",
-  "title": "팀의 학습을 남기는 방법",
+  "title": "같은 장면에서 다른 질문 찾기",
   "theme": "stage",
   "slides": [
     {
       "layout": "blocks",
-      "title": "팀의 학습을 남기는 방법",
+      "title": "같은 장면에서, 다른 질문을.",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "팀의 학습을 남기는 방법"
+            "value": "같은 장면에서, "
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "value": "다른 질문을."
+              }
+            ],
+            "position": {
+              "line": 8,
+              "endLine": 8
+            }
+          },
+          {
+            "type": "text",
+            "value": ""
           }
         ],
         "position": {
-          "line": 5,
-          "endLine": 5
+          "line": 8,
+          "endLine": 8
         }
       },
       "blocks": [
@@ -33,12 +51,12 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "발표 때 한 번 읽은 기록을 다음 사람이 다시 사용할 수 있게 만듭니다."
+              "value": "사진을 함께 보며 관찰과 짐작을 나누는 가상 워크숍입니다."
             }
           ],
           "position": {
-            "line": 7,
-            "endLine": 7
+            "line": 10,
+            "endLine": 10
           }
         },
         {
@@ -47,35 +65,36 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "이 자료는 내부 학습 흐름을 설명하기 위한 가상 예시입니다."
+              "value": "등장인물은 실제 참여자가 아닌 스톡 사진의 피사체입니다."
             }
           ],
           "position": {
-            "line": 9,
-            "endLine": 9
+            "line": 12,
+            "endLine": 12
           }
         }
       ],
       "origin": {
         "line": 5,
-        "endLine": 9
-      }
+        "endLine": 12
+      },
+      "tone": "purple"
     },
     {
       "layout": "blocks",
-      "title": "한 장면과 여러 질문을 남깁니다",
+      "title": "먼저, 장면 전체를 봅니다.",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "한 장면과 여러 질문을 남깁니다"
+            "value": "먼저, 장면 전체를 봅니다."
           }
         ],
         "position": {
-          "line": 13,
-          "endLine": 13
+          "line": 20,
+          "endLine": 20
         }
       },
       "blocks": [
@@ -87,19 +106,374 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/1c6df0654172-report.svg",
-                "alt": "자체 제작한 가상 보고서"
+                "src": "assets/c1971525c2a1-landscape.jpg",
+                "alt": "산과 숲이 호수를 둘러싼 풍경 스톡 사진",
+                "title": "넓게 보기 · James Wheeler / Pexels"
               },
               "children": [],
               "position": {
-                "line": 15,
-                "endLine": 15
+                "line": 22,
+                "endLine": 22
               }
             }
           ],
           "position": {
-            "line": 15,
-            "endLine": 15
+            "line": 22,
+            "endLine": 22
+          }
+        }
+      ],
+      "origin": {
+        "line": 16,
+        "endLine": 22
+      },
+      "view": {
+        "fit": "cover",
+        "focus": "50% 50%"
+      }
+    },
+    {
+      "layout": "blocks",
+      "title": "기록하고, 듣고, 적는 시선.",
+      "heading": {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "value": "기록하고, 듣고, 적는 시선."
+          }
+        ],
+        "position": {
+          "line": 30,
+          "endLine": 30
+        }
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "img",
+              "attrs": {
+                "src": "assets/2751c9fe1a7d-capture.jpg",
+                "alt": "휴대폰을 들고 장면을 기록하는 인물의 스톡 사진",
+                "title": "기록하기 · Andrea Piacquadio / Pexels"
+              },
+              "children": [],
+              "position": {
+                "line": 32,
+                "endLine": 32
+              }
+            }
+          ],
+          "position": {
+            "line": 32,
+            "endLine": 32
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "img",
+              "attrs": {
+                "src": "assets/b492caded632-listen.jpg",
+                "alt": "헤드폰을 쓰고 노트북 앞에 앉은 인물의 스톡 사진",
+                "title": "듣기 · Christina Morillo / Pexels"
+              },
+              "children": [],
+              "position": {
+                "line": 34,
+                "endLine": 34
+              }
+            }
+          ],
+          "position": {
+            "line": 34,
+            "endLine": 34
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "img",
+              "attrs": {
+                "src": "assets/478e6580030c-write.jpg",
+                "alt": "노트에 글을 쓰는 인물의 스톡 사진",
+                "title": "적기 · LinkedIn Sales Navigator / Pexels"
+              },
+              "children": [],
+              "position": {
+                "line": 36,
+                "endLine": 36
+              }
+            }
+          ],
+          "position": {
+            "line": 36,
+            "endLine": 36
+          }
+        }
+      ],
+      "origin": {
+        "line": 26,
+        "endLine": 36
+      },
+      "view": {
+        "fit": "cover",
+        "focus": "50% 38%"
+      }
+    },
+    {
+      "layout": "blocks",
+      "title": "넓게, 가까이, 밖으로.",
+      "heading": {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "value": "넓게, 가까이, 밖으로."
+          }
+        ],
+        "position": {
+          "line": 45,
+          "endLine": 45
+        }
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "img",
+              "attrs": {
+                "src": "assets/c1971525c2a1-landscape.jpg",
+                "alt": "산과 호수를 넓게 담은 풍경 스톡 사진",
+                "title": "넓은 범위 · James Wheeler / Pexels"
+              },
+              "children": [],
+              "position": {
+                "line": 47,
+                "endLine": 47
+              }
+            }
+          ],
+          "position": {
+            "line": 47,
+            "endLine": 47
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "img",
+              "attrs": {
+                "src": "assets/8b3f37a204ad-observe.jpg",
+                "alt": "한쪽 눈 앞에 돋보기를 댄 인물의 스톡 사진",
+                "title": "가까운 단서 · Andrea Piacquadio / Pexels"
+              },
+              "children": [],
+              "position": {
+                "line": 49,
+                "endLine": 49
+              }
+            }
+          ],
+          "position": {
+            "line": 49,
+            "endLine": 49
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "img",
+              "attrs": {
+                "src": "assets/b4e1f667597d-portrait-two.jpg",
+                "alt": "도시 거리에서 갈색 옷을 입고 선 인물의 스톡 사진",
+                "title": "주변의 맥락 · William Adams / Pexels"
+              },
+              "children": [],
+              "position": {
+                "line": 51,
+                "endLine": 51
+              }
+            }
+          ],
+          "position": {
+            "line": 51,
+            "endLine": 51
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "서로 다른 스톡 사진입니다. 같은 장소나 인물의 전후 비교가 아닙니다."
+            }
+          ],
+          "position": {
+            "line": 53,
+            "endLine": 53
+          }
+        }
+      ],
+      "origin": {
+        "line": 40,
+        "endLine": 53
+      },
+      "view": {
+        "compose": "mosaic",
+        "fit": "cover",
+        "focus": [
+          "50% 40%",
+          "50% 25%",
+          "50% 0%"
+        ]
+      }
+    },
+    {
+      "layout": "blocks",
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "blockquote",
+          "children": [
+            {
+              "type": "element",
+              "tag": "p",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "보이는 것과,"
+                },
+                {
+                  "type": "text",
+                  "value": "\n"
+                },
+                {
+                  "type": "text",
+                  "value": "짐작한 것을 나눕니다."
+                }
+              ],
+              "position": {
+                "line": 57,
+                "endLine": 58
+              }
+            }
+          ],
+          "position": {
+            "line": 57,
+            "endLine": 58
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "가상 워크숍의 대화 원칙"
+            }
+          ],
+          "position": {
+            "line": 60,
+            "endLine": 60
+          }
+        }
+      ],
+      "origin": {
+        "line": 57,
+        "endLine": 60
+      }
+    },
+    {
+      "layout": "blocks",
+      "title": "단서 옆에, 질문을 놓습니다.",
+      "heading": {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "value": "단서 옆에, 질문을 놓습니다."
+          }
+        ],
+        "position": {
+          "line": 67,
+          "endLine": 67
+        }
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "보이는 단서"
+            }
+          ],
+          "position": {
+            "line": 75,
+            "endLine": 75
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "img",
+              "attrs": {
+                "src": "assets/8b3f37a204ad-observe.jpg",
+                "alt": "한쪽 눈 앞에 돋보기를 댄 인물의 스톡 사진",
+                "title": "눈앞의 돋보기 · Andrea Piacquadio / Pexels"
+              },
+              "children": [],
+              "position": {
+                "line": 77,
+                "endLine": 77
+              }
+            }
+          ],
+          "position": {
+            "line": 77,
+            "endLine": 77
+          }
+        },
+        {
+          "type": "element",
+          "tag": "h2",
+          "children": [
+            {
+              "type": "text",
+              "value": "아직 모르는 것"
+            }
+          ],
+          "position": {
+            "line": 82,
+            "endLine": 82
           }
         },
         {
@@ -116,36 +490,18 @@ window.PRESENTATION = {
                   "children": [
                     {
                       "type": "text",
-                      "value": ""
-                    },
-                    {
-                      "type": "element",
-                      "tag": "strong",
-                      "children": [
-                        {
-                          "type": "text",
-                          "value": "무엇을 알았는지"
-                        }
-                      ],
-                      "position": {
-                        "line": 17,
-                        "endLine": 17
-                      }
-                    },
-                    {
-                      "type": "text",
-                      "value": " 짧게 적습니다."
+                      "value": "무엇을 찾고 있을까요?"
                     }
                   ],
                   "position": {
-                    "line": 17,
-                    "endLine": 17
+                    "line": 84,
+                    "endLine": 84
                   }
                 }
               ],
               "position": {
-                "line": 17,
-                "endLine": 17
+                "line": 84,
+                "endLine": 84
               }
             },
             {
@@ -158,36 +514,18 @@ window.PRESENTATION = {
                   "children": [
                     {
                       "type": "text",
-                      "value": "모르는 것은 "
-                    },
-                    {
-                      "type": "element",
-                      "tag": "code",
-                      "children": [
-                        {
-                          "type": "text",
-                          "value": "확인할 질문"
-                        }
-                      ],
-                      "position": {
-                        "line": 18,
-                        "endLine": 18
-                      }
-                    },
-                    {
-                      "type": "text",
-                      "value": "으로 남깁니다."
+                      "value": "사진 밖에는 무엇이 있을까요?"
                     }
                   ],
                   "position": {
-                    "line": 18,
-                    "endLine": 18
+                    "line": 85,
+                    "endLine": 85
                   }
                 }
               ],
               "position": {
-                "line": 18,
-                "endLine": 18
+                "line": 85,
+                "endLine": 85
               }
             },
             {
@@ -200,430 +538,73 @@ window.PRESENTATION = {
                   "children": [
                     {
                       "type": "text",
-                      "value": "이미지와 목록을 원고 순서대로 함께 읽습니다."
+                      "value": "다음 장면에서 무엇을 확인할까요?"
                     }
                   ],
                   "position": {
-                    "line": 19,
-                    "endLine": 19
+                    "line": 86,
+                    "endLine": 86
                   }
                 }
               ],
               "position": {
-                "line": 19,
-                "endLine": 19
+                "line": 86,
+                "endLine": 86
               }
             }
           ],
           "position": {
-            "line": 17,
-            "endLine": 19
+            "line": 84,
+            "endLine": 86
           }
         }
       ],
       "origin": {
-        "line": 13,
-        "endLine": 19
-      }
-    },
-    {
-      "layout": "blocks",
-      "title": "읽는 사람에게 맥락을 줍니다",
-      "heading": {
-        "type": "element",
-        "tag": "h1",
-        "children": [
-          {
-            "type": "text",
-            "value": "읽는 사람에게 맥락을 줍니다"
-          }
-        ],
-        "position": {
-          "line": 23,
-          "endLine": 23
-        }
+        "line": 64,
+        "endLine": 86
       },
-      "blocks": [
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "회의가 끝나도 남는 정보"
+      "view": {
+        "compose": "editorial",
+        "groups": [
+          {
+            "start": 0,
+            "end": 2,
+            "primary": true,
+            "tone": "green",
+            "fit": "cover",
+            "focus": "48% 34%",
+            "origin": {
+              "line": 69,
+              "endLine": 74
             }
-          ],
-          "position": {
-            "line": 25,
-            "endLine": 25
-          }
-        },
-        {
-          "type": "element",
-          "tag": "table",
-          "children": [
-            {
-              "type": "element",
-              "tag": "thead",
-              "children": [
-                {
-                  "type": "element",
-                  "tag": "tr",
-                  "children": [
-                    {
-                      "type": "element",
-                      "tag": "th",
-                      "children": [
-                        {
-                          "type": "text",
-                          "value": "항목"
-                        }
-                      ],
-                      "position": {
-                        "line": 27,
-                        "endLine": 27
-                      }
-                    },
-                    {
-                      "type": "element",
-                      "tag": "th",
-                      "children": [
-                        {
-                          "type": "text",
-                          "value": "기록할 내용"
-                        }
-                      ],
-                      "position": {
-                        "line": 27,
-                        "endLine": 27
-                      }
-                    }
-                  ],
-                  "position": {
-                    "line": 27,
-                    "endLine": 27
-                  }
-                }
-              ],
-              "position": {
-                "line": 27,
-                "endLine": 27
-              }
-            },
-            {
-              "type": "element",
-              "tag": "tbody",
-              "children": [
-                {
-                  "type": "element",
-                  "tag": "tr",
-                  "children": [
-                    {
-                      "type": "element",
-                      "tag": "td",
-                      "children": [
-                        {
-                          "type": "text",
-                          "value": "질문"
-                        }
-                      ],
-                      "position": {
-                        "line": 29,
-                        "endLine": 29
-                      }
-                    },
-                    {
-                      "type": "element",
-                      "tag": "td",
-                      "children": [
-                        {
-                          "type": "text",
-                          "value": "이번에 알고 싶은 것"
-                        }
-                      ],
-                      "position": {
-                        "line": 29,
-                        "endLine": 29
-                      }
-                    }
-                  ],
-                  "position": {
-                    "line": 29,
-                    "endLine": 29
-                  }
-                },
-                {
-                  "type": "element",
-                  "tag": "tr",
-                  "children": [
-                    {
-                      "type": "element",
-                      "tag": "td",
-                      "children": [
-                        {
-                          "type": "text",
-                          "value": "관찰"
-                        }
-                      ],
-                      "position": {
-                        "line": 30,
-                        "endLine": 30
-                      }
-                    },
-                    {
-                      "type": "element",
-                      "tag": "td",
-                      "children": [
-                        {
-                          "type": "text",
-                          "value": "실제로 보거나 들은 내용"
-                        }
-                      ],
-                      "position": {
-                        "line": 30,
-                        "endLine": 30
-                      }
-                    }
-                  ],
-                  "position": {
-                    "line": 30,
-                    "endLine": 30
-                  }
-                },
-                {
-                  "type": "element",
-                  "tag": "tr",
-                  "children": [
-                    {
-                      "type": "element",
-                      "tag": "td",
-                      "children": [
-                        {
-                          "type": "text",
-                          "value": "결정"
-                        }
-                      ],
-                      "position": {
-                        "line": 31,
-                        "endLine": 31
-                      }
-                    },
-                    {
-                      "type": "element",
-                      "tag": "td",
-                      "children": [
-                        {
-                          "type": "text",
-                          "value": "다음에 확인할 작은 행동"
-                        }
-                      ],
-                      "position": {
-                        "line": 31,
-                        "endLine": 31
-                      }
-                    }
-                  ],
-                  "position": {
-                    "line": 31,
-                    "endLine": 31
-                  }
-                }
-              ],
-              "position": {
-                "line": 29,
-                "endLine": 31
-              }
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "tone": "purple",
+            "origin": {
+              "line": 79,
+              "endLine": 81
             }
-          ],
-          "position": {
-            "line": 27,
-            "endLine": 31
           }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "빈 칸은 가상의 값으로 채우지 않습니다."
-            }
-          ],
-          "position": {
-            "line": 33,
-            "endLine": 33
-          }
-        }
-      ],
-      "origin": {
-        "line": 23,
-        "endLine": 33
+        ]
       }
     },
     {
       "layout": "blocks",
-      "title": "설명에 필요한 코드는 그대로 둡니다",
+      "title": "함께 읽고, 질문 하나를 남깁니다.",
       "heading": {
         "type": "element",
         "tag": "h1",
         "children": [
           {
             "type": "text",
-            "value": "설명에 필요한 코드는 그대로 둡니다"
+            "value": "함께 읽고, 질문 하나를 남깁니다."
           }
         ],
         "position": {
-          "line": 37,
-          "endLine": 37
-        }
-      },
-      "blocks": [
-        {
-          "type": "element",
-          "tag": "pre",
-          "children": [
-            {
-              "type": "element",
-              "tag": "code",
-              "attrs": {
-                "class": "language-text"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "질문 → 관찰 → 결정\n구분선은 다음 문자열 안에 있습니다.\n---\n원문과 줄바꿈을 그대로 읽습니다.\n"
-                }
-              ],
-              "position": {
-                "line": 39,
-                "endLine": 44
-              }
-            }
-          ],
-          "position": {
-            "line": 39,
-            "endLine": 44
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "일반 코드 블록은 이미지로 바꾸지 않아도 됩니다."
-            }
-          ],
-          "position": {
-            "line": 46,
-            "endLine": 46
-          }
-        }
-      ],
-      "origin": {
-        "line": 37,
-        "endLine": 46
-      }
-    },
-    {
-      "layout": "blocks",
-      "title": "함께 읽는 시간이 기록을 다듬습니다",
-      "heading": {
-        "type": "element",
-        "tag": "h1",
-        "children": [
-          {
-            "type": "text",
-            "value": "함께 읽는 시간이 기록을 다듬습니다"
-          }
-        ],
-        "position": {
-          "line": 50,
-          "endLine": 50
-        }
-      },
-      "blocks": [
-        {
-          "type": "element",
-          "tag": "blockquote",
-          "children": [
-            {
-              "type": "element",
-              "tag": "p",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "다음 사람이 이해할 수 있을 만큼,"
-                },
-                {
-                  "type": "text",
-                  "value": "\n"
-                },
-                {
-                  "type": "text",
-                  "value": "지금 알고 있는 것을 적습니다."
-                }
-              ],
-              "position": {
-                "line": 52,
-                "endLine": 53
-              }
-            }
-          ],
-          "position": {
-            "line": 52,
-            "endLine": 53
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "가상 워크숍의 안내 문장입니다."
-            }
-          ],
-          "position": {
-            "line": 55,
-            "endLine": 55
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "긴 설명은 읽기 화면에서 전체 내용을 확인하고 발표가 넘치면 원고를 직접 나눕니다."
-            }
-          ],
-          "position": {
-            "line": 57,
-            "endLine": 57
-          }
-        }
-      ],
-      "origin": {
-        "line": 50,
-        "endLine": 57
-      }
-    },
-    {
-      "layout": "blocks",
-      "title": "다음 학습으로 연결합니다",
-      "heading": {
-        "type": "element",
-        "tag": "h1",
-        "children": [
-          {
-            "type": "text",
-            "value": "다음 학습으로 연결합니다"
-          }
-        ],
-        "position": {
-          "line": 61,
-          "endLine": 61
+          "line": 90,
+          "endLine": 90
         }
       },
       "blocks": [
@@ -652,24 +633,24 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 63,
-                        "endLine": 63
+                        "line": 92,
+                        "endLine": 92
                       }
                     },
                     {
                       "type": "text",
-                      "value": "를 확인합니다."
+                      "value": "를 따라 보이는 단서를 먼저 표시합니다."
                     }
                   ],
                   "position": {
-                    "line": 63,
-                    "endLine": 63
+                    "line": 92,
+                    "endLine": 92
                   }
                 }
               ],
               "position": {
-                "line": 63,
-                "endLine": 63
+                "line": 92,
+                "endLine": 92
               }
             },
             {
@@ -693,24 +674,24 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 64,
-                        "endLine": 64
+                        "line": 93,
+                        "endLine": 93
                       }
                     },
                     {
                       "type": "text",
-                      "value": "로 돌아갑니다."
+                      "value": "의 장면으로 돌아가 질문을 붙입니다."
                     }
                   ],
                   "position": {
-                    "line": 64,
-                    "endLine": 64
+                    "line": 93,
+                    "endLine": 93
                   }
                 }
               ],
               "position": {
-                "line": 64,
-                "endLine": 64
+                "line": 93,
+                "endLine": 93
               }
             },
             {
@@ -721,6 +702,10 @@ window.PRESENTATION = {
                   "type": "element",
                   "tag": "p",
                   "children": [
+                    {
+                      "type": "text",
+                      "value": "외부 자료는 "
+                    },
                     {
                       "type": "element",
                       "tag": "a",
@@ -734,30 +719,86 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 65,
-                        "endLine": 65
+                        "line": 94,
+                        "endLine": 94
                       }
                     },
                     {
                       "type": "text",
-                      "value": "처럼 외부 자료는 링크로 남깁니다."
+                      "value": "처럼 원문 링크로 남깁니다."
                     }
                   ],
                   "position": {
-                    "line": 65,
-                    "endLine": 65
+                    "line": 94,
+                    "endLine": 94
                   }
                 }
               ],
               "position": {
-                "line": 65,
-                "endLine": 66
+                "line": 94,
+                "endLine": 94
               }
             }
           ],
           "position": {
-            "line": 63,
-            "endLine": 66
+            "line": 92,
+            "endLine": 94
+          }
+        }
+      ],
+      "origin": {
+        "line": 90,
+        "endLine": 94
+      }
+    },
+    {
+      "layout": "blocks",
+      "title": "다음 장면에서, 다시 묻습니다.",
+      "heading": {
+        "type": "element",
+        "tag": "h1",
+        "children": [
+          {
+            "type": "text",
+            "value": "다음 장면에서, "
+          },
+          {
+            "type": "element",
+            "tag": "strong",
+            "children": [
+              {
+                "type": "text",
+                "value": "다시 묻습니다."
+              }
+            ],
+            "position": {
+              "line": 102,
+              "endLine": 102
+            }
+          },
+          {
+            "type": "text",
+            "value": ""
+          }
+        ],
+        "position": {
+          "line": 102,
+          "endLine": 102
+        }
+      },
+      "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "정답 하나보다 함께 확인할 질문 하나를 가져가세요."
+            }
+          ],
+          "position": {
+            "line": 104,
+            "endLine": 104
           }
         },
         {
@@ -765,37 +806,36 @@ window.PRESENTATION = {
           "tag": "p",
           "children": [
             {
-              "type": "text",
-              "value": "새 주제도 폴더와 "
-            },
-            {
               "type": "element",
-              "tag": "code",
+              "tag": "a",
+              "attrs": {
+                "href": "https://github.com/OU9999/stage-presentation-kit/blob/main/assets/CREDITS.md"
+              },
               "children": [
                 {
                   "type": "text",
-                  "value": "slides.md"
+                  "value": "스톡 사진과 자체 제작 자료의 출처"
                 }
               ],
               "position": {
-                "line": 67,
-                "endLine": 67
+                "line": 106,
+                "endLine": 106
               }
-            },
-            {
-              "type": "text",
-              "value": "를 추가하면 같은 STAGE 스타일을 사용합니다."
             }
           ],
           "position": {
-            "line": 67,
-            "endLine": 67
+            "line": 106,
+            "endLine": 106
           }
         }
       ],
       "origin": {
-        "line": 61,
-        "endLine": 67
+        "line": 98,
+        "endLine": 106
+      },
+      "tone": "purple",
+      "view": {
+        "compose": "closing"
       }
     }
   ]

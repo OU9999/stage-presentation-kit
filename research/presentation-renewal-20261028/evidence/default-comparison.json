@@ -1,0 +1,23 @@
+{
+  "sameAuthoredBody": true,
+  "fixtures": [
+    {
+      "case": "message",
+      "bodySha256": "6c472045076f899cbbca3d606b9b058d074d17b0ef3a0f293fcf9aa80b38d8f6",
+      "url": "research/presentation-renewal-20261028/evidence/controlled/message/plain/index.html",
+      "before": "research/design-system-reaudit-20261028/evidence/controlled/message-plain.png"
+    },
+    {
+      "case": "image",
+      "bodySha256": "63191db1b6bcf799aec98cd9874a65b31f07141d979d9a90db4eaf454f29110f",
+      "url": "research/presentation-renewal-20261028/evidence/controlled/image/plain/index.html",
+      "before": "research/design-system-reaudit-20261028/evidence/controlled/image-plain.png"
+    }
+  ],
+  "runtime": {
+    "blocks.css": "2a4d6f9f0005ede94aa13d3cd7337a6f2ae8187e6890aa0ec4603cc63f220df2",
+    "blocks.js": "8072e64dae0732ca398e5aff24d5aa737846b454044d0a7ee420b7105b9300a7",
+    "app.js": "b1de008b227c0a7125f9e937a32134a53c880e2050512a5e8d77cb8caea06316",
+    "deck-model.js": "8edd4300080c79eb85fe5f30562b8cfd2515e69d3759ea8fc6eddc40c7cfec1d"
+  }
+}

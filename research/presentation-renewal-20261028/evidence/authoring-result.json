@@ -1,0 +1,41 @@
+{
+  "isolatedProject": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-renewal-authoring-0Ds2Cc",
+  "configPath": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-renewal-authoring-0Ds2Cc/stage.config.json",
+  "edits": [
+    {
+      "from": "작은 관찰에서, **다음 행동으로.**",
+      "to": "다음 발표에서는, **질문부터.**"
+    },
+    {
+      "from": "../../assets/photos/write.jpg",
+      "to": "../../assets/photos/capture.jpg"
+    },
+    {
+      "from": "야외 테이블에서 노트에 쓰는 인물을 담은 스톡 사진",
+      "to": "휴대폰으로 장면을 기록하는 인물의 스톡 사진"
+    },
+    {
+      "from": "기록하는 장면 · LinkedIn Sales Navigator / Pexels",
+      "to": "기록하는 장면 · Andrea Piacquadio / Pexels"
+    },
+    {
+      "from": "| 결과 확인 | 완료 상태를 다시 질문함 | 상태 문구 비교하기 |",
+      "to": "| 결과 확인 | 완료 상태를 다시 질문함 | 상태 문구 비교하기 |\n| 다시 찾기 | 지난 기록의 위치를 물음 | 검색 이름 함께 읽기 |"
+    },
+    {
+      "from": "**24** 개",
+      "to": "**31** 개"
+    },
+    {
+      "from": "작게 바꾸고, **다시 봅니다.**",
+      "to": "질문을 남기고, **함께 확인합니다.**"
+    }
+  ],
+  "sourceOnlyEdits": true,
+  "originalSha256": "6b8e3dfcfb9837a34ad30681f902320fa3bc014d13855bd49ffe4dc670c2a3ce",
+  "editedSha256": "c60bebe29a2204978ddf6e693adb13cd1298828632c7a0f4c4eb0d25da7dce72",
+  "outputChanged": true,
+  "originalExamplesUnchanged": true,
+  "lastGoodOutputPreservedOnMissingAsset": true,
+  "slides": 8
+}

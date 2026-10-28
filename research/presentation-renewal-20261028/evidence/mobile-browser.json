@@ -1,0 +1,113 @@
+{
+  "decks": [
+    {
+      "mode": "read",
+      "width": 390,
+      "scrollWidth": 390,
+      "activeTop": 92.15625,
+      "headerBottom": 70,
+      "images": [
+        {
+          "alt": "야외 테이블에서 노트에 쓰는 인물을 담은 스톡 사진",
+          "fit": "contain",
+          "ratio": 1.4995579133510168,
+          "naturalRatio": 1.499531396438613,
+          "ok": true
+        },
+        {
+          "alt": "관찰과 다음 행동을 정리한 자체 제작 가상 보고서",
+          "fit": "contain",
+          "ratio": 1.3333333333333333,
+          "naturalRatio": 1.3333333333333333,
+          "ok": true
+        }
+      ],
+      "editable": 0,
+      "storage": [],
+      "errors": [],
+      "slug": "product-notes",
+      "semanticTextMatches": true
+    },
+    {
+      "mode": "read",
+      "width": 390,
+      "scrollWidth": 390,
+      "activeTop": 92.0390625,
+      "headerBottom": 70,
+      "images": [
+        {
+          "alt": "산과 숲이 호수를 둘러싼 풍경 스톡 사진",
+          "fit": "contain",
+          "ratio": 1.4842473745624272,
+          "naturalRatio": 1.484230055658627,
+          "ok": true
+        },
+        {
+          "alt": "휴대폰을 들고 장면을 기록하는 인물의 스톡 사진",
+          "fit": "contain",
+          "ratio": 1.4995579133510168,
+          "naturalRatio": 1.499531396438613,
+          "ok": true
+        },
+        {
+          "alt": "헤드폰을 쓰고 노트북 앞에 앉은 인물의 스톡 사진",
+          "fit": "contain",
+          "ratio": 0.667508486528149,
+          "naturalRatio": 0.6675010429703796,
+          "ok": true
+        },
+        {
+          "alt": "노트에 글을 쓰는 인물의 스톡 사진",
+          "fit": "contain",
+          "ratio": 1.4995579133510168,
+          "naturalRatio": 1.499531396438613,
+          "ok": true
+        },
+        {
+          "alt": "산과 호수를 넓게 담은 풍경 스톡 사진",
+          "fit": "contain",
+          "ratio": 1.4842473745624272,
+          "naturalRatio": 1.484230055658627,
+          "ok": true
+        },
+        {
+          "alt": "한쪽 눈 앞에 돋보기를 댄 인물의 스톡 사진",
+          "fit": "contain",
+          "ratio": 1.4995579133510168,
+          "naturalRatio": 1.499531396438613,
+          "ok": true
+        },
+        {
+          "alt": "도시 거리에서 갈색 옷을 입고 선 인물의 스톡 사진",
+          "fit": "contain",
+          "ratio": 0.667508486528149,
+          "naturalRatio": 0.6675010429703796,
+          "ok": true
+        },
+        {
+          "alt": "한쪽 눈 앞에 돋보기를 댄 인물의 스톡 사진",
+          "fit": "contain",
+          "ratio": 1.4995579133510168,
+          "naturalRatio": 1.499531396438613,
+          "ok": true
+        }
+      ],
+      "editable": 0,
+      "storage": [],
+      "errors": [],
+      "slug": "team-learning",
+      "semanticTextMatches": true
+    }
+  ],
+  "edge": {
+    "mode": "read",
+    "hash": "#21",
+    "width": 390,
+    "scrollWidth": 390,
+    "codeScroll": 2.5,
+    "warning": "경고18번 슬라이드 · research/presentation-renewal-20261028/evidence/edge-deck/slides.md:228사진별 focus 배열은 gallery/mosaic의 원순서 사진 수와 같아야 합니다. 사진 전체를 보존한 기본 문서로 표시합니다.경고19번 슬라이드 · research/presentation-renewal-20261028/evidence/edge-deck/slides.md:241선택한 gallery 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.경고20번 슬라이드 · research/presentation-renewal-20261028/evidence/edge-deck/slides.md:252선택한 editorial 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+    "imagesUncropped": true,
+    "errors": [],
+    "keyPreserved": true
+  }
+}

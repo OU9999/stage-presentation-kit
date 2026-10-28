@@ -1,0 +1,87 @@
+{
+  "checks": [
+    {
+      "number": 2,
+      "composition": "split",
+      "text": "답을 내기 전에, 장면을 남깁니다.기록하는 장면 · Andrea Piacquadio / Pexels어떤 일을 시작하려는지 묻습니다.멈춘 순간을 짧게 적습니다.해결책보다 실제 행동을 먼저 봅니다.",
+      "images": [
+        {
+          "src": "assets/2751c9fe1a7d-capture.jpg",
+          "alt": "휴대폰으로 장면을 기록하는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "45% 43%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 293.294677734375,
+            "width": 596.6558837890625,
+            "height": 457.46533203125,
+            "right": 721.9358825683594,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "overflow": [],
+      "errors": [],
+      "failures": []
+    },
+    {
+      "number": 3,
+      "composition": "document",
+      "text": "관찰과 다음 행동을 구분합니다.장면가상 검토에서 남긴 관찰다음에 확인할 일설정 찾기메뉴를 두 번 오감이름을 쉽게 바꾸기결과 확인완료 상태를 다시 질문함상태 문구 비교하기다시 찾기지난 기록의 위치를 물음검색 이름 함께 읽기설명을 위한 가상 기록입니다. 사진 속 인물의 행동을 조사한 결과가 아닙니다.",
+      "images": [],
+      "overflow": [],
+      "errors": [],
+      "failures": []
+    },
+    {
+      "number": 4,
+      "composition": "editorial",
+      "text": "기록을, 결정할 수 있는 모양으로.함께 읽을 한 장한 장에 묶은 관찰 · 자체 제작 가상 문서남겨 둔 관찰31 개장면을 다시 찾을 기록입니다.다음에 확인할 행동2 개이름과 상태 문구를 확인합니다.가상 수치 · 서로 다른 작업 단위 · 전환율이나 성과가 아닙니다.",
+      "images": [
+        {
+          "src": "assets/1c6df0654172-report.svg",
+          "alt": "관찰과 다음 행동을 정리한 자체 제작 가상 보고서",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 353.6893615722656,
+            "width": 786.239990234375,
+            "height": 397.0706481933594,
+            "right": 911.5199890136719,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "overflow": [],
+      "errors": [],
+      "failures": []
+    },
+    {
+      "number": 8,
+      "composition": "closing",
+      "text": "질문을 남기고, 함께 확인합니다.다음 검토에서는 같은 장면과 같은 질문으로 돌아옵니다.사진·자체 제작 자료의 출처",
+      "images": [],
+      "overflow": [],
+      "errors": [],
+      "failures": []
+    }
+  ],
+  "liveEdit": {
+    "title": "함께 읽는 발표에서는, 질문부터.",
+    "hash": "#1",
+    "authoring": "markdown",
+    "storage": [],
+    "errors": [],
+    "revision": "2267b94db4984c2cfceb7e9198f49fd6c3abb783b49e4e3cc415d5fc18031f46"
+  },
+  "sourceShaBefore": "c60bebe29a2204978ddf6e693adb13cd1298828632c7a0f4c4eb0d25da7dce72",
+  "sourceShaAfter": "2267b94db4984c2cfceb7e9198f49fd6c3abb783b49e4e3cc415d5fc18031f46",
+  "originalSourceUnchanged": true
+}
