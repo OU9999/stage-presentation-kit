@@ -1,0 +1,49 @@
+{
+  "baseline": "ccb25ed",
+  "temporaryRoot": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-structure-audit-hnMkeX",
+  "externalProject": {
+    "cli": "2개 발표 생성: /private/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-structure-audit-hnMkeX/first project/site",
+    "decks": 2,
+    "slides": 4,
+    "nestedFolder": true,
+    "sourceOwnedAssets": true,
+    "sameBasenameDifferentAssets": true,
+    "crossDeckLinks": true,
+    "allHtmlReferencesLocal": true,
+    "runtimeFiles": 7
+  },
+  "movedProject": {
+    "byteIdenticalRebuild": true,
+    "files": 19
+  },
+  "editIsolation": {
+    "firstDeckSourceAndAssetEdited": true,
+    "secondDeckBytesUnchanged": true
+  },
+  "splitBuild": {
+    "cli": "> stage-presentation-kit@1.0.0 build\n> node scripts/stage.cjs build --config /var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-structure-audit-hnMkeX/moved project/stage.config.json\n\n2개 발표 생성: /private/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-structure-audit-hnMkeX/moved project/site",
+    "newMarkdownRuntimeUpdated": true,
+    "newMarkdownHtmlHashUpdated": true,
+    "standaloneRuntimeCopiesLeftOld": [
+      "visual-starter",
+      "text-layout"
+    ],
+    "rootHtmlHashLeftOld": true,
+    "oldHash": "b513e16205a1",
+    "newHash": "0759819201de",
+    "exampleCommandRefreshesCopies": true,
+    "rootHtmlHashStillOldAfterBothCommands": true
+  },
+  "showcaseSourceFolderCopy": {
+    "sourceOnlyError": "talks/photo-essay/slides.md:23: 참조 파일이 없습니다 (../../assets/photos/capture.jpg)",
+    "afterSharedAssetsError": "talks/photo-essay/slides.md:96: 참조 파일이 없습니다 (../team-learning/reading.txt)",
+    "independentStarter": false,
+    "interpretation": "Showcase dependencies are intentional; a source-only standalone starter is not provided by this example."
+  },
+  "templateCoupling": {
+    "rootReplacedWithCollectionLanding": true,
+    "markdownBuildExit": 1,
+    "error": "발표 template에 helpDialog가 없습니다.",
+    "lastGoodOutputPreserved": true
+  }
+}

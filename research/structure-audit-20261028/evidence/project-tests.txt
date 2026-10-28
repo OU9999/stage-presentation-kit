@@ -1,0 +1,16 @@
+✔ STAGE project keeps two decks, semantic content and assets inside the output root (38.45875ms)
+✔ STAGE project preserves the complete successful output on parser, model, asset and identity errors (38.45625ms)
+✔ STAGE nested decks use relative collection/runtime/read URLs and retain explicit legacy media (9.757167ms)
+✔ STAGE refuses existing non-generated directories, overlapping output and symlinked source (2.467375ms)
+✔ STAGE restores the previous collection when publication rename fails and cleans staging (13.918667ms)
+✔ STAGE generated project rebuilds after the whole project moves (17.4985ms)
+✔ STAGE dev watches both source files when identical assets share one generated URL (380.919458ms)
+✔ STAGE dev serves only output, injects reload into HTML, rebuilds and recovers an external missing asset (3294.79925ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3927.011334

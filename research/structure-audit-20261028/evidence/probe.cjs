@@ -1,0 +1,45 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),cp=require('node:child_process'),crypto=require('node:crypto'),vm=require('node:vm'),assert=require('node:assert/strict');
+const repo=path.resolve(__dirname,'../../..'),base=fs.mkdtempSync(path.join(os.tmpdir(),'stage-structure-audit-')),result={baseline:'ccb25ed',temporaryRoot:base};
+const runtime=['styles.css','visual.css','blocks.css','deck-model.js','visual.js','blocks.js','app.js'];
+const sha=value=>crypto.createHash('sha256').update(value).digest('hex'),read=p=>fs.readFileSync(p,'utf8');
+const write=(file,value)=>{fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,value);return file;};
+const walk=folder=>fs.readdirSync(folder,{withFileTypes:true}).flatMap(x=>x.isDirectory()?walk(path.join(folder,x.name)):[path.join(folder,x.name)]);
+const snapshot=folder=>Object.fromEntries(walk(folder).sort().map(file=>[path.relative(folder,file),sha(fs.readFileSync(file))]));
+const deck=file=>{const scope={window:{}};vm.runInNewContext(read(file),scope);return JSON.parse(JSON.stringify(scope.window.PRESENTATION));};
+const run=(executable,args,cwd)=>{const r=cp.spawnSync(executable,args,{cwd,encoding:'utf8'});assert.equal(r.status,0,r.stderr||r.stdout);return r.stdout.trim();};
+const project=path.join(base,'first project'),config=write(path.join(project,'stage.config.json'),JSON.stringify({title:'별도 발표 프로젝트',sourceDir:'talks',outputDir:'site'}));
+const firstSource='---\ntitle: 첫 발표\n---\n\n# 다른 곳에서 쓰는 발표\n\n![A의 그림](./assets/cover.svg "A 자료")\n\n[다음 발표](../sessions/beta/slides.md#2)\n\n---\n\n<!-- stage-slide\ncompose: bento\n-->\n\n'+Array.from({length:5},(_,i)=>'## 자료 '+(i+1)+'\n\n자료 '+(i+1)+'의 설명입니다.').join('\n\n');
+const secondSource='---\ntitle: 두 번째 발표\n---\n\n<!-- stage-slide\ncompose: icon-wall\nicons: [search, code, book, check, share]\n-->\n# 함께 할 일\n\n- 살피기\n- 만들기\n- 읽기\n- 확인하기\n- 나누기\n\n---\n\n# 두 번째 자료\n\n![B의 그림](./assets/cover.svg "B 자료")\n\n[앞 발표](../../alpha/slides.md#2) · [첨부](./guide.txt)';
+write(path.join(project,'talks/alpha/slides.md'),firstSource);write(path.join(project,'talks/sessions/beta/slides.md'),secondSource);
+write(path.join(project,'talks/alpha/assets/cover.svg'),'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="20" fill="blue"/></svg>');
+write(path.join(project,'talks/sessions/beta/assets/cover.svg'),'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect x="12" y="12" width="40" height="40" fill="orange"/></svg>');
+write(path.join(project,'talks/sessions/beta/guide.txt'),'두 번째 발표의 첨부입니다.');
+result.externalProject={cli:run(process.execPath,[path.join(repo,'scripts/stage.cjs'),'build','--config',config],project)};
+let output=path.join(project,'site'),a=deck(path.join(output,'alpha/content.js')),b=deck(path.join(output,'sessions/beta/content.js'));
+assert.equal(a.slides.length,2);assert.equal(b.slides.length,2);assert.equal(a.slides[1].view.compose,'bento');assert.equal(b.slides[0].view.compose,'icon-wall');
+assert(JSON.stringify(a).includes('../sessions/beta/read.html#2'));assert(JSON.stringify(b).includes('../../alpha/read.html#2'));
+assert.notEqual(fs.readdirSync(path.join(output,'alpha/assets'))[0],fs.readdirSync(path.join(output,'sessions/beta/assets')).find(x=>x.endsWith('.svg')));
+assert.equal(fs.readdirSync(path.join(output,'_runtime')).length,7);
+for(const file of walk(output).filter(x=>x.endsWith('.html')))for(const match of read(file).matchAll(/(?:href|src)="([^"]+)"/g)){const value=match[1];if(/^(?:[a-z][a-z0-9+.-]*:|#|\/\/)/i.test(value))continue;assert(fs.existsSync(path.resolve(path.dirname(file),decodeURIComponent(value.split(/[?#]/)[0]))),file+' '+value);}
+result.externalProject={...result.externalProject,decks:2,slides:4,nestedFolder:true,sourceOwnedAssets:true,sameBasenameDifferentAssets:true,crossDeckLinks:true,allHtmlReferencesLocal:true,runtimeFiles:7};
+const beforeMove=snapshot(output),moved=path.join(base,'moved project');fs.renameSync(project,moved);const movedConfig=path.join(moved,'stage.config.json');output=path.join(moved,'site');
+run(process.execPath,[path.join(repo,'scripts/stage.cjs'),'build','--config',movedConfig],moved);assert.deepEqual(snapshot(output),beforeMove);result.movedProject={byteIdenticalRebuild:true,files:Object.keys(beforeMove).length};
+const betaBefore=snapshot(path.join(output,'sessions/beta'));write(path.join(moved,'talks/alpha/slides.md'),firstSource.replace('다른 곳에서 쓰는 발표','내용을 바꾼 새로운 발표'));write(path.join(moved,'talks/alpha/assets/cover.svg'),read(path.join(moved,'talks/alpha/assets/cover.svg')).replace('blue','green'));
+run(process.execPath,[path.join(repo,'scripts/stage.cjs'),'build','--config',movedConfig],moved);assert.deepEqual(snapshot(path.join(output,'sessions/beta')),betaBefore);result.editIsolation={firstDeckSourceAndAssetEdited:true,secondDeckBytesUnchanged:true};
+// Exercise the actual npm build in an isolated copy of the kit.
+const kit=path.join(base,'kit');fs.mkdirSync(kit,{recursive:true});for(const name of [...runtime,'index.html','package.json'])fs.copyFileSync(path.join(repo,name),path.join(kit,name));fs.cpSync(path.join(repo,'scripts'),path.join(kit,'scripts'),{recursive:true});fs.cpSync(path.join(repo,'examples'),path.join(kit,'examples'),{recursive:true});fs.cpSync(path.join(repo,'assets'),path.join(kit,'assets'),{recursive:true});fs.symlinkSync(path.join(repo,'node_modules'),path.join(kit,'node_modules'),'dir');
+const originalCss=read(path.join(kit,'blocks.css')),changedCss=originalCss+'\n/* isolated synchronization probe */\n',newHash=sha(changedCss).slice(0,12),oldHash=sha(originalCss).slice(0,12);write(path.join(kit,'blocks.css'),changedCss);
+result.splitBuild={cli:run('npm',['run','build','--','--config',movedConfig],kit)};
+assert.equal(read(path.join(output,'_runtime/blocks.css')),changedCss);assert(read(path.join(output,'alpha/index.html')).includes('blocks.css?v='+newHash));
+const standalone=['visual-starter','text-layout'];for(const name of standalone)assert.equal(read(path.join(kit,'examples',name,'runtime/blocks.css')),originalCss);
+assert(read(path.join(kit,'index.html')).includes('blocks.css?v='+oldHash));
+result.splitBuild={...result.splitBuild,newMarkdownRuntimeUpdated:true,newMarkdownHtmlHashUpdated:true,standaloneRuntimeCopiesLeftOld:standalone,rootHtmlHashLeftOld:true,oldHash,newHash};
+run(process.execPath,[path.join(kit,'scripts/build-examples.cjs')],kit);for(const name of standalone)assert.equal(read(path.join(kit,'examples',name,'runtime/blocks.css')),changedCss);
+assert(read(path.join(kit,'index.html')).includes('blocks.css?v='+oldHash));result.splitBuild.exampleCommandRefreshesCopies=true;result.splitBuild.rootHtmlHashStillOldAfterBothCommands=true;
+// Existing showcase source folders deliberately refer to shared assets and other decks.
+const subset=path.join(base,'source-subset'),subsetConfig=write(path.join(subset,'stage.config.json'),JSON.stringify({sourceDir:'talks',outputDir:'site'}));fs.cpSync(path.join(repo,'talks/photo-essay'),path.join(subset,'talks/photo-essay'),{recursive:true});
+const {buildProject}=require(path.join(repo,'scripts/stage.cjs'));let firstError,secondError;try{buildProject({configPath:subsetConfig,repoRoot:repo});}catch(error){firstError=error.message;}assert(firstError?.includes('참조 파일이 없습니다'));
+fs.cpSync(path.join(repo,'assets'),path.join(subset,'assets'),{recursive:true});try{buildProject({configPath:subsetConfig,repoRoot:repo});}catch(error){secondError=error.message;}assert(secondError?.includes('../team-learning/reading.txt'));
+result.showcaseSourceFolderCopy={sourceOnlyError:firstError,afterSharedAssetsError:secondError,independentStarter:false,interpretation:'Showcase dependencies are intentional; a source-only standalone starter is not provided by this example.'};
+fs.writeFileSync(path.join(__dirname,'probes.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));

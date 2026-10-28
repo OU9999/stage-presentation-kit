@@ -1,0 +1,346 @@
+{
+  "head": "ccb25ed79a2684c5be8aaa6924724b0180952581",
+  "trackedFiles": 1338,
+  "trackedBytes": 197968779,
+  "groups": {
+    "(root)": {
+      "files": 26,
+      "bytes": 1208614
+    },
+    "assets": {
+      "files": 18,
+      "bytes": 2121687
+    },
+    "examples": {
+      "files": 54,
+      "bytes": 3434810
+    },
+    "output": {
+      "files": 7,
+      "bytes": 11590314
+    },
+    "presentations": {
+      "files": 48,
+      "bytes": 4614225
+    },
+    "research": {
+      "files": 1156,
+      "bytes": 174748908
+    },
+    "scripts": {
+      "files": 5,
+      "bytes": 69284
+    },
+    "talks": {
+      "files": 9,
+      "bytes": 15517
+    },
+    "tests": {
+      "files": 15,
+      "bytes": 165420
+    }
+  },
+  "runtime": [
+    {
+      "file": "app.js",
+      "bytes": 77996,
+      "lines": 1384
+    },
+    {
+      "file": "blocks.js",
+      "bytes": 23518,
+      "lines": 354
+    },
+    {
+      "file": "deck-model.js",
+      "bytes": 46323,
+      "lines": 560
+    },
+    {
+      "file": "visual.js",
+      "bytes": 29597,
+      "lines": 406
+    },
+    {
+      "file": "styles.css",
+      "bytes": 90612,
+      "lines": 1080
+    },
+    {
+      "file": "visual.css",
+      "bytes": 19547,
+      "lines": 104
+    },
+    {
+      "file": "blocks.css",
+      "bytes": 30873,
+      "lines": 292
+    }
+  ],
+  "decks": [
+    {
+      "name": "community-exhibit",
+      "slides": 9,
+      "refs": [
+        {
+          "kind": "image",
+          "value": "../../assets/photos/write.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/examples/poster.svg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/write.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/examples/poster.svg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/stage/shape-study.svg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/examples/report.svg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "link",
+          "value": "../product-notes/checklist.txt",
+          "dependency": "another-deck"
+        },
+        {
+          "kind": "image",
+          "value": "./icons/look.svg",
+          "dependency": "own"
+        },
+        {
+          "kind": "image",
+          "value": "./icons/ask.svg",
+          "dependency": "own"
+        },
+        {
+          "kind": "image",
+          "value": "./icons/leave-note.svg",
+          "dependency": "own"
+        },
+        {
+          "kind": "link",
+          "value": "../photo-essay/slides.md#6",
+          "dependency": "another-deck"
+        },
+        {
+          "kind": "link",
+          "value": "https://github.com/OU9999/stage-presentation-kit/blob/main/assets/CREDITS.md",
+          "dependency": "remote-or-anchor"
+        }
+      ]
+    },
+    {
+      "name": "photo-essay",
+      "slides": 8,
+      "refs": [
+        {
+          "kind": "image",
+          "value": "../../assets/photos/capture.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/listen.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/write.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/observe.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/portrait-one.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/portrait-two.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/capture.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/listen.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/write.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/landscape.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/landscape.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/capture.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/listen.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/write.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/observe.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/portrait-two.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "link",
+          "value": "../team-learning/reading.txt",
+          "dependency": "another-deck"
+        },
+        {
+          "kind": "link",
+          "value": "../community-exhibit/slides.md",
+          "dependency": "another-deck"
+        },
+        {
+          "kind": "link",
+          "value": "https://github.com/OU9999/stage-presentation-kit/blob/main/assets/CREDITS.md",
+          "dependency": "remote-or-anchor"
+        }
+      ]
+    },
+    {
+      "name": "product-notes",
+      "slides": 8,
+      "refs": [
+        {
+          "kind": "image",
+          "value": "../../assets/photos/write.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/examples/report.svg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "link",
+          "value": "./checklist.txt",
+          "dependency": "own"
+        },
+        {
+          "kind": "link",
+          "value": "../team-learning/slides.md",
+          "dependency": "another-deck"
+        },
+        {
+          "kind": "link",
+          "value": "https://github.com/OU9999/stage-presentation-kit/blob/main/assets/CREDITS.md",
+          "dependency": "remote-or-anchor"
+        }
+      ]
+    },
+    {
+      "name": "team-learning",
+      "slides": 8,
+      "refs": [
+        {
+          "kind": "image",
+          "value": "../../assets/photos/landscape.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/capture.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/listen.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/write.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/landscape.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/observe.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/portrait-two.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "image",
+          "value": "../../assets/photos/observe.jpg",
+          "dependency": "shared-assets"
+        },
+        {
+          "kind": "link",
+          "value": "./reading.txt",
+          "dependency": "own"
+        },
+        {
+          "kind": "link",
+          "value": "../product-notes/slides.md#2",
+          "dependency": "another-deck"
+        },
+        {
+          "kind": "link",
+          "value": "https://www.markdownguide.org/basic-syntax/",
+          "dependency": "remote-or-anchor"
+        },
+        {
+          "kind": "link",
+          "value": "https://github.com/OU9999/stage-presentation-kit/blob/main/assets/CREDITS.md",
+          "dependency": "remote-or-anchor"
+        }
+      ]
+    }
+  ]
+}
