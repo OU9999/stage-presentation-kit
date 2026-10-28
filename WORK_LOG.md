@@ -1,6 +1,6 @@
 # STAGE 작업 로그
 
-## 현재 개선 — 2026-10-28 공부 자료·대본·정보 모음과 스타일 재작업
+## 개선 완료 — 2026-10-28 공부 자료·대본·정보 모음과 스타일 재작업
 
 - 사용자 교정: 12장 발표와 txt 첨부만으로는 짧고 정보가 부족하다고 평가했다. 발표와 별개로 깊이 있는 공부 자료·대본·정보 모음집을 요구하고 스타일 문제 판단을 디자인팀에 맡겼다. 직전 완성 판정은 새 학습/디자인 요구를 충족했다는 뜻으로 재사용하지 않는다.
 - 기준: main4c2e2fa, 시작clean, fetch/pull 최신확인. 중단시 실행중writer/명령없음을 대조했다. 기존엔지니어링manager와실무2명은completed, 다른이전manager는현재목록에없다. 기존TaskSpace76은finished/user소유라조작하지않는다.
@@ -21,7 +21,9 @@
 - 엔지니어링최종완료: 기존manager/실무A(stage통합·취합)/B(11회귀·일반작성안내)가직접교차검토·24대상검사각통과후전원writer종료했다. manager가실제14장/자료5·이동후22출력동일·자료/전체338/370참조·check차이0·바이트/mtime비수정·현재source revision일치를독립재실행했다. 같은runtime/config조건에서기존4원고48출력이이전builder와같음을확인했다. 공통helper/template/CSS내용은root인계시와같다.
 - root후점검완료: build:site/verify:site·전체261/261통과. 실제생성14장currentrevision캡처/오류·본문넘침·진단0,Paper6·기존primary22/28·동등3열32/40·read39018/26을확인했다. 자료5개각1440/390원고text순서/누락0·source revision동일·본문18·body넘침0·JS0·모든codefocus·목차Enter·codeArrowRight통과. overview14/preview링크0·presenter양방향·발표→hub→guideToC→script→read14실이동과모바일header보존,인쇄코드줄바꿈/잘림0을확인했다.
 - 전달준비: 새심화자료/학습원문/대본·14장과스타일·공통재사용builder·안내/검수·전후화면보드를완성했다. 임시prototype HTML2폴더는제거했고새실화면/JSON만보관한다. 과거연구기록/다른원고는보존하며의도된공통CSS와cache hash만전체배포본에갱신했다. root가user재확정대로commit/push후Pages동일SHA/공개자료HTML본문/탐색과자산을검수한다.
-- 미완료: commit/push·Pages공개인수·최종검증기록전달.
+- 공개인수완료: 기능89954390a16d83c8ec357ad89d976a0652eb1b71을main에push했고Pagesrun40666224624동일SHA성공/APIbuilt확인. 공개61파일200/로컬바이트동일·14장revision동일/오류0·자료5개각1440/390전문순서누락0/18px/JS0/overflow0·목차Enter/codeArrowRight·발표→hub→guide→script→read14실이동과read39018/26을확인했다. 근거는새DEPLOYMENT/publicJSON/API에기록했다.
+- 종료·전달: TaskSpace84의계측p1을정리하고계측없는공개학습자료hub p4만남겨finish1회완료했다. 기존사용자76/서버4323을보존,모든팀writer종료유지. 모바일readPNG는viewport변경직후프레임대신layout안정/top91.8px조건으로다시확인해저장했고검수스크립트만교정했다. 제품은공개검수8995439와같고검증기록만후속commit/push한다. 관련manager에공개인수/편집종료유지를직접통보한다.
+- 미완료: 승인된자료·디자인·재사용기능·검증·기능push/공개인수에는없다. 기록후속커밋의원격/최신Pages동기화만직후확인해보고한다.
 
 ## 제작 완료 — 2026-10-28 LLM Wiki·지식 축적·출처·결정 기록
 

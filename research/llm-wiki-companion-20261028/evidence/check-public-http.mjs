@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+const repo=fileURLToPath(new URL('../../../',import.meta.url)),base='https://ou9999.github.io/stage-presentation-kit/';
+async function walk(p){return(await Promise.all((await fs.readdir(path.join(repo,p),{withFileTypes:true})).map(e=>e.isDirectory()?walk(p+'/'+e.name):p+'/'+e.name))).flat();}
+const old=['community-exhibit','photo-essay','product-notes','team-learning'];
+const legacy=['devday-compositions','engineering-review','photo-story','product-launch','text-layout','visual-starter','visual-story','workshop'];
+const files=[...await walk('presentations/llm-wiki'),...await walk('presentations/_runtime'),'presentations/index.html','presentations/manifest.json','index.html',...old.flatMap(n=>['index','read'].map(v=>'presentations/'+n+'/'+v+'.html')),...legacy.map(n=>'examples/'+n+'/index.html'),'examples/text-layout/runtime/blocks.css','examples/visual-starter/runtime/blocks.css','starters/markdown/presentations/_runtime/blocks.css','starters/markdown/presentations/my-talk/index.html','starters/markdown/presentations/my-talk/read.html','research/llm-wiki-companion-20261028/index.html',...Array.from({length:14},(_,i)=>'research/llm-wiki-companion-20261028/evidence/screens/slide-'+String(i+1).padStart(2,'0')+'.png'),'research/llm-wiki-20261028/evidence/screens/slide-03.png','research/llm-wiki-companion-20261028/evidence/screens/study-1440.png','research/llm-wiki-companion-20261028/evidence/screens/study-390.png'];
+const rows=[];for(let i=0;i<files.length;i+=8)rows.push(...await Promise.all(files.slice(i,i+8).map(async file=>{const r=await fetch(base+file+'?verify=8995439',{signal:AbortSignal.timeout(20000)}),bytes=Buffer.from(await r.arrayBuffer());return{file,status:r.status,type:r.headers.get('content-type'),bytes:bytes.length,sha256:crypto.createHash('sha256').update(bytes).digest('hex'),matches:bytes.equals(await fs.readFile(path.join(repo,file)))};})));
+await fs.writeFile(new URL('./public-http.json',import.meta.url),JSON.stringify({head:'89954390a16d83c8ec357ad89d976a0652eb1b71',checkedAt:new Date().toISOString(),rows},null,2)+'\n');console.log({files:rows.length,failed:rows.filter(r=>r.status!==200||!r.matches)});if(rows.some(r=>r.status!==200||!r.matches))process.exitCode=1;

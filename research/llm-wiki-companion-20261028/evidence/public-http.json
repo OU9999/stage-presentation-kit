@@ -1,0 +1,494 @@
+{
+  "head": "89954390a16d83c8ec357ad89d976a0652eb1b71",
+  "checkedAt": "2026-10-28T09:44:20.174Z",
+  "rows": [
+    {
+      "file": "presentations/llm-wiki/assets/07411af0788b-knowledge-map.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": 3422,
+      "sha256": "07411af0788bfcd8c06ff8c2b0fc026a16659892762aefb568248ee6b40cd109",
+      "matches": true
+    },
+    {
+      "file": "presentations/llm-wiki/assets/5efc5a198e7f-change-trace.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": 2906,
+      "sha256": "5efc5a198e7f6479ebced5f155635eeeefce5f409a8881ce28afcdd4b87b417f",
+      "matches": true
+    },
+    {
+      "file": "presentations/llm-wiki/assets/9de04be0b94d-wiki-layers.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": 2375,
+      "sha256": "9de04be0b94dbd0b736c6643068a5b09baba791ba960f5fb7f3215528fdd9dd8",
+      "matches": true
+    },
+    {
+      "file": "presentations/llm-wiki/content.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8",
+      "bytes": 61554,
+      "sha256": "32cc190d43a44eaf6930bfbf8e20fc8d480b9ef71d7b5ed181f960f17a1c1e10",
+      "matches": true
+    },
+    {
+      "file": "presentations/llm-wiki/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6704,
+      "sha256": "27a3a6ddacaceaa2f668a0596f8e3a749c5275593b9e46c99425382f77bf587b",
+      "matches": true
+    },
+    {
+      "file": "presentations/llm-wiki/materials/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7442,
+      "sha256": "bd6ad67fa76db44358dc58127a0b64d6d8fe1cad082a7c0ebc097f3329216d39",
+      "matches": true
+    },
+    {
+      "file": "presentations/llm-wiki/materials/reference-library.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 24165,
+      "sha256": "8dcdb30981be4c97c5785fcb04d3291b2a5ec323330ecdb4ef2f497f4ac2c3ee",
+      "matches": true
+    },
+    {
+      "file": "presentations/llm-wiki/materials/speaker-script.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 40473,
+      "sha256": "7a896a3859511a9e640a6399a313031311d1703851393adcf30db5b334a34642",
+      "matches": true
+    },
+    {
+      "file": "presentations/llm-wiki/materials/study-guide.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 70373,
+      "sha256": "1706e00142920271c91b4b2d96b2ea59773e3080d764b3cbf85c24f35eb19172",
+      "matches": true
+    },
+    {
+      "file": "presentations/llm-wiki/materials/workshop.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 35113,
+      "sha256": "56d91f26b0ba9297172a584e02985dde51be1ca1b8eea732d423bb30e08939b6",
+      "matches": true
+    },
+    {
+      "file": "presentations/llm-wiki/read.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6702,
+      "sha256": "084a5aa05e3e5386d27be24d04cfbecf7968a7ad915748ed4b956401c24a3e3a",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/app.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8",
+      "bytes": 77996,
+      "sha256": "720586ddf41431f78a8ab71dd54a6e4764fe971c4a892c70a3f59a0e5f204fc5",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/blocks.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "bytes": 31505,
+      "sha256": "53e410e9bb90c436482208f7e721a8fd2d3e4dc45bbda4b6d5c75c2753d4d355",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/blocks.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8",
+      "bytes": 23518,
+      "sha256": "6238a42a3298944a6d023cb81b3f73af9c6d3e038b1c8437c08b1fd307b5de32",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/deck-model.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8",
+      "bytes": 46323,
+      "sha256": "53f266e64e754e57bf06531df5e58a7333db9fb8c64a5f29d96bf69de4c428e2",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/materials.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "bytes": 10387,
+      "sha256": "1b61ac3b3119aa9aae8a080ea24e63eb0080abf0ce5749d469e2cf0977a0b702",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/styles.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "bytes": 90612,
+      "sha256": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/visual.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "bytes": 19547,
+      "sha256": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+      "matches": true
+    },
+    {
+      "file": "presentations/_runtime/visual.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8",
+      "bytes": 29597,
+      "sha256": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "matches": true
+    },
+    {
+      "file": "presentations/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 1804,
+      "sha256": "0131376fbd3b6f07915339a764ac080e2389964d2803e9e9994b1b8c685db9d9",
+      "matches": true
+    },
+    {
+      "file": "presentations/manifest.json",
+      "status": 200,
+      "type": "application/json; charset=utf-8",
+      "bytes": 3350,
+      "sha256": "45bec1c459ff9ec356992a4b7d02d2d70d9c775ab30043a8ac9f3601ed649466",
+      "matches": true
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7098,
+      "sha256": "eff5c5306677e2efa1fb120593614f0d28878ff82ef917969d39cf0cf2b807b3",
+      "matches": true
+    },
+    {
+      "file": "presentations/community-exhibit/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6698,
+      "sha256": "0c1008b198747b6ef71c8f3b8c7a550324ddded669e7d4f61509381893caab7b",
+      "matches": true
+    },
+    {
+      "file": "presentations/community-exhibit/read.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6696,
+      "sha256": "12d344459ea67f53266a5f59950884b910a80d2f22097e5c90758fc4b8722cfd",
+      "matches": true
+    },
+    {
+      "file": "presentations/photo-essay/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6691,
+      "sha256": "9b0c7bf3ade72c8bb5214601d95158a648d860217737233f582c7dd0d1580137",
+      "matches": true
+    },
+    {
+      "file": "presentations/photo-essay/read.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6689,
+      "sha256": "f2051b13c1d15f67a63281e57f41ebfd992b42409637656e2318278d16e3a571",
+      "matches": true
+    },
+    {
+      "file": "presentations/product-notes/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6697,
+      "sha256": "c41938f1f18293a658bc8ba7b2a4b9eefc1f80ba59b3b6557f5648d7e78768b2",
+      "matches": true
+    },
+    {
+      "file": "presentations/product-notes/read.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6695,
+      "sha256": "79806880785193d9f4ae07951c81c0f1cc1d4e07af4b0a152968dc5886d9ecd0",
+      "matches": true
+    },
+    {
+      "file": "presentations/team-learning/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6701,
+      "sha256": "fcac13b4754d18179b3a9e6bb9703b4062845c5f9d2fc494f6c000475492d4b2",
+      "matches": true
+    },
+    {
+      "file": "presentations/team-learning/read.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6699,
+      "sha256": "7b4de3005510c1de874fea9b1529293873eb9f67305924b3ecef8c1923f3852c",
+      "matches": true
+    },
+    {
+      "file": "examples/devday-compositions/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7304,
+      "sha256": "b3baec62ffd20f7c577f5e6ce0577ad6f37ec4f581ed1125286ddb312340c678",
+      "matches": true
+    },
+    {
+      "file": "examples/engineering-review/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7305,
+      "sha256": "4bd654576d7785b4f46b51ca82832ddc6d2a61204a3c6a701f1f8cdb3f3dd855",
+      "matches": true
+    },
+    {
+      "file": "examples/photo-story/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7311,
+      "sha256": "755f45916e823ca816caeb3c16f6c69036e49d33939122e71ac66f1db8490f6f",
+      "matches": true
+    },
+    {
+      "file": "examples/product-launch/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7281,
+      "sha256": "d4c60a96940120948dbba8dd90c09bf84d67eb184304d29a6831351ee2579dd9",
+      "matches": true
+    },
+    {
+      "file": "examples/text-layout/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7368,
+      "sha256": "ce33f62a37985d3bc6b35b3ad20f1168b981694bb91935686313b0a9c9df6dfe",
+      "matches": true
+    },
+    {
+      "file": "examples/visual-starter/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7378,
+      "sha256": "6fbb89a83c73a46e25c6ef05063fbd38593729be8487b64a735338035900a4f7",
+      "matches": true
+    },
+    {
+      "file": "examples/visual-story/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7401,
+      "sha256": "41466464eca66c5b283532db20df537a4ba51e651560a93c6fc7baa7c3c21dd1",
+      "matches": true
+    },
+    {
+      "file": "examples/workshop/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7298,
+      "sha256": "7c7834dc11de08a8378b67ac385febb5fc7cc2981a30aeaa11d42d7e22020ac3",
+      "matches": true
+    },
+    {
+      "file": "examples/text-layout/runtime/blocks.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "bytes": 31505,
+      "sha256": "53e410e9bb90c436482208f7e721a8fd2d3e4dc45bbda4b6d5c75c2753d4d355",
+      "matches": true
+    },
+    {
+      "file": "examples/visual-starter/runtime/blocks.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "bytes": 31505,
+      "sha256": "53e410e9bb90c436482208f7e721a8fd2d3e4dc45bbda4b6d5c75c2753d4d355",
+      "matches": true
+    },
+    {
+      "file": "starters/markdown/presentations/_runtime/blocks.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "bytes": 31505,
+      "sha256": "53e410e9bb90c436482208f7e721a8fd2d3e4dc45bbda4b6d5c75c2753d4d355",
+      "matches": true
+    },
+    {
+      "file": "starters/markdown/presentations/my-talk/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6693,
+      "sha256": "c2fb1a74aab635ee33c764bd5681b65f1a313c50afa1c6647523ae874ad3b445",
+      "matches": true
+    },
+    {
+      "file": "starters/markdown/presentations/my-talk/read.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6691,
+      "sha256": "782779b3f84e18378ced1df028a570a28d0f3448a93f39aede580d31203516fd",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7346,
+      "sha256": "915cbe961d47cf96b98f7854a126583201cd1e46ab09dc2d6fe61e61f67b2bf6",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-01.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 39877,
+      "sha256": "dbba3b97ff7e8baab3c8b89c42bf5fea4c50db7237a3e3f0764184a4380781dc",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-02.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 39595,
+      "sha256": "a2d57a871b32e13a7c320c555dd51b70af05522e8e63357bd2f0171b27664249",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-03.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 64376,
+      "sha256": "d0ed4162f358713441a4095c8f4f3f8e47fc4cca58477fe8ed7bbe8a79f0618c",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-04.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 83205,
+      "sha256": "e83d053efd834533e8016747846f9b686a6c824b11121ef47315b4555ec863cf",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-05.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 61552,
+      "sha256": "0abaab6f5c3301e83e418e30426c05f37de96f1ee46c7c6d5762d5bda4cbaebc",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-06.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 102422,
+      "sha256": "37d1ca8bda83927ffe44a50007412c96a805c06754ef7441f9f3625fac496f3a",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-07.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 65025,
+      "sha256": "f33643cb11f21ca07e0292863228aa126838943b3c39908e41ddc4f45c8814cd",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-08.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 64742,
+      "sha256": "02699a3eac4d9856b2ebb2ff4746572b9f35f873a0919de57afbc26c96b5c354",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-09.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 78485,
+      "sha256": "9a81fa2c680899b7a9e6b2bae20058778918bd5f2e6de85d0d6013737d81be50",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-10.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 68002,
+      "sha256": "05e3d32587b82e590e80edc0ab29d73251707b6089029c1f91447e2a4790eb91",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-11.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 79530,
+      "sha256": "c55b995a3142040ea84c7c5a50182b800bd53a5c05e8e7aba48aa3056896c83f",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-12.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 68959,
+      "sha256": "da55a89214439961d8b822407e4a980d8d52ca5384b5e18179f5be6457c6d1cb",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-13.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 73010,
+      "sha256": "a173bfa03697b2419c014e0dba93d340fcd72777eaa57777b2b56d977c2420e4",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/slide-14.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 38060,
+      "sha256": "fa4263babc03deec99812781d8fc37c66891571d3efef93ddebf912e2a05543e",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-20261028/evidence/screens/slide-03.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 68168,
+      "sha256": "eff6430dacc53759d0f5e61f50a870246bf1d78576d9bed6971c2a7b756c14b9",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/study-1440.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 245851,
+      "sha256": "b4011a078668e54dcfda0b1d31bb6216b9af5108365ec2b89676a22f4c00bc88",
+      "matches": true
+    },
+    {
+      "file": "research/llm-wiki-companion-20261028/evidence/screens/study-390.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 87444,
+      "sha256": "a1af21109178e4739a530e39ef600a3490c1589d2274ad480bade23eaaa41007",
+      "matches": true
+    }
+  ]
+}

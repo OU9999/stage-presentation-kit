@@ -1,0 +1,26 @@
+{
+  "spaceId": 84,
+  "keep": "p4",
+  "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/materials/index.html",
+  "revision": "4ea92522b61ff3d0d6ba855d7c95ae6fb6d1bdf2e3ac7d1f5da106e4b30288da",
+  "clean": true,
+  "scripts": 0,
+  "links": [
+    {
+      "text": "학습 가이드",
+      "href": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/materials/study-guide.html"
+    },
+    {
+      "text": "해설 있는 실습",
+      "href": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/materials/workshop.html"
+    },
+    {
+      "text": "장별 발표 대본",
+      "href": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/materials/speaker-script.html"
+    },
+    {
+      "text": "주제별 참고 자료",
+      "href": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/materials/reference-library.html"
+    }
+  ]
+}

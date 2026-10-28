@@ -1,0 +1,710 @@
+[
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#1",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "0",
+    "layout": "blocks",
+    "composition": "message",
+    "heading": "다음 주에도 이 답을 설명할 수 있나요?",
+    "headingSize": "118px",
+    "text": "다음 주에도 이 답을 설명할 수 있나요?답에서 근거로, 근거에서 다음 질문으로.RAG와 LoRA를 읽는 작은 AI 스터디",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 631.679931640625,
+      "right": 1314.7199401855469,
+      "bottom": 827.1999206542969
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "답에서 근거로, 근거에서 다음 질문으로.",
+        "color": "rgb(36, 168, 255)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#2",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "1",
+    "layout": "blocks",
+    "composition": "message",
+    "heading": "읽고 고치는 파일이 남습니다",
+    "headingSize": "118px",
+    "text": "읽고 고치는 파일이 남습니다LLM이 자료를 읽고, 연결된 Markdown 위키를 갱신합니다.실제 원문을 읽는 가상 스터디로 따라가 봅니다.Karpathy의 설계 아이디어 · LLM Wiki 원문",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 631.679931640625,
+      "right": 1314.7199401855469,
+      "bottom": 827.1999206542969
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#3",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "2",
+    "layout": "blocks",
+    "composition": "media",
+    "heading": "원자료는 보존, 설명은 갱신",
+    "headingSize": "54px",
+    "text": "원자료는 보존, 설명은 갱신schema는 작업법을 정합니다. 규칙이 실제로 지켜졌는지는 결과에서 확인합니다. 설계 원문",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "assets/9de04be0b94d-wiki-layers.svg",
+        "alt": "원자료에서 연결된 위키를 갱신합니다. schema는 이 흐름의 옆에서 보존·근거·검토 방법을 정하는 작업 규칙입니다.",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 450,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 275.14935302734375,
+          "width": 1189.43994140625,
+          "height": 467.04656982421875,
+          "right": 1314.7199401855469,
+          "bottom": 742.1959228515625
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#4",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "3",
+    "layout": "blocks",
+    "composition": "editorial",
+    "heading": "세 원문에서, 읽기 메모로",
+    "headingSize": "64px",
+    "text": "세 원문에서, 읽기 메모로RAG · §2검색한 문서를 답 생성에 사용합니다.가상 메모의 질문: 이 논문에는 학습도 있을까?Methods · TrainingLoRA · 초록기본 가중치는 고정, 추가 행렬은 학습합니다.가상 메모의 질문: 무엇이 바뀌는가?Abstract · §4.1LLM Wiki · 설계읽고 정리한 파일을 계속 유지합니다.가상 메모의 질문: 다음에 어떤 파일을 읽을까?Architecture · Operations",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "RAG · §2",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "답 생성에 사용",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "LoRA · 초록",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "추가 행렬은 학습",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "LLM Wiki · 설계",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "파일을 계속 유지",
+        "color": "rgb(105, 207, 130)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#5",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "4",
+    "layout": "blocks",
+    "composition": "editorial",
+    "heading": "검색과 모델 적응, 바뀌는 대상부터",
+    "headingSize": "64px",
+    "text": "검색과 모델 적응, 바뀌는 대상부터검색 문맥관련 문서 → 답을 만들 때 읽는 문맥RAG 논문의 모델은 검색한 문서를 생성에 활용합니다.§2 Methods · 원논문에는 §2.4 Training도 있습니다.학습 가능한 매개변수훈련 데이터 → 추가 행렬의 갱신LoRA는 기본 가중치를 고정하고 저랭크 행렬을 학습합니다.Abstract · §4.1",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "검색 문맥",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "학습 가능한 매개변수",
+        "color": "rgb(160, 128, 255)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#6",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "5",
+    "layout": "blocks",
+    "composition": "editorial",
+    "heading": "같은 질문: 다음 답에 어떻게 반영되나요?",
+    "headingSize": "64px",
+    "text": "같은 질문: 다음 답에 어떻게 반영되나요?위키 갱신설명·연결 파일을 고칩니다.다음 질문에서 필요한 파일을 다시 읽습니다.확인할 것: 주장 범위·링크·수정 이유파일 축적의 설계검색을 이용한 생성관련 자료를 찾습니다.찾은 자료를 답의 문맥에 넣습니다.확인할 것: 검색 누락·관련성·답의 지원RAG §2LoRA 모델 적응추가 행렬을 학습합니다.학습 결과를 적용한 모델로 답합니다.확인할 것: 데이터·목표·평가·적용 대상LoRA Abstract·§4.1",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "위키 갱신",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "필요한 파일을 다시 읽습니다.",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "검색을 이용한 생성",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "답의 문맥에 넣습니다.",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "LoRA 모델 적응",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "학습 결과를 적용한 모델",
+        "color": "rgb(160, 128, 255)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#7",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "6",
+    "layout": "blocks",
+    "composition": "media",
+    "heading": "연결은 근거로 돌아가는 길",
+    "headingSize": "54px",
+    "text": "연결은 근거로 돌아가는 길질문에서 원문으로 근거를 되짚고, 원문에서 질문으로 수정할 후보를 찾습니다. 파일 예제와 읽는 법",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "assets/07411af0788b-knowledge-map.svg",
+        "alt": "가상 학습 경로. RAG는 검색 개념에, LoRA는 모델 적응 개념에, LLM Wiki 설계는 파일 정리에 연결됩니다. 같은 질문으로 비교하고 위키 수정은 학습인가에 답합니다. 검토한 답은 관련 개념과 비교에 다시 연결합니다.",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 450,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 275.14935302734375,
+          "width": 1189.43994140625,
+          "height": 467.04656982421875,
+          "right": 1314.7199401855469,
+          "bottom": 742.1959228515625
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "screens/public-slide-07.png",
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#8",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "7",
+    "layout": "blocks",
+    "composition": "quote",
+    "heading": "질문 · 위키 파일을 고치면 모델도 학습하나요?",
+    "headingSize": "38px",
+    "text": "질문 · 위키 파일을 고치면 모델도 학습하나요?이 예제에서 바뀌는 것은 파일입니다.\n다음 답에 쓰려면 다시 읽어야 합니다.모델 매개변수를 학습하는 절차와 구분합니다. 근거·범위를 검토한 답을 질문 페이지에 저장하고, 개념·비교 페이지에 연결합니다.남은 질문: 우리 자료에서 필요한 파일을 제대로 찾을 수 있을까요? 가상 질문 페이지 전문",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 631.679931640625,
+      "right": 1314.7199401855469,
+      "bottom": 827.1999206542969
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#9",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "8",
+    "layout": "blocks",
+    "composition": "media",
+    "heading": "새 근거는 예전 문장을 고칩니다",
+    "headingSize": "54px",
+    "text": "새 근거는 예전 문장을 고칩니다일반화를 지우고 범위를 고칩니다. 관련 질문도 검토하며, 이유는 이력에 남깁니다. 수정 diff · RAG §2.4 · LoRA",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "assets/5efc5a198e7f-change-trace.svg",
+        "alt": "가상 위키의 수정 과정. 외부 파일을 쓰면 학습하지 않는다는 과도한 일반화를 삭제합니다. RAG Training과 LoRA의 학습 대상을 대조해 파일 수정과 매개변수 학습을 구분하는 문장으로 고칩니다. 현재 본문을 교정하고 변경 이유는 log에 남깁니다.",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 450,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 275.14935302734375,
+          "width": 1189.43994140625,
+          "height": 467.04656982421875,
+          "right": 1314.7199401855469,
+          "bottom": 742.1959228515625
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#10",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "9",
+    "layout": "blocks",
+    "composition": "editorial",
+    "heading": "index는 지금, log는 바뀐 이유",
+    "headingSize": "64px",
+    "text": "index는 지금, log는 바뀐 이유index · 무엇부터 읽지?처음 이해하기 → 검색 문맥 / 모델 적응차이 알아보기 → 같은 기준의 비교질문에서 시작하기 → 위키 수정은 학습인가가상 index 전문log · 무엇을 왜 고쳤지?LoRA 메모를 개념에 연결했다.‘외부 파일 사용 = 학습 없음’을 교정했다.이유: 파일 사용과 학습 대상을 섞었다.가상 log 전문",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "index · 무엇부터 읽지?",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "log · 무엇을 왜 고쳤지?",
+        "color": "rgb(255, 122, 61)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#11",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "10",
+    "layout": "blocks",
+    "composition": "editorial",
+    "heading": "논문을 읽어도, 선택은 우리가 합니다",
+    "headingSize": "64px",
+    "text": "논문을 읽어도, 선택은 우리가 합니다선택검토한 질문 답부터 파일로 남긴다.질문 1개 · 개념 2개 · 비교 1개부터가상 스터디의 결정 · 전체 기록이유와 대안다음 모임에 근거와 수정 이유를 다시 읽고 싶습니다.채팅만 유지하거나, 검색부터 구축할 수도 있습니다.결정 기록을 스터디에 응용했습니다.결과와 재검토검토·연결 관리 시간이 듭니다.페이지를 계속 못 찾거나 검토가 밀리면 다시 결정합니다.",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "선택",
+        "color": "rgb(237, 207, 102)"
+      },
+      {
+        "text": "검토한 질문 답부터 파일로 남긴다.",
+        "color": "rgb(237, 207, 102)"
+      },
+      {
+        "text": "이유와 대안",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "결과와 재검토",
+        "color": "rgb(255, 122, 61)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#12",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "11",
+    "layout": "blocks",
+    "composition": "editorial",
+    "heading": "링크 다음에는, 문장을 확인합니다",
+    "headingSize": "64px",
+    "text": "링크 다음에는, 문장을 확인합니다링크는 있지만 틀린 요약“LoRA는 기본 가중치를 고정하므로 학습이 없다.”초록의 추가 행렬을 학습한다는 부분을 빠뜨렸습니다.LoRA 초록으로 돌아가기문장 지원과 진실 판단먼저 자료가 이 문장과 범위를 지원하는지 봅니다.지원되더라도 자료 자체의 조건·오류·다른 근거는 따로 검토합니다.ALCE 인용 평가 · PROV 출처 정보",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "링크는 있지만 틀린 요약",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "추가 행렬을 학습한다",
+        "color": "rgb(255, 122, 61)"
+      },
+      {
+        "text": "문장 지원과 진실 판단",
+        "color": "rgb(105, 207, 130)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#13",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "12",
+    "layout": "blocks",
+    "composition": "editorial",
+    "heading": "작은 질문으로, 유지할 일을 확인합니다",
+    "headingSize": "64px",
+    "text": "작은 질문으로, 유지할 일을 확인합니다읽기 · 반영원문 두세 개와 질문 하나부터 시작합니다.관련 개념과 비교에 연결합니다.찾기 · 질문놓치는 페이지가 생기면 목차와 검색을 점검합니다.검토한 답과 남은 질문을 이어갑니다.고치기 · 점검주장·연결·이력에 검토 시간을 배정합니다.효과·절감·유지비는 미측정입니다. 운영의 tradeoff",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "읽기 · 반영",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "찾기 · 질문",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "고치기 · 점검",
+        "color": "rgb(255, 122, 61)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  },
+  {
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?release=8995439#14",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "13",
+    "layout": "blocks",
+    "composition": "closing",
+    "heading": "다음 질문에, 근거부터 이어 봅시다",
+    "headingSize": "110px",
+    "text": "다음 질문에, 근거부터 이어 봅시다무엇을 읽었고, 어디까지 알며, 왜 선택했나요?질문 2분 · 공부 자료 목차학습 가이드 · 발표 대본 · 원문 읽기 · 실습과 해설",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 631.679931640625,
+      "right": 1314.7199401855469,
+      "bottom": 827.1999206542969
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "무엇을 읽었고, 어디까지 알며, 왜 선택했나요?",
+        "color": "rgb(36, 168, 255)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "revision": "4b0484e0763d24d3811af1b14e69dc34571a9e1ca4b33e03e7ec09b2f1edc83c"
+  }
+]
