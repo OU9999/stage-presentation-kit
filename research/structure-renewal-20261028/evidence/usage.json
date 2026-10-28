@@ -1,0 +1,26 @@
+{
+  "project": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-structure-usage-CV1Eil/moved project",
+  "configPath": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-structure-usage-CV1Eil/moved project/stage.config.json",
+  "sourcePath": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/stage-structure-usage-CV1Eil/moved project/talks/my-talk/slides.md",
+  "before": "---\ntitle: 질문에서 다음 행동으로\nfooter: 함께 질문하는 모임\n---\n\n<!-- stage-slide\ntone: blue\n-->\n# 좋은 질문을, **함께 만듭니다.**\n\n같은 장면을 보고, 다음에 확인할 일을 고르는 짧은 모임입니다.\n\n스톡 사진과 가상 진행 계획을 사용한 예시입니다.\n\n---\n\n<!-- stage-slide\ncompose: gallery\nvariant: portraits\nfit: cover\nfocus: ['68% 45%', '52% 40%', '45% 50%']\n-->\n![휴대폰으로 장면을 기록하는 인물의 스톡 사진](./assets/capture.jpg \"기록하기\")\n\n![헤드폰을 쓰고 노트북 앞에 있는 인물의 스톡 사진](./assets/listen.jpg \"듣기\")\n\n![야외 테이블에서 노트에 쓰는 인물의 스톡 사진](./assets/write.jpg \"적기\")\n\n---\n\n<!-- stage-slide\ncompose: bento\n-->\n# 다음 대화에 가져갈 다섯 가지\n\n<!-- stage-group\nprimary: true\nfit: cover\nfocus: '45% 43%'\n-->\n## 함께 볼 장면\n\n![노트에 생각을 적는 인물의 스톡 사진](./assets/write.jpg \"생각을 적는 장면\")\n\n<!-- stage-group\ntone: orange\nicon: brain\n-->\n## 남길 질문\n\n**3** 개\n\n가상 모임의 진행 계획\n\n<!-- stage-group\ntone: purple\nicon: voice\n-->\n## 대화의 원칙\n\n> 관찰과 짐작을 구분합니다.\n\n<!-- stage-group\ntone: green\nicon: record\n-->\n## 먼저 할 일\n\n- 장면을 고릅니다.\n- 질문을 남깁니다.\n\n## 다시 찾을 기록\n\n[함께 읽을 메모](./assets/reading.txt)에 다음 행동을 남깁니다.\n\n---\n\n<!-- stage-slide\ncompose: icon-wall\nicons: [{icon: search, tone: blue}, {icon: voice, tone: orange}, {icon: record, tone: green}, {icon: check, tone: yellow}, {icon: share, tone: purple}]\n-->\n# 질문을, 다음 대화로.\n\n- 살피기\n- 듣기\n- 기록하기\n- 확인하기\n- 나누기\n\n---\n\n# 모임이 끝나면, 한 문장을 남깁니다.\n\n1. [읽기 메모](./assets/reading.txt)를 따라 관찰과 짐작을 나눕니다.\n2. 아직 모르는 질문 하나를 고릅니다.\n3. 다음에 확인할 행동을 적습니다.\n\n---\n\n<!-- stage-slide\ncompose: closing\ntone: green\n-->\n# 질문 하나가, **다음 행동으로.**\n\n작게 정하고, 같은 장면에서 다시 확인합니다.\n",
+  "after": "---\ntitle: 질문에서 다음 행동으로\nfooter: 함께 질문하는 모임\n---\n\n<!-- stage-slide\ntone: blue\n-->\n# 우리의 질문을, **다음 행동으로.**\n\n같은 장면을 보고, 다음에 확인할 일을 고르는 짧은 모임입니다.\n\n스톡 사진과 가상 진행 계획을 사용한 예시입니다.\n\n---\n\n<!-- stage-slide\ncompose: gallery\nvariant: portraits\nfit: cover\nfocus: ['52% 40%', '52% 40%', '45% 50%']\n-->\n![헤드폰을 쓰고 노트북 앞에 있는 인물의 스톡 사진](./assets/listen.jpg \"새로 고른 장면\")\n\n![헤드폰을 쓰고 노트북 앞에 있는 인물의 스톡 사진](./assets/listen.jpg \"듣기\")\n\n![야외 테이블에서 노트에 쓰는 인물의 스톡 사진](./assets/write.jpg \"적기\")\n\n---\n\n<!-- stage-slide\ncompose: bento\n-->\n# 다음 대화에 가져갈 여덟 가지\n\n<!-- stage-group\nprimary: true\nfit: cover\nfocus: '45% 43%'\n-->\n## 함께 볼 장면\n\n![노트에 생각을 적는 인물의 스톡 사진](./assets/write.jpg \"생각을 적는 장면\")\n\n<!-- stage-group\ntone: orange\nicon: brain\n-->\n## 남길 질문\n\n**3** 개\n\n가상 모임의 진행 계획\n\n<!-- stage-group\ntone: purple\nicon: voice\n-->\n## 대화의 원칙\n\n> 관찰과 짐작을 구분합니다.\n\n<!-- stage-group\ntone: green\nicon: record\n-->\n## 먼저 할 일\n\n- 장면을 고릅니다.\n- 질문을 남깁니다.\n\n## 다시 찾을 기록\n\n[함께 읽을 메모](./assets/reading.txt)에 다음 행동을 남깁니다.\n\n\n## 함께 읽을 기록\n\n메모를 한 문장으로 남깁니다.\n\n## 다음에 만날 시간\n\n확인할 때를 함께 정합니다.\n\n## 남겨 둔 가능성\n\n모르는 점을 다음 질문으로 남깁니다.\n\n---\n\n<!-- stage-slide\ncompose: icon-wall\nicons: [search, voice, record, check, share, book, code, calendar, globe, image, folder, spark]\n-->\n# 질문을, 다음 대화로.\n\n- 살피기\n- 듣기\n- 기록하기\n- 확인하기\n- 나누기\n- 읽기\n- 만들기\n- 약속하기\n- 이어가기\n- 모으기\n- 저장하기\n- 발견하기\n\n---\n\n# 모임이 끝나면, 한 문장을 남깁니다.\n\n1. [읽기 메모](./assets/reading.txt)를 따라 관찰과 짐작을 나눕니다.\n2. 아직 모르는 질문 하나를 고릅니다.\n3. 다음에 확인할 행동을 적습니다.\n\n---\n\n<!-- stage-slide\ncompose: closing\ntone: green\n-->\n# 질문 하나가, **다음 행동으로.**\n\n작게 정하고, 같은 장면에서 다시 확인합니다.\n",
+  "movedRebuildFiles": 17,
+  "moveByteIdentical": true,
+  "changes": {
+    "groups": [
+      5,
+      8
+    ],
+    "wall": [
+      5,
+      12
+    ],
+    "title": true,
+    "photo": true
+  },
+  "beforeOutput": "fe0f5e2bc60000f83b9585031d497929d6b9fb4cd085572d15c5c943dfa54f2c",
+  "nodeBinary": "/Users/ou9999-wdl/.nvm/versions/node/v24.22.1/bin/node",
+  "lastGoodHash": "7e08803fe9025d3d56145ebe600f890dbabfee27411999503b2d34471688468c",
+  "lastGoodPreserved": true,
+  "editedOutputVerified": true
+}

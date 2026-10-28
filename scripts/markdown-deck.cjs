@@ -3,7 +3,8 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
-const crypto = require("node:crypto");
+const { RUNTIME, readRuntime, loadTemplate, runtimeHtml } = require("./runtime.cjs");
+const { compareFiles, writeFiles } = require("./generated-files.cjs");
 const { fileURLToPath } = require("node:url");
 const model = require("../deck-model.js");
 
@@ -265,21 +266,16 @@ function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" })[character]);
 }
 
-function generatedHtml(template, deck, inputPath, outputDir, repoRoot, content) {
+function generatedHtml(template, deck, inputPath, outputDir, repoRoot, content, runtime = readRuntime(repoRoot)) {
   let html = template.replace(/<title>[\s\S]*?<\/title>/i, () => `<title>${escapeHtml(deck.title)} — Stage</title>`);
-  const hash = value => crypto.createHash("sha256").update(value).digest("hex").slice(0, 12);
-  html = html.replace(/\b(href|src)=("|')(?:\.\/)?(styles\.css|visual\.css|blocks\.css|deck-model\.js|visual\.js|blocks\.js|app\.js)(?:[?#][^"']*)?\2/g, (_, attribute, quote, file) => {
-    const sharedPath = path.join(repoRoot, file);
-    return `${attribute}=${quote}${escapeHtml(posix(path.relative(outputDir, sharedPath)))}?v=${hash(fs.readFileSync(sharedPath))}${quote}`;
-  });
-  html = html.replace(/\bsrc=("|')(?:\.\/)?content\.js(?:[?#][^"']*)?\1/g, (_, quote) => `src=${quote}content.js?v=${hash(content)}${quote}`);
+  html = runtimeHtml(html, runtime, posix(path.relative(outputDir, repoRoot)), content);
   const sourceLink = escapeHtml(posix(path.relative(outputDir, inputPath)));
   const galleryLink = escapeHtml(posix(path.relative(outputDir, path.join(repoRoot, "examples", "index.html"))));
   const marker = html.indexOf('id="helpDialog"');
-  if (marker < 0) throw new Error("루트 index.html에 helpDialog가 없습니다.");
+  if (marker < 0) throw new Error("발표 template에 helpDialog가 없습니다.");
   const intro = `<p>이 예제의 원본은 <a href="${sourceLink}">${escapeHtml(path.basename(inputPath))}</a>입니다. Markdown을 수정한 뒤 빌드하면 content.js와 이 화면이 갱신됩니다. 브라우저에서 편집한 내용은 content.js로 내보낼 수 있으며 Markdown 원고를 자동 수정하지 않습니다. <a href="${galleryLink}">예제 모음으로 돌아가기</a></p>`;
   const after = html.slice(marker);
-  if (!/<div class="dialog-body">\s*<p>[\s\S]*?<\/p>/.test(after)) throw new Error("루트 도움말의 원본 안내를 찾지 못했습니다.");
+  if (!/<div class="dialog-body">\s*<p>[\s\S]*?<\/p>/.test(after)) throw new Error("발표 template의 원본 안내를 찾지 못했습니다.");
   html = html.slice(0, marker) + after.replace(/(<div class="dialog-body">)\s*<p>[\s\S]*?<\/p>/, (_, opening) => opening + intro);
   return html;
 }
@@ -302,16 +298,16 @@ function buildDeck(inputPath, outputDir, options = {}) {
     const absolute = path.resolve(output, ref.filename);
     if (!fs.existsSync(absolute) || !fs.statSync(absolute).isFile()) throw new Error(`${fieldPath}: 미디어 파일이 없습니다: ${object[key]}`);
   });
-  for (const file of ["styles.css", "visual.css", "blocks.css", "deck-model.js", "visual.js", "blocks.js", "app.js"]) if (!fs.existsSync(path.join(repoRoot, file))) throw new Error(`공유 런타임 파일이 없습니다: ${file}`);
-  const template = fs.readFileSync(path.join(repoRoot, "index.html"), "utf8");
+  for (const file of RUNTIME) if (!fs.existsSync(path.join(repoRoot, file))) throw new Error(`공유 런타임 파일이 없습니다: ${file}`);
+  const template = loadTemplate(repoRoot);
   const json = JSON.stringify(deck, null, 2).replace(/</g, "\\u003c").replace(/\u2028/g, "\\u2028").replace(/\u2029/g, "\\u2029");
   const content = "/* Generated from " + path.basename(input).replace(/[\r\n*\/]/g, "_") + ". Edit the Markdown source and rebuild. */\nwindow.PRESENTATION = " + json + ";\n";
   const html = generatedHtml(template, deck, input, output, repoRoot, content);
   const files = { content: path.join(output, "content.js"), index: path.join(output, "index.html") };
-  fs.mkdirSync(output, { recursive: true });
-  fs.writeFileSync(files.content, content, "utf8");
-  fs.writeFileSync(files.index, html, "utf8");
-  return { deck, issues, files };
+  const expected = [[files.content, content], [files.index, html]];
+  const differences = options.check ? compareFiles(expected) : [];
+  if (!options.check) writeFiles(expected);
+  return { deck, issues, files, differences };
 }
 
 module.exports = { parseMarkdown, buildDeck, generatedHtml };

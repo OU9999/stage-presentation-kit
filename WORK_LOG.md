@@ -1,5 +1,21 @@
 # STAGE 작업 로그
 
+## 현재 구현 — 2026-10-28 재사용 프로젝트의 빌드·템플릿·스타터 정리
+
+- 최신 승인: 사용자가 앞선 구조 점검에 맞춰 계획을 세우고 실제 작업을 진행하도록 지시했다. 읽기 전용 점검 범위를 구현·검증·후속 점검·commit/push·Pages 확인으로 확대한다. 기준 HEAD4d1adfa·시작 작업 트리 clean, fetch/pull로 최신을 확인했다.
+- 목표·범위: 기존 디자인/공개 URL과 runtime7개·4원고를 유지하며 전체 사이트 갱신/검증을 한 경로로 만들고, 공개 index와 공통 presentation template을 분리하고, 자체 자산을 갖춘 Markdown 스타터와 정확한 폴더/원본 안내를 제공한다. runtime 내부의 광범위 책임 분리와 research 이동은 후순위로 유지한다.
+- 계획1 — 공통 계약: templates/presentation.html을 단일 DOM 원본으로 두고 runtime 목록/해시/참조 갱신과 생성물 비교 helper를 공유한다. 모든 빌더와 dev watcher가 template을 사용한다. 공개 root20장 주소와 동작은 보존한다.
+- 계획2 — 전체 배포: 빠른 npm build/dev를 유지하고 build:site로 root·기존 예제·현재 Markdown·새 스타터를 갱신한다. verify:site는 임시 예상 결과와 비교해 stale content/hash/사본/누락/불필요 생성물을 검출하며 live 생성물을 수정하지 않는다. parser/model/참조 오류의 last-good 보존을 유지한다.
+- 계획3 — 시작 구조: starters/markdown의 config/talks/my-talk/slides.md·자체 assets·README와 그 프로젝트의 생성 presentations를 제공한다. 같은 저장소의 새 덱은 원고 폴더만 talks로 복사하고, 별도 프로젝트는 config 경로로 공통 엔진을 재사용한다. 기존 examples는 URL을 유지하며 작성 원본 종류를 문서에서 구분한다.
+- 계획4 — 인수/전달: 관련 회귀와 신규 drift/비수정검사·template 독립성·watch·스타터 복사/이동/원고 수정/자산/링크를 검증하고 기존 대표 화면과 새 스타터를 실제 browser로 본다. 전체 build 재현/verify 실패 재현·공개 Pages를 확인하고 논리 단위로 commit/push한다.
+- 담당/기록: root가 단독 구현·통합·공통 WORK_LOG·검증/Git 전달을 담당한다. 기존 writer는 재개하지 않고 영향을 받는 기존 manager에게 계약/결과를 직접 알린다. 이전 보고와 근거는 보존하고 새 구현 근거는 research/structure-renewal-20261028/에 둔다.
+- 공통 구현 완료: templates/presentation.html과runtime7목록/hash/참조 helper를분리했다. 새/기존빌더와devwatcher는공개index대신template을사용한다. build:site는root·기존8예제·4현재원고·1스타터를모두사전검사/생성/재검증하며verify:site는예상결과와비교하고live결과를고치지않는다. macOS /var→/private/var별칭도site root를canonical로맞춰진단경로가일관된다.
+- 작성 구조 완료: starters/markdown에config·6장원고/자체3사진·첨부·출처와생성모음을제공했다. README/MARKDOWN-FIRST/DEPLOYMENT와template/스타터안내에작성원본·생성물·기존호환경로와전체배포명령을명시했다. 기존runtime/CSS와4원고/source공개주소는유지한다.
+- 검증 완료: 전체250/250통과. 신규5검사는공통갱신/재현·stale source/hash/사본/누락/불필요출력·verify비수정/CLI실패·template독립·사전오류시전체last-good·스타터이동을검수한다. 기존watch에template변경반영도추가했다. 실사이트/예제120파일의verify비수정·전체build바이트재현과13원본SHA/루트HTML바이트동일을확인했다. 이전research변경0이다.
+- 실사용/미감 인수: TaskSpace66에서새6장·기존9대표/Paper2/390px6장read전문·alt·contain·저장0/overview6·5타일·5아이콘/presenter양방향을확인했다. 기존MD대표6PNG가이전최종화면과바이트동일이다. 별도스타터프로젝트CLI생성→이동후17파일동일→실제원고의5→8타일/5→12아이콘·제목·사진교체SSE반영→누락이미지last-good8타일보존/복구까지통과했다. 임시dev는49431이며최종확인뒤종료한다.
+- 최종 후점검: check의임시결과는OS임시경로에만만들며live결과의내용/수정시각비수정도회귀로확인했다. 최종전체250/250·repeatbuild/verify120파일/기존13원본보존이통과했다. 스타터제목은자료수에고정되지않게정리했고현재6장read전문도재확인했다. SSE초기DOM조건과배경Page의screenshot대기는null-safe조건/같은TaskSpace66의소유Page활성화로복구했으며제품오류는없다. 최신원고와스크린샷/JSON인수를완료했다.
+- 미완료: 기능커밋/push·공개Pages스타터실확인·검증기록전달.
+
 ## 현재 점검 — 2026-10-28 재사용 경계와 폴더 구조
 
 - 최신 지침: 사용자가 구현 후 재사용 구조·폴더 구조가 잘 되어 있는지 확인하도록 요청했다. 기준 HEAD ccb25ed, 시작 작업 트리 clean이다. 이전 공개 검수는 완료 상태로 보존한다.

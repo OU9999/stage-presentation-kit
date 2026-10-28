@@ -24,6 +24,6 @@ The three SVG files in `stage/` are also original assets made for this kit:
 | `stage/work-panel.svg` | Fictional project interface, 960×720 |
 | `stage/signal-study.svg` | Glass-ring artwork for a fictional product, 720×1080 |
 
-The 20 semantic icons drawn inline in `app.js` are original geometric SVG drawings with a shared 24×24 viewBox and 1.8 stroke weight. Their names describe ideas and actions; they are not service logos or a list of sponsors. The icon wall can also display a user's own local icon images without changing their colors.
+The 20 semantic icons defined in `deck-model.js` and shared by `app.js` and `blocks.js` are original geometric SVG drawings with a shared 24×24 viewBox and 1.8 stroke weight. Their names describe ideas and actions; they are not service logos or a list of sponsors. The icon wall can also display a user's own local icon images without changing their colors.
 
 Photographs and video frames in `research/evidence/` are source evidence for comparison, credited in the linked research reports and manifests. They are separate from the reusable example assets. The examples apply composition principles using the stock photographs and original SVGs listed here; they do not embed the original event slides, app logos or characters.

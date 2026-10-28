@@ -10,6 +10,25 @@ npm run build
 # presentations/ 전체가 공유할 결과물
 ```
 
+새 발표는 [Markdown 스타터](starters/markdown/)의 원고 폴더를 복사해서 시작할 수 있습니다.
+
+```sh
+cp -R starters/markdown/talks/my-talk talks/my-new-talk
+npm run dev
+```
+
+사진·첨부가 같은 폴더에 들어 있으며 다른 예제에 의존하지 않습니다. [스타터 발표6장](starters/markdown/presentations/my-talk/)과 [읽기 자료](starters/markdown/presentations/my-talk/read.html)도 제공합니다. 별도 프로젝트로 복사하는 방법은 스타터 안내를 따릅니다.
+
+공통 엔진·template·기존 예제까지 공개할 때에는 저장소 루트에서 전체 결과를 갱신·검증합니다.
+
+```sh
+npm run build:site
+npm run verify:site
+npm test
+```
+
+`build/dev`는 선택한 Markdown 프로젝트를 빠르게 다룹니다. `build:site`는 루트20장·기존 예제·현재 원고·스타터의 생성물을 함께 갱신합니다. `verify:site`는 원본에서 예상 결과를 만들어 비교하며, 파일을 수정하지 않고 오래된 내용·cache hash·runtime 사본·누락·불필요 생성물을 알려 줍니다.
+
 Node.js 20 이상이 필요합니다. 새 발표는 `talks/` 아래 폴더에 `slides.md`를 추가하면 모음에 자동 등록됩니다. `---`로 장을 나누고 일반 제목·문단·목록·코드·인용·표·이미지를 작성하세요. [Markdown 작성 안내](MARKDOWN-FIRST.md)와 서로 다른 주제의 [네 원고](talks/)를 제공합니다. 원고가 수정의 기준이며 생성 화면은 읽기 전용입니다. 발표 재생에는 패키지 설치가 필요하지 않습니다.
 
 짧은 선언, 사진과 설명, 여러 사진, 인용은 원고 형태에 맞춰 조판합니다. 세로 사진(2:5)·사진 스트립(4:3)·불균등 모자이크·혼합 타일·아이콘월이나 강조색·사진 초점이 필요하면 해당 장의 `stage-slide`와 H2 그룹의 `stage-group`에 작은 설정을 붙입니다. 문장·사진·값을 다른 형식에 다시 입력하지 않으며, 읽기 화면은 같은 원고의 전체 내용과 순서를 유지합니다. [제품 결정](presentations/product-notes/)·[사진 워크숍](presentations/team-learning/)·[사진 에세이](presentations/photo-essay/)·[전시 준비](presentations/community-exhibit/)에서 서로 다른 구성과 색의 흐름을 볼 수 있습니다. 혼합 타일은 H2 자료 수에 맞춰 배치하고, 아이콘월은 원래 목록을 사용합니다. 12칸 고정 배치는 선택 사항입니다.
@@ -75,18 +94,26 @@ node scripts/markdown-deck.cjs examples/product-launch/slides.md examples/my-tal
 
 ## 파일 구성
 
-| 파일 | 역할 |
+| 위치 | 역할·수정 기준 |
 | --- | --- |
-| `content.js` | 직접 수정하는 내용·자료·발표자 노트 |
-| `index.html` | 웹 발표 진입점 |
-| `app.js` · `styles.css` | 발표·읽기·편집·발표자와 공통 구도 |
-| `visual.js` · `visual.css` | 여덟 종류의 native 자료·자동 강조값·동일 원본 표 |
-| `deck-model.js` | 의미 있는 입력·참조 진단 |
-| `examples/visual-story/` | 직접 원본 12장 제품 개선 이야기 |
-| `examples/visual-starter/` | 폴더째 복사하는 독립 실행 스타터 |
-| `scripts/` | 선택형 Markdown 변환과 HTML 참조 갱신 |
-| `CONFIG.md` · `MARKDOWN.md` | 직접 입력과 선택형 Markdown 계약 |
-| `research/` | 이전 조사·토론·디자인과 검증 이력 |
+| `talks/<주제>/slides.md` · 같은 폴더의 `assets/` | 새 발표의 원고와 개별 자료. 여기를 수정 |
+| `stage.config.json` | 프로젝트 제목·테마·원고/출력 위치 |
+| `starters/markdown/` | 자체 자료를 갖춘 작은 Markdown 프로젝트. 원고 폴더 또는 프로젝트 전체를 복사 |
+| `templates/presentation.html` | 공통 발표 HTML의 작성 원본 |
+| `app.js` · `styles.css` | 재생·읽기·진단·편집·발표자와 공통 구도 |
+| `blocks.js` · `blocks.css` | Markdown의 사진·혼합 타일·아이콘월 조판 |
+| `deck-model.js` | 공통 검증·순수 배치·공유 아이콘 |
+| `visual.js` · `visual.css` | native 시각자료와 같은 원본의 표 |
+| `assets/` | 저장소에서 공유하는 사진·그림·출처 |
+| `scripts/` | 원고 해석·프로젝트/전체 사이트 생성·생성물 검증·미리보기 |
+| `presentations/` | 현재 원고의 공유용 생성물. 직접 수정하지 않음 |
+| `starters/markdown/presentations/` | 스타터의 공유용 생성물. 직접 수정하지 않음 |
+| `index.html` | template와 root content.js에서 생성한 기존20장 모음 |
+| `examples/` · root `content.js` | 기존 전용 Markdown/직접 JavaScript 작성 경로. 파일 첫 주석과 개별 안내로 원본을 구분 |
+| `tests/` | 입력·배치·빌드·이동·생성물 일치 회귀 검사 |
+| `research/` | 조사·회의·검수 이력. 발표를 공유할 때에는 생성 모음만 전달 가능 |
+
+기존 `examples/*/slides.md`가 있는5개 덱의 content.js는 생성물입니다. `visual-story`·`visual-starter`·`text-layout`의 content.js는 직접 작성 원본입니다. [새 Markdown 작성](MARKDOWN-FIRST.md), [기존 전용 문법](MARKDOWN.md), [native 입력 계약](CONFIG.md)을 구분해 참고하세요.
 
 기존 PDF와 과거 생성 자료는 이전 검증 이력으로 보관합니다. 현재 웹 발표의 사용 흐름과 완료 기준에 PDF 작성·페이지 수·인쇄 제약을 두지 않습니다.
 

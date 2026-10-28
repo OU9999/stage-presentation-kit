@@ -5,6 +5,8 @@
   "description": "Write Markdown once and present or share it with the STAGE style.",
   "scripts": {
     "build": "node scripts/stage.cjs build",
+    "build:site": "node scripts/build-site.cjs build",
+    "verify:site": "node scripts/build-site.cjs verify",
     "dev": "node scripts/stage.cjs dev",
     "test": "node --test tests/*.test.cjs"
   },

@@ -1,0 +1,18 @@
+{
+  "format": "stage-project-v1",
+  "title": "STAGE · 나의 발표",
+  "theme": "stage",
+  "decks": [
+    {
+      "id": "my-talk",
+      "source": "talks/my-talk/slides.md",
+      "slug": "my-talk",
+      "format": "markdown-v1",
+      "title": "질문에서 다음 행동으로",
+      "links": {
+        "slides": "my-talk/index.html",
+        "read": "my-talk/read.html"
+      }
+    }
+  ]
+}

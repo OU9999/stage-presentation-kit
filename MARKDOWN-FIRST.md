@@ -21,6 +21,19 @@ npm run build
 
 `presentations/` 전체를 HTTP 정적 호스팅에 올립니다. 이 폴더 안에 발표 모음, 덱별 발표·읽기·데이터·참조 자산과 공통 runtime이 있습니다. 보는 사람은 Node를 설치하지 않아도 됩니다. 개별 덱 폴더만 떼어 보내면 공통 runtime이 빠지므로 모음 폴더 전체를 전달하세요. 개발용 자동 새로고침 코드는 정적 파일에 기록되지 않습니다.
 
+## 스타터로 새 발표 만들기
+
+자체 사진·첨부가 있는 [Markdown 스타터](starters/markdown/)에서 시작할 수 있습니다. kit 루트에서 다음을 실행합니다.
+
+```sh
+cp -R starters/markdown/talks/my-talk talks/my-new-talk
+npm run dev
+```
+
+새 이름의 폴더에서 slides.md와 assets만 고치면 됩니다. 기존 네 원고는 공유 자산·다른 발표 링크를 시연하며, 스타터는 다른 덱에 의존하지 않습니다. 별도 프로젝트가 필요하면 스타터 프로젝트 전체를 새 경로로 복사하고 kit에서 `npm run dev -- --config ../my-presentation/stage.config.json`을 사용하세요. 상세 복사·공유 방법은 스타터 안내에 있습니다.
+
+공통 디자인·HTML template·기존 예제까지 배포할 때에는 `npm run build:site`로 모두 갱신하고 `npm run verify:site`로 생성물이 원본과 일치하는지 확인합니다. verify는 생성물을 수정하지 않습니다. 현재 프로젝트만 생성하는 `npm run build`와 역할을 구분합니다. 공통 HTML 원본은 templates/presentation.html이며 공개 root index.html을 template으로 사용하지 않습니다.
+
 ## 한 번 정하는 프로젝트 설정
 
 `stage.config.json`의 `title`, `theme`, `sourceDir`, `outputDir`를 프로젝트에 맞춥니다. theme는 기존 `stage`, `paper`, `midnight` 중 하나입니다. 도구는 sourceDir 아래의 모든 `slides.md`를 찾습니다. 예를 들어 `talks/team/review/slides.md`의 기본 id는 `team/review`이며 basename인 `slides`를 쓰지 않습니다. frontmatter에서 고유 `id`를 선택할 수 있습니다. 같은 id·정규화된 출력 이름의 중복은 오류입니다.

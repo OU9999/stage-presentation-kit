@@ -1,0 +1,18 @@
+{
+  "head": "4d1adfa",
+  "sha256": {
+    "app.js": "720586ddf41431f78a8ab71dd54a6e4764fe971c4a892c70a3f59a0e5f204fc5",
+    "blocks.js": "6238a42a3298944a6d023cb81b3f73af9c6d3e038b1c8437c08b1fd307b5de32",
+    "blocks.css": "b513e16205a1f900a16d0dcbc4ae44000d3e561428f0264b500138ba1463f5a9",
+    "deck-model.js": "53f266e64e754e57bf06531df5e58a7333db9fb8c64a5f29d96bf69de4c428e2",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "visual.css": "65145a3f2c210138500877611dc1de47c6ab2117239a91f4350eb06e7a547fc7",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "content.js": "370215d8ac4af3123c4f08358bd82fa9554658a9a9baba4fd69f2d34eb84c424",
+    "index.html": "9a6df081ef04267b2763ed34cb22908b43581b3c97b765949d544cb765a442d7",
+    "talks/team-learning/slides.md": "a7b435f2869e037fa951e58efc9da6799898a368f4186a0909da0610e1c7cbe8",
+    "talks/product-notes/slides.md": "6b8e3dfcfb9837a34ad30681f902320fa3bc014d13855bd49ffe4dc670c2a3ce",
+    "talks/photo-essay/slides.md": "4c9dcefb6832841129eafc25812c19172c1578b5b26e3104322148136841b9ac",
+    "talks/community-exhibit/slides.md": "e60d2b2b60624784d9a68ab4cdb88f9aeef0372ec11280e1c77cb14894bac8fe"
+  }
+}

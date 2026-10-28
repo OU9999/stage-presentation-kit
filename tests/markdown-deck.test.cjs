@@ -225,6 +225,7 @@ test('TC-M12 rebuilding changed Markdown and shared runtime updates their cache 
   const output = path.join(directory, 'published', 'deck');
   fs.mkdirSync(runtime);
   for (const file of ['index.html', 'styles.css', 'visual.css', 'deck-model.js', 'visual.js', 'blocks.js', 'blocks.css', 'app.js']) fs.copyFileSync(path.join(repoRoot, file), path.join(runtime, file));
+  fs.cpSync(path.join(repoRoot, 'templates'), path.join(runtime, 'templates'), { recursive: true });
   const reference = (html, filename) => {
     const entry = [...html.matchAll(/(?:src|href)="([^"]+)"/g)].map(match => match[1]).find(value => path.basename(value.split(/[?#]/, 1)[0]) === filename);
     assert.ok(entry, `generated HTML must reference ${filename}`);

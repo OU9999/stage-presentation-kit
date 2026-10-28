@@ -1,0 +1,19 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),cp=require('node:child_process'),vm=require('node:vm'),crypto=require('node:crypto'),assert=require('node:assert/strict');
+const repo=path.resolve(__dirname,'../../..'),statePath=path.join(__dirname,'usage.json'),phase=process.argv[2]||'setup',hash=bytes=>crypto.createHash('sha256').update(bytes).digest('hex');
+const walk=p=>fs.readdirSync(p,{withFileTypes:true}).flatMap(x=>x.isDirectory()?walk(path.join(p,x.name)):[path.join(p,x.name)]),snapshot=p=>Object.fromEntries(walk(p).sort().map(f=>[path.relative(p,f),hash(fs.readFileSync(f))]));
+if(phase==='setup'){
+ const base=fs.mkdtempSync(path.join(os.tmpdir(),'stage-structure-usage-')),first=path.join(base,'first project');fs.cpSync(path.join(repo,'starters/markdown'),first,{recursive:true});
+ const build=p=>{const r=cp.spawnSync(process.execPath,[path.join(repo,'scripts/stage.cjs'),'build','--config',path.join(p,'stage.config.json')],{encoding:'utf8'});assert.equal(r.status,0,r.stderr);return r.stdout.trim();};build(first);const initial=snapshot(path.join(first,'presentations')),project=path.join(base,'moved project');fs.renameSync(first,project);build(project);assert.deepEqual(snapshot(path.join(project,'presentations')),initial);
+ const sourcePath=path.join(project,'talks/my-talk/slides.md'),before=fs.readFileSync(sourcePath,'utf8');let after=before.replace('다음 대화에 가져갈 다섯 가지','다음 대화에 가져갈 여덟 가지').replace('좋은 질문을, **함께 만듭니다.**','우리의 질문을, **다음 행동으로.**').replace('![휴대폰으로 장면을 기록하는 인물의 스톡 사진](./assets/capture.jpg "기록하기")','![헤드폰을 쓰고 노트북 앞에 있는 인물의 스톡 사진](./assets/listen.jpg "새로 고른 장면")').replace("'68% 45%'","'52% 40%'");
+ const boundary='\n---\n\n<!-- stage-slide\ncompose: icon-wall';assert(after.includes(boundary));after=after.replace(boundary,'\n\n## 함께 읽을 기록\n\n메모를 한 문장으로 남깁니다.\n\n## 다음에 만날 시간\n\n확인할 때를 함께 정합니다.\n\n## 남겨 둔 가능성\n\n모르는 점을 다음 질문으로 남깁니다.\n'+boundary);
+ after=after.replace(/^icons: .+$/m,'icons: [search, voice, record, check, share, book, code, calendar, globe, image, folder, spark]');const list='- 살피기\n- 듣기\n- 기록하기\n- 확인하기\n- 나누기';assert(after.includes(list));after=after.replace(list,list+'\n- 읽기\n- 만들기\n- 약속하기\n- 이어가기\n- 모으기\n- 저장하기\n- 발견하기');
+ const state={nodeBinary:process.execPath,project,configPath:path.join(project,'stage.config.json'),sourcePath,before,after,movedRebuildFiles:Object.keys(initial).length,moveByteIdentical:true,changes:{groups:[5,8],wall:[5,12],title:true,photo:true},beforeOutput:hash(fs.readFileSync(path.join(project,'presentations/my-talk/content.js')))};fs.writeFileSync(statePath,JSON.stringify(state,null,2)+'\n');console.log(JSON.stringify({configPath:state.configPath,moveByteIdentical:true,files:state.movedRebuildFiles}));
+}else{
+ const state=JSON.parse(fs.readFileSync(statePath)),output=path.join(state.project,'presentations/my-talk/content.js');
+ if(phase==='edit')fs.writeFileSync(state.sourcePath,state.after);
+ else if(phase==='break'){state.lastGoodHash=hash(fs.readFileSync(output));fs.writeFileSync(state.sourcePath,state.after.replace('./assets/listen.jpg','./assets/missing.jpg'));}
+ else if(phase==='recover'){assert.equal(hash(fs.readFileSync(output)),state.lastGoodHash);state.lastGoodPreserved=true;fs.writeFileSync(state.sourcePath,state.after);}
+ else if(phase==='verify'){const scope={window:{}};vm.runInNewContext(fs.readFileSync(output,'utf8'),scope);const deck=scope.window.PRESENTATION;assert.equal(deck.slides[2].blocks.filter(n=>n.tag==='h2').length,8);assert.equal(deck.slides[3].view.icons.length,12);assert.notEqual(hash(fs.readFileSync(output)),state.beforeOutput);state.editedOutputVerified=true;}
+ else throw Error('Unknown phase');fs.writeFileSync(statePath,JSON.stringify(state,null,2)+'\n');console.log(JSON.stringify({phase,lastGoodPreserved:state.lastGoodPreserved,editedOutputVerified:state.editedOutputVerified}));
+}

@@ -3,15 +3,15 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
-const crypto = require('node:crypto');
 const http = require('node:http');
+const os = require('node:os');
 const { parseDocument, collectReferences } = require('./markdown-document.cjs');
 const model = require('../deck-model.js');
+const { RUNTIME, TEMPLATE, hash, readRuntime, loadTemplate, runtimeHtml } = require('./runtime.cjs');
+const { compareTrees } = require('./generated-files.cjs');
 
-const RUNTIME = ['styles.css', 'visual.css', 'blocks.css', 'deck-model.js', 'visual.js', 'blocks.js', 'app.js'];
 const MARKER = '.stage-generated.json';
 const posix = value => value.split(path.sep).join('/');
-const hash = value => crypto.createHash('sha256').update(value).digest('hex').slice(0, 12);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const inside = (parent, child) => child === parent || child.startsWith(parent + path.sep);
 const encodePath = value => posix(value).split('/').map(encodeURIComponent).join('/');
@@ -113,12 +113,7 @@ function rewriteReferences(records) {
 function presentationHtml(template, record, runtime, content, view) {
   let html = template.replace(/<title>[\s\S]*?<\/title>/i, () => '<title>' + escape(record.deck.title) + (view === 'read' ? ' — 읽기' : ' — Stage') + '</title>');
   const prefix = relativeUrl(record.slug, '_runtime');
-  html = html.replace(/<link\b[^>]*href=["'](?:\.\/)?(?:styles|visual|blocks)\.css(?:[?#][^"']*)?["'][^>]*>\s*/gi, '');
-  html = html.replace(/<script\b[^>]*src=["'](?:\.\/)?(?:content|deck-model|visual|blocks|app)\.js(?:[?#][^"']*)?["'][^>]*>\s*<\/script>\s*/gi, '');
-  const tags = RUNTIME.filter(file => file.endsWith('.css')).map(file => '<link rel="stylesheet" href="' + prefix + '/' + file + '?v=' + hash(runtime[file]) + '"/>');
-  tags.push('<script src="content.js?v=' + hash(content) + '" defer></script>');
-  for (const file of RUNTIME.filter(file => file.endsWith('.js'))) tags.push('<script src="' + prefix + '/' + file + '?v=' + hash(runtime[file]) + '" defer></script>');
-  html = html.replace('</head>', tags.join('\n') + '\n</head>');
+  html = runtimeHtml(html, runtime, prefix, content);
   html = html.replace(/<body\b([^>]*)>/i, (_, attrs) => '<body' + attrs.replace(/\sdata-view=["'][^"']*["']/g, '') + ' data-view="' + view + '">');
   const collection = relativeUrl(record.slug, 'index.html');
   const navigation = '<nav class="stage-document-links" aria-label="발표 모음과 읽기"><a href="' + collection + '">발표 모음</a> · <a href="index.html">발표</a> · <a href="read.html">읽기</a></nav>';
@@ -158,12 +153,15 @@ function buildProject(options = {}) {
     }
   }
   rewriteReferences(records);
-  const runtime = Object.fromEntries(RUNTIME.map(file => [file, fs.readFileSync(path.join(project.repoRoot, file))]));
-  const template = fs.readFileSync(path.join(project.repoRoot, 'index.html'), 'utf8');
+  const runtime = readRuntime(project.repoRoot);
+  const template = loadTemplate(project.repoRoot);
   const manifest = { format: 'stage-project-v1', title: project.title, theme: project.theme, decks: records.map(record => ({ id: record.deck.id, source: record.relativeSource, slug: record.slug, format: record.deck.format, title: record.deck.title, links: { slides: encodePath(record.slug) + '/index.html', read: encodePath(record.slug) + '/read.html' } })) };
-  fs.mkdirSync(path.dirname(project.output), { recursive: true });
-  const staging = fs.mkdtempSync(path.join(path.dirname(project.output), '.' + path.basename(project.output) + '.stage-'));
+  if (!options.check) fs.mkdirSync(path.dirname(project.output), { recursive: true });
+  const staging = options.check
+    ? fs.mkdtempSync(path.join(os.tmpdir(), 'stage-verify-'))
+    : fs.mkdtempSync(path.join(path.dirname(project.output), '.' + path.basename(project.output) + '.stage-'));
   let backup;
+  let differences = [];
   try {
     fs.mkdirSync(path.join(staging, '_runtime'));
     for (const [file, bytes] of Object.entries(runtime)) fs.writeFileSync(path.join(staging, '_runtime', file), bytes);
@@ -189,18 +187,23 @@ function buildProject(options = {}) {
         if (!inside(staging, target) || !fs.existsSync(target)) throw new Error('출력 안에 없는 HTML 참조: ' + value);
       }
     }
-    if (fs.existsSync(project.output)) {
-      backup = staging + '.previous';
-      fs.renameSync(project.output, backup);
+    if (options.check) {
+      differences = compareTrees(staging, project.output);
+      fs.rmSync(staging, { recursive: true, force: true });
+    } else {
+      if (fs.existsSync(project.output)) {
+        backup = staging + '.previous';
+        fs.renameSync(project.output, backup);
+      }
+      try { fs.renameSync(staging, project.output); }
+      catch (error) { if (backup) fs.renameSync(backup, project.output); throw error; }
+      if (backup) fs.rmSync(backup, { recursive: true, force: true });
     }
-    try { fs.renameSync(staging, project.output); }
-    catch (error) { if (backup) fs.renameSync(backup, project.output); throw error; }
-    if (backup) fs.rmSync(backup, { recursive: true, force: true });
   } catch (error) {
     fs.rmSync(staging, { recursive: true, force: true });
     throw error;
   }
-  return { outputDir: project.output, manifest, decks: records.map(record => record.deck), dependencies: [...new Set(records.flatMap(record => [...record.dependencies]))] };
+  return { outputDir: project.output, manifest, decks: records.map(record => record.deck), dependencies: [...new Set(records.flatMap(record => [...record.dependencies]))], differences };
 }
 
 const DEV_SCRIPT = `<script>(function(){var events=new EventSource('/__stage/events');events.addEventListener('built',function(){location.reload()});events.addEventListener('build-error',function(event){var box=document.getElementById('__stage_error');if(!box){box=document.createElement('pre');box.id='__stage_error';box.setAttribute('role','alert');box.style.cssText='position:fixed;bottom:0;left:0;right:0;z-index:99999;margin:0;padding:20px;background:#551a16;color:white;white-space:pre-wrap;max-height:40vh;overflow:auto;font:14px/1.5 monospace';document.body.append(box)}box.textContent='원고 빌드 오류 — 마지막 정상 화면을 유지합니다.\\n'+JSON.parse(event.data).message})})();</script>`;
@@ -224,7 +227,7 @@ function startDev(options = {}) {
       if (inside(root, project.output) || inside(project.output, root)) { sources.push(root); continue; }
       try { sources.push(...walkFiles(root)); } catch (_) { sources.push(root); }
     }
-    const files = [...sources, project.configPath, path.join(project.repoRoot, 'index.html'), ...RUNTIME.map(file => path.join(project.repoRoot, file)), ...last.dependencies, ...failedDependencies];
+    const files = [...sources, project.configPath, path.join(project.repoRoot, TEMPLATE), ...RUNTIME.map(file => path.join(project.repoRoot, file)), ...last.dependencies, ...failedDependencies];
     return files.map(file => { try { const stat = fs.statSync(file); return file + ':' + stat.mtimeMs + ':' + stat.size; } catch (_) { return file + ':missing'; } }).join('\n');
   }
   let previous = fingerprint();

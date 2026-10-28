@@ -8,13 +8,29 @@
 
 | 용도 | 주소 |
 | --- | --- |
-| Markdown 발표·읽기 모음 | [두 원고에서 생성한 발표 모음](https://ou9999.github.io/stage-presentation-kit/presentations/) |
+| Markdown 발표·읽기 모음 | [원고에서 생성한 발표 모음](https://ou9999.github.io/stage-presentation-kit/presentations/) |
+| 복사용 Markdown 스타터 | [독립 스타터6장](https://ou9999.github.io/stage-presentation-kit/starters/markdown/presentations/my-talk/) |
 | 사용자가 고른 C안 | [현장 구성 예제 4번](https://ou9999.github.io/stage-presentation-kit/examples/devday-compositions/index.html#4) |
 | 예제를 골라 시작하기 | [예제 갤러리](https://ou9999.github.io/stage-presentation-kit/examples/) |
 | 기존 양식을 모두 살펴보기 | [20장 양식 모음](https://ou9999.github.io/stage-presentation-kit/) |
 | Vite·React 검토와 편집 시제품 | [검토 결과 화면](https://ou9999.github.io/stage-presentation-kit/research/vite-react-20261027/) · [공개 배포 검증](research/vite-react-20261027/DEPLOYMENT.md) |
 
 루트 주소의 내용은 20장 양식 모음입니다. C안은 현장 구성 7장 중 4번이므로 위 직접 링크를 공유하세요. `#4`는 처음 보여줄 장을 정합니다. 청중은 설치·GitHub 로그인 없이 링크를 열어 각자 장을 넘겨 봅니다. Pages 발행 후에는 사용자의 로컬 서버나 컴퓨터를 켜둘 필요가 없습니다.
+
+## 전체 사이트의 생성·검증
+
+공통 runtime·template·원고·예제를 수정한 뒤 저장소 루트에서 실행합니다.
+
+```sh
+npm ci
+npm run build:site
+npm run verify:site
+npm test
+```
+
+build:site는 공통 templates/presentation.html에서 루트20장과 기존 예제를 만들고, 현재 talks와 독립 Markdown 스타터의 발표/읽기를 생성합니다. 모든 입력을 먼저 검사하고 생성 후 다시 일치를 검증합니다. verify:site는 live 결과를 수정하지 않고 stale content/hash/runtime 사본·누락·불필요 생성물을 알려 주며, 불일치가 있으면 실패합니다. 오류를 해결하고 다시 build한 뒤 원본과 생성 결과를 함께 commit/push합니다.
+
+현재 Pages는 main/루트의 정적 파일을 발행합니다. Pages가 이 Node 빌드를 대신 실행하지 않으므로 생성 결과도 커밋해야 합니다. 공개 주소는 유지합니다. root index.html과 각 발표 HTML은 생성물이며 공통 DOM 수정은 templates/presentation.html에서 합니다.
 
 ## 새 Markdown 원고의 배포
 

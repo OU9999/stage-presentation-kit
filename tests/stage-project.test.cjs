@@ -198,6 +198,7 @@ test('STAGE dev serves only output, injects reload into HTML, rebuilds and recov
   const privateRuntime = path.join(project.directory, 'runtime-source');
   fs.mkdirSync(privateRuntime);
   for (const file of ['index.html', 'styles.css', 'visual.css', 'blocks.css', 'deck-model.js', 'visual.js', 'blocks.js', 'app.js']) fs.copyFileSync(path.join(repoRoot, file), path.join(privateRuntime, file));
+  fs.cpSync(path.join(repoRoot, 'templates'), path.join(privateRuntime, 'templates'), { recursive: true });
   project.options.repoRoot = privateRuntime;
   const input = write(project, 'talks/alpha/slides.md', '# 첫 성공본\n\n본문');
   const dev = await startDev({ ...project.options, port: 0, quiet: true });
@@ -231,6 +232,8 @@ test('STAGE dev serves only output, injects reload into HTML, rebuilds and recov
     await until(() => fs.readFileSync(path.join(project.output, 'index.html'), 'utf8').includes('설정 변경도 반영'), 'config change did not rebuild');
     fs.appendFileSync(path.join(privateRuntime, 'blocks.css'), '\n/* watched-runtime */\n');
     await until(() => fs.readFileSync(path.join(project.output, '_runtime/blocks.css'), 'utf8').includes('watched-runtime'), 'runtime change did not rebuild');
+    fs.appendFileSync(path.join(privateRuntime, 'templates/presentation.html'), '\n<!-- watched-template -->\n');
+    await until(() => fs.readFileSync(path.join(project.output, 'alpha/index.html'), 'utf8').includes('watched-template'), 'template change did not rebuild');
     const errorCount = (events.match(/event: build-error/g) || []).length;
     const good = outputText(project.output);
     fs.renameSync(path.join(project.directory, 'talks'), path.join(project.directory, 'talks-away'));
