@@ -13,7 +13,10 @@
 - 실제 줄 관측: root가 40장 글자의 Range를 행별로 모아 9/12/13/15/23/25/27/28/31/38의 어미·출처 단위 고립을 전달했다. 문장/제목과 대본을 함께 다듬었고 큰 숫자/단위의 baseline 차이는 오탐으로 구분했다. 첫 교정 후 남은25의 '없다'·28의 긴 부연도 root가 축약했다.31원값5/3을라벨에넣어시각위계도높였다.
 - 원고 인수: manager가 최종source7dbd19ff…77c28의40장/native2/자료6/45참조/대본·guide40제목시각/인용·사진메타0·참여링크를 독립 재실행해 통과했다. 예전 검수 스크립트의 과거JSON 한 파일 쓰기는 중지하고 root가 정확한 HEAD 원본으로 복원해 과거research diff0을 확인했다.
 - root 로컬 인수 완료: 최종7dbd19ff…77c28의40장 실제 행 Range/PNG·전체보드4를 확인했고 짧은끝줄후보0·잘림/진단/오류0이다.31실제막대너비5:3·원값/62.5/37.5%·33흐름3단계와1440/390의동일원값표/Enter접기펼치기를검수했다. 참여10클릭·overview40·presenter양방향·read390본문누락0/18px/넘침0·자료6×2폭전문누락0/JS0/키보드탐색통과. build:site/비수정verify와261/261통과,새RESULT에근거기록했다.
-- 미완료: 기능 commit/push, Pages 동일 SHA·공개 줄/차트·탐색 확인, 검수 기록 전달.
+- 공개 발견·범위 보강: 기능7b9cd0c을main에push/Pages40800433787동일SHA성공,공개29파일200·바이트일치와40장/차트원값/참여/자료검수가통과했다. 다만공개mobile390 read#31직접진입을추가관측해 native차트 article.top≈0/H1top31.9/headerbottom70/scrollMargin0으로첫줄가림을확인했다. 다른줄/데이터손실은없지만실사용제목가림은완료로두지않는다.
+- 후속 결정: root가visual.css에서read-mode의직접native visual슬라이드에기존blocks와같은92px scroll-margin만추가한다. 원고/발표mode/차트비율/기타기하값불변,전체runtime파생물재생성·261검사·새차트/flow와기존native예제의모바일header회귀를수행한다. 디자인manager에게직접관측/소유권/범위를전달했고A/B는종료유지다. 이실증으로기존CSS0범위를좁게확대한다.
+- 앵커 교정 로컬 완료: visual.css 읽기모드 native 직접슬라이드에92px scroll-margin 한줄을추가하고전체runtime/HTML파생물재생성·build/비수정verify·261/261 재통과했다. 새31/33와기존visual-story5/7×1440/390 실제이동8경우가article.top≈92·제목헤더아래·넘침0이다.390새31 H1top123.9/headerbottom70,원값표/Enter접기펼치기도통과했다. 실제PNG와anchors.json을저장했다. legacy mode전환은전체읽기라QA는실제next/previous이동을검사하도록고쳤다.
+- 미완료: 후속anchorfix commit/push·동일SHA Pages의최종모바일/공개검수,기록전달.
 
 ## 개선 완료 — 2026-10-29 사진·인용·참여·실제 확인과 40장 발표
 

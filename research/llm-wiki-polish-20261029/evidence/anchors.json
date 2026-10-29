@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "deck": "llm-wiki",
+      "path": "presentations/llm-wiki/read.html",
+      "slide": 31,
+      "articleTop": 92.203125,
+      "headingTop": 152.203125,
+      "headerBottom": 76,
+      "scrollMargin": "92px",
+      "heading": "검사 결과를 단위별로 읽는다",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "deck": "llm-wiki",
+      "path": "presentations/llm-wiki/read.html",
+      "slide": 33,
+      "articleTop": 91.9453125,
+      "headingTop": 151.9453125,
+      "headerBottom": 76,
+      "scrollMargin": "92px",
+      "heading": "읽기·질문·점검을 반복한다",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "deck": "visual-story",
+      "path": "examples/visual-story/index.html",
+      "slide": 5,
+      "articleTop": 91.9453125,
+      "headingTop": 151.9453125,
+      "headerBottom": 76,
+      "scrollMargin": "92px",
+      "heading": "사람들이 말한, 첫 마찰.",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "deck": "visual-story",
+      "path": "examples/visual-story/index.html",
+      "slide": 7,
+      "articleTop": 92.171875,
+      "headingTop": 152.171875,
+      "headerBottom": 76,
+      "scrollMargin": "92px",
+      "heading": "마찰을, 다음 행동에 연결합니다.",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "deck": "llm-wiki",
+      "path": "presentations/llm-wiki/read.html",
+      "slide": 31,
+      "articleTop": 91.890625,
+      "headingTop": 123.890625,
+      "headerBottom": 70,
+      "scrollMargin": "92px",
+      "heading": "검사 결과를 단위별로 읽는다",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "deck": "llm-wiki",
+      "path": "presentations/llm-wiki/read.html",
+      "slide": 33,
+      "articleTop": 94.0234375,
+      "headingTop": 126.0234375,
+      "headerBottom": 70,
+      "scrollMargin": "92px",
+      "heading": "읽기·질문·점검을 반복한다",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "deck": "visual-story",
+      "path": "examples/visual-story/index.html",
+      "slide": 5,
+      "articleTop": 92.03125,
+      "headingTop": 124.03125,
+      "headerBottom": 70,
+      "scrollMargin": "92px",
+      "heading": "사람들이 말한, 첫 마찰.",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "deck": "visual-story",
+      "path": "examples/visual-story/index.html",
+      "slide": 7,
+      "articleTop": 92,
+      "headingTop": 124,
+      "headerBottom": 70,
+      "scrollMargin": "92px",
+      "heading": "마찰을, 다음 행동에 연결합니다.",
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ]
+}

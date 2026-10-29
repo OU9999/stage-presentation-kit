@@ -39,6 +39,7 @@
 .visual-json-input { width:100%;min-height:300px;resize:vertical;background:var(--chrome-bg);color:var(--chrome-text);border:1px solid var(--chrome-border);padding:16px;font:14px/1.6 ui-monospace,SFMono-Regular,monospace;tab-size:2; }
 .visual-json-errors { color:#f1b68d;white-space:pre-wrap;line-height:1.65;font-size:14px; }
 .visual-json-actions { display:flex;gap:12px;justify-content:flex-end;margin-top:20px; }
+body[data-mode="read"] #slideStage > .layout-visual { scroll-margin-top:92px; }
 body[data-mode="read"] #slideStage .layout-visual .slide-body { display:grid;grid-template-columns:minmax(0,1fr) 260px;grid-template-rows:auto auto auto;grid-template-areas:"copy hero" "plot plot" "data data";gap:36px; }
 body[data-mode="read"] #slideStage .layout-visual[data-has-hero="false"] .slide-body { grid-template-columns:minmax(0,1fr);grid-template-areas:"copy" "plot" "data"; }
 body[data-mode="read"] #slideStage .layout-visual.has-long-value .slide-body,body[data-mode="read"] #slideStage .layout-visual.has-long-copy .slide-body { grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto auto auto;grid-template-areas:"copy" "hero" "plot" "data"; }

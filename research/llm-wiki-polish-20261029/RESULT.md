@@ -26,6 +26,14 @@
 
 숫자와 단위처럼 크기가 다른 글자의 baseline 차이는 줄 고립으로 세지 않았다. 후보0은 지정 화면의 관측 결과이며, 자동 넘침 검사 외에 실제 PNG를 함께 열어 문장의 의미 경계와 시각 구성을 판단했다. 초안에서 남은25·28의 줄 문제와31의 작은 원값은 마지막 source 교정으로 해결했다.
 
-최종 원고 SHA-256: `7dbd19ffdf942f22af8bec54af10fac7835a06469360b99bdb783a2dca077c28`. 대표 화면은 [result-board.jpg](./evidence/result-board.jpg)에 있다. 차트·흐름도는 기존 native Markdown 설정을 사용하며 공통 core/CSS·새 SVG 변경은 없다. 예전 연구 JSON의 우발적 갱신은 정확한 HEAD 원본으로 복원했고 과거 연구 diff0을 확인했다.
+최종 원고 SHA-256: `7dbd19ffdf942f22af8bec54af10fac7835a06469360b99bdb783a2dca077c28`. 대표 화면은 [result-board.jpg](./evidence/result-board.jpg)에 있다. 차트·흐름도는 기존 native Markdown 설정을 사용한다. 공개 읽기 앵커에서 발견한 제목 가림을 위해 visual.css의 읽기 모드 native 슬라이드에 scroll-margin-top:92px 한 줄을 추가했다. 차트/발표 기하·폰트·JS·새 SVG 변경은 없다. 예전 연구 JSON의 우발적 갱신은 정확한 HEAD 원본으로 복원했고 과거 연구 diff0을 확인했다.
 
 공개 검수는 commit/push 후 `DEPLOYMENT.md`에 기록한다.
+
+## 공개 앵커에서 발견해 고친 제목 가림
+
+첫 기능 배포 검수 뒤 공개 read#31을 직접 열어, 모바일 헤더가 제목 첫줄을 가리는 문제를 확인했다. article.top≈0/H1top31.9px/headerbottom70px/scrollMargin0이었다. 기존 blocks에는92px 이동 여백이 있으나 native visual에는 없어 생긴 차이다. 교정 전 화면은 `evidence/screens/public-native-anchor-390.png`에 보존했다.
+
+root가 읽기 모드의 직접 native slide에만92px scroll-margin을 추가하고 전체 사이트/runtime 파생물을 다시 생성했다. 새31/33과 기존 visual-story5/7을1440/390 두 폭에서 실제 이동해 8경우 모두 article.top≈92px·제목이 헤더 아래에 있음을 확인했다. 새 모바일31은 제목top123.9px/headerbottom70px다. 원값 표/비중과 Enter 접기·펼치기도 다시 통과했다. 근거는 `evidence/anchors.json`·`native-visuals.json`과 `screens/anchor-*-390.png`다. 전체 build/비수정 verify와261/261을 변경 뒤 다시 실행해 통과했다.
+
+기존 예제의 읽기 모드 전환은 화면 전체를 여는 동작이므로 회귀 도구는 실제 다음/이전 이동을 눌러 앵커 이동을 검사한다. 버튼 선택자도 template의 실제 previous/next를 사용한다. 이 검수 도구 교정과 공개 제목 가림 제품 수정은 구분한다.

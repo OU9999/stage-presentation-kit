@@ -31,3 +31,11 @@ root가 25 “검색 누락 여부는 미확인”, 28 “원문이 바뀔 때 �
 최종 구도는 media6·document4·split2·editorial15·message5·quote4·native-composition1·native-flow1·gallery1·closing1이다. 구도 수를 품질 점수로 보지 않고 각 장의 표현을 고른 이유와 직접 화면 판단은 별도로 남겼다. 새SVG·공통CSS/core 변경은0이다. 40장과 기존 학습 깊이·자료6 URL, 사진4·정확 원문인용2·채팅2회/자기쓰기20초·실제demo는 유지한다.
 
 root는 예전 source-check.json을 정확한 HEAD 원본으로 복원하고 과거 연구 diff0을 확인해 알려왔다. 이후 source 검증은 새 polish 경로에만 썼다. A/B와 manager의 source/자료/검수기록 writer는 종료한다. 최종 root 교정 뒤 새revision 전체 시각·줄별·모바일 native 원값표·참여 실제 클릭·회귀·공개 배포는 root의 후속 확인 범위다. 이 문서에서 이미 통과한 것으로 확대하지 않는다.
+
+## 공개 읽기 모드의 native 앵커 후속 교정
+
+root의 공개 모바일 검수에서 추가 결함이 확인됐다. manager는 `evidence/screens/public-native-anchor-390.png`를 직접 열어 31장 제목 첫 줄이 상단 고정 헤더에 가려지고 “단위별로 읽는다”만 아래 보이는 것을 확인했다. root DOM 관측은 article.top 약 -0.109px, H1.top31.89px, header.bottom70px, article의 scroll-margin-top0이다. 화면 대기나 데이터 누락이 아니라 앵커 정렬과 고정 헤더의 겹침이다.
+
+manager가 `app.js`802/1382의 읽기 모드 `scrollIntoView({block:"start"})`, `blocks.css`235의92px scroll margin, `visual.css`의 읽기 모드 규칙을 직접 읽어 원인을 대조했다. blocks에는 헤더를 피하는 scroll margin이 있고 native visual article에는 없어서 같은 해시 이동에서 제목 위치가 달랐다. root가 `visual.css`42에 추가한 `body[data-mode="read"] #slideStage > .layout-visual { scroll-margin-top:92px; }`를 실제 파일에서 확인했다. read 모드의 직접 slide article에 한 속성만 적용하므로 발표 모드/본문 기하/서체/값/JS를 바꾸지 않는 적절한 범위라고 peer review했다. root가 CSS 단독 writer이며 A/B는 재개하지 않았다.
+
+앞선 “공통 CSS/core 변경0”은 원고·시각 설계 handoff 시점의 범위다. 이 공개 결함을 해결하는 최종 결과에는 root의 위 한 줄 CSS 교정이 추가된다. source revision7dbd19ff…77c28과 발표 원문은 그대로이며, 재생성된 runtime/CSS와 최종 모바일 앵커/헤더 회귀·전체 build/verify/261검사·commit/push/Pages 검증은 root가 확인한다. manager는 CSS 원인·선택자·범위의 정적 peer review와 교정 전 공개 PNG 확인까지만 수행했다. 교정 후 실제 브라우저 통과 여부를 이 정적 검수로 대신하지 않는다.
