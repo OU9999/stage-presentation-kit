@@ -1,0 +1,1211 @@
+{
+  "git_sha": "e7f7ff18c7929900035766499762326988c57f81",
+  "checked_at_utc": "2026-10-29T09:47:49.977443+00:00",
+  "counts": {
+    "product": 40,
+    "review": 102,
+    "baseline-comparison": 8
+  },
+  "files": [
+    {
+      "path": "presentations/_runtime/app.js",
+      "kind": "product",
+      "status": 200,
+      "bytes": 77996,
+      "sha256": "720586ddf41431f78a8ab71dd54a6e4764fe971c4a892c70a3f59a0e5f204fc5",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/blocks.css",
+      "kind": "product",
+      "status": 200,
+      "bytes": 31505,
+      "sha256": "53e410e9bb90c436482208f7e721a8fd2d3e4dc45bbda4b6d5c75c2753d4d355",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/blocks.js",
+      "kind": "product",
+      "status": 200,
+      "bytes": 23518,
+      "sha256": "6238a42a3298944a6d023cb81b3f73af9c6d3e038b1c8437c08b1fd307b5de32",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/deck-model.js",
+      "kind": "product",
+      "status": 200,
+      "bytes": 46323,
+      "sha256": "53f266e64e754e57bf06531df5e58a7333db9fb8c64a5f29d96bf69de4c428e2",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/materials.css",
+      "kind": "product",
+      "status": 200,
+      "bytes": 10387,
+      "sha256": "1b61ac3b3119aa9aae8a080ea24e63eb0080abf0ce5749d469e2cf0977a0b702",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/styles.css",
+      "kind": "product",
+      "status": 200,
+      "bytes": 90612,
+      "sha256": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/visual.css",
+      "kind": "product",
+      "status": 200,
+      "bytes": 19627,
+      "sha256": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/visual.js",
+      "kind": "product",
+      "status": 200,
+      "bytes": 29597,
+      "sha256": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/index.html",
+      "kind": "product",
+      "status": 200,
+      "bytes": 1790,
+      "sha256": "58f0add0782263cb4251c86c93e9f96194374bad12685d7f5f3d7c028b85a203",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/0719dc19d603-case-team.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 2793,
+      "sha256": "0719dc19d60319b011810062359dc0e3235398cf99dcff9753abf63410cfb19e",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/0ac7822fd7af-starter.txt",
+      "kind": "product",
+      "status": 200,
+      "bytes": 1572,
+      "sha256": "0ac7822fd7af69689ef6297d03cf44744e609c78d9ef741c32f89a901a4db16e",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/127df6c27adf-wiki-ingest-update.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 3640,
+      "sha256": "127df6c27adfcd67fe12091c12859ece95960c76ff301ae171a289a6285c6bfe",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/217a8eb04b47-case-reading-initial.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 2469,
+      "sha256": "217a8eb04b479e3deb28b85af77582e7e58affaace53f13c2ef862a2ad2bacbc",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/258a229c6dc8-study-table.jpg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 405921,
+      "sha256": "258a229c6dc857c44c2a93083f74eccebe4566b530f043228bc2d8aa1709e1a7",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/2dc76bc98400-case-course-initial.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 1940,
+      "sha256": "2dc76bc9840090a7668879a8ce86587cd0256c1c32e5d8736be084e6aecc8910",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/381686fba25b-case-reading.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 2973,
+      "sha256": "381686fba25b77da3d78ce015ba919505cb5fbb6a25a91522542ba3a43784979",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/441435e97663-reuse-inputs.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 2452,
+      "sha256": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/478e6580030c-writing.jpg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 151172,
+      "sha256": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/5aa7ac752bff-open-books.jpg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 157816,
+      "sha256": "5aa7ac752bffc72f7f3526b52ac26aa563951dd7e9767363b03d247f4e519903",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/70a44a23d5e1-decision-transition.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 2576,
+      "sha256": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/79afc5f22a98-wiki-layers.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 2375,
+      "sha256": "79afc5f22a989abd58ccf096aea59466057cb46a29da8cb263e34d37e36fc6b7",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/7f02c1c31f4c-course.txt",
+      "kind": "product",
+      "status": 200,
+      "bytes": 3272,
+      "sha256": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/8263a8f3fd79-wiki-maintenance-loop.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 3517,
+      "sha256": "8263a8f3fd79abe6d50dbd777086918876e589c88b4ab919b8755ee6daa1f5d3",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/8c6c53e6a95d-current-pending.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 2356,
+      "sha256": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/92826f25bf47-case-course.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 2448,
+      "sha256": "92826f25bf473f1cde492fa4adeca37221ef319e504cd1423bf56dd39511974c",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/9c0a83b5bf0a-llm-wiki-demo.zip",
+      "kind": "product",
+      "status": 200,
+      "bytes": 23952,
+      "sha256": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/ac3c13699c77-impact-map.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 3472,
+      "sha256": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/b9b79ffd8cd0-team.txt",
+      "kind": "product",
+      "status": 200,
+      "bytes": 3241,
+      "sha256": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/c25067e5b335-reading.txt",
+      "kind": "product",
+      "status": 200,
+      "bytes": 3128,
+      "sha256": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/d68e2a55ee89-wiki-query-return.svg",
+      "kind": "product",
+      "status": 200,
+      "bytes": 2576,
+      "sha256": "d68e2a55ee89c46cbd29a187f076f32d0146c8713c3b8b086ad2af1d05de8413",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/content.js",
+      "kind": "product",
+      "status": 200,
+      "bytes": 170095,
+      "sha256": "616e9a79d758be7ebd1f9deef481f843bf3365268be9acb367a089c048a4addf",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/index.html",
+      "kind": "product",
+      "status": 200,
+      "bytes": 6690,
+      "sha256": "5c19145cf935cf7d44a33bf16b135e5071181e46b6913371605a662d79949877",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/demo-log.html",
+      "kind": "product",
+      "status": 200,
+      "bytes": 24279,
+      "sha256": "8495ead3629aad09f2dd92a94843a013fc69a7fb727901b9556d3d09e1b389e1",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/index.html",
+      "kind": "product",
+      "status": 200,
+      "bytes": 8965,
+      "sha256": "64769a4c9f3778f3308744eae202f69f77dd23c3594a98b8552eee926f5ef19a",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/reference-library.html",
+      "kind": "product",
+      "status": 200,
+      "bytes": 37093,
+      "sha256": "ff64902b28950bd025590755958748c481a3662868900c2739eaee00a00ee2c7",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/speaker-script.html",
+      "kind": "product",
+      "status": 200,
+      "bytes": 67342,
+      "sha256": "da49a4f4cadd352d82f4f32b06a5b9f09ab35cadf78449a23afebc9270d34f21",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/study-guide.html",
+      "kind": "product",
+      "status": 200,
+      "bytes": 90761,
+      "sha256": "f84f863dda43f666b7846d134bc71e64d191614f16d4011c25d2657dda091e96",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/workshop.html",
+      "kind": "product",
+      "status": 200,
+      "bytes": 41050,
+      "sha256": "34c64f33d38857c50dc8b96fd7e6b054091050db817c88af35c0397193211950",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/read.html",
+      "kind": "product",
+      "status": 200,
+      "bytes": 6688,
+      "sha256": "551d62bbbdb7f94c60bda4415e4cf9dc03e0ee4a11d417a1b8429258f9838c88",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/manifest.json",
+      "kind": "product",
+      "status": 200,
+      "bytes": 3662,
+      "sha256": "0e765b472353c6a3bd67d643ebdbb5a1514e18a57d81b14338d23e4b0607a4f0",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-03.png",
+      "kind": "baseline-comparison",
+      "status": 200,
+      "bytes": 45624,
+      "sha256": "e511c0ae4e8d5dbac9c02451a216e16664ea1f43e9327d8354e717460fe45709",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-10.png",
+      "kind": "baseline-comparison",
+      "status": 200,
+      "bytes": 78231,
+      "sha256": "8008e2a6e7e3df13c3767c9b127016747cef89f78bcf82d5279c2edf7187d51b",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-16.png",
+      "kind": "baseline-comparison",
+      "status": 200,
+      "bytes": 61758,
+      "sha256": "d85726c76d665a06f74446e527ea39bfa00e52b284b674a6d290806225a663b2",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-23.png",
+      "kind": "baseline-comparison",
+      "status": 200,
+      "bytes": 71350,
+      "sha256": "c2bc37f46850ce7089912486252da657797310e19e1237f6d72efa5c81b8b5e3",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-25.png",
+      "kind": "baseline-comparison",
+      "status": 200,
+      "bytes": 64309,
+      "sha256": "d64fbd46386f1bcb067c6bc51cc0e204108d0db9f251a89509a515a2d181778b",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-26.png",
+      "kind": "baseline-comparison",
+      "status": 200,
+      "bytes": 557130,
+      "sha256": "12572a2d1d9be2b25b42c8a171cce4e39bf7060a9a293e1639d2e7c3a58a9ae0",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-27.png",
+      "kind": "baseline-comparison",
+      "status": 200,
+      "bytes": 44441,
+      "sha256": "722438ca0520589eb72428cfe219ba1cca1832f09b2f3ee201c0ece461d21dbc",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-39.png",
+      "kind": "baseline-comparison",
+      "status": 200,
+      "bytes": 44207,
+      "sha256": "41e08a83cce4c40c2d05f1d2cd384af625b9780511de13526f8f83260d942ae1",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/PROTOCOL.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 3992,
+      "sha256": "68f3fc764e88fed9c191dc648ef5c7624e234d82fca1b789349640e7bb0b93d1",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/RESULT.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 7425,
+      "sha256": "1d54ed1b4a165703871567698bd60af94e994001beb41578ad0f598b2e2c3215",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/cross-team/MEETING.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 6338,
+      "sha256": "c31d00c645fd5486def5db8c5e58b19ee6852fd85869ebd436075470837ed774",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/cross-team/TECHNICAL_RESPONSE.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 4886,
+      "sha256": "acb7cbcfcb424e691aa204d1a079f5e01819da659426a8b47827ea7d50b524f7",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/engineering/A-FINAL.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 9305,
+      "sha256": "011d7a1c568f6c5ecc0301f825b487003e49ab6b9fc79c586940730750541337",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/engineering/A-FIRST.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 3591,
+      "sha256": "938d0b0495a2cc4e84cccd0bda4737e8b0569be4abc324801eb342f3890e6d92",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/engineering/A-MEETING.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 4679,
+      "sha256": "b2573ea985e65ace8643e9a834ad256b3c4dff6708733e0aba5afebb913c73e8",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/engineering/A-NOTES.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 14851,
+      "sha256": "379e8d06e0063b1496f48857e51ee063e6383f4d86148d43d0950002b87a0e8f",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/engineering/B-FINAL.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 11349,
+      "sha256": "8681cc5f04438f04d3c8598344955b295c48839e859fd7e6856f8ac495375b3b",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/engineering/B-FIRST.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 4214,
+      "sha256": "4b6412aefd7c0afc5599ffe282d459229fce6cd0f0bf728e311922f60d0de253",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/engineering/B-MEETING.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 4252,
+      "sha256": "d0b0e905073a3fcb69bdf2b0880cebc77657f9133d344160552ab4d3451e9449",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/engineering/B-NOTES.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 13806,
+      "sha256": "7071931a24230bc76eac3fc82f3edc471f14e76794f45e4a3aed5b3509736233",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/engineering/ENGINEERING-SYNTHESIS.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 10920,
+      "sha256": "96323e38fcf63ac458d3f69bcd1674466e51ebaa48ed1d6e5240a0e6aeee21eb",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/engineering/INTERNAL-MEETING.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 9351,
+      "sha256": "cda1b02df128552037c17da4cf0f1dd814a9372eae5cd6aed7642a25309505bf",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/audit-lines.mjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 2586,
+      "sha256": "3e89b92e1f4ba2758313f97aba10d2fc85b9641bb9459394f004e6d514321429",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/check-comparison.mjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 1480,
+      "sha256": "c806b95ec2980c3375876487cf8f38790effb559ecd4bb6769ae2a78b93d8b69",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/check-copy.cjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 1893,
+      "sha256": "967ac27a016bf880289596c6fcf0c457f5e5646301b612fd2370eca51ae455ba",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/check-core-route.mjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 3555,
+      "sha256": "f23d438ffd7f83805ac6b75a5da6660e3217fccfa9833bb1669091d502067202",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/check-followup-links.mjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 3963,
+      "sha256": "acd51de6a3ed927cc536e56d2bf312de549dd238862856ea1542148af621d1dd",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/check-navigation.mjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 7284,
+      "sha256": "c3084b79874d01f2402caa337d94cfdd424760650b00443b2763d7e9eb16e21c",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/check-reading-anchors.mjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 2701,
+      "sha256": "5b2874a8654fb234a3aec6dcc7e4b9442d12dcd5514bd47296ed33d89fd6815f",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/check-slides.mjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 2757,
+      "sha256": "214222e13ae14c2277693bb55a4c8786c53b47832949f722c4c29794ea6aef7f",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/check-svg.mjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 1692,
+      "sha256": "e0f65eb888ce40cf4bd23d613067a0751737ddf5b6a1d8807af1ba85a1a472af",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/comparison.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 2749,
+      "sha256": "ecde89ebca58f98a56696fab7e808e0e776a97f7510eae8eaaaed373e6e6ec52",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/copy-check.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 5063,
+      "sha256": "c301854c8920f9c78dd39e92affa55a778efc0aa5083ec5316c52b326eebfea5",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/core-route-browser.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 3116,
+      "sha256": "bb9cc93bed193379fc30e196d6e893b6fa2f1882aaf317614192bc1e2aecd01d",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/final-validation.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 514,
+      "sha256": "acdc12578ac8cba2c9f5a1d69245022811ec60056e19cc1fc5bcc8fb43ed4fd3",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/followup-links.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 4514,
+      "sha256": "1c16f370b2b7fc3b7cdc0c0c71b1a80a41aad6d2287c763dd2af0c566c2ca685",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/lines.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 74496,
+      "sha256": "3d5318ba3a59dfacc3172977c4723b9841a57ddb6e4ed55bc596b01e0a4a391a",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/navigation.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 6614,
+      "sha256": "d99d1d7c29b6346677fdf5d9e38ad93767036e7e29951717c224059333a41f6f",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/preservation.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 700,
+      "sha256": "11272a92d1398021aab943b39d497effac7f60861a96479d141435cbd51e9b45",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/reading-anchors.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 7242,
+      "sha256": "75aa06c4d089e2e3bcbd2e4e929f5e7c90f4c3fcd7c33328c08dcaebb881aeb0",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/comparison-1440.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 86560,
+      "sha256": "d0722c99075b1728d27ea18f0eb908088cb411d9116b341ef643ae8bbb969e7e",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/comparison-390.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 62814,
+      "sha256": "f56deefb59c92503ec820d65bbca7f261aea0277e829c6588db5586819c9b5cf",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/mobile-read.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 40937,
+      "sha256": "1119c4f8ff86d579e9c2997f70a8fe702972056dcdbb8e90839487a389b5109e",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/read-11-390.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 46308,
+      "sha256": "d7c7d4a42eee7a595a3037d3c2d0cca75ff03827b13528e1a5e939f7466772c6",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/read-17-390.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 47419,
+      "sha256": "d7026a2fe422f0f1fbd6e843c7e111d3b31839103a454a6e6a763e3767d0735c",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/read-24-390.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 50488,
+      "sha256": "350f6e06c85d3f078eece26a2d97b0239987c84f59b30d033a19e92c8eb4a028",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-01.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 601565,
+      "sha256": "080a0c3c34c1a5a69a569183d6d22dde9ee62ee1e1a52e805befe96d0fea5c76",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-02.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 76489,
+      "sha256": "6e68b7dfb5e9c8357a1266efe1ba45d2b5f33882fdd2620951f977ff4f5f71a2",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-03.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 48469,
+      "sha256": "9f2c33401a42af47ffb79ac99a7fada55d0619cf83aa514f068bbda66fcd4ad0",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-04.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 68081,
+      "sha256": "f48b48d8553bc33949ca5bd00e65b9d40b2b2c9010ae9635c032844beafefde4",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-05.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 52741,
+      "sha256": "af4b1d96681b2b7c707532ec999362fc8013ab697bd827e7d37f62a4d3c5b9c7",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-06.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 64997,
+      "sha256": "82d2c5e444c6d1b77d37198de02ecf441960483b089a1700368720838192c4fd",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-07.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 67997,
+      "sha256": "e4af0bb37a752c4f1a53ee25736912504df74b53929419e9410289fb3026d7e6",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-08.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 73367,
+      "sha256": "05b792a47ccdf081547b3f2e4ff32ab4d3d36d6bb1a46f4de5f138f5e29697fe",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-09.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 46648,
+      "sha256": "f9d56f9f7ff6579ec910d0ef649f2d2eeacc2436c020f23e17bed2bd7f7fc077",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-10.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 64487,
+      "sha256": "e2b7df9f54a1ae2a1afcfef360270942e097822c13d6b382bfeaa03448dda687",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-11.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 55873,
+      "sha256": "a0aea7a25b4216b98e0eed691ced9f3765bb682410b1008105818592eb2b7907",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-12.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 55542,
+      "sha256": "5b076cca345e9693fbb2957db7425914354b73cffb8a0c9cd902d57dc4a6c5eb",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-13.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 46988,
+      "sha256": "a3123dd7a4a0d1e238f64c0d0360b26b203abf712ad3f3cebecf3213b4888981",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-14.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 76605,
+      "sha256": "ad0c39595a76071dea124bd8bb740a83dfebbcddfda9570066e9d8c20727d54e",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-15.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 69749,
+      "sha256": "1dacb7a7bb68530559c620238db0c9e701f037a0c594ce8ac4d573f26fb791f2",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-16.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 55342,
+      "sha256": "0b1e467879c1f58a34ec5b2d0190f0f709d911397060f223eceba6c54ee618d6",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-17.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 48973,
+      "sha256": "db54fe74a934e980be44524dc611394abe53dd09d092719788208494e8453d5f",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-18.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 62903,
+      "sha256": "59f3d6727ba5aba8ae7013b1fef7b2522bb5e2913b2680162a73dad8129dd334",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-19.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 66372,
+      "sha256": "ea0fb067c3f17becd4d00af2e4bfac972d3c6cf2b017b2980a1665e4936492cc",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-20.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 56825,
+      "sha256": "6298ad5103f432fddcf1c85cde3bb26791f78e7f9fd3c09d3ef93c4e84763751",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-21.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 46200,
+      "sha256": "1cbcb1e4ff712434b9d675b0c6d4ca767d1cec5a4a6ae00b2b90558665bb7326",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-22.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 53148,
+      "sha256": "6b8512d5f8ed9b5d2041b7ea894650460b7a693b79baf5ba63344d4e7c3cd631",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-23.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 71213,
+      "sha256": "f284c47d9bfb9e35655d6309ee53afb5092dbd5d023b383b3250b42c7a23c72d",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-24.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 36966,
+      "sha256": "21ca0e8788ee95f0d3196382aa826a0412ba042c9b933ee1871826df78b4ed2d",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-25.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 78776,
+      "sha256": "f0fc5c6faad5c906bc74cbc6998d52f69cde057b986bb2b22a2b2c4e6ee687b6",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-26.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 565349,
+      "sha256": "ea9feed12d2b10279db640ebf53dbca5e7da3d91812507ffaed6c676b27f75b5",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-27.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 54802,
+      "sha256": "c591c96ac3bb70b5a0b853774f2bfffd907cc8c432585a7a722ffaa350964a76",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-28.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 40319,
+      "sha256": "32727ada733906c09b7cea5397e0aa4cc70bd7cc40fd1b2ed8810eb787a35b00",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-29.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 59447,
+      "sha256": "9bc0b1b80b7d35fc207bf67ef3503f603f04e649a03a9e7ce0b0dc6e63346c77",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-30.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 57687,
+      "sha256": "a8c50221a0682ae70a24a9f6fd7d59134752aa4186ac180398338806d83ed670",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-31.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 56320,
+      "sha256": "bf16573ac9189d73cc889daf932978784fc34b607e6710e3e218ad18014befc9",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-32.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 64332,
+      "sha256": "7e48c738640fa21a00c2e86c4aaedf0e4c07100bfd3ac8cbe416fa971ae00870",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-33.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 58770,
+      "sha256": "73890cbc2fd3873ae2084c4b921ef395bbdaf4b76bc0fed73f05b48ed70a5760",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-34.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 66070,
+      "sha256": "8c17a802e0720cf67c1bfda2afb4b829de035afa4a9c55ce6c6368cb481962d6",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-35.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 56627,
+      "sha256": "20427f9fc993704e5008ca3541d68a22d7a1f69c1cef09743b1e9543817dd0a5",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-36.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 71272,
+      "sha256": "7f0dbbcede20190fc7ad43b7e620f4b2722467622359b63456234164c3ca4719",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-37.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 73729,
+      "sha256": "70f9df430224805587f076932228b90c647ff9f877a2009be4636e9dff4191b4",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-38.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 55624,
+      "sha256": "7b55bf8667a3e29118a3c9920f0b53436f7427d6c95e8cb2fb5b520e340c5c7f",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-39-1440.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 53819,
+      "sha256": "ba427f081b5191cef94febe81bb13b51d4199b3494590a8dbc2e9b8305acf3e8",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-39-960.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 35648,
+      "sha256": "b4e46c63c3937454859f1f9dae2c98b01ea4b034ddaf4632ed40c41e219ba05f",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-39.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 53819,
+      "sha256": "ba427f081b5191cef94febe81bb13b51d4199b3494590a8dbc2e9b8305acf3e8",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/screens/slide-40.png",
+      "kind": "review",
+      "status": 200,
+      "bytes": 43018,
+      "sha256": "7ad961d47d3f26216634a483e5042ab63d9f9e9e5f31815058318009c22ff9f5",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/slides.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 94174,
+      "sha256": "6c1eb0f9e53d1a7744bd20a56c1d34530716a72b96bbd1f73c5426027f444efc",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/evidence/svg-text.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 4021,
+      "sha256": "1a14ecda278d0243763e9b411092a9a9641ec7550fe2abba6cb3db3678583432",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/index.html",
+      "kind": "review",
+      "status": 200,
+      "bytes": 5637,
+      "sha256": "af98e43833f0f29c6227673e941bc9ada4e960360a2b4ab1b32030777c3bfc11",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/input/baseline.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 6122,
+      "sha256": "cd6ee6bc12b6c7dd8c6466823a44ae7b7ee39e57ab680cff0ae41697997edb03",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/input/phase-1.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 6468,
+      "sha256": "16d8707c8138c1093e95139b4530e5a1dfcb7c74f1877fb1a4f3c8587f41e54c",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/input/phase-2.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 6624,
+      "sha256": "d3595a7115852dbca445e699d53da68aa9a770a299121c445651a6bafa3dca71",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/input/phase-3.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 7342,
+      "sha256": "2847fbd34958be0d2344169be88bff453f0fa8001a25d0e47d2e196b2acb6aaf",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/input/phase-4.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 849,
+      "sha256": "394e0e4adfd025a0363f01ce52460d4951b61d31625142b9d04cf615003e4c61",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/input/phase-5.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 8569,
+      "sha256": "aa16749c652b7f3fee3adcbdb16e8740380b0e6e2416c85d967e98423a127b55",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/input/snapshot.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 14833,
+      "sha256": "effd9248508eb5b0483438d27f8de80bd9b625154e3211e7ec620263d1f98b12",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/preservation-check.cjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 2638,
+      "sha256": "dd8b7173f77867f2061e8a5450962ae3a0bf3bd9f51dc3ebdcf20874d6f2ca33",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/qa/A-FINAL.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 11865,
+      "sha256": "aa2b900f1e17229bfbc85914d0108ce3c437a6f18335b368818ece02101e8255",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/qa/A-FIRST.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 9779,
+      "sha256": "73639dcb7582e5a9d31e04fb282243e9659122fe2bb3494ec1f1a7dc78fd6aef",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/qa/A-MEETING.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 5374,
+      "sha256": "16d5688d37dc9b0d2878c2795fd5b3728a4a55cd8b8229320a3173d31ef662c3",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/qa/B-FINAL.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 10253,
+      "sha256": "b9cccc14f6529d495041f46ec082e0acca49dc56c4d03e1d78cb5021ab176c68",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/qa/B-FIRST.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 8154,
+      "sha256": "4c28a18e589638ff07fdf7cd396cff3be196e9194dbfd00fab151ba390f9c8e6",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/qa/B-MEETING.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 3703,
+      "sha256": "d838825781d81aa5c226d21ad717380758d546019142e3dadd54baf92a925f90",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/qa/INTERNAL-MEETING.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 9102,
+      "sha256": "dccd21a0923973195bad38e117434dc15d5b8cae305d1b2778c492e199e1c6fe",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/qa/QA-SYNTHESIS.md",
+      "kind": "review",
+      "status": 200,
+      "bytes": 7130,
+      "sha256": "8c95f253684f86ebf41661226cfef10cb04f239ea405014401bc2e54be1f95e4",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/render-initial-states.cjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 3983,
+      "sha256": "24641a6e5f0406a22096636803d3a97d9feb3ef2c3fee936b195be81f98b0ae6",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/source-check.cjs",
+      "kind": "review",
+      "status": 200,
+      "bytes": 7311,
+      "sha256": "d49985b653a62ec179ae01b34d24f37d6038c7b1023c63139102ef4f745cda88",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-review-followup-20261029/source-check.json",
+      "kind": "review",
+      "status": 200,
+      "bytes": 21210,
+      "sha256": "99fd1c037a846bd393ac7d3f313ec3ec094eaf94a054e779841ea1b643f40a14",
+      "matches_local": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "attempted_at_utc": "2026-10-29 09:47:46 UTC",
+  "owned_task_space": 122,
+  "last_successful_local_round_utc": "2026-10-29 09:14:50 UTC",
+  "public_round_started": false,
+  "error": "Error: task space not found: 122",
+  "matching_task_spaces_after_error": [],
+  "cause_of_disappearance": "unknown",
+  "new_space_created_to_recover": false,
+  "other_user_spaces_operated": false,
+  "finish_called": false,
+  "reason_no_finish": "The owned space no longer exists; the browser round stopped on error before page operations.",
+  "available_evidence": "Local 40-slide rendering and interaction checks, independent team screen/script reviews, successful same-SHA Pages deployment and 150 committed files matching local bytes.",
+  "scope_limit": "No fresh public live-browser screenshots or interaction checks were completed. HTTP checks are not reported as those browser checks."
+}
