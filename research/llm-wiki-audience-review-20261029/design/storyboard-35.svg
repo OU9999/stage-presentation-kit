@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810">
+<rect width="1440" height="810" fill="#080808"/>
+<g font-family="Arial, Apple SD Gothic Neo, sans-serif" fill="#f5f5f5">
+<text x="80" y="72" font-size="19" fill="#9b9b9b">독립 STORYBOARD · 현재 35장 대안 · 제품 미반영</text>
+<text x="80" y="153" font-size="56">다음 모임에 다시 쓸 질문 한 줄</text>
+<text x="80" y="257" font-size="28" fill="#f4d15e">질문 한 줄 먼저, 자료 제목은 기억나는 만큼</text>
+<rect x="80" y="301" width="350" height="116" rx="7" fill="#151515" stroke="#777"/>
+<rect x="498" y="301" width="350" height="116" rx="7" fill="#151515" stroke="#777"/>
+<rect x="930" y="301" width="430" height="116" rx="7" fill="#151515" stroke="#f4d15e"/>
+<text x="109" y="349" font-size="25" fill="#aaa">자료 A</text><text x="109" y="388" font-size="27">[제목]</text>
+<text x="527" y="349" font-size="25" fill="#aaa">자료 B</text><text x="527" y="388" font-size="27">[제목]</text>
+<text x="959" y="349" font-size="25" fill="#f4d15e">내 질문</text><text x="959" y="388" font-size="27">[한 줄]</text>
+<text x="452" y="371" font-size="35">+</text><text x="873" y="371" font-size="35">→</text>
+<text x="80" y="495" font-size="30">근거 위치는 다음 모임에 확인: [자료의 어느 부분?]</text>
+<text x="80" y="583" font-size="23" fill="#aaa">예: RAG 메모 + 지난 Q1 →</text>
+<text x="80" y="617" font-size="23" fill="#aaa">다음 답이 고친 파일을 읽었는지 어떻게 확인할까?</text>
+<text x="80" y="722" font-size="29" fill="#f4d15e">질문 한 줄 먼저 · 20초 · 채팅 공유는 선택</text>
+<text x="1240" y="760" font-size="16" fill="#777">제안 3 / 3</text>
+</g></svg>

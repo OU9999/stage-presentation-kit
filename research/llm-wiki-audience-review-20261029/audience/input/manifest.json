@@ -1,0 +1,13 @@
+{
+  "git_head": "a5b558c36b41ed92a4132b303a77f3ad1a287e27",
+  "slides_sha256": "7dbd19ffdf942f22af8bec54af10fac7835a06469360b99bdb783a2dca077c28",
+  "speaker_script_sha256": "c8ed063f8a6369a1a1db0b4e06288b436c2772fe6fa566499351c7832baaaed8",
+  "slide_count": 40,
+  "packet_kind": "slide images plus written spoken script; not audio or real audience data",
+  "files": {
+    "block-3.md": "db1cf0dfcd90aee8c53be33b24eaae515dfda888596f7312c0503250b3d1b5ed",
+    "block-2.md": "0a2a7b9d6def26d69f4e7355db4786130d21a2e64f3134262e97d90b22132885",
+    "block-1.md": "b753e15ea260040449f972896788c2b4fc01b952b0420fabafcc431eaa5b6338",
+    "block-4.md": "36e27f97af479a10fd5fd4a58234d39f31f6d6959be65a731d2e70a4adb059b7"
+  }
+}
