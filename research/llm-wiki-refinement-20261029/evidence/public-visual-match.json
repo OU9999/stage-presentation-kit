@@ -1,0 +1,134 @@
+{
+  "selectedSlides": [
+    {
+      "slide": 1,
+      "samePixels": true
+    },
+    {
+      "slide": 3,
+      "samePixels": true
+    },
+    {
+      "slide": 4,
+      "samePixels": true
+    },
+    {
+      "slide": 5,
+      "samePixels": true
+    },
+    {
+      "slide": 6,
+      "samePixels": false
+    },
+    {
+      "slide": 7,
+      "samePixels": true
+    },
+    {
+      "slide": 8,
+      "samePixels": true
+    },
+    {
+      "slide": 9,
+      "samePixels": true
+    },
+    {
+      "slide": 10,
+      "samePixels": true
+    },
+    {
+      "slide": 12,
+      "samePixels": true
+    },
+    {
+      "slide": 13,
+      "samePixels": true
+    },
+    {
+      "slide": 17,
+      "samePixels": true
+    },
+    {
+      "slide": 18,
+      "samePixels": true
+    },
+    {
+      "slide": 19,
+      "samePixels": true
+    },
+    {
+      "slide": 22,
+      "samePixels": false
+    },
+    {
+      "slide": 23,
+      "samePixels": true
+    },
+    {
+      "slide": 24,
+      "samePixels": false
+    },
+    {
+      "slide": 26,
+      "samePixels": true
+    },
+    {
+      "slide": 30,
+      "samePixels": true
+    },
+    {
+      "slide": 31,
+      "samePixels": true
+    },
+    {
+      "slide": 32,
+      "samePixels": true
+    },
+    {
+      "slide": 33,
+      "samePixels": true
+    },
+    {
+      "slide": 34,
+      "samePixels": true
+    },
+    {
+      "slide": 35,
+      "samePixels": true
+    },
+    {
+      "slide": 40,
+      "samePixels": true
+    }
+  ],
+  "pointerOutsideStageRecheck": [
+    {
+      "slide": 6,
+      "samePixels": true,
+      "diffBox": null,
+      "localSha256": "1fe3035777173d3ae6f9a1f5b0ca455c4ce8ee417b6b41402f7b9f0188f30901",
+      "publicSha256": "1fe3035777173d3ae6f9a1f5b0ca455c4ce8ee417b6b41402f7b9f0188f30901",
+      "localCapture": "screens/state-local-06.png",
+      "publicCapture": "screens/state-public-06.png"
+    },
+    {
+      "slide": 22,
+      "samePixels": true,
+      "diffBox": null,
+      "localSha256": "9e96ae231c4175c74a1632e057d7e4fcee6e230a36c49e0112cd698f75077a7f",
+      "publicSha256": "9e96ae231c4175c74a1632e057d7e4fcee6e230a36c49e0112cd698f75077a7f",
+      "localCapture": "screens/state-local-22.png",
+      "publicCapture": "screens/state-public-22.png"
+    },
+    {
+      "slide": 24,
+      "samePixels": true,
+      "diffBox": null,
+      "localSha256": "8475ffddb861f6b086f4ced59dccfc2f83f51f29e1d717e2c8cea0c718400e15",
+      "publicSha256": "8475ffddb861f6b086f4ced59dccfc2f83f51f29e1d717e2c8cea0c718400e15",
+      "localCapture": "screens/state-local-24.png",
+      "publicCapture": "screens/state-public-24.png"
+    }
+  ],
+  "result": "22 initial exact matches; remaining 3 exact matches after the pointer was placed outside the stage for both captures."
+}

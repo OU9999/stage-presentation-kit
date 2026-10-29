@@ -1,0 +1,145 @@
+{
+  "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+  "count": 40,
+  "reveal": [
+    {
+      "from": 12,
+      "to": 13,
+      "label": "근거 확인하기",
+      "actual": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?flow=2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233#13"
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "label": "현행 노트로 저장한다.",
+      "actual": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?flow=2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233#13"
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "label": "원문 범위를 검토한다.",
+      "actual": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?flow=2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233#13"
+    },
+    {
+      "from": 13,
+      "to": 12,
+      "label": "질문으로 돌아가기",
+      "actual": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?flow=2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233#12"
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "label": "읽은 범위 확인",
+      "actual": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?flow=2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233#14"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "label": "이 예제의 선택 확인",
+      "actual": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?flow=2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233#24"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "label": "현행 노트로 저장한다.",
+      "actual": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?flow=2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233#24"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "label": "검토 대기에 보류한다.",
+      "actual": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?flow=2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233#24"
+    },
+    {
+      "from": 24,
+      "to": 23,
+      "label": "질문으로 돌아가기",
+      "actual": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?flow=2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233#23"
+    },
+    {
+      "from": 24,
+      "to": 25,
+      "label": "보류 이유 읽기",
+      "actual": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/index.html?flow=2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233#25"
+    }
+  ],
+  "overview": {
+    "count": 40,
+    "links": 0
+  },
+  "presenterBothDirections": true,
+  "stageToMaterialsToScriptToRead": true,
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "count": 40,
+    "missing": [],
+    "body": "18px",
+    "images": [
+      {
+        "alt": "창가 책상에 펼친 책과 공책, 펜이 놓여 있다.",
+        "fit": "contain",
+        "width": 1800
+      },
+      {
+        "alt": "원자료함은 읽은 자료 raw, 함께 고친 설명은 wiki, 적는 약속은 작업 규칙, 바꾼 이유는 log에 대응한다. 규칙은 모든 작업에 적용되며 다음 변환 단계가 아니다.",
+        "fit": "contain",
+        "width": 1200
+      },
+      {
+        "alt": "원자료는 보존하고 위키는 갱신한다. 작업 규칙은 둘 사이의 작업 전체에 적용하며 세 번째 변환 산출물이 아니다.",
+        "fit": "contain",
+        "width": 1200
+      },
+      {
+        "alt": "교정한 주장 C1을 첫 질문의 답 Q1에 반영하고, 이전 설명과 초기 결정을 함께 읽어 새 운영 질문 Q2와 저장 기준 D2를 판단한다. 목차·변경 이유·옛 결정·검토 대기는 별도 지원 기록으로 남긴다.",
+        "fit": "contain",
+        "width": 1200
+      },
+      {
+        "alt": "Q2가 다시 읽는 파일은 교정된 C1, Q1, 초기 D1이다. C1에서 링크만으로 일반화를 지원하지 못함을, Q1에서 다음 답이 파일을 다시 읽어야 함을, D1에서 모든 답을 현행으로 모으려던 이유를 가져와 현행과 검토 대기함을 나누는 판단에 쓴다.",
+        "fit": "contain",
+        "width": 1200
+      },
+      {
+        "alt": "Q2의 답은 원문과 범위를 대조한 설명을 현행 위키에 연결하고, 필요한 파일을 언제나 찾는다는 근거 부족 답은 pending에 남긴다. D2에는 이 저장 기준과 검토 부담을 기록한다. 이는 이 구성 예제의 운영 선택이다.",
+        "fit": "contain",
+        "width": 1200
+      },
+      {
+        "alt": "초기 결정 D1은 모든 질문 답을 현행 노트로 저장하려는 선택이다. C1 교정 뒤 superseded로 표시하고 D2 검토한 답을 현행으로 표시하기로 연결한다. 예전 맥락과 결과는 보존한다.",
+        "fit": "contain",
+        "width": 1200
+      },
+      {
+        "alt": "창가 책상에 펼친 책과 공책",
+        "fit": "contain",
+        "width": 1800
+      },
+      {
+        "alt": "노트에 쓰는 인물",
+        "fit": "contain",
+        "width": 1600
+      },
+      {
+        "alt": "책과 공책과 필기도구가 모인 책상",
+        "fit": "contain",
+        "width": 1800
+      }
+    ],
+    "header": [
+      {
+        "left": 12,
+        "right": 75.6015625
+      },
+      {
+        "left": 85.6015625,
+        "right": 177.6875
+      },
+      {
+        "left": 235.78125,
+        "right": 378
+      }
+    ]
+  }
+}

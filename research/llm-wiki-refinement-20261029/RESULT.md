@@ -40,4 +40,4 @@
 
 이 수치와 기능 검증을 사람의 이해·집중·참여 성공을 측정한 결과로 사용하지 않는다. 자료 목차의 대본 링크가 둘이고 새 선택 카드 첫 문단은 인용23px여서, 자동 검수의 단일 링크/본문 선택을 실제 대상에 맞춰 조정했다. 제품 결함으로 바꾸거나 그 상태를 통과 처리하지 않고 전체 탐색/읽기/자료 검수를 다시 실행했다.
 
-최종40장 보드: [1–10](evidence/board-1.jpg) · [11–20](evidence/board-2.jpg) · [21–30](evidence/board-3.jpg) · [31–40](evidence/board-4.jpg). 개별 화면과 실제 브라우저 결과는 `evidence/`에 있다. 원고·자료·자산과 이 기록을 함께 커밋·푸시하고 같은 SHA의 Pages에서 공개 인수한다.
+최종40장 보드: [1–10](evidence/board-1.jpg) · [11–20](evidence/board-2.jpg) · [21–30](evidence/board-3.jpg) · [31–40](evidence/board-4.jpg). 개별 화면과 실제 브라우저 결과는 `evidence/`에 있다. 원고·자료·자산을 커밋·푸시했고 동일 SHA의 Pages에서 [공개 인수](DEPLOYMENT.md)도 완료했다.

@@ -1,0 +1,22 @@
+{
+  "space": 99,
+  "kept": "p6",
+  "observed": {
+    "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+    "count": 40,
+    "index": "5",
+    "heading": "공용 노트를 파일로 옮기면",
+    "editable": 0
+  },
+  "result": {
+    "spaceId": 99,
+    "closedSpace": false,
+    "keptManagedLabels": [
+      "p6"
+    ],
+    "closedManagedLabels": [
+      "p1"
+    ],
+    "preservedUnmanagedCount": 0
+  }
+}
