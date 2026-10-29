@@ -1,0 +1,652 @@
+{
+  "git_sha": "f1c17a9c8fd40c66dd38b02dd3fd028996fdf7e2",
+  "checked_at_utc": "2026-10-29T08:26:46.187091+00:00",
+  "product_files": 37,
+  "review_files": 55,
+  "files": [
+    {
+      "path": "presentations/_runtime/app.js",
+      "status": 200,
+      "bytes": 77996,
+      "sha256": "720586ddf41431f78a8ab71dd54a6e4764fe971c4a892c70a3f59a0e5f204fc5",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/blocks.css",
+      "status": 200,
+      "bytes": 31505,
+      "sha256": "53e410e9bb90c436482208f7e721a8fd2d3e4dc45bbda4b6d5c75c2753d4d355",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/blocks.js",
+      "status": 200,
+      "bytes": 23518,
+      "sha256": "6238a42a3298944a6d023cb81b3f73af9c6d3e038b1c8437c08b1fd307b5de32",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/deck-model.js",
+      "status": 200,
+      "bytes": 46323,
+      "sha256": "53f266e64e754e57bf06531df5e58a7333db9fb8c64a5f29d96bf69de4c428e2",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/materials.css",
+      "status": 200,
+      "bytes": 10387,
+      "sha256": "1b61ac3b3119aa9aae8a080ea24e63eb0080abf0ce5749d469e2cf0977a0b702",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/styles.css",
+      "status": 200,
+      "bytes": 90612,
+      "sha256": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/visual.css",
+      "status": 200,
+      "bytes": 19627,
+      "sha256": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/visual.js",
+      "status": 200,
+      "bytes": 29597,
+      "sha256": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/index.html",
+      "status": 200,
+      "bytes": 1790,
+      "sha256": "58f0add0782263cb4251c86c93e9f96194374bad12685d7f5f3d7c028b85a203",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/0719dc19d603-case-team.svg",
+      "status": 200,
+      "bytes": 2793,
+      "sha256": "0719dc19d60319b011810062359dc0e3235398cf99dcff9753abf63410cfb19e",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/127df6c27adf-wiki-ingest-update.svg",
+      "status": 200,
+      "bytes": 3640,
+      "sha256": "127df6c27adfcd67fe12091c12859ece95960c76ff301ae171a289a6285c6bfe",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/258a229c6dc8-study-table.jpg",
+      "status": 200,
+      "bytes": 405921,
+      "sha256": "258a229c6dc857c44c2a93083f74eccebe4566b530f043228bc2d8aa1709e1a7",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/381686fba25b-case-reading.svg",
+      "status": 200,
+      "bytes": 2973,
+      "sha256": "381686fba25b77da3d78ce015ba919505cb5fbb6a25a91522542ba3a43784979",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/441435e97663-reuse-inputs.svg",
+      "status": 200,
+      "bytes": 2452,
+      "sha256": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/478e6580030c-writing.jpg",
+      "status": 200,
+      "bytes": 151172,
+      "sha256": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/5aa7ac752bff-open-books.jpg",
+      "status": 200,
+      "bytes": 157816,
+      "sha256": "5aa7ac752bffc72f7f3526b52ac26aa563951dd7e9767363b03d247f4e519903",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/70a44a23d5e1-decision-transition.svg",
+      "status": 200,
+      "bytes": 2576,
+      "sha256": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/79afc5f22a98-wiki-layers.svg",
+      "status": 200,
+      "bytes": 2375,
+      "sha256": "79afc5f22a989abd58ccf096aea59466057cb46a29da8cb263e34d37e36fc6b7",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/7f02c1c31f4c-course.txt",
+      "status": 200,
+      "bytes": 3272,
+      "sha256": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/8263a8f3fd79-wiki-maintenance-loop.svg",
+      "status": 200,
+      "bytes": 3517,
+      "sha256": "8263a8f3fd79abe6d50dbd777086918876e589c88b4ab919b8755ee6daa1f5d3",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/8c6c53e6a95d-current-pending.svg",
+      "status": 200,
+      "bytes": 2356,
+      "sha256": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/92826f25bf47-case-course.svg",
+      "status": 200,
+      "bytes": 2448,
+      "sha256": "92826f25bf473f1cde492fa4adeca37221ef319e504cd1423bf56dd39511974c",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/9c0a83b5bf0a-llm-wiki-demo.zip",
+      "status": 200,
+      "bytes": 23952,
+      "sha256": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/ac3c13699c77-impact-map.svg",
+      "status": 200,
+      "bytes": 3472,
+      "sha256": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/b9b79ffd8cd0-team.txt",
+      "status": 200,
+      "bytes": 3241,
+      "sha256": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/c25067e5b335-reading.txt",
+      "status": 200,
+      "bytes": 3128,
+      "sha256": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/d68e2a55ee89-wiki-query-return.svg",
+      "status": 200,
+      "bytes": 2576,
+      "sha256": "d68e2a55ee89c46cbd29a187f076f32d0146c8713c3b8b086ad2af1d05de8413",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/content.js",
+      "status": 200,
+      "bytes": 159699,
+      "sha256": "68996742aeaa431127a381ada48ef95fc429c33f3ec4ac1647bca306d846829a",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/index.html",
+      "status": 200,
+      "bytes": 6690,
+      "sha256": "30d5f76747823fd717c29b16a82c8fc825712de5be04524caa417ca78c4bd10b",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/demo-log.html",
+      "status": 200,
+      "bytes": 24279,
+      "sha256": "8495ead3629aad09f2dd92a94843a013fc69a7fb727901b9556d3d09e1b389e1",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/index.html",
+      "status": 200,
+      "bytes": 8965,
+      "sha256": "64769a4c9f3778f3308744eae202f69f77dd23c3594a98b8552eee926f5ef19a",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/reference-library.html",
+      "status": 200,
+      "bytes": 37093,
+      "sha256": "ff64902b28950bd025590755958748c481a3662868900c2739eaee00a00ee2c7",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/speaker-script.html",
+      "status": 200,
+      "bytes": 67033,
+      "sha256": "adc969c2768fc31c515f74fc78862fc3b29eef1944d900ec236ac6739d602522",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/study-guide.html",
+      "status": 200,
+      "bytes": 90761,
+      "sha256": "f84f863dda43f666b7846d134bc71e64d191614f16d4011c25d2657dda091e96",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/workshop.html",
+      "status": 200,
+      "bytes": 41050,
+      "sha256": "34c64f33d38857c50dc8b96fd7e6b054091050db817c88af35c0397193211950",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/read.html",
+      "status": 200,
+      "bytes": 6688,
+      "sha256": "2bbc6f832b285290eed50768b7fab5e1395c3fc478f24a6517e8595d308cee09",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/manifest.json",
+      "status": 200,
+      "bytes": 3662,
+      "sha256": "2bfb12e4cd3bb03d93d63a186e93526ead94df266144f3e04b2c23c4bcf60809",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/PROTOCOL.md",
+      "status": 200,
+      "bytes": 5064,
+      "sha256": "5b55fd73ed167d2e231ac464540e4d2114c149578c4ef18e86f827230dbf6965",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/RESULT.md",
+      "status": 200,
+      "bytes": 8992,
+      "sha256": "bfb45a3e055040bb565be647c30af8eae657372abf4ba3d1a7018f3022841444",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/cross-team/MEETING.md",
+      "status": 200,
+      "bytes": 9682,
+      "sha256": "437f0bc24339e312900ff0d3a0ed10a7571d176d9ab32cb151c50b4a53819daf",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/cross-team/RECOMMENDATIONS.md",
+      "status": 200,
+      "bytes": 6820,
+      "sha256": "ae785fcc1df0198d98db850eedb420618877e20a4d44ba7afb1812607e5d8ca0",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/cross-team/TECHNICAL_RESPONSE.md",
+      "status": 200,
+      "bytes": 12310,
+      "sha256": "0b7a4f1ddec0478b798feb59f9e3cb533b42b5c20c090753d0db93f4786ee102",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/ENGINEERING-SYNTHESIS.md",
+      "status": 200,
+      "bytes": 15388,
+      "sha256": "0394c6c4ee67b91c004e221a150cf3e21464718df24198d80de4106fa71f2143",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/INTERNAL-MEETING.md",
+      "status": 200,
+      "bytes": 10601,
+      "sha256": "0b2ef65c7bf11d95912f2d10901cd5ff6f8168b65402319ce0299efb368ddffc",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/implementation/FINAL-TECHNICAL.md",
+      "status": 200,
+      "bytes": 14486,
+      "sha256": "16cb703595951de5133f871cc3eaec154f66d7308ed79fa46629a9a82afac50e",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/implementation/FIRST-IMPRESSION.md",
+      "status": 200,
+      "bytes": 3750,
+      "sha256": "1612d830fd88887a17e0d63ffd6d20fa61798c64a5c931d89e295809c490c2ca",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/implementation/MEETING-RESPONSE.md",
+      "status": 200,
+      "bytes": 5112,
+      "sha256": "1257fe9b95e2257c5b06d6cc78ba93bee8e9fa22263f59fccda7149efab73883",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/implementation/phase-1-NOTES.md",
+      "status": 200,
+      "bytes": 2634,
+      "sha256": "e4062fa0482147a89ef03364f3bcb5bcf13e9f4192dc74b7c70b31bd8c364f32",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/implementation/phase-2-NOTES.md",
+      "status": 200,
+      "bytes": 2359,
+      "sha256": "fa00be55b79d3de09518c564da0b360f1c7cd0aeb98923f52486e903c649d17c",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/implementation/phase-3-NOTES.md",
+      "status": 200,
+      "bytes": 2589,
+      "sha256": "a6a028ee25ca73086c62dc51d60ae90f37361f4de63506548ed87b5d09612bac",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/implementation/phase-4-NOTES.md",
+      "status": 200,
+      "bytes": 669,
+      "sha256": "4834e6bc8407bd6ab4cd5dcad9de084c23f9e2a38eaacf97d0642b68f443dfad",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/implementation/phase-5-NOTES.md",
+      "status": 200,
+      "bytes": 2594,
+      "sha256": "f23bf6ffb6e48d2e560bb2cb5202dce06d427a460dd84eb400a94b36633f34c8",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/karpathy/FINAL-TECHNICAL.md",
+      "status": 200,
+      "bytes": 9165,
+      "sha256": "6f6f2d19633b799e45c91429c4d0456dbcc352909cc45a2d7ad061aafcb0403c",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/karpathy/FIRST-IMPRESSION.md",
+      "status": 200,
+      "bytes": 3099,
+      "sha256": "749117b324fa9f95ed4d153d0735db3c2218cea619ccdb2a35bfb24de0c1f807",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/karpathy/MEETING-RESPONSE.md",
+      "status": 200,
+      "bytes": 5480,
+      "sha256": "5453b0ea227bf49305d394253fb54d3e0a3a5bd65372ee5e7fabf0613b43a895",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/karpathy/phase-1-NOTES.md",
+      "status": 200,
+      "bytes": 2914,
+      "sha256": "edb10bbcbf2da1bedfcacec969c724b02f7ba47a2a3d63d105add8e2dbfaa111",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/karpathy/phase-2-NOTES.md",
+      "status": 200,
+      "bytes": 2587,
+      "sha256": "b64cb552d02539ccc4574e34a3bf4bae92aa21009bc61c913a55fba5dc359268",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/karpathy/phase-3-NOTES.md",
+      "status": 200,
+      "bytes": 2816,
+      "sha256": "26e9cfed39cc8427cb6acbbf9401eb43001e87cc17607bf4f37bf0ea08dc94e3",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/karpathy/phase-4-NOTES.md",
+      "status": 200,
+      "bytes": 716,
+      "sha256": "a6825ab7e2d7ce9aa03f58d383f8ac700c1274a4dcceb0bcade65005dfe7afcb",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/engineering/karpathy/phase-5-NOTES.md",
+      "status": 200,
+      "bytes": 2785,
+      "sha256": "b511476575587629cca80be2eef346a1978499e1819be3dc24e5e3152adb4022",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/evidence/baseline-public-http.json",
+      "status": 200,
+      "bytes": 8763,
+      "sha256": "d095131452d83cb1550cd5a98573d284b47b38559f005a3d3ae9f3be3fc7e3a2",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/evidence/final-validation.json",
+      "status": 200,
+      "bytes": 532,
+      "sha256": "c141c4068677de6e5684c66f6c50d3303d50f85f0847a86edc12e255af786a51",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/input/phase-1.md",
+      "status": 200,
+      "bytes": 6447,
+      "sha256": "5edeb81f2c638a67cbfd8056d59ab8571f928020c767f1d455568216fb6bc605",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/input/phase-2.md",
+      "status": 200,
+      "bytes": 6630,
+      "sha256": "7d32bb3400e87d8a9bbb5320e7201a8df952693bb87d44716ef9ef2befb0cddc",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/input/phase-3.md",
+      "status": 200,
+      "bytes": 7241,
+      "sha256": "5d2236b6a1ea9fe46ecac5400ba87c7aa58b2d5820d41af6fa1cb9b76f8de9b1",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/input/phase-4.md",
+      "status": 200,
+      "bytes": 948,
+      "sha256": "84c97d85cc623eea14d6b2ab03ebba3e61b822c95e9b460ba759e9f5e21691b5",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/input/phase-5.md",
+      "status": 200,
+      "bytes": 8584,
+      "sha256": "01ce51e17776ce4a566a52e1ddf323e686c02fdd552a9341d4881506b7548c53",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/input/snapshot.json",
+      "status": 200,
+      "bytes": 6756,
+      "sha256": "1aa7b3b25ff7f947b32662dc4655c9b80f630dfda9d74ae5dcf275450ea8810b",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/input/validation.json",
+      "status": 200,
+      "bytes": 10471,
+      "sha256": "01566c3656a304a099d8cf9a9379158fe068d907626067a4590c55bc2d6f7131",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/A-FINAL-INDEPENDENT.md",
+      "status": 200,
+      "bytes": 5307,
+      "sha256": "0c80d921f165385bae5e006d2bb482c7c9dbc3e6b778209183120aaed208566e",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/A-PEER-MEETING.md",
+      "status": 200,
+      "bytes": 4311,
+      "sha256": "3839ec8f4db6a4344755b94cb12c2a63fabd8d0b077ff4959341f009786580ac",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/A-phase-1.md",
+      "status": 200,
+      "bytes": 10565,
+      "sha256": "ba13b34da0fc221ed1e4b3f08c4b276926b895e3dd3485861c61c86ad394685b",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/A-phase-2.md",
+      "status": 200,
+      "bytes": 5012,
+      "sha256": "723bcb1aed98625e18773a91bf69d979b1a583b422bfc255dda754fe7fe2a352",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/A-phase-3.md",
+      "status": 200,
+      "bytes": 5283,
+      "sha256": "edd2c9549c3ee136d85c0dbf9f876f32a89d1c938b0588b14f32a9cba1aa07fc",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/A-phase-4.md",
+      "status": 200,
+      "bytes": 5158,
+      "sha256": "d4538391a2d914d87af6ff15e62c0cfc1de7b2b3def97d016239c59148fc9907",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/A-phase-5.md",
+      "status": 200,
+      "bytes": 4353,
+      "sha256": "e16ca0a9ce7ef1ab1c7895706d2e76dfedb0aba66b87dcf691e87417edf79cc2",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/B-FINAL-INDEPENDENT.md",
+      "status": 200,
+      "bytes": 5288,
+      "sha256": "507ca9433077b3d0bc831e49684250fbfbab452fd838d42e1c7279b8e086d2be",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/B-PEER-MEETING.md",
+      "status": 200,
+      "bytes": 4731,
+      "sha256": "1e6fff1ae7c63333cb523642deda46c06ec03e29517d57ad6de2a8b957b9ea07",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/B-phase-1.md",
+      "status": 200,
+      "bytes": 12009,
+      "sha256": "18c7f44cfc48ff36ea3962fdd59dd7491f83c8fdd16fe388bd13d9d8fe58ad75",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/B-phase-2.md",
+      "status": 200,
+      "bytes": 7390,
+      "sha256": "fc6816ac4274a7fcc84bafcf40b33d9e7a9a5c9bda0ca1352d171f80f6b35d84",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/B-phase-3.md",
+      "status": 200,
+      "bytes": 7719,
+      "sha256": "ec4c717eb927e0e1cf1a9469e02b9c9ea867ca8695e12387bc7669726667e5ec",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/B-phase-4.md",
+      "status": 200,
+      "bytes": 5751,
+      "sha256": "55b0cc0cbe4f5e08acce88cc907d03be945b6a8bb0fcc0458d6bb3cc89938b94",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/B-phase-5.md",
+      "status": 200,
+      "bytes": 6963,
+      "sha256": "c0d0b6f380de8f554750ac1a51036cce670fc2fe1b12cd5d73294c24d9dee3c6",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/INTERNAL-MEETING.md",
+      "status": 200,
+      "bytes": 8558,
+      "sha256": "9af62a2b6cfe88814450f537c73ab64158ed76147b1bc73614110c7c09175e26",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/qa/QA-SYNTHESIS.md",
+      "status": 200,
+      "bytes": 8753,
+      "sha256": "af23c4dc7c3a69e13fc93de7922e6c51079a687f22dfb691d8d626d39a8d8e7a",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/root-evidence/OBSERVATIONS.md",
+      "status": 200,
+      "bytes": 2522,
+      "sha256": "fdae0e7708d72c0b21ab6582f4231598fbc02271161959fd72cbe45ebfd20c22",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/root-evidence/slide39-1440.png",
+      "status": 200,
+      "bytes": 44207,
+      "sha256": "9468334b1906cafa0851e46f4bab39911a86b50bba068ffb2598bcd77a1eb44c",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/root-evidence/slide39-960.png",
+      "status": 200,
+      "bytes": 28397,
+      "sha256": "2c0761294a3de13fe6389ebfdbca5ea87245c621cb2ba17a86ddeccc496396f4",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/root-evidence/slide39.json",
+      "status": 200,
+      "bytes": 8865,
+      "sha256": "045e65c058f6d12437f41bca7aa1cc687552091c6ebaf4dc834e42a948b5e6a2",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/root-evidence/title39-dom.json",
+      "status": 200,
+      "bytes": 369,
+      "sha256": "c436a846f5bd69891b85a6df123c711e6bfc4382c531568aa8d7acda1d16fdd9",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/root-evidence/title39-fresh.png",
+      "status": 200,
+      "bytes": 36371,
+      "sha256": "c55f78aa0f029faf8000e62139a5c6d9816e9b7e8ee938bfcab95e4089c034bc",
+      "matches_local": true
+    },
+    {
+      "path": "research/llm-wiki-team-rehearsal-20261029/root-evidence/title39-frozen.png",
+      "status": 200,
+      "bytes": 36371,
+      "sha256": "c55f78aa0f029faf8000e62139a5c6d9816e9b7e8ee938bfcab95e4089c034bc",
+      "matches_local": true
+    }
+  ]
+}
