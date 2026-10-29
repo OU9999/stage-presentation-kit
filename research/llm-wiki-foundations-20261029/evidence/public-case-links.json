@@ -1,0 +1,26 @@
+[
+  {
+    "name": "reading",
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/assets/c25067e5b335-reading.txt",
+    "contentType": "text/plain; charset=utf-8",
+    "method": "click and read",
+    "bytes": 3128,
+    "sha256": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e"
+  },
+  {
+    "name": "team",
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/assets/b9b79ffd8cd0-team.txt",
+    "contentType": "text/plain; charset=utf-8",
+    "method": "click and read",
+    "bytes": 3241,
+    "sha256": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a"
+  },
+  {
+    "name": "course",
+    "url": "https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/assets/7f02c1c31f4c-course.txt",
+    "contentType": "text/plain; charset=utf-8",
+    "method": "click and read",
+    "bytes": 3272,
+    "sha256": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9"
+  }
+]

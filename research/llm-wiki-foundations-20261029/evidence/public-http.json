@@ -1,0 +1,265 @@
+{
+  "git_sha": "a19000169a0482b6593c8cb72e9f626b64642bc0",
+  "checked_at_utc": "2026-10-29T06:42:47.976420+00:00",
+  "files": [
+    {
+      "path": "presentations/_runtime/app.js",
+      "status": 200,
+      "bytes": 77996,
+      "sha256": "720586ddf41431f78a8ab71dd54a6e4764fe971c4a892c70a3f59a0e5f204fc5",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/blocks.css",
+      "status": 200,
+      "bytes": 31505,
+      "sha256": "53e410e9bb90c436482208f7e721a8fd2d3e4dc45bbda4b6d5c75c2753d4d355",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/blocks.js",
+      "status": 200,
+      "bytes": 23518,
+      "sha256": "6238a42a3298944a6d023cb81b3f73af9c6d3e038b1c8437c08b1fd307b5de32",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/deck-model.js",
+      "status": 200,
+      "bytes": 46323,
+      "sha256": "53f266e64e754e57bf06531df5e58a7333db9fb8c64a5f29d96bf69de4c428e2",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/materials.css",
+      "status": 200,
+      "bytes": 10387,
+      "sha256": "1b61ac3b3119aa9aae8a080ea24e63eb0080abf0ce5749d469e2cf0977a0b702",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/styles.css",
+      "status": 200,
+      "bytes": 90612,
+      "sha256": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/visual.css",
+      "status": 200,
+      "bytes": 19627,
+      "sha256": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/_runtime/visual.js",
+      "status": 200,
+      "bytes": 29597,
+      "sha256": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/index.html",
+      "status": 200,
+      "bytes": 1790,
+      "sha256": "58f0add0782263cb4251c86c93e9f96194374bad12685d7f5f3d7c028b85a203",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/145b3d5fc0a2-case-team.svg",
+      "status": 200,
+      "bytes": 2993,
+      "sha256": "145b3d5fc0a243e272e721c5d28d59b59ad603d2e453ba9fdc1bd1f46aed24ab",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/258a229c6dc8-study-table.jpg",
+      "status": 200,
+      "bytes": 405921,
+      "sha256": "258a229c6dc857c44c2a93083f74eccebe4566b530f043228bc2d8aa1709e1a7",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/478e6580030c-writing.jpg",
+      "status": 200,
+      "bytes": 151172,
+      "sha256": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/4de19f852a22-wiki-ingest-update.svg",
+      "status": 200,
+      "bytes": 3578,
+      "sha256": "4de19f852a22c9778986a2c74d6ab39d5f3100e13ccbbf06b134cf9a244c32c9",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/523f5e200135-wiki-query-return.svg",
+      "status": 200,
+      "bytes": 3327,
+      "sha256": "523f5e200135e25930755ce3d694caafbcf32a779e8cb1b0d919c15202affd1e",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/5aa7ac752bff-open-books.jpg",
+      "status": 200,
+      "bytes": 157816,
+      "sha256": "5aa7ac752bffc72f7f3526b52ac26aa563951dd7e9767363b03d247f4e519903",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/72d50863ca07-wiki-maintenance-loop.svg",
+      "status": 200,
+      "bytes": 3925,
+      "sha256": "72d50863ca07ca66fb753ed8eeb3b646483ded080a995d20f165c21ddd6ef5f9",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/7f02c1c31f4c-course.txt",
+      "status": 200,
+      "bytes": 3272,
+      "sha256": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/8c6c53e6a95d-current-pending.svg",
+      "status": 200,
+      "bytes": 2356,
+      "sha256": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/9c0a83b5bf0a-llm-wiki-demo.zip",
+      "status": 200,
+      "bytes": 23952,
+      "sha256": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/9de04be0b94d-wiki-layers.svg",
+      "status": 200,
+      "bytes": 2375,
+      "sha256": "9de04be0b94dbd0b736c6643068a5b09baba791ba960f5fb7f3215528fdd9dd8",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/ac3c13699c77-impact-map.svg",
+      "status": 200,
+      "bytes": 3472,
+      "sha256": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/b9b79ffd8cd0-team.txt",
+      "status": 200,
+      "bytes": 3241,
+      "sha256": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/c25067e5b335-reading.txt",
+      "status": 200,
+      "bytes": 3128,
+      "sha256": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/c3618c438e6a-reuse-inputs.svg",
+      "status": 200,
+      "bytes": 2423,
+      "sha256": "c3618c438e6a38e32d8113e12fe2acb5cc06c99b46c52a0a4a9961402e522546",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/c8c698645f7c-case-reading.svg",
+      "status": 200,
+      "bytes": 2971,
+      "sha256": "c8c698645f7c055fb8442978a01aeafd6f1391c4b345ee1eafc840cd84f9f0b2",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/d23557eecf49-decision-transition.svg",
+      "status": 200,
+      "bytes": 2824,
+      "sha256": "d23557eecf492cf5e5abf3cd7246aeac6a64da5bfdc0bdcbe5ba65e32d0f7a5d",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/assets/f910677f4df1-case-course.svg",
+      "status": 200,
+      "bytes": 3520,
+      "sha256": "f910677f4df1ab59e2a2d926d3e6cdfd5935916163d8ce33ad851637048cc69d",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/content.js",
+      "status": 200,
+      "bytes": 164991,
+      "sha256": "cad9f66d9b25d37ac73d062bd5adc6fd7eab611d35f975d55c3578c4c097f9e2",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/index.html",
+      "status": 200,
+      "bytes": 6690,
+      "sha256": "fb2f065ab0bf99d15677768a710610246ce98463e4a292316344678624749f92",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/demo-log.html",
+      "status": 200,
+      "bytes": 24279,
+      "sha256": "e97869c1cb30644bfdb1d3c935cd5e4d71cca600b937b78cf4c61cba0f5bbaba",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/index.html",
+      "status": 200,
+      "bytes": 8965,
+      "sha256": "64769a4c9f3778f3308744eae202f69f77dd23c3594a98b8552eee926f5ef19a",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/reference-library.html",
+      "status": 200,
+      "bytes": 37093,
+      "sha256": "464abe12ebc0b76748dad138aa0f16adafaf840121cb850bbf14a142a3cbe1e0",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/speaker-script.html",
+      "status": 200,
+      "bytes": 67033,
+      "sha256": "adc969c2768fc31c515f74fc78862fc3b29eef1944d900ec236ac6739d602522",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/study-guide.html",
+      "status": 200,
+      "bytes": 90761,
+      "sha256": "3c1fcb2a22b65fbdd6942b7a5cfdfc12f8d8b90a036179bdc2fc7f63dc6f64d8",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/materials/workshop.html",
+      "status": 200,
+      "bytes": 41050,
+      "sha256": "34c64f33d38857c50dc8b96fd7e6b054091050db817c88af35c0397193211950",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/llm-wiki/read.html",
+      "status": 200,
+      "bytes": 6688,
+      "sha256": "77a71b20878494b98a30553f45b107c8cb7de4da1f232428dedc49a1ed542ce3",
+      "matches_local": true
+    },
+    {
+      "path": "presentations/manifest.json",
+      "status": 200,
+      "bytes": 3662,
+      "sha256": "2bfb12e4cd3bb03d93d63a186e93526ead94df266144f3e04b2c23c4bcf60809",
+      "matches_local": true
+    }
+  ]
+}

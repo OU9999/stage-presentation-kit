@@ -1,0 +1,176 @@
+{
+  "revision": "bec9b35fc7b711651ef55d354ede5b760a2d710650bb2fd7128c83f8657cab7f",
+  "steps": 29,
+  "moves": [
+    {
+      "from": 1,
+      "to": 2,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 18,
+      "to": 19,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 19,
+      "to": 20,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 20,
+      "to": 21,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 21,
+      "to": 22,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 22,
+      "to": 23,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 24,
+      "to": 25,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 25,
+      "to": 26,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 26,
+      "to": 27,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 27,
+      "to": 28,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 28,
+      "to": 40,
+      "method": "link",
+      "label": "질문과 적용 이야기"
+    }
+  ],
+  "choices": [
+    {
+      "slide": 13,
+      "choices": [
+        {
+          "label": "고객 A · 가상 상담",
+          "color": "rgb(8, 8, 8)",
+          "font": "30px",
+          "background": "color(srgb 0.964706 0.964706 0.956863)",
+          "width": 589.679931640625,
+          "height": 505.67999267578125
+        },
+        {
+          "label": "고객 B · 가상 상담",
+          "color": "rgb(8, 8, 8)",
+          "font": "30px",
+          "background": "color(srgb 0.964706 0.964706 0.956863)",
+          "width": 589.6799926757812,
+          "height": 505.67999267578125
+        }
+      ]
+    }
+  ],
+  "end": {
+    "hash": "#40",
+    "index": "39",
+    "heading": "어떤 자료에서 다음 질문을 이어 가고 싶나요"
+  },
+  "timing": "1080+120 seconds is a plan; this navigation check does not measure a live talk."
+}

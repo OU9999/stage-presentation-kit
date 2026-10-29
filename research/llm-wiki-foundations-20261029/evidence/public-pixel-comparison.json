@@ -1,0 +1,227 @@
+{
+  "revision": "bec9b35fc7b711651ef55d354ede5b760a2d710650bb2fd7128c83f8657cab7f",
+  "same": 29,
+  "slides": [
+    {
+      "slide": 1,
+      "same_png": false
+    },
+    {
+      "slide": 2,
+      "same_png": true
+    },
+    {
+      "slide": 3,
+      "same_png": true
+    },
+    {
+      "slide": 4,
+      "same_png": false
+    },
+    {
+      "slide": 5,
+      "same_png": true
+    },
+    {
+      "slide": 6,
+      "same_png": false
+    },
+    {
+      "slide": 7,
+      "same_png": false
+    },
+    {
+      "slide": 8,
+      "same_png": false
+    },
+    {
+      "slide": 9,
+      "same_png": true
+    },
+    {
+      "slide": 10,
+      "same_png": false
+    },
+    {
+      "slide": 11,
+      "same_png": true
+    },
+    {
+      "slide": 12,
+      "same_png": true
+    },
+    {
+      "slide": 13,
+      "same_png": true
+    },
+    {
+      "slide": 14,
+      "same_png": false
+    },
+    {
+      "slide": 15,
+      "same_png": true
+    },
+    {
+      "slide": 16,
+      "same_png": true
+    },
+    {
+      "slide": 17,
+      "same_png": true
+    },
+    {
+      "slide": 18,
+      "same_png": true
+    },
+    {
+      "slide": 19,
+      "same_png": true
+    },
+    {
+      "slide": 20,
+      "same_png": true
+    },
+    {
+      "slide": 21,
+      "same_png": true
+    },
+    {
+      "slide": 22,
+      "same_png": true
+    },
+    {
+      "slide": 23,
+      "same_png": false
+    },
+    {
+      "slide": 24,
+      "same_png": true
+    },
+    {
+      "slide": 25,
+      "same_png": true
+    },
+    {
+      "slide": 26,
+      "same_png": true
+    },
+    {
+      "slide": 27,
+      "same_png": true
+    },
+    {
+      "slide": 28,
+      "same_png": true
+    },
+    {
+      "slide": 29,
+      "same_png": true
+    },
+    {
+      "slide": 30,
+      "same_png": true
+    },
+    {
+      "slide": 31,
+      "same_png": true
+    },
+    {
+      "slide": 32,
+      "same_png": true
+    },
+    {
+      "slide": 33,
+      "same_png": true
+    },
+    {
+      "slide": 34,
+      "same_png": true
+    },
+    {
+      "slide": 35,
+      "same_png": true
+    },
+    {
+      "slide": 36,
+      "same_png": false
+    },
+    {
+      "slide": 37,
+      "same_png": false
+    },
+    {
+      "slide": 38,
+      "same_png": true
+    },
+    {
+      "slide": 39,
+      "same_png": true
+    },
+    {
+      "slide": 40,
+      "same_png": false
+    }
+  ],
+  "paired_recheck": {
+    "scope": "Same viewport and pointer, wait for font readiness and two paint frames; original full-deck captures preserved.",
+    "temporary": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/wiki-paired-screens-x6zRxm",
+    "slides": [
+      {
+        "slide": 1,
+        "same_png": true,
+        "same_paragraph_styles": true
+      },
+      {
+        "slide": 4,
+        "same_png": true,
+        "same_paragraph_styles": true
+      },
+      {
+        "slide": 6,
+        "same_png": true,
+        "same_paragraph_styles": true
+      },
+      {
+        "slide": 7,
+        "same_png": true,
+        "same_paragraph_styles": true
+      },
+      {
+        "slide": 8,
+        "same_png": true,
+        "same_paragraph_styles": true
+      },
+      {
+        "slide": 10,
+        "same_png": true,
+        "same_paragraph_styles": true
+      },
+      {
+        "slide": 14,
+        "same_png": true,
+        "same_paragraph_styles": true
+      },
+      {
+        "slide": 23,
+        "same_png": true,
+        "same_paragraph_styles": true
+      },
+      {
+        "slide": 36,
+        "same_png": true,
+        "same_paragraph_styles": true
+      },
+      {
+        "slide": 37,
+        "same_png": true,
+        "same_paragraph_styles": true
+      },
+      {
+        "slide": 40,
+        "same_png": true,
+        "same_paragraph_styles": true
+      }
+    ]
+  }
+}
