@@ -1,0 +1,159 @@
+{
+  "revision": "7dbd19ffdf942f22af8bec54af10fac7835a06469360b99bdb783a2dca077c28",
+  "chart": {
+    "kind": "composition",
+    "values": [
+      5,
+      3
+    ],
+    "unit": "쪽",
+    "shares": [
+      62.5,
+      37.5
+    ],
+    "labels": [
+      "기존 5쪽 갱신",
+      "신규 3쪽 생성"
+    ],
+    "widths": [
+      743.4000244140625,
+      446.03997802734375
+    ]
+  },
+  "reads": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "slides": [
+        {
+          "index": 31,
+          "kind": "composition",
+          "open": true,
+          "headers": [
+            "분류",
+            "원값 (쪽)",
+            "비중",
+            "기존 5쪽 갱신",
+            "신규 3쪽 생성"
+          ],
+          "rows": [
+            [
+              "기존 5쪽 갱신",
+              "5",
+              "62.5%"
+            ],
+            [
+              "신규 3쪽 생성",
+              "3",
+              "37.5%"
+            ]
+          ],
+          "flow": []
+        },
+        {
+          "index": 33,
+          "kind": "flow",
+          "open": true,
+          "headers": [
+            "순서",
+            "단계",
+            "다음 단계",
+            "1",
+            "2",
+            "3"
+          ],
+          "rows": [
+            [
+              "1",
+              "읽고 엮기 · ingest",
+              "답하고 남기기 · query"
+            ],
+            [
+              "2",
+              "답하고 남기기 · query",
+              "점검하기 · lint"
+            ],
+            [
+              "3",
+              "점검하기 · lint",
+              "마지막 단계"
+            ]
+          ],
+          "flow": [
+            "읽고 엮기 · ingest",
+            "답하고 남기기 · query",
+            "점검하기 · lint"
+          ]
+        }
+      ],
+      "keyboardToggle": true
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "slides": [
+        {
+          "index": 31,
+          "kind": "composition",
+          "open": true,
+          "headers": [
+            "분류",
+            "원값 (쪽)",
+            "비중",
+            "기존 5쪽 갱신",
+            "신규 3쪽 생성"
+          ],
+          "rows": [
+            [
+              "기존 5쪽 갱신",
+              "5",
+              "62.5%"
+            ],
+            [
+              "신규 3쪽 생성",
+              "3",
+              "37.5%"
+            ]
+          ],
+          "flow": []
+        },
+        {
+          "index": 33,
+          "kind": "flow",
+          "open": true,
+          "headers": [
+            "순서",
+            "단계",
+            "다음 단계",
+            "1",
+            "2",
+            "3"
+          ],
+          "rows": [
+            [
+              "1",
+              "읽고 엮기 · ingest",
+              "답하고 남기기 · query"
+            ],
+            [
+              "2",
+              "답하고 남기기 · query",
+              "점검하기 · lint"
+            ],
+            [
+              "3",
+              "점검하기 · lint",
+              "마지막 단계"
+            ]
+          ],
+          "flow": [
+            "읽고 엮기 · ingest",
+            "답하고 남기기 · query",
+            "점검하기 · lint"
+          ]
+        }
+      ],
+      "keyboardToggle": true
+    }
+  ]
+}

@@ -137,17 +137,17 @@ Bush 글을 더 읽을 때는 §6 앞뒤의 분류와 연상 경로 설명을 �
 
 ## 8. 사진·자체 도식 출처
 
-사진은 학습과 기록을 설명하는 스톡 장면이며 발표자·스터디 참여자·서비스 보증자의 실제 기록이 아닙니다. 책과 필기의 내용은 근거로 읽지 않습니다. 발표 중 외부 이미지 요청 없이 로컬 사본을 사용합니다.
+발표에 사용한 사진의 작가와 원본입니다.
 
 | 로컬 파일 | 작가·원본 | 화면에서의 역할 |
 | --- | --- | --- |
 | `photos/open-books.jpg` | [Ron Lach, Open Books Lying on Desk](https://www.pexels.com/photo/open-books-lying-on-desk-9871139/) | 읽은 자료를 다음 질문에 쓰는 장면, 펼친 책과 공책 |
 | `photos/study-table.jpg` | [cottonbro studio, Books and Books on Brown Wooden Table](https://www.pexels.com/photo/books-and-books-on-brown-wooden-table-4769464/) | 원자료와 내 설명을 나누어 생각하는 공부 책상 |
 | `photos/library.jpg` | [Ayşe İpek, Books in the Library](https://www.pexels.com/photo/books-in-the-library-13278839/) | 자료가 쌓인 서가의 비유 |
-| `photos/writing.jpg` | [LinkedIn Sales Navigator, Woman Sitting on Gray Chair While Writing on Table](https://www.pexels.com/photo/woman-sitting-on-gray-chair-while-writing-on-table-1251832/) | 자기 질문을 적는 행동. 공통 write.jpg와 바이트가 같은 로컬 사본 |
+| `photos/writing.jpg` | [LinkedIn Sales Navigator, Woman Sitting on Gray Chair While Writing on Table](https://www.pexels.com/photo/woman-sitting-on-gray-chair-while-writing-on-table-1251832/) | 자기 질문을 적는 행동 |
 
-[Pexels License](https://www.pexels.com/license/)를 2026-10-29 확인했습니다. 무료 사용·수정·웹/발표 사용을 허용하며 크레딧은 의무가 아니지만 작가와 원본을 남깁니다. 퍼블릭 도메인이나 별도 오픈 라이선스로 표시하지 않습니다. 피사체를 모욕적으로 묘사하거나 추천·보증자로 제시하지 않으며, 원본 사진 자체 판매나 다른 스톡 플랫폼 재배포에 사용하지 않습니다.
+사진은 [Pexels License](https://www.pexels.com/license/)에 따라 사용합니다(2026-10-29 확인). 무료 사용·수정·웹/발표 사용이 가능하며, 원본 사진 자체 판매·이미지 서비스 재배포·인물의 추천을 암시하는 사용은 제한됩니다.
 
-도식은 발표팀이 자체 작성했습니다. 기존 원자료/위키/규칙 도식과 새 영향8쪽·Q2재사용·현행/보류·결정대체 도식은 외부 그림을 복제하지 않았습니다. 상세 실제 문장은 [데모 기록](./demo-log.md)의 표와 문단에서 읽을 수 있습니다. 도식 원본은 [파일 관계](../assets/impact-map.svg), [Q2의 입력](../assets/reuse-inputs.svg), [현행·보류](../assets/current-pending.svg), [D1→D2](../assets/decision-transition.svg)에 있습니다. 링크와 파일 수는 정확성 점수가 아닙니다.
+도식은 발표팀이 자체 작성했습니다. 기존 원자료/위키/규칙 도식과 새 영향8쪽·Q2재사용·현행/보류·결정대체 도식은 외부 그림을 복제하지 않았습니다. 상세 실제 문장은 [데모 기록](./demo-log.md)의 표와 문단에서 읽을 수 있습니다. 도식 원본은 [파일 관계](../assets/impact-map.svg), [Q2의 입력](../assets/reuse-inputs.svg), [현행·보류](../assets/current-pending.svg), [D1→D2](../assets/decision-transition.svg)에 있습니다. 31장의 구성 차트는 실제 승인안의 기존 5쪽 갱신과 신규 3쪽 생성을 같은 단위로 나타냅니다. 로컬 링크 25개와 보존 파일 10개는 별도 검사 항목입니다. 33장의 흐름도는 Karpathy의 Operations를 읽기·질문·점검 순서로 표현했습니다.
 
 [자료 목차](./index.md) · [데모 ZIP](../demo/llm-wiki-demo.zip) · [실제 파일 읽기](./demo-log.md)

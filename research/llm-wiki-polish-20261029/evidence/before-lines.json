@@ -1,0 +1,2549 @@
+{
+  "revision": "489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "이번 주 읽은 자료를 다음 주에도 쓸 수 있을까",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "11",
+          "text": "이번 주 읽은 자료를 다음 주에도 쓸 수 있을까",
+          "lines": [
+            "이번 주 읽은 자료를 다음 주에도 쓸 수 있을까"
+          ],
+          "shortLast": false,
+          "font": "54px"
+        },
+        {
+          "tag": "FIGCAPTION",
+          "sourceLine": "13",
+          "text": "Ron Lach / Pexels · 학습을 설명하는 스톡 사진",
+          "lines": [
+            "Ron Lach / Pexels · 학습을 설명하는 스톡 사진"
+          ],
+          "shortLast": false,
+          "font": "20px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "15",
+          "text": "다음 질문에 다시 쓸 노트를 남겨 봅시다.",
+          "lines": [
+            "다음 질문에 다시 쓸 노트를 남겨 봅시다."
+          ],
+          "shortLast": false,
+          "font": "22px"
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "title": "메모는 남았는데 어느 문장이 근거일까",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "23",
+          "text": "메모는 남았는데 어느 문장이 근거일까",
+          "lines": [
+            "메모는 남았는데 어느 문장이 근거일까"
+          ],
+          "shortLast": false,
+          "font": "72px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "25",
+          "text": "읽은 흔적만 남은, 발표자가 만든 작은 메모입니다.",
+          "lines": [
+            "읽은 흔적만 남은, 발표자가 만든 작은 메모입니다."
+          ],
+          "shortLast": false,
+          "font": "29px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "33",
+          "text": "마지막 질문에 답하려면, 앞 두 줄의 근거와 범위가 필요합니다.",
+          "lines": [
+            "마지막 질문에 답하려면, 앞 두 줄의 근거와 범위가 필요합니다."
+          ],
+          "shortLast": false,
+          "font": "29px"
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "title": "자료를 모은 뒤에도 설명할 일이 남는다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "43",
+          "text": "자료를 모은 뒤에도 설명할 일이 남는다",
+          "lines": [
+            "자료를 모은 뒤에도 설명할 일이 남는다"
+          ],
+          "shortLast": false,
+          "font": "72px"
+        },
+        {
+          "tag": "FIGCAPTION",
+          "sourceLine": "45",
+          "text": "Ayşe İpek / Pexels · 스톡 사진",
+          "lines": [
+            "Ayşe İpek / Pexels · 스톡 사진"
+          ],
+          "shortLast": false,
+          "font": "20px"
+        },
+        {
+          "tag": "LI",
+          "sourceLine": "47",
+          "text": "자료 목록은 무엇을 읽었는지 알려줍니다.",
+          "lines": [
+            "자료 목록은 무엇을 읽었는지 알려줍니다."
+          ],
+          "shortLast": false,
+          "font": "30px"
+        },
+        {
+          "tag": "LI",
+          "sourceLine": "48",
+          "text": "설명 노트는 무엇을 알았는지 연결합니다.",
+          "lines": [
+            "설명 노트는 무엇을 알았는지 연결합니다."
+          ],
+          "shortLast": false,
+          "font": "30px"
+        },
+        {
+          "tag": "LI",
+          "sourceLine": "49",
+          "text": "판단 기록은 왜 그렇게 했는지 남깁니다.",
+          "lines": [
+            "판단 기록은 왜 그렇게 했는지 남깁니다."
+          ],
+          "shortLast": false,
+          "font": "30px"
+        }
+      ]
+    },
+    {
+      "slide": 4,
+      "title": "다음 모임에는 다른 질문이 온다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "57",
+          "text": "다음 모임에는 다른 질문이 온다",
+          "lines": [
+            "다음 모임에는 다른 질문이 온다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "62",
+          "text": "이번 질문 · Q1",
+          "lines": [
+            "이번 질문 · Q1"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "64",
+          "text": "위키 파일을 고치면 모델도\n그 내용을 학습하나요?",
+          "lines": [
+            "위키 파일을 고치면 모델도 그 내용을 학습하나요?"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "70",
+          "text": "다음 질문 · Q2",
+          "lines": [
+            "다음 질문 · Q2"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "72",
+          "text": "우리 스터디는\n어떤 답을 저장할까요?",
+          "lines": [
+            "우리 스터디는 어떤 답을 저장할까요?"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "75",
+          "text": "개념을 고친 결과가, 다음 운영 판단의 입력이 됩니다.",
+          "lines": [
+            "개념을 고친 결과가, 다음 운영 판단의 입력이 됩니다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "title": "다음 질문에 무엇을 다시 쓸까",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "83",
+          "text": "다음 질문에 무엇을 다시 쓸까",
+          "lines": [
+            "다음 질문에 무엇을 다시 쓸까"
+          ],
+          "shortLast": false,
+          "font": "118px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "85",
+          "text": "원문 · 설명 · 판단",
+          "lines": [
+            "원문 · 설명 · 판단"
+          ],
+          "shortLast": false,
+          "font": "30px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "87",
+          "text": "읽은 주소, 검토한 답, 바뀐 이유를 함께 남깁니다.",
+          "lines": [
+            "읽은 주소, 검토한 답, 바뀐 이유를 함께 남깁니다."
+          ],
+          "shortLast": false,
+          "font": "24px"
+        }
+      ]
+    },
+    {
+      "slide": 6,
+      "title": "남길 것은 답과 근거와 바뀐 이유",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "95",
+          "text": "남길 것은 답과 근거와 바뀐 이유",
+          "lines": [
+            "남길 것은 답과",
+            "근거와 바뀐 이유"
+          ],
+          "shortLast": false,
+          "font": "118px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "97",
+          "text": "원자료 → 주장 → 검토 → diff → 다음 질문",
+          "lines": [
+            "원자료 → 주장 → 검토 → diff → 다음 질문"
+          ],
+          "shortLast": false,
+          "font": "30px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "99",
+          "text": "오늘의 끝에는 고친 답, 보류한 부분, 새 저장 규칙이 파일로 남습니다.",
+          "lines": [
+            "오늘의 끝에는 고친 답, 보류한 부분, 새 저장 규칙이 파일로 남습니다."
+          ],
+          "shortLast": false,
+          "font": "24px"
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "title": "계속 남고 쌓여 가는 결과물",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "107",
+          "text": "계속 남고 쌓여 가는 결과물",
+          "lines": [
+            "계속 남고 쌓여 가는 결과물"
+          ],
+          "shortLast": false,
+          "font": "38px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "109",
+          "text": "This is the key difference: the wiki is a persistent, compounding artifact.",
+          "lines": [
+            "This is the key difference: the wiki is",
+            "a persistent, compounding artifact."
+          ],
+          "shortLast": false,
+          "font": "70px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "111",
+          "text": "“핵심 차이는 이것입니다. 위키는 계속 남고, 쌓여 가는 결과물입니다.” — 발표팀 번역",
+          "lines": [
+            "“핵심 차이는 이것입니다. 위키는 계속 남고, 쌓여 가는 결과물입니다.” — 발표팀 번역"
+          ],
+          "shortLast": false,
+          "font": "25px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "113",
+          "text": "Andrej Karpathy, LLM Wiki, The core idea · 고정 원문",
+          "lines": [
+            "Andrej Karpathy, LLM Wiki, The core idea · 고정 원문"
+          ],
+          "shortLast": false,
+          "font": "25px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "115",
+          "text": "설계 아이디어의 설명입니다. 이제 남는 파일을 직접 보겠습니다.",
+          "lines": [
+            "설계 아이디어의 설명입니다. 이제 남는 파일을 직접 보겠습니다."
+          ],
+          "shortLast": false,
+          "font": "25px"
+        }
+      ]
+    },
+    {
+      "slide": 8,
+      "title": "원자료 옆에 설명 노트를 둔다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "124",
+          "text": "원자료 옆에 설명 노트를 둔다",
+          "lines": [
+            "원자료 옆에 설명 노트를 둔다"
+          ],
+          "shortLast": false,
+          "font": "54px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "128",
+          "text": "도식 원본 열기",
+          "lines": [
+            "도식 원본 열기"
+          ],
+          "shortLast": false,
+          "font": "22px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "130",
+          "text": "LLM이 읽고 연결한 Markdown을 유지하는 설계입니다. Karpathy · Architecture",
+          "lines": [
+            "LLM이 읽고 연결한 Markdown을 유지하는 설계입니다. Karpathy · Architecture"
+          ],
+          "shortLast": false,
+          "font": "22px"
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "title": "원문과 내 설명을 구분한다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "140",
+          "text": "원문과 내 설명을 구분한다",
+          "lines": [
+            "원문과 내 설명을 구분한다"
+          ],
+          "shortLast": false,
+          "font": "72px"
+        },
+        {
+          "tag": "FIGCAPTION",
+          "sourceLine": "142",
+          "text": "cottonbro studio / Pexels · 스톡 사진",
+          "lines": [
+            "cottonbro studio / Pexels · 스톡 사진"
+          ],
+          "shortLast": false,
+          "font": "20px"
+        },
+        {
+          "tag": "LI",
+          "sourceLine": "144",
+          "text": "원문: RAG v4 §2.4",
+          "lines": [
+            "원문: RAG v4 §2.4"
+          ],
+          "shortLast": false,
+          "font": "30px"
+        },
+        {
+          "tag": "LI",
+          "sourceLine": "145",
+          "text": "읽기 메모: 질의 인코더와 생성기를 학습한다.",
+          "lines": [
+            "읽기 메모: 질의 인코더와 생성기를 학습한다."
+          ],
+          "shortLast": false,
+          "font": "30px"
+        },
+        {
+          "tag": "LI",
+          "sourceLine": "146",
+          "text": "우리 해석: 외부 파일 사용만으로 학습 유무를 정할 수 없다.",
+          "lines": [
+            "우리 해석: 외부 파일 사용만으로 학습 유무를 정할 수",
+            "없다."
+          ],
+          "shortLast": true,
+          "font": "30px"
+        }
+      ]
+    },
+    {
+      "slide": 10,
+      "title": "오늘은 승인한 교정안을 실행한다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "154",
+          "text": "오늘은 승인한 교정안을 실행한다",
+          "lines": [
+            "오늘은 승인한 교정안을 실행한다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "159",
+          "text": "발표자가 준비한 것",
+          "lines": [
+            "발표자가 준비한 것"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "161",
+          "text": "의도적으로 오류를 심은 초안",
+          "lines": [
+            "의도적으로 오류를 심은 초안"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "163",
+          "text": "원문을 대조한 고정 승인 교정안",
+          "lines": [
+            "원문을 대조한 고정 승인 교정안"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "168",
+          "text": "Node가 실행하는 것",
+          "lines": [
+            "Node가 실행하는 것"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "170",
+          "text": "파일 수정 · diff · 링크 · 해시 검사",
+          "lines": [
+            "파일 수정 · diff · 링크 · 해시 검사"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "172",
+          "text": "LLM 호출 없이 로컬에서 재현",
+          "lines": [
+            "LLM 호출 없이 로컬에서 재현"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "174",
+          "text": "전체 파일과 실행 기록 · 데모 ZIP",
+          "lines": [
+            "전체 파일과 실행 기록 · 데모 ZIP"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        }
+      ]
+    },
+    {
+      "slide": 11,
+      "title": "첫 질문의 초안을 연다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "182",
+          "text": "첫 질문의 초안을 연다",
+          "lines": [
+            "첫 질문의 초안을 연다"
+          ],
+          "shortLast": false,
+          "font": "38px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "184",
+          "text": "위키 파일을 고치는 것은 파일을 수정하는 작업이다. 외부 파일을 쓰는 시스템은 모델을 학습하지 않는다.",
+          "lines": [
+            "위키 파일을 고치는 것은 파일을 수정하는 작업이다.",
+            "외부 파일을 쓰는 시스템은 모델을 학습하지 않는다."
+          ],
+          "shortLast": false,
+          "font": "70px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "186",
+          "text": "Q1 · 위키 파일을 고치면 모델도 그 내용을 학습하나요?",
+          "lines": [
+            "Q1 · 위키 파일을 고치면 모델도 그 내용을 학습하나요?"
+          ],
+          "shortLast": false,
+          "font": "25px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "188",
+          "text": "출처 후보: RAG 최초 읽기 메모 · 상태: 검토 전",
+          "lines": [
+            "출처 후보: RAG 최초 읽기 메모 · 상태: 검토 전"
+          ],
+          "shortLast": false,
+          "font": "25px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "190",
+          "text": "발표자가 심은 학습용 오류입니다. before/wiki/questions/wiki-and-learning.md 발췌.",
+          "lines": [
+            "발표자가 심은 학습용 오류입니다. 발췌.",
+            "before/wiki/questions/wiki-and-learning.md"
+          ],
+          "shortLast": false,
+          "font": "25px"
+        }
+      ]
+    },
+    {
+      "slide": 12,
+      "title": "채팅 A 또는 B · 링크가 있으면 충분할까",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "198",
+          "text": "채팅 A 또는 B · 링크가 있으면 충분할까",
+          "lines": [
+            "채팅 A 또는 B · 링크가 있으면 충분할까"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "203",
+          "text": "A",
+          "lines": [
+            "A"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "205",
+          "text": "출처 링크가 있으니 현행 답으로 저장한다.",
+          "lines": [
+            "출처 링크가 있으니 현행 답으로 저장한다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "210",
+          "text": "B",
+          "lines": [
+            "B"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "212",
+          "text": "원문이 이 문장과 범위를 지원하는지 먼저 본다.",
+          "lines": [
+            "원문이 이 문장과 범위를 지원하는지 먼저 본다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "214",
+          "text": "A 또는 B를 Zoom 채팅에 적어 주세요. 발표자가 직접 읽습니다.",
+          "lines": [
+            "A 또는 B를 Zoom 채팅에 적어 주세요. 발표자가 직접",
+            "읽습니다."
+          ],
+          "shortLast": true,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "216",
+          "text": "정답 보기 → 13장",
+          "lines": [
+            "정답 보기 → 13장"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        }
+      ]
+    },
+    {
+      "slide": 13,
+      "title": "B · 링크와 문장 지원을 대조한다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "224",
+          "text": "B · 링크와 문장 지원을 대조한다",
+          "lines": [
+            "B · 링크와 문장 지원을 대조한다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "229",
+          "text": "초안의 일반화",
+          "lines": [
+            "초안의 일반화"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "231",
+          "text": "외부 파일을 쓰는 시스템은\n모델을 학습하지 않는다.",
+          "lines": [
+            "외부 파일을 쓰는 시스템은 모델을 학습하지 않는다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "237",
+          "text": "RAG 원논문 §2.4",
+          "lines": [
+            "RAG 원논문 §2.4"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "239",
+          "text": "질의 인코더와 생성기를 미세조정한다.",
+          "lines": [
+            "질의 인코더와 생성기를 미세조정한다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "241",
+          "text": "외부 파일 사용과 학습은 함께 있을 수 있다.",
+          "lines": [
+            "외부 파일 사용과 학습은 함께 있을 수 있다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "243",
+          "text": "링크의 유무 다음에는 문장과 근거의 범위를 대조합니다. RAG v4 §2.4",
+          "lines": [
+            "링크의 유무 다음에는 문장과 근거의 범위를 대조합니다. RAG",
+            "v4 §2.4"
+          ],
+          "shortLast": true,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "245",
+          "text": "질문으로 돌아가기 · 읽기 메모 이어 보기 → 14장",
+          "lines": [
+            "질문으로 돌아가기 · 읽기 메모 이어 보기 → 14장"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        }
+      ]
+    },
+    {
+      "slide": 14,
+      "title": "최초 메모를 남기고 더 읽은 메모를 붙인다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "253",
+          "text": "최초 메모를 남기고 더 읽은 메모를 붙인다",
+          "lines": [
+            "최초 메모를 남기고 더 읽은 메모를 붙인다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "258",
+          "text": "최초 · rag-initial.md",
+          "lines": [
+            "최초 · rag-initial.md"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "260",
+          "text": "같은 RAG v4의 §2.3을 읽음",
+          "lines": [
+            "같은 RAG v4의 §2.3을 읽음"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "262",
+          "text": "검색 문서를 생성에 쓰는 구조를 메모",
+          "lines": [
+            "검색 문서를 생성에 쓰는 구조를 메모"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "267",
+          "text": "확장 · rag.md",
+          "lines": [
+            "확장 · rag.md"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "269",
+          "text": "같은 RAG v4의 §2.4까지 읽음",
+          "lines": [
+            "같은 RAG v4의 §2.4까지 읽음"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "271",
+          "text": "학습 대상을 확인해 추가로 메모",
+          "lines": [
+            "학습 대상을 확인해 추가로 메모"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "273",
+          "text": "원문이 교체된 사건이 아닙니다. 읽은 범위가 달라졌습니다.",
+          "lines": [
+            "원문이 교체된 사건이 아닙니다. 읽은 범위가 달라졌습니다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        }
+      ]
+    },
+    {
+      "slide": 15,
+      "title": "주장마다 근거와 범위를 맞춘다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "281",
+          "text": "주장마다 근거와 범위를 맞춘다",
+          "lines": [
+            "주장마다 근거와 범위를 맞춘다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "286",
+          "text": "C1 · 고칠 문장",
+          "lines": [
+            "C1 · 고칠 문장"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "288",
+          "text": "외부 파일을 쓰는 시스템은 모델을 학습하지 않는다.",
+          "lines": [
+            "외부 파일을 쓰는 시스템은 모델을",
+            "학습하지 않는다."
+          ],
+          "shortLast": false,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "293",
+          "text": "근거 위치",
+          "lines": [
+            "근거 위치"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "295",
+          "text": "RAG v4 §2.4: 질의 인코더·생성기 학습",
+          "lines": [
+            "RAG v4 §2.4: 질의 인코더·생성기",
+            "학습"
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "297",
+          "text": "LoRA v2 §4.1: 기본 가중치 고정, 추가 행렬 학습",
+          "lines": [
+            "LoRA v2 §4.1: 기본 가중치 고정,",
+            "추가 행렬 학습"
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "302",
+          "text": "고친 범위",
+          "lines": [
+            "고친 범위"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "304",
+          "text": "이 파일 교정 데모는 모델 학습을 실행하지 않는다.",
+          "lines": [
+            "이 파일 교정 데모는 모델 학습을",
+            "실행하지 않는다."
+          ],
+          "shortLast": false,
+          "font": "32px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "306",
+          "text": "RAG · LoRA",
+          "lines": [
+            "RAG · LoRA"
+          ],
+          "shortLast": false,
+          "font": "32px"
+        }
+      ]
+    },
+    {
+      "slide": 16,
+      "title": "검토는 고칠 문장과 이유를 정한다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "314",
+          "text": "검토는 고칠 문장과 이유를 정한다",
+          "lines": [
+            "검토는 고칠 문장과 이유를 정한다"
+          ],
+          "shortLast": false,
+          "font": "72px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "316",
+          "text": "review/review.json의 실제 승인 항목",
+          "lines": [
+            "의 실제 승인 항목",
+            "review/review.json"
+          ],
+          "shortLast": false,
+          "font": "29px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "326",
+          "text": "이유: RAG의 학습과 LoRA의 추가 행렬 학습을 원문에서 확인했습니다. 의미 검토와 승인은 발표자가 했습니다.",
+          "lines": [
+            "이유: RAG의 학습과 LoRA의 추가 행렬 학습을 원문에서 확인했습니다. 의미 검토와 승인은 발표자가 했습니다."
+          ],
+          "shortLast": false,
+          "font": "29px"
+        }
+      ]
+    },
+    {
+      "slide": 17,
+      "title": "실제 diff에서 한 문장을 고친다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "334",
+          "text": "실제 diff에서 한 문장을 고친다",
+          "lines": [
+            "실제 diff에서 한 문장을 고친다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "339",
+          "text": "삭제한 문장",
+          "lines": [
+            "삭제한 문장"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "341",
+          "text": "외부 파일을 쓰는 시스템은 모델을 학습하지 않는다.",
+          "lines": [
+            "외부 파일을 쓰는 시스템은 모델을 학습하지 않는다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "346",
+          "text": "추가한 문장",
+          "lines": [
+            "추가한 문장"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "348",
+          "text": "이 데모의 파일 수정은 모델 매개변수 학습을 실행하지 않는다. 외부 파일을 쓰는 시스템에도 별도의 학습 과정이 있을 수 있다.",
+          "lines": [
+            "이 데모의 파일 수정은 모델 매개변수 학습을 실행하지 않는다.",
+            "외부 파일을 쓰는 시스템에도 별도의 학습 과정이 있을 수 있다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "350",
+          "text": "changes.diff의 실제 문장 필드 발췌. 전체 diff와 범위 변경",
+          "lines": [
+            "의 실제 문장 필드 발췌. 전체 diff와 범위 변경",
+            "changes.diff"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        }
+      ]
+    },
+    {
+      "slide": 18,
+      "title": "고친 답에는 다음 확인이 남는다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "358",
+          "text": "고친 답에는 다음 확인이 남는다",
+          "lines": [
+            "고친 답에는 다음 확인이 남는다"
+          ],
+          "shortLast": false,
+          "font": "38px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "360",
+          "text": "이 데모에서 바뀌는 것은 Markdown 파일이며 모델 매개변수 학습을 실행하지 않는다.",
+          "lines": [
+            "이 데모에서 바뀌는 것은 Markdown 파일이며",
+            "모델 매개변수 학습을 실행하지 않는다."
+          ],
+          "shortLast": false,
+          "font": "70px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "362",
+          "text": "다음 질문에 반영하려면 고친 파일을 다시 찾아 읽어 답의 문맥에 넣어야 한다.",
+          "lines": [
+            "다음 질문에 반영하려면 고친 파일을 다시 찾아 읽어 답의 문맥에 넣어야 한다."
+          ],
+          "shortLast": false,
+          "font": "25px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "364",
+          "text": "Q1 현행 답 발췌 · after/wiki/questions/wiki-and-learning.md",
+          "lines": [
+            "Q1 현행 답 발췌 ·",
+            "after/wiki/questions/wiki-and-learning.md"
+          ],
+          "shortLast": false,
+          "font": "25px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "366",
+          "text": "다음 질문: 고친 파일이 있어도 다음 답에서 읽지 않으면 어떻게 확인할까?",
+          "lines": [
+            "다음 질문: 고친 파일이 있어도 다음 답에서 읽지 않으면 어떻게 확인할까?"
+          ],
+          "shortLast": false,
+          "font": "25px"
+        }
+      ]
+    },
+    {
+      "slide": 19,
+      "title": "같이 바뀔 페이지를 따라간다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "375",
+          "text": "같이 바뀔 페이지를 따라간다",
+          "lines": [
+            "같이 바뀔 페이지를 따라간다"
+          ],
+          "shortLast": false,
+          "font": "54px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "379",
+          "text": "도식 원본 열기",
+          "lines": [
+            "도식 원본 열기"
+          ],
+          "shortLast": false,
+          "font": "22px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "381",
+          "text": "C1·Q1·index·log·D1 갱신, Q2·D2·pending 생성: 이 예제의 8쪽입니다.",
+          "lines": [
+            "C1·Q1·index·log·D1 갱신, Q2·D2·pending 생성: 이 예제의 8쪽입니다."
+          ],
+          "shortLast": false,
+          "font": "22px"
+        }
+      ]
+    },
+    {
+      "slide": 20,
+      "title": "index는 입구 log는 바뀐 이유",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "389",
+          "text": "index는 입구 log는 바뀐 이유",
+          "lines": [
+            "index는 입구 log는 바뀐 이유"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "394",
+          "text": "index.md · 어디서 읽지?",
+          "lines": [
+            "index.md · 어디서 읽지?"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "396",
+          "text": "현행 답 저장 정책: 검토 후 갱신",
+          "lines": [
+            "현행 답 저장 정책: 검토 후 갱신"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "398",
+          "text": "다음 운영 질문 Q2: 어떤 답을 저장할까",
+          "lines": [
+            "다음 운영 질문 Q2: 어떤 답을 저장할까"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "400",
+          "text": "검토 대기 답: 단정할 수 없는 부분",
+          "lines": [
+            "검토 대기 답: 단정할 수 없는 부분"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "405",
+          "text": "log.md · 왜 고쳤지?",
+          "lines": [
+            "log.md · 왜 고쳤지?"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "407",
+          "text": "C1의 일반화를 교정했다.",
+          "lines": [
+            "C1의 일반화를 교정했다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "409",
+          "text": "Q2에서 C1 교정과 저장 정책을 재사용했다.",
+          "lines": [
+            "Q2에서 C1 교정과 저장 정책을 재사용했다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "411",
+          "text": "D1은 D2로 대체 표시했다.",
+          "lines": [
+            "D1은 D2로 대체 표시했다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "413",
+          "text": "실제 after/wiki/index.md와 log.md의 항목 발췌.",
+          "lines": [
+            "실제 와 의 항목 발췌.",
+            "after/wiki/index.mdlog.md"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        }
+      ]
+    },
+    {
+      "slide": 21,
+      "title": "새 질문 · 우리 스터디는 어떤 답을 저장할까",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "421",
+          "text": "새 질문 · 우리 스터디는 어떤 답을 저장할까",
+          "lines": [
+            "새 질문 · 우리 스터디는",
+            "어떤 답을 저장할까"
+          ],
+          "shortLast": false,
+          "font": "118px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "423",
+          "text": "Q2 · 우리 스터디는 어떤 답을 저장할까",
+          "lines": [
+            "Q2 · 우리 스터디는 어떤 답을 저장할까"
+          ],
+          "shortLast": false,
+          "font": "30px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "425",
+          "text": "개념 설명을 고친 뒤에는, 다음 모임에서 쓸 답의 저장 기준을 정합니다.",
+          "lines": [
+            "개념 설명을 고친 뒤에는, 다음 모임에서 쓸 답의 저장 기준을 정합니다."
+          ],
+          "shortLast": false,
+          "font": "24px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "427",
+          "text": "불러올 기록: 교정된 C1 · Q1의 답 · 초기 결정 D1",
+          "lines": [
+            "불러올 기록: 교정된 C1 · Q1의 답 · 초기 결정 D1"
+          ],
+          "shortLast": false,
+          "font": "24px"
+        }
+      ]
+    },
+    {
+      "slide": 22,
+      "title": "이전 설명과 판단을 함께 읽는다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "436",
+          "text": "이전 설명과 판단을 함께 읽는다",
+          "lines": [
+            "이전 설명과 판단을 함께 읽는다"
+          ],
+          "shortLast": false,
+          "font": "54px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "440",
+          "text": "도식 원본 열기",
+          "lines": [
+            "도식 원본 열기"
+          ],
+          "shortLast": false,
+          "font": "22px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "442",
+          "text": "C1의 교정, Q1의 다음 확인, D1의 기존 선택을 함께 놓고 Q2를 판단합니다.",
+          "lines": [
+            "C1의 교정, Q1의 다음 확인, D1의 기존 선택을 함께 놓고 Q2를 판단합니다."
+          ],
+          "shortLast": false,
+          "font": "22px"
+        }
+      ]
+    },
+    {
+      "slide": 23,
+      "title": "채팅 A 또는 B · 근거 부족 답은 어디에 둘까",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "450",
+          "text": "채팅 A 또는 B · 근거 부족 답은 어디에 둘까",
+          "lines": [
+            "채팅 A 또는 B · 근거 부족 답은 어디에 둘까"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "455",
+          "text": "근거 부족 초안",
+          "lines": [
+            "근거 부족 초안"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "457",
+          "text": "파일 위키를 만들면 필요한 파일을 언제나 찾을 수 있다.",
+          "lines": [
+            "파일 위키를 만들면 필요한 파일을",
+            "언제나 찾을 수 있다."
+          ],
+          "shortLast": false,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "462",
+          "text": "A",
+          "lines": [
+            "A"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "464",
+          "text": "다른 답과 함께 현행 노트에 바로 저장한다.",
+          "lines": [
+            "다른 답과 함께 현행 노트에 바로",
+            "저장한다."
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "469",
+          "text": "B",
+          "lines": [
+            "B"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "471",
+          "text": "이유와 다음 확인을 적어 검토 대기함에 둔다.",
+          "lines": [
+            "이유와 다음 확인을 적어 검토",
+            "대기함에 둔다."
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "473",
+          "text": "A/B를 Zoom 채팅에 적어 주세요. 이 예제의 선택 보기 → 24장",
+          "lines": [
+            "A/B를 Zoom 채팅에 적어 주세요. 이",
+            "예제의 선택 보기 → 24장"
+          ],
+          "shortLast": false,
+          "font": "32px"
+        }
+      ]
+    },
+    {
+      "slide": 24,
+      "title": "B · 이 예제는 검토 뒤 현행으로 옮긴다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "482",
+          "text": "B · 이 예제는 검토 뒤 현행으로 옮긴다",
+          "lines": [
+            "B · 이 예제는 검토 뒤 현행으로 옮긴다"
+          ],
+          "shortLast": false,
+          "font": "54px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "486",
+          "text": "도식 원본 열기",
+          "lines": [
+            "도식 원본 열기"
+          ],
+          "shortLast": false,
+          "font": "22px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "488",
+          "text": "이 예제의 선택은 B. 검토한 답은 현행, 근거 부족 답은 대기함에 남깁니다.",
+          "lines": [
+            "이 예제의 선택은 B. 검토한 답은 현행, 근거 부족 답은 대기함에 남깁니다."
+          ],
+          "shortLast": false,
+          "font": "22px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "490",
+          "text": "질문으로 돌아가기 · 보류 이유 이어 보기 → 25장",
+          "lines": [
+            "질문으로 돌아가기 · 보류 이유 이어 보기 → 25장"
+          ],
+          "shortLast": false,
+          "font": "22px"
+        }
+      ]
+    },
+    {
+      "slide": 25,
+      "title": "보류에도 이유와 다음 행동을 적는다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "498",
+          "text": "보류에도 이유와 다음 행동을 적는다",
+          "lines": [
+            "보류에도 이유와 다음 행동을 적는다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "503",
+          "text": "상태 · 보류",
+          "lines": [
+            "상태 · 보류"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "505",
+          "text": "필요한 파일을 언제나 찾을 수 있다는 답",
+          "lines": [
+            "필요한 파일을 언제나 찾을 수 있다는",
+            "답"
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "510",
+          "text": "보류 이유",
+          "lines": [
+            "보류 이유"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "512",
+          "text": "이 파일 교정 실행은 우리 자료에서 검색 누락이 없다는 주장을 지원하지 않는다.",
+          "lines": [
+            "이 파일 교정 실행은 우리 자료에서",
+            "검색 누락이 없다는 주장을 지원하지",
+            "않는다."
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "517",
+          "text": "다음 행동",
+          "lines": [
+            "다음 행동"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "519",
+          "text": "실제 질문 몇 개를 정하고, 답이 읽은 파일과 빠뜨린 근거를 사람이 확인한다.",
+          "lines": [
+            "실제 질문 몇 개를 정하고, 답이 읽은",
+            "파일과 빠뜨린 근거를 사람이",
+            "확인한다."
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "521",
+          "text": "after/wiki/pending/retrieval-coverage.md 발췌.",
+          "lines": [
+            "after/wiki/pending/retrieval-",
+            "발췌.",
+            "coverage.md"
+          ],
+          "shortLast": false,
+          "font": "32px"
+        }
+      ]
+    },
+    {
+      "slide": 26,
+      "title": "옛 결정은 superseded로 남긴다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "530",
+          "text": "옛 결정은 superseded로 남긴다",
+          "lines": [
+            "옛 결정은 superseded로 남긴다"
+          ],
+          "shortLast": false,
+          "font": "54px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "534",
+          "text": "도식 원본 열기",
+          "lines": [
+            "도식 원본 열기"
+          ],
+          "shortLast": false,
+          "font": "22px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "536",
+          "text": "D1은 채팅 답을 모으려던 이유와 함께 보존합니다. D2에는 새 선택과 검토 부담을 적습니다.",
+          "lines": [
+            "D1은 채팅 답을 모으려던 이유와 함께 보존합니다. D2에는 새 선택과 검토 부담을 적습니다."
+          ],
+          "shortLast": false,
+          "font": "22px"
+        }
+      ]
+    },
+    {
+      "slide": 27,
+      "title": "새 결정에는 검토 비용도 적는다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "544",
+          "text": "새 결정에는 검토 비용도 적는다",
+          "lines": [
+            "새 결정에는 검토 비용도 적는다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "549",
+          "text": "맥락",
+          "lines": [
+            "맥락"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "551",
+          "text": "출처 링크가 있는 초안에도 미지원 일반화가 있었다.",
+          "lines": [
+            "출처 링크가 있는 초안에도 미지원",
+            "일반화가 있었다."
+          ],
+          "shortLast": false,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "556",
+          "text": "결정 · D2",
+          "lines": [
+            "결정 · D2"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "558",
+          "text": "문장·근거 위치·주장 범위를 대조한 뒤 현행 답을 갱신한다.",
+          "lines": [
+            "문장·근거 위치·주장 범위를 대조한",
+            "뒤 현행 답을 갱신한다."
+          ],
+          "shortLast": false,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "563",
+          "text": "결과",
+          "lines": [
+            "결과"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "565",
+          "text": "수정 이유로 돌아갈 수 있다. 매번 검토 시간이 들고 관련 페이지 누락도 점검해야 한다.",
+          "lines": [
+            "수정 이유로 돌아갈 수 있다. 매번",
+            "검토 시간이 들고 관련 페이지 누락도",
+            "점검해야 한다."
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "567",
+          "text": "실제 D2 발췌 · Nygard의 결정 기록 형식을 스터디에 응용",
+          "lines": [
+            "실제 D2 발췌 · Nygard의 결정 기록",
+            "형식을 스터디에 응용"
+          ],
+          "shortLast": false,
+          "font": "32px"
+        }
+      ]
+    },
+    {
+      "slide": 28,
+      "title": "서로 다른 판은 같은 이름으로 덮지 않는다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "575",
+          "text": "서로 다른 판은 같은 이름으로 덮지 않는다",
+          "lines": [
+            "서로 다른 판은 같은 이름으로 덮지 않는다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "580",
+          "text": "자료에 새 판이 생기면",
+          "lines": [
+            "자료에 새 판이 생기면"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "582",
+          "text": "1판·2판의 날짜와 적용 범위를 따로 보존",
+          "lines": [
+            "1판·2판의 날짜와 적용 범위를 따로",
+            "보존"
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "587",
+          "text": "주장으로 돌아가서",
+          "lines": [
+            "주장으로 돌아가서"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "589",
+          "text": "달라진 문장이 무엇을 지원하는지 대조",
+          "lines": [
+            "달라진 문장이 무엇을 지원하는지",
+            "대조"
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "594",
+          "text": "영향과 결정을 검토",
+          "lines": [
+            "영향과 결정을 검토"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "596",
+          "text": "현행 설명을 고치고 과거 판단으로 돌아갈 길 유지",
+          "lines": [
+            "현행 설명을 고치고 과거 판단으로",
+            "돌아갈 길 유지"
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "598",
+          "text": "앞으로 적용할 운영법입니다. 오늘 데모는 같은 RAG v4의 읽기 범위만 확장했습니다.",
+          "lines": [
+            "앞으로 적용할 운영법입니다. 오늘",
+            "데모는 같은 RAG v4의 읽기 범위만",
+            "확장했습니다."
+          ],
+          "shortLast": true,
+          "font": "32px"
+        }
+      ]
+    },
+    {
+      "slide": 29,
+      "title": "상충하면 어느 쪽인지 먼저 좁힌다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "606",
+          "text": "상충하면 어느 쪽인지 먼저 좁힌다",
+          "lines": [
+            "상충하면 어느",
+            "쪽인지 먼저 좁힌다"
+          ],
+          "shortLast": false,
+          "font": "118px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "608",
+          "text": "같은 대상? → 같은 시점? → 같은 조건?",
+          "lines": [
+            "같은 대상? → 같은 시점? → 같은 조건?"
+          ],
+          "shortLast": false,
+          "font": "30px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "610",
+          "text": "조건이 다르면 범위를 나눕니다. 같은 조건에서 충돌하면 근거를 대조하고, 아직 판단할 수 없으면 보류합니다.",
+          "lines": [
+            "조건이 다르면 범위를 나눕니다. 같은 조건에서 충돌하면 근거를 대조하고, 아직 판단할 수 없으면 보류합니다."
+          ],
+          "shortLast": false,
+          "font": "24px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "612",
+          "text": "C1은 ‘모든 외부 파일 시스템’을 ‘이 데모’로 좁혔습니다. 충돌과 낡은 정보 더 읽기",
+          "lines": [
+            "C1은 ‘모든 외부 파일 시스템’을 ‘이 데모’로 좁혔습니다. 충돌과 낡은 정보 더 읽기"
+          ],
+          "shortLast": false,
+          "font": "24px"
+        }
+      ]
+    },
+    {
+      "slide": 30,
+      "title": "자료 둘을 잇는 질문을 적는다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "620",
+          "text": "자료 둘을 잇는 질문을 적는다",
+          "lines": [
+            "자료 둘을 잇는 질문을 적는다"
+          ],
+          "shortLast": false,
+          "font": "38px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "622",
+          "text": "The human mind does not work that way. It operates by association.",
+          "lines": [
+            "The human mind does not work",
+            "that way. It operates by association."
+          ],
+          "shortLast": false,
+          "font": "70px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "624",
+          "text": "“인간의 마음은 그런 방식으로 작동하지 않습니다. 연상으로 작동합니다.” — 발표팀 번역",
+          "lines": [
+            "“인간의 마음은 그런 방식으로 작동하지 않습니다. 연상으로 작동합니다.” — 발표팀 번역"
+          ],
+          "shortLast": false,
+          "font": "25px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "626",
+          "text": "Vannevar Bush, As We May Think, 1945년 7월, §6 · 출판사 원문",
+          "lines": [
+            "Vannevar Bush, As We May Think, 1945년 7월, §6 · 출판사 원문"
+          ],
+          "shortLast": false,
+          "font": "25px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "628",
+          "text": "분류 색인과 연상의 차이에서 지식 장치를 구상한 글입니다. 내 자료 두 개를 잇는 질문으로 이어갑니다.",
+          "lines": [
+            "분류 색인과 연상의 차이에서 지식 장치를 구상한 글입니다. 내 자료 두 개를 잇는 질문으로 이어갑니다."
+          ],
+          "shortLast": false,
+          "font": "25px"
+        }
+      ]
+    },
+    {
+      "slide": 31,
+      "title": "검사 결과가 말하는 것",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "636",
+          "text": "검사 결과가 말하는 것",
+          "lines": [
+            "검사 결과가 말하는 것"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "641",
+          "text": "반영한 페이지",
+          "lines": [
+            "반영한 페이지"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "643",
+          "text": "8 쪽",
+          "lines": [
+            "8",
+            "쪽"
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "645",
+          "text": "승인안 적용: 기존 5쪽 갱신 + 3쪽 생성",
+          "lines": [
+            "승인안 적용: 기존 5쪽 갱신 + 3쪽",
+            "생성"
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "650",
+          "text": "검사한 로컬 링크",
+          "lines": [
+            "검사한 로컬 링크"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "652",
+          "text": "25 개",
+          "lines": [
+            "25",
+            "개"
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "654",
+          "text": "현행 파일의 상대 경로 연결 확인",
+          "lines": [
+            "현행 파일의 상대 경로 연결 확인"
+          ],
+          "shortLast": false,
+          "font": "32px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "659",
+          "text": "보존한 파일",
+          "lines": [
+            "보존한 파일"
+          ],
+          "shortLast": false,
+          "font": "40px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "661",
+          "text": "10 파일",
+          "lines": [
+            "10",
+            "파일"
+          ],
+          "shortLast": true,
+          "font": "32px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "663",
+          "text": "읽기 메모 5개 + 초기 5쪽 SHA 보존",
+          "lines": [
+            "읽기 메모 5개 + 초기 5쪽 SHA 보존"
+          ],
+          "shortLast": false,
+          "font": "32px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "665",
+          "text": "이 예제의 파일 검사 수치입니다. 실행과 범위",
+          "lines": [
+            "이 예제의 파일 검사 수치입니다.",
+            "실행과 범위"
+          ],
+          "shortLast": true,
+          "font": "32px"
+        }
+      ]
+    },
+    {
+      "slide": 32,
+      "title": "LLM에게 초안과 연결 후보를 맡긴다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "673",
+          "text": "LLM에게 초안과 연결 후보를 맡긴다",
+          "lines": [
+            "LLM에게 초안과 연결 후보를 맡긴다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "678",
+          "text": "LLM에게 부탁할 일",
+          "lines": [
+            "LLM에게 부탁할 일"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "680",
+          "text": "읽기 메모 · 연결 후보 · 답 초안 · 수정안",
+          "lines": [
+            "읽기 메모 · 연결 후보 · 답 초안 · 수정안"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "685",
+          "text": "사람이 검토할 일",
+          "lines": [
+            "사람이 검토할 일"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "687",
+          "text": "원문 위치 · 주장 범위 · 보류 · 현행 채택",
+          "lines": [
+            "원문 위치 · 주장 범위 · 보류 · 현행 채택"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "689",
+          "text": "실제 운영의 역할 제안입니다. 오늘 Node 스크립트는 사람이 승인한 안을 재현했습니다.",
+          "lines": [
+            "실제 운영의 역할 제안입니다. 오늘 Node 스크립트는 사람이",
+            "승인한 안을 재현했습니다."
+          ],
+          "shortLast": false,
+          "font": "26px"
+        }
+      ]
+    },
+    {
+      "slide": 33,
+      "title": "읽기 질문하기 점검하기를 반복한다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "698",
+          "text": "읽기 질문하기 점검하기를 반복한다",
+          "lines": [
+            "읽기 질문하기",
+            "점검하기를 반복한다"
+          ],
+          "shortLast": false,
+          "font": "92px"
+        },
+        {
+          "tag": "DIV",
+          "text": "읽고 엮기 · ingest",
+          "lines": [
+            "읽고 엮기 · ingest"
+          ],
+          "shortLast": false,
+          "font": "17px"
+        },
+        {
+          "tag": "DIV",
+          "text": "답하고 남기기 · query",
+          "lines": [
+            "답하고 남기기 · query"
+          ],
+          "shortLast": false,
+          "font": "17px"
+        },
+        {
+          "tag": "DIV",
+          "text": "점검하기 · lint",
+          "lines": [
+            "점검하기 · lint"
+          ],
+          "shortLast": false,
+          "font": "17px"
+        }
+      ]
+    },
+    {
+      "slide": 34,
+      "title": "내 자료 세 개에서 시작한다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "713",
+          "text": "내 자료 세 개에서 시작한다",
+          "lines": [
+            "내 자료 세 개에서 시작한다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "FIGCAPTION",
+          "sourceLine": "715",
+          "text": "질문 적기 · LinkedIn Sales Navigator / Pexels",
+          "lines": [
+            "질문 적기 · LinkedIn Sales Navigator / Pexels"
+          ],
+          "shortLast": false,
+          "font": "20px"
+        },
+        {
+          "tag": "FIGCAPTION",
+          "sourceLine": "717",
+          "text": "자료 고르기 · Ron Lach / Pexels",
+          "lines": [
+            "자료 고르기 · Ron Lach / Pexels"
+          ],
+          "shortLast": false,
+          "font": "20px"
+        },
+        {
+          "tag": "FIGCAPTION",
+          "sourceLine": "719",
+          "text": "설명 대조하기 · cottonbro studio / Pexels",
+          "lines": [
+            "설명 대조하기 · cottonbro studio / Pexels"
+          ],
+          "shortLast": false,
+          "font": "20px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "721",
+          "text": "자료 3개 · 질문 1개 · 검토자 1명. 사진은 학습을 설명하는 스톡 장면입니다.",
+          "lines": [
+            "자료 3개 · 질문 1개 · 검토자 1명. 사진은 학습을 설명하는 스톡 장면입니다."
+          ],
+          "shortLast": false,
+          "font": "20px"
+        }
+      ]
+    },
+    {
+      "slide": 35,
+      "title": "내 질문 하나를 실제로 적는다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "729",
+          "text": "내 질문 하나를 실제로 적는다",
+          "lines": [
+            "내 질문 하나를 실제로 적는다"
+          ],
+          "shortLast": false,
+          "font": "118px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "731",
+          "text": "내 자료 A + 내 자료 B → 다음 모임에 답할 질문",
+          "lines": [
+            "내 자료 A + 내 자료 B → 다음 모임에 답할 질문"
+          ],
+          "shortLast": false,
+          "font": "30px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "733",
+          "text": "20초 동안 자기 노트에 적어 보세요.",
+          "lines": [
+            "20초 동안 자기 노트에 적어 보세요."
+          ],
+          "shortLast": false,
+          "font": "24px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "735",
+          "text": "자료 두 개의 제목, 연결 질문 한 줄, 먼저 확인할 근거 한 곳.",
+          "lines": [
+            "자료 두 개의 제목, 연결 질문 한 줄, 먼저 확인할 근거 한 곳."
+          ],
+          "shortLast": false,
+          "font": "24px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "737",
+          "text": "예: RAG 메모 + 지난 Q1 → 다음 답이 어떤 파일을 읽었는지 어떻게 확인할까?",
+          "lines": [
+            "예: RAG 메모 + 지난 Q1 → 다음 답이 어떤 파일을 읽었는지 어떻게 확인할까?"
+          ],
+          "shortLast": false,
+          "font": "24px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "739",
+          "text": "채팅에 공유하는 것은 선택입니다.",
+          "lines": [
+            "채팅에 공유하는 것은 선택입니다."
+          ],
+          "shortLast": false,
+          "font": "24px"
+        }
+      ]
+    },
+    {
+      "slide": 36,
+      "title": "처음 부탁할 말은 짧게 정한다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "747",
+          "text": "처음 부탁할 말은 짧게 정한다",
+          "lines": [
+            "처음 부탁할 말은 짧게 정한다"
+          ],
+          "shortLast": false,
+          "font": "72px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "749",
+          "text": "starter.txt의 요청을 줄여 쓰면:",
+          "lines": [
+            "의 요청을 줄여 쓰면:",
+            "starter.txt"
+          ],
+          "shortLast": false,
+          "font": "29px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "757",
+          "text": "원문과 작업 규칙은 데모 ZIP에 있습니다. 실제 LLM 실행 결과가 아닌 시작 요청입니다.",
+          "lines": [
+            "원문과 작업 규칙은 데모 ZIP에 있습니다. 실제 LLM 실행 결과가 아닌 시작 요청입니다."
+          ],
+          "shortLast": false,
+          "font": "29px"
+        }
+      ]
+    },
+    {
+      "slide": 37,
+      "title": "다음 모임 전, 파일을 읽을 사람을 정한다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "766",
+          "text": "다음 모임 전, 파일을 읽을 사람을 정한다",
+          "lines": [
+            "다음 모임 전, 파일을",
+            "읽을 사람을 정한다"
+          ],
+          "shortLast": false,
+          "font": "92px"
+        },
+        {
+          "tag": "DIV",
+          "text": "원자료를 보존하기",
+          "lines": [
+            "원자료를 보존하기"
+          ],
+          "shortLast": false,
+          "font": "17px"
+        },
+        {
+          "tag": "DIV",
+          "text": "근거와 범위를 붙이기",
+          "lines": [
+            "근거와 범위를 붙이기"
+          ],
+          "shortLast": false,
+          "font": "17px"
+        },
+        {
+          "tag": "DIV",
+          "text": "모르는 것은 보류하기",
+          "lines": [
+            "모르는 것은 보류하기"
+          ],
+          "shortLast": false,
+          "font": "17px"
+        },
+        {
+          "tag": "DIV",
+          "text": "결정 이력 남기기",
+          "lines": [
+            "결정 이력 남기기"
+          ],
+          "shortLast": false,
+          "font": "17px"
+        }
+      ]
+    },
+    {
+      "slide": 38,
+      "title": "다시 찾을 가치와 유지 부담을 같이 본다",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "781",
+          "text": "다시 찾을 가치와 유지 부담을 같이 본다",
+          "lines": [
+            "다시 찾을 가치와 유지 부담을 같이 본다"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "786",
+          "text": "다시 쓸 가치",
+          "lines": [
+            "다시 쓸 가치"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "788",
+          "text": "반복하는 질문",
+          "lines": [
+            "반복하는 질문"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "790",
+          "text": "자주 바뀌는 자료",
+          "lines": [
+            "자주 바뀌는 자료"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "792",
+          "text": "다른 사람과 나눌 설명",
+          "lines": [
+            "다른 사람과 나눌 설명"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "797",
+          "text": "계속 드는 일",
+          "lines": [
+            "계속 드는 일"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "799",
+          "text": "원문 대조와 검토",
+          "lines": [
+            "원문 대조와 검토"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "801",
+          "text": "중복 설명과 낡은 링크 점검",
+          "lines": [
+            "중복 설명과 낡은 링크 점검"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "803",
+          "text": "목차·검색의 누락 확인",
+          "lines": [
+            "목차·검색의 누락 확인"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "805",
+          "text": "한 주제로 작게 시도하고, 다음 모임에서 재사용과 부담을 함께 확인합니다.",
+          "lines": [
+            "한 주제로 작게 시도하고, 다음 모임에서 재사용과 부담을 함께",
+            "확인합니다."
+          ],
+          "shortLast": true,
+          "font": "26px"
+        }
+      ]
+    },
+    {
+      "slide": 39,
+      "title": "파일 묶음에서 다음 모임으로",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "813",
+          "text": "파일 묶음에서 다음 모임으로",
+          "lines": [
+            "파일 묶음에서 다음 모임으로"
+          ],
+          "shortLast": false,
+          "font": "64px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "818",
+          "text": "실행해 보기",
+          "lines": [
+            "실행해 보기"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "820",
+          "text": "데모 ZIP 내려받기",
+          "lines": [
+            "데모 ZIP 내려받기"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "822",
+          "text": "압축 해제 → apply → check",
+          "lines": [
+            "압축 해제 → apply → check"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "824",
+          "text": "실제 파일 읽기와 검증 범위",
+          "lines": [
+            "실제 파일 읽기와 검증 범위"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "H2",
+          "sourceLine": "829",
+          "text": "깊이 공부하기",
+          "lines": [
+            "깊이 공부하기"
+          ],
+          "shortLast": false,
+          "font": "34px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "831",
+          "text": "공부 자료 목차",
+          "lines": [
+            "공부 자료 목차"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "833",
+          "text": "학습서 · 실습 해설 · 대본 · 원문 안내",
+          "lines": [
+            "학습서 · 실습 해설 · 대본 · 원문 안내"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "835",
+          "text": "고정 LLM Wiki 원문",
+          "lines": [
+            "고정 LLM Wiki 원문"
+          ],
+          "shortLast": false,
+          "font": "26px"
+        }
+      ]
+    },
+    {
+      "slide": 40,
+      "title": "어떤 노트부터 다시 쓰고 싶나요",
+      "entries": [
+        {
+          "tag": "H1",
+          "sourceLine": "843",
+          "text": "어떤 노트부터 다시 쓰고 싶나요",
+          "lines": [
+            "어떤 노트부터 다시 쓰고 싶나요"
+          ],
+          "shortLast": false,
+          "font": "110px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "845",
+          "text": "질문 · 내 자료 적용 · 검토 부담",
+          "lines": [
+            "질문 · 내 자료 적용 · 검토 부담"
+          ],
+          "shortLast": false,
+          "font": "30px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "847",
+          "text": "Q&A 별도 2분 추정",
+          "lines": [
+            "Q&A 별도 2분 추정"
+          ],
+          "shortLast": false,
+          "font": "24px"
+        },
+        {
+          "tag": "P",
+          "sourceLine": "849",
+          "text": "공부 자료 목차 · 실행 가능한 데모 ZIP",
+          "lines": [
+            "공부 자료 목차 · 실행 가능한 데모 ZIP"
+          ],
+          "shortLast": false,
+          "font": "24px"
+        }
+      ]
+    }
+  ]
+}

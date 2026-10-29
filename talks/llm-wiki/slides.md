@@ -10,7 +10,7 @@ focus: '50% 75%'
 -->
 # 이번 주 읽은 자료를 다음 주에도 쓸 수 있을까
 
-![창가 책상에 펼친 책과 공책, 펜이 놓여 있다.](./assets/photos/open-books.jpg "Ron Lach / Pexels · 학습을 설명하는 스톡 사진")
+![창가 책상에 펼친 책과 공책, 펜이 놓여 있다.](./assets/photos/open-books.jpg)
 
 **다음 질문에 다시 쓸 노트를 남겨 봅시다.**
 
@@ -42,7 +42,7 @@ focus: '50% 52%'
 -->
 # 자료를 모은 뒤에도 설명할 일이 남는다
 
-![책이 가득한 서가 사이의 통로. 책의 내용은 발표의 근거로 사용하지 않는다.](./assets/photos/library.jpg "Ayşe İpek / Pexels · 스톡 사진")
+![책이 가득한 서가 사이의 통로.](./assets/photos/library.jpg)
 
 - 자료 목록은 **무엇을 읽었는지** 알려줍니다.
 - 설명 노트는 **무엇을 알았는지** 연결합니다.
@@ -139,11 +139,11 @@ focus: '50% 72%'
 -->
 # 원문과 내 설명을 구분한다
 
-![책과 필기한 공책, 필기도구가 모여 있는 공부 책상. 사진 속 글은 근거 자료로 읽지 않는다.](./assets/photos/study-table.jpg "cottonbro studio / Pexels · 스톡 사진")
+![책과 필기한 공책, 필기도구가 모여 있는 공부 책상.](./assets/photos/study-table.jpg)
 
 - **원문:** RAG v4 §2.4
 - **읽기 메모:** 질의 인코더와 생성기를 학습한다.
-- **우리 해석:** 외부 파일 사용만으로 학습 유무를 정할 수 없다.
+- **우리 해석:** 파일을 쓴다고 학습이 없는 것은 아니다.
 
 ---
 
@@ -211,7 +211,7 @@ tone: green
 
 [원문이 이 문장과 범위를 지원하는지 먼저 본다.](#13)
 
-A 또는 B를 Zoom 채팅에 적어 주세요. 발표자가 직접 읽습니다.
+Zoom 채팅에 A/B를 적어 주세요.
 
 [정답 보기 → 13장](#13)
 
@@ -240,7 +240,9 @@ tone: green
 
 외부 파일 사용과 학습은 함께 있을 수 있다.
 
-링크의 유무 다음에는 **문장과 근거의 범위**를 대조합니다. [RAG v4 §2.4](https://arxiv.org/html/2005.11401v4#S2.SS4)
+링크 다음에는 **문장과 근거의 범위**를 대조합니다.
+
+[RAG v4 §2.4](https://arxiv.org/html/2005.11401v4#S2.SS4)
 
 [질문으로 돌아가기](#12) · [읽기 메모 이어 보기 → 14장](#14)
 
@@ -292,9 +294,13 @@ tone: purple
 -->
 ## 근거 위치
 
-RAG v4 §2.4: 질의 인코더·생성기 학습
+RAG v4 §2.4
 
-LoRA v2 §4.1: 기본 가중치 고정, 추가 행렬 학습
+질의 인코더·생성기 학습
+
+LoRA v2 §4.1
+
+기본 가중치 고정 · 추가 행렬 학습
 
 <!-- stage-group
 tone: green
@@ -420,7 +426,7 @@ tone: purple
 -->
 # 새 질문 · 우리 스터디는 어떤 답을 저장할까
 
-**Q2 · 우리 스터디는 어떤 답을 저장할까**
+**Q2 · 답의 저장 기준 정하기**
 
 개념 설명을 고친 뒤에는, 다음 모임에서 쓸 답의 저장 기준을 정합니다.
 
@@ -461,14 +467,14 @@ tone: orange
 -->
 ## A
 
-[다른 답과 함께 현행 노트에 바로 저장한다.](#24)
+[현행 노트로 저장](#24)
 
 <!-- stage-group
 tone: green
 -->
 ## B
 
-[이유와 다음 확인을 적어 검토 대기함에 둔다.](#24)
+[검토 대기함에 보류](#24)
 
 A/B를 Zoom 채팅에 적어 주세요. [이 예제의 선택 보기 → 24장](#24)
 
@@ -502,23 +508,25 @@ tone: yellow
 -->
 ## 상태 · 보류
 
-필요한 파일을 **언제나** 찾을 수 있다는 답
+필요한 파일을 **항상** 찾는다는 초안
 
 <!-- stage-group
 tone: orange
 -->
 ## 보류 이유
 
-이 파일 교정 실행은 우리 자료에서 검색 누락이 없다는 주장을 지원하지 않는다.
+검색 누락 여부는 미확인
 
 <!-- stage-group
 tone: green
 -->
 ## 다음 행동
 
-실제 질문 몇 개를 정하고, 답이 읽은 파일과 빠뜨린 근거를 사람이 확인한다.
+실제 질문 몇 개를 고른다.
 
-`after/wiki/pending/retrieval-coverage.md` 발췌.
+읽은 파일과 빠진 근거를 점검한다.
+
+[보류 기록 전문](./materials/demo-log.md#7-pending은-이유와-다음-행동을-남긴다)
 
 ---
 
@@ -562,9 +570,13 @@ tone: orange
 -->
 ## 결과
 
-수정 이유로 돌아갈 수 있다. 매번 검토 시간이 들고 관련 페이지 누락도 점검해야 한다.
+수정 이유를 다시 읽는다.
 
-실제 D2 발췌 · [Nygard의 결정 기록 형식을 스터디에 응용](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+검토 시간을 들여야 한다.
+
+관련 페이지 누락도 살핀다.
+
+D2 기록 요약 · [Nygard의 결정 기록 형식을 스터디에 응용](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 
 ---
 
@@ -579,23 +591,23 @@ tone: blue
 -->
 ## 자료에 새 판이 생기면
 
-1판·2판의 날짜와 적용 범위를 따로 보존
+판·날짜·적용 범위 보존
 
 <!-- stage-group
 tone: purple
 -->
 ## 주장으로 돌아가서
 
-달라진 문장이 무엇을 지원하는지 대조
+문장과 지원 범위 대조
 
 <!-- stage-group
 tone: green
 -->
 ## 영향과 결정을 검토
 
-현행 설명을 고치고 과거 판단으로 돌아갈 길 유지
+현행 설명 갱신 · 과거 판단 보존
 
-**앞으로 적용할 운영법입니다.** 오늘 데모는 같은 RAG v4의 읽기 범위만 확장했습니다.
+**원문이 바뀔 때 적용**
 
 ---
 
@@ -603,7 +615,7 @@ tone: green
 compose: message
 tone: yellow
 -->
-# 상충하면 어느 쪽인지 먼저 좁힌다
+# 상충하면 먼저 범위를 확인한다
 
 **같은 대상? → 같은 시점? → 같은 조건?**
 
@@ -629,40 +641,25 @@ Vannevar Bush, *As We May Think*, 1945년 7월, §6 · [출판사 원문](https:
 
 ---
 
-<!-- stage-slide
-compose: editorial
-tone: blue
+<!-- stage
+layout: visual
+quiet: true
 -->
-# 검사 결과가 말하는 것
+# 검사 결과를 단위별로 읽는다
 
-<!-- stage-group
-tone: blue
--->
-## 반영한 페이지
-
-**8** 쪽
-
-승인안 적용: 기존 5쪽 갱신 + 3쪽 생성
-
-<!-- stage-group
-tone: green
--->
-## 검사한 로컬 링크
-
-**25** 개
-
-현행 파일의 상대 경로 연결 확인
-
-<!-- stage-group
-tone: orange
--->
-## 보존한 파일
-
-**10** 파일
-
-읽기 메모 5개 + 초기 5쪽 SHA 보존
-
-이 예제의 **파일 검사 수치**입니다. [실행과 범위](./materials/demo-log.md)
+```stage
+{
+  "subtitle": "반영한 8쪽: 기존 5쪽 갱신 + 신규 3쪽 생성",
+  "visual": {
+    "kind": "composition",
+    "labels": ["기존 5쪽 갱신", "신규 3쪽 생성"],
+    "values": [5, 3],
+    "unit": "쪽",
+    "composition": "wide"
+  },
+  "source": "별도 검사 · 링크 25개 확인 · 메모 5개 + 초기 5쪽 보존"
+}
+```
 
 ---
 
@@ -690,16 +687,23 @@ tone: green
 
 ---
 
-<!-- stage-slide
-compose: icon-wall
-tone: blue
-icons: [{icon: folder, tone: blue}, {icon: voice, tone: purple}, {icon: check, tone: green}]
+<!-- stage
+layout: visual
+quiet: true
 -->
-# 읽기 질문하기 점검하기를 반복한다
+# 읽기·질문·점검을 반복한다
 
-- 읽고 엮기 · ingest
-- 답하고 남기기 · query
-- 점검하기 · lint
+```stage
+{
+  "subtitle": "점검에서 찾은 문제는 다음 읽기와 질문으로 이어집니다.",
+  "visual": {
+    "kind": "flow",
+    "items": ["읽고 엮기 · ingest", "답하고 남기기 · query", "점검하기 · lint"],
+    "composition": "wide"
+  },
+  "source": "Karpathy, LLM Wiki · Operations: 자료를 반영하고 답을 남기고 내용·연결을 점검하는 반복 작업"
+}
+```
 
 ---
 
@@ -712,13 +716,13 @@ focus: ['44% 54%', '50% 75%', '50% 72%']
 -->
 # 내 자료 세 개에서 시작한다
 
-![노트에 쓰는 인물의 스톡 사진](./assets/photos/writing.jpg "질문 적기 · LinkedIn Sales Navigator / Pexels")
+![노트에 쓰는 인물](./assets/photos/writing.jpg "질문 적기")
 
-![창가 책상에 펼친 책과 공책](./assets/photos/open-books.jpg "자료 고르기 · Ron Lach / Pexels")
+![창가 책상에 펼친 책과 공책](./assets/photos/open-books.jpg "자료 고르기")
 
-![책과 공책과 필기도구가 모인 책상](./assets/photos/study-table.jpg "설명 대조하기 · cottonbro studio / Pexels")
+![책과 공책과 필기도구가 모인 책상](./assets/photos/study-table.jpg "설명 대조하기")
 
-자료 3개 · 질문 1개 · 검토자 1명. 사진은 학습을 설명하는 스톡 장면입니다.
+자료 3개 · 질문 1개 · 검토자 1명.
 
 ---
 
@@ -759,18 +763,17 @@ tone: purple
 ---
 
 <!-- stage-slide
-compose: icon-wall
+compose: document
 tone: green
-icons: [folder, search, select, record]
 -->
-# 다음 모임 전, 파일을 읽을 사람을 정한다
+# 다음 모임의 검토자를 정한다
 
-작업 규칙 네 가지와 함께 시작합니다.
+**검토자 한 명과 네 규칙을 함께 읽습니다.**
 
-- 원자료를 보존하기
-- 근거와 범위를 붙이기
-- 모르는 것은 보류하기
-- 결정 이력 남기기
+- 원자료를 보존한다.
+- 핵심 주장에 근거와 범위를 붙인다.
+- 미확인 내용은 보류한다.
+- 바뀐 결정과 이유를 남긴다.
 
 ---
 
@@ -802,7 +805,7 @@ tone: orange
 
 목차·검색의 누락 확인
 
-한 주제로 작게 시도하고, 다음 모임에서 재사용과 부담을 함께 확인합니다.
+다음 모임에서 가치와 부담을 봅니다.
 
 ---
 

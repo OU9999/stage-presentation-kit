@@ -44,14 +44,14 @@
           "source": "talks/llm-wiki/materials/speaker-script.md",
           "title": "40장 발표 대본 · 설명과 참여 30분, Q&A 별도",
           "order": 3,
-          "revision": "008d886fa3a14c1d3228e4f6736269e9df060862bd4e8a128d86ff0d6937d252",
+          "revision": "c8ed063f8a6369a1a1db0b4e06288b436c2772fe6fa566499351c7832baaaed8",
           "href": "llm-wiki/materials/speaker-script.html"
         },
         {
           "source": "talks/llm-wiki/materials/reference-library.md",
           "title": "원문 읽기 안내와 용어 모음",
           "order": 4,
-          "revision": "9351f27b2301a073cac11dbb8ca10d19b1ae3b0e0cc9c3c738ba26e5494e810b",
+          "revision": "56d56bd4f31cdaab3e1eead715983bc8d9af359dbb235e2a38af2a240a165c9a",
           "href": "llm-wiki/materials/reference-library.html"
         },
         {
