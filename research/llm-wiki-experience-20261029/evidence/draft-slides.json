@@ -1,0 +1,2412 @@
+{
+  "base": "http://127.0.0.1:4323/",
+  "revision": "b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009",
+  "slides": [
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#1",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "0",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "이번 주 읽은 자료를 다음 주에도 쓸 수 있을까",
+      "headingSize": "54px",
+      "text": "이번 주 읽은 자료를 다음 주에도 쓸 수 있을까Ron Lach / Pexels · 학습을 설명하는 스톡 사진다음 질문에 다시 쓸 노트를 남겨 봅시다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/5aa7ac752bff-open-books.jpg",
+          "alt": "창가 책상에 펼친 책과 공책, 펜이 놓여 있다.",
+          "complete": true,
+          "naturalWidth": 1800,
+          "naturalHeight": 1200,
+          "fit": "cover",
+          "focus": "50% 75%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 430.92657470703125,
+            "right": 1314.7199401855469,
+            "bottom": 706.075927734375
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "다음 질문에 다시 쓸 노트를 남겨 봅시다.",
+          "color": "rgb(36, 168, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-01.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#2",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "1",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "메모는 남았는데 어느 문장이 근거일까",
+      "headingSize": "72px",
+      "text": "메모는 남았는데 어느 문장이 근거일까읽은 흔적만 남은, 발표자가 만든 작은 메모입니다.RAG: 외부 자료를 찾아 답한다.\n위키: 읽은 내용을 파일로 남긴다.\n그러면 파일을 고치는 것도 모델 학습일까?\n마지막 질문에 답하려면, 앞 두 줄의 근거와 범위가 필요합니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "마지막 질문에 답하려면, 앞 두 줄의 근거와 범위가 필요합니다.",
+          "color": "rgb(237, 207, 102)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-02.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#3",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "2",
+      "layout": "blocks",
+      "composition": "split",
+      "heading": "자료를 모은 뒤에도 설명할 일이 남는다",
+      "headingSize": "72px",
+      "text": "자료를 모은 뒤에도 설명할 일이 남는다Ayşe İpek / Pexels · 스톡 사진자료 목록은 무엇을 읽었는지 알려줍니다.설명 노트는 무엇을 알았는지 연결합니다.판단 기록은 왜 그렇게 했는지 남깁니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/b07f03559eed-library.jpg",
+          "alt": "책이 가득한 서가 사이의 통로. 책의 내용은 발표의 근거로 사용하지 않는다.",
+          "complete": true,
+          "naturalWidth": 1800,
+          "naturalHeight": 1200,
+          "fit": "cover",
+          "focus": "50% 52%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 293.294677734375,
+            "width": 596.6558837890625,
+            "height": 457.46533203125,
+            "right": 721.9358825683594,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "무엇을 읽었는지",
+          "color": "rgb(160, 128, 255)"
+        },
+        {
+          "text": "무엇을 알았는지",
+          "color": "rgb(160, 128, 255)"
+        },
+        {
+          "text": "왜 그렇게 했는지",
+          "color": "rgb(160, 128, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-03.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#4",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "3",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "다음 모임에는 다른 질문이 온다",
+      "headingSize": "64px",
+      "text": "다음 모임에는 다른 질문이 온다이번 질문 · Q1위키 파일을 고치면 모델도\n그 내용을 학습하나요?다음 질문 · Q2우리 스터디는\n어떤 답을 저장할까요?개념을 고친 결과가, 다음 운영 판단의 입력이 됩니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "이번 질문 · Q1",
+          "color": "rgb(160, 128, 255)"
+        },
+        {
+          "text": "다음 질문 · Q2",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "어떤 답을 저장할까요?",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-04.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#5",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "다음 질문에 무엇을 다시 쓸까",
+      "headingSize": "118px",
+      "text": "다음 질문에 무엇을 다시 쓸까원문 · 설명 · 판단읽은 주소, 검토한 답, 바뀐 이유를 함께 남깁니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "원문 · 설명 · 판단",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-05.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#6",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "5",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "남길 것은 답과 근거와 바뀐 이유",
+      "headingSize": "118px",
+      "text": "남길 것은 답과 근거와 바뀐 이유원자료 → 주장 → 검토 → diff → 다음 질문오늘의 끝에는 고친 답, 보류한 부분, 새 저장 규칙이 파일로 남습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "원자료 → 주장 → 검토 → diff → 다음 질문",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-06.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#7",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "6",
+      "layout": "blocks",
+      "composition": "quote",
+      "heading": "계속 남고 쌓여 가는 결과물",
+      "headingSize": "38px",
+      "text": "계속 남고 쌓여 가는 결과물This is the key difference: the wiki is a persistent, compounding artifact.“핵심 차이는 이것입니다. 위키는 계속 남고, 쌓여 가는 결과물입니다.” — 발표팀 번역Andrej Karpathy, LLM Wiki, The core idea · 고정 원문설계 아이디어의 설명입니다. 이제 남는 파일을 직접 보겠습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-07.png",
+      "links": [
+        {
+          "text": "고정 원문",
+          "href": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#the-core-idea"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#8",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "7",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "원자료 옆에 설명 노트를 둔다",
+      "headingSize": "54px",
+      "text": "원자료 옆에 설명 노트를 둔다도식 원본 열기LLM이 읽고 연결한 Markdown을 유지하는 설계입니다. Karpathy · Architecture",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/9de04be0b94d-wiki-layers.svg",
+          "alt": "원자료는 보존하고 위키는 갱신한다. 작업 규칙은 둘 사이의 작업 전체에 적용하며 세 번째 변환 산출물이 아니다.",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 450,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 422.36248779296875,
+            "right": 1314.7199401855469,
+            "bottom": 697.5118408203125
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-08.png",
+      "links": [
+        {
+          "text": "도식 원본 열기",
+          "href": "assets/9de04be0b94d-wiki-layers.svg"
+        },
+        {
+          "text": "Karpathy · Architecture",
+          "href": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#9",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "8",
+      "layout": "blocks",
+      "composition": "split",
+      "heading": "원문과 내 설명을 구분한다",
+      "headingSize": "72px",
+      "text": "원문과 내 설명을 구분한다cottonbro studio / Pexels · 스톡 사진원문: RAG v4 §2.4읽기 메모: 질의 인코더와 생성기를 학습한다.우리 해석: 외부 파일 사용만으로 학습 유무를 정할 수 없다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/258a229c6dc8-study-table.jpg",
+          "alt": "책과 필기한 공책, 필기도구가 모여 있는 공부 책상. 사진 속 글은 근거 자료로 읽지 않는다.",
+          "complete": true,
+          "naturalWidth": 1800,
+          "naturalHeight": 2700,
+          "fit": "cover",
+          "focus": "50% 72%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 293.294677734375,
+            "width": 596.6558837890625,
+            "height": 457.46533203125,
+            "right": 721.9358825683594,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "원문:",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "읽기 메모:",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "우리 해석:",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-09.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#10",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "9",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "오늘은 승인한 교정안을 실행한다",
+      "headingSize": "64px",
+      "text": "오늘은 승인한 교정안을 실행한다발표자가 준비한 것의도적으로 오류를 심은 초안원문을 대조한 고정 승인 교정안Node가 실행하는 것파일 수정 · diff · 링크 · 해시 검사LLM 호출 없이 로컬에서 재현전체 파일과 실행 기록 · 데모 ZIP",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "발표자가 준비한 것",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "고정 승인 교정안",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "Node가 실행하는 것",
+          "color": "rgb(36, 168, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-10.png",
+      "links": [
+        {
+          "text": "전체 파일과 실행 기록",
+          "href": "materials/demo-log.html"
+        },
+        {
+          "text": "데모 ZIP",
+          "href": "assets/9c0a83b5bf0a-llm-wiki-demo.zip"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#11",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "10",
+      "layout": "blocks",
+      "composition": "quote",
+      "heading": "첫 질문의 초안을 연다",
+      "headingSize": "38px",
+      "text": "첫 질문의 초안을 연다위키 파일을 고치는 것은 파일을 수정하는 작업이다. 외부 파일을 쓰는 시스템은 모델을 학습하지 않는다.Q1 · 위키 파일을 고치면 모델도 그 내용을 학습하나요?출처 후보: RAG 최초 읽기 메모 · 상태: 검토 전발표자가 심은 학습용 오류입니다. before/wiki/questions/wiki-and-learning.md 발췌.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "상태: 검토 전",
+          "color": "rgb(237, 207, 102)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-11.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#12",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "11",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "채팅 A 또는 B · 링크가 있으면 충분할까",
+      "headingSize": "64px",
+      "text": "채팅 A 또는 B · 링크가 있으면 충분할까A출처 링크가 있으니 현행 답으로 저장한다.B원문이 이 문장과 범위를 지원하는지 먼저 본다.A 또는 B를 Zoom 채팅에 적어 주세요. 발표자가 직접 읽습니다.정답 보기 → 13장",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "A",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "B",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-12.png",
+      "links": [
+        {
+          "text": "출처 링크가 있으니 현행 답으로 저장한다.",
+          "href": "#13"
+        },
+        {
+          "text": "원문이 이 문장과 범위를 지원하는지 먼저 본다.",
+          "href": "#13"
+        },
+        {
+          "text": "정답 보기 → 13장",
+          "href": "#13"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#13",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "12",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "B · 링크와 문장 지원을 대조한다",
+      "headingSize": "64px",
+      "text": "B · 링크와 문장 지원을 대조한다초안의 일반화외부 파일을 쓰는 시스템은\n모델을 학습하지 않는다.RAG 원논문 §2.4질의 인코더와 생성기를 미세조정한다.외부 파일 사용과 학습은 함께 있을 수 있다.링크의 유무 다음에는 문장과 근거의 범위를 대조합니다. RAG v4 §2.4질문으로 돌아가기 · 읽기 메모 이어 보기 → 14장",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "초안의 일반화",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "RAG 원논문 §2.4",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "문장과 근거의 범위",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-13.png",
+      "links": [
+        {
+          "text": "RAG v4 §2.4",
+          "href": "https://arxiv.org/html/2005.11401v4#S2.SS4"
+        },
+        {
+          "text": "질문으로 돌아가기",
+          "href": "#12"
+        },
+        {
+          "text": "읽기 메모 이어 보기 → 14장",
+          "href": "#14"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#14",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "13",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "최초 메모를 남기고 더 읽은 메모를 붙인다",
+      "headingSize": "64px",
+      "text": "최초 메모를 남기고 더 읽은 메모를 붙인다최초 · rag-initial.md같은 RAG v4의 §2.3을 읽음검색 문서를 생성에 쓰는 구조를 메모확장 · rag.md같은 RAG v4의 §2.4까지 읽음학습 대상을 확인해 추가로 메모원문이 교체된 사건이 아닙니다. 읽은 범위가 달라졌습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "최초 · rag-initial.md",
+          "color": "rgb(237, 207, 102)"
+        },
+        {
+          "text": "§2.3",
+          "color": "rgb(237, 207, 102)"
+        },
+        {
+          "text": "확장 · rag.md",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "§2.4까지",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "읽은 범위가 달라졌습니다.",
+          "color": "rgb(36, 168, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-14.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#15",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "14",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "주장마다 근거와 범위를 맞춘다",
+      "headingSize": "64px",
+      "text": "주장마다 근거와 범위를 맞춘다C1 · 고칠 문장외부 파일을 쓰는 시스템은 모델을 학습하지 않는다.근거 위치RAG v4 §2.4: 질의 인코더·생성기 학습LoRA v2 §4.1: 기본 가중치 고정, 추가 행렬 학습고친 범위이 파일 교정 데모는 모델 학습을 실행하지 않는다.RAG · LoRA",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "C1 · 고칠 문장",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "근거 위치",
+          "color": "rgb(160, 128, 255)"
+        },
+        {
+          "text": "고친 범위",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-15.png",
+      "links": [
+        {
+          "text": "RAG",
+          "href": "https://arxiv.org/html/2005.11401v4#S2.SS4"
+        },
+        {
+          "text": "LoRA",
+          "href": "https://arxiv.org/html/2106.09685v2#S4.SS1"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#16",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "15",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "검토는 고칠 문장과 이유를 정한다",
+      "headingSize": "72px",
+      "text": "검토는 고칠 문장과 이유를 정한다review/review.json의 실제 승인 항목{\n  \"claim\": \"외부 파일을 쓰는 시스템은 모델을 학습하지 않는다.\",\n  \"decision\": \"일반화 삭제 후 범위 교정\",\n  \"source_ids\": [\"S-RAG\", \"S-LORA\"]\n}\n이유: RAG의 학습과 LoRA의 추가 행렬 학습을 원문에서 확인했습니다. 의미 검토와 승인은 발표자가 했습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "의미 검토와 승인은 발표자가 했습니다.",
+          "color": "rgb(160, 128, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-16.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#17",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "16",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "실제 diff에서 한 문장을 고친다",
+      "headingSize": "64px",
+      "text": "실제 diff에서 한 문장을 고친다삭제한 문장외부 파일을 쓰는 시스템은 모델을 학습하지 않는다.추가한 문장이 데모의 파일 수정은 모델 매개변수 학습을 실행하지 않는다. 외부 파일을 쓰는 시스템에도 별도의 학습 과정이 있을 수 있다.changes.diff의 실제 문장 필드 발췌. 전체 diff와 범위 변경",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "삭제한 문장",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "추가한 문장",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-17.png",
+      "links": [
+        {
+          "text": "전체 diff와 범위 변경",
+          "href": "materials/demo-log.html#4-%EC%8B%A4%EC%A0%9C-diff%EC%97%90%EC%84%9C-%EB%8B%AC%EB%9D%BC%EC%A7%84-%EB%AC%B8%EC%9E%A5"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#18",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "17",
+      "layout": "blocks",
+      "composition": "quote",
+      "heading": "고친 답에는 다음 확인이 남는다",
+      "headingSize": "38px",
+      "text": "고친 답에는 다음 확인이 남는다이 데모에서 바뀌는 것은 Markdown 파일이며 모델 매개변수 학습을 실행하지 않는다.다음 질문에 반영하려면 고친 파일을 다시 찾아 읽어 답의 문맥에 넣어야 한다.Q1 현행 답 발췌 · after/wiki/questions/wiki-and-learning.md다음 질문: 고친 파일이 있어도 다음 답에서 읽지 않으면 어떻게 확인할까?",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "다음 질문:",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-18.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#19",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "18",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "같이 바뀔 페이지를 따라간다",
+      "headingSize": "54px",
+      "text": "같이 바뀔 페이지를 따라간다도식 원본 열기한 문장의 교정이 질문·저장 규칙·목차·이력 중 어디에 영향을 주는지 읽습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/ac3c13699c77-impact-map.svg",
+          "alt": "C1에서 Q1로, Q1과 초기 D1에서 새 운영 질문 Q2로, Q2에서 D2와 pending으로 이어진다. index는 입구를 연결하고 log는 변경 이유를 남긴다. 실제 현행 8개 파일의 관계이며 모든 연결을 자동 발견했다는 뜻은 아니다.",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 450,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 422.36248779296875,
+            "right": 1314.7199401855469,
+            "bottom": 697.5118408203125
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "질문·저장 규칙·목차·이력",
+          "color": "rgb(36, 168, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-19.png",
+      "links": [
+        {
+          "text": "도식 원본 열기",
+          "href": "assets/ac3c13699c77-impact-map.svg"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#20",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "19",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "index는 입구 log는 바뀐 이유",
+      "headingSize": "64px",
+      "text": "index는 입구 log는 바뀐 이유index.md · 어디서 읽지?현행 답 저장 정책: 검토 후 갱신다음 운영 질문 Q2: 어떤 답을 저장할까검토 대기 답: 단정할 수 없는 부분log.md · 왜 고쳤지?C1의 일반화를 교정했다.Q2에서 C1 교정과 저장 정책을 재사용했다.D1은 D2로 대체 표시했다.실제 after/wiki/index.md와 log.md의 항목 발췌.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "index.md · 어디서 읽지?",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "log.md · 왜 고쳤지?",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-20.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#21",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "20",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "새 질문 · 우리 스터디는 어떤 답을 저장할까",
+      "headingSize": "118px",
+      "text": "새 질문 · 우리 스터디는 어떤 답을 저장할까Q2 · 우리 스터디는 어떤 답을 저장할까개념 설명을 고친 뒤에는, 다음 모임에서 쓸 답의 저장 기준을 정합니다.불러올 기록: 교정된 C1 · Q1의 답 · 초기 결정 D1",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "Q2 · 우리 스터디는 어떤 답을 저장할까",
+          "color": "rgb(160, 128, 255)"
+        },
+        {
+          "text": "교정된 C1 · Q1의 답 · 초기 결정 D1",
+          "color": "rgb(160, 128, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-21.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#22",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "21",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "이전 설명과 판단을 함께 읽는다",
+      "headingSize": "54px",
+      "text": "이전 설명과 판단을 함께 읽는다도식 원본 열기what-to-save.md의 ‘다시 읽은 파일’은 고정 승인 예제의 판단 입력입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/d7ccb06b6f80-reuse-inputs.svg",
+          "alt": "Q2가 다시 읽는 파일은 교정된 C1, Q1, 초기 D1이다. C1에서 링크만으로 일반화를 지원하지 못함을, Q1에서 다음 답이 파일을 다시 읽어야 함을, D1에서 모든 답을 현행으로 모으려던 이유를 가져와 현행과 검토 대기함을 나누는 판단에 쓴다.",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 450,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 422.36248779296875,
+            "right": 1314.7199401855469,
+            "bottom": 697.5118408203125
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "고정 승인 예제의 판단 입력",
+          "color": "rgb(160, 128, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-22.png",
+      "links": [
+        {
+          "text": "도식 원본 열기",
+          "href": "assets/d7ccb06b6f80-reuse-inputs.svg"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#23",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "22",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "채팅 A 또는 B · 근거 부족 답은 어디에 둘까",
+      "headingSize": "64px",
+      "text": "채팅 A 또는 B · 근거 부족 답은 어디에 둘까근거가 부족한 초안: 파일 위키를 만들면 필요한 파일을 언제나 찾을 수 있다.A다른 답과 함께 현행 노트에 바로 저장한다.B이유와 다음 확인을 적어 검토 대기함에 둔다.A/B를 Zoom 채팅에 적어 주세요. 이 예제의 선택 보기 → 24장",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "파일 위키를 만들면 필요한 파일을 언제나 찾을 수 있다.",
+          "color": "rgb(237, 207, 102)"
+        },
+        {
+          "text": "A",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "B",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-23.png",
+      "links": [
+        {
+          "text": "다른 답과 함께 현행 노트에 바로 저장한다.",
+          "href": "#24"
+        },
+        {
+          "text": "이유와 다음 확인을 적어 검토 대기함에 둔다.",
+          "href": "#24"
+        },
+        {
+          "text": "이 예제의 선택 보기 → 24장",
+          "href": "#24"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#24",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "23",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "B · 이 예제는 검토 뒤 현행으로 옮긴다",
+      "headingSize": "54px",
+      "text": "B · 이 예제는 검토 뒤 현행으로 옮긴다도식 원본 열기이 예제의 선택은 B입니다. 모든 스터디에서 최선이라는 실험 결과는 아닙니다.질문으로 돌아가기 · 보류 이유 이어 보기 → 25장",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/8c6c53e6a95d-current-pending.svg",
+          "alt": "Q2의 답은 원문과 범위를 대조한 설명을 현행 위키에 연결하고, 필요한 파일을 언제나 찾는다는 근거 부족 답은 pending에 남긴다. D2에는 이 저장 기준과 검토 부담을 기록한다. 이는 이 구성 예제의 운영 선택이다.",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 450,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 377.678466796875,
+            "right": 1314.7199401855469,
+            "bottom": 652.8278198242188
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "이 예제의 선택은 B입니다.",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-24.png",
+      "links": [
+        {
+          "text": "도식 원본 열기",
+          "href": "assets/8c6c53e6a95d-current-pending.svg"
+        },
+        {
+          "text": "질문으로 돌아가기",
+          "href": "#23"
+        },
+        {
+          "text": "보류 이유 이어 보기 → 25장",
+          "href": "#25"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#25",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "24",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "보류에도 이유와 다음 행동을 적는다",
+      "headingSize": "64px",
+      "text": "보류에도 이유와 다음 행동을 적는다상태 · 보류필요한 파일을 언제나 찾을 수 있다는 답보류 이유이 파일 교정 실행은 우리 자료에서 검색 누락이 없다는 주장을 지원하지 않는다.다음 행동실제 질문 몇 개를 정하고, 답이 읽은 파일과 빠뜨린 근거를 사람이 확인한다.after/wiki/pending/retrieval-coverage.md 발췌.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "상태 · 보류",
+          "color": "rgb(237, 207, 102)"
+        },
+        {
+          "text": "언제나",
+          "color": "rgb(237, 207, 102)"
+        },
+        {
+          "text": "보류 이유",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "다음 행동",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-25.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#26",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "25",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "옛 결정은 superseded로 남긴다",
+      "headingSize": "54px",
+      "text": "옛 결정은 superseded로 남긴다도식 원본 열기D1의 이유: 질문한 결과를 채팅에서 다시 찾기 어려워 한곳에 모으려 했다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/45145c571942-decision-transition.svg",
+          "alt": "초기 결정 D1은 모든 질문 답을 현행 노트로 저장하려는 선택이다. C1 교정 뒤 superseded로 표시하고 D2 검토한 답을 현행으로 표시하기로 연결한다. 예전 맥락과 결과는 보존한다.",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 450,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 422.36248779296875,
+            "right": 1314.7199401855469,
+            "bottom": 697.5118408203125
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "질문한 결과를 채팅에서 다시 찾기 어려워 한곳에 모으려 했다.",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-26.png",
+      "links": [
+        {
+          "text": "도식 원본 열기",
+          "href": "assets/45145c571942-decision-transition.svg"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#27",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "26",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "새 결정에는 검토 비용도 적는다",
+      "headingSize": "64px",
+      "text": "새 결정에는 검토 비용도 적는다맥락출처 링크가 있는 초안에도 미지원 일반화가 있었다.결정 · D2문장·근거 위치·주장 범위를 대조한 뒤 현행 답을 갱신한다.결과수정 이유로 돌아갈 수 있다. 매번 검토 시간이 들고 관련 페이지 누락도 점검해야 한다.실제 D2 발췌 · Nygard의 결정 기록 형식을 스터디에 응용",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "맥락",
+          "color": "rgb(160, 128, 255)"
+        },
+        {
+          "text": "결정 · D2",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "결과",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-27.png",
+      "links": [
+        {
+          "text": "Nygard의 결정 기록 형식을 스터디에 응용",
+          "href": "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#28",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "27",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "서로 다른 판은 같은 이름으로 덮지 않는다",
+      "headingSize": "64px",
+      "text": "서로 다른 판은 같은 이름으로 덮지 않는다자료에 새 판이 생기면1판·2판의 날짜와 적용 범위를 따로 보존주장으로 돌아가서달라진 문장이 무엇을 지원하는지 대조영향과 결정을 검토현행 설명을 고치고 과거 판단으로 돌아갈 길 유지앞으로 적용할 운영법입니다. 오늘 데모는 같은 RAG v4의 읽기 범위만 확장했습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "자료에 새 판이 생기면",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "주장으로 돌아가서",
+          "color": "rgb(160, 128, 255)"
+        },
+        {
+          "text": "영향과 결정을 검토",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "앞으로 적용할 운영법입니다.",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-28.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#29",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "28",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "상충하면 어느 쪽인지 먼저 좁힌다",
+      "headingSize": "118px",
+      "text": "상충하면 어느 쪽인지 먼저 좁힌다같은 대상? → 같은 시점? → 같은 조건?조건이 다르면 범위를 나눕니다. 같은 조건에서 충돌하면 근거를 대조하고, 아직 판단할 수 없으면 보류합니다.C1은 ‘모든 외부 파일 시스템’을 ‘이 데모’로 좁혔습니다. 충돌과 낡은 정보 더 읽기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "같은 대상? → 같은 시점? → 같은 조건?",
+          "color": "rgb(237, 207, 102)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-29.png",
+      "links": [
+        {
+          "text": "충돌과 낡은 정보 더 읽기",
+          "href": "materials/study-guide.html#11-%EC%B6%A9%EB%8F%8C%EC%98%A4%EB%9E%98%EB%90%9C-%EC%A0%95%EB%B3%B4%EC%82%AD%EC%A0%9C%EC%99%80-%EB%8C%80%EC%B2%B4%EB%A5%BC-%EB%8B%A4%EB%A3%A8%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#30",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "29",
+      "layout": "blocks",
+      "composition": "quote",
+      "heading": "자료 둘을 잇는 질문을 적는다",
+      "headingSize": "38px",
+      "text": "자료 둘을 잇는 질문을 적는다The human mind does not work that way. It operates by association.“인간의 마음은 그런 방식으로 작동하지 않습니다. 연상으로 작동합니다.” — 발표팀 번역Vannevar Bush, As We May Think, 1945년 7월, §6 · 출판사 원문분류 색인과 연상의 차이에서 지식 장치를 구상한 글입니다. 내 자료 두 개를 잇는 질문으로 이어갑니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-30.png",
+      "links": [
+        {
+          "text": "출판사 원문",
+          "href": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#31",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "30",
+      "layout": "blocks",
+      "composition": "bento",
+      "variant": "balanced",
+      "heading": "검사 결과가 말하는 것",
+      "headingSize": "60px",
+      "text": "검사 결과가 말하는 것8쪽기존 5쪽 갱신 + 3쪽 생성25개현행 파일의 로컬 링크 검사10파일읽기 메모 5개 + 초기 5쪽 SHA 보존이 예제의 파일 검사 수치입니다. 승인안 적용·링크·바이트 일치를 확인했습니다. 실행과 한계",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [
+        {
+          "kind": "text",
+          "tone": "blue",
+          "text": "8쪽기존 5쪽 갱신 + 3쪽 생성",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 281.20001220703125,
+            "width": 389.7599792480469,
+            "height": 505.67999267578125,
+            "right": 515.0399780273438,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(8, 8, 8)",
+          "background": "color(srgb 0.865882 0.928 0.962039)"
+        },
+        {
+          "kind": "text",
+          "tone": "green",
+          "text": "25개현행 파일의 로컬 링크 검사",
+          "box": {
+            "x": 525.1199951171875,
+            "y": 281.20001220703125,
+            "width": 389.75994873046875,
+            "height": 505.67999267578125,
+            "right": 914.8799438476562,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(8, 8, 8)",
+          "background": "color(srgb 0.898353 0.946353 0.903216)"
+        },
+        {
+          "kind": "text",
+          "tone": "orange",
+          "text": "10파일읽기 메모 5개 + 초기 5쪽 SHA 보존이 예제의 파일 검사 수치입니다. 승인안 적용·링크·바이트 일치를 확인했습니다. 실행과 한계",
+          "box": {
+            "x": 924.9599609375,
+            "y": 281.20001220703125,
+            "width": 389.760009765625,
+            "height": 505.67999267578125,
+            "right": 1314.719970703125,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(8, 8, 8)",
+          "background": "color(srgb 0.968941 0.906353 0.870745)"
+        }
+      ],
+      "wall": null,
+      "accents": [
+        {
+          "text": "8쪽",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "text": "5",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "text": "3",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "text": "25개",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "text": "10파일",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "text": "파일 검사 수치",
+          "color": "rgb(8, 8, 8)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-31.png",
+      "links": [
+        {
+          "text": "실행과 한계",
+          "href": "materials/demo-log.html"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#32",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "31",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "LLM에게 초안과 연결 후보를 맡긴다",
+      "headingSize": "64px",
+      "text": "LLM에게 초안과 연결 후보를 맡긴다LLM에게 부탁할 일읽기 메모 · 연결 후보 · 답 초안 · 수정안사람이 검토할 일원문 위치 · 주장 범위 · 보류 · 현행 채택실제 운영의 역할 제안입니다. 오늘 Node 스크립트는 사람이 승인한 안을 재현했습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "LLM에게 부탁할 일",
+          "color": "rgb(160, 128, 255)"
+        },
+        {
+          "text": "사람이 검토할 일",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-32.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#33",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "32",
+      "layout": "blocks",
+      "composition": "icon-wall",
+      "heading": "읽기 질문하기 점검하기를 반복한다",
+      "headingSize": "92px",
+      "text": "읽기 질문하기 점검하기를 반복한다읽고 엮기 · ingest답하고 남기기 · query내용과 연결 점검하기 · lint",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [
+        {
+          "tag": "DIV",
+          "text": "내용과 연결 점검하기 · lint"
+        },
+        {
+          "tag": "P",
+          "line": "691",
+          "text": "내용과 연결 점검하기 · lint"
+        }
+      ],
+      "images": [],
+      "tiles": [
+        {
+          "tone": "blue",
+          "text": "읽고 엮기 · ingest",
+          "box": {
+            "x": 576.989990234375,
+            "y": 195.51998901367188,
+            "width": 135.45001220703125,
+            "height": 110.20407104492188,
+            "right": 712.4400024414062,
+            "bottom": 305.72406005859375
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tone": "purple",
+          "text": "답하고 남기기 · query",
+          "box": {
+            "x": 1179.27001953125,
+            "y": 676.6627807617188,
+            "width": 135.449951171875,
+            "height": 110.21063232421875,
+            "right": 1314.719970703125,
+            "bottom": 786.8734130859375
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tone": "green",
+          "text": "내용과 연결 점검하기 · lint",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 676.6627807617188,
+            "width": 135.44998168945312,
+            "height": 110.21063232421875,
+            "right": 260.72998046875,
+            "bottom": 786.8734130859375
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "wall": {
+        "x": 275.8499755859375,
+        "y": 315.8040771484375,
+        "width": 888.300048828125,
+        "height": 350.7852783203125,
+        "right": 1164.1500244140625,
+        "bottom": 666.58935546875
+      },
+      "accents": [],
+      "diagnostic": "경고33번 슬라이드 · talks/llm-wiki/slides.md:691원고 talks/llm-wiki/slides.md:691의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-33.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#34",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "33",
+      "layout": "blocks",
+      "composition": "gallery",
+      "variant": "strip",
+      "heading": "내 자료 세 개에서 시작한다",
+      "headingSize": "64px",
+      "text": "내 자료 세 개에서 시작한다질문 적기 · LinkedIn Sales Navigator / Pexels자료 고르기 · Ron Lach / Pexels설명 대조하기 · cottonbro studio / Pexels자료 3개 · 질문 1개 · 검토자 1명. 사진은 학습을 설명하는 스톡 장면입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/478e6580030c-writing.jpg",
+          "alt": "노트에 쓰는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "44% 54%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 353.35467529296875,
+            "width": 383.03997802734375,
+            "height": 287.27996826171875,
+            "right": 508.3199768066406,
+            "bottom": 640.6346435546875
+          }
+        },
+        {
+          "src": "assets/5aa7ac752bff-open-books.jpg",
+          "alt": "창가 책상에 펼친 책과 공책",
+          "complete": true,
+          "naturalWidth": 1800,
+          "naturalHeight": 1200,
+          "fit": "cover",
+          "focus": "50% 75%",
+          "box": {
+            "x": 528.47998046875,
+            "y": 353.35467529296875,
+            "width": 383.03997802734375,
+            "height": 287.27996826171875,
+            "right": 911.5199584960938,
+            "bottom": 640.6346435546875
+          }
+        },
+        {
+          "src": "assets/258a229c6dc8-study-table.jpg",
+          "alt": "책과 공책과 필기도구가 모인 책상",
+          "complete": true,
+          "naturalWidth": 1800,
+          "naturalHeight": 2700,
+          "fit": "cover",
+          "focus": "50% 72%",
+          "box": {
+            "x": 931.6799926757812,
+            "y": 353.35467529296875,
+            "width": 383.03997802734375,
+            "height": 287.27996826171875,
+            "right": 1314.719970703125,
+            "bottom": 640.6346435546875
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": "경고33번 슬라이드 · talks/llm-wiki/slides.md:691원고 talks/llm-wiki/slides.md:691의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-34.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#35",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "34",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "내 질문 하나를 실제로 적는다",
+      "headingSize": "118px",
+      "text": "내 질문 하나를 실제로 적는다내 자료 A + 내 자료 B → 다음 모임에 답할 질문20초 동안 자기 노트에 적어 보세요.자료 두 개의 제목, 연결 질문 한 줄, 먼저 확인할 근거 한 곳.예: RAG 메모 + 지난 Q1 → 다음 답이 어떤 파일을 읽었는지 어떻게 확인할까?채팅에 공유하는 것은 선택입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "내 자료 A + 내 자료 B → 다음 모임에 답할 질문",
+          "color": "rgb(237, 207, 102)"
+        }
+      ],
+      "diagnostic": "경고33번 슬라이드 · talks/llm-wiki/slides.md:691원고 talks/llm-wiki/slides.md:691의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-35.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#36",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "35",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "처음 부탁할 말은 짧게 정한다",
+      "headingSize": "72px",
+      "text": "처음 부탁할 말은 짧게 정한다starter.txt의 요청을 줄여 쓰면:원문은 보존하고, 이 자료가 기존 질문과 연결될 후보를 찾아 줘.\n주장마다 근거 위치와 아직 지원하지 못한 부분을 표시해 줘.\n반영 전에 바뀔 문장과 이유를 diff로 보여 줘.\n원문과 작업 규칙은 데모 ZIP에 있습니다. 실제 LLM 실행 결과가 아닌 시작 요청입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": "경고33번 슬라이드 · talks/llm-wiki/slides.md:691원고 talks/llm-wiki/slides.md:691의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-36.png",
+      "links": [
+        {
+          "text": "데모 ZIP",
+          "href": "assets/9c0a83b5bf0a-llm-wiki-demo.zip"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#37",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "36",
+      "layout": "blocks",
+      "composition": "icon-wall",
+      "heading": "다음 모임 전, 파일을 읽을 사람을 정한다",
+      "headingSize": "92px",
+      "text": "다음 모임 전, 파일을 읽을 사람을 정한다작업 규칙 네 가지와 함께 시작합니다.원자료를 보존하기근거와 범위를 붙이기모르는 것은 보류하기바뀐 결정과 이유를 남기기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [
+        {
+          "tag": "DIV",
+          "text": "바뀐 결정과 이유를 남기기"
+        },
+        {
+          "tag": "P",
+          "line": "762",
+          "text": "바뀐 결정과 이유를 남기기"
+        }
+      ],
+      "images": [],
+      "tiles": [
+        {
+          "text": "원자료를 보존하기",
+          "box": {
+            "x": 426.41998291015625,
+            "y": 195.51998901367188,
+            "width": 135.45001220703125,
+            "height": 110.20407104492188,
+            "right": 561.8699951171875,
+            "bottom": 305.72406005859375
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "text": "근거와 범위를 붙이기",
+          "box": {
+            "x": 1179.27001953125,
+            "y": 315.8040771484375,
+            "width": 135.449951171875,
+            "height": 110.20404052734375,
+            "right": 1314.719970703125,
+            "bottom": 426.00811767578125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "text": "모르는 것은 보류하기",
+          "box": {
+            "x": 878.1299438476562,
+            "y": 676.6627807617188,
+            "width": 135.45001220703125,
+            "height": 110.21063232421875,
+            "right": 1013.5799560546875,
+            "bottom": 786.8734130859375
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "text": "바뀐 결정과 이유를 남기기",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 556.3787231445312,
+            "width": 135.44998168945312,
+            "height": 110.2041015625,
+            "right": 260.72998046875,
+            "bottom": 666.5828247070312
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "wall": {
+        "x": 275.8499755859375,
+        "y": 315.8040771484375,
+        "width": 888.300048828125,
+        "height": 350.7852783203125,
+        "right": 1164.1500244140625,
+        "bottom": 666.58935546875
+      },
+      "accents": [],
+      "diagnostic": "경고33번 슬라이드 · talks/llm-wiki/slides.md:691원고 talks/llm-wiki/slides.md:691의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고37번 슬라이드 · talks/llm-wiki/slides.md:762원고 talks/llm-wiki/slides.md:762의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-37.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#38",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "37",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "다시 찾을 가치와 유지 부담을 같이 본다",
+      "headingSize": "64px",
+      "text": "다시 찾을 가치와 유지 부담을 같이 본다다시 쓸 가치반복하는 질문자주 바뀌는 자료다른 사람과 나눌 설명계속 드는 일원문 대조와 검토중복 설명과 낡은 링크 점검목차·검색의 누락 확인한 주제로 작게 시도하고, 다음 모임에서 재사용과 부담을 함께 확인합니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "다시 쓸 가치",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "계속 드는 일",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": "경고33번 슬라이드 · talks/llm-wiki/slides.md:691원고 talks/llm-wiki/slides.md:691의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고37번 슬라이드 · talks/llm-wiki/slides.md:762원고 talks/llm-wiki/slides.md:762의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-38.png",
+      "links": []
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#39",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "38",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "파일 묶음에서 다음 모임으로",
+      "headingSize": "64px",
+      "text": "파일 묶음에서 다음 모임으로실행해 보기데모 ZIP 내려받기압축 해제 → apply → check실제 파일 읽기와 검증 범위깊이 공부하기공부 자료 목차학습서 · 실습 해설 · 대본 · 원문 안내고정 LLM Wiki 원문",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "실행해 보기",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "깊이 공부하기",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": "경고33번 슬라이드 · talks/llm-wiki/slides.md:691원고 talks/llm-wiki/slides.md:691의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고37번 슬라이드 · talks/llm-wiki/slides.md:762원고 talks/llm-wiki/slides.md:762의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-39.png",
+      "links": [
+        {
+          "text": "데모 ZIP 내려받기",
+          "href": "assets/9c0a83b5bf0a-llm-wiki-demo.zip"
+        },
+        {
+          "text": "실제 파일 읽기와 검증 범위",
+          "href": "materials/demo-log.html"
+        },
+        {
+          "text": "공부 자료 목차",
+          "href": "materials/index.html"
+        },
+        {
+          "text": "고정 LLM Wiki 원문",
+          "href": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a"
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?experience=b45e7ae2c39f0f456196b86799fc4d5fa110d076bca0d7fda956384bfcac1009#40",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki — Stage",
+      "index": "39",
+      "layout": "blocks",
+      "composition": "closing",
+      "heading": "어떤 노트부터 다시 쓰고 싶나요",
+      "headingSize": "110px",
+      "text": "어떤 노트부터 다시 쓰고 싶나요질문 · 내 자료 적용 · 검토 부담Q&A 별도 2분 추정공부 자료 목차 · 실행 가능한 데모 ZIP",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "질문 · 내 자료 적용 · 검토 부담",
+          "color": "rgb(160, 128, 255)"
+        }
+      ],
+      "diagnostic": "경고33번 슬라이드 · talks/llm-wiki/slides.md:691원고 talks/llm-wiki/slides.md:691의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고37번 슬라이드 · talks/llm-wiki/slides.md:762원고 talks/llm-wiki/slides.md:762의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "screens/slide-40.png",
+      "links": [
+        {
+          "text": "공부 자료 목차",
+          "href": "materials/index.html"
+        },
+        {
+          "text": "실행 가능한 데모 ZIP",
+          "href": "assets/9c0a83b5bf0a-llm-wiki-demo.zip"
+        }
+      ]
+    }
+  ]
+}

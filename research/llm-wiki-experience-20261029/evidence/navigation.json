@@ -1,0 +1,150 @@
+{
+  "revision": "489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710",
+  "count": 40,
+  "reveal": [
+    {
+      "from": 12,
+      "to": 13,
+      "label": "출처 링크가 있으니 현행 답으로 저장한다.",
+      "actual": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?flow=489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710#13"
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "label": "원문이 이 문장과 범위를 지원하는지 먼저 본다.",
+      "actual": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?flow=489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710#13"
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "label": "정답 보기 → 13장",
+      "actual": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?flow=489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710#13"
+    },
+    {
+      "from": 13,
+      "to": 12,
+      "label": "질문으로 돌아가기",
+      "actual": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?flow=489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710#12"
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "label": "읽기 메모 이어 보기 → 14장",
+      "actual": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?flow=489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710#14"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "label": "다른 답과 함께 현행 노트에 바로 저장한다.",
+      "actual": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?flow=489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710#24"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "label": "이유와 다음 확인을 적어 검토 대기함에 둔다.",
+      "actual": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?flow=489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710#24"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "label": "이 예제의 선택 보기 → 24장",
+      "actual": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?flow=489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710#24"
+    },
+    {
+      "from": 24,
+      "to": 23,
+      "label": "질문으로 돌아가기",
+      "actual": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?flow=489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710#23"
+    },
+    {
+      "from": 24,
+      "to": 25,
+      "label": "보류 이유 이어 보기 → 25장",
+      "actual": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?flow=489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710#25"
+    }
+  ],
+  "overview": {
+    "count": 40,
+    "links": 0
+  },
+  "presenterBothDirections": true,
+  "stageToMaterialsToScriptToRead": true,
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "count": 40,
+    "missing": [],
+    "body": "18px",
+    "images": [
+      {
+        "alt": "창가 책상에 펼친 책과 공책, 펜이 놓여 있다.",
+        "fit": "contain",
+        "width": 1800
+      },
+      {
+        "alt": "책이 가득한 서가 사이의 통로. 책의 내용은 발표의 근거로 사용하지 않는다.",
+        "fit": "contain",
+        "width": 1800
+      },
+      {
+        "alt": "원자료는 보존하고 위키는 갱신한다. 작업 규칙은 둘 사이의 작업 전체에 적용하며 세 번째 변환 산출물이 아니다.",
+        "fit": "contain",
+        "width": 1200
+      },
+      {
+        "alt": "책과 필기한 공책, 필기도구가 모여 있는 공부 책상. 사진 속 글은 근거 자료로 읽지 않는다.",
+        "fit": "contain",
+        "width": 1800
+      },
+      {
+        "alt": "C1에서 Q1로, Q1과 초기 D1에서 새 운영 질문 Q2로, Q2에서 D2와 pending으로 이어진다. index는 입구를 연결하고 log는 변경 이유를 남긴다. 실제 현행 8개 파일의 관계이며 모든 연결을 자동 발견했다는 뜻은 아니다.",
+        "fit": "contain",
+        "width": 1200
+      },
+      {
+        "alt": "Q2가 다시 읽는 파일은 교정된 C1, Q1, 초기 D1이다. C1에서 링크만으로 일반화를 지원하지 못함을, Q1에서 다음 답이 파일을 다시 읽어야 함을, D1에서 모든 답을 현행으로 모으려던 이유를 가져와 현행과 검토 대기함을 나누는 판단에 쓴다.",
+        "fit": "contain",
+        "width": 1200
+      },
+      {
+        "alt": "Q2의 답은 원문과 범위를 대조한 설명을 현행 위키에 연결하고, 필요한 파일을 언제나 찾는다는 근거 부족 답은 pending에 남긴다. D2에는 이 저장 기준과 검토 부담을 기록한다. 이는 이 구성 예제의 운영 선택이다.",
+        "fit": "contain",
+        "width": 1200
+      },
+      {
+        "alt": "초기 결정 D1은 모든 질문 답을 현행 노트로 저장하려는 선택이다. C1 교정 뒤 superseded로 표시하고 D2 검토한 답을 현행으로 표시하기로 연결한다. 예전 맥락과 결과는 보존한다.",
+        "fit": "contain",
+        "width": 1200
+      },
+      {
+        "alt": "노트에 쓰는 인물의 스톡 사진",
+        "fit": "contain",
+        "width": 1600
+      },
+      {
+        "alt": "창가 책상에 펼친 책과 공책",
+        "fit": "contain",
+        "width": 1800
+      },
+      {
+        "alt": "책과 공책과 필기도구가 모인 책상",
+        "fit": "contain",
+        "width": 1800
+      }
+    ],
+    "header": [
+      {
+        "left": 12,
+        "right": 75.6015625
+      },
+      {
+        "left": 85.6015625,
+        "right": 177.6875
+      },
+      {
+        "left": 235.78125,
+        "right": 378
+      }
+    ]
+  }
+}

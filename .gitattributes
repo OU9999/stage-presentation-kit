@@ -1,3 +1,6 @@
 # Preserve byte-identical public HTML snapshots, including upstream whitespace.
 # Source and documentation outside this evidence directory use normal checks.
 research/evidence/completed-cities/*.html -text -whitespace
+
+# Unified diffs keep the leading context marker on otherwise blank lines.
+talks/llm-wiki/demo/changes.diff -text -whitespace

@@ -1,0 +1,64 @@
+{
+  "kind": "presenter-authored-training-example",
+  "question": "위키 파일을 고치면 모델도 그 내용을 학습하나요?",
+  "not_a_model_run": true,
+  "review": [
+    {
+      "claim": "위키 파일을 고치는 것은 파일을 수정하는 작업이다.",
+      "decision": "이 데모의 범위에서 유지",
+      "reason": "별도 모델 학습 절차를 실행하지 않는 파일 교정 데모다."
+    },
+    {
+      "claim": "외부 파일을 쓰는 시스템은 모델을 학습하지 않는다.",
+      "decision": "일반화 삭제 후 범위 교정",
+      "reason": "RAG v4 §2.4에는 질의 인코더·생성기 학습이 있다. LoRA는 기본 가중치 고정과 추가 행렬 학습을 함께 설명한다.",
+      "source_ids": [
+        "S-RAG",
+        "S-LORA"
+      ]
+    }
+  ],
+  "approval": "발표자가 원문을 대조해 아래 고정 수정안을 승인했다. 스크립트는 승인안을 적용하고 파일 무결성을 검사한다. 의미 검증을 자동화한 것이 아니다.",
+  "operations": [
+    {
+      "path": "wiki/claims/file-update.md",
+      "action": "replace",
+      "content": "# 파일 갱신과 학습\n\n- 주장 ID: C1\n- 상태: 원문 대조 후 교정\n- 문장: 이 데모의 파일 수정은 모델 매개변수 학습을 실행하지 않는다. 외부 파일을 쓰는 시스템에도 별도의 학습 과정이 있을 수 있다.\n- 근거: [RAG 읽기 메모의 §2.4](../../../source-notes/rag.md), [LoRA 읽기 메모](../../../source-notes/lora.md)\n- 범위: 이 파일 교정 절차와 두 논문에 기술된 학습 대상\n\nRAG v4 §2.4는 질의 인코더와 생성기의 미세조정을 설명한다. LoRA는 기본 가중치를 고정하면서 추가한 저랭크 행렬을 학습한다. 따라서 외부 파일 사용이나 기본 가중치 고정만으로 학습의 부재를 일반화할 수 없다.\n"
+    },
+    {
+      "path": "wiki/questions/wiki-and-learning.md",
+      "action": "replace",
+      "content": "# 위키 파일을 고치면 모델도 그 내용을 학습하나요?\n\n- 질문 ID: Q1\n- 상태: 근거와 범위를 대조한 현행 답\n\n## 답\n\n이 데모에서 바뀌는 것은 Markdown 파일이며 모델 매개변수 학습을 실행하지 않는다. 다음 질문에 반영하려면 고친 파일을 다시 찾아 읽어 답의 문맥에 넣어야 한다. 외부 파일을 쓴다는 이유로 학습 과정이 전혀 없다고 일반화할 수는 없다. RAG 원논문의 §2.4에는 질의 인코더와 생성기의 학습이 있고, LoRA는 기본 가중치를 고정하면서 추가 행렬을 학습한다.\n\n## 근거와 해석\n\n- 직접 지원: [RAG §2.4 읽기 메모](../../../source-notes/rag.md), [LoRA 읽기 메모](../../../source-notes/lora.md)\n- 파일 유지 설계: [LLM Wiki 읽기 메모](../../../source-notes/llm-wiki.md)\n- 이 데모의 적용: 검토한 파일을 다음 답에서 다시 읽는다. [문장 C1](../claims/file-update.md)과 [저장 정책](../decisions/review-before-current.md)을 함께 확인한다.\n\n## 다음 질문\n\n고친 파일이 있어도 다음 답에서 읽지 않으면 어떻게 확인할까?\n\n답이 읽은 파일·근거 위치·지원하지 못한 부분을 남기게 하는 방법을 다음 실습에서 검토한다. 이 데모는 검색 품질이나 모델 정확도를 측정하지 않는다.\n"
+    },
+    {
+      "path": "wiki/index.md",
+      "action": "append",
+      "content": "- [현행 답 저장 정책](decisions/review-before-current.md): 검토 후 갱신\n- [다음 운영 질문 Q2](questions/what-to-save.md): 우리 스터디는 어떤 답을 저장할까\n- [검토 대기 답](pending/retrieval-coverage.md): 실제 자료 없이 단정할 수 없는 부분\n"
+    },
+    {
+      "path": "wiki/log.md",
+      "action": "append",
+      "content": "\n## 2026-10-29 원문 대조와 교정\n\nRAG v4 §2.4의 학습 설명과 LoRA v2의 학습 대상을 확인해 C1의 일반화를 교정했다. Q1의 답·다음 질문을 바꾸고 현행 답 저장 정책을 연결했다. 원자료 읽기 메모는 변경하지 않았다.\n\n같은 RAG 논문의 최초 읽기 메모는 보존하고 §2.4를 포함한 확장 메모를 연결했다. Q2에서 C1 교정과 저장 정책을 재사용했다. D1은 D2로 대체 표시하고, 근거 부족 답은 검토 대기함에 둔다.\n"
+    },
+    {
+      "path": "wiki/decisions/review-before-current.md",
+      "action": "create",
+      "content": "# 검토한 답을 현행으로 표시하기\n\n- 결정 ID: D2\n- 상태: 이 학습 예제에서 채택\n- 대체한 결정: [D1 모든 답 저장](save-all.md)\n- 형식 참고: [결정 기록 읽기 메모](../../../source-notes/adr.md)\n\n## 맥락\n\n출처 링크가 있는 초안에도 원문이 지원하지 않는 일반화가 있었다. [다음 운영 질문 Q2](../questions/what-to-save.md)에서 현행 노트와 검토 대기함을 구분하기로 했다.\n\n## 결정\n\n우리는 문장·근거 위치·주장 범위를 대조한 뒤 현행 답을 갱신하고, 변경 이유와 다음 질문을 남긴다.\n\n## 결과\n\n다음 사람이 수정 이유를 찾아갈 수 있다. 매번 검토하는 시간이 들고, 파일이 늘수록 관련 페이지를 놓치는지 점검해야 한다. 정확도 향상이나 시간 절감은 이 데모에서 측정하지 않았다.\n"
+    },
+    {
+      "path": "wiki/decisions/save-all.md",
+      "action": "replace",
+      "content": "# 답을 모두 현행 노트로 저장하기\n\n- 결정 ID: D1\n- 상태: superseded\n- 대체 결정: [D2 검토한 답을 현행으로 표시](review-before-current.md)\n\n## 맥락\n\n질문한 결과를 채팅에서 다시 찾기 어려워 한곳에 모으려 했다.\n\n## 결정\n\n우리는 모든 질문의 답을 현행 노트로 저장한다.\n\n## 결과\n\n초안을 빨리 모을 수 있다. 지원되지 않는 일반화도 현행 노트에 섞일 수 있다.\n\n## 대체 이유\n\n검토 전 C1의 일반화가 현행 노트에 섞이는 문제를 예제로 확인했다. 당시 결정의 맥락과 결과는 삭제하지 않고 보존한다.\n"
+    },
+    {
+      "path": "wiki/questions/what-to-save.md",
+      "action": "create",
+      "content": "# 우리 스터디는 어떤 답을 저장할까\n\n- 질문 ID: Q2\n- 상태: 이 예제의 운영 답\n- 다시 읽은 파일: [교정된 C1](../claims/file-update.md), [Q1](wiki-and-learning.md), [초기 결정 D1](../decisions/save-all.md)\n\n## 답\n\n모든 질문을 똑같이 현행 노트로 넣으면 검토 전 설명이 섞일 수 있다. 이 예제에서는 원문과 범위를 대조한 답은 현행 위키에 연결하고, 근거가 부족한 답은 [검토 대기함](../pending/retrieval-coverage.md)에 남긴다. 이 선택과 결과는 [새 결정 D2](../decisions/review-before-current.md)에 기록한다.\n\n## 판단 근거\n\nC1은 링크가 있어도 일반화가 잘못될 수 있음을 보여줬다. 이는 이 구성 예제에서 확인한 수정 이유다. 모든 스터디에 최선인 정책이라는 실험 결과는 아니다.\n\n## 다음 확인\n\n우리 스터디에서 먼저 관리할 자료 세 개와 검토할 사람을 정한다. 다음 모임에서 근거를 다시 찾을 수 있는지, 검토 부담이 감당되는지 직접 확인한다.\n"
+    },
+    {
+      "path": "wiki/pending/retrieval-coverage.md",
+      "action": "create",
+      "content": "# 우리 자료에서 필요한 파일을 빠짐없이 찾을 수 있을까\n\n- 상태: 보류\n- 근거가 부족한 초안: 파일 위키를 만들면 필요한 파일을 언제나 찾을 수 있다.\n- 분류: 학습을 위해 구성한 검토 대기 사례\n\n## 보류 이유\n\n현재 원문과 이 파일 교정 실행은 우리 스터디 자료에서 검색 누락이 없다는 주장을 지원하지 않는다. 존재하는 파일을 다음 답이 실제로 읽었는지 별도로 확인해야 한다.\n\n## 다음 행동\n\n실제 스터디의 질문 몇 개를 정하고, 답이 읽은 파일과 빠뜨린 근거를 사람이 확인한다. 검토 전에는 이 문장을 현행 답으로 옮기지 않는다.\n\n- 관련 답: [Q2](../questions/what-to-save.md)\n- 적용 결정: [D2](../decisions/review-before-current.md)\n"
+    }
+  ]
+}

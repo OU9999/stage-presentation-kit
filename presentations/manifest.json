@@ -19,7 +19,7 @@
       "source": "talks/llm-wiki/slides.md",
       "slug": "llm-wiki",
       "format": "markdown-v1",
-      "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기",
+      "title": "다음 질문에 다시 쓰는 LLM Wiki",
       "links": {
         "slides": "llm-wiki/index.html",
         "read": "llm-wiki/read.html",
@@ -30,36 +30,43 @@
           "source": "talks/llm-wiki/materials/index.md",
           "title": "LLM Wiki 학습 자료",
           "order": 1,
-          "revision": "4ea92522b61ff3d0d6ba855d7c95ae6fb6d1bdf2e3ac7d1f5da106e4b30288da",
+          "revision": "0eecdf9473574bede8949b79e3131034185927612fcadb322b37739b2894c55b",
           "href": "llm-wiki/materials/index.html"
         },
         {
           "source": "talks/llm-wiki/materials/study-guide.md",
           "title": "LLM Wiki 혼자 공부하기",
           "order": 2,
-          "revision": "89c1944d12fd3587915adcbf2a70c7d4c24079c099ed9dd14f1fd11ace1af86e",
+          "revision": "18b772536b8aa4a0563dc77b9a05fa24647960d515f5e888e97493c6ba46b4ed",
           "href": "llm-wiki/materials/study-guide.html"
         },
         {
           "source": "talks/llm-wiki/materials/speaker-script.md",
-          "title": "18분 발표 대본과 2분 Q&A",
+          "title": "40장 발표 대본 · 설명과 참여 30분, Q&A 별도",
           "order": 3,
-          "revision": "724aa9c3a8098577bc660a213a5aa4a920d6abc390e47fc03cbaabd11154e9db",
+          "revision": "008d886fa3a14c1d3228e4f6736269e9df060862bd4e8a128d86ff0d6937d252",
           "href": "llm-wiki/materials/speaker-script.html"
         },
         {
           "source": "talks/llm-wiki/materials/reference-library.md",
           "title": "원문 읽기 안내와 용어 모음",
           "order": 4,
-          "revision": "ea01ef2129a5111a68d12657b35fa0be5b2562c6f9a40b526f9544973fc7b649",
+          "revision": "9351f27b2301a073cac11dbb8ca10d19b1ae3b0e0cc9c3c738ba26e5494e810b",
           "href": "llm-wiki/materials/reference-library.html"
         },
         {
           "source": "talks/llm-wiki/materials/workshop.md",
           "title": "작은 스터디 위키 만들기",
           "order": 5,
-          "revision": "842efe1549417790ecf3b61fb183a54a8daacae9cd0d66069580b18d95d8dc70",
+          "revision": "ffcfe9db0fca34c348585340abc2b24a8164795c9d7a4892be15a1287a9f55a6",
           "href": "llm-wiki/materials/workshop.html"
+        },
+        {
+          "source": "talks/llm-wiki/materials/demo-log.md",
+          "title": "실제 파일 읽기와 교정 실행 기록",
+          "order": 6,
+          "revision": "0c50c1b7c6fa99311703778758571e44b8b750c0852f26d3a3f2e2fc5508a8c2",
+          "href": "llm-wiki/materials/demo-log.html"
         }
       ]
     },

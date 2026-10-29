@@ -1,0 +1,513 @@
+{
+  "new_svg": [
+    {
+      "file": "current-pending.svg",
+      "min_font_size": 32,
+      "font_size_declarations": 10
+    },
+    {
+      "file": "decision-transition.svg",
+      "min_font_size": 32,
+      "font_size_declarations": 14
+    },
+    {
+      "file": "impact-map.svg",
+      "min_font_size": 32,
+      "font_size_declarations": 20
+    },
+    {
+      "file": "reuse-inputs.svg",
+      "min_font_size": 32,
+      "font_size_declarations": 12
+    }
+  ],
+  "scope": "source parse, composition plan, links, quote spelling, material parse and 40-part script; no browser/layout check",
+  "source_sha256": "489b05e48bd8ab93fc2c66e136aa175371fbebf26588fd8de3b8b8616b8e0710",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "이번 주 읽은 자료를 다음 주에도 쓸 수 있을까",
+      "requested": "media",
+      "composition": "media",
+      "links": [],
+      "images": [
+        {
+          "src": "./assets/photos/open-books.jpg",
+          "alt": "창가 책상에 펼친 책과 공책, 펜이 놓여 있다.",
+          "title": "Ron Lach / Pexels · 학습을 설명하는 스톡 사진"
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "title": "메모는 남았는데 어느 문장이 근거일까",
+      "requested": "document",
+      "composition": "document",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 3,
+      "title": "자료를 모은 뒤에도 설명할 일이 남는다",
+      "requested": "split",
+      "composition": "split",
+      "links": [],
+      "images": [
+        {
+          "src": "./assets/photos/library.jpg",
+          "alt": "책이 가득한 서가 사이의 통로. 책의 내용은 발표의 근거로 사용하지 않는다.",
+          "title": "Ayşe İpek / Pexels · 스톡 사진"
+        }
+      ]
+    },
+    {
+      "slide": 4,
+      "title": "다음 모임에는 다른 질문이 온다",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 5,
+      "title": "다음 질문에 무엇을 다시 쓸까",
+      "requested": "message",
+      "composition": "message",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 6,
+      "title": "남길 것은 답과 근거와 바뀐 이유",
+      "requested": "message",
+      "composition": "message",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 7,
+      "title": "계속 남고 쌓여 가는 결과물",
+      "requested": "quote",
+      "composition": "quote",
+      "links": [
+        "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#the-core-idea"
+      ],
+      "images": []
+    },
+    {
+      "slide": 8,
+      "title": "원자료 옆에 설명 노트를 둔다",
+      "requested": "media",
+      "composition": "media",
+      "links": [
+        "./assets/wiki-layers.svg",
+        "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a"
+      ],
+      "images": [
+        {
+          "src": "./assets/wiki-layers.svg",
+          "alt": "원자료는 보존하고 위키는 갱신한다. 작업 규칙은 둘 사이의 작업 전체에 적용하며 세 번째 변환 산출물이 아니다."
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "title": "원문과 내 설명을 구분한다",
+      "requested": "split",
+      "composition": "split",
+      "links": [],
+      "images": [
+        {
+          "src": "./assets/photos/study-table.jpg",
+          "alt": "책과 필기한 공책, 필기도구가 모여 있는 공부 책상. 사진 속 글은 근거 자료로 읽지 않는다.",
+          "title": "cottonbro studio / Pexels · 스톡 사진"
+        }
+      ]
+    },
+    {
+      "slide": 10,
+      "title": "오늘은 승인한 교정안을 실행한다",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [
+        "./materials/demo-log.md",
+        "./demo/llm-wiki-demo.zip"
+      ],
+      "images": []
+    },
+    {
+      "slide": 11,
+      "title": "첫 질문의 초안을 연다",
+      "requested": "quote",
+      "composition": "quote",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 12,
+      "title": "채팅 A 또는 B · 링크가 있으면 충분할까",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [
+        "#13",
+        "#13",
+        "#13"
+      ],
+      "images": []
+    },
+    {
+      "slide": 13,
+      "title": "B · 링크와 문장 지원을 대조한다",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [
+        "https://arxiv.org/html/2005.11401v4#S2.SS4",
+        "#12",
+        "#14"
+      ],
+      "images": []
+    },
+    {
+      "slide": 14,
+      "title": "최초 메모를 남기고 더 읽은 메모를 붙인다",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 15,
+      "title": "주장마다 근거와 범위를 맞춘다",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [
+        "https://arxiv.org/html/2005.11401v4#S2.SS4",
+        "https://arxiv.org/html/2106.09685v2#S4.SS1"
+      ],
+      "images": []
+    },
+    {
+      "slide": 16,
+      "title": "검토는 고칠 문장과 이유를 정한다",
+      "requested": "document",
+      "composition": "document",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 17,
+      "title": "실제 diff에서 한 문장을 고친다",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [
+        "./materials/demo-log.md#4-%EC%8B%A4%EC%A0%9C-diff%EC%97%90%EC%84%9C-%EB%8B%AC%EB%9D%BC%EC%A7%84-%EB%AC%B8%EC%9E%A5"
+      ],
+      "images": []
+    },
+    {
+      "slide": 18,
+      "title": "고친 답에는 다음 확인이 남는다",
+      "requested": "quote",
+      "composition": "quote",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 19,
+      "title": "같이 바뀔 페이지를 따라간다",
+      "requested": "media",
+      "composition": "media",
+      "links": [
+        "./assets/impact-map.svg"
+      ],
+      "images": [
+        {
+          "src": "./assets/impact-map.svg",
+          "alt": "C1에서 Q1로, Q1과 초기 D1에서 새 운영 질문 Q2로, Q2에서 D2와 pending으로 이어진다. index는 입구를 연결하고 log는 변경 이유를 남긴다. 실제 현행 8개 파일의 관계이며 모든 연결을 자동 발견했다는 뜻은 아니다."
+        }
+      ]
+    },
+    {
+      "slide": 20,
+      "title": "index는 입구 log는 바뀐 이유",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 21,
+      "title": "새 질문 · 우리 스터디는 어떤 답을 저장할까",
+      "requested": "message",
+      "composition": "message",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 22,
+      "title": "이전 설명과 판단을 함께 읽는다",
+      "requested": "media",
+      "composition": "media",
+      "links": [
+        "./assets/reuse-inputs.svg"
+      ],
+      "images": [
+        {
+          "src": "./assets/reuse-inputs.svg",
+          "alt": "Q2가 다시 읽는 파일은 교정된 C1, Q1, 초기 D1이다. C1에서 링크만으로 일반화를 지원하지 못함을, Q1에서 다음 답이 파일을 다시 읽어야 함을, D1에서 모든 답을 현행으로 모으려던 이유를 가져와 현행과 검토 대기함을 나누는 판단에 쓴다."
+        }
+      ]
+    },
+    {
+      "slide": 23,
+      "title": "채팅 A 또는 B · 근거 부족 답은 어디에 둘까",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [
+        "#24",
+        "#24",
+        "#24"
+      ],
+      "images": []
+    },
+    {
+      "slide": 24,
+      "title": "B · 이 예제는 검토 뒤 현행으로 옮긴다",
+      "requested": "media",
+      "composition": "media",
+      "links": [
+        "./assets/current-pending.svg",
+        "#23",
+        "#25"
+      ],
+      "images": [
+        {
+          "src": "./assets/current-pending.svg",
+          "alt": "Q2의 답은 원문과 범위를 대조한 설명을 현행 위키에 연결하고, 필요한 파일을 언제나 찾는다는 근거 부족 답은 pending에 남긴다. D2에는 이 저장 기준과 검토 부담을 기록한다. 이는 이 구성 예제의 운영 선택이다."
+        }
+      ]
+    },
+    {
+      "slide": 25,
+      "title": "보류에도 이유와 다음 행동을 적는다",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 26,
+      "title": "옛 결정은 superseded로 남긴다",
+      "requested": "media",
+      "composition": "media",
+      "links": [
+        "./assets/decision-transition.svg"
+      ],
+      "images": [
+        {
+          "src": "./assets/decision-transition.svg",
+          "alt": "초기 결정 D1은 모든 질문 답을 현행 노트로 저장하려는 선택이다. C1 교정 뒤 superseded로 표시하고 D2 검토한 답을 현행으로 표시하기로 연결한다. 예전 맥락과 결과는 보존한다."
+        }
+      ]
+    },
+    {
+      "slide": 27,
+      "title": "새 결정에는 검토 비용도 적는다",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [
+        "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
+      ],
+      "images": []
+    },
+    {
+      "slide": 28,
+      "title": "서로 다른 판은 같은 이름으로 덮지 않는다",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 29,
+      "title": "상충하면 어느 쪽인지 먼저 좁힌다",
+      "requested": "message",
+      "composition": "message",
+      "links": [
+        "./materials/study-guide.md#11-%EC%B6%A9%EB%8F%8C%EC%98%A4%EB%9E%98%EB%90%9C-%EC%A0%95%EB%B3%B4%EC%82%AD%EC%A0%9C%EC%99%80-%EB%8C%80%EC%B2%B4%EB%A5%BC-%EB%8B%A4%EB%A3%A8%EA%B8%B0"
+      ],
+      "images": []
+    },
+    {
+      "slide": 30,
+      "title": "자료 둘을 잇는 질문을 적는다",
+      "requested": "quote",
+      "composition": "quote",
+      "links": [
+        "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"
+      ],
+      "images": []
+    },
+    {
+      "slide": 31,
+      "title": "검사 결과가 말하는 것",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [
+        "./materials/demo-log.md"
+      ],
+      "images": []
+    },
+    {
+      "slide": 32,
+      "title": "LLM에게 초안과 연결 후보를 맡긴다",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 33,
+      "title": "읽기 질문하기 점검하기를 반복한다",
+      "requested": "icon-wall",
+      "composition": "icon-wall",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 34,
+      "title": "내 자료 세 개에서 시작한다",
+      "requested": "gallery",
+      "composition": "gallery",
+      "links": [],
+      "images": [
+        {
+          "src": "./assets/photos/writing.jpg",
+          "alt": "노트에 쓰는 인물의 스톡 사진",
+          "title": "질문 적기 · LinkedIn Sales Navigator / Pexels"
+        },
+        {
+          "src": "./assets/photos/open-books.jpg",
+          "alt": "창가 책상에 펼친 책과 공책",
+          "title": "자료 고르기 · Ron Lach / Pexels"
+        },
+        {
+          "src": "./assets/photos/study-table.jpg",
+          "alt": "책과 공책과 필기도구가 모인 책상",
+          "title": "설명 대조하기 · cottonbro studio / Pexels"
+        }
+      ]
+    },
+    {
+      "slide": 35,
+      "title": "내 질문 하나를 실제로 적는다",
+      "requested": "message",
+      "composition": "message",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 36,
+      "title": "처음 부탁할 말은 짧게 정한다",
+      "requested": "document",
+      "composition": "document",
+      "links": [
+        "./demo/llm-wiki-demo.zip"
+      ],
+      "images": []
+    },
+    {
+      "slide": 37,
+      "title": "다음 모임 전, 파일을 읽을 사람을 정한다",
+      "requested": "icon-wall",
+      "composition": "icon-wall",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 38,
+      "title": "다시 찾을 가치와 유지 부담을 같이 본다",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [],
+      "images": []
+    },
+    {
+      "slide": 39,
+      "title": "파일 묶음에서 다음 모임으로",
+      "requested": "editorial",
+      "composition": "editorial",
+      "links": [
+        "./demo/llm-wiki-demo.zip",
+        "./materials/demo-log.md",
+        "./materials/index.md",
+        "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a"
+      ],
+      "images": []
+    },
+    {
+      "slide": 40,
+      "title": "어떤 노트부터 다시 쓰고 싶나요",
+      "requested": "closing",
+      "composition": "closing",
+      "links": [
+        "./materials/index.md",
+        "./demo/llm-wiki-demo.zip"
+      ],
+      "images": []
+    }
+  ],
+  "materials": [
+    {
+      "file": "demo-log.md",
+      "characters": 7338,
+      "headings": 11,
+      "references": 20
+    },
+    {
+      "file": "index.md",
+      "characters": 2202,
+      "headings": 4,
+      "references": 13
+    },
+    {
+      "file": "reference-library.md",
+      "characters": 11464,
+      "headings": 11,
+      "references": 51
+    },
+    {
+      "file": "speaker-script.md",
+      "characters": 21347,
+      "headings": 43,
+      "references": 50
+    },
+    {
+      "file": "study-guide.md",
+      "characters": 24548,
+      "headings": 35,
+      "references": 17
+    },
+    {
+      "file": "workshop.md",
+      "characters": 12126,
+      "headings": 24,
+      "references": 16
+    }
+  ],
+  "compositions": {
+    "media": 6,
+    "document": 3,
+    "split": 2,
+    "editorial": 16,
+    "message": 5,
+    "quote": 4,
+    "icon-wall": 2,
+    "gallery": 1,
+    "closing": 1
+  },
+  "references": 45,
+  "talk_seconds": 1800,
+  "qa_separate_seconds": 120,
+  "script_sections": 40
+}

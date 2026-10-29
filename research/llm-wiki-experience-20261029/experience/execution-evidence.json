@@ -1,0 +1,80 @@
+{
+  "checked_at_utc": "2026-10-29T00:38:32.998945+00:00",
+  "archive": "talks/llm-wiki/demo/llm-wiki-demo.zip",
+  "archive_sha256": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+  "zip_crc": "pass",
+  "isolated_extraction": true,
+  "after_markdown_byte_matches": 8,
+  "source_note_count": 5,
+  "before_page_count": 5,
+  "after_page_count": 8,
+  "changed_existing": 5,
+  "created_pages": 3,
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "run-demo.cjs",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": {
+        "status": "pass",
+        "mode": "check",
+        "model_invoked": false,
+        "changed_pages": 8,
+        "created_pages": 3,
+        "after_pages": 8,
+        "local_links": 25,
+        "immutable_files": 10,
+        "diff_sha256": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489"
+      },
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "node",
+        "run-demo.cjs"
+      ],
+      "exit_code": 0,
+      "stdout": {
+        "status": "pass",
+        "mode": "apply",
+        "model_invoked": false,
+        "changed_pages": 8,
+        "created_pages": 3,
+        "after_pages": 8,
+        "local_links": 25,
+        "immutable_files": 10,
+        "diff_sha256": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489"
+      },
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "node",
+        "run-demo.cjs",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": {
+        "status": "pass",
+        "mode": "check",
+        "model_invoked": false,
+        "changed_pages": 8,
+        "created_pages": 3,
+        "after_pages": 8,
+        "local_links": 25,
+        "immutable_files": 10,
+        "diff_sha256": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489"
+      },
+      "stderr": ""
+    }
+  ],
+  "limitations": [
+    "fixed presenter-approved fixture, no LLM invoked",
+    "source meaning reviewed by author; script checks files and links",
+    "40-slide deck and click/browser checks owned by follow-up design/root",
+    "30-minute explanation includes participation; Q&A separately estimated 2 minutes; no timed rehearsal"
+  ]
+}

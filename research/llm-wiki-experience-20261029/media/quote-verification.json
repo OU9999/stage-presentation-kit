@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-29T00:34:50.219771+00:00",
+  "checks": [
+    {
+      "id": "Q1",
+      "url": "https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/llm-wiki.md",
+      "section": "The core idea",
+      "method": "web primary open plus curl raw Markdown; bold markers removed; whitespace normalized; spelling and punctuation exact",
+      "exact_match": true,
+      "quote_word_count": 12,
+      "response_sha256": "dc3efe98ae62f23dd08acad13aba2e95287beb20b6bec2f4af0423557fe37401",
+      "body_saved": false
+    },
+    {
+      "id": "Q2",
+      "url": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+      "section": "6",
+      "method": "web primary open and find; visually compared two consecutive sentences with author and section context",
+      "exact_match": true,
+      "quote_word_count": 12,
+      "body_saved": false,
+      "secondary_download": "Optional curl fetch failed with exit 56; no local body/hash recorded. Primary web page was successfully read."
+    }
+  ]
+}

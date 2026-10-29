@@ -2,7 +2,7 @@
 
 `talks/발표이름/slides.md`만 수정하면 같은 STAGE 스타일의 발표와 읽기 자료를 만듭니다. 공통 테마는 `stage.config.json` 한 곳에서 바꾸며 여러 발표가 원고와 자산을 독립적으로 유지합니다. 생성한 화면은 로컬 CSS·JavaScript와 한국어 시스템 글꼴로 재생합니다.
 
-실제 AI 스터디 자료: **[LLM Wiki · 지식 축적 · 출처 · 결정 기록](presentations/llm-wiki/)** — Zoom 약 20분. [슬라이드 읽기](presentations/llm-wiki/read.html) · **[공부 자료·대본·실습](presentations/llm-wiki/materials/index.html)** · [수정할 원고](talks/llm-wiki/slides.md).
+실제 AI 스터디 자료: **[LLM Wiki · 지식 축적 · 출처 · 결정 기록](presentations/llm-wiki/)** — 사진·원문 인용·파일 데모·Zoom 참여를 담은 40장. [슬라이드 읽기](presentations/llm-wiki/read.html) · **[공부 자료·대본·실습](presentations/llm-wiki/materials/index.html)** · [수정할 원고](talks/llm-wiki/slides.md).
 
 ```sh
 npm ci

@@ -1,0 +1,58 @@
+{
+  "url": "http://127.0.0.1:4323/presentations/llm-wiki/assets/9c0a83b5bf0a-llm-wiki-demo.zip",
+  "suggestedFilename": "9c0a83b5bf0a-llm-wiki-demo.zip",
+  "bytes": 23952,
+  "sha256": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+  "runs": [
+    {
+      "args": [
+        "run-demo.cjs",
+        "--check"
+      ],
+      "result": {
+        "status": "pass",
+        "mode": "check",
+        "model_invoked": false,
+        "changed_pages": 8,
+        "created_pages": 3,
+        "after_pages": 8,
+        "local_links": 25,
+        "immutable_files": 10,
+        "diff_sha256": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489"
+      }
+    },
+    {
+      "args": [
+        "run-demo.cjs"
+      ],
+      "result": {
+        "status": "pass",
+        "mode": "apply",
+        "model_invoked": false,
+        "changed_pages": 8,
+        "created_pages": 3,
+        "after_pages": 8,
+        "local_links": 25,
+        "immutable_files": 10,
+        "diff_sha256": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489"
+      }
+    },
+    {
+      "args": [
+        "run-demo.cjs",
+        "--check"
+      ],
+      "result": {
+        "status": "pass",
+        "mode": "check",
+        "model_invoked": false,
+        "changed_pages": 8,
+        "created_pages": 3,
+        "after_pages": 8,
+        "local_links": 25,
+        "immutable_files": 10,
+        "diff_sha256": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489"
+      }
+    }
+  ]
+}

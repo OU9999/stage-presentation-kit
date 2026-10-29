@@ -1,0 +1,227 @@
+[
+  {
+    "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?before=3a58a4c#1",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "0",
+    "layout": "blocks",
+    "composition": "message",
+    "heading": "다음 주에도 이 답을 설명할 수 있나요?",
+    "headingSize": "118px",
+    "text": "다음 주에도 이 답을 설명할 수 있나요?답에서 근거로, 근거에서 다음 질문으로.RAG와 LoRA를 읽는 작은 AI 스터디",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 631.679931640625,
+      "right": 1314.7199401855469,
+      "bottom": 827.1999206542969
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "답에서 근거로, 근거에서 다음 질문으로.",
+        "color": "rgb(36, 168, 255)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-experience-20261029/evidence/before-1.png"
+  },
+  {
+    "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?before=3a58a4c#4",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "3",
+    "layout": "blocks",
+    "composition": "editorial",
+    "heading": "세 원문에서, 읽기 메모로",
+    "headingSize": "64px",
+    "text": "세 원문에서, 읽기 메모로RAG · §2검색한 문서를 답 생성에 사용합니다.가상 메모의 질문: 이 논문에는 학습도 있을까?Methods · TrainingLoRA · 초록기본 가중치는 고정, 추가 행렬은 학습합니다.가상 메모의 질문: 무엇이 바뀌는가?Abstract · §4.1LLM Wiki · 설계읽고 정리한 파일을 계속 유지합니다.가상 메모의 질문: 다음에 어떤 파일을 읽을까?Architecture · Operations",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "RAG · §2",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "답 생성에 사용",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "LoRA · 초록",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "추가 행렬은 학습",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "LLM Wiki · 설계",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "파일을 계속 유지",
+        "color": "rgb(105, 207, 130)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-experience-20261029/evidence/before-4.png"
+  },
+  {
+    "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?before=3a58a4c#6",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "5",
+    "layout": "blocks",
+    "composition": "editorial",
+    "heading": "같은 질문: 다음 답에 어떻게 반영되나요?",
+    "headingSize": "64px",
+    "text": "같은 질문: 다음 답에 어떻게 반영되나요?위키 갱신설명·연결 파일을 고칩니다.다음 질문에서 필요한 파일을 다시 읽습니다.확인할 것: 주장 범위·링크·수정 이유파일 축적의 설계검색을 이용한 생성관련 자료를 찾습니다.찾은 자료를 답의 문맥에 넣습니다.확인할 것: 검색 누락·관련성·답의 지원RAG §2LoRA 모델 적응추가 행렬을 학습합니다.학습 결과를 적용한 모델로 답합니다.확인할 것: 데이터·목표·평가·적용 대상LoRA Abstract·§4.1",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [],
+    "tiles": [],
+    "wall": null,
+    "accents": [
+      {
+        "text": "위키 갱신",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "필요한 파일을 다시 읽습니다.",
+        "color": "rgb(105, 207, 130)"
+      },
+      {
+        "text": "검색을 이용한 생성",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "답의 문맥에 넣습니다.",
+        "color": "rgb(36, 168, 255)"
+      },
+      {
+        "text": "LoRA 모델 적응",
+        "color": "rgb(160, 128, 255)"
+      },
+      {
+        "text": "학습 결과를 적용한 모델",
+        "color": "rgb(160, 128, 255)"
+      }
+    ],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-experience-20261029/evidence/before-6.png"
+  },
+  {
+    "url": "http://127.0.0.1:4323/presentations/llm-wiki/index.html?before=3a58a4c#9",
+    "title": "LLM Wiki: 읽은 자료를 다음 질문으로 잇기 — Stage",
+    "index": "8",
+    "layout": "blocks",
+    "composition": "media",
+    "heading": "새 근거는 예전 문장을 고칩니다",
+    "headingSize": "54px",
+    "text": "새 근거는 예전 문장을 고칩니다일반화를 지우고 범위를 고칩니다. 관련 질문도 검토하며, 이유는 이력에 남깁니다. 수정 diff · RAG §2.4 · LoRA",
+    "stage": {
+      "x": 48,
+      "y": 130,
+      "width": 1344,
+      "height": 756,
+      "right": 1392,
+      "bottom": 886
+    },
+    "body": {
+      "x": 125.27999877929688,
+      "y": 195.51998901367188,
+      "width": 1189.43994140625,
+      "height": 591.3599853515625,
+      "right": 1314.7199401855469,
+      "bottom": 786.8799743652344
+    },
+    "overflow": [],
+    "images": [
+      {
+        "src": "assets/5efc5a198e7f-change-trace.svg",
+        "alt": "가상 위키의 수정 과정. 외부 파일을 쓰면 학습하지 않는다는 과도한 일반화를 삭제합니다. RAG Training과 LoRA의 학습 대상을 대조해 파일 수정과 매개변수 학습을 구분하는 문장으로 고칩니다. 현재 본문을 교정하고 변경 이유는 log에 남깁니다.",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 450,
+        "fit": "contain",
+        "focus": "50% 50%",
+        "box": {
+          "x": 125.27999877929688,
+          "y": 275.14935302734375,
+          "width": 1189.43994140625,
+          "height": 467.04656982421875,
+          "right": 1314.7199401855469,
+          "bottom": 742.1959228515625
+        }
+      }
+    ],
+    "tiles": [],
+    "wall": null,
+    "accents": [],
+    "diagnostic": null,
+    "failures": [],
+    "errors": [],
+    "authoring": "markdown",
+    "editableNodes": 0,
+    "localStorageCalls": [],
+    "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-experience-20261029/evidence/before-9.png"
+  }
+]

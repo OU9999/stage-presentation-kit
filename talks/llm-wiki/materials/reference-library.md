@@ -1,6 +1,6 @@
 ---
 title: '원문 읽기 안내와 용어 모음'
-description: 'LLM Wiki, RAG, LoRA, 출처, 결정 기록, 인용 평가를 연결해 읽는 6개 1차 자료'
+description: 'LLM Wiki, RAG, LoRA, 출처, 결정 기록, 인용 평가를 연결해 읽는 핵심 6개 원문과 Bush 인용·사진 출처'
 order: 4
 ---
 
@@ -24,9 +24,9 @@ order: 4
 
 ## 1. LLM Wiki 설계 글
 
-[Andrej Karpathy, LLM Wiki 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) · 자료 ID S1. GitHub 생성 표시는 2026-04-04이며 별도 수정일과 고정 revision SHA는 이번 자료에서 확보하지 못했습니다. 댓글과 홍보 링크는 저자 본문과 구분하세요.
+[Andrej Karpathy, LLM Wiki 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a) · 자료 ID S1. GitHub 생성 표시는 2026-04-04이며 별도 수정일은 확정하지 않았으며, 2026-10-29 원문의 Revisions에서 고정 revision `ac46de1ad27f92b28ac95459c782c07f6b8c964a`를 추가 확인했습니다. 댓글과 홍보 링크는 저자 본문과 구분하세요.
 
-**읽는 이유:** ‘AI에게 문서를 맡긴다’는 말을 실제 저장 대상과 반복 작업으로 바꾸기 위해 읽습니다. 첫 읽기는 The core idea → Architecture → Operations → Indexing and logging → Note 순서입니다. 저자가 제안하는 것은 원자료를 읽어 연결된 Markdown 페이지를 유지하는 설계 패턴입니다. 원자료·위키·schema의 역할, ingest/query/lint, index와 log의 차이를 확인할 수 있습니다. [저자 본문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+**읽는 이유:** ‘AI에게 문서를 맡긴다’는 말을 실제 저장 대상과 반복 작업으로 바꾸기 위해 읽습니다. 첫 읽기는 The core idea → Architecture → Operations → Indexing and logging → Note 순서입니다. 저자가 제안하는 것은 원자료를 읽어 연결된 Markdown 페이지를 유지하는 설계 패턴입니다. 원자료·위키·schema의 역할, ingest/query/lint, index와 log의 차이를 확인할 수 있습니다. [저자 본문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a)
 
 **지원하는 주장:** 질문에서 얻은 설명도 파일로 남겨 다음 탐색에 이어 쓸 수 있다는 설계입니다. **지원하지 않는 확장:** 모든 RAG가 지식을 축적하지 못한다거나, 위키가 항상 모순을 발견하고 저렴하게 유지된다는 보편적 결론은 이 글로 입증할 수 없습니다. 비교 성능을 검증한 논문이나 공식 표준도 아닙니다.
 
@@ -70,7 +70,7 @@ order: 4
 
 **지원하는 주장:** 과거 선택의 이유와 현재 유효한 결정을 함께 읽을 수 있게 기록할 수 있습니다. **지원하지 않는 확장:** 모든 사실 확인이 결정이 되는 것은 아닙니다. 스터디의 답 저장 기준에 이 방식을 적용하거나 담당자·재검토 조건·대안을 추가하는 것은 우리의 응용입니다.
 
-**읽은 뒤 할 일:** [스터디 가이드](./study-guide.md)의 ‘검토한 답만 저장한다’는 가상 선택을 보세요. ‘논문에 이렇게 적혀 있다’와 ‘그래서 우리는 이렇게 운영한다’를 분리해 읽습니다. 더 읽을 때는 긍정적인 결과뿐 아니라 검토 시간·유지 부담도 기록한다는 점을 확인하세요. 발표 [11장](../slides.md#11)은 검토한 답을 저장하는 선택의 이유를, [9장](../slides.md#9)은 잘못된 문장을 고치고 변경 이유를 남기는 과정을 보여줍니다. 결정 자체가 바뀌었을 때의 대체 이력은 학습 가이드의 보조 사례에서 이어서 읽을 수 있습니다.
+**읽은 뒤 할 일:** [스터디 가이드](./study-guide.md)의 ‘검토한 답만 저장한다’는 가상 선택을 보세요. ‘논문에 이렇게 적혀 있다’와 ‘그래서 우리는 이렇게 운영한다’를 분리해 읽습니다. 더 읽을 때는 긍정적인 결과뿐 아니라 검토 시간·유지 부담도 기록한다는 점을 확인하세요. 발표 [27장](../slides.md#27)은 검토한 답을 저장하는 선택과 비용을, [17장](../slides.md#17)은 실제 문장 교정을 보여줍니다. [26장](../slides.md#26)과 [데모 기록](./demo-log.md#8-d1을-삭제하지-않고-d2로-대체한다)에서 D1 superseded→D2의 대체 이력을 읽을 수 있습니다.
 
 ## 6. ALCE 인용 평가 논문
 
@@ -121,4 +121,33 @@ order: 4
 
 목차 탐색·텍스트 검색·의미 검색·구조화된 검색은 필요에 따라 함께 쓸 수 있습니다. 새로운 검색 장치를 붙여도 원자료 보존과 주장 범위 검토의 책임이 사라지지는 않습니다. 도입 효과를 말하려면 실제 질문 집합을 정해 정답 지원, 누락, 수정 시간, 운영 비용을 관찰해야 합니다.
 
-[자료 목차](./index.md) · [스터디 가이드](./study-guide.md) · [실습과 해설](./workshop.md) · [발표 대본](./speaker-script.md) · [발표 6장 · 같은 기준으로 비교](../slides.md#6)
+[자료 목차](./index.md) · [스터디 가이드](./study-guide.md) · [실습과 해설](./workshop.md) · [발표 대본](./speaker-script.md) · [발표 15장 · 문장과 근거의 범위](../slides.md#15)
+
+
+## 7. 발표의 두 짧은 인용과 맥락
+
+2026-10-29 원저자·원출판사 본문에서 두 인용을 대조했습니다. 각 영어 인용은 공백 기준12단어이며 발표7/30장에 한 번씩 사용합니다. 한국어는 발표팀 번역으로 표시합니다. 원문 전체·댓글·저자 프로필·역사 사진을 복제하지 않습니다. 두 글의 별도 자유 재사용 라이선스는 확인하지 않았습니다.
+
+| 장 | 저자·원문 | 인용의 뜻과 지원 범위 |
+| --- | --- | --- |
+| 7 | [Andrej Karpathy, LLM Wiki, The core idea](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#the-core-idea) | 위키를 계속 남고 쌓여 가는 결과물로 설명하는 설계 아이디어. 성능 비교나 품질 보증으로 사용하지 않음 |
+| 30 | [Vannevar Bush, As We May Think, The Atlantic, 1945년7월, §6](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) | 분류 색인과 연상의 차이에서 개인 지식 장치 Memex를 구상하는 역사적 맥락. 현대 AI 성능의 증거가 아님 |
+
+Bush 글을 더 읽을 때는 §6 앞뒤의 분류와 연상 경로 설명을 살펴보세요. 이 자료에서는 내 자료 두 개를 잇는 질문을 적는 활동으로 이어갑니다. 원문의 역사적 사례를 현대 시스템 성능으로 확대하지 않습니다.
+
+## 8. 사진·자체 도식 출처
+
+사진은 학습과 기록을 설명하는 스톡 장면이며 발표자·스터디 참여자·서비스 보증자의 실제 기록이 아닙니다. 책과 필기의 내용은 근거로 읽지 않습니다. 발표 중 외부 이미지 요청 없이 로컬 사본을 사용합니다.
+
+| 로컬 파일 | 작가·원본 | 화면에서의 역할 |
+| --- | --- | --- |
+| `photos/open-books.jpg` | [Ron Lach, Open Books Lying on Desk](https://www.pexels.com/photo/open-books-lying-on-desk-9871139/) | 읽은 자료를 다음 질문에 쓰는 장면, 펼친 책과 공책 |
+| `photos/study-table.jpg` | [cottonbro studio, Books and Books on Brown Wooden Table](https://www.pexels.com/photo/books-and-books-on-brown-wooden-table-4769464/) | 원자료와 내 설명을 나누어 생각하는 공부 책상 |
+| `photos/library.jpg` | [Ayşe İpek, Books in the Library](https://www.pexels.com/photo/books-in-the-library-13278839/) | 자료가 쌓인 서가의 비유 |
+| `photos/writing.jpg` | [LinkedIn Sales Navigator, Woman Sitting on Gray Chair While Writing on Table](https://www.pexels.com/photo/woman-sitting-on-gray-chair-while-writing-on-table-1251832/) | 자기 질문을 적는 행동. 공통 write.jpg와 바이트가 같은 로컬 사본 |
+
+[Pexels License](https://www.pexels.com/license/)를 2026-10-29 확인했습니다. 무료 사용·수정·웹/발표 사용을 허용하며 크레딧은 의무가 아니지만 작가와 원본을 남깁니다. 퍼블릭 도메인이나 별도 오픈 라이선스로 표시하지 않습니다. 피사체를 모욕적으로 묘사하거나 추천·보증자로 제시하지 않으며, 원본 사진 자체 판매나 다른 스톡 플랫폼 재배포에 사용하지 않습니다.
+
+도식은 발표팀이 자체 작성했습니다. 기존 원자료/위키/규칙 도식과 새 영향8쪽·Q2재사용·현행/보류·결정대체 도식은 외부 그림을 복제하지 않았습니다. 상세 실제 문장은 [데모 기록](./demo-log.md)의 표와 문단에서 읽을 수 있습니다. 도식 원본은 [파일 관계](../assets/impact-map.svg), [Q2의 입력](../assets/reuse-inputs.svg), [현행·보류](../assets/current-pending.svg), [D1→D2](../assets/decision-transition.svg)에 있습니다. 링크와 파일 수는 정확성 점수가 아닙니다.
+
+[자료 목차](./index.md) · [데모 ZIP](../demo/llm-wiki-demo.zip) · [실제 파일 읽기](./demo-log.md)

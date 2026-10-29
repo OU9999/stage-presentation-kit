@@ -1,0 +1,17 @@
+{
+  "archive": "talks/llm-wiki/demo/llm-wiki-demo.zip",
+  "bytes": 23952,
+  "sha256": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+  "entry_count": 24,
+  "includes_model_run": false,
+  "storyboard": {
+    "slides": 40,
+    "explanation_and_participation_seconds": 1800,
+    "qa_separate_seconds": 120,
+    "interaction_reveal_hashes": [
+      "#13",
+      "#24"
+    ],
+    "not_rehearsed": true
+  }
+}

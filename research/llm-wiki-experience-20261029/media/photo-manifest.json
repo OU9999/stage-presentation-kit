@@ -1,0 +1,45 @@
+{
+  "checked": "2026-10-29",
+  "photos": [
+    {
+      "file": "talks/llm-wiki/assets/photos/open-books.jpg",
+      "pexels_id": 9871139,
+      "width": 1800,
+      "height": 1200,
+      "bytes": 157816,
+      "sha256": "5aa7ac752bffc72f7f3526b52ac26aa563951dd7e9767363b03d247f4e519903",
+      "download_url": "https://images.pexels.com/photos/9871139/pexels-photo-9871139.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "reused_from": null
+    },
+    {
+      "file": "talks/llm-wiki/assets/photos/study-table.jpg",
+      "pexels_id": 4769464,
+      "width": 1800,
+      "height": 2700,
+      "bytes": 405921,
+      "sha256": "258a229c6dc857c44c2a93083f74eccebe4566b530f043228bc2d8aa1709e1a7",
+      "download_url": "https://images.pexels.com/photos/4769464/pexels-photo-4769464.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "reused_from": null
+    },
+    {
+      "file": "talks/llm-wiki/assets/photos/library.jpg",
+      "pexels_id": 13278839,
+      "width": 1800,
+      "height": 1200,
+      "bytes": 261393,
+      "sha256": "b07f03559eed0fc0946ef6a1cafb9cc423beb70d9ba9b0b8383909ac8f19ce43",
+      "download_url": "https://images.pexels.com/photos/13278839/pexels-photo-13278839.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "reused_from": null
+    },
+    {
+      "file": "talks/llm-wiki/assets/photos/writing.jpg",
+      "pexels_id": 1251832,
+      "width": 1600,
+      "height": 1067,
+      "bytes": 151172,
+      "sha256": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "download_url": null,
+      "reused_from": "assets/photos/write.jpg"
+    }
+  ]
+}
