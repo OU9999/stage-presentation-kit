@@ -4,7 +4,7 @@
 
 이번에는 발표를 먼저 수정하지 않고 main `a5b558c`의 동일한 40장과 대본을 평가했다. 신규 청중팀의 두 역할, 기존 디자인 담당자, 새 빅테크 키노트 디자이너 역할이 실제 화면을 검토했다. 새 디자이너는 다른 팀의 결론 전에 초기 판단을 저장하고 Apple·OpenAI의 공식 발표 장면 네 개와 비교했다. 실제 회사 경력이나 실제 관객 반응을 주장하지 않는다.
 
-[화면과 함께 보는 검토](index.html) · [청중 판단](audience/SYNTHESIS.md) · [디자인 판단](design/DESIGN_VERDICT.md) · [신규 디자이너 독립 리뷰](design/senior-review.md)
+[화면과 함께 보는 검토](index.html) · [청중 판단](audience/SYNTHESIS.md) · [디자인 판단](design/DESIGN_VERDICT.md) · [신규 디자이너 독립 리뷰](design/senior-review.md) · [공개 검수](DEPLOYMENT.md)
 
 ## 모의 청중이 가져간 것과 막힌 곳
 

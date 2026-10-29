@@ -1,0 +1,52 @@
+{
+  "url": "https://ou9999.github.io/stage-presentation-kit/research/llm-wiki-audience-review-20261029/index.html?review=18b6b6f",
+  "title": "LLM Wiki — 청중·디자인 검토",
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "details": 7,
+    "images": [
+      {
+        "src": "design/storyboard-17.png",
+        "width": 1440,
+        "complete": true
+      },
+      {
+        "src": "design/storyboard-31.png",
+        "width": 1440,
+        "complete": true
+      },
+      {
+        "src": "design/storyboard-35.png",
+        "width": 1440,
+        "complete": true
+      },
+      {
+        "src": "evidence/board-1.jpg",
+        "width": 1280,
+        "complete": true
+      },
+      {
+        "src": "evidence/board-2.jpg",
+        "width": 1280,
+        "complete": true
+      },
+      {
+        "src": "evidence/board-3.jpg",
+        "width": 1280,
+        "complete": true
+      },
+      {
+        "src": "evidence/board-4.jpg",
+        "width": 1280,
+        "complete": true
+      }
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "bodyWidth": 390
+  },
+  "keyboardClosed": true
+}

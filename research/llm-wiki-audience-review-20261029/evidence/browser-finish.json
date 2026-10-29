@@ -1,0 +1,21 @@
+{
+  "space": 95,
+  "kept": "p2",
+  "observed": {
+    "title": "LLM Wiki — 청중·디자인 검토",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "details": 7
+  },
+  "result": {
+    "spaceId": 95,
+    "closedSpace": false,
+    "keptManagedLabels": [
+      "p2"
+    ],
+    "closedManagedLabels": [
+      "p1"
+    ],
+    "preservedUnmanagedCount": 0
+  }
+}
