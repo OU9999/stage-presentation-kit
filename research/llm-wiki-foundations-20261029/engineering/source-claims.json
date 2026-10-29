@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-29",
+  "review_role": "Public-source design reviewer; no author participation or endorsement",
+  "source": {
+    "author": "Andrej Karpathy",
+    "title": "LLM Wiki",
+    "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+    "fixed_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a",
+    "revision_sha": "ac46de1ad27f92b28ac95459c782c07f6b8c964a",
+    "creation_display": "April 4, 2026 16:25",
+    "creation_timezone": "UTC (revisions HTML datetime 확인)",
+    "created_at_utc": "2026-04-04T16:25:13Z",
+    "updated_at_utc": null,
+    "api_history_verified": false,
+    "revision_page_verified": true,
+    "revision_count_display": 1,
+    "scope": "본문 The core idea부터 마지막 Note까지; 댓글 제외",
+    "additional_english_quoted_words": 0,
+    "metadata_verification": "revisions HTML의 생성 항목 datetime과 유일한 revision 링크를 read-only HTTP로 확인. API는502여서 history 검증 불가. 별도 updated_at 미확인."
+  },
+  "claims": [
+    {
+      "claim_id": "K01",
+      "claim": "반복 재종합에 지속 위키를 둔다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#the-core-idea",
+      "location": "The core idea, paragraphs 1–5",
+      "type": "직접",
+      "safe_wording": "저자는 원자료를 질문마다 재종합하는 흐름에 지속 위키를 제안한다.",
+      "forbidden_expansion": "모든 RAG는 결과를 축적할 수 없다; 모든 질문에서 재합성이 제거된다",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K02",
+      "claim": "LLM이 위키를 작성·유지한다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#the-core-idea",
+      "location": "The core idea, human/LLM role paragraphs; Architecture / The wiki",
+      "type": "직접",
+      "safe_wording": "저자 설계에서 LLM은 페이지를 실제 작성·갱신하는 유지 역할이다.",
+      "forbidden_expansion": "작성·연결·일관성에 오류나 누락이 없다",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K03",
+      "claim": "사람이 자료·탐색·질문을 이끈다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#why-this-works",
+      "location": "The core idea, roles; Why this works, human role; Operations / Ingest",
+      "type": "직접",
+      "safe_wording": "사람은 자료와 분석 방향을 정하며, 저자는 개별 ingest에 관여하는 방식을 선호한다.",
+      "forbidden_expansion": "모든 파일 변경은 사람의 수동 승인이 있어야 LLM Wiki다",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K04",
+      "claim": "raw·wiki·schema를 구별한다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#architecture",
+      "location": "Architecture, three layer descriptions",
+      "type": "직접",
+      "safe_wording": "원자료는 보존하고 위키는 갱신하며 규칙은 작업 전체를 안내한다.",
+      "forbidden_expansion": "schema가 원자료를 변환한 세 번째 결과물; raw 자체가 진실 보증",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K05",
+      "claim": "개체·개념·비교·종합을 저장한다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#architecture",
+      "location": "Architecture / The wiki",
+      "type": "직접",
+      "safe_wording": "저자는 요약 외에도 개체·개념·비교·종합 등의 페이지를 제시한다.",
+      "forbidden_expansion": "모든 구현에 이 이름의 폴더가 필수",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K06",
+      "claim": "ingest가 기존 페이지도 갱신한다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#operations",
+      "location": "Operations / Ingest; The core idea, new source integration",
+      "type": "직접",
+      "safe_wording": "새 요약과 관련 개념·개체·목차·이력을 함께 갱신하는 흐름이다.",
+      "forbidden_expansion": "자료마다 반드시 10~15개 페이지가 바뀐다; 모든 영향 페이지 자동 발견",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K07",
+      "claim": "유용한 질문의 답도 축적한다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#operations",
+      "location": "Operations / Query",
+      "type": "직접",
+      "safe_wording": "위키를 읽어 답하고 유용한 비교·분석·연결을 페이지로 남길 수 있다.",
+      "forbidden_expansion": "모든 답 자동 저장 의무; 답 저장만으로 다음 답의 정확도 보장",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K08",
+      "claim": "lint가 내용·연결 공백을 점검한다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#operations",
+      "location": "Operations / Lint",
+      "type": "직접",
+      "safe_wording": "모순·낡은 주장·고립 페이지·빠진 개념과 연결 등을 점검한다.",
+      "forbidden_expansion": "링크 검사 통과가 의미 정확성 인증; LLM 점검에 누락이 없음",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K09",
+      "claim": "index와 log의 역할이 다르다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#indexing-and-logging",
+      "location": "Indexing and logging",
+      "type": "직접",
+      "safe_wording": "index는 내용 중심 입구, log는 시간순 작업 이력이다.",
+      "forbidden_expansion": "index/log만 있으면 주제 지식 축적을 구현한 것",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K10",
+      "claim": "검색 도구를 함께 쓸 수 있다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#optional-cli-tools",
+      "location": "Indexing and logging; Optional: CLI tools; Note",
+      "type": "직접",
+      "safe_wording": "작으면 목차로 시작하고 필요에 따라 위키 검색을 더하는 설계다.",
+      "forbidden_expansion": "검색/RAG와 배타적; 특정 자료 수에서 반드시 검색이 불필요",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K11",
+      "claim": "Obsidian은 결과를 읽는 도구다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#the-core-idea",
+      "location": "The core idea, author workflow; Tips and tricks; Note",
+      "type": "직접",
+      "safe_wording": "저자는 Obsidian으로 LLM이 편집한 페이지와 관계를 읽는 방식을 설명한다.",
+      "forbidden_expansion": "Obsidian 설치가 필수; 뷰어가 위키의 내용을 자동 보증",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K12",
+      "claim": "유지 부담을 LLM에 맡기는 동기다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#why-this-works",
+      "location": "Why this works, paragraph 1",
+      "type": "직접",
+      "safe_wording": "저자는 연결·요약·충돌·일관성 유지 부담을 줄이는 데 가치를 둔다.",
+      "forbidden_expansion": "유지비 제로·누락 제로가 실험으로 입증; 항상 검색보다 싸다",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K13",
+      "claim": "특정 완제품이 아닌 설계 패턴이다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#note",
+      "location": "Opening idea-file paragraph; Note, both paragraphs",
+      "type": "직접",
+      "safe_wording": "구조·형식·도구를 자신의 맥락에 맞춰 구체화하는 아이디어다.",
+      "forbidden_expansion": "공식 표준·필수 제품·특정 CLI 설치가 정의",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "K14",
+      "claim": "저자 용도 제안은 도입 실증과 다르다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#the-core-idea",
+      "location": "The core idea, examples list",
+      "type": "해석",
+      "safe_wording": "개인·연구·독서·팀 등은 이 원문이 제안하는 적용 용도다.",
+      "forbidden_expansion": "각 분야의 실제 조직 도입·성과가 이 목록에서 입증됨",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "A01",
+      "claim": "종합 작업 일부를 갱신 시점으로 옮긴다",
+      "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#the-core-idea",
+      "location": "The core idea + Operations; 우리의 인과 설명",
+      "type": "해석",
+      "safe_wording": "질문 때 하던 종합의 일부를 자료 반영과 답 저장 시점에 수행한다고 설명할 수 있다.",
+      "forbidden_expansion": "질문시 작업이 없어진다; 계산 비용이 항상 줄어든다",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "A02",
+      "claim": "현재 원고는 제안자 역할로 축소한다",
+      "source_url": "local:talks/llm-wiki/slides.md",
+      "location": "2장 L23–29, 4장 L70–97, 32장 L754–770; speaker-script L88·116",
+      "type": "해석",
+      "safe_wording": "현재 원고는 LLM 후보 제안과 사람 채택을 중심으로 원저자의 작성·유지 역할을 약하게 설명한다.",
+      "forbidden_expansion": "현행 데모가 거짓이다; 사람 검토 자체가 원문과 모순이다",
+      "checked_on": "2026-10-29"
+    },
+    {
+      "claim_id": "P01",
+      "claim": "정의·동기·기전·사례 순으로 재구성한다",
+      "source_url": "local:research/llm-wiki-foundations-20261029/engineering/origins-and-principles.md",
+      "location": "§4 발표 블록; §5 현행 감사; §6 인수 조건",
+      "type": "제안",
+      "safe_wording": "한 교정 사례보다 핵심 기전과 다양한 재사용 사례에 시간을 먼저 배정하자.",
+      "forbidden_expansion": "새 구성의 청중 이해·20분 낭독을 실측했다",
+      "checked_on": "2026-10-29"
+    }
+  ]
+}

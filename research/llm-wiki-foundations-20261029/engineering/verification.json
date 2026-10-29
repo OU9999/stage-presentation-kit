@@ -1,0 +1,297 @@
+{
+  "managerProbe": {
+    "temporaryProject": "OS temporary independent project: foundations-manager-p9ThAh",
+    "cliExitCode": 0,
+    "slides": 40,
+    "materials": 6,
+    "planWarnings": 0,
+    "scriptTitlesMatch": true,
+    "scriptTableRouteMatches": true,
+    "lectureSeconds": 1080,
+    "questionSeconds": 120,
+    "checkDifferences": [],
+    "checkPreservesBytesAndTimes": true,
+    "outputFiles": 38,
+    "outputBytes": 1562759,
+    "allLocalHTMLReferences": 594,
+    "localFileReferences": 288,
+    "materialHTMLReferences": 562,
+    "allMaterialFragmentsResolve": true,
+    "inputCopyHashesMatch": true,
+    "inputs": [
+      {
+        "file": "talks/llm-wiki/README.md",
+        "bytes": 5596,
+        "sha256": "7377f75065ddbd975e02115995d1230eac98207adc70ff9429dc499f7c87b015"
+      },
+      {
+        "file": "talks/llm-wiki/assets/CREDITS.md",
+        "bytes": 4675,
+        "sha256": "4b81040fcbd149203e1970d366163ed7dd7d5c9412ca0e87b36bbd24c11cb1ce"
+      },
+      {
+        "file": "talks/llm-wiki/assets/case-course.svg",
+        "bytes": 3520,
+        "sha256": "f910677f4df1ab59e2a2d926d3e6cdfd5935916163d8ce33ad851637048cc69d"
+      },
+      {
+        "file": "talks/llm-wiki/assets/case-reading.svg",
+        "bytes": 2971,
+        "sha256": "c8c698645f7c055fb8442978a01aeafd6f1391c4b345ee1eafc840cd84f9f0b2"
+      },
+      {
+        "file": "talks/llm-wiki/assets/case-team.svg",
+        "bytes": 2993,
+        "sha256": "145b3d5fc0a243e272e721c5d28d59b59ad603d2e453ba9fdc1bd1f46aed24ab"
+      },
+      {
+        "file": "talks/llm-wiki/assets/examples/course.txt",
+        "bytes": 3272,
+        "sha256": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9"
+      },
+      {
+        "file": "talks/llm-wiki/assets/examples/reading.txt",
+        "bytes": 3128,
+        "sha256": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e"
+      },
+      {
+        "file": "talks/llm-wiki/assets/examples/team.txt",
+        "bytes": 3241,
+        "sha256": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a"
+      },
+      {
+        "file": "talks/llm-wiki/assets/speaker-guide.txt",
+        "bytes": 6496,
+        "sha256": "19c79c783a4a7936e2b6dfb5a4551f4111f5360b4a8213387e234b8ccffa0ba4"
+      },
+      {
+        "file": "talks/llm-wiki/assets/wiki-ingest-update.svg",
+        "bytes": 3578,
+        "sha256": "4de19f852a22c9778986a2c74d6ab39d5f3100e13ccbbf06b134cf9a244c32c9"
+      },
+      {
+        "file": "talks/llm-wiki/assets/wiki-maintenance-loop.svg",
+        "bytes": 3925,
+        "sha256": "72d50863ca07ca66fb753ed8eeb3b646483ded080a995d20f165c21ddd6ef5f9"
+      },
+      {
+        "file": "talks/llm-wiki/assets/wiki-query-return.svg",
+        "bytes": 3327,
+        "sha256": "523f5e200135e25930755ce3d694caafbcf32a779e8cb1b0d919c15202affd1e"
+      },
+      {
+        "file": "talks/llm-wiki/materials/demo-log.md",
+        "bytes": 14585,
+        "sha256": "e2b447d1bab2f2b12d3d066d231fe1bfbff0c6ba0dd2335b2816ba5fa155b10f"
+      },
+      {
+        "file": "talks/llm-wiki/materials/index.md",
+        "bytes": 4187,
+        "sha256": "4aea025524bdd50af41806287b796ffd8a0ea53b16a48e0e505c000117925868"
+      },
+      {
+        "file": "talks/llm-wiki/materials/reference-library.md",
+        "bytes": 26271,
+        "sha256": "82062c83e6790ac0d6358bbd7765d1c9a1328c5799f5692ebafd8729d58c971f"
+      },
+      {
+        "file": "talks/llm-wiki/materials/speaker-script.md",
+        "bytes": 41363,
+        "sha256": "584ac03c7953896e43022e75c4ac18af502615f5cdd72283385f3ea743b766da"
+      },
+      {
+        "file": "talks/llm-wiki/materials/study-guide.md",
+        "bytes": 66310,
+        "sha256": "b1c5a224121785a105ea1523be414993c36ab4437cf372645cdc6ba44a1161b8"
+      },
+      {
+        "file": "talks/llm-wiki/materials/workshop.md",
+        "bytes": 26944,
+        "sha256": "04a14b2646e20d90c24df57e1ff9e6dddb840c48df9950ee82f7962bc6353ca9"
+      },
+      {
+        "file": "talks/llm-wiki/slides.md",
+        "bytes": 21228,
+        "sha256": "133559a6026d5a1b083cfa2a27fba4556dfa365314509f7b3b26d65c3d02f2a6"
+      }
+    ],
+    "demo25FilesUnchanged": true,
+    "frozenResearch7Unchanged": true
+  },
+  "demoManifest": [
+    {
+      "file": "talks/llm-wiki/demo/README.md",
+      "bytes": 3804,
+      "sha256": "f95bd173cc838886f933264af4431eb12c836005b1781442feb6df5fca2dcaac"
+    },
+    {
+      "file": "talks/llm-wiki/demo/after/wiki/claims/file-update.md",
+      "bytes": 740,
+      "sha256": "92bb630e8e722d09d787eeeceb5c61bce8a861c96078e42525e0186091cc2838"
+    },
+    {
+      "file": "talks/llm-wiki/demo/after/wiki/decisions/review-before-current.md",
+      "bytes": 872,
+      "sha256": "9ceef6389ad84733d9958f28c9f7d614cbb4d1b275672a48fe148430cf76515f"
+    },
+    {
+      "file": "talks/llm-wiki/demo/after/wiki/decisions/save-all.md",
+      "bytes": 641,
+      "sha256": "65562b6302d2aac960520d10cb65a80a12e637ad986e21683fc64f3d7f2df7a3"
+    },
+    {
+      "file": "talks/llm-wiki/demo/after/wiki/index.md",
+      "bytes": 599,
+      "sha256": "dea98321d159bffd02e4a50224bf9790e0c6cc45666d64c77878abd2d5059934"
+    },
+    {
+      "file": "talks/llm-wiki/demo/after/wiki/log.md",
+      "bytes": 690,
+      "sha256": "0b190fbdbaa247b3a2fb0cc7b6329c008b04b932eed49263d62dbcd32fe66d8e"
+    },
+    {
+      "file": "talks/llm-wiki/demo/after/wiki/pending/retrieval-coverage.md",
+      "bytes": 820,
+      "sha256": "e301bd053c0d107a5b5fbfd1e674df1f723ca46855331e72d7199a3c4abe50d5"
+    },
+    {
+      "file": "talks/llm-wiki/demo/after/wiki/questions/what-to-save.md",
+      "bytes": 1071,
+      "sha256": "dd3f09a6ddfa5439bb6084c1896f026fc8b814bbd8072aeeaa8eed5f398d05bd"
+    },
+    {
+      "file": "talks/llm-wiki/demo/after/wiki/questions/wiki-and-learning.md",
+      "bytes": 1359,
+      "sha256": "77d75ad0051f7a46a232bc7ce762538f32bf1587abb40cc670190358b8a53e46"
+    },
+    {
+      "file": "talks/llm-wiki/demo/before/wiki/claims/file-update.md",
+      "bytes": 373,
+      "sha256": "844219560c6917c8c2bd3de6a1d60aaae7db2472049c8730e006d855945374f1"
+    },
+    {
+      "file": "talks/llm-wiki/demo/before/wiki/decisions/save-all.md",
+      "bytes": 388,
+      "sha256": "d77f31e59cfee51d93d6e6c73851f453e617af2c4ef1f793b59cd9ced7190761"
+    },
+    {
+      "file": "talks/llm-wiki/demo/before/wiki/index.md",
+      "bytes": 309,
+      "sha256": "52b6a60827254eba86ed7e11fa6d915edb99049a956503cdbf89a5614263ecbe"
+    },
+    {
+      "file": "talks/llm-wiki/demo/before/wiki/log.md",
+      "bytes": 168,
+      "sha256": "9aceece1ef383999a38ca7c31d15d09aecc97ab304f6dc68271bf13177bb62b0"
+    },
+    {
+      "file": "talks/llm-wiki/demo/before/wiki/questions/wiki-and-learning.md",
+      "bytes": 550,
+      "sha256": "09953148d63b4025185026a27765fec906d72684b886801c8c4069356b8af935"
+    },
+    {
+      "file": "talks/llm-wiki/demo/changes.diff",
+      "bytes": 8405,
+      "sha256": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489"
+    },
+    {
+      "file": "talks/llm-wiki/demo/llm-wiki-demo.zip",
+      "bytes": 23952,
+      "sha256": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2"
+    },
+    {
+      "file": "talks/llm-wiki/demo/receipt.json",
+      "bytes": 2515,
+      "sha256": "3052ecf8710697cddc4acb68ede40c4e5dd926f7eaada03fff13cc79e31b66b3"
+    },
+    {
+      "file": "talks/llm-wiki/demo/review/review.json",
+      "bytes": 8314,
+      "sha256": "cb1f12d45063a496c27eeefff2069d2c8ec2c6c719d460e729f5ba86ee9d4216"
+    },
+    {
+      "file": "talks/llm-wiki/demo/run-demo.cjs",
+      "bytes": 5223,
+      "sha256": "b73c7824599464d8ebb3510cfcec3e0d499d0ca2a1f5e91f6c44dc7225260faa"
+    },
+    {
+      "file": "talks/llm-wiki/demo/source-notes/adr.md",
+      "bytes": 789,
+      "sha256": "7a68c7c8fdbe0854da56f62fb4aaf1897ffc693ad9a31d3c1812bcb995faaab8"
+    },
+    {
+      "file": "talks/llm-wiki/demo/source-notes/llm-wiki.md",
+      "bytes": 958,
+      "sha256": "c82d841dd85d9587f5c4d95bb0681c21810e7077e63b5763c12dab23e29d2762"
+    },
+    {
+      "file": "talks/llm-wiki/demo/source-notes/lora.md",
+      "bytes": 654,
+      "sha256": "fb88ac73af8648228fc0ea71a0a7200f92ef081b4fe7c88e6c1c45fc4af03a2e"
+    },
+    {
+      "file": "talks/llm-wiki/demo/source-notes/rag-initial.md",
+      "bytes": 583,
+      "sha256": "084cc17c8e74de1a595f4fd9e608f7e3883a8733364e5a8bc9ca80eac034b297"
+    },
+    {
+      "file": "talks/llm-wiki/demo/source-notes/rag.md",
+      "bytes": 761,
+      "sha256": "c2cd0b4abbc182355ee618ef18581d63696483eeaea1e0cb707d140ac1507c62"
+    },
+    {
+      "file": "talks/llm-wiki/demo/starter.txt",
+      "bytes": 1572,
+      "sha256": "0ac7822fd7af69689ef6297d03cf44744e609c78d9ef741c32f89a901a4db16e"
+    }
+  ],
+  "researchManifest": [
+    {
+      "file": "research/llm-wiki-foundations-20261029/engineering/origins-and-principles.md",
+      "bytes": 21243,
+      "sha256": "0f2115c9ee5f0ec7f726957ff9adc8ddf8c76d555d5f66cb6374e7741e314257"
+    },
+    {
+      "file": "research/llm-wiki-foundations-20261029/engineering/source-claims.json",
+      "bytes": 11021,
+      "sha256": "5c64d3e3a7d27204a6faada538ca0e551ae8c5ef47c0da4c19a1b3d4260d3ef4"
+    },
+    {
+      "file": "research/llm-wiki-foundations-20261029/engineering/cases-and-mechanisms.md",
+      "bytes": 18298,
+      "sha256": "381a4fb192d66b01b64b632a5f5cb7f1ff78750c49fd1d0938a28df4145fa426"
+    },
+    {
+      "file": "research/llm-wiki-foundations-20261029/engineering/SYNTHESIS.md",
+      "bytes": 25216,
+      "sha256": "2882abe47b9307fad44b42f5badf6b92394af00c986a7814cc0dbb401dd62e67"
+    },
+    {
+      "file": "research/llm-wiki-foundations-20261029/engineering/examples/reading.md",
+      "bytes": 3128,
+      "sha256": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e"
+    },
+    {
+      "file": "research/llm-wiki-foundations-20261029/engineering/examples/team.md",
+      "bytes": 3241,
+      "sha256": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a"
+    },
+    {
+      "file": "research/llm-wiki-foundations-20261029/engineering/examples/course.md",
+      "bytes": 3272,
+      "sha256": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9"
+    }
+  ],
+  "writerStates": {
+    "karpathy_design_reviewer": "completed; research and four product files editing ended",
+    "evidence_cases_engineer": "completed; research and fifteen product files editing ended"
+  },
+  "rootReportedChecks": {
+    "wholeSiteBuildAndVerify": true,
+    "testsPassed": 261,
+    "testsFailed": 0,
+    "portableOutputFiles": 38,
+    "remaining": "Final PNG recapture and independent design/beginner reviews; commit/push/Pages are owned by root"
+  },
+  "rehearsalMeasured": false
+}

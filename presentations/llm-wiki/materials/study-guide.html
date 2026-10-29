@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="원자료에서 개념·비교·질문·결정으로 이어지는 지식 축적의 작동과 운영">
+  <meta name="description" content="LLM이 자료를 연결된 위키로 유지하는 기전과 독서·고객 요구·강의의 세 적용 예, 정밀 교정 심화">
   <title>LLM Wiki 혼자 공부하기 — 다음 질문에 다시 쓰는 LLM Wiki</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_runtime/materials.css?v=1b61ac3b3119">
 </head>
-<body class="material-page" data-source="talks/llm-wiki/materials/study-guide.md" data-revision="c06988cc1b36129460f22497bc1502849dc6e837a89b0aa1aabc4b7c2d3d2b55">
+<body class="material-page" data-source="talks/llm-wiki/materials/study-guide.md" data-revision="b1c5a224121785a105ea1523be414993c36ab4437cf372645cdc6ba44a1161b8">
   <a class="material-skip" href="#material-content">본문으로 이동</a>
   <header class="material-header">
     <a class="material-brand" href="index.html">STAGE <span>학습 자료</span></a>
@@ -20,57 +20,238 @@
     <details class="material-mobile-nav">
       <summary>목차와 다른 자료</summary>
       <div class="material-mobile-nav-content">
-        <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html" class="is-current" aria-current="page">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">40장 대본 · 20분 핵심 진행과 선택 심화</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html">작은 스터디 위키 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li></ul></nav>
-        <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#공용-스터디-노트라는-비유-읽기">공용 스터디 노트라는 비유 읽기</a></li><li class="toc-level-2"><a href="#이번-발표의-실행-가능한-파일-예제">이번 발표의 실행 가능한 파일 예제</a></li><li class="toc-level-2"><a href="#1-답을-저장하는-것에서-지식을-축적하는-것으로">1. 답을 저장하는 것에서 지식을 축적하는 것으로</a></li><li class="toc-level-2"><a href="#2-llm-wiki-원출처가-제안한-구조">2. LLM Wiki 원출처가 제안한 구조</a></li><li class="toc-level-2"><a href="#3-한-폴더-안에서-다섯-가지를-구분하기">3. 한 폴더 안에서 다섯 가지를 구분하기</a></li><li class="toc-level-2"><a href="#4-핵심-사례-세-자료를-읽고-하나의-질문에-답하기">4. 핵심 사례: 세 자료를 읽고 하나의 질문에 답하기</a></li><li class="toc-level-3"><a href="#읽을-자료와-만들어-볼-기록">읽을 자료와 만들어 볼 기록</a></li><li class="toc-level-3"><a href="#읽기-메모를-개념-페이지로-바꾸기">읽기 메모를 개념 페이지로 바꾸기</a></li><li class="toc-level-3"><a href="#비교-페이지는-같은-질문을-공유한다">비교 페이지는 같은 질문을 공유한다</a></li><li class="toc-level-2"><a href="#5-연결도를-읽는-법">5. 연결도를 읽는 법</a></li><li class="toc-level-2"><a href="#6-질문의-답을-다시-저장하는-query">6. 질문의 답을 다시 저장하는 query</a></li><li class="toc-level-2"><a href="#7-ingest-새-자료를-넣을-때-실제로-달라지는-것">7. ingest: 새 자료를 넣을 때 실제로 달라지는 것</a></li><li class="toc-level-2"><a href="#8-index와-log는-서로-다른-질문에-답한다">8. index와 log는 서로 다른 질문에 답한다</a></li><li class="toc-level-2"><a href="#9-근거를-읽은-다음에도-결정은-남는다">9. 근거를 읽은 다음에도 결정은 남는다</a></li><li class="toc-level-2"><a href="#10-출처-url이-있는데도-문장이-틀리는-경우">10. 출처 URL이 있는데도 문장이 틀리는 경우</a></li><li class="toc-level-2"><a href="#11-충돌오래된-정보삭제와-대체를-다루기">11. 충돌·오래된 정보·삭제와 대체를 다루기</a></li><li class="toc-level-3"><a href="#두-자료가-충돌하는-것처럼-보일-때">두 자료가 충돌하는 것처럼 보일 때</a></li><li class="toc-level-3"><a href="#오래됐다는-것과-틀렸다는-것은-다르다">오래됐다는 것과 틀렸다는 것은 다르다</a></li><li class="toc-level-3"><a href="#잘못된-내용을-지우고-싶을-때">잘못된 내용을 지우고 싶을 때</a></li><li class="toc-level-2"><a href="#12-lint-내용을-매끈하게-만드는-대신-점검하기">12. lint: 내용을 매끈하게 만드는 대신 점검하기</a></li><li class="toc-level-2"><a href="#13-파일-위키rag모델-학습을-어떻게-함께-생각할까">13. 파일 위키·RAG·모델 학습을 어떻게 함께 생각할까</a></li><li class="toc-level-2"><a href="#14-규모와-운영-비용의-tradeoff">14. 규모와 운영 비용의 tradeoff</a></li><li class="toc-level-2"><a href="#15-사람-검토와-작은-시작을-연결하기">15. 사람 검토와 작은 시작을 연결하기</a></li><li class="toc-level-2"><a href="#16-복사해-쓸-카드와-프롬프트">16. 복사해 쓸 카드와 프롬프트</a></li><li class="toc-level-3"><a href="#자료주장결정-카드">자료·주장·결정 카드</a></li><li class="toc-level-3"><a href="#자료를-넣을-때의-프롬프트">자료를 넣을 때의 프롬프트</a></li><li class="toc-level-3"><a href="#질문과-점검에-쓰는-프롬프트">질문과 점검에 쓰는 프롬프트</a></li><li class="toc-level-2"><a href="#17-자주-묻는-질문">17. 자주 묻는 질문</a></li><li class="toc-level-3"><a href="#기존-노트와-무엇이-다른가요">기존 노트와 무엇이 다른가요</a></li><li class="toc-level-3"><a href="#벡터-데이터베이스가-필요한가요">벡터 데이터베이스가 필요한가요</a></li><li class="toc-level-3"><a href="#ai가-답한-내용은-전부-저장하나요">AI가 답한 내용은 전부 저장하나요</a></li><li class="toc-level-3"><a href="#출처-링크가-너무-많으면-읽기-어렵지-않나요">출처 링크가 너무 많으면 읽기 어렵지 않나요</a></li><li class="toc-level-3"><a href="#원자료를-다-보존하면-오류도-계속-남지-않나요">원자료를 다 보존하면 오류도 계속 남지 않나요</a></li><li class="toc-level-3"><a href="#한-번-정리하면-그다음부터-원문을-안-읽어도-되나요">한 번 정리하면 그다음부터 원문을 안 읽어도 되나요</a></li><li class="toc-level-2"><a href="#18-자가점검과-해설">18. 자가점검과 해설</a></li><li class="toc-level-2"><a href="#19-보조-사례로-범위를-한-번-더-확인하기">19. 보조 사례로 범위를 한 번 더 확인하기</a></li></ul></nav>
+        <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html" class="is-current" aria-current="page">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">40장 대본 · 본질과 세 사례의 20분 진행</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html">작은 LLM Wiki 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li></ul></nav>
+        <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#왜-지속하는-위키를-둘까">왜 지속하는 위키를 둘까</a></li><li class="toc-level-2"><a href="#무엇이-남고-누가-고치나">무엇이 남고 누가 고치나</a></li><li class="toc-level-2"><a href="#읽고-엮기질문하고-남기기점검하기">읽고 엮기·질문하고 남기기·점검하기</a></li><li class="toc-level-2"><a href="#세-가지-적용-예">세 가지 적용 예</a></li><li class="toc-level-3"><a href="#소설-독서">소설 독서</a></li><li class="toc-level-3"><a href="#고객-요구">고객 요구</a></li><li class="toc-level-3"><a href="#강의-메모">강의 메모</a></li><li class="toc-level-2"><a href="#세-사례에서-같은-것과-다른-것">세 사례에서 같은 것과 다른 것</a></li><li class="toc-level-2"><a href="#공개-구현과-연구는-어디까지-확인했나">공개 구현과 연구는 어디까지 확인했나</a></li><li class="toc-level-2"><a href="#기술-스터디와-정밀-교정-심화">기술 스터디와 정밀 교정 심화</a></li><li class="toc-level-2"><a href="#1-답을-저장하는-것에서-지식을-축적하는-것으로">1. 답을 저장하는 것에서 지식을 축적하는 것으로</a></li><li class="toc-level-2"><a href="#2-llm-wiki-원출처가-제안한-구조">2. LLM Wiki 원출처가 제안한 구조</a></li><li class="toc-level-2"><a href="#3-한-폴더-안에서-다섯-가지를-구분하기">3. 한 폴더 안에서 다섯 가지를 구분하기</a></li><li class="toc-level-2"><a href="#4-핵심-사례-세-자료를-읽고-하나의-질문에-답하기">4. 핵심 사례: 세 자료를 읽고 하나의 질문에 답하기</a></li><li class="toc-level-3"><a href="#읽을-자료와-만들어-볼-기록">읽을 자료와 만들어 볼 기록</a></li><li class="toc-level-3"><a href="#읽기-메모를-개념-페이지로-바꾸기">읽기 메모를 개념 페이지로 바꾸기</a></li><li class="toc-level-3"><a href="#비교-페이지는-같은-질문을-공유한다">비교 페이지는 같은 질문을 공유한다</a></li><li class="toc-level-2"><a href="#5-연결도를-읽는-법">5. 연결도를 읽는 법</a></li><li class="toc-level-2"><a href="#6-질문의-답을-다시-저장하는-query">6. 질문의 답을 다시 저장하는 query</a></li><li class="toc-level-2"><a href="#7-ingest-새-자료를-넣을-때-실제로-달라지는-것">7. ingest: 새 자료를 넣을 때 실제로 달라지는 것</a></li><li class="toc-level-2"><a href="#8-index와-log는-서로-다른-질문에-답한다">8. index와 log는 서로 다른 질문에 답한다</a></li><li class="toc-level-2"><a href="#9-근거를-읽은-다음에도-결정은-남는다">9. 근거를 읽은 다음에도 결정은 남는다</a></li><li class="toc-level-2"><a href="#10-출처-url이-있는데도-문장이-틀리는-경우">10. 출처 URL이 있는데도 문장이 틀리는 경우</a></li><li class="toc-level-2"><a href="#11-충돌오래된-정보삭제와-대체를-다루기">11. 충돌·오래된 정보·삭제와 대체를 다루기</a></li><li class="toc-level-3"><a href="#두-자료가-충돌하는-것처럼-보일-때">두 자료가 충돌하는 것처럼 보일 때</a></li><li class="toc-level-3"><a href="#오래됐다는-것과-틀렸다는-것은-다르다">오래됐다는 것과 틀렸다는 것은 다르다</a></li><li class="toc-level-3"><a href="#잘못된-내용을-지우고-싶을-때">잘못된 내용을 지우고 싶을 때</a></li><li class="toc-level-2"><a href="#12-lint-내용을-매끈하게-만드는-대신-점검하기">12. lint: 내용을 매끈하게 만드는 대신 점검하기</a></li><li class="toc-level-2"><a href="#13-파일-위키rag모델-학습을-어떻게-함께-생각할까">13. 파일 위키·RAG·모델 학습을 어떻게 함께 생각할까</a></li><li class="toc-level-2"><a href="#14-규모와-운영-비용의-tradeoff">14. 규모와 운영 비용의 tradeoff</a></li><li class="toc-level-2"><a href="#15-사람-검토와-작은-시작을-연결하기">15. 사람 검토와 작은 시작을 연결하기</a></li><li class="toc-level-2"><a href="#16-복사해-쓸-카드와-프롬프트">16. 복사해 쓸 카드와 프롬프트</a></li><li class="toc-level-3"><a href="#자료주장결정-카드">자료·주장·결정 카드</a></li><li class="toc-level-3"><a href="#자료를-넣을-때의-프롬프트">자료를 넣을 때의 프롬프트</a></li><li class="toc-level-3"><a href="#질문과-점검에-쓰는-프롬프트">질문과 점검에 쓰는 프롬프트</a></li><li class="toc-level-2"><a href="#17-자주-묻는-질문">17. 자주 묻는 질문</a></li><li class="toc-level-3"><a href="#기존-노트와-무엇이-다른가요">기존 노트와 무엇이 다른가요</a></li><li class="toc-level-3"><a href="#벡터-데이터베이스가-필요한가요">벡터 데이터베이스가 필요한가요</a></li><li class="toc-level-3"><a href="#ai가-답한-내용은-전부-저장하나요">AI가 답한 내용은 전부 저장하나요</a></li><li class="toc-level-3"><a href="#출처-링크가-너무-많으면-읽기-어렵지-않나요">출처 링크가 너무 많으면 읽기 어렵지 않나요</a></li><li class="toc-level-3"><a href="#원자료를-다-보존하면-오류도-계속-남지-않나요">원자료를 다 보존하면 오류도 계속 남지 않나요</a></li><li class="toc-level-3"><a href="#한-번-정리하면-그다음부터-원문을-안-읽어도-되나요">한 번 정리하면 그다음부터 원문을 안 읽어도 되나요</a></li><li class="toc-level-2"><a href="#18-자가점검과-해설">18. 자가점검과 해설</a></li><li class="toc-level-2"><a href="#19-보조-사례로-범위를-한-번-더-확인하기">19. 보조 사례로 범위를 한 번 더 확인하기</a></li></ul></nav>
       </div>
     </details>
     <aside class="material-sidebar">
-      <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html" class="is-current" aria-current="page">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">40장 대본 · 20분 핵심 진행과 선택 심화</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html">작은 스터디 위키 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li></ul></nav>
-      <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#공용-스터디-노트라는-비유-읽기">공용 스터디 노트라는 비유 읽기</a></li><li class="toc-level-2"><a href="#이번-발표의-실행-가능한-파일-예제">이번 발표의 실행 가능한 파일 예제</a></li><li class="toc-level-2"><a href="#1-답을-저장하는-것에서-지식을-축적하는-것으로">1. 답을 저장하는 것에서 지식을 축적하는 것으로</a></li><li class="toc-level-2"><a href="#2-llm-wiki-원출처가-제안한-구조">2. LLM Wiki 원출처가 제안한 구조</a></li><li class="toc-level-2"><a href="#3-한-폴더-안에서-다섯-가지를-구분하기">3. 한 폴더 안에서 다섯 가지를 구분하기</a></li><li class="toc-level-2"><a href="#4-핵심-사례-세-자료를-읽고-하나의-질문에-답하기">4. 핵심 사례: 세 자료를 읽고 하나의 질문에 답하기</a></li><li class="toc-level-3"><a href="#읽을-자료와-만들어-볼-기록">읽을 자료와 만들어 볼 기록</a></li><li class="toc-level-3"><a href="#읽기-메모를-개념-페이지로-바꾸기">읽기 메모를 개념 페이지로 바꾸기</a></li><li class="toc-level-3"><a href="#비교-페이지는-같은-질문을-공유한다">비교 페이지는 같은 질문을 공유한다</a></li><li class="toc-level-2"><a href="#5-연결도를-읽는-법">5. 연결도를 읽는 법</a></li><li class="toc-level-2"><a href="#6-질문의-답을-다시-저장하는-query">6. 질문의 답을 다시 저장하는 query</a></li><li class="toc-level-2"><a href="#7-ingest-새-자료를-넣을-때-실제로-달라지는-것">7. ingest: 새 자료를 넣을 때 실제로 달라지는 것</a></li><li class="toc-level-2"><a href="#8-index와-log는-서로-다른-질문에-답한다">8. index와 log는 서로 다른 질문에 답한다</a></li><li class="toc-level-2"><a href="#9-근거를-읽은-다음에도-결정은-남는다">9. 근거를 읽은 다음에도 결정은 남는다</a></li><li class="toc-level-2"><a href="#10-출처-url이-있는데도-문장이-틀리는-경우">10. 출처 URL이 있는데도 문장이 틀리는 경우</a></li><li class="toc-level-2"><a href="#11-충돌오래된-정보삭제와-대체를-다루기">11. 충돌·오래된 정보·삭제와 대체를 다루기</a></li><li class="toc-level-3"><a href="#두-자료가-충돌하는-것처럼-보일-때">두 자료가 충돌하는 것처럼 보일 때</a></li><li class="toc-level-3"><a href="#오래됐다는-것과-틀렸다는-것은-다르다">오래됐다는 것과 틀렸다는 것은 다르다</a></li><li class="toc-level-3"><a href="#잘못된-내용을-지우고-싶을-때">잘못된 내용을 지우고 싶을 때</a></li><li class="toc-level-2"><a href="#12-lint-내용을-매끈하게-만드는-대신-점검하기">12. lint: 내용을 매끈하게 만드는 대신 점검하기</a></li><li class="toc-level-2"><a href="#13-파일-위키rag모델-학습을-어떻게-함께-생각할까">13. 파일 위키·RAG·모델 학습을 어떻게 함께 생각할까</a></li><li class="toc-level-2"><a href="#14-규모와-운영-비용의-tradeoff">14. 규모와 운영 비용의 tradeoff</a></li><li class="toc-level-2"><a href="#15-사람-검토와-작은-시작을-연결하기">15. 사람 검토와 작은 시작을 연결하기</a></li><li class="toc-level-2"><a href="#16-복사해-쓸-카드와-프롬프트">16. 복사해 쓸 카드와 프롬프트</a></li><li class="toc-level-3"><a href="#자료주장결정-카드">자료·주장·결정 카드</a></li><li class="toc-level-3"><a href="#자료를-넣을-때의-프롬프트">자료를 넣을 때의 프롬프트</a></li><li class="toc-level-3"><a href="#질문과-점검에-쓰는-프롬프트">질문과 점검에 쓰는 프롬프트</a></li><li class="toc-level-2"><a href="#17-자주-묻는-질문">17. 자주 묻는 질문</a></li><li class="toc-level-3"><a href="#기존-노트와-무엇이-다른가요">기존 노트와 무엇이 다른가요</a></li><li class="toc-level-3"><a href="#벡터-데이터베이스가-필요한가요">벡터 데이터베이스가 필요한가요</a></li><li class="toc-level-3"><a href="#ai가-답한-내용은-전부-저장하나요">AI가 답한 내용은 전부 저장하나요</a></li><li class="toc-level-3"><a href="#출처-링크가-너무-많으면-읽기-어렵지-않나요">출처 링크가 너무 많으면 읽기 어렵지 않나요</a></li><li class="toc-level-3"><a href="#원자료를-다-보존하면-오류도-계속-남지-않나요">원자료를 다 보존하면 오류도 계속 남지 않나요</a></li><li class="toc-level-3"><a href="#한-번-정리하면-그다음부터-원문을-안-읽어도-되나요">한 번 정리하면 그다음부터 원문을 안 읽어도 되나요</a></li><li class="toc-level-2"><a href="#18-자가점검과-해설">18. 자가점검과 해설</a></li><li class="toc-level-2"><a href="#19-보조-사례로-범위를-한-번-더-확인하기">19. 보조 사례로 범위를 한 번 더 확인하기</a></li></ul></nav>
+      <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html" class="is-current" aria-current="page">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">40장 대본 · 본질과 세 사례의 20분 진행</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html">작은 LLM Wiki 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li></ul></nav>
+      <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#왜-지속하는-위키를-둘까">왜 지속하는 위키를 둘까</a></li><li class="toc-level-2"><a href="#무엇이-남고-누가-고치나">무엇이 남고 누가 고치나</a></li><li class="toc-level-2"><a href="#읽고-엮기질문하고-남기기점검하기">읽고 엮기·질문하고 남기기·점검하기</a></li><li class="toc-level-2"><a href="#세-가지-적용-예">세 가지 적용 예</a></li><li class="toc-level-3"><a href="#소설-독서">소설 독서</a></li><li class="toc-level-3"><a href="#고객-요구">고객 요구</a></li><li class="toc-level-3"><a href="#강의-메모">강의 메모</a></li><li class="toc-level-2"><a href="#세-사례에서-같은-것과-다른-것">세 사례에서 같은 것과 다른 것</a></li><li class="toc-level-2"><a href="#공개-구현과-연구는-어디까지-확인했나">공개 구현과 연구는 어디까지 확인했나</a></li><li class="toc-level-2"><a href="#기술-스터디와-정밀-교정-심화">기술 스터디와 정밀 교정 심화</a></li><li class="toc-level-2"><a href="#1-답을-저장하는-것에서-지식을-축적하는-것으로">1. 답을 저장하는 것에서 지식을 축적하는 것으로</a></li><li class="toc-level-2"><a href="#2-llm-wiki-원출처가-제안한-구조">2. LLM Wiki 원출처가 제안한 구조</a></li><li class="toc-level-2"><a href="#3-한-폴더-안에서-다섯-가지를-구분하기">3. 한 폴더 안에서 다섯 가지를 구분하기</a></li><li class="toc-level-2"><a href="#4-핵심-사례-세-자료를-읽고-하나의-질문에-답하기">4. 핵심 사례: 세 자료를 읽고 하나의 질문에 답하기</a></li><li class="toc-level-3"><a href="#읽을-자료와-만들어-볼-기록">읽을 자료와 만들어 볼 기록</a></li><li class="toc-level-3"><a href="#읽기-메모를-개념-페이지로-바꾸기">읽기 메모를 개념 페이지로 바꾸기</a></li><li class="toc-level-3"><a href="#비교-페이지는-같은-질문을-공유한다">비교 페이지는 같은 질문을 공유한다</a></li><li class="toc-level-2"><a href="#5-연결도를-읽는-법">5. 연결도를 읽는 법</a></li><li class="toc-level-2"><a href="#6-질문의-답을-다시-저장하는-query">6. 질문의 답을 다시 저장하는 query</a></li><li class="toc-level-2"><a href="#7-ingest-새-자료를-넣을-때-실제로-달라지는-것">7. ingest: 새 자료를 넣을 때 실제로 달라지는 것</a></li><li class="toc-level-2"><a href="#8-index와-log는-서로-다른-질문에-답한다">8. index와 log는 서로 다른 질문에 답한다</a></li><li class="toc-level-2"><a href="#9-근거를-읽은-다음에도-결정은-남는다">9. 근거를 읽은 다음에도 결정은 남는다</a></li><li class="toc-level-2"><a href="#10-출처-url이-있는데도-문장이-틀리는-경우">10. 출처 URL이 있는데도 문장이 틀리는 경우</a></li><li class="toc-level-2"><a href="#11-충돌오래된-정보삭제와-대체를-다루기">11. 충돌·오래된 정보·삭제와 대체를 다루기</a></li><li class="toc-level-3"><a href="#두-자료가-충돌하는-것처럼-보일-때">두 자료가 충돌하는 것처럼 보일 때</a></li><li class="toc-level-3"><a href="#오래됐다는-것과-틀렸다는-것은-다르다">오래됐다는 것과 틀렸다는 것은 다르다</a></li><li class="toc-level-3"><a href="#잘못된-내용을-지우고-싶을-때">잘못된 내용을 지우고 싶을 때</a></li><li class="toc-level-2"><a href="#12-lint-내용을-매끈하게-만드는-대신-점검하기">12. lint: 내용을 매끈하게 만드는 대신 점검하기</a></li><li class="toc-level-2"><a href="#13-파일-위키rag모델-학습을-어떻게-함께-생각할까">13. 파일 위키·RAG·모델 학습을 어떻게 함께 생각할까</a></li><li class="toc-level-2"><a href="#14-규모와-운영-비용의-tradeoff">14. 규모와 운영 비용의 tradeoff</a></li><li class="toc-level-2"><a href="#15-사람-검토와-작은-시작을-연결하기">15. 사람 검토와 작은 시작을 연결하기</a></li><li class="toc-level-2"><a href="#16-복사해-쓸-카드와-프롬프트">16. 복사해 쓸 카드와 프롬프트</a></li><li class="toc-level-3"><a href="#자료주장결정-카드">자료·주장·결정 카드</a></li><li class="toc-level-3"><a href="#자료를-넣을-때의-프롬프트">자료를 넣을 때의 프롬프트</a></li><li class="toc-level-3"><a href="#질문과-점검에-쓰는-프롬프트">질문과 점검에 쓰는 프롬프트</a></li><li class="toc-level-2"><a href="#17-자주-묻는-질문">17. 자주 묻는 질문</a></li><li class="toc-level-3"><a href="#기존-노트와-무엇이-다른가요">기존 노트와 무엇이 다른가요</a></li><li class="toc-level-3"><a href="#벡터-데이터베이스가-필요한가요">벡터 데이터베이스가 필요한가요</a></li><li class="toc-level-3"><a href="#ai가-답한-내용은-전부-저장하나요">AI가 답한 내용은 전부 저장하나요</a></li><li class="toc-level-3"><a href="#출처-링크가-너무-많으면-읽기-어렵지-않나요">출처 링크가 너무 많으면 읽기 어렵지 않나요</a></li><li class="toc-level-3"><a href="#원자료를-다-보존하면-오류도-계속-남지-않나요">원자료를 다 보존하면 오류도 계속 남지 않나요</a></li><li class="toc-level-3"><a href="#한-번-정리하면-그다음부터-원문을-안-읽어도-되나요">한 번 정리하면 그다음부터 원문을 안 읽어도 되나요</a></li><li class="toc-level-2"><a href="#18-자가점검과-해설">18. 자가점검과 해설</a></li><li class="toc-level-2"><a href="#19-보조-사례로-범위를-한-번-더-확인하기">19. 보조 사례로 범위를 한 번 더 확인하기</a></li></ul></nav>
     </aside>
     <article class="material-article" id="material-content">
-      <header class="material-intro"><p class="material-eyebrow">다음 질문에 다시 쓰는 LLM Wiki</p><h1 id="llm-wiki-혼자-공부하기">LLM Wiki 혼자 공부하기</h1><p>원자료에서 개념·비교·질문·결정으로 이어지는 지식 축적의 작동과 운영</p></header>
-      <div class="material-content"><p>여러 논문을 읽고 질문도 많이 했는데, 다음 주에 같은 질문을 처음부터 다시 하고 있나요? 이 자료는 AI가 답을 한 번 만드는 일에서 출발해, 그 답의 근거와 검토 결과를 다음 공부에서도 꺼내 쓸 수 있게 남기는 방법을 다룹니다. 중심 사례는 <strong>RAG와 LoRA를 읽는 작은 AI 스터디</strong>입니다. 별도 앱을 설치하거나 코드를 실행하지 않아도 읽을 수 있습니다.</p>
-<p><strong>예상 학습 시간은 45~60분</strong>입니다. 아래 설명을 읽으며 예제의 근거를 한 번씩 찾아보고, 자가점검에 짧게 답하는 시간을 포함한 작성자의 추정입니다. 실제 독자 시간을 측정한 결과는 아닙니다. 실습은 별도의 <a href="workshop.html">20~30분 워크숍</a>으로 분리했습니다. 발표를 진행할 때는 <a href="speaker-script.html">발표 대본</a>, 원문을 더 읽을 때는 <a href="reference-library.html">원문 읽기 안내와 용어집</a>을 이용하세요.</p>
-<p>이 자료를 마치면 세 가지를 해볼 수 있습니다. 첫째, 원자료에서 확인되는 문장과 자신의 해석을 구분합니다. 둘째, 여러 읽기 메모를 개념·비교·질문 페이지로 연결하고 검토한 답을 다시 저장합니다. 셋째, 새 정보가 들어왔을 때 무엇을 바꾸고 무엇을 과거 기록으로 남길지 설명합니다.</p>
-<h2 id="공용-스터디-노트라는-비유-읽기">공용 스터디 노트라는 비유 읽기</h2>
-<p>LLM Wiki는 자료를 읽고 연결된 파일 노트를 유지하는 설계 아이디어입니다. 이 발표에서는 이해를 돕기 위해 공용 스터디 노트를 함께 고치는 상황으로 비유합니다. 여러 사람의 협업이 모든 LLM Wiki의 필수 조건이라는 뜻은 아닙니다. LLM은 설명·연결·수정 후보를 제안하고 사람은 원문과 범위를 대조해 채택합니다.</p>
+      <header class="material-intro"><p class="material-eyebrow">다음 질문에 다시 쓰는 LLM Wiki</p><h1 id="llm-wiki-혼자-공부하기">LLM Wiki 혼자 공부하기</h1><p>LLM이 자료를 연결된 위키로 유지하는 기전과 독서·고객 요구·강의의 세 적용 예, 정밀 교정 심화</p></header>
+      <div class="material-content"><p>LLM Wiki는 LLM이 원자료 사이의 개념·비교·연결을 Markdown 위키로 작성하고 계속 갱신해, 다음 질문이 이전 정리에서 출발하도록 하는 지식관리 방식입니다. 자료별 요약을 쌓는 것과 여러 자료에 걸친 개념·비교·잠정 종합을 유지하는 것은 다릅니다. 이 안내는 <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a">Karpathy의 공개 설계</a>를 출발점으로 삼되, 예제의 파일명·검토 단계는 우리의 선택입니다.</p>
+<h2 id="왜-지속하는-위키를-둘까">왜 지속하는 위키를 둘까</h2>
+<p>자료 여러 개를 읽어 답을 얻었어도 어떤 조건을 비교했고 어떻게 연결했는지가 대화에 흩어지면 다음 질문에서 같은 정리를 반복할 수 있습니다. 이 설계는 관계와 잠정 해석을 지속하는 페이지로 남겨 새 자료와 질문으로 갱신하려는 것입니다. 질문 때 하던 종합의 일부를 자료 반영과 유용한 답의 저장 시점으로 옮긴다고 해석할 수 있습니다. 모든 검색 시스템이 축적을 못한다거나 질문 때 작업이 사라진다는 뜻은 아닙니다.</p>
+<h2 id="무엇이-남고-누가-고치나">무엇이 남고 누가 고치나</h2>
 <div class="material-table-scroll" tabindex="0" role="region" aria-label="표 가로 스크롤"><table>
 <thead>
 <tr>
-<th>친숙한 비유</th>
-<th>실제 기록의 역할</th>
-<th>다시 확인할 것</th>
+<th>대상</th>
+<th>역할</th>
+<th>예</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>읽은 자료를 둔 자료함</td>
-<td>raw·원자료 보존</td>
-<td>어떤 판의 어느 위치를 읽었나</td>
+<td>원자료 raw</td>
+<td>읽은 입력과 판을 보존하거나 다시 식별</td>
+<td>장 메모, 상담 기록, 강의 자료</td>
 </tr>
 <tr>
-<td>함께 고치는 설명 쪽</td>
-<td>wiki·연결된 설명과 질문</td>
-<td>다음 답이 실제로 다시 읽었나</td>
+<td>위키 wiki</td>
+<td>LLM이 작성·갱신하는 설명과 관계</td>
+<td>개체·개념·비교·질문 답·잠정 종합</td>
 </tr>
 <tr>
-<td>노트에 적는 약속</td>
-<td>작업 규칙</td>
-<td>결과가 규칙을 지켰는지 누가 검토하나</td>
+<td>작업 규칙 schema</td>
+<td>형식·근거·쓰기·질문·점검 전체를 안내</td>
+<td>자료 반영 때 관련 기존 설명도 확인</td>
 </tr>
 <tr>
-<td>무엇을 왜 고쳤는지의 메모</td>
-<td>log·변경 이유</td>
-<td>어떤 근거로 어느 범위를 바꿨나</td>
+<td>index / log</td>
+<td>현재 읽을 입구 / 작업 이력</td>
+<td>질문에서 찾는 쪽 / 무엇을 왜 바꿨나</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p>작업 규칙은 원자료가 거쳐 나오는 세 번째 산출물이 아니라 모든 작업에 적용하는 약속입니다. 파일 저장은 자동 기억·모델 학습이나 사실 보증과 다릅니다. <a href="speaker-script.html">발표 대본</a>은 핵심 설명·참여18분+Q&amp;A2분 배분안과 선택 심화13장을 구분하고, 이 학습서는 아래의 상세 예제를 그대로 이어갑니다.</p>
-<h2 id="이번-발표의-실행-가능한-파일-예제">이번 발표의 실행 가능한 파일 예제</h2>
-<p>40장 발표는 아래 심화 설명의 원리를 작은 Q1→Q2 파일 묶음으로 보여줍니다. <a href="demo-log.html">실제 파일 읽기와 실행 기록</a>에서 초기 오류·원문 위치·review·실제 diff·Q2의 재사용·pending·D1의 superseded와 D2를 따라가세요. <a href="../assets/9c0a83b5bf0a-llm-wiki-demo.zip">ZIP</a>을 풀면 Node로 승인안 적용과 파일 검사를 재현할 수 있습니다.</p>
-<p>이 학습서의 X-* 가상 예제와 ZIP의 C1/Q1/Q2/D1/D2는 ID 체계가 서로 다른 설명 묶음입니다. 모두 구성 예제이며, ZIP에서 실제 실행한 것은 발표자가 승인한 고정 교정안의 파일 반영·검사입니다. 자동 검색·LLM 생성·성능 실험은 수행하지 않았습니다. 기존의 개념·비교·FAQ·자가점검은 아래에 그대로 이어집니다.</p>
+<p>사람은 자료와 질문·범위·강조점을 정하고 필요한 결과를 확인합니다. 파일 읽기/쓰기 도구가 있는 LLM 에이전트는 관련 raw/wiki를 찾아 <strong>현재 답변의 문맥으로 읽고</strong> 도구로 Markdown을 작성·수정합니다. 뷰어는 결과와 관계를 읽는 창입니다. 특정 앱이 필수인 것은 아닙니다. 수동 claim 승인·ADR·보류함은 선택 가능한 운영 방식이며 패턴의 정의가 아닙니다.</p>
+<p>파일을 저장했다고 모델에 영구 기억이나 자동 파일 접근이 생기지 않습니다. 다음 질문에서 저장 페이지를 다시 찾아 읽는 경로가 필요합니다. 파일 갱신과 모델 가중치 학습은 별개의 작업입니다.</p>
+<h2 id="읽고-엮기질문하고-남기기점검하기">읽고 엮기·질문하고 남기기·점검하기</h2>
+<p><strong>Ingest:</strong> 새 입력과 기존 위키를 읽고 자료 요약뿐 아니라 관련 개체·개념·비교·잠정 종합을 갱신합니다. 기존 개념부터 바꿀 수도 있으며 모든 폴더를 순서대로 통과하는 절차가 아닙니다.</p>
+<p><strong>Query:</strong> index나 검색으로 위키를 찾아 읽고 답합니다. 필요한 세부 근거는 원자료로 돌아갑니다. 유용한 답·비교·분석은 실제 페이지로 저장해 기존 설명과 연결할 수 있습니다.</p>
+<p><strong>Lint:</strong> 낡은 설명·상충·중복·고립 페이지·빠진 개념과 근거를 찾아 다음 읽기와 갱신을 정합니다. AI가 만든 점검 후보가 곧 확정 오류는 아닙니다.</p>
+<p><a href="../assets/72d50863ca07-wiki-maintenance-loop.svg">전체 유지 순환 도식</a> · <a href="../assets/4de19f852a22-wiki-ingest-update.svg">새 자료의 여러 페이지 갱신</a> · <a href="../assets/523f5e200135-wiki-query-return.svg">질문에서 읽기와 저장</a></p>
+<h2 id="세-가지-적용-예">세 가지 적용 예</h2>
+<p>다음 소설·고객·강의 자료와 파일 문장은 <strong>모두 우리가 만든 적용 예</strong>입니다. 원저자가 제시한 독서·팀·course notes 용도를 구체화한 것이며 저자의 실제 입력/출력이나 조직 도입 성과가 아닙니다. LLM 작성·질의·저장을 실행한 결과도 아닙니다. 아래 경로는 구성 위키의 파일 이름이고 codeblock에는 읽을 실물 내용을 담았습니다.</p>
+<h3 id="소설-독서">소설 독서</h3>
+<p><a href="../assets/c25067e5b335-reading.txt">전체 입력·전후파일 txt</a> · <a href="../assets/c8c698645f7c-case-reading.svg">도식 원본</a></p>
+<h4 id="입력1-rawch01-notesmd">입력1 · raw/ch01-notes.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 가상 소설 1장 독서메모
+- 읽은 범위: 1장만
+- 서술된 행동: 서하는 지도를 숨긴 뒤 북문을 떠났다.
+- 다른 인물의 말: 도윤은 “우리를 버렸다”고 말했다.
+- 아직 모름: 서하가 지도를 숨긴 이유
+</code></pre>
+<h4 id="이전-위키-wikicharactersseohamd">이전 위키 · wiki/characters/seoha.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 서하
+1장에서 지도를 숨기고 북문을 떠난다.
+도윤은 이를 버림받은 행동으로 받아들인다.
+서하의 의도는 아직 확인하지 못했다.
+근거: raw/ch01-notes.md
+연결: places/north-gate.md, themes/trust.md
+</code></pre>
+<h4 id="새-입력-rawch03-notesmd">새 입력 · raw/ch03-notes.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 가상 소설 3장 독서메모
+- 읽은 범위: 3장까지
+- 서술된 정보: 지도에는 추적 장치가 있었다.
+- 서하의 말: 동료를 피신시키려고 지도를 감췄다.
+- 주의: 서하의 설명이 모두 사실인지는 뒤 장에서 더 확인해야 한다.
+</code></pre>
+<h4 id="갱신-위키-wikicharactersseohamd">갱신 위키 · wiki/characters/seoha.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 서하
+1장에서 지도를 숨기고 북문을 떠난다.
+3장에서 지도에 추적 장치가 있었음이 드러난다.
+서하는 동료를 피신시키려 했다고 설명한다.
+해석: 도윤이 느낀 배신과 서하가 밝힌 목적은 구별할 필요가 있다.
+미확인: 서하의 설명 전체와 이후 선택
+근거: raw/ch01-notes.md, raw/ch03-notes.md
+연결: themes/trust.md, sources/ch03.md
+</code></pre>
+<p>함께 갱신할 파일: <code>sources/ch03.md</code>(장 요약), <code>themes/trust.md</code>(관점별 해석), <code>index.md</code>(찾을 입구), <code>log.md</code>(3장으로 동기 해석을 수정한 이유). 기존1장 메모는 보존한다.</p>
+<h4 id="후속-질문과-다시-쓸-파일">후속 질문과 다시 쓸 파일</h4>
+<p>“서하의 선택을 왜 배신으로만 볼 수 없을까?” → index/인물/신뢰 주제/1·3장 메모를 읽는다. 다음은 유용한 답을 저장한다고 가정한 산출물이다. 이 생성·저장은 실행하지 않았다.</p>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># wiki/questions/seoha-and-trust.md
+1장의 도윤은 버림받았다고 판단한다. 3장의 서하는 동료 보호가 목적이었다고 말한다.
+해석: 같은 행동을 보는 관점과 나중에 알려진 설명이 다르므로 배신으로만 단정하기 어렵다.
+경계: 서하의 말 전체가 사실인지, 이후 선택이 같은 목적을 따르는지는 미확인이다.
+읽은 범위: 3장까지
+연결: characters/seoha.md, themes/trust.md
+근거: raw/ch01-notes.md, raw/ch03-notes.md
+다음 질문: 서하의 이후 행동은 이 설명과 일치하는가?
+</code></pre>
+<p>이 답은 인물·신뢰 페이지에 역방향으로 연결한다. 다음 장을 읽을 때 답의 마지막 질문이 탐색의 출발점이 된다. 줄거리 사실과 등장인물의 말, 독자의 종합 해석을 한 종류로 합치지 않는다.</p>
+<h3 id="고객-요구">고객 요구</h3>
+<p><a href="../assets/b9b79ffd8cd0-team.txt">전체 입력·전후파일 txt</a> · <a href="../assets/145b3d5fc0a2-case-team.svg">도식 원본</a></p>
+<h4 id="입력-rawcall-amd-rawcall-bmd">입력 · raw/call-a.md / raw/call-b.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 고객 A 상담
+- 목적: 월말 정산
+- 요청: 화면에서 CSV를 내려받아 회계 담당자에게 전달
+- 빈도: 월1회
+</code></pre>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 고객 B 상담
+- 목적: 매일 대시보드 갱신
+- 요청: 매일 새벽 CSV를 자동으로 받기
+- 빈도: 매일
+</code></pre>
+<h4 id="이전-위키-wikiconceptsexportmd">이전 위키 · wiki/concepts/export.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 데이터 내보내기
+A는 월말 수동 다운로드, B는 매일 자동 수집을 요청했다.
+두 요청은 출력 형식이 같지만 사용 목적·전달 주기·자동화 범위가 다르다.
+제품의 우선순위와 제공 일정은 미정이다.
+근거: raw/call-a.md, raw/call-b.md
+연결: comparisons/export-requests.md, questions/export-priority.md
+</code></pre>
+<h4 id="새-입력-rawplanning-meetingmd">새 입력 · raw/planning-meeting.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 가상 제품 회의
+- 이번 분기: 수동 CSV의 요구·구현 범위를 검토한다.
+- 예약 전송: 보류한다. 운영 비용 추정이 더 필요하다.
+- 출시일: 확정하지 않았다.
+</code></pre>
+<h4 id="갱신-위키-wikiconceptsexportmd">갱신 위키 · wiki/concepts/export.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 데이터 내보내기
+A의 월말 다운로드와 B의 일별 자동 수집은 별도 요구다.
+팀은 이번 분기에 수동 CSV 범위를 검토하기로 했다.
+예약 전송은 운영 비용 검토가 남아 보류 중이다. 출시일은 미확정이다.
+요구가 접수되었다는 사실과 제공을 약속했다는 판단을 구별한다.
+근거: raw/call-a.md, raw/call-b.md, raw/planning-meeting.md
+연결: comparisons/export-requests.md, questions/what-to-tell-b.md
+</code></pre>
+<p>함께 작성·갱신할 파일: 상담별 <code>sources/</code> 요약, <code>comparisons/export-requests.md</code>의 상태 열, 고객 응대 FAQ <code>questions/what-to-tell-b.md</code>, <code>index.md</code>, <code>log.md</code>. 회의가 생겨도 고객 B의 원래 요청은 지우지 않는다.</p>
+<h4 id="후속-질문과-재사용">후속 질문과 재사용</h4>
+<p>“고객 B에게 지금 무엇을 말할까?” → 내보내기 개념/요청 비교/회의 근거를 읽고 다음 답을 저장한다고 가정한다. 실제 응대·LLM 작성은 수행하지 않았다.</p>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># wiki/questions/what-to-tell-b.md
+B의 일별 자동 수집 요구는 접수되어 있다.
+예약 전송은 운영 비용 검토가 남아 보류 중이며 출시일은 확정하지 않았다.
+지금 확인할 질문: 일별 수동 다운로드도 업무를 해결하는가?
+이 답은 고객에게 실제 발송한 기록이 아니라 가상 응대 초안이다.
+근거: raw/call-b.md, raw/planning-meeting.md
+연결: concepts/export.md, comparisons/export-requests.md
+</code></pre>
+<p>새 비교 산출물 <code>wiki/comparisons/export-requests.md</code>는 A/B의 목적·빈도·자동화·현재 상태를 같은 열로 나란히 놓는다. 후속 상담에서 B가 일별 수동 작업도 가능하다고 답하면, 원래 요구와 변경 이유를 남기며 비교와 위 질문 답을 함께 갱신한다. 질문 답에서 새로 알게 될 정보가 다시 위키를 바꾸는 순환이다.</p>
+<h3 id="강의-메모">강의 메모</h3>
+<p><a href="../assets/7f02c1c31f4c-course.txt">전체 입력·전후파일 txt</a> · <a href="../assets/f910677f4df1-case-course.svg">도식 원본</a></p>
+<h4 id="입력-rawweek02md-rawweek07md">입력 · raw/week02.md / raw/week07.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 가상 2주차: 회귀
+연속값 예측에서 예측과 관측의 차이를 제곱한 오차의 합을 줄이는 예를 다룬다.
+</code></pre>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 가상 7주차: 회귀트리
+영역마다 대표 예측값을 정하고, 분할 뒤 영역 안의 제곱오차 합이 작아지는 후보를 비교한다.
+</code></pre>
+<h4 id="이전-위키-wikiconceptssquared-errormd">이전 위키 · wiki/concepts/squared-error.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 제곱오차
+관측과 예측의 차이를 제곱해 오차를 나타낸다.
+2주차 회귀와 7주차 회귀트리에서 서로 다른 모델 구조에 사용한다.
+주의: 트리 전체 종류로 일반화하지 않는다.
+근거: raw/week02.md, raw/week07.md
+연결: concepts/regression.md, concepts/regression-tree.md
+</code></pre>
+<h4 id="새-입력-rawweek08md">새 입력 · raw/week08.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 가상 8주차: 분류트리
+이번 예에서는 범주 분류의 분할을 Gini 불순도로 비교한다.
+7주차 회귀트리의 제곱오차 기준과 대조한다.
+</code></pre>
+<h4 id="갱신-위키-wikiconceptssquared-errormd">갱신 위키 · wiki/concepts/squared-error.md</h4>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 제곱오차
+관측과 예측의 차이를 제곱해 오차를 나타낸다.
+회귀와 회귀트리에서 쓰는 이 예의 기준이다.
+8주차 분류트리 예는 Gini 불순도를 사용하므로 같은 기준으로 묶지 않는다.
+근거: raw/week02.md, raw/week07.md, raw/week08.md
+연결: concepts/regression.md, concepts/regression-tree.md,
+      concepts/classification-tree.md, comparisons/tree-criteria.md
+</code></pre>
+<p>함께 작성·갱신할 파일: 세 강의의 source 요약, 회귀/회귀트리/분류트리 concept, <code>comparisons/tree-criteria.md</code>, 기존 질문 답의 범위, <code>index.md</code>, <code>log.md</code>. 새 입력이 기존 개념의 적용 범위를 명확하게 한다.</p>
+<h4 id="후속-질문과-재사용-2">후속 질문과 재사용</h4>
+<p>“회귀와 회귀트리는 무엇이 같고, 분류트리는 어디서 다른가?” → 제곱오차/세 모델 concept/기준 비교를 읽고 다음 종합을 저장한다고 가정한다. 모델을 실행하지 않았다.</p>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># wiki/synthesis/error-and-trees.md
+가상 2·7주차는 서로 다른 회귀 모델에서 제곱오차를 사용한다.
+8주차의 분류트리 예는 Gini 불순도로 분할을 비교한다.
+종합: 구조가 다른 모델이 같은 기준을 쓸 수 있고, 같은 트리 계열에서도 과제에 따라 기준이 다를 수 있다.
+범위: 이 세 학습메모의 예. 모든 알고리즘·강의·학습효과로 일반화하지 않는다.
+근거: raw/week02.md, raw/week07.md, raw/week08.md
+연결: concepts/squared-error.md, comparisons/tree-criteria.md
+다음 질문: 분할 기준을 바꾸면 어느 가정과 결과를 새로 확인해야 하나?
+</code></pre>
+<p>이 종합은 강의별 요약을 복사한 것이 아니라 공통 기준과 차이를 함께 설명한다. 개념·비교에서 종합으로 연결하고, 새 강의가 오면 종합의 적용 범위도 다시 검토한다. 기존 오류를 새로 만들 필요 없이 지식이 누적되는 장면이다.</p>
+<h2 id="세-사례에서-같은-것과-다른-것">세 사례에서 같은 것과 다른 것</h2>
+<div class="material-table-scroll" tabindex="0" role="region" aria-label="표 가로 스크롤"><table>
+<thead>
+<tr>
+<th>사례</th>
+<th>입력이 바꾸는 여러 페이지</th>
+<th>후속 질문에서 다시 읽는 것</th>
+<th>경계</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>소설 독서</td>
+<td>인물·주제·장 요약·질문 답</td>
+<td>행동/관점/후속 설명</td>
+<td>자기 설명과 사실·독자 해석 구별</td>
+</tr>
+<tr>
+<td>고객 요구</td>
+<td>내보내기·요구 비교·FAQ</td>
+<td>목적/주기/현재 상태</td>
+<td>요청과 제품 약속 구별</td>
+</tr>
+<tr>
+<td>강의 메모</td>
+<td>공유 개념·모델별 설명·비교·종합</td>
+<td>공통 기준과 새 조건</td>
+<td>이 예의 범위를 모든 알고리즘으로 확대하지 않음</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>페이지를 잘 남겨도 다음 질문에서 찾고 읽지 않으면 재사용되지 않습니다. 새 입력은 추가뿐 아니라 기존 조건을 더 명확히 하거나 미확인을 남기는 계기가 됩니다. 다시 쓸 가치와 원문 대조·중복·최신성 점검 부담을 함께 보세요.</p>
+<h2 id="공개-구현과-연구는-어디까지-확인했나">공개 구현과 연구는 어디까지 확인했나</h2>
+<p><a href="reference-library.html#%EA%B3%B5%EA%B0%9C-%EA%B5%AC%ED%98%84%EA%B3%BC-%EC%B4%88%EA%B8%B0-%EC%97%B0%EA%B5%AC">참고 자료의 공개 구현과 논문</a>에서 고정 코드와 실험 조건을 읽을 수 있습니다. 공개 microsoft/llmwiki는 기계적 등록과 모델 내용 작성을 분리하고, 질문 때 저장 페이지를 읽는 코드가 있습니다. 같은 판의 <code>/save</code>는 안내만 하며 자동 저장을 수행하지 않습니다. 설치·실행 성공은 확인하지 않았습니다.</p>
+<p>Wright의 강의 QA 논문은 wiki arm의59문항에 동일한 고정 section과 질문 대상 자료를 주었고, RAG arm은21벡터에서5개를 검색했습니다. wiki 쪽에는 실패할 수 있는 문맥 선택 단계가 없어 표현만의 공정 비교로 읽을 수 없습니다. 단일 코퍼스·질문당1회·한 LLM judge·비용 미측정이며 학생 학습효과 실험도 아닙니다. 앞의 가상 강의 메모는 그 논문의 실제 출력이 아닙니다.</p>
+<h2 id="기술-스터디와-정밀-교정-심화">기술 스터디와 정밀 교정 심화</h2>
+<p>아래부터는 RAG·LoRA를 공부하는 가상 스터디를 통해 주장 범위·근거·질문·운영 결정을 자세히 읽습니다. LLM Wiki 전체를 이 수동 검토 방식으로 정의하지 않습니다. <a href="../assets/9c0a83b5bf0a-llm-wiki-demo.zip">기존 실행 ZIP</a>은 고정 승인안을 Node로 반영한 파일 교정의 일부 재현이며 모델 호출·자동 검색·새 답 생성은 수행하지 않았습니다. <a href="demo-log.html">실행 범위</a>를 함께 읽으세요.</p>
 <h2 id="1-답을-저장하는-것에서-지식을-축적하는-것으로">1. 답을 저장하는 것에서 지식을 축적하는 것으로</h2>
 <p>스터디에서 “RAG와 fine-tuning은 어떻게 다른가요?”라고 물었다고 합시다. AI의 답을 채팅에 남기면 그날은 이해한 느낌이 듭니다. 그런데 다음 모임에서 “위키를 갱신하면 모델도 학습되나요?”라는 질문이 나오면, 이전 답의 어느 부분을 재사용할지 찾기가 어렵습니다. 논문의 설명인지, 누군가의 비유인지, 우리 스터디의 도구 선택인지도 뒤섞이기 쉽습니다.</p>
 <p>지식을 축적한다는 것은 이 질문들을 모두 하나의 거대한 요약으로 합치는 일이 아닙니다. <strong>다음 질문에 필요한 단위를 남기고, 그 단위 사이의 관계를 읽을 수 있게 만드는 일</strong>입니다. 예를 들어 “검색으로 문서를 가져오기”, “훈련으로 모델을 적응시키기”, “우리 스터디에서 선택한 질문 방식”은 연결되지만 서로 다른 항목입니다. 한 항목이 바뀌더라도 나머지를 어디까지 다시 봐야 하는지 알 수 있어야 합니다.</p>
@@ -84,7 +265,9 @@
   raw/                  읽은 자료와 읽기 메모
   wiki/
     index.md            어디서 읽기 시작할지 안내
+    entities/           자료에서 다루는 인물·조직·주체
     concepts/           한 개념을 설명하는 페이지
+    synthesis/          여러 자료의 잠정 종합과 해석
     comparisons/        같은 질문으로 여러 접근을 비교
     questions/          질문, 검토한 답, 남은 의문
     decisions/          우리가 선택한 행동과 이유

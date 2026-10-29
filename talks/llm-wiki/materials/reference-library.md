@@ -1,6 +1,6 @@
 ---
 title: '원문 읽기 안내와 용어 모음'
-description: 'LLM Wiki, RAG, LoRA, 출처, 결정 기록, 인용 평가를 연결해 읽는 핵심 6개 원문과 Bush 인용·사진 출처'
+description: 'LLM Wiki 원문 설계, 고정 공개 코드, 제한된 강의 QA 실험과 정밀 교정 원문을 구분해 읽는 안내'
 order: 4
 ---
 
@@ -8,7 +8,7 @@ order: 4
 
 이 문서는 링크를 모으는 데서 한 걸음 더 나아가, **어떤 질문으로 원문을 읽고 어디까지 주장할 수 있는지** 안내합니다. 먼저 [스터디 가이드](./study-guide.md)를 읽고 궁금해진 주제의 원문을 골라도 좋습니다. 직접 파일을 써 보려면 [실습과 해설](./workshop.md), 말로 설명하려면 [발표 대본](./speaker-script.md)을 이용하세요.
 
-여기서 S로 시작하는 ID는 실제 외부 자료입니다. 학습 자료의 X로 시작하는 기록은 그 원문을 공부하는 상황을 만들기 위한 가상 메모·주장·결정입니다. 학습 가이드의 보조 시간 공지도 가상입니다. **실제 논문이 있다는 사실은 가상 학습 과정이나 운영 성과를 입증하지 않습니다.** 원문은 2026년 10월 28일 확인했으며 아래 요약은 직접 인용이 아닌 한국어 설명입니다.
+여기서 S로 시작하는 ID는 실제 외부 자료입니다. 학습 자료의 X로 시작하는 기록은 그 원문을 공부하는 상황을 만들기 위한 가상 메모·주장·결정입니다. 학습 가이드의 보조 시간 공지도 가상입니다. **실제 논문이 있다는 사실은 가상 학습 과정이나 운영 성과를 입증하지 않습니다.** 기존 정밀 교정 원문은2026-10-28, LLM Wiki 설계와 아래 추가 공개 코드·논문은2026-10-29 확인했습니다. 요약은 직접 인용이 아닌 한국어 설명입니다.
 
 ## 질문에 따라 읽는 순서
 
@@ -24,7 +24,7 @@ order: 4
 
 ## 1. LLM Wiki 설계 글
 
-[Andrej Karpathy, LLM Wiki 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a) · 자료 ID S1. GitHub 생성 표시는 2026-04-04이며 별도 수정일은 확정하지 않았으며, 2026-10-29 원문의 Revisions에서 고정 revision `ac46de1ad27f92b28ac95459c782c07f6b8c964a`를 추가 확인했습니다. 댓글과 홍보 링크는 저자 본문과 구분하세요.
+[Andrej Karpathy, LLM Wiki 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a) · 자료 ID S1. revisions HTML의 생성 항목 datetime `2026-04-04T16:25:13Z`와 유일 revision 링크 `ac46de1ad27f92b28ac95459c782c07f6b8c964a`를2026-10-29 대조했습니다. API history는 접근 오류로 확인하지 못했고 별도 수정 UTC 시각은 미확인입니다. HTML 메타데이터 확인을 API 검증으로 표시하지 않습니다. 댓글과 홍보 링크는 저자 본문과 구분하세요.
 
 **읽는 이유:** ‘AI에게 문서를 맡긴다’는 말을 실제 저장 대상과 반복 작업으로 바꾸기 위해 읽습니다. 첫 읽기는 The core idea → Architecture → Operations → Indexing and logging → Note 순서입니다. 저자가 제안하는 것은 원자료를 읽어 연결된 Markdown 페이지를 유지하는 설계 패턴입니다. 원자료·위키·schema의 역할, ingest/query/lint, index와 log의 차이를 확인할 수 있습니다. [저자 본문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a)
 
@@ -70,7 +70,7 @@ order: 4
 
 **지원하는 주장:** 과거 선택의 이유와 현재 유효한 결정을 함께 읽을 수 있게 기록할 수 있습니다. **지원하지 않는 확장:** 모든 사실 확인이 결정이 되는 것은 아닙니다. 스터디의 답 저장 기준에 이 방식을 적용하거나 담당자·재검토 조건·대안을 추가하는 것은 우리의 응용입니다.
 
-**읽은 뒤 할 일:** [스터디 가이드](./study-guide.md)의 ‘검토한 답만 저장한다’는 가상 선택을 보세요. ‘논문에 이렇게 적혀 있다’와 ‘그래서 우리는 이렇게 운영한다’를 분리해 읽습니다. 더 읽을 때는 긍정적인 결과뿐 아니라 검토 시간·유지 부담도 기록한다는 점을 확인하세요. 발표 [27장](../slides.md#27)은 검토한 답을 저장하는 선택과 비용을, [17장](../slides.md#17)은 실제 문장 교정을 보여줍니다. [26장](../slides.md#26)과 [데모 기록](./demo-log.md#8-d1을-삭제하지-않고-d2로-대체한다)에서 D1 superseded→D2의 대체 이력을 읽을 수 있습니다.
+**읽은 뒤 할 일:** [스터디 가이드](./study-guide.md)의 ‘검토한 답만 저장한다’는 가상 선택을 보세요. ‘논문에 이렇게 적혀 있다’와 ‘그래서 우리는 이렇게 운영한다’를 분리해 읽습니다. 더 읽을 때는 긍정적인 결과뿐 아니라 검토 시간·유지 부담도 기록한다는 점을 확인하세요. 발표 [37장](../slides.md#37)은 결정 대체와 검토 부담을, [35장](../slides.md#35)은 실제 문장 교정을 보여줍니다. [36장](../slides.md#36)의 재사용과 [데모 기록](./demo-log.md#8-d1을-삭제하지-않고-d2로-대체한다)에서 D1 superseded→D2의 대체 이력을 읽을 수 있습니다.
 
 ## 6. ALCE 인용 평가 논문
 
@@ -81,6 +81,43 @@ order: 4
 **지원하는 주장:** 링크를 달았다는 외형과 실제 문장 지원은 다른 평가 대상입니다. **지원하지 않는 확장:** 자동 함의 판단이 진실 판정의 최종 심판은 아닙니다. 논문의 당시 모델·데이터셋 결과를 지금 도구의 오류율로 읽거나, 우리의 카드 검토를 ‘ALCE를 실행했다’고 부르면 안 됩니다.
 
 **읽은 뒤 할 일:** [실습](./workshop.md)에서 근거는 맞지만 문장이 지나치게 넓은 경우와, 문장은 지원되지만 무관한 링크를 더 붙인 경우를 나눠보세요. 사람의 읽기 활동에 평가 관점을 빌린 것입니다. 더 읽기는 §5.3 Retrieval Analysis와 §6 Human Evaluation입니다. 검색 문제·합성 문제·평가 모델의 한계를 어느 층에서 확인하는지 살펴봅니다.
+
+## 공개 구현과 초기 연구
+
+아래는 원저자의 설계 글을 실제 구현·실험과 대조하기 위한 일차 근거입니다. **관찰한 공개 구현**과 **논문 실험**을 구별하며 설치·실행 성공이나 조직 도입으로 소개하지 않습니다. 소유자가 설명하는 기능과 고정 코드의 실제 함수도 나눠 읽습니다.
+
+### Microsoft 공개 구현: 등록·LLM 작성·질문 경로
+
+[README](https://github.com/microsoft/llmwiki/blob/e09126f257c1fcf8e63234382748a51cf6a5df7f/README.md)와 [ARCHITECTURE](https://github.com/microsoft/llmwiki/blob/e09126f257c1fcf8e63234382748a51cf6a5df7f/ARCHITECTURE.md)를 확인했습니다. 고정 SHA는 `e09126f257c1fcf8e63234382748a51cf6a5df7f`, API commit 시각은2026-10-12T17:08:00Z입니다.2026-10-29 조회했습니다. GitHub microsoft organization의 공개 구현이며 Microsoft 전사 도입의 근거는 아닙니다.
+
+| 실제 읽은 코드 | 확인한 경로 | 아직 보장하지 않는 것 |
+| --- | --- | --- |
+| [ingest.ts / ingestSource](https://github.com/microsoft/llmwiki/blob/e09126f257c1fcf8e63234382748a51cf6a5df7f/packages/core/src/ingest.ts#L81) | 앞500자 preview의 source 페이지와 index/log를 기계적으로 작성 | 이 단계의 의미 종합이나 모델 호출 |
+| [llmIngest.ts](https://github.com/microsoft/llmwiki/blob/e09126f257c1fcf8e63234382748a51cf6a5df7f/packages/vscode/src/llmIngest.ts#L43) | 기계 등록 뒤 소스+기존 index를 Copilot 모델에 보내 summary/entities/concepts/crosslinks를 작성 | 모든 기존 본문 검토·모든 영향 자동 갱신. 모델이 없으면 기계 등록만 남을 수 있음 |
+| [chatParticipant / handleQuery](https://github.com/microsoft/llmwiki/blob/e09126f257c1fcf8e63234382748a51cf6a5df7f/packages/vscode/src/chatParticipant.ts#L112) | index와 키워드 상위8쪽의 각 앞3000자를 현재 답변의 문맥에 넣음 | 저장된 모든 내용이 자동으로 읽히거나 빠짐없이 검색됨 |
+| [handleSave](https://github.com/microsoft/llmwiki/blob/e09126f257c1fcf8e63234382748a51cf6a5df7f/packages/vscode/src/chatParticipant.ts#L237) | 해당 판에서는 수동 작성/ingest와 경로 안내만 출력 | README 설명처럼 이전 답을 자동 파일 저장했다는 주장 |
+
+핵심 질문은 ‘어떤 입력이 어느 함수에서 모델 문맥에 들어가고 어떤 파일이 바뀌는가’입니다. 코드 경로의 존재는 문장 정확성이나 실행 품질의 검증이 아닙니다. 발표 [29~30장](../slides.md#29)에서 이 차이를 짧게 다룹니다.
+
+### 코드 저장소를 입력으로 쓰는 독립 변형
+
+[dylannalex/llm-code-wiki의 고정 constitution](https://github.com/dylannalex/llm-code-wiki/blob/422fe1d3ff889295285b2f1a339cdbf789f43e5b/plugins/llm-code-wiki/template/constitution.md#L31)과 [validator](https://github.com/dylannalex/llm-code-wiki/blob/422fe1d3ff889295285b2f1a339cdbf789f43e5b/plugins/llm-code-wiki/template/scripts/validate.py#L291)를 읽었습니다. SHA `422fe1d3ff889295285b2f1a339cdbf789f43e5b`, API commit 시각2026-07-06T20:32:34Z, 조회2026-10-29입니다.
+
+살아 있는 코드를 참조·해시하고 repo overview, 저장소 간 개념, 서비스 계약 등을 유지하는 설계입니다. 소스 해시·locator·frontmatter·index 참조를 검사하는 코드가 있습니다. 해시 차이는 변경 신호이며 설명의 의미 오류나 자동 수정의 인증이 아닙니다. 원형의 보존 raw와 이 변형의 ‘코드 판/해시를 식별하고 파생 설명을 유지’하는 방식을 구별하세요. 규칙 문서의 승인 절차를 모든 LLM Wiki의 필수로 확대하지 않습니다. [발표31장](../slides.md#31).
+
+### 강의 코퍼스 QA 논문의 조건과 한계
+
+Brian Wright, [Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing](https://arxiv.org/html/2609.25303v1), arXiv:2609.25303v1, 제출2026-09-21T18:53:37Z.2026-10-29 본문 §3·Table1~2·§5.4·§6을 확인했습니다.
+
+강의 텍스트 부분집합의12페이지(개념7+안내5), RAG21벡터,59문항(단일페이지45/교차페이지14)을 평가했습니다. RAG는1500토큰 chunk/100 overlap·all-mpnet-base-v2·top5입니다. 같은 답변자·프롬프트·질문을 사용한다고 보고하지만 **wiki arm은59문항 모두 동일한 고정 section 집합과 각 질문의 목표 자료를 제공받아 문맥 선택 실패 단계가 없습니다.** RAG는21벡터에서5개를 검색합니다. §3의 탐색 설계와 §6의 실제 문맥 제공을 구별해야 하며 표현만의 공정 비교나 위키 탐색 성공 실험으로 읽지 않습니다.
+
+질문당 각 arm 답변1회, 한 LLM judge가10점 품질·이진 groundedness를 평가했습니다. Table2의 교차페이지14문항 결과는 RAG8.14/64%, Wiki9.93/100%입니다. 단일 코퍼스·기저선 재조정 여지·문맥 제공 비대칭·한 judge·천장효과가 있어 전체 wiki/RAG의 우열로 일반화하지 않습니다. 비용은 설계에서 언급하지만 §5.4에서 미측정이라고 밝힙니다. 학생 학습성과를 측정한 실험이 아니며 교육과정 개정 대응의 별도 실측 결과도 본문에서 확인되지 않았습니다. 초록의 single-fact와 본문의 topic-page를 같은 분류로 취급하지 않습니다.
+
+발표 [32~33장](../slides.md#32)은 이 조건을 다루며 수치 경쟁 차트를 쓰지 않습니다. [가상 강의 메모](./study-guide.md#강의-메모)는 논문의 실제 wiki 출력이 아닌 별도 구성 예입니다.
+
+### 네 종류의 사례를 읽는 기준
+
+원저자가 열거한 연구·독서·개인·팀은 **제안 용도**, 위 두 저장소는 **코드/설계 관찰**, Wright는 **제한된 QA 실험**, [세 적용 예](./study-guide.md#세-가지-적용-예)는 **우리가 만든 파일 설계**입니다. 공개 원문이 존재한다는 사실이 우리의 가상 학습·고객 응대·모델 실행이나 효과를 입증하지 않습니다.
 
 ## 용어를 역할로 구분하기
 
@@ -121,19 +158,12 @@ order: 4
 
 목차 탐색·텍스트 검색·의미 검색·구조화된 검색은 필요에 따라 함께 쓸 수 있습니다. 새로운 검색 장치를 붙여도 원자료 보존과 주장 범위 검토의 책임이 사라지지는 않습니다. 도입 효과를 말하려면 실제 질문 집합을 정해 정답 지원, 누락, 수정 시간, 운영 비용을 관찰해야 합니다.
 
-[자료 목차](./index.md) · [스터디 가이드](./study-guide.md) · [실습과 해설](./workshop.md) · [발표 대본](./speaker-script.md) · [발표 15장 · 문장과 근거의 범위](../slides.md#15)
+[자료 목차](./index.md) · [스터디 가이드](./study-guide.md) · [실습과 해설](./workshop.md) · [발표 대본](./speaker-script.md) · [발표35장 · 문장과 적용 범위](../slides.md#35)
 
 
-## 7. 발표의 두 짧은 인용과 맥락
+## 7. 연관되는 역사적 읽기
 
-2026-10-29 원저자·원출판사 본문에서 두 인용을 대조했습니다. 각 영어 인용은 공백 기준12단어이며 발표7/30장에 한 번씩 사용합니다. 한국어는 발표팀 번역으로 표시합니다. 원문 전체·댓글·저자 프로필·역사 사진을 복제하지 않습니다. 두 글의 별도 자유 재사용 라이선스는 확인하지 않았습니다.
-
-| 장 | 저자·원문 | 인용의 뜻과 지원 범위 |
-| --- | --- | --- |
-| 7 | [Andrej Karpathy, LLM Wiki, The core idea](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#the-core-idea) | 위키를 계속 남고 쌓여 가는 결과물로 설명하는 설계 아이디어. 성능 비교나 품질 보증으로 사용하지 않음 |
-| 30 | [Vannevar Bush, As We May Think, The Atlantic, 1945년7월, §6](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) | 분류 색인과 연상의 차이에서 개인 지식 장치 Memex를 구상하는 역사적 맥락. 현대 AI 성능의 증거가 아님 |
-
-Bush 글을 더 읽을 때는 §6 앞뒤의 분류와 연상 경로 설명을 살펴보세요. 이 자료에서는 내 자료 두 개를 잇는 질문을 적는 활동으로 이어갑니다. 원문의 역사적 사례를 현대 시스템 성능으로 확대하지 않습니다.
+[Vannevar Bush, As We May Think, The Atlantic, 1945년7월, §6](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)은 분류 색인과 연상 경로에서 개인 지식 장치 Memex를 구상한 글입니다. 현대 LLM이나 위키의 성능을 증명하는 원문은 아닙니다. 이전 발표의 짧은 인용 출처로 보존하며, 현재40장에는 Karpathy/Bush의 영문 직접 인용을 사용하지 않습니다. 원문 전문·댓글·역사 사진은 복제하지 않습니다.
 
 ## 8. 사진·자체 도식 출처
 
@@ -148,6 +178,6 @@ Bush 글을 더 읽을 때는 §6 앞뒤의 분류와 연상 경로 설명을 �
 
 사진은 [Pexels License](https://www.pexels.com/license/)에 따라 사용합니다(2026-10-29 확인). 무료 사용·수정·웹/발표 사용이 가능하며, 원본 사진 자체 판매·이미지 서비스 재배포·인물의 추천을 암시하는 사용은 제한됩니다.
 
-도식은 발표팀이 자체 작성했습니다. 기존 원자료/위키/규칙 도식과 새 영향8쪽·Q2재사용·현행/보류·결정대체 도식은 외부 그림을 복제하지 않았습니다. 상세 실제 문장은 [데모 기록](./demo-log.md)의 표와 문단에서 읽을 수 있습니다. 도식 원본은 [파일 관계](../assets/impact-map.svg), [Q2의 입력](../assets/reuse-inputs.svg), [현행·보류](../assets/current-pending.svg), [D1→D2](../assets/decision-transition.svg)에 있습니다. 31장은 교정안을 반영한8쪽(기존5쪽 갱신+신규3쪽), 검사한25링크, 해시를 보존한10파일을 서로 다른 단위와 확인 범위로 나누어 읽습니다. 비율·성과 점수로 비교하지 않습니다. 33장의 흐름도는 Karpathy의 Operations를 읽기·질문·점검 순서로 표현했습니다.
+도식은 발표팀이 자체 작성했습니다. 기존 원자료/위키/규칙 도식과 새 영향8쪽·Q2재사용·현행/보류·결정대체 도식은 외부 그림을 복제하지 않았습니다. 상세 실제 문장은 [데모 기록](./demo-log.md)의 표와 문단에서 읽을 수 있습니다. 도식 원본은 [파일 관계](../assets/impact-map.svg), [Q2의 입력](../assets/reuse-inputs.svg), [현행·보류](../assets/current-pending.svg), [D1→D2](../assets/decision-transition.svg)에 있습니다. 38장은 교정안을 반영한8쪽(기존5쪽 갱신+신규3쪽), 검사한25링크, 해시를 보존한10파일을 서로 다른 단위와 확인 범위로 나누어 읽습니다. 비율·성과 점수로 비교하지 않습니다. 23장의 순환 도식은 자료 반영·질문 답 저장·점검이 같은 위키로 돌아오는 관계를 표현했습니다.
 
 [20분 핵심 대본과 선택 심화](./speaker-script.md) · [자료 목차](./index.md) · [데모 ZIP](../demo/llm-wiki-demo.zip) · [실제 파일 읽기](./demo-log.md)

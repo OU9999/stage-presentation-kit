@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "source": "SYNTHESIS.md §4 / CONTENT_CONTRACT.md",
+  "planned": true,
+  "rehearsalMeasured": false,
+  "totalSlides": 40,
+  "route": [
+    {
+      "slide": 1,
+      "seconds": 20
+    },
+    {
+      "slide": 2,
+      "seconds": 35
+    },
+    {
+      "slide": 3,
+      "seconds": 40
+    },
+    {
+      "slide": 4,
+      "seconds": 35
+    },
+    {
+      "slide": 5,
+      "seconds": 35
+    },
+    {
+      "slide": 6,
+      "seconds": 40
+    },
+    {
+      "slide": 7,
+      "seconds": 45
+    },
+    {
+      "slide": 8,
+      "seconds": 40
+    },
+    {
+      "slide": 9,
+      "seconds": 35
+    },
+    {
+      "slide": 10,
+      "seconds": 35
+    },
+    {
+      "slide": 11,
+      "seconds": 45
+    },
+    {
+      "slide": 12,
+      "seconds": 40
+    },
+    {
+      "slide": 13,
+      "seconds": 35
+    },
+    {
+      "slide": 14,
+      "seconds": 45
+    },
+    {
+      "slide": 15,
+      "seconds": 40
+    },
+    {
+      "slide": 16,
+      "seconds": 35
+    },
+    {
+      "slide": 17,
+      "seconds": 45
+    },
+    {
+      "slide": 18,
+      "seconds": 40
+    },
+    {
+      "slide": 19,
+      "seconds": 40
+    },
+    {
+      "slide": 20,
+      "seconds": 35
+    },
+    {
+      "slide": 21,
+      "seconds": 35
+    },
+    {
+      "slide": 22,
+      "seconds": 35
+    },
+    {
+      "slide": 23,
+      "seconds": 30
+    },
+    {
+      "slide": 24,
+      "seconds": 60
+    },
+    {
+      "slide": 25,
+      "seconds": 45
+    },
+    {
+      "slide": 26,
+      "seconds": 35
+    },
+    {
+      "slide": 27,
+      "seconds": 40
+    },
+    {
+      "slide": 28,
+      "seconds": 40
+    },
+    {
+      "slide": 40,
+      "seconds": 120
+    }
+  ],
+  "coreSeconds": 1080,
+  "questionSeconds": 120,
+  "totalSeconds": 1200,
+  "deep": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "deepPlannedSeconds": [
+    {
+      "slide": 29,
+      "seconds": 60
+    },
+    {
+      "slide": 30,
+      "seconds": 50
+    },
+    {
+      "slide": 31,
+      "seconds": 50
+    },
+    {
+      "slide": 32,
+      "seconds": 60
+    },
+    {
+      "slide": 33,
+      "seconds": 50
+    },
+    {
+      "slide": 34,
+      "seconds": 45
+    },
+    {
+      "slide": 35,
+      "seconds": 60
+    },
+    {
+      "slide": 36,
+      "seconds": 50
+    },
+    {
+      "slide": 37,
+      "seconds": 50
+    },
+    {
+      "slide": 38,
+      "seconds": 40
+    },
+    {
+      "slide": 39,
+      "seconds": 40
+    }
+  ],
+  "deepSecondsAdditional": 555,
+  "choices": [],
+  "participation": [
+    {
+      "slide": 13,
+      "kind": "case-reflection",
+      "question": "같은 요청으로 묶어도 될까요?",
+      "reflectionSeconds": 5,
+      "includedInSlideSeconds": 35,
+      "explanationSlides": [
+        14,
+        15
+      ],
+      "equalVisualTreatment": true,
+      "noCorrectChoiceHighlight": true,
+      "recordsInput": false
+    },
+    {
+      "slide": 24,
+      "kind": "personal-question",
+      "writeSeconds": 20,
+      "shareOptional": true,
+      "noResponse": "자기 질문을 간직하고 다음 장으로 진행",
+      "recordsInput": false
+    }
+  ],
+  "transitions": [
+    {
+      "from": 28,
+      "to": 40,
+      "label": "질문과 적용 이야기"
+    },
+    {
+      "from": 40,
+      "to": 29,
+      "label": "공개 구현과 실험 더 보기"
+    },
+    {
+      "from": 40,
+      "to": 34,
+      "label": "기존 파일 교정 예제"
+    },
+    {
+      "from": 39,
+      "to": 40,
+      "label": "질문으로 돌아가기"
+    }
+  ]
+}
