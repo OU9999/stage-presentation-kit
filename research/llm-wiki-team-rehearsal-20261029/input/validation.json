@@ -1,0 +1,208 @@
+{
+  "scope": "Input fidelity and frozen source; not a listening or timing measurement",
+  "sections": 40,
+  "corePlannedSeconds": 1200,
+  "appendixAdditionalSeconds": 555,
+  "images": [
+    {
+      "phase": 1,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-01.png",
+      "sha256": "080a0c3c34c1a5a69a569183d6d22dde9ee62ee1e1a52e805befe96d0fea5c76"
+    },
+    {
+      "phase": 1,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-02.png",
+      "sha256": "6e68b7dfb5e9c8357a1266efe1ba45d2b5f33882fdd2620951f977ff4f5f71a2"
+    },
+    {
+      "phase": 1,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-03.png",
+      "sha256": "e511c0ae4e8d5dbac9c02451a216e16664ea1f43e9327d8354e717460fe45709"
+    },
+    {
+      "phase": 1,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-04.png",
+      "sha256": "f48b48d8553bc33949ca5bd00e65b9d40b2b2c9010ae9635c032844beafefde4"
+    },
+    {
+      "phase": 1,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-05.png",
+      "sha256": "e92b93aa77e57bd6957e96c87aee6748c7c2cede0c83b96d8f89cd272ae90dde"
+    },
+    {
+      "phase": 1,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-06.png",
+      "sha256": "18e76c572c0846c0a69019632398df8a7534b72cd56c8ca56ed1f2cb8fb71360"
+    },
+    {
+      "phase": 1,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-07.png",
+      "sha256": "e4af0bb37a752c4f1a53ee25736912504df74b53929419e9410289fb3026d7e6"
+    },
+    {
+      "phase": 1,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-08.png",
+      "sha256": "05b792a47ccdf081547b3f2e4ff32ab4d3d36d6bb1a46f4de5f138f5e29697fe"
+    },
+    {
+      "phase": 1,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-09.png",
+      "sha256": "04f87cba5ca42b215f223645c5902944108daaa087ac744d40046d86b7616f4c"
+    },
+    {
+      "phase": 2,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-10.png",
+      "sha256": "8008e2a6e7e3df13c3767c9b127016747cef89f78bcf82d5279c2edf7187d51b"
+    },
+    {
+      "phase": 2,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-11.png",
+      "sha256": "a0aea7a25b4216b98e0eed691ced9f3765bb682410b1008105818592eb2b7907"
+    },
+    {
+      "phase": 2,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-12.png",
+      "sha256": "5b076cca345e9693fbb2957db7425914354b73cffb8a0c9cd902d57dc4a6c5eb"
+    },
+    {
+      "phase": 2,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-13.png",
+      "sha256": "d8dfd25d98ce9661614b9397a0eb87496ac24de7d3a066112d1f23bfb863de49"
+    },
+    {
+      "phase": 2,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-14.png",
+      "sha256": "ad0c39595a76071dea124bd8bb740a83dfebbcddfda9570066e9d8c20727d54e"
+    },
+    {
+      "phase": 2,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-15.png",
+      "sha256": "1dacb7a7bb68530559c620238db0c9e701f037a0c594ce8ac4d573f26fb791f2"
+    },
+    {
+      "phase": 2,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-16.png",
+      "sha256": "d85726c76d665a06f74446e527ea39bfa00e52b284b674a6d290806225a663b2"
+    },
+    {
+      "phase": 2,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-17.png",
+      "sha256": "db54fe74a934e980be44524dc611394abe53dd09d092719788208494e8453d5f"
+    },
+    {
+      "phase": 2,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-18.png",
+      "sha256": "59f3d6727ba5aba8ae7013b1fef7b2522bb5e2913b2680162a73dad8129dd334"
+    },
+    {
+      "phase": 3,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-19.png",
+      "sha256": "ea0fb067c3f17becd4d00af2e4bfac972d3c6cf2b017b2980a1665e4936492cc"
+    },
+    {
+      "phase": 3,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-20.png",
+      "sha256": "6298ad5103f432fddcf1c85cde3bb26791f78e7f9fd3c09d3ef93c4e84763751"
+    },
+    {
+      "phase": 3,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-21.png",
+      "sha256": "31c44f96cee97c6da9e5ae19317f48d65ca3e46c0d87a4b0609b2fd2e92437d6"
+    },
+    {
+      "phase": 3,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-22.png",
+      "sha256": "6b8512d5f8ed9b5d2041b7ea894650460b7a693b79baf5ba63344d4e7c3cd631"
+    },
+    {
+      "phase": 3,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-23.png",
+      "sha256": "c2bc37f46850ce7089912486252da657797310e19e1237f6d72efa5c81b8b5e3"
+    },
+    {
+      "phase": 3,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-24.png",
+      "sha256": "21ca0e8788ee95f0d3196382aa826a0412ba042c9b933ee1871826df78b4ed2d"
+    },
+    {
+      "phase": 3,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-25.png",
+      "sha256": "d64fbd46386f1bcb067c6bc51cc0e204108d0db9f251a89509a515a2d181778b"
+    },
+    {
+      "phase": 3,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-26.png",
+      "sha256": "12572a2d1d9be2b25b42c8a171cce4e39bf7060a9a293e1639d2e7c3a58a9ae0"
+    },
+    {
+      "phase": 3,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-27.png",
+      "sha256": "722438ca0520589eb72428cfe219ba1cca1832f09b2f3ee201c0ece461d21dbc"
+    },
+    {
+      "phase": 3,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-28.png",
+      "sha256": "59c0ef962d372143078f8385f9f2665a1e21854428f6d40e811b62aba8ad2372"
+    },
+    {
+      "phase": 4,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-40.png",
+      "sha256": "0007cdb51e665d5b5a665de8a2cbcbae41b174f2e8b5696dcac13c1fd9058430"
+    },
+    {
+      "phase": 5,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-29.png",
+      "sha256": "9bc0b1b80b7d35fc207bf67ef3503f603f04e649a03a9e7ce0b0dc6e63346c77"
+    },
+    {
+      "phase": 5,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-30.png",
+      "sha256": "a8c50221a0682ae70a24a9f6fd7d59134752aa4186ac180398338806d83ed670"
+    },
+    {
+      "phase": 5,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-31.png",
+      "sha256": "1009d587d6da0115cdd13e7a0c1c4820a8fc80802b3067dbb4ea7e2040e08072"
+    },
+    {
+      "phase": 5,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-32.png",
+      "sha256": "18138eb4926fd14c7c2181070bbd34c30c0ba1d95ae79bfb5fc620f27c7aa3ec"
+    },
+    {
+      "phase": 5,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-33.png",
+      "sha256": "8e8a30cf31df508196b462e334d051d66ad800e6afa752f5ec709af6caee4bba"
+    },
+    {
+      "phase": 5,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-34.png",
+      "sha256": "8c17a802e0720cf67c1bfda2afb4b829de035afa4a9c55ce6c6368cb481962d6"
+    },
+    {
+      "phase": 5,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-35.png",
+      "sha256": "9dd64e33b037aec7564da74159edabfd07e680aa5b9dda14bd16f792030a0353"
+    },
+    {
+      "phase": 5,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-36.png",
+      "sha256": "7f0dbbcede20190fc7ad43b7e620f4b2722467622359b63456234164c3ca4719"
+    },
+    {
+      "phase": 5,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-37.png",
+      "sha256": "70f9df430224805587f076932228b90c647ff9f877a2009be4636e9dff4191b4"
+    },
+    {
+      "phase": 5,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-38.png",
+      "sha256": "9401790eaee1ba219e351c48f800d6de7c0b66fb8ff3e104174b04fe6eff7473"
+    },
+    {
+      "phase": 5,
+      "file": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-diagram-redesign-20261029/evidence/screens/slide-39.png",
+      "sha256": "41e08a83cce4c40c2d05f1d2cd384af625b9780511de13526f8f83260d942ae1"
+    }
+  ]
+}
