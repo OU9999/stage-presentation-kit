@@ -72,11 +72,11 @@
 <p><strong>Ingest:</strong> 새 입력과 기존 위키를 읽고 자료 요약뿐 아니라 관련 개체·개념·비교·잠정 종합을 갱신합니다. 기존 개념부터 바꿀 수도 있으며 모든 폴더를 순서대로 통과하는 절차가 아닙니다.</p>
 <p><strong>Query:</strong> index나 검색으로 위키를 찾아 읽고 답합니다. 필요한 세부 근거는 원자료로 돌아갑니다. 유용한 답·비교·분석은 실제 페이지로 저장해 기존 설명과 연결할 수 있습니다.</p>
 <p><strong>Lint:</strong> 낡은 설명·상충·중복·고립 페이지·빠진 개념과 근거를 찾아 다음 읽기와 갱신을 정합니다. AI가 만든 점검 후보가 곧 확정 오류는 아닙니다.</p>
-<p><a href="../assets/72d50863ca07-wiki-maintenance-loop.svg">전체 유지 순환 도식</a> · <a href="../assets/4de19f852a22-wiki-ingest-update.svg">새 자료의 여러 페이지 갱신</a> · <a href="../assets/523f5e200135-wiki-query-return.svg">질문에서 읽기와 저장</a></p>
+<p><a href="../assets/8263a8f3fd79-wiki-maintenance-loop.svg">전체 유지 순환 도식</a> · <a href="../assets/127df6c27adf-wiki-ingest-update.svg">새 자료의 여러 페이지 갱신</a> · <a href="../assets/d68e2a55ee89-wiki-query-return.svg">질문에서 읽기와 저장</a></p>
 <h2 id="세-가지-적용-예">세 가지 적용 예</h2>
 <p>다음 소설·고객·강의 자료와 파일 문장은 <strong>모두 우리가 만든 적용 예</strong>입니다. 원저자가 제시한 독서·팀·course notes 용도를 구체화한 것이며 저자의 실제 입력/출력이나 조직 도입 성과가 아닙니다. LLM 작성·질의·저장을 실행한 결과도 아닙니다. 아래 경로는 구성 위키의 파일 이름이고 codeblock에는 읽을 실물 내용을 담았습니다.</p>
 <h3 id="소설-독서">소설 독서</h3>
-<p><a href="../assets/c25067e5b335-reading.txt">전체 입력·전후파일 txt</a> · <a href="../assets/c8c698645f7c-case-reading.svg">도식 원본</a></p>
+<p><a href="../assets/c25067e5b335-reading.txt">전체 입력·전후파일 txt</a> · <a href="../assets/381686fba25b-case-reading.svg">도식 원본</a></p>
 <h4 id="입력1-rawch01-notesmd">입력1 · raw/ch01-notes.md</h4>
 <pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 가상 소설 1장 독서메모
 - 읽은 범위: 1장만
@@ -123,7 +123,7 @@
 </code></pre>
 <p>이 답은 인물·신뢰 페이지에 역방향으로 연결한다. 다음 장을 읽을 때 답의 마지막 질문이 탐색의 출발점이 된다. 줄거리 사실과 등장인물의 말, 독자의 종합 해석을 한 종류로 합치지 않는다.</p>
 <h3 id="고객-요구">고객 요구</h3>
-<p><a href="../assets/b9b79ffd8cd0-team.txt">전체 입력·전후파일 txt</a> · <a href="../assets/145b3d5fc0a2-case-team.svg">도식 원본</a></p>
+<p><a href="../assets/b9b79ffd8cd0-team.txt">전체 입력·전후파일 txt</a> · <a href="../assets/0719dc19d603-case-team.svg">도식 원본</a></p>
 <h4 id="입력-rawcall-amd-rawcall-bmd">입력 · raw/call-a.md / raw/call-b.md</h4>
 <pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 고객 A 상담
 - 목적: 월말 정산
@@ -171,7 +171,7 @@ B의 일별 자동 수집 요구는 접수되어 있다.
 </code></pre>
 <p>새 비교 산출물 <code>wiki/comparisons/export-requests.md</code>는 A/B의 목적·빈도·자동화·현재 상태를 같은 열로 나란히 놓는다. 후속 상담에서 B가 일별 수동 작업도 가능하다고 답하면, 원래 요구와 변경 이유를 남기며 비교와 위 질문 답을 함께 갱신한다. 질문 답에서 새로 알게 될 정보가 다시 위키를 바꾸는 순환이다.</p>
 <h3 id="강의-메모">강의 메모</h3>
-<p><a href="../assets/7f02c1c31f4c-course.txt">전체 입력·전후파일 txt</a> · <a href="../assets/f910677f4df1-case-course.svg">도식 원본</a></p>
+<p><a href="../assets/7f02c1c31f4c-course.txt">전체 입력·전후파일 txt</a> · <a href="../assets/92826f25bf47-case-course.svg">도식 원본</a></p>
 <h4 id="입력-rawweek02md-rawweek07md">입력 · raw/week02.md / raw/week07.md</h4>
 <pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># 가상 2주차: 회귀
 연속값 예측에서 예측과 관측의 차이를 제곱한 오차의 합을 줄이는 예를 다룬다.

@@ -1,25 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
-  <title id="title">D1을 보존하면서 D2로 저장 정책을 바꾼다</title>
-  <desc id="desc">D1의 결정은 모든 질문의 답을 현행 노트로 저장하기였다. 채팅에서 결과를 다시 찾기 어려워 한곳에 모으려 했다는 당시 맥락을 보존한다. 검토 전 C1의 일반화가 현행 노트에 섞일 수 있어 D1 상태를 superseded로 표시하고 D2에 연결한다. D2는 문장과 근거 위치와 범위를 대조한 뒤 현행 답을 갱신한다. 수정 이유를 찾아갈 수 있지만 매번 검토하는 시간이 든다는 결과를 함께 남긴다. 이 학습 예제의 선택이며 성과 측정이 아니다.</desc>
-  <rect width="1200" height="450" fill="#090909"/>
-  <g font-family="Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
-    <text x="32" y="45" fill="#ff7a3d" font-size="36" font-weight="700">D1 · 대체됨</text>
-    <text x="700" y="45" fill="#69cf82" font-size="36" font-weight="700">D2 · 이 예제에서 채택</text>
-    <path d="M32 76H515" stroke="#ff7a3d" stroke-width="2"/>
-    <path d="M700 76H1168" stroke="#69cf82" stroke-width="2"/>
-    <text x="32" y="134" fill="#f5f5f2" font-size="38" font-weight="700">모든 질문의 답을</text>
-    <text x="32" y="185" fill="#f5f5f2" font-size="38" font-weight="700">현행 노트로 저장한다.</text>
-    <text x="32" y="258" fill="#ff7a3d" font-size="32" font-weight="700">처음 맥락</text>
-    <text x="32" y="307" fill="#f5f5f2" font-size="32" font-weight="400">채팅에서 다시 찾기 어려워</text>
-    <text x="32" y="352" fill="#f5f5f2" font-size="32" font-weight="400">한곳에 모으려 했다.</text>
-    <path d="M551 168H648" stroke="#a080ff" stroke-width="3"/><path d="M648 168l-12 -8v16Z" fill="#a080ff"/>
-    <text x="551" y="229" fill="#a080ff" font-size="32" font-weight="400">대체</text>
-    <text x="700" y="134" fill="#f5f5f2" font-size="36" font-weight="700">문장·근거 위치·범위 대조</text>
-    <text x="700" y="185" fill="#f5f5f2" font-size="38" font-weight="700">검토 뒤 현행 답 갱신</text>
-    <text x="700" y="258" fill="#69cf82" font-size="32" font-weight="700">새 결과와 부담</text>
-    <text x="700" y="307" fill="#f5f5f2" font-size="32" font-weight="400">수정 이유를 찾아갈 수 있다.</text>
-    <text x="700" y="352" fill="#f5f5f2" font-size="32" font-weight="400">매번 검토하는 시간이 든다.</text>
-    <path d="M32 380H1168" stroke="#424744" stroke-width="2"/>
-    <text x="32" y="428" fill="#b7bab8" font-size="34" font-weight="400">과거 결정의 맥락·결과는 지우지 않고 보존한다.</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540" role="img" aria-labelledby="title desc">
+<title id="title">새 결정을 남기고 이전 결정도 보존한다</title>
+<desc id="desc">고정 예제의 초기 D1은 모든 답을 현행에 모으는 선택이다. D2는 문장·근거 위치·범위를 대조한 뒤 현행 답을 갱신한다. 이전 결정의 맥락은 대체됨으로 보존하고 새 결정에는 검토 시간도 기록한다.</desc>
+<rect width="1500" height="540" fill="#080808"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" letter-spacing="-.6">
+<text x="40" y="63" font-size="30" fill="#a5a5a2" font-weight="400" text-anchor="start">D1 · 초기 선택</text>
+<text x="838" y="63" font-size="30" fill="#69cf82" font-weight="400" text-anchor="start">D2 · 이 예제의 선택</text>
+<path d="M47 111L1456 111" fill="none" stroke="#474745" stroke-width="2"/>
+<circle cx="50" cy="111" r="6" fill="#a5a5a2"/>
+<circle cx="850" cy="111" r="7" fill="#69cf82"/>
+<polyline points="808,103 820,111 808,119" fill="none" stroke="#a5a5a2" stroke-width="2.5"/>
+<text x="470" y="92" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="start">이유를 남겨 대체</text>
+<text x="40" y="210" font-size="54" fill="#f6f6f4" font-weight="400" text-anchor="start">모든 답을</text>
+<text x="40" y="283" font-size="54" fill="#f6f6f4" font-weight="400" text-anchor="start">현행에 모은다.</text>
+<text x="40" y="355" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">채팅에서 찾기 어려워</text>
+<text x="40" y="401" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">한곳에 모으려 했다.</text>
+<text x="40" y="460" font-size="30" fill="#ff9d60" font-weight="400" text-anchor="start">대체됨 · 맥락 보존</text>
+<text x="838" y="210" font-size="54" fill="#f6f6f4" font-weight="400" text-anchor="start">검토한 답을</text>
+<text x="838" y="283" font-size="54" fill="#f6f6f4" font-weight="400" text-anchor="start">현행에 연결한다.</text>
+<text x="838" y="355" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">문장 · 근거 위치 · 범위 대조</text>
+<text x="838" y="401" font-size="32" fill="#ff9d60" font-weight="400" text-anchor="start">검토 시간이 든다는 부담도 기록</text>
+<text x="838" y="486" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="start">이전 결정의 맥락과 결과는 지우지 않습니다.</text>
+</g>
 </svg>

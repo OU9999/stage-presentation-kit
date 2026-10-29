@@ -1,23 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
-  <title id="title">새 질문은 고친 설명과 이전 선택을 함께 읽어 판단한다</title>
-  <desc id="desc">새 질문 Q2 우리 스터디는 어떤 답을 저장할까는 고친 주장 C1, 첫 답 Q1, 이전 선택 D1을 함께 읽어 판단한다. 링크만으로 일반화를 지원하지 못함, 다음 답이 고친 파일을 다시 읽어야 함, 채팅에서 찾기 어려워 모든 답을 모으려 했던 이유를 저장 기준의 입력으로 쓴다. 오른쪽 기록에서 왼쪽 질문으로 향한 화살표는 판단 입력이며 자동 검색이나 새 답 생성의 성능이 아니다.</desc>
-  <rect width="1200" height="450" fill="#090909"/>
-  <g font-family="Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
-    <text x="32" y="46" fill="#a080ff" font-size="26">새 질문 · Q2</text>
-    <text x="32" y="133" fill="#f5f5f2" font-size="42" font-weight="700">우리 스터디는</text>
-    <text x="32" y="191" fill="#f5f5f2" font-size="42" font-weight="700">어떤 답을</text>
-    <text x="32" y="249" fill="#f5f5f2" font-size="42" font-weight="700">저장할까</text>
-    <text x="32" y="341" fill="#b7bab8" font-size="32">함께 읽어 판단</text>
-    <path d="M405 216H327" stroke="#a080ff" stroke-width="3"/><path d="M327 216 340 208V224Z" fill="#a080ff"/>
-    <path d="M436 31H1168" stroke="#24a8ff" stroke-width="2"/>
-    <text x="436" y="76" fill="#b7bab8" font-size="26">고친 주장 · C1</text>
-    <text x="436" y="123" fill="#f5f5f2" font-size="32">링크가 있어도 일반화가 틀릴 수 있다</text>
-    <path d="M436 160H1168" stroke="#24a8ff" stroke-width="2"/>
-    <text x="436" y="205" fill="#b7bab8" font-size="26">첫 답 · Q1</text>
-    <text x="436" y="252" fill="#f5f5f2" font-size="32">다음 답에 쓰려면 고친 파일을 다시 읽는다</text>
-    <path d="M436 289H1168" stroke="#ff7a3d" stroke-width="2"/>
-    <text x="436" y="334" fill="#b7bab8" font-size="26">이전 선택 · D1</text>
-    <text x="436" y="381" fill="#f5f5f2" font-size="32">채팅에서 찾기 어려워 모든 답을 모으려 했다</text>
-    <text x="436" y="435" fill="#b7bab8" font-size="24">고정 승인 예제의 판단 입력 · 검색·생성 성능 미측정</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540" role="img" aria-labelledby="title desc">
+<title id="title">고친 설명과 이전 선택을 새 질문에서 함께 읽는다</title>
+<desc id="desc">고정 승인 예제의 C1 주장과 Q1 답, D1 이전 선택을 함께 읽어 Q2 저장 기준을 판단한다. 자동 검색이나 모델 생성 성공의 기록이 아니라 사람이 준비한 구성 예다.</desc>
+<rect width="1500" height="540" fill="#080808"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" letter-spacing="-.6">
+<text x="40" y="65" font-size="30" fill="#a5a5a2" font-weight="400" text-anchor="start">다시 읽을 세 기록</text>
+<text x="40" y="132" font-size="28" fill="#24a8ff" font-weight="400" text-anchor="start">교정한 주장 · C1</text>
+<text x="40" y="183" font-size="36" fill="#f6f6f4" font-weight="400" text-anchor="start">링크가 있어도 일반화는 틀릴 수 있다.</text>
+<path d="M40 219L700 219" fill="none" stroke="#474745" stroke-width="2"/>
+<text x="40" y="275" font-size="28" fill="#24a8ff" font-weight="400" text-anchor="start">첫 답 · Q1</text>
+<text x="40" y="326" font-size="36" fill="#f6f6f4" font-weight="400" text-anchor="start">다음 답에는 고친 파일을 다시 읽는다.</text>
+<path d="M40 362L700 362" fill="none" stroke="#474745" stroke-width="2"/>
+<text x="40" y="418" font-size="28" fill="#24a8ff" font-weight="400" text-anchor="start">이전 선택 · D1</text>
+<text x="40" y="469" font-size="32" fill="#f6f6f4" font-weight="400" text-anchor="start">채팅에서 찾기 어려워 모든 답을 모으려 했다.</text>
+<path d="M751 135V449M751 287H880" fill="none" stroke="#474745" stroke-width="2"/>
+<polyline points="868,279 880,287 868,295" fill="none" stroke="#a5a5a2" stroke-width="2.5"/>
+<text x="812" y="248" font-size="25" fill="#a5a5a2" font-weight="400" text-anchor="middle">함께 읽음</text>
+<text x="960" y="120" font-size="30" fill="#a080ff" font-weight="400" text-anchor="start">새 질문 · Q2</text>
+<text x="960" y="226" font-size="54" fill="#f6f6f4" font-weight="400" text-anchor="start">우리 스터디는</text>
+<text x="960" y="302" font-size="54" fill="#f6f6f4" font-weight="400" text-anchor="start">어떤 답을</text>
+<text x="960" y="378" font-size="54" fill="#f6f6f4" font-weight="400" text-anchor="start">저장할까?</text>
+</g>
 </svg>

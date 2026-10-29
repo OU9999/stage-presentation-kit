@@ -1,1 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" role="img" aria-labelledby="title desc"><title id="title">원자료를 읽어 위키를 유지하고 질문의 답도 다시 저장하는 순환</title><desc id="desc">파일 도구가 있는 LLM 에이전트가 원자료를 현재 문맥에 읽고 개체·개념·비교·잠정 종합을 작성한다. 새 질문은 위키를 찾아 읽고 유용한 답을 다시 페이지로 저장한다. 작업 규칙은 옆에서 전체 작업에 적용한다.</desc><rect width="1400" height="620" fill="#090909"/><g font-family="Pretendard, -apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Noto Sans KR, sans-serif"><rect x="40" y="100" width="250" height="240" rx="18" fill="#131719" stroke="#24a8ff" stroke-width="2"/><text x="65" y="150" font-size="44" font-weight="700" fill="#f5f5f2" text-anchor="start">원자료</text><text x="65" y="207" font-size="30" font-weight="500" fill="#24a8ff" text-anchor="start">읽은 판을 보존</text><text x="65" y="267" font-size="30" font-weight="500" fill="#b7bab8" text-anchor="start">메모 · 문서</text><path d="M306 220L455 220" fill="none" stroke="#24a8ff" stroke-width="3"/><path d="M441 211L455 220L441 229" fill="none" stroke="#24a8ff" stroke-width="3"/><text x="380" y="183" font-size="30" font-weight="500" fill="#b7bab8" text-anchor="middle">읽음</text><rect x="470" y="100" width="290" height="240" rx="18" fill="#131719" stroke="#a080ff" stroke-width="2"/><text x="495" y="150" font-size="40" font-weight="700" fill="#f5f5f2" text-anchor="start">LLM 에이전트</text><text x="495" y="208" font-size="30" font-weight="500" fill="#a080ff" text-anchor="start">현재 문맥에 읽고</text><text x="495" y="261" font-size="30" font-weight="500" fill="#b7bab8" text-anchor="start">도구로 파일을 씀</text><path d="M778 220L925 220" fill="none" stroke="#69cf82" stroke-width="3"/><path d="M911 211L925 220L911 229" fill="none" stroke="#69cf82" stroke-width="3"/><text x="850" y="183" font-size="30" font-weight="500" fill="#69cf82" text-anchor="middle">작성·갱신</text><rect x="940" y="100" width="420" height="240" rx="18" fill="#131719" stroke="#69cf82" stroke-width="2"/><text x="968" y="150" font-size="44" font-weight="700" fill="#f5f5f2" text-anchor="start">지속하는 위키</text><text x="968" y="210" font-size="32" font-weight="500" fill="#69cf82" text-anchor="start">개체 · 개념 · 비교</text><text x="968" y="270" font-size="32" font-weight="500" fill="#b7bab8" text-anchor="start">잠정 종합 · 질문 답</text><path d="M1150 340V450H905" fill="none" stroke="#69cf82" stroke-width="3"/><path d="M919 441L905 450L919 459" fill="none" stroke="#69cf82" stroke-width="3"/><text x="1190" y="420" font-size="28" font-weight="500" fill="#69cf82" text-anchor="start">찾아 읽음</text><rect x="470" y="405" width="420" height="140" rx="18" fill="#131719" stroke="#ffac5c" stroke-width="2"/><text x="495" y="453" font-size="36" font-weight="700" fill="#f5f5f2" text-anchor="start">새 질문 → 답</text><text x="495" y="507" font-size="29" font-weight="500" fill="#ffac5c" text-anchor="start">유용한 답을 위키에 저장</text><path d="M890 510L1300 510" fill="none" stroke="#ffac5c" stroke-width="3"/><path d="M1300 510L1300 355" fill="none" stroke="#ffac5c" stroke-width="3"/><path d="M1291 369L1300 355L1309 369" fill="none" stroke="#ffac5c" stroke-width="3"/><text x="1025" y="552" font-size="28" font-weight="500" fill="#ffac5c" text-anchor="start">답 저장의 귀환</text><text x="40" y="422" font-size="34" font-weight="700" fill="#a080ff" text-anchor="start">작업 규칙</text><text x="40" y="470" font-size="28" font-weight="500" fill="#b7bab8" text-anchor="start">읽기·쓰기·질문·점검</text><text x="40" y="518" font-size="28" font-weight="500" fill="#b7bab8" text-anchor="start">전체에 적용</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540" role="img" aria-labelledby="title desc">
+<title id="title">정리한 지식이 다음 질문의 출발점이 된다</title>
+<desc id="desc">보존 원자료를 읽은 LLM이 개념·비교·종합 페이지를 작성하고 유지한다. 새 질문은 그 페이지를 찾아 읽어 답하고 유용한 답은 다시 위키에 저장한다. 작업 규칙은 이 읽기·쓰기·점검 전체에 적용한다.</desc>
+<rect width="1500" height="540" fill="#080808"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" letter-spacing="-.6">
+<text x="32" y="63" font-size="30" fill="#24a8ff" font-weight="400" text-anchor="start">보존하는 원자료</text>
+<path d="M32 107H252L284 139V389H32Z" fill="#161615" stroke="#474745" stroke-width="1.5"/><path d="M252 107V139H284" fill="none" stroke="#474745" stroke-width="1.5"/>
+<text x="59" y="167" font-size="44" fill="#f6f6f4" font-weight="400" text-anchor="start">읽은 자료</text>
+<text x="59" y="225" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">논문 · 문서</text>
+<text x="59" y="270" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">읽기 메모</text>
+<path d="M59 310L247 310" fill="none" stroke="#474745" stroke-width="2"/>
+<path d="M59 339L219 339" fill="none" stroke="#474745" stroke-width="2"/>
+<path d="M313 247L424 247" fill="none" stroke="#a5a5a2" stroke-width="2"/><polyline points="412,239 424,247 412,255" fill="none" stroke="#a5a5a2" stroke-width="2.5"/>
+<text x="368" y="205" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="middle">읽음</text>
+<text x="478" y="63" font-size="30" fill="#69cf82" font-weight="400" text-anchor="start">LLM이 작성·갱신</text>
+<text x="478" y="145" font-size="58" fill="#f6f6f4" font-weight="400" text-anchor="start">연결된 위키</text>
+<path d="M478 177L982 177" fill="none" stroke="#474745" stroke-width="2"/>
+<text x="478" y="237" font-size="44" fill="#f6f6f4" font-weight="400" text-anchor="start">개념 · 개체</text>
+<path d="M478 261L982 261" fill="none" stroke="#474745" stroke-width="2"/>
+<text x="478" y="319" font-size="44" fill="#f6f6f4" font-weight="400" text-anchor="start">비교 · 잠정 종합</text>
+<path d="M478 345L982 345" fill="none" stroke="#474745" stroke-width="2"/>
+<text x="478" y="394" font-size="30" fill="#a5a5a2" font-weight="400" text-anchor="start">근거와 연결을 함께 남김</text>
+<path d="M1016 247L1105 247" fill="none" stroke="#a5a5a2" stroke-width="2"/><polyline points="1093,239 1105,247 1093,255" fill="none" stroke="#a5a5a2" stroke-width="2.5"/>
+<text x="1151" y="174" font-size="52" fill="#f6f6f4" font-weight="400" text-anchor="start">다음 질문</text>
+<text x="1151" y="239" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">위키를 찾아 읽고</text>
+<text x="1151" y="287" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">근거와 함께 답함</text>
+<path d="M1320 326V480H735V420" fill="none" stroke="#ff9d60" stroke-width="2"/>
+<polyline points="727,432 735,420 743,432" fill="none" stroke="#ff9d60" stroke-width="2.5"/>
+<text x="1040" y="454" font-size="32" fill="#ff9d60" font-weight="400" text-anchor="middle">유용한 답도 페이지로 저장</text>
+<text x="32" y="480" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="start">작업 규칙은 전체에 적용</text>
+</g>
+</svg>

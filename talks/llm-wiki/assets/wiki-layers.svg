@@ -1,26 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
-  <title id="title">원자료는 보존하고 위키는 갱신하며 작업 규칙은 옆에서 적용합니다</title>
-  <desc id="desc">Karpathy의 LLM Wiki 설계 아이디어를 다시 그린 자체 도식입니다. 왼쪽의 원자료를 보존하면서 LLM이 오른쪽의 연결된 위키 파일을 갱신합니다. 위키 아래의 schema는 자료가 통과하는 다음 단계가 아니라 보존·연결·검토 방법을 정하는 작업 규칙입니다. 규칙 준수를 보장한다는 뜻은 아닙니다.</desc>
-  <rect width="1200" height="450" fill="#090909"/>
-  <g font-family="Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
-    <path d="M36 83H410" stroke="#24a8ff" stroke-width="4"/>
-    <text x="36" y="148" fill="#f5f5f2" font-size="48" font-weight="700">원자료</text>
-    <text x="36" y="206" fill="#24a8ff" font-size="34">raw · 보존</text>
-    <text x="36" y="261" fill="#b7bab8" font-size="32">논문 · 읽기 메모</text>
-    <path d="M445 181H594" stroke="#24a8ff" stroke-width="4" />
-    <path d="M594 181 576 170V192Z" fill="#24a8ff"/>
-    <text x="517" y="145" text-anchor="middle" fill="#b7bab8" font-size="32">LLM</text>
-    <text x="517" y="235" text-anchor="middle" fill="#b7bab8" font-size="32">갱신</text>
-    <path d="M640 83H1164" stroke="#69cf82" stroke-width="4"/>
-    <text x="640" y="148" fill="#f5f5f2" font-size="48" font-weight="700">연결된 위키</text>
-    <text x="640" y="206" fill="#69cf82" font-size="34">wiki · 파일로 축적</text>
-    <text x="640" y="261" fill="#b7bab8" font-size="32">개념 ↔ 비교 ↔ 질문</text>
-    <path d="M640 329H1164" stroke="#a080ff" stroke-width="2"/>
-    <text x="640" y="375" fill="#a080ff" font-size="36" font-weight="700">schema · 작업 규칙</text>
-    <text x="640" y="421" fill="#b7bab8" font-size="32">보존 · 연결 · 검토 방법</text>
-    <path d="M1118 319V282" fill="none" stroke="#a080ff" stroke-width="3" stroke-dasharray="6 6" />
-    <path d="M1118 282 1108 298H1128Z" fill="#a080ff"/>
-    <text x="36" y="367" fill="#b7bab8" font-size="32">다시 열어</text>
-    <text x="36" y="413" fill="#b7bab8" font-size="32">고칠 수 있는 파일</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540" role="img" aria-labelledby="title desc">
+<title id="title">원자료와 위키를 나누고 같은 작업 규칙으로 다룬다</title>
+<desc id="desc">raw는 읽은 판을 보존하는 원자료다. wiki는 LLM이 작성·갱신하는 연결된 설명이다. schema는 둘 뒤에 통과하는 결과물이 아니라 전체의 읽기·쓰기·질문·점검을 안내하는 작업 규칙이다.</desc>
+<rect width="1500" height="540" fill="#080808"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" letter-spacing="-.6">
+<text x="40" y="57" font-size="30" fill="#24a8ff" font-weight="400" text-anchor="start">보존</text>
+<text x="40" y="142" font-size="66" fill="#f6f6f4" font-weight="400" text-anchor="start">raw/</text>
+<text x="40" y="220" font-size="40" fill="#f6f6f4" font-weight="400" text-anchor="start">논문 · 문서 · 읽기 메모</text>
+<text x="40" y="280" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">읽었던 판과 원본 위치</text>
+<path d="M565 220L738 220" fill="none" stroke="#a5a5a2" stroke-width="2"/><polyline points="726,212 738,220 726,228" fill="none" stroke="#a5a5a2" stroke-width="2.5"/>
+<text x="651" y="180" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="middle">읽어 갱신</text>
+<text x="820" y="57" font-size="30" fill="#69cf82" font-weight="400" text-anchor="start">LLM이 작성·유지</text>
+<text x="820" y="142" font-size="66" fill="#f6f6f4" font-weight="400" text-anchor="start">wiki/</text>
+<text x="820" y="220" font-size="44" fill="#f6f6f4" font-weight="400" text-anchor="start">개념 ↔ 비교 ↔ 질문</text>
+<text x="820" y="280" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">개체 · 잠정 종합 · 출처 연결</text>
+<path d="M40 382L1460 382" fill="none" stroke="#a080ff" stroke-width="2"/>
+<text x="40" y="438" font-size="38" fill="#a080ff" font-weight="400" text-anchor="start">schema</text>
+<text x="300" y="438" font-size="34" fill="#f6f6f4" font-weight="400" text-anchor="start">읽기 · 쓰기 · 질문 · 점검의 작업 규칙</text>
+<text x="300" y="490" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="start">두 영역의 작업 전체를 안내합니다.</text>
+</g>
 </svg>

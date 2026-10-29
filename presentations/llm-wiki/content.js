@@ -3,7 +3,7 @@ window.PRESENTATION = {
   "format": "markdown-v1",
   "document": {
     "sourcePath": "talks/llm-wiki/slides.md",
-    "revision": "bec9b35fc7b711651ef55d354ede5b760a2d710650bb2fd7128c83f8657cab7f"
+    "revision": "37544465f9f310da923ddf6d3fa23476b0669c500e8d1be550d2c6f992180576"
   },
   "id": "llm-wiki",
   "title": "다음 질문에 다시 쓰는 LLM Wiki",
@@ -399,7 +399,7 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/72d50863ca07-wiki-maintenance-loop.svg",
+                "src": "assets/8263a8f3fd79-wiki-maintenance-loop.svg",
                 "alt": "원자료를 읽은 LLM이 자료 요약과 기존 개념·비교·종합을 작성하고, 질문에서 위키를 다시 읽어 얻은 유용한 답을 저장한다. 작업 규칙은 전체 작업을 안내한다."
               },
               "children": [],
@@ -420,7 +420,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "한 자료의 요약을 넘어 "
+              "value": ""
             },
             {
               "type": "element",
@@ -428,7 +428,7 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "여러 자료를 함께 읽은 결과"
+                  "value": "LLM이 여러 자료의 개념·비교·종합을 작성하고 갱신합니다."
                 }
               ],
               "position": {
@@ -438,45 +438,35 @@ window.PRESENTATION = {
             },
             {
               "type": "text",
-              "value": "를 유지합니다."
+              "value": " "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "assets/8263a8f3fd79-wiki-maintenance-loop.svg"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "그림 원본"
+                }
+              ],
+              "position": {
+                "line": 70,
+                "endLine": 70
+              }
             }
           ],
           "position": {
             "line": 70,
             "endLine": 70
           }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "assets/72d50863ca07-wiki-maintenance-loop.svg"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "순환 그림 원본"
-                }
-              ],
-              "position": {
-                "line": 72,
-                "endLine": 72
-              }
-            }
-          ],
-          "position": {
-            "line": 72,
-            "endLine": 72
-          }
         }
       ],
       "origin": {
         "line": 61,
-        "endLine": 72
+        "endLine": 70
       },
       "tone": "green",
       "view": {
@@ -497,8 +487,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 80,
-          "endLine": 80
+          "line": 78,
+          "endLine": 78
         }
       },
       "blocks": [
@@ -512,6 +502,20 @@ window.PRESENTATION = {
             }
           ],
           "position": {
+            "line": 83,
+            "endLine": 83
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "파일을 현재 문맥에 읽고 Markdown 작성"
+            }
+          ],
+          "position": {
             "line": 85,
             "endLine": 85
           }
@@ -522,7 +526,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "파일을 현재 문맥에 읽고 Markdown 작성"
+              "value": "요약 · 관련 페이지 갱신"
             }
           ],
           "position": {
@@ -536,7 +540,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "요약 · 관련 페이지 갱신"
+              "value": "연결 · 답 저장 · 점검"
             }
           ],
           "position": {
@@ -546,25 +550,25 @@ window.PRESENTATION = {
         },
         {
           "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "연결 · 답 저장 · 점검"
-            }
-          ],
-          "position": {
-            "line": 91,
-            "endLine": 91
-          }
-        },
-        {
-          "type": "element",
           "tag": "h2",
           "children": [
             {
               "type": "text",
               "value": "사람"
+            }
+          ],
+          "position": {
+            "line": 94,
+            "endLine": 94
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "자료 · 범위 · 질문 선택"
             }
           ],
           "position": {
@@ -578,7 +582,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "자료 · 범위 · 질문 선택"
+              "value": "분석 방향 · 결과 확인"
             }
           ],
           "position": {
@@ -588,25 +592,25 @@ window.PRESENTATION = {
         },
         {
           "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "분석 방향 · 결과 확인"
-            }
-          ],
-          "position": {
-            "line": 100,
-            "endLine": 100
-          }
-        },
-        {
-          "type": "element",
           "tag": "h2",
           "children": [
             {
               "type": "text",
               "value": "읽는 도구"
+            }
+          ],
+          "position": {
+            "line": 103,
+            "endLine": 103
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "페이지와 링크 탐색"
             }
           ],
           "position": {
@@ -620,32 +624,18 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "페이지와 링크 탐색"
+              "value": "Obsidian 등에서 읽기"
             }
           ],
           "position": {
             "line": 107,
             "endLine": 107
           }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "Obsidian 등에서 읽기"
-            }
-          ],
-          "position": {
-            "line": 109,
-            "endLine": 109
-          }
         }
       ],
       "origin": {
-        "line": 76,
-        "endLine": 109
+        "line": 74,
+        "endLine": 107
       },
       "tone": "blue",
       "view": {
@@ -656,8 +646,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "purple",
             "origin": {
-              "line": 82,
-              "endLine": 84
+              "line": 80,
+              "endLine": 82
             }
           },
           {
@@ -665,8 +655,8 @@ window.PRESENTATION = {
             "end": 7,
             "tone": "green",
             "origin": {
-              "line": 93,
-              "endLine": 95
+              "line": 91,
+              "endLine": 93
             }
           },
           {
@@ -674,8 +664,8 @@ window.PRESENTATION = {
             "end": 10,
             "tone": "blue",
             "origin": {
-              "line": 102,
-              "endLine": 104
+              "line": 100,
+              "endLine": 102
             }
           }
         ]
@@ -694,8 +684,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 118,
-          "endLine": 118
+          "line": 116,
+          "endLine": 116
         }
       },
       "blocks": [
@@ -707,19 +697,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/9de04be0b94d-wiki-layers.svg",
+                "src": "assets/79afc5f22a98-wiki-layers.svg",
                 "alt": "보존하는 원자료 raw와 LLM이 갱신하는 wiki를 구별한다. schema 작업 규칙은 읽기·쓰기·질문·점검 전체에 적용되며 세 번째 변환 산출물이 아니다."
               },
               "children": [],
               "position": {
-                "line": 120,
-                "endLine": 120
+                "line": 118,
+                "endLine": 118
               }
             }
           ],
           "position": {
-            "line": 120,
-            "endLine": 120
+            "line": 118,
+            "endLine": 118
           }
         },
         {
@@ -728,56 +718,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": ""
-            },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "원자료는 보존 · 위키는 갱신 · 규칙은 전체 작업에 적용"
-                }
-              ],
-              "position": {
-                "line": 122,
-                "endLine": 122
-              }
-            },
-            {
-              "type": "text",
-              "value": ""
-            }
-          ],
-          "position": {
-            "line": 122,
-            "endLine": 122
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "assets/9de04be0b94d-wiki-layers.svg"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "구조 그림 원본"
-                }
-              ],
-              "position": {
-                "line": 124,
-                "endLine": 124
-              }
-            },
-            {
-              "type": "text",
-              "value": " · "
+              "value": "원자료는 보존 · 위키는 갱신 · 규칙은 전체에 적용. "
             },
             {
               "type": "element",
@@ -792,20 +733,41 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 124,
-                "endLine": 124
+                "line": 120,
+                "endLine": 120
+              }
+            },
+            {
+              "type": "text",
+              "value": " · "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "assets/79afc5f22a98-wiki-layers.svg"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "그림 원본"
+                }
+              ],
+              "position": {
+                "line": 120,
+                "endLine": 120
               }
             }
           ],
           "position": {
-            "line": 124,
-            "endLine": 124
+            "line": 120,
+            "endLine": 120
           }
         }
       ],
       "origin": {
-        "line": 113,
-        "endLine": 124
+        "line": 111,
+        "endLine": 120
       },
       "tone": "blue",
       "view": {
@@ -826,8 +788,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 133,
-          "endLine": 133
+          "line": 129,
+          "endLine": 129
         }
       },
       "blocks": [
@@ -839,19 +801,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/4de19f852a22-wiki-ingest-update.svg",
+                "src": "assets/127df6c27adf-wiki-ingest-update.svg",
                 "alt": "새 자료를 읽어 요약을 만들면서 관련 개념·비교·잠정 종합도 갱신한다. 기존 내용과 대조하고 근거와 아직 확인하지 못한 부분을 남긴다."
               },
               "children": [],
               "position": {
-                "line": 135,
-                "endLine": 135
+                "line": 131,
+                "endLine": 131
               }
             }
           ],
           "position": {
-            "line": 135,
-            "endLine": 135
+            "line": 131,
+            "endLine": 131
           }
         },
         {
@@ -872,51 +834,41 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 137,
-                "endLine": 137
+                "line": 133,
+                "endLine": 133
               }
             },
             {
               "type": "text",
-              "value": " 새 요약과 함께 기존 개념·비교·종합을 갱신합니다."
-            }
-          ],
-          "position": {
-            "line": 137,
-            "endLine": 137
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
+              "value": " 새 요약과 관련된 기존 페이지를 함께 갱신합니다. "
+            },
             {
               "type": "element",
               "tag": "a",
               "attrs": {
-                "href": "assets/4de19f852a22-wiki-ingest-update.svg"
+                "href": "assets/127df6c27adf-wiki-ingest-update.svg"
               },
               "children": [
                 {
                   "type": "text",
-                  "value": "갱신 그림 원본"
+                  "value": "그림 원본"
                 }
               ],
               "position": {
-                "line": 139,
-                "endLine": 139
+                "line": 133,
+                "endLine": 133
               }
             }
           ],
           "position": {
-            "line": 139,
-            "endLine": 139
+            "line": 133,
+            "endLine": 133
           }
         }
       ],
       "origin": {
-        "line": 128,
-        "endLine": 139
+        "line": 124,
+        "endLine": 133
       },
       "tone": "green",
       "view": {
@@ -937,8 +889,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 148,
-          "endLine": 148
+          "line": 142,
+          "endLine": 142
         }
       },
       "blocks": [
@@ -950,19 +902,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/523f5e200135-wiki-query-return.svg",
+                "src": "assets/d68e2a55ee89-wiki-query-return.svg",
                 "alt": "index나 검색으로 관련 위키를 찾고 현재 답변의 문맥으로 읽어 답한다. 유용한 새 답은 페이지로 저장하고 관련 위키에 연결한다. 필요한 근거는 원자료로 돌아간다."
               },
               "children": [],
               "position": {
-                "line": 150,
-                "endLine": 150
+                "line": 144,
+                "endLine": 144
               }
             }
           ],
           "position": {
-            "line": 150,
-            "endLine": 150
+            "line": 144,
+            "endLine": 144
           }
         },
         {
@@ -983,65 +935,41 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 152,
-                "endLine": 152
+                "line": 146,
+                "endLine": 146
               }
             },
             {
               "type": "text",
-              "value": " 관련 파일을 현재 문맥에 읽어 답하고, 유용한 답을 다시 저장합니다."
-            }
-          ],
-          "position": {
-            "line": 152,
-            "endLine": 152
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "파일 갱신과 모델 가중치 학습은 별개의 작업입니다."
-            }
-          ],
-          "position": {
-            "line": 154,
-            "endLine": 154
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
+              "value": " 위키를 읽어 답하고 유용한 답을 다시 저장합니다. 파일 갱신과 가중치 학습은 별개입니다. "
+            },
             {
               "type": "element",
               "tag": "a",
               "attrs": {
-                "href": "assets/523f5e200135-wiki-query-return.svg"
+                "href": "assets/d68e2a55ee89-wiki-query-return.svg"
               },
               "children": [
                 {
                   "type": "text",
-                  "value": "질문과 저장 그림 원본"
+                  "value": "그림 원본"
                 }
               ],
               "position": {
-                "line": 156,
-                "endLine": 156
+                "line": 146,
+                "endLine": 146
               }
             }
           ],
           "position": {
-            "line": 156,
-            "endLine": 156
+            "line": 146,
+            "endLine": 146
           }
         }
       ],
       "origin": {
-        "line": 143,
-        "endLine": 156
+        "line": 137,
+        "endLine": 146
       },
       "tone": "purple",
       "view": {
@@ -1062,8 +990,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 164,
-          "endLine": 164
+          "line": 154,
+          "endLine": 154
         }
       },
       "blocks": [
@@ -1077,8 +1005,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 169,
-            "endLine": 169
+            "line": 159,
+            "endLine": 159
           }
         },
         {
@@ -1091,8 +1019,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 171,
-            "endLine": 171
+            "line": 161,
+            "endLine": 161
           }
         },
         {
@@ -1105,8 +1033,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 173,
-            "endLine": 173
+            "line": 163,
+            "endLine": 163
           }
         },
         {
@@ -1119,8 +1047,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 178,
-            "endLine": 178
+            "line": 168,
+            "endLine": 168
           }
         },
         {
@@ -1133,8 +1061,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 180,
-            "endLine": 180
+            "line": 170,
+            "endLine": 170
           }
         },
         {
@@ -1147,8 +1075,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 182,
-            "endLine": 182
+            "line": 172,
+            "endLine": 172
           }
         },
         {
@@ -1161,8 +1089,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 187,
-            "endLine": 187
+            "line": 177,
+            "endLine": 177
           }
         },
         {
@@ -1175,8 +1103,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 189,
-            "endLine": 189
+            "line": 179,
+            "endLine": 179
           }
         },
         {
@@ -1189,14 +1117,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 191,
-            "endLine": 191
+            "line": 181,
+            "endLine": 181
           }
         }
       ],
       "origin": {
-        "line": 160,
-        "endLine": 191
+        "line": 150,
+        "endLine": 181
       },
       "tone": "yellow",
       "view": {
@@ -1207,8 +1135,8 @@ window.PRESENTATION = {
             "end": 3,
             "tone": "orange",
             "origin": {
-              "line": 166,
-              "endLine": 168
+              "line": 156,
+              "endLine": 158
             }
           },
           {
@@ -1216,8 +1144,8 @@ window.PRESENTATION = {
             "end": 6,
             "tone": "purple",
             "origin": {
-              "line": 175,
-              "endLine": 177
+              "line": 165,
+              "endLine": 167
             }
           },
           {
@@ -1225,8 +1153,8 @@ window.PRESENTATION = {
             "end": 9,
             "tone": "green",
             "origin": {
-              "line": 184,
-              "endLine": 186
+              "line": 174,
+              "endLine": 176
             }
           }
         ]
@@ -1245,8 +1173,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 200,
-          "endLine": 200
+          "line": 190,
+          "endLine": 190
         }
       },
       "blocks": [
@@ -1258,19 +1186,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/c8c698645f7c-case-reading.svg",
+                "src": "assets/381686fba25b-case-reading.svg",
                 "alt": "가상 소설의 1장과 3장 메모를 인물 서하·신뢰 주제·장 요약에 연결한다. 읽은 장의 근거와 인물의 자기 설명을 구별하며 배신에 관한 질문의 답을 남긴다."
               },
               "children": [],
               "position": {
-                "line": 202,
-                "endLine": 202
+                "line": 192,
+                "endLine": 192
               }
             }
           ],
           "position": {
-            "line": 202,
-            "endLine": 202
+            "line": 192,
+            "endLine": 192
           }
         },
         {
@@ -1279,50 +1207,8 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "가상 자료로 만든 적용 예 · 소설 독서"
-            }
-          ],
-          "position": {
-            "line": 204,
-            "endLine": 204
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "1장: "
+              "value": "가상 소설의 적용 예 · 읽은 장의 근거와 미확인을 함께 남깁니다. "
             },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "서하는 지도를 숨기고 북문을 떠났다."
-                }
-              ],
-              "position": {
-                "line": 206,
-                "endLine": 206
-              }
-            },
-            {
-              "type": "text",
-              "value": " 동기는 아직 모릅니다."
-            }
-          ],
-          "position": {
-            "line": 206,
-            "endLine": 206
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
             {
               "type": "element",
               "tag": "a",
@@ -1332,12 +1218,12 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "독서 파일 읽기"
+                  "value": "학습서"
                 }
               ],
               "position": {
-                "line": 208,
-                "endLine": 208
+                "line": 194,
+                "endLine": 194
               }
             },
             {
@@ -1357,20 +1243,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 208,
-                "endLine": 208
+                "line": 194,
+                "endLine": 194
               }
             }
           ],
           "position": {
-            "line": 208,
-            "endLine": 208
+            "line": 194,
+            "endLine": 194
           }
         }
       ],
       "origin": {
-        "line": 195,
-        "endLine": 208
+        "line": 185,
+        "endLine": 194
       },
       "tone": "purple",
       "view": {
@@ -1391,8 +1277,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 216,
-          "endLine": 216
+          "line": 202,
+          "endLine": 202
         }
       },
       "blocks": [
@@ -1414,8 +1300,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 218,
-                "endLine": 218
+                "line": 204,
+                "endLine": 204
               }
             },
             {
@@ -1424,8 +1310,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 218,
-            "endLine": 218
+            "line": 204,
+            "endLine": 204
           }
         },
         {
@@ -1438,8 +1324,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 223,
-            "endLine": 223
+            "line": 209,
+            "endLine": 209
           }
         },
         {
@@ -1456,14 +1342,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 225,
-                "endLine": 225
+                "line": 211,
+                "endLine": 211
               }
             }
           ],
           "position": {
-            "line": 225,
-            "endLine": 225
+            "line": 211,
+            "endLine": 211
           }
         },
         {
@@ -1476,8 +1362,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 230,
-            "endLine": 230
+            "line": 216,
+            "endLine": 216
           }
         },
         {
@@ -1494,14 +1380,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 232,
-                "endLine": 232
+                "line": 218,
+                "endLine": 218
               }
             }
           ],
           "position": {
-            "line": 232,
-            "endLine": 232
+            "line": 218,
+            "endLine": 218
           }
         },
         {
@@ -1518,14 +1404,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 234,
-                "endLine": 234
+                "line": 220,
+                "endLine": 220
               }
             }
           ],
           "position": {
-            "line": 234,
-            "endLine": 234
+            "line": 220,
+            "endLine": 220
           }
         },
         {
@@ -1538,14 +1424,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 236,
-            "endLine": 236
+            "line": 222,
+            "endLine": 222
           }
         }
       ],
       "origin": {
-        "line": 212,
-        "endLine": 236
+        "line": 198,
+        "endLine": 222
       },
       "tone": "purple",
       "view": {
@@ -1556,8 +1442,8 @@ window.PRESENTATION = {
             "end": 3,
             "tone": "blue",
             "origin": {
-              "line": 220,
-              "endLine": 222
+              "line": 206,
+              "endLine": 208
             }
           },
           {
@@ -1565,8 +1451,8 @@ window.PRESENTATION = {
             "end": 7,
             "tone": "purple",
             "origin": {
-              "line": 227,
-              "endLine": 229
+              "line": 213,
+              "endLine": 215
             }
           }
         ]
@@ -1585,8 +1471,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 244,
-          "endLine": 244
+          "line": 230,
+          "endLine": 230
         }
       },
       "blocks": [
@@ -1604,14 +1490,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 246,
-                "endLine": 246
+                "line": 232,
+                "endLine": 232
               }
             }
           ],
           "position": {
-            "line": 246,
-            "endLine": 246
+            "line": 232,
+            "endLine": 232
           }
         },
         {
@@ -1624,8 +1510,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 248,
-            "endLine": 248
+            "line": 234,
+            "endLine": 234
           }
         },
         {
@@ -1646,8 +1532,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 250,
-                "endLine": 250
+                "line": 236,
+                "endLine": 236
               }
             },
             {
@@ -1656,8 +1542,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 250,
-            "endLine": 250
+            "line": 236,
+            "endLine": 236
           }
         },
         {
@@ -1678,8 +1564,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 252,
-                "endLine": 252
+                "line": 238,
+                "endLine": 238
               }
             },
             {
@@ -1688,8 +1574,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 252,
-            "endLine": 252
+            "line": 238,
+            "endLine": 238
           }
         },
         {
@@ -1709,20 +1595,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 254,
-                "endLine": 254
+                "line": 240,
+                "endLine": 240
               }
             }
           ],
           "position": {
-            "line": 254,
-            "endLine": 254
+            "line": 240,
+            "endLine": 240
           }
         }
       ],
       "origin": {
-        "line": 240,
-        "endLine": 254
+        "line": 226,
+        "endLine": 240
       },
       "tone": "purple",
       "view": {
@@ -1742,8 +1628,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 262,
-          "endLine": 262
+          "line": 248,
+          "endLine": 248
         }
       },
       "blocks": [
@@ -1757,8 +1643,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 267,
-            "endLine": 267
+            "line": 253,
+            "endLine": 253
           }
         },
         {
@@ -1771,8 +1657,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 269,
-            "endLine": 269
+            "line": 255,
+            "endLine": 255
           }
         },
         {
@@ -1785,8 +1671,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 271,
-            "endLine": 271
+            "line": 257,
+            "endLine": 257
           }
         },
         {
@@ -1799,8 +1685,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 273,
-            "endLine": 273
+            "line": 259,
+            "endLine": 259
           }
         },
         {
@@ -1813,8 +1699,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 278,
-            "endLine": 278
+            "line": 264,
+            "endLine": 264
           }
         },
         {
@@ -1827,8 +1713,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 280,
-            "endLine": 280
+            "line": 266,
+            "endLine": 266
           }
         },
         {
@@ -1841,8 +1727,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 282,
-            "endLine": 282
+            "line": 268,
+            "endLine": 268
           }
         },
         {
@@ -1855,14 +1741,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 284,
-            "endLine": 284
+            "line": 270,
+            "endLine": 270
           }
         }
       ],
       "origin": {
-        "line": 258,
-        "endLine": 284
+        "line": 244,
+        "endLine": 270
       },
       "tone": "neutral",
       "view": {
@@ -1873,8 +1759,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "neutral",
             "origin": {
-              "line": 264,
-              "endLine": 266
+              "line": 250,
+              "endLine": 252
             }
           },
           {
@@ -1882,8 +1768,8 @@ window.PRESENTATION = {
             "end": 8,
             "tone": "neutral",
             "origin": {
-              "line": 275,
-              "endLine": 277
+              "line": 261,
+              "endLine": 263
             }
           }
         ]
@@ -1902,8 +1788,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 293,
-          "endLine": 293
+          "line": 279,
+          "endLine": 279
         }
       },
       "blocks": [
@@ -1915,19 +1801,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/145b3d5fc0a2-case-team.svg",
+                "src": "assets/0719dc19d603-case-team.svg",
                 "alt": "월말 수동 다운로드와 일별 자동 수집 요청을 내보내기 개념과 비교에 연결한다. 새 회의는 이번 분기 수동 CSV 범위 검토와 예약 전송 보류를 알려 관련 상태·비교·FAQ를 갱신한다. 출시일은 미확정이다."
               },
               "children": [],
               "position": {
-                "line": 295,
-                "endLine": 295
+                "line": 281,
+                "endLine": 281
               }
             }
           ],
           "position": {
-            "line": 295,
-            "endLine": 295
+            "line": 281,
+            "endLine": 281
           }
         },
         {
@@ -1936,21 +1822,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "가상 고객 요구 · 상담 두 건과 새 회의"
-            }
-          ],
-          "position": {
-            "line": 297,
-            "endLine": 297
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "같은 CSV여도 목적과 자동화 범위가 다릅니다. "
+              "value": "가상 고객 요구의 적용 예 · "
             },
             {
               "type": "element",
@@ -1962,24 +1834,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 299,
-                "endLine": 299
+                "line": 283,
+                "endLine": 283
               }
             },
             {
               "type": "text",
-              "value": "합니다."
-            }
-          ],
-          "position": {
-            "line": 299,
-            "endLine": 299
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
+              "value": "합니다. "
+            },
             {
               "type": "element",
               "tag": "a",
@@ -1989,12 +1851,12 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "고객 요구 파일 읽기"
+                  "value": "학습서"
                 }
               ],
               "position": {
-                "line": 301,
-                "endLine": 301
+                "line": 283,
+                "endLine": 283
               }
             },
             {
@@ -2014,20 +1876,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 301,
-                "endLine": 301
+                "line": 283,
+                "endLine": 283
               }
             }
           ],
           "position": {
-            "line": 301,
-            "endLine": 301
+            "line": 283,
+            "endLine": 283
           }
         }
       ],
       "origin": {
-        "line": 288,
-        "endLine": 301
+        "line": 274,
+        "endLine": 283
       },
       "tone": "green",
       "view": {
@@ -2048,8 +1910,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 309,
-          "endLine": 309
+          "line": 291,
+          "endLine": 291
         }
       },
       "blocks": [
@@ -2067,14 +1929,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 311,
-                "endLine": 311
+                "line": 293,
+                "endLine": 293
               }
             }
           ],
           "position": {
-            "line": 311,
-            "endLine": 311
+            "line": 293,
+            "endLine": 293
           }
         },
         {
@@ -2095,14 +1957,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 313,
-                "endLine": 313
+                "line": 295,
+                "endLine": 295
               }
             }
           ],
           "position": {
-            "line": 313,
-            "endLine": 313
+            "line": 295,
+            "endLine": 295
           }
         },
         {
@@ -2123,8 +1985,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 315,
-                "endLine": 315
+                "line": 297,
+                "endLine": 297
               }
             },
             {
@@ -2133,8 +1995,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 315,
-            "endLine": 315
+            "line": 297,
+            "endLine": 297
           }
         },
         {
@@ -2147,8 +2009,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 317,
-            "endLine": 317
+            "line": 299,
+            "endLine": 299
           }
         },
         {
@@ -2161,14 +2023,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 319,
-            "endLine": 319
+            "line": 301,
+            "endLine": 301
           }
         }
       ],
       "origin": {
-        "line": 305,
-        "endLine": 319
+        "line": 287,
+        "endLine": 301
       },
       "tone": "green",
       "view": {
@@ -2188,8 +2050,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 328,
-          "endLine": 328
+          "line": 310,
+          "endLine": 310
         }
       },
       "blocks": [
@@ -2201,19 +2063,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/f910677f4df1-case-course.svg",
+                "src": "assets/92826f25bf47-case-course.svg",
                 "alt": "2주차 회귀와 7주차 회귀트리의 제곱오차를 공유 개념에 연결한다. 8주차 분류트리의 Gini 기준을 비교에 더하고 공통점과 차이를 종합 파일로 남긴다."
               },
               "children": [],
               "position": {
-                "line": 330,
-                "endLine": 330
+                "line": 312,
+                "endLine": 312
               }
             }
           ],
           "position": {
-            "line": 330,
-            "endLine": 330
+            "line": 312,
+            "endLine": 312
           }
         },
         {
@@ -2222,21 +2084,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "가상 자료로 만든 적용 예 · 강의 메모"
-            }
-          ],
-          "position": {
-            "line": 332,
-            "endLine": 332
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "2주차 회귀와 7주차 회귀트리에서 "
+              "value": "가상 강의 메모의 적용 예 · "
             },
             {
               "type": "element",
@@ -2244,28 +2092,18 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "제곱오차"
+                  "value": "공통 기준과 다른 조건을 비교·종합에 연결"
                 }
               ],
               "position": {
-                "line": 334,
-                "endLine": 334
+                "line": 314,
+                "endLine": 314
               }
             },
             {
               "type": "text",
-              "value": "를 다시 만납니다."
-            }
-          ],
-          "position": {
-            "line": 334,
-            "endLine": 334
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
+              "value": "합니다. "
+            },
             {
               "type": "element",
               "tag": "a",
@@ -2275,12 +2113,12 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "강의 메모 파일 읽기"
+                  "value": "학습서"
                 }
               ],
               "position": {
-                "line": 336,
-                "endLine": 336
+                "line": 314,
+                "endLine": 314
               }
             },
             {
@@ -2300,20 +2138,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 336,
-                "endLine": 336
+                "line": 314,
+                "endLine": 314
               }
             }
           ],
           "position": {
-            "line": 336,
-            "endLine": 336
+            "line": 314,
+            "endLine": 314
           }
         }
       ],
       "origin": {
-        "line": 323,
-        "endLine": 336
+        "line": 305,
+        "endLine": 314
       },
       "tone": "blue",
       "view": {
@@ -2334,8 +2172,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 344,
-          "endLine": 344
+          "line": 322,
+          "endLine": 322
         }
       },
       "blocks": [
@@ -2349,8 +2187,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 346,
-            "endLine": 346
+            "line": 324,
+            "endLine": 324
           }
         },
         {
@@ -2375,8 +2213,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 348,
-                        "endLine": 348
+                        "line": 326,
+                        "endLine": 326
                       }
                     },
                     {
@@ -2389,8 +2227,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 348,
-                        "endLine": 348
+                        "line": 326,
+                        "endLine": 326
                       }
                     },
                     {
@@ -2403,20 +2241,20 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 348,
-                        "endLine": 348
+                        "line": 326,
+                        "endLine": 326
                       }
                     }
                   ],
                   "position": {
-                    "line": 348,
-                    "endLine": 348
+                    "line": 326,
+                    "endLine": 326
                   }
                 }
               ],
               "position": {
-                "line": 348,
-                "endLine": 348
+                "line": 326,
+                "endLine": 326
               }
             },
             {
@@ -2437,8 +2275,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 350,
-                        "endLine": 350
+                        "line": 328,
+                        "endLine": 328
                       }
                     },
                     {
@@ -2451,8 +2289,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 350,
-                        "endLine": 350
+                        "line": 328,
+                        "endLine": 328
                       }
                     },
                     {
@@ -2465,14 +2303,14 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 350,
-                        "endLine": 350
+                        "line": 328,
+                        "endLine": 328
                       }
                     }
                   ],
                   "position": {
-                    "line": 350,
-                    "endLine": 350
+                    "line": 328,
+                    "endLine": 328
                   }
                 },
                 {
@@ -2489,8 +2327,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 351,
-                        "endLine": 351
+                        "line": 329,
+                        "endLine": 329
                       }
                     },
                     {
@@ -2503,8 +2341,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 351,
-                        "endLine": 351
+                        "line": 329,
+                        "endLine": 329
                       }
                     },
                     {
@@ -2517,14 +2355,14 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 351,
-                        "endLine": 351
+                        "line": 329,
+                        "endLine": 329
                       }
                     }
                   ],
                   "position": {
-                    "line": 351,
-                    "endLine": 351
+                    "line": 329,
+                    "endLine": 329
                   }
                 },
                 {
@@ -2549,8 +2387,8 @@ window.PRESENTATION = {
                             }
                           ],
                           "position": {
-                            "line": 352,
-                            "endLine": 352
+                            "line": 330,
+                            "endLine": 330
                           }
                         },
                         {
@@ -2559,8 +2397,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 352,
-                        "endLine": 352
+                        "line": 330,
+                        "endLine": 330
                       }
                     },
                     {
@@ -2581,8 +2419,8 @@ window.PRESENTATION = {
                             }
                           ],
                           "position": {
-                            "line": 352,
-                            "endLine": 352
+                            "line": 330,
+                            "endLine": 330
                           }
                         },
                         {
@@ -2591,8 +2429,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 352,
-                        "endLine": 352
+                        "line": 330,
+                        "endLine": 330
                       }
                     },
                     {
@@ -2613,8 +2451,8 @@ window.PRESENTATION = {
                             }
                           ],
                           "position": {
-                            "line": 352,
-                            "endLine": 352
+                            "line": 330,
+                            "endLine": 330
                           }
                         },
                         {
@@ -2623,26 +2461,26 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 352,
-                        "endLine": 352
+                        "line": 330,
+                        "endLine": 330
                       }
                     }
                   ],
                   "position": {
-                    "line": 352,
-                    "endLine": 352
+                    "line": 330,
+                    "endLine": 330
                   }
                 }
               ],
               "position": {
-                "line": 350,
-                "endLine": 352
+                "line": 328,
+                "endLine": 330
               }
             }
           ],
           "position": {
-            "line": 348,
-            "endLine": 352
+            "line": 326,
+            "endLine": 330
           }
         },
         {
@@ -2663,8 +2501,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 354,
-                "endLine": 354
+                "line": 332,
+                "endLine": 332
               }
             },
             {
@@ -2673,14 +2511,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 354,
-            "endLine": 354
+            "line": 332,
+            "endLine": 332
           }
         }
       ],
       "origin": {
-        "line": 340,
-        "endLine": 354
+        "line": 318,
+        "endLine": 332
       },
       "tone": "blue",
       "view": {
@@ -2700,8 +2538,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 362,
-          "endLine": 362
+          "line": 340,
+          "endLine": 340
         }
       },
       "blocks": [
@@ -2719,14 +2557,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 364,
-                "endLine": 364
+                "line": 342,
+                "endLine": 342
               }
             }
           ],
           "position": {
-            "line": 364,
-            "endLine": 364
+            "line": 342,
+            "endLine": 342
           }
         },
         {
@@ -2747,8 +2585,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 366,
-                "endLine": 366
+                "line": 344,
+                "endLine": 344
               }
             },
             {
@@ -2757,8 +2595,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 366,
-            "endLine": 366
+            "line": 344,
+            "endLine": 344
           }
         },
         {
@@ -2771,8 +2609,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 368,
-            "endLine": 368
+            "line": 346,
+            "endLine": 346
           }
         },
         {
@@ -2793,8 +2631,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 370,
-                "endLine": 370
+                "line": 348,
+                "endLine": 348
               }
             },
             {
@@ -2803,14 +2641,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 370,
-            "endLine": 370
+            "line": 348,
+            "endLine": 348
           }
         }
       ],
       "origin": {
-        "line": 358,
-        "endLine": 370
+        "line": 336,
+        "endLine": 348
       },
       "tone": "blue",
       "view": {
@@ -2830,8 +2668,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 378,
-          "endLine": 378
+          "line": 356,
+          "endLine": 356
         }
       },
       "blocks": [
@@ -2845,8 +2683,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 380,
-            "endLine": 380
+            "line": 358,
+            "endLine": 358
           }
         },
         {
@@ -2871,8 +2709,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 382,
-                        "endLine": 382
+                        "line": 360,
+                        "endLine": 360
                       }
                     },
                     {
@@ -2885,8 +2723,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 382,
-                        "endLine": 382
+                        "line": 360,
+                        "endLine": 360
                       }
                     },
                     {
@@ -2899,20 +2737,20 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 382,
-                        "endLine": 382
+                        "line": 360,
+                        "endLine": 360
                       }
                     }
                   ],
                   "position": {
-                    "line": 382,
-                    "endLine": 382
+                    "line": 360,
+                    "endLine": 360
                   }
                 }
               ],
               "position": {
-                "line": 382,
-                "endLine": 382
+                "line": 360,
+                "endLine": 360
               }
             },
             {
@@ -2933,8 +2771,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 384,
-                        "endLine": 384
+                        "line": 362,
+                        "endLine": 362
                       }
                     },
                     {
@@ -2947,8 +2785,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 384,
-                        "endLine": 384
+                        "line": 362,
+                        "endLine": 362
                       }
                     },
                     {
@@ -2961,14 +2799,14 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 384,
-                        "endLine": 384
+                        "line": 362,
+                        "endLine": 362
                       }
                     }
                   ],
                   "position": {
-                    "line": 384,
-                    "endLine": 384
+                    "line": 362,
+                    "endLine": 362
                   }
                 },
                 {
@@ -2985,8 +2823,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 385,
-                        "endLine": 385
+                        "line": 363,
+                        "endLine": 363
                       }
                     },
                     {
@@ -2999,8 +2837,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 385,
-                        "endLine": 385
+                        "line": 363,
+                        "endLine": 363
                       }
                     },
                     {
@@ -3013,14 +2851,14 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 385,
-                        "endLine": 385
+                        "line": 363,
+                        "endLine": 363
                       }
                     }
                   ],
                   "position": {
-                    "line": 385,
-                    "endLine": 385
+                    "line": 363,
+                    "endLine": 363
                   }
                 },
                 {
@@ -3037,8 +2875,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 386,
-                        "endLine": 386
+                        "line": 364,
+                        "endLine": 364
                       }
                     },
                     {
@@ -3051,8 +2889,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 386,
-                        "endLine": 386
+                        "line": 364,
+                        "endLine": 364
                       }
                     },
                     {
@@ -3065,26 +2903,26 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 386,
-                        "endLine": 386
+                        "line": 364,
+                        "endLine": 364
                       }
                     }
                   ],
                   "position": {
-                    "line": 386,
-                    "endLine": 386
+                    "line": 364,
+                    "endLine": 364
                   }
                 }
               ],
               "position": {
-                "line": 384,
-                "endLine": 386
+                "line": 362,
+                "endLine": 364
               }
             }
           ],
           "position": {
-            "line": 382,
-            "endLine": 386
+            "line": 360,
+            "endLine": 364
           }
         },
         {
@@ -3105,8 +2943,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 388,
-                "endLine": 388
+                "line": 366,
+                "endLine": 366
               }
             },
             {
@@ -3115,8 +2953,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 388,
-            "endLine": 388
+            "line": 366,
+            "endLine": 366
           }
         },
         {
@@ -3136,20 +2974,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 390,
-                "endLine": 390
+                "line": 368,
+                "endLine": 368
               }
             }
           ],
           "position": {
-            "line": 390,
-            "endLine": 390
+            "line": 368,
+            "endLine": 368
           }
         }
       ],
       "origin": {
-        "line": 374,
-        "endLine": 390
+        "line": 352,
+        "endLine": 368
       },
       "tone": "orange",
       "view": {
@@ -3169,8 +3007,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 398,
-          "endLine": 398
+          "line": 376,
+          "endLine": 376
         }
       },
       "blocks": [
@@ -3184,8 +3022,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 403,
-            "endLine": 403
+            "line": 381,
+            "endLine": 381
           }
         },
         {
@@ -3198,8 +3036,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 405,
-            "endLine": 405
+            "line": 383,
+            "endLine": 383
           }
         },
         {
@@ -3212,8 +3050,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 407,
-            "endLine": 407
+            "line": 385,
+            "endLine": 385
           }
         },
         {
@@ -3226,8 +3064,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 412,
-            "endLine": 412
+            "line": 390,
+            "endLine": 390
           }
         },
         {
@@ -3240,8 +3078,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 414,
-            "endLine": 414
+            "line": 392,
+            "endLine": 392
           }
         },
         {
@@ -3254,8 +3092,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 416,
-            "endLine": 416
+            "line": 394,
+            "endLine": 394
           }
         },
         {
@@ -3276,8 +3114,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 418,
-                "endLine": 418
+                "line": 396,
+                "endLine": 396
               }
             },
             {
@@ -3286,14 +3124,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 418,
-            "endLine": 418
+            "line": 396,
+            "endLine": 396
           }
         }
       ],
       "origin": {
-        "line": 394,
-        "endLine": 418
+        "line": 372,
+        "endLine": 396
       },
       "tone": "blue",
       "view": {
@@ -3304,8 +3142,8 @@ window.PRESENTATION = {
             "end": 3,
             "tone": "blue",
             "origin": {
-              "line": 400,
-              "endLine": 402
+              "line": 378,
+              "endLine": 380
             }
           },
           {
@@ -3313,8 +3151,8 @@ window.PRESENTATION = {
             "end": 7,
             "tone": "purple",
             "origin": {
-              "line": 409,
-              "endLine": 411
+              "line": 387,
+              "endLine": 389
             }
           }
         ]
@@ -3333,8 +3171,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 426,
-          "endLine": 426
+          "line": 404,
+          "endLine": 404
         }
       },
       "blocks": [
@@ -3348,8 +3186,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 431,
-            "endLine": 431
+            "line": 409,
+            "endLine": 409
           }
         },
         {
@@ -3362,8 +3200,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 433,
-            "endLine": 433
+            "line": 411,
+            "endLine": 411
           }
         },
         {
@@ -3376,8 +3214,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 435,
-            "endLine": 435
+            "line": 413,
+            "endLine": 413
           }
         },
         {
@@ -3390,8 +3228,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 440,
-            "endLine": 440
+            "line": 418,
+            "endLine": 418
           }
         },
         {
@@ -3404,8 +3242,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 442,
-            "endLine": 442
+            "line": 420,
+            "endLine": 420
           }
         },
         {
@@ -3418,8 +3256,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 444,
-            "endLine": 444
+            "line": 422,
+            "endLine": 422
           }
         },
         {
@@ -3432,8 +3270,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 449,
-            "endLine": 449
+            "line": 427,
+            "endLine": 427
           }
         },
         {
@@ -3446,8 +3284,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 451,
-            "endLine": 451
+            "line": 429,
+            "endLine": 429
           }
         },
         {
@@ -3460,14 +3298,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 453,
-            "endLine": 453
+            "line": 431,
+            "endLine": 431
           }
         }
       ],
       "origin": {
-        "line": 422,
-        "endLine": 453
+        "line": 400,
+        "endLine": 431
       },
       "tone": "orange",
       "view": {
@@ -3478,8 +3316,8 @@ window.PRESENTATION = {
             "end": 3,
             "tone": "purple",
             "origin": {
-              "line": 428,
-              "endLine": 430
+              "line": 406,
+              "endLine": 408
             }
           },
           {
@@ -3487,8 +3325,8 @@ window.PRESENTATION = {
             "end": 6,
             "tone": "green",
             "origin": {
-              "line": 437,
-              "endLine": 439
+              "line": 415,
+              "endLine": 417
             }
           },
           {
@@ -3496,8 +3334,8 @@ window.PRESENTATION = {
             "end": 9,
             "tone": "blue",
             "origin": {
-              "line": 446,
-              "endLine": 448
+              "line": 424,
+              "endLine": 426
             }
           }
         ]
@@ -3516,8 +3354,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 461,
-          "endLine": 461
+          "line": 439,
+          "endLine": 439
         }
       },
       "blocks": [
@@ -3531,8 +3369,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 466,
-            "endLine": 466
+            "line": 444,
+            "endLine": 444
           }
         },
         {
@@ -3545,8 +3383,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 468,
-            "endLine": 468
+            "line": 446,
+            "endLine": 446
           }
         },
         {
@@ -3559,8 +3397,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 470,
-            "endLine": 470
+            "line": 448,
+            "endLine": 448
           }
         },
         {
@@ -3573,8 +3411,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 472,
-            "endLine": 472
+            "line": 450,
+            "endLine": 450
           }
         },
         {
@@ -3587,8 +3425,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 477,
-            "endLine": 477
+            "line": 455,
+            "endLine": 455
           }
         },
         {
@@ -3601,8 +3439,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 479,
-            "endLine": 479
+            "line": 457,
+            "endLine": 457
           }
         },
         {
@@ -3615,8 +3453,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 481,
-            "endLine": 481
+            "line": 459,
+            "endLine": 459
           }
         },
         {
@@ -3629,8 +3467,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 483,
-            "endLine": 483
+            "line": 461,
+            "endLine": 461
           }
         },
         {
@@ -3651,8 +3489,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 485,
-                "endLine": 485
+                "line": 463,
+                "endLine": 463
               }
             },
             {
@@ -3661,14 +3499,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 485,
-            "endLine": 485
+            "line": 463,
+            "endLine": 463
           }
         }
       ],
       "origin": {
-        "line": 457,
-        "endLine": 485
+        "line": 435,
+        "endLine": 463
       },
       "tone": "orange",
       "view": {
@@ -3679,8 +3517,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "green",
             "origin": {
-              "line": 463,
-              "endLine": 465
+              "line": 441,
+              "endLine": 443
             }
           },
           {
@@ -3688,8 +3526,8 @@ window.PRESENTATION = {
             "end": 9,
             "tone": "orange",
             "origin": {
-              "line": 474,
-              "endLine": 476
+              "line": 452,
+              "endLine": 454
             }
           }
         ]
@@ -3708,8 +3546,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 494,
-          "endLine": 494
+          "line": 472,
+          "endLine": 472
         }
       },
       "blocks": [
@@ -3721,19 +3559,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/72d50863ca07-wiki-maintenance-loop.svg",
+                "src": "assets/8263a8f3fd79-wiki-maintenance-loop.svg",
                 "alt": "읽고 엮는 ingest, 위키를 읽어 답하고 저장하는 query, 내용과 연결을 점검하는 lint가 같은 지속 위키를 갱신한다. 규칙은 전체 작업을 안내한다."
               },
               "children": [],
               "position": {
-                "line": 496,
-                "endLine": 496
+                "line": 474,
+                "endLine": 474
               }
             }
           ],
           "position": {
-            "line": 496,
-            "endLine": 496
+            "line": 474,
+            "endLine": 474
           }
         },
         {
@@ -3750,33 +3588,23 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "읽고 엮기 · 답하고 남기기 · 점검해 다시 읽기"
+                  "value": "읽고 엮기 · 답하고 남기기 · 낡은 설명과 연결 점검하기."
                 }
               ],
               "position": {
-                "line": 498,
-                "endLine": 498
+                "line": 476,
+                "endLine": 476
               }
             },
             {
               "type": "text",
-              "value": ""
-            }
-          ],
-          "position": {
-            "line": 498,
-            "endLine": 498
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
+              "value": " "
+            },
             {
               "type": "element",
               "tag": "a",
               "attrs": {
-                "href": "assets/72d50863ca07-wiki-maintenance-loop.svg"
+                "href": "assets/8263a8f3fd79-wiki-maintenance-loop.svg"
               },
               "children": [
                 {
@@ -3785,20 +3613,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 500,
-                "endLine": 500
+                "line": 476,
+                "endLine": 476
               }
             }
           ],
           "position": {
-            "line": 500,
-            "endLine": 500
+            "line": 476,
+            "endLine": 476
           }
         }
       ],
       "origin": {
-        "line": 489,
-        "endLine": 500
+        "line": 467,
+        "endLine": 476
       },
       "tone": "green",
       "view": {
@@ -3819,8 +3647,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 508,
-          "endLine": 508
+          "line": 484,
+          "endLine": 484
         }
       },
       "blocks": [
@@ -3838,14 +3666,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 510,
-                "endLine": 510
+                "line": 486,
+                "endLine": 486
               }
             }
           ],
           "position": {
-            "line": 510,
-            "endLine": 510
+            "line": 486,
+            "endLine": 486
           }
         },
         {
@@ -3866,8 +3694,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 512,
-                "endLine": 512
+                "line": 488,
+                "endLine": 488
               }
             },
             {
@@ -3876,8 +3704,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 512,
-            "endLine": 512
+            "line": 488,
+            "endLine": 488
           }
         },
         {
@@ -3890,8 +3718,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 514,
-            "endLine": 514
+            "line": 490,
+            "endLine": 490
           }
         },
         {
@@ -3904,14 +3732,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 516,
-            "endLine": 516
+            "line": 492,
+            "endLine": 492
           }
         }
       ],
       "origin": {
-        "line": 504,
-        "endLine": 516
+        "line": 480,
+        "endLine": 492
       },
       "tone": "yellow",
       "view": {
@@ -3931,8 +3759,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 524,
-          "endLine": 524
+          "line": 500,
+          "endLine": 500
         }
       },
       "blocks": [
@@ -3946,8 +3774,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 526,
-            "endLine": 526
+            "line": 502,
+            "endLine": 502
           }
         },
         {
@@ -3967,14 +3795,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 528,
-                "endLine": 533
+                "line": 504,
+                "endLine": 509
               }
             }
           ],
           "position": {
-            "line": 528,
-            "endLine": 533
+            "line": 504,
+            "endLine": 509
           }
         },
         {
@@ -3987,14 +3815,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 535,
-            "endLine": 535
+            "line": 511,
+            "endLine": 511
           }
         }
       ],
       "origin": {
-        "line": 520,
-        "endLine": 535
+        "line": 496,
+        "endLine": 511
       },
       "tone": "purple",
       "view": {
@@ -4014,8 +3842,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 546,
-          "endLine": 546
+          "line": 522,
+          "endLine": 522
         }
       },
       "blocks": [
@@ -4033,14 +3861,14 @@ window.PRESENTATION = {
               },
               "children": [],
               "position": {
-                "line": 548,
-                "endLine": 548
+                "line": 524,
+                "endLine": 524
               }
             }
           ],
           "position": {
-            "line": 548,
-            "endLine": 548
+            "line": 524,
+            "endLine": 524
           }
         },
         {
@@ -4057,14 +3885,14 @@ window.PRESENTATION = {
               },
               "children": [],
               "position": {
-                "line": 550,
-                "endLine": 550
+                "line": 526,
+                "endLine": 526
               }
             }
           ],
           "position": {
-            "line": 550,
-            "endLine": 550
+            "line": 526,
+            "endLine": 526
           }
         },
         {
@@ -4081,14 +3909,14 @@ window.PRESENTATION = {
               },
               "children": [],
               "position": {
-                "line": 552,
-                "endLine": 552
+                "line": 528,
+                "endLine": 528
               }
             }
           ],
           "position": {
-            "line": 552,
-            "endLine": 552
+            "line": 528,
+            "endLine": 528
           }
         },
         {
@@ -4101,14 +3929,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 554,
-            "endLine": 554
+            "line": 530,
+            "endLine": 530
           }
         }
       ],
       "origin": {
-        "line": 539,
-        "endLine": 554
+        "line": 515,
+        "endLine": 530
       },
       "tone": "orange",
       "view": {
@@ -4135,8 +3963,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 562,
-          "endLine": 562
+          "line": 538,
+          "endLine": 538
         }
       },
       "blocks": [
@@ -4150,8 +3978,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 567,
-            "endLine": 567
+            "line": 543,
+            "endLine": 543
           }
         },
         {
@@ -4171,14 +3999,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 569,
-                "endLine": 569
+                "line": 545,
+                "endLine": 545
               }
             }
           ],
           "position": {
-            "line": 569,
-            "endLine": 569
+            "line": 545,
+            "endLine": 545
           }
         },
         {
@@ -4198,14 +4026,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 571,
-                "endLine": 571
+                "line": 547,
+                "endLine": 547
               }
             }
           ],
           "position": {
-            "line": 571,
-            "endLine": 571
+            "line": 547,
+            "endLine": 547
           }
         },
         {
@@ -4218,8 +4046,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 576,
-            "endLine": 576
+            "line": 552,
+            "endLine": 552
           }
         },
         {
@@ -4239,14 +4067,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 578,
-                "endLine": 578
+                "line": 554,
+                "endLine": 554
               }
             }
           ],
           "position": {
-            "line": 578,
-            "endLine": 578
+            "line": 554,
+            "endLine": 554
           }
         },
         {
@@ -4266,14 +4094,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 580,
-                "endLine": 580
+                "line": 556,
+                "endLine": 556
               }
             }
           ],
           "position": {
-            "line": 580,
-            "endLine": 580
+            "line": 556,
+            "endLine": 556
           }
         },
         {
@@ -4286,8 +4114,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 585,
-            "endLine": 585
+            "line": 561,
+            "endLine": 561
           }
         },
         {
@@ -4307,14 +4135,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 587,
-                "endLine": 587
+                "line": 563,
+                "endLine": 563
               }
             }
           ],
           "position": {
-            "line": 587,
-            "endLine": 587
+            "line": 563,
+            "endLine": 563
           }
         },
         {
@@ -4334,14 +4162,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 589,
-                "endLine": 589
+                "line": 565,
+                "endLine": 565
               }
             }
           ],
           "position": {
-            "line": 589,
-            "endLine": 589
+            "line": 565,
+            "endLine": 565
           }
         },
         {
@@ -4361,20 +4189,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 591,
-                "endLine": 591
+                "line": 567,
+                "endLine": 567
               }
             }
           ],
           "position": {
-            "line": 591,
-            "endLine": 591
+            "line": 567,
+            "endLine": 567
           }
         }
       ],
       "origin": {
-        "line": 558,
-        "endLine": 591
+        "line": 534,
+        "endLine": 567
       },
       "tone": "blue",
       "view": {
@@ -4385,8 +4213,8 @@ window.PRESENTATION = {
             "end": 3,
             "tone": "blue",
             "origin": {
-              "line": 564,
-              "endLine": 566
+              "line": 540,
+              "endLine": 542
             }
           },
           {
@@ -4394,8 +4222,8 @@ window.PRESENTATION = {
             "end": 6,
             "tone": "green",
             "origin": {
-              "line": 573,
-              "endLine": 575
+              "line": 549,
+              "endLine": 551
             }
           },
           {
@@ -4403,8 +4231,8 @@ window.PRESENTATION = {
             "end": 10,
             "tone": "orange",
             "origin": {
-              "line": 582,
-              "endLine": 584
+              "line": 558,
+              "endLine": 560
             }
           }
         ]
@@ -4423,8 +4251,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 599,
-          "endLine": 599
+          "line": 575,
+          "endLine": 575
         }
       },
       "blocks": [
@@ -4446,8 +4274,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 601,
-                "endLine": 601
+                "line": 577,
+                "endLine": 577
               }
             },
             {
@@ -4456,8 +4284,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 601,
-            "endLine": 601
+            "line": 577,
+            "endLine": 577
           }
         },
         {
@@ -4470,8 +4298,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 603,
-            "endLine": 603
+            "line": 579,
+            "endLine": 579
           }
         },
         {
@@ -4484,8 +4312,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 605,
-            "endLine": 605
+            "line": 581,
+            "endLine": 581
           }
         },
         {
@@ -4505,20 +4333,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 607,
-                "endLine": 607
+                "line": 583,
+                "endLine": 583
               }
             }
           ],
           "position": {
-            "line": 607,
-            "endLine": 607
+            "line": 583,
+            "endLine": 583
           }
         }
       ],
       "origin": {
-        "line": 595,
-        "endLine": 607
+        "line": 571,
+        "endLine": 583
       },
       "tone": "green",
       "view": {
@@ -4538,8 +4366,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 615,
-          "endLine": 615
+          "line": 591,
+          "endLine": 591
         }
       },
       "blocks": [
@@ -4561,8 +4389,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 617,
-                "endLine": 617
+                "line": 593,
+                "endLine": 593
               }
             },
             {
@@ -4571,8 +4399,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 617,
-            "endLine": 617
+            "line": 593,
+            "endLine": 593
           }
         },
         {
@@ -4585,8 +4413,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 622,
-            "endLine": 622
+            "line": 598,
+            "endLine": 598
           }
         },
         {
@@ -4599,8 +4427,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 624,
-            "endLine": 624
+            "line": 600,
+            "endLine": 600
           }
         },
         {
@@ -4613,8 +4441,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 626,
-            "endLine": 626
+            "line": 602,
+            "endLine": 602
           }
         },
         {
@@ -4627,8 +4455,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 631,
-            "endLine": 631
+            "line": 607,
+            "endLine": 607
           }
         },
         {
@@ -4641,8 +4469,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 633,
-            "endLine": 633
+            "line": 609,
+            "endLine": 609
           }
         },
         {
@@ -4655,8 +4483,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 635,
-            "endLine": 635
+            "line": 611,
+            "endLine": 611
           }
         },
         {
@@ -4680,20 +4508,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 637,
-                "endLine": 637
+                "line": 613,
+                "endLine": 613
               }
             }
           ],
           "position": {
-            "line": 637,
-            "endLine": 637
+            "line": 613,
+            "endLine": 613
           }
         }
       ],
       "origin": {
-        "line": 611,
-        "endLine": 637
+        "line": 587,
+        "endLine": 613
       },
       "tone": "blue",
       "view": {
@@ -4704,8 +4532,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "blue",
             "origin": {
-              "line": 619,
-              "endLine": 621
+              "line": 595,
+              "endLine": 597
             }
           },
           {
@@ -4713,8 +4541,8 @@ window.PRESENTATION = {
             "end": 8,
             "tone": "purple",
             "origin": {
-              "line": 628,
-              "endLine": 630
+              "line": 604,
+              "endLine": 606
             }
           }
         ]
@@ -4733,8 +4561,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 645,
-          "endLine": 645
+          "line": 621,
+          "endLine": 621
         }
       },
       "blocks": [
@@ -4748,8 +4576,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 647,
-            "endLine": 647
+            "line": 623,
+            "endLine": 623
           }
         },
         {
@@ -4762,8 +4590,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 652,
-            "endLine": 652
+            "line": 628,
+            "endLine": 628
           }
         },
         {
@@ -4776,8 +4604,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 654,
-            "endLine": 654
+            "line": 630,
+            "endLine": 630
           }
         },
         {
@@ -4790,8 +4618,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 656,
-            "endLine": 656
+            "line": 632,
+            "endLine": 632
           }
         },
         {
@@ -4804,8 +4632,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 661,
-            "endLine": 661
+            "line": 637,
+            "endLine": 637
           }
         },
         {
@@ -4818,8 +4646,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 663,
-            "endLine": 663
+            "line": 639,
+            "endLine": 639
           }
         },
         {
@@ -4840,8 +4668,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 665,
-                "endLine": 665
+                "line": 641,
+                "endLine": 641
               }
             },
             {
@@ -4850,8 +4678,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 665,
-            "endLine": 665
+            "line": 641,
+            "endLine": 641
           }
         },
         {
@@ -4871,20 +4699,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 667,
-                "endLine": 667
+                "line": 643,
+                "endLine": 643
               }
             }
           ],
           "position": {
-            "line": 667,
-            "endLine": 667
+            "line": 643,
+            "endLine": 643
           }
         }
       ],
       "origin": {
-        "line": 641,
-        "endLine": 667
+        "line": 617,
+        "endLine": 643
       },
       "tone": "purple",
       "view": {
@@ -4895,8 +4723,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "purple",
             "origin": {
-              "line": 649,
-              "endLine": 651
+              "line": 625,
+              "endLine": 627
             }
           },
           {
@@ -4904,8 +4732,8 @@ window.PRESENTATION = {
             "end": 8,
             "tone": "orange",
             "origin": {
-              "line": 658,
-              "endLine": 660
+              "line": 634,
+              "endLine": 636
             }
           }
         ]
@@ -4924,8 +4752,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 675,
-          "endLine": 675
+          "line": 651,
+          "endLine": 651
         }
       },
       "blocks": [
@@ -4947,14 +4775,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 677,
-                "endLine": 677
+                "line": 653,
+                "endLine": 653
               }
             }
           ],
           "position": {
-            "line": 677,
-            "endLine": 677
+            "line": 653,
+            "endLine": 653
           }
         },
         {
@@ -4975,8 +4803,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 679,
-                "endLine": 679
+                "line": 655,
+                "endLine": 655
               }
             },
             {
@@ -4985,8 +4813,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 679,
-            "endLine": 679
+            "line": 655,
+            "endLine": 655
           }
         },
         {
@@ -4999,8 +4827,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 681,
-            "endLine": 681
+            "line": 657,
+            "endLine": 657
           }
         },
         {
@@ -5021,8 +4849,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 683,
-                "endLine": 683
+                "line": 659,
+                "endLine": 659
               }
             },
             {
@@ -5031,8 +4859,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 683,
-            "endLine": 683
+            "line": 659,
+            "endLine": 659
           }
         },
         {
@@ -5052,20 +4880,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 685,
-                "endLine": 685
+                "line": 661,
+                "endLine": 661
               }
             }
           ],
           "position": {
-            "line": 685,
-            "endLine": 685
+            "line": 661,
+            "endLine": 661
           }
         }
       ],
       "origin": {
-        "line": 671,
-        "endLine": 685
+        "line": 647,
+        "endLine": 661
       },
       "tone": "blue",
       "view": {
@@ -5085,8 +4913,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 693,
-          "endLine": 693
+          "line": 669,
+          "endLine": 669
         }
       },
       "blocks": [
@@ -5100,8 +4928,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 695,
-            "endLine": 695
+            "line": 671,
+            "endLine": 671
           }
         },
         {
@@ -5114,8 +4942,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 700,
-            "endLine": 700
+            "line": 676,
+            "endLine": 676
           }
         },
         {
@@ -5128,8 +4956,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 702,
-            "endLine": 702
+            "line": 678,
+            "endLine": 678
           }
         },
         {
@@ -5142,8 +4970,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 704,
-            "endLine": 704
+            "line": 680,
+            "endLine": 680
           }
         },
         {
@@ -5156,8 +4984,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 706,
-            "endLine": 706
+            "line": 682,
+            "endLine": 682
           }
         },
         {
@@ -5170,8 +4998,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 711,
-            "endLine": 711
+            "line": 687,
+            "endLine": 687
           }
         },
         {
@@ -5184,8 +5012,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 713,
-            "endLine": 713
+            "line": 689,
+            "endLine": 689
           }
         },
         {
@@ -5198,8 +5026,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 715,
-            "endLine": 715
+            "line": 691,
+            "endLine": 691
           }
         },
         {
@@ -5212,8 +5040,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 717,
-            "endLine": 717
+            "line": 693,
+            "endLine": 693
           }
         },
         {
@@ -5237,20 +5065,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 719,
-                "endLine": 719
+                "line": 695,
+                "endLine": 695
               }
             }
           ],
           "position": {
-            "line": 719,
-            "endLine": 719
+            "line": 695,
+            "endLine": 695
           }
         }
       ],
       "origin": {
-        "line": 689,
-        "endLine": 719
+        "line": 665,
+        "endLine": 695
       },
       "tone": "green",
       "view": {
@@ -5261,8 +5089,8 @@ window.PRESENTATION = {
             "end": 5,
             "tone": "green",
             "origin": {
-              "line": 697,
-              "endLine": 699
+              "line": 673,
+              "endLine": 675
             }
           },
           {
@@ -5270,8 +5098,8 @@ window.PRESENTATION = {
             "end": 10,
             "tone": "blue",
             "origin": {
-              "line": 708,
-              "endLine": 710
+              "line": 684,
+              "endLine": 686
             }
           }
         ]
@@ -5290,8 +5118,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 727,
-          "endLine": 727
+          "line": 703,
+          "endLine": 703
         }
       },
       "blocks": [
@@ -5305,8 +5133,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 732,
-            "endLine": 732
+            "line": 708,
+            "endLine": 708
           }
         },
         {
@@ -5319,8 +5147,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 734,
-            "endLine": 734
+            "line": 710,
+            "endLine": 710
           }
         },
         {
@@ -5333,8 +5161,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 736,
-            "endLine": 736
+            "line": 712,
+            "endLine": 712
           }
         },
         {
@@ -5347,8 +5175,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 741,
-            "endLine": 741
+            "line": 717,
+            "endLine": 717
           }
         },
         {
@@ -5361,8 +5189,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 743,
-            "endLine": 743
+            "line": 719,
+            "endLine": 719
           }
         },
         {
@@ -5375,8 +5203,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 745,
-            "endLine": 745
+            "line": 721,
+            "endLine": 721
           }
         },
         {
@@ -5389,8 +5217,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 750,
-            "endLine": 750
+            "line": 726,
+            "endLine": 726
           }
         },
         {
@@ -5403,8 +5231,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 752,
-            "endLine": 752
+            "line": 728,
+            "endLine": 728
           }
         },
         {
@@ -5417,8 +5245,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 754,
-            "endLine": 754
+            "line": 730,
+            "endLine": 730
           }
         },
         {
@@ -5438,20 +5266,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 756,
-                "endLine": 756
+                "line": 732,
+                "endLine": 732
               }
             }
           ],
           "position": {
-            "line": 756,
-            "endLine": 756
+            "line": 732,
+            "endLine": 732
           }
         }
       ],
       "origin": {
-        "line": 723,
-        "endLine": 756
+        "line": 699,
+        "endLine": 732
       },
       "tone": "orange",
       "view": {
@@ -5462,8 +5290,8 @@ window.PRESENTATION = {
             "end": 3,
             "tone": "orange",
             "origin": {
-              "line": 729,
-              "endLine": 731
+              "line": 705,
+              "endLine": 707
             }
           },
           {
@@ -5471,8 +5299,8 @@ window.PRESENTATION = {
             "end": 6,
             "tone": "purple",
             "origin": {
-              "line": 738,
-              "endLine": 740
+              "line": 714,
+              "endLine": 716
             }
           },
           {
@@ -5480,8 +5308,8 @@ window.PRESENTATION = {
             "end": 10,
             "tone": "blue",
             "origin": {
-              "line": 747,
-              "endLine": 749
+              "line": 723,
+              "endLine": 725
             }
           }
         ]
@@ -5500,8 +5328,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 764,
-          "endLine": 764
+          "line": 740,
+          "endLine": 740
         }
       },
       "blocks": [
@@ -5515,8 +5343,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 766,
-            "endLine": 766
+            "line": 742,
+            "endLine": 742
           }
         },
         {
@@ -5529,8 +5357,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 771,
-            "endLine": 771
+            "line": 747,
+            "endLine": 747
           }
         },
         {
@@ -5543,8 +5371,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 773,
-            "endLine": 773
+            "line": 749,
+            "endLine": 749
           }
         },
         {
@@ -5557,8 +5385,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 775,
-            "endLine": 775
+            "line": 751,
+            "endLine": 751
           }
         },
         {
@@ -5571,8 +5399,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 780,
-            "endLine": 780
+            "line": 756,
+            "endLine": 756
           }
         },
         {
@@ -5585,8 +5413,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 782,
-            "endLine": 782
+            "line": 758,
+            "endLine": 758
           }
         },
         {
@@ -5599,8 +5427,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 784,
-            "endLine": 784
+            "line": 760,
+            "endLine": 760
           }
         },
         {
@@ -5613,8 +5441,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 786,
-            "endLine": 786
+            "line": 762,
+            "endLine": 762
           }
         },
         {
@@ -5634,8 +5462,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 788,
-                "endLine": 788
+                "line": 764,
+                "endLine": 764
               }
             },
             {
@@ -5655,20 +5483,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 788,
-                "endLine": 788
+                "line": 764,
+                "endLine": 764
               }
             }
           ],
           "position": {
-            "line": 788,
-            "endLine": 788
+            "line": 764,
+            "endLine": 764
           }
         }
       ],
       "origin": {
-        "line": 760,
-        "endLine": 788
+        "line": 736,
+        "endLine": 764
       },
       "tone": "blue",
       "view": {
@@ -5679,8 +5507,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "orange",
             "origin": {
-              "line": 768,
-              "endLine": 770
+              "line": 744,
+              "endLine": 746
             }
           },
           {
@@ -5688,8 +5516,8 @@ window.PRESENTATION = {
             "end": 9,
             "tone": "blue",
             "origin": {
-              "line": 777,
-              "endLine": 779
+              "line": 753,
+              "endLine": 755
             }
           }
         ]
@@ -5708,8 +5536,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 796,
-          "endLine": 796
+          "line": 772,
+          "endLine": 772
         }
       },
       "blocks": [
@@ -5723,8 +5551,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 801,
-            "endLine": 801
+            "line": 777,
+            "endLine": 777
           }
         },
         {
@@ -5737,8 +5565,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 803,
-            "endLine": 803
+            "line": 779,
+            "endLine": 779
           }
         },
         {
@@ -5758,8 +5586,8 @@ window.PRESENTATION = {
                   "tag": "br",
                   "children": [],
                   "position": {
-                    "line": 805,
-                    "endLine": 806
+                    "line": 781,
+                    "endLine": 782
                   }
                 },
                 {
@@ -5768,14 +5596,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 805,
-                "endLine": 806
+                "line": 781,
+                "endLine": 782
               }
             }
           ],
           "position": {
-            "line": 805,
-            "endLine": 806
+            "line": 781,
+            "endLine": 782
           }
         },
         {
@@ -5788,8 +5616,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 811,
-            "endLine": 811
+            "line": 787,
+            "endLine": 787
           }
         },
         {
@@ -5806,14 +5634,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 813,
-                "endLine": 813
+                "line": 789,
+                "endLine": 789
               }
             }
           ],
           "position": {
-            "line": 813,
-            "endLine": 813
+            "line": 789,
+            "endLine": 789
           }
         },
         {
@@ -5833,8 +5661,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 815,
-                "endLine": 815
+                "line": 791,
+                "endLine": 791
               }
             },
             {
@@ -5854,20 +5682,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 815,
-                "endLine": 815
+                "line": 791,
+                "endLine": 791
               }
             }
           ],
           "position": {
-            "line": 815,
-            "endLine": 815
+            "line": 791,
+            "endLine": 791
           }
         }
       ],
       "origin": {
-        "line": 792,
-        "endLine": 815
+        "line": 768,
+        "endLine": 791
       },
       "tone": "blue",
       "view": {
@@ -5878,8 +5706,8 @@ window.PRESENTATION = {
             "end": 3,
             "tone": "orange",
             "origin": {
-              "line": 798,
-              "endLine": 800
+              "line": 774,
+              "endLine": 776
             }
           },
           {
@@ -5887,8 +5715,8 @@ window.PRESENTATION = {
             "end": 6,
             "tone": "green",
             "origin": {
-              "line": 808,
-              "endLine": 810
+              "line": 784,
+              "endLine": 786
             }
           }
         ]
@@ -5907,8 +5735,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 824,
-          "endLine": 824
+          "line": 800,
+          "endLine": 800
         }
       },
       "blocks": [
@@ -5920,19 +5748,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/c3618c438e6a-reuse-inputs.svg",
+                "src": "assets/441435e97663-reuse-inputs.svg",
                 "alt": "교정된 C1, Q1의 다음 확인, 초기 결정 D1을 함께 읽어 새 운영 질문 Q2를 판단한다. 이 목록은 고정 승인 예제의 입력이며 자동 검색의 성공 기록이 아니다."
               },
               "children": [],
               "position": {
-                "line": 826,
-                "endLine": 826
+                "line": 802,
+                "endLine": 802
               }
             }
           ],
           "position": {
-            "line": 826,
-            "endLine": 826
+            "line": 802,
+            "endLine": 802
           }
         },
         {
@@ -5941,50 +5769,8 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "기존 고정 구성 예 · 새 질문 Q2의 판단 입력"
-            }
-          ],
-          "position": {
-            "line": 828,
-            "endLine": 828
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": ""
+              "value": "고정 승인 예제의 판단 입력입니다. 자동 검색·생성 실행의 기록이 아닙니다. "
             },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "Q2:"
-                }
-              ],
-              "position": {
-                "line": 830,
-                "endLine": 830
-              }
-            },
-            {
-              "type": "text",
-              "value": " 우리 스터디는 어떤 답을 저장할까?"
-            }
-          ],
-          "position": {
-            "line": 830,
-            "endLine": 830
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
             {
               "type": "element",
               "tag": "a",
@@ -5994,24 +5780,24 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "고정 예제의 재사용 과정"
+                  "value": "Q2 재사용 기록"
                 }
               ],
               "position": {
-                "line": 832,
-                "endLine": 832
+                "line": 804,
+                "endLine": 804
               }
             }
           ],
           "position": {
-            "line": 832,
-            "endLine": 832
+            "line": 804,
+            "endLine": 804
           }
         }
       ],
       "origin": {
-        "line": 819,
-        "endLine": 832
+        "line": 795,
+        "endLine": 804
       },
       "tone": "purple",
       "view": {
@@ -6032,8 +5818,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 841,
-          "endLine": 841
+          "line": 813,
+          "endLine": 813
         }
       },
       "blocks": [
@@ -6045,19 +5831,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/d23557eecf49-decision-transition.svg",
+                "src": "assets/70a44a23d5e1-decision-transition.svg",
                 "alt": "모든 답을 현행에 저장하려던 D1은 대체됨으로 남기고 검토한 답을 현행으로 연결하는 D2에 새 선택과 검토 부담을 적는다."
               },
               "children": [],
               "position": {
-                "line": 843,
-                "endLine": 843
+                "line": 815,
+                "endLine": 815
               }
             }
           ],
           "position": {
-            "line": 843,
-            "endLine": 843
+            "line": 815,
+            "endLine": 815
           }
         },
         {
@@ -6066,50 +5852,8 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "기존 구성 예 · ADR 형식을 응용한 운영 선택"
-            }
-          ],
-          "position": {
-            "line": 845,
-            "endLine": 845
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": ""
+              "value": "기존 구성 예 · ADR을 응용한 운영 선택이며 LLM Wiki의 필수 형식은 아닙니다. "
             },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "D1 → D2:"
-                }
-              ],
-              "position": {
-                "line": 847,
-                "endLine": 847
-              }
-            },
-            {
-              "type": "text",
-              "value": " 당시 이유는 보존하고, 새 기준과 검토 부담을 남깁니다."
-            }
-          ],
-          "position": {
-            "line": 847,
-            "endLine": 847
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
             {
               "type": "element",
               "tag": "a",
@@ -6119,28 +5863,45 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "Nygard의 결정 기록"
+                  "value": "결정 기록 근거"
                 }
               ],
               "position": {
-                "line": 849,
-                "endLine": 849
+                "line": 817,
+                "endLine": 817
               }
             },
             {
               "type": "text",
-              "value": " · LLM Wiki의 필수 형식은 아닙니다."
+              "value": " · "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "materials/demo-log.html"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "실행 기록"
+                }
+              ],
+              "position": {
+                "line": 817,
+                "endLine": 817
+              }
             }
           ],
           "position": {
-            "line": 849,
-            "endLine": 849
+            "line": 817,
+            "endLine": 817
           }
         }
       ],
       "origin": {
-        "line": 836,
-        "endLine": 849
+        "line": 808,
+        "endLine": 817
       },
       "tone": "orange",
       "view": {
@@ -6161,8 +5922,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 857,
-          "endLine": 857
+          "line": 825,
+          "endLine": 825
         }
       },
       "blocks": [
@@ -6176,8 +5937,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 862,
-            "endLine": 862
+            "line": 830,
+            "endLine": 830
           }
         },
         {
@@ -6190,8 +5951,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 864,
-            "endLine": 864
+            "line": 832,
+            "endLine": 832
           }
         },
         {
@@ -6212,8 +5973,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 866,
-                "endLine": 866
+                "line": 834,
+                "endLine": 834
               }
             },
             {
@@ -6222,8 +5983,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 866,
-            "endLine": 866
+            "line": 834,
+            "endLine": 834
           }
         },
         {
@@ -6236,8 +5997,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 868,
-            "endLine": 868
+            "line": 836,
+            "endLine": 836
           }
         },
         {
@@ -6250,8 +6011,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 873,
-            "endLine": 873
+            "line": 841,
+            "endLine": 841
           }
         },
         {
@@ -6272,8 +6033,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 875,
-                "endLine": 875
+                "line": 843,
+                "endLine": 843
               }
             },
             {
@@ -6282,8 +6043,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 875,
-            "endLine": 875
+            "line": 843,
+            "endLine": 843
           }
         },
         {
@@ -6296,8 +6057,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 877,
-            "endLine": 877
+            "line": 845,
+            "endLine": 845
           }
         },
         {
@@ -6310,8 +6071,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 882,
-            "endLine": 882
+            "line": 850,
+            "endLine": 850
           }
         },
         {
@@ -6332,8 +6093,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 884,
-                "endLine": 884
+                "line": 852,
+                "endLine": 852
               }
             },
             {
@@ -6342,8 +6103,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 884,
-            "endLine": 884
+            "line": 852,
+            "endLine": 852
           }
         },
         {
@@ -6356,8 +6117,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 886,
-            "endLine": 886
+            "line": 854,
+            "endLine": 854
           }
         },
         {
@@ -6370,14 +6131,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 888,
-            "endLine": 888
+            "line": 856,
+            "endLine": 856
           }
         }
       ],
       "origin": {
-        "line": 853,
-        "endLine": 888
+        "line": 821,
+        "endLine": 856
       },
       "tone": "blue",
       "view": {
@@ -6388,8 +6149,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "blue",
             "origin": {
-              "line": 859,
-              "endLine": 861
+              "line": 827,
+              "endLine": 829
             }
           },
           {
@@ -6397,8 +6158,8 @@ window.PRESENTATION = {
             "end": 7,
             "tone": "green",
             "origin": {
-              "line": 870,
-              "endLine": 872
+              "line": 838,
+              "endLine": 840
             }
           },
           {
@@ -6406,8 +6167,8 @@ window.PRESENTATION = {
             "end": 11,
             "tone": "orange",
             "origin": {
-              "line": 879,
-              "endLine": 881
+              "line": 847,
+              "endLine": 849
             }
           }
         ]
@@ -6426,8 +6187,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 896,
-          "endLine": 896
+          "line": 864,
+          "endLine": 864
         }
       },
       "blocks": [
@@ -6441,8 +6202,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 901,
-            "endLine": 901
+            "line": 869,
+            "endLine": 869
           }
         },
         {
@@ -6455,8 +6216,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 903,
-            "endLine": 903
+            "line": 871,
+            "endLine": 871
           }
         },
         {
@@ -6469,8 +6230,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 908,
-            "endLine": 908
+            "line": 876,
+            "endLine": 876
           }
         },
         {
@@ -6483,8 +6244,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 910,
-            "endLine": 910
+            "line": 878,
+            "endLine": 878
           }
         },
         {
@@ -6497,8 +6258,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 915,
-            "endLine": 915
+            "line": 883,
+            "endLine": 883
           }
         },
         {
@@ -6511,8 +6272,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 917,
-            "endLine": 917
+            "line": 885,
+            "endLine": 885
           }
         },
         {
@@ -6525,8 +6286,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 922,
-            "endLine": 922
+            "line": 890,
+            "endLine": 890
           }
         },
         {
@@ -6539,8 +6300,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 924,
-            "endLine": 924
+            "line": 892,
+            "endLine": 892
           }
         },
         {
@@ -6560,8 +6321,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 926,
-                "endLine": 926
+                "line": 894,
+                "endLine": 894
               }
             },
             {
@@ -6581,20 +6342,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 926,
-                "endLine": 926
+                "line": 894,
+                "endLine": 894
               }
             }
           ],
           "position": {
-            "line": 926,
-            "endLine": 926
+            "line": 894,
+            "endLine": 894
           }
         }
       ],
       "origin": {
-        "line": 892,
-        "endLine": 926
+        "line": 860,
+        "endLine": 894
       },
       "tone": "purple",
       "view": {
@@ -6605,8 +6366,8 @@ window.PRESENTATION = {
             "end": 2,
             "tone": "blue",
             "origin": {
-              "line": 898,
-              "endLine": 900
+              "line": 866,
+              "endLine": 868
             }
           },
           {
@@ -6614,8 +6375,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "purple",
             "origin": {
-              "line": 905,
-              "endLine": 907
+              "line": 873,
+              "endLine": 875
             }
           },
           {
@@ -6623,8 +6384,8 @@ window.PRESENTATION = {
             "end": 6,
             "tone": "green",
             "origin": {
-              "line": 912,
-              "endLine": 914
+              "line": 880,
+              "endLine": 882
             }
           },
           {
@@ -6632,8 +6393,8 @@ window.PRESENTATION = {
             "end": 9,
             "tone": "orange",
             "origin": {
-              "line": 919,
-              "endLine": 921
+              "line": 887,
+              "endLine": 889
             }
           }
         ]
@@ -6652,8 +6413,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 934,
-          "endLine": 934
+          "line": 902,
+          "endLine": 902
         }
       },
       "blocks": [
@@ -6675,8 +6436,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 936,
-                "endLine": 936
+                "line": 904,
+                "endLine": 904
               }
             },
             {
@@ -6685,8 +6446,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 936,
-            "endLine": 936
+            "line": 904,
+            "endLine": 904
           }
         },
         {
@@ -6706,8 +6467,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 938,
-                "endLine": 938
+                "line": 906,
+                "endLine": 906
               }
             },
             {
@@ -6727,14 +6488,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 938,
-                "endLine": 938
+                "line": 906,
+                "endLine": 906
               }
             }
           ],
           "position": {
-            "line": 938,
-            "endLine": 938
+            "line": 906,
+            "endLine": 906
           }
         },
         {
@@ -6754,8 +6515,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 940,
-                "endLine": 940
+                "line": 908,
+                "endLine": 908
               }
             },
             {
@@ -6775,20 +6536,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 940,
-                "endLine": 940
+                "line": 908,
+                "endLine": 908
               }
             }
           ],
           "position": {
-            "line": 940,
-            "endLine": 940
+            "line": 908,
+            "endLine": 908
           }
         }
       ],
       "origin": {
-        "line": 930,
-        "endLine": 940
+        "line": 898,
+        "endLine": 908
       },
       "tone": "purple",
       "view": {

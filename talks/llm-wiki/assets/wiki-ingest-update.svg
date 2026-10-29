@@ -1,1 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" role="img" aria-labelledby="title desc"><title id="title">새 자료는 새 요약뿐 아니라 기존 개념 비교 종합도 갱신한다</title><desc id="desc">LLM은 새 자료와 기존 위키를 읽어 자료 요약, 기존 개념·개체, 비교, 잠정 종합 가운데 관련된 내용을 갱신한다. 모든 페이지가 늘 같은 순서로 바뀌는 것은 아니다.</desc><rect width="1400" height="620" fill="#090909"/><g font-family="Pretendard, -apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Noto Sans KR, sans-serif"><rect x="40" y="190" width="280" height="220" rx="18" fill="#131719" stroke="#24a8ff" stroke-width="2"/><text x="70" y="245" font-size="42" font-weight="700" fill="#f5f5f2" text-anchor="start">새 자료 한 개</text><text x="70" y="300" font-size="28" font-weight="500" fill="#24a8ff" text-anchor="start">원자료 + 기존 위키</text><text x="70" y="356" font-size="28" font-weight="500" fill="#b7bab8" text-anchor="start">규칙을 함께 읽음</text><path d="M340 300L510 300" fill="none" stroke="#24a8ff" stroke-width="3"/><path d="M496 291L510 300L496 309" fill="none" stroke="#24a8ff" stroke-width="3"/><text x="425" y="257" font-size="32" font-weight="700" fill="#a080ff" text-anchor="middle">LLM</text><rect x="545" y="75" width="360" height="190" rx="18" fill="#131719" stroke="#24a8ff" stroke-width="2"/><text x="570" y="135" font-size="38" font-weight="700" fill="#f5f5f2" text-anchor="start">자료 요약</text><text x="570" y="198" font-size="27" font-weight="500" fill="#24a8ff" text-anchor="start">무엇을 새로 읽었나</text><rect x="970" y="75" width="390" height="190" rx="18" fill="#131719" stroke="#69cf82" stroke-width="2"/><text x="995" y="135" font-size="38" font-weight="700" fill="#f5f5f2" text-anchor="start">기존 개념·개체</text><text x="995" y="198" font-size="27" font-weight="500" fill="#69cf82" text-anchor="start">어떤 설명이 달라지나</text><rect x="545" y="330" width="360" height="190" rx="18" fill="#131719" stroke="#ffac5c" stroke-width="2"/><text x="570" y="390" font-size="38" font-weight="700" fill="#f5f5f2" text-anchor="start">기존 비교</text><text x="570" y="453" font-size="27" font-weight="500" fill="#ffac5c" text-anchor="start">같은 기준에 무엇을 더하나</text><rect x="970" y="330" width="390" height="190" rx="18" fill="#131719" stroke="#a080ff" stroke-width="2"/><text x="995" y="390" font-size="38" font-weight="700" fill="#f5f5f2" text-anchor="start">잠정 종합</text><text x="995" y="453" font-size="27" font-weight="500" fill="#a080ff" text-anchor="start">이전 해석을 유지할 수 있나</text><path d="M510 300V170H530" fill="none" stroke="#24a8ff" stroke-width="3"/><path d="M516 161L530 170L516 179" fill="none" stroke="#24a8ff" stroke-width="3"/><path d="M510 300H935V170H955" fill="none" stroke="#69cf82" stroke-width="3"/><path d="M941 161L955 170L941 179" fill="none" stroke="#69cf82" stroke-width="3"/><path d="M510 300V425H530" fill="none" stroke="#ffac5c" stroke-width="3"/><path d="M516 416L530 425L516 434" fill="none" stroke="#ffac5c" stroke-width="3"/><path d="M510 300H935V425H955" fill="none" stroke="#a080ff" stroke-width="3"/><path d="M941 416L955 425L941 434" fill="none" stroke="#a080ff" stroke-width="3"/><text x="545" y="578" font-size="28" font-weight="500" fill="#b7bab8" text-anchor="start">페이지를 순서대로 통과하는 고정 절차가 아니라, 관련 내용을 찾아 갱신합니다.</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540" role="img" aria-labelledby="title desc">
+<title id="title">새 자료를 반영하면 관련된 여러 페이지를 갱신한다</title>
+<desc id="desc">LLM은 새 자료와 기존 위키를 대조한다. 새 자료의 요약뿐 아니라 관련 개념·개체·비교·잠정 종합도 갱신한다. 오른쪽 항목은 갱신 대상이며 차례대로 통과하는 네 단계가 아니다.</desc>
+<rect width="1500" height="540" fill="#080808"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" letter-spacing="-.6">
+<text x="40" y="70" font-size="30" fill="#24a8ff" font-weight="400" text-anchor="start">새 입력</text>
+<path d="M40 110H278L310 142V398H40Z" fill="#161615" stroke="#474745" stroke-width="1.5"/><path d="M278 110V142H310" fill="none" stroke="#474745" stroke-width="1.5"/>
+<text x="70" y="186" font-size="52" fill="#f6f6f4" font-weight="400" text-anchor="start">새 자료</text>
+<text x="70" y="246" font-size="30" fill="#a5a5a2" font-weight="400" text-anchor="start">읽은 판을 보존</text>
+<path d="M70 290L270 290" fill="none" stroke="#474745" stroke-width="2"/>
+<path d="M70 325L241 325" fill="none" stroke="#474745" stroke-width="2"/>
+<text x="391" y="216" font-size="42" fill="#f6f6f4" font-weight="400" text-anchor="start">기존 위키와</text>
+<text x="391" y="283" font-size="42" fill="#f6f6f4" font-weight="400" text-anchor="start">대조</text>
+<text x="391" y="352" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="start">LLM이 관련된 쪽을 갱신</text>
+<path d="M695 255L807 255" fill="none" stroke="#69cf82" stroke-width="2"/><polyline points="795,247 807,255 795,263" fill="none" stroke="#69cf82" stroke-width="2.5"/>
+<text x="878" y="67" font-size="30" fill="#69cf82" font-weight="400" text-anchor="start">같이 바뀌는 페이지</text>
+<path d="M854 115L854 153" fill="none" stroke="#69cf82" stroke-width="4"/>
+<text x="883" y="145" font-size="42" fill="#f6f6f4" font-weight="400" text-anchor="start">자료 요약</text>
+<text x="1210" y="145" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="start">새로 읽은 내용</text>
+<path d="M878 171L1460 171" fill="none" stroke="#474745" stroke-width="2"/>
+<path d="M854 202L854 240" fill="none" stroke="#69cf82" stroke-width="4"/>
+<text x="883" y="232" font-size="42" fill="#f6f6f4" font-weight="400" text-anchor="start">개념 · 개체</text>
+<text x="1210" y="232" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="start">관련 설명</text>
+<path d="M878 258L1460 258" fill="none" stroke="#474745" stroke-width="2"/>
+<path d="M854 289L854 327" fill="none" stroke="#69cf82" stroke-width="4"/>
+<text x="883" y="319" font-size="42" fill="#f6f6f4" font-weight="400" text-anchor="start">비교</text>
+<text x="1210" y="319" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="start">조건과 차이</text>
+<path d="M878 345L1460 345" fill="none" stroke="#474745" stroke-width="2"/>
+<path d="M854 376L854 414" fill="none" stroke="#69cf82" stroke-width="4"/>
+<text x="883" y="406" font-size="42" fill="#f6f6f4" font-weight="400" text-anchor="start">잠정 종합</text>
+<text x="1210" y="406" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="start">현재의 해석</text>
+<path d="M878 432L1460 432" fill="none" stroke="#474745" stroke-width="2"/>
+<text x="40" y="492" font-size="30" fill="#a5a5a2" font-weight="400" text-anchor="start">필요한 페이지를 찾아 고칩니다. 고정된 통과 순서는 없습니다.</text>
+</g>
+</svg>

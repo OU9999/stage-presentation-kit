@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540" role="img" aria-labelledby="title desc">
+<title id="title">원자료와 위키를 나누고 같은 작업 규칙으로 다룬다</title>
+<desc id="desc">raw는 읽은 판을 보존하는 원자료다. wiki는 LLM이 작성·갱신하는 연결된 설명이다. schema는 둘 뒤에 통과하는 결과물이 아니라 전체의 읽기·쓰기·질문·점검을 안내하는 작업 규칙이다.</desc>
+<rect width="1500" height="540" fill="#080808"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" letter-spacing="-.6">
+<text x="40" y="57" font-size="30" fill="#24a8ff" font-weight="400" text-anchor="start">보존</text>
+<text x="40" y="142" font-size="66" fill="#f6f6f4" font-weight="400" text-anchor="start">raw/</text>
+<text x="40" y="220" font-size="40" fill="#f6f6f4" font-weight="400" text-anchor="start">논문 · 문서 · 읽기 메모</text>
+<text x="40" y="280" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">읽었던 판과 원본 위치</text>
+<path d="M565 220L738 220" fill="none" stroke="#a5a5a2" stroke-width="2"/><polyline points="726,212 738,220 726,228" fill="none" stroke="#a5a5a2" stroke-width="2.5"/>
+<text x="651" y="180" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="middle">읽어 갱신</text>
+<text x="820" y="57" font-size="30" fill="#69cf82" font-weight="400" text-anchor="start">LLM이 작성·유지</text>
+<text x="820" y="142" font-size="66" fill="#f6f6f4" font-weight="400" text-anchor="start">wiki/</text>
+<text x="820" y="220" font-size="44" fill="#f6f6f4" font-weight="400" text-anchor="start">개념 ↔ 비교 ↔ 질문</text>
+<text x="820" y="280" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">개체 · 잠정 종합 · 출처 연결</text>
+<path d="M40 382L1460 382" fill="none" stroke="#a080ff" stroke-width="2"/>
+<text x="40" y="438" font-size="38" fill="#a080ff" font-weight="400" text-anchor="start">schema</text>
+<text x="300" y="438" font-size="34" fill="#f6f6f4" font-weight="400" text-anchor="start">읽기 · 쓰기 · 질문 · 점검의 작업 규칙</text>
+<text x="300" y="490" font-size="28" fill="#a5a5a2" font-weight="400" text-anchor="start">두 영역의 작업 전체를 안내합니다.</text>
+</g>
+</svg>

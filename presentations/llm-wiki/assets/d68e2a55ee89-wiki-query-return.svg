@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540" role="img" aria-labelledby="title desc">
+<title id="title">관련 페이지를 읽고 유용한 답을 다시 남긴다</title>
+<desc id="desc">index와 검색으로 위키를 찾고 관련 본문을 현재 답변의 문맥에 읽는다. 그 문맥으로 답하고 필요한 원자료도 확인한다. 유용한 답은 위키 페이지로 저장·연결해 다음 질문에서 다시 찾을 수 있게 한다.</desc>
+<rect width="1500" height="540" fill="#080808"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" letter-spacing="-.6">
+<text x="40" y="85" font-size="30" fill="#a5a5a2" font-weight="400" text-anchor="start">찾기</text>
+<text x="40" y="176" font-size="54" fill="#f6f6f4" font-weight="400" text-anchor="start">index · 검색</text>
+<text x="40" y="239" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">관련 위키로 진입</text>
+<path d="M369 192L450 192" fill="none" stroke="#a5a5a2" stroke-width="2"/><polyline points="438,184 450,192 438,200" fill="none" stroke="#a5a5a2" stroke-width="2.5"/>
+<text x="510" y="85" font-size="30" fill="#69cf82" font-weight="400" text-anchor="start">현재 답변의 문맥</text>
+<text x="510" y="176" font-size="54" fill="#f6f6f4" font-weight="400" text-anchor="start">페이지의 본문</text>
+<text x="510" y="239" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">필요하면 원자료도 확인</text>
+<path d="M960 192L1046 192" fill="none" stroke="#a5a5a2" stroke-width="2"/><polyline points="1034,184 1046,192 1034,200" fill="none" stroke="#a5a5a2" stroke-width="2.5"/>
+<text x="1110" y="85" font-size="30" fill="#a5a5a2" font-weight="400" text-anchor="start">답하기</text>
+<text x="1110" y="176" font-size="54" fill="#f6f6f4" font-weight="400" text-anchor="start">근거 있는 답</text>
+<text x="1110" y="239" font-size="32" fill="#a5a5a2" font-weight="400" text-anchor="start">남은 의문도 함께</text>
+<path d="M1298 302V437H205V302" fill="none" stroke="#a080ff" stroke-width="2"/>
+<polyline points="197,314 205,302 213,314" fill="none" stroke="#a080ff" stroke-width="2.5"/>
+<text x="750" y="403" font-size="34" fill="#a080ff" font-weight="400" text-anchor="middle">유용한 답은 페이지로 저장하고 관련 개념에 연결</text>
+<text x="750" y="511" font-size="34" fill="#f6f6f4" font-weight="400" text-anchor="middle">다음 질문이 저장된 설명을 다시 찾아 읽습니다.</text>
+</g>
+</svg>

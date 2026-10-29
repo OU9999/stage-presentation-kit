@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" role="img" aria-labelledby="title desc"><title id="title">같은 형식의 고객 요청을 목적과 전달 방식으로 비교하고 회의 뒤 응대 지식을 갱신한다</title><desc id="desc">두 가상 상담을 동등하게 표시한다. A는 월말 정산용 수동 다운로드, B는 매일 대시보드용 자동 수집을 요청한다. 새 회의는 수동 CSV 범위 검토와 예약 전송 보류를 정한다. LLM은 개념·요구 비교·FAQ를 갱신하며 고객 B 응대에 출시일 미확정을 남긴다.</desc><rect width="1400" height="620" fill="#090909"/><g font-family="Pretendard, -apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Noto Sans KR, sans-serif"><text x="40" y="65" font-size="28" font-weight="500" fill="#b7bab8" text-anchor="start">가상 고객 상담 · 회의로 갱신하는 적용 예</text><rect x="40" y="105" width="630" height="180" rx="18" fill="#131719" stroke="#24a8ff" stroke-width="2"/><text x="68" y="154" font-size="38" font-weight="700" fill="#f5f5f2" text-anchor="start">상담 A</text><text x="68" y="211" font-size="30" font-weight="500" fill="#24a8ff" text-anchor="start">월말 정산</text><text x="68" y="255" font-size="30" font-weight="500" fill="#f5f5f2" text-anchor="start">CSV 수동 다운로드</text><rect x="730" y="105" width="630" height="180" rx="18" fill="#131719" stroke="#24a8ff" stroke-width="2"/><text x="758" y="154" font-size="38" font-weight="700" fill="#f5f5f2" text-anchor="start">상담 B</text><text x="758" y="211" font-size="30" font-weight="500" fill="#24a8ff" text-anchor="start">매일 대시보드 갱신</text><text x="758" y="255" font-size="30" font-weight="500" fill="#f5f5f2" text-anchor="start">CSV 자동 수집</text><text x="40" y="350" font-size="34" font-weight="700" fill="#a080ff" text-anchor="start">새 회의</text><text x="235" y="350" font-size="34" font-weight="700" fill="#f5f5f2" text-anchor="start">수동 CSV 범위 검토 · 예약 전송 보류</text><path d="M700 375L940 375" fill="none" stroke="#69cf82" stroke-width="3"/><path d="M926 366L940 375L926 384" fill="none" stroke="#69cf82" stroke-width="3"/><text x="40" y="430" font-size="32" font-weight="700" fill="#69cf82" text-anchor="start">LLM 갱신</text><text x="235" y="430" font-size="34" font-weight="500" fill="#69cf82" text-anchor="start">내보내기 개념 · 요구 비교 · 응대 FAQ</text><path d="M40 465L1360 465" fill="none" stroke="#a080ff" stroke-width="3"/><text x="40" y="525" font-size="32" font-weight="700" fill="#a080ff" text-anchor="start">후속 질문</text><text x="235" y="525" font-size="38" font-weight="700" fill="#f5f5f2" text-anchor="start">고객 B에게 지금 무엇을 말할까?</text><text x="235" y="580" font-size="28" font-weight="500" fill="#b7bab8" text-anchor="start">요청은 보존하고, 출시일이 미확정이라는 경계를 답에 남깁니다.</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540" role="img" aria-labelledby="title desc">
+<title id="title">요구를 보존하면서 상태와 응대 지식을 갱신한다</title>
+<desc id="desc">가상 고객 요구의 구성 예다. 월말 정산을 위한 수동 CSV와 매일 자동 수집은 서로 다른 요구다. 새 회의는 수동 CSV 범위 검토와 예약 전송 보류를 정한다. 비교와 응대 FAQ를 갱신하지만 고객 요청을 출시 약속으로 바꾸지 않는다.</desc>
+<rect width="1500" height="540" fill="#080808"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" letter-spacing="-.6">
+<text x="40" y="55" font-size="30" fill="#a5a5a2" font-weight="400" text-anchor="start">상담에서 읽은 요구</text>
+<text x="40" y="144" font-size="46" fill="#f6f6f4" font-weight="400" text-anchor="start">A · 월말 정산</text>
+<text x="40" y="199" font-size="34" fill="#24a8ff" font-weight="400" text-anchor="start">CSV 수동 다운로드</text>
+<path d="M40 241L581 241" fill="none" stroke="#474745" stroke-width="2"/>
+<text x="40" y="308" font-size="42" fill="#f6f6f4" font-weight="400" text-anchor="start">B · 매일 대시보드 갱신</text>
+<text x="40" y="363" font-size="34" fill="#24a8ff" font-weight="400" text-anchor="start">CSV 자동 수신</text>
+<path d="M620 242L713 242" fill="none" stroke="#a5a5a2" stroke-width="2"/><polyline points="701,234 713,242 701,250" fill="none" stroke="#a5a5a2" stroke-width="2.5"/>
+<text x="785" y="55" font-size="30" fill="#69cf82" font-weight="400" text-anchor="start">새 회의 이후</text>
+<text x="785" y="142" font-size="62" fill="#f6f6f4" font-weight="400" text-anchor="start">내보내기</text>
+<text x="785" y="223" font-size="40" fill="#f6f6f4" font-weight="400" text-anchor="start">수동 CSV</text>
+<text x="1210" y="223" font-size="30" fill="#69cf82" font-weight="400" text-anchor="start">범위 검토</text>
+<path d="M785 254L1460 254" fill="none" stroke="#474745" stroke-width="2"/>
+<text x="785" y="310" font-size="40" fill="#f6f6f4" font-weight="400" text-anchor="start">예약 전송</text>
+<text x="1210" y="310" font-size="30" fill="#ff9d60" font-weight="400" text-anchor="start">보류</text>
+<text x="785" y="372" font-size="30" fill="#a5a5a2" font-weight="400" text-anchor="start">출시일은 아직 미확정</text>
+<path d="M40 432L1460 432" fill="none" stroke="#474745" stroke-width="2"/>
+<text x="40" y="492" font-size="38" fill="#f6f6f4" font-weight="400" text-anchor="start">고객 B에게 무엇을 말할까?</text>
+<text x="755" y="492" font-size="30" fill="#a5a5a2" font-weight="400" text-anchor="start">응대 FAQ에 현재 상태와 보류 이유를 남김</text>
+</g>
+</svg>

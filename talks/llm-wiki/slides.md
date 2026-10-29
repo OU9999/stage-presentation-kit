@@ -67,9 +67,7 @@ fit: contain
 
 ![원자료를 읽은 LLM이 자료 요약과 기존 개념·비교·종합을 작성하고, 질문에서 위키를 다시 읽어 얻은 유용한 답을 저장한다. 작업 규칙은 전체 작업을 안내한다.](./assets/wiki-maintenance-loop.svg)
 
-한 자료의 요약을 넘어 **여러 자료를 함께 읽은 결과**를 유지합니다.
-
-[순환 그림 원본](./assets/wiki-maintenance-loop.svg)
+**LLM이 여러 자료의 개념·비교·종합을 작성하고 갱신합니다.** [그림 원본](./assets/wiki-maintenance-loop.svg)
 
 ---
 
@@ -119,9 +117,7 @@ fit: contain
 
 ![보존하는 원자료 raw와 LLM이 갱신하는 wiki를 구별한다. schema 작업 규칙은 읽기·쓰기·질문·점검 전체에 적용되며 세 번째 변환 산출물이 아니다.](./assets/wiki-layers.svg)
 
-**원자료는 보존 · 위키는 갱신 · 규칙은 전체 작업에 적용**
-
-[구조 그림 원본](./assets/wiki-layers.svg) · [Architecture](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#architecture)
+원자료는 보존 · 위키는 갱신 · 규칙은 전체에 적용. [Architecture](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#architecture) · [그림 원본](./assets/wiki-layers.svg)
 
 ---
 
@@ -134,9 +130,7 @@ fit: contain
 
 ![새 자료를 읽어 요약을 만들면서 관련 개념·비교·잠정 종합도 갱신한다. 기존 내용과 대조하고 근거와 아직 확인하지 못한 부분을 남긴다.](./assets/wiki-ingest-update.svg)
 
-**Ingest:** 새 요약과 함께 기존 개념·비교·종합을 갱신합니다.
-
-[갱신 그림 원본](./assets/wiki-ingest-update.svg)
+**Ingest:** 새 요약과 관련된 기존 페이지를 함께 갱신합니다. [그림 원본](./assets/wiki-ingest-update.svg)
 
 ---
 
@@ -149,11 +143,7 @@ fit: contain
 
 ![index나 검색으로 관련 위키를 찾고 현재 답변의 문맥으로 읽어 답한다. 유용한 새 답은 페이지로 저장하고 관련 위키에 연결한다. 필요한 근거는 원자료로 돌아간다.](./assets/wiki-query-return.svg)
 
-**Query:** 관련 파일을 현재 문맥에 읽어 답하고, 유용한 답을 다시 저장합니다.
-
-파일 갱신과 모델 가중치 학습은 별개의 작업입니다.
-
-[질문과 저장 그림 원본](./assets/wiki-query-return.svg)
+**Query:** 위키를 읽어 답하고 유용한 답을 다시 저장합니다. 파일 갱신과 가중치 학습은 별개입니다. [그림 원본](./assets/wiki-query-return.svg)
 
 ---
 
@@ -201,11 +191,7 @@ fit: contain
 
 ![가상 소설의 1장과 3장 메모를 인물 서하·신뢰 주제·장 요약에 연결한다. 읽은 장의 근거와 인물의 자기 설명을 구별하며 배신에 관한 질문의 답을 남긴다.](./assets/case-reading.svg)
 
-가상 자료로 만든 적용 예 · 소설 독서
-
-1장: **서하는 지도를 숨기고 북문을 떠났다.** 동기는 아직 모릅니다.
-
-[독서 파일 읽기](./materials/study-guide.md#소설-독서) · [입력과 전후 파일](./assets/examples/reading.txt)
+가상 소설의 적용 예 · 읽은 장의 근거와 미확인을 함께 남깁니다. [학습서](./materials/study-guide.md#소설-독서) · [입력과 전후 파일](./assets/examples/reading.txt)
 
 ---
 
@@ -294,11 +280,7 @@ fit: contain
 
 ![월말 수동 다운로드와 일별 자동 수집 요청을 내보내기 개념과 비교에 연결한다. 새 회의는 이번 분기 수동 CSV 범위 검토와 예약 전송 보류를 알려 관련 상태·비교·FAQ를 갱신한다. 출시일은 미확정이다.](./assets/case-team.svg)
 
-가상 고객 요구 · 상담 두 건과 새 회의
-
-같은 CSV여도 목적과 자동화 범위가 다릅니다. **요구는 보존하고 상태를 갱신**합니다.
-
-[고객 요구 파일 읽기](./materials/study-guide.md#고객-요구) · [입력과 전후 파일](./assets/examples/team.txt)
+가상 고객 요구의 적용 예 · **요구는 보존하고 상태를 갱신**합니다. [학습서](./materials/study-guide.md#고객-요구) · [입력과 전후 파일](./assets/examples/team.txt)
 
 ---
 
@@ -329,11 +311,7 @@ fit: contain
 
 ![2주차 회귀와 7주차 회귀트리의 제곱오차를 공유 개념에 연결한다. 8주차 분류트리의 Gini 기준을 비교에 더하고 공통점과 차이를 종합 파일로 남긴다.](./assets/case-course.svg)
 
-가상 자료로 만든 적용 예 · 강의 메모
-
-2주차 회귀와 7주차 회귀트리에서 **제곱오차**를 다시 만납니다.
-
-[강의 메모 파일 읽기](./materials/study-guide.md#강의-메모) · [입력과 전후 파일](./assets/examples/course.txt)
+가상 강의 메모의 적용 예 · **공통 기준과 다른 조건을 비교·종합에 연결**합니다. [학습서](./materials/study-guide.md#강의-메모) · [입력과 전후 파일](./assets/examples/course.txt)
 
 ---
 
@@ -495,9 +473,7 @@ fit: contain
 
 ![읽고 엮는 ingest, 위키를 읽어 답하고 저장하는 query, 내용과 연결을 점검하는 lint가 같은 지속 위키를 갱신한다. 규칙은 전체 작업을 안내한다.](./assets/wiki-maintenance-loop.svg)
 
-**읽고 엮기 · 답하고 남기기 · 점검해 다시 읽기**
-
-[순환 그림 원본](./assets/wiki-maintenance-loop.svg)
+**읽고 엮기 · 답하고 남기기 · 낡은 설명과 연결 점검하기.** [순환 그림 원본](./assets/wiki-maintenance-loop.svg)
 
 ---
 
@@ -825,11 +801,7 @@ fit: contain
 
 ![교정된 C1, Q1의 다음 확인, 초기 결정 D1을 함께 읽어 새 운영 질문 Q2를 판단한다. 이 목록은 고정 승인 예제의 입력이며 자동 검색의 성공 기록이 아니다.](./assets/reuse-inputs.svg)
 
-기존 고정 구성 예 · 새 질문 Q2의 판단 입력
-
-**Q2:** 우리 스터디는 어떤 답을 저장할까?
-
-[고정 예제의 재사용 과정](./materials/demo-log.md#6-새-질문-q2가-이전-결과를-다시-쓴다)
+고정 승인 예제의 판단 입력입니다. 자동 검색·생성 실행의 기록이 아닙니다. [Q2 재사용 기록](./materials/demo-log.md#6-새-질문-q2가-이전-결과를-다시-쓴다)
 
 ---
 
@@ -842,11 +814,7 @@ fit: contain
 
 ![모든 답을 현행에 저장하려던 D1은 대체됨으로 남기고 검토한 답을 현행으로 연결하는 D2에 새 선택과 검토 부담을 적는다.](./assets/decision-transition.svg)
 
-기존 구성 예 · ADR 형식을 응용한 운영 선택
-
-**D1 → D2:** 당시 이유는 보존하고, 새 기준과 검토 부담을 남깁니다.
-
-[Nygard의 결정 기록](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) · LLM Wiki의 필수 형식은 아닙니다.
+기존 구성 예 · ADR을 응용한 운영 선택이며 LLM Wiki의 필수 형식은 아닙니다. [결정 기록 근거](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) · [실행 기록](./materials/demo-log.md)
 
 ---
 
