@@ -3,7 +3,7 @@ window.PRESENTATION = {
   "format": "markdown-v1",
   "document": {
     "sourcePath": "talks/llm-wiki/slides.md",
-    "revision": "37544465f9f310da923ddf6d3fa23476b0669c500e8d1be550d2c6f992180576"
+    "revision": "e1df2cd2c288c3996ec58c661598587897dba88bbf6463d23afd7b0adfd51651"
   },
   "id": "llm-wiki",
   "title": "다음 질문에 다시 쓰는 LLM Wiki",
@@ -247,7 +247,25 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "자료 다섯 개를 읽는다."
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "CSV 요청"
+                }
+              ],
+              "position": {
+                "line": 44,
+                "endLine": 44
+              }
+            },
+            {
+              "type": "text",
+              "value": "을 함께 읽는다."
             }
           ],
           "position": {
@@ -261,7 +279,7 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "조건과 차이를 비교해 답한다."
+              "value": "월말 수동 · 일별 자동의 조건을 비교한다."
             }
           ],
           "position": {
@@ -1186,8 +1204,8 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/381686fba25b-case-reading.svg",
-                "alt": "가상 소설의 1장과 3장 메모를 인물 서하·신뢰 주제·장 요약에 연결한다. 읽은 장의 근거와 인물의 자기 설명을 구별하며 배신에 관한 질문의 답을 남긴다."
+                "src": "assets/217a8eb04b47-case-reading-initial.svg",
+                "alt": "가상 소설 1장까지 읽은 상태다. 서하의 행동과 도윤의 말을 인물·신뢰 주제에 연결하며 서하의 동기는 아직 미확인으로 남긴다."
               },
               "children": [],
               "position": {
@@ -1207,7 +1225,25 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "가상 소설의 적용 예 · 읽은 장의 근거와 미확인을 함께 남깁니다. "
+              "value": "가상 소설의 적용 예 · "
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "1장까지의 근거와 미확인"
+                }
+              ],
+              "position": {
+                "line": 194,
+                "endLine": 194
+              }
+            },
+            {
+              "type": "text",
+              "value": "을 함께 남깁니다. "
             },
             {
               "type": "element",
@@ -2063,8 +2099,8 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/92826f25bf47-case-course.svg",
-                "alt": "2주차 회귀와 7주차 회귀트리의 제곱오차를 공유 개념에 연결한다. 8주차 분류트리의 Gini 기준을 비교에 더하고 공통점과 차이를 종합 파일로 남긴다."
+                "src": "assets/2dc76bc98400-case-course-initial.svg",
+                "alt": "가상 강의의 2주차 회귀와 7주차 회귀트리만 읽은 상태다. 이 예에서 공유하는 제곱오차를 개념 페이지에 연결하고 두 주차의 근거를 남긴다."
               },
               "children": [],
               "position": {
@@ -2092,7 +2128,7 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "공통 기준과 다른 조건을 비교·종합에 연결"
+                  "value": "2·7주차의 공통 기준과 사용 위치"
                 }
               ],
               "position": {
@@ -2102,7 +2138,7 @@ window.PRESENTATION = {
             },
             {
               "type": "text",
-              "value": "합니다. "
+              "value": "를 연결합니다. "
             },
             {
               "type": "element",
@@ -3588,7 +3624,7 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "읽고 엮기 · 답하고 남기기 · 낡은 설명과 연결 점검하기."
+                  "value": "읽고 엮기 · 답하고 남기기 · 점검 후 근거를 다시 읽고 고치기."
                 }
               ],
               "position": {
@@ -3811,18 +3847,70 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "자료 위치와 작업 규칙을 함께 알려 줍니다."
+              "value": "자료 위치·읽기와 쓰기 권한·작업 규칙을 함께 알려 줍니다."
             }
           ],
           "position": {
             "line": 511,
             "endLine": 511
           }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "materials/workshop.html#2-%EC%9E%85%EB%A0%A5%EA%B3%BC-%EC%9D%B4%EC%A0%84-%EC%9C%84%ED%82%A4%EB%A5%BC-%EB%82%98%EB%88%84%EA%B8%B0"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "실습 기본 2~4"
+                }
+              ],
+              "position": {
+                "line": 513,
+                "endLine": 513
+              }
+            },
+            {
+              "type": "text",
+              "value": "의 문장과 "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "assets/0ac7822fd7af-starter.txt"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "starter 규칙"
+                }
+              ],
+              "position": {
+                "line": 513,
+                "endLine": 513
+              }
+            },
+            {
+              "type": "text",
+              "value": "을 자기 파일 에이전트에 함께 제공합니다."
+            }
+          ],
+          "position": {
+            "line": 513,
+            "endLine": 513
+          }
         }
       ],
       "origin": {
         "line": 496,
-        "endLine": 511
+        "endLine": 513
       },
       "tone": "purple",
       "view": {
@@ -3842,8 +3930,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 522,
-          "endLine": 522
+          "line": 524,
+          "endLine": 524
         }
       },
       "blocks": [
@@ -3858,30 +3946,6 @@ window.PRESENTATION = {
                 "src": "assets/5aa7ac752bff-open-books.jpg",
                 "alt": "창가 책상에 펼친 책과 공책",
                 "title": "자료 고르기"
-              },
-              "children": [],
-              "position": {
-                "line": 524,
-                "endLine": 524
-              }
-            }
-          ],
-          "position": {
-            "line": 524,
-            "endLine": 524
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "element",
-              "tag": "img",
-              "attrs": {
-                "src": "assets/478e6580030c-writing.jpg",
-                "alt": "노트에 쓰는 인물",
-                "title": "질문 정하기"
               },
               "children": [],
               "position": {
@@ -3903,9 +3967,9 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/258a229c6dc8-study-table.jpg",
-                "alt": "책과 공책과 필기도구가 모인 책상",
-                "title": "갱신된 쪽 다시 읽기"
+                "src": "assets/478e6580030c-writing.jpg",
+                "alt": "노트에 쓰는 인물",
+                "title": "질문 정하기"
               },
               "children": [],
               "position": {
@@ -3924,19 +3988,75 @@ window.PRESENTATION = {
           "tag": "p",
           "children": [
             {
-              "type": "text",
-              "value": "작게 시작할 예: 자료 몇 개 · 질문 하나 · 결과를 확인할 사람."
+              "type": "element",
+              "tag": "img",
+              "attrs": {
+                "src": "assets/258a229c6dc8-study-table.jpg",
+                "alt": "책과 공책과 필기도구가 모인 책상",
+                "title": "갱신된 쪽 다시 읽기"
+              },
+              "children": [],
+              "position": {
+                "line": 530,
+                "endLine": 530
+              }
             }
           ],
           "position": {
             "line": 530,
             "endLine": 530
           }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "작게 시작할 예: 자료 몇 개 · 질문 하나 · 결과를 확인할 사람."
+            }
+          ],
+          "position": {
+            "line": 532,
+            "endLine": 532
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "필요한 근거를 다시 찾았나? · 잘못된 정리를 고칠 부담을 감당할 수 있나?"
+                }
+              ],
+              "position": {
+                "line": 534,
+                "endLine": 534
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
+            }
+          ],
+          "position": {
+            "line": 534,
+            "endLine": 534
+          }
         }
       ],
       "origin": {
-        "line": 515,
-        "endLine": 530
+        "line": 517,
+        "endLine": 534
       },
       "tone": "orange",
       "view": {
@@ -3963,8 +4083,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 538,
-          "endLine": 538
+          "line": 542,
+          "endLine": 542
         }
       },
       "blocks": [
@@ -3978,8 +4098,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 543,
-            "endLine": 543
+            "line": 547,
+            "endLine": 547
           }
         },
         {
@@ -3999,14 +4119,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 545,
-                "endLine": 545
+                "line": 549,
+                "endLine": 549
               }
             }
           ],
           "position": {
-            "line": 545,
-            "endLine": 545
+            "line": 549,
+            "endLine": 549
           }
         },
         {
@@ -4026,14 +4146,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 547,
-                "endLine": 547
+                "line": 551,
+                "endLine": 551
               }
             }
           ],
           "position": {
-            "line": 547,
-            "endLine": 547
+            "line": 551,
+            "endLine": 551
           }
         },
         {
@@ -4046,8 +4166,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 552,
-            "endLine": 552
+            "line": 556,
+            "endLine": 556
           }
         },
         {
@@ -4067,14 +4187,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 554,
-                "endLine": 554
+                "line": 558,
+                "endLine": 558
               }
             }
           ],
           "position": {
-            "line": 554,
-            "endLine": 554
+            "line": 558,
+            "endLine": 558
           }
         },
         {
@@ -4094,14 +4214,63 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 556,
-                "endLine": 556
+                "line": 560,
+                "endLine": 560
               }
             }
           ],
           "position": {
-            "line": 556,
-            "endLine": 556
+            "line": 560,
+            "endLine": 560
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "기본 2~4 복사 → "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "assets/0ac7822fd7af-starter.txt"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "starter 규칙"
+                }
+              ],
+              "position": {
+                "line": 562,
+                "endLine": 562
+              }
+            },
+            {
+              "type": "text",
+              "value": " 함께 제공"
+            }
+          ],
+          "position": {
+            "line": 562,
+            "endLine": 562
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "다음 질문에서 읽은 파일 확인"
+            }
+          ],
+          "position": {
+            "line": 564,
+            "endLine": 564
           }
         },
         {
@@ -4114,8 +4283,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 561,
-            "endLine": 561
+            "line": 569,
+            "endLine": 569
           }
         },
         {
@@ -4135,14 +4304,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 563,
-                "endLine": 563
+                "line": 571,
+                "endLine": 571
               }
             }
           ],
           "position": {
-            "line": 563,
-            "endLine": 563
+            "line": 571,
+            "endLine": 571
           }
         },
         {
@@ -4162,14 +4331,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 565,
-                "endLine": 565
+                "line": 573,
+                "endLine": 573
               }
             }
           ],
           "position": {
-            "line": 565,
-            "endLine": 565
+            "line": 573,
+            "endLine": 573
           }
         },
         {
@@ -4189,20 +4358,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 567,
-                "endLine": 567
+                "line": 575,
+                "endLine": 575
               }
             }
           ],
           "position": {
-            "line": 567,
-            "endLine": 567
+            "line": 575,
+            "endLine": 575
           }
         }
       ],
       "origin": {
-        "line": 534,
-        "endLine": 567
+        "line": 538,
+        "endLine": 575
       },
       "tone": "blue",
       "view": {
@@ -4213,26 +4382,26 @@ window.PRESENTATION = {
             "end": 3,
             "tone": "blue",
             "origin": {
-              "line": 540,
-              "endLine": 542
+              "line": 544,
+              "endLine": 546
             }
           },
           {
             "start": 3,
-            "end": 6,
+            "end": 8,
             "tone": "green",
             "origin": {
-              "line": 549,
-              "endLine": 551
+              "line": 553,
+              "endLine": 555
             }
           },
           {
-            "start": 6,
-            "end": 10,
+            "start": 8,
+            "end": 12,
             "tone": "orange",
             "origin": {
-              "line": 558,
-              "endLine": 560
+              "line": 566,
+              "endLine": 568
             }
           }
         ]
@@ -4251,8 +4420,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 575,
-          "endLine": 575
+          "line": 583,
+          "endLine": 583
         }
       },
       "blocks": [
@@ -4274,8 +4443,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 577,
-                "endLine": 577
+                "line": 585,
+                "endLine": 585
               }
             },
             {
@@ -4284,8 +4453,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 577,
-            "endLine": 577
+            "line": 585,
+            "endLine": 585
           }
         },
         {
@@ -4298,8 +4467,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 579,
-            "endLine": 579
+            "line": 587,
+            "endLine": 587
           }
         },
         {
@@ -4312,8 +4481,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 581,
-            "endLine": 581
+            "line": 589,
+            "endLine": 589
           }
         },
         {
@@ -4333,20 +4502,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 583,
-                "endLine": 583
+                "line": 591,
+                "endLine": 591
               }
             }
           ],
           "position": {
-            "line": 583,
-            "endLine": 583
+            "line": 591,
+            "endLine": 591
           }
         }
       ],
       "origin": {
-        "line": 571,
-        "endLine": 583
+        "line": 579,
+        "endLine": 591
       },
       "tone": "green",
       "view": {
@@ -4366,8 +4535,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 591,
-          "endLine": 591
+          "line": 599,
+          "endLine": 599
         }
       },
       "blocks": [
@@ -4389,8 +4558,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 593,
-                "endLine": 593
+                "line": 601,
+                "endLine": 601
               }
             },
             {
@@ -4399,8 +4568,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 593,
-            "endLine": 593
+            "line": 601,
+            "endLine": 601
           }
         },
         {
@@ -4413,8 +4582,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 598,
-            "endLine": 598
+            "line": 606,
+            "endLine": 606
           }
         },
         {
@@ -4427,8 +4596,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 600,
-            "endLine": 600
+            "line": 608,
+            "endLine": 608
           }
         },
         {
@@ -4441,8 +4610,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 602,
-            "endLine": 602
+            "line": 610,
+            "endLine": 610
           }
         },
         {
@@ -4455,8 +4624,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 607,
-            "endLine": 607
+            "line": 615,
+            "endLine": 615
           }
         },
         {
@@ -4469,8 +4638,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 609,
-            "endLine": 609
+            "line": 617,
+            "endLine": 617
           }
         },
         {
@@ -4483,8 +4652,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 611,
-            "endLine": 611
+            "line": 619,
+            "endLine": 619
           }
         },
         {
@@ -4508,20 +4677,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 613,
-                "endLine": 613
+                "line": 621,
+                "endLine": 621
               }
             }
           ],
           "position": {
-            "line": 613,
-            "endLine": 613
+            "line": 621,
+            "endLine": 621
           }
         }
       ],
       "origin": {
-        "line": 587,
-        "endLine": 613
+        "line": 595,
+        "endLine": 621
       },
       "tone": "blue",
       "view": {
@@ -4532,8 +4701,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "blue",
             "origin": {
-              "line": 595,
-              "endLine": 597
+              "line": 603,
+              "endLine": 605
             }
           },
           {
@@ -4541,8 +4710,8 @@ window.PRESENTATION = {
             "end": 8,
             "tone": "purple",
             "origin": {
-              "line": 604,
-              "endLine": 606
+              "line": 612,
+              "endLine": 614
             }
           }
         ]
@@ -4561,8 +4730,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 621,
-          "endLine": 621
+          "line": 629,
+          "endLine": 629
         }
       },
       "blocks": [
@@ -4576,8 +4745,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 623,
-            "endLine": 623
+            "line": 631,
+            "endLine": 631
           }
         },
         {
@@ -4590,8 +4759,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 628,
-            "endLine": 628
+            "line": 636,
+            "endLine": 636
           }
         },
         {
@@ -4604,8 +4773,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 630,
-            "endLine": 630
+            "line": 638,
+            "endLine": 638
           }
         },
         {
@@ -4618,8 +4787,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 632,
-            "endLine": 632
+            "line": 640,
+            "endLine": 640
           }
         },
         {
@@ -4632,8 +4801,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 637,
-            "endLine": 637
+            "line": 645,
+            "endLine": 645
           }
         },
         {
@@ -4646,8 +4815,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 639,
-            "endLine": 639
+            "line": 647,
+            "endLine": 647
           }
         },
         {
@@ -4668,8 +4837,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 641,
-                "endLine": 641
+                "line": 649,
+                "endLine": 649
               }
             },
             {
@@ -4678,8 +4847,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 641,
-            "endLine": 641
+            "line": 649,
+            "endLine": 649
           }
         },
         {
@@ -4699,20 +4868,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 643,
-                "endLine": 643
+                "line": 651,
+                "endLine": 651
               }
             }
           ],
           "position": {
-            "line": 643,
-            "endLine": 643
+            "line": 651,
+            "endLine": 651
           }
         }
       ],
       "origin": {
-        "line": 617,
-        "endLine": 643
+        "line": 625,
+        "endLine": 651
       },
       "tone": "purple",
       "view": {
@@ -4723,8 +4892,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "purple",
             "origin": {
-              "line": 625,
-              "endLine": 627
+              "line": 633,
+              "endLine": 635
             }
           },
           {
@@ -4732,8 +4901,8 @@ window.PRESENTATION = {
             "end": 8,
             "tone": "orange",
             "origin": {
-              "line": 634,
-              "endLine": 636
+              "line": 642,
+              "endLine": 644
             }
           }
         ]
@@ -4752,8 +4921,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 651,
-          "endLine": 651
+          "line": 659,
+          "endLine": 659
         }
       },
       "blocks": [
@@ -4775,14 +4944,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 653,
-                "endLine": 653
+                "line": 661,
+                "endLine": 661
               }
             }
           ],
           "position": {
-            "line": 653,
-            "endLine": 653
+            "line": 661,
+            "endLine": 661
           }
         },
         {
@@ -4803,8 +4972,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 655,
-                "endLine": 655
+                "line": 663,
+                "endLine": 663
               }
             },
             {
@@ -4813,8 +4982,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 655,
-            "endLine": 655
+            "line": 663,
+            "endLine": 663
           }
         },
         {
@@ -4827,8 +4996,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 657,
-            "endLine": 657
+            "line": 665,
+            "endLine": 665
           }
         },
         {
@@ -4849,8 +5018,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 659,
-                "endLine": 659
+                "line": 667,
+                "endLine": 667
               }
             },
             {
@@ -4859,8 +5028,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 659,
-            "endLine": 659
+            "line": 667,
+            "endLine": 667
           }
         },
         {
@@ -4880,20 +5049,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 661,
-                "endLine": 661
+                "line": 669,
+                "endLine": 669
               }
             }
           ],
           "position": {
-            "line": 661,
-            "endLine": 661
+            "line": 669,
+            "endLine": 669
           }
         }
       ],
       "origin": {
-        "line": 647,
-        "endLine": 661
+        "line": 655,
+        "endLine": 669
       },
       "tone": "blue",
       "view": {
@@ -4913,8 +5082,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 669,
-          "endLine": 669
+          "line": 677,
+          "endLine": 677
         }
       },
       "blocks": [
@@ -4928,8 +5097,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 671,
-            "endLine": 671
+            "line": 679,
+            "endLine": 679
           }
         },
         {
@@ -4942,8 +5111,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 676,
-            "endLine": 676
+            "line": 684,
+            "endLine": 684
           }
         },
         {
@@ -4956,8 +5125,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 678,
-            "endLine": 678
+            "line": 686,
+            "endLine": 686
           }
         },
         {
@@ -4970,8 +5139,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 680,
-            "endLine": 680
+            "line": 688,
+            "endLine": 688
           }
         },
         {
@@ -4984,8 +5153,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 682,
-            "endLine": 682
+            "line": 690,
+            "endLine": 690
           }
         },
         {
@@ -4998,8 +5167,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 687,
-            "endLine": 687
+            "line": 695,
+            "endLine": 695
           }
         },
         {
@@ -5012,8 +5181,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 689,
-            "endLine": 689
+            "line": 697,
+            "endLine": 697
           }
         },
         {
@@ -5026,8 +5195,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 691,
-            "endLine": 691
+            "line": 699,
+            "endLine": 699
           }
         },
         {
@@ -5040,8 +5209,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 693,
-            "endLine": 693
+            "line": 701,
+            "endLine": 701
           }
         },
         {
@@ -5065,20 +5234,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 695,
-                "endLine": 695
+                "line": 703,
+                "endLine": 703
               }
             }
           ],
           "position": {
-            "line": 695,
-            "endLine": 695
+            "line": 703,
+            "endLine": 703
           }
         }
       ],
       "origin": {
-        "line": 665,
-        "endLine": 695
+        "line": 673,
+        "endLine": 703
       },
       "tone": "green",
       "view": {
@@ -5089,8 +5258,8 @@ window.PRESENTATION = {
             "end": 5,
             "tone": "green",
             "origin": {
-              "line": 673,
-              "endLine": 675
+              "line": 681,
+              "endLine": 683
             }
           },
           {
@@ -5098,8 +5267,8 @@ window.PRESENTATION = {
             "end": 10,
             "tone": "blue",
             "origin": {
-              "line": 684,
-              "endLine": 686
+              "line": 692,
+              "endLine": 694
             }
           }
         ]
@@ -5118,8 +5287,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 703,
-          "endLine": 703
+          "line": 711,
+          "endLine": 711
         }
       },
       "blocks": [
@@ -5133,8 +5302,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 708,
-            "endLine": 708
+            "line": 716,
+            "endLine": 716
           }
         },
         {
@@ -5147,8 +5316,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 710,
-            "endLine": 710
+            "line": 718,
+            "endLine": 718
           }
         },
         {
@@ -5161,8 +5330,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 712,
-            "endLine": 712
+            "line": 720,
+            "endLine": 720
           }
         },
         {
@@ -5175,8 +5344,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 717,
-            "endLine": 717
+            "line": 725,
+            "endLine": 725
           }
         },
         {
@@ -5189,8 +5358,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 719,
-            "endLine": 719
+            "line": 727,
+            "endLine": 727
           }
         },
         {
@@ -5203,8 +5372,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 721,
-            "endLine": 721
+            "line": 729,
+            "endLine": 729
           }
         },
         {
@@ -5217,8 +5386,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 726,
-            "endLine": 726
+            "line": 734,
+            "endLine": 734
           }
         },
         {
@@ -5231,8 +5400,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 728,
-            "endLine": 728
+            "line": 736,
+            "endLine": 736
           }
         },
         {
@@ -5245,8 +5414,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 730,
-            "endLine": 730
+            "line": 738,
+            "endLine": 738
           }
         },
         {
@@ -5266,20 +5435,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 732,
-                "endLine": 732
+                "line": 740,
+                "endLine": 740
               }
             }
           ],
           "position": {
-            "line": 732,
-            "endLine": 732
+            "line": 740,
+            "endLine": 740
           }
         }
       ],
       "origin": {
-        "line": 699,
-        "endLine": 732
+        "line": 707,
+        "endLine": 740
       },
       "tone": "orange",
       "view": {
@@ -5290,8 +5459,8 @@ window.PRESENTATION = {
             "end": 3,
             "tone": "orange",
             "origin": {
-              "line": 705,
-              "endLine": 707
+              "line": 713,
+              "endLine": 715
             }
           },
           {
@@ -5299,8 +5468,8 @@ window.PRESENTATION = {
             "end": 6,
             "tone": "purple",
             "origin": {
-              "line": 714,
-              "endLine": 716
+              "line": 722,
+              "endLine": 724
             }
           },
           {
@@ -5308,8 +5477,8 @@ window.PRESENTATION = {
             "end": 10,
             "tone": "blue",
             "origin": {
-              "line": 723,
-              "endLine": 725
+              "line": 731,
+              "endLine": 733
             }
           }
         ]
@@ -5328,8 +5497,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 740,
-          "endLine": 740
+          "line": 748,
+          "endLine": 748
         }
       },
       "blocks": [
@@ -5343,8 +5512,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 742,
-            "endLine": 742
+            "line": 750,
+            "endLine": 750
           }
         },
         {
@@ -5357,8 +5526,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 747,
-            "endLine": 747
+            "line": 755,
+            "endLine": 755
           }
         },
         {
@@ -5371,8 +5540,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 749,
-            "endLine": 749
+            "line": 757,
+            "endLine": 757
           }
         },
         {
@@ -5385,8 +5554,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 751,
-            "endLine": 751
+            "line": 759,
+            "endLine": 759
           }
         },
         {
@@ -5399,8 +5568,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 756,
-            "endLine": 756
+            "line": 764,
+            "endLine": 764
           }
         },
         {
@@ -5413,8 +5582,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 758,
-            "endLine": 758
+            "line": 766,
+            "endLine": 766
           }
         },
         {
@@ -5427,8 +5596,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 760,
-            "endLine": 760
+            "line": 768,
+            "endLine": 768
           }
         },
         {
@@ -5441,8 +5610,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 762,
-            "endLine": 762
+            "line": 770,
+            "endLine": 770
           }
         },
         {
@@ -5462,8 +5631,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 764,
-                "endLine": 764
+                "line": 772,
+                "endLine": 772
               }
             },
             {
@@ -5483,20 +5652,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 764,
-                "endLine": 764
+                "line": 772,
+                "endLine": 772
               }
             }
           ],
           "position": {
-            "line": 764,
-            "endLine": 764
+            "line": 772,
+            "endLine": 772
           }
         }
       ],
       "origin": {
-        "line": 736,
-        "endLine": 764
+        "line": 744,
+        "endLine": 772
       },
       "tone": "blue",
       "view": {
@@ -5507,8 +5676,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "orange",
             "origin": {
-              "line": 744,
-              "endLine": 746
+              "line": 752,
+              "endLine": 754
             }
           },
           {
@@ -5516,8 +5685,8 @@ window.PRESENTATION = {
             "end": 9,
             "tone": "blue",
             "origin": {
-              "line": 753,
-              "endLine": 755
+              "line": 761,
+              "endLine": 763
             }
           }
         ]
@@ -5536,8 +5705,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 772,
-          "endLine": 772
+          "line": 780,
+          "endLine": 780
         }
       },
       "blocks": [
@@ -5551,8 +5720,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 777,
-            "endLine": 777
+            "line": 785,
+            "endLine": 785
           }
         },
         {
@@ -5565,8 +5734,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 779,
-            "endLine": 779
+            "line": 787,
+            "endLine": 787
           }
         },
         {
@@ -5586,8 +5755,8 @@ window.PRESENTATION = {
                   "tag": "br",
                   "children": [],
                   "position": {
-                    "line": 781,
-                    "endLine": 782
+                    "line": 789,
+                    "endLine": 790
                   }
                 },
                 {
@@ -5596,14 +5765,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 781,
-                "endLine": 782
+                "line": 789,
+                "endLine": 790
               }
             }
           ],
           "position": {
-            "line": 781,
-            "endLine": 782
+            "line": 789,
+            "endLine": 790
           }
         },
         {
@@ -5616,8 +5785,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 787,
-            "endLine": 787
+            "line": 795,
+            "endLine": 795
           }
         },
         {
@@ -5634,14 +5803,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 789,
-                "endLine": 789
+                "line": 797,
+                "endLine": 797
               }
             }
           ],
           "position": {
-            "line": 789,
-            "endLine": 789
+            "line": 797,
+            "endLine": 797
           }
         },
         {
@@ -5661,8 +5830,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 791,
-                "endLine": 791
+                "line": 799,
+                "endLine": 799
               }
             },
             {
@@ -5682,20 +5851,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 791,
-                "endLine": 791
+                "line": 799,
+                "endLine": 799
               }
             }
           ],
           "position": {
-            "line": 791,
-            "endLine": 791
+            "line": 799,
+            "endLine": 799
           }
         }
       ],
       "origin": {
-        "line": 768,
-        "endLine": 791
+        "line": 776,
+        "endLine": 799
       },
       "tone": "blue",
       "view": {
@@ -5706,8 +5875,8 @@ window.PRESENTATION = {
             "end": 3,
             "tone": "orange",
             "origin": {
-              "line": 774,
-              "endLine": 776
+              "line": 782,
+              "endLine": 784
             }
           },
           {
@@ -5715,8 +5884,8 @@ window.PRESENTATION = {
             "end": 6,
             "tone": "green",
             "origin": {
-              "line": 784,
-              "endLine": 786
+              "line": 792,
+              "endLine": 794
             }
           }
         ]
@@ -5735,8 +5904,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 800,
-          "endLine": 800
+          "line": 808,
+          "endLine": 808
         }
       },
       "blocks": [
@@ -5753,14 +5922,14 @@ window.PRESENTATION = {
               },
               "children": [],
               "position": {
-                "line": 802,
-                "endLine": 802
+                "line": 810,
+                "endLine": 810
               }
             }
           ],
           "position": {
-            "line": 802,
-            "endLine": 802
+            "line": 810,
+            "endLine": 810
           }
         },
         {
@@ -5784,20 +5953,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 804,
-                "endLine": 804
+                "line": 812,
+                "endLine": 812
               }
             }
           ],
           "position": {
-            "line": 804,
-            "endLine": 804
+            "line": 812,
+            "endLine": 812
           }
         }
       ],
       "origin": {
-        "line": 795,
-        "endLine": 804
+        "line": 803,
+        "endLine": 812
       },
       "tone": "purple",
       "view": {
@@ -5818,8 +5987,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 813,
-          "endLine": 813
+          "line": 821,
+          "endLine": 821
         }
       },
       "blocks": [
@@ -5836,14 +6005,14 @@ window.PRESENTATION = {
               },
               "children": [],
               "position": {
-                "line": 815,
-                "endLine": 815
+                "line": 823,
+                "endLine": 823
               }
             }
           ],
           "position": {
-            "line": 815,
-            "endLine": 815
+            "line": 823,
+            "endLine": 823
           }
         },
         {
@@ -5867,8 +6036,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 817,
-                "endLine": 817
+                "line": 825,
+                "endLine": 825
               }
             },
             {
@@ -5888,20 +6057,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 817,
-                "endLine": 817
+                "line": 825,
+                "endLine": 825
               }
             }
           ],
           "position": {
-            "line": 817,
-            "endLine": 817
+            "line": 825,
+            "endLine": 825
           }
         }
       ],
       "origin": {
-        "line": 808,
-        "endLine": 817
+        "line": 816,
+        "endLine": 825
       },
       "tone": "orange",
       "view": {
@@ -5922,8 +6091,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 825,
-          "endLine": 825
+          "line": 833,
+          "endLine": 833
         }
       },
       "blocks": [
@@ -5937,8 +6106,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 830,
-            "endLine": 830
+            "line": 838,
+            "endLine": 838
           }
         },
         {
@@ -5951,8 +6120,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 832,
-            "endLine": 832
+            "line": 840,
+            "endLine": 840
           }
         },
         {
@@ -5973,8 +6142,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 834,
-                "endLine": 834
+                "line": 842,
+                "endLine": 842
               }
             },
             {
@@ -5983,8 +6152,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 834,
-            "endLine": 834
+            "line": 842,
+            "endLine": 842
           }
         },
         {
@@ -5997,8 +6166,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 836,
-            "endLine": 836
+            "line": 844,
+            "endLine": 844
           }
         },
         {
@@ -6011,8 +6180,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 841,
-            "endLine": 841
+            "line": 849,
+            "endLine": 849
           }
         },
         {
@@ -6033,8 +6202,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 843,
-                "endLine": 843
+                "line": 851,
+                "endLine": 851
               }
             },
             {
@@ -6043,8 +6212,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 843,
-            "endLine": 843
+            "line": 851,
+            "endLine": 851
           }
         },
         {
@@ -6057,8 +6226,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 845,
-            "endLine": 845
+            "line": 853,
+            "endLine": 853
           }
         },
         {
@@ -6071,8 +6240,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 850,
-            "endLine": 850
+            "line": 858,
+            "endLine": 858
           }
         },
         {
@@ -6093,8 +6262,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 852,
-                "endLine": 852
+                "line": 860,
+                "endLine": 860
               }
             },
             {
@@ -6103,8 +6272,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 852,
-            "endLine": 852
+            "line": 860,
+            "endLine": 860
           }
         },
         {
@@ -6117,8 +6286,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 854,
-            "endLine": 854
+            "line": 862,
+            "endLine": 862
           }
         },
         {
@@ -6131,14 +6300,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 856,
-            "endLine": 856
+            "line": 864,
+            "endLine": 864
           }
         }
       ],
       "origin": {
-        "line": 821,
-        "endLine": 856
+        "line": 829,
+        "endLine": 864
       },
       "tone": "blue",
       "view": {
@@ -6149,8 +6318,8 @@ window.PRESENTATION = {
             "end": 4,
             "tone": "blue",
             "origin": {
-              "line": 827,
-              "endLine": 829
+              "line": 835,
+              "endLine": 837
             }
           },
           {
@@ -6158,8 +6327,8 @@ window.PRESENTATION = {
             "end": 7,
             "tone": "green",
             "origin": {
-              "line": 838,
-              "endLine": 840
+              "line": 846,
+              "endLine": 848
             }
           },
           {
@@ -6167,8 +6336,8 @@ window.PRESENTATION = {
             "end": 11,
             "tone": "orange",
             "origin": {
-              "line": 847,
-              "endLine": 849
+              "line": 855,
+              "endLine": 857
             }
           }
         ]
@@ -6187,121 +6356,301 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 864,
-          "endLine": 864
+          "line": 872,
+          "endLine": 872
         }
       },
       "blocks": [
         {
           "type": "element",
-          "tag": "h2",
+          "tag": "table",
           "children": [
             {
-              "type": "text",
-              "value": "원저자 설계"
+              "type": "element",
+              "tag": "thead",
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "근거 종류"
+                        }
+                      ],
+                      "position": {
+                        "line": 874,
+                        "endLine": 874
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "tag": "th",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "확인할 질문"
+                        }
+                      ],
+                      "position": {
+                        "line": 874,
+                        "endLine": 874
+                      }
+                    }
+                  ],
+                  "position": {
+                    "line": 874,
+                    "endLine": 874
+                  }
+                }
+              ],
+              "position": {
+                "line": 874,
+                "endLine": 874
+              }
+            },
+            {
+              "type": "element",
+              "tag": "tbody",
+              "children": [
+                {
+                  "type": "element",
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ""
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "원저자 설계"
+                            }
+                          ],
+                          "position": {
+                            "line": 876,
+                            "endLine": 876
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ""
+                        }
+                      ],
+                      "position": {
+                        "line": 876,
+                        "endLine": 876
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "무엇을 제안했나?"
+                        }
+                      ],
+                      "position": {
+                        "line": 876,
+                        "endLine": 876
+                      }
+                    }
+                  ],
+                  "position": {
+                    "line": 876,
+                    "endLine": 876
+                  }
+                },
+                {
+                  "type": "element",
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ""
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "공개 코드 관찰"
+                            }
+                          ],
+                          "position": {
+                            "line": 877,
+                            "endLine": 877
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ""
+                        }
+                      ],
+                      "position": {
+                        "line": 877,
+                        "endLine": 877
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "어떤 경로가 구현됐나?"
+                        }
+                      ],
+                      "position": {
+                        "line": 877,
+                        "endLine": 877
+                      }
+                    }
+                  ],
+                  "position": {
+                    "line": 877,
+                    "endLine": 877
+                  }
+                },
+                {
+                  "type": "element",
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ""
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "논문 실험"
+                            }
+                          ],
+                          "position": {
+                            "line": 878,
+                            "endLine": 878
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ""
+                        }
+                      ],
+                      "position": {
+                        "line": 878,
+                        "endLine": 878
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "어떤 조건을 평가했나?"
+                        }
+                      ],
+                      "position": {
+                        "line": 878,
+                        "endLine": 878
+                      }
+                    }
+                  ],
+                  "position": {
+                    "line": 878,
+                    "endLine": 878
+                  }
+                },
+                {
+                  "type": "element",
+                  "tag": "tr",
+                  "children": [
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": ""
+                        },
+                        {
+                          "type": "element",
+                          "tag": "strong",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "구성 적용 예"
+                            }
+                          ],
+                          "position": {
+                            "line": 879,
+                            "endLine": 879
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ""
+                        }
+                      ],
+                      "position": {
+                        "line": 879,
+                        "endLine": 879
+                      }
+                    },
+                    {
+                      "type": "element",
+                      "tag": "td",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "무엇을 가정해 설명했나?"
+                        }
+                      ],
+                      "position": {
+                        "line": 879,
+                        "endLine": 879
+                      }
+                    }
+                  ],
+                  "position": {
+                    "line": 879,
+                    "endLine": 879
+                  }
+                }
+              ],
+              "position": {
+                "line": 876,
+                "endLine": 879
+              }
             }
           ],
           "position": {
-            "line": 869,
-            "endLine": 869
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "무엇을 제안했나?"
-            }
-          ],
-          "position": {
-            "line": 871,
-            "endLine": 871
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "공개 코드 관찰"
-            }
-          ],
-          "position": {
-            "line": 876,
-            "endLine": 876
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "어떤 경로가 구현됐나?"
-            }
-          ],
-          "position": {
-            "line": 878,
-            "endLine": 878
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "논문 실험"
-            }
-          ],
-          "position": {
-            "line": 883,
-            "endLine": 883
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "어떤 조건을 평가했나?"
-            }
-          ],
-          "position": {
-            "line": 885,
-            "endLine": 885
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "구성 적용 예"
-            }
-          ],
-          "position": {
-            "line": 890,
-            "endLine": 890
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "무엇을 가정해 설명했나?"
-            }
-          ],
-          "position": {
-            "line": 892,
-            "endLine": 892
+            "line": 874,
+            "endLine": 879
           }
         },
         {
@@ -6321,8 +6670,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 894,
-                "endLine": 894
+                "line": 881,
+                "endLine": 881
               }
             },
             {
@@ -6342,62 +6691,24 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 894,
-                "endLine": 894
+                "line": 881,
+                "endLine": 881
               }
             }
           ],
           "position": {
-            "line": 894,
-            "endLine": 894
+            "line": 881,
+            "endLine": 881
           }
         }
       ],
       "origin": {
-        "line": 860,
-        "endLine": 894
+        "line": 868,
+        "endLine": 881
       },
       "tone": "purple",
       "view": {
-        "compose": "bento",
-        "groups": [
-          {
-            "start": 0,
-            "end": 2,
-            "tone": "blue",
-            "origin": {
-              "line": 866,
-              "endLine": 868
-            }
-          },
-          {
-            "start": 2,
-            "end": 4,
-            "tone": "purple",
-            "origin": {
-              "line": 873,
-              "endLine": 875
-            }
-          },
-          {
-            "start": 4,
-            "end": 6,
-            "tone": "green",
-            "origin": {
-              "line": 880,
-              "endLine": 882
-            }
-          },
-          {
-            "start": 6,
-            "end": 9,
-            "tone": "orange",
-            "origin": {
-              "line": 887,
-              "endLine": 889
-            }
-          }
-        ]
+        "compose": "document"
       }
     },
     {
@@ -6413,8 +6724,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 902,
-          "endLine": 902
+          "line": 889,
+          "endLine": 889
         }
       },
       "blocks": [
@@ -6436,8 +6747,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 904,
-                "endLine": 904
+                "line": 891,
+                "endLine": 891
               }
             },
             {
@@ -6446,8 +6757,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 904,
-            "endLine": 904
+            "line": 891,
+            "endLine": 891
           }
         },
         {
@@ -6467,8 +6778,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 906,
-                "endLine": 906
+                "line": 893,
+                "endLine": 893
               }
             },
             {
@@ -6488,14 +6799,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 906,
-                "endLine": 906
+                "line": 893,
+                "endLine": 893
               }
             }
           ],
           "position": {
-            "line": 906,
-            "endLine": 906
+            "line": 893,
+            "endLine": 893
           }
         },
         {
@@ -6515,8 +6826,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 908,
-                "endLine": 908
+                "line": 895,
+                "endLine": 895
               }
             },
             {
@@ -6536,20 +6847,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 908,
-                "endLine": 908
+                "line": 895,
+                "endLine": 895
               }
             }
           ],
           "position": {
-            "line": 908,
-            "endLine": 908
+            "line": 895,
+            "endLine": 895
           }
         }
       ],
       "origin": {
-        "line": 898,
-        "endLine": 908
+        "line": 885,
+        "endLine": 895
       },
       "tone": "purple",
       "view": {

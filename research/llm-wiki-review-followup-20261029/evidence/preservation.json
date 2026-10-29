@@ -1,0 +1,27 @@
+{
+  "baseline": "719c387882aa449f5e8b3984b35f5845629d1a9c",
+  "revision": "e1df2cd2c288c3996ec58c661598587897dba88bbf6463d23afd7b0adfd51651",
+  "changed_source_slides": [
+    3,
+    10,
+    16,
+    23,
+    25,
+    26,
+    27,
+    39
+  ],
+  "preserved_reveal_slides": [
+    11,
+    17
+  ],
+  "modified_baseline_files": [
+    "talks/llm-wiki/slides.md",
+    "talks/llm-wiki/materials/speaker-script.md"
+  ],
+  "unchanged_baseline_files": 51,
+  "frozen_source_files": 56,
+  "changed_after_freeze": [],
+  "initial_svgs_exclude_future_information": true,
+  "scope": "AST comparison excludes source locations; source/asset identity and disclosure boundary checks are separate from presentation quality."
+}

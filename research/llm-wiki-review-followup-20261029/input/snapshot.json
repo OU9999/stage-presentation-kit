@@ -1,0 +1,424 @@
+{
+  "baseline_head": "719c387882aa449f5e8b3984b35f5845629d1a9c",
+  "revision": "e1df2cd2c288c3996ec58c661598587897dba88bbf6463d23afd7b0adfd51651",
+  "source_files": {
+    "talks/llm-wiki/slides.md": "e1df2cd2c288c3996ec58c661598587897dba88bbf6463d23afd7b0adfd51651",
+    "talks/llm-wiki/materials/demo-log.md": "e2b447d1bab2f2b12d3d066d231fe1bfbff0c6ba0dd2335b2816ba5fa155b10f",
+    "talks/llm-wiki/materials/index.md": "4aea025524bdd50af41806287b796ffd8a0ea53b16a48e0e505c000117925868",
+    "talks/llm-wiki/materials/reference-library.md": "82062c83e6790ac0d6358bbd7765d1c9a1328c5799f5692ebafd8729d58c971f",
+    "talks/llm-wiki/materials/speaker-script.md": "10fb4818bdccc0bab1cb885cddeb245313dbdc6779f49513fafebfbd554ecc83",
+    "talks/llm-wiki/materials/study-guide.md": "b1c5a224121785a105ea1523be414993c36ab4437cf372645cdc6ba44a1161b8",
+    "talks/llm-wiki/materials/workshop.md": "04a14b2646e20d90c24df57e1ff9e6dddb840c48df9950ee82f7962bc6353ca9",
+    "talks/llm-wiki/assets/case-course.svg": "92826f25bf473f1cde492fa4adeca37221ef319e504cd1423bf56dd39511974c",
+    "talks/llm-wiki/assets/case-reading.svg": "381686fba25b77da3d78ce015ba919505cb5fbb6a25a91522542ba3a43784979",
+    "talks/llm-wiki/assets/case-team.svg": "0719dc19d60319b011810062359dc0e3235398cf99dcff9753abf63410cfb19e",
+    "talks/llm-wiki/assets/change-trace.svg": "5efc5a198e7f6479ebced5f155635eeeefce5f409a8881ce28afcdd4b87b417f",
+    "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+    "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+    "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+    "talks/llm-wiki/assets/knowledge-map.svg": "07411af0788bfcd8c06ff8c2b0fc026a16659892762aefb568248ee6b40cd109",
+    "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+    "talks/llm-wiki/assets/reuse-route.svg": "65eecce8e8af5bfc849d98a23ab76952be2ed66565986335e335e5e40c174af4",
+    "talks/llm-wiki/assets/study-notebook-map.svg": "3eb3b028a3414f0d15525539e0aa544c90df48d6c4704d99751917ce50d4a16a",
+    "talks/llm-wiki/assets/wiki-ingest-update.svg": "127df6c27adfcd67fe12091c12859ece95960c76ff301ae171a289a6285c6bfe",
+    "talks/llm-wiki/assets/wiki-layers.svg": "79afc5f22a989abd58ccf096aea59466057cb46a29da8cb263e34d37e36fc6b7",
+    "talks/llm-wiki/assets/wiki-maintenance-loop.svg": "8263a8f3fd79abe6d50dbd777086918876e589c88b4ab919b8755ee6daa1f5d3",
+    "talks/llm-wiki/assets/wiki-query-return.svg": "d68e2a55ee89c46cbd29a187f076f32d0146c8713c3b8b086ad2af1d05de8413",
+    "talks/llm-wiki/demo/README.md": "f95bd173cc838886f933264af4431eb12c836005b1781442feb6df5fca2dcaac",
+    "talks/llm-wiki/demo/after/wiki/claims/file-update.md": "92bb630e8e722d09d787eeeceb5c61bce8a861c96078e42525e0186091cc2838",
+    "talks/llm-wiki/demo/after/wiki/decisions/review-before-current.md": "9ceef6389ad84733d9958f28c9f7d614cbb4d1b275672a48fe148430cf76515f",
+    "talks/llm-wiki/demo/after/wiki/decisions/save-all.md": "65562b6302d2aac960520d10cb65a80a12e637ad986e21683fc64f3d7f2df7a3",
+    "talks/llm-wiki/demo/after/wiki/index.md": "dea98321d159bffd02e4a50224bf9790e0c6cc45666d64c77878abd2d5059934",
+    "talks/llm-wiki/demo/after/wiki/log.md": "0b190fbdbaa247b3a2fb0cc7b6329c008b04b932eed49263d62dbcd32fe66d8e",
+    "talks/llm-wiki/demo/after/wiki/pending/retrieval-coverage.md": "e301bd053c0d107a5b5fbfd1e674df1f723ca46855331e72d7199a3c4abe50d5",
+    "talks/llm-wiki/demo/after/wiki/questions/what-to-save.md": "dd3f09a6ddfa5439bb6084c1896f026fc8b814bbd8072aeeaa8eed5f398d05bd",
+    "talks/llm-wiki/demo/after/wiki/questions/wiki-and-learning.md": "77d75ad0051f7a46a232bc7ce762538f32bf1587abb40cc670190358b8a53e46",
+    "talks/llm-wiki/demo/before/wiki/claims/file-update.md": "844219560c6917c8c2bd3de6a1d60aaae7db2472049c8730e006d855945374f1",
+    "talks/llm-wiki/demo/before/wiki/decisions/save-all.md": "d77f31e59cfee51d93d6e6c73851f453e617af2c4ef1f793b59cd9ced7190761",
+    "talks/llm-wiki/demo/before/wiki/index.md": "52b6a60827254eba86ed7e11fa6d915edb99049a956503cdbf89a5614263ecbe",
+    "talks/llm-wiki/demo/before/wiki/log.md": "9aceece1ef383999a38ca7c31d15d09aecc97ab304f6dc68271bf13177bb62b0",
+    "talks/llm-wiki/demo/before/wiki/questions/wiki-and-learning.md": "09953148d63b4025185026a27765fec906d72684b886801c8c4069356b8af935",
+    "talks/llm-wiki/demo/changes.diff": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489",
+    "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+    "talks/llm-wiki/demo/receipt.json": "3052ecf8710697cddc4acb68ede40c4e5dd926f7eaada03fff13cc79e31b66b3",
+    "talks/llm-wiki/demo/review/review.json": "cb1f12d45063a496c27eeefff2069d2c8ec2c6c719d460e729f5ba86ee9d4216",
+    "talks/llm-wiki/demo/run-demo.cjs": "b73c7824599464d8ebb3510cfcec3e0d499d0ca2a1f5e91f6c44dc7225260faa",
+    "talks/llm-wiki/demo/source-notes/adr.md": "7a68c7c8fdbe0854da56f62fb4aaf1897ffc693ad9a31d3c1812bcb995faaab8",
+    "talks/llm-wiki/demo/source-notes/llm-wiki.md": "c82d841dd85d9587f5c4d95bb0681c21810e7077e63b5763c12dab23e29d2762",
+    "talks/llm-wiki/demo/source-notes/lora.md": "fb88ac73af8648228fc0ea71a0a7200f92ef081b4fe7c88e6c1c45fc4af03a2e",
+    "talks/llm-wiki/demo/source-notes/rag-initial.md": "084cc17c8e74de1a595f4fd9e608f7e3883a8733364e5a8bc9ca80eac034b297",
+    "talks/llm-wiki/demo/source-notes/rag.md": "c2cd0b4abbc182355ee618ef18581d63696483eeaea1e0cb707d140ac1507c62",
+    "talks/llm-wiki/demo/starter.txt": "0ac7822fd7af69689ef6297d03cf44744e609c78d9ef741c32f89a901a4db16e",
+    "app.js": "720586ddf41431f78a8ab71dd54a6e4764fe971c4a892c70a3f59a0e5f204fc5",
+    "blocks.js": "6238a42a3298944a6d023cb81b3f73af9c6d3e038b1c8437c08b1fd307b5de32",
+    "blocks.css": "53e410e9bb90c436482208f7e721a8fd2d3e4dc45bbda4b6d5c75c2753d4d355",
+    "deck-model.js": "53f266e64e754e57bf06531df5e58a7333db9fb8c64a5f29d96bf69de4c428e2",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "talks/llm-wiki/assets/CREDITS.md": "0fcdf3dd239e2ea2f5e9c18a7f99e18b9b1e586569cdd1a4b44569e4c30d7914",
+    "talks/llm-wiki/assets/case-reading-initial.svg": "217a8eb04b479e3deb28b85af77582e7e58affaace53f13c2ef862a2ad2bacbc",
+    "talks/llm-wiki/assets/case-course-initial.svg": "2dc76bc9840090a7668879a8ce86587cd0256c1c32e5d8736be084e6aecc8910"
+  },
+  "phases": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    [
+      40
+    ],
+    [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  ],
+  "generated_at_utc": "2026-10-29T09:03:02.275376+00:00",
+  "modified_baseline_files": [
+    "talks/llm-wiki/slides.md",
+    "talks/llm-wiki/materials/speaker-script.md"
+  ],
+  "screen_comparison": [
+    {
+      "slide": 1,
+      "screen_sha256": "080a0c3c34c1a5a69a569183d6d22dde9ee62ee1e1a52e805befe96d0fea5c76",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 2,
+      "screen_sha256": "6e68b7dfb5e9c8357a1266efe1ba45d2b5f33882fdd2620951f977ff4f5f71a2",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 3,
+      "screen_sha256": "9f2c33401a42af47ffb79ac99a7fada55d0619cf83aa514f068bbda66fcd4ad0",
+      "pixel_difference_bbox": [
+        77,
+        155,
+        1267,
+        296
+      ]
+    },
+    {
+      "slide": 4,
+      "screen_sha256": "f48b48d8553bc33949ca5bd00e65b9d40b2b2c9010ae9635c032844beafefde4",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 5,
+      "screen_sha256": "af4b1d96681b2b7c707532ec999362fc8013ab697bd827e7d37f62a4d3c5b9c7",
+      "pixel_difference_bbox": [
+        133,
+        378,
+        1065,
+        470
+      ]
+    },
+    {
+      "slide": 6,
+      "screen_sha256": "82d2c5e444c6d1b77d37198de02ecf441960483b089a1700368720838192c4fd",
+      "pixel_difference_bbox": [
+        108,
+        190,
+        1236,
+        469
+      ]
+    },
+    {
+      "slide": 7,
+      "screen_sha256": "e4af0bb37a752c4f1a53ee25736912504df74b53929419e9410289fb3026d7e6",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 8,
+      "screen_sha256": "05b792a47ccdf081547b3f2e4ff32ab4d3d36d6bb1a46f4de5f138f5e29697fe",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 9,
+      "screen_sha256": "f9d56f9f7ff6579ec910d0ef649f2d2eeacc2436c020f23e17bed2bd7f7fc077",
+      "pixel_difference_bbox": [
+        115,
+        396,
+        1073,
+        452
+      ]
+    },
+    {
+      "slide": 10,
+      "screen_sha256": "e2b7df9f54a1ae2a1afcfef360270942e097822c13d6b382bfeaa03448dda687",
+      "pixel_difference_bbox": [
+        109,
+        188,
+        1235,
+        655
+      ]
+    },
+    {
+      "slide": 11,
+      "screen_sha256": "a0aea7a25b4216b98e0eed691ced9f3765bb682410b1008105818592eb2b7907",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 12,
+      "screen_sha256": "5b076cca345e9693fbb2957db7425914354b73cffb8a0c9cd902d57dc4a6c5eb",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 13,
+      "screen_sha256": "a3123dd7a4a0d1e238f64c0d0360b26b203abf712ad3f3cebecf3213b4888981",
+      "pixel_difference_bbox": [
+        132,
+        378,
+        866,
+        470
+      ]
+    },
+    {
+      "slide": 14,
+      "screen_sha256": "ad0c39595a76071dea124bd8bb740a83dfebbcddfda9570066e9d8c20727d54e",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 15,
+      "screen_sha256": "1dacb7a7bb68530559c620238db0c9e701f037a0c594ce8ac4d573f26fb791f2",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 16,
+      "screen_sha256": "0b1e467879c1f58a34ec5b2d0190f0f709d911397060f223eceba6c54ee618d6",
+      "pixel_difference_bbox": [
+        109,
+        194,
+        1236,
+        655
+      ]
+    },
+    {
+      "slide": 17,
+      "screen_sha256": "db54fe74a934e980be44524dc611394abe53dd09d092719788208494e8453d5f",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 18,
+      "screen_sha256": "59f3d6727ba5aba8ae7013b1fef7b2522bb5e2913b2680162a73dad8129dd334",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 19,
+      "screen_sha256": "ea0fb067c3f17becd4d00af2e4bfac972d3c6cf2b017b2980a1665e4936492cc",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 20,
+      "screen_sha256": "6298ad5103f432fddcf1c85cde3bb26791f78e7f9fd3c09d3ef93c4e84763751",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 21,
+      "screen_sha256": "1cbcb1e4ff712434b9d675b0c6d4ca767d1cec5a4a6ae00b2b90558665bb7326",
+      "pixel_difference_bbox": [
+        133,
+        396,
+        1079,
+        452
+      ]
+    },
+    {
+      "slide": 22,
+      "screen_sha256": "6b8512d5f8ed9b5d2041b7ea894650460b7a693b79baf5ba63344d4e7c3cd631",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 23,
+      "screen_sha256": "f284c47d9bfb9e35655d6309ee53afb5092dbd5d023b383b3250b42c7a23c72d",
+      "pixel_difference_bbox": [
+        271,
+        634,
+        613,
+        655
+      ]
+    },
+    {
+      "slide": 24,
+      "screen_sha256": "21ca0e8788ee95f0d3196382aa826a0412ba042c9b933ee1871826df78b4ed2d",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 25,
+      "screen_sha256": "f0fc5c6faad5c906bc74cbc6998d52f69cde057b986bb2b22a2b2c4e6ee687b6",
+      "pixel_difference_bbox": [
+        77,
+        424,
+        816,
+        507
+      ]
+    },
+    {
+      "slide": 26,
+      "screen_sha256": "ea9feed12d2b10279db640ebf53dbca5e7da3d91812507ffaed6c676b27f75b5",
+      "pixel_difference_bbox": [
+        77,
+        202,
+        1267,
+        652
+      ]
+    },
+    {
+      "slide": 27,
+      "screen_sha256": "c591c96ac3bb70b5a0b853774f2bfffd907cc8c432585a7a722ffaa350964a76",
+      "pixel_difference_bbox": [
+        150,
+        319,
+        1111,
+        488
+      ]
+    },
+    {
+      "slide": 28,
+      "screen_sha256": "32727ada733906c09b7cea5397e0aa4cc70bd7cc40fd1b2ed8810eb787a35b00",
+      "pixel_difference_bbox": [
+        540,
+        485,
+        805,
+        601
+      ]
+    },
+    {
+      "slide": 29,
+      "screen_sha256": "9bc0b1b80b7d35fc207bf67ef3503f603f04e649a03a9e7ce0b0dc6e63346c77",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 30,
+      "screen_sha256": "a8c50221a0682ae70a24a9f6fd7d59134752aa4186ac180398338806d83ed670",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 31,
+      "screen_sha256": "bf16573ac9189d73cc889daf932978784fc34b607e6710e3e218ad18014befc9",
+      "pixel_difference_bbox": [
+        395,
+        509,
+        948,
+        624
+      ]
+    },
+    {
+      "slide": 32,
+      "screen_sha256": "7e48c738640fa21a00c2e86c4aaedf0e4c07100bfd3ac8cbe416fa971ae00870",
+      "pixel_difference_bbox": [
+        77,
+        415,
+        1267,
+        652
+      ]
+    },
+    {
+      "slide": 33,
+      "screen_sha256": "73890cbc2fd3873ae2084c4b921ef395bbdaf4b76bc0fed73f05b48ed70a5760",
+      "pixel_difference_bbox": [
+        133,
+        378,
+        1064,
+        473
+      ]
+    },
+    {
+      "slide": 34,
+      "screen_sha256": "8c17a802e0720cf67c1bfda2afb4b829de035afa4a9c55ce6c6368cb481962d6",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 35,
+      "screen_sha256": "20427f9fc993704e5008ca3541d68a22d7a1f69c1cef09743b1e9543817dd0a5",
+      "pixel_difference_bbox": [
+        77,
+        151,
+        1267,
+        652
+      ]
+    },
+    {
+      "slide": 36,
+      "screen_sha256": "7f0dbbcede20190fc7ad43b7e620f4b2722467622359b63456234164c3ca4719",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 37,
+      "screen_sha256": "70f9df430224805587f076932228b90c647ff9f877a2009be4636e9dff4191b4",
+      "pixel_difference_bbox": null
+    },
+    {
+      "slide": 38,
+      "screen_sha256": "7b55bf8667a3e29118a3c9920f0b53436f7427d6c95e8cb2fb5b520e340c5c7f",
+      "pixel_difference_bbox": [
+        174,
+        353,
+        1222,
+        509
+      ]
+    },
+    {
+      "slide": 39,
+      "screen_sha256": "ba427f081b5191cef94febe81bb13b51d4199b3494590a8dbc2e9b8305acf3e8",
+      "pixel_difference_bbox": [
+        77,
+        74,
+        1267,
+        657
+      ]
+    },
+    {
+      "slide": 40,
+      "screen_sha256": "7ad961d47d3f26216634a483e5042ab63d9f9e9e5f31815058318009c22ff9f5",
+      "pixel_difference_bbox": [
+        492,
+        502,
+        852,
+        571
+      ]
+    }
+  ],
+  "core_planned_seconds": 1200,
+  "appendix_planned_seconds": 555,
+  "audio_or_live_duration_measured": false
+}

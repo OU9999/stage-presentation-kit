@@ -41,9 +41,9 @@ tone: orange
 -->
 ## 이번 질문
 
-자료 다섯 개를 읽는다.
+**CSV 요청**을 함께 읽는다.
 
-조건과 차이를 비교해 답한다.
+월말 수동 · 일별 자동의 조건을 비교한다.
 
 <!-- stage-group
 tone: purple
@@ -189,9 +189,9 @@ fit: contain
 -->
 # 소설을 읽으며 인물과 주제를 쌓는다
 
-![가상 소설의 1장과 3장 메모를 인물 서하·신뢰 주제·장 요약에 연결한다. 읽은 장의 근거와 인물의 자기 설명을 구별하며 배신에 관한 질문의 답을 남긴다.](./assets/case-reading.svg)
+![가상 소설 1장까지 읽은 상태다. 서하의 행동과 도윤의 말을 인물·신뢰 주제에 연결하며 서하의 동기는 아직 미확인으로 남긴다.](./assets/case-reading-initial.svg)
 
-가상 소설의 적용 예 · 읽은 장의 근거와 미확인을 함께 남깁니다. [학습서](./materials/study-guide.md#소설-독서) · [입력과 전후 파일](./assets/examples/reading.txt)
+가상 소설의 적용 예 · **1장까지의 근거와 미확인**을 함께 남깁니다. [학습서](./materials/study-guide.md#소설-독서) · [입력과 전후 파일](./assets/examples/reading.txt)
 
 ---
 
@@ -309,9 +309,9 @@ fit: contain
 -->
 # 떨어진 강의에서 같은 개념을 만난다
 
-![2주차 회귀와 7주차 회귀트리의 제곱오차를 공유 개념에 연결한다. 8주차 분류트리의 Gini 기준을 비교에 더하고 공통점과 차이를 종합 파일로 남긴다.](./assets/case-course.svg)
+![가상 강의의 2주차 회귀와 7주차 회귀트리만 읽은 상태다. 이 예에서 공유하는 제곱오차를 개념 페이지에 연결하고 두 주차의 근거를 남긴다.](./assets/case-course-initial.svg)
 
-가상 강의 메모의 적용 예 · **공통 기준과 다른 조건을 비교·종합에 연결**합니다. [학습서](./materials/study-guide.md#강의-메모) · [입력과 전후 파일](./assets/examples/course.txt)
+가상 강의 메모의 적용 예 · **2·7주차의 공통 기준과 사용 위치**를 연결합니다. [학습서](./materials/study-guide.md#강의-메모) · [입력과 전후 파일](./assets/examples/course.txt)
 
 ---
 
@@ -473,7 +473,7 @@ fit: contain
 
 ![읽고 엮는 ingest, 위키를 읽어 답하고 저장하는 query, 내용과 연결을 점검하는 lint가 같은 지속 위키를 갱신한다. 규칙은 전체 작업을 안내한다.](./assets/wiki-maintenance-loop.svg)
 
-**읽고 엮기 · 답하고 남기기 · 낡은 설명과 연결 점검하기.** [순환 그림 원본](./assets/wiki-maintenance-loop.svg)
+**읽고 엮기 · 답하고 남기기 · 점검 후 근거를 다시 읽고 고치기.** [순환 그림 원본](./assets/wiki-maintenance-loop.svg)
 
 ---
 
@@ -508,7 +508,9 @@ tone: purple
 유용한 질문의 답도 관련 페이지에 연결해 저장해 줘.
 ```
 
-자료 위치와 작업 규칙을 함께 알려 줍니다.
+자료 위치·읽기와 쓰기 권한·작업 규칙을 함께 알려 줍니다.
+
+[실습 기본 2~4](./materials/workshop.md#2-입력과-이전-위키를-나누기)의 문장과 [starter 규칙](./demo/starter.txt)을 자기 파일 에이전트에 함께 제공합니다.
 
 ---
 
@@ -528,6 +530,8 @@ focus: ['50% 75%', '44% 54%', '50% 72%']
 ![책과 공책과 필기도구가 모인 책상](./assets/photos/study-table.jpg "갱신된 쪽 다시 읽기")
 
 작게 시작할 예: 자료 몇 개 · 질문 하나 · 결과를 확인할 사람.
+
+**필요한 근거를 다시 찾았나? · 잘못된 정리를 고칠 부담을 감당할 수 있나?**
 
 ---
 
@@ -554,6 +558,10 @@ tone: green
 [세 가지 적용 예](./materials/study-guide.md#세-가지-적용-예)
 
 [실습과 해설](./materials/workshop.md)
+
+기본 2~4 복사 → [starter 규칙](./demo/starter.txt) 함께 제공
+
+다음 질문에서 읽은 파일 확인
 
 <!-- stage-group
 tone: orange
@@ -858,38 +866,17 @@ tone: orange
 ---
 
 <!-- stage-slide
-compose: bento
+compose: document
 tone: purple
 -->
 # 원문과 구성 예의 근거를 구분해 읽는다
 
-<!-- stage-group
-tone: blue
--->
-## 원저자 설계
-
-무엇을 제안했나?
-
-<!-- stage-group
-tone: purple
--->
-## 공개 코드 관찰
-
-어떤 경로가 구현됐나?
-
-<!-- stage-group
-tone: green
--->
-## 논문 실험
-
-어떤 조건을 평가했나?
-
-<!-- stage-group
-tone: orange
--->
-## 구성 적용 예
-
-무엇을 가정해 설명했나?
+| 근거 종류 | 확인할 질문 |
+| --- | --- |
+| **원저자 설계** | 무엇을 제안했나? |
+| **공개 코드 관찰** | 어떤 경로가 구현됐나? |
+| **논문 실험** | 어떤 조건을 평가했나? |
+| **구성 적용 예** | 무엇을 가정해 설명했나? |
 
 [원문과 근거 안내](./materials/reference-library.md) · [질문으로 돌아가기](#40)
 

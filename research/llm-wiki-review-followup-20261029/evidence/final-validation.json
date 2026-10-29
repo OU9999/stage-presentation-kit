@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-29T09:44:27.419416+00:00",
+  "baseline_head": "719c387882aa449f5e8b3984b35f5845629d1a9c",
+  "revision": "e1df2cd2c288c3996ec58c661598587897dba88bbf6463d23afd7b0adfd51651",
+  "frozen_files": 56,
+  "changed_after_freeze": [],
+  "broken_report_file_links": [],
+  "changes_outside_topic_and_new_review": [],
+  "new_test_suite_or_model_execution": false,
+  "scope": "Frozen byte identity, changed paths and report file links; no assertion of human learning, timing or agent execution."
+}

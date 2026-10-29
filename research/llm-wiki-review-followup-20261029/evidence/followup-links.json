@@ -1,0 +1,158 @@
+{
+  "revision": "e1df2cd2c288c3996ec58c661598587897dba88bbf6463d23afd7b0adfd51651",
+  "metrics": [
+    {
+      "revision": "e1df2cd2c288c3996ec58c661598587897dba88bbf6463d23afd7b0adfd51651",
+      "viewport": 1440,
+      "rows": [
+        {
+          "cells": [
+            {
+              "text": "원저자 설계",
+              "font": 25.52,
+              "effectiveFont": 21.436799999999998,
+              "width": 462.6759033203125
+            },
+            {
+              "text": "무엇을 제안했나?",
+              "font": 25.52,
+              "effectiveFont": 21.436799999999998,
+              "width": 725.0841064453125
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "text": "공개 코드 관찰",
+              "font": 25.52,
+              "effectiveFont": 21.436799999999998,
+              "width": 462.6759033203125
+            },
+            {
+              "text": "어떤 경로가 구현됐나?",
+              "font": 25.52,
+              "effectiveFont": 21.436799999999998,
+              "width": 725.0841064453125
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "text": "논문 실험",
+              "font": 25.52,
+              "effectiveFont": 21.436799999999998,
+              "width": 462.6759033203125
+            },
+            {
+              "text": "어떤 조건을 평가했나?",
+              "font": 25.52,
+              "effectiveFont": 21.436799999999998,
+              "width": 725.0841064453125
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "text": "구성 적용 예",
+              "font": 25.52,
+              "effectiveFont": 21.436799999999998,
+              "width": 462.6759033203125
+            },
+            {
+              "text": "무엇을 가정해 설명했나?",
+              "font": 25.52,
+              "effectiveFont": 21.436799999999998,
+              "width": 725.0841064453125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "revision": "e1df2cd2c288c3996ec58c661598587897dba88bbf6463d23afd7b0adfd51651",
+      "viewport": 960,
+      "rows": [
+        {
+          "cells": [
+            {
+              "text": "원저자 설계",
+              "font": 25.52,
+              "effectiveFont": 14.355,
+              "width": 309.82763671875
+            },
+            {
+              "text": "무엇을 제안했나?",
+              "font": 25.52,
+              "effectiveFont": 14.355,
+              "width": 485.54736328125
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "text": "공개 코드 관찰",
+              "font": 25.52,
+              "effectiveFont": 14.355,
+              "width": 309.82763671875
+            },
+            {
+              "text": "어떤 경로가 구현됐나?",
+              "font": 25.52,
+              "effectiveFont": 14.355,
+              "width": 485.54736328125
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "text": "논문 실험",
+              "font": 25.52,
+              "effectiveFont": 14.355,
+              "width": 309.82763671875
+            },
+            {
+              "text": "어떤 조건을 평가했나?",
+              "font": 25.52,
+              "effectiveFont": 14.355,
+              "width": 485.54736328125
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "text": "구성 적용 예",
+              "font": 25.52,
+              "effectiveFont": 14.355,
+              "width": 309.82763671875
+            },
+            {
+              "text": "무엇을 가정해 설명했나?",
+              "font": 25.52,
+              "effectiveFont": 14.355,
+              "width": 485.54736328125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "workshop": {
+    "url": "http://127.0.0.1:4323/presentations/llm-wiki/materials/workshop.html#2-%EC%9E%85%EB%A0%A5%EA%B3%BC-%EC%9D%B4%EC%A0%84-%EC%9C%84%ED%82%A4%EB%A5%BC-%EB%82%98%EB%88%84%EA%B8%B0",
+    "text": "2. 입력과 이전 위키를 나누기",
+    "top": 23.8203125,
+    "headerBottom": -1074.0625
+  },
+  "starter": {
+    "url": "http://127.0.0.1:4323/presentations/llm-wiki/assets/0ac7822fd7af-starter.txt",
+    "method": "click and download",
+    "characters": 687,
+    "matchedSource": true
+  },
+  "scope": "Actual navigation and rendered font geometry; no agent execution or human readability measurement."
+}
