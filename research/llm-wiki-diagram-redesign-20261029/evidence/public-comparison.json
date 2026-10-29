@@ -1,0 +1,36 @@
+[
+  {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "sections": 10,
+    "images": 20,
+    "firstImages": [
+      {
+        "complete": true,
+        "width": 1344
+      },
+      {
+        "complete": true,
+        "width": 1344
+      }
+    ],
+    "scripts": 0
+  },
+  {
+    "width": 390,
+    "scrollWidth": 390,
+    "sections": 10,
+    "images": 20,
+    "firstImages": [
+      {
+        "complete": true,
+        "width": 1344
+      },
+      {
+        "complete": true,
+        "width": 1344
+      }
+    ],
+    "scripts": 0
+  }
+]

@@ -33,4 +33,4 @@
 
 [SVG 글자 검수](./evidence/svg-text.json) · [실화면40장](./evidence/slides.json) · [이동·모바일](./evidence/navigation.json) · [작성 원고 확인](./source-check.json).
 
-재생성 가능한 도식 원본은 [render-diagrams.cjs](./render-diagrams.cjs)다. 주제의 SVG9개만 출력하며 발표 runtime에 새 의존성을 추가하지 않는다. 공개 배포 확인은 커밋·푸시 후 별도로 기록한다. 이번 교정은 root 단독 검토/구현이며 새 팀 회의나 실제 청중 평가를 수행했다고 주장하지 않는다.
+재생성 가능한 도식 원본은 [render-diagrams.cjs](./render-diagrams.cjs)다. 주제의 SVG9개만 출력하며 발표 runtime에 새 의존성을 추가하지 않는다. 기능7f12018을 커밋·푸시했고 공개59파일과40장/변경10장·자료/모바일·전후 비교를 확인했다. [배포 확인](./DEPLOYMENT.md)에 실제 범위를 기록했다. 이번 교정은 root 단독 검토/구현이며 새 팀 회의나 실제 청중 평가를 수행했다고 주장하지 않는다.

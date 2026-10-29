@@ -15,7 +15,7 @@ await prepare(page);await page.cdp('Page.bringToFront');await page.mouse.click(5
 await fs.mkdir(dir+'screens',{recursive:true});
 const slides=[];
 for(let n=1;n<=deck.slides.length;n++){
-  const save=true;
+  const save=!publicCheck || [4,6,7,8,10,14,16,23,36,37].includes(n);
   const filename=save?`screens/${prefix}slide-${String(n).padStart(2,'0')}.png`:null;
   const r=await captureSlide(page,base+'presentations/llm-wiki/index.html?experience='+revision+'#'+n,filename?dir+filename:null,{stageOnly:true});
   if(await page.evaluate(()=>window.PRESENTATION.document.revision)!==revision)throw new Error('Stale browser revision');
