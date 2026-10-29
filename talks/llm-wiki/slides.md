@@ -17,62 +17,86 @@ focus: '50% 75%'
 ---
 
 <!-- stage-slide
-compose: document
-tone: yellow
+compose: quote
+tone: blue
 -->
-# 메모는 남았는데 어느 문장이 근거일까
+# LLM Wiki는 읽고 고치는 파일 노트
 
-읽은 흔적만 남은, 발표자가 만든 작은 메모입니다.
+> LLM이 자료를 읽고 설명·연결·수정 후보를 제안합니다.
 
-```text
-RAG: 외부 자료를 찾아 답한다.
-위키: 읽은 내용을 파일로 남긴다.
-그러면 파일을 고치는 것도 모델 학습일까?
-```
+사람은 근거와 범위를 검토해 노트를 함께 고칩니다.
 
-**마지막 질문에 답하려면, 앞 두 줄의 근거와 범위가 필요합니다.**
-
----
-
-<!-- stage-slide
-compose: split
-tone: purple
-fit: cover
-focus: '50% 52%'
--->
-# 자료를 모은 뒤에도 설명할 일이 남는다
-
-![책이 가득한 서가 사이의 통로.](./assets/photos/library.jpg)
-
-- 자료 목록은 **무엇을 읽었는지** 알려줍니다.
-- 설명 노트는 **무엇을 알았는지** 연결합니다.
-- 판단 기록은 **왜 그렇게 했는지** 남깁니다.
+이 발표에서는 **공용 스터디 노트**처럼 생각해 봅니다.
 
 ---
 
 <!-- stage-slide
 compose: editorial
-tone: purple
+tone: blue
 -->
-# 다음 모임에는 다른 질문이 온다
-
-<!-- stage-group
-tone: purple
--->
-## 이번 질문 · Q1
-
-위키 파일을 고치면 모델도
-그 내용을 학습하나요?
+# 고친 노트 한 쪽에 설명과 근거와 이유를 남긴다
 
 <!-- stage-group
 tone: green
 -->
-## 다음 질문 · Q2
+## 설명
 
-우리 스터디는
-**어떤 답을 저장할까요?**
+이 데모의 파일 수정은 모델 매개변수 학습을 실행하지 않는다. 외부 파일을 쓰는 시스템에도 별도의 학습 과정이 있을 수 있다.
 
-개념을 고친 결과가, 다음 운영 판단의 입력이 됩니다.
+<!-- stage-group
+tone: blue
+-->
+## 원문 위치
+
+[RAG v4 §2.4](https://arxiv.org/html/2005.11401v4#S2.SS4)
+
+[LoRA v2 §4.1](https://arxiv.org/html/2106.09685v2#S4.SS1)
+
+<!-- stage-group
+tone: orange
+-->
+## 바꾼 이유
+
+외부 파일 사용이나 기본 가중치 고정만으로 학습의 부재를 일반화할 수 없다.
+
+C1 파일의 문장·근거와 이유 발췌. [실제 파일 읽기](./materials/demo-log.md#4-실제-diff에서-달라진-문장)
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: blue
+-->
+# LLM이 제안하고 사람이 검토한다
+
+<!-- stage-group
+tone: purple
+-->
+## 운영 · LLM
+
+설명 초안
+
+연결 후보
+
+수정 제안
+
+<!-- stage-group
+tone: green
+-->
+## 운영 · 사람
+
+**원문·문장·범위**를 대조하고 채택
+
+<!-- stage-group
+tone: blue
+-->
+## 오늘의 예제
+
+사람이 준비한 고정 승인안을 **Node로 파일에 반영**
+
+오늘은 LLM을 호출하지 않았습니다.
+
+[파일 역할 보기](#6) · [세 기록 구분](#5)
 
 ---
 
@@ -89,14 +113,17 @@ tone: green
 ---
 
 <!-- stage-slide
-compose: message
+compose: media
 tone: orange
+fit: contain
 -->
-# 남길 것은 답과 근거와 바뀐 이유
+# 공용 노트를 파일로 옮기면
 
-**원자료 → 주장 → 검토 → diff → 다음 질문**
+![원자료함은 읽은 자료 raw, 함께 고친 설명은 wiki, 적는 약속은 작업 규칙, 바꾼 이유는 log에 대응한다. 규칙은 모든 작업에 적용되며 다음 변환 단계가 아니다.](./assets/study-notebook-map.svg)
 
-오늘의 끝에는 고친 답, 보류한 부분, 새 저장 규칙이 파일로 남습니다.
+원자료함 raw는 보존하고, 설명쪽 wiki는 근거를 대조해 고칩니다. 작업 규칙은 전체에 적용하고 log에 바꾼 이유를 남깁니다.
+
+[대응 그림 원본](./assets/study-notebook-map.svg)
 
 ---
 
@@ -106,13 +133,15 @@ tone: purple
 -->
 # 계속 남고 쌓여 가는 결과물
 
-> This is the key difference: the wiki is a persistent, compounding artifact.
+> 핵심 차이는 이것입니다. 위키는 계속 남고, 쌓여 가는 결과물입니다.
 
-“핵심 차이는 이것입니다. 위키는 계속 남고, 쌓여 가는 결과물입니다.” — 발표팀 번역
+발표팀 번역
 
-Andrej Karpathy, *LLM Wiki*, The core idea · [고정 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#the-core-idea)
+This is the key difference: the wiki is a persistent, compounding artifact.
 
-설계 아이디어의 설명입니다. 이제 남는 파일을 직접 보겠습니다.
+Andrej Karpathy, *LLM Wiki* · [고정 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#the-core-idea)
+
+[실제 파일 확인하기](#10) · [노트 구조 더 보기](#8)
 
 ---
 
@@ -132,46 +161,65 @@ LLM이 읽고 연결한 Markdown을 유지하는 설계입니다. [Karpathy · A
 ---
 
 <!-- stage-slide
-compose: split
+compose: editorial
 tone: green
-fit: cover
-focus: '50% 72%'
 -->
-# 원문과 내 설명을 구분한다
+# 원문 위치와 메모와 해석을 나눈다
 
-![책과 필기한 공책, 필기도구가 모여 있는 공부 책상.](./assets/photos/study-table.jpg)
+<!-- stage-group
+tone: blue
+-->
+## 원문 위치
 
-- **원문:** RAG v4 §2.4
-- **읽기 메모:** 질의 인코더와 생성기를 학습한다.
-- **우리 해석:** 파일을 쓴다고 학습이 없는 것은 아니다.
+RAG v4 §2.4 Training
+
+[실제 논문의 해당 절](https://arxiv.org/html/2005.11401v4#S2.SS4)
+
+<!-- stage-group
+tone: green
+-->
+## 한국어 읽기 메모
+
+문서 인코더와 색인은 고정하고, 질의 인코더와 BART 생성기를 미세조정한다.
+
+`source-notes/rag.md` 요약
+
+<!-- stage-group
+tone: orange
+-->
+## 우리 질문의 해석
+
+외부 파일 사용만으로 학습 유무를 정할 수 없다.
+
+메모의 근거와 범위를 다시 대조한다.
 
 ---
 
 <!-- stage-slide
 compose: editorial
-tone: orange
+tone: blue
 -->
-# 오늘은 승인한 교정안을 실행한다
+# 오늘은 승인한 교정안을 파일에 반영한다
 
 <!-- stage-group
 tone: orange
 -->
-## 발표자가 준비한 것
+## 사람이 준비한 승인안
 
-의도적으로 오류를 심은 초안
+학습용 오류가 있는 Q1 초안
 
-원문을 대조한 **고정 승인 교정안**
+원문을 대조한 고정 교정안
 
 <!-- stage-group
 tone: blue
 -->
-## Node가 실행하는 것
+## Node로 반영한 결과
 
-파일 수정 · diff · 링크 · 해시 검사
+고친 답 · 새 질문 · 보류 · 대체 결정
 
-LLM 호출 없이 로컬에서 재현
+`changes.diff`와 파일·링크·해시 검사
 
-[전체 파일과 실행 기록](./materials/demo-log.md) · [데모 ZIP](./demo/llm-wiki-demo.zip)
+[실행 기록](./materials/demo-log.md) · [데모 ZIP](./demo/llm-wiki-demo.zip)
 
 ---
 
@@ -192,28 +240,38 @@ Q1 · 위키 파일을 고치면 모델도 그 내용을 학습하나요?
 ---
 
 <!-- stage-slide
-compose: editorial
-tone: yellow
+compose: bento
+tone: neutral
 -->
-# 채팅 A 또는 B · 링크가 있으면 충분할까
+# 링크가 있으면 충분할까
 
 <!-- stage-group
-tone: orange
+tone: neutral
 -->
-## A
+## 판단할 초안
 
-[출처 링크가 있으니 현행 답으로 저장한다.](#13)
-
-<!-- stage-group
-tone: green
--->
-## B
-
-[원문이 이 문장과 범위를 지원하는지 먼저 본다.](#13)
+> 외부 파일을 쓰는 시스템은\
+> 모델을 학습하지 않는다.
 
 Zoom 채팅에 A/B를 적어 주세요.
 
-[정답 보기 → 13장](#13)
+이유 한 줄은 선택입니다.
+
+[근거 확인하기](#13)
+
+<!-- stage-group
+tone: neutral
+-->
+## A
+
+> [현행 노트로 저장한다.](#13)
+
+<!-- stage-group
+tone: neutral
+-->
+## B
+
+> [원문 범위를 검토한다.](#13)
 
 ---
 
@@ -244,7 +302,7 @@ tone: green
 
 [RAG v4 §2.4](https://arxiv.org/html/2005.11401v4#S2.SS4)
 
-[질문으로 돌아가기](#12) · [읽기 메모 이어 보기 → 14장](#14)
+[질문으로 돌아가기](#12) · [교정 결과 보기](#17) · [읽은 범위 확인](#14)
 
 ---
 
@@ -334,26 +392,25 @@ tone: purple
 ---
 
 <!-- stage-slide
-compose: editorial
-tone: orange
+compose: bento
+tone: blue
 -->
-# 실제 diff에서 한 문장을 고친다
+# 모든 시스템에서 이 데모로 좁힌다
 
 <!-- stage-group
 tone: orange
 -->
-## 삭제한 문장
+## 삭제 · [모든 시스템](./materials/demo-log.md#4-실제-diff에서-달라진-문장)
 
-외부 파일을 쓰는 시스템은 모델을 학습하지 않는다.
+> 외부 파일을 쓰는 시스템은\
+> 모델을 학습하지 않는다.
 
 <!-- stage-group
 tone: green
 -->
-## 추가한 문장
+## 추가 · 이 데모
 
-이 데모의 파일 수정은 모델 매개변수 학습을 실행하지 않는다. 외부 파일을 쓰는 시스템에도 별도의 학습 과정이 있을 수 있다.
-
-`changes.diff`의 실제 문장 필드 발췌. [전체 diff와 범위 변경](./materials/demo-log.md#4-실제-diff에서-달라진-문장)
+> 이 데모의 파일 수정은 모델 매개변수 학습을 실행하지 않는다. 외부 파일을 쓰는 시스템에도 별도의 학습 과정이 있을 수 있다.
 
 ---
 
@@ -378,13 +435,13 @@ compose: media
 tone: blue
 fit: contain
 -->
-# 같이 바뀔 페이지를 따라간다
+# 고친 설명을 새 질문과 판단에 다시 쓴다
 
-![C1에서 Q1로, Q1과 초기 D1에서 새 운영 질문 Q2로, Q2에서 D2와 pending으로 이어진다. index는 입구를 연결하고 log는 변경 이유를 남긴다. 실제 현행 8개 파일의 관계이며 모든 연결을 자동 발견했다는 뜻은 아니다.](./assets/impact-map.svg)
+![교정한 주장 C1을 첫 질문의 답 Q1에 반영하고, 이전 설명과 초기 결정을 함께 읽어 새 운영 질문 Q2와 저장 기준 D2를 판단한다. 목차·변경 이유·옛 결정·검토 대기는 별도 지원 기록으로 남긴다.](./assets/reuse-route.svg)
 
-[도식 원본 열기](./assets/impact-map.svg)
+고친 주장과 첫 답, 이전 선택을 다시 읽어 새 저장 기준을 정합니다.
 
-C1·Q1·index·log·D1 갱신, Q2·D2·pending 생성: **이 예제의 8쪽**입니다.
+[관계도 원본](./assets/reuse-route.svg) · [새 질문에 다시 쓰기](#21) · [목차와 이력 더 보기](#20)
 
 ---
 
@@ -450,33 +507,37 @@ C1의 교정, Q1의 다음 확인, D1의 기존 선택을 함께 놓고 **Q2를 
 ---
 
 <!-- stage-slide
-compose: editorial
-tone: yellow
+compose: bento
+tone: neutral
 -->
-# 채팅 A 또는 B · 근거 부족 답은 어디에 둘까
+# 이 답을 어디에 남길까
 
 <!-- stage-group
-tone: yellow
+tone: neutral
 -->
-## 근거 부족 초안
+## 판단할 초안
 
-파일 위키를 만들면 필요한 파일을 **언제나** 찾을 수 있다.
+> 파일 위키를 만들면 필요한 파일을 언제나 찾을 수 있다.
+
+Zoom 채팅에 A/B를 적어 주세요.
+
+이유 한 줄은 선택입니다.
+
+[이 예제의 선택 확인](#24)
 
 <!-- stage-group
-tone: orange
+tone: neutral
 -->
 ## A
 
-[현행 노트로 저장](#24)
+> [현행 노트로 저장한다.](#24)
 
 <!-- stage-group
-tone: green
+tone: neutral
 -->
 ## B
 
-[검토 대기함에 보류](#24)
-
-A/B를 Zoom 채팅에 적어 주세요. [이 예제의 선택 보기 → 24장](#24)
+> [검토 대기에 보류한다.](#24)
 
 ---
 
@@ -493,7 +554,7 @@ fit: contain
 
 **이 예제의 선택은 B.** 검토한 답은 현행, 근거 부족 답은 대기함에 남깁니다.
 
-[질문으로 돌아가기](#23) · [보류 이유 이어 보기 → 25장](#25)
+[질문으로 돌아가기](#23) · [보류 이유 읽기](#25)
 
 ---
 
@@ -535,13 +596,15 @@ compose: media
 tone: orange
 fit: contain
 -->
-# 옛 결정은 superseded로 남긴다
+# 옛 결정은 대체됨으로 남긴다
 
 ![초기 결정 D1은 모든 질문 답을 현행 노트로 저장하려는 선택이다. C1 교정 뒤 superseded로 표시하고 D2 검토한 답을 현행으로 표시하기로 연결한다. 예전 맥락과 결과는 보존한다.](./assets/decision-transition.svg)
 
 [도식 원본 열기](./assets/decision-transition.svg)
 
 D1은 채팅 답을 모으려던 이유와 함께 보존합니다. **D2에는 새 선택과 검토 부담**을 적습니다.
+
+[상충하는 근거 다루기](#29) · [결정 비용 더 보기](#27)
 
 ---
 
@@ -621,7 +684,7 @@ tone: yellow
 
 조건이 다르면 범위를 나눕니다. 같은 조건에서 충돌하면 근거를 대조하고, 아직 판단할 수 없으면 보류합니다.
 
-C1은 ‘모든 외부 파일 시스템’을 ‘이 데모’로 좁혔습니다. [충돌과 낡은 정보 더 읽기](./materials/study-guide.md#11-충돌오래된-정보삭제와-대체를-다루기)
+[실행에서 확인한 것](#31) · [연결 질문의 배경](#30)
 
 ---
 
@@ -631,35 +694,56 @@ tone: purple
 -->
 # 자료 둘을 잇는 질문을 적는다
 
-> The human mind does not work that way. It operates by association.
+> 인간의 마음은 그런 방식으로 작동하지 않습니다. 연상으로 작동합니다.
 
-“인간의 마음은 그런 방식으로 작동하지 않습니다. 연상으로 작동합니다.” — 발표팀 번역
+발표팀 번역
 
-Vannevar Bush, *As We May Think*, 1945년 7월, §6 · [출판사 원문](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)
+The human mind does not work that way. It operates by association.
 
-분류 색인과 연상의 차이에서 지식 장치를 구상한 글입니다. 내 자료 두 개를 잇는 질문으로 이어갑니다.
+Vannevar Bush, *As We May Think*, 1945년, §6 · [출판사 원문](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)
+
+분류 색인과 연상의 차이에서 지식 장치를 구상한 대목입니다.
 
 ---
 
-<!-- stage
-layout: visual
-quiet: true
+<!-- stage-slide
+compose: bento
+tone: blue
 -->
-# 검사 결과를 단위별로 읽는다
+# 이번 실행에서 확인한 것
 
-```stage
-{
-  "subtitle": "반영한 8쪽: 기존 5쪽 갱신 + 신규 3쪽 생성",
-  "visual": {
-    "kind": "composition",
-    "labels": ["기존 5쪽 갱신", "신규 3쪽 생성"],
-    "values": [5, 3],
-    "unit": "쪽",
-    "composition": "wide"
-  },
-  "source": "별도 검사 · 링크 25개 확인 · 메모 5개 + 초기 5쪽 보존"
-}
-```
+<!-- stage-group
+tone: blue
+-->
+## 교정안 반영
+
+**8** 쪽
+
+기존 5쪽 갱신 + 신규 3쪽
+
+[고친 문장](#17)
+
+<!-- stage-group
+tone: green
+-->
+## 로컬 링크 검사
+
+**25** 링크
+
+상대 경로의 연결 확인
+
+[함께 바뀐 기록](#19)
+
+<!-- stage-group
+tone: orange
+-->
+## 보존 파일 해시
+
+**10** 파일
+
+읽기 메모 5개 + 초기 5쪽
+
+[검사 범위](./materials/demo-log.md#10-zip에서-재현하기) · [다음 읽기](#33) · [역할](#32)
 
 ---
 
@@ -712,35 +796,33 @@ compose: gallery
 tone: orange
 variant: strip
 fit: cover
-focus: ['44% 54%', '50% 75%', '50% 72%']
+focus: ['50% 75%', '44% 54%', '50% 72%']
 -->
-# 내 자료 세 개에서 시작한다
-
-![노트에 쓰는 인물](./assets/photos/writing.jpg "질문 적기")
+# 자료를 고르고 질문을 쓰고 대조한다
 
 ![창가 책상에 펼친 책과 공책](./assets/photos/open-books.jpg "자료 고르기")
 
+![노트에 쓰는 인물](./assets/photos/writing.jpg "질문 적기")
+
 ![책과 공책과 필기도구가 모인 책상](./assets/photos/study-table.jpg "설명 대조하기")
 
-자료 3개 · 질문 1개 · 검토자 1명.
+준비 예: 자료 3개 · 질문 1개 · 검토자 1명. 지금은 질문 한 줄부터.
 
 ---
 
 <!-- stage-slide
-compose: message
+compose: quote
 tone: yellow
 -->
-# 내 질문 하나를 실제로 적는다
+# 내 질문 한 줄부터 적는다
 
-**내 자료 A + 내 자료 B → 다음 모임에 답할 질문**
+> 내 질문 [한 줄]
 
-20초 동안 자기 노트에 적어 보세요.
+자료 제목 [기억나는 만큼] → 근거 위치 [다음 모임에 확인]
 
-자료 두 개의 제목, 연결 질문 한 줄, 먼저 확인할 근거 한 곳.
+**20초 동안 쓰기 · 채팅 공유는 선택**
 
-예: RAG 메모 + 지난 Q1 → 다음 답이 어떤 파일을 읽었는지 어떻게 확인할까?
-
-채팅에 공유하는 것은 선택입니다.
+예: 다음 답이 고친 노트를 읽었는지 어떻게 확인할까?
 
 ---
 
@@ -759,6 +841,8 @@ tone: purple
 ```
 
 원문과 작업 규칙은 [데모 ZIP](./demo/llm-wiki-demo.zip)에 있습니다. 실제 LLM 실행 결과가 아닌 시작 요청입니다.
+
+[실행 파일과 공부 자료](#39) · [검토 규칙과 유지 부담](#37)
 
 ---
 
@@ -846,7 +930,5 @@ tone: purple
 # 어떤 노트부터 다시 쓰고 싶나요
 
 **질문 · 내 자료 적용 · 검토 부담**
-
-Q&A 별도 2분 추정
 
 [공부 자료 목차](./materials/index.md) · [실행 가능한 데모 ZIP](./demo/llm-wiki-demo.zip)

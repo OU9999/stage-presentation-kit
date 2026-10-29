@@ -1,0 +1,142 @@
+{
+  "source": "slides.md",
+  "route": [
+    {
+      "slide": 1,
+      "seconds": 30,
+      "nextSlide": 2
+    },
+    {
+      "slide": 2,
+      "seconds": 50,
+      "nextSlide": 3
+    },
+    {
+      "slide": 3,
+      "seconds": 55,
+      "nextSlide": 4
+    },
+    {
+      "slide": 4,
+      "seconds": 50,
+      "nextSlide": 6
+    },
+    {
+      "slide": 6,
+      "seconds": 40,
+      "nextSlide": 7
+    },
+    {
+      "slide": 7,
+      "seconds": 25,
+      "nextSlide": 10
+    },
+    {
+      "slide": 10,
+      "seconds": 35,
+      "nextSlide": 11
+    },
+    {
+      "slide": 11,
+      "seconds": 35,
+      "nextSlide": 12
+    },
+    {
+      "slide": 12,
+      "seconds": 60,
+      "nextSlide": 13
+    },
+    {
+      "slide": 13,
+      "seconds": 45,
+      "nextSlide": 17
+    },
+    {
+      "slide": 17,
+      "seconds": 65,
+      "nextSlide": 18
+    },
+    {
+      "slide": 18,
+      "seconds": 35,
+      "nextSlide": 19
+    },
+    {
+      "slide": 19,
+      "seconds": 50,
+      "nextSlide": 21
+    },
+    {
+      "slide": 21,
+      "seconds": 35,
+      "nextSlide": 22
+    },
+    {
+      "slide": 22,
+      "seconds": 55,
+      "nextSlide": 23
+    },
+    {
+      "slide": 23,
+      "seconds": 60,
+      "nextSlide": 24
+    },
+    {
+      "slide": 24,
+      "seconds": 50,
+      "nextSlide": 25
+    },
+    {
+      "slide": 25,
+      "seconds": 35,
+      "nextSlide": 26
+    },
+    {
+      "slide": 26,
+      "seconds": 45,
+      "nextSlide": 29
+    },
+    {
+      "slide": 29,
+      "seconds": 25,
+      "nextSlide": 31
+    },
+    {
+      "slide": 31,
+      "seconds": 35,
+      "nextSlide": 33
+    },
+    {
+      "slide": 33,
+      "seconds": 30,
+      "nextSlide": 34
+    },
+    {
+      "slide": 34,
+      "seconds": 20,
+      "nextSlide": 35
+    },
+    {
+      "slide": 35,
+      "seconds": 50,
+      "nextSlide": 36
+    },
+    {
+      "slide": 36,
+      "seconds": 35,
+      "nextSlide": 39
+    },
+    {
+      "slide": 39,
+      "seconds": 30,
+      "nextSlide": 40
+    },
+    {
+      "slide": 40,
+      "seconds": 120
+    }
+  ],
+  "talk_seconds": 1080,
+  "qa_seconds": 120,
+  "timing_status": "draft_not_rehearsed"
+}

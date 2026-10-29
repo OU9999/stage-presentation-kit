@@ -22,8 +22,8 @@
 
 ## 도식·차트
 
-`wiki-layers.svg`, `knowledge-map.svg`, `change-trace.svg`, `impact-map.svg`, `reuse-inputs.svg`, `current-pending.svg`, `decision-transition.svg`는 발표팀이 작성한 자체 도식입니다. LLM Wiki 설계와 학습 예제의 원자료·주장·답·결정 관계를 그렸으며 기존 DevDay 색과 서체를 사용했습니다.
+`wiki-layers.svg`, `knowledge-map.svg`, `change-trace.svg`, `impact-map.svg`, `reuse-inputs.svg`, `current-pending.svg`, `decision-transition.svg`, `study-notebook-map.svg`, `reuse-route.svg`는 발표팀이 작성한 자체 도식입니다. LLM Wiki 설계와 학습 예제의 원자료·주장·답·결정 관계를 그렸으며 기존 DevDay 색과 서체를 사용했습니다. 새 공용 노트 도식은 원자료함/raw, 함께 고친 설명쪽/wiki, 적는 약속/작업 규칙, 바꾼 이유/log의 대응을 나타냅니다. 기록 재사용 도식은 한국어 역할을 먼저 읽고 파일 ID를 보조로 확인하도록 구성했습니다.
 
-31장의 네이티브 구성 차트는 승인안의 기존 5쪽 갱신과 신규 3쪽 생성을 나타냅니다. 원값의 합계는 8쪽이며, 표시된 비중은 이 8쪽 안의 구성입니다. 33장의 네이티브 흐름도는 Karpathy의 Operations를 읽기·질문·점검의 순서로 표현했습니다. 두 그림은 기존 STAGE 렌더러를 사용합니다.
+31장은 기존 5쪽 갱신과 신규 3쪽 생성으로 반영한 8쪽, 로컬 링크 25개, 보존 파일 10개의 확인 범위를 단위별로 표시합니다. 서로 다른 단위를 비중이나 성과 점수로 비교하지 않습니다. 33장의 네이티브 흐름도는 Karpathy의 Operations를 읽기·질문·점검의 순서로 표현했습니다. 원값 표시와 흐름도는 기존 STAGE 렌더러를 사용합니다.
 
 C1/Q1의 근거는 [RAG v4 §2.4](https://arxiv.org/html/2005.11401v4#S2.SS4), [LoRA v2 §4.1](https://arxiv.org/html/2106.09685v2#S4.SS1)입니다. D1/D2의 형식은 [Michael Nygard의 결정 기록](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)을 응용했습니다. 실제 발췌와 파일 경로는 `materials/demo-log.md`에 있습니다.

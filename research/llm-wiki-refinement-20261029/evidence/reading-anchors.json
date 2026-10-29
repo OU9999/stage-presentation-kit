@@ -1,0 +1,106 @@
+{
+  "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+  "results": [
+    {
+      "slide": 3,
+      "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "고친 노트 한 쪽에 설명과 근거와 이유를 남긴다",
+      "top": 128.046875,
+      "headerBottom": 70,
+      "bodyText": "고친 노트 한 쪽에 설명과 근거와 이유를 남긴다설명이 데모의 파일 수정은 모델 매개변수 학습을 실행하지 않는다. 외부 파일을 쓰는 시스템에도 별도의 학습 과정이 있을 수 있다.원문 위치RAG v4 §2.4LoRA v2 §4.1바꾼 이유외부 파일 사용이나 기본 가중치 고정만으로 학습의 부재를 일반화할 수 없다.C1 파일의 문장·근거와 이유 발췌. 실제 파일 읽기다음 질문에 다시 쓰는 LLM Wiki03"
+    },
+    {
+      "slide": 6,
+      "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "공용 노트를 파일로 옮기면",
+      "top": 128.15625,
+      "headerBottom": 70,
+      "bodyText": "공용 노트를 파일로 옮기면원자료함 raw는 보존하고, 설명쪽 wiki는 근거를 대조해 고칩니다. 작업 규칙은 전체에 적용하고 log에 바꾼 이유를 남깁니다.대응 그림 원본다음 질문에 다시 쓰는 LLM Wiki06"
+    },
+    {
+      "slide": 12,
+      "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "링크가 있으면 충분할까",
+      "top": 127.9609375,
+      "headerBottom": 70,
+      "bodyText": "링크가 있으면 충분할까판단할 초안외부 파일을 쓰는 시스템은모델을 학습하지 않는다.Zoom 채팅에 A/B를 적어 주세요.이유 한 줄은 선택입니다.근거 확인하기A현행 노트로 저장한다.B원문 범위를 검토한다.다음 질문에 다시 쓰는 LLM Wiki12"
+    },
+    {
+      "slide": 17,
+      "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "모든 시스템에서 이 데모로 좁힌다",
+      "top": 127.7890625,
+      "headerBottom": 70,
+      "bodyText": "모든 시스템에서 이 데모로 좁힌다삭제 · 모든 시스템외부 파일을 쓰는 시스템은모델을 학습하지 않는다.추가 · 이 데모이 데모의 파일 수정은 모델 매개변수 학습을 실행하지 않는다. 외부 파일을 쓰는 시스템에도 별도의 학습 과정이 있을 수 있다.다음 질문에 다시 쓰는 LLM Wiki17"
+    },
+    {
+      "slide": 19,
+      "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "고친 설명을 새 질문과 판단에 다시 쓴다",
+      "top": 128.0078125,
+      "headerBottom": 70,
+      "bodyText": "고친 설명을 새 질문과 판단에 다시 쓴다고친 주장과 첫 답, 이전 선택을 다시 읽어 새 저장 기준을 정합니다.관계도 원본 · 새 질문에 다시 쓰기 · 목차와 이력 더 보기다음 질문에 다시 쓰는 LLM Wiki19"
+    },
+    {
+      "slide": 23,
+      "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "이 답을 어디에 남길까",
+      "top": 128.109375,
+      "headerBottom": 70,
+      "bodyText": "이 답을 어디에 남길까판단할 초안파일 위키를 만들면 필요한 파일을 언제나 찾을 수 있다.Zoom 채팅에 A/B를 적어 주세요.이유 한 줄은 선택입니다.이 예제의 선택 확인A현행 노트로 저장한다.B검토 대기에 보류한다.다음 질문에 다시 쓰는 LLM Wiki23"
+    },
+    {
+      "slide": 31,
+      "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "이번 실행에서 확인한 것",
+      "top": 128.765625,
+      "headerBottom": 70,
+      "bodyText": "이번 실행에서 확인한 것교정안 반영8 쪽기존 5쪽 갱신 + 신규 3쪽고친 문장로컬 링크 검사25 링크상대 경로의 연결 확인함께 바뀐 기록보존 파일 해시10 파일읽기 메모 5개 + 초기 5쪽검사 범위 · 다음 읽기 · 역할다음 질문에 다시 쓰는 LLM Wiki31"
+    },
+    {
+      "slide": 33,
+      "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "읽기·질문·점검을 반복한다",
+      "top": 125.8046875,
+      "headerBottom": 70,
+      "bodyText": "읽기·질문·점검을 반복한다점검에서 찾은 문제는 다음 읽기와 질문으로 이어집니다.Karpathy, LLM Wiki · Operations: 자료를 반영하고 답을 남기고 내용·연결을 점검하는 반복 작업01읽고 엮기 · ingest02답하고 남기기 · query03점검하기 · lint같은 원본의 데이터 표흐름의 순서와 연결순서단계다음 단계1읽고 엮기 · ingest답하고 남기기 · query2답하고 남기기 · query점검하기 · lint3점검하기 · lint마지막 단계다음 질문에 다시 쓰는 LLM Wiki33"
+    },
+    {
+      "slide": 34,
+      "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "자료를 고르고 질문을 쓰고 대조한다",
+      "top": 128.0546875,
+      "headerBottom": 70,
+      "bodyText": "자료를 고르고 질문을 쓰고 대조한다자료 고르기질문 적기설명 대조하기준비 예: 자료 3개 · 질문 1개 · 검토자 1명. 지금은 질문 한 줄부터.다음 질문에 다시 쓰는 LLM Wiki34"
+    },
+    {
+      "slide": 35,
+      "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+      "width": 390,
+      "scrollWidth": 390,
+      "heading": "내 질문 한 줄부터 적는다",
+      "top": 129.8984375,
+      "headerBottom": 70,
+      "bodyText": "내 질문 한 줄부터 적는다내 질문 [한 줄]자료 제목 [기억나는 만큼] → 근거 위치 [다음 모임에 확인]20초 동안 쓰기 · 채팅 공유는 선택예: 다음 답이 고친 노트를 읽었는지 어떻게 확인할까?다음 질문에 다시 쓰는 LLM Wiki35"
+    }
+  ],
+  "nativeFlowKeyboardToggle": true
+}

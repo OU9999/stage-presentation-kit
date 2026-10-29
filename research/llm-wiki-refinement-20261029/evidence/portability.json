@@ -1,0 +1,8 @@
+{
+  "files": 31,
+  "byteIdenticalAfterMove": true,
+  "first": "1개 발표 생성: /private/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/llm-wiki-refinement-project-8ug_6epk/first/presentations",
+  "moved": "1개 발표 생성: /private/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/llm-wiki-refinement-project-8ug_6epk/moved/presentations",
+  "temporaryProject": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/llm-wiki-refinement-project-8ug_6epk/moved",
+  "scope": "Copies only talks/llm-wiki and project config; uses the shared CLI/runtime; no original files are edited."
+}

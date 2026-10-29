@@ -1,0 +1,196 @@
+{
+  "revision": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+  "steps": 27,
+  "moves": [
+    {
+      "from": 1,
+      "to": 2,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 4,
+      "to": 6,
+      "method": "link",
+      "label": "파일 역할 보기"
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 7,
+      "to": 10,
+      "method": "link",
+      "label": "실제 파일 확인하기"
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "method": "link",
+      "label": "근거 확인하기"
+    },
+    {
+      "from": 13,
+      "to": 17,
+      "method": "link",
+      "label": "교정 결과 보기"
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 18,
+      "to": 19,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 19,
+      "to": 21,
+      "method": "link",
+      "label": "새 질문에 다시 쓰기"
+    },
+    {
+      "from": 21,
+      "to": 22,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 22,
+      "to": 23,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "method": "link",
+      "label": "이 예제의 선택 확인"
+    },
+    {
+      "from": 24,
+      "to": 25,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 25,
+      "to": 26,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 26,
+      "to": 29,
+      "method": "link",
+      "label": "상충하는 근거 다루기"
+    },
+    {
+      "from": 29,
+      "to": 31,
+      "method": "link",
+      "label": "실행에서 확인한 것"
+    },
+    {
+      "from": 31,
+      "to": 33,
+      "method": "link",
+      "label": "다음 읽기"
+    },
+    {
+      "from": 33,
+      "to": 34,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 34,
+      "to": 35,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 35,
+      "to": 36,
+      "method": "ArrowRight"
+    },
+    {
+      "from": 36,
+      "to": 39,
+      "method": "link",
+      "label": "실행 파일과 공부 자료"
+    },
+    {
+      "from": 39,
+      "to": 40,
+      "method": "ArrowRight"
+    }
+  ],
+  "choices": [
+    {
+      "slide": 12,
+      "choices": [
+        {
+          "label": "A",
+          "color": "rgb(8, 8, 8)",
+          "font": "30px",
+          "background": "color(srgb 0.964706 0.964706 0.956863)",
+          "width": 389.75994873046875,
+          "height": 505.67999267578125
+        },
+        {
+          "label": "B",
+          "color": "rgb(8, 8, 8)",
+          "font": "30px",
+          "background": "color(srgb 0.964706 0.964706 0.956863)",
+          "width": 389.760009765625,
+          "height": 505.67999267578125
+        }
+      ]
+    },
+    {
+      "slide": 23,
+      "choices": [
+        {
+          "label": "A",
+          "color": "rgb(8, 8, 8)",
+          "font": "30px",
+          "background": "color(srgb 0.964706 0.964706 0.956863)",
+          "width": 389.75994873046875,
+          "height": 505.67999267578125
+        },
+        {
+          "label": "B",
+          "color": "rgb(8, 8, 8)",
+          "font": "30px",
+          "background": "color(srgb 0.964706 0.964706 0.956863)",
+          "width": 389.760009765625,
+          "height": 505.67999267578125
+        }
+      ]
+    }
+  ],
+  "end": {
+    "hash": "#40",
+    "index": "39",
+    "heading": "어떤 노트부터 다시 쓰고 싶나요"
+  },
+  "timing": "1080+120 seconds is a plan; this navigation check does not measure a live talk."
+}

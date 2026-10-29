@@ -3,7 +3,7 @@
   <desc id="desc">D1의 결정은 모든 질문의 답을 현행 노트로 저장하기였다. 채팅에서 결과를 다시 찾기 어려워 한곳에 모으려 했다는 당시 맥락을 보존한다. 검토 전 C1의 일반화가 현행 노트에 섞일 수 있어 D1 상태를 superseded로 표시하고 D2에 연결한다. D2는 문장과 근거 위치와 범위를 대조한 뒤 현행 답을 갱신한다. 수정 이유를 찾아갈 수 있지만 매번 검토하는 시간이 든다는 결과를 함께 남긴다. 이 학습 예제의 선택이며 성과 측정이 아니다.</desc>
   <rect width="1200" height="450" fill="#090909"/>
   <g font-family="Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
-    <text x="32" y="45" fill="#ff7a3d" font-size="36" font-weight="700">D1 · superseded</text>
+    <text x="32" y="45" fill="#ff7a3d" font-size="36" font-weight="700">D1 · 대체됨</text>
     <text x="700" y="45" fill="#69cf82" font-size="36" font-weight="700">D2 · 이 예제에서 채택</text>
     <path d="M32 76H515" stroke="#ff7a3d" stroke-width="2"/>
     <path d="M700 76H1168" stroke="#69cf82" stroke-width="2"/>

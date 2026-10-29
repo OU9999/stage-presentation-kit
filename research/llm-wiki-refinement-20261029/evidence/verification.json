@@ -1,0 +1,16 @@
+{
+  "sourceSha256": "2b09aaabe8682deacadad7571ac4b6f1f6545ac2173c3bb138f1c0533b0ec233",
+  "tests": {
+    "pass": 261,
+    "fail": 0,
+    "durationMs": 4796.787542
+  },
+  "buildSite": true,
+  "verifySite": true,
+  "reviewLocalLinks": {
+    "checked": 14,
+    "missing": []
+  },
+  "coreRuntimeChanges": false,
+  "humanRehearsalPerformed": false
+}
