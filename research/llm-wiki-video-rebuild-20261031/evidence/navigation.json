@@ -1,0 +1,59 @@
+{
+  "route": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "links": [
+    {
+      "text": "예제 메모와 시작 요청",
+      "href": "http://127.0.0.1:4320/llm-wiki/assets/a8ccde64c535-rebuild-study.txt",
+      "target": "",
+      "download": ""
+    },
+    {
+      "text": "내 자료로 따라 하기",
+      "href": "http://127.0.0.1:4320/llm-wiki/materials/workshop.html",
+      "target": "",
+      "download": ""
+    }
+  ],
+  "workshop": {
+    "url": "http://127.0.0.1:4320/llm-wiki/materials/workshop.html",
+    "title": "작은 LLM Wiki 만들기",
+    "firstStep": "1. 질문과 사용 목적 정하기"
+  },
+  "guide": {
+    "url": "http://127.0.0.1:4320/llm-wiki/materials/study-guide.html",
+    "title": "LLM Wiki 혼자 공부하기"
+  },
+  "presenter": {
+    "slideToPresenter": 4,
+    "presenterToSlide": 5
+  },
+  "mobileScreenshots": [
+    "rebuild-mobile-read.png",
+    "rebuild-mobile-workshop.png"
+  ]
+}

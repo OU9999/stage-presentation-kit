@@ -1014,6 +1014,12 @@
         var bounds = node.getBoundingClientRect();
         var localTile = node.closest(".md-tile, .md-wall-item");
         var localBounds = localTile ? localTile.getBoundingClientRect() : bodyBounds;
+        // A title's font ascenders can extend above its line box without
+        // being clipped. Keep horizontal safe margins, but measure its top
+        // against the slide that actually clips the title.
+        if (node.classList.contains("slide-title") && !localTile) {
+          localBounds = { left: localBounds.left, right: localBounds.right, top: slideBounds.top, bottom: localBounds.bottom };
+        }
         var positioned = node.closest("[data-source-line]");
         var line = positioned ? positioned.dataset.sourceLine : "?";
         var source = (deck.document && deck.document.sourcePath || "Markdown") + ":" + line;

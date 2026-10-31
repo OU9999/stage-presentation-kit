@@ -1,0 +1,135 @@
+[
+  {
+    "file": "talks/llm-wiki/assets/expanded/agentic-routing.svg",
+    "sha256": "6fa0448ed0ea3642e4a49eec24cb0d6088a7c0f79db62febad26f34cc6db03e2",
+    "viewBox": "0 0 1500 600",
+    "textCount": 9,
+    "minimumSize": 29
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/comparison-synthesis.svg",
+    "sha256": "c426d91032835716893e59754c12515b538439733aaf97aac01e72634b48064f",
+    "viewBox": "0 0 1500 600",
+    "textCount": 13,
+    "minimumSize": 27
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/five-layers.svg",
+    "sha256": "d80cc466d8a1b90dc942c5f1c847fc916573384902b4c760247c0f397b667cc4",
+    "viewBox": "0 0 1500 600",
+    "textCount": 14,
+    "minimumSize": 28
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/ingest-map.svg",
+    "sha256": "7a49ed6f78cf9b14ae8835c41ff864df70f1f04acab14860af7eac2a8ece9d75",
+    "viewBox": "0 0 1500 600",
+    "textCount": 16,
+    "minimumSize": 26
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/knowledge-layers.svg",
+    "sha256": "2a181fa5202d034247ad5c3e5acc4a6431e478312f0a78ad73c518b4870089d6",
+    "viewBox": "0 0 1500 600",
+    "textCount": 15,
+    "minimumSize": 28
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/purpose-questions.svg",
+    "sha256": "3ed7e7d6523146941b97d2933d72dcfad5eaaf917bc976522c44f57869f6cc17",
+    "viewBox": "0 0 1500 600",
+    "textCount": 16,
+    "minimumSize": 29
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/query-reading.svg",
+    "sha256": "f64b6c951ac7d7850646557af769335ea3a9e9580c0617b9ddd0b5dad91b3350",
+    "viewBox": "0 0 1500 600",
+    "textCount": 14,
+    "minimumSize": 30
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/rag-path.svg",
+    "sha256": "1eee6420ced652f0cb54073694f6152c96cc8589471435b2c138fd65b086173c",
+    "viewBox": "0 0 1500 600",
+    "textCount": 18,
+    "minimumSize": 26
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg",
+    "sha256": "6d50a2749b6d47844c2a6efca9964b7edd1a9b00c22e91feadb85c574abc4d98",
+    "viewBox": "0 0 1500 600",
+    "textCount": 16,
+    "minimumSize": 29
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/reflection-layers.svg",
+    "sha256": "9aa5ded778a8e4a04fd531ca3d303052c99d58dd26cd5c5524e60d611ae65d56",
+    "viewBox": "0 0 1500 600",
+    "textCount": 10,
+    "minimumSize": 29
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/related-updates.svg",
+    "sha256": "bba75b75afd02501f629a71bfe08e7e296b29dba40c4ec70b53598ec45f9fa62",
+    "viewBox": "0 0 1500 600",
+    "textCount": 13,
+    "minimumSize": 28
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/review-return.svg",
+    "sha256": "0e57de4cad93523b4697f7b6f29f6e14653f0021cfd2d0ae19d7d1ca38c1dc4c",
+    "viewBox": "0 0 1500 600",
+    "textCount": 16,
+    "minimumSize": 28
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/rules-graph.svg",
+    "sha256": "e537dec78c63eedcb15777d4fbfc2e052d53d6886f9b9aea67cc4b7a40030240",
+    "viewBox": "0 0 1500 600",
+    "textCount": 14,
+    "minimumSize": 31
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/saved-question.svg",
+    "sha256": "a8391e4e8ba5bee98a24a6f3fde473a547818927eba63ee4dc08cd5014fd3379",
+    "viewBox": "0 0 1500 600",
+    "textCount": 9,
+    "minimumSize": 27
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/session-plan.svg",
+    "sha256": "9c4e7bb89f27f4d7787ce0e28f74c5f80557df362649deb5d1a602f71121bf4c",
+    "viewBox": "0 0 1500 600",
+    "textCount": 12,
+    "minimumSize": 27
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/shared-workspace.svg",
+    "sha256": "e00064ced99ec94b440ff275709f9048ebd24722ce10dc65110d9826e25b56cd",
+    "viewBox": "0 0 1500 600",
+    "textCount": 15,
+    "minimumSize": 28
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/source-concept.svg",
+    "sha256": "50e568d57f92d39f38c1690224bbf2e16fa55fb11406002119bd408559647987",
+    "viewBox": "0 0 1500 600",
+    "textCount": 12,
+    "minimumSize": 27
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/wiki-path.svg",
+    "sha256": "ac3124531b1bb539c429afc93e9f0e4e2f10e5a5f611080342d216f999907823",
+    "viewBox": "0 0 1500 600",
+    "textCount": 14,
+    "minimumSize": 26
+  },
+  {
+    "file": "talks/llm-wiki/assets/expanded/work-context.svg",
+    "sha256": "5fb164eddea43bceb3a8daf69e44d5431f9d7134f9d34c801a445b034abd7cf3",
+    "viewBox": "0 0 1500 600",
+    "textCount": 10,
+    "minimumSize": 27
+  }
+]

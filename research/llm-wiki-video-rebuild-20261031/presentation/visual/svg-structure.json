@@ -1,0 +1,58 @@
+[
+  {
+    "file": "agentic-update.svg",
+    "viewBox": "0 0 1500 540",
+    "textNodes": 9,
+    "minFont": 26.0,
+    "bytes": 2132
+  },
+  {
+    "file": "compare-page.svg",
+    "viewBox": "0 0 1500 540",
+    "textNodes": 12,
+    "minFont": 26.0,
+    "bytes": 2457
+  },
+  {
+    "file": "concept-page.svg",
+    "viewBox": "0 0 1500 540",
+    "textNodes": 16,
+    "minFont": 26.0,
+    "bytes": 2803
+  },
+  {
+    "file": "ingest-links.svg",
+    "viewBox": "0 0 1500 540",
+    "textNodes": 11,
+    "minFont": 28.0,
+    "bytes": 2475
+  },
+  {
+    "file": "lint-review.svg",
+    "viewBox": "0 0 1500 540",
+    "textNodes": 12,
+    "minFont": 26.0,
+    "bytes": 2404
+  },
+  {
+    "file": "query-context.svg",
+    "viewBox": "0 0 1500 540",
+    "textNodes": 10,
+    "minFont": 28.0,
+    "bytes": 2337
+  },
+  {
+    "file": "question-saved.svg",
+    "viewBox": "0 0 1500 540",
+    "textNodes": 16,
+    "minFont": 26.0,
+    "bytes": 2921
+  },
+  {
+    "file": "raw-wiki.svg",
+    "viewBox": "0 0 1500 540",
+    "textNodes": 14,
+    "minFont": 28.0,
+    "bytes": 2670
+  }
+]

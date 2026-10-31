@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="정의와 작동 과정, 서로 다른 세 적용 예와 파일 교정 심화를 이어 읽는 자료">
-  <title>LLM Wiki 학습 자료 — 다음 질문에 다시 쓰는 LLM Wiki</title>
+  <meta name="description" content="세 영상에서 출발해 연결·축적·갱신·재사용을 배우는 48장 발표의 학습 자료">
+  <title>LLM Wiki 학습 자료 — LLM Wiki · 자료가 지식으로 쌓이는 방식</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_runtime/materials.css?v=1b61ac3b3119">
 </head>
-<body class="material-page" data-source="talks/llm-wiki/materials/index.md" data-revision="4aea025524bdd50af41806287b796ffd8a0ea53b16a48e0e505c000117925868">
+<body class="material-page" data-source="talks/llm-wiki/materials/index.md" data-revision="acb61b6831433dfbfff18869da3f0ec8dd40a23df702243ba3771ee022dc329f">
   <a class="material-skip" href="#material-content">본문으로 이동</a>
   <header class="material-header">
     <a class="material-brand" href="index.html">STAGE <span>학습 자료</span></a>
@@ -20,73 +20,75 @@
     <details class="material-mobile-nav">
       <summary>목차와 다른 자료</summary>
       <div class="material-mobile-nav-content">
-        <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html" class="is-current" aria-current="page">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">40장 대본 · 본질과 세 사례의 20분 진행</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html">작은 LLM Wiki 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li></ul></nav>
-        <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#먼저-무엇을-읽을까요">먼저 무엇을 읽을까요</a></li><li class="toc-level-2"><a href="#발표와-깊이-읽기를-나누기">발표와 깊이 읽기를 나누기</a></li><li class="toc-level-2"><a href="#세-사례의-실물-열기">세 사례의 실물 열기</a></li><li class="toc-level-2"><a href="#자료를-읽는-약속">자료를 읽는 약속</a></li></ul></nav>
+        <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html" class="is-current" aria-current="page">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">48장 대본 · 본편 35분과 Q&amp;A 5분</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html">작은 LLM Wiki 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li><li><a href="session-plan.html">입문자와 함께 읽는 15분 LLM Wiki 활동</a></li></ul></nav>
+        <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#지금-필요한-자료">지금 필요한 자료</a></li><li class="toc-level-2"><a href="#발표에서-실습으로">발표에서 실습으로</a></li><li class="toc-level-2"><a href="#이번-예제의-흐름">이번 예제의 흐름</a></li><li class="toc-level-2"><a href="#자료를-읽는-세-가지-구분">자료를 읽는 세 가지 구분</a></li><li class="toc-level-2"><a href="#구판-예제와-다른-주제">구판 예제와 다른 주제</a></li></ul></nav>
       </div>
     </details>
     <aside class="material-sidebar">
-      <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html" class="is-current" aria-current="page">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">40장 대본 · 본질과 세 사례의 20분 진행</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html">작은 LLM Wiki 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li></ul></nav>
-      <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#먼저-무엇을-읽을까요">먼저 무엇을 읽을까요</a></li><li class="toc-level-2"><a href="#발표와-깊이-읽기를-나누기">발표와 깊이 읽기를 나누기</a></li><li class="toc-level-2"><a href="#세-사례의-실물-열기">세 사례의 실물 열기</a></li><li class="toc-level-2"><a href="#자료를-읽는-약속">자료를 읽는 약속</a></li></ul></nav>
+      <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html" class="is-current" aria-current="page">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">48장 대본 · 본편 35분과 Q&amp;A 5분</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html">작은 LLM Wiki 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li><li><a href="session-plan.html">입문자와 함께 읽는 15분 LLM Wiki 활동</a></li></ul></nav>
+      <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#지금-필요한-자료">지금 필요한 자료</a></li><li class="toc-level-2"><a href="#발표에서-실습으로">발표에서 실습으로</a></li><li class="toc-level-2"><a href="#이번-예제의-흐름">이번 예제의 흐름</a></li><li class="toc-level-2"><a href="#자료를-읽는-세-가지-구분">자료를 읽는 세 가지 구분</a></li><li class="toc-level-2"><a href="#구판-예제와-다른-주제">구판 예제와 다른 주제</a></li></ul></nav>
     </aside>
     <article class="material-article" id="material-content">
-      <header class="material-intro"><p class="material-eyebrow">다음 질문에 다시 쓰는 LLM Wiki</p><h1 id="llm-wiki-학습-자료">LLM Wiki 학습 자료</h1><p>정의와 작동 과정, 서로 다른 세 적용 예와 파일 교정 심화를 이어 읽는 자료</p></header>
-      <div class="material-content"><p>LLM Wiki는 LLM이 원자료 사이의 개념·비교·연결을 Markdown 위키로 작성하고 계속 갱신해, 다음 질문이 이전 정리에서 출발하도록 하는 지식관리 방식입니다. 답을 모으는 데서 더 나아가 여러 자료를 함께 읽은 결과를 유지합니다. 특정 완제품이나 공식 표준을 뜻하지 않습니다.</p>
-<h2 id="먼저-무엇을-읽을까요">먼저 무엇을 읽을까요</h2>
+      <header class="material-intro"><p class="material-eyebrow">LLM Wiki · 자료가 지식으로 쌓이는 방식</p><h1 id="llm-wiki-학습-자료">LLM Wiki 학습 자료</h1><p>세 영상에서 출발해 연결·축적·갱신·재사용을 배우는 48장 발표의 학습 자료</p></header>
+      <div class="material-content"><p><strong>LLM이 자료 사이의 관계를 문서로 남기고, 다음 질문에서 다시 읽고 고칩니다.</strong> 이번 발표는 세 영상의 목적·지식 연결·검색·실제 작업 흐름을 따라 LLM Wiki의 특징과 RAG와의 관계를 설명합니다.</p>
+<h2 id="지금-필요한-자료">지금 필요한 자료</h2>
 <div class="material-table-scroll" tabindex="0" role="region" aria-label="표 가로 스크롤"><table>
 <thead>
 <tr>
 <th>원하는 일</th>
-<th>시작할 자료</th>
-<th>읽고 나서 할 수 있는 일</th>
+<th>읽을 자료</th>
+<th>가져갈 결과</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>정의·동기·작동 이해</td>
-<td><a href="study-guide.html">학습 가이드</a></td>
-<td>원자료·위키·작업 규칙과 ingest/query/lint의 역할을 설명합니다.</td>
+<td>개념과 작동을 충분히 이해하기</td>
+<td><a href="study-guide.html">혼자 공부하기</a></td>
+<td>연결·지속 문서·다중 갱신·재사용과 세 작업</td>
 </tr>
 <tr>
-<td>다른 분야의 입력과 출력 보기</td>
-<td><a href="study-guide.html#%EC%84%B8-%EA%B0%80%EC%A7%80-%EC%A0%81%EC%9A%A9-%EC%98%88">세 가지 적용 예</a></td>
-<td>독서·고객 요구·강의 메모가 여러 페이지와 후속 질문으로 이어지는 과정을 읽습니다.</td>
+<td>세 영상으로 작은 위키 만들기</td>
+<td><a href="workshop.html">실습과 해설</a> · <a href="../assets/dacfb05fd38c-expanded-study.txt">새 복사용 팩</a></td>
+<td>개념·비교·계획을 만들고 후속 질문에 쓰는 순환</td>
 </tr>
 <tr>
-<td>내 자료로 작성해 보기</td>
-<td><a href="workshop.html">실습과 해설</a></td>
-<td>LLM이 쓸 페이지, 다시 읽을 파일, 새 자료의 영향과 검토할 경계를 정합니다.</td>
+<td>35분 발표 진행하기</td>
+<td><a href="speaker-script.html">48장 대본</a></td>
+<td>기승전결과 본편 35분·Q&amp;A 5분 진행안</td>
 </tr>
 <tr>
-<td>발표 진행</td>
-<td><a href="speaker-script.html">40장 대본</a></td>
-<td>핵심18분+질문2분의 계획과 별도 심화 경로를 따라갑니다.</td>
+<td>영상과 기술 근거 확인하기</td>
+<td><a href="reference-library.html">원문과 근거</a></td>
+<td>실제 발언·우리 해석·기술적 교정의 구분</td>
 </tr>
 <tr>
-<td>공개 원문과 구현·논문 확인</td>
-<td><a href="reference-library.html">참고 자료</a></td>
-<td>저자 설계·코드 관찰·논문 실험·구성 예의 근거 수준을 구별합니다.</td>
+<td>실제 활동안 한 쪽 읽기</td>
+<td><a href="session-plan.html">15분 스터디 진행안</a></td>
+<td>준비된 팩에서 선택한 두 메모로 관계·근거·다음 질문 확인</td>
 </tr>
 <tr>
-<td>파일 교정의 일부를 재현</td>
-<td><a href="demo-log.html">기존 교정 실행 기록</a></td>
-<td>사람이 승인한 안을 Node로 적용한 diff·링크·해시 검사를 읽습니다.</td>
+<td>기존 정밀 교정 재현하기</td>
+<td><a href="demo-log.html">고정 교정 기록</a> · <a href="../assets/9c0a83b5bf0a-llm-wiki-demo.zip">ZIP</a></td>
+<td>승인안을 파일에 적용하는 별도 심화</td>
 </tr>
 </tbody>
 </table>
 </div>
-<h2 id="발표와-깊이-읽기를-나누기">발표와 깊이 읽기를 나누기</h2>
-<p>발표는40장 중1~28장을 연속으로 설명·참여1,080초(18분),40장을 Q&amp;A120초(2분)로 쓰는 배분안입니다.29~39장 선택 심화의555초는 별도입니다.20분은 실제 리허설 결과가 아닙니다. <a href="speaker-script.html">대본</a>과 <a href="../read.html#1">발표 읽기</a>를 함께 볼 수 있습니다. 이 자료의 장 링크는 별도 읽기 화면을 여는 참고 경로입니다.</p>
-<p>학습 가이드는 사례를 읽으며 약45~60분, 기본 실습은15~20분, 기술 스터디 심화 실습은 별도20~30분을 예상합니다. 독자의 속도를 측정한 값은 아닙니다. 처음부터 전부 완독할 필요 없이 자기 질문과 닮은 사례를 하나 고르세요.</p>
-<h2 id="세-사례의-실물-열기">세 사례의 실물 열기</h2>
+<h2 id="발표에서-실습으로">발표에서 실습으로</h2>
+<p>새 발표는 <strong>1~48장 순서대로</strong> 진행합니다. 기 1~8장 5분, 승 9~19장 8분, 전 20~36장 14분, 결 37~47장 8분, 48장 Q&amp;A 5분의 배분안입니다. 실제 음성 리허설 시간을 측정한 결과는 아닙니다.</p>
+<p><a href="../read.html#45">45장</a>에서 자기 질문을 적고 <a href="../read.html#46">46장</a>에서 시작 요청을 봅니다. 발표 후에는 <a href="workshop.html#%EA%B8%B0%EB%B3%B8-%EC%8B%A4%EC%8A%B5-%EC%84%B8-%EC%98%81%EC%83%81%EC%97%90%EC%84%9C-%EB%8B%A4%EC%9D%8C-%EC%8A%A4%ED%84%B0%EB%94%94%EB%A1%9C">기본 실습</a>으로 옮겨 <strong>목적 하나·실제 영상 메모 세 개·연결된 계획·후속 질문 하나</strong>를 만들어 보세요. 자료의 장 링크는 별도 읽기 화면을 엽니다.</p>
+<h2 id="이번-예제의-흐름">이번 예제의 흐름</h2>
+<p>처음에는 ‘다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?’를 묻습니다. 세 영상의 읽기 메모를 넣고 자료 요약·개념·비교·현재 계획을 연결합니다. 나중에 입문자와 15분 실습이라는 가상 조건을 더해 관련 여러 페이지를 갱신합니다. ‘입문자와 15분 활동은 무엇부터 할까?’라는 후속 질문은 그 페이지들을 다시 읽고 시작합니다.</p>
+<p>새 조건이 LLM Wiki의 보편 정의를 바꾸는 것은 아닙니다. 개념의 <strong>우리 적용 범위</strong>, 비교의 <strong>선택 기준</strong>, 종합의 <strong>현재 계획</strong>이 구체화됩니다. 유용한 답은 검토 뒤 저장하고, 그 정리를 읽어 <a href="session-plan.html">실제 15분 진행안</a>을 만듭니다. 시간·출처·작성 주체·미확인 조건을 대조하고 결과와 선택 이유를 다시 연결합니다. 활동에서는 전체 세 메모 중 목적·연결을 설명한 첫 메모와 사람 입력·산출물·검토를 설명한 공동 세미나 메모를 골라 읽습니다.</p>
+<h2 id="자료를-읽는-세-가지-구분">자료를 읽는 세 가지 구분</h2>
 <ul>
-<li><a href="study-guide.html#%EC%86%8C%EC%84%A4-%EB%8F%85%EC%84%9C">소설 독서</a>: 장 메모에서 인물·주제·질문 답으로. <a href="../assets/c25067e5b335-reading.txt">입력·전후파일 txt</a></li>
-<li><a href="study-guide.html#%EA%B3%A0%EA%B0%9D-%EC%9A%94%EA%B5%AC">고객 요구</a>: 상담과 회의에서 요구 비교·현재 응대로. <a href="../assets/b9b79ffd8cd0-team.txt">입력·전후파일 txt</a></li>
-<li><a href="study-guide.html#%EA%B0%95%EC%9D%98-%EB%A9%94%EB%AA%A8">강의 메모</a>: 서로 다른 단원에서 공통 개념·새 기준·종합으로. <a href="../assets/7f02c1c31f4c-course.txt">입력·전후파일 txt</a></li>
+<li><strong>실제 외부 자료:</strong> 사용자 제공 두 YouTube 영상, Karpathy 설계 글, 논문과 공식 문서. <a href="reference-library.html">전체 자막·대표 화면의 확인 범위</a>.</li>
+<li><strong>설명용 구성 예:</strong> 발표팀이 작성한 읽기 메모·위키·계획·후속 질문 답과 가상 모임 조건. 이번 세션의 모델 출력이나 실제 스터디 성과가 아닙니다.</li>
+<li><strong>고정 교정 실행:</strong> 기존 ZIP의 승인안을 Node로 적용·검사한 기록. 실제 LLM이 새 답을 만든 실험과 구분합니다.</li>
 </ul>
-<p>세 사례는 <strong>가상 자료로 만든 적용 예</strong>입니다. 실제 소설·고객·수업이나 모델 실행 결과가 아닙니다. 파일 읽기/쓰기 도구가 있는 에이전트가 입력과 관련 위키를 현재 문맥에 읽고, 페이지를 작성·갱신한다는 흐름을 설명합니다. 다음 질문에서는 저장한 페이지를 다시 읽어야 합니다.</p>
-<h2 id="자료를-읽는-약속">자료를 읽는 약속</h2>
-<p>원저자의 적용 용도 제안, 관찰한 공개 구현, 제한된 논문 실험, 우리가 만든 예제를 구별합니다. 세 사례의 문장은 구성 예이며 공개 저장소는 설치·실행하지 않았습니다. <a href="../assets/9c0a83b5bf0a-llm-wiki-demo.zip">기존 ZIP</a>에서 실제 재현한 것은 <strong>고정 승인안의 파일 반영과 검사</strong>입니다. LLM의 자동 검색·새 답 생성·의미 검증을 실행한 기록으로 읽지 않습니다.</p>
-<p>도입의 판단은 파일 수보다 다음 질문에 필요한 설명과 근거를 다시 찾을 수 있는지, 새 자료가 들어왔을 때 고칠 부담을 감당할 수 있는지에 둡니다. <a href="study-guide.html">학습 가이드로 시작하기</a> · <a href="workshop.html">내 질문으로 실습하기</a></p>
+<h2 id="구판-예제와-다른-주제">구판 예제와 다른 주제</h2>
+<p>이전 <a href="../assets/a8ccde64c535-rebuild-study.txt">RAG·LoRA 학습 팩</a>은 문맥·문서·모델 학습의 경계를 연습하는 <strong>구판 부록</strong>으로 보존했습니다. 새 48장 본편을 따라갈 때는 <a href="../assets/dacfb05fd38c-expanded-study.txt">세 영상 학습 팩</a>을 기준으로 읽으세요.</p>
+<p>기존 <a href="../assets/c25067e5b335-reading.txt">독서</a>·<a href="../assets/b9b79ffd8cd0-team.txt">고객 요구</a>·<a href="../assets/7f02c1c31f4c-course.txt">강의 메모</a>는 가상 적용 예입니다. 새 흐름을 익힌 뒤 자신의 자료로 바꿔 볼 때 참고할 수 있습니다.</p>
 </div>
       <footer class="material-footer"><a href="index.html">자료 모음으로</a> · <a href="../index.html">발표로 돌아가기</a></footer>
     </article>

@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="입력·여러 페이지 갱신·질문 답 저장·새 자료 재갱신을 연습하고 정밀 교정 심화로 이어가는 실습">
-  <title>작은 LLM Wiki 만들기 — 다음 질문에 다시 쓰는 LLM Wiki</title>
+  <meta name="description" content="실제 세 영상에서 개념·비교·계획을 만들고 새 조건·후속 질문으로 갱신하는 실습">
+  <title>작은 LLM Wiki 만들기 — LLM Wiki · 자료가 지식으로 쌓이는 방식</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../../_runtime/materials.css?v=1b61ac3b3119">
 </head>
-<body class="material-page" data-source="talks/llm-wiki/materials/workshop.md" data-revision="04a14b2646e20d90c24df57e1ff9e6dddb840c48df9950ee82f7962bc6353ca9">
+<body class="material-page" data-source="talks/llm-wiki/materials/workshop.md" data-revision="4afde59d0219fd61175e12f694a3caa940658dd541ff11772eddc4b6f0a13a6c">
   <a class="material-skip" href="#material-content">본문으로 이동</a>
   <header class="material-header">
     <a class="material-brand" href="index.html">STAGE <span>학습 자료</span></a>
@@ -20,95 +20,77 @@
     <details class="material-mobile-nav">
       <summary>목차와 다른 자료</summary>
       <div class="material-mobile-nav-content">
-        <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">40장 대본 · 본질과 세 사례의 20분 진행</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html" class="is-current" aria-current="page">작은 LLM Wiki 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li></ul></nav>
-        <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#기본-실습-내-자료에서-작은-순환-만들기">기본 실습: 내 자료에서 작은 순환 만들기</a></li><li class="toc-level-3"><a href="#1-사례-하나와-질문-하나-고르기">1. 사례 하나와 질문 하나 고르기</a></li><li class="toc-level-3"><a href="#2-입력과-이전-위키를-나누기">2. 입력과 이전 위키를 나누기</a></li><li class="toc-level-3"><a href="#3-새-입력을-관련-여러-페이지에-반영하기">3. 새 입력을 관련 여러 페이지에 반영하기</a></li><li class="toc-level-3"><a href="#4-다음-질문의-답을-실제-페이지로-남기기">4. 다음 질문의 답을 실제 페이지로 남기기</a></li><li class="toc-level-3"><a href="#5-작은-점검과-해설">5. 작은 점검과 해설</a></li><li class="toc-level-2"><a href="#기술-스터디-심화-주장근거파일-교정">기술 스터디 심화: 주장·근거·파일 교정</a></li><li class="toc-level-2"><a href="#1-원문을-찾을-수-있는-읽기-메모-만들기">1. 원문을 찾을 수 있는 읽기 메모 만들기</a></li><li class="toc-level-3"><a href="#입력">입력</a></li><li class="toc-level-3"><a href="#진행">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#2-주장-두-개와-비교-한-개-만들기">2. 주장 두 개와 비교 한 개 만들기</a></li><li class="toc-level-3"><a href="#진행-2">진행</a></li><li class="toc-level-3"><a href="#예시-답과-해설">예시 답과 해설</a></li><li class="toc-level-2"><a href="#3-질문에-답하고-유용한-결과를-다시-저장하기">3. 질문에 답하고 유용한 결과를 다시 저장하기</a></li><li class="toc-level-3"><a href="#입력-질문">입력 질문</a></li><li class="toc-level-3"><a href="#진행-3">진행</a></li><li class="toc-level-3"><a href="#예시-답과-해설-2">예시 답과 해설</a></li><li class="toc-level-2"><a href="#4-새로-읽은-근거로-잘못된-표현-고치기">4. 새로 읽은 근거로 잘못된 표현 고치기</a></li><li class="toc-level-3"><a href="#입력-검토할-잘못된-초안">입력: 검토할 잘못된 초안</a></li><li class="toc-level-3"><a href="#진행-4">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설-2">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#5-결정indexlog로-순환-닫기">5. 결정·index·log로 순환 닫기</a></li><li class="toc-level-3"><a href="#진행-5">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설-3">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#6-잘못된-예를-고쳐보는-최종-점검">6. 잘못된 예를 고쳐보는 최종 점검</a></li><li class="toc-level-2"><a href="#추가-도전-a-링크가-있으면-충분한가">추가 도전 A. 링크가 있으면 충분한가</a></li><li class="toc-level-2"><a href="#추가-도전-b-결정이-바뀌었을-때-이력-남기기">추가 도전 B. 결정이 바뀌었을 때 이력 남기기</a></li><li class="toc-level-2"><a href="#실습을-마친-뒤">실습을 마친 뒤</a></li></ul></nav>
+        <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">48장 대본 · 본편 35분과 Q&amp;A 5분</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html" class="is-current" aria-current="page">작은 LLM Wiki 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li><li><a href="session-plan.html">입문자와 함께 읽는 15분 LLM Wiki 활동</a></li></ul></nav>
+        <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#기본-실습-세-영상에서-다음-스터디로">기본 실습: 세 영상에서 다음 스터디로</a></li><li class="toc-level-3"><a href="#1-목적과-첫-질문-정하기">1. 목적과 첫 질문 정하기</a></li><li class="toc-level-3"><a href="#2-원자료-세-개와-규칙-준비하기">2. 원자료 세 개와 규칙 준비하기</a></li><li class="toc-level-3"><a href="#3-요약개념비교현재-계획-연결하기">3. 요약·개념·비교·현재 계획 연결하기</a></li><li class="toc-level-3"><a href="#4-목차와-로그로-다시-찾기">4. 목차와 로그로 다시 찾기</a></li><li class="toc-level-3"><a href="#5-가상-조건을-넣고-여러-쪽-갱신하기">5. 가상 조건을 넣고 여러 쪽 갱신하기</a></li><li class="toc-level-3"><a href="#6-더-구체적인-후속-질문에-답하고-저장하기">6. 더 구체적인 후속 질문에 답하고 저장하기</a></li><li class="toc-level-3"><a href="#7-낡은-계획과-빠진-연결-점검하기">7. 낡은 계획과 빠진 연결 점검하기</a></li><li class="toc-level-3"><a href="#8-실제-진행안-한-쪽과-검토-기록-만들기">8. 실제 진행안 한 쪽과 검토 기록 만들기</a></li><li class="toc-level-3"><a href="#기본-실습을-마칠-때">기본 실습을 마칠 때</a></li><li class="toc-level-2"><a href="#구판-팩과-정밀-교정의-관계">구판 팩과 정밀 교정의 관계</a></li><li class="toc-level-2"><a href="#기술-스터디-심화-주장근거파일-교정">기술 스터디 심화: 주장·근거·파일 교정</a></li><li class="toc-level-2"><a href="#1-원문을-찾을-수-있는-읽기-메모-만들기">1. 원문을 찾을 수 있는 읽기 메모 만들기</a></li><li class="toc-level-3"><a href="#입력">입력</a></li><li class="toc-level-3"><a href="#진행">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#2-주장-두-개와-비교-한-개-만들기">2. 주장 두 개와 비교 한 개 만들기</a></li><li class="toc-level-3"><a href="#진행-2">진행</a></li><li class="toc-level-3"><a href="#예시-답과-해설">예시 답과 해설</a></li><li class="toc-level-2"><a href="#3-질문에-답하고-유용한-결과를-다시-저장하기">3. 질문에 답하고 유용한 결과를 다시 저장하기</a></li><li class="toc-level-3"><a href="#입력-질문">입력 질문</a></li><li class="toc-level-3"><a href="#진행-3">진행</a></li><li class="toc-level-3"><a href="#예시-답과-해설-2">예시 답과 해설</a></li><li class="toc-level-2"><a href="#4-새로-읽은-근거로-잘못된-표현-고치기">4. 새로 읽은 근거로 잘못된 표현 고치기</a></li><li class="toc-level-3"><a href="#입력-검토할-잘못된-초안">입력: 검토할 잘못된 초안</a></li><li class="toc-level-3"><a href="#진행-4">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설-2">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#5-결정indexlog로-순환-닫기">5. 결정·index·log로 순환 닫기</a></li><li class="toc-level-3"><a href="#진행-5">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설-3">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#6-잘못된-예를-고쳐보는-최종-점검">6. 잘못된 예를 고쳐보는 최종 점검</a></li><li class="toc-level-2"><a href="#추가-도전-a-링크가-있으면-충분한가">추가 도전 A. 링크가 있으면 충분한가</a></li><li class="toc-level-2"><a href="#추가-도전-b-결정이-바뀌었을-때-이력-남기기">추가 도전 B. 결정이 바뀌었을 때 이력 남기기</a></li><li class="toc-level-2"><a href="#실습을-마친-뒤">실습을 마친 뒤</a></li></ul></nav>
       </div>
     </details>
     <aside class="material-sidebar">
-      <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">40장 대본 · 본질과 세 사례의 20분 진행</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html" class="is-current" aria-current="page">작은 LLM Wiki 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li></ul></nav>
-      <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#기본-실습-내-자료에서-작은-순환-만들기">기본 실습: 내 자료에서 작은 순환 만들기</a></li><li class="toc-level-3"><a href="#1-사례-하나와-질문-하나-고르기">1. 사례 하나와 질문 하나 고르기</a></li><li class="toc-level-3"><a href="#2-입력과-이전-위키를-나누기">2. 입력과 이전 위키를 나누기</a></li><li class="toc-level-3"><a href="#3-새-입력을-관련-여러-페이지에-반영하기">3. 새 입력을 관련 여러 페이지에 반영하기</a></li><li class="toc-level-3"><a href="#4-다음-질문의-답을-실제-페이지로-남기기">4. 다음 질문의 답을 실제 페이지로 남기기</a></li><li class="toc-level-3"><a href="#5-작은-점검과-해설">5. 작은 점검과 해설</a></li><li class="toc-level-2"><a href="#기술-스터디-심화-주장근거파일-교정">기술 스터디 심화: 주장·근거·파일 교정</a></li><li class="toc-level-2"><a href="#1-원문을-찾을-수-있는-읽기-메모-만들기">1. 원문을 찾을 수 있는 읽기 메모 만들기</a></li><li class="toc-level-3"><a href="#입력">입력</a></li><li class="toc-level-3"><a href="#진행">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#2-주장-두-개와-비교-한-개-만들기">2. 주장 두 개와 비교 한 개 만들기</a></li><li class="toc-level-3"><a href="#진행-2">진행</a></li><li class="toc-level-3"><a href="#예시-답과-해설">예시 답과 해설</a></li><li class="toc-level-2"><a href="#3-질문에-답하고-유용한-결과를-다시-저장하기">3. 질문에 답하고 유용한 결과를 다시 저장하기</a></li><li class="toc-level-3"><a href="#입력-질문">입력 질문</a></li><li class="toc-level-3"><a href="#진행-3">진행</a></li><li class="toc-level-3"><a href="#예시-답과-해설-2">예시 답과 해설</a></li><li class="toc-level-2"><a href="#4-새로-읽은-근거로-잘못된-표현-고치기">4. 새로 읽은 근거로 잘못된 표현 고치기</a></li><li class="toc-level-3"><a href="#입력-검토할-잘못된-초안">입력: 검토할 잘못된 초안</a></li><li class="toc-level-3"><a href="#진행-4">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설-2">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#5-결정indexlog로-순환-닫기">5. 결정·index·log로 순환 닫기</a></li><li class="toc-level-3"><a href="#진행-5">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설-3">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#6-잘못된-예를-고쳐보는-최종-점검">6. 잘못된 예를 고쳐보는 최종 점검</a></li><li class="toc-level-2"><a href="#추가-도전-a-링크가-있으면-충분한가">추가 도전 A. 링크가 있으면 충분한가</a></li><li class="toc-level-2"><a href="#추가-도전-b-결정이-바뀌었을-때-이력-남기기">추가 도전 B. 결정이 바뀌었을 때 이력 남기기</a></li><li class="toc-level-2"><a href="#실습을-마친-뒤">실습을 마친 뒤</a></li></ul></nav>
+      <nav class="material-doc-nav" aria-label="자료 목록"><ul><li><a href="index.html">LLM Wiki 학습 자료</a></li><li><a href="study-guide.html">LLM Wiki 혼자 공부하기</a></li><li><a href="speaker-script.html">48장 대본 · 본편 35분과 Q&amp;A 5분</a></li><li><a href="reference-library.html">원문 읽기 안내와 용어 모음</a></li><li><a href="workshop.html" class="is-current" aria-current="page">작은 LLM Wiki 만들기</a></li><li><a href="demo-log.html">실제 파일 읽기와 교정 실행 기록</a></li><li><a href="session-plan.html">입문자와 함께 읽는 15분 LLM Wiki 활동</a></li></ul></nav>
+      <nav class="material-toc" aria-label="이 문서의 목차"><h2>이 문서에서</h2><ul><li class="toc-level-2"><a href="#기본-실습-세-영상에서-다음-스터디로">기본 실습: 세 영상에서 다음 스터디로</a></li><li class="toc-level-3"><a href="#1-목적과-첫-질문-정하기">1. 목적과 첫 질문 정하기</a></li><li class="toc-level-3"><a href="#2-원자료-세-개와-규칙-준비하기">2. 원자료 세 개와 규칙 준비하기</a></li><li class="toc-level-3"><a href="#3-요약개념비교현재-계획-연결하기">3. 요약·개념·비교·현재 계획 연결하기</a></li><li class="toc-level-3"><a href="#4-목차와-로그로-다시-찾기">4. 목차와 로그로 다시 찾기</a></li><li class="toc-level-3"><a href="#5-가상-조건을-넣고-여러-쪽-갱신하기">5. 가상 조건을 넣고 여러 쪽 갱신하기</a></li><li class="toc-level-3"><a href="#6-더-구체적인-후속-질문에-답하고-저장하기">6. 더 구체적인 후속 질문에 답하고 저장하기</a></li><li class="toc-level-3"><a href="#7-낡은-계획과-빠진-연결-점검하기">7. 낡은 계획과 빠진 연결 점검하기</a></li><li class="toc-level-3"><a href="#8-실제-진행안-한-쪽과-검토-기록-만들기">8. 실제 진행안 한 쪽과 검토 기록 만들기</a></li><li class="toc-level-3"><a href="#기본-실습을-마칠-때">기본 실습을 마칠 때</a></li><li class="toc-level-2"><a href="#구판-팩과-정밀-교정의-관계">구판 팩과 정밀 교정의 관계</a></li><li class="toc-level-2"><a href="#기술-스터디-심화-주장근거파일-교정">기술 스터디 심화: 주장·근거·파일 교정</a></li><li class="toc-level-2"><a href="#1-원문을-찾을-수-있는-읽기-메모-만들기">1. 원문을 찾을 수 있는 읽기 메모 만들기</a></li><li class="toc-level-3"><a href="#입력">입력</a></li><li class="toc-level-3"><a href="#진행">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#2-주장-두-개와-비교-한-개-만들기">2. 주장 두 개와 비교 한 개 만들기</a></li><li class="toc-level-3"><a href="#진행-2">진행</a></li><li class="toc-level-3"><a href="#예시-답과-해설">예시 답과 해설</a></li><li class="toc-level-2"><a href="#3-질문에-답하고-유용한-결과를-다시-저장하기">3. 질문에 답하고 유용한 결과를 다시 저장하기</a></li><li class="toc-level-3"><a href="#입력-질문">입력 질문</a></li><li class="toc-level-3"><a href="#진행-3">진행</a></li><li class="toc-level-3"><a href="#예시-답과-해설-2">예시 답과 해설</a></li><li class="toc-level-2"><a href="#4-새로-읽은-근거로-잘못된-표현-고치기">4. 새로 읽은 근거로 잘못된 표현 고치기</a></li><li class="toc-level-3"><a href="#입력-검토할-잘못된-초안">입력: 검토할 잘못된 초안</a></li><li class="toc-level-3"><a href="#진행-4">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설-2">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#5-결정indexlog로-순환-닫기">5. 결정·index·log로 순환 닫기</a></li><li class="toc-level-3"><a href="#진행-5">진행</a></li><li class="toc-level-3"><a href="#기대-결과와-해설-3">기대 결과와 해설</a></li><li class="toc-level-2"><a href="#6-잘못된-예를-고쳐보는-최종-점검">6. 잘못된 예를 고쳐보는 최종 점검</a></li><li class="toc-level-2"><a href="#추가-도전-a-링크가-있으면-충분한가">추가 도전 A. 링크가 있으면 충분한가</a></li><li class="toc-level-2"><a href="#추가-도전-b-결정이-바뀌었을-때-이력-남기기">추가 도전 B. 결정이 바뀌었을 때 이력 남기기</a></li><li class="toc-level-2"><a href="#실습을-마친-뒤">실습을 마친 뒤</a></li></ul></nav>
     </aside>
     <article class="material-article" id="material-content">
-      <header class="material-intro"><p class="material-eyebrow">다음 질문에 다시 쓰는 LLM Wiki</p><h1 id="작은-llm-wiki-만들기">작은 LLM Wiki 만들기</h1><p>입력·여러 페이지 갱신·질문 답 저장·새 자료 재갱신을 연습하고 정밀 교정 심화로 이어가는 실습</p></header>
-      <div class="material-content"><p><a href="../read.html#24">발표24장</a>에서 적은 질문 한 줄을 가져오세요. 기본 실습은15~20분의 계획이며 실제 소요를 측정하지 않았습니다. RAG·LoRA의 정밀 교정 실습은 아래의 <strong>별도20~30분 심화</strong>입니다. 모두 끝내야 참여한 것으로 보지 않습니다.</p>
-<h2 id="기본-실습-내-자료에서-작은-순환-만들기">기본 실습: 내 자료에서 작은 순환 만들기</h2>
-<p>목표는 파일 수가 아니라 <strong>입력→관련 여러 페이지 작성·갱신→후속 질문에서 읽기→유용한 답 저장→새 자료 재갱신</strong>을 설명하는 것입니다. 파일 읽기/쓰기 도구가 있는 LLM 에이전트가 입력과 위키를 현재 문맥에 읽고 작성하도록 할 수 있습니다. 직접 편집하거나 종이로 설계해도 됩니다. 어느 방식을 썼는지 결과에 남기며, 제공된 문장을 모델의 실제 수행 결과로 표시하지 않습니다.</p>
-<h3 id="1-사례-하나와-질문-하나-고르기">1. 사례 하나와 질문 하나 고르기</h3>
-<div class="material-table-scroll" tabindex="0" role="region" aria-label="표 가로 스크롤"><table>
-<thead>
-<tr>
-<th>선택</th>
-<th>입력·출력 실물</th>
-<th>이어갈 질문</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>독서</td>
-<td><a href="../assets/c25067e5b335-reading.txt">장 메모/인물/주제/답 txt</a></td>
-<td>왜 배신으로만 볼 수 없을까?</td>
-</tr>
-<tr>
-<td>팀</td>
-<td><a href="../assets/b9b79ffd8cd0-team.txt">상담/회의/요구 비교/답 txt</a></td>
-<td>고객 B에게 지금 무엇을 말할까?</td>
-</tr>
-<tr>
-<td>강의</td>
-<td><a href="../assets/7f02c1c31f4c-course.txt">단원 메모/개념/종합 txt</a></td>
-<td>무엇이 같고 다른가?</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>세 자료는 모두 가상 구성 예입니다. 자기 자료로 옮길 때는 접근 가능한 입력과 읽은 범위를 정합니다. 실제 자료가 없다면 한 예를 골라 아래 팀 사례처럼 흐름을 연습하세요. 전체 세 사례 해설은 <a href="study-guide.html#%EC%84%B8-%EA%B0%80%EC%A7%80-%EC%A0%81%EC%9A%A9-%EC%98%88">학습 가이드</a>에 있습니다.</p>
-<h3 id="2-입력과-이전-위키를-나누기">2. 입력과 이전 위키를 나누기</h3>
-<p>아래는 가상 팀 사례의 실제 연습 문장입니다.</p>
-<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># raw/call-a.md
-월말 정산을 위해 화면에서 CSV를 수동 다운로드하고 싶다.
-# raw/call-b.md
-매일 대시보드를 갱신하려고 CSV를 자동으로 받고 싶다.
+      <header class="material-intro"><p class="material-eyebrow">LLM Wiki · 자료가 지식으로 쌓이는 방식</p><h1 id="작은-llm-wiki-만들기">작은 LLM Wiki 만들기</h1><p>실제 세 영상에서 개념·비교·계획을 만들고 새 조건·후속 질문으로 갱신하는 실습</p></header>
+      <div class="material-content"><p><a href="../read.html#45">발표 45장</a>에서 적은 질문 한 줄을 가져오세요. 본편 35분·Q&amp;A 5분과 별도의 실습입니다. 파일을 직접 만드는 기본 실습은 20~30분을 예상합니다. 준비된 예제 문서를 따라 읽는 미니 실습은 15분으로 배분할 수 있습니다. 실제 소요를 측정한 값은 아닙니다.</p>
+<h2 id="기본-실습-세-영상에서-다음-스터디로">기본 실습: 세 영상에서 다음 스터디로</h2>
+<p>목표는 <strong>목적→자료 반영→연결된 개념·비교·계획→새 조건의 다중 갱신→후속 질문→답 저장→점검</strong>을 따라가는 것입니다. <a href="../assets/dacfb05fd38c-expanded-study.txt">새 복사용 팩</a>에 입력·규칙·위키 기대 모양이 모두 있습니다.</p>
+<p>세 영상은 실제 공개 자료입니다. 팩의 읽기 메모는 발표팀의 자가 요약이고, 위키 문장과 다음 모임 조건은 설명용 구성 예입니다. 이 파일을 받았다고 LLM 실행이나 문서 생성이 자동으로 수행되지는 않습니다.</p>
+<h3 id="1-목적과-첫-질문-정하기">1. 목적과 첫 질문 정하기</h3>
+<p>예제의 질문은 ‘다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?’입니다. 목적은 LLM Wiki의 특징·RAG와의 관계·첫 시도를 설명하는 것입니다. 자기 자료가 있다면 질문과 목적부터 바꾸세요.</p>
+<p>무엇을 읽고 어떤 결과에 쓸지 함께 알려줍니다. 첫날부터 모든 개인 자료를 넣거나 완성된 분류체계를 만들 필요는 없습니다.</p>
+<h3 id="2-원자료-세-개와-규칙-준비하기">2. 원자료 세 개와 규칙 준비하기</h3>
+<p>파일을 읽고 쓸 수 있는 빈 폴더에 팩의 아래 네 구간을 각 파일로 복사합니다. 아직 가상 조건 메모는 넣지 않습니다.</p>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-text">my-study/
+  rules.md
+  raw/brian-video.md
+  raw/yongdam-video.md
+  raw/seminar-video.md
+  wiki/
 </code></pre>
-<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># wiki/concepts/export.md — 이전
-A는 월말 수동 다운로드, B는 일별 자동 수집을 요청했다.
-출력 형식은 같지만 목적·주기·자동화 범위는 다르다.
-우선순위와 출시일은 미정이다.
-근거: raw/call-a.md, raw/call-b.md
-연결: comparisons/export-requests.md
+<p>세 메모에서 영상 발언 요지·우리 해석·기술적 교정이 어떻게 나뉘는지 확인합니다. 규칙에는 raw 보존, 관련 페이지 갱신, 근거와 미확인 사항, 질문에서의 재읽기를 넣습니다. 사용하는 에이전트에 <code>rules.md</code>를 명시적으로 읽게 합니다.</p>
+<h3 id="3-요약개념비교현재-계획-연결하기">3. 요약·개념·비교·현재 계획 연결하기</h3>
+<p><a href="../read.html#46">발표 46장</a>의 첫 요청을 실제 파일 경로로 풀면 다음과 같습니다.</p>
+<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-text">rules.md와 raw/brian-video.md, raw/yongdam-video.md, raw/seminar-video.md를 읽어 주세요.
+목적은 다음 AI 스터디에서 LLM Wiki의 특징·RAG와의 관계·첫 시도를 설명하는 것입니다.
+자료별 요약, LLM Wiki/검색 개념, 같은 질문의 비교, 현재 스터디 계획을 연결해 주세요.
+원문 요지·우리 해석·가상 조건을 구분하고, 근거와 아직 확인할 질문을 남겨 주세요.
+원자료는 보존하고 관련 기존 페이지·index/log를 검토한 뒤 바뀐 파일과 이유를 알려 주세요.
 </code></pre>
-<p>연습: 입력의 사실과 위키의 비교를 다른 색으로 표시하세요. LLM에게 맡긴다면 자료 요약·내보내기 개념·요구 비교를 함께 쓰고 근거를 연결하게 합니다. 모든 상담을 같은 요청 한 줄로 합치지 않았는지 확인합니다.</p>
-<h3 id="3-새-입력을-관련-여러-페이지에-반영하기">3. 새 입력을 관련 여러 페이지에 반영하기</h3>
-<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># raw/planning-meeting.md — 새 입력
-이번 분기는 수동 CSV의 범위를 검토한다.
-예약 전송은 운영 비용 검토가 남아 보류한다. 출시일은 미확정이다.
-</code></pre>
-<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># wiki/concepts/export.md — 갱신 후
-A와 B의 요청은 별도 요구로 보존한다.
-수동 CSV는 범위 검토 중이고 예약 전송은 보류 중이다.
-어느 기능도 이 자료만으로 출시일을 약속할 수 없다.
-근거: raw/call-a.md, raw/call-b.md, raw/planning-meeting.md
-연결: comparisons/export-requests.md, questions/what-to-tell-b.md
-</code></pre>
-<p>연습: source 요약, 내보내기 개념, 요구 비교의 상태, FAQ, index/log 가운데 무엇을 왜 고칠지 적으세요. 입력과 관련 없는 페이지까지 억지로 바꿀 필요는 없습니다. 회의의 우선순위를 고객 요구 자체의 삭제로 바꾸지 않습니다.</p>
-<h3 id="4-다음-질문의-답을-실제-페이지로-남기기">4. 다음 질문의 답을 실제 페이지로 남기기</h3>
-<pre tabindex="0" role="region" aria-label="코드 가로 스크롤"><code class="language-markdown"># wiki/questions/what-to-tell-b.md
-B의 일별 자동 수집 요구는 접수되어 있다.
-예약 전송은 운영 비용 검토가 남아 보류 중이다. 출시일은 미확정이다.
-다음 확인: 일별 수동 다운로드도 B의 업무를 해결하는가?
-근거: raw/call-b.md, raw/planning-meeting.md
-연결: concepts/export.md, comparisons/export-requests.md
-</code></pre>
-<p>연습: 답을 쓰기 전에 어떤 파일을 실제로 읽었는지 적으세요. 답을 내보내기 개념·비교와 연결해 다음 질문에서 찾을 수 있게 합니다. B의 후속 상담이 오면 비교와 이 답의 어느 문장을 다시 볼지 표시합니다. 이 codeblock은 가상 응대 초안이며 실제 고객에게 발송한 기록이 아닙니다.</p>
-<h3 id="5-작은-점검과-해설">5. 작은 점검과 해설</h3>
-<p>다음을 한두 문장으로 확인하면 기본 실습을 마칠 수 있습니다.</p>
+<p>기대 모양은 <code>wiki/sources/</code>의 자료 요약, <code>concepts/llm-wiki.md</code>와 <code>retrieval.md</code>, <code>comparisons/rag-vs-wiki.md</code>, <code>syntheses/study-plan.md</code>입니다. 같은 이름의 파일 개수보다 각 문서가 어떤 질문에 답하고 어떻게 연결되는지 봅니다. AI 없이 직접 편집해도 되며 실제 사용한 방식을 남깁니다.</p>
+<p>해설: 자료 요약은 해당 영상의 위치·주제를 알려줍니다. 개념·비교는 여러 자료의 관계를 남기고, 계획은 우리 목적에 맞춘 현재 선택을 정리합니다. 원문 발언을 그대로 보편 규격으로 받아쓰지 않습니다. 팩의 기대 문장이 실제 출력과 같다고 가정하지 말고 원문 위치·범위와 대조하세요.</p>
+<h3 id="4-목차와-로그로-다시-찾기">4. 목차와 로그로 다시 찾기</h3>
+<p><code>wiki/index.md</code>에 페이지 링크와 한 줄 요약을, <code>wiki/log.md</code>에는 실제 작업 날짜와 무엇을 왜 바꿨는지 남깁니다. 목차에서 개념→비교→현재 계획으로 들어가 보세요. 자료별 요약이나 원자료로 돌아갈 길도 확인합니다.</p>
+<p>해설: 그래프는 문서 연결을 볼 수 있는 방법이고 목차는 읽을 입구입니다. 정리 규칙은 무엇을 어떻게 연결할지의 기준입니다. 셋을 하나의 기능이나 형식 온톨로지 구현으로 동일시하지 않습니다.</p>
+<h3 id="5-가상-조건을-넣고-여러-쪽-갱신하기">5. 가상 조건을 넣고 여러 쪽 갱신하기</h3>
+<p>이제 <code>raw/study-retro.md</code>를 추가합니다. <strong>실제 운영 실적이 아닌 가상 조건</strong>으로, 입문자와 준비된 세 메모 중 두 개를 골라 읽으며 별도 실습은 15분이라고 가정합니다. 새 조건과 기존 위키를 함께 읽게 합니다.</p>
 <ul>
-<li>원자료와 LLM/사람이 쓴 설명은 어디서 구분하는가?</li>
-<li>새 입력 때문에 기존 페이지 두 곳 이상에서 무엇이 달라졌는가?</li>
-<li>다음 질문이 어느 파일을 찾아 현재 문맥에 읽는가?</li>
-<li>유용한 답을 어느 페이지에 저장하고 다시 연결했는가?</li>
-<li>아직 모르는 내용과 새 자료가 오면 다시 볼 곳은 무엇인가?</li>
+<li>개념: 보편 정의는 유지하고 ‘우리 적용 범위’를 보완합니다.</li>
+<li>비교: 입문자와 짧은 실습에 맞는 ‘우리 선택 기준’을 보완합니다.</li>
+<li>계획: 목차·연결 읽기→근거 찾기→질문 답 저장을 우선합니다.</li>
+<li>목차·로그: 바뀐 입구와 이유를 남기고 관련 질문도 검토합니다.</li>
 </ul>
-<p>해설: 팀 사례에서는 출력 형식만 같다고 두 요구를 합치지 않고, 회의 뒤 상태와 응대 범위를 함께 바꿉니다. 독서는 인물의 말·서술 사실·독자의 해석을 나눕니다. 강의는 공유 개념에 새 기준을 연결하고 적용 범위를 넓히되 모든 트리로 일반화하지 않습니다. 이 경계가 유지되는지 source와 위키를 함께 읽습니다. 링크 검사 통과가 의미 검토를 대신하지 않습니다.</p>
+<p>해설: 사람의 조건이 바뀌었다고 일반 개념을 뒤집지 않습니다. 같은 입력이 서로 다른 역할의 페이지에 어떤 변화를 주는지 전후 문장을 나란히 읽어 보세요. 무관한 파일까지 억지로 고칠 필요는 없습니다.</p>
+<h3 id="6-더-구체적인-후속-질문에-답하고-저장하기">6. 더 구체적인 후속 질문에 답하고 저장하기</h3>
+<p>‘입문자와 15분 활동은 무엇부터 할까?’라고 묻습니다. 답하기 전에 목차에서 적용 범위·비교·갱신한 계획을 <strong>실제로 찾아 읽게</strong> 합니다. 읽은 파일과 근거, 아직 확인하지 못한 점을 함께 요청하세요.</p>
+<p>검토한 뒤 유용한 답을 <code>wiki/questions/first-study.md</code>에 남기고 목차·계획·개념에서 연결합니다. 예제 답은 도구 설치보다 관계를 따라 읽고 근거를 찾는 작은 실습부터 하자는 것입니다. 이 선택을 모든 위키가 검색 없이 충분하다는 결론으로 넓히지 않습니다.</p>
+<p>해설: 파일이 있다는 사실과 이번 답에서 읽혔다는 사실은 다릅니다. 이전에 쓴 비교와 갱신한 계획이 새 질문에 어떻게 쓰였는지 확인하는 단계입니다.</p>
+<h3 id="7-낡은-계획과-빠진-연결-점검하기">7. 낡은 계획과 빠진 연결 점검하기</h3>
+<p>가상 조건 이전의 계획이 아직 현행 답처럼 남아 있는지, 새 질문이 목차에서 빠지지 않았는지 살펴보게 합니다. 근거를 다시 읽고 수정한 다음 실제 달라진 문장·연결과 이유를 확인합니다.</p>
+<p>링크 검사만 통과하고 설명의 적용 범위는 틀릴 수 있습니다. 점검 결과를 의미 검토와 구분하고 중요한 판단은 사람이 확인합니다. 원자료·현재 설명·이력은 서로 구별해 보존합니다.</p>
+<h3 id="8-실제-진행안-한-쪽과-검토-기록-만들기">8. 실제 진행안 한 쪽과 검토 기록 만들기</h3>
+<p>갱신한 계획과 질문 답을 다시 읽고 <a href="session-plan.html">15분 진행안</a>처럼 쓸 결과를 만듭니다. 팩에는 <code>wiki/outputs/study-session-plan.md</code>와 <code>wiki/reviews/study-session-plan.md</code>가 있습니다. 결과·선택 이유·다음 질문을 목차와 로그에 연결합니다.</p>
+<p>전체 위키는 세 메모를 읽었고, 이 미니 활동은 <code>brian-video.md</code>(목적·연결)와 <code>seminar-video.md</code>(사람 입력·산출물·검토)를 선택합니다. <strong>목적 2분 → 선택 메모 읽기 4분 → 관계/근거 확인 5분 → 후속 질문·남은 확인 4분</strong>입니다. 설치·새 시스템·모델 생성까지 15분 안에 끝내는 약속이 아닙니다.</p>
+<p>검토할 항목은 합계 15분, 선택한 메모 이름과 이유, 원문 위치, 원문/직접 기록/생성 종합의 구분, 링크입니다. 수행하지 않은 모임·사람의 이해·학습효과는 완료로 적지 않습니다. 다음에는 ‘30분이라면 무엇을 더 읽고 확인할까?’에서 이번 결과와 이유를 재사용합니다.</p>
+<h3 id="기본-실습을-마칠-때">기본 실습을 마칠 때</h3>
+<ol>
+<li>원자료·해석·가상 조건을 구분했는가?</li>
+<li>자료별 요약 외에 연결된 개념·비교·현재 계획이 남았는가?</li>
+<li>새 조건이 기존 여러 쪽에 서로 다른 방식으로 반영됐는가?</li>
+<li>후속 질문에서 필요한 파일을 실제로 읽었는가?</li>
+<li>유용한 답을 다시 연결하고 낡은 문장 한 곳을 고쳤는가?</li>
+</ol>
+<p>애매한 곳 하나를 고치고 자기 자료로 다시 시도하면 됩니다. <a href="study-guide.html">학습 가이드</a>에서 전체 순환과 RAG 비교를 다시 볼 수 있습니다.</p>
+<h2 id="구판-팩과-정밀-교정의-관계">구판 팩과 정밀 교정의 관계</h2>
+<p><a href="../assets/a8ccde64c535-rebuild-study.txt">이전 RAG·LoRA 팩</a>은 문서 갱신과 모델 학습을 구분하는 부록입니다. 새 세 영상 예제와 파일 경로·질문이 다릅니다. 아래 심화는 그 기술 원문을 더 정밀하게 읽는 별도 연습이며 기본 실습을 모두 끝낸 뒤 반드시 해야 하는 단계는 아닙니다.</p>
 <h2 id="기술-스터디-심화-주장근거파일-교정">기술 스터디 심화: 주장·근거·파일 교정</h2>
 <p>이하20~30분은 별도 계획입니다. RAG·LoRA의 원문, 가상 읽기 메모, 질문·결정·날짜를 구별하며 실제 지원 범위를 대조합니다. codeblock은 직접 만들 가상 위키 경로입니다. AI는 선택 사항이며 직접 작성도 가능합니다. 이 수동 검토 흐름은 LLM Wiki의 필수 정의가 아닙니다.</p>
 <p><a href="../assets/9c0a83b5bf0a-llm-wiki-demo.zip">고정 데모 ZIP</a>은 사람의 승인안을 Node로 적용·검사한 보조 실습입니다. 실제 모델 호출이나 자동 의미 검증이 아닙니다. <a href="demo-log.html">실행 기록</a>과 범위를 확인하세요.</p>
@@ -384,10 +366,10 @@ RAG는 검색 자료를 사용하므로 우리 스터디의 답을 항상 정확
 - 재검토: 시험 질문에서 필요한 근거를 찾았는지 검토한다.
 </code></pre>
 <p>이 경우 X-D1 전체를 무조건 <code>superseded</code>로 바꾸면 관계를 잘못 기록할 수 있습니다. 질문 답을 파일에 남기는 선택은 유지하면서 검색을 보완하기 때문입니다. 정말로 이전 선택을 폐기하는 경우에만 대체 관계를 분명히 적고, 유지되는 부분과 바뀐 부분을 설명합니다.</p>
-<p>짧은 일정 예로도 연습할 수 있습니다. <strong>가상 공지</strong> 1판은 11월 5일 오후 8시, 2판은 같은 날짜를 오후 8시 30분으로 변경한다고 명시합니다. 이때 현행 안내 결정을 바꾼다면 이전 결정을 <code>superseded by 새 결정</code>으로 연결할 수 있습니다. 다른 모임의 시각까지 바꾸는 근거는 되지 않습니다. <a href="study-guide.html#19-%EB%B3%B4%EC%A1%B0-%EC%82%AC%EB%A1%80%EB%A1%9C-%EB%B2%94%EC%9C%84%EB%A5%BC-%ED%95%9C-%EB%B2%88-%EB%8D%94-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0">스터디 가이드의 범위 설명</a></p>
+<p>짧은 일정 예로도 연습할 수 있습니다. <strong>가상 공지</strong> 1판은 11월 5일 오후 8시, 2판은 같은 날짜를 오후 8시 30분으로 변경한다고 명시합니다. 이때 현행 안내 결정을 바꾼다면 이전 결정을 <code>superseded by 새 결정</code>으로 연결할 수 있습니다. 다른 모임의 시각까지 바꾸는 근거는 되지 않습니다. <a href="study-guide.html#%EA%B5%AC%ED%8C%90-%EB%B6%80%EB%A1%9D%EA%B3%BC-%EB%8D%94-%EA%B9%8A%EA%B2%8C-%EC%9D%BD%EA%B8%B0">구판 부록과 더 깊게 읽기</a></p>
 <h2 id="실습을-마친-뒤">실습을 마친 뒤</h2>
 <p>완성한 위키에서 가장 유용한 것은 어떤 문장이었나요? 원문을 다시 찾는 위치, 잘못된 일반화를 고친 diff, 다음 질문, 결정의 이유 중 하나를 골라 말해보세요. 다음에는 자신의 실제 질문 한 개로 같은 과정을 반복합니다. 자료를 더 넣기 전에 기존 답을 재사용할 수 있는지 읽어보고, 필요한 부분만 새로 검토해보세요.</p>
-<p><a href="study-guide.html">스터디 가이드로 돌아가기</a> · <a href="reference-library.html">원문 읽기 안내</a> · <a href="../read.html#35">발표35장 · 실제 diff로 돌아가기</a></p>
+<p><a href="study-guide.html">스터디 가이드로 돌아가기</a> · <a href="reference-library.html">원문 읽기 안내</a> · <a href="demo-log.html#4-%EC%8B%A4%EC%A0%9C-diff%EC%97%90%EC%84%9C-%EB%8B%AC%EB%9D%BC%EC%A7%84-%EB%AC%B8%EC%9E%A5">고정 교정의 실제 diff 읽기</a></p>
 </div>
       <footer class="material-footer"><a href="index.html">자료 모음으로</a> · <a href="../index.html">발표로 돌아가기</a></footer>
     </article>

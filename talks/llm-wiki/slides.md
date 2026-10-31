@@ -1,317 +1,138 @@
 ---
-title: 다음 질문에 다시 쓰는 LLM Wiki
+title: LLM Wiki · 자료가 지식으로 쌓이는 방식
+theme: paper
 ---
 
 <!-- stage-slide
-compose: media
-tone: blue
-fit: cover
-focus: '50% 75%'
+compose: message
+tone: green
 -->
-# 읽은 자료의 관계를 다음 질문에도 쓸 수 있을까
+# LLM Wiki
 
-![창가 책상에 펼친 책과 공책, 펜이 놓여 있다.](./assets/photos/open-books.jpg)
+**자료가 지식으로, 지식이 결과물로**
 
-자료를 함께 읽으며 얻은 **개념과 비교**를 남겨 봅시다.
+세 영상의 읽기 메모에서 다음 스터디의 한 쪽 진행안까지
 
 ---
 
 <!-- stage-slide
 compose: quote
-tone: blue
+tone: green
 -->
-# LLM이 쓰고 계속 갱신하는 지식 위키
+# 어제 읽은 내용을 오늘도 다시 찾고 있나요?
 
-> LLM이 원자료 사이의 개념·비교·연결을 Markdown 위키로 작성하고 계속 갱신해, 다음 질문이 이전 정리에서 출발하도록 하는 지식관리 방식입니다.
+> “지난번에 읽었던 그 내용,
+> **다음 질문에서도 다시 쓸 수 있을까요?**”
 
-**개념 · 비교 · 종합**이 연결된 채 남습니다.
+링크는 남았지만, 그때 이해한 관계는 어디에 있을까요?
 
-Karpathy의 설계 아이디어를 발표팀이 풀어 쓴 정의 · [고정 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a)
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 저장한 자료와 다시 쓸 지식은 다릅니다
+
+![원자료가 자료별 요약·주제별 개념·비교와 종합으로 이어져 다시 읽는 지식층이 되는 구성 예.](./assets/expanded/knowledge-layers.svg)
+
+**수집한 자료** 사이에, **다시 읽을 개념·비교·종합**을 남깁니다.
+
+---
+
+<!-- stage-slide
+compose: quote
+tone: orange
+-->
+# 좋은 답에는 나의 맥락도 필요합니다
+
+> **어떤 결과를 만들고 싶은가요?**
+
+우리 목적: 다음 AI 스터디의 한 쪽 진행안 만들기
 
 ---
 
 <!-- stage-slide
 compose: editorial
-tone: orange
--->
-# 같은 자료를 매번 다시 엮고 있다면
-
-<!-- stage-group
-tone: orange
--->
-## 이번 질문
-
-**CSV 요청**을 함께 읽는다.
-
-월말 수동 · 일별 자동의 조건을 비교한다.
-
-<!-- stage-group
-tone: purple
--->
-## 다음 질문
-
-이전 비교가 정리되어 있지 않으면,
-
-자료의 관계를 다시 찾아 엮는다.
-
-그 **관계와 잠정 종합을 남겨 갱신**하려는 설계입니다.
-
----
-
-<!-- stage-slide
-compose: media
-tone: green
-fit: contain
--->
-# 답만 남기는 대신 개념과 비교를 남긴다
-
-![원자료를 읽은 LLM이 자료 요약과 기존 개념·비교·종합을 작성하고, 질문에서 위키를 다시 읽어 얻은 유용한 답을 저장한다. 작업 규칙은 전체 작업을 안내한다.](./assets/wiki-maintenance-loop.svg)
-
-**LLM이 여러 자료의 개념·비교·종합을 작성하고 갱신합니다.** [그림 원본](./assets/wiki-maintenance-loop.svg)
-
----
-
-<!-- stage-slide
-compose: bento
-tone: blue
--->
-# LLM은 위키를 쓰고 사람은 탐색을 이끈다
-
-<!-- stage-group
-tone: purple
--->
-## LLM 에이전트
-
-파일을 현재 문맥에 읽고 Markdown 작성
-
-요약 · 관련 페이지 갱신
-
-연결 · 답 저장 · 점검
-
-<!-- stage-group
 tone: green
 -->
-## 사람
+# 파일을 읽고 쓰는 에이전트가 등장했습니다
 
-자료 · 범위 · 질문 선택
+## 파일을 다루는 에이전트
 
-분석 방향 · 결과 확인
+자료를 **읽고 쓰고 고칠** 수 있습니다.
 
-<!-- stage-group
-tone: blue
--->
-## 읽는 도구
+## 다시 쓸 지식층
 
-페이지와 링크 탐색
+이전 이해를 **문서로 유지**할 수 있습니다.
 
-Obsidian 등에서 읽기
+[설계 원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a)
 
 ---
 
 <!-- stage-slide
-compose: media
-tone: blue
-fit: contain
--->
-# 원자료와 위키 그리고 작업 규칙
-
-![보존하는 원자료 raw와 LLM이 갱신하는 wiki를 구별한다. schema 작업 규칙은 읽기·쓰기·질문·점검 전체에 적용되며 세 번째 변환 산출물이 아니다.](./assets/wiki-layers.svg)
-
-원자료는 보존 · 위키는 갱신 · 규칙은 전체에 적용. [Architecture](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a#architecture) · [그림 원본](./assets/wiki-layers.svg)
-
----
-
-<!-- stage-slide
-compose: media
-tone: green
-fit: contain
--->
-# 새 자료 한 개가 여러 설명을 바꾼다
-
-![새 자료를 읽어 요약을 만들면서 관련 개념·비교·잠정 종합도 갱신한다. 기존 내용과 대조하고 근거와 아직 확인하지 못한 부분을 남긴다.](./assets/wiki-ingest-update.svg)
-
-**Ingest:** 새 요약과 관련된 기존 페이지를 함께 갱신합니다. [그림 원본](./assets/wiki-ingest-update.svg)
-
----
-
-<!-- stage-slide
-compose: media
-tone: purple
-fit: contain
--->
-# 다음 질문은 저장된 위키를 찾아 읽는다
-
-![index나 검색으로 관련 위키를 찾고 현재 답변의 문맥으로 읽어 답한다. 유용한 새 답은 페이지로 저장하고 관련 위키에 연결한다. 필요한 근거는 원자료로 돌아간다.](./assets/wiki-query-return.svg)
-
-**Query:** 위키를 읽어 답하고 유용한 답을 다시 저장합니다. 파일 갱신과 가중치 학습은 별개입니다. [그림 원본](./assets/wiki-query-return.svg)
-
----
-
-<!-- stage-slide
-compose: bento
-tone: yellow
--->
-# 낡은 설명과 빠진 연결을 점검한다
-
-<!-- stage-group
-tone: orange
--->
-## 낡은 설명 · lint
-
-새 자료가 들어왔는데
-
-옛 상태만 남아 있나?
-
-<!-- stage-group
-tone: purple
--->
-## 다른 조건
-
-두 설명이 충돌하나?
-
-서로 다른 범위인가?
-
-<!-- stage-group
+compose: quote
 tone: green
 -->
-## 빠진 연결
+# LLM이 공동 편집하는 지식 위키
 
-중요한 개념이 빠졌나?
+> LLM이 원자료의 **개념·비교·종합을 연결된 문서로 작성하고 갱신**해,
+> 다음 질문에서 그 정리를 다시 읽는 지식관리 방식입니다.
 
-다시 찾아갈 길이 있나?
-
----
-
-<!-- stage-slide
-compose: media
-tone: purple
-fit: contain
--->
-# 소설을 읽으며 인물과 주제를 쌓는다
-
-![가상 소설 1장까지 읽은 상태다. 서하의 행동과 도윤의 말을 인물·신뢰 주제에 연결하며 서하의 동기는 아직 미확인으로 남긴다.](./assets/case-reading-initial.svg)
-
-가상 소설의 적용 예 · **1장까지의 근거와 미확인**을 함께 남깁니다. [학습서](./materials/study-guide.md#소설-독서) · [입력과 전후 파일](./assets/examples/reading.txt)
+Karpathy의 공개 설계 아이디어를 풀어 쓴 정의
 
 ---
 
 <!-- stage-slide
 compose: editorial
-tone: purple
--->
-# 새 장은 인물의 동기 해석을 바꾼다
-
-가상 소설 · `characters/seoha.md` 구성 파일 발췌
-
-<!-- stage-group
-tone: blue
--->
-## 1장까지
-
-> 서하의 의도는 아직 확인하지 못했다.
-
-<!-- stage-group
-tone: purple
--->
-## 3장까지
-
-> 서하는 동료를 피신시키려 했다고 설명한다.
-
-> 미확인: 서하의 설명 전체와 이후 선택
-
-인물 · 신뢰 주제 · 3장 요약을 함께 갱신합니다.
-
----
-
-<!-- stage-slide
-compose: quote
-tone: purple
--->
-# 다음 질문은 관계와 남은 의문을 다시 쓴다
-
-> 서하의 선택을 왜 배신으로만 볼 수 없을까?
-
-가상 소설 · 저장할 질문 페이지
-
-도윤의 판단과 서하의 자기 설명을 구별해 답하고, **인물·신뢰 페이지에 연결해 저장**합니다.
-
-**다음 질문:** 서하의 이후 행동은 이 설명과 일치할까?
-
-[질문 답의 구성 파일](./assets/examples/reading.txt)
-
----
-
-<!-- stage-slide
-compose: bento
-tone: neutral
--->
-# 같은 CSV 요청으로 묶어도 될까요?
-
-<!-- stage-group
-tone: neutral
--->
-## 고객 A · 가상 상담
-
-월말 정산에 사용
-
-화면에서 CSV 다운로드
-
-회계 담당자에게 전달
-
-<!-- stage-group
-tone: neutral
--->
-## 고객 B · 가상 상담
-
-매일 대시보드 갱신
-
-새벽에 CSV 자동 수신
-
-매일 새 자료를 수집
-
----
-
-<!-- stage-slide
-compose: media
-tone: green
-fit: contain
--->
-# 새 회의가 요구 비교와 현재 상태를 바꾼다
-
-![월말 수동 다운로드와 일별 자동 수집 요청을 내보내기 개념과 비교에 연결한다. 새 회의는 이번 분기 수동 CSV 범위 검토와 예약 전송 보류를 알려 관련 상태·비교·FAQ를 갱신한다. 출시일은 미확정이다.](./assets/case-team.svg)
-
-가상 고객 요구의 적용 예 · **요구는 보존하고 상태를 갱신**합니다. [학습서](./materials/study-guide.md#고객-요구) · [입력과 전후 파일](./assets/examples/team.txt)
-
----
-
-<!-- stage-slide
-compose: quote
 tone: green
 -->
-# 고객에게 답할 때 이전 구분을 다시 쓴다
+# 연결하고, 쌓고, 다시 고칩니다
 
-> 예약 전송은 운영 비용 검토가 남아 보류 중이며 출시일은 확정하지 않았다.
+## 연결
 
-가상 응대 초안 · `questions/what-to-tell-b.md`
+자료 사이의 **개념과 조건**을 설명합니다.
 
-**질문:** 고객 B에게 지금 무엇을 말할까?
+## 축적
 
-내보내기 개념·요구 비교·회의 근거를 읽고 답을 저장합니다.
+비교와 종합을 **문서로 남깁니다.**
 
-다음에 확인할 것: 일별 수동 다운로드로도 업무를 해결할 수 있을까?
+## 갱신
+
+새 자료와 질문으로 **기존 설명도 고칩니다.**
 
 ---
 
 <!-- stage-slide
-compose: media
-tone: blue
-fit: contain
+compose: message
+tone: green
 -->
-# 떨어진 강의에서 같은 개념을 만난다
+# 왜 필요한지에서, 직접 쓰는 방법까지
 
-![가상 강의의 2주차 회귀와 7주차 회귀트리만 읽은 상태다. 이 예에서 공유하는 제곱오차를 개념 페이지에 연결하고 두 주차의 근거를 남긴다.](./assets/case-course-initial.svg)
+**01 필요** → **02 비교** → **03 작동** → **04 적용**
 
-가상 강의 메모의 적용 예 · **2·7주차의 공통 기준과 사용 위치**를 연결합니다. [학습서](./materials/study-guide.md#강의-메모) · [입력과 전후 파일](./assets/examples/course.txt)
+도착점은 다음 스터디에 쓸 **한 쪽 진행안**입니다.
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: blue
+-->
+# RAG는 필요한 근거를 찾아 답합니다
+
+## 검색
+
+질문과 관련된 **외부 자료**를 찾습니다.
+
+## 현재 문맥
+
+찾은 내용을 모델의 **입력에 넣습니다.**
+
+## 생성
+
+그 근거를 참고해 **이번 답을 만듭니다.**
 
 ---
 
@@ -319,148 +140,159 @@ fit: contain
 compose: document
 tone: blue
 -->
-# 새 강의는 비교할 기준을 늘린다
+# 같은 자료와 질문으로 비교해 봅시다
 
-가상 강의 · 기존 비교에 8주차를 추가
+**공통 질문**
 
-| 읽은 메모 | 모델 | 이 예의 기준 |
+> 다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?
+
+| 같은 원자료 | 읽을 관점 |
+| --- | --- |
+| 영상 1의 메모 | 목적 · 연결 · 기록의 활용 |
+| 영상 2의 메모 | 검색 · 위키 · 학습과의 구별 |
+| 공동 세미나 메모 | 선별 · 사람의 생각 · 결과물과 검토 |
+
+두 경로는 같은 **세 메모**를 쓰는 설명용 구성 예입니다.
+
+---
+
+<!-- stage-slide
+compose: media
+tone: blue
+fit: contain
+-->
+# 질문할 때 근거를 모으는 흐름
+
+![같은 세 영상 메모에서 질문에 필요한 근거를 검색해 현재 입력에서 종합하고 이번 답을 만드는 기본 RAG 구성 예.](./assets/expanded/rag-path.svg)
+
+**이번 질문에 필요한 근거를 찾고**, 현재 입력에서 종합합니다.
+
+---
+
+<!-- stage-slide
+compose: media
+tone: blue
+fit: contain
+-->
+# 먼저 연결된 설명을 써 두는 흐름
+
+![같은 세 영상 메모를 개념·비교·계획 문서로 연결해 유지하고 필요한 쪽을 다시 읽어 이번 스터디 질문에 답하는 LLM Wiki 구성 예.](./assets/expanded/wiki-path.svg)
+
+**이전에 정리한 개념·비교·계획**을 찾아 다시 읽습니다.
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: blue
+-->
+# 다음 질문의 출발점이 달라집니다
+
+## 기본 검색·생성의 예
+
+지금 질문에 맞춰 **근거를 찾아 종합**합니다.
+
+## 위키를 유지하는 예
+
+이미 남긴 **관계와 종합도 다시 읽습니다.**
+
+둘 모두 필요한 자료를 찾고, 현재 질문에 맞게 답해야 합니다.
+
+---
+
+<!-- stage-slide
+compose: document
+tone: blue
+-->
+# 무엇을 남기고, 언제 고치는가
+
+| 비교 축 | 기본 검색·생성의 예 | 위키를 유지하는 예 |
 | --- | --- | --- |
-| 2주차 | 회귀 | 제곱오차 |
-| 7주차 | 회귀트리 | 제곱오차 |
-| **새 8주차** | **분류트리** | **Gini 불순도** |
+| 남기는 결과 | 검색용 자료와 색인 등 | 읽을 수 있는 개념·비교·종합 |
+| 자료 반영 때 | 정제·색인·변경 반영 | 관계 작성·관련 문서 갱신 |
+| 질문할 때 | 근거 검색·현재 답 종합 | 관련 쪽 재읽기·현재 답 종합 |
+| 계속 드는 일 | 검색·생성·접근 범위 관리 | 설명·연결·검색·접근 범위 관리 |
 
-새 개념과 근거를 더하고, **비교·관련 질문도 함께 갱신**합니다.
+**비용과 정확도는 실제 자료와 질문으로 확인합니다.**
 
 ---
 
 <!-- stage-slide
-compose: quote
+compose: media
+tone: blue
+fit: contain
+-->
+# 에이전틱 RAG는 검색 판단을 맡깁니다
+
+![에이전트가 질문에 따라 검색할 정보원·방법·추가 탐색을 판단하는 흐름. 위키 문서와 원자료를 정보원으로 함께 쓸 수 있다.](./assets/expanded/agentic-routing.svg)
+
+**어디를, 어떻게, 다시 찾을지** 에이전트가 판단합니다.
+
+---
+
+<!-- stage-slide
+compose: editorial
 tone: blue
 -->
-# 질문에서 얻은 종합도 다음 학습에 남긴다
+# 파인튜닝은 모델을 조정하는 작업입니다
 
-> 구조가 다른 모델이 같은 기준을 쓸 수 있고, 같은 트리 계열에서도 과제에 따라 기준이 다를 수 있다.
+## 문서와 문맥
 
-가상 강의 · `synthesis/error-and-trees.md` 구성 파일 발췌
+위키 파일을 고치고,
+필요한 내용을 **입력에 읽습니다.**
 
-이 세 메모의 근거를 함께 연결해 저장합니다.
+## 모델 조정
 
-**다음 질문:** 분할 기준을 바꾸면 무엇을 새로 확인해야 할까?
+학습 예제로 **파라미터·어댑터**를 조정합니다.
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: blue
+-->
+# 위키를 검색하는 RAG도 가능합니다
+
+## 지식 정리
+
+원자료 → **연결된 위키**
+
+## 필요한 쪽 찾기
+
+위키와 원자료 → **검색·선별**
+
+## 지금 답하기
+
+선택한 근거 → **현재 답과 새 정리**
 
 ---
 
 <!-- stage-slide
 compose: document
-tone: orange
--->
-# 입력은 달라도 남기는 구조는 같다
-
-가상 적용 예 세 가지 비교
-
-| 입력 | 유지할 위키 | 다음 질문에서 재사용 |
-| --- | --- | --- |
-| 소설의 장 메모 | 인물 · 주제 · 해석 | 행동을 어떻게 해석할까? |
-| 고객 상담과 회의 | 요구 · 비교 · 응대 답 | 무엇을 말하고 확인할까? |
-| 여러 주차의 강의 | 개념 · 비교 · 종합 | 무엇이 같고 다른가? |
-
-**새 입력 → 여러 페이지 갱신 → 다음 질문 → 유용한 답 저장**
-
-[세 가지 적용 예 자세히 읽기](./materials/study-guide.md#세-가지-적용-예)
-
----
-
-<!-- stage-slide
-compose: editorial
-tone: blue
--->
-# 위키도 필요한 페이지를 찾아야 한다
-
-<!-- stage-group
-tone: blue
--->
-## index · 읽을 입구
-
-질문과 관련된 쪽을 찾습니다.
-
-필요한 페이지의 본문을 읽습니다.
-
-<!-- stage-group
-tone: purple
--->
-## 검색 · 필요한 근거로
-
-위키와 원자료를 함께 찾을 수 있습니다.
-
-새 범위나 세부 사항은 원자료로 돌아갑니다.
-
-파일이 있다는 것과 **이번 답이 읽었다는 것**을 구별합니다.
-
----
-
-<!-- stage-slide
-compose: bento
-tone: orange
--->
-# 저장된 설명에도 오류와 누락은 남는다
-
-<!-- stage-group
-tone: purple
--->
-## 독서의 해석
-
-인물의 자기 설명을
-
-확정 동기로 바꾸지 않기
-
-<!-- stage-group
 tone: green
 -->
-## 고객의 요구
+# 사람이 읽고 고칠 수 있는 지식이 남습니다
 
-접수된 요청을
+| 구별할 내용 | 다시 읽을 질문 |
+| --- | --- |
+| 원자료의 요지 | 그 자료에서 실제로 무엇을 말했나? |
+| 사람의 선택 이유·관찰 | 왜 골랐고 무엇을 중요하게 보았나? |
+| 자료를 엮은 종합 | 무엇을 함께 해석했고 아직 모르는가? |
 
-출시 약속으로 바꾸지 않기
-
-<!-- stage-group
-tone: blue
--->
-## 강의의 기준
-
-한 예의 기준을
-
-모든 모델로 넓히지 않기
+이번 팩의 이유와 종합은 **발표팀이 작성한 구성 예**입니다.
 
 ---
 
 <!-- stage-slide
-compose: editorial
+compose: quote
 tone: orange
 -->
-# 다시 쓸 가치와 유지 부담을 같이 본다
+# 좋은 위키는 사용 목적부터 시작합니다
 
-<!-- stage-group
-tone: green
--->
-## 다시 쓸 가치
+> “다음 AI 스터디의
+> **한 쪽 진행안을 만들고 싶어요.**”
 
-반복해서 비교할 질문
-
-계속 추가되는 자료
-
-함께 읽을 개념과 설명
-
-<!-- stage-group
-tone: orange
--->
-## 계속 드는 일
-
-자료 반영과 기존 페이지 갱신
-
-근거·중복·낡은 설명 검토
-
-필요한 파일을 찾는 경로 점검
-
-자기 질문에서 **재사용 가치와 유지 부담**을 확인합니다.
+**03 · 작동** — 세 영상으로 만드는 작은 위키
 
 ---
 
@@ -469,427 +301,428 @@ compose: media
 tone: green
 fit: contain
 -->
-# 읽기·질문·점검이 같은 위키로 돌아온다
+# 원자료·위키·작업 규칙을 나눕니다
 
-![읽고 엮는 ingest, 위키를 읽어 답하고 저장하는 query, 내용과 연결을 점검하는 lint가 같은 지속 위키를 갱신한다. 규칙은 전체 작업을 안내한다.](./assets/wiki-maintenance-loop.svg)
+![세 원자료와 사람의 이유, 연결된 개념·비교·종합을 구별하고 전체 작업 규칙과 목차·로그로 관리하는 구조.](./assets/expanded/raw-wiki-rules.svg)
 
-**읽고 엮기 · 답하고 남기기 · 점검 후 근거를 다시 읽고 고치기.** [순환 그림 원본](./assets/wiki-maintenance-loop.svg)
+**원자료 · 사람의 이유 · 종합**을 구별하며, 규칙으로 전체 작업을 안내합니다.
 
 ---
 
 <!-- stage-slide
-compose: quote
-tone: yellow
+compose: editorial
+tone: green
 -->
-# 내 자료에서 다시 답할 질문 한 줄
+# 보는 도구와 쓰는 도구는 다릅니다
 
-> 내 질문 [한 줄]
+## 문서를 보는 도구
 
-**20초 동안 자기 노트에 쓰기 · 공유는 선택**
+페이지를 읽고 **연결을 탐색**합니다.
 
-자료 제목 [기억나는 만큼] → 근거 위치 [다음에 확인]
+## 파일을 다루는 에이전트
 
-예: 지난 상담과 새 회의를 함께 보면 고객에게 무엇을 말할 수 있을까?
+관련 자료를 **읽고·쓰고·갱신**합니다.
+
+Obsidian + Claude Code는 가능한 한 조합입니다.
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: green
+-->
+# 모든 자료보다 다시 쓸 자료부터
+
+## 목적에 관련 있는가
+
+어떤 질문·결과에 **다시 쓸 자료**인가
+
+## 지금 필요한가
+
+현재 조건에 맞는 **읽을 범위**인가
+
+## 내 판단이 있는가
+
+선택 이유·경험·관찰을 **직접 남길 수 있는가**
+
+---
+
+<!-- stage-slide
+compose: media
+tone: orange
+fit: contain
+-->
+# 넣는 이유와 앞으로의 쓰임을 묻습니다
+
+![자료를 저장한 이유·중요하게 본 점·앞으로의 사용 목적을 질문하고 스터디의 목적 문장으로 좁히는 과정.](./assets/expanded/purpose-questions.svg)
+
+**“차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서 골랐습니다.”**
 
 ---
 
 <!-- stage-slide
 compose: document
-tone: purple
+tone: green
 -->
-# 기존 설명을 함께 갱신해 달라고 부탁한다
+# 세 영상에서 읽기 메모를 만듭니다
 
-파일을 읽고 쓸 수 있는 LLM 에이전트에 보내는 시작 요청
+| 원자료 메모 | 원문에서 확인할 내용 |
+| --- | --- |
+| 맥락과 연결 | [영상 1 · 09:41](https://www.youtube.com/watch?v=t4XEda3CB3Q&t=581s) |
+| 검색과 위키 | [영상 2 · 13:34](https://www.youtube.com/watch?v=vvOuhfgH02E&t=814s) |
+| 선별과 결과물 | [공동 세미나 · 16:37](https://www.youtube.com/watch?v=Ef4AGnSU8UE&t=997s) |
+
+**원문 요지 · 내 이유 · 기술 보완 · 남은 질문**을 나눕니다.
+
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 인제스트는 변환에 연결을 더합니다
+
+![세 영상 메모를 반영하면서 자료 요약과 개념·비교·현재 계획·목차를 연결하는 인제스트 과정.](./assets/expanded/ingest-map.svg)
+
+자료를 읽고, **기존 개념·비교·종합과의 관계**를 작성합니다.
+
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 자료 요약과 개념 페이지를 나눕니다
+
+![세 영상 중 한 자료의 요약과 여러 원자료에 연결된 LLM Wiki 개념 페이지의 역할을 대비한 구성 예.](./assets/expanded/source-concept.svg)
+
+**자료 요약은 그 자료**, 개념 페이지는 **여러 자료의 공통 주제**를 설명합니다.
+
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 비교와 종합은 여러 자료를 함께 씁니다
+
+![동일 기준의 RAG·위키 비교에서 우리 AI 스터디의 현재 첫 시도 계획으로 이어지는 종합 문서의 역할.](./assets/expanded/comparison-synthesis.svg)
+
+개념을 비교하고, **우리 목적에 맞는 현재 계획**으로 종합합니다.
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: green
+-->
+# 목차와 로그는 탐색과 이력을 맡습니다
+
+## 목차
+
+**지금 무엇이 있는가?**
+
+페이지와 한 줄 설명으로 들어갑니다.
+
+## 로그
+
+**언제 무엇을 왜 바꿨는가?**
+
+변경 이유와 확인할 점을 남깁니다.
+
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 그래프는 연결, 규칙은 정리의 기준
+
+![자료와 해석을 구분하는 문서 규칙과 영상·개념·비교·계획의 연결을 탐색하는 그래프 보기의 차이.](./assets/expanded/rules-graph.svg)
+
+**연결을 보는 방법**과 **지식을 정리하는 기준**을 구별합니다.
+
+---
+
+<!-- stage-slide
+compose: quote
+tone: orange
+-->
+# 새로운 조건 하나가 들어오면
+
+> 다음 모임에는 **입문자도 함께**하고,
+> 별도 **15분 활동**으로 시작하고 싶습니다.
+
+미리 준비한 세 메모 중 두 개 선택 · 연결과 다음 질문 읽기
+
+다음 모임을 위한 **가상 조건 메모**입니다.
+
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 관련 설명과 현재 계획을 함께 갱신합니다
+
+![입문자와 15분 활동의 가상 조건으로 개념의 우리 적용 범위, 비교의 선택 기준, 현재 활동 계획과 목차·로그를 함께 갱신하는 구성 예.](./assets/expanded/related-updates.svg)
+
+새 조건에 맞춰 **적용 범위·선택 기준·15분 활동 계획**을 함께 보완합니다.
+
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 질문할 때 필요한 페이지를 실제로 읽습니다
+
+![입문자와 15분 활동의 후속 질문을 위해 갱신한 계획·비교·개념·원자료를 찾아 현재 문맥으로 읽는 과정.](./assets/expanded/query-reading.svg)
+
+**“입문자와 15분 활동은 무엇부터 할까?”**
+
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 유용한 답도 다음 탐색의 입구가 됩니다
+
+![후속 질문과 검토한 활동 순서, 관련 계획·근거·남은 확인을 질문 페이지에 저장하고 한 쪽 진행안의 재료로 연결한 모습.](./assets/expanded/saved-question.svg)
+
+검토한 답과 근거를 저장해 **앞으로 만들 진행안의 재료**로 씁니다.
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: green
+-->
+# 낡은 설명과 빠진 연결을 점검합니다
+
+## 점검 예 · 예전 초안이 남아 있다면
+
+**참여자·활동 시간이 미정**인 문장을 찾습니다.
+
+## 다시 읽고 고치기
+
+새 조건을 확인해 **적용 범위와 계획을 갱신**합니다.
+
+끊긴 연결 · 빠진 근거 · 오래된 설명도 함께 봅니다.
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: green
+-->
+# 읽기·질문·점검이 같은 위키로 돌아옵니다
+
+## 반영 · Ingest
+
+새 자료와 **기존 설명을 연결**합니다.
+
+## 질문 · Query
+
+관련 쪽을 읽고 **유용한 결과를 남깁니다.**
+
+## 점검 · Lint
+
+낡은 설명을 찾아 **재읽고 고칩니다.**
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: green
+-->
+# LLM은 정리하고 사람은 방향을 정합니다
+
+## 사람의 세 행동
+
+**쓰임 정하기 · 내 이유와 판단 적기 · 종합을 대조하고 고치기**
+
+## LLM과 함께할 작업
+
+관련 쪽 읽기 · 작성·연결 · 갱신 · 점검 후보
+
+**04 · 적용** — 같은 지식으로 어떤 결과를 만들까요?
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: green
+-->
+# 학습에서는 질문을 이어 갈 수 있습니다
+
+## 이번에 남길 것
+
+개념의 뜻 · 자료 사이의 비교 · 남은 의문
+
+## 다음에 다시 쓸 것
+
+후속 질문 · 발표 설명 · 다음 읽기 계획
+
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 여러 작업자가 같은 위키를 읽습니다
+
+![사람의 목적과 현재 결정이 있는 공통 위키를 작성 역할과 검토 역할이 함께 읽어 결과를 만드는 공유 작업 구조.](./assets/expanded/shared-workspace.svg)
+
+같은 근거와 현재 결정을 **작성·검토 역할**이 함께 읽습니다.
+
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 맥락·요청·논의·결과를 연결합니다
+
+![입문자와 15분 활동의 맥락, 한 쪽 진행안 요청, 메모 선택 이유의 논의, 결과와 남은 확인을 연결하는 구성 예.](./assets/expanded/work-context.svg)
+
+**왜 필요한가 → 무엇을 만들까 → 왜 선택했나 → 무엇이 남았나**
+
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 정리한 지식으로 한 쪽 진행안을 만듭니다
+
+![실제 제공하는 한 쪽 진행안에서 목적2분·두 메모읽기4분·관계근거찾기5분·후속질문4분의 15분 활동을 발췌한 화면.](./assets/expanded/session-plan.svg)
+
+[**15분 활동 진행안 읽기**](./materials/session-plan.md) · 준비된 팩에서 세 메모 중 두 개를 선택합니다.
+
+---
+
+<!-- stage-slide
+compose: media
+tone: green
+fit: contain
+-->
+# 검토한 결과와 이유를 다시 남깁니다
+
+![진행안의 시간 합계·대상과 범위·근거·작성 주체를 대조하고 선택 이유와 다음 30분 활동 질문을 연결한 검토 구성.](./assets/expanded/review-return.svg)
+
+[**결과·확인 범위·다음 질문 읽기**](./materials/session-plan.md) · “다음에는 30분이라면?”
+
+---
+
+<!-- stage-slide
+compose: quote
+tone: green
+-->
+# 지식의 무덤은 목적 없이 커집니다
+
+> “다 모아 뒀는데,
+> **무엇에 다시 쓸지는 정하지 않았어요.**”
+
+목적 없는 수집 · 과한 분류 · 다시 읽지 않는 정리
+
+---
+
+<!-- stage-slide
+compose: editorial
+tone: green
+-->
+# 연결된 문서도 틀리고 낡을 수 있습니다
+
+## 의미
+
+잘못된 종합 · 빠진 조건
+
+## 최신성
+
+새 자료 미반영 · 서로 다른 설명
+
+## 운영
+
+읽을 범위 · 검토·갱신 비용
+
+---
+
+<!-- stage-slide
+compose: document
+tone: green
+-->
+# 반복 질문의 가치와 유지 비용을 봅니다
+
+| 내 상황 | 먼저 살펴볼 것 |
+| --- | --- |
+| 같은 주제와 질문이 반복됨 | 개념·비교·종합을 유지할 가치 |
+| 자료가 많고 자주 바뀜 | 검색·변경 반영·접근 범위·검토 비용 |
+| 가끔 한 자료만 확인함 | 단순 노트와 검색으로 충분한지 |
+
+**작게 써 보고, 다음 질문에서 다시 읽히는지 확인합니다.**
+
+---
+
+<!-- stage-slide
+compose: quote
+tone: orange
+-->
+# 내 자료에서 다음 질문 하나를 정해 봅시다
+
+> 누구를 위해, 어떤 자료로,
+> **무슨 결과를 만들고 싶나요?**
+
+**20초 · 자기 노트에 한 문장** · 공유는 원하는 분만 해 주세요.
+
+---
+
+<!-- stage-slide
+compose: document
+tone: orange
+-->
+# 목적·자료·연결·검토를 함께 요청합니다
 
 ```text
-새 자료를 읽고 기존 개념·비교·종합을 함께 갱신해 줘.
-근거와 조건 차이, 충돌·미확인을 구별해 줘.
-주요 변경과 그 이유를 보여 줘.
-유용한 질문의 답도 관련 페이지에 연결해 저장해 줘.
+목적: 이 대상을 위해 이런 결과를 만들고 싶어.
+이유·입력: 왜 골랐는지 적고, 규칙과 자료 두 개를 읽어 줘.
+작업: 원문·내 이유·종합을 구별하고 근거·관련 쪽을 연결해 줘.
+검토: 바뀐 파일·모르는 점을 알려줘. 결과와 근거를 함께 볼게.
 ```
 
-자료 위치·읽기와 쓰기 권한·작업 규칙을 함께 알려 줍니다.
-
-[실습 기본 2~4](./materials/workshop.md#2-입력과-이전-위키를-나누기)의 문장과 [starter 규칙](./demo/starter.txt)을 자기 파일 에이전트에 함께 제공합니다.
-
----
-
-<!-- stage-slide
-compose: gallery
-tone: orange
-variant: strip
-fit: cover
-focus: ['50% 75%', '44% 54%', '50% 72%']
--->
-# 다음 질문에서 실제로 다시 읽어 본다
-
-![창가 책상에 펼친 책과 공책](./assets/photos/open-books.jpg "자료 고르기")
-
-![노트에 쓰는 인물](./assets/photos/writing.jpg "질문 정하기")
-
-![책과 공책과 필기도구가 모인 책상](./assets/photos/study-table.jpg "갱신된 쪽 다시 읽기")
-
-작게 시작할 예: 자료 몇 개 · 질문 하나 · 결과를 확인할 사람.
-
-**필요한 근거를 다시 찾았나? · 잘못된 정리를 고칠 부담을 감당할 수 있나?**
-
----
-
-<!-- stage-slide
-compose: bento
-tone: blue
--->
-# 개념·예제·실습을 따로 이어 읽는다
-
-<!-- stage-group
-tone: blue
--->
-## 개념 이해
-
-[학습서](./materials/study-guide.md)
-
-[원문과 근거 안내](./materials/reference-library.md)
-
-<!-- stage-group
-tone: green
--->
-## 내 자료로 작성
-
-[세 가지 적용 예](./materials/study-guide.md#세-가지-적용-예)
-
-[실습과 해설](./materials/workshop.md)
-
-기본 2~4 복사 → [starter 규칙](./demo/starter.txt) 함께 제공
-
-다음 질문에서 읽은 파일 확인
-
-<!-- stage-group
-tone: orange
--->
-## 파일 교정 재현
-
-[실제 실행 범위](./materials/demo-log.md)
-
-[고정 데모 ZIP](./demo/llm-wiki-demo.zip)
-
-[전체 자료 목차와 40장 대본](./materials/index.md)
-
----
-
-<!-- stage-slide
-compose: message
-tone: green
--->
-# 다음 질문이 이전 정리에서 출발하도록
-
-**LLM이 작성하고 갱신하는 위키.**
-
-개념과 비교와 종합을 남기고,
-
-다음 질문에서 다시 찾아 읽습니다.
-
-[질문과 적용 이야기](#40)
-
----
-
-<!-- stage-slide
-compose: editorial
-tone: blue
--->
-# 공개 구현은 등록과 LLM 작성을 나눈다
-
-공개 코드 관찰 · `microsoft/llmwiki` 고정 판
-
-<!-- stage-group
-tone: blue
--->
-## 기계 등록 · ingestSource
-
-자료의 미리보기 페이지
-
-index · log 갱신
-
-<!-- stage-group
-tone: purple
--->
-## LLM 내용 작성 · llmIngest
-
-자료 텍스트와 index를 모델에 전달
-
-요약 · 개체 · 개념 · 연결 작성
-
-설치·실행 결과가 아닌 코드 관찰입니다. [고정 코드](https://github.com/microsoft/llmwiki/tree/e09126f257c1fcf8e63234382748a51cf6a5df7f)
-
----
-
-<!-- stage-slide
-compose: editorial
-tone: purple
--->
-# 문서의 기능 설명도 코드와 대조한다
-
-공개 코드 관찰 · 같은 고정 판
-
-<!-- stage-group
-tone: purple
--->
-## 질문 · handleQuery
-
-키워드 검색의 상위 8쪽
-
-각 앞 3,000자를 답의 문맥에 넣음
-
-<!-- stage-group
-tone: orange
--->
-## 저장 · handleSave
-
-파일을 쓰지 않고 수동 저장을 안내합니다.
-
-README의 `/save`를 자동 저장 구현으로 읽지 않습니다.
-
-[고정 코드](https://github.com/microsoft/llmwiki/blob/e09126f257c1fcf8e63234382748a51cf6a5df7f/packages/vscode/src/chatParticipant.ts)
-
----
-
-<!-- stage-slide
-compose: message
-tone: blue
--->
-# 살아 있는 코드라면 판과 해시도 추적한다
-
-공개 구현의 변형 · `llm-code-wiki`
-
-**코드 → 저장소 개요·개념·계약 → 다음 질문**
-
-읽었던 판과 해시를 식별하고 코드가 바뀌면 관련 설명을 재검토합니다.
-
-해시 차이는 **변경 신호**입니다. 의미 오류 판정이나 자동 수정은 아닙니다.
-
-[고정 설계와 검사 코드](https://github.com/dylannalex/llm-code-wiki/tree/422fe1d3ff889295285b2f1a339cdbf789f43e5b)
-
----
-
-<!-- stage-slide
-compose: editorial
-tone: green
--->
-# 강의 위키를 QA로 비교한 초기 연구도 있다
-
-논문 실험 · Wright, arXiv v1 · 실제 평가의 문맥 조건
-
-<!-- stage-group
-tone: green
--->
-## Wiki arm
-
-59문항에 같은 고정 section 제공
-
-각 질문의 대상 자료도 포함
-
-문맥 선택 실패 단계 없음
-
-<!-- stage-group
-tone: blue
--->
-## RAG arm
-
-21벡터 중 5개를 검색
-
-검색된 문맥으로 답함
-
-검색 누락이 생길 수 있음
-
-질문 답의 품질을 비교한 실험입니다. [논문 §6](https://arxiv.org/html/2609.25303v1)
-
----
-
-<!-- stage-slide
-compose: bento
-tone: orange
--->
-# 문맥 선택의 차이를 위키 전체의 우위로 넓히지 않는다
-
-<!-- stage-group
-tone: orange
--->
-## 비교 조건 · 논문 실험
-
-고정 문맥 제공과 검색의 차이
-
-표현만의 공정 비교로 해석 불가
-
-<!-- stage-group
-tone: purple
--->
-## 평가 범위
-
-단일 코퍼스 · 답변 1회
-
-한 LLM judge의 판단
-
-<!-- stage-group
-tone: blue
--->
-## 확인하지 않은 것
-
-학생 학습성과
-
-운영 비용 · 보편 우위
-
-[실험 조건과 근거 안내](./materials/reference-library.md)
-
----
-
-<!-- stage-slide
-compose: editorial
-tone: blue
--->
-# 보조 실습은 승인한 교정안을 파일에 반영한다
-
-기존 고정 데모 · 사람이 의미를 검토하고 Node로 반영
-
-<!-- stage-group
-tone: orange
--->
-## 준비한 입력
-
-학습용 오류가 있는 Q1
-
-원문을 대조한 고정 승인안
-
-<!-- stage-group
-tone: blue
--->
-## 실제 실행
-
-파일 수정 · diff 생성
-
-링크 · 보존 파일 해시 검사
-
-LLM 호출·자동 검색·새 답 생성은 수행하지 않았습니다.
-
-[실제 파일 읽기](./materials/demo-log.md) · [질문으로 돌아가기](#40)
-
----
-
-<!-- stage-slide
-compose: bento
-tone: blue
--->
-# 실제 diff는 문장과 적용 범위를 바꾼다
-
-<!-- stage-group
-tone: orange
--->
-## 삭제 · 모든 시스템
-
-기존 고정 데모 · C1 파일 발췌
-
-> 외부 파일을 쓰는 시스템은\
-> 모델을 학습하지 않는다.
-
-<!-- stage-group
-tone: green
--->
-## 추가 · 이 데모
-
-> 이 데모의 파일 수정은 모델 매개변수 학습을 실행하지 않는다. 외부 파일을 쓰는 시스템에도 별도의 학습 과정이 있을 수 있다.
-
-[RAG v4 §2.4](https://arxiv.org/html/2005.11401v4#S2.SS4) · [LoRA v2 §4.1](https://arxiv.org/html/2106.09685v2#S4.SS1)
-
----
-
-<!-- stage-slide
-compose: media
-tone: purple
-fit: contain
--->
-# 교정한 설명을 다른 질문에도 다시 쓴다
-
-![교정된 C1, Q1의 다음 확인, 초기 결정 D1을 함께 읽어 새 운영 질문 Q2를 판단한다. 이 목록은 고정 승인 예제의 입력이며 자동 검색의 성공 기록이 아니다.](./assets/reuse-inputs.svg)
-
-고정 승인 예제의 판단 입력입니다. 자동 검색·생성 실행의 기록이 아닙니다. [Q2 재사용 기록](./materials/demo-log.md#6-새-질문-q2가-이전-결과를-다시-쓴다)
-
----
-
-<!-- stage-slide
-compose: media
-tone: orange
-fit: contain
--->
-# 선택이 바뀌면 맥락과 결과를 남긴다
-
-![모든 답을 현행에 저장하려던 D1은 대체됨으로 남기고 검토한 답을 현행으로 연결하는 D2에 새 선택과 검토 부담을 적는다.](./assets/decision-transition.svg)
-
-기존 구성 예 · ADR을 응용한 운영 선택이며 LLM Wiki의 필수 형식은 아닙니다. [결정 기록 근거](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) · [실행 기록](./materials/demo-log.md)
-
----
-
-<!-- stage-slide
-compose: bento
-tone: blue
--->
-# 파일 검사와 의미 검토는 다른 확인이다
-
-<!-- stage-group
-tone: blue
--->
-## 교정안 반영
-
-기존 데모의 파일 검사
-
-**8** 쪽
-
-기존 5쪽 갱신 + 신규 3쪽
-
-<!-- stage-group
-tone: green
--->
-## 로컬 링크
-
-**25** 링크
-
-상대 경로의 연결 확인
-
-<!-- stage-group
-tone: orange
--->
-## 보존 해시
-
-**10** 파일
-
-읽기 메모 5개 + 초기 5쪽
-
-정확도·검색 누락·시간 절감의 측정값은 아닙니다.
-
----
-
-<!-- stage-slide
-compose: document
-tone: purple
--->
-# 원문과 구성 예의 근거를 구분해 읽는다
-
-| 근거 종류 | 확인할 질문 |
-| --- | --- |
-| **원저자 설계** | 무엇을 제안했나? |
-| **공개 코드 관찰** | 어떤 경로가 구현됐나? |
-| **논문 실험** | 어떤 조건을 평가했나? |
-| **구성 적용 예** | 무엇을 가정해 설명했나? |
-
-[원문과 근거 안내](./materials/reference-library.md) · [질문으로 돌아가기](#40)
+[예제 팩](./assets/expanded-study.txt) · [작게 따라 하기](./materials/workshop.md)
 
 ---
 
 <!-- stage-slide
 compose: closing
-tone: purple
+tone: green
 -->
-# 어떤 자료에서 다음 질문을 이어 가고 싶나요
+# 다음 질문이 이전 이해에서 출발하도록
 
-**내 자료 · 반복하는 질문 · 유지할 설명**
+**연결**한 지식으로 결과를 만들고, **이유**와 함께 다음 질문에 씁니다.
 
-[공부 자료 목차](./materials/index.md) · [세 가지 적용 예](./materials/study-guide.md#세-가지-적용-예)
+---
 
-[공개 구현과 실험 더 보기](#29) · [기존 파일 교정 예제](#34)
+<!-- stage-slide
+compose: quote
+tone: green
+-->
+# 어떤 지식을 다음 질문으로 이어 갈까요?
+
+> 내 자료로 **어떤 결과를 만들고, 무엇을 이어 묻고 싶나요?**
+
+[학습서](./materials/study-guide.md) · [실습](./materials/workshop.md) · [15분 진행안](./materials/session-plan.md)
+
+[세 영상과 원문 안내](./materials/reference-library.md)

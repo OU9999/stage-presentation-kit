@@ -1,0 +1,14 @@
+[
+  {
+    "command": "npm run build:site",
+    "exitCode": 0,
+    "elapsedSeconds": 0.51,
+    "output": "\n> stage-presentation-kit@1.0.0 build:site\n> node scripts/build-site.cjs build\n\n전체 사이트 생성·검증 완료: 기존 예제 8개 · presentations 5개 발표 · markdown-starter 1개 발표\n"
+  },
+  {
+    "command": "npm run verify:site",
+    "exitCode": 0,
+    "elapsedSeconds": 0.3,
+    "output": "\n> stage-presentation-kit@1.0.0 verify:site\n> node scripts/build-site.cjs verify\n\n전체 사이트 검증 완료: 기존 예제 8개 · presentations 5개 발표 · markdown-starter 1개 발표\n"
+  }
+]

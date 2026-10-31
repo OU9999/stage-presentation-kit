@@ -1,0 +1,42 @@
+{
+  "slides": 48,
+  "theme": "paper",
+  "scriptSections": 48,
+  "titleMatch": true,
+  "coreSeconds": 2100,
+  "qaSeconds": 300,
+  "chapter37to41": [
+    {
+      "n": 37,
+      "title": "학습에서는 질문을 이어 갈 수 있습니다",
+      "seconds": 40
+    },
+    {
+      "n": 38,
+      "title": "여러 작업자가 같은 위키를 읽습니다",
+      "seconds": 45
+    },
+    {
+      "n": 39,
+      "title": "맥락·요청·논의·결과를 연결합니다",
+      "seconds": 50
+    },
+    {
+      "n": 40,
+      "title": "정리한 지식으로 한 쪽 진행안을 만듭니다",
+      "seconds": 55
+    },
+    {
+      "n": 41,
+      "title": "검토한 결과와 이유를 다시 남깁니다",
+      "seconds": 45
+    }
+  ],
+  "media": 17,
+  "contain": true,
+  "missingImages": [],
+  "slide19": {
+    "compose": "quote"
+  },
+  "sessionPlanExists": true
+}

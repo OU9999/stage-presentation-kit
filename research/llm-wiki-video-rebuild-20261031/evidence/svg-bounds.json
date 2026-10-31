@@ -1,0 +1,958 @@
+[
+  {
+    "file": "agentic-update.svg",
+    "outside": [],
+    "overlap": [],
+    "texts": [
+      {
+        "index": 0,
+        "text": "wiki/comparisons/context-vs-weights.md",
+        "x": 42,
+        "y": 29,
+        "right": 526.671875,
+        "bottom": 66,
+        "size": "26px"
+      },
+      {
+        "index": 1,
+        "text": "입력 문맥과 모델의 파라미터",
+        "x": 42,
+        "y": 97,
+        "right": 552.34375,
+        "bottom": 161,
+        "size": "44px"
+      },
+      {
+        "index": 2,
+        "text": "RAG",
+        "x": 42,
+        "y": 175,
+        "right": 108.328125,
+        "bottom": 224,
+        "size": "34px"
+      },
+      {
+        "index": 3,
+        "text": "미세조정",
+        "x": 796,
+        "y": 175,
+        "right": 919.734375,
+        "bottom": 224,
+        "size": "34px"
+      },
+      {
+        "index": 4,
+        "text": "찾은 자료를 현재 입력에 사용",
+        "x": 42,
+        "y": 231,
+        "right": 442.234375,
+        "bottom": 280,
+        "size": "34px"
+      },
+      {
+        "index": 5,
+        "text": "학습으로 파라미터를 조정",
+        "x": 796,
+        "y": 231,
+        "right": 1150.765625,
+        "bottom": 280,
+        "size": "34px"
+      },
+      {
+        "index": 6,
+        "text": "새 비교 축  ·  Agentic RAG",
+        "x": 50,
+        "y": 342,
+        "right": 344.0625,
+        "bottom": 382,
+        "size": "28px"
+      },
+      {
+        "index": 7,
+        "text": "에이전트가 검색할 곳·방법·반복을 결정",
+        "x": 50,
+        "y": 383,
+        "right": 638.203125,
+        "bottom": 435,
+        "size": "36px"
+      },
+      {
+        "index": 8,
+        "text": "근거 추가  raw/agentic-note.md → 원문 링크",
+        "x": 42,
+        "y": 470,
+        "right": 569.296875,
+        "bottom": 510,
+        "size": "28px"
+      }
+    ]
+  },
+  {
+    "file": "compare-page.svg",
+    "outside": [],
+    "overlap": [],
+    "texts": [
+      {
+        "index": 0,
+        "text": "wiki/comparisons/context-vs-weights.md",
+        "x": 42,
+        "y": 29,
+        "right": 526.671875,
+        "bottom": 66,
+        "size": "26px"
+      },
+      {
+        "index": 1,
+        "text": "입력 문맥과 모델의 파라미터",
+        "x": 42,
+        "y": 97,
+        "right": 552.34375,
+        "bottom": 161,
+        "size": "44px"
+      },
+      {
+        "index": 2,
+        "text": "RAG",
+        "x": 42,
+        "y": 183,
+        "right": 108.328125,
+        "bottom": 232,
+        "size": "34px"
+      },
+      {
+        "index": 3,
+        "text": "미세조정",
+        "x": 796,
+        "y": 183,
+        "right": 919.734375,
+        "bottom": 232,
+        "size": "34px"
+      },
+      {
+        "index": 4,
+        "text": "찾은 자료를 읽어",
+        "x": 42,
+        "y": 237,
+        "right": 300.609375,
+        "bottom": 292,
+        "size": "38px"
+      },
+      {
+        "index": 5,
+        "text": "답의 입력에 사용한다.",
+        "x": 42,
+        "y": 291,
+        "right": 380.03125,
+        "bottom": 346,
+        "size": "38px"
+      },
+      {
+        "index": 6,
+        "text": "예제로 학습해",
+        "x": 796,
+        "y": 237,
+        "right": 1011.828125,
+        "bottom": 292,
+        "size": "38px"
+      },
+      {
+        "index": 7,
+        "text": "모델의 동작을 조정한다.",
+        "x": 796,
+        "y": 291,
+        "right": 1168.640625,
+        "bottom": 346,
+        "size": "38px"
+      },
+      {
+        "index": 8,
+        "text": "바뀌는 대상: 현재 입력 문맥",
+        "x": 42,
+        "y": 356,
+        "right": 375.234375,
+        "bottom": 400,
+        "size": "30px"
+      },
+      {
+        "index": 9,
+        "text": "바뀌는 대상: 파라미터·어댑터",
+        "x": 796,
+        "y": 356,
+        "right": 1160.21875,
+        "bottom": 400,
+        "size": "30px"
+      },
+      {
+        "index": 10,
+        "text": "연결  [[검색해 읽기]]  [[모델 적응]]",
+        "x": 42,
+        "y": 450,
+        "right": 445.5625,
+        "bottom": 494,
+        "size": "30px"
+      },
+      {
+        "index": 11,
+        "text": "근거: rag-note · lora-note",
+        "x": 1165.90625,
+        "y": 455,
+        "right": 1458,
+        "bottom": 492,
+        "size": "26px"
+      }
+    ]
+  },
+  {
+    "file": "concept-page.svg",
+    "outside": [],
+    "overlap": [],
+    "texts": [
+      {
+        "index": 0,
+        "text": "my-study/",
+        "x": 16,
+        "y": 19,
+        "right": 155.50013732910156,
+        "bottom": 63,
+        "size": "30px"
+      },
+      {
+        "index": 1,
+        "text": "raw/",
+        "x": 16,
+        "y": 80,
+        "right": 86.20274353027344,
+        "bottom": 129,
+        "size": "34px"
+      },
+      {
+        "index": 2,
+        "text": "rag-note.md",
+        "x": 38,
+        "y": 137,
+        "right": 184.015625,
+        "bottom": 174,
+        "size": "26px"
+      },
+      {
+        "index": 3,
+        "text": "lora-note.md",
+        "x": 38,
+        "y": 179,
+        "right": 192.15625,
+        "bottom": 216,
+        "size": "26px"
+      },
+      {
+        "index": 4,
+        "text": "wiki/",
+        "x": 16,
+        "y": 235,
+        "right": 92.33587646484375,
+        "bottom": 284,
+        "size": "34px"
+      },
+      {
+        "index": 5,
+        "text": "concepts/",
+        "x": 38,
+        "y": 292,
+        "right": 162.84295654296875,
+        "bottom": 332,
+        "size": "28px"
+      },
+      {
+        "index": 6,
+        "text": "comparisons/",
+        "x": 38,
+        "y": 338,
+        "right": 212.98977661132812,
+        "bottom": 378,
+        "size": "28px"
+      },
+      {
+        "index": 7,
+        "text": "questions/",
+        "x": 38,
+        "y": 384,
+        "right": 173.52725219726562,
+        "bottom": 424,
+        "size": "28px"
+      },
+      {
+        "index": 8,
+        "text": "rules.md",
+        "x": 16,
+        "y": 470,
+        "right": 128.703125,
+        "bottom": 510,
+        "size": "28px"
+      },
+      {
+        "index": 9,
+        "text": "wiki/concepts/retrieval.md",
+        "x": 397,
+        "y": 29,
+        "right": 712.71875,
+        "bottom": 66,
+        "size": "26px"
+      },
+      {
+        "index": 10,
+        "text": "검색해 읽기",
+        "x": 397,
+        "y": 97,
+        "right": 607.25,
+        "bottom": 161,
+        "size": "44px"
+      },
+      {
+        "index": 11,
+        "text": "관련 자료를 찾아",
+        "x": 397,
+        "y": 180,
+        "right": 669.375,
+        "bottom": 238,
+        "size": "40px"
+      },
+      {
+        "index": 12,
+        "text": "현재 답변의 입력에 사용한다.",
+        "x": 397,
+        "y": 238,
+        "right": 871,
+        "bottom": 296,
+        "size": "40px"
+      },
+      {
+        "index": 13,
+        "text": "파라미터를 바꾸는 학습과 구분한다.",
+        "x": 397,
+        "y": 328,
+        "right": 891.859375,
+        "bottom": 377,
+        "size": "34px"
+      },
+      {
+        "index": 14,
+        "text": "연결  [[모델 적응]]  [[문맥과 가중치]]",
+        "x": 397,
+        "y": 424,
+        "right": 827.8125,
+        "bottom": 468,
+        "size": "30px"
+      },
+      {
+        "index": 15,
+        "text": "근거  rag-note.md · 원문 링크",
+        "x": 397,
+        "y": 477,
+        "right": 720.578125,
+        "bottom": 514,
+        "size": "26px"
+      }
+    ]
+  },
+  {
+    "file": "ingest-links.svg",
+    "outside": [],
+    "overlap": [],
+    "texts": [
+      {
+        "index": 0,
+        "text": "raw/rag-note.md",
+        "x": 36,
+        "y": 54,
+        "right": 251.09375,
+        "bottom": 94,
+        "size": "28px"
+      },
+      {
+        "index": 1,
+        "text": "RAG 읽기 메모",
+        "x": 36,
+        "y": 131,
+        "right": 289.625,
+        "bottom": 192,
+        "size": "42px"
+      },
+      {
+        "index": 2,
+        "text": "필요한 자료를 찾아",
+        "x": 36,
+        "y": 214,
+        "right": 313.81817626953125,
+        "bottom": 266,
+        "size": "36px"
+      },
+      {
+        "index": 3,
+        "text": "답의 입력에 사용한다.",
+        "x": 36,
+        "y": 269,
+        "right": 356.03125,
+        "bottom": 321,
+        "size": "36px"
+      },
+      {
+        "index": 4,
+        "text": "원문을 확인한 메모",
+        "x": 36,
+        "y": 417,
+        "right": 251.125,
+        "bottom": 457,
+        "size": "28px"
+      },
+      {
+        "index": 5,
+        "text": "wiki/concepts/retrieval.md",
+        "x": 692,
+        "y": 54,
+        "right": 1032.71875,
+        "bottom": 94,
+        "size": "28px"
+      },
+      {
+        "index": 6,
+        "text": "검색해 읽기",
+        "x": 692,
+        "y": 129,
+        "right": 902.25,
+        "bottom": 193,
+        "size": "44px"
+      },
+      {
+        "index": 7,
+        "text": "관련 자료를 찾아",
+        "x": 692,
+        "y": 214,
+        "right": 937.0481567382812,
+        "bottom": 266,
+        "size": "36px"
+      },
+      {
+        "index": 8,
+        "text": "현재 답변의 문맥에 넣는다.",
+        "x": 692,
+        "y": 269,
+        "right": 1085.28125,
+        "bottom": 321,
+        "size": "36px"
+      },
+      {
+        "index": 9,
+        "text": "기존 비교에 연결  [[문맥과 가중치]]",
+        "x": 692,
+        "y": 370,
+        "right": 1139.3125,
+        "bottom": 416,
+        "size": "32px"
+      },
+      {
+        "index": 10,
+        "text": "근거  rag-note.md → 원문 링크",
+        "x": 692,
+        "y": 426,
+        "right": 1053.34375,
+        "bottom": 466,
+        "size": "28px"
+      }
+    ]
+  },
+  {
+    "file": "lint-review.svg",
+    "outside": [],
+    "overlap": [],
+    "texts": [
+      {
+        "index": 0,
+        "text": "wiki/concepts/retrieval.md",
+        "x": 42,
+        "y": 29,
+        "right": 357.71875,
+        "bottom": 66,
+        "size": "26px"
+      },
+      {
+        "index": 1,
+        "text": "검색해 읽기",
+        "x": 42,
+        "y": 97,
+        "right": 252.25,
+        "bottom": 161,
+        "size": "44px"
+      },
+      {
+        "index": 2,
+        "text": "관련 자료를 찾아",
+        "x": 42,
+        "y": 185,
+        "right": 300.609375,
+        "bottom": 240,
+        "size": "38px"
+      },
+      {
+        "index": 3,
+        "text": "현재 답변의 입력에 사용한다.",
+        "x": 42,
+        "y": 243,
+        "right": 492.03125,
+        "bottom": 298,
+        "size": "38px"
+      },
+      {
+        "index": 4,
+        "text": "연결  [[문맥과 가중치]]",
+        "x": 42,
+        "y": 361,
+        "right": 330.234375,
+        "bottom": 407,
+        "size": "32px"
+      },
+      {
+        "index": 5,
+        "text": "근거  rag-note.md → 원문 링크",
+        "x": 42,
+        "y": 424,
+        "right": 429.703125,
+        "bottom": 468,
+        "size": "30px"
+      },
+      {
+        "index": 6,
+        "text": "읽고 확인하기",
+        "x": 1075,
+        "y": 48,
+        "right": 1256.359375,
+        "bottom": 94,
+        "size": "32px"
+      },
+      {
+        "index": 7,
+        "text": "근거가 맞는가",
+        "x": 1075,
+        "y": 136,
+        "right": 1290.828125,
+        "bottom": 191,
+        "size": "38px"
+      },
+      {
+        "index": 8,
+        "text": "설명이 낡았는가",
+        "x": 1075,
+        "y": 224,
+        "right": 1325.4375,
+        "bottom": 279,
+        "size": "38px"
+      },
+      {
+        "index": 9,
+        "text": "연결이 열리는가",
+        "x": 1075,
+        "y": 312,
+        "right": 1325.4375,
+        "bottom": 367,
+        "size": "38px"
+      },
+      {
+        "index": 10,
+        "text": "파일 점검만으로",
+        "x": 1075,
+        "y": 428,
+        "right": 1272.125,
+        "bottom": 472,
+        "size": "30px"
+      },
+      {
+        "index": 11,
+        "text": "의미가 맞지는 않는다.",
+        "x": 1075,
+        "y": 474,
+        "right": 1340.984375,
+        "bottom": 518,
+        "size": "30px"
+      }
+    ]
+  },
+  {
+    "file": "query-context.svg",
+    "outside": [],
+    "overlap": [],
+    "texts": [
+      {
+        "index": 0,
+        "text": "다음 질문",
+        "x": 0,
+        "y": 48,
+        "right": 115.375,
+        "bottom": 92,
+        "size": "30px"
+      },
+      {
+        "index": 1,
+        "text": "우리 스터디의",
+        "x": 0,
+        "y": 113,
+        "right": 244.59375,
+        "bottom": 175,
+        "size": "43px"
+      },
+      {
+        "index": 2,
+        "text": "최신 정정은 어디에",
+        "x": 0,
+        "y": 177,
+        "right": 332.34375,
+        "bottom": 239,
+        "size": "43px"
+      },
+      {
+        "index": 3,
+        "text": "반영할까요?",
+        "x": 0,
+        "y": 241,
+        "right": 216.859375,
+        "bottom": 303,
+        "size": "43px"
+      },
+      {
+        "index": 4,
+        "text": "이번 답변에서 읽은 문맥",
+        "x": 612,
+        "y": 37,
+        "right": 982.828125,
+        "bottom": 92,
+        "size": "38px"
+      },
+      {
+        "index": 5,
+        "text": "작업 규칙",
+        "x": 612,
+        "y": 132,
+        "right": 735.1875,
+        "bottom": 178,
+        "size": "32px"
+      },
+      {
+        "index": 6,
+        "text": "문맥과 가중치 비교 · 관련 원자료",
+        "x": 612,
+        "y": 181,
+        "right": 1041.875,
+        "bottom": 227,
+        "size": "32px"
+      },
+      {
+        "index": 7,
+        "text": "정정을 위키에 남기고,",
+        "x": 612,
+        "y": 286,
+        "right": 950.03125,
+        "bottom": 341,
+        "size": "38px"
+      },
+      {
+        "index": 8,
+        "text": "다음 답변에서 다시 읽습니다.",
+        "x": 612,
+        "y": 343,
+        "right": 1062.03125,
+        "bottom": 398,
+        "size": "38px"
+      },
+      {
+        "index": 9,
+        "text": "관련 페이지를 찾아 실제 입력에 읽어 넣기",
+        "x": 612,
+        "y": 438,
+        "right": 1079.515625,
+        "bottom": 478,
+        "size": "28px"
+      }
+    ]
+  },
+  {
+    "file": "question-saved.svg",
+    "outside": [],
+    "overlap": [],
+    "texts": [
+      {
+        "index": 0,
+        "text": "my-study/",
+        "x": 16,
+        "y": 19,
+        "right": 155.50013732910156,
+        "bottom": 63,
+        "size": "30px"
+      },
+      {
+        "index": 1,
+        "text": "raw/",
+        "x": 16,
+        "y": 80,
+        "right": 86.20274353027344,
+        "bottom": 129,
+        "size": "34px"
+      },
+      {
+        "index": 2,
+        "text": "rag-note.md",
+        "x": 38,
+        "y": 137,
+        "right": 184.015625,
+        "bottom": 174,
+        "size": "26px"
+      },
+      {
+        "index": 3,
+        "text": "lora-note.md",
+        "x": 38,
+        "y": 179,
+        "right": 192.15625,
+        "bottom": 216,
+        "size": "26px"
+      },
+      {
+        "index": 4,
+        "text": "wiki/",
+        "x": 16,
+        "y": 235,
+        "right": 92.33587646484375,
+        "bottom": 284,
+        "size": "34px"
+      },
+      {
+        "index": 5,
+        "text": "concepts/",
+        "x": 38,
+        "y": 292,
+        "right": 162.84295654296875,
+        "bottom": 332,
+        "size": "28px"
+      },
+      {
+        "index": 6,
+        "text": "comparisons/",
+        "x": 38,
+        "y": 338,
+        "right": 212.98977661132812,
+        "bottom": 378,
+        "size": "28px"
+      },
+      {
+        "index": 7,
+        "text": "questions/",
+        "x": 38,
+        "y": 384,
+        "right": 173.52725219726562,
+        "bottom": 424,
+        "size": "28px"
+      },
+      {
+        "index": 8,
+        "text": "rules.md",
+        "x": 16,
+        "y": 470,
+        "right": 128.703125,
+        "bottom": 510,
+        "size": "28px"
+      },
+      {
+        "index": 9,
+        "text": "wiki/questions/study-corrections.md",
+        "x": 397,
+        "y": 29,
+        "right": 831.578125,
+        "bottom": 66,
+        "size": "26px"
+      },
+      {
+        "index": 10,
+        "text": "스터디의 최신 정정 반영",
+        "x": 397,
+        "y": 97,
+        "right": 827.09375,
+        "bottom": 161,
+        "size": "44px"
+      },
+      {
+        "index": 11,
+        "text": "정정은 검토한 위키 문서에 남긴다.",
+        "x": 397,
+        "y": 188,
+        "right": 868.1875,
+        "bottom": 237,
+        "size": "34px"
+      },
+      {
+        "index": 12,
+        "text": "다음 답변에서 관련 페이지를 찾아 읽는다.",
+        "x": 397,
+        "y": 243,
+        "right": 968.25,
+        "bottom": 292,
+        "size": "34px"
+      },
+      {
+        "index": 13,
+        "text": "위키 수정이 모델 학습은 아니다.",
+        "x": 397,
+        "y": 334,
+        "right": 837.265625,
+        "bottom": 383,
+        "size": "34px"
+      },
+      {
+        "index": 14,
+        "text": "근거  [[문맥과 가중치]]  +  관련 원자료",
+        "x": 397,
+        "y": 424,
+        "right": 838.5625,
+        "bottom": 468,
+        "size": "30px"
+      },
+      {
+        "index": 15,
+        "text": "다음 확인  바뀐 설명이 다음 답변에도 쓰이는가",
+        "x": 397,
+        "y": 475,
+        "right": 915.328125,
+        "bottom": 515,
+        "size": "28px"
+      }
+    ]
+  },
+  {
+    "file": "raw-wiki.svg",
+    "outside": [],
+    "overlap": [],
+    "texts": [
+      {
+        "index": 0,
+        "text": "raw/",
+        "x": 38,
+        "y": 32,
+        "right": 142.109375,
+        "bottom": 102,
+        "size": "48px"
+      },
+      {
+        "index": 1,
+        "text": "원자료를 보존",
+        "x": 38,
+        "y": 104,
+        "right": 207.875,
+        "bottom": 148,
+        "size": "30px"
+      },
+      {
+        "index": 2,
+        "text": "rag-note.md",
+        "x": 38,
+        "y": 196,
+        "right": 241.65625,
+        "bottom": 248,
+        "size": "36px"
+      },
+      {
+        "index": 3,
+        "text": "lora-note.md",
+        "x": 38,
+        "y": 258,
+        "right": 253.046875,
+        "bottom": 310,
+        "size": "36px"
+      },
+      {
+        "index": 4,
+        "text": "원문 링크 · 읽기 메모",
+        "x": 38,
+        "y": 382,
+        "right": 280.328125,
+        "bottom": 422,
+        "size": "28px"
+      },
+      {
+        "index": 5,
+        "text": "wiki/",
+        "x": 622,
+        "y": 32,
+        "right": 736.21875,
+        "bottom": 102,
+        "size": "48px"
+      },
+      {
+        "index": 6,
+        "text": "개념과 비교를 작성·갱신",
+        "x": 622,
+        "y": 104,
+        "right": 923.734375,
+        "bottom": 148,
+        "size": "30px"
+      },
+      {
+        "index": 7,
+        "text": "concepts/",
+        "x": 622,
+        "y": 196,
+        "right": 773.8369140625,
+        "bottom": 245,
+        "size": "34px"
+      },
+      {
+        "index": 8,
+        "text": "검색해 읽기 · 모델 적응",
+        "x": 875,
+        "y": 196,
+        "right": 1201.171875,
+        "bottom": 245,
+        "size": "34px"
+      },
+      {
+        "index": 9,
+        "text": "comparisons/",
+        "x": 622,
+        "y": 266,
+        "right": 834.9541015625,
+        "bottom": 315,
+        "size": "34px"
+      },
+      {
+        "index": 10,
+        "text": "입력 문맥과 파라미터",
+        "x": 875,
+        "y": 266,
+        "right": 1167.90625,
+        "bottom": 315,
+        "size": "34px"
+      },
+      {
+        "index": 11,
+        "text": "questions/",
+        "x": 622,
+        "y": 336,
+        "right": 786.8856201171875,
+        "bottom": 385,
+        "size": "34px"
+      },
+      {
+        "index": 12,
+        "text": "다시 쓸 질문과 답",
+        "x": 875,
+        "y": 336,
+        "right": 1113.3775634765625,
+        "bottom": 385,
+        "size": "34px"
+      },
+      {
+        "index": 13,
+        "text": "rules.md  읽기·쓰기·근거·점검의 규칙",
+        "x": 0,
+        "y": 478,
+        "right": 450.140625,
+        "bottom": 518,
+        "size": "28px"
+      }
+    ]
+  }
+]

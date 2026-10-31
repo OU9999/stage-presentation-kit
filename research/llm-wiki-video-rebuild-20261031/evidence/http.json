@@ -1,0 +1,141 @@
+{
+  "checks": [
+    {
+      "url": "http://127.0.0.1:4320/_runtime/app.js?v=66951d0918bc",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/_runtime/blocks.css?v=53e410e9bb90",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/_runtime/blocks.js?v=6238a42a3298",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/_runtime/deck-model.js?v=53f266e64e75",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/_runtime/materials.css?v=1b61ac3b3119",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/_runtime/styles.css?v=8b448e36f1ef",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/_runtime/visual.css?v=8d3411ddc36d",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/_runtime/visual.js?v=02e26db1c3cc",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/index.html",
+      "status": 200,
+      "localMatch": false
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/assets/441435e97663-reuse-inputs.svg",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/assets/70a44a23d5e1-decision-transition.svg",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/assets/7f02c1c31f4c-course.txt",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/assets/8c6c53e6a95d-current-pending.svg",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/assets/9c0a83b5bf0a-llm-wiki-demo.zip",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/assets/a8ccde64c535-rebuild-study.txt",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/assets/ac3c13699c77-impact-map.svg",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/assets/b9b79ffd8cd0-team.txt",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/assets/c25067e5b335-reading.txt",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/content.js?v=9cd2dec09c2c",
+      "status": 200,
+      "localMatch": true
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/index.html",
+      "status": 200,
+      "localMatch": false
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/materials/demo-log.html",
+      "status": 200,
+      "localMatch": false
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/materials/index.html",
+      "status": 200,
+      "localMatch": false
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/materials/reference-library.html",
+      "status": 200,
+      "localMatch": false
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/materials/speaker-script.html",
+      "status": 200,
+      "localMatch": false
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/materials/study-guide.html",
+      "status": 200,
+      "localMatch": false
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/materials/workshop.html",
+      "status": 200,
+      "localMatch": false
+    },
+    {
+      "url": "http://127.0.0.1:4320/llm-wiki/read.html",
+      "status": 200,
+      "localMatch": false
+    }
+  ],
+  "failures": [],
+  "htmlHashNote": "Development server injects live reload; HTML byte equivalence not required."
+}

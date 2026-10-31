@@ -1,0 +1,11 @@
+{
+  "preservedFiles": 61,
+  "preservedChanged": [],
+  "commonRuntimeAndTemplate": [
+    "app.js",
+    "blocks.css",
+    "styles.css",
+    "templates/presentation.html"
+  ],
+  "commonChanged": []
+}

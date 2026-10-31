@@ -1,0 +1,16 @@
+{
+  "changed": [
+    "raw-wiki.svg"
+  ],
+  "preserved": [
+    "agentic-update.svg",
+    "compare-page.svg",
+    "concept-page.svg",
+    "ingest-links.svg",
+    "lint-review.svg",
+    "query-context.svg",
+    "question-saved.svg"
+  ],
+  "before": "9500324c3e8ab5030010a65dd833cbebe161aa543a375a7c909e3fd74c1769ff",
+  "after": "d2659d83b8bbe32cc59dd55d4bd543d24dc9b7dc65c91fd5b7e53b51249c56ee"
+}

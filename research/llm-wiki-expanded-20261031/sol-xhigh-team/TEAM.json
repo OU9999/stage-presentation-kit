@@ -1,0 +1,20 @@
+{
+  "user_instruction": "추가 발표 전문가팀 전원 GPT 6.1 SOL XHIGH",
+  "allocation": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "xhigh",
+    "fork_turns": "none"
+  },
+  "members": [
+    {
+      "task_name": "sol_xhigh_presentation_lead",
+      "role": "발표 구조·새 강의 통합"
+    },
+    {
+      "task_name": "sol_xhigh_audience_expert",
+      "role": "독립 청중·학습 경험 검토"
+    }
+  ],
+  "allocation_result": "Both spawn_agent calls accepted with the exact explicit overrides.",
+  "scope": "추가 전문팀의 두 구성원에 적용; root 및 기존 디자인/엔지니어링팀과 구별"
+}

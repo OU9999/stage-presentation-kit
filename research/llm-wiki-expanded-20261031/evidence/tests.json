@@ -1,0 +1,16 @@
+{
+  "command": "npm test",
+  "exitCode": 0,
+  "elapsedSeconds": 4.58,
+  "summary": [
+    "✔ TC-DR07 existing five Markdown decks retain source and rebuild deterministically with the shared visual runtime (29.151087ms)",
+    "ℹ tests 261",
+    "ℹ suites 0",
+    "ℹ pass 261",
+    "ℹ fail 0",
+    "ℹ cancelled 0",
+    "ℹ skipped 0",
+    "ℹ todo 0",
+    "ℹ duration_ms 4405.9338"
+  ]
+}

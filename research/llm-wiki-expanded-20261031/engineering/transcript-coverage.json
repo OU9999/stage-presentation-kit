@@ -1,0 +1,20 @@
+[
+  {
+    "video": "t4XEda3CB3Q",
+    "bytes": 65095,
+    "lines": 1340,
+    "sha256": "711333113de605f2ac66faba820f15ddd23160c5de32c30099b6e77530d7411d",
+    "firstTimestamp": "00:00",
+    "lastTimestamp": "48:42",
+    "review": "all lines read in ordered chunks; text-only review"
+  },
+  {
+    "video": "vvOuhfgH02E",
+    "bytes": 32944,
+    "lines": 707,
+    "sha256": "1edfb735252734fd8281954dc52f02acb69ec4f06c8ef3122fa3cc37d6ad9d72",
+    "firstTimestamp": "00:00",
+    "lastTimestamp": "22:16",
+    "review": "all lines read in ordered chunks; text-only review"
+  }
+]

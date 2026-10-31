@@ -1,0 +1,10 @@
+{
+  "title_count": 48,
+  "script_titles_in_exact_order": true,
+  "planned_timing_contiguous": true,
+  "main_seconds": 2100,
+  "qa_seconds": 300,
+  "slides37_41_seconds": 235,
+  "timing_is_measured": false,
+  "reference_review": "FINAL_REVIEW.md"
+}

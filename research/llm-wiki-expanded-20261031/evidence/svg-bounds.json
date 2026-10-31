@@ -1,0 +1,192 @@
+[
+  {
+    "name": "agentic-routing.svg",
+    "textCount": 9,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "comparison-synthesis.svg",
+    "textCount": 13,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "five-layers.svg",
+    "textCount": 14,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "ingest-map.svg",
+    "textCount": 16,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "knowledge-layers.svg",
+    "textCount": 15,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "purpose-questions.svg",
+    "textCount": 16,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "query-reading.svg",
+    "textCount": 14,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "rag-path.svg",
+    "textCount": 18,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "raw-wiki-rules.svg",
+    "textCount": 16,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "reflection-layers.svg",
+    "textCount": 10,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "related-updates.svg",
+    "textCount": 13,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "review-return.svg",
+    "textCount": 16,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "rules-graph.svg",
+    "textCount": 14,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "saved-question.svg",
+    "textCount": 9,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "session-plan.svg",
+    "textCount": 12,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "shared-workspace.svg",
+    "textCount": 15,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "source-concept.svg",
+    "textCount": 12,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "wiki-path.svg",
+    "textCount": 14,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "work-context.svg",
+    "textCount": 10,
+    "viewBox": [
+      1500,
+      600
+    ],
+    "outside": [],
+    "overlaps": []
+  }
+]

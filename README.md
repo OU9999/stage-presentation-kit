@@ -2,7 +2,7 @@
 
 `talks/발표이름/slides.md`만 수정하면 같은 STAGE 스타일의 발표와 읽기 자료를 만듭니다. 공통 테마는 `stage.config.json` 한 곳에서 바꾸며 여러 발표가 원고와 자산을 독립적으로 유지합니다. 생성한 화면은 로컬 CSS·JavaScript와 한국어 시스템 글꼴로 재생합니다.
 
-실제 AI 스터디 자료: **[LLM Wiki · 지식 축적 · 출처 · 결정 기록](presentations/llm-wiki/)** — LLM이 연결된 위키를 작성·갱신하는 원리와 독서·팀 지식·강의 연결 사례, 공개 구현·연구 및 Zoom 참여를 담은 40장. [약20분 핵심 진행안과 심화 대본](presentations/llm-wiki/materials/speaker-script.html) · [슬라이드 읽기](presentations/llm-wiki/read.html) · **[공부 자료·실습](presentations/llm-wiki/materials/index.html)** · [수정할 원고](talks/llm-wiki/slides.md).
+실제 AI 스터디 자료: **[LLM Wiki · 자료가 지식으로 쌓이는 방식](presentations/llm-wiki/)** — 등장 이유와 핵심 특징, RAG와의 비교, 문서 작성·갱신, 공유 위키에서 실제 진행안을 만드는 과정을 기승전결로 연결한 48장. 브레인 트리니티 공동 세미나를 포함한 세 영상의 전체 자막과 시간대별 화면을 대조하고, 밝은 캔버스와 새로운 도식으로 설계했습니다. [본편35분+Q&A5분 대본](presentations/llm-wiki/materials/speaker-script.html) · [슬라이드 읽기](presentations/llm-wiki/read.html) · **[공부 자료·실습](presentations/llm-wiki/materials/index.html)** · [15분 활동 진행안](presentations/llm-wiki/materials/session-plan.html) · [수정할 원고](talks/llm-wiki/slides.md) · [영상 조사와 반영 근거](research/llm-wiki-expanded-20261031/SOURCES.md).
 
 ```sh
 npm ci

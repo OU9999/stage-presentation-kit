@@ -1,0 +1,23 @@
+'use strict';
+const fs=require('node:fs');
+const path=require('node:path');
+const assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'../../..');
+const {parseDocument}=require(path.join(root,'scripts/markdown-document.cjs'));
+const doc=parseDocument(fs.readFileSync(path.join(root,'talks/llm-wiki/slides.md'),'utf8'));
+const script=fs.readFileSync(path.join(root,'talks/llm-wiki/materials/speaker-script.md'),'utf8');
+const headings=[...script.matchAll(/^## (\d+)장 · (.+)$/gm)].map(m=>({n:Number(m[1]),title:m[2]}));
+const plan=JSON.parse(fs.readFileSync(path.join(root,'research/llm-wiki-expanded-20261031/content/slide-plan.json'),'utf8'));
+const titles=doc.slides.map(s=>s.title);
+const titleMismatch=titles.flatMap((t,i)=>headings[i]?.title===t&&plan[i]?.title===t?[]:[{n:i+1,slide:t,script:headings[i]?.title,plan:plan[i]?.title}]);
+const compositions={},tones={};
+for(const s of doc.slides){compositions[s.view?.compose||'auto']=(compositions[s.view?.compose||'auto']||0)+1;tones[s.tone]=(tones[s.tone]||0)+1;}
+const totalSeconds=plan.reduce((a,s)=>a+s.seconds,0);
+const coreSeconds=plan.slice(0,47).reduce((a,s)=>a+s.seconds,0);
+const qaSeconds=plan[47]?.seconds;
+const spoken=[...script.matchAll(/\*\*말하기\*\*\n\n([\s\S]*?)(?=\n\n\*\*진행:)/g)].map(m=>m[1]);
+const session=fs.readFileSync(path.join(root,'talks/llm-wiki/materials/session-plan.md'),'utf8');
+const rows=[...session.matchAll(/^\| (\d+)~(\d+)분 \|/gm)].map(m=>({start:Number(m[1]),end:Number(m[2])}));
+const out={revision:doc.document.revision,slides:doc.slides.length,theme:doc.theme,scriptHeadings:headings.length,titleMismatch,totalSeconds,coreSeconds,qaSeconds,compositions,tones,spokenSections:spoken.length,spokenCharacters:spoken.join('').length,sessionActivities:rows,sessionMinutes:rows.reduce((a,r)=>a+r.end-r.start,0)};
+assert.equal(doc.slides.length,48);assert.equal(doc.theme,'paper');assert.equal(headings.length,48);assert.equal(plan.length,48);assert.equal(titleMismatch.length,0);assert.equal(totalSeconds,2400);assert.equal(coreSeconds,2100);assert.equal(qaSeconds,300);assert.deepEqual(plan.slice(36,41).map(s=>s.seconds),[40,45,50,55,45]);assert.deepEqual(rows,[{start:0,end:2},{start:2,end:6},{start:6,end:11},{start:11,end:15}]);assert.equal(out.sessionMinutes,15);
+fs.writeFileSync(path.join(__dirname,'source-check.json'),JSON.stringify(out,null,2)+'\n');console.log(JSON.stringify(out));

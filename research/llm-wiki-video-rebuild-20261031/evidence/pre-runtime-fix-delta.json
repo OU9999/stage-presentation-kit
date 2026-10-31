@@ -1,0 +1,163 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "index": "5",
+      "diagnostic": "작성자 점검 1",
+      "src": "assets/d2659d83b8bb-raw-wiki.svg"
+    },
+    {
+      "width": 960,
+      "documentWidth": 960,
+      "index": "5",
+      "diagnostic": "작성자 점검 1",
+      "src": "assets/d2659d83b8bb-raw-wiki.svg"
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "title": "24장 대본 · 다음 질문의 출발점",
+      "delta": true
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "title": "24장 대본 · 다음 질문의 출발점",
+      "delta": true
+    }
+  ],
+  "svg": {
+    "file": "raw-wiki.svg",
+    "outside": [],
+    "overlap": [],
+    "texts": [
+      {
+        "index": 0,
+        "text": "raw/",
+        "x": 38,
+        "y": 32,
+        "right": 142.109375,
+        "bottom": 102,
+        "size": "48px"
+      },
+      {
+        "index": 1,
+        "text": "원자료를 보존",
+        "x": 38,
+        "y": 104,
+        "right": 207.875,
+        "bottom": 148,
+        "size": "30px"
+      },
+      {
+        "index": 2,
+        "text": "rag-note.md",
+        "x": 38,
+        "y": 196,
+        "right": 241.65625,
+        "bottom": 248,
+        "size": "36px"
+      },
+      {
+        "index": 3,
+        "text": "lora-note.md",
+        "x": 38,
+        "y": 258,
+        "right": 253.046875,
+        "bottom": 310,
+        "size": "36px"
+      },
+      {
+        "index": 4,
+        "text": "원문 링크 · 읽기 메모",
+        "x": 38,
+        "y": 382,
+        "right": 280.328125,
+        "bottom": 422,
+        "size": "28px"
+      },
+      {
+        "index": 5,
+        "text": "wiki/",
+        "x": 622,
+        "y": 32,
+        "right": 736.21875,
+        "bottom": 102,
+        "size": "48px"
+      },
+      {
+        "index": 6,
+        "text": "개념과 비교를 작성·갱신",
+        "x": 622,
+        "y": 104,
+        "right": 923.734375,
+        "bottom": 148,
+        "size": "30px"
+      },
+      {
+        "index": 7,
+        "text": "concepts/",
+        "x": 622,
+        "y": 196,
+        "right": 773.8369140625,
+        "bottom": 245,
+        "size": "34px"
+      },
+      {
+        "index": 8,
+        "text": "검색해 읽기 · 모델 적응",
+        "x": 875,
+        "y": 196,
+        "right": 1201.171875,
+        "bottom": 245,
+        "size": "34px"
+      },
+      {
+        "index": 9,
+        "text": "comparisons/",
+        "x": 622,
+        "y": 266,
+        "right": 834.9541015625,
+        "bottom": 315,
+        "size": "34px"
+      },
+      {
+        "index": 10,
+        "text": "입력 문맥과 파라미터",
+        "x": 875,
+        "y": 266,
+        "right": 1167.90625,
+        "bottom": 315,
+        "size": "34px"
+      },
+      {
+        "index": 11,
+        "text": "questions/",
+        "x": 622,
+        "y": 336,
+        "right": 786.8856201171875,
+        "bottom": 385,
+        "size": "34px"
+      },
+      {
+        "index": 12,
+        "text": "다시 쓸 질문과 답",
+        "x": 875,
+        "y": 336,
+        "right": 1113.3775634765625,
+        "bottom": 385,
+        "size": "34px"
+      },
+      {
+        "index": 13,
+        "text": "rules.md  읽기·쓰기·근거·점검의 규칙",
+        "x": 0,
+        "y": 478,
+        "right": 450.140625,
+        "bottom": 518,
+        "size": "28px"
+      }
+    ]
+  }
+}

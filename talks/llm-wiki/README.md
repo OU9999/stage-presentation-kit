@@ -1,46 +1,41 @@
-# 다음 질문에 다시 쓰는 LLM Wiki
+# LLM Wiki · 자료가 지식으로 쌓이는 방식
 
-Zoom AI 스터디를 위한 40장 발표와 별도 학습 자료6개입니다. LLM이 원자료 사이의 개념·비교·종합을 연결된 Markdown 위키로 작성하고 갱신하는 이유와 흐름을 설명합니다. 독서·고객 요구·강의 메모의 서로 다른 적용 예로 입력→여러 페이지 갱신→후속 질문→유용한 답의 저장을 따라갑니다.
+제공된 세 영상의 자막·개념 슬라이드·시연과 별도 발표 전문가 공동 검토를 반영한 **48장, 본편35분+Q&A5분** 발표입니다. 시간은 배분안이며 음성 리허설 실측값은 아닙니다.
 
-기본 진행은 **1~28장 연속: 설명·참여18분 → 40장 Q&A2분**입니다.29~39장은 선택 심화이며 모두 열면555초를 별도로 더합니다.20분은 배분안이며 실제 리허설·사람 반응은 측정하지 않았습니다.
+## 발표의 기승전결
 
-## 화면과 자료
+| 막 | 범위 | 설명 |
+| --- | --- | --- |
+| 기 · 5분 | 1~8장 | 저장한 자료와 다시 쓸 이해의 차이, 등장 동기, 연결·축적·갱신 |
+| 승 · 8분 | 9~19장 | 같은 자료와 질문의 RAG/위키 비교, 작업 시점·결과·갱신·부담, 병행 가능성 |
+| 전 · 14분 | 20~36장 | 목적·raw/wiki/rules·문서 역할·새 조건의 다중 갱신·query/save/lint |
+| 결 · 8분 | 37~47장 | 학습·공유 작업·한 쪽 진행안·검토와 후속 질문, 유지 판단과 첫 요청 |
+| Q&A · 5분 | 48장 | 자기 자료와 후속 질문을 함께 검토 |
+
+세 영상의 읽기 메모에서 선별·사람의 선택 이유·개념/비교·현재 계획·갱신과 후속 답을 거쳐 실제 읽을 수 있는 한 쪽 진행안으로 이어집니다. 같은 자료·질문으로 검색/생성과 지속 문서의 차이를 설명하지만 실제 성능 실험으로 소개하지 않습니다.
+
+## 화면과 학습 자료
 
 - [발표](../../presentations/llm-wiki/index.html) · [슬라이드 읽기](../../presentations/llm-wiki/read.html)
-- [학습 자료 모음](../../presentations/llm-wiki/materials/index.html)
-- [혼자 공부하기](../../presentations/llm-wiki/materials/study-guide.html) · [실습과 해설](../../presentations/llm-wiki/materials/workshop.html)
-- [40장 대본](../../presentations/llm-wiki/materials/speaker-script.html) · [원문과 근거 안내](../../presentations/llm-wiki/materials/reference-library.html)
-- [보조 파일 교정 실행 기록](../../presentations/llm-wiki/materials/demo-log.html) · [고정 데모 ZIP](demo/llm-wiki-demo.zip)
+- [학습 자료](../../presentations/llm-wiki/materials/index.html) · [48장 대본](materials/speaker-script.md)
+- [혼자 공부하기](materials/study-guide.md) · [실습](materials/workshop.md) · [영상과 원문](materials/reference-library.md)
+- [읽기 메모·새 조건·위키 예제 팩](assets/expanded-study.txt)
+- [실제 15분 활동 진행안과 확인 범위](materials/session-plan.md)
+- [기존 고정 파일 교정 기록](materials/demo-log.md) · [고정 데모 ZIP](demo/llm-wiki-demo.zip)
 
-본편의 세 사례는 가상 자료로 만든 적용 예이며 실제 모델 출력·고객·소설·학생 기록이 아닙니다. 입력과 전후 파일, 질문 답의 저장을 [독서](assets/examples/reading.txt)·[고객 요구](assets/examples/team.txt)·[강의 메모](assets/examples/course.txt) 첨부에서 읽을 수 있습니다.
-
-심화에서는 원저자의 제안, 관찰한 공개 코드, 제한된 논문 실험, 우리가 만든 구성 예를 구별합니다. Microsoft 공개 코드의 `/save` handler는 수동 저장 안내만 하며, 논문의 실제 wiki arm은 고정 문맥과 질문 대상 자료를 받고 RAG arm은 검색합니다. 이를 설치 성공·조직 도입·표현만의 공정 비교·보편 우위로 소개하지 않습니다.
+10~41장의 파일과 답·활동안은 발표팀이 작성한 구성 예입니다. 세 원자료 메모는 실제 영상을 요약했고 새 모임 조건은 가상입니다. 실제 모임 성과나 자동 에이전트 실행으로 소개하지 않습니다. 개인 기록·회고 상세는 학습서에 보존했습니다. 15분 활동은 준비된 팩에서 목적과 연결 메모·공동 세미나 메모 두 개를 골라 읽는 활동으로, 설치와 전체 생성 완료 시간은 아닙니다.
 
 ## 진행과 참여
 
-28장 안의 ‘질문과 적용 이야기’→40장으로 이동합니다.40장에는29장 공개 구현/실험과34장 기존 파일 교정 실습 진입 링크가 있습니다.34/39장의 복귀 링크는40장으로 갑니다. 발표 장 안의 `#N` 링크로 이동하며 자료의 `slides.md#N`은 별도 읽기 화면을 여는 참고 경로입니다.
+1→2→…→48장의 선형 진행입니다. 45장에서 자기 자료·대상·만들 결과를 한 문장으로 적는20초를 배분하며 공유는 선택입니다. 웹 투표·입력 저장·자동 집계 기능은 없습니다. 40·41장에서 실제 활동안과 확인 범위를 읽고, 46장에서 예제 팩과 실습으로, 48장에서 학습서와 세 영상·기술 원문 안내로 이어집니다.
 
-13장은 같은 크기와 색의 두 상담을 읽고 ‘같은 요청으로 묶어도 될까요?’를5초 생각합니다. 구분 이유는14/15장에서 확인합니다.24장은 자기 노트에 질문 한 줄을20초 동안 적고 공유는 선택입니다. 자료 제목은 기억나는 만큼, 근거 위치는 다음에 확인해도 됩니다. 응답이 없으면 질문을 간직하고 진행합니다. 웹 투표·자동 집계·입력 저장 기능은 없습니다.
+## 수정과 재사용
 
-## 수정할 원본
+- 원본: [slides.md](slides.md), 덱 로컬 `theme: paper` 설정
+- 시각 자산: `assets/expanded/*.svg`, [출처와 제작 기록](assets/CREDITS.md)
+- 대본: [speaker-script.md](materials/speaker-script.md), [진행표](assets/speaker-guide.txt)
+- 생성: `npm run dev`, `npm run build:site`, 생성물 일치 확인 `npm run verify:site`
 
-- 발표: [slides.md](slides.md)
-- 자료 목차: [materials/index.md](materials/index.md)
-- 학습서: [materials/study-guide.md](materials/study-guide.md)
-- 실습: [materials/workshop.md](materials/workshop.md)
-- 대본: [materials/speaker-script.md](materials/speaker-script.md)
-- 원문 안내: [materials/reference-library.md](materials/reference-library.md)
-- 보조 실행 기록: [materials/demo-log.md](materials/demo-log.md)
-- 간단한 진행표: [assets/speaker-guide.txt](assets/speaker-guide.txt)
+`presentations/`는 생성 결과이며 HTML·content.js를 직접 편집하지 않습니다. 다른 주제로 옮길 때 이 폴더를 복사해 원고·자료·자산과 예제의 근거를 바꾸고 공통 runtime을 포함해 생성합니다. 이전 사진·24장용 SVG·고정 교정 데모는 출처 이력과 함께 보존했습니다.
 
-원본은 일반 Markdown입니다. `npm run dev`는 원고·자료를 다시 생성합니다. `presentations/`의 HTML·content.js는 직접 수정하지 않습니다. 등록된 자료 사이의 `.md` 링크는 생성 때 HTML로 연결됩니다. 새 사례 첨부는 `assets/examples/*.txt`이며 중첩 `materials/` 문서를 추가하지 않습니다.
-
-## 고정 교정 실습과 재사용
-
-기존 ZIP은 발표자가 학습용 오류와 고정 승인안을 작성하고 Node로 반영한 보조 예제입니다. 실제 LLM 호출·자동 검색·새 답 생성 실험은 아닙니다. 압축을 풀고 `llm-wiki-demo/`에서 `node run-demo.cjs`와 `node run-demo.cjs --check`를 실행합니다. 추가 패키지·API·로그인 없이 승인안 적용과 파일 검사를 재현합니다.
-
-8쪽 반영·로컬 링크25개·보존 파일10개의 해시는 각기 다른 파일 검사 단위입니다. 의미 정확도·검색 품질·시간 절감의 측정값은 아닙니다. RAG의 두 읽기 메모는 같은 v4의 읽은 범위 차이이며 원문 교체 사건이 아닙니다.
-
-`assets/sources.txt`, `starter-template.txt`, `decision-example.txt`는 이전 판의 보조 복사용 첨부로 보존합니다. 현재 발표의 정의·시작 요청·장번호는 40장 대본과 speaker-guide, 학습서·실습을 기준으로 읽습니다. 새 본편은 이전 txt를 현재 근거 경로로 연결하지 않습니다.
-
-다른 주제로 옮기려면 이 폴더를 `talks/새이름/`으로 복사하고 원고·자료·자산을 바꿉니다. 자료의 판과 실제 실행 범위를 새로 확인하세요. `npm run build`는 현재 프로젝트, `npm run build:site`는 전체 공개 사이트를 생성합니다. 공유할 때는 공통 runtime을 포함한 `presentations/` 전체를 전달합니다. 문법은 [작성 안내](../../MARKDOWN-FIRST.md), 사진과 자체 도식의 출처는 [CREDITS](assets/CREDITS.md), 이번 근거는 [연구 인수 패킷](../../research/llm-wiki-foundations-20261029/engineering/SYNTHESIS.md)에 있습니다.
+이번 설계와 확인 범위는 [확장 발표 조사](../../research/llm-wiki-expanded-20261031/)에 있습니다.

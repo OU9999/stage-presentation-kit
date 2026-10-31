@@ -1,0 +1,131 @@
+{
+  "scope": "제품 원문 전문, 최종48장 연속8시트, 주요18장 원본 및 교정45장 재확인",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "xhigh",
+  "files": [
+    {
+      "path": "talks/llm-wiki/slides.md",
+      "sha256": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4"
+    },
+    {
+      "path": "talks/llm-wiki/materials/speaker-script.md",
+      "sha256": "8d3bb80d6371144a8711f44d18b3d01792d35703e213248c5d21b7dce9d85d2f"
+    },
+    {
+      "path": "talks/llm-wiki/materials/session-plan.md",
+      "sha256": "1acab3335d004a4a640bcce3735b98610fa5c0d5e20919975e76ea5928914ebd"
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded-study.txt",
+      "sha256": "dacfb05fd38c22c7000ad9b34d14777613d74d223172c9cec972602cd3006cba"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/sol-xhigh-team/lead/FINAL_CONTRACT.md",
+      "sha256": "26174c9abb8ff38331f531443a22debd07764def4b02c6b1da447f5424edad58"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/contact/slides-1.jpg",
+      "sha256": "207733d4b100c2116d3445839f18106d34d82612d6fa8e729de5fc71e83f1d3d"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/contact/slides-2.jpg",
+      "sha256": "6eca0a255df06a6deac38285c516804ac70863b027a8cf6a41b5ac13a5bc236e"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/contact/slides-3.jpg",
+      "sha256": "0bdbbf24b8bce684023e1e2ad27ab9b0e5664850e870bd109db81bb468e9f547"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/contact/slides-4.jpg",
+      "sha256": "28e112fde6445003520474d1be7d360988102ce5aa42ed1e3f4ca10fe42f0fb6"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/contact/slides-5.jpg",
+      "sha256": "78232b0276c49f7d53d01899a3a82f0085188dafd2b608ae142f82d69ddaeef8"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/contact/slides-6.jpg",
+      "sha256": "d41af7fc4109c91a5a0e9bc09cab46b240a38017e320b785b5c4dc073e8668dd"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/contact/slides-7.jpg",
+      "sha256": "2a4e271c0259526858f21c07e8c955675af54903acc2116f72e9a02a70ecc04b"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/contact/slides-8.jpg",
+      "sha256": "6fb761e9bf98960cbf6bb4c751e827852d97059d480be1dc4d35d5ea9aa58060"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-11.png",
+      "sha256": "084200cd759a601c14dfe50996b1e59f1fde1ccfc6a7117d71703e43a650a499"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-12.png",
+      "sha256": "42f12406f03761aadfccd5b2dc20d6a96f109e08874743c965378bd251359887"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-14.png",
+      "sha256": "13424064e5e4ddddacd4acd024d6db379fd5437bfb4b24ed5650621b187e5403"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-18.png",
+      "sha256": "b1c73c7eaa849e53b4a3e0714138b86e419050649b759803629dd755e90d6386"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-20.png",
+      "sha256": "d496b03343d6922521a007c0a6e9c81227ed9462c30a3c65421a4a88efe9f8bc"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-23.png",
+      "sha256": "05b9afb3d08da5d0168dd7aac92a8a261427a5daa9e88d644b394cb4a8aef610"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-24.png",
+      "sha256": "b86944ca05ad3d11c8f092422c519684f4403d15c06603985db422266f8c3bf7"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-31.png",
+      "sha256": "343f5e73cbc9cb4638b43e02dfd79e7d2103139c9de3685f234dd1eddc6a7d85"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-32.png",
+      "sha256": "a3d9da8a8b9e74428781d70e3b5444e36c9921ecd7842b54f9b4c9b9959774c1"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-36.png",
+      "sha256": "84f3069e9abb71826ce31e802fbf99cfb7e1a80f1a50ccad97516865fa11a7b4"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-38.png",
+      "sha256": "0bdd73981cc30f351927cdb80a09d20febc945109c2d15d7ff99ec9eb20d48a9"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-39.png",
+      "sha256": "36198927343660a4cd283c6e31ea7850936cb916e19ec0a1605ddc3f7d676350"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-40.png",
+      "sha256": "fb3d846c5c5095cb8fd1b1b0e784b4b3d73c3a4ae2ff03a316d50fd4fff304d1"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-41.png",
+      "sha256": "570e15ce28bf976535aefda7e65ec1f774c440592d5af748b8ddd670967736d0"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-43.png",
+      "sha256": "c4e5f97080a7f009d862ac4cb3035151cf8157861e6b94b35dd2bf4a8eddc8f3"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-45.png",
+      "sha256": "1bf95671a3a7f3be082d9f715dcce9135e2f2bc835e940d53b201061f5ae0e29"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-46.png",
+      "sha256": "5de71a4528eb6a0b8c0a863ae322fff382e0fbb9eb7df20b07dcd8dec4c07d69"
+    },
+    {
+      "path": "research/llm-wiki-expanded-20261031/evidence/screens/expanded-slide-48.png",
+      "sha256": "95c7f792ec23d8ab2052a570f93cbf53e7c04b92da9ca987022a30d74b13aee8"
+    }
+  ]
+}

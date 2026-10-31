@@ -1,0 +1,133 @@
+{
+  "id": "Ef4AGnSU8UE",
+  "title": "위키는 만들었는데, 뭘 하죠? — 쌓기만 하던 기록을 AI가 꺼내 쓰는 지식으로 | 브라이언 X 김재경(@tofukyung)",
+  "channel": "Brian's Brain Trinity ",
+  "duration": 5199,
+  "upload_date": "20260916",
+  "chapters": [
+    {
+      "seconds": 0,
+      "title": "오프닝 — 오늘의 구성, 1부·2부 역할"
+    },
+    {
+      "seconds": 130,
+      "title": "브라이언 소개"
+    },
+    {
+      "seconds": 210,
+      "title": "균열 — \"AI가 알아서 기억해줘요\", 반은 맞고 반은 틀리다"
+    },
+    {
+      "seconds": 390,
+      "title": "LLM 위키란 — 위키 + LLM이 함께 읽고 쓰는 지식 베이스"
+    },
+    {
+      "seconds": 520,
+      "title": "목적 ① 골드 데이터 — AI는 시간에 멈춘 두뇌"
+    },
+    {
+      "seconds": 690,
+      "title": "목적 ② 꺼내 쓰게 손질 — 사람 문서 vs AI 문서(마크다운)"
+    },
+    {
+      "seconds": 820,
+      "title": "Gold In, Gold Out — 지식의 냉장고"
+    },
+    {
+      "seconds": 880,
+      "title": "RAG vs LLM 위키 — 찾아 붙이기 vs 미리 소화하기"
+    },
+    {
+      "seconds": 1000,
+      "title": "원칙 셋 — 목적 / 내 기록은 내가 / AI 산출과 분리"
+    },
+    {
+      "seconds": 1100,
+      "title": "기본형 — Raw · Ingest · Query · Lint"
+    },
+    {
+      "seconds": 1300,
+      "title": "시연 ① 캡처 — OpenAI Harness engineering · Tiago Forte"
+    },
+    {
+      "seconds": 1560,
+      "title": "시연 ② /ingest — \"왜 캡처했어?\"를 내가 쓴다"
+    },
+    {
+      "seconds": 2130,
+      "title": "시연 ③ /query — 협업 프로세스 질문, Syntheses에 저장"
+    },
+    {
+      "seconds": 2380,
+      "title": "확장 — Zotero · DEVONthink · Screenpipe · Omi"
+    },
+    {
+      "seconds": 2500,
+      "title": "생각을 외주하지 마라 · 관리 비용이라는 트레이드오프"
+    },
+    {
+      "seconds": 2610,
+      "title": "1부 정리 · 연락처"
+    },
+    {
+      "seconds": 2730,
+      "title": "2부 시작 — 김재경 소개, 냉장고 비유의 우연"
+    },
+    {
+      "seconds": 2910,
+      "title": "왜 에이전트를 여러 개 나누는가"
+    },
+    {
+      "seconds": 2980,
+      "title": "위키 = 에이전트 공동 작업 공간 · 봇별 폴더"
+    },
+    {
+      "seconds": 3090,
+      "title": "디스코드 봇 팀 — 카파시 · 코난 · 손석희 · 지드래곤 · 허사비스"
+    },
+    {
+      "seconds": 3300,
+      "title": "같은 자료도 봇끼리 판단이 갈린다 — 오케스트레이션"
+    },
+    {
+      "seconds": 3420,
+      "title": "1부 발표가 2부 위키로 — 회의록 자동 저장"
+    },
+    {
+      "seconds": 3630,
+      "title": "봇 회의실 문서 4종 — 맥락 · 발주 · 회의 · 아웃컴"
+    },
+    {
+      "seconds": 3810,
+      "title": "목차 문서와 위키 관리 스킬"
+    },
+    {
+      "seconds": 3880,
+      "title": "agent.md · claude.md · soul.md — 헌법 · 직무 · 말투"
+    },
+    {
+      "seconds": 4020,
+      "title": "rules.md 라우팅 · 훅 · 공유/개별 메모리"
+    },
+    {
+      "seconds": 4350,
+      "title": "1부 합성본을 두고 봇들이 토론"
+    },
+    {
+      "seconds": 4530,
+      "title": "핸드오프 — 카파씨 총괄, 3단 검수 루프"
+    },
+    {
+      "seconds": 4620,
+      "title": "우로보로스 플러그인 · 자동화는 최대 60%"
+    },
+    {
+      "seconds": 4710,
+      "title": "슬라이드 · PDF 산출 — 검수 봇들의 적대적 리뷰"
+    },
+    {
+      "seconds": 5010,
+      "title": "마무리 — 봇의 인사, 에이전트 코리아 · 커뮤니티"
+    }
+  ]
+}

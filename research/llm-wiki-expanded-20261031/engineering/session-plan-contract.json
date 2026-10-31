@@ -1,0 +1,44 @@
+{
+  "title": "입문자와 함께 읽는 15분 LLM Wiki 활동",
+  "chosen": [
+    "raw/brian-video.md",
+    "raw/seminar-video.md"
+  ],
+  "allInputs": 3,
+  "inputPaths": [
+    "raw/brian-video.md",
+    "raw/seminar-video.md",
+    "raw/yongdam-video.md"
+  ],
+  "timeRanges": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      11,
+      15
+    ]
+  ],
+  "minutes": [
+    2,
+    4,
+    5,
+    4
+  ],
+  "minuteSum": 15,
+  "registered": "materials/session-plan.md",
+  "output": "wiki/outputs/study-session-plan.md",
+  "review": "wiki/reviews/study-session-plan.md",
+  "bodySha256": "f9c468a6c5f94459625a6d1a5056bf50d008bf53d1f15acc4391b4179973a3dc",
+  "planMatchesRegistered": true,
+  "preparedPackInstructionMatches": true
+}

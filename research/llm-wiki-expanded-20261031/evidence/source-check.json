@@ -1,0 +1,44 @@
+{
+  "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+  "slides": 48,
+  "theme": "paper",
+  "scriptHeadings": 48,
+  "titleMismatch": [],
+  "totalSeconds": 2400,
+  "coreSeconds": 2100,
+  "qaSeconds": 300,
+  "compositions": {
+    "message": 2,
+    "quote": 8,
+    "media": 17,
+    "editorial": 14,
+    "document": 6,
+    "closing": 1
+  },
+  "tones": {
+    "green": 33,
+    "orange": 6,
+    "blue": 9
+  },
+  "spokenSections": 48,
+  "spokenCharacters": 14268,
+  "sessionActivities": [
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 11
+    },
+    {
+      "start": 11,
+      "end": 15
+    }
+  ],
+  "sessionMinutes": 15
+}

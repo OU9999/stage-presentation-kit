@@ -1,0 +1,20 @@
+{
+  "materials": 7,
+  "references": 236,
+  "referencesByDocument": {
+    "demo-log.md": 20,
+    "index.md": 18,
+    "reference-library.md": 94,
+    "session-plan.md": 8,
+    "speaker-script.md": 55,
+    "study-guide.md": 22,
+    "workshop.md": 19
+  },
+  "slides": 48,
+  "speakerSections": 48,
+  "titlesMatch": true,
+  "coreSeconds": 2100,
+  "qaSeconds": 300,
+  "sourceRevision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+  "errors": []
+}

@@ -1,0 +1,15 @@
+{
+  "slide_count": 24,
+  "script_count": 24,
+  "title_match": true,
+  "guide_title_match": true,
+  "duration_count": 24,
+  "core_seconds": 1080,
+  "total_seconds": 1200,
+  "image_references": 9,
+  "unique_images": 8,
+  "all_images_exist": true,
+  "media_contain": 9,
+  "has_24qa": true,
+  "old_navigation_absent": true
+}

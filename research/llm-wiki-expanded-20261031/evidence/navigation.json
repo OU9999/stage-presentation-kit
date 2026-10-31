@@ -1,0 +1,81 @@
+{
+  "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+  "walk": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "overview": 48,
+  "overviewSelection": 40,
+  "presenterToStage": 41,
+  "stageToPresenter": "42 / 48",
+  "clicks": [
+    {
+      "slide": 40,
+      "url": "http://127.0.0.1:4320/llm-wiki/materials/session-plan.html",
+      "title": "입문자와 함께 읽는 15분 LLM Wiki 활동"
+    },
+    {
+      "slide": 41,
+      "url": "http://127.0.0.1:4320/llm-wiki/materials/session-plan.html",
+      "title": "입문자와 함께 읽는 15분 LLM Wiki 활동"
+    },
+    {
+      "slide": 46,
+      "url": "http://127.0.0.1:4320/llm-wiki/materials/workshop.html",
+      "title": "작은 LLM Wiki 만들기"
+    },
+    {
+      "slide": 48,
+      "url": "http://127.0.0.1:4320/llm-wiki/materials/study-guide.html",
+      "title": "LLM Wiki 혼자 공부하기"
+    }
+  ],
+  "end": 48,
+  "home": 1
+}

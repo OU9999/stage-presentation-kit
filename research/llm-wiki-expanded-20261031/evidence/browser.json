@@ -1,0 +1,1427 @@
+{
+  "base": "http://127.0.0.1:4320/llm-wiki/",
+  "expected": {
+    "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+    "theme": "paper",
+    "titles": [
+      "LLM Wiki",
+      "어제 읽은 내용을 오늘도 다시 찾고 있나요?",
+      "저장한 자료와 다시 쓸 지식은 다릅니다",
+      "좋은 답에는 나의 맥락도 필요합니다",
+      "파일을 읽고 쓰는 에이전트가 등장했습니다",
+      "LLM이 공동 편집하는 지식 위키",
+      "연결하고, 쌓고, 다시 고칩니다",
+      "왜 필요한지에서, 직접 쓰는 방법까지",
+      "RAG는 필요한 근거를 찾아 답합니다",
+      "같은 자료와 질문으로 비교해 봅시다",
+      "질문할 때 근거를 모으는 흐름",
+      "먼저 연결된 설명을 써 두는 흐름",
+      "다음 질문의 출발점이 달라집니다",
+      "무엇을 남기고, 언제 고치는가",
+      "에이전틱 RAG는 검색 판단을 맡깁니다",
+      "파인튜닝은 모델을 조정하는 작업입니다",
+      "위키를 검색하는 RAG도 가능합니다",
+      "사람이 읽고 고칠 수 있는 지식이 남습니다",
+      "좋은 위키는 사용 목적부터 시작합니다",
+      "원자료·위키·작업 규칙을 나눕니다",
+      "보는 도구와 쓰는 도구는 다릅니다",
+      "모든 자료보다 다시 쓸 자료부터",
+      "넣는 이유와 앞으로의 쓰임을 묻습니다",
+      "세 영상에서 읽기 메모를 만듭니다",
+      "인제스트는 변환에 연결을 더합니다",
+      "자료 요약과 개념 페이지를 나눕니다",
+      "비교와 종합은 여러 자료를 함께 씁니다",
+      "목차와 로그는 탐색과 이력을 맡습니다",
+      "그래프는 연결, 규칙은 정리의 기준",
+      "새로운 조건 하나가 들어오면",
+      "관련 설명과 현재 계획을 함께 갱신합니다",
+      "질문할 때 필요한 페이지를 실제로 읽습니다",
+      "유용한 답도 다음 탐색의 입구가 됩니다",
+      "낡은 설명과 빠진 연결을 점검합니다",
+      "읽기·질문·점검이 같은 위키로 돌아옵니다",
+      "LLM은 정리하고 사람은 방향을 정합니다",
+      "학습에서는 질문을 이어 갈 수 있습니다",
+      "여러 작업자가 같은 위키를 읽습니다",
+      "맥락·요청·논의·결과를 연결합니다",
+      "정리한 지식으로 한 쪽 진행안을 만듭니다",
+      "검토한 결과와 이유를 다시 남깁니다",
+      "지식의 무덤은 목적 없이 커집니다",
+      "연결된 문서도 틀리고 낡을 수 있습니다",
+      "반복 질문의 가치와 유지 비용을 봅니다",
+      "내 자료에서 다음 질문 하나를 정해 봅시다",
+      "목적·자료·연결·검토를 함께 요청합니다",
+      "다음 질문이 이전 이해에서 출발하도록",
+      "어떤 지식을 다음 질문으로 이어 갈까요?"
+    ]
+  },
+  "slides": [
+    {
+      "n": 1,
+      "title": "LLM Wiki",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "message",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-01.png"
+    },
+    {
+      "n": 2,
+      "title": "어제 읽은 내용을 오늘도 다시 찾고 있나요?",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "quote",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-02.png"
+    },
+    {
+      "n": 3,
+      "title": "저장한 자료와 다시 쓸 지식은 다릅니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/2a181fa5202d-knowledge-layers.svg",
+          "alt": "원자료가 자료별 요약·주제별 개념·비교와 종합으로 이어져 다시 읽는 지식층이 되는 구성 예.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-03.png"
+    },
+    {
+      "n": 4,
+      "title": "좋은 답에는 나의 맥락도 필요합니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "quote",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-04.png"
+    },
+    {
+      "n": 5,
+      "title": "파일을 읽고 쓰는 에이전트가 등장했습니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [
+        {
+          "text": "설계 원문",
+          "href": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a"
+        }
+      ],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-05.png"
+    },
+    {
+      "n": 6,
+      "title": "LLM이 공동 편집하는 지식 위키",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "quote",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-06.png"
+    },
+    {
+      "n": 7,
+      "title": "연결하고, 쌓고, 다시 고칩니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-07.png"
+    },
+    {
+      "n": 8,
+      "title": "왜 필요한지에서, 직접 쓰는 방법까지",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "message",
+      "headingLines": 2,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-08.png"
+    },
+    {
+      "n": 9,
+      "title": "RAG는 필요한 근거를 찾아 답합니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-09.png"
+    },
+    {
+      "n": 10,
+      "title": "같은 자료와 질문으로 비교해 봅시다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "document",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-10.png"
+    },
+    {
+      "n": 11,
+      "title": "질문할 때 근거를 모으는 흐름",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/1eee6420ced6-rag-path.svg",
+          "alt": "같은 세 영상 메모에서 질문에 필요한 근거를 검색해 현재 입력에서 종합하고 이번 답을 만드는 기본 RAG 구성 예.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-11.png"
+    },
+    {
+      "n": 12,
+      "title": "먼저 연결된 설명을 써 두는 흐름",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/ac3124531b1b-wiki-path.svg",
+          "alt": "같은 세 영상 메모를 개념·비교·계획 문서로 연결해 유지하고 필요한 쪽을 다시 읽어 이번 스터디 질문에 답하는 LLM Wiki 구성 예.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-12.png"
+    },
+    {
+      "n": 13,
+      "title": "다음 질문의 출발점이 달라집니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-13.png"
+    },
+    {
+      "n": 14,
+      "title": "무엇을 남기고, 언제 고치는가",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "document",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-14.png"
+    },
+    {
+      "n": 15,
+      "title": "에이전틱 RAG는 검색 판단을 맡깁니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/6fa0448ed0ea-agentic-routing.svg",
+          "alt": "에이전트가 질문에 따라 검색할 정보원·방법·추가 탐색을 판단하는 흐름. 위키 문서와 원자료를 정보원으로 함께 쓸 수 있다.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-15.png"
+    },
+    {
+      "n": 16,
+      "title": "파인튜닝은 모델을 조정하는 작업입니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-16.png"
+    },
+    {
+      "n": 17,
+      "title": "위키를 검색하는 RAG도 가능합니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-17.png"
+    },
+    {
+      "n": 18,
+      "title": "사람이 읽고 고칠 수 있는 지식이 남습니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "document",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-18.png"
+    },
+    {
+      "n": 19,
+      "title": "좋은 위키는 사용 목적부터 시작합니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "quote",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-19.png"
+    },
+    {
+      "n": 20,
+      "title": "원자료·위키·작업 규칙을 나눕니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/6d50a2749b6d-raw-wiki-rules.svg",
+          "alt": "세 원자료와 사람의 이유, 연결된 개념·비교·종합을 구별하고 전체 작업 규칙과 목차·로그로 관리하는 구조.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-20.png"
+    },
+    {
+      "n": 21,
+      "title": "보는 도구와 쓰는 도구는 다릅니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-21.png"
+    },
+    {
+      "n": 22,
+      "title": "모든 자료보다 다시 쓸 자료부터",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-22.png"
+    },
+    {
+      "n": 23,
+      "title": "넣는 이유와 앞으로의 쓰임을 묻습니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/3ed7e7d65231-purpose-questions.svg",
+          "alt": "자료를 저장한 이유·중요하게 본 점·앞으로의 사용 목적을 질문하고 스터디의 목적 문장으로 좁히는 과정.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-23.png"
+    },
+    {
+      "n": 24,
+      "title": "세 영상에서 읽기 메모를 만듭니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "document",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [
+        {
+          "text": "영상 1 · 09:41",
+          "href": "https://www.youtube.com/watch?v=t4XEda3CB3Q&t=581s"
+        },
+        {
+          "text": "영상 2 · 13:34",
+          "href": "https://www.youtube.com/watch?v=vvOuhfgH02E&t=814s"
+        },
+        {
+          "text": "공동 세미나 · 16:37",
+          "href": "https://www.youtube.com/watch?v=Ef4AGnSU8UE&t=997s"
+        }
+      ],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-24.png"
+    },
+    {
+      "n": 25,
+      "title": "인제스트는 변환에 연결을 더합니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/7a49ed6f78cf-ingest-map.svg",
+          "alt": "세 영상 메모를 반영하면서 자료 요약과 개념·비교·현재 계획·목차를 연결하는 인제스트 과정.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-25.png"
+    },
+    {
+      "n": 26,
+      "title": "자료 요약과 개념 페이지를 나눕니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/50e568d57f92-source-concept.svg",
+          "alt": "세 영상 중 한 자료의 요약과 여러 원자료에 연결된 LLM Wiki 개념 페이지의 역할을 대비한 구성 예.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-26.png"
+    },
+    {
+      "n": 27,
+      "title": "비교와 종합은 여러 자료를 함께 씁니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/c426d9103283-comparison-synthesis.svg",
+          "alt": "동일 기준의 RAG·위키 비교에서 우리 AI 스터디의 현재 첫 시도 계획으로 이어지는 종합 문서의 역할.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-27.png"
+    },
+    {
+      "n": 28,
+      "title": "목차와 로그는 탐색과 이력을 맡습니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-28.png"
+    },
+    {
+      "n": 29,
+      "title": "그래프는 연결, 규칙은 정리의 기준",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/e537dec78c63-rules-graph.svg",
+          "alt": "자료와 해석을 구분하는 문서 규칙과 영상·개념·비교·계획의 연결을 탐색하는 그래프 보기의 차이.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-29.png"
+    },
+    {
+      "n": 30,
+      "title": "새로운 조건 하나가 들어오면",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "quote",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-30.png"
+    },
+    {
+      "n": 31,
+      "title": "관련 설명과 현재 계획을 함께 갱신합니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/bba75b75afd0-related-updates.svg",
+          "alt": "입문자와 15분 활동의 가상 조건으로 개념의 우리 적용 범위, 비교의 선택 기준, 현재 활동 계획과 목차·로그를 함께 갱신하는 구성 예.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-31.png"
+    },
+    {
+      "n": 32,
+      "title": "질문할 때 필요한 페이지를 실제로 읽습니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/f64b6c951ac7-query-reading.svg",
+          "alt": "입문자와 15분 활동의 후속 질문을 위해 갱신한 계획·비교·개념·원자료를 찾아 현재 문맥으로 읽는 과정.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-32.png"
+    },
+    {
+      "n": 33,
+      "title": "유용한 답도 다음 탐색의 입구가 됩니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/a8391e4e8ba5-saved-question.svg",
+          "alt": "후속 질문과 검토한 활동 순서, 관련 계획·근거·남은 확인을 질문 페이지에 저장하고 한 쪽 진행안의 재료로 연결한 모습.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-33.png"
+    },
+    {
+      "n": 34,
+      "title": "낡은 설명과 빠진 연결을 점검합니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-34.png"
+    },
+    {
+      "n": 35,
+      "title": "읽기·질문·점검이 같은 위키로 돌아옵니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-35.png"
+    },
+    {
+      "n": 36,
+      "title": "LLM은 정리하고 사람은 방향을 정합니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-36.png"
+    },
+    {
+      "n": 37,
+      "title": "학습에서는 질문을 이어 갈 수 있습니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-37.png"
+    },
+    {
+      "n": 38,
+      "title": "여러 작업자가 같은 위키를 읽습니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/e00064ced99e-shared-workspace.svg",
+          "alt": "사람의 목적과 현재 결정이 있는 공통 위키를 작성 역할과 검토 역할이 함께 읽어 결과를 만드는 공유 작업 구조.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-38.png"
+    },
+    {
+      "n": 39,
+      "title": "맥락·요청·논의·결과를 연결합니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/5fb164eddea4-work-context.svg",
+          "alt": "입문자와 15분 활동의 맥락, 한 쪽 진행안 요청, 메모 선택 이유의 논의, 결과와 남은 확인을 연결하는 구성 예.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-39.png"
+    },
+    {
+      "n": 40,
+      "title": "정리한 지식으로 한 쪽 진행안을 만듭니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/9c4e7bb89f27-session-plan.svg",
+          "alt": "실제 제공하는 한 쪽 진행안에서 목적2분·두 메모읽기4분·관계근거찾기5분·후속질문4분의 15분 활동을 발췌한 화면.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "text": "15분 활동 진행안 읽기",
+          "href": "materials/session-plan.html"
+        }
+      ],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-40.png"
+    },
+    {
+      "n": 41,
+      "title": "검토한 결과와 이유를 다시 남깁니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "media",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [
+        {
+          "src": "assets/0e57de4cad93-review-return.svg",
+          "alt": "진행안의 시간 합계·대상과 범위·근거·작성 주체를 대조하고 선택 이유와 다음 30분 활동 질문을 연결한 검토 구성.",
+          "width": 1500,
+          "height": 600,
+          "fit": "contain"
+        }
+      ],
+      "links": [
+        {
+          "text": "결과·확인 범위·다음 질문 읽기",
+          "href": "materials/session-plan.html"
+        }
+      ],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-41.png"
+    },
+    {
+      "n": 42,
+      "title": "지식의 무덤은 목적 없이 커집니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "quote",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-42.png"
+    },
+    {
+      "n": 43,
+      "title": "연결된 문서도 틀리고 낡을 수 있습니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "editorial",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-43.png"
+    },
+    {
+      "n": 44,
+      "title": "반복 질문의 가치와 유지 비용을 봅니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "document",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-44.png"
+    },
+    {
+      "n": 45,
+      "title": "내 자료에서 다음 질문 하나를 정해 봅시다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "quote",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-45.png"
+    },
+    {
+      "n": 46,
+      "title": "목적·자료·연결·검토를 함께 요청합니다",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "document",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [
+        {
+          "text": "예제 팩",
+          "href": "assets/dacfb05fd38c-expanded-study.txt"
+        },
+        {
+          "text": "작게 따라 하기",
+          "href": "materials/workshop.html"
+        }
+      ],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-46.png"
+    },
+    {
+      "n": 47,
+      "title": "다음 질문이 이전 이해에서 출발하도록",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "closing",
+      "headingLines": 2,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-47.png"
+    },
+    {
+      "n": 48,
+      "title": "어떤 지식을 다음 질문으로 이어 갈까요?",
+      "revision": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+      "theme": "paper",
+      "composition": "quote",
+      "headingLines": 1,
+      "overflow": [],
+      "diagnostic": null,
+      "images": [],
+      "links": [
+        {
+          "text": "학습서",
+          "href": "materials/study-guide.html"
+        },
+        {
+          "text": "실습",
+          "href": "materials/workshop.html"
+        },
+        {
+          "text": "15분 진행안",
+          "href": "materials/session-plan.html"
+        },
+        {
+          "text": "세 영상과 원문 안내",
+          "href": "materials/reference-library.html"
+        }
+      ],
+      "clippedScroll": 0,
+      "screenshot": ".playwright-cli/expanded-slide-48.png"
+    }
+  ],
+  "compact": [
+    {
+      "index": "2",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "5",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "6",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "10",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "11",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "13",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "16",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "19",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "22",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "24",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "25",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "26",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "28",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "30",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "31",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "32",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "34",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "38",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "39",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "40",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "45",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    },
+    {
+      "index": "47",
+      "diagnostic": null,
+      "width": 960,
+      "viewport": 960
+    }
+  ],
+  "reading": [
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "count": 48,
+      "titles": [
+        "LLM Wiki",
+        "어제 읽은 내용을 오늘도 다시 찾고 있나요?",
+        "저장한 자료와 다시 쓸 지식은 다릅니다",
+        "좋은 답에는 나의 맥락도 필요합니다",
+        "파일을 읽고 쓰는 에이전트가 등장했습니다",
+        "LLM이 공동 편집하는 지식 위키",
+        "연결하고, 쌓고, 다시 고칩니다",
+        "왜 필요한지에서, 직접 쓰는 방법까지",
+        "RAG는 필요한 근거를 찾아 답합니다",
+        "같은 자료와 질문으로 비교해 봅시다",
+        "질문할 때 근거를 모으는 흐름",
+        "먼저 연결된 설명을 써 두는 흐름",
+        "다음 질문의 출발점이 달라집니다",
+        "무엇을 남기고, 언제 고치는가",
+        "에이전틱 RAG는 검색 판단을 맡깁니다",
+        "파인튜닝은 모델을 조정하는 작업입니다",
+        "위키를 검색하는 RAG도 가능합니다",
+        "사람이 읽고 고칠 수 있는 지식이 남습니다",
+        "좋은 위키는 사용 목적부터 시작합니다",
+        "원자료·위키·작업 규칙을 나눕니다",
+        "보는 도구와 쓰는 도구는 다릅니다",
+        "모든 자료보다 다시 쓸 자료부터",
+        "넣는 이유와 앞으로의 쓰임을 묻습니다",
+        "세 영상에서 읽기 메모를 만듭니다",
+        "인제스트는 변환에 연결을 더합니다",
+        "자료 요약과 개념 페이지를 나눕니다",
+        "비교와 종합은 여러 자료를 함께 씁니다",
+        "목차와 로그는 탐색과 이력을 맡습니다",
+        "그래프는 연결, 규칙은 정리의 기준",
+        "새로운 조건 하나가 들어오면",
+        "관련 설명과 현재 계획을 함께 갱신합니다",
+        "질문할 때 필요한 페이지를 실제로 읽습니다",
+        "유용한 답도 다음 탐색의 입구가 됩니다",
+        "낡은 설명과 빠진 연결을 점검합니다",
+        "읽기·질문·점검이 같은 위키로 돌아옵니다",
+        "LLM은 정리하고 사람은 방향을 정합니다",
+        "학습에서는 질문을 이어 갈 수 있습니다",
+        "여러 작업자가 같은 위키를 읽습니다",
+        "맥락·요청·논의·결과를 연결합니다",
+        "정리한 지식으로 한 쪽 진행안을 만듭니다",
+        "검토한 결과와 이유를 다시 남깁니다",
+        "지식의 무덤은 목적 없이 커집니다",
+        "연결된 문서도 틀리고 낡을 수 있습니다",
+        "반복 질문의 가치와 유지 비용을 봅니다",
+        "내 자료에서 다음 질문 하나를 정해 봅시다",
+        "목적·자료·연결·검토를 함께 요청합니다",
+        "다음 질문이 이전 이해에서 출발하도록",
+        "어떤 지식을 다음 질문으로 이어 갈까요?"
+      ],
+      "images": [
+        {
+          "alt": "원자료가 자료별 요약·주제별 개념·비교와 종합으로 이어져 다시 읽는 지식층이 되는 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "같은 세 영상 메모에서 질문에 필요한 근거를 검색해 현재 입력에서 종합하고 이번 답을 만드는 기본 RAG 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "같은 세 영상 메모를 개념·비교·계획 문서로 연결해 유지하고 필요한 쪽을 다시 읽어 이번 스터디 질문에 답하는 LLM Wiki 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "에이전트가 질문에 따라 검색할 정보원·방법·추가 탐색을 판단하는 흐름. 위키 문서와 원자료를 정보원으로 함께 쓸 수 있다.",
+          "fit": "contain"
+        },
+        {
+          "alt": "세 원자료와 사람의 이유, 연결된 개념·비교·종합을 구별하고 전체 작업 규칙과 목차·로그로 관리하는 구조.",
+          "fit": "contain"
+        },
+        {
+          "alt": "자료를 저장한 이유·중요하게 본 점·앞으로의 사용 목적을 질문하고 스터디의 목적 문장으로 좁히는 과정.",
+          "fit": "contain"
+        },
+        {
+          "alt": "세 영상 메모를 반영하면서 자료 요약과 개념·비교·현재 계획·목차를 연결하는 인제스트 과정.",
+          "fit": "contain"
+        },
+        {
+          "alt": "세 영상 중 한 자료의 요약과 여러 원자료에 연결된 LLM Wiki 개념 페이지의 역할을 대비한 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "동일 기준의 RAG·위키 비교에서 우리 AI 스터디의 현재 첫 시도 계획으로 이어지는 종합 문서의 역할.",
+          "fit": "contain"
+        },
+        {
+          "alt": "자료와 해석을 구분하는 문서 규칙과 영상·개념·비교·계획의 연결을 탐색하는 그래프 보기의 차이.",
+          "fit": "contain"
+        },
+        {
+          "alt": "입문자와 15분 활동의 가상 조건으로 개념의 우리 적용 범위, 비교의 선택 기준, 현재 활동 계획과 목차·로그를 함께 갱신하는 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "입문자와 15분 활동의 후속 질문을 위해 갱신한 계획·비교·개념·원자료를 찾아 현재 문맥으로 읽는 과정.",
+          "fit": "contain"
+        },
+        {
+          "alt": "후속 질문과 검토한 활동 순서, 관련 계획·근거·남은 확인을 질문 페이지에 저장하고 한 쪽 진행안의 재료로 연결한 모습.",
+          "fit": "contain"
+        },
+        {
+          "alt": "사람의 목적과 현재 결정이 있는 공통 위키를 작성 역할과 검토 역할이 함께 읽어 결과를 만드는 공유 작업 구조.",
+          "fit": "contain"
+        },
+        {
+          "alt": "입문자와 15분 활동의 맥락, 한 쪽 진행안 요청, 메모 선택 이유의 논의, 결과와 남은 확인을 연결하는 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "실제 제공하는 한 쪽 진행안에서 목적2분·두 메모읽기4분·관계근거찾기5분·후속질문4분의 15분 활동을 발췌한 화면.",
+          "fit": "contain"
+        },
+        {
+          "alt": "진행안의 시간 합계·대상과 범위·근거·작성 주체를 대조하고 선택 이유와 다음 30분 활동 질문을 연결한 검토 구성.",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "count": 48,
+      "titles": [
+        "LLM Wiki",
+        "어제 읽은 내용을 오늘도 다시 찾고 있나요?",
+        "저장한 자료와 다시 쓸 지식은 다릅니다",
+        "좋은 답에는 나의 맥락도 필요합니다",
+        "파일을 읽고 쓰는 에이전트가 등장했습니다",
+        "LLM이 공동 편집하는 지식 위키",
+        "연결하고, 쌓고, 다시 고칩니다",
+        "왜 필요한지에서, 직접 쓰는 방법까지",
+        "RAG는 필요한 근거를 찾아 답합니다",
+        "같은 자료와 질문으로 비교해 봅시다",
+        "질문할 때 근거를 모으는 흐름",
+        "먼저 연결된 설명을 써 두는 흐름",
+        "다음 질문의 출발점이 달라집니다",
+        "무엇을 남기고, 언제 고치는가",
+        "에이전틱 RAG는 검색 판단을 맡깁니다",
+        "파인튜닝은 모델을 조정하는 작업입니다",
+        "위키를 검색하는 RAG도 가능합니다",
+        "사람이 읽고 고칠 수 있는 지식이 남습니다",
+        "좋은 위키는 사용 목적부터 시작합니다",
+        "원자료·위키·작업 규칙을 나눕니다",
+        "보는 도구와 쓰는 도구는 다릅니다",
+        "모든 자료보다 다시 쓸 자료부터",
+        "넣는 이유와 앞으로의 쓰임을 묻습니다",
+        "세 영상에서 읽기 메모를 만듭니다",
+        "인제스트는 변환에 연결을 더합니다",
+        "자료 요약과 개념 페이지를 나눕니다",
+        "비교와 종합은 여러 자료를 함께 씁니다",
+        "목차와 로그는 탐색과 이력을 맡습니다",
+        "그래프는 연결, 규칙은 정리의 기준",
+        "새로운 조건 하나가 들어오면",
+        "관련 설명과 현재 계획을 함께 갱신합니다",
+        "질문할 때 필요한 페이지를 실제로 읽습니다",
+        "유용한 답도 다음 탐색의 입구가 됩니다",
+        "낡은 설명과 빠진 연결을 점검합니다",
+        "읽기·질문·점검이 같은 위키로 돌아옵니다",
+        "LLM은 정리하고 사람은 방향을 정합니다",
+        "학습에서는 질문을 이어 갈 수 있습니다",
+        "여러 작업자가 같은 위키를 읽습니다",
+        "맥락·요청·논의·결과를 연결합니다",
+        "정리한 지식으로 한 쪽 진행안을 만듭니다",
+        "검토한 결과와 이유를 다시 남깁니다",
+        "지식의 무덤은 목적 없이 커집니다",
+        "연결된 문서도 틀리고 낡을 수 있습니다",
+        "반복 질문의 가치와 유지 비용을 봅니다",
+        "내 자료에서 다음 질문 하나를 정해 봅시다",
+        "목적·자료·연결·검토를 함께 요청합니다",
+        "다음 질문이 이전 이해에서 출발하도록",
+        "어떤 지식을 다음 질문으로 이어 갈까요?"
+      ],
+      "images": [
+        {
+          "alt": "원자료가 자료별 요약·주제별 개념·비교와 종합으로 이어져 다시 읽는 지식층이 되는 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "같은 세 영상 메모에서 질문에 필요한 근거를 검색해 현재 입력에서 종합하고 이번 답을 만드는 기본 RAG 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "같은 세 영상 메모를 개념·비교·계획 문서로 연결해 유지하고 필요한 쪽을 다시 읽어 이번 스터디 질문에 답하는 LLM Wiki 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "에이전트가 질문에 따라 검색할 정보원·방법·추가 탐색을 판단하는 흐름. 위키 문서와 원자료를 정보원으로 함께 쓸 수 있다.",
+          "fit": "contain"
+        },
+        {
+          "alt": "세 원자료와 사람의 이유, 연결된 개념·비교·종합을 구별하고 전체 작업 규칙과 목차·로그로 관리하는 구조.",
+          "fit": "contain"
+        },
+        {
+          "alt": "자료를 저장한 이유·중요하게 본 점·앞으로의 사용 목적을 질문하고 스터디의 목적 문장으로 좁히는 과정.",
+          "fit": "contain"
+        },
+        {
+          "alt": "세 영상 메모를 반영하면서 자료 요약과 개념·비교·현재 계획·목차를 연결하는 인제스트 과정.",
+          "fit": "contain"
+        },
+        {
+          "alt": "세 영상 중 한 자료의 요약과 여러 원자료에 연결된 LLM Wiki 개념 페이지의 역할을 대비한 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "동일 기준의 RAG·위키 비교에서 우리 AI 스터디의 현재 첫 시도 계획으로 이어지는 종합 문서의 역할.",
+          "fit": "contain"
+        },
+        {
+          "alt": "자료와 해석을 구분하는 문서 규칙과 영상·개념·비교·계획의 연결을 탐색하는 그래프 보기의 차이.",
+          "fit": "contain"
+        },
+        {
+          "alt": "입문자와 15분 활동의 가상 조건으로 개념의 우리 적용 범위, 비교의 선택 기준, 현재 활동 계획과 목차·로그를 함께 갱신하는 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "입문자와 15분 활동의 후속 질문을 위해 갱신한 계획·비교·개념·원자료를 찾아 현재 문맥으로 읽는 과정.",
+          "fit": "contain"
+        },
+        {
+          "alt": "후속 질문과 검토한 활동 순서, 관련 계획·근거·남은 확인을 질문 페이지에 저장하고 한 쪽 진행안의 재료로 연결한 모습.",
+          "fit": "contain"
+        },
+        {
+          "alt": "사람의 목적과 현재 결정이 있는 공통 위키를 작성 역할과 검토 역할이 함께 읽어 결과를 만드는 공유 작업 구조.",
+          "fit": "contain"
+        },
+        {
+          "alt": "입문자와 15분 활동의 맥락, 한 쪽 진행안 요청, 메모 선택 이유의 논의, 결과와 남은 확인을 연결하는 구성 예.",
+          "fit": "contain"
+        },
+        {
+          "alt": "실제 제공하는 한 쪽 진행안에서 목적2분·두 메모읽기4분·관계근거찾기5분·후속질문4분의 15분 활동을 발췌한 화면.",
+          "fit": "contain"
+        },
+        {
+          "alt": "진행안의 시간 합계·대상과 범위·근거·작성 주체를 대조하고 선택 이유와 다음 30분 활동 질문을 연결한 검토 구성.",
+          "fit": "contain"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "path": "/llm-wiki/materials/index.html",
+      "width": 1440,
+      "documentWidth": 1440,
+      "title": "LLM Wiki 학습 자료",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/study-guide.html",
+      "width": 1440,
+      "documentWidth": 1440,
+      "title": "LLM Wiki 혼자 공부하기",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/workshop.html",
+      "width": 1440,
+      "documentWidth": 1440,
+      "title": "작은 LLM Wiki 만들기",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/speaker-script.html",
+      "width": 1440,
+      "documentWidth": 1440,
+      "title": "48장 대본 · 본편 35분과 Q&A 5분",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/reference-library.html",
+      "width": 1440,
+      "documentWidth": 1440,
+      "title": "원문 읽기 안내와 용어 모음",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/demo-log.html",
+      "width": 1440,
+      "documentWidth": 1440,
+      "title": "실제 파일 읽기와 교정 실행 기록",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/session-plan.html",
+      "width": 1440,
+      "documentWidth": 1440,
+      "title": "입문자와 함께 읽는 15분 LLM Wiki 활동",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/index.html",
+      "width": 390,
+      "documentWidth": 390,
+      "title": "LLM Wiki 학습 자료",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/study-guide.html",
+      "width": 390,
+      "documentWidth": 390,
+      "title": "LLM Wiki 혼자 공부하기",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/workshop.html",
+      "width": 390,
+      "documentWidth": 390,
+      "title": "작은 LLM Wiki 만들기",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/speaker-script.html",
+      "width": 390,
+      "documentWidth": 390,
+      "title": "48장 대본 · 본편 35분과 Q&A 5분",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/reference-library.html",
+      "width": 390,
+      "documentWidth": 390,
+      "title": "원문 읽기 안내와 용어 모음",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/demo-log.html",
+      "width": 390,
+      "documentWidth": 390,
+      "title": "실제 파일 읽기와 교정 실행 기록",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    },
+    {
+      "path": "/llm-wiki/materials/session-plan.html",
+      "width": 390,
+      "documentWidth": 390,
+      "title": "입문자와 함께 읽는 15분 LLM Wiki 활동",
+      "mainFontSize": "18px",
+      "brokenImages": 0
+    }
+  ],
+  "navigation": {
+    "end": 48,
+    "home": 1,
+    "right": 2
+  },
+  "errors": []
+}

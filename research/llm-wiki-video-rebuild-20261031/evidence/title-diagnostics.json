@@ -1,0 +1,22 @@
+{
+  "healthy": {
+    "warning": null,
+    "details": ""
+  },
+  "horizontalOverflow": {
+    "warning": "작성자 점검 2",
+    "details": "경고3번 슬라이드 · talks/llm-wiki/slides.md:32원고 talks/llm-wiki/slides.md:32의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.경고3번 슬라이드 · talks/llm-wiki/slides.md:34원고 talks/llm-wiki/slides.md:34의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요."
+  },
+  "clippedAboveSlide": {
+    "warning": "작성자 점검 1",
+    "details": "경고3번 슬라이드 · talks/llm-wiki/slides.md:32원고 talks/llm-wiki/slides.md:32의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요."
+  },
+  "bodyOverflow": {
+    "warning": "작성자 점검 1",
+    "details": "경고3번 슬라이드 · talks/llm-wiki/slides.md:36원고 talks/llm-wiki/slides.md:36의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요."
+  },
+  "restored": {
+    "warning": null,
+    "details": ""
+  }
+}

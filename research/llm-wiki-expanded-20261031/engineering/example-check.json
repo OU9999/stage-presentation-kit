@@ -1,0 +1,36 @@
+{
+  "exampleFiles": 17,
+  "exampleVariants": 22,
+  "missingExampleLinks": [],
+  "planMatchesRegistered": true,
+  "timeRanges": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      11,
+      15
+    ]
+  ],
+  "minutes": [
+    2,
+    4,
+    5,
+    4
+  ],
+  "minuteSum": 15,
+  "chosenNotes": [
+    "raw/brian-video.md",
+    "raw/seminar-video.md"
+  ],
+  "preparedPackInstructionMatches": true
+}

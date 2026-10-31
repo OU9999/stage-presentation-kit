@@ -1,0 +1,16 @@
+{
+  "head": "58c92b1e3f383889ae317e3a2110c769060e9529",
+  "files": {
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "53e410e9bb90c436482208f7e721a8fd2d3e4dc45bbda4b6d5c75c2753d4d355",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "talks/llm-wiki/materials/demo-log.md": "372e0fd0febd72327183c027981df42ef8095a6efac4a4e87d4062fafff6625a",
+    "talks/llm-wiki/materials/index.md": "74a7d33ba693976f4286ec9a6888955e870cf9a423ab3e3bd0283e1ddac8946f",
+    "talks/llm-wiki/materials/reference-library.md": "10cfdb86db098679f5096fe9186e9e09ff00b1d1bb408d9ffdbe94ad0887c7c4",
+    "talks/llm-wiki/materials/speaker-script.md": "0dad377a72e95a44970e211488010a82d04600a76972a02f378f5351117a98e9",
+    "talks/llm-wiki/materials/study-guide.md": "bc22f0cf03e431a0f5a7e31ca154e9993db30167fb051841dce02a5ddeb116bb",
+    "talks/llm-wiki/materials/workshop.md": "3a602edc1233633f033a932c23f9c6d9604254799dfab96a7986d1c0c734ad17",
+    "talks/llm-wiki/slides.md": "90922beacf3435f6418c4723a4f8efc641191cf9496b2c627f6a030f43bf8670",
+    "templates/presentation.html": "c764f4649354a77887b2f8f69a809995b3c64d65402a04b6697225edf6afc4dd"
+  }
+}
