@@ -317,7 +317,7 @@
         Object.keys(object).forEach(function (key) { if (allowed.indexOf(key) < 0) fail(location + "." + key, "지원하지 않는 조판 설정 키입니다."); });
         if (object.compose !== undefined && ["auto", "message", "split", "media", "gallery", "mosaic", "editorial", "quote", "closing", "document", "bento", "icon-wall"].indexOf(object.compose) < 0) fail(location + ".compose", "지원하는 compose 이름을 사용하세요.");
         if (object.fit !== undefined && ["contain", "cover"].indexOf(object.fit) < 0) fail(location + ".fit", "fit은 contain/cover여야 합니다.");
-        if (!group && object.variant !== undefined && ["portraits", "strip", "staggered", "balanced", "seoul", "recap"].indexOf(object.variant) < 0) fail(location + ".variant", "지원하는 variant 이름을 사용하세요.");
+        if (!group && object.variant !== undefined && ["portraits", "strip", "staggered", "balanced", "seoul", "recap", "centered"].indexOf(object.variant) < 0) fail(location + ".variant", "지원하는 variant 이름을 사용하세요.");
         if (group && object.icon !== undefined && !normalizeIcon(object.icon)) fail(location + ".icon", "지원하는 기존 아이콘 이름을 사용하세요.");
         if (!group && object.icons !== undefined) {
           if (!Array.isArray(object.icons)) fail(location + ".icons", "icons는 아이콘 이름 또는 {icon, tone}의 배열이어야 합니다.");

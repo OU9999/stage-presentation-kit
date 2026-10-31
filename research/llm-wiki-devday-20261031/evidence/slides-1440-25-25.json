@@ -1,0 +1,31 @@
+{
+  "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+  "width": 1440,
+  "slides": [
+    {
+      "n": 25,
+      "viewport": 1440,
+      "title": "인제스트는 관계를 남깁니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/8421786b1f57-ingest-map.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    }
+  ]
+}

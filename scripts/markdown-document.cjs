@@ -13,7 +13,7 @@ const TAGS = new Set(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li',
 const UNSUPPORTED = new Set(['notes', 'appendix', 'role', 'sourceDownload']);
 const COMPOSITIONS = ['auto', 'message', 'split', 'media', 'gallery', 'mosaic', 'editorial', 'quote', 'closing', 'document', 'bento', 'icon-wall'];
 const TONES = ['orange', 'purple', 'blue', 'green', 'yellow', 'neutral'];
-const VARIANTS = ['portraits', 'strip', 'staggered', 'balanced', 'seoul', 'recap'];
+const VARIANTS = ['portraits', 'strip', 'staggered', 'balanced', 'seoul', 'recap', 'centered'];
 const own = (object, key) => Object.prototype.hasOwnProperty.call(object, key);
 const text = value => ({ type: 'text', value });
 const element = (tag, children, position, attrs) => ({ type: 'element', tag, ...(attrs && Object.keys(attrs).length ? { attrs } : {}), children, ...(position ? { position } : {}) });

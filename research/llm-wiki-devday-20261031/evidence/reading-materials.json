@@ -1,0 +1,178 @@
+[
+  {
+    "path": "read.html",
+    "width": 1440,
+    "viewport": 1440,
+    "documentWidth": 1440,
+    "title": "LLM Wiki",
+    "slides": 48,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/index.html",
+    "width": 1440,
+    "viewport": 1440,
+    "documentWidth": 1440,
+    "title": "LLM Wiki 학습 자료",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/study-guide.html",
+    "width": 1440,
+    "viewport": 1440,
+    "documentWidth": 1440,
+    "title": "LLM Wiki 혼자 공부하기",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/workshop.html",
+    "width": 1440,
+    "viewport": 1440,
+    "documentWidth": 1440,
+    "title": "LLM Wiki 예제 읽기와 선택 심화",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/speaker-script.html",
+    "width": 1440,
+    "viewport": 1440,
+    "documentWidth": 1440,
+    "title": "48장 대본 · 본편 35분과 Q&A 5분",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/reference-library.html",
+    "width": 1440,
+    "viewport": 1440,
+    "documentWidth": 1440,
+    "title": "원문 읽기 안내와 용어 모음",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/demo-log.html",
+    "width": 1440,
+    "viewport": 1440,
+    "documentWidth": 1440,
+    "title": "실제 파일 읽기와 교정 실행 기록",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/session-plan.html",
+    "width": 1440,
+    "viewport": 1440,
+    "documentWidth": 1440,
+    "title": "입문자와 함께 읽는 15분 LLM Wiki 활동",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "read.html",
+    "width": 390,
+    "viewport": 390,
+    "documentWidth": 390,
+    "title": "LLM Wiki",
+    "slides": 48,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/index.html",
+    "width": 390,
+    "viewport": 390,
+    "documentWidth": 390,
+    "title": "LLM Wiki 학습 자료",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/study-guide.html",
+    "width": 390,
+    "viewport": 390,
+    "documentWidth": 390,
+    "title": "LLM Wiki 혼자 공부하기",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/workshop.html",
+    "width": 390,
+    "viewport": 390,
+    "documentWidth": 390,
+    "title": "LLM Wiki 예제 읽기와 선택 심화",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/speaker-script.html",
+    "width": 390,
+    "viewport": 390,
+    "documentWidth": 390,
+    "title": "48장 대본 · 본편 35분과 Q&A 5분",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/reference-library.html",
+    "width": 390,
+    "viewport": 390,
+    "documentWidth": 390,
+    "title": "원문 읽기 안내와 용어 모음",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/demo-log.html",
+    "width": 390,
+    "viewport": 390,
+    "documentWidth": 390,
+    "title": "실제 파일 읽기와 교정 실행 기록",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  },
+  {
+    "path": "materials/session-plan.html",
+    "width": 390,
+    "viewport": 390,
+    "documentWidth": 390,
+    "title": "입문자와 함께 읽는 15분 LLM Wiki 활동",
+    "slides": 0,
+    "textSize": "18px",
+    "youtubeLinks": [],
+    "oldContext": false
+  }
+]

@@ -87,6 +87,8 @@ tone: purple
 
 `compose`는 `auto`(기본), `message`, `split`, `media`, `gallery`, `mosaic`, `editorial`, `bento`, `icon-wall`, `quote`, `closing`, `document`를 지원합니다. mosaic은 첫 사진을 크게, editorial은 H2별 자료를 주역/보조 그룹으로 표현합니다. closing은 저자가 끝 장의 표현을 선택할 때 사용합니다. split은 이미지가 먼저 오고 뒤에 문단/목록이 이어지는 형태만 묶습니다. 앞 설명→이미지→뒤 설명, 문장과 섞인 이미지, 링크로 감싼 이미지를 무단 추출/재정렬하지 않습니다.
 
+짧은 개념을 나란히 크게 설명하려면 `compose: editorial`에 `variant: centered`를 추가합니다. H2 그룹을 무대 중앙 높이에 놓고 상단 구분선 없이 제목·본문을 크게 보여 줍니다. 일반 editorial은 그대로 유지하며, 읽기 화면에서는 같은 내용이 원래 순서의 문서로 표시됩니다. 이 변형은 editorial에서만 사용합니다.
+
 `tone`은 `blue`, `orange`, `purple`, `green`, `yellow`, `neutral`입니다. 색은 주로 강조와 그룹 제목에 쓰고 단위/출처는 중립으로 둡니다. Paper에서도 기존 STAGE 팔레트에 맞춥니다. `fit`은 `contain`(기본, 전체 보존) 또는 `cover`(사진 crop), `focus`는 `'0% 0%'`~`'100% 100%'`의 두 위치입니다. 이미지 title은 화면 caption과 출처로 남고 alt는 그대로 보존합니다. 읽기에서는 crop을 풀고 원본 전체를 보여 줍니다.
 
 gallery/mosaic에서 사진마다 얼굴·관심 지점이 다르면 장의 `focus`를 원고 이미지 순서에 맞는 좌표 배열로 지정할 수 있습니다. 예를 들어 `focus: ['50% 40%', '50% 25%', '50% 0%']`는3장의 위치를 각각 정합니다. 좌표는0~100%이며 배열은1~6개를 받습니다. 실제 grid의 사진 수와 다르거나 gallery/mosaic 이외 구도라면 document+경고로 전환하고 사진은 안전한 contain으로 전체를 보존합니다. 좌표를 추정하거나 배열을 순환하지 않습니다. 그룹의 focus는 기존처럼 한 좌표 문자열만 받습니다. cover 결과에서 얼굴/중요 대상이 남는지는 실제 미리보기에서 확인하세요.

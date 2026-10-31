@@ -1,0 +1,254 @@
+[
+  {
+    "path": "assets/1f943e43d8d7-rag-path.svg",
+    "status": 200,
+    "bytes": 3327,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/245ebc8ac44e-expanded-study.txt",
+    "status": 200,
+    "bytes": 31511,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/441435e97663-reuse-inputs.svg",
+    "status": 200,
+    "bytes": 2452,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/4f573bd52fd7-session-plan.svg",
+    "status": 200,
+    "bytes": 2629,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/53a825b0ec6d-work-context.svg",
+    "status": 200,
+    "bytes": 2060,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/61efab0bdac3-query-reading.svg",
+    "status": 200,
+    "bytes": 2865,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/64974be0b3ab-review-return.svg",
+    "status": 200,
+    "bytes": 2919,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/6b2263dbe032-related-updates.svg",
+    "status": 200,
+    "bytes": 2407,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/70a44a23d5e1-decision-transition.svg",
+    "status": 200,
+    "bytes": 2576,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/7f02c1c31f4c-course.txt",
+    "status": 200,
+    "bytes": 3272,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/8421786b1f57-ingest-map.svg",
+    "status": 200,
+    "bytes": 3453,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/8c6c53e6a95d-current-pending.svg",
+    "status": 200,
+    "bytes": 2356,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/9c0a83b5bf0a-llm-wiki-demo.zip",
+    "status": 200,
+    "bytes": 23952,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/a3c7b37535df-source-concept.svg",
+    "status": 200,
+    "bytes": 2772,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/ac3c13699c77-impact-map.svg",
+    "status": 200,
+    "bytes": 3472,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/b60496417179-shared-workspace.svg",
+    "status": 200,
+    "bytes": 2795,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/b9b79ffd8cd0-team.txt",
+    "status": 200,
+    "bytes": 3241,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/bf4ad827da99-knowledge-layers.svg",
+    "status": 200,
+    "bytes": 3031,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/c25067e5b335-reading.txt",
+    "status": 200,
+    "bytes": 3128,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/c87ca6007051-comparison-synthesis.svg",
+    "status": 200,
+    "bytes": 2423,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/de481ad077ff-purpose-questions.svg",
+    "status": 200,
+    "bytes": 2240,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/e39c92d904c4-wiki-path.svg",
+    "status": 200,
+    "bytes": 3245,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/e6cfdff902cd-saved-question.svg",
+    "status": 200,
+    "bytes": 2313,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/f2422a7925dc-raw-wiki-rules.svg",
+    "status": 200,
+    "bytes": 3007,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/f3be1e228c97-rules-graph.svg",
+    "status": 200,
+    "bytes": 4124,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "assets/fb43cf279e74-agentic-routing.svg",
+    "status": 200,
+    "bytes": 2484,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "content.js",
+    "status": 200,
+    "bytes": 152006,
+    "matches_local": true,
+    "youtube_url": false
+  },
+  {
+    "path": "index.html",
+    "status": 200,
+    "bytes": 7395,
+    "matches_local": null,
+    "youtube_url": false
+  },
+  {
+    "path": "materials/demo-log.html",
+    "status": 200,
+    "bytes": 25119,
+    "matches_local": null,
+    "youtube_url": false
+  },
+  {
+    "path": "materials/index.html",
+    "status": 200,
+    "bytes": 10253,
+    "matches_local": null,
+    "youtube_url": false
+  },
+  {
+    "path": "materials/reference-library.html",
+    "status": 200,
+    "bytes": 41787,
+    "matches_local": null,
+    "youtube_url": false
+  },
+  {
+    "path": "materials/session-plan.html",
+    "status": 200,
+    "bytes": 9960,
+    "matches_local": null,
+    "youtube_url": false
+  },
+  {
+    "path": "materials/speaker-script.html",
+    "status": 200,
+    "bytes": 80573,
+    "matches_local": null,
+    "youtube_url": false
+  },
+  {
+    "path": "materials/study-guide.html",
+    "status": 200,
+    "bytes": 36777,
+    "matches_local": null,
+    "youtube_url": false
+  },
+  {
+    "path": "materials/workshop.html",
+    "status": 200,
+    "bytes": 45520,
+    "matches_local": null,
+    "youtube_url": false
+  },
+  {
+    "path": "read.html",
+    "status": 200,
+    "bytes": 7393,
+    "matches_local": null,
+    "youtube_url": false
+  }
+]

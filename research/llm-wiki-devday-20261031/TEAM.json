@@ -1,0 +1,11 @@
+{
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "xhigh",
+  "members": [
+    {"team": "design", "agent": "/root/devday_design_director", "role": "design specification and SVG implementation", "model": "gpt-6.1-sol", "reasoning_effort": "xhigh", "fork_turns": "none"},
+    {"team": "design", "agent": "/root/devday_design_critic", "role": "independent visual audit and design synthesis", "model": "gpt-6.1-sol", "reasoning_effort": "xhigh", "fork_turns": "none"},
+    {"team": "presentation", "agent": "/root/devday_presentation_lead", "role": "slides, speaker script, timing and presentation synthesis", "model": "gpt-6.1-sol", "reasoning_effort": "xhigh", "fork_turns": "none"},
+    {"team": "presentation", "agent": "/root/devday_materials_editor", "role": "learning materials, example pack and independent consistency checks", "model": "gpt-6.1-sol", "reasoning_effort": "xhigh", "fork_turns": "none"}
+  ],
+  "coordination": "Root integration with no model attribution; at most three team members run concurrently. Design critic finishes the initial two-person audit before the materials editor starts; final visual review resumes the same design agents."
+}

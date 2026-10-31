@@ -130,6 +130,23 @@ test('editorial keeps prelude, all H2 groups, an unmarked H2 boundary and final 
   assert.ok(groups[2].textContent.endsWith('가상 수치이며 성과나 전환율이 아닙니다.'));
 });
 
+test('centered editorial preserves linked group content and warns on an incompatible composition', () => {
+  const content = '# 두 가지 역할\n\n## 원자료\n\n[근거](https://example.com/source)를 보존합니다.\n\n## 위키\n\n**이해를 연결**하고 고칩니다.';
+  const result = preserved(control('compose: editorial\nvariant: centered') + content);
+  assert.deepEqual(validateDeck({ slides: [result.parsed] }), []);
+  assert.equal(result.composition, 'editorial');
+  assert.equal(result.variant, 'centered');
+  assert.equal(result.warnings.length, 0);
+  assert.deepEqual(findClass(result.body, 'md-group').map(node => node.textContent), ['원자료근거를 보존합니다.', '위키이해를 연결하고 고칩니다.']);
+  assert.equal(nodes(result.body).find(node => node.tagName === 'a').attrs.href, 'https://example.com/source');
+  const ordinary = preserved(control('compose: editorial') + content);
+  assert.equal(ordinary.variant, '');
+  const fallback = preserved(control('compose: document\nvariant: centered') + content);
+  assert.equal(fallback.composition, 'document');
+  assert.equal(fallback.variant, '');
+  assert.match(fallback.warnings[0].message, /variant/);
+});
+
 test('only standalone numeric emphasis followed by a short plain unit receives value hooks', () => {
   const cases = [
     ['**9,876,543.2** 건', true], ['**0** 개', true], ['**024** 개', true],

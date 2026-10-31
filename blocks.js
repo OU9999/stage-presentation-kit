@@ -190,7 +190,7 @@
       warnings.push({ message: "선택한 " + requested + " 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.", line: slide.origin && slide.origin.line || 1, path: options.sourcePath || "" });
     }
     var geometry = null, variant = view.variant || (composition === "bento" ? "balanced" : "");
-    var variants = { portraits: "gallery", strip: "gallery", staggered: "mosaic", balanced: "bento", seoul: "bento", recap: "bento" };
+    var variants = { portraits: "gallery", strip: "gallery", staggered: "mosaic", balanced: "bento", seoul: "bento", recap: "bento", centered: "editorial" };
     function fallback(message) {
       composition = "document";
       warnings.push({ message: message + " 내용을 모두 유지한 기본 문서로 표시합니다.", line: slide.origin && slide.origin.line || 1, path: options.sourcePath || "" });

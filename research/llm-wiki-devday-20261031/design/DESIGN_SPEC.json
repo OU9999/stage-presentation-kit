@@ -1,0 +1,1522 @@
+{
+  "version": 1,
+  "date": "2026-10-31",
+  "status": "implemented-awaiting-final-browser-review",
+  "baseline": {
+    "git": "92f3c29",
+    "source_sha256": "c0d3f5671112a4f59cb8be07a555dde823670c40d97314df10cbd8b791fe3fb4",
+    "slides": 48,
+    "main_minutes": 35,
+    "qa_minutes": 5
+  },
+  "ownership": {
+    "design_director": [
+      "DIRECTION.md",
+      "DESIGN_SPEC.json",
+      "generate_assets.py",
+      "talks/llm-wiki/assets/expanded/*.svg"
+    ],
+    "presentation_lead": [
+      "talks/llm-wiki/slides.md",
+      "speaker-script.md",
+      "speaker-guide.txt",
+      "talk README"
+    ],
+    "root": [
+      "WORK_LOG.md",
+      "shared centered variant",
+      "generated output",
+      "browser acceptance"
+    ]
+  },
+  "palette": {
+    "canvas": "#080808",
+    "text": "#F6F6F4",
+    "muted": "#A4A4A1",
+    "line": "#5A5A57",
+    "context_surface": "#151515",
+    "retrieval": "#24A8FF",
+    "saved_knowledge": "#69CF82",
+    "purpose_change": "#FF7A3D",
+    "document": "#F6F6F4",
+    "document_ink": "#1D1D1B",
+    "document_muted": "#62625F"
+  },
+  "content_contract": {
+    "source_count": 3,
+    "source_names": [
+      {
+        "file": "context-note.md",
+        "label": "목적과 맥락"
+      },
+      {
+        "file": "retrieval-note.md",
+        "label": "검색과 비교"
+      },
+      {
+        "file": "synthesis-note.md",
+        "label": "지식의 활용"
+      }
+    ],
+    "public_youtube_links": false,
+    "public_real_names_or_timecodes": false,
+    "authored_educational_example": true,
+    "internal_research_preserved": true,
+    "new_actual_workshop": false
+  },
+  "shared_implementation": {
+    "theme": "stage",
+    "editorial_variant": "centered",
+    "owner": "root",
+    "opt_in": true,
+    "requires": [
+      "scripts/markdown-document.cjs VARIANTS",
+      "blocks.js variant/composition map",
+      "blocks.css editorial centered scope",
+      "Markdown documentation",
+      "meaningful validation"
+    ],
+    "deck_specific_selectors": false,
+    "read_order": "source"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "baseline_title": "LLM Wiki",
+      "baseline_composition": "message",
+      "target_composition": "message",
+      "target_variant": null,
+      "role": "cover",
+      "visual_focus": "중앙의 LLM Wiki와 자료→지식→결과 문장",
+      "title_px": 118,
+      "hero_px": 118,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "LLM Wiki"
+    },
+    {
+      "slide": 2,
+      "baseline_title": "어제 읽은 내용을 오늘도 다시 찾고 있나요?",
+      "baseline_composition": "quote",
+      "target_composition": "quote",
+      "target_variant": null,
+      "role": "question",
+      "visual_focus": "지난 이해를 다음 질문에 다시 쓰는 질문",
+      "title_px": 38,
+      "hero_px": 70,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "어제의 이해는 어디에 있나요?"
+    },
+    {
+      "slide": 3,
+      "baseline_title": "저장한 자료와 다시 쓸 지식은 다릅니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "open-relationship",
+      "visual_focus": "원자료와 연결된 지식의 열린 관계",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": "./assets/expanded/knowledge-layers.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "자료에서 다시 읽을 지식으로"
+    },
+    {
+      "slide": 4,
+      "baseline_title": "좋은 답에는 나의 맥락도 필요합니다",
+      "baseline_composition": "quote",
+      "target_composition": "message",
+      "target_variant": null,
+      "role": "purpose-message",
+      "visual_focus": "나의 맥락과 만들 결과를 큰 문장 하나로",
+      "title_px": 118,
+      "hero_px": 118,
+      "body_px": 34,
+      "tone": "orange",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "좋은 답에는 맥락이 필요합니다"
+    },
+    {
+      "slide": 5,
+      "baseline_title": "파일을 읽고 쓰는 에이전트가 등장했습니다",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "two-roles",
+      "visual_focus": "파일을 다루는 에이전트와 남는 지식층",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "파일을 읽고 쓰는 에이전트"
+    },
+    {
+      "slide": 6,
+      "baseline_title": "LLM이 공동 편집하는 지식 위키",
+      "baseline_composition": "quote",
+      "target_composition": "quote",
+      "target_variant": null,
+      "role": "definition",
+      "visual_focus": "LLM이 공동 편집하는 연결된 문서의 정의",
+      "title_px": 38,
+      "hero_px": 70,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "LLM과 함께 편집하는 지식"
+    },
+    {
+      "slide": 7,
+      "baseline_title": "연결하고, 쌓고, 다시 고칩니다",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "three-functions",
+      "visual_focus": "연결·축적·갱신의 서로 다른 동사",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "연결 · 축적 · 갱신"
+    },
+    {
+      "slide": 8,
+      "baseline_title": "왜 필요한지에서, 직접 쓰는 방법까지",
+      "baseline_composition": "message",
+      "target_composition": "message",
+      "target_variant": null,
+      "role": "section-route",
+      "visual_focus": "필요→비교→작동→적용의 진행 경로",
+      "title_px": 118,
+      "hero_px": 118,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "필요에서 활용까지"
+    },
+    {
+      "slide": 9,
+      "baseline_title": "RAG는 필요한 근거를 찾아 답합니다",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "retrieval-flow",
+      "visual_focus": "검색→현재 문맥→생성의 순서",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "blue",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "RAG는 근거를 찾아 답합니다"
+    },
+    {
+      "slide": 10,
+      "baseline_title": "같은 자료와 질문으로 비교해 봅시다",
+      "baseline_composition": "document",
+      "target_composition": "document",
+      "target_variant": null,
+      "role": "common-input",
+      "visual_focus": "동일 질문과 동일한 세 주제 메모",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 28,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "같은 자료, 같은 질문"
+    },
+    {
+      "slide": 11,
+      "baseline_title": "질문할 때 근거를 모으는 흐름",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "transient-context",
+      "visual_focus": "세 원자료→찾은 근거의 이번 입력→현재 답",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "blue",
+      "asset": "./assets/expanded/rag-path.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "질문할 때 근거를 모읍니다"
+    },
+    {
+      "slide": 12,
+      "baseline_title": "먼저 연결된 설명을 써 두는 흐름",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "persistent-knowledge",
+      "visual_focus": "세 원자료→저장된 개념·비교·계획→재읽기",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "green",
+      "asset": "./assets/expanded/wiki-path.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "연결된 설명을 먼저 써 둡니다"
+    },
+    {
+      "slide": 13,
+      "baseline_title": "다음 질문의 출발점이 달라집니다",
+      "baseline_composition": "editorial",
+      "target_composition": "message",
+      "target_variant": null,
+      "role": "difference-message",
+      "visual_focus": "다음 질문이 어디서 출발하는가",
+      "title_px": 118,
+      "hero_px": 118,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "다음 질문의 출발점"
+    },
+    {
+      "slide": 14,
+      "baseline_title": "무엇을 남기고, 언제 고치는가",
+      "baseline_composition": "document",
+      "target_composition": "document",
+      "target_variant": null,
+      "role": "comparison-table",
+      "visual_focus": "정리시점·남는결과·계속드는일을 같은 축으로",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 28,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "무엇을 남기고, 언제 고치는가"
+    },
+    {
+      "slide": 15,
+      "baseline_title": "에이전틱 RAG는 검색 판단을 맡깁니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "routing",
+      "visual_focus": "검색할 정보원과 반복 판단의 열린 분기",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "blue",
+      "asset": "./assets/expanded/agentic-routing.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "검색 판단을 맡기는 에이전틱 RAG"
+    },
+    {
+      "slide": 16,
+      "baseline_title": "파인튜닝은 모델을 조정하는 작업입니다",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "two-roles",
+      "visual_focus": "문서/입력 수정과 모델 조정을 구별",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "문서 편집과 모델 조정은 다릅니다"
+    },
+    {
+      "slide": 17,
+      "baseline_title": "위키를 검색하는 RAG도 가능합니다",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "combined-flow",
+      "visual_focus": "지식 정리→필요한 쪽 찾기→지금 답하기",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "위키를 검색하는 RAG"
+    },
+    {
+      "slide": 18,
+      "baseline_title": "사람이 읽고 고칠 수 있는 지식이 남습니다",
+      "baseline_composition": "document",
+      "target_composition": "document",
+      "target_variant": null,
+      "role": "authorship-table",
+      "visual_focus": "원문 요지·사람 이유·종합의 읽기 질문",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 28,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "사람이 읽고 고칠 지식"
+    },
+    {
+      "slide": 19,
+      "baseline_title": "좋은 위키는 사용 목적부터 시작합니다",
+      "baseline_composition": "quote",
+      "target_composition": "message",
+      "target_variant": null,
+      "role": "purpose-message",
+      "visual_focus": "다음 스터디의 한 쪽 진행안이라는 목적",
+      "title_px": 118,
+      "hero_px": 118,
+      "body_px": 34,
+      "tone": "orange",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "시작은 사용 목적입니다"
+    },
+    {
+      "slide": 20,
+      "baseline_title": "원자료·위키·작업 규칙을 나눕니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "file-structure",
+      "visual_focus": "raw/wiki 두역할과 밖의 전역 rules",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": "./assets/expanded/raw-wiki-rules.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "원자료 · 위키 · 작업 규칙"
+    },
+    {
+      "slide": 21,
+      "baseline_title": "보는 도구와 쓰는 도구는 다릅니다",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "two-tools",
+      "visual_focus": "문서를 보는 도구와 파일을 다루는 에이전트",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "읽는 도구와 쓰는 도구"
+    },
+    {
+      "slide": 22,
+      "baseline_title": "모든 자료보다 다시 쓸 자료부터",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "selection-criteria",
+      "visual_focus": "목적 관련성·현재 필요·내 판단의 병렬 조건",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "다시 쓸 자료부터 고릅니다"
+    },
+    {
+      "slide": 23,
+      "baseline_title": "넣는 이유와 앞으로의 쓰임을 묻습니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "purpose-note",
+      "visual_focus": "사람이 남긴 목적 한 문장과 네가지 맥락 질문",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "orange",
+      "asset": "./assets/expanded/purpose-questions.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "왜 골랐고, 어디에 쓸까요?"
+    },
+    {
+      "slide": 24,
+      "baseline_title": "세 영상에서 읽기 메모를 만듭니다",
+      "baseline_composition": "document",
+      "target_composition": "document",
+      "target_variant": null,
+      "role": "source-notes",
+      "visual_focus": "자작 주제 메모 세개와 원요지/내이유/종합 구별",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 28,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "세 메모로 나눈 출발점"
+    },
+    {
+      "slide": 25,
+      "baseline_title": "인제스트는 변환에 연결을 더합니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "ingest-relationship",
+      "visual_focus": "자료 요약·개념·비교·현재 계획을 함께 연결",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "green",
+      "asset": "./assets/expanded/ingest-map.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "인제스트는 관계도 작성합니다"
+    },
+    {
+      "slide": 26,
+      "baseline_title": "자료 요약과 개념 페이지를 나눕니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "two-documents",
+      "visual_focus": "한 자료 요약과 여러 자료를 종합한 개념 페이지",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": "./assets/expanded/source-concept.svg",
+      "surface": "document-on-stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "자료 요약과 개념의 역할"
+    },
+    {
+      "slide": 27,
+      "baseline_title": "비교와 종합은 여러 자료를 함께 씁니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "synthesis-document",
+      "visual_focus": "같은축 비교를 우리목적의 현재계획으로 종합",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": "./assets/expanded/comparison-synthesis.svg",
+      "surface": "document-on-stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "비교에서 현재 계획으로"
+    },
+    {
+      "slide": 28,
+      "baseline_title": "목차와 로그는 탐색과 이력을 맡습니다",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "navigation-history",
+      "visual_focus": "목차는현재입구·로그는변경이유",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "목차는 탐색, 로그는 이력"
+    },
+    {
+      "slide": 29,
+      "baseline_title": "그래프는 연결, 규칙은 정리의 기준",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "rules-and-graph",
+      "visual_focus": "정리규칙의문장과실제문서연결의열린그래프",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": "./assets/expanded/rules-graph.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "그래프는 연결, 규칙은 기준"
+    },
+    {
+      "slide": 30,
+      "baseline_title": "새로운 조건 하나가 들어오면",
+      "baseline_composition": "quote",
+      "target_composition": "quote",
+      "target_variant": null,
+      "role": "new-condition",
+      "visual_focus": "입문자와15분활동이라는가상조건",
+      "title_px": 38,
+      "hero_px": 70,
+      "body_px": 34,
+      "tone": "orange",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "새로운 조건이 들어오면"
+    },
+    {
+      "slide": 31,
+      "baseline_title": "관련 설명과 현재 계획을 함께 갱신합니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "related-update",
+      "visual_focus": "새조건과바뀌는개념·비교·계획",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "orange",
+      "asset": "./assets/expanded/related-updates.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "관련 설명도 함께 갱신합니다"
+    },
+    {
+      "slide": 32,
+      "baseline_title": "질문할 때 필요한 페이지를 실제로 읽습니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "read-context",
+      "visual_focus": "필요한쪽찾기→실제로읽기→현재답",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "blue",
+      "asset": "./assets/expanded/query-reading.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "필요한 페이지를 실제로 읽습니다"
+    },
+    {
+      "slide": 33,
+      "baseline_title": "유용한 답도 다음 탐색의 입구가 됩니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "saved-document",
+      "visual_focus": "검토한답·근거·남은확인이담긴질문문서",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "green",
+      "asset": "./assets/expanded/saved-question.svg",
+      "surface": "document-on-stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "답을 다음 탐색의 입구로"
+    },
+    {
+      "slide": 34,
+      "baseline_title": "낡은 설명과 빠진 연결을 점검합니다",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "review-correction",
+      "visual_focus": "예전초안과새조건을대조해수정",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "낡은 설명과 빠진 연결 점검"
+    },
+    {
+      "slide": 35,
+      "baseline_title": "읽기·질문·점검이 같은 위키로 돌아옵니다",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "return-operations",
+      "visual_focus": "반영·질문·점검이같은위키로돌아옴",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "같은 위키로 돌아오는 세 작업"
+    },
+    {
+      "slide": 36,
+      "baseline_title": "LLM은 정리하고 사람은 방향을 정합니다",
+      "baseline_composition": "editorial",
+      "target_composition": "message",
+      "target_variant": null,
+      "role": "human-direction",
+      "visual_focus": "사람의쓰임·이유·판단과LLM지원의위계",
+      "title_px": 118,
+      "hero_px": 118,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "방향은 사람이 정합니다"
+    },
+    {
+      "slide": 37,
+      "baseline_title": "학습에서는 질문을 이어 갈 수 있습니다",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "learning-reuse",
+      "visual_focus": "이번에남긴것과다음에다시쓸것",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "학습은 다음 질문으로 이어집니다"
+    },
+    {
+      "slide": 38,
+      "baseline_title": "여러 작업자가 같은 위키를 읽습니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "shared-context",
+      "visual_focus": "작성과검토가하나의현재위키를함께읽음",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": "./assets/expanded/shared-workspace.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "같은 위키를 함께 읽습니다"
+    },
+    {
+      "slide": 39,
+      "baseline_title": "맥락·요청·논의·결과를 연결합니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "work-context",
+      "visual_focus": "맥락→요청→논의→결과를읽는열린문서행",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": "./assets/expanded/work-context.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "맥락 · 요청 · 논의 · 결과"
+    },
+    {
+      "slide": 40,
+      "baseline_title": "정리한 지식으로 한 쪽 진행안을 만듭니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "actual-document",
+      "visual_focus": "15분활동진행안실제문서발췌",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": "./assets/expanded/session-plan.svg",
+      "surface": "document-on-stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "지식으로 만든 한 쪽 진행안"
+    },
+    {
+      "slide": 41,
+      "baseline_title": "검토한 결과와 이유를 다시 남깁니다",
+      "baseline_composition": "media",
+      "target_composition": "media",
+      "target_variant": null,
+      "role": "review-and-return",
+      "visual_focus": "검토한결과와선택이유저장→다음30분질문",
+      "title_px": 54,
+      "hero_px": null,
+      "body_px": 34,
+      "tone": "green",
+      "asset": "./assets/expanded/review-return.svg",
+      "surface": "transparent-structure",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "검토 결과와 이유도 남깁니다"
+    },
+    {
+      "slide": 42,
+      "baseline_title": "지식의 무덤은 목적 없이 커집니다",
+      "baseline_composition": "quote",
+      "target_composition": "quote",
+      "target_variant": null,
+      "role": "warning-question",
+      "visual_focus": "목적없는수집이남기는다시쓰지않는정리",
+      "title_px": 38,
+      "hero_px": 70,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "목적 없이 쌓이면 지식의 무덤"
+    },
+    {
+      "slide": 43,
+      "baseline_title": "연결된 문서도 틀리고 낡을 수 있습니다",
+      "baseline_composition": "editorial",
+      "target_composition": "editorial",
+      "target_variant": "centered",
+      "role": "risk-categories",
+      "visual_focus": "의미·최신성·운영위험의병렬범주",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 30,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "연결된 문서도 틀리고 낡습니다"
+    },
+    {
+      "slide": 44,
+      "baseline_title": "반복 질문의 가치와 유지 비용을 봅니다",
+      "baseline_composition": "document",
+      "target_composition": "document",
+      "target_variant": null,
+      "role": "decision-table",
+      "visual_focus": "반복질문의가치와계속드는유지비용",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 28,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "반복 질문의 가치와 유지 비용"
+    },
+    {
+      "slide": 45,
+      "baseline_title": "내 자료에서 다음 질문 하나를 정해 봅시다",
+      "baseline_composition": "quote",
+      "target_composition": "quote",
+      "target_variant": null,
+      "role": "audience-question",
+      "visual_focus": "누구를위해어떤자료로무슨결과를만들까",
+      "title_px": 38,
+      "hero_px": 70,
+      "body_px": 34,
+      "tone": "orange",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "내 자료의 다음 질문 하나"
+    },
+    {
+      "slide": 46,
+      "baseline_title": "목적·자료·연결·검토를 함께 요청합니다",
+      "baseline_composition": "document",
+      "target_composition": "document",
+      "target_variant": null,
+      "role": "request-document",
+      "visual_focus": "목적·이유입력·작업·검토요청문을중앙에",
+      "title_px": 64,
+      "hero_px": null,
+      "body_px": 28,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "첫 요청에 담을 네 가지"
+    },
+    {
+      "slide": 47,
+      "baseline_title": "다음 질문이 이전 이해에서 출발하도록",
+      "baseline_composition": "closing",
+      "target_composition": "closing",
+      "target_variant": null,
+      "role": "closing",
+      "visual_focus": "다음질문이이전이해에서출발한다는선언",
+      "title_px": 110,
+      "hero_px": 110,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "다음 질문이 이전 이해에서 출발하도록"
+    },
+    {
+      "slide": 48,
+      "baseline_title": "어떤 지식을 다음 질문으로 이어 갈까요?",
+      "baseline_composition": "quote",
+      "target_composition": "message",
+      "target_variant": null,
+      "role": "qa-message",
+      "visual_focus": "내자료로만들결과와이어물을다음질문",
+      "title_px": 118,
+      "hero_px": 118,
+      "body_px": 34,
+      "tone": "neutral",
+      "asset": null,
+      "surface": "stage",
+      "implementation_owner": "presentation_lead: authored Markdown; design_director: SVG; root: shared centered variant",
+      "content_note": "현행 제목은 대조용. 독립 주제 메모 문구는 발표팀 최종 원고와 동기화한다.",
+      "draft_title": "어떤 지식을 이어 쓸까요?"
+    }
+  ],
+  "assets": [
+    {
+      "file": "knowledge-layers.svg",
+      "path": "talks/llm-wiki/assets/expanded/knowledge-layers.svg",
+      "slides": [
+        3
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "open-graph",
+      "operation": "왼쪽 원자료 세 행, 오른쪽 이름 있는 다섯 노드. 큰 네이비 패널을 없애고 관계를 무대 위로 연다.",
+      "tone": "green",
+      "surface": "none",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "rag-path.svg",
+      "path": "talks/llm-wiki/assets/expanded/rag-path.svg",
+      "slides": [
+        11
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "transient-input",
+      "operation": "같은 세 자료를 왼쪽에 고정. 이번에 찾은 세 근거만 중립 입력 영역에 두고 오른쪽 현재 답으로 잇는다.",
+      "tone": "blue",
+      "surface": "functional-dark-context",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "wiki-path.svg",
+      "path": "talks/llm-wiki/assets/expanded/wiki-path.svg",
+      "slides": [
+        12
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "stored-network",
+      "operation": "같은 세 자료는 유지. 개념·비교·계획의 지속 관계를 열린 세 노드로, 필요한 쪽 재읽기를 별도 출구로 둔다.",
+      "tone": "green",
+      "surface": "none",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "agentic-routing.svg",
+      "path": "talks/llm-wiki/assets/expanded/agentic-routing.svg",
+      "slides": [
+        15
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "open-routing",
+      "operation": "중립 에이전트 원에서 세 정보원으로 분기. 선택 정보원만 파랑, 재탐색은 가는 주황선으로 표시한다.",
+      "tone": "blue",
+      "surface": "none",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "raw-wiki-rules.svg",
+      "path": "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg",
+      "slides": [
+        20
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "file-roles",
+      "operation": "raw는 보존 문서의 작은 밝은 면, wiki는 열린 내용 목록. rules.md는 두 영역 밖의 공통 행이다.",
+      "tone": "green",
+      "surface": "one-source-document",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "purpose-questions.svg",
+      "path": "talks/llm-wiki/assets/expanded/purpose-questions.svg",
+      "slides": [
+        23
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "purpose-note",
+      "operation": "왼쪽 목적 한 문장을 크게, 오른쪽 네 질문을 열린 목록으로. 임의 번호와 구분선의 색은 중립이다.",
+      "tone": "orange",
+      "surface": "none",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "ingest-map.svg",
+      "path": "talks/llm-wiki/assets/expanded/ingest-map.svg",
+      "slides": [
+        25
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "concept-confluence",
+      "operation": "세 자료에서 요약·개념비교·현재계획으로 합류. 큰 네이비 틀을 없애고 노드와 관계를 주역으로 둔다.",
+      "tone": "green",
+      "surface": "none",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "source-concept.svg",
+      "path": "talks/llm-wiki/assets/expanded/source-concept.svg",
+      "slides": [
+        26
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "document-comparison",
+      "operation": "요약과 개념을 같은 밝기의 실제 문서 면으로 비교. 범위와 근거의 차이를 문장·라벨로 표시한다.",
+      "tone": "neutral",
+      "surface": "two-real-document-excerpts",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "comparison-synthesis.svg",
+      "path": "talks/llm-wiki/assets/expanded/comparison-synthesis.svg",
+      "slides": [
+        27
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "comparison-to-plan",
+      "operation": "왼쪽은 같은 축의 열린 비교 행, 오른쪽만 현재 계획의 밝은 문서. 화살표 하나로 목적에 맞는 종합을 잇는다.",
+      "tone": "green",
+      "surface": "one-plan-document",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "rules-graph.svg",
+      "path": "talks/llm-wiki/assets/expanded/rules-graph.svg",
+      "slides": [
+        29
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "rules-and-open-graph",
+      "operation": "왼쪽 규칙 세 문장, 오른쪽 중립선의 열린 이름 있는 관계도. 네이비 패널을 없앤다.",
+      "tone": "green",
+      "surface": "none",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "related-updates.svg",
+      "path": "talks/llm-wiki/assets/expanded/related-updates.svg",
+      "slides": [
+        31
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "condition-to-change",
+      "operation": "새 조건은 작은 주황 표제, 개념·비교·계획은 같은 기준선의 세 행. 바뀐 대상만 색과 문장으로 표시한다.",
+      "tone": "orange",
+      "surface": "none",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "query-reading.svg",
+      "path": "talks/llm-wiki/assets/expanded/query-reading.svg",
+      "slides": [
+        32
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "read-current-context",
+      "operation": "필요한 페이지 목록에서 중립 입력 영역으로. 실제로 읽는다는 동작을 크게, 현재 답은 오른쪽에 둔다.",
+      "tone": "blue",
+      "surface": "functional-dark-context",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "saved-question.svg",
+      "path": "talks/llm-wiki/assets/expanded/saved-question.svg",
+      "slides": [
+        33
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "saved-question-document",
+      "operation": "왼쪽 큰 상자는 작은 저장 라벨로 낮추고 질문 문서를 넓힌다. 답·근거·남은 확인을 위계로 구별한다.",
+      "tone": "green",
+      "surface": "one-question-document",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "five-layers.svg",
+      "path": "talks/llm-wiki/assets/expanded/five-layers.svg",
+      "slides": [],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "record-types",
+      "operation": "학습서 전용. 서로 다른 기록 유형을 유지하고 연속 시간축으로 그리지 않는다. 구조는 중립, 선택 대상만 의미색이다.",
+      "tone": "neutral",
+      "surface": "source-excerpts-only",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "reflection-layers.svg",
+      "path": "talks/llm-wiki/assets/expanded/reflection-layers.svg",
+      "slides": [],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "review-scales",
+      "operation": "학습서 전용. 일별 기록·주간 종합·더 긴 기간의 질문의 크기와 범위를 구별한다. 전면 크림과 큰 네이비 면을 없앤다.",
+      "tone": "green",
+      "surface": "actual-record-excerpts-only",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "shared-workspace.svg",
+      "path": "talks/llm-wiki/assets/expanded/shared-workspace.svg",
+      "slides": [
+        38
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "shared-reading",
+      "operation": "가운데 공통 현재 지식을 열어 놓고 작성과 검토를 좌우에 둔다. 피드백은 가는 귀환선 한 개로 표시한다.",
+      "tone": "green",
+      "surface": "none",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "work-context.svg",
+      "path": "talks/llm-wiki/assets/expanded/work-context.svg",
+      "slides": [
+        39
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "work-record",
+      "operation": "맥락·요청·논의·결과 네 문서 행을 크게. 열린 기록으로 읽히게 하고 같은 색 카드로 감싸지 않는다.",
+      "tone": "neutral",
+      "surface": "none",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "session-plan.svg",
+      "path": "talks/llm-wiki/assets/expanded/session-plan.svg",
+      "slides": [
+        40
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "session-document",
+      "operation": "실제 15분 진행안의 밝은 문서 한 장을 주역으로 보존한다. 2+4+5+4분·대상·범위·실측 아님을 유지한다.",
+      "tone": "neutral",
+      "surface": "one-actual-plan-document",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    },
+    {
+      "file": "review-return.svg",
+      "path": "talks/llm-wiki/assets/expanded/review-return.svg",
+      "slides": [
+        41
+      ],
+      "viewBox": [
+        0,
+        0,
+        1500,
+        600
+      ],
+      "layout": "result-review-return",
+      "operation": "검토한 항목→저장한 결과의 작은 문서→다음30분질문을 구별해 배치한다. 검토와 재읽기 연결은 색 이외 기하로도 구분한다.",
+      "tone": "green",
+      "surface": "one-reviewed-result-document",
+      "full_canvas_fill": "none",
+      "main_text_px": [
+        34,
+        48
+      ],
+      "meta_text_px": [
+        26,
+        28
+      ],
+      "remove_internal_repeated_summary": true,
+      "owner": "devday_design_director",
+      "root_background": "#080808"
+    }
+  ],
+  "acceptance": [
+    "48-slide count and 35+5-minute semantic contract preserved",
+    "same source inputs/question and no invented performance superiority in 11/12",
+    "no full cream background on abstract diagrams",
+    "real document surfaces stay legible",
+    "SVG text bbox and line/label inspection",
+    "1440/960 presentation and 390 reading",
+    "links/navigation/overview/presenter function",
+    "internal research never presented as full-video replay"
+  ],
+  "svg_backing": {
+    "method": "root CSS background",
+    "value": "#080808",
+    "reason": "Stage/paper theme selection and bright materials pages preserve standalone diagram contrast; no full cream rect or navy panel"
+  },
+  "implementation_checks": {
+    "generator_syntax": "passed",
+    "deterministic_regeneration_19": "passed before final single text delta; generator remains deterministic",
+    "svg_xml_19": "passed",
+    "svg_old_palette_or_video_labels": "none",
+    "session_plan_exact_registered_rows": "all four activity rows and title match",
+    "svg33_materials_review": "raw versus index roles corrected; saved question is prepared example",
+    "root_browser_bbox": "root reported 19 outside0/text overlap0 before final 33/40 text deltas; final required",
+    "fresh_screen_review": "pending source and asset frozen capture; stale e4ec25 screenshots excluded"
+  }
+}

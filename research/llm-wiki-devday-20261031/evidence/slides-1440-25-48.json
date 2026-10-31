@@ -1,0 +1,566 @@
+{
+  "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+  "width": 1440,
+  "slides": [
+    {
+      "n": 25,
+      "title": "인제스트는 관계를 남깁니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/9e1da536a349-ingest-map.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 26,
+      "title": "자료 요약과 개념의 역할",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/a3c7b37535df-source-concept.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 27,
+      "title": "비교에서 현재 계획으로",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/c87ca6007051-comparison-synthesis.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 28,
+      "title": "목차는 탐색, 로그는 이력",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 29,
+      "title": "그래프는 연결, 규칙은 기준",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/293cae10b7a1-rules-graph.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 30,
+      "title": "새로운 조건이 들어오면",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "quote",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 31,
+      "title": "관련 설명도 함께 갱신합니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/6b2263dbe032-related-updates.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 32,
+      "title": "필요한 페이지를 실제로 읽습니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/61efab0bdac3-query-reading.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 33,
+      "title": "답을 다음 탐색의 입구로",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/e6cfdff902cd-saved-question.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 34,
+      "title": "낡은 설명과 빠진 연결 점검",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 35,
+      "title": "같은 위키로 돌아오는 세 작업",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 36,
+      "title": "방향은 사람이 정합니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "message",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 37,
+      "title": "학습은 다음 질문으로 이어집니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 38,
+      "title": "같은 위키를 함께 읽습니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/b60496417179-shared-workspace.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 39,
+      "title": "맥락 · 요청 · 논의 · 결과",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/53a825b0ec6d-work-context.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 40,
+      "title": "지식으로 만든 한 쪽 진행안",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/4f573bd52fd7-session-plan.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 41,
+      "title": "검토 결과와 이유도 남깁니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/64974be0b3ab-review-return.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 42,
+      "title": "목적 없이 쌓이면 지식의 무덤",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "quote",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 43,
+      "title": "연결된 문서도 틀리고 낡습니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 44,
+      "title": "반복 질문의 가치와 유지 비용",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "document",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 45,
+      "title": "내 자료의 다음 질문 하나",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "quote",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 46,
+      "title": "첫 요청에 담을 네 가지",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "document",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 47,
+      "title": "다음 질문이 이전 이해에서 출발하도록",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "closing",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 48,
+      "title": "어떤 지식을 이어 쓸까요?",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "message",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    }
+  ]
+}

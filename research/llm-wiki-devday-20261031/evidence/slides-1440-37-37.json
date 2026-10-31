@@ -1,0 +1,31 @@
+{
+  "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+  "width": 1440,
+  "slides": [
+    {
+      "n": 37,
+      "viewport": 1440,
+      "title": "학습은 다음 질문으로 이어집니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    }
+  ]
+}

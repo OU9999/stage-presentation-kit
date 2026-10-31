@@ -1,0 +1,192 @@
+{
+  "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+  "count": 20,
+  "rows": [
+    {
+      "n": 1,
+      "title": "LLM Wiki",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 2,
+      "title": "LLM Wiki는 무엇인가요?",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 3,
+      "title": "왜 필요한가요?",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 4,
+      "title": "무엇이 생기나요?",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 5,
+      "title": "사람과 AI가 함께 편집합니다",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 6,
+      "title": "RAG와 무엇이 다른가요?",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 7,
+      "title": "Ingest는 자료를 읽고 연결하는 일",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 8,
+      "title": "요약 하나로 끝나지 않습니다",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 9,
+      "title": "목차에서 필요한 문서를 찾습니다",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 10,
+      "title": "질문하면 이렇게 씁니다",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 11,
+      "title": "새 자료가 오면 기존 문서도 고칩니다",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 12,
+      "title": "어떤 자료부터 넣을까요?",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 13,
+      "title": "목적이 있어야 정리 기준이 생깁니다",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 14,
+      "title": "어디에 쓸 수 있나요?",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 15,
+      "title": "장점은 읽고 고칠 수 있다는 것",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 16,
+      "title": "AI가 정리해도 확인은 필요합니다",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 17,
+      "title": "이럴 때 작게 시작하세요",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 18,
+      "title": "첫 요청은 이 정도면 됩니다",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 19,
+      "title": "다음 질문에 쓸 자료 두 개부터",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    },
+    {
+      "n": 20,
+      "title": "어떤 자료로 시작하고 싶나요?",
+      "revision": "d609e8fcb8a262a063250bf48752037aa30bf2b0160c5f03f07377cf9bfacc14",
+      "theme": "stage",
+      "diagnostic": null,
+      "youtube": []
+    }
+  ],
+  "keyboard_walk": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "home_end": true,
+  "site_verification": "passed",
+  "active_source_youtube_urls": 0,
+  "scope": "Current 20-slide read-only runtime check; earlier 48-slide team visual reviews remain historical."
+}

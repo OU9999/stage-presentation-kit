@@ -1,0 +1,560 @@
+{
+  "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+  "width": 1440,
+  "slides": [
+    {
+      "n": 1,
+      "title": "LLM Wiki",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "message",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 2,
+      "title": "어제의 이해는 어디에 있나요?",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "quote",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 3,
+      "title": "자료에서 다시 읽을 지식으로",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/bf4ad827da99-knowledge-layers.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 4,
+      "title": "좋은 답에는 맥락이 필요합니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "message",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 5,
+      "title": "파일을 읽고 쓰는 에이전트",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 6,
+      "title": "LLM과 함께 편집하는 지식",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "quote",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 7,
+      "title": "연결 · 축적 · 갱신",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 8,
+      "title": "필요에서 활용까지",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "message",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 9,
+      "title": "RAG는 근거를 찾아 답합니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 10,
+      "title": "같은 자료, 같은 질문",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "document",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 11,
+      "title": "질문할 때 근거를 모읍니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/1f943e43d8d7-rag-path.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 12,
+      "title": "연결된 설명을 먼저 써 둡니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/dd8c147d8c4c-wiki-path.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 13,
+      "title": "다음 질문의 출발점",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "message",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 14,
+      "title": "무엇을 남기고, 언제 고치는가",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "document",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 15,
+      "title": "검색 판단을 맡기는 에이전틱 RAG",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/2a8e9517ee07-agentic-routing.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 16,
+      "title": "문서 편집과 모델 조정은 다릅니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 17,
+      "title": "위키를 검색하는 RAG",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 18,
+      "title": "사람이 읽고 고칠 지식",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "document",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 19,
+      "title": "시작은 사용 목적입니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "message",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 20,
+      "title": "원자료 · 위키 · 작업 규칙",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/f2422a7925dc-raw-wiki-rules.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 21,
+      "title": "읽는 도구와 쓰는 도구",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 22,
+      "title": "다시 쓸 자료부터 고릅니다",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "editorial",
+      "variant": "centered",
+      "expectedVariant": "centered",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 23,
+      "title": "왜 골랐고, 어디에 쓸까요?",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "media",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [
+        "assets/de481ad077ff-purpose-questions.svg"
+      ],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    },
+    {
+      "n": 24,
+      "title": "세 메모로 나눈 출발점",
+      "revision": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "theme": "stage",
+      "composition": "document",
+      "canvas": "rgb(8, 8, 8)",
+      "overflow": [],
+      "diagnostic": null,
+      "diagnosticMessages": [],
+      "brokenImages": [],
+      "imageSources": [],
+      "youtubeLinks": [],
+      "errors": [],
+      "clippedScroll": 0,
+      "clip": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756
+      }
+    }
+  ]
+}

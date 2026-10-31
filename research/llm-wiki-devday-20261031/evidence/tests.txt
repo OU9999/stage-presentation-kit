@@ -1,0 +1,9 @@
+✔ TC-DR07 existing five Markdown decks retain source and rebuild deterministically with the shared visual runtime (30.234042ms)
+ℹ tests 262
+ℹ suites 0
+ℹ pass 262
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4920.982875

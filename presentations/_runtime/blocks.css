@@ -123,6 +123,14 @@
 .layout-blocks[data-composition="editorial"] .markdown-body[data-group-count="3"]:not(:has(> .is-primary)) > .md-group > p { margin-bottom:.6em; }
 .layout-blocks[data-composition="editorial"] .markdown-body > :not(.md-group) { grid-column:1 / -1; }
 
+/* Opt-in open comparisons; read mode retains the ordinary source document. */
+@media screen {
+  body[data-mode="present"] .layout-blocks[data-composition="editorial"][data-variant="centered"] .markdown-body { align-content:center; grid-auto-rows:auto; gap:64px; }
+  body[data-mode="present"] .layout-blocks[data-composition="editorial"][data-variant="centered"] .markdown-body[data-group-count="2"] { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  body[data-mode="present"] .layout-blocks[data-composition="editorial"][data-variant="centered"] .md-group { align-self:start; padding-top:0; border-top:0; font-size:34px; line-height:1.55; }
+  body[data-mode="present"] .layout-blocks[data-composition="editorial"][data-variant="centered"] .md-group > h2 { margin-bottom:24px; font-size:48px; line-height:1.2; }
+}
+
 /* Explicit photo families preserve frame ratios independently of caption height. */
 .layout-blocks[data-composition="gallery"][data-variant="portraits"] .md-grid,
 .layout-blocks[data-composition="gallery"][data-variant="strip"] .md-grid {

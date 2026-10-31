@@ -1,0 +1,116 @@
+[
+  {
+    "name": "agentic-routing.svg",
+    "textCount": 9,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "comparison-synthesis.svg",
+    "textCount": 12,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "five-layers.svg",
+    "textCount": 14,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "ingest-map.svg",
+    "textCount": 14,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "knowledge-layers.svg",
+    "textCount": 13,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "purpose-questions.svg",
+    "textCount": 13,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "query-reading.svg",
+    "textCount": 13,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "rag-path.svg",
+    "textCount": 17,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "raw-wiki-rules.svg",
+    "textCount": 16,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "reflection-layers.svg",
+    "textCount": 10,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "related-updates.svg",
+    "textCount": 11,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "review-return.svg",
+    "textCount": 15,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "rules-graph.svg",
+    "textCount": 14,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "saved-question.svg",
+    "textCount": 9,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "session-plan.svg",
+    "textCount": 12,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "shared-workspace.svg",
+    "textCount": 14,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "source-concept.svg",
+    "textCount": 12,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "wiki-path.svg",
+    "textCount": 13,
+    "outside": [],
+    "overlaps": []
+  },
+  {
+    "name": "work-context.svg",
+    "textCount": 9,
+    "outside": [],
+    "overlaps": []
+  }
+]
