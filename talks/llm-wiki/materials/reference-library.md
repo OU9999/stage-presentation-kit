@@ -18,6 +18,14 @@ LLM Wiki의 출발점은 Karpathy의 설계 글입니다. 지속 문서를 무�
 
 개인 기록을 다섯 종류로 나누거나 기간별로 회고하는 방식은 선택적인 활용 예입니다. 특정 기록 체계·도구 조합·문서 수는 LLM Wiki의 필수 조건이 아닙니다. 예제의 `rules.md`는 정리와 검토를 안내하는 작업 규칙이며, 그래프는 문서 연결을 탐색하는 보기입니다.
 
+## 개인비서와 맥락을 설명하는 근거
+
+[OpenClaw의 Memory 문서](https://docs.openclaw.ai/concepts/memory)는 사용자 선호·맥락·결정 등을 마크다운 파일로 남기는 구조를 설명합니다. [Hermes 공식 저장소](https://github.com/NousResearch/hermes-agent)도 지속 기억과 사용자 프로필을 다룹니다. 두 예는 개인비서가 사용자 맥락을 지속해서 읽는 필요를 설명하는 데 사용합니다. 두 도구의 기억 구현을 같은 위키 구조라고 단정하지 않으며, 특정 월의 유행이나 LLM Wiki의 인기 원인을 입증한 자료로 사용하지 않습니다. 확인일은 2026-10-31입니다.
+
+Karpathy Gist의 생성 표시는 **2026-04-04**입니다. [원문](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)의 날짜와 본문을 확인했습니다. ‘나만의 지식 베이스’와 사람·AI의 역할, 목차·연결은 이 설계의 설명을 바탕으로 합니다.
+
+‘RAG는 DB가 필수’, ‘문서10만개부터 RAG가 우위’, ‘벡터 검색을 쓰면 사람이 원문을 읽을 수 없다’는 단정은 채택하지 않습니다. 작은 위키를 파일과 목차로 시작할 수 있다는 점과, 자료가 커지면 검색·갱신·검토를 함께 설계한다는 점을 설명합니다. 감정·생각·판단을 직접 기록하고 AI 해석과 나누는 방법은 이번 발표가 제안하는 운영 팁입니다.
+
 ## 비교와 도구 역할의 일차 근거
 
 | 자료 | 확인 위치 | 여기서 사용하는 범위 |
@@ -117,7 +125,7 @@ LLM Wiki의 출발점은 Karpathy의 설계 글입니다. 지속 문서를 무�
 | [chatParticipant / handleQuery](https://github.com/microsoft/llmwiki/blob/e09126f257c1fcf8e63234382748a51cf6a5df7f/packages/vscode/src/chatParticipant.ts#L112) | index와 키워드 상위8쪽의 각 앞3000자를 현재 답변의 문맥에 넣음 | 저장된 모든 내용이 자동으로 읽히거나 빠짐없이 검색됨 |
 | [handleSave](https://github.com/microsoft/llmwiki/blob/e09126f257c1fcf8e63234382748a51cf6a5df7f/packages/vscode/src/chatParticipant.ts#L237) | 해당 판에서는 수동 작성/ingest와 경로 안내만 출력 | README 설명처럼 이전 답을 자동 파일 저장했다는 주장 |
 
-핵심 질문은 ‘어떤 입력이 어느 함수에서 모델 문맥에 들어가고 어떤 파일이 바뀌는가’입니다. 코드 경로의 존재는 문장 정확성이나 실행 품질의 검증이 아닙니다. 새 발표에서는 [5장 사람과 AI의 역할](../slides.md#5)과 연결되는 별도 심화 근거로 제공합니다.
+핵심 질문은 ‘어떤 입력이 어느 함수에서 모델 문맥에 들어가고 어떤 파일이 바뀌는가’입니다. 코드 경로의 존재는 문장 정확성이나 실행 품질의 검증이 아닙니다. 새 발표에서는 [6장 사람과 AI의 역할](../slides.md#6)과 연결되는 별도 심화 근거로 제공합니다.
 
 ### 코드 저장소를 입력으로 쓰는 독립 변형
 
@@ -133,7 +141,7 @@ Brian Wright, [Potential for Enhanced Learning in Machine Learning Classes by Us
 
 질문당 각 arm 답변1회, 한 LLM judge가10점 품질·이진 groundedness를 평가했습니다. Table2의 교차페이지14문항 결과는 RAG8.14/64%, Wiki9.93/100%입니다. 단일 코퍼스·기저선 재조정 여지·문맥 제공 비대칭·한 judge·천장효과가 있어 전체 wiki/RAG의 우열로 일반화하지 않습니다. 비용은 설계에서 언급하지만 §5.4에서 미측정이라고 밝힙니다. 학생 학습성과를 측정한 실험이 아니며 교육과정 개정 대응의 별도 실측 결과도 본문에서 확인되지 않았습니다. 초록의 single-fact와 본문의 topic-page를 같은 분류로 취급하지 않습니다.
 
-새 23장 본편에서는 이 연구를 성능 경쟁 차트로 사용하지 않고 별도 읽기 자료로 제공합니다. [가상 강의 메모](../assets/examples/course.txt)는 논문의 실제 wiki 출력이 아닌 별도 구성 예입니다.
+새 26장 본편에서는 이 연구를 성능 경쟁 차트로 사용하지 않고 별도 읽기 자료로 제공합니다. [가상 강의 메모](../assets/examples/course.txt)는 논문의 실제 wiki 출력이 아닌 별도 구성 예입니다.
 
 ### 네 종류의 사례를 읽는 기준
 
@@ -183,7 +191,7 @@ Brian Wright, [Potential for Enhanced Learning in Machine Learning Classes by Us
 
 ## 7. 연관되는 역사적 읽기
 
-[Vannevar Bush, As We May Think, The Atlantic, 1945년7월, §6](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)은 분류 색인과 연상 경로에서 개인 지식 장치 Memex를 구상한 글입니다. 현대 LLM이나 위키의 성능을 증명하는 원문은 아닙니다. 이전 발표의 짧은 인용 출처로 보존하며, 현재 23장에는 Karpathy/Bush의 영문 직접 인용을 사용하지 않습니다. 원문 전문·댓글·역사 사진은 복제하지 않습니다.
+[Vannevar Bush, As We May Think, The Atlantic, 1945년7월, §6](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)은 분류 색인과 연상 경로에서 개인 지식 장치 Memex를 구상한 글입니다. 현대 LLM이나 위키의 성능을 증명하는 원문은 아닙니다. 이전 발표의 짧은 인용 출처로 보존하며, 현재 26장에는 Karpathy/Bush의 영문 직접 인용을 사용하지 않습니다. 원문 전문·댓글·역사 사진은 복제하지 않습니다.
 
 ## 8. 사진·자체 도식 출처
 
@@ -200,4 +208,4 @@ Brian Wright, [Potential for Enhanced Learning in Machine Learning Classes by Us
 
 도식은 발표팀이 자체 작성했습니다. 기존 원자료/위키/규칙 도식과 새 영향8쪽·Q2재사용·현행/보류·결정대체 도식은 외부 그림을 복제하지 않았습니다. 상세 실제 문장은 [데모 기록](./demo-log.md)의 표와 문단에서 읽을 수 있습니다. 도식 원본은 [파일 관계](../assets/impact-map.svg), [Q2의 입력](../assets/reuse-inputs.svg), [현행·보류](../assets/current-pending.svg), [D1→D2](../assets/decision-transition.svg)에 있습니다. 기존 교정 예제는 반영한 8쪽(기존 5쪽 갱신+신규 3쪽), 검사한 25링크, 해시를 보존한 10파일을 서로 다른 단위로 나누어 읽습니다. 비율·성과 점수로 비교하지 않습니다. 보존한 과거 도식과 새 스터디 문서 도식도 구별해 읽으세요.
 
-[23장·본편 35분 대본](./speaker-script.md) · [자료 목차](./index.md) · [데모 ZIP](../demo/llm-wiki-demo.zip) · [실제 파일 읽기](./demo-log.md)
+[26장·본편 35분 대본](./speaker-script.md) · [자료 목차](./index.md) · [데모 ZIP](../demo/llm-wiki-demo.zip) · [실제 파일 읽기](./demo-log.md)
