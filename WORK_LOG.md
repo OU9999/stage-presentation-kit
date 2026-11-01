@@ -1,6 +1,6 @@
 # STAGE 작업 로그
 
-## 진행 중 — 2026-11-01 모든 로컬 작업 커밋·푸시와 배포 확인
+## 완료 — 2026-11-01 모든 로컬 작업 커밋·푸시와 공개 배포 인수
 
 - 목표/최신 지침: 사용자가 현재 로컬 작업 전체를 커밋·푸시한 뒤 배포 링크를 제공하라고 요청했다. 직전의 로컬 커밋만 수행하는 범위를 대체하며 원격 반영과 실제 배포 인수까지 진행한다.
 - 담당/범위: root 단독으로 Git·검증·GitHub Pages 인수를 맡는다. main의 기존 미푸시11f360e와 현재26장 발표/대본/자료/생성물·AI TOP 100 조사 JSON/CSV·이 로그를 모두 보존한다. 기존23/20/48장 기록과 사용자test.md는 유지하며 새 팀은 배정하지 않는다.
@@ -8,7 +8,10 @@
 - 진행: 전체 사이트 생성·생성물 일치·기존 테스트와 변경/신규 파일을 확인한 뒤 커밋·정상 푸시한다. 배포된 내용과 로컬 파일을 대조하고 최신 Pages 실행 성공 및 공개 발표 접속을 확인한다.
 - 검증 인수: build:site·verify:site·262테스트·git diff --check 통과. 조사 JSON 파싱과 CSV73행을 확인했다. 현재26장 원고 SHA256은6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09다. 메시지 `Update LLM Wiki to 26 slides and add AI TOP 100 research`로 전체 변경을 커밋하고 기존11f360e와 함께 main을 푸시한다.
 - CSV 보존: 신규 조사 CSV는 UTF-8 BOM·CRLF 형식이다. 내용과 줄바꿈을 바꾸지 않고, CR을 줄 종료로 인식하는 Git의 일회성 cr-at-eol 설정으로 스테이징 공백 검사를 수행한다.
-- 미완료: 검증 결과 인수, 신규 커밋/기존 커밋 푸시, Pages 완료와 공개 링크 확인.
+- 커밋/원격 결과: c4736c9fb97ca2355d7229d1859e83dd668c5c2d로26장 발표와 조사 자료를 커밋했고, 기존11f360e를 포함해 main 푸시를 완료했다. 원격 main 해시 일치와 작업 트리 clean을 직접 확인했다.
+- 실제 공개 인수: Pages41281809376이 동일c4736c9에서 build/deploy/report 모두 success이며 Pages API built·오류없음이다. 발표/읽기/8자료·공통runtime·원문보관/자산·조사 JSON/CSV 등55공개 파일이 모두HTTP200·로컬 전체 바이트 일치했다. ego-browser TaskSpace13 p1에서 공개26장·Stage·원고revision6df65…728b09 일치를 확인하고 finish({keep:[]})를1회 완료했다. 기존 사용자 브라우저 공간은 조작하지 않았다.
+- 기록/전달: research/deployment-20261101/verification.json에 실제 Pages/HTTP/브라우저 근거를 보존하고 이 로그와 함께 추가 기록 커밋·푸시로 반영한다. 이 후속 기록은 발표 제품 바이트를 바꾸지 않는다. 최종 기록 커밋의 Pages 성공은 GitHub Actions 이력을 정본으로 확인한다. 발표 https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/ · 학습자료 https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/materials/ 를 사용자에게 제공한다.
+- 미완료: 요청 범위의 추가 제품 작업 없음. 원격 최종 기록과 공개 동작까지 확인해 인계한다.
 
 ## 완료 — 2026-10-31 test.md의 설명·맥락·직접 판단 반영
 
