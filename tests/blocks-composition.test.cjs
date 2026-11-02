@@ -187,6 +187,47 @@ test('only standalone numeric emphasis followed by a short plain unit receives v
   }
 });
 
+test('standalone navigation is distinct from linked essential prose and quoted claims without altering source', () => {
+  const source = control('compose: quote') + '# 질문\n\n[근거](https://example.com)를 확인하고 내 판단을 적습니다.\n\n> [내가 정할 목적](https://example.com/purpose)\n\n[원문](https://example.com/source) · [자료](https://example.com/material)\n\n**[지금 시작하기](https://example.com/start)**';
+  for (const preview of [false, true]) {
+    const result = preserved(source, { preview });
+    const body = findClass(result.body, 'markdown-body')[0];
+    assert.equal(body.children[0].dataset.copyRole, 'body');
+    assert.equal(hasClass(body.children[0], 'md-meta'), false);
+    assert.equal(body.children[2].dataset.copyRole, 'navigation');
+    assert.equal(hasClass(body.children[2], 'md-meta'), true);
+    assert.equal(body.children[3].dataset.copyRole, 'body', 'an authored emphasized link can carry the central action');
+    assert.equal(hasClass(body.children[3], 'md-meta'), false);
+    assert.equal(findClass(body.children[1], 'md-meta').length, 0, 'a linked quote remains the main claim');
+    assert.deepEqual(findClass(body, 'md-meta').map(node => node.textContent), ['원문 · 자료']);
+  }
+});
+
+test('shared editorial prelude stays outside two equal-role groups and does not count as a third group', () => {
+  const source = control('compose: editorial\nvariant: centered') + '# 공동 편집\n\n같은 문서를 함께 읽고 고칩니다.\n\n## 사람\n\n목적과 판단을 적습니다.\n\n## AI\n\n문서와 연결을 갱신합니다.';
+  const result = preserved(source);
+  const body = findClass(result.body, 'markdown-body')[0];
+  assert.equal(body.dataset.groupCount, '2');
+  assert.equal(body.dataset.hasPrelude, 'true');
+  assert.deepEqual(body.children.map(node => node.tagName), ['p', 'section', 'section']);
+  assert.equal(body.children[0].dataset.copyRole, 'body');
+  assert.deepEqual(findClass(body, 'md-group').map(node => node.textContent), ['사람목적과 판단을 적습니다.', 'AI문서와 연결을 갱신합니다.']);
+  assert.equal(findClass(preserved(control('compose: editorial\nvariant: centered') + '# 역할\n\n## 사람\n\n판단\n\n## AI\n\n정리').body, 'markdown-body')[0].dataset.hasPrelude, undefined);
+});
+
+test('authored body and quotation hardbreaks retain order and emphasis in audience and preview rendering', () => {
+  const source = control('compose: quote') + '# 내 목적\n\n원문을 읽고,\\\n내 판단을 남깁니다.\n\n> 목적은 내가 정하고,\\\n> **판단도 내가 적습니다.**';
+  for (const preview of [false, true]) {
+    const result = preserved(source, { preview });
+    const body = findClass(result.body, 'markdown-body')[0];
+    assert.deepEqual(nodes(body).filter(node => node.tagName === 'br').length, 2);
+    const quoted = nodes(body).find(node => node.tagName === 'blockquote');
+    const meaningful = quoted.children[0].children.filter(node => node.tagName !== '#text' || node.textContent);
+    assert.deepEqual(meaningful.map(node => node.tagName), ['#text', 'br', 'strong']);
+    assert.equal(meaningful[2].textContent, '판단도 내가 적습니다.');
+  }
+});
+
 test('preview retains composition, sources, captions and scroll semantics while disabling links', () => {
   const source = control('compose: editorial') + '# [제목](https://example.com)\n\n## 자료\n\n![Alt](a.jpg "Caption")\n\n[출처](https://example.com)\n\n```js\n---\n```';
   const result = preserved(source, { preview: true });

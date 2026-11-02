@@ -38,6 +38,20 @@ test('only a leading first H1 becomes heading; subsequent headings and a later H
   assert.deepEqual(later.blocks.map(node => node.tag), ['p', 'h1', 'p']);
 });
 
+test('soft paragraph breaks, authored hardbreaks and ATX heading boundaries preserve their distinct contracts', () => {
+  const source = '# 제목\\\n제목 다음 본문\n\n보통 개행은\n같은 문단입니다.\n\n의도한 경계는\\\n다음 호흡입니다.\n\n> 인용 첫 호흡\\\n> **다음 호흡**';
+  const slide = parseDocument(source).slides[0];
+  assert.equal(value(slide.heading), '제목\\');
+  assert.equal(elements(slide.heading, 'br').length, 0);
+  assert.equal(value(slide.blocks[0]), '제목 다음 본문');
+  assert.equal(value(slide.blocks[1]), '보통 개행은\n같은 문단입니다.');
+  assert.equal(elements(slide.blocks[1], 'br').length, 0);
+  assert.deepEqual(slide.blocks[2].children.map(node => node.tag || node.type), ['text', 'br', 'text']);
+  assert.equal(elements(slide.blocks[3], 'br').length, 1);
+  assert.equal(value(elements(slide.blocks[3], 'strong')[0]), '다음 호흡');
+  assert.equal(elements(slide.blocks[3], 'br')[0].position.line, 10);
+});
+
 test('frontmatter metadata and slide/node positions refer to full source lines', () => {
   const source = '---\nid: explicit\ntitle: Deck\nspeaker: Person\n---\n\n# One\n\nParagraph\n\n---\n\n# Two\n\n1. Numbered\n2. List\n';
   const deck = parseDocument(source, { sourcePath: 'talks/demo/slides.md', id: 'fallback' });

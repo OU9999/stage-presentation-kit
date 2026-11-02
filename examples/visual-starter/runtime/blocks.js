@@ -79,6 +79,15 @@
     return ["p", "ul", "ol"].indexOf(node.tag) >= 0 && !contains(node, "img");
   }
   function paragraph(node) { return isElement(node, "p") && !contains(node, "img"); }
+  function navigationParagraph(node) {
+    if (!paragraph(node)) return false;
+    var links = 0;
+    // A separate link row is navigation; linked prose remains essential body copy.
+    return node.children.every(function (child) {
+      if (isElement(child, "a") && nodeText(child).trim()) { links++; return true; }
+      return child.type === "text" && /^[\s·|/]*$/.test(child.value);
+    }) && links > 0;
+  }
   function groupsFor(slide) {
     var starts = [];
     slide.blocks.forEach(function (node, index) { if (isElement(node, "h2")) starts.push(index); });
@@ -283,11 +292,22 @@
       var heading = renderNode(slide.heading, options); heading.classList.add("slide-title"); heading.classList.add("md-heading"); root.append(heading);
     }
     var body = document.createElement("div"); body.className = "markdown-body"; root.append(body);
-    if (plan.composition === "editorial") body.dataset.groupCount = String(plan.groups.length);
+    if (plan.composition === "editorial") {
+      body.dataset.groupCount = String(plan.groups.length);
+      if (plan.groups.length && plan.groups[0].start > 0) body.dataset.hasPrelude = "true";
+    }
     function appendNode(parent, node, setting, value) {
       var images = pureImages(node);
       if (images.length) images.forEach(function (image) { parent.append(figureFor(node, options, setting, image)); });
-      else parent.append(value && renderValue(node, options) || renderNode(node, options));
+      else {
+        var rendered = value && renderValue(node, options) || renderNode(node, options);
+        if (paragraph(node)) {
+          var navigation = navigationParagraph(node);
+          rendered.dataset.copyRole = navigation ? "navigation" : "body";
+          if (navigation) rendered.classList.add("md-meta");
+        }
+        parent.append(rendered);
+      }
     }
     if (plan.composition === "gallery" || plan.composition === "mosaic") {
       var grid = document.createElement("div"); grid.className = "md-grid"; body.append(grid);
