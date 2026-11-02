@@ -1,0 +1,1691 @@
+{
+  "present-1280": {
+    "count": 26,
+    "byteIdentical": 6,
+    "pixelIdentical": 6,
+    "rows": [
+      {
+        "slide": 1,
+        "file": "slide-01.png",
+        "byteIdentical": true,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 2,
+        "file": "slide-02.png",
+        "byteIdentical": true,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 3,
+        "file": "slide-03.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 4,
+        "file": "slide-04.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 5,
+        "file": "slide-05.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 6,
+        "file": "slide-06.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 7,
+        "file": "slide-07.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 8,
+        "file": "slide-08.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 9,
+        "file": "slide-09.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 10,
+        "file": "slide-10.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 11,
+        "file": "slide-11.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          864,
+          473
+        ]
+      },
+      {
+        "slide": 12,
+        "file": "slide-12.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 13,
+        "file": "slide-13.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 14,
+        "file": "slide-14.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 15,
+        "file": "slide-15.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 16,
+        "file": "slide-16.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 17,
+        "file": "slide-17.png",
+        "byteIdentical": true,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 18,
+        "file": "slide-18.png",
+        "byteIdentical": true,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 19,
+        "file": "slide-19.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 20,
+        "file": "slide-20.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 21,
+        "file": "slide-21.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          864,
+          473
+        ]
+      },
+      {
+        "slide": 22,
+        "file": "slide-22.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 23,
+        "file": "slide-23.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 24,
+        "file": "slide-24.png",
+        "byteIdentical": false,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": [
+          53,
+          463,
+          865,
+          473
+        ]
+      },
+      {
+        "slide": 25,
+        "file": "slide-25.png",
+        "byteIdentical": true,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 26,
+        "file": "slide-26.png",
+        "byteIdentical": true,
+        "oldSize": [
+          917,
+          516
+        ],
+        "newSize": [
+          917,
+          516
+        ],
+        "pixelDiffBBox": null
+      }
+    ]
+  },
+  "present-1920": {
+    "count": 26,
+    "byteIdentical": 7,
+    "pixelIdentical": 7,
+    "rows": [
+      {
+        "slide": 1,
+        "file": "slide-01.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 2,
+        "file": "slide-02.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 3,
+        "file": "slide-03.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          735,
+          1468,
+          803
+        ]
+      },
+      {
+        "slide": 4,
+        "file": "slide-04.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          786,
+          1469,
+          803
+        ]
+      },
+      {
+        "slide": 5,
+        "file": "slide-05.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          89,
+          531,
+          1469,
+          803
+        ]
+      },
+      {
+        "slide": 6,
+        "file": "slide-06.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          786,
+          1468,
+          803
+        ]
+      },
+      {
+        "slide": 7,
+        "file": "slide-07.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          786,
+          1468,
+          803
+        ]
+      },
+      {
+        "slide": 8,
+        "file": "slide-08.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          735,
+          1469,
+          803
+        ]
+      },
+      {
+        "slide": 9,
+        "file": "slide-09.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          89,
+          391,
+          1468,
+          803
+        ]
+      },
+      {
+        "slide": 10,
+        "file": "slide-10.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          735,
+          1469,
+          803
+        ]
+      },
+      {
+        "slide": 11,
+        "file": "slide-11.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          735,
+          1466,
+          803
+        ]
+      },
+      {
+        "slide": 12,
+        "file": "slide-12.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          786,
+          1468,
+          803
+        ]
+      },
+      {
+        "slide": 13,
+        "file": "slide-13.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          786,
+          1468,
+          803
+        ]
+      },
+      {
+        "slide": 14,
+        "file": "slide-14.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          735,
+          1469,
+          803
+        ]
+      },
+      {
+        "slide": 15,
+        "file": "slide-15.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          786,
+          1469,
+          803
+        ]
+      },
+      {
+        "slide": 16,
+        "file": "slide-16.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          735,
+          1468,
+          803
+        ]
+      },
+      {
+        "slide": 17,
+        "file": "slide-17.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 18,
+        "file": "slide-18.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 19,
+        "file": "slide-19.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          786,
+          1468,
+          803
+        ]
+      },
+      {
+        "slide": 20,
+        "file": "slide-20.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          735,
+          1469,
+          803
+        ]
+      },
+      {
+        "slide": 21,
+        "file": "slide-21.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          786,
+          1466,
+          803
+        ]
+      },
+      {
+        "slide": 22,
+        "file": "slide-22.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          91,
+          786,
+          1468,
+          803
+        ]
+      },
+      {
+        "slide": 23,
+        "file": "slide-23.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 24,
+        "file": "slide-24.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 25,
+        "file": "slide-25.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 26,
+        "file": "slide-26.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1557,
+          876
+        ],
+        "newSize": [
+          1557,
+          876
+        ],
+        "pixelDiffBBox": [
+          652,
+          604,
+          906,
+          658
+        ]
+      }
+    ]
+  },
+  "read-1440": {
+    "count": 26,
+    "byteIdentical": 25,
+    "pixelIdentical": 25,
+    "rows": [
+      {
+        "slide": 1,
+        "file": "slide-01.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          280
+        ],
+        "newSize": [
+          1120,
+          280
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 2,
+        "file": "slide-02.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          394
+        ],
+        "newSize": [
+          1120,
+          394
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 3,
+        "file": "slide-03.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          795
+        ],
+        "newSize": [
+          1120,
+          795
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 4,
+        "file": "slide-04.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          613
+        ],
+        "newSize": [
+          1120,
+          613
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 5,
+        "file": "slide-05.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          748
+        ],
+        "newSize": [
+          1120,
+          748
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 6,
+        "file": "slide-06.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          613
+        ],
+        "newSize": [
+          1120,
+          613
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 7,
+        "file": "slide-07.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          537
+        ],
+        "newSize": [
+          1120,
+          537
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 8,
+        "file": "slide-08.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          748
+        ],
+        "newSize": [
+          1120,
+          748
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 9,
+        "file": "slide-09.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          748
+        ],
+        "newSize": [
+          1120,
+          748
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 10,
+        "file": "slide-10.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          748
+        ],
+        "newSize": [
+          1120,
+          748
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 11,
+        "file": "slide-11.png",
+        "byteIdentical": false,
+        "oldSize": [
+          1120,
+          702
+        ],
+        "newSize": [
+          1120,
+          702
+        ],
+        "pixelDiffBBox": [
+          88,
+          224,
+          1032,
+          227
+        ]
+      },
+      {
+        "slide": 12,
+        "file": "slide-12.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          757
+        ],
+        "newSize": [
+          1120,
+          757
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 13,
+        "file": "slide-13.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          502
+        ],
+        "newSize": [
+          1120,
+          502
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 14,
+        "file": "slide-14.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          748
+        ],
+        "newSize": [
+          1120,
+          748
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 15,
+        "file": "slide-15.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          757
+        ],
+        "newSize": [
+          1120,
+          757
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 16,
+        "file": "slide-16.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          748
+        ],
+        "newSize": [
+          1120,
+          748
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 17,
+        "file": "slide-17.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          407
+        ],
+        "newSize": [
+          1120,
+          407
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 18,
+        "file": "slide-18.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          426
+        ],
+        "newSize": [
+          1120,
+          426
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 19,
+        "file": "slide-19.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          692
+        ],
+        "newSize": [
+          1120,
+          692
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 20,
+        "file": "slide-20.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          702
+        ],
+        "newSize": [
+          1120,
+          702
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 21,
+        "file": "slide-21.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          757
+        ],
+        "newSize": [
+          1120,
+          757
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 22,
+        "file": "slide-22.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          789
+        ],
+        "newSize": [
+          1120,
+          789
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 23,
+        "file": "slide-23.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          479
+        ],
+        "newSize": [
+          1120,
+          479
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 24,
+        "file": "slide-24.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          521
+        ],
+        "newSize": [
+          1120,
+          521
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 25,
+        "file": "slide-25.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          280
+        ],
+        "newSize": [
+          1120,
+          280
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 26,
+        "file": "slide-26.png",
+        "byteIdentical": true,
+        "oldSize": [
+          1120,
+          406
+        ],
+        "newSize": [
+          1120,
+          406
+        ],
+        "pixelDiffBBox": null
+      }
+    ]
+  },
+  "read-390": {
+    "count": 26,
+    "byteIdentical": 25,
+    "pixelIdentical": 25,
+    "rows": [
+      {
+        "slide": 1,
+        "file": "slide-01.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          238
+        ],
+        "newSize": [
+          366,
+          238
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 2,
+        "file": "slide-02.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          484
+        ],
+        "newSize": [
+          366,
+          484
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 3,
+        "file": "slide-03.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          522
+        ],
+        "newSize": [
+          366,
+          522
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 4,
+        "file": "slide-04.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          647
+        ],
+        "newSize": [
+          366,
+          647
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 5,
+        "file": "slide-05.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          475
+        ],
+        "newSize": [
+          366,
+          475
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 6,
+        "file": "slide-06.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          680
+        ],
+        "newSize": [
+          366,
+          680
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 7,
+        "file": "slide-07.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          815
+        ],
+        "newSize": [
+          366,
+          815
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 8,
+        "file": "slide-08.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          520
+        ],
+        "newSize": [
+          366,
+          520
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 9,
+        "file": "slide-09.png",
+        "byteIdentical": false,
+        "oldSize": [
+          366,
+          520
+        ],
+        "newSize": [
+          366,
+          520
+        ],
+        "pixelDiffBBox": [
+          169,
+          214,
+          232,
+          248
+        ]
+      },
+      {
+        "slide": 10,
+        "file": "slide-10.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          520
+        ],
+        "newSize": [
+          366,
+          520
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 11,
+        "file": "slide-11.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          440
+        ],
+        "newSize": [
+          366,
+          440
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 12,
+        "file": "slide-12.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          759
+        ],
+        "newSize": [
+          366,
+          759
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 13,
+        "file": "slide-13.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          492
+        ],
+        "newSize": [
+          366,
+          492
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 14,
+        "file": "slide-14.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          520
+        ],
+        "newSize": [
+          366,
+          520
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 15,
+        "file": "slide-15.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          759
+        ],
+        "newSize": [
+          366,
+          759
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 16,
+        "file": "slide-16.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          520
+        ],
+        "newSize": [
+          366,
+          520
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 17,
+        "file": "slide-17.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          468
+        ],
+        "newSize": [
+          366,
+          468
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 18,
+        "file": "slide-18.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          475
+        ],
+        "newSize": [
+          366,
+          475
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 19,
+        "file": "slide-19.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          650
+        ],
+        "newSize": [
+          366,
+          650
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 20,
+        "file": "slide-20.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          440
+        ],
+        "newSize": [
+          366,
+          440
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 21,
+        "file": "slide-21.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          759
+        ],
+        "newSize": [
+          366,
+          759
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 22,
+        "file": "slide-22.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          791
+        ],
+        "newSize": [
+          366,
+          791
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 23,
+        "file": "slide-23.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          552
+        ],
+        "newSize": [
+          366,
+          552
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 24,
+        "file": "slide-24.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          653
+        ],
+        "newSize": [
+          366,
+          653
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 25,
+        "file": "slide-25.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          314
+        ],
+        "newSize": [
+          366,
+          314
+        ],
+        "pixelDiffBBox": null
+      },
+      {
+        "slide": 26,
+        "file": "slide-26.png",
+        "byteIdentical": true,
+        "oldSize": [
+          366,
+          408
+        ],
+        "newSize": [
+          366,
+          408
+        ],
+        "pixelDiffBBox": null
+      }
+    ]
+  }
+}

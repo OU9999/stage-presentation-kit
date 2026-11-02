@@ -1,0 +1,1272 @@
+{
+  "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+  "captureMode": "read-slide-crop",
+  "method": "crop-full-viewport-strips-between-sticky-chrome",
+  "hashes": {
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "a55a412ea27eae15e1989f97cf185246c3e3484245a12879fc81021155a77ee4",
+    "blocks.js": "ae8deef84bacbbf75d9423413a445b51ebd5b73f68209ac11447a246342db09a",
+    "deck-model.js": "351220b228183066edf99117299e21c876b8e107674ca3b4200aa79cea0d0da3",
+    "package-lock.json": "7b42ab6f64805637389db1e035563781604df231d572e458f87dfeceffd9fdb1",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "075ff2f9871675b5db3cd19852a6cacac5c1ec14f64ef708fa2a6723a64572b3",
+    "scripts/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "scripts/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "scripts/llm-wiki-typography-qa.cjs": "5d8c684979dde9f67a901f77ceb5fd77f047e35008e4177f73db815271cf11f0",
+    "scripts/markdown-deck.cjs": "fe53876f9a1671c802d747db7fd79b889523178e77387a2d59d8f557851aa306",
+    "scripts/markdown-document.cjs": "eef10ddf86a10071ec4b310b32094fe40d71a8c783b043732064d9a90544cb43",
+    "scripts/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "scripts/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "scripts/stage.cjs": "0a7faf4e82b4fe2828f40e66f896b60abf8c2c42680c800c13203f48889d4681",
+    "stage.config.json": "33215de7ca0cdbb771802f01e658231048fb25bdf269b0ab70e83085f71e164e",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+    "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+    "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+    "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+    "talks/llm-wiki/assets/examples/course.txt": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+    "talks/llm-wiki/assets/examples/reading.txt": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+    "talks/llm-wiki/assets/examples/team.txt": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+    "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "talks/llm-wiki/assets/expanded/agentic-routing.svg": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+    "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+    "talks/llm-wiki/assets/expanded/five-layers.svg": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+    "talks/llm-wiki/assets/expanded/ingest-map.svg": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+    "talks/llm-wiki/assets/expanded/knowledge-layers.svg": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+    "talks/llm-wiki/assets/expanded/purpose-questions.svg": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+    "talks/llm-wiki/assets/expanded/query-reading.svg": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+    "talks/llm-wiki/assets/expanded/rag-path.svg": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+    "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+    "talks/llm-wiki/assets/expanded/reflection-layers.svg": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+    "talks/llm-wiki/assets/expanded/related-updates.svg": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+    "talks/llm-wiki/assets/expanded/review-return.svg": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+    "talks/llm-wiki/assets/expanded/rules-graph.svg": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+    "talks/llm-wiki/assets/expanded/saved-question.svg": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+    "talks/llm-wiki/assets/expanded/session-plan.svg": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+    "talks/llm-wiki/assets/expanded/shared-workspace.svg": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+    "talks/llm-wiki/assets/expanded/source-concept.svg": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+    "talks/llm-wiki/assets/expanded/wiki-path.svg": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+    "talks/llm-wiki/assets/expanded/work-context.svg": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+    "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+    "talks/llm-wiki/assets/remake/ingest-map.svg": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+    "talks/llm-wiki/assets/remake/session-plan.svg": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+    "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+    "talks/llm-wiki/assets/typography/ingest-map.svg": "a3a65af7ab28b3eb7a0720d3ac9588b3a7c4dba0af3b6833a1ee89676454da8e",
+    "talks/llm-wiki/assets/typography/knowledge-layers.svg": "00cc9503c0ea5f60b60e902f45f12622da5d4696ac03d8b7296d6bf2953ab493",
+    "talks/llm-wiki/assets/typography/purpose-questions.svg": "22e3b2b1ec42fed0eeb887c9f1d7c5d8778279dc54b992897e8171b3eaf1fef0",
+    "talks/llm-wiki/assets/typography/rag-path.svg": "0aefea443a6e3de3f103c5cdbcf9d16fe025af213fd4266f213dfd28df4c5c63",
+    "talks/llm-wiki/assets/typography/raw-wiki-rules.svg": "971d2b2c25e3d9e6ae3cd17abe5c1d0aa21fc5a71e7eaa4a98c7abb60c1719ba",
+    "talks/llm-wiki/assets/typography/related-updates.svg": "e240f730668766cb72612e6d4a417127473bdd8e2d04b8a0086307e361bce67f",
+    "talks/llm-wiki/assets/typography/session-plan.svg": "a7afd1388934c61261926c78cdc0c70fb51bd62219d3b7b59f4c8ea92349a955",
+    "talks/llm-wiki/assets/typography/source-concept.svg": "cac31a82b5a0225f8bf3fb14fd713b29482bf2e84c7114a8131d3b6216195862",
+    "talks/llm-wiki/assets/typography/wiki-path.svg": "53636045579a66dfdee4f53136cf31365fc00809983cb56e0b14b224c5052840",
+    "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+    "talks/llm-wiki/materials/demo-log.md": "c9658bac6915ae5cb931bdfe1a33c5d67069c6aa0a60bcf80af4b9a550d257e0",
+    "talks/llm-wiki/materials/diagram-reading.md": "76b96c491447497412147b795533723533578532b0b05d6b0075d22ded411cda",
+    "talks/llm-wiki/materials/index.md": "712990f277dd8262c6d32d7233d314c258baf2fdc91312dea56d218c2a90b354",
+    "talks/llm-wiki/materials/reference-library.md": "6b1796922385854cb43a10e332fd6df82fd229c8d8e8868d89db4ec137dcd883",
+    "talks/llm-wiki/materials/session-plan.md": "72d734684a52c431bf2380b505cf924a78b34d42dc507af34eaa13116a30f888",
+    "talks/llm-wiki/materials/speaker-script.md": "19254a11025d04161bf73844c9b7d38db2d29b9cfb7d41b99071278f04d34cc7",
+    "talks/llm-wiki/materials/study-guide.md": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+    "talks/llm-wiki/materials/visual-appendix.md": "64fc9640ec4eed9d9156a7009db5258643f49ac2b7ed11d3b941cdf1e9c9e52e",
+    "talks/llm-wiki/materials/workshop.md": "5cdf7f8a16798a8ef7a79ab8fc715fd904baef33a4291aa6c294ec8d3b9edace",
+    "talks/llm-wiki/slides.md": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+    "templates/material.html": "0851e62ab6757a4ad68084fb534dccf1f440317fb06df780041bcbf2eea6c665",
+    "templates/materials.css": "1b61ac3b3119aa9aae8a080ea24e63eb0080abf0ce5749d469e2cf0977a0b702",
+    "templates/presentation.html": "c764f4649354a77887b2f8f69a809995b3c64d65402a04b6697225edf6afc4dd",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "DESIGN.md": "ca0f0277c4c260b77e756b17272e8a90388cedf9780c8d916963563adfd519c6",
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+  },
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "devicePixelRatio": 1
+  },
+  "documentWidth": 1440,
+  "observations": [
+    {
+      "index": "0",
+      "stage": {
+        "x": 160,
+        "y": 114,
+        "width": 1120,
+        "height": 280
+      },
+      "heading": "LLM Wiki",
+      "text": "LLM Wiki내 자료를 AI와 함께 정리하는 방법모아 둔 자료를, 다음 질문에 다시 쓰기",
+      "nativeFonts": [
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-01.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-01-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 280,
+            "scrollY": 18,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "1",
+      "stage": {
+        "x": 160,
+        "y": 418,
+        "width": 1120,
+        "height": 394
+      },
+      "heading": "LLM Wiki는 무엇인가요?",
+      "text": "LLM Wiki는 무엇인가요?내 자료를 AI와 함께 정리하고 연결하는나만의 마크다운 지식 베이스입니다.내가 읽고 고칠 수 있고, AI도 찾아 읽고 갱신합니다.Karpathy가 2026년 4월 공개한 설계 아이디어",
+      "nativeFonts": [
+        "24px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [
+        {
+          "text": "Karpathy가 2026년 4월 공개한 설계 아이디어",
+          "href": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-02.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-02-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 394,
+            "scrollY": 322,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "2",
+      "stage": {
+        "x": 160,
+        "y": 836,
+        "width": 1120,
+        "height": 795
+      },
+      "heading": "왜 필요한가요?",
+      "text": "왜 필요한가요?“AI가 내 자료를 좀 더 잘 이해해 줬으면.”자료를 개념과 관계로 정리해, 다음 질문에 다시 씁니다.그림의 관계 읽기",
+      "nativeFonts": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "images": [
+        {
+          "src": "assets/00cc9503c0ea-knowledge-layers.svg",
+          "complete": true,
+          "naturalWidth": 1500,
+          "width": 976
+        }
+      ],
+      "links": [
+        {
+          "text": "그림의 관계 읽기",
+          "href": "materials/diagram-reading.html#3%EC%9E%A5-%EC%9E%90%EB%A3%8C%EC%97%90%EC%84%9C-%EC%97%B0%EA%B2%B0%EB%90%9C-%EC%A7%80%EC%8B%9D%EC%9C%BC%EB%A1%9C"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-03.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-03-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 795,
+            "scrollY": 740,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "3",
+      "stage": {
+        "x": 160,
+        "y": 1655,
+        "width": 1120,
+        "height": 613
+      },
+      "heading": "개인비서도 내 맥락이 필요합니다",
+      "text": "개인비서도 내 맥락이 필요합니다개인비서형 에이전트 예: OpenClaw · Hermes알아야 할 맥락내 상황 · 선호 · 이전에 선택한 이유위키가 돕는 일흩어진 맥락을 문서로 정리해필요할 때 다시 읽게 합니다.",
+      "nativeFonts": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [
+        {
+          "text": "개인비서형 에이전트 예: OpenClaw",
+          "href": "https://docs.openclaw.ai/concepts/memory"
+        },
+        {
+          "text": "Hermes",
+          "href": "https://github.com/NousResearch/hermes-agent"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-04.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-04-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 613,
+            "scrollY": 1559,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "4",
+      "stage": {
+        "x": 160,
+        "y": 2292,
+        "width": 1120,
+        "height": 748
+      },
+      "heading": "무엇이 생기나요?",
+      "text": "무엇이 생기나요?마크다운은 글과 링크를 적는 텍스트 파일입니다.그림의 관계 읽기",
+      "nativeFonts": [
+        "18px",
+        "18px"
+      ],
+      "images": [
+        {
+          "src": "assets/971d2b2c25e3-raw-wiki-rules.svg",
+          "complete": true,
+          "naturalWidth": 1500,
+          "width": 976
+        }
+      ],
+      "links": [
+        {
+          "text": "그림의 관계 읽기",
+          "href": "materials/diagram-reading.html#5%EC%9E%A5-raw-wiki-rules%EC%9D%98-%EC%97%AD%ED%95%A0"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-05.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-05-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 748,
+            "scrollY": 2196,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "5",
+      "stage": {
+        "x": 160,
+        "y": 3064,
+        "width": 1120,
+        "height": 613
+      },
+      "heading": "사람과 AI가 함께 편집합니다",
+      "text": "사람과 AI가 함께 편집합니다사람도 같은 마크다운 문서를 읽고 고칠 수 있습니다.사람목적을 정하고, 내 생각과 판단을 직접 적습니다.AI자료를 읽고, 문서를 쓰고,연결과 목차를 갱신합니다.",
+      "nativeFonts": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-06.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-06-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 613,
+            "scrollY": 2968,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "6",
+      "stage": {
+        "x": 160,
+        "y": 3701,
+        "width": 1120,
+        "height": 537
+      },
+      "heading": "RAG와 무엇이 다른가요?",
+      "text": "RAG와 무엇이 다른가요?살펴볼 점RAG 구성작은 LLM Wiki중심 작업자료를 검색해 답하기문서를 정리하고 연결하기준비할 것검색 방법·색인 등 설계파일·목차·링크부터 시작질문할 때찾은 근거를 참고정리한 문서와 원자료를 참고유지할 것검색 품질·자료 변경문서 내용·연결·자료 변경함께 쓸 수 있습니다. 규모가 커지면 위키에도 검색이 필요합니다.",
+      "nativeFonts": [
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-07.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-07-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 537,
+            "scrollY": 3605,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "7",
+      "stage": {
+        "x": 160,
+        "y": 4262,
+        "width": 1120,
+        "height": 748
+      },
+      "heading": "RAG는 필요한 근거를 찾아 답합니다",
+      "text": "RAG는 필요한 근거를 찾아 답합니다같은 자료에서 지금 질문에 필요한 부분을 찾아 답을 만듭니다.그림의 관계 읽기",
+      "nativeFonts": [
+        "18px",
+        "18px"
+      ],
+      "images": [
+        {
+          "src": "assets/0aefea443a6e-rag-path.svg",
+          "complete": true,
+          "naturalWidth": 1500,
+          "width": 976
+        }
+      ],
+      "links": [
+        {
+          "text": "그림의 관계 읽기",
+          "href": "materials/diagram-reading.html#8%EC%9E%A5-%EC%A7%88%EB%AC%B8%EC%97%90-%EB%94%B0%EB%9D%BC-%EA%B7%BC%EA%B1%B0-%EC%B0%BE%EA%B8%B0"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-08.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-08-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 748,
+            "scrollY": 4166,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "8",
+      "stage": {
+        "x": 160,
+        "y": 5034,
+        "width": 1120,
+        "height": 748
+      },
+      "heading": "위키는 정리해 둔 문서를 읽습니다",
+      "text": "위키는 정리해 둔 문서를 읽습니다자료를 개념·비교·계획으로 미리 정리하고, 필요한 쪽을 다시 읽습니다.그림의 관계 읽기",
+      "nativeFonts": [
+        "18px",
+        "18px"
+      ],
+      "images": [
+        {
+          "src": "assets/53636045579a-wiki-path.svg",
+          "complete": true,
+          "naturalWidth": 1500,
+          "width": 976
+        }
+      ],
+      "links": [
+        {
+          "text": "그림의 관계 읽기",
+          "href": "materials/diagram-reading.html#9%EC%9E%A5-%EB%AF%B8%EB%A6%AC-%EC%A0%95%EB%A6%AC%ED%95%9C-%EB%AC%B8%EC%84%9C-%EB%8B%A4%EC%8B%9C-%EC%9D%BD%EA%B8%B0"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-09.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-09-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 748,
+            "scrollY": 4938,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "9",
+      "stage": {
+        "x": 160,
+        "y": 5806,
+        "width": 1120,
+        "height": 748
+      },
+      "heading": "Ingest는 자료를 소화하고 연결하는 일",
+      "text": "Ingest는 자료를 소화하고 연결하는 일자료 읽기 → 내용 나누기 → 문서·목차·링크 갱신하기그림의 관계 읽기",
+      "nativeFonts": [
+        "18px",
+        "18px"
+      ],
+      "images": [
+        {
+          "src": "assets/a3a65af7ab28-ingest-map.svg",
+          "complete": true,
+          "naturalWidth": 1500,
+          "width": 976
+        }
+      ],
+      "links": [
+        {
+          "text": "그림의 관계 읽기",
+          "href": "materials/diagram-reading.html#10%EC%9E%A5-%EC%9D%BD%EA%B3%A0-%EB%82%98%EB%88%84%EA%B3%A0-%EC%97%B0%EA%B2%B0-%EA%B0%B1%EC%8B%A0%ED%95%98%EA%B8%B0"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-10.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-10-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 748,
+            "scrollY": 5710,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "10",
+      "stage": {
+        "x": 160,
+        "y": 6579,
+        "width": 1120,
+        "height": 702
+      },
+      "heading": "요약 하나로 끝나지 않습니다",
+      "text": "요약 하나로 끝나지 않습니다그림의 관계 읽기",
+      "nativeFonts": [
+        "18px"
+      ],
+      "images": [
+        {
+          "src": "assets/cac31a82b5a0-source-concept.svg",
+          "complete": true,
+          "naturalWidth": 1500,
+          "width": 976
+        }
+      ],
+      "links": [
+        {
+          "text": "그림의 관계 읽기",
+          "href": "materials/diagram-reading.html#11%EC%9E%A5-%EC%9E%90%EB%A3%8C-%EC%9A%94%EC%95%BD%EA%B3%BC-%EA%B0%9C%EB%85%90-%EB%AC%B8%EC%84%9C"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-11.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-11-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 702,
+            "scrollY": 6483,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "11",
+      "stage": {
+        "x": 160,
+        "y": 7304,
+        "width": 1120,
+        "height": 757
+      },
+      "heading": "나무위키처럼 문서들이 연결됩니다",
+      "text": "나무위키처럼 문서들이 연결됩니다주제별 문서한 파일에 몰아넣지 않고개념별로 나눕니다.목차와 링크관련 개념과 원자료를찾아 읽습니다.연결된 지식새 자료가 오면문서와 관계를 보완합니다.",
+      "nativeFonts": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-12.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-12-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 757,
+            "scrollY": 7208,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "12",
+      "stage": {
+        "x": 160,
+        "y": 8085,
+        "width": 1120,
+        "height": 502
+      },
+      "heading": "질문하면 이렇게 씁니다",
+      "text": "질문하면 이렇게 씁니다다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?정리한 개념과 비교 문서를 읽습니다.우리 목적과 조건에 맞춰 답합니다.쓸 만한 답은 확인한 뒤 문서로 남깁니다.발표용 스터디 사례입니다.",
+      "nativeFonts": [
+        "24px",
+        "18px",
+        "18px",
+        "18px",
+        "18px",
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-13.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-13-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 502,
+            "scrollY": 7989,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "13",
+      "stage": {
+        "x": 160,
+        "y": 8611,
+        "width": 1120,
+        "height": 748
+      },
+      "heading": "새 자료가 오면 기존 문서도 고칩니다",
+      "text": "새 자료가 오면 기존 문서도 고칩니다입문자와 15분 활동이라는 새 조건으로 설명·선택 기준·계획을 함께 고칩니다.그림의 관계 읽기",
+      "nativeFonts": [
+        "18px",
+        "18px"
+      ],
+      "images": [
+        {
+          "src": "assets/e240f7306687-related-updates.svg",
+          "complete": true,
+          "naturalWidth": 1500,
+          "width": 976
+        }
+      ],
+      "links": [
+        {
+          "text": "그림의 관계 읽기",
+          "href": "materials/diagram-reading.html#14%EC%9E%A5-%EC%83%88-%EC%A1%B0%EA%B1%B4%EA%B3%BC-%EC%84%B8-%EB%AC%B8%EC%84%9C%EC%9D%98-%EB%B3%80%EA%B2%BD"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-14.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-14-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 748,
+            "scrollY": 8515,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "14",
+      "stage": {
+        "x": 160,
+        "y": 9383,
+        "width": 1120,
+        "height": 757
+      },
+      "heading": "다 넣기보다, 다시 쓸 자료부터",
+      "text": "다 넣기보다, 다시 쓸 자료부터내 목적에 필요한가앞으로 만들 결과와관련된 자료인가왜 골랐는가가치 있다고 느낀 이유를직접 적을 수 있는가작게 시작하기같은 주제의자료 두 개부터 연결합니다.",
+      "nativeFonts": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-15.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-15-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 757,
+            "scrollY": 9287,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "15",
+      "stage": {
+        "x": 160,
+        "y": 10164,
+        "width": 1120,
+        "height": 748
+      },
+      "heading": "목적이 있어야 정리 기준이 생깁니다",
+      "text": "목적이 있어야 정리 기준이 생깁니다왜 골랐는지, 어디에 쓸지를 적으면 정리할 기준이 생깁니다.그림의 관계 읽기",
+      "nativeFonts": [
+        "18px",
+        "18px"
+      ],
+      "images": [
+        {
+          "src": "assets/22e3b2b1ec42-purpose-questions.svg",
+          "complete": true,
+          "naturalWidth": 1500,
+          "width": 976
+        }
+      ],
+      "links": [
+        {
+          "text": "그림의 관계 읽기",
+          "href": "materials/diagram-reading.html#16%EC%9E%A5-%EC%93%B0%EC%9E%84%EC%97%90%EC%84%9C-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80%EC%9C%BC%EB%A1%9C"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-16.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-16-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 748,
+            "scrollY": 10068,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "16",
+      "stage": {
+        "x": 160,
+        "y": 10937,
+        "width": 1120,
+        "height": 407
+      },
+      "heading": "내 맥락을 정리하는 일은 어렵습니다",
+      "text": "내 맥락을 정리하는 일은 어렵습니다같은 자료라도 내 목적과 경험에 따라 묶는 기준이 달라집니다.왜 골랐고,어떤 질문을 풀려는가?기준부터 적어 다시 쓸 방향을 잡습니다.\n목적 없이 모으기만 하면 다시 쓰기 어렵습니다.",
+      "nativeFonts": [
+        "18px",
+        "24px",
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-17.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-17-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 407,
+            "scrollY": 10841,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "17",
+      "stage": {
+        "x": 160,
+        "y": 11368,
+        "width": 1120,
+        "height": 426
+      },
+      "heading": "사람이 직접 남기는 맥락",
+      "text": "사람이 직접 남기는 맥락목적과 내 판단은내가 적습니다.누구를 위해 무엇을 만들지 목적은 직접 정하고,감정 · 생각 · 판단 · 선택 이유를 직접 남깁니다.기록은 구분합니다: 원문 · 내 기록 · AI가 쓴 요약과 해석.",
+      "nativeFonts": [
+        "24px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-18.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-18-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 426,
+            "scrollY": 11272,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "18",
+      "stage": {
+        "x": 160,
+        "y": 11818,
+        "width": 1120,
+        "height": 692
+      },
+      "heading": "어디에 쓸 수 있나요?",
+      "text": "어디에 쓸 수 있나요?공부읽은 자료를개념과 질문으로 연결하기프로젝트배경과 결정 이유를 함께 읽기글과 발표모아 둔 근거로 초안 만들기",
+      "nativeFonts": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-19.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-19-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 692,
+            "scrollY": 11722,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "19",
+      "stage": {
+        "x": 160,
+        "y": 12534,
+        "width": 1120,
+        "height": 702
+      },
+      "heading": "정리한 지식으로 만든 15분 활동안",
+      "text": "정리한 지식으로 만든 15분 활동안15분 활동안 전체 읽기",
+      "nativeFonts": [
+        "18px"
+      ],
+      "images": [
+        {
+          "src": "assets/a7afd1388934-session-plan.svg",
+          "complete": true,
+          "naturalWidth": 1500,
+          "width": 976
+        }
+      ],
+      "links": [
+        {
+          "text": "15분 활동안 전체 읽기",
+          "href": "materials/session-plan.html"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-20.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-20-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 702,
+            "scrollY": 12438,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "20",
+      "stage": {
+        "x": 160,
+        "y": 13260,
+        "width": 1120,
+        "height": 757
+      },
+      "heading": "장점은 나도 AI도 읽고 고친다는 것",
+      "text": "장점은 나도 AI도 읽고 고친다는 것함께 읽기설명과 근거가마크다운 문서로 남습니다.함께 고치기AI의 정리에내 경험과 판단을 보탭니다.다시 활용하기정리된 개념과 연결을다음 질문에 씁니다.",
+      "nativeFonts": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-21.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-21-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 757,
+            "scrollY": 13164,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "21",
+      "stage": {
+        "x": 160,
+        "y": 14041,
+        "width": 1120,
+        "height": 789
+      },
+      "heading": "AI가 정리해도 확인은 필요합니다",
+      "text": "AI가 정리해도 확인은 필요합니다내용잘못된 요약과근거 없는 연결이생길 수 있습니다.변화새 자료와 예전 설명이충돌할 수 있습니다.관리확인하고 고치는 데시간이 듭니다.",
+      "nativeFonts": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-22.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-22-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 789,
+            "scrollY": 13945,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "22",
+      "stage": {
+        "x": 160,
+        "y": 14854,
+        "width": 1120,
+        "height": 479
+      },
+      "heading": "이럴 때 작게 시작하세요",
+      "text": "이럴 때 작게 시작하세요내 상황먼저 해 볼 일같은 주제를 자주 다시 물음관련 자료 두 개를 연결해 보기내 경험과 판단도 함께 필요함선택 이유와 현재 상황 적기자료가 많고 자주 바뀜검색·갱신·검토 비용 비교하기한 번만 확인하면 됨간단한 노트와 검색부터 시작하기",
+      "nativeFonts": [],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-23.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-23-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 479,
+            "scrollY": 14758,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "23",
+      "stage": {
+        "x": 160,
+        "y": 15357,
+        "width": 1120,
+        "height": 521
+      },
+      "heading": "첫 요청은 이 정도면 됩니다",
+      "text": "첫 요청은 이 정도면 됩니다목적: AI 스터디에서 LLM Wiki를 설명하고 싶어.자료: 내가 고른 두 자료와 직접 쓴 생각·선택 이유를 읽어 줘.정리: 원문·내 기록·AI 요약을 구분하고 개념과 근거를 연결해 줘.확인: 원자료 링크, 바꾼 파일, 모르는 점을 알려줘.예제 팩 · 자료 읽는 방법원본 그림·48장 원고 보기",
+      "nativeFonts": [
+        "18px",
+        "18px",
+        "18px",
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [
+        {
+          "text": "예제 팩",
+          "href": "assets/245ebc8ac44e-expanded-study.txt"
+        },
+        {
+          "text": "자료 읽는 방법",
+          "href": "materials/workshop.html"
+        },
+        {
+          "text": "원본 그림·48장 원고 보기",
+          "href": "materials/visual-appendix.html"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-24.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-24-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 96,
+            "width": 1120,
+            "height": 521,
+            "scrollY": 15261,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "24",
+      "stage": {
+        "x": 160,
+        "y": 15903,
+        "width": 1120,
+        "height": 280
+      },
+      "heading": "다음 질문에 쓸 자료 두 개부터",
+      "text": "다음 질문에 쓸 자료 두 개부터목적을 정하고 → 연결하고 → 확인하고 → 다시 씁니다.내 자료를, 나와 AI가 함께 읽는 지식으로.",
+      "nativeFonts": [
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-25.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-25-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 130.5,
+            "width": 1120,
+            "height": 280,
+            "scrollY": 15772.5,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    },
+    {
+      "index": "25",
+      "stage": {
+        "x": 160,
+        "y": 16207,
+        "width": 1120,
+        "height": 406
+      },
+      "heading": "어떤 자료로 시작하고 싶나요?",
+      "text": "어떤 자료로 시작하고 싶나요?내가 다시 묻는 질문 하나,그 질문에 쓸 자료 두 개는 무엇인가요?Q&A학습 자료 · 설계와 기술 원문원본 그림·48장 원고 보기",
+      "nativeFonts": [
+        "18px",
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "images": [],
+      "links": [
+        {
+          "text": "학습 자료",
+          "href": "materials/index.html"
+        },
+        {
+          "text": "설계와 기술 원문",
+          "href": "materials/reference-library.html"
+        },
+        {
+          "text": "원본 그림·48장 원고 보기",
+          "href": "materials/visual-appendix.html"
+        }
+      ],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/slide-26.png",
+      "tiles": [
+        {
+          "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-03/read-1440/tiles/slide-26-01.png",
+          "offsetY": 0,
+          "clip": {
+            "x": 160,
+            "y": 434.5,
+            "width": 1120,
+            "height": 406,
+            "scrollY": 15772.5,
+            "topBar": 76,
+            "bottomBar": 928
+          }
+        }
+      ]
+    }
+  ]
+}

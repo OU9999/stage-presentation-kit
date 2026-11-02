@@ -1,0 +1,5 @@
+
+> stage-presentation-kit@1.0.0 build:site
+> node scripts/build-site.cjs build
+
+전체 사이트 생성·검증 완료: 기존 예제 8개 · presentations 5개 발표 · markdown-starter 1개 발표

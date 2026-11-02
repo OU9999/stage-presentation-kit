@@ -1,0 +1,251 @@
+{
+  "interpretation": "Pixel share and SVG declarations are observations only. Authored explanatory surfaces must follow the current LLM Wiki dark-stage preference; authentic source media require a separate provenance judgment.",
+  "slides": [
+    {
+      "slide": 3,
+      "assets": [
+        {
+          "sourceFiles": [
+            "talks/llm-wiki/assets/expanded/knowledge-layers.svg"
+          ],
+          "generatedPath": "presentations/llm-wiki/assets/bf4ad827da99-knowledge-layers.svg",
+          "sha256": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+          "root": {
+            "width": "1500",
+            "height": "600",
+            "viewBox": "0 0 1500 600",
+            "style": "background:#080808",
+            "role": "img",
+            "aria-labelledby": "title desc"
+          },
+          "rectangleDeclarations": []
+        }
+      ],
+      "nearWhitePixelShareNotVerdict": 0.00022569444444444443,
+      "provenance": "Presentation-team-authored explanatory diagram, not an external screenshot"
+    },
+    {
+      "slide": 5,
+      "assets": [
+        {
+          "sourceFiles": [
+            "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg"
+          ],
+          "generatedPath": "presentations/llm-wiki/assets/f2422a7925dc-raw-wiki-rules.svg",
+          "sha256": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+          "root": {
+            "width": "1500",
+            "height": "600",
+            "viewBox": "0 0 1500 600",
+            "style": "background:#080808",
+            "role": "img",
+            "aria-labelledby": "title desc"
+          },
+          "rectangleDeclarations": [
+            {
+              "x": "35",
+              "y": "35",
+              "width": "425",
+              "height": "420",
+              "fill": "#F6F6F4"
+            }
+          ]
+        }
+      ],
+      "nearWhitePixelShareNotVerdict": 0.07375,
+      "provenance": "Presentation-team-authored explanatory diagram, not an external screenshot"
+    },
+    {
+      "slide": 8,
+      "assets": [
+        {
+          "sourceFiles": [
+            "talks/llm-wiki/assets/expanded/rag-path.svg"
+          ],
+          "generatedPath": "presentations/llm-wiki/assets/1f943e43d8d7-rag-path.svg",
+          "sha256": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+          "root": {
+            "width": "1500",
+            "height": "600",
+            "viewBox": "0 0 1500 600",
+            "style": "background:#080808",
+            "role": "img",
+            "aria-labelledby": "title desc"
+          },
+          "rectangleDeclarations": [
+            {
+              "x": "505",
+              "y": "132",
+              "width": "493",
+              "height": "365",
+              "fill": "#151515"
+            }
+          ]
+        }
+      ],
+      "nearWhitePixelShareNotVerdict": 0.00026041666666666666,
+      "provenance": "Presentation-team-authored explanatory diagram, not an external screenshot"
+    },
+    {
+      "slide": 9,
+      "assets": [
+        {
+          "sourceFiles": [
+            "talks/llm-wiki/assets/expanded/wiki-path.svg"
+          ],
+          "generatedPath": "presentations/llm-wiki/assets/e39c92d904c4-wiki-path.svg",
+          "sha256": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+          "root": {
+            "width": "1500",
+            "height": "600",
+            "viewBox": "0 0 1500 600",
+            "style": "background:#080808",
+            "role": "img",
+            "aria-labelledby": "title desc"
+          },
+          "rectangleDeclarations": []
+        }
+      ],
+      "nearWhitePixelShareNotVerdict": 0.00024305555555555555,
+      "provenance": "Presentation-team-authored explanatory diagram, not an external screenshot"
+    },
+    {
+      "slide": 10,
+      "assets": [
+        {
+          "sourceFiles": [
+            "talks/llm-wiki/assets/remake/ingest-map.svg"
+          ],
+          "generatedPath": "presentations/llm-wiki/assets/e93f12b83834-ingest-map.svg",
+          "sha256": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+          "root": {
+            "width": "1500",
+            "height": "600",
+            "viewBox": "0 0 1500 600",
+            "style": "background:#080808",
+            "role": "img",
+            "aria-labelledby": "title desc"
+          },
+          "rectangleDeclarations": []
+        }
+      ],
+      "nearWhitePixelShareNotVerdict": 0.00045138888888888887,
+      "provenance": "Presentation-team-authored explanatory diagram, not an external screenshot"
+    },
+    {
+      "slide": 11,
+      "assets": [
+        {
+          "sourceFiles": [
+            "talks/llm-wiki/assets/expanded/source-concept.svg"
+          ],
+          "generatedPath": "presentations/llm-wiki/assets/a3c7b37535df-source-concept.svg",
+          "sha256": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+          "root": {
+            "width": "1500",
+            "height": "600",
+            "viewBox": "0 0 1500 600",
+            "style": "background:#080808",
+            "role": "img",
+            "aria-labelledby": "title desc"
+          },
+          "rectangleDeclarations": [
+            {
+              "x": "35",
+              "y": "35",
+              "width": "610",
+              "height": "520",
+              "fill": "#F6F6F4"
+            },
+            {
+              "x": "747",
+              "y": "35",
+              "width": "716",
+              "height": "520",
+              "fill": "#F6F6F4"
+            }
+          ]
+        }
+      ],
+      "nearWhitePixelShareNotVerdict": 0.364375,
+      "provenance": "Presentation-team-authored explanatory diagram, not an external screenshot"
+    },
+    {
+      "slide": 14,
+      "assets": [
+        {
+          "sourceFiles": [
+            "talks/llm-wiki/assets/expanded/related-updates.svg"
+          ],
+          "generatedPath": "presentations/llm-wiki/assets/6b2263dbe032-related-updates.svg",
+          "sha256": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+          "root": {
+            "width": "1500",
+            "height": "600",
+            "viewBox": "0 0 1500 600",
+            "style": "background:#080808",
+            "role": "img",
+            "aria-labelledby": "title desc"
+          },
+          "rectangleDeclarations": []
+        }
+      ],
+      "nearWhitePixelShareNotVerdict": 0.0003125,
+      "provenance": "Presentation-team-authored explanatory diagram, not an external screenshot"
+    },
+    {
+      "slide": 16,
+      "assets": [
+        {
+          "sourceFiles": [
+            "talks/llm-wiki/assets/expanded/purpose-questions.svg"
+          ],
+          "generatedPath": "presentations/llm-wiki/assets/de481ad077ff-purpose-questions.svg",
+          "sha256": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+          "root": {
+            "width": "1500",
+            "height": "600",
+            "viewBox": "0 0 1500 600",
+            "style": "background:#080808",
+            "role": "img",
+            "aria-labelledby": "title desc"
+          },
+          "rectangleDeclarations": []
+        }
+      ],
+      "nearWhitePixelShareNotVerdict": 0.0008506944444444444,
+      "provenance": "Presentation-team-authored explanatory diagram, not an external screenshot"
+    },
+    {
+      "slide": 20,
+      "assets": [
+        {
+          "sourceFiles": [
+            "talks/llm-wiki/assets/remake/session-plan.svg"
+          ],
+          "generatedPath": "presentations/llm-wiki/assets/71a3edfad9bd-session-plan.svg",
+          "sha256": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+          "root": {
+            "width": "1500",
+            "height": "600",
+            "viewBox": "0 0 1500 600",
+            "style": "background:#080808",
+            "role": "img",
+            "aria-labelledby": "title desc"
+          },
+          "rectangleDeclarations": [
+            {
+              "x": "24",
+              "y": "8",
+              "width": "1452",
+              "height": "584",
+              "fill": "#F6F6F4"
+            }
+          ]
+        }
+      ],
+      "nearWhitePixelShareNotVerdict": 0.43319444444444444,
+      "provenance": "Presentation-team-authored explanatory diagram, not an external screenshot"
+    }
+  ]
+}

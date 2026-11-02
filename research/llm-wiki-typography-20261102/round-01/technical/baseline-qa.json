@@ -1,0 +1,364 @@
+{
+  "format": "llm-wiki-typography-result-v1",
+  "mode": "baseline",
+  "status": "regression",
+  "visualApproval": false,
+  "revision": "f6a5a79c444a79a9f62ed8759c1a7a1e745298b30d3766dcb32202a220619bbe",
+  "summary": {
+    "checks": 70,
+    "invalid": 0,
+    "regressions": 44
+  },
+  "checks": [
+    {
+      "id": "context-tail",
+      "status": "regression",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "ai-work-tail",
+      "status": "regression",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "shared-editing-tail",
+      "status": "regression",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "topic-files-tail",
+      "status": "regression",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "navigation-tail",
+      "status": "regression",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "related-update-tail",
+      "status": "regression",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "benefit-read-tail",
+      "status": "regression",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "benefit-edit-tail",
+      "status": "regression",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "benefit-reuse-tail",
+      "status": "regression",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "risk-content-tail",
+      "status": "pass",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "risk-change-tail",
+      "status": "regression",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "context-difficulty-font",
+      "status": "regression",
+      "detail": "25 logical / 14.333 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "context-response-font",
+      "status": "regression",
+      "detail": "25 logical / 14.333 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "human-purpose-and-record-font",
+      "status": "regression",
+      "detail": "25 logical / 14.333 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "record-distinction-font",
+      "status": "regression",
+      "detail": "25 logical / 14.333 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "context-question-source-break",
+      "status": "regression",
+      "detail": "Expected one authored boundary, found 0."
+    },
+    {
+      "id": "context-question-rendered-break",
+      "status": "regression",
+      "detail": "Boundary uses actual before/after glyph y, never textContent newline splitting."
+    },
+    {
+      "id": "human-declaration-source-break",
+      "status": "regression",
+      "detail": "Expected one authored boundary, found 0."
+    },
+    {
+      "id": "human-declaration-rendered-break",
+      "status": "regression",
+      "detail": "Boundary uses actual before/after glyph y, never textContent newline splitting."
+    },
+    {
+      "id": "audience-question-source-break",
+      "status": "regression",
+      "detail": "Expected one authored boundary, found 0."
+    },
+    {
+      "id": "audience-question-rendered-break",
+      "status": "regression",
+      "detail": "Boundary uses actual before/after glyph y, never textContent newline splitting."
+    },
+    {
+      "id": "request-0-font",
+      "status": "regression",
+      "detail": "26 logical / 14.907 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "request-0-geometry",
+      "status": "pass",
+      "detail": "The complete request remains inside the actual body area."
+    },
+    {
+      "id": "request-1-font",
+      "status": "regression",
+      "detail": "26 logical / 14.907 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "request-1-geometry",
+      "status": "pass",
+      "detail": "The complete request remains inside the actual body area."
+    },
+    {
+      "id": "request-2-font",
+      "status": "regression",
+      "detail": "26 logical / 14.907 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "request-2-geometry",
+      "status": "pass",
+      "detail": "The complete request remains inside the actual body area."
+    },
+    {
+      "id": "request-3-font",
+      "status": "regression",
+      "detail": "26 logical / 14.907 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "request-3-geometry",
+      "status": "pass",
+      "detail": "The complete request remains inside the actual body area."
+    },
+    {
+      "id": "shared-source-membership",
+      "status": "regression",
+      "detail": "Common reading/editing belongs before both role groups in the source AST."
+    },
+    {
+      "id": "shared-dom-membership",
+      "status": "regression",
+      "detail": "Original source still places shared text inside the AI group."
+    },
+    {
+      "id": "diagram-3-source",
+      "status": "regression",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-3-font",
+      "status": "regression",
+      "detail": "Minimum essential contain-projected size 23.465 logical px."
+    },
+    {
+      "id": "diagram-5-source",
+      "status": "regression",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-5-font",
+      "status": "regression",
+      "detail": "Minimum essential contain-projected size 22.627 logical px."
+    },
+    {
+      "id": "diagram-8-source",
+      "status": "regression",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-8-font",
+      "status": "regression",
+      "detail": "Minimum essential contain-projected size 25.020 logical px."
+    },
+    {
+      "id": "diagram-9-source",
+      "status": "regression",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-9-font",
+      "status": "regression",
+      "detail": "Minimum essential contain-projected size 25.020 logical px."
+    },
+    {
+      "id": "diagram-10-source",
+      "status": "regression",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-10-font",
+      "status": "regression",
+      "detail": "Minimum essential contain-projected size 27.800 logical px."
+    },
+    {
+      "id": "diagram-11-source",
+      "status": "regression",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-11-font",
+      "status": "regression",
+      "detail": "Minimum essential contain-projected size 25.020 logical px."
+    },
+    {
+      "id": "diagram-14-source",
+      "status": "regression",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-14-font",
+      "status": "regression",
+      "detail": "Minimum essential contain-projected size 25.947 logical px."
+    },
+    {
+      "id": "diagram-16-source",
+      "status": "regression",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-16-font",
+      "status": "regression",
+      "detail": "Minimum essential contain-projected size 27.800 logical px."
+    },
+    {
+      "id": "diagram-20-source",
+      "status": "regression",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-20-font",
+      "status": "regression",
+      "detail": "Minimum essential contain-projected size 25.947 logical px."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/agentic-routing.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/comparison-synthesis.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/five-layers.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/ingest-map.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/knowledge-layers.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/purpose-questions.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/query-reading.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/rag-path.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/raw-wiki-rules.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/reflection-layers.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/related-updates.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/review-return.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/rules-graph.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/saved-question.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/session-plan.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/shared-workspace.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/source-concept.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/wiki-path.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/work-context.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/remake/ingest-map.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/remake/session-plan.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    }
+  ]
+}

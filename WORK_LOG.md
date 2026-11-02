@@ -1,5 +1,35 @@
 # STAGE 작업 로그
 
+## 검수 완료·커밋/푸시 진행 — 2026-11-02 LLM Wiki 발표 타이포·배치·밝은 면 재교정
+
+- 목표/최신 지침: 사용자가 LLM Wiki의 줄바꿈·텍스트 위치·레이아웃과 여러 흰 배경을 지적하며 발표 전문가팀·엔지니어링팀 내부 검토와 팀 간 협업으로 실제 해결 및 재발 방지를 요청했다. 기존104범위 승인을 품질 면책 근거로 쓰지 않고 어떤 기준/관측을 놓쳤는지 재심사한다.
+- 기준/범위: main HEAD bf3cce13fcab66a6e44896241f508f4fe2d3793e,시작clean. 본편 자체제작 도식/문서예시는 검정무대와 일관되게 재설계하는 이번 사용자 선호를 우선하고, 출처원본/19원SVG·48장보관·원자료/데모/사용자메모는보존한다. 의미단위줄바꿈·행길이/외톨이줄·제목/본문/보조의위계·좌표/기준선/여백·장간흐름을실제발표크기로검토한다. 과거밝은면허용을자동승계하지않으며실제원본매체의고유색을전역삭제하는규칙으로확대하지않는다.
+- 운영/소유: root총괄·WORK_LOG/생성물/실브라우저단독. 4슬롯에서 새 발표전문가매니저+실무2(한국어타이포/발표구도·반례) 초기독립분석·내부논의→엔지니어링매니저+실무2(구현/원인·예방)→발표팀실재검수 순차운영한다. 각팀독립초안·직접반론·회의결정과양매니저직접인계를남기고writer종료후전환한다. 전문가사진판정과측정/CI통과를구별하고합격기준완화없이반복한다.
+- 모델 확인: 새작업2026-11-02 08:19~08:20UTC 공식 models/gpt-6.1-sol·changelog를새검색/open/본문find로확인해현행정확gpt-6.1-sol(09-29출시)을재확인했다. 현재spawn실제catalog=gpt-6.1-sol/gpt-6-astra/gpt-6.1-terra/gpt-6-sol/gpt-6-luna. 새매니저/실무는정확gpt-6.1-sol/high/fork none(시각비평·구현·교차반례/통합)이고이작업내snapshot공유,독립계약충돌잔존시xhigh재검토.
+- 근거/미완료: 새산출물 research/llm-wiki-typography-20261102/. 시작해시를before/starting-hashes.json에보존했다. root 새단일Ego TaskSpace27/p1,기존사용자공간조작없음·기존UTF8정적4330서버재사용. 이전화면을당시입력동일성확인후기초자료로재사용하고, 현재발표16:9크기·줄별DOM관측을추가한다. 미완료는구체장별실패목록/독립교정명세→제품/공통기본값/지침개선→새화면/행동/기술검사→전문가재검수/최종보고다. 이번요청은새수정의커밋/푸시를명시하지않았다.
+
+- 실제 초기팀/관측: presentation_expert_manager가A korean_type_auditor(1–13장)·B flow_synthesis_auditor(14–26장/취합)을정확Sol6.1/high/none으로배정했다. root는현67입력=기존발표캡처의바이트동일성을before/reuse.json으로검증하고새1920×1080·1280×720전26장씩실PNG와보드·manifest를보존했다.1280는Range실glyph줄/폰트/좌표를수집했다. root와전문가가각각4의합니다.외톨이,6의갱신합니다./있습니다.및공통뜻의AI열편입,12/21끝서술어고립,17/18필수25logical(화면14.3px),24필수코드26logical(14.9px)대제목72(41.3px)를확인했다. 자체제작5/11/20흰면을실원본매체보존예외로분류했던판단오류도인수했고사용자에게이전최종승인보고책임을인정했다. 기계적원본fail→수정pass역할별계약과실전문가비평을분리하는방향을매니저에직접전달했다.
+
+- 사용자 재개/용량 중단 복구: 사용자가왜멈췄냐며재개를명시했다. 발표매니저와A가capacity오류로종료했고root가실등록상태/원고파일을대조했다(A감사122줄·B감사95줄·매니저인계68줄존재,통합명세는B소유작성중). 동일매니저follow-up허용1회를실행했으나같은capacity오류로재실패했다. 기존매니저/A추가자동재시도나모델변경을하지않고,두writer errored종료확인후이미존재하는감사와인계파일의통합책임만새동일모델매니저로이전한다. B는계속실행중이며B파일동시writer/재조사0을유지한다. 원래제품/재발방지교정목표는계속활성이다.
+
+- 복구팀 실재개/교차회의: 기존감사실무B는계속작업해TYPOGRAPHY_SPEC124행을마감했고root가전문을읽었다. 기존writer종료/소유인계확인뒤같은정확Sol6.1/high/none의presentation_recovery_manager를새맥락통합전담으로배정했으며정상재개했다. 기존실무재생성/원조사중복0, B의2파일과새매니저MEETING_HANDOFF소유를분리했다. A최종취합서명/직접회신은미수신이나A파일에10단위/11인과반론수용서면이존재하는사실은구별한다. typography_engineering_manager도정확같은모델로교차회의단계배정해양매니저직접협의중이며,root+B+두매니저4슬롯에서엔지니어실무spawn은발표writer종료후로제한한다.
+
+- 교차회의 확정/실구현 이관: 발표복구매니저와엔지니어매니저가직접회의해기존본문/quote hardbreak·H1미지원,17/18/24지정필수32logical시작하한과32–36설계/메타예외,6의공통lead+두H2/그룹수2,5/11/20새검정자산/원본보존,실Range fixture+순수CLI의before fail→after pass/누락중복contract-invalid를합의했다. 자기제품실UI포함진짜원본증거vs자체재구성예시분류도확정했다. MEETING_HANDOFF102행SHAf74263…4f35·B128행명세/99행감사·A122행동결초안을인수했고발표manager/B writer종료확인,엔지니어manager에게실무2실구현투입을직접허가했다. 원형조사/미확인A최종서명승계없음,현재제품needs-changes유지다.
+
+- 실제 엔지니어링/교차 반례: typography_engineering_manager가common_typography_engineer(A공통CSS/역할분류·회귀/정본예방)와deck_qa_integrator(B원고/새9자산·자료sync·실렌더QA/취합)를정확Sol6.1/high/none으로배정했다. A/B직접반론과매니저독립검토에서6공통lead29상속/43em폭제약,5SVG44font에baseline28중첩,20자료의낡은밝은면설명/옛링크,QA의SVG관측생략·CSS/runtime해시누락·새manifest/옛SVGmetrics혼합반례를발견해교정했다. root는normal-page-state에서storage재정의없는일반Stage도확인했고SVG실computed/contain투영관측및group/br/emphasis필드를캡처기에추가했다. A는42관련검사·B는18QA검사/manager총60검사통과,원19/remake2/archive4/demo25/test/팩등60보호파일byte불변을인수했다. 아직B취합마감/sourcefreeze전이므로빌드/새시각승인은미확인이다.
+
+- 실제 수정판 1차/반려루프: 모든제품writer종료후root build:site/verify:site·전체303테스트pass,baseline실QA70항/44회귀/invalid0을재현했다. round-01/1280전26PNG·실줄/그룹/br/강조/소속·9SVG실computed/투영폰트관측을수집해같은current QA68항invalid0/회귀2(risk-content22·3필수SVG30.786logical<32)를발견했다. 기준완화없이1920/읽기최종캡처는수정뒤로미뤘다. 발표복구manager+새실무presentation_current_auditor/reading_policy_auditor가현1280전26을분담/중요교차실독중이며9/10선의라벨관통·22관리듭니다.고립등추가비평을취합한다. root도5wiki범주/설명BBox간격과24독해비중을추가대조해직접반론했고,이반려목록마감/전문가writer종료후기존엔지니어팀을재개할계획이다. 현재새제품/지침승인은없음.
+
+- 1차 독립반려 마감/2차 국소교정: 발표팀A65행/B73행·매니저65행을실독인수하고같은review폴더에*.round-01.md원문사본으로보관했다. 확정R1–6=3필수글크기/22내용·관리/8답호흡/9·10선라벨/19공부호흡,5범주간격비차단권고·24/26현재역할별수용은구별했다. 전원writer종료뒤기존엔지니어manager/A/B를재개했다. A실질소유는새국소geometry QA/helper/test·독립원관계검증, B는원고/자산/역할fixture+main QA/취합이다. root는exact polyline노드/관계정점·rootviewBox textbbox·stroke/marker/표시opacity를실SVG관측기에추가했고기존반려9/10은동결snapshot+보존실bbox의strict직선parser로별도fail재현한다. 기준하한완화/관계선삭제·가림/새인과추가를금지하고같은source/newcurrent조건으로다음round-02를검수한다.
+
+- 2차 교정/실물 재인수: 엔지니어 A/B가3도식 글크기·5범주 간격·8답변 한 호흡·9/10 무방향 세 관계의 선 경로·19/22 의미 개행을 고쳤다. 원관계 삭제·방향 추가·하한 완화 없이 실SVG geometry/glyphRows 관측과 국소 회귀를 추가했다. 확장 baseline72항/45회귀/invalid0 실패를 별도 보존했고, current 발표1280/1920 각각83항/회귀0/invalid0, 전체317테스트·build/verify 통과를 root가 확인했다. 기존101 talk파일 중 의도수정4 외97은 원바이트 보존이다. 발표팀A는 발표52원본/B는 읽기52원본을 직접 실독했고, 양실무 교차반론에서26 역할별30px·모바일 자연 자동행을 전역금지와 구별했다. 기술통과는 visualApproval=false이며 최종 시각승인과 구별한다.
+
+- 마지막 자료 교정/현재판 갱신: 제품 writer 종료 뒤 root가 native8의 기존 literal ** 한 문단만 정상 강조+질문/설명 문단으로 고쳤다. 본편 원고72f3e1…d5dd·공통CSS/runtime/지침/자산은 그대로이며 build/verify를 다시 통과했다. 자료입력 해시가 바뀌므로 round-03에4범위104PNG·실측/양발표83/0/0을 새로 수집했고 round-02를 보존했다. 양판 비교는1280의20상이 footer띠,1920의19상이 일부body픽셀도 포함,읽기1440#11/390#9 각1상이로 정확히 남겼다. A는 발표상이39개 새원본을 전부 직접 재실독했고 manager/B는 읽기상이·native8 새목적지를 직접 확인했다. 원인미확인 raster 차이를 전부byte동일/footer-only로 보고하지 않는다. 새18/18 native관계/활동안 클릭·귀환 및 모바일 표우측262=max 실동작을 완료했고,24네요청 선택·자료/원본/키보드 이동 최종검사와4수동리뷰JSON/require-approved 통합·보고가 남아 있다. 현재 최종승인은 아직 미확인이다.
+
+- 독립 최종 승인/게시 추가 지시: 발표팀A/B·매니저의 문서/4수동JSON writer종료를 인수했고 root가 상태·이유를 그대로 기계통합했다. 발표1920×1080·1280×720/읽기1440×1000·390×844 각26장 require-approved 전4exit0(각approved26/needs0/unreviewed0)을 확인했다. AGENTS/DESIGN/MARKDOWN-FIRST 이번 제작·반례운영 적합성과 추가 정본요구0도 별도 승인이다. RESULT·전후비교·최종보호/행동/기술정본을 마감했고 TaskSpace27 최신#5를남겨finish1회완료했다. 실프로젝터/다른OS/실35분낭독은미확인범위다. 사용자가 ‘다 작업하면 커밋 후 푸시도 잊지마’로 현재새수정의커밋·푸시까지명시추가했다. root가commit스킬/로컬규칙·전체변경·기존영어명령형이력을읽었고 공통조판/LLM교정·회귀/정본·검수근거의 논리단위로 커밋후 main일반push·원격SHA/clean확인을 담당한다. 이추가지시가위의미요청이력을대체하며 게시완료는아직미확인이다.
+
+- 실제 커밋 분리: 원격 main fetch 결과 시작HEAD와0ahead/0behind를 확인했다. 공통필수본문/탐색역할·개행/소속회귀 및동기화생성물을0c8aa78,LLM Wiki실교정/새9자산·자료/생성물·실glyph/geometry 회귀를68d6000으로커밋했다. 다음정본지침·전체실패/최종근거·WORK_LOG를별도커밋한다. Git의*.log제외규칙은유지하고보고서에서참조하는317테스트/현재build·verify/4승인검사 stdout는같은내용의*.txt로보존했다. 소스/정본/검수판정바이트변경없음. 최종푸시와원격/clean대조는아직미확인이다.
+
 ## 완료 — 2026-11-02 디자인 지침·LLM Wiki 리메이크 커밋 및 푸시
 
 - 목표/최신 지침: 사용자가 완료한 변경을 커밋하고 푸시하도록 명시했다. 직전 작업의 커밋·푸시 미요청 범위를 이번에는 대체하며 새 제품 수정은 하지 않는다.

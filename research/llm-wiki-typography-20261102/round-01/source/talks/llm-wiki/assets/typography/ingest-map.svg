@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" style="background:#080808" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+<title id="title">원자료를 읽고 나누어 문서와 연결을 갱신하기</title>
+<desc id="desc">기존 대상과 관계 보존. 같은 세 메모를 읽고 나눈다. 요약은 원자료의 입구이며 개념·비교 및 현재 계획과 무방향 세 관계로 연결된다. 관련 문서·목차·링크를 갱신한다. 원자료나 사람 기록의 삭제·필수 생성 순서·자동 양방향 작동을 뜻하지 않는다.</desc>
+<g font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Malgun Gothic,sans-serif" letter-spacing="-.4">
+<text x="25" y="65" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">같은 원자료 세 메모</text>
+<text x="25" y="170" font-size="48" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">목적과 맥락</text>
+<text x="25" y="225" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">목적 · 이유 · 결과</text>
+<text x="25" y="335" font-size="48" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">검색과 비교</text>
+<text x="25" y="390" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">근거 검색 · 차이</text>
+<text x="25" y="500" font-size="48" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">지식의 활용</text>
+<text x="25" y="555" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">종합 · 공유 · 검토</text>
+<text x="465" y="267" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="middle" data-copy-role="essential">읽고 나누기</text>
+<path d="M380 320H550M535 309L550 320L535 331" fill="none" stroke="#999995" stroke-width="3"/>
+<text x="1030" y="65" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="middle" data-copy-role="essential">문서·목차·링크 갱신</text>
+<path d="M715 320L1210 190" fill="none" stroke="#999995" stroke-width="3"/>
+<path d="M715 320L1210 470" fill="none" stroke="#999995" stroke-width="3"/>
+<path d="M1210 190V470" fill="none" stroke="#999995" stroke-width="3"/>
+<circle cx="715" cy="320" r="10" fill="#69CF82"/>
+<text x="715" y="286" font-size="48" fill="#F6F6F4" font-weight="550" text-anchor="middle" data-copy-role="essential">자료 요약</text>
+<text x="715" y="382" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="middle" data-copy-role="essential">원자료의 입구</text>
+<circle cx="1210" cy="190" r="10" fill="#69CF82"/>
+<text x="1210" y="156" font-size="48" fill="#F6F6F4" font-weight="550" text-anchor="middle" data-copy-role="essential">개념 · 비교</text>
+<text x="1210" y="252" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="middle" data-copy-role="essential">기존 설명과 연결</text>
+<circle cx="1210" cy="470" r="10" fill="#69CF82"/>
+<text x="1210" y="436" font-size="48" fill="#F6F6F4" font-weight="550" text-anchor="middle" data-copy-role="essential">현재 계획</text>
+<text x="1210" y="532" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="middle" data-copy-role="essential">여러 자료의 종합</text>
+</g>
+</svg>

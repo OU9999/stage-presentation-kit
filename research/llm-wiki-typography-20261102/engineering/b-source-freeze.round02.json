@@ -1,0 +1,38 @@
+{
+  "scope": "Round 02 frozen product/QA and unchanged common/policy inputs. Fresh capture and current QA remain pending.",
+  "visualApproval": false,
+  "hashes": {
+    "talks/llm-wiki/slides.md": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+    "scripts/llm-wiki-typography-qa.cjs": "5d8c684979dde9f67a901f77ceb5fd77f047e35008e4177f73db815271cf11f0",
+    "tests/llm-wiki-typography-qa.test.cjs": "a14d5ad795697195a400801fe8bfe35c981210f39ceb53859306aab19894fd8f",
+    "research/llm-wiki-typography-20261102/engineering/fixtures/llm-wiki-roles.json": "94e5ccdd91ebda96b1bcfb8e5de7ed1724dd51654067e4d468a43d5df06da003",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "tests/llm-wiki-geometry-qa.test.cjs": "cce7f71395a445c7cfb9db8afba9202c24a975b492c958cb3fd5f571445ce5da",
+    "blocks.css": "a55a412ea27eae15e1989f97cf185246c3e3484245a12879fc81021155a77ee4",
+    "blocks.js": "ae8deef84bacbbf75d9423413a445b51ebd5b73f68209ac11447a246342db09a",
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7",
+    "DESIGN.md": "ca0f0277c4c260b77e756b17272e8a90388cedf9780c8d916963563adfd519c6",
+    "MARKDOWN-FIRST.md": "ff0afb67e577ecf0273c38755d35b1faeacec16dbb03376fa9889a81a1f9f85f",
+    "talks/llm-wiki/assets/typography/ingest-map.svg": "a3a65af7ab28b3eb7a0720d3ac9588b3a7c4dba0af3b6833a1ee89676454da8e",
+    "talks/llm-wiki/assets/typography/knowledge-layers.svg": "00cc9503c0ea5f60b60e902f45f12622da5d4696ac03d8b7296d6bf2953ab493",
+    "talks/llm-wiki/assets/typography/purpose-questions.svg": "22e3b2b1ec42fed0eeb887c9f1d7c5d8778279dc54b992897e8171b3eaf1fef0",
+    "talks/llm-wiki/assets/typography/rag-path.svg": "0aefea443a6e3de3f103c5cdbcf9d16fe025af213fd4266f213dfd28df4c5c63",
+    "talks/llm-wiki/assets/typography/raw-wiki-rules.svg": "971d2b2c25e3d9e6ae3cd17abe5c1d0aa21fc5a71e7eaa4a98c7abb60c1719ba",
+    "talks/llm-wiki/assets/typography/related-updates.svg": "e240f730668766cb72612e6d4a417127473bdd8e2d04b8a0086307e361bce67f",
+    "talks/llm-wiki/assets/typography/session-plan.svg": "a7afd1388934c61261926c78cdc0c70fb51bd62219d3b7b59f4c8ea92349a955",
+    "talks/llm-wiki/assets/typography/source-concept.svg": "cac31a82b5a0225f8bf3fb14fd713b29482bf2e84c7114a8131d3b6216195862",
+    "talks/llm-wiki/assets/typography/wiki-path.svg": "53636045579a66dfdee4f53136cf31365fc00809983cb56e0b14b224c5052840"
+  },
+  "verification": {
+    "relatedTests": 75,
+    "testFailures": 0,
+    "expandedBaseline": {
+      "checks": 72,
+      "regressions": 45,
+      "invalid": 0
+    },
+    "historicalRound01ExpandedScopes": 7,
+    "protectedTrackedFiles": 97,
+    "preservationMismatches": 0
+  }
+}

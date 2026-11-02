@@ -1,0 +1,418 @@
+[
+  {
+    "slide": 1,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 원본 직접 실독·Round03 PNG SHA256 동일성 확인. 큰 이름과 굵은 설명, 다시 쓰기 보충이 중앙의 세 층으로 분리된다. 확대된 실제 stage에서도 여백이 안정적이고 도입의 한 시각 중심을 유지한다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-01.png"
+    ]
+  },
+  {
+    "slide": 2,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 원본 직접 실독·Round03 PNG SHA256 동일성 확인. 정의의 두 의미행과 강조 결론을 큰 크기로 읽는다. 사람이 고침/AI의 갱신 설명과 출처의 위계가 구별되며 정의 문장의 끝이 고립되지 않는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-02.png"
+    ]
+  },
+  {
+    "slide": 3,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 확대된 원자료3와 다섯 지식 노드의 이름을 각각 읽고5관계를 따른다. 현재이해와 아래 계획/다음질문이 선 밖에 있고 하단 두 필수 설명이 남는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-03.png"
+    ]
+  },
+  {
+    "slide": 4,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 왼쪽 맥락과 오른쪽 위키 역할의 제목/본문 기준선이 맞는다. ‘필요할 때 다시 읽게 합니다.’가 완결 행이며 상단의 에이전트 예시는 보조 탐색으로 남는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-04.png"
+    ]
+  },
+  {
+    "slide": 5,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. raw의 파일3과 wiki의 세 범주/설명 짝을 열린 대응 열에서 읽는다. 하단 rules4약속이 양 영역의 공통 약속으로 보이며 흰 재구성 문서면을 승계하지 않았다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-05.png"
+    ]
+  },
+  {
+    "slide": 6,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 공통 안내를 두 H2 위에서 먼저 읽고 사람/AI의 동등 열을 읽는다. 첫 본문 기준선이 같으며 AI의 두 행도 ‘연결과 목차를 갱신합니다.’로 완결된다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-06.png"
+    ]
+  },
+  {
+    "slide": 7,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 표의 네 비교 행과 세 열이 충분한 크기로 보인다. 두 방식의 비교축과 하단 공존/규모 조건을 함께 읽으며 셀이나 행의 누락이 없다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-07.png"
+    ]
+  },
+  {
+    "slide": 8,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 같은 입력과 공통 질문, 근거 상자, 현재 답이 좌우 흐름으로 보인다. ‘스터디 계획을 정리합니다.’가 한 행으로 읽히고 오른 경계 안 여유가 남는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-08.png"
+    ]
+  },
+  {
+    "slide": 9,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 세 문서의 삼각 관계가 열려 있고 계획 이름은 꼭짓점 아래에 분리된다. 세 무방향 연결과 재읽기→이번 답 활용을 추적하며 같은 원자료/질문 비교가 보존된다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-09.png"
+    ]
+  },
+  {
+    "slide": 10,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 요약에서 개념비교·계획으로 향하는 두 선과 오른 외곽 우회선이 모두 연결된다. 라벨/설명은 선 밖에서 읽히고 우회가 새 방향·포함 면을 만들지 않는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-10.png"
+    ]
+  },
+  {
+    "slide": 11,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 자료 요약과 개념 문서의 두 영역을 같은 비교축에서 읽는다. 오른쪽 근거3과 녹색 연결2가 구별되며 여러 자료의 관계/현재 이해라는 문장도 남는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-11.png"
+    ]
+  },
+  {
+    "slide": 12,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 주제별 문서·목차와 링크·연결된 지식의 세 열과 본문 기준선이 정렬된다. 세 끝 서술어가 대상/부사구와 함께 읽혀 이전 동사 꼬리가 재발하지 않는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-12.png"
+    ]
+  },
+  {
+    "slide": 13,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 직접 질문과 번호3개의 실행 순서가 크기와 간격으로 구별된다. 확인한 뒤 문서로 남긴다는 조건 및 발표용 스터디 사례 한계가 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-13.png"
+    ]
+  },
+  {
+    "slide": 14,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 새 조건 묶음과 세 문서 변경이 좌우로 대응한다. 입문 설명·작은 자료 묶음·15분 조정 및 설명용 가상 조건을 읽고 새 실측 성과로 오인할 표시가 없다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-14.png"
+    ]
+  },
+  {
+    "slide": 15,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 내 목적·선택 이유·자료 두 개의 세 기준이 동등한 제목/본문으로 보인다. 각 두 번째 의미행은 질문 또는 행동을 완결하며 내용의 의미를 남긴다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-15.png"
+    ]
+  },
+  {
+    "slide": 16,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 다음 스터디 진행안이라는 쓰임 예시와 네 종류의 직접 기록이 구별된다. 주황 선언과 하단 설명이 선택 이유/쓰임에서 정리 기준으로 이어진다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-16.png"
+    ]
+  },
+  {
+    "slide": 17,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 원본 직접 실독·Round03 PNG SHA256 동일성 확인. 70논리의 큰 두 질문 호흡과32논리/31.147표시px 필수 조건·한계가 구별된다. 질문과 기준부터 적는 행동을 읽으며 책임 설명이 출처처럼 작아지지 않았다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-17.png"
+    ]
+  },
+  {
+    "slide": 18,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 원본 직접 실독·Round03 PNG SHA256 동일성 확인. 판단을 내가 적는다는 큰 두 행 아래 직접 목적·감정/생각/판단/선택 이유를 읽는다. 원문/내기록/AI해석 구분이32논리/31.147표시px로 남는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-18.png"
+    ]
+  },
+  {
+    "slide": 19,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 동등한 세 활용처가 넓은 간격으로 보인다. 공부의 ‘개념과 질문으로 연결하기’가 한 행이고 목적어와 동작을 함께 읽어 작은 동작어 꼬리가 없다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-19.png"
+    ]
+  },
+  {
+    "slide": 20,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 네 시간과 활동을 행별로 따라 읽는다. 자작 메모 팩과 활동안 발췌/배분 예시, 실제 운영·학습효과·설치/모델 생성시간 비실측 한계가 명확하다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-20.png"
+    ]
+  },
+  {
+    "slide": 21,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 세 장점의 제목과 본문 첫 기준선이 맞고 강조된 완결 행을 읽는다. 함께 읽음·고침·다음 질문 활용이라는 병렬 동작이 과장된 자동화 관계로 바뀌지 않았다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-21.png"
+    ]
+  },
+  {
+    "slide": 22,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 잘못된 요약/근거 없는 연결의 가능성은 세 의미행으로, 관리 비용은 두 호흡으로 읽힌다. ‘시간이 듭니다.’가 한 행이라 두 서술어 외톨이가 재발하지 않는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-22.png"
+    ]
+  },
+  {
+    "slide": 23,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 원본 직접 실독·Round03 PNG SHA256 동일성 확인. 두 열·네 상황의 전표가 실제 화면에 보이며 각 상황에 맞는 첫 행동을 한 행씩 읽는다. 표의 큰 제목·헤더·본문 관계가 구별된다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-23.png"
+    ]
+  },
+  {
+    "slide": 24,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 원본 직접 실독·Round03 PNG SHA256 동일성 확인. 네 요청의 전문과 굵은 목적/자료/정리/확인 라벨이31.147표시px로 읽힌다. 자료 탐색은23.36표시px로 낮아 실행 예시가 주역이며 여백과 내용이 균형을 이룬다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-24.png"
+    ]
+  },
+  {
+    "slide": 25,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 원본 직접 실독·Round03 PNG SHA256 동일성 확인. 큰 마무리 제목 아래 목적→연결→확인→재사용과 공동읽기를 읽는다. 끝 장의 중심과 보충 위계가 유지되며 새로운 성과 수치를 덧붙이지 않았다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-25.png"
+    ]
+  },
+  {
+    "slide": 26,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/presentation_current_auditor",
+    "reviewedAt": "2026-11-02",
+    "reason": "Round02 실독 후 달라진 Round03 원본 직접 재실독. 큰 주질문 아래 필수 구체질문이 굵은 두 행으로 연결된다.30논리/29.2표시px의 실제 질문은 Q&A·하위 탐색보다 먼저 읽히며 역할 차이를 작은 글자의 면책으로 삼지 않는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/present-1920/slide-26.png"
+    ]
+  }
+]

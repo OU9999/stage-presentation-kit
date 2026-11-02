@@ -1,0 +1,34 @@
+{
+  "present-1920": {
+    "manifestSha256": "750e95c39fb3ecd9cd300bdfe30567f98cb076fb500ee6cbcbcec0f004e15651",
+    "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+    "observations": 26,
+    "images": 9,
+    "missingEvidence": [],
+    "staleInputs": []
+  },
+  "present-1280": {
+    "manifestSha256": "dc8ce210da6a5d03e22f6b1e7bf695c24d9efcdec826daf8e2360ec20fb4eadc",
+    "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+    "observations": 26,
+    "images": 9,
+    "missingEvidence": [],
+    "staleInputs": []
+  },
+  "read-1440": {
+    "manifestSha256": "93ea3942c4d1f8e3b6a7ae3559100112fd083053182b1f46db684ccd0be18ba9",
+    "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+    "observations": 26,
+    "images": 9,
+    "missingEvidence": [],
+    "staleInputs": []
+  },
+  "read-390": {
+    "manifestSha256": "c390daeccebb8320be4074de4714404ce3bd9342b76dcbe1b88b42f20e914e3e",
+    "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+    "observations": 26,
+    "images": 9,
+    "missingEvidence": [],
+    "staleInputs": []
+  }
+}

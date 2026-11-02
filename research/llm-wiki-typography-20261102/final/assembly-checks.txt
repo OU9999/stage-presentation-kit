@@ -1,0 +1,4 @@
+present-1920 {"valid":true,"reviewedComplete":true,"approved":true,"passed":true,"counts":{"approved":26,"needs-changes":0,"unreviewed":0},"scopeCount":26,"slideCount":26}
+present-1280 {"valid":true,"reviewedComplete":true,"approved":true,"passed":true,"counts":{"approved":26,"needs-changes":0,"unreviewed":0},"scopeCount":26,"slideCount":26}
+read-1440 {"valid":true,"reviewedComplete":true,"approved":true,"passed":true,"counts":{"approved":26,"needs-changes":0,"unreviewed":0},"scopeCount":26,"slideCount":26}
+read-390 {"valid":true,"reviewedComplete":true,"approved":true,"passed":true,"counts":{"approved":26,"needs-changes":0,"unreviewed":0},"scopeCount":26,"slideCount":26}

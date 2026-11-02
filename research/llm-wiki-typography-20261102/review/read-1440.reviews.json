@@ -1,0 +1,418 @@
+[
+  {
+    "slide": 1,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "큰 제목 아래 핵심 정의와 재사용 목적이 문서 순서로 읽히며 본문이 잘리지 않는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-01.png"
+    ]
+  },
+  {
+    "slide": 2,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "정의의 두 의도 호흡과 굵은 결론, 사람·AI의 읽기/갱신 설명 및 설계 출처가 구별된다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-02.png"
+    ]
+  },
+  {
+    "slide": 3,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "세 원자료와 다섯 지식 대상·다섯 관계를 직접 읽고, 두 필수 설명과 상세 관계 링크가 함께 남는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-03.png"
+    ]
+  },
+  {
+    "slide": 4,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "에이전트 예시는 별도 탐색행이고 알아야 할 맥락→위키가 돕는 일이 한 열로 이어지며 의미행이 유지된다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-04.png"
+    ]
+  },
+  {
+    "slide": 5,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "raw 보존·wiki 세 범주/설명·공통 rules 네 약속을 직접 읽는다. 대응열이 짝을 만들고 마크다운 정의와 상세 링크가 남는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-05.png"
+    ]
+  },
+  {
+    "slide": 6,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "공통 읽기/편집 안내가 사람·AI 두 절보다 먼저 나오며 목적·판단과 AI의 읽기/쓰기/연결 갱신 책임이 구별된다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-06.png"
+    ]
+  },
+  {
+    "slide": 7,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "RAG/Wiki 비교의 같은 축과 네 행이 모두 보이며 함께 쓸 수 있다는 조건도 본문으로 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-07.png"
+    ]
+  },
+  {
+    "slide": 8,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "세 입력→이번 근거 세 개→현재 답을 직접 읽는다. 스터디 계획의 목적어·서술어가 한 행이고 상세 접근도 남는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-08.png"
+    ]
+  },
+  {
+    "slide": 9,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "세 문서의 무방향 삼각관계와 계획 이름이 겹치지 않고 재읽기→이번 답 활용 및 상세 설명 경로가 보인다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-09.png"
+    ]
+  },
+  {
+    "slide": 10,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "요약 입구·개념비교·현재계획과 세 관계를 끝까지 추적하며 라벨이 선 밖에 있다. 갱신 과정 본문과 상세 링크도 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-10.png"
+    ]
+  },
+  {
+    "slide": 11,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "한 자료 요약과 여러 자료 개념의 비교축, 근거 세 주제와 연결 두 문서를 직접 구별하며 상세 링크가 남는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-11.png"
+    ]
+  },
+  {
+    "slide": 12,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "문서 분리·탐색·관계 갱신이 한 열의 세 절로 순서대로 읽히고 각 목적어와 서술어의 의미행이 유지된다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-12.png"
+    ]
+  },
+  {
+    "slide": 13,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "실제 질문과 순서 세 행동이 구별되며 목적/조건에 맞춘 답과 확인 후 문서로 남긴다는 순서 및 사례 한계가 보인다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-13.png"
+    ]
+  },
+  {
+    "slide": 14,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "입문자·준비팩·15분 조건과 세 변경 대상을 직접 읽고 가상 조건 및 상세 관계 접근을 함께 확인한다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-14.png"
+    ]
+  },
+  {
+    "slide": 15,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "목적 관련성·선택 이유·작은 시작의 세 질문과 행동이 절별로 읽히며 자료 두 개 연결이라는 행동이 완결된다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-15.png"
+    ]
+  },
+  {
+    "slide": 16,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "다음 스터디 진행안이라는 쓰임과 네 판단 항목을 직접 읽으며 사람의 선택 이유를 남긴다는 설명·상세 경로가 보인다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-16.png"
+    ]
+  },
+  {
+    "slide": 17,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "목적/경험의 조건→왜 골랐고 어떤 질문을 푸는가의 두 호흡→기준부터 적기와 수집 한계가 본문으로 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-17.png"
+    ]
+  },
+  {
+    "slide": 18,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "사람이 목적·판단을 적는다는 두 호흡과 직접 목적/경험 기록, 원문·내 기록·AI 해석 구분 전문이 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-18.png"
+    ]
+  },
+  {
+    "slide": 19,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "공부·프로젝트·글과 발표가 한 열에 동등한 절로 남고 공부의 개념과 질문으로 연결하기가 같은 의미행이다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-19.png"
+    ]
+  },
+  {
+    "slide": 20,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "네 시간과 활동·자작 메모 팩·발췌/배분 예시·비실측 한계를 직접 읽는다. 전체 활동안의 표와 같은 한계에 접근하는 왕복 근거도 확인했다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-20.png"
+    ]
+  },
+  {
+    "slide": 21,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "함께 읽기·고치기·다시 활용하기의 세 동작이 한 열로 구별되며 문서 보존/판단 보탬/다음 질문 사용이 각각 완결된다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-21.png"
+    ]
+  },
+  {
+    "slide": 22,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "내용의 두 위험과 가능성, 변화의 충돌, 관리의 시간이 든다는 비용이 절별로 읽히고 고립 서술어가 남지 않는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-22.png"
+    ]
+  },
+  {
+    "slide": 23,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "내 상황→먼저 해 볼 일의 두 축과 네 행 전체가 보여 조건에 맞는 시작 행동을 비교할 수 있다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-23.png"
+    ]
+  },
+  {
+    "slide": 24,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "목적·자료·정리·확인 네 요청 전문이 굵은 라벨의 native 문단으로 읽히며 팩·안내·원본 탐색과 구별된다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-24.png"
+    ]
+  },
+  {
+    "slide": 25,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "다음 질문에 쓸 두 자료라는 큰 마무리와 목적→연결→확인→재사용, 사람·AI 공동읽기 보충이 순서대로 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-25.png"
+    ]
+  },
+  {
+    "slide": 26,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/presentation_recovery_manager/reading_policy_auditor",
+    "reviewedAt": "2026-11-02T09:57:04.544Z",
+    "reason": "시작 자료를 묻는 주질문과 질문 하나/자료 두 개를 생각하는 두 호흡이 구별되며 Q&A와 학습·기술·원본 경로가 남는다.",
+    "evidence": [
+      "research/llm-wiki-typography-20261102/round-03/read-1440/slide-26.png"
+    ]
+  }
+]

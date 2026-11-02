@@ -1,0 +1,62 @@
+[
+  {
+    "scope": "present-1920",
+    "exitCode": 0,
+    "valid": true,
+    "reviewedComplete": true,
+    "approved": true,
+    "passed": true,
+    "counts": {
+      "approved": 26,
+      "needs-changes": 0,
+      "unreviewed": 0
+    },
+    "scopeCount": 26,
+    "slideCount": 26
+  },
+  {
+    "scope": "present-1280",
+    "exitCode": 0,
+    "valid": true,
+    "reviewedComplete": true,
+    "approved": true,
+    "passed": true,
+    "counts": {
+      "approved": 26,
+      "needs-changes": 0,
+      "unreviewed": 0
+    },
+    "scopeCount": 26,
+    "slideCount": 26
+  },
+  {
+    "scope": "read-1440",
+    "exitCode": 0,
+    "valid": true,
+    "reviewedComplete": true,
+    "approved": true,
+    "passed": true,
+    "counts": {
+      "approved": 26,
+      "needs-changes": 0,
+      "unreviewed": 0
+    },
+    "scopeCount": 26,
+    "slideCount": 26
+  },
+  {
+    "scope": "read-390",
+    "exitCode": 0,
+    "valid": true,
+    "reviewedComplete": true,
+    "approved": true,
+    "passed": true,
+    "counts": {
+      "approved": 26,
+      "needs-changes": 0,
+      "unreviewed": 0
+    },
+    "scopeCount": 26,
+    "slideCount": 26
+  }
+]

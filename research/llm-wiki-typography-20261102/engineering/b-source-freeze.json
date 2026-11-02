@@ -1,0 +1,23 @@
+{
+  "status": "source-frozen-awaiting-current-observations",
+  "visualApproval": false,
+  "hashes": {
+    "talks/llm-wiki/slides.md": "5a23d0bddb3a2873067c4407b308c50b275e38fbba81292575f1d33cb5f6a702",
+    "talks/llm-wiki/materials/speaker-script.md": "19254a11025d04161bf73844c9b7d38db2d29b9cfb7d41b99071278f04d34cc7",
+    "talks/llm-wiki/materials/diagram-reading.md": "dfeb93c77849616b0279164de50e95780d1cb79073bd60603e8780c0cbc26dff",
+    "talks/llm-wiki/README.md": "873f1d336335ac69ba08cb6372b594f76d14506a9d9f076ceab6754d6808f311",
+    "scripts/llm-wiki-typography-qa.cjs": "a7b1740d078b4bff67446056c78de97758c1eb16ab795384ebf966c38e84d1d8",
+    "tests/llm-wiki-typography-qa.test.cjs": "48ee242837f599366188ab4bbd336a8c548dbb429350ba56b96db713b4240ffb",
+    "package.json": "fc4d5ba040336e1a8cc20beb3e8299201e1fd0a17fdc214ac6bd824670b733da",
+    "research/llm-wiki-typography-20261102/engineering/fixtures/llm-wiki-roles.json": "3faa5ba91d28d1e5d47039f0021e70669ac162e08222111dd9b5278a7b165727",
+    "talks/llm-wiki/assets/typography/ingest-map.svg": "3042c55378c0d777207115c3ddc80501c37752a9166e268e8e1ff46af3c78322",
+    "talks/llm-wiki/assets/typography/knowledge-layers.svg": "00c868e051f4369027b82e2d83a5c0cbf544cc305aa3beb91b1cea0a2daa49b8",
+    "talks/llm-wiki/assets/typography/purpose-questions.svg": "22e3b2b1ec42fed0eeb887c9f1d7c5d8778279dc54b992897e8171b3eaf1fef0",
+    "talks/llm-wiki/assets/typography/rag-path.svg": "b6ef6d2b775674671f5fd004b4eb2294f4a02f212ceffba708b27461a61c2edb",
+    "talks/llm-wiki/assets/typography/raw-wiki-rules.svg": "a686108787af1a87e9461d2235c5acec1982ee301e8d043b1a56e3653de26dff",
+    "talks/llm-wiki/assets/typography/related-updates.svg": "e240f730668766cb72612e6d4a417127473bdd8e2d04b8a0086307e361bce67f",
+    "talks/llm-wiki/assets/typography/session-plan.svg": "a7afd1388934c61261926c78cdc0c70fb51bd62219d3b7b59f4c8ea92349a955",
+    "talks/llm-wiki/assets/typography/source-concept.svg": "cac31a82b5a0225f8bf3fb14fd713b29482bf2e84c7114a8131d3b6216195862",
+    "talks/llm-wiki/assets/typography/wiki-path.svg": "1f7639a18a54dc7601cefdbf3229eedfcb45506f1179f505dbf5185c218fceb4"
+  }
+}

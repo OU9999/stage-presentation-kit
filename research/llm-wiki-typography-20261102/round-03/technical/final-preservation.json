@@ -1,0 +1,620 @@
+{
+  "summary": {
+    "talkFiles": 101,
+    "unchanged": 97,
+    "changed": [
+      "talks/llm-wiki/slides.md",
+      "talks/llm-wiki/README.md",
+      "talks/llm-wiki/materials/diagram-reading.md",
+      "talks/llm-wiki/materials/speaker-script.md"
+    ]
+  },
+  "files": [
+    {
+      "path": "talks/llm-wiki/slides.md",
+      "beforeSha256": "f6a5a79c444a79a9f62ed8759c1a7a1e745298b30d3766dcb32202a220619bbe",
+      "currentSha256": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+      "unchanged": false
+    },
+    {
+      "path": "talks/llm-wiki/README.md",
+      "beforeSha256": "892b330d2c2961525a2be2be3df3b741d986e7c19815577947a19a119b5ff29c",
+      "currentSha256": "873f1d336335ac69ba08cb6372b594f76d14506a9d9f076ceab6754d6808f311",
+      "unchanged": false
+    },
+    {
+      "path": "talks/llm-wiki/test.md",
+      "beforeSha256": "174e1fdc3844045f8e5cae5890ffd87aa21562487180fcf4e01a90fa0ea13489",
+      "currentSha256": "174e1fdc3844045f8e5cae5890ffd87aa21562487180fcf4e01a90fa0ea13489",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/changes.diff",
+      "beforeSha256": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489",
+      "currentSha256": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/starter.txt",
+      "beforeSha256": "0ac7822fd7af69689ef6297d03cf44744e609c78d9ef741c32f89a901a4db16e",
+      "currentSha256": "0ac7822fd7af69689ef6297d03cf44744e609c78d9ef741c32f89a901a4db16e",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/README.md",
+      "beforeSha256": "f95bd173cc838886f933264af4431eb12c836005b1781442feb6df5fca2dcaac",
+      "currentSha256": "f95bd173cc838886f933264af4431eb12c836005b1781442feb6df5fca2dcaac",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/llm-wiki-demo.zip",
+      "beforeSha256": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+      "currentSha256": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/run-demo.cjs",
+      "beforeSha256": "b73c7824599464d8ebb3510cfcec3e0d499d0ca2a1f5e91f6c44dc7225260faa",
+      "currentSha256": "b73c7824599464d8ebb3510cfcec3e0d499d0ca2a1f5e91f6c44dc7225260faa",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/receipt.json",
+      "beforeSha256": "3052ecf8710697cddc4acb68ede40c4e5dd926f7eaada03fff13cc79e31b66b3",
+      "currentSha256": "3052ecf8710697cddc4acb68ede40c4e5dd926f7eaada03fff13cc79e31b66b3",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/materials/study-guide.md",
+      "beforeSha256": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+      "currentSha256": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/materials/visual-appendix.md",
+      "beforeSha256": "64fc9640ec4eed9d9156a7009db5258643f49ac2b7ed11d3b941cdf1e9c9e52e",
+      "currentSha256": "64fc9640ec4eed9d9156a7009db5258643f49ac2b7ed11d3b941cdf1e9c9e52e",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/materials/session-plan.md",
+      "beforeSha256": "72d734684a52c431bf2380b505cf924a78b34d42dc507af34eaa13116a30f888",
+      "currentSha256": "72d734684a52c431bf2380b505cf924a78b34d42dc507af34eaa13116a30f888",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/materials/demo-log.md",
+      "beforeSha256": "c9658bac6915ae5cb931bdfe1a33c5d67069c6aa0a60bcf80af4b9a550d257e0",
+      "currentSha256": "c9658bac6915ae5cb931bdfe1a33c5d67069c6aa0a60bcf80af4b9a550d257e0",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/materials/index.md",
+      "beforeSha256": "712990f277dd8262c6d32d7233d314c258baf2fdc91312dea56d218c2a90b354",
+      "currentSha256": "712990f277dd8262c6d32d7233d314c258baf2fdc91312dea56d218c2a90b354",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/materials/reference-library.md",
+      "beforeSha256": "6b1796922385854cb43a10e332fd6df82fd229c8d8e8868d89db4ec137dcd883",
+      "currentSha256": "6b1796922385854cb43a10e332fd6df82fd229c8d8e8868d89db4ec137dcd883",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/materials/diagram-reading.md",
+      "beforeSha256": "37648c34f0caa4a660343c650d5b8c6dfd3b3fef475def7884f90c08cf2dceeb",
+      "currentSha256": "76b96c491447497412147b795533723533578532b0b05d6b0075d22ded411cda",
+      "unchanged": false
+    },
+    {
+      "path": "talks/llm-wiki/materials/workshop.md",
+      "beforeSha256": "5cdf7f8a16798a8ef7a79ab8fc715fd904baef33a4291aa6c294ec8d3b9edace",
+      "currentSha256": "5cdf7f8a16798a8ef7a79ab8fc715fd904baef33a4291aa6c294ec8d3b9edace",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/materials/speaker-script.md",
+      "beforeSha256": "4d107150e76ac8b49548991e30b403d60e8c62f378b7b6320a0fd0f242cfa968",
+      "currentSha256": "19254a11025d04161bf73844c9b7d38db2d29b9cfb7d41b99071278f04d34cc7",
+      "unchanged": false
+    },
+    {
+      "path": "talks/llm-wiki/assets/wiki-maintenance-loop.svg",
+      "beforeSha256": "8263a8f3fd79abe6d50dbd777086918876e589c88b4ab919b8755ee6daa1f5d3",
+      "currentSha256": "8263a8f3fd79abe6d50dbd777086918876e589c88b4ab919b8755ee6daa1f5d3",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/case-reading-initial.svg",
+      "beforeSha256": "217a8eb04b479e3deb28b85af77582e7e58affaace53f13c2ef862a2ad2bacbc",
+      "currentSha256": "217a8eb04b479e3deb28b85af77582e7e58affaace53f13c2ef862a2ad2bacbc",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/change-trace.svg",
+      "beforeSha256": "5efc5a198e7f6479ebced5f155635eeeefce5f409a8881ce28afcdd4b87b417f",
+      "currentSha256": "5efc5a198e7f6479ebced5f155635eeeefce5f409a8881ce28afcdd4b87b417f",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/wiki-layers.svg",
+      "beforeSha256": "79afc5f22a989abd58ccf096aea59466057cb46a29da8cb263e34d37e36fc6b7",
+      "currentSha256": "79afc5f22a989abd58ccf096aea59466057cb46a29da8cb263e34d37e36fc6b7",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/reuse-inputs.svg",
+      "beforeSha256": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+      "currentSha256": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/CREDITS.md",
+      "beforeSha256": "bf3de73abf5b09a8ff1d21a6e1f19ec1314afbec8b41bdd9092c4902fd3afb52",
+      "currentSha256": "bf3de73abf5b09a8ff1d21a6e1f19ec1314afbec8b41bdd9092c4902fd3afb52",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/case-reading.svg",
+      "beforeSha256": "381686fba25b77da3d78ce015ba919505cb5fbb6a25a91522542ba3a43784979",
+      "currentSha256": "381686fba25b77da3d78ce015ba919505cb5fbb6a25a91522542ba3a43784979",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/sources.txt",
+      "beforeSha256": "0827f3843e16b2db5ef056b6a8f0c5affc395bc4d492afd53f9da664cd5278ab",
+      "currentSha256": "0827f3843e16b2db5ef056b6a8f0c5affc395bc4d492afd53f9da664cd5278ab",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/case-course-initial.svg",
+      "beforeSha256": "2dc76bc9840090a7668879a8ce86587cd0256c1c32e5d8736be084e6aecc8910",
+      "currentSha256": "2dc76bc9840090a7668879a8ce86587cd0256c1c32e5d8736be084e6aecc8910",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/study-notebook-map.svg",
+      "beforeSha256": "3eb3b028a3414f0d15525539e0aa544c90df48d6c4704d99751917ce50d4a16a",
+      "currentSha256": "3eb3b028a3414f0d15525539e0aa544c90df48d6c4704d99751917ce50d4a16a",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/wiki-query-return.svg",
+      "beforeSha256": "d68e2a55ee89c46cbd29a187f076f32d0146c8713c3b8b086ad2af1d05de8413",
+      "currentSha256": "d68e2a55ee89c46cbd29a187f076f32d0146c8713c3b8b086ad2af1d05de8413",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/speaker-guide.txt",
+      "beforeSha256": "b3dce836ef94bf97080fdff1ad0852a0ddb654f14b7c07841916d1dd8f96d016",
+      "currentSha256": "b3dce836ef94bf97080fdff1ad0852a0ddb654f14b7c07841916d1dd8f96d016",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/reuse-route.svg",
+      "beforeSha256": "65eecce8e8af5bfc849d98a23ab76952be2ed66565986335e335e5e40c174af4",
+      "currentSha256": "65eecce8e8af5bfc849d98a23ab76952be2ed66565986335e335e5e40c174af4",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/knowledge-map.svg",
+      "beforeSha256": "07411af0788bfcd8c06ff8c2b0fc026a16659892762aefb568248ee6b40cd109",
+      "currentSha256": "07411af0788bfcd8c06ff8c2b0fc026a16659892762aefb568248ee6b40cd109",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/case-course.svg",
+      "beforeSha256": "92826f25bf473f1cde492fa4adeca37221ef319e504cd1423bf56dd39511974c",
+      "currentSha256": "92826f25bf473f1cde492fa4adeca37221ef319e504cd1423bf56dd39511974c",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded-study.txt",
+      "beforeSha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+      "currentSha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/current-pending.svg",
+      "beforeSha256": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+      "currentSha256": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/impact-map.svg",
+      "beforeSha256": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+      "currentSha256": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/case-team.svg",
+      "beforeSha256": "0719dc19d60319b011810062359dc0e3235398cf99dcff9753abf63410cfb19e",
+      "currentSha256": "0719dc19d60319b011810062359dc0e3235398cf99dcff9753abf63410cfb19e",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/decision-example.txt",
+      "beforeSha256": "58c5bbb5da45d15d04ad3393f83248d46c4be2f7cd3a6314afc334fba555d442",
+      "currentSha256": "58c5bbb5da45d15d04ad3393f83248d46c4be2f7cd3a6314afc334fba555d442",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/wiki-ingest-update.svg",
+      "beforeSha256": "127df6c27adfcd67fe12091c12859ece95960c76ff301ae171a289a6285c6bfe",
+      "currentSha256": "127df6c27adfcd67fe12091c12859ece95960c76ff301ae171a289a6285c6bfe",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/rebuild-study.txt",
+      "beforeSha256": "a8ccde64c53553b7c9ccda9f19bad21e828ec98f537e36b51264446bdc6282b4",
+      "currentSha256": "a8ccde64c53553b7c9ccda9f19bad21e828ec98f537e36b51264446bdc6282b4",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/decision-transition.svg",
+      "beforeSha256": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+      "currentSha256": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/starter-template.txt",
+      "beforeSha256": "c122e725c09d362019e1918bc26a8284dd06a125a760a21b2a3f78de5785320e",
+      "currentSha256": "c122e725c09d362019e1918bc26a8284dd06a125a760a21b2a3f78de5785320e",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/ingest-map.svg",
+      "beforeSha256": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+      "currentSha256": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/knowledge-layers.svg",
+      "beforeSha256": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+      "currentSha256": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg",
+      "beforeSha256": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+      "currentSha256": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/related-updates.svg",
+      "beforeSha256": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+      "currentSha256": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/wiki-path.svg",
+      "beforeSha256": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+      "currentSha256": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/five-layers.svg",
+      "beforeSha256": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+      "currentSha256": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/work-context.svg",
+      "beforeSha256": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+      "currentSha256": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/query-reading.svg",
+      "beforeSha256": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+      "currentSha256": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/review-return.svg",
+      "beforeSha256": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+      "currentSha256": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/saved-question.svg",
+      "beforeSha256": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+      "currentSha256": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/source-concept.svg",
+      "beforeSha256": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+      "currentSha256": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/rules-graph.svg",
+      "beforeSha256": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+      "currentSha256": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/rag-path.svg",
+      "beforeSha256": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+      "currentSha256": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/purpose-questions.svg",
+      "beforeSha256": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+      "currentSha256": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/agentic-routing.svg",
+      "beforeSha256": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+      "currentSha256": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/session-plan.svg",
+      "beforeSha256": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+      "currentSha256": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/comparison-synthesis.svg",
+      "beforeSha256": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+      "currentSha256": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/shared-workspace.svg",
+      "beforeSha256": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+      "currentSha256": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded/reflection-layers.svg",
+      "beforeSha256": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+      "currentSha256": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/examples/team.txt",
+      "beforeSha256": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+      "currentSha256": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/examples/reading.txt",
+      "beforeSha256": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+      "currentSha256": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/examples/course.txt",
+      "beforeSha256": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+      "currentSha256": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/remake/ingest-map.svg",
+      "beforeSha256": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+      "currentSha256": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/remake/session-plan.svg",
+      "beforeSha256": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+      "currentSha256": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/rebuild/agentic-update.svg",
+      "beforeSha256": "870f43db15d573e51f2a4eedc3fd669c48ca278822d45fe842abe4aa2c2ac9f9",
+      "currentSha256": "870f43db15d573e51f2a4eedc3fd669c48ca278822d45fe842abe4aa2c2ac9f9",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/rebuild/raw-wiki.svg",
+      "beforeSha256": "d2659d83b8bbe32cc59dd55d4bd543d24dc9b7dc65c91fd5b7e53b51249c56ee",
+      "currentSha256": "d2659d83b8bbe32cc59dd55d4bd543d24dc9b7dc65c91fd5b7e53b51249c56ee",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/rebuild/query-context.svg",
+      "beforeSha256": "98b97c631e4eb7de71cf3e9b04edbb10ee2577ad8218b5f1347dd68d3ae01bfe",
+      "currentSha256": "98b97c631e4eb7de71cf3e9b04edbb10ee2577ad8218b5f1347dd68d3ae01bfe",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/rebuild/compare-page.svg",
+      "beforeSha256": "db1dd9a6b2837704cd329436f352e6f3ea379b5b8154c18fcb0a4206b0af62f9",
+      "currentSha256": "db1dd9a6b2837704cd329436f352e6f3ea379b5b8154c18fcb0a4206b0af62f9",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/rebuild/concept-page.svg",
+      "beforeSha256": "ef27a516e25131b876ee7a4e1de22e82261ba0ad80257eb9d49fc10e5408e154",
+      "currentSha256": "ef27a516e25131b876ee7a4e1de22e82261ba0ad80257eb9d49fc10e5408e154",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/rebuild/ingest-links.svg",
+      "beforeSha256": "fe7df7d233122845080be448dd4b98a406ce7295518ffac9a033c000140845d0",
+      "currentSha256": "fe7df7d233122845080be448dd4b98a406ce7295518ffac9a033c000140845d0",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/rebuild/question-saved.svg",
+      "beforeSha256": "d5f298ff3a907e1b70fd8d15a643e0cc2a2505f47cf6685d7c71420ca63ec0ad",
+      "currentSha256": "d5f298ff3a907e1b70fd8d15a643e0cc2a2505f47cf6685d7c71420ca63ec0ad",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/rebuild/lint-review.svg",
+      "beforeSha256": "def3a845f957966060683d7821bf9329e06925f51d815c6a4cc110aad6b4c5b6",
+      "currentSha256": "def3a845f957966060683d7821bf9329e06925f51d815c6a4cc110aad6b4c5b6",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/photos/library.jpg",
+      "beforeSha256": "b07f03559eed0fc0946ef6a1cafb9cc423beb70d9ba9b0b8383909ac8f19ce43",
+      "currentSha256": "b07f03559eed0fc0946ef6a1cafb9cc423beb70d9ba9b0b8383909ac8f19ce43",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/photos/study-table.jpg",
+      "beforeSha256": "258a229c6dc857c44c2a93083f74eccebe4566b530f043228bc2d8aa1709e1a7",
+      "currentSha256": "258a229c6dc857c44c2a93083f74eccebe4566b530f043228bc2d8aa1709e1a7",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/photos/open-books.jpg",
+      "beforeSha256": "5aa7ac752bffc72f7f3526b52ac26aa563951dd7e9767363b03d247f4e519903",
+      "currentSha256": "5aa7ac752bffc72f7f3526b52ac26aa563951dd7e9767363b03d247f4e519903",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/photos/writing.jpg",
+      "beforeSha256": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "currentSha256": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt",
+      "beforeSha256": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "currentSha256": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt",
+      "beforeSha256": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+      "currentSha256": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt",
+      "beforeSha256": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+      "currentSha256": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt",
+      "beforeSha256": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+      "currentSha256": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/review/review.json",
+      "beforeSha256": "cb1f12d45063a496c27eeefff2069d2c8ec2c6c719d460e729f5ba86ee9d4216",
+      "currentSha256": "cb1f12d45063a496c27eeefff2069d2c8ec2c6c719d460e729f5ba86ee9d4216",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/source-notes/rag.md",
+      "beforeSha256": "c2cd0b4abbc182355ee618ef18581d63696483eeaea1e0cb707d140ac1507c62",
+      "currentSha256": "c2cd0b4abbc182355ee618ef18581d63696483eeaea1e0cb707d140ac1507c62",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/source-notes/lora.md",
+      "beforeSha256": "fb88ac73af8648228fc0ea71a0a7200f92ef081b4fe7c88e6c1c45fc4af03a2e",
+      "currentSha256": "fb88ac73af8648228fc0ea71a0a7200f92ef081b4fe7c88e6c1c45fc4af03a2e",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/source-notes/rag-initial.md",
+      "beforeSha256": "084cc17c8e74de1a595f4fd9e608f7e3883a8733364e5a8bc9ca80eac034b297",
+      "currentSha256": "084cc17c8e74de1a595f4fd9e608f7e3883a8733364e5a8bc9ca80eac034b297",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/source-notes/llm-wiki.md",
+      "beforeSha256": "c82d841dd85d9587f5c4d95bb0681c21810e7077e63b5763c12dab23e29d2762",
+      "currentSha256": "c82d841dd85d9587f5c4d95bb0681c21810e7077e63b5763c12dab23e29d2762",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/source-notes/adr.md",
+      "beforeSha256": "7a68c7c8fdbe0854da56f62fb4aaf1897ffc693ad9a31d3c1812bcb995faaab8",
+      "currentSha256": "7a68c7c8fdbe0854da56f62fb4aaf1897ffc693ad9a31d3c1812bcb995faaab8",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/after/wiki/log.md",
+      "beforeSha256": "0b190fbdbaa247b3a2fb0cc7b6329c008b04b932eed49263d62dbcd32fe66d8e",
+      "currentSha256": "0b190fbdbaa247b3a2fb0cc7b6329c008b04b932eed49263d62dbcd32fe66d8e",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/after/wiki/index.md",
+      "beforeSha256": "dea98321d159bffd02e4a50224bf9790e0c6cc45666d64c77878abd2d5059934",
+      "currentSha256": "dea98321d159bffd02e4a50224bf9790e0c6cc45666d64c77878abd2d5059934",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/after/wiki/decisions/review-before-current.md",
+      "beforeSha256": "9ceef6389ad84733d9958f28c9f7d614cbb4d1b275672a48fe148430cf76515f",
+      "currentSha256": "9ceef6389ad84733d9958f28c9f7d614cbb4d1b275672a48fe148430cf76515f",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/after/wiki/decisions/save-all.md",
+      "beforeSha256": "65562b6302d2aac960520d10cb65a80a12e637ad986e21683fc64f3d7f2df7a3",
+      "currentSha256": "65562b6302d2aac960520d10cb65a80a12e637ad986e21683fc64f3d7f2df7a3",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/after/wiki/pending/retrieval-coverage.md",
+      "beforeSha256": "e301bd053c0d107a5b5fbfd1e674df1f723ca46855331e72d7199a3c4abe50d5",
+      "currentSha256": "e301bd053c0d107a5b5fbfd1e674df1f723ca46855331e72d7199a3c4abe50d5",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/after/wiki/claims/file-update.md",
+      "beforeSha256": "92bb630e8e722d09d787eeeceb5c61bce8a861c96078e42525e0186091cc2838",
+      "currentSha256": "92bb630e8e722d09d787eeeceb5c61bce8a861c96078e42525e0186091cc2838",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/after/wiki/questions/what-to-save.md",
+      "beforeSha256": "dd3f09a6ddfa5439bb6084c1896f026fc8b814bbd8072aeeaa8eed5f398d05bd",
+      "currentSha256": "dd3f09a6ddfa5439bb6084c1896f026fc8b814bbd8072aeeaa8eed5f398d05bd",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/after/wiki/questions/wiki-and-learning.md",
+      "beforeSha256": "77d75ad0051f7a46a232bc7ce762538f32bf1587abb40cc670190358b8a53e46",
+      "currentSha256": "77d75ad0051f7a46a232bc7ce762538f32bf1587abb40cc670190358b8a53e46",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/before/wiki/log.md",
+      "beforeSha256": "9aceece1ef383999a38ca7c31d15d09aecc97ab304f6dc68271bf13177bb62b0",
+      "currentSha256": "9aceece1ef383999a38ca7c31d15d09aecc97ab304f6dc68271bf13177bb62b0",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/before/wiki/index.md",
+      "beforeSha256": "52b6a60827254eba86ed7e11fa6d915edb99049a956503cdbf89a5614263ecbe",
+      "currentSha256": "52b6a60827254eba86ed7e11fa6d915edb99049a956503cdbf89a5614263ecbe",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/before/wiki/decisions/save-all.md",
+      "beforeSha256": "d77f31e59cfee51d93d6e6c73851f453e617af2c4ef1f793b59cd9ced7190761",
+      "currentSha256": "d77f31e59cfee51d93d6e6c73851f453e617af2c4ef1f793b59cd9ced7190761",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/before/wiki/claims/file-update.md",
+      "beforeSha256": "844219560c6917c8c2bd3de6a1d60aaae7db2472049c8730e006d855945374f1",
+      "currentSha256": "844219560c6917c8c2bd3de6a1d60aaae7db2472049c8730e006d855945374f1",
+      "unchanged": true
+    },
+    {
+      "path": "talks/llm-wiki/demo/before/wiki/questions/wiki-and-learning.md",
+      "beforeSha256": "09953148d63b4025185026a27765fec906d72684b886801c8c4069356b8af935",
+      "currentSha256": "09953148d63b4025185026a27765fec906d72684b886801c8c4069356b8af935",
+      "unchanged": true
+    }
+  ]
+}

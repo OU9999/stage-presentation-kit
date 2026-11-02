@@ -1,0 +1,12 @@
+{
+  "observation": {
+    "url": "http://127.0.0.1:4330/presentations/llm-wiki/#4",
+    "mode": "present",
+    "theme": "stage",
+    "sourceTheme": "stage",
+    "revision": "f6a5a79c444a79a9f62ed8759c1a7a1e745298b30d3766dcb32202a220619bbe",
+    "slides": 26
+  },
+  "prepareLocalStorageOverrideUsed": false,
+  "old4320DevServer": "connection-refused; diagnostic only, no change"
+}

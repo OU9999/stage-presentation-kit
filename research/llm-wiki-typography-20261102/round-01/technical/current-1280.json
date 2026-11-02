@@ -1,0 +1,354 @@
+{
+  "format": "llm-wiki-typography-result-v1",
+  "mode": "current",
+  "status": "regression",
+  "visualApproval": false,
+  "revision": "5a23d0bddb3a2873067c4407b308c50b275e38fbba81292575f1d33cb5f6a702",
+  "summary": {
+    "checks": 68,
+    "invalid": 0,
+    "regressions": 2
+  },
+  "checks": [
+    {
+      "id": "context-tail",
+      "status": "pass",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "ai-work-tail",
+      "status": "pass",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "shared-editing-tail",
+      "status": "pass",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "topic-files-tail",
+      "status": "pass",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "navigation-tail",
+      "status": "pass",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "related-update-tail",
+      "status": "pass",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "benefit-read-tail",
+      "status": "pass",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "benefit-edit-tail",
+      "status": "pass",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "benefit-reuse-tail",
+      "status": "pass",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "risk-content-tail",
+      "status": "regression",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "risk-change-tail",
+      "status": "pass",
+      "detail": "Only this role’s designated non-intentional predicate tail is checked."
+    },
+    {
+      "id": "context-difficulty-font",
+      "status": "pass",
+      "detail": "32 logical / 18.347 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "context-response-font",
+      "status": "pass",
+      "detail": "32 logical / 18.347 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "human-purpose-and-record-font",
+      "status": "pass",
+      "detail": "32 logical / 18.347 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "record-distinction-font",
+      "status": "pass",
+      "detail": "32 logical / 18.347 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "context-question-rendered-break",
+      "status": "pass",
+      "detail": "Boundary uses actual before/after glyph y, never textContent newline splitting."
+    },
+    {
+      "id": "human-declaration-rendered-break",
+      "status": "pass",
+      "detail": "Boundary uses actual before/after glyph y, never textContent newline splitting."
+    },
+    {
+      "id": "audience-question-rendered-break",
+      "status": "pass",
+      "detail": "Boundary uses actual before/after glyph y, never textContent newline splitting."
+    },
+    {
+      "id": "request-0-font",
+      "status": "pass",
+      "detail": "32 logical / 18.347 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "request-0-geometry",
+      "status": "pass",
+      "detail": "The complete request remains inside the actual body area."
+    },
+    {
+      "id": "request-1-font",
+      "status": "pass",
+      "detail": "32 logical / 18.347 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "request-1-geometry",
+      "status": "pass",
+      "detail": "The complete request remains inside the actual body area."
+    },
+    {
+      "id": "request-2-font",
+      "status": "pass",
+      "detail": "32 logical / 18.347 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "request-2-geometry",
+      "status": "pass",
+      "detail": "The complete request remains inside the actual body area."
+    },
+    {
+      "id": "request-3-font",
+      "status": "pass",
+      "detail": "32 logical / 18.347 displayed px; required role starts at 32 logical."
+    },
+    {
+      "id": "request-3-geometry",
+      "status": "pass",
+      "detail": "The complete request remains inside the actual body area."
+    },
+    {
+      "id": "shared-source-membership",
+      "status": "pass",
+      "detail": "Common reading/editing belongs before both role groups in the source AST."
+    },
+    {
+      "id": "shared-dom-membership",
+      "status": "pass",
+      "detail": "Common paragraph must be a direct child of the body."
+    },
+    {
+      "id": "shared-layout",
+      "status": "pass",
+      "detail": "Two real columns, equal first-body baselines, shared full-width row."
+    },
+    {
+      "id": "diagram-3-source",
+      "status": "pass",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-3-font",
+      "status": "regression",
+      "detail": "Minimum essential contain-projected size 30.786 logical px."
+    },
+    {
+      "id": "diagram-5-source",
+      "status": "pass",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-5-font",
+      "status": "pass",
+      "detail": "Minimum essential contain-projected size 35.861 logical px."
+    },
+    {
+      "id": "diagram-8-source",
+      "status": "pass",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-8-font",
+      "status": "pass",
+      "detail": "Minimum essential contain-projected size 35.861 logical px."
+    },
+    {
+      "id": "diagram-9-source",
+      "status": "pass",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-9-font",
+      "status": "pass",
+      "detail": "Minimum essential contain-projected size 35.861 logical px."
+    },
+    {
+      "id": "diagram-10-source",
+      "status": "pass",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-10-font",
+      "status": "pass",
+      "detail": "Minimum essential contain-projected size 35.861 logical px."
+    },
+    {
+      "id": "diagram-11-source",
+      "status": "pass",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-11-font",
+      "status": "pass",
+      "detail": "Minimum essential contain-projected size 40.935 logical px."
+    },
+    {
+      "id": "diagram-14-source",
+      "status": "pass",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-14-font",
+      "status": "pass",
+      "detail": "Minimum essential contain-projected size 35.861 logical px."
+    },
+    {
+      "id": "diagram-16-source",
+      "status": "pass",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-16-font",
+      "status": "pass",
+      "detail": "Minimum essential contain-projected size 35.861 logical px."
+    },
+    {
+      "id": "diagram-20-source",
+      "status": "pass",
+      "detail": "Explanatory reconstruction uses its separate new asset, preserving originals."
+    },
+    {
+      "id": "diagram-20-font",
+      "status": "pass",
+      "detail": "Minimum essential contain-projected size 40.935 logical px."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/agentic-routing.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/comparison-synthesis.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/five-layers.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/ingest-map.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/knowledge-layers.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/purpose-questions.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/query-reading.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/rag-path.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/raw-wiki-rules.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/reflection-layers.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/related-updates.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/review-return.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/rules-graph.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/saved-question.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/session-plan.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/shared-workspace.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/source-concept.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/wiki-path.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/expanded/work-context.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/remake/ingest-map.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    },
+    {
+      "id": "preserved-talks/llm-wiki/assets/remake/session-plan.svg",
+      "status": "pass",
+      "detail": "Original SVG bytes must remain available unchanged."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "slide": 4,
+    "sourceLine": "58",
+    "text": "흩어진 맥락을 문서로 정리해 필요할 때 다시 읽게 합니다.",
+    "renderedLines": [
+      "흩어진 맥락을 문서로 정리해 필요할 때 다시 읽게",
+      "합니다."
+    ],
+    "fontLogical": "34px",
+    "effectivePixels": 19.493331604003906,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 6,
+    "sourceLine": "90",
+    "text": "자료를 읽고, 문서를 쓰고, 연결과 목차를 갱신합니다.",
+    "renderedLines": [
+      "자료를 읽고, 문서를 쓰고, 연결과 목차를",
+      "갱신합니다."
+    ],
+    "fontLogical": "34px",
+    "effectivePixels": 19.493331604003906,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 6,
+    "sourceLine": "92",
+    "text": "사람도 같은 마크다운 문서를 읽고 고칠 수 있습니다.",
+    "renderedLines": [
+      "사람도 같은 마크다운 문서를 읽고 고칠 수",
+      "있습니다."
+    ],
+    "fontLogical": "34px",
+    "effectivePixels": 19.493331604003906,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 12,
+    "sourceLine": "168",
+    "text": "한 파일에 몰아넣지 않고 개념별로 나눕니다.",
+    "renderedLines": [
+      "한 파일에 몰아넣지 않고 개념별로",
+      "나눕니다."
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 12,
+    "sourceLine": "172",
+    "text": "관련 개념과 원자료를 찾아 읽습니다.",
+    "renderedLines": [
+      "관련 개념과 원자료를 찾아",
+      "읽습니다."
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 12,
+    "sourceLine": "176",
+    "text": "새 자료가 오면 문서와 관계를 보완합니다.",
+    "renderedLines": [
+      "새 자료가 오면 문서와 관계를",
+      "보완합니다."
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 15,
+    "sourceLine": "217",
+    "text": "앞으로 만들 결과와 관련된 자료인가",
+    "renderedLines": [
+      "앞으로 만들 결과와 관련된",
+      "자료인가"
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 15,
+    "sourceLine": "221",
+    "text": "가치 있다고 느낀 이유를 직접 적을 수 있는가",
+    "renderedLines": [
+      "가치 있다고 느낀 이유를 직접 적을",
+      "수 있는가"
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 15,
+    "sourceLine": "225",
+    "text": "같은 주제의 자료 두 개부터 연결합니다.",
+    "renderedLines": [
+      "같은 주제의 자료 두 개부터",
+      "연결합니다."
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 19,
+    "sourceLine": "279",
+    "text": "읽은 자료를 개념과 질문으로 연결하기",
+    "renderedLines": [
+      "읽은 자료를 개념과 질문으로",
+      "연결하기"
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 21,
+    "sourceLine": "311",
+    "text": "설명과 근거가 마크다운 문서로 남습니다.",
+    "renderedLines": [
+      "설명과 근거가 마크다운 문서로",
+      "남습니다."
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 21,
+    "sourceLine": "315",
+    "text": "AI의 정리에 내 경험과 판단을 보탭니다.",
+    "renderedLines": [
+      "AI의 정리에 내 경험과 판단을",
+      "보탭니다."
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 21,
+    "sourceLine": "319",
+    "text": "정리된 개념과 연결을 다음 질문에 씁니다.",
+    "renderedLines": [
+      "정리된 개념과 연결을 다음 질문에",
+      "씁니다."
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 22,
+    "sourceLine": "331",
+    "text": "잘못된 요약과 근거 없는 연결이 생길 수 있습니다.",
+    "renderedLines": [
+      "잘못된 요약과 근거 없는 연결이",
+      "생길 수 있습니다."
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  },
+  {
+    "slide": 22,
+    "sourceLine": "335",
+    "text": "새 자료와 예전 설명이 충돌할 수 있습니다.",
+    "renderedLines": [
+      "새 자료와 예전 설명이 충돌할 수",
+      "있습니다."
+    ],
+    "fontLogical": "32px",
+    "effectivePixels": 18.3466650390625,
+    "role": "candidate for expert review; not an automatic failure"
+  }
+]

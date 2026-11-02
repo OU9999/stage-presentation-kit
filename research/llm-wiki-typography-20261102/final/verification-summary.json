@@ -1,0 +1,110 @@
+{
+  "sourceSha256": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+  "policySha256": {
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7",
+    "DESIGN.md": "ca0f0277c4c260b77e756b17272e8a90388cedf9780c8d916963563adfd519c6",
+    "MARKDOWN-FIRST.md": "ff0afb67e577ecf0273c38755d35b1faeacec16dbb03376fa9889a81a1f9f85f"
+  },
+  "technical": {
+    "1280": {
+      "checks": 83,
+      "invalid": 0,
+      "regressions": 0
+    },
+    "1920": {
+      "checks": 83,
+      "invalid": 0,
+      "regressions": 0
+    }
+  },
+  "designReview": [
+    {
+      "scope": "present-1920",
+      "exitCode": 0,
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    },
+    {
+      "scope": "present-1280",
+      "exitCode": 0,
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    },
+    {
+      "scope": "read-1440",
+      "exitCode": 0,
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    },
+    {
+      "scope": "read-390",
+      "exitCode": 0,
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    }
+  ],
+  "readingActions": {
+    "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd",
+    "complete": true
+  },
+  "otherActions": {
+    "complete": true,
+    "selectionViewports": [
+      390,
+      1440
+    ],
+    "materialLinks": 5,
+    "slidesWithKeyboard": 26,
+    "overviewCount": 26,
+    "homeEnd": true
+  },
+  "preservation": {
+    "talkFiles": 101,
+    "unchanged": 97,
+    "changed": [
+      "talks/llm-wiki/slides.md",
+      "talks/llm-wiki/README.md",
+      "talks/llm-wiki/materials/diagram-reading.md",
+      "talks/llm-wiki/materials/speaker-script.md"
+    ]
+  },
+  "testEvidence": "round-02/technical/test.txt",
+  "testCount": 317,
+  "finalChangeScope": "Only native8 material emphasis changed after the tested product-code freeze; build/site verification rerun."
+}

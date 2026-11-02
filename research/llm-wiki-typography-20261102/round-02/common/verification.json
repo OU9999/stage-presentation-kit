@@ -1,0 +1,861 @@
+{
+  "observations": [
+    {
+      "role": "other-topic-table",
+      "url": "http://127.0.0.1:4330/presentations/product-notes/#3",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "2",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "관찰과 다음 행동을 구분합니다.",
+      "headingSize": "72px",
+      "text": "관찰과 다음 행동을 구분합니다.장면가상 검토에서 남긴 관찰다음에 확인할 일설정 찾기메뉴를 두 번 오감이름을 쉽게 바꾸기결과 확인완료 상태를 다시 질문함상태 문구 비교하기설명을 위한 가상 기록입니다. 사진 속 인물의 행동을 조사한 결과가 아닙니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-02/common/product-notes-3.png"
+    },
+    {
+      "role": "other-topic-steps",
+      "url": "http://127.0.0.1:4330/presentations/product-notes/#7",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "6",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "바꾸고, 같은 장면으로 돌아갑니다.",
+      "headingSize": "72px",
+      "text": "바꾸고, 같은 장면으로 돌아갑니다.검토 체크리스트에서 관찰과 해석을 나눕니다.상태 문구를 바꾸고 다음 행동이 분명한지 함께 읽습니다.모르는 점은 팀 학습 발표의 질문으로 남깁니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-02/common/product-notes-7.png"
+    },
+    {
+      "role": "other-topic-bright-authored-document",
+      "url": "http://127.0.0.1:4330/presentations/product-notes/#4",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "3",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "기록을, 결정할 수 있는 모양으로.",
+      "headingSize": "64px",
+      "text": "기록을, 결정할 수 있는 모양으로.함께 읽을 한 장한 장에 묶은 관찰 · 자체 제작 가상 문서남겨 둔 관찰24 개장면을 다시 찾을 기록입니다.다음에 확인할 행동2 개이름과 상태 문구를 확인합니다.가상 수치 · 서로 다른 작업 단위 · 전환율이나 성과가 아닙니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/1c6df0654172-report.svg",
+          "alt": "관찰과 다음 행동을 정리한 자체 제작 가상 보고서",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 353.6893615722656,
+            "width": 786.239990234375,
+            "height": 397.0706481933594,
+            "right": 911.5199890136719,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "함께 읽을 한 장",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "남겨 둔 관찰",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "24",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "다음에 확인할 행동",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "2",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-02/common/product-notes-4.png"
+    },
+    {
+      "role": "actual-color-stock-photo",
+      "url": "http://127.0.0.1:4330/presentations/product-notes/#2",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "1",
+      "layout": "blocks",
+      "composition": "split",
+      "heading": "답을 내기 전에, 장면을 남깁니다.",
+      "headingSize": "72px",
+      "text": "답을 내기 전에, 장면을 남깁니다.기록하는 장면 · LinkedIn Sales Navigator / Pexels어떤 일을 시작하려는지 묻습니다.멈춘 순간을 짧게 적습니다.해결책보다 실제 행동을 먼저 봅니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/478e6580030c-write.jpg",
+          "alt": "야외 테이블에서 노트에 쓰는 인물을 담은 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "45% 43%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 293.294677734375,
+            "width": 596.6558837890625,
+            "height": 457.46533203125,
+            "right": 721.9358825683594,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "실제 행동",
+          "color": "rgb(36, 168, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-02/common/product-notes-2.png"
+    },
+    {
+      "role": "existing-quote",
+      "url": "http://127.0.0.1:4330/presentations/product-notes/#5",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "quote",
+      "headingSize": null,
+      "text": "무엇을 만들었는지보다,\n무엇을 이해했는지부터 이야기합니다.가상 팀이 정한 검토 원칙",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-02/common/product-notes-5.png"
+    },
+    {
+      "role": "photo-and-editorial-copy",
+      "url": "http://127.0.0.1:4330/presentations/team-learning/#6",
+      "title": "같은 장면에서 다른 질문 찾기 — Stage",
+      "index": "5",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "단서 옆에, 질문을 놓습니다.",
+      "headingSize": "64px",
+      "text": "단서 옆에, 질문을 놓습니다.보이는 단서눈앞의 돋보기 · Andrea Piacquadio / Pexels아직 모르는 것무엇을 찾고 있을까요?사진 밖에는 무엇이 있을까요?다음 장면에서 무엇을 확인할까요?",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/8b3f37a204ad-observe.jpg",
+          "alt": "한쪽 눈 앞에 돋보기를 댄 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "48% 34%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 353.6893615722656,
+            "width": 637.7830810546875,
+            "height": 397.0706481933594,
+            "right": 763.0630798339844,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "보이는 단서",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "아직 모르는 것",
+          "color": "rgb(160, 128, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-02/common/team-learning-6.png"
+    },
+    {
+      "role": "mixed-bento",
+      "url": "http://127.0.0.1:4330/presentations/community-exhibit/#5",
+      "title": "작은 전시를 함께 여는 방법 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "bento",
+      "variant": "seoul",
+      "headingSize": null,
+      "text": "놓아 볼 작품12 점가상 전시 계획준비의 기록기록하는 장면함께 던질 질문3 개관람을 여는 단서작은 전시의 표지자체 제작 가상 표지첫 질문어떤 장면이 남았나요?형태의 단서자체 제작 도형세 가지 관점장면질문다음 행동첫 안내작품 하나를 먼저 골라 보세요.함께 읽을 안내자체 제작 가상 문서함께 읽는 시간2 회가상 운영 계획관람의 흐름들어오기살펴보기남기기문을 열기 전에표지 놓기동선 걷기질문 읽기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/478e6580030c-write.jpg",
+          "alt": "노트에 쓰는 인물의 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "45% 43%",
+          "box": {
+            "x": 426,
+            "y": 196.36000061035156,
+            "width": 288.1199951171875,
+            "height": 164.49562072753906,
+            "right": 714.1199951171875,
+            "bottom": 360.8556213378906
+          }
+        },
+        {
+          "src": "assets/7425a10ee3a3-poster.svg",
+          "alt": "아이디어를 위한 공간이라는 문구가 있는 자체 제작 포스터",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 1025.760009765625,
+            "y": 196.36000061035156,
+            "width": 288.1199951171875,
+            "height": 364.97344970703125,
+            "right": 1313.8800048828125,
+            "bottom": 561.3334503173828
+          }
+        },
+        {
+          "src": "assets/81cd1d19bbb8-shape-study.svg",
+          "alt": "색이 다른 입체 도형을 담은 자체 제작 그림",
+          "complete": true,
+          "naturalWidth": 720,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 326.03997802734375,
+            "y": 396.8377990722656,
+            "width": 188.15997314453125,
+            "height": 166.12313842773438,
+            "right": 514.199951171875,
+            "bottom": 562.9609375
+          }
+        },
+        {
+          "src": "assets/1c6df0654172-report.svg",
+          "alt": "관찰 순서를 정리한 자체 제작 가상 문서",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 126.1199951171875,
+            "y": 597.3156127929688,
+            "width": 288.1199951171875,
+            "height": 164.502197265625,
+            "right": 414.239990234375,
+            "bottom": 761.8178100585938
+          }
+        }
+      ],
+      "tiles": [
+        {
+          "kind": "value",
+          "tone": "blue",
+          "text": "놓아 볼 작품12 점가상 전시 계획",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 195.51998901367188,
+            "width": 289.79998779296875,
+            "height": 190.39779663085938,
+            "right": 415.0799865722656,
+            "bottom": 385.91778564453125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(246, 246, 244, 0.043)"
+        },
+        {
+          "kind": "image",
+          "text": "준비의 기록기록하는 장면",
+          "box": {
+            "x": 425.15997314453125,
+            "y": 195.51998901367188,
+            "width": 289.79998779296875,
+            "height": 190.39779663085938,
+            "right": 714.9599609375,
+            "bottom": 385.91778564453125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "value",
+          "tone": "orange",
+          "text": "함께 던질 질문3 개관람을 여는 단서",
+          "box": {
+            "x": 725.0399780273438,
+            "y": 195.51998901367188,
+            "width": 289.79998779296875,
+            "height": 190.39779663085938,
+            "right": 1014.8399658203125,
+            "bottom": 385.91778564453125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(246, 246, 244, 0.043)"
+        },
+        {
+          "kind": "image",
+          "text": "작은 전시의 표지자체 제작 가상 표지",
+          "box": {
+            "x": 1024.919921875,
+            "y": 195.51998901367188,
+            "width": 289.800048828125,
+            "height": 390.8756408691406,
+            "right": 1314.719970703125,
+            "bottom": 586.3956298828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "quote",
+          "tone": "purple",
+          "text": "첫 질문어떤 장면이 남았나요?",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 395.997802734375,
+            "width": 189.83999633789062,
+            "height": 190.3978271484375,
+            "right": 315.1199951171875,
+            "bottom": 586.3956298828125
+          },
+          "color": "rgb(8, 8, 8)",
+          "background": "color(srgb 0.924235 0.909176 0.962039)"
+        },
+        {
+          "kind": "image",
+          "text": "형태의 단서자체 제작 도형",
+          "box": {
+            "x": 325.1999816894531,
+            "y": 395.997802734375,
+            "width": 189.83999633789062,
+            "height": 190.3978271484375,
+            "right": 515.0399780273438,
+            "bottom": 586.3956298828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "list",
+          "tone": "green",
+          "text": "세 가지 관점장면질문다음 행동",
+          "box": {
+            "x": 525.1199951171875,
+            "y": 395.997802734375,
+            "width": 189.8399658203125,
+            "height": 190.3978271484375,
+            "right": 714.9599609375,
+            "bottom": 586.3956298828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "color(srgb 0.0694118 0.109412 0.0792157)"
+        },
+        {
+          "kind": "text",
+          "text": "첫 안내작품 하나를 먼저 골라 보세요.",
+          "box": {
+            "x": 725.0399780273438,
+            "y": 395.997802734375,
+            "width": 289.79998779296875,
+            "height": 190.3978271484375,
+            "right": 1014.8399658203125,
+            "bottom": 586.3956298828125
+          },
+          "color": "rgb(8, 8, 8)",
+          "background": "color(srgb 0.865882 0.928 0.962039)"
+        },
+        {
+          "kind": "image",
+          "text": "함께 읽을 안내자체 제작 가상 문서",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 596.4755859375,
+            "width": 289.79998779296875,
+            "height": 190.4044189453125,
+            "right": 415.0799865722656,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "value",
+          "tone": "purple",
+          "text": "함께 읽는 시간2 회가상 운영 계획",
+          "box": {
+            "x": 425.15997314453125,
+            "y": 596.4755859375,
+            "width": 289.79998779296875,
+            "height": 190.4044189453125,
+            "right": 714.9599609375,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "rgba(246, 246, 244, 0.043)"
+        },
+        {
+          "kind": "list",
+          "text": "관람의 흐름들어오기살펴보기남기기",
+          "box": {
+            "x": 725.0399780273438,
+            "y": 596.4755859375,
+            "width": 289.79998779296875,
+            "height": 190.4044189453125,
+            "right": 1014.8399658203125,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "color(srgb 0.0423529 0.0941177 0.128235)"
+        },
+        {
+          "kind": "list",
+          "text": "문을 열기 전에표지 놓기동선 걷기질문 읽기",
+          "box": {
+            "x": 1024.919921875,
+            "y": 596.4755859375,
+            "width": 289.800048828125,
+            "height": 190.4044189453125,
+            "right": 1314.719970703125,
+            "bottom": 786.8800048828125
+          },
+          "color": "rgb(246, 246, 244)",
+          "background": "color(srgb 0.0423529 0.0941177 0.128235)"
+        }
+      ],
+      "wall": null,
+      "accents": [
+        {
+          "text": "놓아 볼 작품",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "text": "12",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "준비의 기록",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "함께 던질 질문",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "text": "3",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "작은 전시의 표지",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "첫 질문",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "text": "형태의 단서",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "세 가지 관점",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "첫 안내",
+          "color": "rgb(8, 8, 8)"
+        },
+        {
+          "text": "함께 읽을 안내",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "함께 읽는 시간",
+          "color": "rgb(164, 164, 161)"
+        },
+        {
+          "text": "2",
+          "color": "rgb(160, 128, 255)"
+        },
+        {
+          "text": "관람의 흐름",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "문을 열기 전에",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-02/common/community-exhibit-5.png"
+    },
+    {
+      "role": "other-topic-document",
+      "url": "http://127.0.0.1:4330/presentations/community-exhibit/#6",
+      "title": "작은 전시를 함께 여는 방법 — Stage",
+      "index": "5",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "계획은, 걸어 보며 다시 읽습니다.",
+      "headingSize": "72px",
+      "text": "계획은, 걸어 보며 다시 읽습니다.입구의 한 문장이 다음 행동을 알려 주는지 봅니다.작품 옆 질문과 기록할 자리를 함께 확인합니다.검토 체크리스트로 관찰과 해석을 나눕니다.앞장의12점·3개 질문·2회는 가상 계획이며 서로 다른 작업 단위입니다. 측정한 실적이나 전환율이 아닙니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-02/common/community-exhibit-6.png"
+    },
+    {
+      "role": "document-question-and-steps",
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#13",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "12",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "질문하면 이렇게 씁니다",
+      "headingSize": "72px",
+      "text": "질문하면 이렇게 씁니다다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?정리한 개념과 비교 문서를 읽습니다.우리 목적과 조건에 맞춰 답합니다.쓸 만한 답은 확인한 뒤 문서로 남깁니다.발표용 스터디 사례입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "개념과 비교 문서",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "우리 목적과 조건",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "문서로 남깁니다.",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-02/common/llm-wiki-13.png"
+    },
+    {
+      "role": "reduced-motion",
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#17",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "16",
+      "layout": "blocks",
+      "composition": "quote",
+      "heading": "내 맥락을 정리하는 일은 어렵습니다",
+      "headingSize": "38px",
+      "text": "내 맥락을 정리하는 일은 어렵습니다같은 자료라도 내 목적과 경험에 따라 묶는 기준이 달라집니다.왜 골랐고,어떤 질문을 풀려는가?기준부터 적어 다시 쓸 방향을 잡습니다.\n목적 없이 모으기만 하면 다시 쓰기 어렵습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "어떤 질문을 풀려는가?",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-02/common/reduced-llm-wiki-17.png",
+      "motion": {
+        "reduced": true,
+        "animations": 0,
+        "names": []
+      }
+    },
+    {
+      "role": "reduced-motion",
+      "url": "http://127.0.0.1:4330/presentations/product-notes/#5",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "quote",
+      "headingSize": null,
+      "text": "무엇을 만들었는지보다,\n무엇을 이해했는지부터 이야기합니다.가상 팀이 정한 검토 원칙",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-typography-20261102/round-02/common/reduced-product-notes-5.png",
+      "motion": {
+        "reduced": true,
+        "animations": 0,
+        "names": []
+      }
+    },
+    {
+      "role": "other-topic-reading",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "documentWidth": 390,
+      "quote": "무엇을 만들었는지보다,\n무엇을 이해했는지부터 이야기합니다."
+    }
+  ]
+}

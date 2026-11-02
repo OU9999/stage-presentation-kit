@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-11-02T08:20:00Z",
+  "officialSources": [
+    "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "https://developers.openai.com/api/docs/changelog"
+  ],
+  "exactModel": "gpt-6.1-sol",
+  "effort": "high",
+  "forkTurns": "none",
+  "runtimeCatalog": [
+    "gpt-6.1-sol",
+    "gpt-6-astra",
+    "gpt-6.1-terra",
+    "gpt-6-sol",
+    "gpt-6-luna"
+  ],
+  "reason": "Korean typography and presentation critique, implementation contracts, and independent counterexamples"
+}

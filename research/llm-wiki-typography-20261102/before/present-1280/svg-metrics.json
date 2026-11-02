@@ -1,0 +1,2031 @@
+{
+  "revision": "f6a5a79c444a79a9f62ed8759c1a7a1e745298b30d3766dcb32202a220619bbe",
+  "method": "Computed SVG fonts projected through the actual contain box and stage; observations, not aesthetic approval.",
+  "observations": [
+    {
+      "slide": 3,
+      "src": "assets/bf4ad827da99-knowledge-layers.svg",
+      "assetSha256": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+      "sourcePaths": [
+        "talks/llm-wiki/assets/expanded/knowledge-layers.svg"
+      ],
+      "materialKind": null,
+      "fit": "contain",
+      "stageScale": 0.5733332824707031,
+      "projectedScale": 0.48046529134114585,
+      "svgViewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1500,
+        "height": 600
+      },
+      "texts": [
+        {
+          "tag": "text",
+          "text": "원자료",
+          "fontSize": "40px",
+          "fontWeight": "600",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 79,
+            "width": 102.6015625,
+            "height": 48
+          },
+          "projectedPixels": 19.218611653645834,
+          "stageLogicalPixels": 33.52083725337869
+        },
+        {
+          "tag": "text",
+          "text": "보존할 세 주제 메모",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 144,
+            "width": 211.453125,
+            "height": 33.5
+          },
+          "projectedPixels": 13.453028157552083,
+          "stageLogicalPixels": 23.464586077365084
+        },
+        {
+          "tag": "text",
+          "text": "목적과 맥락",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 222.5,
+            "width": 162.7734375,
+            "height": 43.5
+          },
+          "projectedPixels": 17.29675048828125,
+          "stageLogicalPixels": 30.168753528040824
+        },
+        {
+          "tag": "text",
+          "text": "검색과 비교",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 327.5,
+            "width": 162.7734375,
+            "height": 43.5
+          },
+          "projectedPixels": 17.29675048828125,
+          "stageLogicalPixels": 30.168753528040824
+        },
+        {
+          "tag": "text",
+          "text": "지식의 활용",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 432.5,
+            "width": 162.7734375,
+            "height": 43.5
+          },
+          "projectedPixels": 17.29675048828125,
+          "stageLogicalPixels": 30.168753528040824
+        },
+        {
+          "tag": "text",
+          "text": "읽고 연결",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 398,
+            "y": 245,
+            "width": 102.25,
+            "height": 33.5
+          },
+          "projectedPixels": 13.453028157552083,
+          "stageLogicalPixels": 23.464586077365084
+        },
+        {
+          "tag": "text",
+          "text": "연결된 지식",
+          "fontSize": "45px",
+          "fontWeight": "600",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 580,
+            "y": 51.5,
+            "width": 204.0625,
+            "height": 54
+          },
+          "projectedPixels": 21.620938110351563,
+          "stageLogicalPixels": 37.71094191005103
+        },
+        {
+          "tag": "text",
+          "text": "wiki/",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 1381.0546875,
+            "y": 65,
+            "width": 53.9453125,
+            "height": 33.5
+          },
+          "projectedPixels": 13.453028157552083,
+          "stageLogicalPixels": 23.464586077365084
+        },
+        {
+          "tag": "text",
+          "text": "개념",
+          "fontSize": "38px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 617.52734375,
+            "y": 150,
+            "width": 64.9453125,
+            "height": 45.5
+          },
+          "projectedPixels": 18.257681070963542,
+          "stageLogicalPixels": 31.844795390709756
+        },
+        {
+          "tag": "text",
+          "text": "비교",
+          "fontSize": "38px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 1247.52734375,
+            "y": 145,
+            "width": 64.9453125,
+            "height": 45.5
+          },
+          "projectedPixels": 18.257681070963542,
+          "stageLogicalPixels": 31.844795390709756
+        },
+        {
+          "tag": "text",
+          "text": "현재 이해",
+          "fontSize": "38px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 900.26171875,
+            "y": 260,
+            "width": 139.4765625,
+            "height": 45.5
+          },
+          "projectedPixels": 18.257681070963542,
+          "stageLogicalPixels": 31.844795390709756
+        },
+        {
+          "tag": "text",
+          "text": "계획",
+          "fontSize": "38px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 727.52734375,
+            "y": 420,
+            "width": 64.9453125,
+            "height": 45.5
+          },
+          "projectedPixels": 18.257681070963542,
+          "stageLogicalPixels": 31.844795390709756
+        },
+        {
+          "tag": "text",
+          "text": "다음 질문",
+          "fontSize": "38px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 1200.26171875,
+            "y": 420,
+            "width": 139.4765625,
+            "height": 45.5
+          },
+          "projectedPixels": 18.257681070963542,
+          "stageLogicalPixels": 31.844795390709756
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "src": "assets/f2422a7925dc-raw-wiki-rules.svg",
+      "assetSha256": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+      "sourcePaths": [
+        "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg"
+      ],
+      "materialKind": null,
+      "fit": "contain",
+      "stageScale": 0.5733332824707031,
+      "projectedScale": 0.48046529134114585,
+      "svgViewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1500,
+        "height": 600
+      },
+      "texts": [
+        {
+          "tag": "text",
+          "text": "raw/",
+          "fontSize": "44px",
+          "fontWeight": "600",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 73,
+            "y": 63.5,
+            "width": 81.6484375,
+            "height": 52.5
+          },
+          "projectedPixels": 21.140472819010416,
+          "stageLogicalPixels": 36.87292097871656
+        },
+        {
+          "tag": "text",
+          "text": "보존할 원자료",
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 73,
+            "y": 130.5,
+            "width": 182.609375,
+            "height": 40.5
+          },
+          "projectedPixels": 16.33581990559896,
+          "stageLogicalPixels": 28.49271166537189
+        },
+        {
+          "tag": "text",
+          "text": "context-note.md",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(98, 98, 95)",
+          "bbox": {
+            "x": 73,
+            "y": 220,
+            "width": 206.765625,
+            "height": 36
+          },
+          "projectedPixels": 14.413958740234376,
+          "stageLogicalPixels": 25.14062794003402
+        },
+        {
+          "tag": "text",
+          "text": "retrieval-note.md",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(98, 98, 95)",
+          "bbox": {
+            "x": 73,
+            "y": 277,
+            "width": 214.3359375,
+            "height": 36
+          },
+          "projectedPixels": 14.413958740234376,
+          "stageLogicalPixels": 25.14062794003402
+        },
+        {
+          "tag": "text",
+          "text": "synthesis-note.md",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(98, 98, 95)",
+          "bbox": {
+            "x": 73,
+            "y": 334,
+            "width": 227.265625,
+            "height": 36
+          },
+          "projectedPixels": 14.413958740234376,
+          "stageLogicalPixels": 25.14062794003402
+        },
+        {
+          "tag": "text",
+          "text": "요지 · 선택 이유 · 남은 질문",
+          "fontSize": "27px",
+          "fontWeight": "400",
+          "fill": "rgb(98, 98, 95)",
+          "bbox": {
+            "x": 73,
+            "y": 390.5,
+            "width": 285.3203125,
+            "height": 32.5
+          },
+          "projectedPixels": 12.972562866210938,
+          "stageLogicalPixels": 22.626565146030615
+        },
+        {
+          "tag": "text",
+          "text": "wiki/",
+          "fontSize": "44px",
+          "fontWeight": "600",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 600,
+            "y": 64.5,
+            "width": 88.8203125,
+            "height": 52.5
+          },
+          "projectedPixels": 21.140472819010416,
+          "stageLogicalPixels": 36.87292097871656
+        },
+        {
+          "tag": "text",
+          "text": "작성하고 갱신할 이해",
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 600,
+            "y": 132.5,
+            "width": 278.1796875,
+            "height": 40.5
+          },
+          "projectedPixels": 16.33581990559896,
+          "stageLogicalPixels": 28.49271166537189
+        },
+        {
+          "tag": "text",
+          "text": "개념",
+          "fontSize": "34px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 599.9710693359375,
+            "y": 207.5,
+            "width": 58.0523681640625,
+            "height": 40.5
+          },
+          "projectedPixels": 16.33581990559896,
+          "stageLogicalPixels": 28.49271166537189
+        },
+        {
+          "tag": "text",
+          "text": "여러 자료에서 만나는 설명",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 915,
+            "y": 209,
+            "width": 324.1328125,
+            "height": 38.5
+          },
+          "projectedPixels": 15.374889322916667,
+          "stageLogicalPixels": 26.816669802702954
+        },
+        {
+          "tag": "text",
+          "text": "비교 · 종합",
+          "fontSize": "34px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 600,
+            "y": 284.5,
+            "width": 142.937255859375,
+            "height": 40.5
+          },
+          "projectedPixels": 16.33581990559896,
+          "stageLogicalPixels": 28.49271166537189
+        },
+        {
+          "tag": "text",
+          "text": "차이와 현재 계획",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 915,
+            "y": 286,
+            "width": 206.9921875,
+            "height": 38.5
+          },
+          "projectedPixels": 15.374889322916667,
+          "stageLogicalPixels": 26.816669802702954
+        },
+        {
+          "tag": "text",
+          "text": "질문 · 목차 · 로그",
+          "fontSize": "34px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 600,
+            "y": 361.5,
+            "width": 227.4921875,
+            "height": 40.5
+          },
+          "projectedPixels": 16.33581990559896,
+          "stageLogicalPixels": 28.49271166537189
+        },
+        {
+          "tag": "text",
+          "text": "답과 탐색, 변화의 이유",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 915,
+            "y": 363,
+            "width": 276.40625,
+            "height": 38.5
+          },
+          "projectedPixels": 15.374889322916667,
+          "stageLogicalPixels": 26.816669802702954
+        },
+        {
+          "tag": "text",
+          "text": "rules.md",
+          "fontSize": "30px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 538,
+            "width": 104.0234375,
+            "height": 36
+          },
+          "projectedPixels": 14.413958740234376,
+          "stageLogicalPixels": 25.14062794003402
+        },
+        {
+          "tag": "text",
+          "text": "원자료 보존 · 근거 연결 · 관련 쪽 갱신 · 중요한 결과 확인",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 230,
+            "y": 538,
+            "width": 652.5078125,
+            "height": 36
+          },
+          "projectedPixels": 14.413958740234376,
+          "stageLogicalPixels": 25.14062794003402
+        }
+      ]
+    },
+    {
+      "slide": 8,
+      "src": "assets/1f943e43d8d7-rag-path.svg",
+      "assetSha256": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+      "sourcePaths": [
+        "talks/llm-wiki/assets/expanded/rag-path.svg"
+      ],
+      "materialKind": null,
+      "fit": "contain",
+      "stageScale": 0.5733332824707031,
+      "projectedScale": 0.53129638671875,
+      "svgViewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1500,
+        "height": 600
+      },
+      "texts": [
+        {
+          "tag": "text",
+          "text": "공통 질문 · 다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?",
+          "fontSize": "31px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 26,
+            "width": 728.7421875,
+            "height": 37.5
+          },
+          "projectedPixels": 16.47018798828125,
+          "stageLogicalPixels": 28.72707462107411
+        },
+        {
+          "tag": "text",
+          "text": "같은 원자료 세 메모",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 96,
+            "width": 211.453125,
+            "height": 33.5
+          },
+          "projectedPixels": 14.876298828125,
+          "stageLogicalPixels": 25.947035141615324
+        },
+        {
+          "tag": "text",
+          "text": "목적과 맥락",
+          "fontSize": "36px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 152.5,
+            "width": 162.93850708007812,
+            "height": 43.5
+          },
+          "projectedPixels": 19.126669921875,
+          "stageLogicalPixels": 33.36047375350542
+        },
+        {
+          "tag": "text",
+          "text": "목적 · 이유 · 결과",
+          "fontSize": "27px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 204.5,
+            "width": 180.280029296875,
+            "height": 32.5
+          },
+          "projectedPixels": 14.345002441406251,
+          "stageLogicalPixels": 25.020355315129066
+        },
+        {
+          "tag": "text",
+          "text": "검색과 비교",
+          "fontSize": "36px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 277.5,
+            "width": 162.7734375,
+            "height": 43.5
+          },
+          "projectedPixels": 19.126669921875,
+          "stageLogicalPixels": 33.36047375350542
+        },
+        {
+          "tag": "text",
+          "text": "근거 검색 · 차이",
+          "fontSize": "27px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 329.5,
+            "width": 165.6171875,
+            "height": 32.5
+          },
+          "projectedPixels": 14.345002441406251,
+          "stageLogicalPixels": 25.020355315129066
+        },
+        {
+          "tag": "text",
+          "text": "지식의 활용",
+          "fontSize": "36px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 402.5,
+            "width": 162.7734375,
+            "height": 43.5
+          },
+          "projectedPixels": 19.126669921875,
+          "stageLogicalPixels": 33.36047375350542
+        },
+        {
+          "tag": "text",
+          "text": "종합 · 공유 · 검토",
+          "fontSize": "27px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 454.5,
+            "width": 180.1015625,
+            "height": 32.5
+          },
+          "projectedPixels": 14.345002441406251,
+          "stageLogicalPixels": 25.020355315129066
+        },
+        {
+          "tag": "text",
+          "text": "이번에 찾은 근거",
+          "fontSize": "38px",
+          "fontWeight": "550",
+          "fill": "rgb(36, 168, 255)",
+          "bbox": {
+            "x": 544,
+            "y": 161,
+            "width": 246.484375,
+            "height": 45.5
+          },
+          "projectedPixels": 20.1892626953125,
+          "stageLogicalPixels": 35.21383340647794
+        },
+        {
+          "tag": "text",
+          "text": "목적과 맥락에 관한 부분",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 544,
+            "y": 248,
+            "width": 296.8515625,
+            "height": 38.5
+          },
+          "projectedPixels": 17.001484375,
+          "stageLogicalPixels": 29.653754447560374
+        },
+        {
+          "tag": "text",
+          "text": "검색과 비교에 관한 부분",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 544,
+            "y": 308,
+            "width": 296.8515625,
+            "height": 38.5
+          },
+          "projectedPixels": 17.001484375,
+          "stageLogicalPixels": 29.653754447560374
+        },
+        {
+          "tag": "text",
+          "text": "지식 활용과 검토의 부분",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 544,
+            "y": 368,
+            "width": 296.8515625,
+            "height": 38.5
+          },
+          "projectedPixels": 17.001484375,
+          "stageLogicalPixels": 29.653754447560374
+        },
+        {
+          "tag": "text",
+          "text": "이번 답의 입력 문맥",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 544,
+            "y": 434,
+            "width": 211.453125,
+            "height": 33.5
+          },
+          "projectedPixels": 14.876298828125,
+          "stageLogicalPixels": 25.947035141615324
+        },
+        {
+          "tag": "text",
+          "text": "현재 질문의 답",
+          "fontSize": "34px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 1110,
+            "y": 165.5,
+            "width": 191.3272705078125,
+            "height": 40.5
+          },
+          "projectedPixels": 18.0640771484375,
+          "stageLogicalPixels": 31.5071141005329
+        },
+        {
+          "tag": "text",
+          "text": "세 메모를 엮어",
+          "fontSize": "38px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 1110,
+            "y": 256,
+            "width": 214.015625,
+            "height": 45.5
+          },
+          "projectedPixels": 20.1892626953125,
+          "stageLogicalPixels": 35.21383340647794
+        },
+        {
+          "tag": "text",
+          "text": "스터디 계획을",
+          "fontSize": "38px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 1110,
+            "y": 326,
+            "width": 204.4140625,
+            "height": 45.5
+          },
+          "projectedPixels": 20.1892626953125,
+          "stageLogicalPixels": 35.21383340647794
+        },
+        {
+          "tag": "text",
+          "text": "정리합니다.",
+          "fontSize": "38px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 1110,
+            "y": 396,
+            "width": 170.5390625,
+            "height": 45.5
+          },
+          "projectedPixels": 20.1892626953125,
+          "stageLogicalPixels": 35.21383340647794
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "src": "assets/e39c92d904c4-wiki-path.svg",
+      "assetSha256": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+      "sourcePaths": [
+        "talks/llm-wiki/assets/expanded/wiki-path.svg"
+      ],
+      "materialKind": null,
+      "fit": "contain",
+      "stageScale": 0.5733332824707031,
+      "projectedScale": 0.53129638671875,
+      "svgViewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1500,
+        "height": 600
+      },
+      "texts": [
+        {
+          "tag": "text",
+          "text": "공통 질문 · 다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?",
+          "fontSize": "31px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 26,
+            "width": 728.7421875,
+            "height": 37.5
+          },
+          "projectedPixels": 16.47018798828125,
+          "stageLogicalPixels": 28.72707462107411
+        },
+        {
+          "tag": "text",
+          "text": "같은 원자료 세 메모",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 96,
+            "width": 211.453125,
+            "height": 33.5
+          },
+          "projectedPixels": 14.876298828125,
+          "stageLogicalPixels": 25.947035141615324
+        },
+        {
+          "tag": "text",
+          "text": "목적과 맥락",
+          "fontSize": "36px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 152.5,
+            "width": 162.93850708007812,
+            "height": 43.5
+          },
+          "projectedPixels": 19.126669921875,
+          "stageLogicalPixels": 33.36047375350542
+        },
+        {
+          "tag": "text",
+          "text": "목적 · 이유 · 결과",
+          "fontSize": "27px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 204.5,
+            "width": 180.280029296875,
+            "height": 32.5
+          },
+          "projectedPixels": 14.345002441406251,
+          "stageLogicalPixels": 25.020355315129066
+        },
+        {
+          "tag": "text",
+          "text": "검색과 비교",
+          "fontSize": "36px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 277.5,
+            "width": 162.7734375,
+            "height": 43.5
+          },
+          "projectedPixels": 19.126669921875,
+          "stageLogicalPixels": 33.36047375350542
+        },
+        {
+          "tag": "text",
+          "text": "근거 검색 · 차이",
+          "fontSize": "27px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 329.5,
+            "width": 165.6171875,
+            "height": 32.5
+          },
+          "projectedPixels": 14.345002441406251,
+          "stageLogicalPixels": 25.020355315129066
+        },
+        {
+          "tag": "text",
+          "text": "지식의 활용",
+          "fontSize": "36px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 402.5,
+            "width": 162.7734375,
+            "height": 43.5
+          },
+          "projectedPixels": 19.126669921875,
+          "stageLogicalPixels": 33.36047375350542
+        },
+        {
+          "tag": "text",
+          "text": "종합 · 공유 · 검토",
+          "fontSize": "27px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 454.5,
+            "width": 180.1015625,
+            "height": 32.5
+          },
+          "projectedPixels": 14.345002441406251,
+          "stageLogicalPixels": 25.020355315129066
+        },
+        {
+          "tag": "text",
+          "text": "미리 작성하고 유지한 문서",
+          "fontSize": "36px",
+          "fontWeight": "550",
+          "fill": "rgb(105, 207, 130)",
+          "bbox": {
+            "x": 530,
+            "y": 112.5,
+            "width": 365.3515625,
+            "height": 43.5
+          },
+          "projectedPixels": 19.126669921875,
+          "stageLogicalPixels": 33.36047375350542
+        },
+        {
+          "tag": "text",
+          "text": "LLM Wiki 개념",
+          "fontSize": "35px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 566.43359375,
+            "y": 217.5,
+            "width": 199.1328125,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        },
+        {
+          "tag": "text",
+          "text": "RAG와 위키 비교",
+          "fontSize": "35px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 1152.65625,
+            "y": 217.5,
+            "width": 228.6875,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        },
+        {
+          "tag": "text",
+          "text": "우리 스터디 계획",
+          "fontSize": "35px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 834.62890625,
+            "y": 392.5,
+            "width": 226.7421875,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        },
+        {
+          "tag": "text",
+          "text": "필요한 쪽 재읽기 → 이번 답에 활용",
+          "fontSize": "31px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 741.3125,
+            "y": 522,
+            "width": 411.375,
+            "height": 37.5
+          },
+          "projectedPixels": 16.47018798828125,
+          "stageLogicalPixels": 28.72707462107411
+        }
+      ]
+    },
+    {
+      "slide": 10,
+      "src": "assets/e93f12b83834-ingest-map.svg",
+      "assetSha256": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+      "sourcePaths": [
+        "talks/llm-wiki/assets/remake/ingest-map.svg"
+      ],
+      "materialKind": null,
+      "fit": "contain",
+      "stageScale": 0.5733332824707031,
+      "projectedScale": 0.53129638671875,
+      "svgViewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1500,
+        "height": 600
+      },
+      "texts": [
+        {
+          "tag": "text",
+          "text": "같은 원자료 세 메모",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 50,
+            "width": 226.875,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "목적 · 이유 · 결과",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 185,
+            "width": 200.800048828125,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "근거 검색 · 차이",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 335,
+            "width": 184.4609375,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "종합 · 공유 · 검토",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 485,
+            "width": 200.640625,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "목적과 맥락",
+          "fontSize": "39px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 128,
+            "width": 176.6833953857422,
+            "height": 46.5
+          },
+          "projectedPixels": 20.72055908203125,
+          "stageLogicalPixels": 36.1405132329642
+        },
+        {
+          "tag": "text",
+          "text": "검색과 비교",
+          "fontSize": "39px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 278,
+            "width": 176.5390625,
+            "height": 46.5
+          },
+          "projectedPixels": 20.72055908203125,
+          "stageLogicalPixels": 36.1405132329642
+        },
+        {
+          "tag": "text",
+          "text": "지식의 활용",
+          "fontSize": "39px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 428,
+            "width": 176.5390625,
+            "height": 46.5
+          },
+          "projectedPixels": 20.72055908203125,
+          "stageLogicalPixels": 36.1405132329642
+        },
+        {
+          "tag": "text",
+          "text": "읽고 나누기",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 400.37890625,
+            "y": 233,
+            "width": 135.2421875,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "문서·목차·링크 갱신",
+          "fontSize": "31px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 936.46875,
+            "y": 49,
+            "width": 237.0625,
+            "height": 37.5
+          },
+          "projectedPixels": 16.47018798828125,
+          "stageLogicalPixels": 28.72707462107411
+        },
+        {
+          "tag": "text",
+          "text": "자료 요약",
+          "fontSize": "42px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 622.3389892578125,
+            "y": 236,
+            "width": 154.9757080078125,
+            "height": 50.5
+          },
+          "projectedPixels": 22.3144482421875,
+          "stageLogicalPixels": 38.92055271242299
+        },
+        {
+          "tag": "text",
+          "text": "개념 · 비교",
+          "fontSize": "42px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 1096.4603271484375,
+            "y": 101,
+            "width": 177.0435791015625,
+            "height": 50.5
+          },
+          "projectedPixels": 22.3144482421875,
+          "stageLogicalPixels": 38.92055271242299
+        },
+        {
+          "tag": "text",
+          "text": "현재 계획",
+          "fontSize": "42px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 1107.81640625,
+            "y": 381,
+            "width": 154.3671875,
+            "height": 50.5
+          },
+          "projectedPixels": 22.3144482421875,
+          "stageLogicalPixels": 38.92055271242299
+        },
+        {
+          "tag": "text",
+          "text": "원자료의 입구",
+          "fontSize": "31px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 616.875,
+            "y": 337,
+            "width": 166.25,
+            "height": 37.5
+          },
+          "projectedPixels": 16.47018798828125,
+          "stageLogicalPixels": 28.72707462107411
+        },
+        {
+          "tag": "text",
+          "text": "기존 설명과 연결",
+          "fontSize": "31px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 1084.79296875,
+            "y": 202,
+            "width": 200.4140625,
+            "height": 37.5
+          },
+          "projectedPixels": 16.47018798828125,
+          "stageLogicalPixels": 28.72707462107411
+        },
+        {
+          "tag": "text",
+          "text": "여러 자료의 종합",
+          "fontSize": "31px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 1084.79296875,
+            "y": 482,
+            "width": 200.4140625,
+            "height": 37.5
+          },
+          "projectedPixels": 16.47018798828125,
+          "stageLogicalPixels": 28.72707462107411
+        }
+      ]
+    },
+    {
+      "slide": 11,
+      "src": "assets/a3c7b37535df-source-concept.svg",
+      "assetSha256": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+      "sourcePaths": [
+        "talks/llm-wiki/assets/expanded/source-concept.svg"
+      ],
+      "materialKind": null,
+      "fit": "contain",
+      "stageScale": 0.5733332824707031,
+      "projectedScale": 0.53129638671875,
+      "svgViewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1500,
+        "height": 600
+      },
+      "texts": [
+        {
+          "tag": "text",
+          "text": "자료 요약",
+          "fontSize": "29px",
+          "fontWeight": "400",
+          "fill": "rgb(98, 98, 95)",
+          "bbox": {
+            "x": 76,
+            "y": 73,
+            "width": 105.96875,
+            "height": 34.5
+          },
+          "projectedPixels": 15.40759521484375,
+          "stageLogicalPixels": 26.873714968101588
+        },
+        {
+          "tag": "text",
+          "text": "목적과 맥락",
+          "fontSize": "41px",
+          "fontWeight": "600",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 76,
+            "y": 125,
+            "width": 185.7109375,
+            "height": 49.5
+          },
+          "projectedPixels": 21.783151855468752,
+          "stageLogicalPixels": 37.99387288593673
+        },
+        {
+          "tag": "text",
+          "text": "자료를 넣는 목적을 정한다.",
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 76,
+            "y": 217.5,
+            "width": 352.0234375,
+            "height": 40.5
+          },
+          "projectedPixels": 18.0640771484375,
+          "stageLogicalPixels": 31.5071141005329
+        },
+        {
+          "tag": "text",
+          "text": "내 이유와 다음 쓰임을 적는다.",
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 76,
+            "y": 282.5,
+            "width": 389.578125,
+            "height": 40.5
+          },
+          "projectedPixels": 18.0640771484375,
+          "stageLogicalPixels": 31.5071141005329
+        },
+        {
+          "tag": "text",
+          "text": "한 메모의 요지를 다시 찾는 입구",
+          "fontSize": "29px",
+          "fontWeight": "400",
+          "fill": "rgb(98, 98, 95)",
+          "bbox": {
+            "x": 76,
+            "y": 420,
+            "width": 357.046875,
+            "height": 34.5
+          },
+          "projectedPixels": 15.40759521484375,
+          "stageLogicalPixels": 26.873714968101588
+        },
+        {
+          "tag": "text",
+          "text": "근거  context-note.md",
+          "fontSize": "27px",
+          "fontWeight": "400",
+          "fill": "rgb(98, 98, 95)",
+          "bbox": {
+            "x": 76,
+            "y": 485.5,
+            "width": 238.1015625,
+            "height": 32.5
+          },
+          "projectedPixels": 14.345002441406251,
+          "stageLogicalPixels": 25.020355315129066
+        },
+        {
+          "tag": "text",
+          "text": "개념 페이지",
+          "fontSize": "29px",
+          "fontWeight": "400",
+          "fill": "rgb(98, 98, 95)",
+          "bbox": {
+            "x": 788,
+            "y": 73,
+            "width": 130.65625,
+            "height": 34.5
+          },
+          "projectedPixels": 15.40759521484375,
+          "stageLogicalPixels": 26.873714968101588
+        },
+        {
+          "tag": "text",
+          "text": "LLM Wiki",
+          "fontSize": "43px",
+          "fontWeight": "600",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 788,
+            "y": 123.5,
+            "width": 166.3984375,
+            "height": 51.5
+          },
+          "projectedPixels": 22.84574462890625,
+          "stageLogicalPixels": 39.847232538909246
+        },
+        {
+          "tag": "text",
+          "text": "자료 사이의 관계와 현재 이해를",
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 788,
+            "y": 217.5,
+            "width": 411.3046875,
+            "height": 40.5
+          },
+          "projectedPixels": 18.0640771484375,
+          "stageLogicalPixels": 31.5071141005329
+        },
+        {
+          "tag": "text",
+          "text": "연결된 문서로 작성하고 갱신한다.",
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 788,
+            "y": 282.5,
+            "width": 439.0546875,
+            "height": 40.5
+          },
+          "projectedPixels": 18.0640771484375,
+          "stageLogicalPixels": 31.5071141005329
+        },
+        {
+          "tag": "text",
+          "text": "근거  목적과 맥락 · 검색과 비교 · 지식의 활용",
+          "fontSize": "27px",
+          "fontWeight": "400",
+          "fill": "rgb(98, 98, 95)",
+          "bbox": {
+            "x": 788,
+            "y": 422.5,
+            "width": 459.40625,
+            "height": 32.5
+          },
+          "projectedPixels": 14.345002441406251,
+          "stageLogicalPixels": 25.020355315129066
+        },
+        {
+          "tag": "text",
+          "text": "연결  RAG와 위키 비교 · 현재 계획",
+          "fontSize": "29px",
+          "fontWeight": "400",
+          "fill": "rgb(45, 106, 67)",
+          "bbox": {
+            "x": 788,
+            "y": 484,
+            "width": 374.75,
+            "height": 34.5
+          },
+          "projectedPixels": 15.40759521484375,
+          "stageLogicalPixels": 26.873714968101588
+        }
+      ]
+    },
+    {
+      "slide": 14,
+      "src": "assets/6b2263dbe032-related-updates.svg",
+      "assetSha256": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+      "sourcePaths": [
+        "talks/llm-wiki/assets/expanded/related-updates.svg"
+      ],
+      "materialKind": null,
+      "fit": "contain",
+      "stageScale": 0.5733332824707031,
+      "projectedScale": 0.53129638671875,
+      "svgViewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1500,
+        "height": 600
+      },
+      "texts": [
+        {
+          "tag": "text",
+          "text": "새 모임 조건",
+          "fontSize": "35px",
+          "fontWeight": "550",
+          "fill": "rgb(255, 122, 61)",
+          "bbox": {
+            "x": 34.9034423828125,
+            "y": 87.5,
+            "width": 167.0887451171875,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        },
+        {
+          "tag": "text",
+          "text": "입문자와 함께",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 188,
+            "width": 215.3203125,
+            "height": 48
+          },
+          "projectedPixels": 21.25185546875,
+          "stageLogicalPixels": 37.06719305945047
+        },
+        {
+          "tag": "text",
+          "text": "준비된 읽기 팩",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 273,
+            "width": 225.4453125,
+            "height": 48
+          },
+          "projectedPixels": 21.25185546875,
+          "stageLogicalPixels": 37.06719305945047
+        },
+        {
+          "tag": "text",
+          "text": "15분 활동",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 358,
+            "width": 146.1640625,
+            "height": 48
+          },
+          "projectedPixels": 21.25185546875,
+          "stageLogicalPixels": 37.06719305945047
+        },
+        {
+          "tag": "text",
+          "text": "설명용 가상 조건",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 506,
+            "width": 180.671875,
+            "height": 33.5
+          },
+          "projectedPixels": 14.876298828125,
+          "stageLogicalPixels": 25.947035141615324
+        },
+        {
+          "tag": "text",
+          "text": "개념 · 우리 적용 범위",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 570,
+            "y": 99,
+            "width": 243.0546875,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "입문 설명부터 다룹니다.",
+          "fontSize": "42px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 570,
+            "y": 158,
+            "width": 390.4453125,
+            "height": 50.5
+          },
+          "projectedPixels": 22.3144482421875,
+          "stageLogicalPixels": 38.92055271242299
+        },
+        {
+          "tag": "text",
+          "text": "비교 · 선택 기준",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 570,
+            "y": 273,
+            "width": 184.4609375,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "작은 자료 묶음으로 시작합니다.",
+          "fontSize": "42px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 570,
+            "y": 332,
+            "width": 508.8828125,
+            "height": 50.5
+          },
+          "projectedPixels": 22.3144482421875,
+          "stageLogicalPixels": 38.92055271242299
+        },
+        {
+          "tag": "text",
+          "text": "계획 · 작업과 시간",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 570,
+            "y": 447,
+            "width": 210.015625,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "15분 활동에 맞춰 조정합니다.",
+          "fontSize": "42px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 570,
+            "y": 506,
+            "width": 472.71875,
+            "height": 50.5
+          },
+          "projectedPixels": 22.3144482421875,
+          "stageLogicalPixels": 38.92055271242299
+        }
+      ]
+    },
+    {
+      "slide": 16,
+      "src": "assets/de481ad077ff-purpose-questions.svg",
+      "assetSha256": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+      "sourcePaths": [
+        "talks/llm-wiki/assets/expanded/purpose-questions.svg"
+      ],
+      "materialKind": null,
+      "fit": "contain",
+      "stageScale": 0.5733332824707031,
+      "projectedScale": 0.53129638671875,
+      "svgViewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1500,
+        "height": 600
+      },
+      "texts": [
+        {
+          "tag": "text",
+          "text": "사람이 남기는 선택 이유",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 35,
+            "y": 91,
+            "width": 277.9765625,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "좋았던 자료를",
+          "fontSize": "47px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 191.5,
+            "width": 253.4921875,
+            "height": 56.5
+          },
+          "projectedPixels": 24.970930175781252,
+          "stageLogicalPixels": 43.553951844854296
+        },
+        {
+          "tag": "text",
+          "text": "다음 스터디의",
+          "fontSize": "47px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 268.5,
+            "width": 253.4921875,
+            "height": 56.5
+          },
+          "projectedPixels": 24.970930175781252,
+          "stageLogicalPixels": 43.553951844854296
+        },
+        {
+          "tag": "text",
+          "text": "진행안으로",
+          "fontSize": "47px",
+          "fontWeight": "550",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 35,
+            "y": 345.5,
+            "width": 201.28125,
+            "height": 56.5
+          },
+          "projectedPixels": 24.970930175781252,
+          "stageLogicalPixels": 43.553951844854296
+        },
+        {
+          "tag": "text",
+          "text": "쓰임을 먼저 정합니다.",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "fill": "rgb(255, 122, 61)",
+          "bbox": {
+            "x": 35,
+            "y": 501,
+            "width": 268.390625,
+            "height": 38.5
+          },
+          "projectedPixels": 17.001484375,
+          "stageLogicalPixels": 29.653754447560374
+        },
+        {
+          "tag": "text",
+          "text": "맥락",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 610,
+            "y": 88,
+            "width": 51.1015625,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "다음 AI 스터디를 준비합니다.",
+          "fontSize": "36px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 610,
+            "y": 135.5,
+            "width": 403.78125,
+            "height": 43.5
+          },
+          "projectedPixels": 19.126669921875,
+          "stageLogicalPixels": 33.36047375350542
+        },
+        {
+          "tag": "text",
+          "text": "선택 이유",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 610,
+            "y": 218,
+            "width": 109.6953125,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "차이를 설명할 자료를 골랐습니다.",
+          "fontSize": "36px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 610,
+            "y": 265.5,
+            "width": 465.953125,
+            "height": 43.5
+          },
+          "projectedPixels": 19.126669921875,
+          "stageLogicalPixels": 33.36047375350542
+        },
+        {
+          "tag": "text",
+          "text": "중요한 점",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 610,
+            "y": 348,
+            "width": 109.6953125,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "원문 · 내 이유 · 연결된 종합",
+          "fontSize": "36px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 610,
+            "y": 395.5,
+            "width": 382.25,
+            "height": 43.5
+          },
+          "projectedPixels": 19.126669921875,
+          "stageLogicalPixels": 33.36047375350542
+        },
+        {
+          "tag": "text",
+          "text": "앞으로의 쓰임",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "fill": "rgb(164, 164, 161)",
+          "bbox": {
+            "x": 610,
+            "y": 478,
+            "width": 160.796875,
+            "height": 36
+          },
+          "projectedPixels": 15.938891601562501,
+          "stageLogicalPixels": 27.80039479458785
+        },
+        {
+          "tag": "text",
+          "text": "한 쪽 진행안과 다음 읽기 활동",
+          "fontSize": "36px",
+          "fontWeight": "500",
+          "fill": "rgb(246, 246, 244)",
+          "bbox": {
+            "x": 610,
+            "y": 525.5,
+            "width": 414.2265625,
+            "height": 43.5
+          },
+          "projectedPixels": 19.126669921875,
+          "stageLogicalPixels": 33.36047375350542
+        }
+      ]
+    },
+    {
+      "slide": 20,
+      "src": "assets/71a3edfad9bd-session-plan.svg",
+      "assetSha256": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+      "sourcePaths": [
+        "talks/llm-wiki/assets/remake/session-plan.svg"
+      ],
+      "materialKind": null,
+      "fit": "contain",
+      "stageScale": 0.5733332824707031,
+      "projectedScale": 0.53129638671875,
+      "svgViewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1500,
+        "height": 600
+      },
+      "texts": [
+        {
+          "tag": "text",
+          "text": "활동안 발췌 · 시간 배분 예시",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "fill": "rgb(98, 98, 95)",
+          "bbox": {
+            "x": 65,
+            "y": 28,
+            "width": 304.9296875,
+            "height": 33.5
+          },
+          "projectedPixels": 14.876298828125,
+          "stageLogicalPixels": 25.947035141615324
+        },
+        {
+          "tag": "text",
+          "text": "입문자와 함께 읽는 15분 LLM Wiki 활동",
+          "fontSize": "43px",
+          "fontWeight": "600",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 65,
+            "y": 71.5,
+            "width": 662.8515625,
+            "height": 51.5
+          },
+          "projectedPixels": 22.84574462890625,
+          "stageLogicalPixels": 39.847232538909246
+        },
+        {
+          "tag": "text",
+          "text": "목표: 한 관계의 근거를 찾아 읽고, 다음 질문과 확인할 점을 남긴다.",
+          "fontSize": "33px",
+          "fontWeight": "550",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 65,
+            "y": 135.5,
+            "width": 839.0703125,
+            "height": 39.5
+          },
+          "projectedPixels": 17.53278076171875,
+          "stageLogicalPixels": 30.580434274046635
+        },
+        {
+          "tag": "text",
+          "text": "실제 운영·학습효과·설치/모델 생성 시간의 실측이 아닙니다.",
+          "fontSize": "29px",
+          "fontWeight": "400",
+          "fill": "rgb(69, 69, 66)",
+          "bbox": {
+            "x": 65,
+            "y": 181,
+            "width": 660.90625,
+            "height": 34.5
+          },
+          "projectedPixels": 15.40759521484375,
+          "stageLogicalPixels": 26.873714968101588
+        },
+        {
+          "tag": "text",
+          "text": "자작 주제 메모 팩 · 목적과 맥락 + 지식의 활용",
+          "fontSize": "29px",
+          "fontWeight": "400",
+          "fill": "rgb(98, 98, 95)",
+          "bbox": {
+            "x": 65,
+            "y": 227,
+            "width": 508.4296875,
+            "height": 34.5
+          },
+          "projectedPixels": 15.40759521484375,
+          "stageLogicalPixels": 26.873714968101588
+        },
+        {
+          "tag": "text",
+          "text": "0~2분",
+          "fontSize": "35px",
+          "fontWeight": "550",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 65,
+            "y": 298.5,
+            "width": 88.984375,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        },
+        {
+          "tag": "text",
+          "text": "2~6분",
+          "fontSize": "35px",
+          "fontWeight": "550",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 65,
+            "y": 371.5,
+            "width": 86.359375,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        },
+        {
+          "tag": "text",
+          "text": "6~11분",
+          "fontSize": "35px",
+          "fontWeight": "550",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 65,
+            "y": 444.5,
+            "width": 92.9921875,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        },
+        {
+          "tag": "text",
+          "text": "11~15분",
+          "fontSize": "35px",
+          "fontWeight": "550",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 65,
+            "y": 517.5,
+            "width": 103.4765625,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        },
+        {
+          "tag": "text",
+          "text": "왜 이 자료를 다시 쓰려는지 질문 정하기",
+          "fontSize": "35px",
+          "fontWeight": "400",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 300,
+            "y": 298.5,
+            "width": 530.8359375,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        },
+        {
+          "tag": "text",
+          "text": "선택한 두 읽기 메모 확인하기",
+          "fontSize": "35px",
+          "fontWeight": "400",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 300,
+            "y": 371.5,
+            "width": 393.7265625,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        },
+        {
+          "tag": "text",
+          "text": "원자료→개념→비교의 연결 한 개를 따라 읽기",
+          "fontSize": "35px",
+          "fontWeight": "600",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 300,
+            "y": 444.5,
+            "width": 600.453125,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        },
+        {
+          "tag": "text",
+          "text": "후속 질문에 근거를 연결하고 남은 확인 적기",
+          "fontSize": "35px",
+          "fontWeight": "400",
+          "fill": "rgb(29, 29, 27)",
+          "bbox": {
+            "x": 300,
+            "y": 517.5,
+            "width": 590.5859375,
+            "height": 42
+          },
+          "projectedPixels": 18.595373535156252,
+          "stageLogicalPixels": 32.43379392701916
+        }
+      ]
+    }
+  ]
+}

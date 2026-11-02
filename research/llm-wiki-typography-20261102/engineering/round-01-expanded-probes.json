@@ -1,0 +1,156 @@
+{
+  "format": "llm-wiki-round01-expanded-probes-v1",
+  "scope": "Additional narrow R1–R6 probes on the rejected round-01 observations, not a full current-freshness run or a new visual verdict. Original before-qa.json and round-01/technical/current-1280.json remain unchanged.",
+  "visualApproval": false,
+  "revision": "5a23d0bddb3a2873067c4407b308c50b275e38fbba81292575f1d33cb5f6a702",
+  "snapshotVerifiedEntries": 77,
+  "inputs": {
+    "research/llm-wiki-typography-20261102/round-01/present-1280/manifest.json": "5030cde63120f265f937d9941723865af9a504053f8290b200e296b121039a2b",
+    "research/llm-wiki-typography-20261102/round-01/present-1280/svg-metrics.json": "b9e839de3158ad63828d6eb133624744d3d7a817cf6249c1ee8a6fdc0faf2245",
+    "research/llm-wiki-typography-20261102/round-01/source-snapshot.json": "10728cc6c440c7abbc2da88f933ba6d0f748041744e43ed5ebe1abaafb2580d2",
+    "scripts/llm-wiki-typography-qa.cjs": "5d8c684979dde9f67a901f77ceb5fd77f047e35008e4177f73db815271cf11f0",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "research/llm-wiki-typography-20261102/engineering/fixtures/llm-wiki-roles.json": "94e5ccdd91ebda96b1bcfb8e5de7ed1724dd51654067e4d468a43d5df06da003",
+    "research/llm-wiki-typography-20261102/round-01/source/talks/llm-wiki/assets/typography/wiki-path.svg": "1f7639a18a54dc7601cefdbf3229eedfcb45506f1179f505dbf5185c218fceb4",
+    "research/llm-wiki-typography-20261102/round-01/source/talks/llm-wiki/assets/typography/ingest-map.svg": "3042c55378c0d777207115c3ddc80501c37752a9166e268e8e1ff46af3c78322"
+  },
+  "checks": [
+    {
+      "id": "risk-content",
+      "slide": 22,
+      "status": "regression",
+      "sourceLine": "352",
+      "actualLines": [
+        {
+          "y": 440.9531385690679,
+          "text": "잘못된 요약과"
+        },
+        {
+          "y": 493.64844864676263,
+          "text": "근거 없는 연결이 생길 수"
+        },
+        {
+          "y": 546.343811952796,
+          "text": "있습니다."
+        }
+      ]
+    },
+    {
+      "id": "risk-management",
+      "slide": 22,
+      "status": "regression",
+      "sourceLine": "362",
+      "actualLines": [
+        {
+          "y": 440.9531385690679,
+          "text": "확인하고 고치는 데 시간이"
+        },
+        {
+          "y": 493.64844864676263,
+          "text": "듭니다."
+        }
+      ]
+    },
+    {
+      "id": "use-study",
+      "slide": 19,
+      "status": "regression",
+      "sourceLine": "297",
+      "actualLines": [
+        {
+          "y": 467.296907939193,
+          "text": "읽은 자료를 개념과 질문으로"
+        },
+        {
+          "y": 519.9922180168877,
+          "text": "연결하기"
+        }
+      ]
+    },
+    {
+      "id": "R1-diagram-3-font",
+      "status": "regression",
+      "minimumStageLogicalFont": 30.786251404008325,
+      "required": 32
+    },
+    {
+      "id": "R5-diagram-8-answer",
+      "status": "regression",
+      "method": "Explicit historical fallback: the two separate visible SVG text elements have distinct measured bbox y positions. Current mode requires real glyphRows and never uses this fallback."
+    },
+    {
+      "id": "R4-diagram-9",
+      "status": "regression",
+      "method": "Exact preserved M/L/H/V source coordinates and default visible stroke/direction, combined with measured historical text bboxes; original paths lacked semantic IDs, so explicit original order maps the three named nodes and pairs.",
+      "checks": [
+        {
+          "id": "geometry-edge-comparison--concept-trace",
+          "status": "pass",
+          "detail": "Continuous visible relation must stay in the SVG frame, reach distinct named anchors and carry no direction markers."
+        },
+        {
+          "id": "geometry-edge-comparison--concept-labels",
+          "status": "pass",
+          "detail": "No designated label bbox intersects this relation stroke."
+        },
+        {
+          "id": "geometry-edge-concept--plan-trace",
+          "status": "pass",
+          "detail": "Continuous visible relation must stay in the SVG frame, reach distinct named anchors and carry no direction markers."
+        },
+        {
+          "id": "geometry-edge-concept--plan-labels",
+          "status": "regression",
+          "detail": "Path intersects measured label bbox: 우리 스터디 계획"
+        },
+        {
+          "id": "geometry-edge-comparison--plan-trace",
+          "status": "pass",
+          "detail": "Continuous visible relation must stay in the SVG frame, reach distinct named anchors and carry no direction markers."
+        },
+        {
+          "id": "geometry-edge-comparison--plan-labels",
+          "status": "regression",
+          "detail": "Path intersects measured label bbox: 우리 스터디 계획"
+        }
+      ]
+    },
+    {
+      "id": "R4-diagram-10",
+      "status": "regression",
+      "method": "Exact preserved M/L/H/V source coordinates and default visible stroke/direction, combined with measured historical text bboxes; original paths lacked semantic IDs, so explicit original order maps the three named nodes and pairs.",
+      "checks": [
+        {
+          "id": "geometry-edge-concept-comparison--summary-trace",
+          "status": "pass",
+          "detail": "Continuous visible relation must stay in the SVG frame, reach distinct named anchors and carry no direction markers."
+        },
+        {
+          "id": "geometry-edge-concept-comparison--summary-labels",
+          "status": "regression",
+          "detail": "Path intersects measured label bbox: 자료 요약 / 기존 설명과 연결"
+        },
+        {
+          "id": "geometry-edge-plan--summary-trace",
+          "status": "pass",
+          "detail": "Continuous visible relation must stay in the SVG frame, reach distinct named anchors and carry no direction markers."
+        },
+        {
+          "id": "geometry-edge-plan--summary-labels",
+          "status": "regression",
+          "detail": "Path intersects measured label bbox: 원자료의 입구 / 현재 계획"
+        },
+        {
+          "id": "geometry-edge-concept-comparison--plan-trace",
+          "status": "pass",
+          "detail": "Continuous visible relation must stay in the SVG frame, reach distinct named anchors and carry no direction markers."
+        },
+        {
+          "id": "geometry-edge-concept-comparison--plan-labels",
+          "status": "regression",
+          "detail": "Path intersects measured label bbox: 기존 설명과 연결 / 현재 계획"
+        }
+      ]
+    }
+  ]
+}

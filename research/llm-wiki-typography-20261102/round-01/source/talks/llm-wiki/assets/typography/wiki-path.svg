@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" style="background:#080808" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+<title id="title">미리 유지한 문서와 원자료에서 필요한 쪽 다시 읽기</title>
+<desc id="desc">같은 세 자작 메모와 같은 질문. 개념·비교·현재 계획의 기존 무방향 세 관계를 보존한다. 필요한 문서와 원자료를 다시 읽으며 검색과 함께 쓸 수 있다. 성능 우열·필수 생성 순서나 자동 갱신의 방향을 나타내지 않는다.</desc>
+<g font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Malgun Gothic,sans-serif" letter-spacing="-.4">
+<text x="25" y="45" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">공통 질문 · 다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?</text>
+<text x="25" y="130" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">같은 원자료 세 메모</text>
+<text x="25" y="220" font-size="48" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">목적과 맥락</text>
+<text x="25" y="275" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">목적 · 이유 · 결과</text>
+<text x="25" y="365" font-size="48" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">검색과 비교</text>
+<text x="25" y="420" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">근거 검색 · 차이</text>
+<text x="25" y="510" font-size="48" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">지식의 활용</text>
+<text x="25" y="565" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">종합 · 공유 · 검토</text>
+<path d="M370 345H435M420 334L435 345L420 356" fill="none" stroke="#999995" stroke-width="3"/>
+<text x="490" y="150" font-size="48" fill="#69CF82" font-weight="550" text-anchor="start" data-copy-role="essential">미리 작성하고 유지한 문서</text>
+<path d="M675 290H1260" fill="none" stroke="#999995" stroke-width="3"/>
+<path d="M675 290L970 475" fill="none" stroke="#999995" stroke-width="3"/>
+<path d="M1260 290L970 475" fill="none" stroke="#999995" stroke-width="3"/>
+<circle cx="675" cy="290" r="10" fill="#69CF82"/>
+<text x="675" y="255" font-size="44" fill="#F6F6F4" font-weight="500" text-anchor="middle" data-copy-role="essential">LLM Wiki 개념</text>
+<circle cx="1260" cy="290" r="10" fill="#69CF82"/>
+<text x="1260" y="255" font-size="44" fill="#F6F6F4" font-weight="500" text-anchor="middle" data-copy-role="essential">RAG와 위키 비교</text>
+<circle cx="970" cy="475" r="10" fill="#69CF82"/>
+<text x="970" y="440" font-size="44" fill="#F6F6F4" font-weight="500" text-anchor="middle" data-copy-role="essential">우리 스터디 계획</text>
+<text x="970" y="585" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="middle" data-copy-role="essential">필요한 쪽 재읽기 → 이번 답에 활용</text>
+</g>
+</svg>
