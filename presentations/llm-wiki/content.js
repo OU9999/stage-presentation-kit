@@ -3,7 +3,7 @@ window.PRESENTATION = {
   "format": "markdown-v1",
   "document": {
     "sourcePath": "talks/llm-wiki/slides.md",
-    "revision": "f6a5a79c444a79a9f62ed8759c1a7a1e745298b30d3766dcb32202a220619bbe"
+    "revision": "72f3e1a1a04cab86c82b82162dd5915203069e04fb51f4908603cb503759d5dd"
   },
   "id": "llm-wiki",
   "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법",
@@ -114,8 +114,13 @@ window.PRESENTATION = {
                   "value": "내 자료를 AI와 함께 정리하고 연결하는"
                 },
                 {
-                  "type": "text",
-                  "value": "\n"
+                  "type": "element",
+                  "tag": "br",
+                  "children": [],
+                  "position": {
+                    "line": 23,
+                    "endLine": 24
+                  }
                 },
                 {
                   "type": "text",
@@ -228,7 +233,7 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/bf4ad827da99-knowledge-layers.svg",
+                "src": "assets/00cc9503c0ea-knowledge-layers.svg",
                 "alt": "세 원자료 메모를 개념과 관계로 연결해 현재 이해와 다음 질문에 다시 쓰는 구조."
               },
               "children": [],
@@ -281,8 +286,18 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "자료를 개념과 관계로 정리해, 다음 질문에 다시 씁니다. · "
-            },
+              "value": "자료를 개념과 관계로 정리해, 다음 질문에 다시 씁니다."
+            }
+          ],
+          "position": {
+            "line": 42,
+            "endLine": 42
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
             {
               "type": "element",
               "tag": "a",
@@ -296,20 +311,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 42,
-                "endLine": 42
+                "line": 44,
+                "endLine": 44
               }
             }
           ],
           "position": {
-            "line": 42,
-            "endLine": 42
+            "line": 44,
+            "endLine": 44
           }
         }
       ],
       "origin": {
         "line": 31,
-        "endLine": 42
+        "endLine": 44
       },
       "tone": "neutral",
       "view": {
@@ -330,11 +345,59 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 50,
-          "endLine": 50
+          "line": 52,
+          "endLine": 52
         }
       },
       "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://docs.openclaw.ai/concepts/memory"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "개인비서형 에이전트 예: OpenClaw"
+                }
+              ],
+              "position": {
+                "line": 54,
+                "endLine": 54
+              }
+            },
+            {
+              "type": "text",
+              "value": " · "
+            },
+            {
+              "type": "element",
+              "tag": "a",
+              "attrs": {
+                "href": "https://github.com/NousResearch/hermes-agent"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Hermes"
+                }
+              ],
+              "position": {
+                "line": 54,
+                "endLine": 54
+              }
+            }
+          ],
+          "position": {
+            "line": 54,
+            "endLine": 54
+          }
+        },
         {
           "type": "element",
           "tag": "h2",
@@ -345,8 +408,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 52,
-            "endLine": 52
+            "line": 56,
+            "endLine": 56
           }
         },
         {
@@ -367,52 +430,6 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 54,
-                "endLine": 54
-              }
-            },
-            {
-              "type": "text",
-              "value": ""
-            }
-          ],
-          "position": {
-            "line": 54,
-            "endLine": 54
-          }
-        },
-        {
-          "type": "element",
-          "tag": "h2",
-          "children": [
-            {
-              "type": "text",
-              "value": "위키가 돕는 일"
-            }
-          ],
-          "position": {
-            "line": 56,
-            "endLine": 56
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "흩어진 맥락을 문서로 정리해 "
-            },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "필요할 때 다시 읽게 합니다."
-                }
-              ],
-              "position": {
                 "line": 58,
                 "endLine": 58
               }
@@ -429,60 +446,67 @@ window.PRESENTATION = {
         },
         {
           "type": "element",
-          "tag": "p",
+          "tag": "h2",
           "children": [
             {
               "type": "text",
-              "value": "개인비서형 에이전트 예: "
-            },
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "https://docs.openclaw.ai/concepts/memory"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "OpenClaw"
-                }
-              ],
-              "position": {
-                "line": 60,
-                "endLine": 60
-              }
-            },
-            {
-              "type": "text",
-              "value": " · "
-            },
-            {
-              "type": "element",
-              "tag": "a",
-              "attrs": {
-                "href": "https://github.com/NousResearch/hermes-agent"
-              },
-              "children": [
-                {
-                  "type": "text",
-                  "value": "Hermes"
-                }
-              ],
-              "position": {
-                "line": 60,
-                "endLine": 60
-              }
+              "value": "위키가 돕는 일"
             }
           ],
           "position": {
             "line": 60,
             "endLine": 60
           }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "흩어진 맥락을 문서로 정리해"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 62,
+                "endLine": 63
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "필요할 때 다시 읽게 합니다."
+                }
+              ],
+              "position": {
+                "line": 62,
+                "endLine": 63
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
+            }
+          ],
+          "position": {
+            "line": 62,
+            "endLine": 63
+          }
         }
       ],
       "origin": {
-        "line": 45,
-        "endLine": 60
+        "line": 47,
+        "endLine": 63
       },
       "tone": "neutral",
       "view": {
@@ -503,8 +527,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 68,
-          "endLine": 68
+          "line": 71,
+          "endLine": 71
         }
       },
       "blocks": [
@@ -516,19 +540,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/f2422a7925dc-raw-wiki-rules.svg",
+                "src": "assets/971d2b2c25e3-raw-wiki-rules.svg",
                 "alt": "원자료 raw는 보존하고 wiki는 개념과 연결을 정리하며 rules.md는 원자료 보존·근거 연결·검토 등 작업 약속을 담는 구조."
               },
               "children": [],
               "position": {
-                "line": 70,
-                "endLine": 70
+                "line": 73,
+                "endLine": 73
               }
             }
           ],
           "position": {
-            "line": 70,
-            "endLine": 70
+            "line": 73,
+            "endLine": 73
           }
         },
         {
@@ -537,40 +561,18 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": ""
-            },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "원자료(raw) · 정리한 문서(wiki) · 작업 규칙(rules.md)"
-                }
-              ],
-              "position": {
-                "line": 72,
-                "endLine": 72
-              }
-            },
-            {
-              "type": "text",
-              "value": ""
+              "value": "마크다운은 글과 링크를 적는 텍스트 파일입니다."
             }
           ],
           "position": {
-            "line": 72,
-            "endLine": 72
+            "line": 75,
+            "endLine": 75
           }
         },
         {
           "type": "element",
           "tag": "p",
           "children": [
-            {
-              "type": "text",
-              "value": "마크다운은 글과 링크를 적는 텍스트 파일입니다. · "
-            },
             {
               "type": "element",
               "tag": "a",
@@ -584,20 +586,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 74,
-                "endLine": 74
+                "line": 77,
+                "endLine": 77
               }
             }
           ],
           "position": {
-            "line": 74,
-            "endLine": 74
+            "line": 77,
+            "endLine": 77
           }
         }
       ],
       "origin": {
-        "line": 63,
-        "endLine": 74
+        "line": 66,
+        "endLine": 77
       },
       "tone": "neutral",
       "view": {
@@ -618,11 +620,25 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 82,
-          "endLine": 82
+          "line": 85,
+          "endLine": 85
         }
       },
       "blocks": [
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": "사람도 같은 마크다운 문서를 읽고 고칠 수 있습니다."
+            }
+          ],
+          "position": {
+            "line": 87,
+            "endLine": 87
+          }
+        },
         {
           "type": "element",
           "tag": "h2",
@@ -633,8 +649,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 84,
-            "endLine": 84
+            "line": 89,
+            "endLine": 89
           }
         },
         {
@@ -655,8 +671,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 86,
-                "endLine": 86
+                "line": 91,
+                "endLine": 91
               }
             },
             {
@@ -665,8 +681,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 86,
-            "endLine": 86
+            "line": 91,
+            "endLine": 91
           }
         },
         {
@@ -679,8 +695,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 88,
-            "endLine": 88
+            "line": 93,
+            "endLine": 93
           }
         },
         {
@@ -697,12 +713,43 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "자료를 읽고, 문서를 쓰고, 연결과 목차를 갱신합니다."
+                  "value": "자료를 읽고, 문서를 쓰고,"
                 }
               ],
               "position": {
-                "line": 90,
-                "endLine": 90
+                "line": 95,
+                "endLine": 96
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 95,
+                "endLine": 96
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "연결과 목차를 갱신합니다."
+                }
+              ],
+              "position": {
+                "line": 95,
+                "endLine": 96
               }
             },
             {
@@ -711,28 +758,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 90,
-            "endLine": 90
-          }
-        },
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": "사람도 같은 마크다운 문서를 읽고 고칠 수 있습니다."
-            }
-          ],
-          "position": {
-            "line": 92,
-            "endLine": 92
+            "line": 95,
+            "endLine": 96
           }
         }
       ],
       "origin": {
-        "line": 77,
-        "endLine": 92
+        "line": 80,
+        "endLine": 96
       },
       "tone": "neutral",
       "view": {
@@ -753,8 +786,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 99,
-          "endLine": 99
+          "line": 103,
+          "endLine": 103
         }
       },
       "blocks": [
@@ -780,8 +813,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 101,
-                        "endLine": 101
+                        "line": 105,
+                        "endLine": 105
                       }
                     },
                     {
@@ -794,8 +827,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 101,
-                        "endLine": 101
+                        "line": 105,
+                        "endLine": 105
                       }
                     },
                     {
@@ -808,20 +841,20 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 101,
-                        "endLine": 101
+                        "line": 105,
+                        "endLine": 105
                       }
                     }
                   ],
                   "position": {
-                    "line": 101,
-                    "endLine": 101
+                    "line": 105,
+                    "endLine": 105
                   }
                 }
               ],
               "position": {
-                "line": 101,
-                "endLine": 101
+                "line": 105,
+                "endLine": 105
               }
             },
             {
@@ -842,8 +875,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 103,
-                        "endLine": 103
+                        "line": 107,
+                        "endLine": 107
                       }
                     },
                     {
@@ -856,8 +889,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 103,
-                        "endLine": 103
+                        "line": 107,
+                        "endLine": 107
                       }
                     },
                     {
@@ -870,14 +903,14 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 103,
-                        "endLine": 103
+                        "line": 107,
+                        "endLine": 107
                       }
                     }
                   ],
                   "position": {
-                    "line": 103,
-                    "endLine": 103
+                    "line": 107,
+                    "endLine": 107
                   }
                 },
                 {
@@ -894,8 +927,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 104,
-                        "endLine": 104
+                        "line": 108,
+                        "endLine": 108
                       }
                     },
                     {
@@ -908,8 +941,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 104,
-                        "endLine": 104
+                        "line": 108,
+                        "endLine": 108
                       }
                     },
                     {
@@ -922,14 +955,14 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 104,
-                        "endLine": 104
+                        "line": 108,
+                        "endLine": 108
                       }
                     }
                   ],
                   "position": {
-                    "line": 104,
-                    "endLine": 104
+                    "line": 108,
+                    "endLine": 108
                   }
                 },
                 {
@@ -946,8 +979,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 105,
-                        "endLine": 105
+                        "line": 109,
+                        "endLine": 109
                       }
                     },
                     {
@@ -960,8 +993,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 105,
-                        "endLine": 105
+                        "line": 109,
+                        "endLine": 109
                       }
                     },
                     {
@@ -974,14 +1007,14 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 105,
-                        "endLine": 105
+                        "line": 109,
+                        "endLine": 109
                       }
                     }
                   ],
                   "position": {
-                    "line": 105,
-                    "endLine": 105
+                    "line": 109,
+                    "endLine": 109
                   }
                 },
                 {
@@ -998,8 +1031,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 106,
-                        "endLine": 106
+                        "line": 110,
+                        "endLine": 110
                       }
                     },
                     {
@@ -1012,8 +1045,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 106,
-                        "endLine": 106
+                        "line": 110,
+                        "endLine": 110
                       }
                     },
                     {
@@ -1026,26 +1059,26 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 106,
-                        "endLine": 106
+                        "line": 110,
+                        "endLine": 110
                       }
                     }
                   ],
                   "position": {
-                    "line": 106,
-                    "endLine": 106
+                    "line": 110,
+                    "endLine": 110
                   }
                 }
               ],
               "position": {
-                "line": 103,
-                "endLine": 106
+                "line": 107,
+                "endLine": 110
               }
             }
           ],
           "position": {
-            "line": 101,
-            "endLine": 106
+            "line": 105,
+            "endLine": 110
           }
         },
         {
@@ -1066,8 +1099,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 108,
-                "endLine": 108
+                "line": 112,
+                "endLine": 112
               }
             },
             {
@@ -1076,14 +1109,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 108,
-            "endLine": 108
+            "line": 112,
+            "endLine": 112
           }
         }
       ],
       "origin": {
-        "line": 95,
-        "endLine": 108
+        "line": 99,
+        "endLine": 112
       },
       "tone": "neutral",
       "view": {
@@ -1103,8 +1136,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 116,
-          "endLine": 116
+          "line": 120,
+          "endLine": 120
         }
       },
       "blocks": [
@@ -1116,19 +1149,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/1f943e43d8d7-rag-path.svg",
+                "src": "assets/0aefea443a6e-rag-path.svg",
                 "alt": "같은 세 메모에서 이번 질문에 필요한 근거를 찾아 현재 답에 사용하는 RAG 경로."
               },
               "children": [],
               "position": {
-                "line": 118,
-                "endLine": 118
+                "line": 122,
+                "endLine": 122
               }
             }
           ],
           "position": {
-            "line": 118,
-            "endLine": 118
+            "line": 122,
+            "endLine": 122
           }
         },
         {
@@ -1149,14 +1182,24 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 120,
-                "endLine": 120
+                "line": 124,
+                "endLine": 124
               }
             },
             {
               "type": "text",
-              "value": " 답을 만듭니다. · "
-            },
+              "value": " 답을 만듭니다."
+            }
+          ],
+          "position": {
+            "line": 124,
+            "endLine": 124
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
             {
               "type": "element",
               "tag": "a",
@@ -1170,20 +1213,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 120,
-                "endLine": 120
+                "line": 126,
+                "endLine": 126
               }
             }
           ],
           "position": {
-            "line": 120,
-            "endLine": 120
+            "line": 126,
+            "endLine": 126
           }
         }
       ],
       "origin": {
-        "line": 111,
-        "endLine": 120
+        "line": 115,
+        "endLine": 126
       },
       "tone": "neutral",
       "view": {
@@ -1204,8 +1247,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 128,
-          "endLine": 128
+          "line": 134,
+          "endLine": 134
         }
       },
       "blocks": [
@@ -1217,19 +1260,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/e39c92d904c4-wiki-path.svg",
+                "src": "assets/53636045579a-wiki-path.svg",
                 "alt": "같은 세 메모를 개념·비교·현재 계획 문서로 미리 정리하고 필요한 문서와 원자료를 다시 읽는 위키 경로."
               },
               "children": [],
               "position": {
-                "line": 130,
-                "endLine": 130
+                "line": 136,
+                "endLine": 136
               }
             }
           ],
           "position": {
-            "line": 130,
-            "endLine": 130
+            "line": 136,
+            "endLine": 136
           }
         },
         {
@@ -1250,14 +1293,24 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 132,
-                "endLine": 132
+                "line": 138,
+                "endLine": 138
               }
             },
             {
               "type": "text",
-              "value": "하고, 필요한 쪽을 다시 읽습니다. · "
-            },
+              "value": "하고, 필요한 쪽을 다시 읽습니다."
+            }
+          ],
+          "position": {
+            "line": 138,
+            "endLine": 138
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
             {
               "type": "element",
               "tag": "a",
@@ -1271,20 +1324,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 132,
-                "endLine": 132
+                "line": 140,
+                "endLine": 140
               }
             }
           ],
           "position": {
-            "line": 132,
-            "endLine": 132
+            "line": 140,
+            "endLine": 140
           }
         }
       ],
       "origin": {
-        "line": 123,
-        "endLine": 132
+        "line": 129,
+        "endLine": 140
       },
       "tone": "neutral",
       "view": {
@@ -1305,8 +1358,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 140,
-          "endLine": 140
+          "line": 148,
+          "endLine": 148
         }
       },
       "blocks": [
@@ -1318,19 +1371,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/e93f12b83834-ingest-map.svg",
+                "src": "assets/a3a65af7ab28-ingest-map.svg",
                 "alt": "세 메모를 읽고 나누어 자료 요약을 입구로 만들고, 기존 개념·비교와 현재 계획의 연결 및 문서·목차·링크를 갱신하는 관계."
               },
               "children": [],
               "position": {
-                "line": 142,
-                "endLine": 142
+                "line": 150,
+                "endLine": 150
               }
             }
           ],
           "position": {
-            "line": 142,
-            "endLine": 142
+            "line": 150,
+            "endLine": 150
           }
         },
         {
@@ -1339,8 +1392,18 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "자료 읽기 → 내용 나누기 → 문서·목차·링크 갱신하기 · "
-            },
+              "value": "자료 읽기 → 내용 나누기 → 문서·목차·링크 갱신하기"
+            }
+          ],
+          "position": {
+            "line": 152,
+            "endLine": 152
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
             {
               "type": "element",
               "tag": "a",
@@ -1354,20 +1417,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 144,
-                "endLine": 144
+                "line": 154,
+                "endLine": 154
               }
             }
           ],
           "position": {
-            "line": 144,
-            "endLine": 144
+            "line": 154,
+            "endLine": 154
           }
         }
       ],
       "origin": {
-        "line": 135,
-        "endLine": 144
+        "line": 143,
+        "endLine": 154
       },
       "tone": "neutral",
       "view": {
@@ -1388,8 +1451,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 152,
-          "endLine": 152
+          "line": 162,
+          "endLine": 162
         }
       },
       "blocks": [
@@ -1401,65 +1464,25 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/a3c7b37535df-source-concept.svg",
+                "src": "assets/cac31a82b5a0-source-concept.svg",
                 "alt": "한 자료의 요약과 여러 자료를 연결한 개념 문서의 차이."
               },
               "children": [],
               "position": {
-                "line": 154,
-                "endLine": 154
+                "line": 164,
+                "endLine": 164
               }
             }
           ],
           "position": {
-            "line": 154,
-            "endLine": 154
+            "line": 164,
+            "endLine": 164
           }
         },
         {
           "type": "element",
           "tag": "p",
           "children": [
-            {
-              "type": "text",
-              "value": ""
-            },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "자료 요약"
-                }
-              ],
-              "position": {
-                "line": 156,
-                "endLine": 156
-              }
-            },
-            {
-              "type": "text",
-              "value": "은 그 자료를, "
-            },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "개념 문서"
-                }
-              ],
-              "position": {
-                "line": 156,
-                "endLine": 156
-              }
-            },
-            {
-              "type": "text",
-              "value": "는 여러 자료의 공통 주제를 설명합니다. · "
-            },
             {
               "type": "element",
               "tag": "a",
@@ -1473,20 +1496,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 156,
-                "endLine": 156
+                "line": 166,
+                "endLine": 166
               }
             }
           ],
           "position": {
-            "line": 156,
-            "endLine": 156
+            "line": 166,
+            "endLine": 166
           }
         }
       ],
       "origin": {
-        "line": 147,
-        "endLine": 156
+        "line": 157,
+        "endLine": 166
       },
       "tone": "neutral",
       "view": {
@@ -1507,8 +1530,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 164,
-          "endLine": 164
+          "line": 174,
+          "endLine": 174
         }
       },
       "blocks": [
@@ -1522,8 +1545,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 166,
-            "endLine": 166
+            "line": 176,
+            "endLine": 176
           }
         },
         {
@@ -1532,7 +1555,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "한 파일에 몰아넣지 않고 "
+              "value": "한 파일에 몰아넣지 않고"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 178,
+                "endLine": 179
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -1544,8 +1580,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 168,
-                "endLine": 168
+                "line": 178,
+                "endLine": 179
               }
             },
             {
@@ -1554,8 +1590,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 168,
-            "endLine": 168
+            "line": 178,
+            "endLine": 179
           }
         },
         {
@@ -1568,8 +1604,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 170,
-            "endLine": 170
+            "line": 181,
+            "endLine": 181
           }
         },
         {
@@ -1578,7 +1614,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "관련 개념과 "
+              "value": "관련 개념과 원자료를"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 183,
+                "endLine": 184
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -1586,12 +1635,12 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "원자료를 찾아 읽습니다."
+                  "value": "찾아 읽습니다."
                 }
               ],
               "position": {
-                "line": 172,
-                "endLine": 172
+                "line": 183,
+                "endLine": 184
               }
             },
             {
@@ -1600,8 +1649,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 172,
-            "endLine": 172
+            "line": 183,
+            "endLine": 184
           }
         },
         {
@@ -1614,8 +1663,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 174,
-            "endLine": 174
+            "line": 186,
+            "endLine": 186
           }
         },
         {
@@ -1624,7 +1673,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "새 자료가 오면 "
+              "value": "새 자료가 오면"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 188,
+                "endLine": 189
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -1636,8 +1698,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 176,
-                "endLine": 176
+                "line": 188,
+                "endLine": 189
               }
             },
             {
@@ -1646,14 +1708,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 176,
-            "endLine": 176
+            "line": 188,
+            "endLine": 189
           }
         }
       ],
       "origin": {
-        "line": 159,
-        "endLine": 176
+        "line": 169,
+        "endLine": 189
       },
       "tone": "neutral",
       "view": {
@@ -1674,43 +1736,11 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 183,
-          "endLine": 183
+          "line": 196,
+          "endLine": 196
         }
       },
       "blocks": [
-        {
-          "type": "element",
-          "tag": "p",
-          "children": [
-            {
-              "type": "text",
-              "value": ""
-            },
-            {
-              "type": "element",
-              "tag": "strong",
-              "children": [
-                {
-                  "type": "text",
-                  "value": "질문"
-                }
-              ],
-              "position": {
-                "line": 185,
-                "endLine": 185
-              }
-            },
-            {
-              "type": "text",
-              "value": ""
-            }
-          ],
-          "position": {
-            "line": 185,
-            "endLine": 185
-          }
-        },
         {
           "type": "element",
           "tag": "blockquote",
@@ -1725,14 +1755,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 187,
-                "endLine": 187
+                "line": 198,
+                "endLine": 198
               }
             }
           ],
           "position": {
-            "line": 187,
-            "endLine": 187
+            "line": 198,
+            "endLine": 198
           }
         },
         {
@@ -1761,8 +1791,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 189,
-                        "endLine": 189
+                        "line": 200,
+                        "endLine": 200
                       }
                     },
                     {
@@ -1771,14 +1801,14 @@ window.PRESENTATION = {
                     }
                   ],
                   "position": {
-                    "line": 189,
-                    "endLine": 189
+                    "line": 200,
+                    "endLine": 200
                   }
                 }
               ],
               "position": {
-                "line": 189,
-                "endLine": 189
+                "line": 200,
+                "endLine": 200
               }
             },
             {
@@ -1803,8 +1833,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 190,
-                        "endLine": 190
+                        "line": 201,
+                        "endLine": 201
                       }
                     },
                     {
@@ -1813,14 +1843,14 @@ window.PRESENTATION = {
                     }
                   ],
                   "position": {
-                    "line": 190,
-                    "endLine": 190
+                    "line": 201,
+                    "endLine": 201
                   }
                 }
               ],
               "position": {
-                "line": 190,
-                "endLine": 190
+                "line": 201,
+                "endLine": 201
               }
             },
             {
@@ -1845,8 +1875,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 191,
-                        "endLine": 191
+                        "line": 202,
+                        "endLine": 202
                       }
                     },
                     {
@@ -1855,20 +1885,20 @@ window.PRESENTATION = {
                     }
                   ],
                   "position": {
-                    "line": 191,
-                    "endLine": 191
+                    "line": 202,
+                    "endLine": 202
                   }
                 }
               ],
               "position": {
-                "line": 191,
-                "endLine": 192
+                "line": 202,
+                "endLine": 203
               }
             }
           ],
           "position": {
-            "line": 189,
-            "endLine": 192
+            "line": 200,
+            "endLine": 203
           }
         },
         {
@@ -1881,14 +1911,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 193,
-            "endLine": 193
+            "line": 204,
+            "endLine": 204
           }
         }
       ],
       "origin": {
-        "line": 179,
-        "endLine": 193
+        "line": 192,
+        "endLine": 204
       },
       "tone": "neutral",
       "view": {
@@ -1908,8 +1938,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 201,
-          "endLine": 201
+          "line": 212,
+          "endLine": 212
         }
       },
       "blocks": [
@@ -1921,19 +1951,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/6b2263dbe032-related-updates.svg",
+                "src": "assets/e240f7306687-related-updates.svg",
                 "alt": "입문자·준비된 팩·15분이라는 새 조건에 맞춰 개념 설명, 비교의 선택 기준, 현재 계획을 함께 고치는 예."
               },
               "children": [],
               "position": {
-                "line": 203,
-                "endLine": 203
+                "line": 214,
+                "endLine": 214
               }
             }
           ],
           "position": {
-            "line": 203,
-            "endLine": 203
+            "line": 214,
+            "endLine": 214
           }
         },
         {
@@ -1954,14 +1984,24 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 205,
-                "endLine": 205
+                "line": 216,
+                "endLine": 216
               }
             },
             {
               "type": "text",
-              "value": "으로 설명·선택 기준·계획을 함께 고칩니다. · "
-            },
+              "value": "으로 설명·선택 기준·계획을 함께 고칩니다."
+            }
+          ],
+          "position": {
+            "line": 216,
+            "endLine": 216
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
             {
               "type": "element",
               "tag": "a",
@@ -1975,20 +2015,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 205,
-                "endLine": 205
+                "line": 218,
+                "endLine": 218
               }
             }
           ],
           "position": {
-            "line": 205,
-            "endLine": 205
+            "line": 218,
+            "endLine": 218
           }
         }
       ],
       "origin": {
-        "line": 196,
-        "endLine": 205
+        "line": 207,
+        "endLine": 218
       },
       "tone": "neutral",
       "view": {
@@ -2009,8 +2049,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 213,
-          "endLine": 213
+          "line": 226,
+          "endLine": 226
         }
       },
       "blocks": [
@@ -2024,8 +2064,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 215,
-            "endLine": 215
+            "line": 228,
+            "endLine": 228
           }
         },
         {
@@ -2034,7 +2074,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "앞으로 만들 결과와 "
+              "value": "앞으로 만들 결과와"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 230,
+                "endLine": 231
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -2042,22 +2095,22 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "관련된 자료"
+                  "value": "관련된 자료인가"
                 }
               ],
               "position": {
-                "line": 217,
-                "endLine": 217
+                "line": 230,
+                "endLine": 231
               }
             },
             {
               "type": "text",
-              "value": "인가"
+              "value": ""
             }
           ],
           "position": {
-            "line": 217,
-            "endLine": 217
+            "line": 230,
+            "endLine": 231
           }
         },
         {
@@ -2070,8 +2123,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 219,
-            "endLine": 219
+            "line": 233,
+            "endLine": 233
           }
         },
         {
@@ -2080,7 +2133,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "가치 있다고 느낀 "
+              "value": "가치 있다고 느낀 이유를"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 235,
+                "endLine": 236
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -2088,12 +2154,12 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "이유를 직접 적을 수 있는가"
+                  "value": "직접 적을 수 있는가"
                 }
               ],
               "position": {
-                "line": 221,
-                "endLine": 221
+                "line": 235,
+                "endLine": 236
               }
             },
             {
@@ -2102,8 +2168,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 221,
-            "endLine": 221
+            "line": 235,
+            "endLine": 236
           }
         },
         {
@@ -2116,8 +2182,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 223,
-            "endLine": 223
+            "line": 238,
+            "endLine": 238
           }
         },
         {
@@ -2126,7 +2192,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "같은 주제의 "
+              "value": "같은 주제의"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 240,
+                "endLine": 241
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -2134,28 +2213,28 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "자료 두 개부터 연결"
+                  "value": "자료 두 개부터 연결합니다."
                 }
               ],
               "position": {
-                "line": 225,
-                "endLine": 225
+                "line": 240,
+                "endLine": 241
               }
             },
             {
               "type": "text",
-              "value": "합니다."
+              "value": ""
             }
           ],
           "position": {
-            "line": 225,
-            "endLine": 225
+            "line": 240,
+            "endLine": 241
           }
         }
       ],
       "origin": {
-        "line": 208,
-        "endLine": 225
+        "line": 221,
+        "endLine": 241
       },
       "tone": "neutral",
       "view": {
@@ -2176,8 +2255,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 233,
-          "endLine": 233
+          "line": 249,
+          "endLine": 249
         }
       },
       "blocks": [
@@ -2189,19 +2268,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/de481ad077ff-purpose-questions.svg",
+                "src": "assets/22e3b2b1ec42-purpose-questions.svg",
                 "alt": "다음 스터디 진행안이라는 쓰임에 맞춰 메모의 맥락·선택 이유·중요한 점과 다음 활용을 직접 적는 예."
               },
               "children": [],
               "position": {
-                "line": 235,
-                "endLine": 235
+                "line": 251,
+                "endLine": 251
               }
             }
           ],
           "position": {
-            "line": 235,
-            "endLine": 235
+            "line": 251,
+            "endLine": 251
           }
         },
         {
@@ -2222,14 +2301,24 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 237,
-                "endLine": 237
+                "line": 253,
+                "endLine": 253
               }
             },
             {
               "type": "text",
-              "value": "를 적으면 정리할 기준이 생깁니다. · "
-            },
+              "value": "를 적으면 정리할 기준이 생깁니다."
+            }
+          ],
+          "position": {
+            "line": 253,
+            "endLine": 253
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
             {
               "type": "element",
               "tag": "a",
@@ -2243,20 +2332,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 237,
-                "endLine": 237
+                "line": 255,
+                "endLine": 255
               }
             }
           ],
           "position": {
-            "line": 237,
-            "endLine": 237
+            "line": 255,
+            "endLine": 255
           }
         }
       ],
       "origin": {
-        "line": 228,
-        "endLine": 237
+        "line": 244,
+        "endLine": 255
       },
       "tone": "neutral",
       "view": {
@@ -2277,8 +2366,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 244,
-          "endLine": 244
+          "line": 262,
+          "endLine": 262
         }
       },
       "blocks": [
@@ -2292,8 +2381,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 246,
-            "endLine": 246
+            "line": 264,
+            "endLine": 264
           }
         },
         {
@@ -2309,8 +2398,13 @@ window.PRESENTATION = {
                   "value": "왜 골랐고,"
                 },
                 {
-                  "type": "text",
-                  "value": "\n"
+                  "type": "element",
+                  "tag": "br",
+                  "children": [],
+                  "position": {
+                    "line": 266,
+                    "endLine": 267
+                  }
                 },
                 {
                   "type": "text",
@@ -2326,8 +2420,8 @@ window.PRESENTATION = {
                     }
                   ],
                   "position": {
-                    "line": 248,
-                    "endLine": 249
+                    "line": 266,
+                    "endLine": 267
                   }
                 },
                 {
@@ -2336,14 +2430,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 248,
-                "endLine": 249
+                "line": 266,
+                "endLine": 267
               }
             }
           ],
           "position": {
-            "line": 248,
-            "endLine": 249
+            "line": 266,
+            "endLine": 267
           }
         },
         {
@@ -2364,14 +2458,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 251,
-            "endLine": 252
+            "line": 269,
+            "endLine": 270
           }
         }
       ],
       "origin": {
-        "line": 240,
-        "endLine": 252
+        "line": 258,
+        "endLine": 270
       },
       "tone": "neutral",
       "view": {
@@ -2391,8 +2485,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 259,
-          "endLine": 259
+          "line": 277,
+          "endLine": 277
         }
       },
       "blocks": [
@@ -2409,8 +2503,13 @@ window.PRESENTATION = {
                   "value": "목적과 내 판단은"
                 },
                 {
-                  "type": "text",
-                  "value": "\n"
+                  "type": "element",
+                  "tag": "br",
+                  "children": [],
+                  "position": {
+                    "line": 279,
+                    "endLine": 280
+                  }
                 },
                 {
                   "type": "text",
@@ -2426,8 +2525,8 @@ window.PRESENTATION = {
                     }
                   ],
                   "position": {
-                    "line": 261,
-                    "endLine": 262
+                    "line": 279,
+                    "endLine": 280
                   }
                 },
                 {
@@ -2436,14 +2535,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 261,
-                "endLine": 262
+                "line": 279,
+                "endLine": 280
               }
             }
           ],
           "position": {
-            "line": 261,
-            "endLine": 262
+            "line": 279,
+            "endLine": 280
           }
         },
         {
@@ -2455,8 +2554,13 @@ window.PRESENTATION = {
               "value": "누구를 위해 무엇을 만들지 목적은 직접 정하고,"
             },
             {
-              "type": "text",
-              "value": "\n"
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 282,
+                "endLine": 283
+              }
             },
             {
               "type": "text",
@@ -2464,8 +2568,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 264,
-            "endLine": 265
+            "line": 282,
+            "endLine": 283
           }
         },
         {
@@ -2478,14 +2582,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 267,
-            "endLine": 267
+            "line": 285,
+            "endLine": 285
           }
         }
       ],
       "origin": {
-        "line": 255,
-        "endLine": 267
+        "line": 273,
+        "endLine": 285
       },
       "tone": "neutral",
       "view": {
@@ -2505,8 +2609,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 275,
-          "endLine": 275
+          "line": 293,
+          "endLine": 293
         }
       },
       "blocks": [
@@ -2520,8 +2624,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 277,
-            "endLine": 277
+            "line": 295,
+            "endLine": 295
           }
         },
         {
@@ -2530,7 +2634,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "읽은 자료를 "
+              "value": "읽은 자료를"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 297,
+                "endLine": 298
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -2538,22 +2655,22 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "개념과 질문으로 연결"
+                  "value": "개념과 질문으로 연결하기"
                 }
               ],
               "position": {
-                "line": 279,
-                "endLine": 279
+                "line": 297,
+                "endLine": 298
               }
             },
             {
               "type": "text",
-              "value": "하기"
+              "value": ""
             }
           ],
           "position": {
-            "line": 279,
-            "endLine": 279
+            "line": 297,
+            "endLine": 298
           }
         },
         {
@@ -2566,8 +2683,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 281,
-            "endLine": 281
+            "line": 300,
+            "endLine": 300
           }
         },
         {
@@ -2588,8 +2705,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 283,
-                "endLine": 283
+                "line": 302,
+                "endLine": 302
               }
             },
             {
@@ -2598,8 +2715,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 283,
-            "endLine": 283
+            "line": 302,
+            "endLine": 302
           }
         },
         {
@@ -2612,8 +2729,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 285,
-            "endLine": 285
+            "line": 304,
+            "endLine": 304
           }
         },
         {
@@ -2634,8 +2751,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 287,
-                "endLine": 287
+                "line": 306,
+                "endLine": 306
               }
             },
             {
@@ -2644,14 +2761,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 287,
-            "endLine": 287
+            "line": 306,
+            "endLine": 306
           }
         }
       ],
       "origin": {
-        "line": 270,
-        "endLine": 287
+        "line": 288,
+        "endLine": 306
       },
       "tone": "neutral",
       "view": {
@@ -2672,8 +2789,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 295,
-          "endLine": 295
+          "line": 314,
+          "endLine": 314
         }
       },
       "blocks": [
@@ -2685,19 +2802,19 @@ window.PRESENTATION = {
               "type": "element",
               "tag": "img",
               "attrs": {
-                "src": "assets/71a3edfad9bd-session-plan.svg",
+                "src": "assets/a7afd1388934-session-plan.svg",
                 "alt": "자작 메모 두 개를 함께 읽는 15분 활동안 발췌. 목표와 네 활동 구간을 제시하며 실제 운영·학습효과·설치·모델 생성 시간의 실측은 아니다."
               },
               "children": [],
               "position": {
-                "line": 297,
-                "endLine": 297
+                "line": 316,
+                "endLine": 316
               }
             }
           ],
           "position": {
-            "line": 297,
-            "endLine": 297
+            "line": 316,
+            "endLine": 316
           }
         },
         {
@@ -2717,20 +2834,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 299,
-                "endLine": 299
+                "line": 318,
+                "endLine": 318
               }
             }
           ],
           "position": {
-            "line": 299,
-            "endLine": 299
+            "line": 318,
+            "endLine": 318
           }
         }
       ],
       "origin": {
-        "line": 290,
-        "endLine": 299
+        "line": 309,
+        "endLine": 318
       },
       "tone": "neutral",
       "view": {
@@ -2751,8 +2868,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 307,
-          "endLine": 307
+          "line": 326,
+          "endLine": 326
         }
       },
       "blocks": [
@@ -2766,8 +2883,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 309,
-            "endLine": 309
+            "line": 328,
+            "endLine": 328
           }
         },
         {
@@ -2776,7 +2893,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "설명과 근거가 "
+              "value": "설명과 근거가"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 330,
+                "endLine": 331
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -2788,8 +2918,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 311,
-                "endLine": 311
+                "line": 330,
+                "endLine": 331
               }
             },
             {
@@ -2798,8 +2928,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 311,
-            "endLine": 311
+            "line": 330,
+            "endLine": 331
           }
         },
         {
@@ -2812,8 +2942,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 313,
-            "endLine": 313
+            "line": 333,
+            "endLine": 333
           }
         },
         {
@@ -2822,7 +2952,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "AI의 정리에 "
+              "value": "AI의 정리에"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 335,
+                "endLine": 336
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -2834,8 +2977,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 315,
-                "endLine": 315
+                "line": 335,
+                "endLine": 336
               }
             },
             {
@@ -2844,8 +2987,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 315,
-            "endLine": 315
+            "line": 335,
+            "endLine": 336
           }
         },
         {
@@ -2858,8 +3001,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 317,
-            "endLine": 317
+            "line": 338,
+            "endLine": 338
           }
         },
         {
@@ -2868,7 +3011,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "정리된 개념과 연결을 "
+              "value": "정리된 개념과 연결을"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 340,
+                "endLine": 341
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -2880,8 +3036,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 319,
-                "endLine": 319
+                "line": 340,
+                "endLine": 341
               }
             },
             {
@@ -2890,14 +3046,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 319,
-            "endLine": 319
+            "line": 340,
+            "endLine": 341
           }
         }
       ],
       "origin": {
-        "line": 302,
-        "endLine": 319
+        "line": 321,
+        "endLine": 341
       },
       "tone": "neutral",
       "view": {
@@ -2918,8 +3074,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 327,
-          "endLine": 327
+          "line": 349,
+          "endLine": 349
         }
       },
       "blocks": [
@@ -2933,8 +3089,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 329,
-            "endLine": 329
+            "line": 351,
+            "endLine": 351
           }
         },
         {
@@ -2951,22 +3107,66 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "잘못된 요약과 근거 없는 연결"
+                  "value": "잘못된 요약과"
                 }
               ],
               "position": {
-                "line": 331,
-                "endLine": 331
+                "line": 353,
+                "endLine": 355
               }
             },
             {
               "type": "text",
-              "value": "이 생길 수 있습니다."
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 353,
+                "endLine": 355
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "근거 없는 연결"
+                }
+              ],
+              "position": {
+                "line": 353,
+                "endLine": 355
+              }
+            },
+            {
+              "type": "text",
+              "value": "이"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 353,
+                "endLine": 355
+              }
+            },
+            {
+              "type": "text",
+              "value": "생길 수 있습니다."
             }
           ],
           "position": {
-            "line": 331,
-            "endLine": 331
+            "line": 353,
+            "endLine": 355
           }
         },
         {
@@ -2979,8 +3179,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 333,
-            "endLine": 333
+            "line": 357,
+            "endLine": 357
           }
         },
         {
@@ -2989,7 +3189,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "새 자료와 "
+              "value": "새 자료와 예전 설명이"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 359,
+                "endLine": 360
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -2997,22 +3210,22 @@ window.PRESENTATION = {
               "children": [
                 {
                   "type": "text",
-                  "value": "예전 설명이 충돌"
+                  "value": "충돌할 수 있습니다."
                 }
               ],
               "position": {
-                "line": 335,
-                "endLine": 335
+                "line": 359,
+                "endLine": 360
               }
             },
             {
               "type": "text",
-              "value": "할 수 있습니다."
+              "value": ""
             }
           ],
           "position": {
-            "line": 335,
-            "endLine": 335
+            "line": 359,
+            "endLine": 360
           }
         },
         {
@@ -3025,8 +3238,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 337,
-            "endLine": 337
+            "line": 362,
+            "endLine": 362
           }
         },
         {
@@ -3035,7 +3248,20 @@ window.PRESENTATION = {
           "children": [
             {
               "type": "text",
-              "value": "확인하고 고치는 데 "
+              "value": "확인하고 고치는 데"
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 364,
+                "endLine": 365
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
             },
             {
               "type": "element",
@@ -3047,8 +3273,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 339,
-                "endLine": 339
+                "line": 364,
+                "endLine": 365
               }
             },
             {
@@ -3057,14 +3283,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 339,
-            "endLine": 339
+            "line": 364,
+            "endLine": 365
           }
         }
       ],
       "origin": {
-        "line": 322,
-        "endLine": 339
+        "line": 344,
+        "endLine": 365
       },
       "tone": "neutral",
       "view": {
@@ -3085,8 +3311,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 346,
-          "endLine": 346
+          "line": 372,
+          "endLine": 372
         }
       },
       "blocks": [
@@ -3112,8 +3338,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 348,
-                        "endLine": 348
+                        "line": 374,
+                        "endLine": 374
                       }
                     },
                     {
@@ -3126,20 +3352,20 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 348,
-                        "endLine": 348
+                        "line": 374,
+                        "endLine": 374
                       }
                     }
                   ],
                   "position": {
-                    "line": 348,
-                    "endLine": 348
+                    "line": 374,
+                    "endLine": 374
                   }
                 }
               ],
               "position": {
-                "line": 348,
-                "endLine": 348
+                "line": 374,
+                "endLine": 374
               }
             },
             {
@@ -3160,8 +3386,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 350,
-                        "endLine": 350
+                        "line": 376,
+                        "endLine": 376
                       }
                     },
                     {
@@ -3174,14 +3400,14 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 350,
-                        "endLine": 350
+                        "line": 376,
+                        "endLine": 376
                       }
                     }
                   ],
                   "position": {
-                    "line": 350,
-                    "endLine": 350
+                    "line": 376,
+                    "endLine": 376
                   }
                 },
                 {
@@ -3198,8 +3424,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 351,
-                        "endLine": 351
+                        "line": 377,
+                        "endLine": 377
                       }
                     },
                     {
@@ -3212,14 +3438,14 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 351,
-                        "endLine": 351
+                        "line": 377,
+                        "endLine": 377
                       }
                     }
                   ],
                   "position": {
-                    "line": 351,
-                    "endLine": 351
+                    "line": 377,
+                    "endLine": 377
                   }
                 },
                 {
@@ -3236,8 +3462,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 352,
-                        "endLine": 352
+                        "line": 378,
+                        "endLine": 378
                       }
                     },
                     {
@@ -3250,14 +3476,14 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 352,
-                        "endLine": 352
+                        "line": 378,
+                        "endLine": 378
                       }
                     }
                   ],
                   "position": {
-                    "line": 352,
-                    "endLine": 352
+                    "line": 378,
+                    "endLine": 378
                   }
                 },
                 {
@@ -3274,8 +3500,8 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 353,
-                        "endLine": 353
+                        "line": 379,
+                        "endLine": 379
                       }
                     },
                     {
@@ -3288,32 +3514,32 @@ window.PRESENTATION = {
                         }
                       ],
                       "position": {
-                        "line": 353,
-                        "endLine": 353
+                        "line": 379,
+                        "endLine": 379
                       }
                     }
                   ],
                   "position": {
-                    "line": 353,
-                    "endLine": 353
+                    "line": 379,
+                    "endLine": 379
                   }
                 }
               ],
               "position": {
-                "line": 350,
-                "endLine": 353
+                "line": 376,
+                "endLine": 379
               }
             }
           ],
           "position": {
-            "line": 348,
-            "endLine": 353
+            "line": 374,
+            "endLine": 379
           }
         }
       ],
       "origin": {
-        "line": 342,
-        "endLine": 353
+        "line": 368,
+        "endLine": 379
       },
       "tone": "neutral",
       "view": {
@@ -3333,50 +3559,137 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 360,
-          "endLine": 360
+          "line": 386,
+          "endLine": 386
         }
       },
       "blocks": [
         {
           "type": "element",
-          "tag": "pre",
+          "tag": "p",
           "children": [
             {
+              "type": "text",
+              "value": ""
+            },
+            {
               "type": "element",
-              "tag": "code",
-              "attrs": {
-                "class": "language-text"
-              },
+              "tag": "strong",
               "children": [
                 {
                   "type": "text",
-                  "value": "목적: AI 스터디에서 LLM Wiki를 설명하고 싶어.\n자료: 내가 고른 두 자료와 직접 쓴 생각·선택 이유를 읽어 줘.\n정리: 원문·내 기록·AI 요약을 구분하고 개념과 근거를 연결해 줘.\n확인: 원자료 링크, 바꾼 파일, 모르는 점을 알려줘.\n"
+                  "value": "목적:"
                 }
               ],
               "position": {
-                "line": 362,
-                "endLine": 367
+                "line": 388,
+                "endLine": 388
               }
+            },
+            {
+              "type": "text",
+              "value": " AI 스터디에서 LLM Wiki를 설명하고 싶어."
             }
           ],
           "position": {
-            "line": 362,
-            "endLine": 367
+            "line": 388,
+            "endLine": 388
           }
         },
         {
           "type": "element",
-          "tag": "h3",
+          "tag": "p",
           "children": [
             {
               "type": "text",
-              "value": "함께 볼 자료"
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "자료:"
+                }
+              ],
+              "position": {
+                "line": 390,
+                "endLine": 390
+              }
+            },
+            {
+              "type": "text",
+              "value": " 내가 고른 두 자료와 직접 쓴 생각·선택 이유를 읽어 줘."
             }
           ],
           "position": {
-            "line": 369,
-            "endLine": 369
+            "line": 390,
+            "endLine": 390
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "정리:"
+                }
+              ],
+              "position": {
+                "line": 392,
+                "endLine": 392
+              }
+            },
+            {
+              "type": "text",
+              "value": " 원문·내 기록·AI 요약을 구분하고 개념과 근거를 연결해 줘."
+            }
+          ],
+          "position": {
+            "line": 392,
+            "endLine": 392
+          }
+        },
+        {
+          "type": "element",
+          "tag": "p",
+          "children": [
+            {
+              "type": "text",
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "확인:"
+                }
+              ],
+              "position": {
+                "line": 394,
+                "endLine": 394
+              }
+            },
+            {
+              "type": "text",
+              "value": " 원자료 링크, 바꾼 파일, 모르는 점을 알려줘."
+            }
+          ],
+          "position": {
+            "line": 394,
+            "endLine": 394
           }
         },
         {
@@ -3396,8 +3709,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 371,
-                "endLine": 371
+                "line": 396,
+                "endLine": 396
               }
             },
             {
@@ -3417,14 +3730,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 371,
-                "endLine": 371
+                "line": 396,
+                "endLine": 396
               }
             }
           ],
           "position": {
-            "line": 371,
-            "endLine": 371
+            "line": 396,
+            "endLine": 396
           }
         },
         {
@@ -3444,20 +3757,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 373,
-                "endLine": 373
+                "line": 398,
+                "endLine": 398
               }
             }
           ],
           "position": {
-            "line": 373,
-            "endLine": 373
+            "line": 398,
+            "endLine": 398
           }
         }
       ],
       "origin": {
-        "line": 356,
-        "endLine": 373
+        "line": 382,
+        "endLine": 398
       },
       "tone": "neutral",
       "view": {
@@ -3477,8 +3790,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 380,
-          "endLine": 380
+          "line": 405,
+          "endLine": 405
         }
       },
       "blocks": [
@@ -3500,8 +3813,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 382,
-                "endLine": 382
+                "line": 407,
+                "endLine": 407
               }
             },
             {
@@ -3510,8 +3823,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 382,
-            "endLine": 382
+            "line": 407,
+            "endLine": 407
           }
         },
         {
@@ -3524,14 +3837,14 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 384,
-            "endLine": 384
+            "line": 409,
+            "endLine": 409
           }
         }
       ],
       "origin": {
-        "line": 376,
-        "endLine": 384
+        "line": 401,
+        "endLine": 409
       },
       "tone": "neutral",
       "view": {
@@ -3551,8 +3864,8 @@ window.PRESENTATION = {
           }
         ],
         "position": {
-          "line": 391,
-          "endLine": 391
+          "line": 416,
+          "endLine": 416
         }
       },
       "blocks": [
@@ -3571,19 +3884,42 @@ window.PRESENTATION = {
                 {
                   "type": "text",
                   "value": "내가 다시 묻는 질문 하나,"
-                },
-                {
-                  "type": "text",
-                  "value": "\n"
-                },
+                }
+              ],
+              "position": {
+                "line": 418,
+                "endLine": 419
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "br",
+              "children": [],
+              "position": {
+                "line": 418,
+                "endLine": 419
+              }
+            },
+            {
+              "type": "text",
+              "value": ""
+            },
+            {
+              "type": "element",
+              "tag": "strong",
+              "children": [
                 {
                   "type": "text",
                   "value": "그 질문에 쓸 자료 두 개는 무엇인가요?"
                 }
               ],
               "position": {
-                "line": 393,
-                "endLine": 394
+                "line": 418,
+                "endLine": 419
               }
             },
             {
@@ -3592,8 +3928,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 393,
-            "endLine": 394
+            "line": 418,
+            "endLine": 419
           }
         },
         {
@@ -3606,8 +3942,8 @@ window.PRESENTATION = {
             }
           ],
           "position": {
-            "line": 396,
-            "endLine": 396
+            "line": 421,
+            "endLine": 421
           }
         },
         {
@@ -3627,8 +3963,8 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 398,
-                "endLine": 398
+                "line": 423,
+                "endLine": 423
               }
             },
             {
@@ -3648,14 +3984,14 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 398,
-                "endLine": 398
+                "line": 423,
+                "endLine": 423
               }
             }
           ],
           "position": {
-            "line": 398,
-            "endLine": 398
+            "line": 423,
+            "endLine": 423
           }
         },
         {
@@ -3675,20 +4011,20 @@ window.PRESENTATION = {
                 }
               ],
               "position": {
-                "line": 400,
-                "endLine": 400
+                "line": 425,
+                "endLine": 425
               }
             }
           ],
           "position": {
-            "line": 400,
-            "endLine": 400
+            "line": 425,
+            "endLine": 425
           }
         }
       ],
       "origin": {
-        "line": 387,
-        "endLine": 400
+        "line": 412,
+        "endLine": 425
       },
       "tone": "neutral",
       "view": {

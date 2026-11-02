@@ -10,7 +10,7 @@
 - 19~25장: 활용과 제공하는 15분 활동안, 사람이 읽고 고치는 장점, 한계와 첫 요청
 - 26장: 자기 자료와 질문으로 Q&A
 
-핵심 도식9개의 의미와 관계를 유지하며 10·20장은 별도 개선 그림을 사용합니다. [도식의 대상과 관계](materials/diagram-reading.md)는 작은 화면에서도 같은 내용을 문장으로 읽는 경로입니다. [그림 부록](materials/visual-appendix.md)에서 전체19도식과 수정 전48장 원고·대본을 읽을 수 있습니다. 스터디 메모와 새 조건은 설명용 구성 예이며 실제 실행이나 학습 효과의 증거가 아닙니다.
+핵심 도식9개의 의미와 관계를 유지하며 본편은 별도 [검정 재조판 자산](assets/typography/)을 사용합니다. 원래19SVG와 이전 개선판은 보존합니다. [도식의 대상과 관계](materials/diagram-reading.md)는 작은 화면에서도 같은 내용을 문장으로 읽는 경로입니다. [그림 부록](materials/visual-appendix.md)에서 전체19도식과 수정 전48장 원고·대본을 읽을 수 있습니다. 스터디 메모와 새 조건은 설명용 구성 예이며 실제 실행이나 학습 효과의 증거가 아닙니다.
 
 ## test.md의 내용을 반영한 곳
 
@@ -42,6 +42,8 @@
 
 원고는 [slides.md](slides.md)이며 `theme: stage`를 사용합니다. `test.md`는 사용자가 작성한 흐름 참고 메모로 보존합니다. 시각 자산과 기존 심화 예제도 보존합니다.
 
-수정 전 [DESIGN.md](../../DESIGN.md)를 읽고 변경 범위와 보존할 의미·자료를 정합니다. 최신 사용자 지시가 우선입니다. [현재 26장 검토](../../research/design-governance-20261102/design/LLM_WIKI_AUDIT.md)의 역할 맵을 재사용하고 영향 장·앞뒤 흐름을 갱신합니다. 완료할 때 [현재 판 검수](../../DESIGN.md#변경과-현재-판-검수)에 따라 실제 화면과 판정 이유를 남기며, [검수 기록 안내](../../DESIGN-REVIEW.md)로 현재 입력과 근거를 확인합니다. 기술 검사 성공과 시각 승인은 별도입니다.
+수정 전 [DESIGN.md](../../DESIGN.md)를 읽고 변경 범위와 보존할 의미·자료를 정합니다. 최신 사용자 지시가 우선입니다. [이번 타이포 교정 명세](../../research/llm-wiki-typography-20261102/presentation/TYPOGRAPHY_SPEC.md)와 [현재 결과·검수 경로](../../research/llm-wiki-typography-20261102/RESULT.md)를 확인하고 영향 장·앞뒤 흐름을 갱신합니다. 이전 [26장 감사](../../research/design-governance-20261102/design/LLM_WIKI_AUDIT.md)는 이력이며 새 입력의 승인을 대신하지 않습니다. 현재 교정의 시각 승인 여부는 새 검수 기록의 명시 범위를 따릅니다. 완료할 때 [현재 판 검수](../../DESIGN.md#변경과-현재-판-검수)에 따라 실제 화면과 판정 이유를 남기며, [검수 기록 안내](../../DESIGN-REVIEW.md)로 현재 입력과 근거를 확인합니다. 기술 검사 성공과 시각 승인은 별도입니다.
 
 `npm run dev`로 미리 보고, `npm run build:site`로 생성하고, `npm run verify:site`로 생성물 일치를 확인합니다. `presentations/`는 생성 결과이므로 직접 편집하지 않습니다.
+
+이번 교정의 새 검수 기록은 `research/llm-wiki-typography-20261102/final/{present-1920,present-1280,read-1440,read-390}.review.json`에 대응합니다. 기록 생성·독립 판정 전에는 승인으로 간주하지 않으며, 현재 상태는 위 RESULT에서 확인합니다.

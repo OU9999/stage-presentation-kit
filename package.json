@@ -9,9 +9,12 @@
     "verify:site": "node scripts/build-site.cjs verify",
     "dev": "node scripts/stage.cjs dev",
     "test": "node --test tests/*.test.cjs",
-    "design:review": "node scripts/design-review.cjs"
+    "design:review": "node scripts/design-review.cjs",
+    "qa:llm-wiki-typography": "node scripts/llm-wiki-typography-qa.cjs"
   },
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "markdown-it": "15.0.3",
     "yaml": "2.9.1"
