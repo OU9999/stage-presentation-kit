@@ -1,0 +1,335 @@
+{
+  "verifiedAt": "2026-11-02T06:26:42.642513+00:00",
+  "verifiedBy": "/root/engineering_manager/policy_integrator",
+  "kind": "document-contract desk-check and existing CLI execution; no new visual review or model behavior experiment",
+  "head": "2a95f376d60c65b79f9151937e4a2b36e5173f38",
+  "commands": [
+    {
+      "command": "npm run design:review -- check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json",
+      "startedAt": "2026-11-02T06:24:14.046435+00:00",
+      "exitCode": 0,
+      "stdout": "\n> stage-presentation-kit@1.0.0 design:review\n> node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json\n\n기록 최신성·범위 유효 · 검토 완료: 승인 21 · 개선 필요 5 · 미확인 0 (26개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음\n",
+      "stderr": ""
+    },
+    {
+      "command": "npm run design:review -- check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json --require-approved",
+      "startedAt": "2026-11-02T06:24:18.182443+00:00",
+      "exitCode": 1,
+      "stdout": "\n> stage-presentation-kit@1.0.0 design:review\n> node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json --require-approved\n\n기록 최신성·범위 유효 · 검토 완료: 승인 21 · 개선 필요 5 · 미확인 0 (26개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음\n",
+      "stderr": ""
+    }
+  ],
+  "newCLIRuns": 2,
+  "historicalEvidenceReused": {
+    "targetedTests": 17,
+    "managerNegativeCases": 14,
+    "rerunInThisTask": false
+  },
+  "preservation": {
+    "baseline": "research/agent-design-policy-202610/evidence/starting-hashes.json",
+    "specifiedFiles": 13,
+    "unchanged": 12,
+    "changed": [
+      "AGENTS.md"
+    ],
+    "comparisons": [
+      {
+        "path": "AGENTS.md",
+        "before": "e990e402ec13eba59106d3a7a0cd18e415f3bc9c9720eb6df8c33e2b833b8e89",
+        "after": "0f617eefd04338c7eb9e346476ae4789330df8f6f3c0044b0aaeab294ba9e775",
+        "unchanged": false,
+        "changeAllowed": true
+      },
+      {
+        "path": "DESIGN.md",
+        "before": "75e405eb4d1695fc5b4d5301d9393a2b3a0f938a3288dd3c9807e2845ca90817",
+        "after": "75e405eb4d1695fc5b4d5301d9393a2b3a0f938a3288dd3c9807e2845ca90817",
+        "unchanged": true,
+        "changeAllowed": false
+      },
+      {
+        "path": "DESIGN-REVIEW.md",
+        "before": "2fb75cc2a92b4e686a86ae7ca9349f26294b931bd538909ff919e761608fefc8",
+        "after": "2fb75cc2a92b4e686a86ae7ca9349f26294b931bd538909ff919e761608fefc8",
+        "unchanged": true,
+        "changeAllowed": true
+      },
+      {
+        "path": "package.json",
+        "before": "0591010fa3167f51c19919032e1aa334c207e60b9c3942008bbc563ecae4069e",
+        "after": "0591010fa3167f51c19919032e1aa334c207e60b9c3942008bbc563ecae4069e",
+        "unchanged": true,
+        "changeAllowed": false
+      },
+      {
+        "path": "scripts/design-review.cjs",
+        "before": "ff6b6575a452c331ce268b563999e688acec1aee555eda0ef5bee05fd9aee858",
+        "after": "ff6b6575a452c331ce268b563999e688acec1aee555eda0ef5bee05fd9aee858",
+        "unchanged": true,
+        "changeAllowed": false
+      },
+      {
+        "path": "tests/design-review.test.cjs",
+        "before": "b810a142175e5ea3deaba017a8b5812ca580e52f9d028ad243ecae3ff1524533",
+        "after": "b810a142175e5ea3deaba017a8b5812ca580e52f9d028ad243ecae3ff1524533",
+        "unchanged": true,
+        "changeAllowed": false
+      },
+      {
+        "path": "README.md",
+        "before": "c2abd6d3f846fd6fd3105260a5ebb3f78263c590e439d10bcddfff722f257d62",
+        "after": "c2abd6d3f846fd6fd3105260a5ebb3f78263c590e439d10bcddfff722f257d62",
+        "unchanged": true,
+        "changeAllowed": false
+      },
+      {
+        "path": "MARKDOWN-FIRST.md",
+        "before": "ae1db44edc02ad949173caa575264fa252a9d459af06518be71d9e6d55c81040",
+        "after": "ae1db44edc02ad949173caa575264fa252a9d459af06518be71d9e6d55c81040",
+        "unchanged": true,
+        "changeAllowed": false
+      },
+      {
+        "path": "starters/markdown/README.md",
+        "before": "51b0bf72bf3650696403f0d0fbb6044d5f6432a7ce46d825e3d1630b809bf540",
+        "after": "51b0bf72bf3650696403f0d0fbb6044d5f6432a7ce46d825e3d1630b809bf540",
+        "unchanged": true,
+        "changeAllowed": false
+      },
+      {
+        "path": "talks/llm-wiki/README.md",
+        "before": "3c24819a66c06fea79da39498b06bca2dd3b26bc36caeaa385542a5862f574e3",
+        "after": "3c24819a66c06fea79da39498b06bca2dd3b26bc36caeaa385542a5862f574e3",
+        "unchanged": true,
+        "changeAllowed": false
+      },
+      {
+        "path": "talks/llm-wiki/slides.md",
+        "before": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09",
+        "after": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09",
+        "unchanged": true,
+        "changeAllowed": false
+      },
+      {
+        "path": "talks/llm-wiki/test.md",
+        "before": "174e1fdc3844045f8e5cae5890ffd87aa21562487180fcf4e01a90fa0ea13489",
+        "after": "174e1fdc3844045f8e5cae5890ffd87aa21562487180fcf4e01a90fa0ea13489",
+        "unchanged": true,
+        "changeAllowed": false
+      },
+      {
+        "path": "research/design-governance-20261102/engineering/llm-wiki.review.json",
+        "before": "35cab7914e37429f9825ab7b0d414652b681349e8e78856b7ed51ac7d13d1bb6",
+        "after": "35cab7914e37429f9825ab7b0d414652b681349e8e78856b7ed51ac7d13d1bb6",
+        "unchanged": true,
+        "changeAllowed": false
+      }
+    ],
+    "scopeLimit": "Specified 13 paths only; not a claim of repository-wide byte identity. Existing CLI separately verifies declared render inputs and review evidence."
+  },
+  "AGENTSContract": {
+    "logPrefixBytes": 476,
+    "originalLogPrefixPreserved": true,
+    "sectionOrderPreserved": true,
+    "existingScreenAndApprovalRulesVerbatim": [
+      "- 완료할 때 현재 원고·스타일·runtime·자산에 대응하는 실제 화면과 판정 이유를 [현재 판 검수](DESIGN.md#변경과-현재-판-검수)에 따라 남긴다. 기술 검사와 시각 승인을 구별하며, 검수 기록 운영은 [검수 안내](DESIGN-REVIEW.md)를 따른다.",
+      "- 발표의 시각 승인을 보고할 때는 `--require-approved`를 통과한 명시 범위만 승인으로 표현하고, 재점검·교정 명세 작업의 `needs-changes` 완료는 본편 승인과 구분한다."
+    ],
+    "existingPreReadRuleOnlyScopeClarified": true,
+    "manualDeskCheck": {
+      "scenarios": 8,
+      "result": "Final AGENTS and existing DESIGN/DESIGN-REVIEW contract consistent for the eight scenarios in RESULT.md; no model behavior experiment.",
+      "noNewRecurringApprovalRequired": true,
+      "explicitUserThemeChangeAllowed": true,
+      "unrelatedDocumentEditNotSubjectToFullDesignReadRecaptureOrFullTests": true,
+      "detailsRemainInDesignCanonicalDocument": true
+    }
+  },
+  "currentReviewState": {
+    "statuses": {
+      "approved": 21,
+      "needs-changes": 5,
+      "unreviewed": 0
+    },
+    "needsChangesSlides": [
+      10,
+      17,
+      18,
+      20,
+      24
+    ],
+    "newVisualJudgments": false
+  },
+  "localLinks": {
+    "documents": [
+      "AGENTS.md",
+      "DESIGN-REVIEW.md",
+      "research/agent-design-policy-202610/RESULT.md"
+    ],
+    "checked": 28,
+    "missingOrInvalidAnchors": [],
+    "results": [
+      {
+        "document": "AGENTS.md",
+        "target": "WORK_LOG.md",
+        "valid": true
+      },
+      {
+        "document": "AGENTS.md",
+        "target": "DESIGN.md",
+        "valid": true
+      },
+      {
+        "document": "AGENTS.md",
+        "target": "MARKDOWN-FIRST.md",
+        "valid": true
+      },
+      {
+        "document": "AGENTS.md",
+        "target": "CONFIG.md",
+        "valid": true
+      },
+      {
+        "document": "AGENTS.md",
+        "target": "DESIGN.md#변경과-현재-판-검수",
+        "valid": true
+      },
+      {
+        "document": "AGENTS.md",
+        "target": "DESIGN-REVIEW.md",
+        "valid": true
+      },
+      {
+        "document": "AGENTS.md",
+        "target": "DESIGN.md",
+        "valid": true
+      },
+      {
+        "document": "DESIGN-REVIEW.md",
+        "target": "DESIGN.md",
+        "valid": true
+      },
+      {
+        "document": "DESIGN-REVIEW.md",
+        "target": "DESIGN.md#변경과-현재-판-검수",
+        "valid": true
+      },
+      {
+        "document": "DESIGN-REVIEW.md",
+        "target": "research/design-governance-20261102/engineering/llm-wiki.review.json",
+        "valid": true
+      },
+      {
+        "document": "DESIGN-REVIEW.md",
+        "target": "research/design-governance-20261102/evidence/before/manifest.json",
+        "valid": true
+      },
+      {
+        "document": "DESIGN-REVIEW.md",
+        "target": "DESIGN.md#변경과-현재-판-검수",
+        "valid": true
+      },
+      {
+        "document": "DESIGN-REVIEW.md",
+        "target": "research/design-governance-20261102/design/LLM_WIKI_AUDIT.md",
+        "valid": true
+      },
+      {
+        "document": "DESIGN-REVIEW.md",
+        "target": "research/design-governance-20261102/engineering/verification.json",
+        "valid": true
+      },
+      {
+        "document": "DESIGN-REVIEW.md",
+        "target": "research/design-governance-20261102/engineering/ENGINEERING_HANDOFF.md",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "../../WORK_LOG.md",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "RESEARCH.md",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "agent-instructions.md",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "design-context.md",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "contributor-synthesis.md",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "../../AGENTS.md",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "../../DESIGN.md",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "../../DESIGN-REVIEW.md",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "evidence/engineering-verification.json",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "evidence/starting-hashes.json",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "evidence/AGENTS.md.before.txt",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "../design-governance-20261102/engineering/verification.json",
+        "valid": true
+      },
+      {
+        "document": "research/agent-design-policy-202610/RESULT.md",
+        "target": "../design-governance-20261102/engineering/ENGINEERING_HANDOFF.md",
+        "valid": true
+      }
+    ]
+  },
+  "whitespace": {
+    "documents": [
+      "AGENTS.md",
+      "DESIGN-REVIEW.md",
+      "research/agent-design-policy-202610/RESULT.md"
+    ],
+    "trailingWhitespace": [],
+    "gitCommand": "git diff --check -- AGENTS.md DESIGN-REVIEW.md research/agent-design-policy-202610/RESULT.md",
+    "gitExitCode": 0,
+    "stdout": "",
+    "stderr": "",
+    "untrackedDocumentCoverage": "RESULT.md trailing whitespace and local links read directly because git diff does not include untracked files."
+  },
+  "notRun": [
+    "new model behavior experiments",
+    "current host automatic injection or settings probes",
+    "browser capture or new visual review",
+    "full build/verify/test suite",
+    "historical 17 tests and 14 negative cases",
+    "new mutation fixtures"
+  ]
+}

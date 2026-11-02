@@ -1,0 +1,186 @@
+{
+  "verifiedAt": "2026-11-02",
+  "verifiedBy": "/root/engineering_manager/docs_integrator",
+  "kind": "targeted CLI and exact audit-transcription cross-check; no new visual review",
+  "record": "research/design-governance-20261102/engineering/llm-wiki.review.json",
+  "tests": [
+    {
+      "name": "current-valid",
+      "command": "node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json",
+      "exitCode": 0,
+      "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 21 · 개선 필요 5 · 미확인 0 (26개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음",
+      "stderr": ""
+    },
+    {
+      "name": "current-require-approved",
+      "command": "node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json --require-approved",
+      "exitCode": 1,
+      "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 21 · 개선 필요 5 · 미확인 0 (26개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음",
+      "stderr": ""
+    },
+    {
+      "name": "missing-evidence",
+      "command": "node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record .design-review-fixtures-EvOxBj/missing-evidence.json",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "파일 누락: .missing-review-evidence.png"
+    },
+    {
+      "name": "tampered-evidence-hash",
+      "command": "node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record .design-review-fixtures-EvOxBj/tampered-evidence-hash.json",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "stale 또는 변조: research/design-governance-20261102/evidence/before/slide-01.png"
+    },
+    {
+      "name": "stale-runtime",
+      "command": "node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record .design-review-fixtures-EvOxBj/stale-runtime.json",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "stale 또는 필수 입력 누락: styles.css"
+    },
+    {
+      "name": "missing-required-input",
+      "command": "node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record .design-review-fixtures-EvOxBj/missing-required-input.json",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "stale 또는 필수 입력 누락: templates/material.html"
+    },
+    {
+      "name": "missing-review",
+      "command": "node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record .design-review-fixtures-EvOxBj/missing-review.json",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "scope에 판정이 없는 장이 있습니다."
+    },
+    {
+      "name": "stale-audit",
+      "command": "node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record .design-review-fixtures-EvOxBj/stale-audit.json",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "stale 또는 변조: research/design-governance-20261102/design/LLM_WIKI_AUDIT.md"
+    },
+    {
+      "name": "draft-unreviewed-only",
+      "command": "node scripts/design-review.cjs draft --source talks/llm-wiki/slides.md --record .design-review-fixtures-EvOxBj/draft.json --mode presentation-stage-only --viewport 1440x1000",
+      "exitCode": 0,
+      "stdout": "미확인 초안 생성: .design-review-fixtures-EvOxBj/draft.json (승인 없음)",
+      "assertion": "26 unreviewed rows; no reviewer/reason generated"
+    },
+    {
+      "name": "draft-check-incomplete",
+      "command": "node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record .design-review-fixtures-EvOxBj/draft.json",
+      "exitCode": 1,
+      "stdout": "기록 최신성·범위 유효 · 검토 미완료: 승인 0 · 개선 필요 0 · 미확인 26 (26개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음",
+      "stderr": ""
+    },
+    {
+      "name": "final-npm-alias-current",
+      "command": "npm run design:review -- check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json",
+      "exitCode": 0,
+      "stdout": "> stage-presentation-kit@1.0.0 design:review\n> node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json\n\n기록 최신성·범위 유효 · 검토 완료: 승인 21 · 개선 필요 5 · 미확인 0 (26개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음",
+      "stderr": ""
+    },
+    {
+      "name": "final-npm-alias-require-approved",
+      "command": "npm run design:review -- check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json --require-approved",
+      "exitCode": 1,
+      "stdout": "> stage-presentation-kit@1.0.0 design:review\n> node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json --require-approved\n\n기록 최신성·범위 유효 · 검토 완료: 승인 21 · 개선 필요 5 · 미확인 0 (26개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음",
+      "stderr": ""
+    },
+    {
+      "name": "supporting-board-missing",
+      "command": "node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record .board-review-fixtures-OMlury/supporting-board-missing.json",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "파일 누락: .missing-board.jpg"
+    },
+    {
+      "name": "supporting-board-tampered-hash",
+      "command": "node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record .board-review-fixtures-OMlury/supporting-board-tampered-hash.json",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "stale 또는 변조: research/design-governance-20261102/evidence/before/contact-01-08.jpg"
+    },
+    {
+      "name": "final-four-board-current",
+      "command": "npm run design:review -- check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json",
+      "exitCode": 0,
+      "stdout": "> stage-presentation-kit@1.0.0 design:review\n> node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json\n\n기록 최신성·범위 유효 · 검토 완료: 승인 21 · 개선 필요 5 · 미확인 0 (26개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음",
+      "stderr": "",
+      "supportingEvidenceFiles": 4
+    },
+    {
+      "name": "final-four-board-require-approved",
+      "command": "npm run design:review -- check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json --require-approved",
+      "exitCode": 1,
+      "stdout": "> stage-presentation-kit@1.0.0 design:review\n> node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json --require-approved\n\n기록 최신성·범위 유효 · 검토 완료: 승인 21 · 개선 필요 5 · 미확인 0 (26개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음",
+      "stderr": "",
+      "supportingEvidenceFiles": 4
+    }
+  ],
+  "auditTranscription": {
+    "rows": 26,
+    "fieldsChecked": [
+      "role",
+      "visualLead",
+      "subject",
+      "status",
+      "reason",
+      "preservationOrAction"
+    ],
+    "approved": 21,
+    "needsChanges": [
+      10,
+      17,
+      18,
+      20,
+      24
+    ]
+  },
+  "historicalInputComparison": {
+    "total": 111,
+    "unchanged": 109,
+    "differences": [
+      "DESIGN.md",
+      "talks/llm-wiki/README.md"
+    ],
+    "explanation": "DESIGN is current re-review; talk README is non-render authoring entry; historical input manifest retained byte-for-byte"
+  },
+  "fixturePolicy": "Mutated only temporary records, then removed fixture directory. Product inputs/evidence unchanged.",
+  "finalCrossCheck": {
+    "reviewer": "/root/engineering_manager/docs_integrator",
+    "filesRead": [
+      "scripts/design-review.cjs",
+      "tests/design-review.test.cjs",
+      "package.json"
+    ],
+    "targeted": {
+      "command": "node --test tests/design-review.test.cjs",
+      "tests": 17,
+      "passed": 17,
+      "failed": 0,
+      "confirmedBy": [
+        "/root/engineering_manager/review_engineer",
+        "/root/engineering_manager/docs_integrator",
+        "/root/engineering_manager"
+      ]
+    },
+    "localLinks": {
+      "documents": 7,
+      "checked": 122,
+      "missing": 0,
+      "excluded": "code fence and inline-code examples"
+    },
+    "originalAGENTSRulesPreserved": true,
+    "supportingEvidence": {
+      "files": 4,
+      "policy": "Declared auxiliary evidence existence/SHA only; per-slide PNG scope remains independent",
+      "negativeChecks": [
+        "missing supporting path",
+        "tampered supporting hash"
+      ]
+    },
+    "recordSHA256": "35cab7914e37429f9825ab7b0d414652b681349e8e78856b7ed51ac7d13d1bb6"
+  }
+}

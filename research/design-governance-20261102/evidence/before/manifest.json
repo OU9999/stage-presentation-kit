@@ -1,0 +1,1627 @@
+{
+  "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09",
+  "captureMode": "presentation-stage-only",
+  "hashes": {
+    "talks/llm-wiki/slides.md": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "DESIGN.md": "247fe734bcdea3b21a3af1c37d7390e63cc228ad4589e491ae35887b5422656f",
+    "talks/llm-wiki/test.md": "174e1fdc3844045f8e5cae5890ffd87aa21562487180fcf4e01a90fa0ea13489"
+  },
+  "observations": [
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#1",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "0",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "LLM Wiki",
+      "headingSize": "118px",
+      "text": "LLM Wiki내 자료를 AI와 함께 정리하는 방법모아 둔 자료를, 다음 질문에 다시 쓰기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "내 자료를 AI와 함께 정리하는 방법",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-01.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#2",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "1",
+      "layout": "blocks",
+      "composition": "quote",
+      "heading": "LLM Wiki는 무엇인가요?",
+      "headingSize": "38px",
+      "text": "LLM Wiki는 무엇인가요?내 자료를 AI와 함께 정리하고 연결하는\n나만의 마크다운 지식 베이스입니다.내가 읽고 고칠 수 있고, AI도 찾아 읽고 갱신합니다.Karpathy가 2026년 4월 공개한 설계 아이디어",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "나만의 마크다운 지식 베이스입니다.",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-02.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#3",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "2",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "왜 필요한가요?",
+      "headingSize": "54px",
+      "text": "왜 필요한가요?“AI가 내 자료를 좀 더 잘 이해해 줬으면.”자료를 개념과 관계로 정리해, 다음 질문에 다시 씁니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/bf4ad827da99-knowledge-layers.svg",
+          "alt": "왜 필요한가요?를 설명하는 기존 도식.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 600,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 422.36248779296875,
+            "right": 1314.7199401855469,
+            "bottom": 697.5118408203125
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "“AI가 내 자료를 좀 더 잘 이해해 줬으면.”",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-03.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#4",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "3",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "heading": "개인비서도 내 맥락이 필요합니다",
+      "headingSize": "64px",
+      "text": "개인비서도 내 맥락이 필요합니다알아야 할 맥락내 상황 · 선호 · 이전에 선택한 이유위키가 돕는 일흩어진 맥락을 문서로 정리해 필요할 때 다시 읽게 합니다.개인비서형 에이전트 예: OpenClaw · Hermes",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "알아야 할 맥락",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "이전에 선택한 이유",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "위키가 돕는 일",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "필요할 때 다시 읽게 합니다.",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-04.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#5",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "무엇이 생기나요?",
+      "headingSize": "54px",
+      "text": "무엇이 생기나요?원자료(raw) · 정리한 문서(wiki) · 작업 규칙(rules.md)마크다운은 글과 링크를 적는 텍스트 파일입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/f2422a7925dc-raw-wiki-rules.svg",
+          "alt": "무엇이 생기나요?를 설명하는 기존 도식.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 600,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 422.36248779296875,
+            "right": 1314.7199401855469,
+            "bottom": 697.5118408203125
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "원자료(raw) · 정리한 문서(wiki) · 작업 규칙(rules.md)",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-05.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#6",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "5",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "heading": "사람과 AI가 함께 편집합니다",
+      "headingSize": "64px",
+      "text": "사람과 AI가 함께 편집합니다사람목적을 정하고, 내 생각과 판단을 직접 적습니다.AI자료를 읽고, 문서를 쓰고, 연결과 목차를 갱신합니다.사람도 같은 마크다운 문서를 읽고 고칠 수 있습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "사람",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "목적을 정하고, 내 생각과 판단을 직접 적습니다.",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "AI",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "자료를 읽고, 문서를 쓰고, 연결과 목차를 갱신합니다.",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-06.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#7",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "6",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "RAG와 무엇이 다른가요?",
+      "headingSize": "72px",
+      "text": "RAG와 무엇이 다른가요?살펴볼 점RAG 구성작은 LLM Wiki중심 작업자료를 검색해 답하기문서를 정리하고 연결하기준비할 것검색 방법·색인 등 설계파일·목차·링크부터 시작질문할 때찾은 근거를 참고정리한 문서와 원자료를 참고유지할 것검색 품질·자료 변경문서 내용·연결·자료 변경함께 쓸 수 있습니다. 규모가 커지면 위키에도 검색이 필요합니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "함께 쓸 수 있습니다. 규모가 커지면 위키에도 검색이 필요합니다.",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-07.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#8",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "7",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "RAG는 필요한 근거를 찾아 답합니다",
+      "headingSize": "54px",
+      "text": "RAG는 필요한 근거를 찾아 답합니다같은 자료에서 지금 질문에 필요한 부분을 찾아 답을 만듭니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/1f943e43d8d7-rag-path.svg",
+          "alt": "RAG는 필요한 근거를 찾아 답합니다를 설명하는 기존 도식.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 600,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 467.04656982421875,
+            "right": 1314.7199401855469,
+            "bottom": 742.1959228515625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "지금 질문에 필요한 부분을 찾아",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-08.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#9",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "8",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "위키는 정리해 둔 문서를 읽습니다",
+      "headingSize": "54px",
+      "text": "위키는 정리해 둔 문서를 읽습니다자료를 개념·비교·계획으로 미리 정리하고, 필요한 쪽을 다시 읽습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/e39c92d904c4-wiki-path.svg",
+          "alt": "위키는 정리해 둔 문서를 읽습니다를 설명하는 기존 도식.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 600,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 467.04656982421875,
+            "right": 1314.7199401855469,
+            "bottom": 742.1959228515625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "개념·비교·계획으로 미리 정리",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-09.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#10",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "9",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "Ingest는 자료를 소화하고 연결하는 일",
+      "headingSize": "54px",
+      "text": "Ingest는 자료를 소화하고 연결하는 일자료 읽기 → 내용 나누기 → 문서·목차·링크 갱신하기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/8421786b1f57-ingest-map.svg",
+          "alt": "Ingest는 자료를 소화하고 연결하는 일를 설명하는 기존 도식.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 600,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 467.04656982421875,
+            "right": 1314.7199401855469,
+            "bottom": 742.1959228515625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "자료 읽기 → 내용 나누기 → 문서·목차·링크 갱신하기",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-10.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#11",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "10",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "요약 하나로 끝나지 않습니다",
+      "headingSize": "54px",
+      "text": "요약 하나로 끝나지 않습니다자료 요약은 그 자료를, 개념 문서는 여러 자료의 공통 주제를 설명합니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/a3c7b37535df-source-concept.svg",
+          "alt": "한 자료의 요약과 여러 자료를 연결한 개념 문서의 차이.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 600,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 467.04656982421875,
+            "right": 1314.7199401855469,
+            "bottom": 742.1959228515625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "자료 요약",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "개념 문서",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-11.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#12",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "11",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "heading": "나무위키처럼 문서들이 연결됩니다",
+      "headingSize": "64px",
+      "text": "나무위키처럼 문서들이 연결됩니다주제별 문서한 파일에 몰아넣지 않고 개념별로 나눕니다.목차와 링크관련 개념과 원자료를 찾아 읽습니다.연결된 지식새 자료가 오면 문서와 관계를 보완합니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "주제별 문서",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "개념별로 나눕니다.",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "목차와 링크",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "원자료를 찾아 읽습니다.",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "연결된 지식",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "문서와 관계를 보완합니다.",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-12.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#13",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "12",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "질문하면 이렇게 씁니다",
+      "headingSize": "72px",
+      "text": "질문하면 이렇게 씁니다질문다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?정리한 개념과 비교 문서를 읽습니다.우리 목적과 조건에 맞춰 답합니다.쓸 만한 답은 확인한 뒤 문서로 남깁니다.발표용 스터디 사례입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "질문",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "개념과 비교 문서",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "우리 목적과 조건",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "문서로 남깁니다.",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-13.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#14",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "13",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "새 자료가 오면 기존 문서도 고칩니다",
+      "headingSize": "54px",
+      "text": "새 자료가 오면 기존 문서도 고칩니다입문자와 15분 활동이라는 새 조건으로 설명·선택 기준·계획을 함께 고칩니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/6b2263dbe032-related-updates.svg",
+          "alt": "새 자료가 오면 기존 문서도 고칩니다를 설명하는 기존 도식.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 600,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 467.04656982421875,
+            "right": 1314.7199401855469,
+            "bottom": 742.1959228515625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "입문자와 15분 활동이라는 새 조건",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-14.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#15",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "14",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "heading": "다 넣기보다, 다시 쓸 자료부터",
+      "headingSize": "64px",
+      "text": "다 넣기보다, 다시 쓸 자료부터내 목적에 필요한가앞으로 만들 결과와 관련된 자료인가왜 골랐는가가치 있다고 느낀 이유를 직접 적을 수 있는가작게 시작하기같은 주제의 자료 두 개부터 연결합니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "내 목적에 필요한가",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "관련된 자료",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "왜 골랐는가",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "이유를 직접 적을 수 있는가",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "작게 시작하기",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "자료 두 개부터 연결",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-15.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#16",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "15",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "목적이 있어야 정리 기준이 생깁니다",
+      "headingSize": "54px",
+      "text": "목적이 있어야 정리 기준이 생깁니다왜 골랐는지, 어디에 쓸지를 적으면 정리할 기준이 생깁니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/de481ad077ff-purpose-questions.svg",
+          "alt": "목적이 있어야 정리 기준이 생깁니다를 설명하는 기존 도식.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 600,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 467.04656982421875,
+            "right": 1314.7199401855469,
+            "bottom": 742.1959228515625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "왜 골랐는지, 어디에 쓸지",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-16.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#17",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "16",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "heading": "내 맥락을 정리하는 일은 어렵습니다",
+      "headingSize": "64px",
+      "text": "내 맥락을 정리하는 일은 어렵습니다같은 자료라도내 목적과 경험에 따라 묶는 기준이 달라집니다.기준부터 적기왜 골랐고, 어떤 질문을 풀려는가?다시 쓸 방향 잡기목적 없이 모으기만 하면 다시 쓰기 어렵습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "같은 자료라도",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "묶는 기준이 달라집니다.",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "기준부터 적기",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "어떤 질문을 풀려는가?",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "다시 쓸 방향 잡기",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "다시 쓰기 어렵습니다.",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-17.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#18",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "17",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "heading": "목적과 내 판단은 내가 적습니다",
+      "headingSize": "64px",
+      "text": "목적과 내 판단은 내가 적습니다목적은 내가 정합니다누구를 위해 무엇을 만들고 싶은가내 생각은 내가 기록합니다감정 · 생각 · 판단 · 선택 이유AI 정리는 구분합니다원문 · 내 기록 · AI가 쓴 요약과 해석",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "목적은 내가 정합니다",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "무엇을 만들고 싶은가",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "내 생각은 내가 기록합니다",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "선택 이유",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "AI 정리는 구분합니다",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "AI가 쓴 요약과 해석",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-18.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#19",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "18",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "heading": "어디에 쓸 수 있나요?",
+      "headingSize": "64px",
+      "text": "어디에 쓸 수 있나요?공부읽은 자료를 개념과 질문으로 연결하기프로젝트배경과 결정 이유를 함께 읽기글과 발표모아 둔 근거로 초안 만들기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "공부",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "개념과 질문으로 연결",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "프로젝트",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "함께 읽기",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "글과 발표",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "초안 만들기",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-19.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#20",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "19",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "정리한 지식으로 만든 실제 결과",
+      "headingSize": "54px",
+      "text": "정리한 지식으로 만든 실제 결과15분 활동 진행안 읽기 · 준비된 메모와 연결을 읽는 활동 예입니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/4f573bd52fd7-session-plan.svg",
+          "alt": "정리한 지식으로 만든 실제 결과를 설명하는 기존 도식.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 600,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 275.14935302734375,
+            "width": 1189.43994140625,
+            "height": 467.04656982421875,
+            "right": 1314.7199401855469,
+            "bottom": 742.1959228515625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "15분 활동 진행안 읽기",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-20.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#21",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "20",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "heading": "장점은 나도 AI도 읽고 고친다는 것",
+      "headingSize": "64px",
+      "text": "장점은 나도 AI도 읽고 고친다는 것함께 읽기설명과 근거가 마크다운 문서로 남습니다.함께 고치기AI의 정리에 내 경험과 판단을 보탭니다.다시 활용하기정리된 개념과 연결을 다음 질문에 씁니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "함께 읽기",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "마크다운 문서로 남습니다.",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "함께 고치기",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "내 경험과 판단을 보탭니다.",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "다시 활용하기",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "다음 질문에 씁니다.",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-21.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#22",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "21",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "heading": "AI가 정리해도 확인은 필요합니다",
+      "headingSize": "64px",
+      "text": "AI가 정리해도 확인은 필요합니다내용잘못된 요약과 근거 없는 연결이 생길 수 있습니다.변화새 자료와 예전 설명이 충돌할 수 있습니다.관리확인하고 고치는 데 시간이 듭니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "내용",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "잘못된 요약과 근거 없는 연결",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "변화",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "예전 설명이 충돌",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "관리",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "시간이 듭니다.",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-22.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#23",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "22",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "이럴 때 작게 시작하세요",
+      "headingSize": "72px",
+      "text": "이럴 때 작게 시작하세요내 상황먼저 해 볼 일같은 주제를 자주 다시 물음관련 자료 두 개를 연결해 보기내 경험과 판단도 함께 필요함선택 이유와 현재 상황 적기자료가 많고 자주 바뀜검색·갱신·검토 비용 비교하기한 번만 확인하면 됨간단한 노트와 검색부터 시작하기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-23.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#24",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "23",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "첫 요청은 이 정도면 됩니다",
+      "headingSize": "72px",
+      "text": "첫 요청은 이 정도면 됩니다목적: AI 스터디에서 LLM Wiki를 설명하고 싶어.\n자료: 내가 고른 두 자료와 직접 쓴 생각·선택 이유를 읽어 줘.\n정리: 원문·내 기록·AI 요약을 구분하고 개념과 근거를 연결해 줘.\n확인: 원자료 링크, 바꾼 파일, 모르는 점을 알려줘.\n예제 팩 · 자료 읽는 방법원본 그림·48장 원고 보기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-24.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#25",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "24",
+      "layout": "blocks",
+      "composition": "closing",
+      "heading": "다음 질문에 쓸 자료 두 개부터",
+      "headingSize": "110px",
+      "text": "다음 질문에 쓸 자료 두 개부터목적을 정하고 → 연결하고 → 확인하고 → 다시 씁니다.내 자료를, 나와 AI가 함께 읽는 지식으로.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "목적을 정하고 → 연결하고 → 확인하고 → 다시 씁니다.",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-25.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    },
+    {
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#26",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "25",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "어떤 자료로 시작하고 싶나요?",
+      "headingSize": "118px",
+      "text": "어떤 자료로 시작하고 싶나요?내가 다시 묻는 질문 하나,\n그 질문에 쓸 자료 두 개는 무엇인가요?Q&A학습 자료 · 설계와 기술 원문원본 그림·48장 원고 보기",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "내가 다시 묻는 질문 하나,\n그 질문에 쓸 자료 두 개는 무엇인가요?",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/design-governance-20261102/evidence/before/slide-26.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+    }
+  ]
+}

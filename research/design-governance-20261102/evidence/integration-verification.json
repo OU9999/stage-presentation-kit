@@ -1,0 +1,53 @@
+{
+  "checks": {
+    "buildSite": "passed",
+    "verifySite": "passed",
+    "tests": {
+      "total": 279,
+      "passed": 279,
+      "failed": 0
+    },
+    "reviewIntegrity": {
+      "exitCode": 0,
+      "approved": 21,
+      "needsChanges": 5
+    },
+    "visualApprovalGate": {
+      "exitCode": 1,
+      "expected": true
+    }
+  },
+  "sourceSha256": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09",
+  "recordSha256": "35cab7914e37429f9825ab7b0d414652b681349e8e78856b7ed51ac7d13d1bb6",
+  "baseline": {
+    "total": 111,
+    "allowedChanged": [
+      "DESIGN.md",
+      "talks/llm-wiki/README.md"
+    ],
+    "unexpectedChanged": []
+  },
+  "preservedMemoSha256": "174e1fdc3844045f8e5cae5890ffd87aa21562487180fcf4e01a90fa0ea13489",
+  "documentation": {
+    "files": 14,
+    "localLinks": 237,
+    "missing": []
+  },
+  "screens": {
+    "count": 26,
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    "overflow": 0,
+    "missingImages": 0
+  },
+  "designNeedsChanges": [
+    10,
+    17,
+    18,
+    20,
+    24
+  ]
+}

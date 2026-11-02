@@ -8,7 +8,8 @@
     "build:site": "node scripts/build-site.cjs build",
     "verify:site": "node scripts/build-site.cjs verify",
     "dev": "node scripts/stage.cjs dev",
-    "test": "node --test tests/*.test.cjs"
+    "test": "node --test tests/*.test.cjs",
+    "design:review": "node scripts/design-review.cjs"
   },
   "engines": { "node": ">=20" },
   "dependencies": {

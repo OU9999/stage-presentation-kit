@@ -1,0 +1,1207 @@
+{
+  "format": "stage-design-review-v1",
+  "source": {
+    "path": "talks/llm-wiki/slides.md",
+    "sha256": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "75e405eb4d1695fc5b4d5301d9393a2b3a0f938a3288dd3c9807e2845ca90817"
+  },
+  "inputs": {
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "d51e0b2d829d7d30538bf22a40078f23606ec4f0cff15754134cecc96579b7c3",
+    "blocks.js": "44077ea7dec27d23747421e7a0198202dd0f5577feeaec8ad214238dbf6e3720",
+    "deck-model.js": "351220b228183066edf99117299e21c876b8e107674ca3b4200aa79cea0d0da3",
+    "package-lock.json": "7b42ab6f64805637389db1e035563781604df231d572e458f87dfeceffd9fdb1",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "075ff2f9871675b5db3cd19852a6cacac5c1ec14f64ef708fa2a6723a64572b3",
+    "scripts/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "scripts/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "scripts/markdown-deck.cjs": "fe53876f9a1671c802d747db7fd79b889523178e77387a2d59d8f557851aa306",
+    "scripts/markdown-document.cjs": "eef10ddf86a10071ec4b310b32094fe40d71a8c783b043732064d9a90544cb43",
+    "scripts/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "scripts/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "scripts/stage.cjs": "0a7faf4e82b4fe2828f40e66f896b60abf8c2c42680c800c13203f48889d4681",
+    "stage.config.json": "33215de7ca0cdbb771802f01e658231048fb25bdf269b0ab70e83085f71e164e",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+    "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+    "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+    "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+    "talks/llm-wiki/assets/examples/course.txt": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+    "talks/llm-wiki/assets/examples/reading.txt": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+    "talks/llm-wiki/assets/examples/team.txt": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+    "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "talks/llm-wiki/assets/expanded/agentic-routing.svg": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+    "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+    "talks/llm-wiki/assets/expanded/five-layers.svg": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+    "talks/llm-wiki/assets/expanded/ingest-map.svg": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+    "talks/llm-wiki/assets/expanded/knowledge-layers.svg": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+    "talks/llm-wiki/assets/expanded/purpose-questions.svg": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+    "talks/llm-wiki/assets/expanded/query-reading.svg": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+    "talks/llm-wiki/assets/expanded/rag-path.svg": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+    "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+    "talks/llm-wiki/assets/expanded/reflection-layers.svg": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+    "talks/llm-wiki/assets/expanded/related-updates.svg": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+    "talks/llm-wiki/assets/expanded/review-return.svg": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+    "talks/llm-wiki/assets/expanded/rules-graph.svg": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+    "talks/llm-wiki/assets/expanded/saved-question.svg": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+    "talks/llm-wiki/assets/expanded/session-plan.svg": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+    "talks/llm-wiki/assets/expanded/shared-workspace.svg": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+    "talks/llm-wiki/assets/expanded/source-concept.svg": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+    "talks/llm-wiki/assets/expanded/wiki-path.svg": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+    "talks/llm-wiki/assets/expanded/work-context.svg": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+    "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+    "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+    "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+    "talks/llm-wiki/materials/demo-log.md": "c9658bac6915ae5cb931bdfe1a33c5d67069c6aa0a60bcf80af4b9a550d257e0",
+    "talks/llm-wiki/materials/index.md": "be67f040062613857bd37682a3b3590b649ab92ee921a7a68f0414dcb80ce715",
+    "talks/llm-wiki/materials/reference-library.md": "6b1796922385854cb43a10e332fd6df82fd229c8d8e8868d89db4ec137dcd883",
+    "talks/llm-wiki/materials/session-plan.md": "d8a774989f214606b1791b18e89b6ab0f53b334efc5a475b34c61b39ea12f390",
+    "talks/llm-wiki/materials/speaker-script.md": "e06bb07a80c3837d60ae1f24e549f4c09596a3b9b3dc5f2f3de949bf33d10cc8",
+    "talks/llm-wiki/materials/study-guide.md": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+    "talks/llm-wiki/materials/visual-appendix.md": "062e54a9df86a7bd5f2afcb37230abde03d03fd77003fbc6505dd7741a9fcc33",
+    "talks/llm-wiki/materials/workshop.md": "5cdf7f8a16798a8ef7a79ab8fc715fd904baef33a4291aa6c294ec8d3b9edace",
+    "talks/llm-wiki/slides.md": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09",
+    "templates/material.html": "0851e62ab6757a4ad68084fb534dccf1f440317fb06df780041bcbf2eea6c665",
+    "templates/materials.css": "1b61ac3b3119aa9aae8a080ea24e63eb0080abf0ce5749d469e2cf0977a0b702",
+    "templates/presentation.html": "c764f4649354a77887b2f8f69a809995b3c64d65402a04b6697225edf6afc4dd",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9"
+  },
+  "scope": [
+    {
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      }
+    }
+  ],
+  "capture": {
+    "designSha256": "247fe734bcdea3b21a3af1c37d7390e63cc228ad4589e491ae35887b5422656f",
+    "inputManifest": {
+      "path": "research/design-governance-20261102/evidence/before/input-hashes.json",
+      "sha256": "199e5d16ed7c2a4df6bee31e74340c5b8f69f7cb934d2b13b96d21e02acf8c77"
+    },
+    "inputs": {
+      "DESIGN.md": "247fe734bcdea3b21a3af1c37d7390e63cc228ad4589e491ae35887b5422656f",
+      "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+      "blocks.css": "d51e0b2d829d7d30538bf22a40078f23606ec4f0cff15754134cecc96579b7c3",
+      "blocks.js": "44077ea7dec27d23747421e7a0198202dd0f5577feeaec8ad214238dbf6e3720",
+      "deck-model.js": "351220b228183066edf99117299e21c876b8e107674ca3b4200aa79cea0d0da3",
+      "scripts/markdown-document.cjs": "eef10ddf86a10071ec4b310b32094fe40d71a8c783b043732064d9a90544cb43",
+      "scripts/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+      "scripts/stage.cjs": "0a7faf4e82b4fe2828f40e66f896b60abf8c2c42680c800c13203f48889d4681",
+      "stage.config.json": "33215de7ca0cdbb771802f01e658231048fb25bdf269b0ab70e83085f71e164e",
+      "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "talks/llm-wiki/README.md": "80bcd041caac5a0581f25cfb6110317ac0eaaaf1dabd349f94cc1d34646cd231",
+      "talks/llm-wiki/assets/CREDITS.md": "bf3de73abf5b09a8ff1d21a6e1f19ec1314afbec8b41bdd9092c4902fd3afb52",
+      "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+      "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+      "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+      "talks/llm-wiki/assets/case-course-initial.svg": "2dc76bc9840090a7668879a8ce86587cd0256c1c32e5d8736be084e6aecc8910",
+      "talks/llm-wiki/assets/case-course.svg": "92826f25bf473f1cde492fa4adeca37221ef319e504cd1423bf56dd39511974c",
+      "talks/llm-wiki/assets/case-reading-initial.svg": "217a8eb04b479e3deb28b85af77582e7e58affaace53f13c2ef862a2ad2bacbc",
+      "talks/llm-wiki/assets/case-reading.svg": "381686fba25b77da3d78ce015ba919505cb5fbb6a25a91522542ba3a43784979",
+      "talks/llm-wiki/assets/case-team.svg": "0719dc19d60319b011810062359dc0e3235398cf99dcff9753abf63410cfb19e",
+      "talks/llm-wiki/assets/change-trace.svg": "5efc5a198e7f6479ebced5f155635eeeefce5f409a8881ce28afcdd4b87b417f",
+      "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+      "talks/llm-wiki/assets/decision-example.txt": "58c5bbb5da45d15d04ad3393f83248d46c4be2f7cd3a6314afc334fba555d442",
+      "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+      "talks/llm-wiki/assets/examples/course.txt": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+      "talks/llm-wiki/assets/examples/reading.txt": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+      "talks/llm-wiki/assets/examples/team.txt": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+      "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+      "talks/llm-wiki/assets/expanded/agentic-routing.svg": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+      "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+      "talks/llm-wiki/assets/expanded/five-layers.svg": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+      "talks/llm-wiki/assets/expanded/ingest-map.svg": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+      "talks/llm-wiki/assets/expanded/knowledge-layers.svg": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+      "talks/llm-wiki/assets/expanded/purpose-questions.svg": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+      "talks/llm-wiki/assets/expanded/query-reading.svg": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+      "talks/llm-wiki/assets/expanded/rag-path.svg": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+      "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+      "talks/llm-wiki/assets/expanded/reflection-layers.svg": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+      "talks/llm-wiki/assets/expanded/related-updates.svg": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+      "talks/llm-wiki/assets/expanded/review-return.svg": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+      "talks/llm-wiki/assets/expanded/rules-graph.svg": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+      "talks/llm-wiki/assets/expanded/saved-question.svg": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+      "talks/llm-wiki/assets/expanded/session-plan.svg": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+      "talks/llm-wiki/assets/expanded/shared-workspace.svg": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+      "talks/llm-wiki/assets/expanded/source-concept.svg": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+      "talks/llm-wiki/assets/expanded/wiki-path.svg": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+      "talks/llm-wiki/assets/expanded/work-context.svg": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+      "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+      "talks/llm-wiki/assets/knowledge-map.svg": "07411af0788bfcd8c06ff8c2b0fc026a16659892762aefb568248ee6b40cd109",
+      "talks/llm-wiki/assets/photos/library.jpg": "b07f03559eed0fc0946ef6a1cafb9cc423beb70d9ba9b0b8383909ac8f19ce43",
+      "talks/llm-wiki/assets/photos/open-books.jpg": "5aa7ac752bffc72f7f3526b52ac26aa563951dd7e9767363b03d247f4e519903",
+      "talks/llm-wiki/assets/photos/study-table.jpg": "258a229c6dc857c44c2a93083f74eccebe4566b530f043228bc2d8aa1709e1a7",
+      "talks/llm-wiki/assets/photos/writing.jpg": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "talks/llm-wiki/assets/rebuild-study.txt": "a8ccde64c53553b7c9ccda9f19bad21e828ec98f537e36b51264446bdc6282b4",
+      "talks/llm-wiki/assets/rebuild/agentic-update.svg": "870f43db15d573e51f2a4eedc3fd669c48ca278822d45fe842abe4aa2c2ac9f9",
+      "talks/llm-wiki/assets/rebuild/compare-page.svg": "db1dd9a6b2837704cd329436f352e6f3ea379b5b8154c18fcb0a4206b0af62f9",
+      "talks/llm-wiki/assets/rebuild/concept-page.svg": "ef27a516e25131b876ee7a4e1de22e82261ba0ad80257eb9d49fc10e5408e154",
+      "talks/llm-wiki/assets/rebuild/ingest-links.svg": "fe7df7d233122845080be448dd4b98a406ce7295518ffac9a033c000140845d0",
+      "talks/llm-wiki/assets/rebuild/lint-review.svg": "def3a845f957966060683d7821bf9329e06925f51d815c6a4cc110aad6b4c5b6",
+      "talks/llm-wiki/assets/rebuild/query-context.svg": "98b97c631e4eb7de71cf3e9b04edbb10ee2577ad8218b5f1347dd68d3ae01bfe",
+      "talks/llm-wiki/assets/rebuild/question-saved.svg": "d5f298ff3a907e1b70fd8d15a643e0cc2a2505f47cf6685d7c71420ca63ec0ad",
+      "talks/llm-wiki/assets/rebuild/raw-wiki.svg": "d2659d83b8bbe32cc59dd55d4bd543d24dc9b7dc65c91fd5b7e53b51249c56ee",
+      "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+      "talks/llm-wiki/assets/reuse-route.svg": "65eecce8e8af5bfc849d98a23ab76952be2ed66565986335e335e5e40c174af4",
+      "talks/llm-wiki/assets/sources.txt": "0827f3843e16b2db5ef056b6a8f0c5affc395bc4d492afd53f9da664cd5278ab",
+      "talks/llm-wiki/assets/speaker-guide.txt": "102db85cd552285883794af391ee4d8e811d5984384485c909dee0a9096afdd2",
+      "talks/llm-wiki/assets/starter-template.txt": "c122e725c09d362019e1918bc26a8284dd06a125a760a21b2a3f78de5785320e",
+      "talks/llm-wiki/assets/study-notebook-map.svg": "3eb3b028a3414f0d15525539e0aa544c90df48d6c4704d99751917ce50d4a16a",
+      "talks/llm-wiki/assets/wiki-ingest-update.svg": "127df6c27adfcd67fe12091c12859ece95960c76ff301ae171a289a6285c6bfe",
+      "talks/llm-wiki/assets/wiki-layers.svg": "79afc5f22a989abd58ccf096aea59466057cb46a29da8cb263e34d37e36fc6b7",
+      "talks/llm-wiki/assets/wiki-maintenance-loop.svg": "8263a8f3fd79abe6d50dbd777086918876e589c88b4ab919b8755ee6daa1f5d3",
+      "talks/llm-wiki/assets/wiki-query-return.svg": "d68e2a55ee89c46cbd29a187f076f32d0146c8713c3b8b086ad2af1d05de8413",
+      "talks/llm-wiki/demo/README.md": "f95bd173cc838886f933264af4431eb12c836005b1781442feb6df5fca2dcaac",
+      "talks/llm-wiki/demo/after/wiki/claims/file-update.md": "92bb630e8e722d09d787eeeceb5c61bce8a861c96078e42525e0186091cc2838",
+      "talks/llm-wiki/demo/after/wiki/decisions/review-before-current.md": "9ceef6389ad84733d9958f28c9f7d614cbb4d1b275672a48fe148430cf76515f",
+      "talks/llm-wiki/demo/after/wiki/decisions/save-all.md": "65562b6302d2aac960520d10cb65a80a12e637ad986e21683fc64f3d7f2df7a3",
+      "talks/llm-wiki/demo/after/wiki/index.md": "dea98321d159bffd02e4a50224bf9790e0c6cc45666d64c77878abd2d5059934",
+      "talks/llm-wiki/demo/after/wiki/log.md": "0b190fbdbaa247b3a2fb0cc7b6329c008b04b932eed49263d62dbcd32fe66d8e",
+      "talks/llm-wiki/demo/after/wiki/pending/retrieval-coverage.md": "e301bd053c0d107a5b5fbfd1e674df1f723ca46855331e72d7199a3c4abe50d5",
+      "talks/llm-wiki/demo/after/wiki/questions/what-to-save.md": "dd3f09a6ddfa5439bb6084c1896f026fc8b814bbd8072aeeaa8eed5f398d05bd",
+      "talks/llm-wiki/demo/after/wiki/questions/wiki-and-learning.md": "77d75ad0051f7a46a232bc7ce762538f32bf1587abb40cc670190358b8a53e46",
+      "talks/llm-wiki/demo/before/wiki/claims/file-update.md": "844219560c6917c8c2bd3de6a1d60aaae7db2472049c8730e006d855945374f1",
+      "talks/llm-wiki/demo/before/wiki/decisions/save-all.md": "d77f31e59cfee51d93d6e6c73851f453e617af2c4ef1f793b59cd9ced7190761",
+      "talks/llm-wiki/demo/before/wiki/index.md": "52b6a60827254eba86ed7e11fa6d915edb99049a956503cdbf89a5614263ecbe",
+      "talks/llm-wiki/demo/before/wiki/log.md": "9aceece1ef383999a38ca7c31d15d09aecc97ab304f6dc68271bf13177bb62b0",
+      "talks/llm-wiki/demo/before/wiki/questions/wiki-and-learning.md": "09953148d63b4025185026a27765fec906d72684b886801c8c4069356b8af935",
+      "talks/llm-wiki/demo/changes.diff": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489",
+      "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+      "talks/llm-wiki/demo/receipt.json": "3052ecf8710697cddc4acb68ede40c4e5dd926f7eaada03fff13cc79e31b66b3",
+      "talks/llm-wiki/demo/review/review.json": "cb1f12d45063a496c27eeefff2069d2c8ec2c6c719d460e729f5ba86ee9d4216",
+      "talks/llm-wiki/demo/run-demo.cjs": "b73c7824599464d8ebb3510cfcec3e0d499d0ca2a1f5e91f6c44dc7225260faa",
+      "talks/llm-wiki/demo/source-notes/adr.md": "7a68c7c8fdbe0854da56f62fb4aaf1897ffc693ad9a31d3c1812bcb995faaab8",
+      "talks/llm-wiki/demo/source-notes/llm-wiki.md": "c82d841dd85d9587f5c4d95bb0681c21810e7077e63b5763c12dab23e29d2762",
+      "talks/llm-wiki/demo/source-notes/lora.md": "fb88ac73af8648228fc0ea71a0a7200f92ef081b4fe7c88e6c1c45fc4af03a2e",
+      "talks/llm-wiki/demo/source-notes/rag-initial.md": "084cc17c8e74de1a595f4fd9e608f7e3883a8733364e5a8bc9ca80eac034b297",
+      "talks/llm-wiki/demo/source-notes/rag.md": "c2cd0b4abbc182355ee618ef18581d63696483eeaea1e0cb707d140ac1507c62",
+      "talks/llm-wiki/demo/starter.txt": "0ac7822fd7af69689ef6297d03cf44744e609c78d9ef741c32f89a901a4db16e",
+      "talks/llm-wiki/materials/demo-log.md": "c9658bac6915ae5cb931bdfe1a33c5d67069c6aa0a60bcf80af4b9a550d257e0",
+      "talks/llm-wiki/materials/index.md": "be67f040062613857bd37682a3b3590b649ab92ee921a7a68f0414dcb80ce715",
+      "talks/llm-wiki/materials/reference-library.md": "6b1796922385854cb43a10e332fd6df82fd229c8d8e8868d89db4ec137dcd883",
+      "talks/llm-wiki/materials/session-plan.md": "d8a774989f214606b1791b18e89b6ab0f53b334efc5a475b34c61b39ea12f390",
+      "talks/llm-wiki/materials/speaker-script.md": "e06bb07a80c3837d60ae1f24e549f4c09596a3b9b3dc5f2f3de949bf33d10cc8",
+      "talks/llm-wiki/materials/study-guide.md": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+      "talks/llm-wiki/materials/visual-appendix.md": "062e54a9df86a7bd5f2afcb37230abde03d03fd77003fbc6505dd7741a9fcc33",
+      "talks/llm-wiki/materials/workshop.md": "5cdf7f8a16798a8ef7a79ab8fc715fd904baef33a4291aa6c294ec8d3b9edace",
+      "talks/llm-wiki/slides.md": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09",
+      "talks/llm-wiki/test.md": "174e1fdc3844045f8e5cae5890ffd87aa21562487180fcf4e01a90fa0ea13489",
+      "templates/presentation.html": "c764f4649354a77887b2f8f69a809995b3c64d65402a04b6697225edf6afc4dd",
+      "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+      "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9"
+    },
+    "supplemental": {
+      "revision": "2a95f37",
+      "inputs": {
+        "package-lock.json": "7b42ab6f64805637389db1e035563781604df231d572e458f87dfeceffd9fdb1",
+        "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+        "scripts/build-site.cjs": "075ff2f9871675b5db3cd19852a6cacac5c1ec14f64ef708fa2a6723a64572b3",
+        "scripts/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+        "scripts/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+        "scripts/markdown-deck.cjs": "fe53876f9a1671c802d747db7fd79b889523178e77387a2d59d8f557851aa306",
+        "scripts/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+        "templates/material.html": "0851e62ab6757a4ad68084fb534dccf1f440317fb06df780041bcbf2eea6c665",
+        "templates/materials.css": "1b61ac3b3119aa9aae8a080ea24e63eb0080abf0ce5749d469e2cf0977a0b702"
+      }
+    },
+    "manifest": {
+      "path": "research/design-governance-20261102/evidence/before/manifest.json",
+      "sha256": "fa51b511bdc22b93e2d670d0a8632713925b928d6410798eadafa88c505b38ab"
+    },
+    "evidence": [
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-01.png",
+        "sha256": "cd5f621f2cef661537a90ac7579c60728ef008f7e1ba26dcf017c9b11da0957c",
+        "slides": [
+          1
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-02.png",
+        "sha256": "51d6fbc96a8694a27ec1b09a0898c9b4060e2dcbc20c2158f734c5a19ff6c1d0",
+        "slides": [
+          2
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-03.png",
+        "sha256": "69a8c3cc729358fd90b951bc049eb822d8772aef9eadf46e718631b2b5f0af06",
+        "slides": [
+          3
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-04.png",
+        "sha256": "fc69f7bb5d62da7b5ba115d366a796956710c6ff444f1cd2f356b17b9e9694e3",
+        "slides": [
+          4
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-05.png",
+        "sha256": "833a0debd8f6d8b90905e816ac73acd0e2215b9b1caf3e8dfdfa01d16f03a1c9",
+        "slides": [
+          5
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-06.png",
+        "sha256": "2b841c5b005e719040ecd4e1c14b3710a5846370dd02b95b6cfe632536669ff1",
+        "slides": [
+          6
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-07.png",
+        "sha256": "374824edb624ea1e43e03dcd433c6749de193c5ef9609af604cff0d148e9bf1e",
+        "slides": [
+          7
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-08.png",
+        "sha256": "640d204ae668a0caed8f199c5da6d0e9a74fd0cd6b80642e6b361444e0b99e38",
+        "slides": [
+          8
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-09.png",
+        "sha256": "9b8c351cda507a4e787b41cd9abcc7ddab178cc90e2b06f8076519f01da37977",
+        "slides": [
+          9
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-10.png",
+        "sha256": "01cd460d497556166d79d5b121cde5b702081713a6cd06853a98806768715bb7",
+        "slides": [
+          10
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-11.png",
+        "sha256": "7cfbec1dc5828643f68d485f4492f4a9f1ba8e94324d0f1d39b8738ddbe57606",
+        "slides": [
+          11
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-12.png",
+        "sha256": "d236a5e4414b41b0d3bfb9a55f2bca68ff7c140ff14d28161b58996e49227e9e",
+        "slides": [
+          12
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-13.png",
+        "sha256": "0e989532ab2fd538be388ef0f9613e82383124cfc3ffffd7419fc41e59b71f0c",
+        "slides": [
+          13
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-14.png",
+        "sha256": "525650786f17deeb163c7e3024a94bc319f6ae39de45a91f4802f7555fcfcaef",
+        "slides": [
+          14
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-15.png",
+        "sha256": "38762f3c0dab887789bd68b60dcf19b2dcd742923edef8883364aa13e9fb4ee8",
+        "slides": [
+          15
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-16.png",
+        "sha256": "ff095e1125dc93e1bc2d152042a0434971993f26b5737db84f298184f96fe21d",
+        "slides": [
+          16
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-17.png",
+        "sha256": "7b760f75504e5917dbafe02b83adc30e972eded66139c8f9048bc22baccb84dd",
+        "slides": [
+          17
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-18.png",
+        "sha256": "e69f13288e493ca69fdad6a12c141d816ea3a7f9f1f248a759d4dcd5c0c6a8d2",
+        "slides": [
+          18
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-19.png",
+        "sha256": "d48f73327e6069701afa5039da82a1462201932a43fb8af8c4fc84e36e8b20b5",
+        "slides": [
+          19
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-20.png",
+        "sha256": "8bfd7b9e319966e6bc233bb1366305e60c52616ea62a66d6435b8e7f5ce46811",
+        "slides": [
+          20
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-21.png",
+        "sha256": "196b4779b8e56aa647fe31ae710babd3fe692dbd39d743f47c63d093f8e6cd8e",
+        "slides": [
+          21
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-22.png",
+        "sha256": "d8531d63bcdee59c58fbe4f825578ff51f82fddca08ca92eaf2f80120039c20c",
+        "slides": [
+          22
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-23.png",
+        "sha256": "02e84961058f1addef6ee4beb47439b6ba639129707fc3647f468a36df43f043",
+        "slides": [
+          23
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-24.png",
+        "sha256": "16c23cf504acfef7a7d3ee2406825c05ee889445033ca917b90cf5a39c561a5a",
+        "slides": [
+          24
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-25.png",
+        "sha256": "c211491e27d0356ba78a4ecb120ef265916da0d192c545e63840cf0c9b0d8b39",
+        "slides": [
+          25
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/slide-26.png",
+        "sha256": "c725beae1db05f932cd13459a23b0a24532714fd665937f8e2c716b1d1f1327d",
+        "slides": [
+          26
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      }
+    ],
+    "supportingEvidence": [
+      {
+        "path": "research/design-governance-20261102/evidence/before/contact-01-08.jpg",
+        "sha256": "a03c862efcaadeee6635e6a3f597841bac8e83bf50fda240b36c03afb798a547"
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/contact-09-16.jpg",
+        "sha256": "40fc353cf4fb4089c3a31fa0321b3cec536774f8423c122aa17c5b1076b936d8"
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/contact-17-24.jpg",
+        "sha256": "7e377541d120966f627225e8f3aeba4606b3ccbc3a026887a93926120cf9338d"
+      },
+      {
+        "path": "research/design-governance-20261102/evidence/before/contact-25-26.jpg",
+        "sha256": "b10cdfdc6163722d680d206929f823f47772978e1b607c3b1e1d4a9770936a85"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "LLM Wiki, 내 자료를 함께 정리하기",
+      "role": "시작 선언",
+      "visualLead": "큰 `LLM Wiki`와 짧은 부제",
+      "subject": "발표 주제 자체",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "제목→굵은 부제→보조 설명으로 한 축이 선명하다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-01.png"
+      ],
+      "preservationOrAction": "저밀도 시작과 문구 보존. 별도 근거/3열을 추가하지 않음."
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "나만의 마크다운 지식 베이스",
+      "role": "정의",
+      "visualLead": "큰 정의 인용문",
+      "subject": "정의와 Karpathy 설계 출처",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "작은 질문, 큰 정의, 낮은 위계의 설명/출처가 분리된다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-02.png"
+      ],
+      "preservationOrAction": "정의·사람과AI의 읽기/갱신·출처 링크 보존."
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "자료를 개념/관계로 바꿔 다시 쓰기",
+      "role": "필요의 개념 설명",
+      "visualLead": "원자료→연결된 지식 도식",
+      "subject": "세 메모와 현재 이해/다음 질문 관계",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "왼쪽 원자료, 방향선, 오른쪽 열린 연결망이 변화의 방향을 만든다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-03.png"
+      ],
+      "preservationOrAction": "도식·하단 문제의식 문구 보존. 3–5 흐름 재확인."
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "개인비서도 내 맥락이 필요",
+      "role": "주장과 지원 관계",
+      "visualLead": "필요한 맥락/위키 지원의 두 텍스트 군",
+      "subject": "내 상황/선호/선택 이유, 위키의 재읽기 지원",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "`알아야 할 맥락`과 `위키가 돕는 일`이 필요→지원을 언어로 구분한다. 도구 예시는 마지막 문단이며 표제보다 낮다. 동일 크기2열만으로 비교 오해를 확정할 근거는 부족하다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-04.png"
+      ],
+      "preservationOrAction": "현 구도·모든 맥락/재읽기·도구 링크 보존. C04는 선택 제안이며 승인 전 필수 교정이 아님."
+    },
+    {
+      "slide": 5,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "raw/wiki/rules가 생김",
+      "role": "구조 설명",
+      "visualLead": "밝은 raw면과 열린 wiki 목록",
+      "subject": "보존할 원자료/갱신할 이해/규칙",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "raw는 문서면, wiki는 열린 목록, rules는 하단 가로축으로 서로 다른 역할이 드러난다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-05.png"
+      ],
+      "preservationOrAction": "raw의 밝은 면과 rules 분리 보존. 전부 검은 카드로 치환하지 않음."
+    },
+    {
+      "slide": 6,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "사람과 AI의 편집 역할",
+      "role": "역할 분담",
+      "visualLead": "사람/AI 두 열",
+      "subject": "사람이 쓰는 목적·판단, AI 문서/연결 갱신",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "두 행위자가 동등한 열 제목이며 각 담당이 굵은 한 문장으로 보인다. 제목의 함께 편집한다는 주장에 적합하다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-06.png"
+      ],
+      "preservationOrAction": "양쪽 담당과 사람이 직접 읽고 고친다는 문구 보존. 18장의 사람 주역과 혼동하지 않음."
+    },
+    {
+      "slide": 7,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "RAG와 작은 위키의 차이/병용",
+      "role": "동일 축 비교",
+      "visualLead": "비교표",
+      "subject": "작업·준비·질문·유지 네 축",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "같은 행의 두 방식을 대조하고 하단 병용 조건이 표와 구분된다. 표의 네모는 비교 축을 유지한다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-07.png"
+      ],
+      "preservationOrAction": "전체 네 축과 병용/규모 조건 보존. 표를 장식 카드로 해체하지 않음."
+    },
+    {
+      "slide": 8,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "RAG는 질문에 필요한 근거를 찾음",
+      "role": "검색 경로",
+      "visualLead": "가운데 찾은 근거 상자",
+      "subject": "동일 세 메모→이번 근거→답",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "입력/이번 맥락/답의 세 위치와 두 화살표가 선택 경로를 보여 준다. 파랑은 이번 검색 근거에 의미를 준다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-08.png"
+      ],
+      "preservationOrAction": "공통 질문·동일 자료·방향·범위 설명 보존. 9장과 쌍으로 검수."
+    },
+    {
+      "slide": 9,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "위키는 미리 정리한 문서를 읽음",
+      "role": "8장과 경로 대조",
+      "visualLead": "열린 개념/비교/계획 연결",
+      "subject": "같은 메모, 미리 유지한 문서",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "입력은8장과 같지만 가운데 검색 상자가 열린 연결 삼각형으로 바뀐다. 반복 아닌 차이가 보인다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-09.png"
+      ],
+      "preservationOrAction": "같은 입력과 녹색 연결/필요한 쪽 재읽기 보존."
+    },
+    {
+      "slide": 10,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "Ingest는 소화하고 연결하는 일",
+      "role": "관계/과정 설명",
+      "visualLead": "주역이어야 할 연결 도식",
+      "subject": "자료 요약→개념·비교→현재 계획",
+      "status": "needs-changes",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "큰 바깥 제목, 굵은 내부 제목, 아래 굵은 작업열이 관계망과 별도로 읽기를 요구한다. 9장과 같은 삼각형이지만 무엇을 갱신하는지는 설명 문구에 분산된다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-10.png"
+      ],
+      "preservationOrAction": "C10: 한 주장 아래 자료읽기→나누기→문서/목차/링크 갱신 관계에 위계 부여.",
+      "owner": "후속 발표 수정 담당자 + root (미배정)",
+      "nextAction": "C10: 한 주장 아래 자료읽기→나누기→문서/목차/링크 갱신 관계에 위계 부여. 본편 교정은 이번 예방·기록 작업 범위 밖. 감사의 해당 교정 계약에 따라 후속 구현·재캡처·재검토."
+    },
+    {
+      "slide": 11,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "자료 요약과 개념 문서는 다름",
+      "role": "대상 비교",
+      "visualLead": "서로 다른 두 문서면",
+      "subject": "한 메모 요약 vs 여러 자료 연결 개념",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "밝은 두 문서의 표제·본문·근거/연결이 같은 위치에 있어 차이를 대응해 읽을 수 있다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-11.png"
+      ],
+      "preservationOrAction": "두 밝은 면·화살표·근거/연결·caption 보존. 실제 UI 스크린샷으로 오인시키지 않음."
+    },
+    {
+      "slide": 12,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "문서를 나누고 찾아 관계를 보완",
+      "role": "연결 개념의 언어 정리",
+      "visualLead": "세 개념 표제와 짧은 설명",
+      "subject": "주제별 문서/목차와 링크/연결된 지식",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "세 측면을 대등하게 요약하는 장이며, 앞선 그림 다음의 언어 정리라는 역할이 성립한다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-12.png"
+      ],
+      "preservationOrAction": "세 측면과 나무위키 비유 보존. 관계도 강제 추가 없음."
+    },
+    {
+      "slide": 13,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "질문→정리 문서 읽기→맞춰 답하기→남기기",
+      "role": "사용 절차",
+      "visualLead": "질문과 번호 순서",
+      "subject": "발표용 AI스터디 사례",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "질문 인용과1–3행의 수직 순서가 쓰는 절차를 만든다. 발표용 사례 정체성이 별도다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-13.png"
+      ],
+      "preservationOrAction": "사례 표시·질문·확인 후 남기기 모두 보존."
+    },
+    {
+      "slide": 14,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "새 조건으로 기존 문서를 함께 갱신",
+      "role": "변화의 영향 설명",
+      "visualLead": "왼쪽 새 조건→오른쪽 바뀐 세 문서",
+      "subject": "입문자·준비팩·15분이라는 가상조건",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "주황 조건과 방향선, 오른쪽 세 변화의 배열이 원인과 결과를 구분한다. 가상 조건 표시가 있다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-14.png"
+      ],
+      "preservationOrAction": "조건/세 갱신 대상/가상 정체성 보존. 실제 실행 결과로 바꾸지 않음."
+    },
+    {
+      "slide": 15,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "목적에 맞는 자료를 두 개부터",
+      "role": "선택 기준/작은 시작",
+      "visualLead": "두 질문과 시작 행동",
+      "subject": "관련성·선택 이유·두 자료 연결",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "왼쪽부터 관련성→이유→작은 시작을 읽는다. 세 표제의 병렬성은 선택 점검 항목을 훑는 용도에 맞고 제목이 공통 목적을 고정한다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-15.png"
+      ],
+      "preservationOrAction": "두 질문과 두 자료 행동 보존. 16장의 구체 선택 이유로 연결."
+    },
+    {
+      "slide": 16,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "쓰임이 정리 기준을 만듦",
+      "role": "구체 판단 예",
+      "visualLead": "진행안으로 쓸 목적과 네 기준",
+      "subject": "맥락·선택 이유·중요한 점·다음 쓰임",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "왼쪽 큰 쓰임, 오른쪽 세부 기준, 주황 결론이 목적→기준으로 읽힌다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-16.png"
+      ],
+      "preservationOrAction": "목적/직접 남기는 이유/향후 쓰임 보존. 17–18교정 뒤 연속 확인."
+    },
+    {
+      "slide": 17,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "개인 맥락 정리는 어렵다",
+      "role": "문제와 대응 기준",
+      "visualLead": "현재 동위계3열",
+      "subject": "자료별 기준 차이·질문·재사용 방향",
+      "status": "needs-changes",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "현상·대응·결과가 같은 크기 표제로 놓인다. 가운데 핵심 질문이 왜 필요한지 인과가 화면 구조에서 약하다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-17.png"
+      ],
+      "preservationOrAction": "C17: 목적/경험 차이→기준 질문→재사용 방향의 읽는 순서.",
+      "owner": "후속 발표 수정 담당자 + root (미배정)",
+      "nextAction": "C17: 목적/경험 차이→기준 질문→재사용 방향의 읽는 순서. 본편 교정은 이번 예방·기록 작업 범위 밖. 감사의 해당 교정 계약에 따라 후속 구현·재캡처·재검토."
+    },
+    {
+      "slide": 18,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "목적/생각/판단을 사람이 직접 적음",
+      "role": "책임의 핵심 선언",
+      "visualLead": "사람이 직접 쓰는 목적과 판단",
+      "subject": "직접 기록할 감정/생각/판단/이유와 AI정리 구분",
+      "status": "needs-changes",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "사람 목적·직접 기록·AI정리 구분이 같은3열로 되어 책임의 중심이 분산된다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-18.png"
+      ],
+      "preservationOrAction": "C18: 직접 목적/판단을 주역으로, AI정리 구분은 경계 설명으로.",
+      "owner": "후속 발표 수정 담당자 + root (미배정)",
+      "nextAction": "C18: 직접 목적/판단을 주역으로, AI정리 구분은 경계 설명으로. 본편 교정은 이번 예방·기록 작업 범위 밖. 감사의 해당 교정 계약에 따라 후속 구현·재캡처·재검토."
+    },
+    {
+      "slide": 19,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "공부/프로젝트/글·발표에 활용",
+      "role": "활용 범주",
+      "visualLead": "세 활용처와 동사",
+      "subject": "개념/질문 연결·배경/결정 읽기·근거 초안",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "세 활용처는 대등한 선택지이고 표제 아래 동사가 각 쓰임을 구분한다. 인과를 같은 열로 숨긴17과 다르다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-19.png"
+      ],
+      "preservationOrAction": "세 활용처/행위 보존. 18교정 뒤 흐름에서 필요 시 재판정."
+    },
+    {
+      "slide": 20,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "정리한 지식으로 만든 활동안",
+      "role": "실제 문서 발췌 제시",
+      "visualLead": "밝은15분 활동안",
+      "subject": "준비 메모와 관계를 읽는 실제 활동안 문서",
+      "status": "needs-changes",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "문서 본문은 크고 읽히지만 상단 `실제 결과`는 활동안이라는 대상보다 넓다. 비실측 주의는 작은 하단 글이고 caption과 자료링크 설명이 겹친다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-20.png"
+      ],
+      "preservationOrAction": "C20: 실제 활동안 발췌 정체성·비실측 범위·읽을 관계를 선명하게.",
+      "owner": "후속 발표 수정 담당자 + root (미배정)",
+      "nextAction": "C20: 실제 활동안 발췌 정체성·비실측 범위·읽을 관계를 선명하게. 본편 교정은 이번 예방·기록 작업 범위 밖. 감사의 해당 교정 계약에 따라 후속 구현·재캡처·재검토."
+    },
+    {
+      "slide": 21,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "함께 읽고 고쳐 다음 질문에 다시 씀",
+      "role": "장점의 요약",
+      "visualLead": "함께 읽기/고치기/재활용 세 행위",
+      "subject": "문서·내 경험/판단·다음 질문",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "세 평행 동사와 공통 주체가 이점 요약으로 성립한다. 각 항목에 필요한 명사/동사가 있고20의 밝은 문서 다음에 추상 수준이 바뀐다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-21.png"
+      ],
+      "preservationOrAction": "세 이점 보존. 단지22와3열이 같다는 이유로 변경하지 않음."
+    },
+    {
+      "slide": 22,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "AI정리의 확인·관리 비용",
+      "role": "주의의 범주",
+      "visualLead": "내용/변화/관리 세 위험",
+      "subject": "오류 연결·새/옛 충돌·검토 시간",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "서로 대등한 세 확인 범주이며 제목이 공통 경고를 직접 말한다. 원인→결과 순서가 꼭 필요한 관계가 아니다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-22.png"
+      ],
+      "preservationOrAction": "세 위험·시간 비용 보존. 오류만 남기며 관리비용 삭제하지 않음."
+    },
+    {
+      "slide": 23,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "상황에 맞게 작은 시도 선택",
+      "role": "조건-행동 대응",
+      "visualLead": "두 열 표의 각 행",
+      "subject": "네 상황/첫 행동",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "행별 상황과 행동 대응이 주역이다. 마지막 행의 간단한 노트/검색 선택도 보존돼 과도한 위키 권유를 피한다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-23.png"
+      ],
+      "preservationOrAction": "네 상황/행동·비용 비교·노트 대안 보존."
+    },
+    {
+      "slide": 24,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "첫 요청의 구체 형태",
+      "role": "다음 행동/복사 예시",
+      "visualLead": "목적·자료·정리·확인 요청문",
+      "subject": "사용자 작성 기록과 원문/AI구분, 보조자료 링크",
+      "status": "needs-changes",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "요청문을 둘러싼 큰 면이 이미 시각 주역이다. 다만 코드 본문과 비슷한 글자 크기의 두 링크행에 보조자료라는 층위 표지가 없어, 발표 후 첫 요청과 지원 경로를 구별하는 보완이 필요하다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-24.png"
+      ],
+      "preservationOrAction": "C24: 이미 주역인 요청문 보존, 보조자료 두 행의 성격/위계만 정리.",
+      "owner": "후속 발표 수정 담당자 + root (미배정)",
+      "nextAction": "C24: 이미 주역인 요청문 보존, 보조자료 두 행의 성격/위계만 정리. 본편 교정은 이번 예방·기록 작업 범위 밖. 감사의 해당 교정 계약에 따라 후속 구현·재캡처·재검토."
+    },
+    {
+      "slide": 25,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "다음 질문에 쓸 자료 두 개부터",
+      "role": "결론/행동 압축",
+      "visualLead": "큰 한 문장",
+      "subject": "목적→연결→확인→다시 쓰기",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "하나의 큰 행동과 작은 순서 한 줄로 밀도가 낮아져 종결 역할이 명확하다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-25.png"
+      ],
+      "preservationOrAction": "저밀도 결론·두 자료·검토 단계 보존."
+    },
+    {
+      "slide": 26,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "message": "어떤 두 자료로 시작할까",
+      "role": "청중 질문/Q&A",
+      "visualLead": "큰 질문과 한 줄 구체화",
+      "subject": "다시 묻는 질문/자료 두 개, 학습·원문 링크",
+      "status": "approved",
+      "reviewer": "/root/design_manager/audit_designer",
+      "reviewedAt": "2026-11-02",
+      "reason": "질문→구체 질문→Q&A→보조 링크 순서가 크기/명도로 구별돼24와 달리 위계가 있다.",
+      "evidence": [
+        "research/design-governance-20261102/evidence/before/slide-26.png"
+      ],
+      "preservationOrAction": "질문·Q&A·자료/원문/부록 링크 보존."
+    }
+  ],
+  "recordAuthor": "/root/engineering_manager/docs_integrator",
+  "recordedAt": "2026-11-02",
+  "reviewSource": {
+    "path": "research/design-governance-20261102/design/LLM_WIKI_AUDIT.md",
+    "sha256": "5af3802bafcca71a7f9490c0c6d96a8260818a7ccf4a0648b3a34123dd6f6265"
+  },
+  "provenance": {
+    "kind": "audit-transcription",
+    "description": "디자인 감사의 26행과 새 DESIGN 재검토를 이관한 기록. recordAuthor는 기록 작성자이며 새로운 화면 검토자나 판정 사유의 저자가 아니다. 감사의 실제 검토자는 각 reviewer에 보존한다. 정확한 검토 시각은 감사에 없어 확인 날짜만 기록한다.",
+    "captureInputPolicy": "capture.inputs는 역사111항 원형보존. 현재 필수 렌더입력은 inputs로 별도 수집. 추가 9필수파일은 캡처 기준 HEAD 2a95f37 git show bytes SHA256과 현 파일 일치 직접검증. 비렌더 README 변경과 DESIGN 재구성은 별도 분류. package.json은 npm script 변경을 렌더 입력에서 분리하며 dependencies/optionalDependencies/devDependencies/peerDependencies/peerDependenciesMeta/engines를 package-lock root entry와 직접 대조한다. lock bytes는 필수 입력이다.",
+    "excludedHistoricalChanges": [
+      {
+        "path": "DESIGN.md",
+        "reason": "정본 재구성 뒤 감사 작성자가 전26장 캡처를 새 기준으로 직접 재검토"
+      },
+      {
+        "path": "talks/llm-wiki/README.md",
+        "reason": "작성 진입점 문서이며 빌드가 읽지 않는 비렌더 파일. 이번 링크만 변경."
+      }
+    ]
+  },
+  "reReview": {
+    "reviewer": "/root/design_manager/audit_designer",
+    "reviewedAt": "2026-11-02",
+    "reason": "감사 최종 정본·화면의 현재성 대조 절에서 DESIGN 최종145행과 갱신4시트/전26원본 직접 재열람 및 110제품입력 불변을 확인했다. 캡처 당시 DESIGN 해시는 이력으로 보존하고 현재 DESIGN을 적용한 정지화면 판정만 이관한다.",
+    "source": "research/design-governance-20261102/design/LLM_WIKI_AUDIT.md"
+  },
+  "changeImpact": {
+    "currentWork": "작성 진입점과 검수 최신성 도구만 변경; 원고·runtime·CSS·자산·대본 보존",
+    "visualReviewScope": "감사 작성자의 정지화면 26장/1440×1000/DPR1, stage1344×756",
+    "unreviewed": [
+      "960×900",
+      "읽기 모드",
+      "모션",
+      "발표 현장",
+      "전 기기",
+      "청중 이해도 실험"
+    ],
+    "futureProductChanges": "원고/자산은 해당 장·인접 흐름·필요 읽기, 공통입력은 대표양식·긴한국어·밝은문서/UI·다른주제 등 영향범위 재캡처/재검토"
+  }
+}

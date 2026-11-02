@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-11-02T06:30:49Z",
+  "asOf": "2026-10-31T23:59:59+09:00",
+  "checks": [
+    {
+      "name": "verify:site",
+      "status": "fulfilled",
+      "exitCode": 0,
+      "output": "\n> stage-presentation-kit@1.0.0 verify:site\n> node scripts/build-site.cjs verify\n\n전체 사이트 검증 완료: 기존 예제 8개 · presentations 5개 발표 · markdown-starter 1개 발표\n"
+    },
+    {
+      "name": "review-record",
+      "status": "fulfilled",
+      "exitCode": 0,
+      "output": "\n> stage-presentation-kit@1.0.0 design:review\n> node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json\n\n기록 최신성·범위 유효 · 검토 완료: 승인 21 · 개선 필요 5 · 미확인 0 (26개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음\n"
+    },
+    {
+      "name": "approval-gate",
+      "status": "fulfilled",
+      "exitCode": 1,
+      "output": "\n> stage-presentation-kit@1.0.0 design:review\n> node scripts/design-review.cjs check --source talks/llm-wiki/slides.md --record research/design-governance-20261102/engineering/llm-wiki.review.json --require-approved\n\n기록 최신성·범위 유효 · 검토 완료: 승인 21 · 개선 필요 5 · 미확인 0 (26개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음\n"
+    },
+    {
+      "name": "whitespace",
+      "status": "fulfilled",
+      "exitCode": 0,
+      "output": ""
+    }
+  ]
+}

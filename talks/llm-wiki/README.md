@@ -41,4 +41,6 @@
 
 원고는 [slides.md](slides.md)이며 `theme: stage`를 사용합니다. `test.md`는 사용자가 작성한 흐름 참고 메모로 보존합니다. 시각 자산과 기존 심화 예제도 보존합니다.
 
+수정 전 [DESIGN.md](../../DESIGN.md)를 읽고 변경 범위와 보존할 의미·자료를 정합니다. 최신 사용자 지시가 우선입니다. [현재 26장 검토](../../research/design-governance-20261102/design/LLM_WIKI_AUDIT.md)의 역할 맵을 재사용하고 영향 장·앞뒤 흐름을 갱신합니다. 완료할 때 [현재 판 검수](../../DESIGN.md#변경과-현재-판-검수)에 따라 실제 화면과 판정 이유를 남기며, [검수 기록 안내](../../DESIGN-REVIEW.md)로 현재 입력과 근거를 확인합니다. 기술 검사 성공과 시각 승인은 별도입니다.
+
 `npm run dev`로 미리 보고, `npm run build:site`로 생성하고, `npm run verify:site`로 생성물 일치를 확인합니다. `presentations/`는 생성 결과이므로 직접 편집하지 않습니다.

@@ -2,6 +2,8 @@
 
 `talks/발표이름/slides.md`만 수정하면 같은 STAGE 스타일의 발표와 읽기 자료를 만듭니다. 공통 테마는 `stage.config.json` 한 곳에서 바꾸며 여러 발표가 원고와 자산을 독립적으로 유지합니다. 생성한 화면은 로컬 CSS·JavaScript와 한국어 시스템 글꼴로 재생합니다.
 
+작성·수정 전에는 [DESIGN.md](DESIGN.md)를 읽고 바꿀 범위와 보존할 의미·자료를 정합니다. 최신 사용자 지시가 우선입니다. 완료할 때는 [현재 판 검수](DESIGN.md#변경과-현재-판-검수)에 따라 실제 화면과 판정 이유를 남깁니다. 빌드·생성물 일치와 시각 승인은 별도이며, [검수 기록 안내](DESIGN-REVIEW.md)에서 현재 입력·근거의 확인 방법을 설명합니다.
+
 실제 AI 스터디 자료: **[LLM Wiki · 내 자료를 AI와 함께 정리하는 방법](presentations/llm-wiki/)** — 정의·필요·RAG 핵심 비교·자료 반영과 질문·활용을 쉽게 설명하는 26장. 핵심 도식9개와 실제 결과물을 유지하고, 개인비서의 맥락·직접 쓴 생각과 AI 정리의 구분을 함께 설명합니다. [원본 그림·48장 원고](presentations/llm-wiki/materials/visual-appendix.html). 검정 무대·큰 타이포를 유지합니다. [본편35분+Q&A5분 대본](presentations/llm-wiki/materials/speaker-script.html) · [슬라이드 읽기](presentations/llm-wiki/read.html) · [학습 자료](presentations/llm-wiki/materials/index.html) · [수정할 원고](talks/llm-wiki/slides.md).
 
 ```sh

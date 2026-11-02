@@ -1,0 +1,33 @@
+{
+  "asOf": "2026-10-31T23:59:59+09:00",
+  "changedExistingFiles": [
+    "AGENTS.md"
+  ],
+  "unchangedStartingFiles": 12,
+  "originalWorkLogPrefixBytes": 476,
+  "existingDesignRulesPreserved": true,
+  "documentation": {
+    "files": 7,
+    "localLinks": 46,
+    "missing": [],
+    "badAnchors": []
+  },
+  "textArtifactsChecked": 10,
+  "scenarios": {
+    "count": 8,
+    "type": "document contract review; no model behavior experiment"
+  },
+  "sourceSha256": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09",
+  "designSha256": "75e405eb4d1695fc5b4d5301d9393a2b3a0f938a3288dd3c9807e2845ca90817",
+  "reviewRecordSha256": "35cab7914e37429f9825ab7b0d414652b681349e8e78856b7ed51ac7d13d1bb6",
+  "needsChanges": [
+    10,
+    17,
+    18,
+    20,
+    24
+  ],
+  "checks": "integration-commands.json",
+  "fullTestsRerun": false,
+  "reason": "Only AGENTS operating instructions changed; code and rendering inputs preserved"
+}

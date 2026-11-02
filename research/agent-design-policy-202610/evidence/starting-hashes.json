@@ -1,0 +1,15 @@
+{
+  "AGENTS.md": "e990e402ec13eba59106d3a7a0cd18e415f3bc9c9720eb6df8c33e2b833b8e89",
+  "DESIGN.md": "75e405eb4d1695fc5b4d5301d9393a2b3a0f938a3288dd3c9807e2845ca90817",
+  "DESIGN-REVIEW.md": "2fb75cc2a92b4e686a86ae7ca9349f26294b931bd538909ff919e761608fefc8",
+  "package.json": "0591010fa3167f51c19919032e1aa334c207e60b9c3942008bbc563ecae4069e",
+  "scripts/design-review.cjs": "ff6b6575a452c331ce268b563999e688acec1aee555eda0ef5bee05fd9aee858",
+  "tests/design-review.test.cjs": "b810a142175e5ea3deaba017a8b5812ca580e52f9d028ad243ecae3ff1524533",
+  "README.md": "c2abd6d3f846fd6fd3105260a5ebb3f78263c590e439d10bcddfff722f257d62",
+  "MARKDOWN-FIRST.md": "ae1db44edc02ad949173caa575264fa252a9d459af06518be71d9e6d55c81040",
+  "starters/markdown/README.md": "51b0bf72bf3650696403f0d0fbb6044d5f6432a7ce46d825e3d1630b809bf540",
+  "talks/llm-wiki/README.md": "3c24819a66c06fea79da39498b06bca2dd3b26bc36caeaa385542a5862f574e3",
+  "talks/llm-wiki/slides.md": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09",
+  "talks/llm-wiki/test.md": "174e1fdc3844045f8e5cae5890ffd87aa21562487180fcf4e01a90fa0ea13489",
+  "research/design-governance-20261102/engineering/llm-wiki.review.json": "35cab7914e37429f9825ab7b0d414652b681349e8e78856b7ed51ac7d13d1bb6"
+}
