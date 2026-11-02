@@ -1,0 +1,12 @@
+{
+  "observation": {
+    "url": "http://127.0.0.1:4330/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt",
+    "characterSet": "UTF-8",
+    "textStart": "LLM Wiki · 주제 메모에서 다음 스터디로\n2026-10-31 / 48장·본편35분+질문5분 발표의 학습 팩\n\n발표팀이 설명용으로 작성한 세 주제 메모와 예시 위키다.\n주제 메모는 외부 원문의 발췌나 실제 관찰 기록이 아닌 자작 설명이다.\n기술 주장의 일차 근거는 각 메모의 설계 글·논문·공식 문서에서 확인한다.\n위키 문장·선택 이유·가상 조건도 발표팀의 구성 예이며 실제 모델 출력·스터디 성과가 아니다.\n\n처음 질문: 다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?\n나중의 질문: 입문자와 15분 활동은 무엇부터 할까?\n\n읽는 법\n경로별 제목을 검색해 주제 메모→자료 요약→개념·비교·계획을 따라 읽는다.\n같은 경로의 ‘처음’과 ‘갱신’ 구간은 한 논리 파일의 전후 상태다.\n나중에 raw/study-retro.md의 가상 조건을 읽고 기존 여러 페이지가 어떻게 달라지는지 비교한다.\n",
+    "bodyLength": 16818,
+    "contentType": "text/plain; charset=utf-8"
+  },
+  "sourceModified": false,
+  "qaServerFix": "txt MIME only; same UTF-8 type as scripts/stage.cjs:337",
+  "correctedNavigationEvidence": "original navigation pack textStart was mojibake; this evidence replaces its decoding claim"
+}

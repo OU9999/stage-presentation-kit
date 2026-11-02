@@ -35,11 +35,11 @@ tone: neutral
 -->
 # 왜 필요한가요?
 
-![왜 필요한가요?를 설명하는 기존 도식.](./assets/expanded/knowledge-layers.svg)
+![세 원자료 메모를 개념과 관계로 연결해 현재 이해와 다음 질문에 다시 쓰는 구조.](./assets/expanded/knowledge-layers.svg)
 
 **“AI가 내 자료를 좀 더 잘 이해해 줬으면.”**
 
-자료를 개념과 관계로 정리해, 다음 질문에 다시 씁니다.
+자료를 개념과 관계로 정리해, 다음 질문에 다시 씁니다. · [그림의 관계 읽기](./materials/diagram-reading.md#3장-자료에서-연결된-지식으로)
 ---
 
 <!-- stage-slide
@@ -67,11 +67,11 @@ tone: neutral
 -->
 # 무엇이 생기나요?
 
-![무엇이 생기나요?를 설명하는 기존 도식.](./assets/expanded/raw-wiki-rules.svg)
+![원자료 raw는 보존하고 wiki는 개념과 연결을 정리하며 rules.md는 원자료 보존·근거 연결·검토 등 작업 약속을 담는 구조.](./assets/expanded/raw-wiki-rules.svg)
 
 **원자료(raw) · 정리한 문서(wiki) · 작업 규칙(rules.md)**
 
-마크다운은 글과 링크를 적는 텍스트 파일입니다.
+마크다운은 글과 링크를 적는 텍스트 파일입니다. · [그림의 관계 읽기](./materials/diagram-reading.md#5장-raw-wiki-rules의-역할)
 ---
 
 <!-- stage-slide
@@ -115,9 +115,9 @@ tone: neutral
 -->
 # RAG는 필요한 근거를 찾아 답합니다
 
-![RAG는 필요한 근거를 찾아 답합니다를 설명하는 기존 도식.](./assets/expanded/rag-path.svg)
+![같은 세 메모에서 이번 질문에 필요한 근거를 찾아 현재 답에 사용하는 RAG 경로.](./assets/expanded/rag-path.svg)
 
-같은 자료에서 **지금 질문에 필요한 부분을 찾아** 답을 만듭니다.
+같은 자료에서 **지금 질문에 필요한 부분을 찾아** 답을 만듭니다. · [그림의 관계 읽기](./materials/diagram-reading.md#8장-질문에-따라-근거-찾기)
 ---
 
 <!-- stage-slide
@@ -127,9 +127,9 @@ tone: neutral
 -->
 # 위키는 정리해 둔 문서를 읽습니다
 
-![위키는 정리해 둔 문서를 읽습니다를 설명하는 기존 도식.](./assets/expanded/wiki-path.svg)
+![같은 세 메모를 개념·비교·현재 계획 문서로 미리 정리하고 필요한 문서와 원자료를 다시 읽는 위키 경로.](./assets/expanded/wiki-path.svg)
 
-자료를 **개념·비교·계획으로 미리 정리**하고, 필요한 쪽을 다시 읽습니다.
+자료를 **개념·비교·계획으로 미리 정리**하고, 필요한 쪽을 다시 읽습니다. · [그림의 관계 읽기](./materials/diagram-reading.md#9장-미리-정리한-문서-다시-읽기)
 ---
 
 <!-- stage-slide
@@ -139,9 +139,9 @@ tone: neutral
 -->
 # Ingest는 자료를 소화하고 연결하는 일
 
-![Ingest는 자료를 소화하고 연결하는 일를 설명하는 기존 도식.](./assets/expanded/ingest-map.svg)
+![세 메모를 읽고 나누어 자료 요약을 입구로 만들고, 기존 개념·비교와 현재 계획의 연결 및 문서·목차·링크를 갱신하는 관계.](./assets/remake/ingest-map.svg)
 
-**자료 읽기 → 내용 나누기 → 문서·목차·링크 갱신하기**
+자료 읽기 → 내용 나누기 → 문서·목차·링크 갱신하기 · [그림의 관계 읽기](./materials/diagram-reading.md#10장-읽고-나누고-연결-갱신하기)
 ---
 
 <!-- stage-slide
@@ -153,7 +153,7 @@ tone: neutral
 
 ![한 자료의 요약과 여러 자료를 연결한 개념 문서의 차이.](./assets/expanded/source-concept.svg)
 
-**자료 요약**은 그 자료를, **개념 문서**는 여러 자료의 공통 주제를 설명합니다.
+**자료 요약**은 그 자료를, **개념 문서**는 여러 자료의 공통 주제를 설명합니다. · [그림의 관계 읽기](./materials/diagram-reading.md#11장-자료-요약과-개념-문서)
 ---
 
 <!-- stage-slide
@@ -200,9 +200,9 @@ tone: neutral
 -->
 # 새 자료가 오면 기존 문서도 고칩니다
 
-![새 자료가 오면 기존 문서도 고칩니다를 설명하는 기존 도식.](./assets/expanded/related-updates.svg)
+![입문자·준비된 팩·15분이라는 새 조건에 맞춰 개념 설명, 비교의 선택 기준, 현재 계획을 함께 고치는 예.](./assets/expanded/related-updates.svg)
 
-**입문자와 15분 활동이라는 새 조건**으로 설명·선택 기준·계획을 함께 고칩니다.
+**입문자와 15분 활동이라는 새 조건**으로 설명·선택 기준·계획을 함께 고칩니다. · [그림의 관계 읽기](./materials/diagram-reading.md#14장-새-조건과-세-문서의-변경)
 ---
 
 <!-- stage-slide
@@ -232,49 +232,39 @@ tone: neutral
 -->
 # 목적이 있어야 정리 기준이 생깁니다
 
-![목적이 있어야 정리 기준이 생깁니다를 설명하는 기존 도식.](./assets/expanded/purpose-questions.svg)
+![다음 스터디 진행안이라는 쓰임에 맞춰 메모의 맥락·선택 이유·중요한 점과 다음 활용을 직접 적는 예.](./assets/expanded/purpose-questions.svg)
 
-**왜 골랐는지, 어디에 쓸지**를 적으면 정리할 기준이 생깁니다.
+**왜 골랐는지, 어디에 쓸지**를 적으면 정리할 기준이 생깁니다. · [그림의 관계 읽기](./materials/diagram-reading.md#16장-쓰임에서-선택-기준으로)
 ---
 
 <!-- stage-slide
-compose: editorial
-variant: centered
+compose: quote
 tone: neutral
 -->
 # 내 맥락을 정리하는 일은 어렵습니다
 
-## 같은 자료라도
+같은 자료라도 내 목적과 경험에 따라 묶는 기준이 달라집니다.
 
-내 목적과 경험에 따라 **묶는 기준이 달라집니다.**
+> 왜 골랐고,
+> **어떤 질문을 풀려는가?**
 
-## 기준부터 적기
-
-왜 골랐고, **어떤 질문을 풀려는가?**
-
-## 다시 쓸 방향 잡기
-
-목적 없이 모으기만 하면 **다시 쓰기 어렵습니다.**
+기준부터 적어 다시 쓸 방향을 잡습니다.
+목적 없이 모으기만 하면 다시 쓰기 어렵습니다.
 ---
 
 <!-- stage-slide
-compose: editorial
-variant: centered
+compose: quote
 tone: neutral
 -->
-# 목적과 내 판단은 내가 적습니다
+# 사람이 직접 남기는 맥락
 
-## 목적은 내가 정합니다
+> 목적과 내 판단은
+> **내가 적습니다.**
 
-누구를 위해 **무엇을 만들고 싶은가**
+누구를 위해 무엇을 만들지 목적은 직접 정하고,
+감정 · 생각 · 판단 · 선택 이유를 직접 남깁니다.
 
-## 내 생각은 내가 기록합니다
-
-감정 · 생각 · 판단 · **선택 이유**
-
-## AI 정리는 구분합니다
-
-원문 · 내 기록 · **AI가 쓴 요약과 해석**
+기록은 구분합니다: 원문 · 내 기록 · AI가 쓴 요약과 해석.
 ---
 
 <!-- stage-slide
@@ -302,11 +292,11 @@ compose: media
 fit: contain
 tone: neutral
 -->
-# 정리한 지식으로 만든 실제 결과
+# 정리한 지식으로 만든 15분 활동안
 
-![정리한 지식으로 만든 실제 결과를 설명하는 기존 도식.](./assets/expanded/session-plan.svg)
+![자작 메모 두 개를 함께 읽는 15분 활동안 발췌. 목표와 네 활동 구간을 제시하며 실제 운영·학습효과·설치·모델 생성 시간의 실측은 아니다.](./assets/remake/session-plan.svg)
 
-[**15분 활동 진행안 읽기**](./materials/session-plan.md) · 준비된 메모와 연결을 읽는 활동 예입니다.
+[15분 활동안 전체 읽기](./materials/session-plan.md)
 ---
 
 <!-- stage-slide
@@ -375,6 +365,8 @@ tone: neutral
 정리: 원문·내 기록·AI 요약을 구분하고 개념과 근거를 연결해 줘.
 확인: 원자료 링크, 바꾼 파일, 모르는 점을 알려줘.
 ```
+
+### 함께 볼 자료
 
 [예제 팩](./assets/expanded-study.txt) · [자료 읽는 방법](./materials/workshop.md)
 

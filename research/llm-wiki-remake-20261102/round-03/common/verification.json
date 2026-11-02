@@ -1,0 +1,480 @@
+{
+  "observations": [
+    {
+      "role": "existing-auto-quote",
+      "url": "http://127.0.0.1:4330/presentations/product-notes/#5",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "quote",
+      "headingSize": null,
+      "text": "무엇을 만들었는지보다,\n무엇을 이해했는지부터 이야기합니다.가상 팀이 정한 검토 원칙",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/product-notes-5.png"
+    },
+    {
+      "role": "another-topic-quote",
+      "url": "http://127.0.0.1:4330/presentations/team-learning/#5",
+      "title": "같은 장면에서 다른 질문 찾기 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "quote",
+      "headingSize": null,
+      "text": "보이는 것과,\n짐작한 것을 나눕니다.가상 워크숍의 대화 원칙",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/team-learning-5.png"
+    },
+    {
+      "role": "bright-document-and-photo",
+      "url": "http://127.0.0.1:4330/presentations/product-notes/#4",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "3",
+      "layout": "blocks",
+      "composition": "editorial",
+      "heading": "기록을, 결정할 수 있는 모양으로.",
+      "headingSize": "64px",
+      "text": "기록을, 결정할 수 있는 모양으로.함께 읽을 한 장한 장에 묶은 관찰 · 자체 제작 가상 문서남겨 둔 관찰24 개장면을 다시 찾을 기록입니다.다음에 확인할 행동2 개이름과 상태 문구를 확인합니다.가상 수치 · 서로 다른 작업 단위 · 전환율이나 성과가 아닙니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/1c6df0654172-report.svg",
+          "alt": "관찰과 다음 행동을 정리한 자체 제작 가상 보고서",
+          "complete": true,
+          "naturalWidth": 1280,
+          "naturalHeight": 960,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 353.6893615722656,
+            "width": 786.239990234375,
+            "height": 397.0706481933594,
+            "right": 911.5199890136719,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "함께 읽을 한 장",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "남겨 둔 관찰",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "24",
+          "color": "rgb(36, 168, 255)"
+        },
+        {
+          "text": "다음에 확인할 행동",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "2",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/product-notes-4.png"
+    },
+    {
+      "role": "korean-message",
+      "url": "http://127.0.0.1:4330/presentations/product-notes/#6",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "5",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "이번에는 상태 문구 하나를 바꿉니다.",
+      "headingSize": "118px",
+      "text": "이번에는 상태 문구 하나를 바꿉니다.완료 여부를 묻지 않아도 다음 행동을 알 수 있는지 확인합니다.작은 변경 뒤에도 같은 질문으로 다시 살핍니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "상태 문구 하나",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/product-notes-6.png"
+    },
+    {
+      "role": "reduced-motion",
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/#17",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "16",
+      "layout": "blocks",
+      "composition": "quote",
+      "heading": "내 맥락을 정리하는 일은 어렵습니다",
+      "headingSize": "38px",
+      "text": "내 맥락을 정리하는 일은 어렵습니다같은 자료라도 내 목적과 경험에 따라 묶는 기준이 달라집니다.왜 골랐고,\n어떤 질문을 풀려는가?기준부터 적어 다시 쓸 방향을 잡습니다.\n목적 없이 모으기만 하면 다시 쓰기 어렵습니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "어떤 질문을 풀려는가?",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/reduced-llm-wiki-17.png",
+      "motion": {
+        "reduced": true,
+        "animations": 0,
+        "names": []
+      }
+    },
+    {
+      "role": "reduced-motion",
+      "url": "http://127.0.0.1:4330/presentations/product-notes/#5",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "quote",
+      "headingSize": null,
+      "text": "무엇을 만들었는지보다,\n무엇을 이해했는지부터 이야기합니다.가상 팀이 정한 검토 원칙",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 631.679931640625,
+        "right": 1314.7199401855469,
+        "bottom": 827.1999206542969
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/reduced-product-notes-5.png",
+      "motion": {
+        "reduced": true,
+        "animations": 0,
+        "names": []
+      }
+    },
+    {
+      "role": "other-topic-read-390",
+      "width": 390,
+      "documentWidth": 390,
+      "quote": "무엇을 만들었는지보다,\n무엇을 이해했는지부터 이야기합니다.",
+      "animationNames": []
+    },
+    {
+      "role": "reading-scroll-7",
+      "width": 390,
+      "documentWidth": 390,
+      "clientWidth": 316,
+      "scrollWidth": 316,
+      "text": "살펴볼 점RAG 구성작은 LLM Wiki중심 작업자료를 검색해 답하기문서를 정리하고 연결하기준비할 것검색 방법·색인 등 설계파일·목차·링크부터 시작질문할 때찾은 근거를 참고정리한 문서와 원자료를 참고유지할 것검색 품질·자료 변경문서 내용·연결·자료 변경",
+      "rect": {
+        "x": 36,
+        "y": 199.9609375,
+        "width": 318,
+        "height": 526.921875,
+        "top": 199.9609375,
+        "right": 354,
+        "bottom": 726.8828125,
+        "left": 36
+      },
+      "x": 195,
+      "y": 463.421875,
+      "screenshots": [
+        "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/reading-7-left.png"
+      ],
+      "after": {
+        "hash": "#7",
+        "scrollLeft": 0
+      }
+    },
+    {
+      "role": "reading-scroll-23",
+      "width": 390,
+      "documentWidth": 390,
+      "clientWidth": 316,
+      "scrollWidth": 316,
+      "text": "내 상황먼저 해 볼 일같은 주제를 자주 다시 물음관련 자료 두 개를 연결해 보기내 경험과 판단도 함께 필요함선택 이유와 현재 상황 적기자료가 많고 자주 바뀜검색·갱신·검토 비용 비교하기한 번만 확인하면 됨간단한 노트와 검색부터 시작하기",
+      "rect": {
+        "x": 36,
+        "y": 200.0078125,
+        "width": 318,
+        "height": 354.140625,
+        "top": 200.0078125,
+        "right": 354,
+        "bottom": 554.1484375,
+        "left": 36
+      },
+      "x": 195,
+      "y": 377.078125,
+      "screenshots": [
+        "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/reading-23-left.png"
+      ],
+      "after": {
+        "hash": "#23",
+        "scrollLeft": 0
+      }
+    },
+    {
+      "role": "reading-scroll-24",
+      "width": 390,
+      "documentWidth": 390,
+      "clientWidth": 316,
+      "scrollWidth": 454,
+      "text": "목적: AI 스터디에서 LLM Wiki를 설명하고 싶어.\n자료: 내가 고른 두 자료와 직접 쓴 생각·선택 이유를 읽어 줘.\n정리: 원문·내 기록·AI 요약을 구분하고 개념과 근거를 연결해 줘.\n확인: 원자료 링크, 바꾼 파일, 모르는 점을 알려줘.\n",
+      "rect": {
+        "x": 36,
+        "y": 244.5390625,
+        "width": 318,
+        "height": 142,
+        "top": 244.5390625,
+        "right": 354,
+        "bottom": 386.5390625,
+        "left": 36
+      },
+      "x": 195,
+      "y": 315.5390625,
+      "screenshots": [
+        "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/reading-24-left.png",
+        "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/reading-24-middle.png",
+        "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/reading-24-right.png"
+      ],
+      "after": {
+        "hash": "#24",
+        "scrollLeft": 138
+      }
+    },
+    {
+      "role": "original-svg",
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/assets/e93f12b83834-ingest-map.svg",
+      "width": 1500,
+      "height": 650,
+      "svg": {
+        "x": 0,
+        "y": 0,
+        "width": 1500,
+        "height": 600,
+        "top": 0,
+        "right": 1500,
+        "bottom": 600,
+        "left": 0
+      },
+      "text": "\n  원자료를 읽고 나누어 기존 문서의 연결을 갱신하는 Ingest\n  자작 주제 메모 목적과 맥락, 검색과 비교, 지식의 활용을 읽고 나눈다. 자료 요약은 원자료의 입구이며 기존 개념·비교 및 여러 자료를 종합한 현재 계획과 연결된다. 요약, 개념·비교, 현재 계획 사이의 선은 관계를 뜻하며 양방향 작동이나 필수 파일 생성 순서가 아니다. 관련 문서·목차·링크를 갱신하고 원자료·사람의 선택 이유·종합을 유지한다.\n  \n    \n      같은 원자료 세 메모\n      목적 · 이유 · 결과\n      근거 검색 · 차이\n      종합 · 공유 · 검토\n    \n    \n      목적과 맥락\n      검색과 비교\n      지식의 활용\n    \n    \n      \n      \n    \n    읽고 나누기\n    \n    문서·목차·링크 갱신\n    \n      \n      \n      \n    \n    \n      \n      \n      \n    \n    \n      \n        자료 요약\n        개념 · 비교\n        현재 계획\n      \n      \n        원자료의 입구\n        기존 설명과 연결\n        여러 자료의 종합\n      \n    \n  \n"
+    },
+    {
+      "role": "original-svg",
+      "url": "http://127.0.0.1:4330/presentations/llm-wiki/assets/71a3edfad9bd-session-plan.svg",
+      "width": 1500,
+      "height": 650,
+      "svg": {
+        "x": 0,
+        "y": 0,
+        "width": 1500,
+        "height": 600,
+        "top": 0,
+        "right": 1500,
+        "bottom": 600,
+        "left": 0
+      },
+      "text": "\n  입문자와 함께 읽는 15분 LLM Wiki 활동안 발췌\n  등록 자료 materials/session-plan.md에서 목표, 자작 주제 메모 목적과 맥락 및 지식의 활용, 네 활동 구간을 발췌했다. 0~2분 질문 정하기, 2~6분 두 읽기 메모 확인, 6~11분 원자료에서 개념과 비교로 이어진 관계 한 개와 근거 읽기, 11~15분 후속 질문과 남은 확인 기록이다. 실제 운영·학습효과·설치 및 모델 생성 시간의 실측이 아닌 시간 배분 예시다.\n  \n  \n    활동안 발췌 · 시간 배분 예시\n    입문자와 함께 읽는 15분 LLM Wiki 활동\n    목표: 한 관계의 근거를 찾아 읽고, 다음 질문과 확인할 점을 남긴다.\n    실제 운영·학습효과·설치/모델 생성 시간의 실측이 아닙니다.\n    자작 주제 메모 팩 · 목적과 맥락 + 지식의 활용\n    \n    \n      \n        0~2분\n        2~6분\n        6~11분\n        11~15분\n      \n      왜 이 자료를 다시 쓰려는지 질문 정하기\n      선택한 두 읽기 메모 확인하기\n      원자료→개념→비교의 연결 한 개를 따라 읽기\n      후속 질문에 근거를 연결하고 남은 확인 적기\n    \n  \n"
+    },
+    {
+      "role": "actual-photo",
+      "url": "http://127.0.0.1:4330/presentations/product-notes/#2",
+      "title": "작은 제품을 함께 개선하기 — Stage",
+      "index": "1",
+      "layout": "blocks",
+      "composition": "split",
+      "heading": "답을 내기 전에, 장면을 남깁니다.",
+      "headingSize": "72px",
+      "text": "답을 내기 전에, 장면을 남깁니다.기록하는 장면 · LinkedIn Sales Navigator / Pexels어떤 일을 시작하려는지 묻습니다.멈춘 순간을 짧게 적습니다.해결책보다 실제 행동을 먼저 봅니다.",
+      "stage": {
+        "x": 48,
+        "y": 130,
+        "width": 1344,
+        "height": 756,
+        "right": 1392,
+        "bottom": 886
+      },
+      "body": {
+        "x": 125.27999877929688,
+        "y": 195.51998901367188,
+        "width": 1189.43994140625,
+        "height": 591.3599853515625,
+        "right": 1314.7199401855469,
+        "bottom": 786.8799743652344
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/478e6580030c-write.jpg",
+          "alt": "야외 테이블에서 노트에 쓰는 인물을 담은 스톡 사진",
+          "complete": true,
+          "naturalWidth": 1600,
+          "naturalHeight": 1067,
+          "fit": "cover",
+          "focus": "45% 43%",
+          "box": {
+            "x": 125.27999877929688,
+            "y": 293.294677734375,
+            "width": 596.6558837890625,
+            "height": 457.46533203125,
+            "right": 721.9358825683594,
+            "bottom": 750.760009765625
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "실제 행동",
+          "color": "rgb(36, 168, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-remake-20261102/round-03/common/product-notes-2-photo.png"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "slide": 10,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09",
+    "mode": "read",
+    "bodyWidth": 390,
+    "images": [
+      {
+        "width": 318,
+        "naturalWidth": 1500,
+        "alt": "Ingest는 자료를 소화하고 연결하는 일를 설명하는 기존 도식.",
+        "parent": "<figure class=\"md-media block-node\" data-fit=\"contain\" data-source-line=\"142\" data-source-end-line=\"142\"><img data-source-line=\"142\" data-source-end-line=\"142\" src=\"assets/8421786b1f57-ingest-map.svg\" alt=\"Ingest는 자료를 소화"
+      }
+    ]
+  },
+  {
+    "slide": 20,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "revision": "6df65ff95f74d48df3845d212d4bd36b111980e077d9ff332299c9bba7728b09",
+    "mode": "read",
+    "bodyWidth": 390,
+    "images": [
+      {
+        "width": 318,
+        "naturalWidth": 1500,
+        "alt": "정리한 지식으로 만든 실제 결과를 설명하는 기존 도식.",
+        "parent": "<figure class=\"md-media block-node\" data-fit=\"contain\" data-source-line=\"307\" data-source-end-line=\"307\"><img data-source-line=\"307\" data-source-end-line=\"307\" src=\"assets/4f573bd52fd7-session-plan.svg\" alt=\"정리한 지식으로 만든 "
+      }
+    ]
+  }
+]

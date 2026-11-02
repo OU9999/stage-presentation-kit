@@ -1,0 +1,106 @@
+{
+  "sourceSha256": "f6a5a79c444a79a9f62ed8759c1a7a1e745298b30d3766dcb32202a220619bbe",
+  "buildSiteExitCode": 0,
+  "verifySiteExitCode": 0,
+  "tests": {
+    "total": 280,
+    "pass": 280,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0
+  },
+  "records": [
+    {
+      "scope": "present-1440",
+      "result": {
+        "valid": true,
+        "reviewedComplete": true,
+        "approved": true,
+        "passed": true,
+        "counts": {
+          "approved": 26,
+          "needs-changes": 0,
+          "unreviewed": 0
+        },
+        "scopeCount": 26,
+        "slideCount": 26
+      },
+      "record": "research/llm-wiki-remake-20261102/final/present-1440.review.json",
+      "recordSha256": "bac65bc3b10c4c313ec34cd749b3942f4b67d643f714768e02d46c9e4ed6cf1d",
+      "approvalCliExitCode": 0
+    },
+    {
+      "scope": "present-960",
+      "result": {
+        "valid": true,
+        "reviewedComplete": true,
+        "approved": true,
+        "passed": true,
+        "counts": {
+          "approved": 26,
+          "needs-changes": 0,
+          "unreviewed": 0
+        },
+        "scopeCount": 26,
+        "slideCount": 26
+      },
+      "record": "research/llm-wiki-remake-20261102/final/present-960.review.json",
+      "recordSha256": "bf9752300681b17382076af537336faf730a2dbe2ff63caa1c9aedde2211407a",
+      "approvalCliExitCode": 0
+    },
+    {
+      "scope": "read-1440",
+      "result": {
+        "valid": true,
+        "reviewedComplete": true,
+        "approved": true,
+        "passed": true,
+        "counts": {
+          "approved": 26,
+          "needs-changes": 0,
+          "unreviewed": 0
+        },
+        "scopeCount": 26,
+        "slideCount": 26
+      },
+      "record": "research/llm-wiki-remake-20261102/final/read-1440.review.json",
+      "recordSha256": "2ea42a26f60634d834bf91e08ce7c282efb90b24fc58fdf4518b268c20cb57dd",
+      "approvalCliExitCode": 0
+    },
+    {
+      "scope": "read-390",
+      "result": {
+        "valid": true,
+        "reviewedComplete": true,
+        "approved": true,
+        "passed": true,
+        "counts": {
+          "approved": 26,
+          "needs-changes": 0,
+          "unreviewed": 0
+        },
+        "scopeCount": 26,
+        "slideCount": 26
+      },
+      "record": "research/llm-wiki-remake-20261102/final/read-390.review.json",
+      "recordSha256": "d14fb57d8281054772dbee2e1108022b39bdc05c766b3a60159d8c139d9ea654",
+      "approvalCliExitCode": 0
+    }
+  ],
+  "policyApproval": {
+    "reviewer": "/root/remake_design_manager",
+    "path": "research/llm-wiki-remake-20261102/round-01/design-review/DESIGN_VERDICT.md",
+    "sha256": "9d638d4759f8757d30635eba50b4a69c5f62e4ecea95c623209b00756ba5c29c",
+    "status": "approved-for-this-remake",
+    "agentsSha256": "0f617eefd04338c7eb9e346476ae4789330df8f6f3c0044b0aaeab294ba9e775",
+    "designSha256": "75e405eb4d1695fc5b4d5301d9393a2b3a0f938a3288dd3c9807e2845ca90817"
+  },
+  "browserFinish": {
+    "taskSpace": 23,
+    "keep": [
+      "p1"
+    ],
+    "localPreview": "http://127.0.0.1:4330/presentations/llm-wiki/#17",
+    "serverSession": 55774
+  }
+}

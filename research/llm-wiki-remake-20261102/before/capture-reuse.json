@@ -1,0 +1,8 @@
+{
+  "source": "research/design-governance-20261102/evidence/before/manifest.json",
+  "reason": "Presentation source/runtime/assets match the prior 26-slide capture; DESIGN and non-rendering README were reviewed separately",
+  "historicalDifferences": [
+    "DESIGN.md",
+    "talks/llm-wiki/README.md"
+  ]
+}

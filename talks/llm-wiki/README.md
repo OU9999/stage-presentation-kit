@@ -7,10 +7,10 @@
 - 1~6장: 내 자료를 이해하는 개인 지식 베이스, 개인비서의 맥락, 파일과 사람·AI 역할
 - 7~14장: RAG 핵심 비교와 두 경로 그림, Ingest의 소화·분해·연결·축적, 질문과 갱신
 - 15~18장: 가치 있는 자료 선택, 목적과 구조화, 직접 쓴 감정·생각·판단과 AI 정리의 구분
-- 19~25장: 활용과 실제 결과물, 사람이 읽고 고치는 장점, 한계와 첫 요청
+- 19~25장: 활용과 제공하는 15분 활동안, 사람이 읽고 고치는 장점, 한계와 첫 요청
 - 26장: 자기 자료와 질문으로 Q&A
 
-기존 핵심 도식9개를 유지합니다. [그림 부록](materials/visual-appendix.md)에서 전체19도식과 수정 전48장 원고·대본을 읽을 수 있습니다. 스터디 메모와 새 조건은 설명용 구성 예이며 실제 실행이나 학습 효과의 증거가 아닙니다.
+핵심 도식9개의 의미와 관계를 유지하며 10·20장은 별도 개선 그림을 사용합니다. [도식의 대상과 관계](materials/diagram-reading.md)는 작은 화면에서도 같은 내용을 문장으로 읽는 경로입니다. [그림 부록](materials/visual-appendix.md)에서 전체19도식과 수정 전48장 원고·대본을 읽을 수 있습니다. 스터디 메모와 새 조건은 설명용 구성 예이며 실제 실행이나 학습 효과의 증거가 아닙니다.
 
 ## test.md의 내용을 반영한 곳
 
@@ -31,6 +31,7 @@
 
 - [발표](../../presentations/llm-wiki/index.html) · [슬라이드 읽기](../../presentations/llm-wiki/read.html)
 - [26장 대본](materials/speaker-script.md) · [진행표](assets/speaker-guide.txt)
+- [도식의 대상과 관계 읽기](materials/diagram-reading.md)
 - [원본 그림·48장 원고](materials/visual-appendix.md)
 - [학습 자료](materials/index.md) · [혼자 공부하기](materials/study-guide.md)
 - [자료 읽는 방법](materials/workshop.md) · [설계와 기술 원문](materials/reference-library.md)

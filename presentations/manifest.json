@@ -30,7 +30,7 @@
           "source": "talks/llm-wiki/materials/index.md",
           "title": "LLM Wiki 학습 자료",
           "order": 1,
-          "revision": "be67f040062613857bd37682a3b3590b649ab92ee921a7a68f0414dcb80ce715",
+          "revision": "712990f277dd8262c6d32d7233d314c258baf2fdc91312dea56d218c2a90b354",
           "href": "llm-wiki/materials/index.html"
         },
         {
@@ -44,7 +44,7 @@
           "source": "talks/llm-wiki/materials/speaker-script.md",
           "title": "26장 대본 · 본편 35분과 Q&A 5분",
           "order": 3,
-          "revision": "e06bb07a80c3837d60ae1f24e549f4c09596a3b9b3dc5f2f3de949bf33d10cc8",
+          "revision": "4d107150e76ac8b49548991e30b403d60e8c62f378b7b6320a0fd0f242cfa968",
           "href": "llm-wiki/materials/speaker-script.html"
         },
         {
@@ -72,15 +72,22 @@
           "source": "talks/llm-wiki/materials/session-plan.md",
           "title": "입문자와 함께 읽는 15분 LLM Wiki 활동",
           "order": 7,
-          "revision": "d8a774989f214606b1791b18e89b6ab0f53b334efc5a475b34c61b39ea12f390",
+          "revision": "72d734684a52c431bf2380b505cf924a78b34d42dc507af34eaa13116a30f888",
           "href": "llm-wiki/materials/session-plan.html"
         },
         {
           "source": "talks/llm-wiki/materials/visual-appendix.md",
           "title": "원본 그림과 상세 자료",
           "order": 8,
-          "revision": "062e54a9df86a7bd5f2afcb37230abde03d03fd77003fbc6505dd7741a9fcc33",
+          "revision": "64fc9640ec4eed9d9156a7009db5258643f49ac2b7ed11d3b941cdf1e9c9e52e",
           "href": "llm-wiki/materials/visual-appendix.html"
+        },
+        {
+          "source": "talks/llm-wiki/materials/diagram-reading.md",
+          "title": "도식의 대상과 관계 읽기",
+          "order": 9,
+          "revision": "37648c34f0caa4a660343c650d5b8c6dfd3b3fef475def7884f90c08cf2dceeb",
+          "href": "llm-wiki/materials/diagram-reading.html"
         }
       ]
     },

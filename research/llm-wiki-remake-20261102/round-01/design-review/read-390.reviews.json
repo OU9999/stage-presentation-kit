@@ -1,0 +1,418 @@
+[
+  {
+    "slide": 1,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "390폭에서 큰 이름·함께 정리하는 부제·다음 질문에 다시 쓰기 설명이 원순서로 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-01.png"
+    ]
+  },
+  {
+    "slide": 2,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "정의 인용문은 어절을 유지해 재배치되고 마크다운 지식 베이스·사람/AI 공동 읽기·갱신과 출처 링크까지 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-02.png"
+    ]
+  },
+  {
+    "slide": 3,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "정정 crop은 툴바 가림 없이 그림과 관계 읽기 링크를 표시한다. 축소 그림만으로 통과시키지 않고 native 첫/하단 화면에서 세 메모·다섯 관계·원자료 보존 및 같은 장 복귀를 확인했다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-03.png"
+    ]
+  },
+  {
+    "slide": 4,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "필요 맥락과 위키 지원이 한 열에서 구별된다. 상황·선호·이전 선택 이유와 재읽기, OpenClaw/Hermes 보조 링크가 모두 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-04.png"
+    ]
+  },
+  {
+    "slide": 5,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "raw/wiki/rules의 짧은 본문과 관계 링크가 읽힌다. native 전문의 원자료 보존·wiki 개념/비교/목차로그·rules 작업 약속을 실제 목적지/하단/복귀 근거에서 확인했다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-05.png"
+    ]
+  },
+  {
+    "slide": 6,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "사람의 목적/직접 판단과 AI의 읽기·작성·연결·목차 갱신이 한 열에서 분리되고 사람이 직접 문서를 고칠 수 있다는 설명도 남는다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-06.png"
+    ]
+  },
+  {
+    "slide": 7,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "세 비교열의 네 행이 셀 안에서 재배치돼 전체 내용을 읽을 수 있다. 별도 실제 화면에서도 clientWidth=scrollWidth316으로 모든 셀이 표시되며 병용/검색 필요 문장이 남는다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-07.png"
+    ]
+  },
+  {
+    "slide": 8,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "native 본문과 관계 링크가 읽힌다. 축소 도식의 세부 대신 목적지 첫/하단 화면에서 공통 질문·세 메모·이번 근거·현재 답을 읽고 같은 장 복귀를 확인했다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-08.png"
+    ]
+  },
+  {
+    "slide": 9,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "사전 정리한 개념·비교·계획을 읽는 본문/링크가 보인다. native 전문은 같은 입력·서로 관련된 문서·원자료 재읽기와 검색 병용을 보존하며 해당 장으로 복귀한다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-09.png"
+    ]
+  },
+  {
+    "slide": 10,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "정정 crop에서 새 도식과 관계 링크가 정상 표시된다. native 첫/하단 화면을 이어 세 메모·요약 입구·기존 개념/비교·현재 계획·모든 연결·문서목차링크 갱신과 비강제순서를 읽고 같은 장 복귀를 확인했다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-10.png"
+    ]
+  },
+  {
+    "slide": 11,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "한 자료 요약과 여러 자료 공통 주제의 native 본문/링크가 보인다. 목적지 전문의 두 문서 내용·근거·연결 차이와 복귀로 작은 그림의 의미를 읽을 수 있다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-11.png"
+    ]
+  },
+  {
+    "slide": 12,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "개념별 분리·목차/원자료 재읽기·새 자료로 관계 보완의 세 측면이 한 열에서 원순서로 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-12.png"
+    ]
+  },
+  {
+    "slide": 13,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "질문과 1~3의 읽기·조건에 맞춘 답·확인 뒤 문서화가 읽히고 발표용 사례 표시도 남는다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-13.png"
+    ]
+  },
+  {
+    "slide": 14,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "가상 새 조건을 말하는 본문과 관계 링크가 읽힌다. native 전문의 입문자/준비팩/15분과 설명/선택기준/계획의 세 대응·비자동절차 범위 및 복귀를 확인했다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-14.png"
+    ]
+  },
+  {
+    "slide": 15,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "목적 관련성·직접 선택 이유·자료 두 개부터 연결하기가 각각 읽혀 선택의 기준을 유지한다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-15.png"
+    ]
+  },
+  {
+    "slide": 16,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "선택 이유/쓰임을 말하는 본문과 관계 링크가 보인다. native 전문의 진행안 목적과 네 판단 항목·사람 직접 결정·설명용 예 범위 및 같은 장 복귀를 확인했다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-16.png"
+    ]
+  },
+  {
+    "slide": 17,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "목적/경험에 따른 기준 차이→큰 질문→다시 쓰기 방향이 원순서로 재배치되며 현상/대응/쓰임을 모두 읽을 수 있다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-17.png"
+    ]
+  },
+  {
+    "slide": 18,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "사람 책임 선언 뒤 목적 직접 결정·감정/생각/판단/선택 이유 직접 기록과 원문/내 기록/AI 요약·해석 구분이 모두 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-18.png"
+    ]
+  },
+  {
+    "slide": 19,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "공부·프로젝트·글/발표의 대등한 활용처와 행위가 한 열에서 각각 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-19.png"
+    ]
+  },
+  {
+    "slide": 20,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "작은 활동안 이미지 자체로 세부 가독성을 통과시키지 않았다. 실제 전체 활동안 목적지의 목표·두 메모·비실측 범위와 표의 왼쪽/오른쪽 실화면을 이어 네 시간/할 일/남길 것을 읽었다. 가로 wheel이 max262에 도달하고 같은 장 복귀가 확인된다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-20.png"
+    ]
+  },
+  {
+    "slide": 21,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "함께 읽기/고치기/재사용의 세 이점이 한 열에서 읽히며 문서로 남는 근거·내 경험/판단·다음 질문을 모두 보존한다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-21.png"
+    ]
+  },
+  {
+    "slide": 22,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "내용 오류·새/옛 충돌·검토 관리시간이 각각 온전히 읽힌다. 긴 장은 실제 스크롤 조각을 이어 전체 세 범주를 확인했다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-22.png"
+    ]
+  },
+  {
+    "slide": 23,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "네 상황과 첫 행동의 대응이 표 안에서 재배치돼 모두 읽힌다. 실제 화면의 표 폭=scrollWidth316이며 비용 비교와 간단한 노트/검색 대안도 남는다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-23.png"
+    ]
+  },
+  {
+    "slide": 24,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "초기 crop의 코드 오른쪽 숨김을 실제 가로 이동 왼쪽/중간/오른쪽 화면으로 보완했다. max138에서 자료 읽기·개념과 근거 연결·모르는 점 확인 등 네 행 끝을 읽을 수 있고 지원 링크군은 아래에 보존된다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-24.png"
+    ]
+  },
+  {
+    "slide": 25,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "두 자료부터라는 결론과 목적·연결·확인·다시 쓰기의 한 흐름이 읽히며 마지막 공동 지식 문구도 남는다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-25.png"
+    ]
+  },
+  {
+    "slide": 26,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/remake_design_manager/independent_critic",
+    "reviewedAt": "2026-11-02",
+    "reason": "청중 질문·질문 하나/자료 두 개·Q&A·학습/기술 원문/부록 링크가 원순서로 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-remake-20261102/round-03/read-390/slide-26.png"
+    ]
+  }
+]

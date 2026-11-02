@@ -1,0 +1,351 @@
+{
+  "checkedAt": "2026-11-02T07:06:17.136Z",
+  "scope": "source-only; no browser readability or visual approval",
+  "slides": 26,
+  "titles": [
+    "LLM Wiki",
+    "LLM Wiki는 무엇인가요?",
+    "왜 필요한가요?",
+    "개인비서도 내 맥락이 필요합니다",
+    "무엇이 생기나요?",
+    "사람과 AI가 함께 편집합니다",
+    "RAG와 무엇이 다른가요?",
+    "RAG는 필요한 근거를 찾아 답합니다",
+    "위키는 정리해 둔 문서를 읽습니다",
+    "Ingest는 자료를 소화하고 연결하는 일",
+    "요약 하나로 끝나지 않습니다",
+    "나무위키처럼 문서들이 연결됩니다",
+    "질문하면 이렇게 씁니다",
+    "새 자료가 오면 기존 문서도 고칩니다",
+    "다 넣기보다, 다시 쓸 자료부터",
+    "목적이 있어야 정리 기준이 생깁니다",
+    "내 맥락을 정리하는 일은 어렵습니다",
+    "사람이 직접 남기는 맥락",
+    "어디에 쓸 수 있나요?",
+    "정리한 지식으로 만든 15분 활동안",
+    "장점은 나도 AI도 읽고 고친다는 것",
+    "AI가 정리해도 확인은 필요합니다",
+    "이럴 때 작게 시작하세요",
+    "첫 요청은 이 정도면 됩니다",
+    "다음 질문에 쓸 자료 두 개부터",
+    "어떤 자료로 시작하고 싶나요?"
+  ],
+  "timePlan": {
+    "mainMinutes": 35,
+    "qaMinutes": 5,
+    "measured": false
+  },
+  "localReferencesChecked": 196,
+  "diagramAccess": [
+    {
+      "slide": 3,
+      "composition": "media",
+      "detail": "./materials/diagram-reading.md#3%EC%9E%A5-%EC%9E%90%EB%A3%8C%EC%97%90%EC%84%9C-%EC%97%B0%EA%B2%B0%EB%90%9C-%EC%A7%80%EC%8B%9D%EC%9C%BC%EB%A1%9C"
+    },
+    {
+      "slide": 5,
+      "composition": "media",
+      "detail": "./materials/diagram-reading.md#5%EC%9E%A5-raw-wiki-rules%EC%9D%98-%EC%97%AD%ED%95%A0"
+    },
+    {
+      "slide": 8,
+      "composition": "media",
+      "detail": "./materials/diagram-reading.md#8%EC%9E%A5-%EC%A7%88%EB%AC%B8%EC%97%90-%EB%94%B0%EB%9D%BC-%EA%B7%BC%EA%B1%B0-%EC%B0%BE%EA%B8%B0"
+    },
+    {
+      "slide": 9,
+      "composition": "media",
+      "detail": "./materials/diagram-reading.md#9%EC%9E%A5-%EB%AF%B8%EB%A6%AC-%EC%A0%95%EB%A6%AC%ED%95%9C-%EB%AC%B8%EC%84%9C-%EB%8B%A4%EC%8B%9C-%EC%9D%BD%EA%B8%B0"
+    },
+    {
+      "slide": 10,
+      "composition": "media",
+      "detail": "./materials/diagram-reading.md#10%EC%9E%A5-%EC%9D%BD%EA%B3%A0-%EB%82%98%EB%88%84%EA%B3%A0-%EC%97%B0%EA%B2%B0-%EA%B0%B1%EC%8B%A0%ED%95%98%EA%B8%B0"
+    },
+    {
+      "slide": 11,
+      "composition": "media",
+      "detail": "./materials/diagram-reading.md#11%EC%9E%A5-%EC%9E%90%EB%A3%8C-%EC%9A%94%EC%95%BD%EA%B3%BC-%EA%B0%9C%EB%85%90-%EB%AC%B8%EC%84%9C"
+    },
+    {
+      "slide": 14,
+      "composition": "media",
+      "detail": "./materials/diagram-reading.md#14%EC%9E%A5-%EC%83%88-%EC%A1%B0%EA%B1%B4%EA%B3%BC-%EC%84%B8-%EB%AC%B8%EC%84%9C%EC%9D%98-%EB%B3%80%EA%B2%BD"
+    },
+    {
+      "slide": 16,
+      "composition": "media",
+      "detail": "./materials/diagram-reading.md#16%EC%9E%A5-%EC%93%B0%EC%9E%84%EC%97%90%EC%84%9C-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80%EC%9C%BC%EB%A1%9C"
+    },
+    {
+      "slide": 20,
+      "composition": "media",
+      "detail": "./materials/session-plan.md"
+    }
+  ],
+  "compositions": [
+    {
+      "slide": 1,
+      "composition": "message",
+      "warnings": []
+    },
+    {
+      "slide": 2,
+      "composition": "quote",
+      "warnings": []
+    },
+    {
+      "slide": 3,
+      "composition": "media",
+      "warnings": []
+    },
+    {
+      "slide": 4,
+      "composition": "editorial",
+      "warnings": []
+    },
+    {
+      "slide": 5,
+      "composition": "media",
+      "warnings": []
+    },
+    {
+      "slide": 6,
+      "composition": "editorial",
+      "warnings": []
+    },
+    {
+      "slide": 7,
+      "composition": "document",
+      "warnings": []
+    },
+    {
+      "slide": 8,
+      "composition": "media",
+      "warnings": []
+    },
+    {
+      "slide": 9,
+      "composition": "media",
+      "warnings": []
+    },
+    {
+      "slide": 10,
+      "composition": "media",
+      "warnings": []
+    },
+    {
+      "slide": 11,
+      "composition": "media",
+      "warnings": []
+    },
+    {
+      "slide": 12,
+      "composition": "editorial",
+      "warnings": []
+    },
+    {
+      "slide": 13,
+      "composition": "document",
+      "warnings": []
+    },
+    {
+      "slide": 14,
+      "composition": "media",
+      "warnings": []
+    },
+    {
+      "slide": 15,
+      "composition": "editorial",
+      "warnings": []
+    },
+    {
+      "slide": 16,
+      "composition": "media",
+      "warnings": []
+    },
+    {
+      "slide": 17,
+      "composition": "quote",
+      "warnings": []
+    },
+    {
+      "slide": 18,
+      "composition": "quote",
+      "warnings": []
+    },
+    {
+      "slide": 19,
+      "composition": "editorial",
+      "warnings": []
+    },
+    {
+      "slide": 20,
+      "composition": "media",
+      "warnings": []
+    },
+    {
+      "slide": 21,
+      "composition": "editorial",
+      "warnings": []
+    },
+    {
+      "slide": 22,
+      "composition": "editorial",
+      "warnings": []
+    },
+    {
+      "slide": 23,
+      "composition": "document",
+      "warnings": []
+    },
+    {
+      "slide": 24,
+      "composition": "document",
+      "warnings": []
+    },
+    {
+      "slide": 25,
+      "composition": "closing",
+      "warnings": []
+    },
+    {
+      "slide": 26,
+      "composition": "message",
+      "warnings": []
+    }
+  ],
+  "preservedOriginalInputs": 91,
+  "changedBaselineInputs": [
+    "blocks.js",
+    "talks/llm-wiki/README.md",
+    "talks/llm-wiki/assets/speaker-guide.txt",
+    "talks/llm-wiki/materials/index.md",
+    "talks/llm-wiki/materials/session-plan.md",
+    "talks/llm-wiki/materials/speaker-script.md",
+    "talks/llm-wiki/materials/visual-appendix.md",
+    "talks/llm-wiki/slides.md"
+  ],
+  "otherDecksCompositionParity": {
+    "decks": 4,
+    "blockSlides": 33
+  },
+  "inputs": {
+    "AGENTS.md": "0f617eefd04338c7eb9e346476ae4789330df8f6f3c0044b0aaeab294ba9e775",
+    "DESIGN-REVIEW.md": "2fb75cc2a92b4e686a86ae7ca9349f26294b931bd538909ff919e761608fefc8",
+    "DESIGN.md": "75e405eb4d1695fc5b4d5301d9393a2b3a0f938a3288dd3c9807e2845ca90817",
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "d51e0b2d829d7d30538bf22a40078f23606ec4f0cff15754134cecc96579b7c3",
+    "blocks.js": "8dcd8e1d665fdcced35a4b1f919ce150fd32aed023915800ee894355c0167414",
+    "deck-model.js": "351220b228183066edf99117299e21c876b8e107674ca3b4200aa79cea0d0da3",
+    "package.json": "0591010fa3167f51c19919032e1aa334c207e60b9c3942008bbc563ecae4069e",
+    "scripts/design-review.cjs": "ff6b6575a452c331ce268b563999e688acec1aee555eda0ef5bee05fd9aee858",
+    "stage.config.json": "33215de7ca0cdbb771802f01e658231048fb25bdf269b0ab70e83085f71e164e",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "talks/llm-wiki/README.md": "892b330d2c2961525a2be2be3df3b741d986e7c19815577947a19a119b5ff29c",
+    "talks/llm-wiki/assets/CREDITS.md": "bf3de73abf5b09a8ff1d21a6e1f19ec1314afbec8b41bdd9092c4902fd3afb52",
+    "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+    "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+    "talks/llm-wiki/assets/case-course-initial.svg": "2dc76bc9840090a7668879a8ce86587cd0256c1c32e5d8736be084e6aecc8910",
+    "talks/llm-wiki/assets/case-course.svg": "92826f25bf473f1cde492fa4adeca37221ef319e504cd1423bf56dd39511974c",
+    "talks/llm-wiki/assets/case-reading-initial.svg": "217a8eb04b479e3deb28b85af77582e7e58affaace53f13c2ef862a2ad2bacbc",
+    "talks/llm-wiki/assets/case-reading.svg": "381686fba25b77da3d78ce015ba919505cb5fbb6a25a91522542ba3a43784979",
+    "talks/llm-wiki/assets/case-team.svg": "0719dc19d60319b011810062359dc0e3235398cf99dcff9753abf63410cfb19e",
+    "talks/llm-wiki/assets/change-trace.svg": "5efc5a198e7f6479ebced5f155635eeeefce5f409a8881ce28afcdd4b87b417f",
+    "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+    "talks/llm-wiki/assets/decision-example.txt": "58c5bbb5da45d15d04ad3393f83248d46c4be2f7cd3a6314afc334fba555d442",
+    "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+    "talks/llm-wiki/assets/examples/course.txt": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+    "talks/llm-wiki/assets/examples/reading.txt": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+    "talks/llm-wiki/assets/examples/team.txt": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+    "talks/llm-wiki/assets/expanded/agentic-routing.svg": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+    "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+    "talks/llm-wiki/assets/expanded/five-layers.svg": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+    "talks/llm-wiki/assets/expanded/ingest-map.svg": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+    "talks/llm-wiki/assets/expanded/knowledge-layers.svg": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+    "talks/llm-wiki/assets/expanded/purpose-questions.svg": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+    "talks/llm-wiki/assets/expanded/query-reading.svg": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+    "talks/llm-wiki/assets/expanded/rag-path.svg": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+    "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+    "talks/llm-wiki/assets/expanded/reflection-layers.svg": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+    "talks/llm-wiki/assets/expanded/related-updates.svg": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+    "talks/llm-wiki/assets/expanded/review-return.svg": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+    "talks/llm-wiki/assets/expanded/rules-graph.svg": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+    "talks/llm-wiki/assets/expanded/saved-question.svg": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+    "talks/llm-wiki/assets/expanded/session-plan.svg": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+    "talks/llm-wiki/assets/expanded/shared-workspace.svg": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+    "talks/llm-wiki/assets/expanded/source-concept.svg": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+    "talks/llm-wiki/assets/expanded/wiki-path.svg": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+    "talks/llm-wiki/assets/expanded/work-context.svg": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+    "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+    "talks/llm-wiki/assets/knowledge-map.svg": "07411af0788bfcd8c06ff8c2b0fc026a16659892762aefb568248ee6b40cd109",
+    "talks/llm-wiki/assets/photos/library.jpg": "b07f03559eed0fc0946ef6a1cafb9cc423beb70d9ba9b0b8383909ac8f19ce43",
+    "talks/llm-wiki/assets/photos/open-books.jpg": "5aa7ac752bffc72f7f3526b52ac26aa563951dd7e9767363b03d247f4e519903",
+    "talks/llm-wiki/assets/photos/study-table.jpg": "258a229c6dc857c44c2a93083f74eccebe4566b530f043228bc2d8aa1709e1a7",
+    "talks/llm-wiki/assets/photos/writing.jpg": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+    "talks/llm-wiki/assets/rebuild/agentic-update.svg": "870f43db15d573e51f2a4eedc3fd669c48ca278822d45fe842abe4aa2c2ac9f9",
+    "talks/llm-wiki/assets/rebuild/compare-page.svg": "db1dd9a6b2837704cd329436f352e6f3ea379b5b8154c18fcb0a4206b0af62f9",
+    "talks/llm-wiki/assets/rebuild/concept-page.svg": "ef27a516e25131b876ee7a4e1de22e82261ba0ad80257eb9d49fc10e5408e154",
+    "talks/llm-wiki/assets/rebuild/ingest-links.svg": "fe7df7d233122845080be448dd4b98a406ce7295518ffac9a033c000140845d0",
+    "talks/llm-wiki/assets/rebuild/lint-review.svg": "def3a845f957966060683d7821bf9329e06925f51d815c6a4cc110aad6b4c5b6",
+    "talks/llm-wiki/assets/rebuild/query-context.svg": "98b97c631e4eb7de71cf3e9b04edbb10ee2577ad8218b5f1347dd68d3ae01bfe",
+    "talks/llm-wiki/assets/rebuild/question-saved.svg": "d5f298ff3a907e1b70fd8d15a643e0cc2a2505f47cf6685d7c71420ca63ec0ad",
+    "talks/llm-wiki/assets/rebuild/raw-wiki.svg": "d2659d83b8bbe32cc59dd55d4bd543d24dc9b7dc65c91fd5b7e53b51249c56ee",
+    "talks/llm-wiki/assets/rebuild-study.txt": "a8ccde64c53553b7c9ccda9f19bad21e828ec98f537e36b51264446bdc6282b4",
+    "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+    "talks/llm-wiki/assets/reuse-route.svg": "65eecce8e8af5bfc849d98a23ab76952be2ed66565986335e335e5e40c174af4",
+    "talks/llm-wiki/assets/sources.txt": "0827f3843e16b2db5ef056b6a8f0c5affc395bc4d492afd53f9da664cd5278ab",
+    "talks/llm-wiki/assets/speaker-guide.txt": "b3dce836ef94bf97080fdff1ad0852a0ddb654f14b7c07841916d1dd8f96d016",
+    "talks/llm-wiki/assets/starter-template.txt": "c122e725c09d362019e1918bc26a8284dd06a125a760a21b2a3f78de5785320e",
+    "talks/llm-wiki/assets/study-notebook-map.svg": "3eb3b028a3414f0d15525539e0aa544c90df48d6c4704d99751917ce50d4a16a",
+    "talks/llm-wiki/assets/wiki-ingest-update.svg": "127df6c27adfcd67fe12091c12859ece95960c76ff301ae171a289a6285c6bfe",
+    "talks/llm-wiki/assets/wiki-layers.svg": "79afc5f22a989abd58ccf096aea59466057cb46a29da8cb263e34d37e36fc6b7",
+    "talks/llm-wiki/assets/wiki-maintenance-loop.svg": "8263a8f3fd79abe6d50dbd777086918876e589c88b4ab919b8755ee6daa1f5d3",
+    "talks/llm-wiki/assets/wiki-query-return.svg": "d68e2a55ee89c46cbd29a187f076f32d0146c8713c3b8b086ad2af1d05de8413",
+    "talks/llm-wiki/demo/README.md": "f95bd173cc838886f933264af4431eb12c836005b1781442feb6df5fca2dcaac",
+    "talks/llm-wiki/demo/after/wiki/claims/file-update.md": "92bb630e8e722d09d787eeeceb5c61bce8a861c96078e42525e0186091cc2838",
+    "talks/llm-wiki/demo/after/wiki/decisions/review-before-current.md": "9ceef6389ad84733d9958f28c9f7d614cbb4d1b275672a48fe148430cf76515f",
+    "talks/llm-wiki/demo/after/wiki/decisions/save-all.md": "65562b6302d2aac960520d10cb65a80a12e637ad986e21683fc64f3d7f2df7a3",
+    "talks/llm-wiki/demo/after/wiki/index.md": "dea98321d159bffd02e4a50224bf9790e0c6cc45666d64c77878abd2d5059934",
+    "talks/llm-wiki/demo/after/wiki/log.md": "0b190fbdbaa247b3a2fb0cc7b6329c008b04b932eed49263d62dbcd32fe66d8e",
+    "talks/llm-wiki/demo/after/wiki/pending/retrieval-coverage.md": "e301bd053c0d107a5b5fbfd1e674df1f723ca46855331e72d7199a3c4abe50d5",
+    "talks/llm-wiki/demo/after/wiki/questions/what-to-save.md": "dd3f09a6ddfa5439bb6084c1896f026fc8b814bbd8072aeeaa8eed5f398d05bd",
+    "talks/llm-wiki/demo/after/wiki/questions/wiki-and-learning.md": "77d75ad0051f7a46a232bc7ce762538f32bf1587abb40cc670190358b8a53e46",
+    "talks/llm-wiki/demo/before/wiki/claims/file-update.md": "844219560c6917c8c2bd3de6a1d60aaae7db2472049c8730e006d855945374f1",
+    "talks/llm-wiki/demo/before/wiki/decisions/save-all.md": "d77f31e59cfee51d93d6e6c73851f453e617af2c4ef1f793b59cd9ced7190761",
+    "talks/llm-wiki/demo/before/wiki/index.md": "52b6a60827254eba86ed7e11fa6d915edb99049a956503cdbf89a5614263ecbe",
+    "talks/llm-wiki/demo/before/wiki/log.md": "9aceece1ef383999a38ca7c31d15d09aecc97ab304f6dc68271bf13177bb62b0",
+    "talks/llm-wiki/demo/before/wiki/questions/wiki-and-learning.md": "09953148d63b4025185026a27765fec906d72684b886801c8c4069356b8af935",
+    "talks/llm-wiki/demo/changes.diff": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489",
+    "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+    "talks/llm-wiki/demo/receipt.json": "3052ecf8710697cddc4acb68ede40c4e5dd926f7eaada03fff13cc79e31b66b3",
+    "talks/llm-wiki/demo/review/review.json": "cb1f12d45063a496c27eeefff2069d2c8ec2c6c719d460e729f5ba86ee9d4216",
+    "talks/llm-wiki/demo/run-demo.cjs": "b73c7824599464d8ebb3510cfcec3e0d499d0ca2a1f5e91f6c44dc7225260faa",
+    "talks/llm-wiki/demo/source-notes/adr.md": "7a68c7c8fdbe0854da56f62fb4aaf1897ffc693ad9a31d3c1812bcb995faaab8",
+    "talks/llm-wiki/demo/source-notes/llm-wiki.md": "c82d841dd85d9587f5c4d95bb0681c21810e7077e63b5763c12dab23e29d2762",
+    "talks/llm-wiki/demo/source-notes/lora.md": "fb88ac73af8648228fc0ea71a0a7200f92ef081b4fe7c88e6c1c45fc4af03a2e",
+    "talks/llm-wiki/demo/source-notes/rag-initial.md": "084cc17c8e74de1a595f4fd9e608f7e3883a8733364e5a8bc9ca80eac034b297",
+    "talks/llm-wiki/demo/source-notes/rag.md": "c2cd0b4abbc182355ee618ef18581d63696483eeaea1e0cb707d140ac1507c62",
+    "talks/llm-wiki/demo/starter.txt": "0ac7822fd7af69689ef6297d03cf44744e609c78d9ef741c32f89a901a4db16e",
+    "talks/llm-wiki/materials/demo-log.md": "c9658bac6915ae5cb931bdfe1a33c5d67069c6aa0a60bcf80af4b9a550d257e0",
+    "talks/llm-wiki/materials/index.md": "712990f277dd8262c6d32d7233d314c258baf2fdc91312dea56d218c2a90b354",
+    "talks/llm-wiki/materials/reference-library.md": "6b1796922385854cb43a10e332fd6df82fd229c8d8e8868d89db4ec137dcd883",
+    "talks/llm-wiki/materials/session-plan.md": "72d734684a52c431bf2380b505cf924a78b34d42dc507af34eaa13116a30f888",
+    "talks/llm-wiki/materials/speaker-script.md": "4d107150e76ac8b49548991e30b403d60e8c62f378b7b6320a0fd0f242cfa968",
+    "talks/llm-wiki/materials/study-guide.md": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+    "talks/llm-wiki/materials/visual-appendix.md": "64fc9640ec4eed9d9156a7009db5258643f49ac2b7ed11d3b941cdf1e9c9e52e",
+    "talks/llm-wiki/materials/workshop.md": "5cdf7f8a16798a8ef7a79ab8fc715fd904baef33a4291aa6c294ec8d3b9edace",
+    "talks/llm-wiki/slides.md": "f6a5a79c444a79a9f62ed8759c1a7a1e745298b30d3766dcb32202a220619bbe",
+    "talks/llm-wiki/test.md": "174e1fdc3844045f8e5cae5890ffd87aa21562487180fcf4e01a90fa0ea13489",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "talks/llm-wiki/materials/diagram-reading.md": "37648c34f0caa4a660343c650d5b8c6dfd3b3fef475def7884f90c08cf2dceeb",
+    "talks/llm-wiki/assets/remake/ingest-map.svg": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+    "talks/llm-wiki/assets/remake/session-plan.svg": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+    "tests/blocks-composition.test.cjs": "0c9c287fe685c4e5d48a6c2ffb1131a66a2298f7a211e8c47ce421b3397cf461",
+    "MARKDOWN-FIRST.md": "a41f083dc14287355d3f437d8679db53cb06f2dda0186dac30ad254f3b86a913"
+  }
+}

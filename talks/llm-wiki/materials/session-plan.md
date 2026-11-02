@@ -52,4 +52,4 @@ order: 7
 2026-10-31 발표팀이 본문과 예제 팩을 대조했다. 시간 구간은 2·4·5·4분으로 합계 15분이고, 선택한 메모 두 개의 이름과 이유가 모두 있다. 본문은 팩의 `wiki/outputs/study-session-plan.md`와 같으며, 팩의 `wiki/reviews/study-session-plan.md`에 문서 대조 범위와 미확인 사항을 남겼다. 자료 링크와 팩 내부 경로는 정적 검사로 확인했다. 수행하지 않은 모임·모델 호출·음성 리허설·학습효과 확인을 완료로 표시하지 않는다.
 
 - [주제 메모·개념·비교·계획·결과·검토를 담은 팩](../assets/expanded-study.txt)
-- [예제 읽기와 해설](./workshop.md) · [원문과 실행 범위](./reference-library.md) · [발표 20장 실제 결과](../slides.md#20)
+- [예제 읽기와 해설](./workshop.md) · [원문과 실행 범위](./reference-library.md) · [발표 20장 15분 활동안](../slides.md#20)

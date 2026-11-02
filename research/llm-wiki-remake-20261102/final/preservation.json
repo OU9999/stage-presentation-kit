@@ -1,0 +1,21 @@
+{
+  "inputSnapshotsIdentical": true,
+  "preservedTalkFiles": 91,
+  "changedExistingTalkFiles": [
+    "talks/llm-wiki/README.md",
+    "talks/llm-wiki/assets/speaker-guide.txt",
+    "talks/llm-wiki/materials/index.md",
+    "talks/llm-wiki/materials/session-plan.md",
+    "talks/llm-wiki/materials/speaker-script.md",
+    "talks/llm-wiki/materials/visual-appendix.md",
+    "talks/llm-wiki/slides.md"
+  ],
+  "originalSvgCount": 19,
+  "inputCount": 67,
+  "checks": {
+    "AGENTS.md": "0f617eefd04338c7eb9e346476ae4789330df8f6f3c0044b0aaeab294ba9e775",
+    "DESIGN.md": "75e405eb4d1695fc5b4d5301d9393a2b3a0f938a3288dd3c9807e2845ca90817",
+    "talks/llm-wiki/slides.md": "f6a5a79c444a79a9f62ed8759c1a7a1e745298b30d3766dcb32202a220619bbe",
+    "blocks.js": "8dcd8e1d665fdcced35a4b1f919ce150fd32aed023915800ee894355c0167414"
+  }
+}
