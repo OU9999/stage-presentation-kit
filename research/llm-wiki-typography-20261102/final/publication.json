@@ -1,0 +1,25 @@
+{
+  "verifiedAt": "2026-11-02T10:06:16.001167+00:00",
+  "branch": "main",
+  "remote": "origin",
+  "publishedProductCommit": "80b38b71ddc7deff1189615d85ee4dca436086d9",
+  "remoteMainAtVerification": "80b38b71ddc7deff1189615d85ee4dca436086d9",
+  "productPushSucceeded": true,
+  "workingTreeCleanAtProductVerification": true,
+  "forcePush": false,
+  "commits": [
+    {
+      "sha": "0c8aa786c99bee6ae36c769480be2a1190fb0f97",
+      "scope": "Essential Markdown copy hierarchy and generated runtime"
+    },
+    {
+      "sha": "68d600021cc27339126b254a9a20d4bd274cbe45",
+      "scope": "LLM Wiki typography, diagrams and regression checks"
+    },
+    {
+      "sha": "80b38b71ddc7deff1189615d85ee4dca436086d9",
+      "scope": "Design guidance and independent review evidence"
+    }
+  ],
+  "note": "This records the verified product push. The publication record and WORK_LOG are saved in a following audit commit; its SHA and final remote equality are checked after that push. Public hosting deployment was not verified."
+}
