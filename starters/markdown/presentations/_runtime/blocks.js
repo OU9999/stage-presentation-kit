@@ -161,7 +161,11 @@
     var shortText = !!slide.heading && plainHeading.length <= 52 && nodes.every(paragraph) && bodyLength <= 200;
     var imageTail = trailing.every(paragraph) && trailing.map(nodeText).join("").length <= 240;
     var split = images.length === 1 && trailing.length > 0 && trailing.every(copyNode) && trailing.map(nodeText).join("").length <= 380;
-    var quote = nodes.length > 0 && isElement(nodes[0], "blockquote") && nodeText(nodes[0]).length <= 220 && nodes.slice(1).every(paragraph) && nodes.slice(1).map(nodeText).join("").length <= 200;
+    var quoteIndex = nodes.findIndex(function (node) { return isElement(node, "blockquote"); });
+    var quoteSupport = nodes.filter(function (_, index) { return index !== quoteIndex; });
+    // Explicit quote composition may frame its one quotation with short prose in authored order.
+    // Auto retains its original leading-quotation heuristic.
+    var quote = quoteIndex >= 0 && (quoteIndex === 0 || requested === "quote") && nodeText(nodes[quoteIndex]).length <= 220 && quoteSupport.every(paragraph) && quoteSupport.map(nodeText).join("").length <= 200;
     var suitability = {
       document: true,
       message: shortText,

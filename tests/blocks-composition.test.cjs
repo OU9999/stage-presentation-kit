@@ -68,6 +68,30 @@ test('composition planning is pure and chooses safe default shapes without inven
   }
 });
 
+test('explicit quote preserves short framing prose while auto and unsafe shapes retain their fallback', () => {
+  const content = '# 기준 질문\n\n같은 자료라도 목적에 따라 기준이 달라집니다.\n\n> 왜 골랐고, **어떤 질문을 풀려는가?**\n\n기준부터 적어 다시 쓸 방향을 잡습니다.';
+  const explicit = preserved(control('compose: quote') + content);
+  assert.equal(explicit.composition, 'quote');
+  assert.equal(explicit.warnings.length, 0);
+  const body = findClass(explicit.body, 'markdown-body')[0];
+  assert.deepEqual(body.children.map(node => node.tagName), ['p', 'blockquote', 'p']);
+  assert.equal(body.children[0].textContent, '같은 자료라도 목적에 따라 기준이 달라집니다.');
+  assert.match(body.children[1].textContent, /어떤 질문을 풀려는가/);
+  assert.equal(preserved(content).composition, 'document');
+  assert.equal(preserved('# 인용\n\n> 질문\n\n조건').composition, 'quote');
+  for (const invalid of [
+    '앞 설명\n\n> 질문 하나\n\n중간 설명\n\n> 질문 둘',
+    '앞 설명\n\n> 질문\n\n![대상](a.svg)',
+    '앞 설명\n\n> 질문\n\n- 지원 목록',
+    '앞 설명\n\n> ' + '가'.repeat(221),
+    '가'.repeat(201) + '\n\n> 질문'
+  ]) {
+    const result = preserved(control('compose: quote') + '# 질문\n\n' + invalid);
+    assert.equal(result.composition, 'document');
+    assert.equal(result.warnings.length, 1);
+  }
+});
+
 test('the two authored stories render sixteen canonical slides with the intended distinct rhythm', () => {
   const expected = {
     'product-notes': ['message', 'split', 'document', 'editorial', 'quote', 'message', 'document', 'closing'],

@@ -87,7 +87,7 @@ tone: purple
 ![다른 시선](./context.jpg "주변의 맥락 · 사진 출처")
 ```
 
-`compose`는 `auto`(기본), `message`, `split`, `media`, `gallery`, `mosaic`, `editorial`, `bento`, `icon-wall`, `quote`, `closing`, `document`를 지원합니다. mosaic은 첫 사진을 크게, editorial은 H2별 자료를 주역/보조 그룹으로 표현합니다. closing은 저자가 끝 장의 표현을 선택할 때 사용합니다. split은 이미지가 먼저 오고 뒤에 문단/목록이 이어지는 형태만 묶습니다. 앞 설명→이미지→뒤 설명, 문장과 섞인 이미지, 링크로 감싼 이미지를 무단 추출/재정렬하지 않습니다.
+`compose`는 `auto`(기본), `message`, `split`, `media`, `gallery`, `mosaic`, `editorial`, `bento`, `icon-wall`, `quote`, `closing`, `document`를 지원합니다. 명시한 `compose: quote`는 단일 인용 앞뒤의 짧은 문단을 원순서로 유지하며, 맞지 않는 본문은 document로 보존하고 자동 조판의 선택 기준은 유지합니다. mosaic은 첫 사진을 크게, editorial은 H2별 자료를 주역/보조 그룹으로 표현합니다. closing은 저자가 끝 장의 표현을 선택할 때 사용합니다. split은 이미지가 먼저 오고 뒤에 문단/목록이 이어지는 형태만 묶습니다. 앞 설명→이미지→뒤 설명, 문장과 섞인 이미지, 링크로 감싼 이미지를 무단 추출/재정렬하지 않습니다.
 
 짧은 개념을 나란히 크게 설명하려면 `compose: editorial`에 `variant: centered`를 추가합니다. H2 그룹을 무대 중앙 높이에 놓고 상단 구분선 없이 제목·본문을 크게 보여 줍니다. 일반 editorial은 그대로 유지하며, 읽기 화면에서는 같은 내용이 원래 순서의 문서로 표시됩니다. 이 변형은 editorial에서만 사용합니다.
 
