@@ -1,5 +1,11 @@
 # STAGE 작업 로그
 
+## 완료 — 2026-11-03 LLM Wiki 공개 배포 링크 확인
+
+- 요청/담당: 사용자가 배포 링크를 요청했다. root 단독으로 DEPLOYMENT.md·현재 저장소와 공개 Pages 상태를 확인했으며 제품·호스팅 설정은 수정하지 않았다.
+- 실제 확인: GitHub Pages API의 main/루트 source·status built와 최신 build commit4ffba7f9bc3c818e165fd66ac25fff021389b048·error null을 확인했다. 공개 발표/읽기 HTML·content.js·공통 blocks CSS/JS·도식 상세 HTML·새9SVG 총15파일이 모두HTTP200이며 현재 로컬 바이트와 동일했다. web open 도구의 접근 오류와 실제 HTTP/API 성공을 구별한다.
+- 결과/미완료: 발표 https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/ · 읽기 https://ou9999.github.io/stage-presentation-kit/presentations/llm-wiki/read.html 을 제공한다. 최신 교정본의 공개 반영 확인을 완료했으며 이 요청의 미완료는 없다. 기존 커밋/푸시 지시에 따라 이 확인 로그도 별도 기록 커밋으로 동기화한다.
+
 ## 완료 — 2026-11-02 LLM Wiki 발표 타이포·배치·밝은 면 재교정과 커밋/푸시
 
 - 최종 결과: 실제 의미 개행·필수본문 위계·공통문단 소속·새9도식/검정재구성면을 교정하고 첫 수정판의 독립반려까지 다시 수정했다. 발표/읽기4범위 각26장 현재입력승인·지침별도적합성/추가요구0,실회귀83항씩0실패·전체317테스트·사이트검증/선택/18상세왕복·26키이동을 인수했다. 사용자 추가요청에 따라0c8aa78/68d6000/80b38b7을일반push로origin/main에반영했고 ls-remote=로컬80b38b71ddc7deff1189615d85ee4dca436086d9·직후clean을확인했다. 이마감기록도별도커밋/일반push후원격SHA/clean을재확인하며최종SHA는Git이력과사용자보고에서확인한다. 요청한제품/지침교정·검수·Git반영의미완료는없다. 공개호스팅배포·실프로젝터/다른OS/실35분낭독은검증범위밖이다.
