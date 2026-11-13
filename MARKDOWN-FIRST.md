@@ -1,6 +1,6 @@
 # Markdown 한 원고로 발표하고 공유하기
 
-`talks/주제/slides.md`를 고치면 기존 STAGE 스타일의 발표와 읽기 화면을 만듭니다. 새 주제는 폴더와 `slides.md`만 추가합니다. 매번 JSON·HTML·CSS를 수정하지 않습니다.
+`talks/주제/slides.md`를 고치면 기존 STAGE 스타일의 발표와 읽기 화면을 만듭니다. 새 주제는 `npm run new -- my-topic --title "발표 제목"`으로 추가합니다. 매번 JSON·HTML·CSS를 수정하지 않습니다.
 
 원고를 쓰거나 바꾸기 전에 [DESIGN.md](DESIGN.md)를 읽고 변경 범위와 보존할 자료를 정합니다. 최신 사용자 지시를 우선하며, 이 안내는 입력 문법을 맡습니다. 작업 후에는 [현재 판 검수](DESIGN.md#변경과-현재-판-검수)에 따라 실제 화면·판정 이유를 남기고 [검수 기록 안내](DESIGN-REVIEW.md)로 입력과 근거의 최신성을 확인합니다. 생성 성공은 시각 승인과 구별합니다.
 
@@ -32,15 +32,15 @@ cp -R starters/markdown/talks/my-talk talks/my-new-talk
 npm run dev
 ```
 
-새 이름의 폴더에서 slides.md와 assets만 고치면 됩니다. 기존 네 원고는 공유 자산·다른 발표 링크를 시연하며, 스타터는 다른 덱에 의존하지 않습니다. 별도 프로젝트가 필요하면 스타터 프로젝트 전체를 새 경로로 복사하고 kit에서 `npm run dev -- --config ../my-presentation/stage.config.json`을 사용하세요. 상세 복사·공유 방법은 스타터 안내에 있습니다.
+새 이름의 폴더에서 slides.md와 assets만 고치면 됩니다. 기존 네 원고는 공유 자산·다른 발표 링크를 시연하며, 스타터는 다른 덱에 의존하지 않습니다. 별도 프로젝트가 필요하면 스타터 프로젝트 전체를 새 경로로 복사하고 kit에서 `npm run dev -- --config ../my-presentation/ou.config.json`을 사용하세요. 상세 복사·공유 방법은 스타터 안내에 있습니다.
 
 공통 디자인·HTML template·기존 예제까지 배포할 때에는 `npm run build:site`로 모두 갱신하고 `npm run verify:site`로 생성물이 원본과 일치하는지 확인합니다. verify는 생성물을 수정하지 않습니다. 현재 프로젝트만 생성하는 `npm run build`와 역할을 구분합니다. 공통 HTML 원본은 templates/presentation.html이며 공개 root index.html을 template으로 사용하지 않습니다.
 
 ## 한 번 정하는 프로젝트 설정
 
-`stage.config.json`의 `title`, `theme`, `sourceDir`, `outputDir`를 프로젝트에 맞춥니다. theme는 기존 `stage`, `paper`, `midnight` 중 하나입니다. 도구는 sourceDir 아래의 모든 `slides.md`를 찾습니다. 예를 들어 `talks/team/review/slides.md`의 기본 id는 `team/review`이며 basename인 `slides`를 쓰지 않습니다. frontmatter에서 고유 `id`를 선택할 수 있습니다. 같은 id·정규화된 출력 이름의 중복은 오류입니다.
+`ou.config.json`(기존 `stage.config.json`도 지원)의 `title`, `theme`, `sourceDir`, `outputDir`를 프로젝트에 맞춥니다. theme는 기존 `stage`, `paper`, `midnight` 중 하나입니다. 도구는 sourceDir 아래의 모든 `slides.md`를 찾습니다. 예를 들어 `talks/team/review/slides.md`의 기본 id는 `team/review`이며 basename인 `slides`를 쓰지 않습니다. frontmatter에서 고유 `id`를 선택할 수 있습니다. 같은 id·정규화된 출력 이름의 중복은 오류입니다.
 
-출력의 `manifest.json`은 도구가 관리하는 목록입니다. 직접 편집하지 않습니다. 출력 폴더는 생성물이며 다음 build에서 통째로 바뀝니다. 원본·프로젝트 루트·생성 표시가 없는 기존 폴더는 출력 대상으로 덮어쓰지 않습니다. `--config path/to/stage.config.json`으로 별도 프로젝트 설정을 사용할 수 있습니다.
+출력의 `manifest.json`은 도구가 관리하는 목록입니다. 직접 편집하지 않습니다. 출력 폴더는 생성물이며 다음 build에서 통째로 바뀝니다. 원본·프로젝트 루트·생성 표시가 없는 기존 폴더는 출력 대상으로 덮어쓰지 않습니다. `--config path/to/ou.config.json`으로 별도 프로젝트 설정을 사용할 수 있습니다.
 
 ## 원고 문법
 

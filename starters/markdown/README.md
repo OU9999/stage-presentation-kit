@@ -2,7 +2,7 @@
 
 [발표 모음](presentations/) · [발표6장](presentations/my-talk/) · [같은 원고의 읽기](presentations/my-talk/read.html) · [수정할 원고](talks/my-talk/slides.md)
 
-이 작은 프로젝트는 원고·사진·첨부·설정과 공유할 생성 결과를 함께 갖췄습니다. 다른 발표의 파일이나 저장소 공용 사진 경로를 참조하지 않습니다. 공통 STAGE 디자인은 kit의 엔진으로 생성합니다.
+이 작은 프로젝트는 원고·사진·첨부·설정과 공유할 생성 결과를 함께 갖췄습니다. 다른 발표의 파일이나 저장소 공용 사진 경로를 참조하지 않습니다. 공통 Stage 디자인은 `ou-presentation` 엔진으로 생성합니다. 사진 없이 작은 원고로 시작하려면 저장소 루트에서 `npm run new -- my-talk` 또는 `npm run init -- ../my-presentations`를 사용하세요.
 
 작성 전 kit의 [DESIGN.md](../../DESIGN.md)를 읽고 변경 범위와 보존할 자료를 정합니다. 최신 사용자 지시가 우선입니다. 완료할 때 [현재 판 검수](../../DESIGN.md#변경과-현재-판-검수)에 따라 실제 화면과 판정 이유를 남기며, 기술 검사와 시각 승인을 구별합니다. [검수 기록 안내](../../DESIGN-REVIEW.md)는 kit에서 사용합니다. 별도 프로젝트로 복사하면 이 문서들의 링크도 원래 kit 위치를 기준으로 확인하세요.
 
@@ -25,8 +25,8 @@ kit 저장소 루트에서 새 경로로 프로젝트 전체를 복사합니다.
 
 ```sh
 cp -R starters/markdown ../my-presentation
-npm run dev -- --config ../my-presentation/stage.config.json
-npm run build -- --config ../my-presentation/stage.config.json
+npm run dev -- --config ../my-presentation/ou.config.json
+npm run build -- --config ../my-presentation/ou.config.json
 ```
 
 실행 명령은 kit 저장소에서 사용합니다. kit의 공통 엔진과 패키지 설치를 재사용하고, 원고·설정·결과는 새 프로젝트에 둡니다. 별도 프로젝트를 이동해도 config 기준 상대 경로를 유지하면 다시 생성할 수 있습니다.
@@ -34,7 +34,7 @@ npm run build -- --config ../my-presentation/stage.config.json
 ## 고칠 파일과 공유할 파일
 
 ```text
-stage.config.json              프로젝트 제목·테마·입출력 위치
+ou.config.json              프로젝트 제목·테마·입출력 위치
 talks/my-talk/
    slides.md                   수정할 원고
    assets/                     이 발표의 사진·첨부

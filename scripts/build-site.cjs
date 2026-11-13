@@ -8,6 +8,7 @@ const { readDirectDeck } = require('./direct-deck.cjs');
 const { collectReferences } = require('./markdown-document.cjs');
 const { buildExamples } = require('./build-examples.cjs');
 const { buildProject } = require('./stage.cjs');
+const { findConfig } = require('../lib/config.cjs');
 
 function directReferences(directory, deck) {
   for (const ref of collectReferences(deck)) {
@@ -28,8 +29,8 @@ function runSite(repoRoot, check) {
   const examples = buildExamples({ repoRoot, check });
   for (const example of examples.filter(item => ['visual-story', 'visual-starter', 'text-layout'].includes(item.slug))) directReferences(path.dirname(example.files.content), example.deck);
   const projects = [
-    { name: 'presentations', configPath: path.join(repoRoot, 'stage.config.json') },
-    { name: 'markdown-starter', configPath: path.join(repoRoot, 'starters/markdown/stage.config.json') }
+    { name: 'presentations', configPath: findConfig(repoRoot, { searchParents: false }) },
+    { name: 'markdown-starter', configPath: findConfig(path.join(repoRoot, 'starters/markdown'), { searchParents: false }) }
   ].map(project => ({ name: project.name, ...buildProject({ repoRoot, configPath: project.configPath, check }) }));
   if (!check) writeFiles(expectedRoot);
   const differences = [...rootDifferences, ...examples.flatMap(item => item.differences), ...projects.flatMap(item => item.differences)]

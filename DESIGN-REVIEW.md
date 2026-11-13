@@ -61,7 +61,7 @@ manifest의 장별 관측은 0부터 시작하는 `index`, PNG `filename`, `view
 
 ## 입력과 캡처 이력
 
-입력 수집은 원고, 연결된 로컬 자산·자료, config, 공통 runtime/CSS, template, 빌드 코드와 lock을 포함합니다. 참조는 빌드의 Markdown parser로 읽습니다. 보수적으로 `scripts/`의 JavaScript 빌드 파일 전체를 포함하고 검수 도구 자체는 제외합니다. 새 빌드 helper나 공통 파일 변경도 다시 검토할 계기가 됩니다. 원격 자료의 내용과 외부 환경 변화는 로컬 hash로 확인하지 못합니다.
+입력 수집은 원고, 연결된 로컬 자산·자료, config, 공통 runtime/CSS, template, 빌드 코드와 lock을 포함합니다. 참조는 빌드의 Markdown parser로 읽습니다. 보수적으로 `scripts/`와 `lib/`의 JavaScript 파일 전체를 포함하고 검수 도구 자체는 제외합니다. 새 빌드 helper나 공통 파일 변경도 다시 검토할 계기가 됩니다. 원격 자료의 내용과 외부 환경 변화는 로컬 hash로 확인하지 못합니다.
 
 `package.json`의 운영 명령·설명 변경은 화면 입력에서 분리합니다. 대신 `package-lock.json` 바이트를 필수 입력으로 묶고, `package.json`의 dependencies·optionalDependencies·devDependencies·peerDependencies·peerDependenciesMeta·engines가 lock의 root entry와 같은지 직접 확인합니다. 의존성만 바꾸고 lock을 갱신하지 않은 상태도 실패합니다.
 

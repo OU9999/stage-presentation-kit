@@ -1,6 +1,6 @@
 # GitHub Pages로 발표하고 갱신하기
 
-현재 `OU9999/stage-presentation-kit` 저장소를 공개하고, 같은 저장소의 `main`·루트에서 GitHub Pages를 발행하는 방식입니다. 별도 저장소나 앱 서버를 만들지 않습니다.
+프로젝트 이름은 `ou-presentation`입니다. 원격 저장소와 기존 공개 URL은 `OU9999/stage-presentation-kit`을 유지하며, 같은 저장소의 `main`·루트에서 GitHub Pages를 발행하는 방식입니다. 별도 저장소나 앱 서버를 만들지 않습니다.
 
 **공개 배포 완료:** 저장소 공개와 `main`·루트의 Pages 발행을 완료했습니다. 아래 주소에서 바로 발표를 열 수 있습니다.
 

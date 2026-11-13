@@ -27,3 +27,6 @@ temp/
 !/output/pdf/workshop.pdf
 !/output/pdf/devday-compositions.pdf
 !/output/pdf/visual-story.pdf
+
+# Local engine distributions
+ou-presentation-*.tgz

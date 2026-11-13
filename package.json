@@ -1,13 +1,38 @@
 {
-  "name": "stage-presentation-kit",
+  "name": "ou-presentation",
   "version": "1.0.0",
   "private": true,
-  "description": "Write Markdown once and present or share it with the STAGE style.",
+  "description": "Reusable Markdown presentations and reading materials with the Stage theme.",
+  "main": "lib/index.cjs",
+  "bin": {
+    "ou-presentation": "bin/ou-presentation.cjs"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "templates/",
+    "app.js",
+    "styles.css",
+    "blocks.js",
+    "blocks.css",
+    "deck-model.js",
+    "visual.js",
+    "visual.css",
+    "DESIGN.md",
+    "DESIGN-REVIEW.md",
+    "MARKDOWN-FIRST.md",
+    "CONFIG.md",
+    "MARKDOWN.md",
+    "docs/legacy-guide.md"
+  ],
   "scripts": {
-    "build": "node scripts/stage.cjs build",
+    "build": "node bin/ou-presentation.cjs build",
     "build:site": "node scripts/build-site.cjs build",
     "verify:site": "node scripts/build-site.cjs verify",
-    "dev": "node scripts/stage.cjs dev",
+    "dev": "node bin/ou-presentation.cjs dev",
+    "init": "node bin/ou-presentation.cjs init",
+    "new": "node bin/ou-presentation.cjs new",
+    "verify": "node bin/ou-presentation.cjs verify",
     "test": "node --test tests/*.test.cjs",
     "design:review": "node scripts/design-review.cjs",
     "qa:llm-wiki-typography": "node scripts/llm-wiki-typography-qa.cjs"

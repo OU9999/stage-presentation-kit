@@ -10,6 +10,7 @@ const { execFileSync } = require('node:child_process');
 const { parseDocument, collectReferences } = require('./markdown-document.cjs');
 const { parseMaterial, renderMaterial } = require('./materials.cjs');
 const { RUNTIME, TEMPLATE } = require('./runtime.cjs');
+const { CONFIG_NAMES } = require('../lib/config.cjs');
 const FORMAT = 'stage-design-review-v1';
 const sha256 = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const nonempty = value => typeof value === 'string' && Boolean(value.trim());
@@ -51,15 +52,15 @@ function collectInputs({ repoRoot, source }) {
     need(JSON.stringify(packageInfo[key] || {}) === JSON.stringify(locked?.[key] || {}), 'package.json과 lock의 ' + key + '가 다릅니다.');
   }
   // Conservative build-code closure: new build helpers also invalidate old reviews.
-  for (const file of walk(path.join(root, 'scripts'))) {
+  for (const file of ['scripts', 'lib'].flatMap(directory => fs.existsSync(path.join(root, directory)) ? walk(path.join(root, directory)) : [])) {
     if (/\.(?:cjs|mjs|js)$/.test(file) && path.basename(file) !== 'design-review.cjs') files.add(relative(root, file));
   }
   let configFile;
   for (let directory = path.dirname(sourceFile); directory !== path.dirname(root); directory = path.dirname(directory)) {
-    const candidate = path.join(directory, 'stage.config.json');
-    if (fs.existsSync(candidate)) { configFile = candidate; break; }
+    const candidate = CONFIG_NAMES.map(name => path.join(directory, name)).find(file => fs.existsSync(file));
+    if (candidate) { configFile = candidate; break; }
   }
-  need(configFile, '대상 원고의 stage.config.json을 찾을 수 없습니다.');
+  need(configFile, '대상 원고의 ou.config.json 또는 stage.config.json을 찾을 수 없습니다.');
   files.add(relative(root, configFile));
   const config = JSON.parse(fs.readFileSync(configFile, 'utf8'));
   const sourceRoot = path.resolve(path.dirname(configFile), config.sourceDir || 'talks');

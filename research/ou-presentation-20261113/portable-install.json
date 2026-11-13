@@ -1,0 +1,39 @@
+{
+  "engineTarball": "ou-presentation-1.0.0.tgz",
+  "packageSize": 145331,
+  "unpackedSize": 557424,
+  "fileCount": 33,
+  "projectRoot": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/ou-presentation-final-pMJolj/presentations-project",
+  "engineAt": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/ou-presentation-final-pMJolj/presentations-project/node_modules/ou-presentation",
+  "manifest": {
+    "format": "stage-project-v1",
+    "title": "독립 발표 프로젝트",
+    "theme": "stage",
+    "decks": [
+      {
+        "id": "my-talk",
+        "source": "talks/my-talk/slides.md",
+        "slug": "my-talk",
+        "format": "markdown-v1",
+        "title": "독립 발표 프로젝트",
+        "links": {
+          "slides": "my-talk/index.html",
+          "read": "my-talk/read.html"
+        }
+      },
+      {
+        "id": "release-review",
+        "source": "talks/release-review/slides.md",
+        "slug": "release-review",
+        "format": "markdown-v1",
+        "title": "제품 회고",
+        "links": {
+          "slides": "release-review/index.html",
+          "read": "release-review/read.html"
+        }
+      }
+    ]
+  },
+  "tarballSha256": "6811870b8c09205e9f8fab2ff20cd2f6cf8a80419643d4a409394f681888fbfc",
+  "installedFilesMatchCurrentSource": true
+}

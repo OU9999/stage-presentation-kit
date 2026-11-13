@@ -21,7 +21,7 @@ function fixture(t) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'stage-review-'));
   t.after(() => fs.rmSync(root, { recursive: true, force: true }));
   const inputs = [...RUNTIME, 'DESIGN.md', 'package.json', 'package-lock.json', 'templates/presentation.html', 'templates/material.html', 'templates/materials.css'];
-  for (const entry of fs.readdirSync(path.join(repo, 'scripts'))) if (entry.endsWith('.cjs')) inputs.push('scripts/' + entry);
+  for (const directory of ['scripts', 'lib']) for (const entry of fs.readdirSync(path.join(repo, directory))) if (entry.endsWith('.cjs')) inputs.push(directory + '/' + entry);
   for (const name of inputs) write(root, name, fs.readFileSync(path.join(repo, name)));
   json(root, 'stage.config.json', { sourceDir: 'talks', outputDir: 'out', theme: 'stage' });
   write(root, source, '# 새 발표\n\n![읽을 그림](assets/figure.svg)\n\n---\n\n# 다음 행동\n\n작은 시도부터 시작합니다.\n');
@@ -43,6 +43,7 @@ test('new decks auto-collect actual assets/materials and separate review validit
   assert.ok(f.record.inputs['talks/new-topic/assets/figure.svg']);
   assert.ok(f.record.inputs['talks/new-topic/assets/detail.txt']);
   assert.ok(f.record.inputs['scripts/markdown-deck.cjs']);
+  assert.ok(f.record.inputs['lib/project.cjs']);
   assert.ok(f.record.inputs['templates/presentation.html']);
   assert.equal(f.record.inputs['talks/new-topic/README.md'], undefined);
   assert.deepEqual(f.check().counts, { approved: 1, 'needs-changes': 1, unreviewed: 0 });
@@ -52,7 +53,7 @@ test('new decks auto-collect actual assets/materials and separate review validit
   assert.equal(f.check({ requireApproved: true }).passed, true);
 });
 
-for (const [label, name] of [['manuscript', source], ['SVG', 'talks/new-topic/assets/figure.svg'], ['runtime', 'app.js'], ['DESIGN', 'DESIGN.md'], ['build helper', 'scripts/markdown-deck.cjs'], ['template', 'templates/presentation.html']]) {
+for (const [label, name] of [['manuscript', source], ['SVG', 'talks/new-topic/assets/figure.svg'], ['runtime', 'app.js'], ['DESIGN', 'DESIGN.md'], ['build helper', 'scripts/markdown-deck.cjs'], ['shared engine', 'lib/project.cjs'], ['template', 'templates/presentation.html']]) {
   test(label + ' changes invalidate the prior review even when other inputs match', t => {
     const f = fixture(t);
     fs.appendFileSync(path.join(f.root, name), '\nchanged');

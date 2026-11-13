@@ -1,0 +1,93 @@
+[
+  {
+    "name": "collection",
+    "url": "http://127.0.0.1:4336/presentations/",
+    "title": "ou-presentation · 한 원고로 발표하고 공유하기",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "documentWidth": 1280,
+    "brand": null,
+    "slides": 0,
+    "brokenImages": 0
+  },
+  {
+    "name": "llm-chrome",
+    "url": "http://127.0.0.1:4336/presentations/llm-wiki/#6",
+    "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "documentWidth": 1280,
+    "brand": "ou-presentation 발표 템플릿",
+    "slides": 26,
+    "brokenImages": 2
+  },
+  {
+    "name": "llm-read-mobile",
+    "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html#17",
+    "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "documentWidth": 390,
+    "brand": "ou-presentation 발표 템플릿",
+    "slides": 26,
+    "brokenImages": 0
+  },
+  {
+    "name": "material-mobile",
+    "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html",
+    "title": "LLM Wiki 학습 자료 — LLM Wiki · 내 자료를 AI와 함께 정리하는 방법",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "documentWidth": 390,
+    "brand": "ou-presentation 학습 자료",
+    "slides": 0,
+    "brokenImages": 0
+  },
+  {
+    "name": "legacy-example",
+    "url": "http://127.0.0.1:4336/examples/visual-starter/",
+    "title": "지원 경험을 돌아보는 작은 실험 — Stage",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "documentWidth": 1280,
+    "brand": "ou-presentation 발표 템플릿",
+    "slides": 3,
+    "brokenImages": 0
+  },
+  {
+    "name": "portable-stage",
+    "url": "http://127.0.0.1:4337/my-talk/",
+    "title": "독립 발표 프로젝트 — Stage",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "documentWidth": 1280,
+    "brand": "ou-presentation 발표 템플릿",
+    "slides": 3,
+    "brokenImages": 0
+  },
+  {
+    "name": "portable-read",
+    "url": "http://127.0.0.1:4337/my-talk/read.html",
+    "title": "독립 발표 프로젝트 — Stage",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "documentWidth": 390,
+    "brand": "ou-presentation 발표 템플릿",
+    "slides": 3,
+    "brokenImages": 0
+  }
+]

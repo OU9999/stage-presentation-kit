@@ -19,8 +19,8 @@ const sourcePaths = root => walk(path.join(root, 'talks')).filter(f => path.base
 function fixture(t) {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'stage-site-test-'));
   t.after(() => fs.rmSync(directory, { recursive: true, force: true }));
-  for (const file of [...RUNTIME, 'content.js', 'index.html', 'package.json', 'stage.config.json']) fs.copyFileSync(path.join(repo, file), path.join(directory, file));
-  for (const folder of ['templates', 'scripts', 'talks', 'assets', 'examples', 'starters']) fs.cpSync(path.join(repo, folder), path.join(directory, folder), { recursive: true });
+  for (const file of [...RUNTIME, 'content.js', 'index.html', 'package.json', 'ou.config.json']) fs.copyFileSync(path.join(repo, file), path.join(directory, file));
+  for (const folder of ['templates', 'scripts', 'lib', 'talks', 'assets', 'examples', 'starters']) fs.cpSync(path.join(repo, folder), path.join(directory, folder), { recursive: true });
   fs.symlinkSync(path.join(repo, 'node_modules'), path.join(directory, 'node_modules'), 'dir');
   return fs.realpathSync(directory);
 }
@@ -74,7 +74,7 @@ test('verification detects stale source/runtime, missing and unexpected generate
 
 test('new and legacy Markdown use the canonical template independently of the public root page', t => {
   const root = fixture(t); fs.writeFileSync(path.join(root, 'index.html'), '<!doctype html><title>다른 첫 화면</title>');
-  const result = buildProject({ repoRoot: root, configPath: path.join(root, 'stage.config.json') });
+  const result = buildProject({ repoRoot: root, configPath: path.join(root, 'ou.config.json') });
   assert.deepEqual(result.manifest.decks.map(x => x.source).sort(), sourcePaths(root));
   assert.match(fs.readFileSync(path.join(root, 'presentations/photo-essay/index.html'), 'utf8'), /id="helpDialog"/);
   const { buildExamples } = require('../scripts/build-examples.cjs'); buildExamples({ repoRoot: root });
@@ -91,10 +91,17 @@ test('invalid source preflight preserves every previous site output including ro
   assert.deepEqual(published(root), before);
 });
 
+test('missing starter configuration fails preflight without falling back to the parent project', t => {
+  const root = fixture(t); buildSite({ repoRoot: root }); const before = published(root);
+  fs.rmSync(path.join(root, 'starters/markdown/ou.config.json'));
+  assert.throws(() => buildSite({ repoRoot: root }), /ou.config.json을 찾을 수 없습니다/);
+  assert.deepEqual(published(root), before);
+});
+
 test('the Markdown starter copies and moves independently with source-owned assets and complete read output', t => {
   const parent = fs.mkdtempSync(path.join(os.tmpdir(), 'stage-starter-test-')); t.after(() => fs.rmSync(parent, { recursive: true, force: true }));
   const root = path.join(parent, 'first project'); fs.cpSync(path.join(repo, 'starters/markdown'), root, { recursive: true });
-  const build = directory => buildProject({ repoRoot: repo, configPath: path.join(directory, 'stage.config.json') });
+  const build = directory => buildProject({ repoRoot: repo, configPath: path.join(directory, 'ou.config.json') });
   build(root); const before = snapshot(path.join(root, 'presentations'));
   const moved = path.join(parent, 'moved project'); fs.renameSync(root, moved); build(moved);
   assert.deepEqual(snapshot(path.join(moved, 'presentations')), before);
