@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">질문 하나와 답 하나</title>
+  <desc id="desc">위에는 질문의 윤곽이 있고 아래에는 독립된 작업 표식과 짧은 답의 글줄이 있다. 설명용 도식이다.</desc>
+  <g data-observe-id="window">
+    <rect x="13" y="13" width="694" height="378" rx="7" fill="#0e0e11" stroke="#e5e2e8" stroke-width="1.9"/>
+    <path d="M14 57H706" stroke="#e5e2e8" stroke-width="1.6"/>
+    <g fill="#e8e4ed">
+      <circle cx="34" cy="35" r="6"/>
+      <circle cx="53" cy="35" r="6"/>
+      <circle cx="72" cy="35" r="6"/>
+    </g>
+  </g>
+  <g data-observe-id="prompt-lines" fill="none" stroke-linecap="round">
+    <path d="m106 101 9 8-9 8" stroke="#e8e4ed" stroke-width="4"/>
+    <path d="M139 109H510M139 131H549M139 153H465" stroke="#55505a" stroke-width="8"/>
+  </g>
+  <g data-observe-id="answer-symbol">
+    <circle cx="228" cy="269" r="48" fill="#6398fa"/>
+    <path d="M214 245h28a5 5 0 0 1 5 5v27a5 5 0 0 1-5 5h-16l-13 9v-9h-1a5 5 0 0 1-5-5v-25a7 7 0 0 1 7-7Z" fill="none" stroke="#182b54" stroke-width="3.4" stroke-linejoin="round"/>
+    <path d="m217 264 7 7 12-14" fill="none" stroke="#182b54" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g data-observe-id="answer-outline" fill="none" stroke-linecap="round" stroke-width="6">
+    <path d="M303 247H445" stroke="#ded9e6"/>
+    <path d="M303 269H521M303 289H478" stroke="#81798c"/>
+  </g>
+</svg>

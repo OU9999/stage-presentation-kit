@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-11-16T08:49:14.862Z",
+  "scope": "Local result comparison preview, separate from four formal review scopes",
+  "url": "http://127.0.0.1:4336/research/devday-fidelity-20261116/",
+  "title": "DevDay 원본 대조 · LLM Wiki",
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "dpr": 1
+  },
+  "selectedRound": "main-04",
+  "status": "본편 발표 두 폭·읽기 두 폭의 명시 범위 검수 통과",
+  "deck": "http://127.0.0.1:4336/presentations/llm-wiki/#15",
+  "images": [
+    {
+      "url": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1440.png",
+      "complete": true,
+      "width": 1344
+    },
+    {
+      "url": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-15.png",
+      "complete": true,
+      "width": 1557
+    },
+    {
+      "url": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/slide-15.png",
+      "complete": true,
+      "width": 1557
+    }
+  ],
+  "documentWidth": 1440,
+  "reportStatus": 200
+}

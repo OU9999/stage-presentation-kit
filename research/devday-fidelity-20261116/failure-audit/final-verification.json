@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-11-16T10:19:14.250520+00:00",
+  "scope": "Audit/report/preview-delivery checks; no new design approval or product edits",
+  "currentStatus": "needs-changes",
+  "currentRenderInputs": 104,
+  "changedRenderInputs": [],
+  "priorReviewShaMismatches": [],
+  "independentInitialShaMismatches": [],
+  "rootReportLocalLinks": 27,
+  "missingRootReportLinks": [],
+  "productDesignImproved": false,
+  "localPreviewHelperOnlyChanged": true,
+  "currentObservationQa": {
+    "present-1920": {
+      "output": "research/devday-fidelity-20261116/failure-audit/qa-present-1920.json",
+      "exit": 0,
+      "visualApproval": false
+    },
+    "present-1280": {
+      "output": "research/devday-fidelity-20261116/failure-audit/qa-present-1280.json",
+      "exit": 0,
+      "visualApproval": false
+    },
+    "read-1440": {
+      "output": "research/devday-fidelity-20261116/failure-audit/qa-read-1440.json",
+      "exit": 0,
+      "visualApproval": false
+    },
+    "read-390": {
+      "output": "research/devday-fidelity-20261116/failure-audit/qa-read-390.json",
+      "exit": 0,
+      "visualApproval": false
+    }
+  }
+}

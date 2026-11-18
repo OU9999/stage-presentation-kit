@@ -1,0 +1,55 @@
+[p1 "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage" | space "DevDay 미감 복원과 원본 대조"(4): 1 managed, 0 untracked — p1* "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage"]
+root
+  container
+    anchor "첫 슬라이드" [ref=264, loc=css:a[aria-label="첫 슬라이드"], url=http://127.0.0.1:4336/presentations/llm-wiki/read.html?direct-support=5dfe03555238-1440#1]
+      text "ou-presentation"
+      text "발표 템플릿"
+    container "발표 모음과 학습 자료"
+      anchor [ref=265, url=http://127.0.0.1:4336/presentations/index.html]
+        text "발표 모음"
+      text "·"
+      anchor [ref=266, loc=href:/presentations/llm-wiki/materials/index.html, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+        text "학습 자료"
+    container
+      combobox "테마" [ref=267, loc=css:select[aria-label="테마"]]
+        text "Stage"
+      button [ref=268]
+        text "발표 모드"
+  container "발표 슬라이드" [ref=269]
+    container "5. 다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?"
+      paragraph
+        anchor [ref=270, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B2%80%EC%83%89%EA%B3%BC-%EC%A7%80%EC%86%8D-%EB%AC%B8%EC%84%9C]
+          text "같은 질문의 두 예와 비교 범위를 글로 읽기"
+    container "6. 같은 계획에 조건을 반영합니다"
+      heading
+        text "같은 계획에 조건을 반영합니다"
+      container
+        image
+        text "발표팀의 설명용 전후 발췌"
+      paragraph
+        anchor [ref=271, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0]
+          text "같은 계획에서 바뀐 제목과 조건을 글로 읽기"
+    container "7. Markdown"
+      image
+  container
+    container
+      button "이전 슬라이드" [ref=272, loc=css:button[aria-label="이전 슬라이드"]]
+        text "←"
+      button "다음 슬라이드" [ref=273, loc=css:button[aria-label="다음 슬라이드"]]
+        text "→"
+    container
+      text "06 / 20"
+      text "—"
+      text "Markdown"
+    container
+      status
+        text "Markdown 원고"
+      button [ref=274]
+        text "전체 보기"
+      button [ref=275]
+        text "발표자"
+      button [ref=276]
+        text "전체 화면"
+      button "사용법 및 단축키" [ref=277, loc=css:button[aria-label="사용법 및 단축키"]]
+        text "?"
+[more content above and below the viewport: scrollY=2004, viewport 1000 / page 10991 px; scroll or use snapshot({ scope: "full_page" })]

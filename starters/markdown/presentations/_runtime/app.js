@@ -404,6 +404,7 @@
     var inner = element("div", "slide-inner");
     inner.append(field("div", "slide-eyebrow", slide, "eyebrow"));
     var body = element("div", "slide-body");
+    var supportOwner = body;
     if (layout === "blocks") {
       if (!window.StageBlocks) body.append(element("p", "error-message", "blocks.js 경로를 확인하세요."));
       else {
@@ -570,6 +571,7 @@
       body.append(mediaGrid);
       optional(body, "p", "source-line", slide, "source");
     } else if (layout === "results") {
+      if (slide.variant === "unframed") article.dataset.variant = "unframed";
       var resultsGrid = element("div", "results-grid");
       var resultsCopy = element("div", "results-copy");
       if (slide.title) resultsCopy.append(title(slide));
@@ -579,6 +581,7 @@
       if (Array.isArray(slide.items)) {
         slide.items.forEach(function (_, itemIndex) { resultsVisual.append(mediaItem(slide, itemIndex, "result", preview)); });
       }
+      if (slide.variant === "unframed") supportOwner = resultsVisual;
       resultsGrid.append(resultsCopy, resultsVisual);
       body.append(resultsGrid);
     } else if (layout === "categories") {
@@ -734,6 +737,11 @@
         link.rel = "noopener noreferrer";
         body.append(link);
       }
+    }
+    if (layout !== "blocks" && slide.view && slide.view.support && window.StageBlocks) {
+      var support = window.StageBlocks.renderSupport(slide.view.support, !!preview);
+      if (layout === "results" && slide.variant === "unframed") supportOwner.prepend(support);
+      else supportOwner.append(support);
     }
     inner.append(body);
     var footer = element("footer", "slide-footer");

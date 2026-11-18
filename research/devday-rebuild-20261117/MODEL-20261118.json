@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-11-18T00:38:44Z",
+  "officialSources": [
+    "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+    "https://developers.openai.com/api/docs/changelog"
+  ],
+  "runtimeCatalog": [
+    "gpt-6.2-sol",
+    "gpt-6.2-astra",
+    "gpt-6.1-terra",
+    "gpt-6.1-sol",
+    "gpt-6-astra"
+  ],
+  "catalogEvidence": "Current collaboration.spawn_agent model overrides",
+  "concurrency": 4,
+  "selection": {
+    "model": "gpt-6.2-sol",
+    "reasoning_effort": "high",
+    "fork_turns": "none",
+    "reason": "Explicit user request for current teams"
+  },
+  "startingRound": "round-02",
+  "checks": [
+    {
+      "manifest": "research/devday-rebuild-20261117/evidence/round-02/present-1920/manifest.json",
+      "revision": "8345c2bae7ed5b2c607d9e033e448098cb47868a7b57b96c37c2a94b5791aee2",
+      "inputs": 48,
+      "mismatches": [],
+      "captures": 4
+    },
+    {
+      "manifest": "research/devday-rebuild-20261117/evidence/round-02/present-1280/manifest.json",
+      "revision": "8345c2bae7ed5b2c607d9e033e448098cb47868a7b57b96c37c2a94b5791aee2",
+      "inputs": 48,
+      "mismatches": [],
+      "captures": 4
+    }
+  ]
+}

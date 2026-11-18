@@ -8,6 +8,8 @@ const crypto = require('node:crypto');
 const { parseDocument } = require('./markdown-document.cjs');
 const { evaluateGeometry } = require('./llm-wiki-geometry-qa.cjs');
 const defaultFixture = require('../research/llm-wiki-typography-20261102/engineering/fixtures/llm-wiki-roles.json');
+const currentFixture = require('../talks/llm-wiki/qa/current-roles.json');
+const currentFixturePath = 'talks/llm-wiki/qa/current-roles.json';
 const compact = s => String(s || '').replace(/\s/g, '');
 const sha = s => crypto.createHash('sha256').update(s).digest('hex');
 const value = n => n.type === 'text' ? n.value : (n.children || []).map(value).join('');
@@ -67,10 +69,32 @@ function svgPhraseVerdict(observation, contract, { allowHistoricalBBox = false }
   }
   return inside && rows.every(r => Math.abs(r.y - rows[0].y) < .75 && r.x >= 0 && r.x + r.width <= contract.right) ? 'pass' : 'regression';
 }
+// The new slide-3 graph has its own exact five-node/five-pair contract.
+// Keep the historical R4 three-node geometry checker unchanged.
+function graphInventoryVerdict(observation, contract) {
+  const g=observation?.geometry,finite=p=>p&&Number.isFinite(p.x)&&Number.isFinite(p.y),pair=(a,b)=>[a,b].sort().join('\0');
+  const namedPair=r=>r&&typeof r.from==='string'&&typeof r.to==='string';
+  if(!contract||!Array.isArray(contract.nodes)||contract.nodes.length!==5||!Array.isArray(contract.relations)||contract.relations.length!==5||new Set(contract.nodes).size!==5||!contract.relations.every(namedPair))return 'contract-invalid';
+  const expected=contract.relations.map(r=>pair(r.from,r.to));
+  if(new Set(expected).size!==5||contract.relations.some(r=>r.from===r.to||![r.from,r.to].every(id=>contract.nodes.includes(id))))return 'contract-invalid';
+  const view=observation?.svgViewBox;
+  if(!g||g.coordinateSpace!=='root-svg-viewBox'||!view||!['x','y','width','height'].every(k=>Number.isFinite(view[k]))||view.width<=0||view.height<=0||!Array.isArray(g.nodes)||!Array.isArray(g.relations)||g.nodes.length!==5||g.relations.length!==5||g.nodes.some(n=>!n||!contract.nodes.includes(n.id)||!finite(n))||new Set(g.nodes.map(n=>n.id)).size!==5||!g.relations.every(namedPair))return 'contract-invalid';
+  const actual=g.relations.map(r=>pair(r.from,r.to));
+  if(new Set(actual).size!==5||actual.some(p=>!expected.includes(p)))return 'contract-invalid';
+  let regression=false;
+  for(const r of g.relations){
+    if(!Array.isArray(r.points)||r.points.length<2||!r.points.every(finite)||!Number.isFinite(r.strokeWidth)||r.strokeWidth<=0||typeof r.visible!=='boolean'||!Number.isFinite(r.opacity)||!('markerStart'in r)||!('markerEnd'in r))return 'contract-invalid';
+    const a=g.nodes.find(n=>n.id===r.from),b=g.nodes.find(n=>n.id===r.to),near=(p,n)=>Math.hypot(p.x-n.x,p.y-n.y)<=2;
+    const connected=near(r.points[0],a)&&near(r.points.at(-1),b)||near(r.points[0],b)&&near(r.points.at(-1),a);
+    const inFrame=r.points.every(p=>p.x>=view.x&&p.y>=view.y&&p.x<=view.x+view.width&&p.y<=view.y+view.height);
+    if(!connected||!inFrame||Math.hypot(a.x-b.x,a.y-b.y)<=2||!r.visible||r.opacity<=0||[r.markerStart,r.markerEnd].some(m=>m!==null&&m!=='none'))regression=true;
+  }
+  return regression?'regression':'pass';
+}
 function evaluate(manifest, source, options = {}) {
-  const fixture = options.fixture || defaultFixture;
   const checks = [];
   const mode = options.mode || 'current';
+  const fixture = options.fixture || (mode === 'baseline' ? defaultFixture : currentFixture);
   const add = (id, status, detail) => checks.push({ id, status, detail });
   if (!['current','baseline'].includes(mode)) add('mode','contract-invalid','An explicit current or baseline mode is required.');
   if (mode==='baseline') {
@@ -95,9 +119,9 @@ function evaluate(manifest, source, options = {}) {
     if (found.length !== 1) { add(`slide-${slide}`,'contract-invalid',`Expected one observation, found ${found.length}.`); return null; }
     return found[0];
   }
-  function sourceMatch(slide, text, { includes = false } = {}) {
+  function sourceMatch(slide, text, { includes = false, tags = ['p','pre'] } = {}) {
     const nodes = deck.slides[slide-1]?.blocks.flatMap(walk) || [];
-    const found = nodes.filter(n => ['p','pre'].includes(n.tag) && (includes ? compact(value(n)).includes(compact(text)) : same(value(n), text)));
+    const found = nodes.filter(n => tags.includes(n.tag) && (includes ? compact(value(n)).includes(compact(text)) : same(value(n), text)));
     if (found.length !== 1) { add(`source-${slide}-${text.slice(0,10)}`,'contract-invalid',`Required role missing, duplicated or changed (${found.length}).`); return null; }
     return found[0];
   }
@@ -113,10 +137,30 @@ function evaluate(manifest, source, options = {}) {
     else add(id,font + .05 >= min ? 'pass' : 'regression',`${font} logical / ${effective.toFixed(3)} displayed px; required role starts at ${min} logical.`);
   }
   for (const role of fixture.roles) {
-    const o = observation(role.slide), src = sourceMatch(role.slide, role.text), node = observedMatch(o, src);
+    const o = observation(role.slide), src = sourceMatch(role.slide, role.text, {includes:role.matchIncludes === true,tags:role.tag?[role.tag.toLowerCase()]:['p','pre']}), node = observedMatch(o, src);
     if (!node) continue;
     if (role.forbiddenLastLines) add(role.id+'-tail',tailVerdict(node,role.forbiddenLastLines),'Only this role’s designated non-intentional predicate tail is checked.');
     if (role.minLogicalFont) size(role.id+'-font',node,role.minLogicalFont);
+    if (role.directBody) add(role.id+'-membership',node.directBody===true&&node.parentGroup===null?'pass':'regression','This shared definition must remain a direct body paragraph, outside any material group.');
+  }
+  if (fixture.grouping) {
+    const contract=fixture.grouping,slide=deck.slides[contract.slide-1],o=observation(contract.slide);
+    const headings=slide.blocks.map((n,i)=>n.tag==='h2'?{text:value(n),start:i}:null).filter(Boolean);
+    const sourceGroups=headings.map((h,i)=>slide.blocks.slice(h.start,headings[i+1]?.start ?? slide.blocks.length));
+    const sourceValid=headings.length===2 && headings.every((h,i)=>same(h.text,contract.headings[i])) &&
+      JSON.stringify(sourceGroups[0].filter(n=>n.tag==='h3').map(value))===JSON.stringify(contract.questions) &&
+      contract.judgments.every(t=>sourceGroups[0].some(n=>n.tag==='p'&&same(value(n),t))) &&
+      sourceGroups[1].some(n=>n.tag==='p'&&same(value(n),contract.action)) && !sourceGroups[0].some(n=>same(value(n),contract.action));
+    add('selection-source-groups',sourceValid?'pass':'regression','Two judgments must belong to one H2 and the action to the other; primary on three siblings is not equivalent.');
+    const targets=[...contract.questions.map(text=>({text,tags:['h3'],group:0})),...contract.judgments.map(text=>({text,tags:['p'],group:0})),{text:contract.action,tags:['p'],group:1}];
+    for(const target of targets){
+      const node=observedMatch(o,sourceMatch(contract.slide,target.text,{tags:target.tags}));
+      if(node)add('selection-dom-'+target.text,node.parentGroup && node.parentGroup.index===target.group && same(node.parentGroup.heading,contract.headings[target.group])?'pass':'regression','Actual DOM membership must retain judgment/action ownership.');
+    }
+    const groups=o?.groups;
+    const complete=Array.isArray(groups)&&groups.length===2&&Number(o.groupCount)===2&&groups.every(g=>g.logicalBox&&g.firstParagraphBox&&['x','y','width','height'].every(k=>Number.isFinite(g.logicalBox[k])&&Number.isFinite(g.firstParagraphBox[k])));
+    if(!complete)add('selection-group-layout','contract-invalid','Two measured group boxes and first paragraph boxes are required.');
+    else add('selection-group-layout',Math.abs(groups[0].logicalBox.y-groups[1].logicalBox.y)<2&&groups.every(g=>boxInside(g.firstParagraphBox,g.logicalBox))?'pass':'regression','Both role groups start together; nested judgment text and action paragraphs remain inside their own groups. Their paragraph baselines need not match across H3 nesting.');
   }
   for (const role of fixture.breaks) {
     const o=observation(role.slide),src=sourceMatch(role.slide,role.text),node=observedMatch(o,src);
@@ -178,9 +222,11 @@ function evaluate(manifest, source, options = {}) {
         const result=evaluateGeometry(all[0],role.geometry);
         for (const check of result.checks) add('diagram-'+role.slide+'-'+check.id,check.status,check.detail);
       }
+      if (mode==='current' && role.graphInventory) add('diagram-'+role.slide+'-graph-inventory',graphInventoryVerdict(all[0],role.graphInventory),'The exact five undirected relations must reach their five measured anchors; this does not approve visual rhythm.');
       if (mode==='current' && role.sameLinePhrase) add('diagram-'+role.slide+'-answer-phrase',svgPhraseVerdict(all[0],role.sameLinePhrase),'The designated object and verb share one actual SVG bbox row within the answer’s right boundary.');
       if (mode==='current' && all[0].materialKind!==role.kind) add('diagram-'+role.slide+'-classification','contract-invalid','Observed explanatory-reconstruction classification must match the project role fixture.');
       const essential=all[0].texts.filter(t=>!role.sourceMetaTexts.some(x=>same(x,t.text)));
+      if (mode==='current' && role.checkBounds) add('diagram-'+role.slide+'-bounds',all[0].texts.every(t=>boxInside(t.bbox,all[0].svgViewBox,0))?'pass':'regression','Every designated measured text bbox, including source metadata, remains inside its SVG viewBox. Metadata classification never permits clipping.');
       if (!essential.length || essential.some(t=>!Number.isFinite(t.stageLogicalPixels))) add('diagram-'+role.slide+'-font','contract-invalid','Actual contain-projected SVG text metrics are required.');
       else add('diagram-'+role.slide+'-font',essential.every(t=>t.stageLogicalPixels+.05>=role.minLogicalFont)?'pass':'regression',`Minimum essential contain-projected size ${Math.min(...essential.map(t=>t.stageLogicalPixels)).toFixed(3)} logical px.`);
     }
@@ -195,17 +241,20 @@ if (require.main === module) {
     while(args.length){const k=args.shift();if(!['--mode','--manifest','--source','--svg-metrics','--output'].includes(k)||!args.length)throw Error('Usage: --mode current|baseline --manifest path --source path --svg-metrics path [--output path]');opts[k.slice(2)]=args.shift();}
     if(!opts.manifest||!opts.source||!opts.mode||!opts['svg-metrics'])throw Error('--mode, --manifest, --source and --svg-metrics are required.');
     const root=path.resolve(__dirname,'..');
-    const files=[...Object.keys(defaultFixture.originalAssets),...defaultFixture.diagrams.map(d=>path.posix.normalize(path.posix.join('talks/llm-wiki',d.src)))];
+    const fixture=opts.mode==='baseline'?defaultFixture:currentFixture;
+    const files=[...Object.keys(fixture.originalAssets),...fixture.diagrams.map(d=>path.posix.normalize(path.posix.join('talks/llm-wiki',d.src)))];
     const assetHashes=Object.fromEntries(files.map(f=>[f,fs.existsSync(path.join(root,f))?sha(fs.readFileSync(path.join(root,f))):null]));
     let currentInputs;
     if(opts.mode==='current') {
       if(path.resolve(opts.source)!==path.join(root,'talks/llm-wiki/slides.md'))throw Error('Current mode requires the canonical talks/llm-wiki/slides.md source.');
       currentInputs=require('./design-review.cjs').collectInputs({repoRoot:root,source:'talks/llm-wiki/slides.md'}).inputs;
       for(const file of ['AGENTS.md','DESIGN.md'])currentInputs[file]=sha(fs.readFileSync(path.join(root,file)));
+      currentInputs[currentFixturePath]=sha(fs.readFileSync(path.join(root,currentFixturePath)));
     }
     const manifestBytes=fs.readFileSync(opts.manifest);
     const result=evaluate(JSON.parse(manifestBytes.toString('utf8')),fs.readFileSync(opts.source,'utf8'),{assetHashes,mode:opts.mode,currentInputs,manifestSha256:sha(manifestBytes),...(opts['svg-metrics']?{svgMetrics:JSON.parse(fs.readFileSync(opts['svg-metrics'],'utf8'))}:{})});
+    result.contract={path:opts.mode==='baseline'?'research/llm-wiki-typography-20261102/engineering/fixtures/llm-wiki-roles.json':currentFixturePath,sha256:sha(fs.readFileSync(path.join(root,opts.mode==='baseline'?'research/llm-wiki-typography-20261102/engineering/fixtures/llm-wiki-roles.json':currentFixturePath)))};
     const json=JSON.stringify(result,null,2)+'\n';if(opts.output)fs.writeFileSync(opts.output,json);process.stdout.write(json);process.exitCode=result.status==='pass'?0:result.status==='contract-invalid'?2:1;
   } catch(e) {process.stderr.write(e.message+'\n');process.exitCode=2;}
 }
-module.exports={evaluate,actualLines,tailVerdict,breakVerdict,boxInside,svgPhraseVerdict};
+module.exports={evaluate,actualLines,tailVerdict,breakVerdict,boxInside,svgPhraseVerdict,graphInventoryVerdict};

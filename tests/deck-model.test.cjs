@@ -11,6 +11,19 @@ const { validateDeck, packMosaic } = require('../deck-model.js');
 function errors(deck) { return validateDeck(deck).filter(issue => issue.severity === 'error'); }
 function mediaItems(count) { return Array.from({ length: count }, (_, index) => ({ src: `assets/${index}.jpg`, alt: `장면 ${index}`, label: `장면 ${index}` })); }
 
+test('unframed opts into results only and preserves native media data without imposing a source aspect ratio', () => {
+  const slide = { layout: 'results', variant: 'unframed', title: ['읽은 자료가', '다음 작업으로'], items: [{ src: 'portrait.png', alt: '세로 자료', fit: 'contain' }, { src: 'wide.png', alt: '가로 자료', fit: 'contain' }] };
+  const deck = singleSlide(slide), before = structuredClone(deck);
+  assert.deepEqual(errors(deck), []); assert.deepEqual(deck, before);
+  const unknown = validateDeck(singleSlide({ ...slide, variant: 'frameless' }));
+  assert.ok(unknown.some(issue => issue.severity === 'warning' && issue.path.endsWith('.variant')));
+  for (const invalid of [{ ...slide, layout: 'gallery' }, { ...slide, layout: 'statement' }]) {
+    assert.ok(errors(singleSlide(invalid)).some(issue => issue.path.endsWith('.variant')));
+  }
+  const ordinary = structuredClone(slide); delete ordinary.variant;
+  assert.deepEqual(errors(singleSlide(ordinary)), []);
+});
+
 for (const [index, deck] of normalDecks.entries()) {
   test(`TC-00${index + 1} validates structured params for ${deck.id} across all 16 layouts`, () => {
     const original = clone(deck);

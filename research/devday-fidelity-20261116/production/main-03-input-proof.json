@@ -1,0 +1,98 @@
+{
+  "format": "devday-main03-input-proof-v1",
+  "checkedAt": "2026-11-16T08:13:31.134Z",
+  "status": "pass",
+  "visualApproval": false,
+  "checks": [
+    {
+      "id": "manuscript-scope",
+      "status": "pass",
+      "detail": "Only the authorized slide03 hardbreaks and slide07 alt changed; slide14/15 and all other authored bodies are preserved."
+    },
+    {
+      "id": "selection-exact-and-meaning-break",
+      "status": "pass",
+      "detail": "All source words/order, last selection emphasis and example status remain; four authored meaning rows join the auxiliary verb. This is not a glyph observation."
+    },
+    {
+      "id": "selection-current-contract",
+      "status": "pass",
+      "detail": "The actual isolated row is a scoped failure condition; the existing generic QA code and size floors were not relaxed."
+    },
+    {
+      "id": "current-plan-timeline",
+      "status": "pass",
+      "detail": "The relation diagram, alt, public explanation, script and current contract identify the condition-updated plan shown after slide06."
+    },
+    {
+      "id": "relation-geometry-preserved",
+      "status": "pass",
+      "detail": "The three areas, direct rect boundaries, ports and three undirected relations retain their source geometry. Displayed title/glyph geometry still requires fresh observation."
+    },
+    {
+      "id": "supported-emphasis-render",
+      "status": "pass",
+      "detail": "The actual material parser/renderer reproduces the prior literal delimiters and renders the current exact question as strong text. This static result is separate from root before/after screenshot proof."
+    },
+    {
+      "id": "reader-language-and-source",
+      "status": "pass",
+      "detail": "Both reader-facing sections retain source paths, exact conditions/purpose, reconstructed-question versus quotation distinction, memo-context summary and authored hypothetical provenance."
+    },
+    {
+      "id": "pipeline-and-old-assets-preserved",
+      "status": "pass",
+      "detail": "Parser/runtime/styles/QA code/tests and protected original/history files retain the main02 bytes."
+    },
+    {
+      "id": "independent-rejections-preserved",
+      "status": "pass",
+      "detail": "The four original review JSONs and their seven needs-changes rows are preserved."
+    },
+    {
+      "id": "current-static-source",
+      "status": "pass",
+      "detail": "The current source/26-topic public coverage/exact anchors/current role positions pass static validation only."
+    }
+  ],
+  "sourceResult": {
+    "path": "research/devday-fidelity-20261116/production/main-03-source-proof.json",
+    "summary": {
+      "checks": 1365,
+      "invalid": 0,
+      "regressions": 0
+    },
+    "actualExitCode": 0
+  },
+  "relatedTests": {
+    "path": "research/devday-fidelity-20261116/production/main-03-related-tests.txt",
+    "command": "node --test tests/llm-wiki-keynote-qa.test.cjs",
+    "actualExitCode": 0,
+    "tests": 19,
+    "pass": 19,
+    "fail": 0
+  },
+  "inputHashes": {
+    "talks/llm-wiki/slides.md": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+    "talks/llm-wiki/materials/keynote-notes.md": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c",
+    "talks/llm-wiki/materials/speaker-script.md": "ac4ecab3853606fe965d0646930e5645ae47842374872e852a60a74c15f61aae",
+    "talks/llm-wiki/assets/devday/connected-documents.svg": "f7bf509bc27ec3a5b8af5b87a98bac250b9af5d9de3b40583178743aa196b5b7",
+    "talks/llm-wiki/qa/keynote-current.json": "d939b07769b06d7e775813920b507013faf9a908d279235cc1dda0af84ea968d",
+    "talks/llm-wiki/qa/keynote-coverage.json": "cbb3dd54b8711fd24aee3e90d17d4c55241ff28eecc072110b848fdba606d6af",
+    "talks/llm-wiki/qa/keynote-observation.md": "8a9ea69b0be79c995bfa307d21765bf71047bfb3fb5defac75e0acea3d6b1d8f",
+    "lib/markdown-document.cjs": "63098e2db053da7ff89f2ff36729faf809e36829a93d0cac822088a17e026e32",
+    "blocks.js": "3be7ddac62ab3abf1d322d308d45c2fc80c6c0f31f04c5679350d5f763be70f9",
+    "blocks.css": "9df68a89884b181f57575d7b1a3cce78bcaf6561de39d081472963e715c911cf",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "scripts/llm-wiki-keynote-qa.cjs": "198986bda79c805d3368881974f15a5b4f8ce5fb61fc5c5868e0673666ea45e9",
+    "tests/llm-wiki-keynote-qa.test.cjs": "260d10ce47fac5b36eeadab95a60064cd9424ee1b52d6da7262fe27ef5d23323",
+    "research/devday-fidelity-20261116/production/main-03-source-proof.json": "c905a4be6d0410a8a9f145255e3c0eb1ab0ece876d83b634f03a32f87401a0ef",
+    "research/devday-fidelity-20261116/production/main-03-related-tests.txt": "201644f1315477319286aa0352707d23d06c04dbb21d9fe1dccdf386c9130a50"
+  },
+  "unverified": [
+    "Actual post-edit 390 selection glyph rows and other three scopes",
+    "Actual updated plan title at rendered SVG scale",
+    "Two-width public explanation render and exact support arrival",
+    "Independent re-review and require-approved success"
+  ]
+}

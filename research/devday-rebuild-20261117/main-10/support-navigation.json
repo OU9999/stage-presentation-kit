@@ -1,0 +1,300 @@
+{
+  "revision": "4d4ade76b7d83c0ac938bdb34f81425cb5db8b74d37d2f934790cd0fceb19c2e",
+  "support": [
+    {
+      "slide": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "label": "LLM Wiki의 정의와 개인 맥락",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%A0%95%EC%9D%98%EC%99%80-%EA%B0%9C%EC%9D%B8-%EB%A7%A5%EB%9D%BD",
+      "target": "정의와 개인 맥락",
+      "headingY": 24.2109375
+    },
+    {
+      "slide": 2,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "label": "이번 답과 지속 문서의 비교 범위",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B2%80%EC%83%89%EA%B3%BC-%EC%A7%80%EC%86%8D-%EB%AC%B8%EC%84%9C",
+      "target": "검색과 지속 문서",
+      "headingY": 24.140625
+    },
+    {
+      "slide": 3,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "label": "가상 사례 기사와 예제 팩 원문",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%8B%A4%EC%9D%8C-%EB%AA%A8%EC%9E%84%EC%9D%98-%EC%B6%9C%EB%B0%9C%EC%A0%90",
+      "target": "다음 모임의 출발점",
+      "headingY": 24.109375
+    },
+    {
+      "slide": 4,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "label": "네 결과물의 전문과 확인 범위",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%84%A4-%EA%B0%80%EC%A7%80-%EC%9E%91%EC%97%85-%EA%B2%B0%EA%B3%BC",
+      "target": "네 가지 작업 결과",
+      "headingY": 24.0703125
+    },
+    {
+      "slide": 5,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "label": "정리한 이해와 원자료의 역할",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%9B%90%EC%9E%90%EB%A3%8C%EC%99%80-%EC%9E%91%EC%97%85-%EC%95%BD%EC%86%8D",
+      "target": "원자료와 작업 약속",
+      "headingY": 24.171875
+    },
+    {
+      "slide": 6,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "label": "사람의 판단과 AI 해석을 구분하는 방법",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%82%AC%EB%9E%8C%EC%9D%98-%EC%84%A0%ED%83%9D%EA%B3%BC-%EA%B8%B0%EB%A1%9D",
+      "target": "사람의 선택과 기록",
+      "headingY": 23.75
+    },
+    {
+      "slide": 7,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "label": "함께 읽고 고칠 세 관계",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+      "target": "세 무방향 관계",
+      "headingY": 23.9609375
+    },
+    {
+      "slide": 8,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "label": "같은 계획의 전후 원문과 새 조건",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0",
+      "target": "계획이 바뀐 근거",
+      "headingY": 24.1953125
+    },
+    {
+      "slide": 9,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "label": "작은 예제로 따라 하는 첫 단계",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80",
+      "target": "시작 요청과 선택 기준",
+      "headingY": 23.84375
+    },
+    {
+      "slide": 10,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "label": "복사해서 고쳐 쓸 시작 요청 전문",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80",
+      "target": "시작 요청과 선택 기준",
+      "headingY": 23.84375
+    },
+    {
+      "slide": 11,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "label": "자료와 예제 읽기",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%8B%A4%EC%9D%8C-%EC%A7%88%EB%AC%B8",
+      "target": "다음 질문",
+      "headingY": 687.59375
+    },
+    {
+      "slide": 1,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "LLM Wiki의 정의와 개인 맥락",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%A0%95%EC%9D%98%EC%99%80-%EA%B0%9C%EC%9D%B8-%EB%A7%A5%EB%9D%BD",
+      "target": "정의와 개인 맥락",
+      "headingY": 24.0078125
+    },
+    {
+      "slide": 2,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "이번 답과 지속 문서의 비교 범위",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B2%80%EC%83%89%EA%B3%BC-%EC%A7%80%EC%86%8D-%EB%AC%B8%EC%84%9C",
+      "target": "검색과 지속 문서",
+      "headingY": 24.1015625
+    },
+    {
+      "slide": 3,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "가상 사례 기사와 예제 팩 원문",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%8B%A4%EC%9D%8C-%EB%AA%A8%EC%9E%84%EC%9D%98-%EC%B6%9C%EB%B0%9C%EC%A0%90",
+      "target": "다음 모임의 출발점",
+      "headingY": 24.015625
+    },
+    {
+      "slide": 4,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "네 결과물의 전문과 확인 범위",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%84%A4-%EA%B0%80%EC%A7%80-%EC%9E%91%EC%97%85-%EA%B2%B0%EA%B3%BC",
+      "target": "네 가지 작업 결과",
+      "headingY": 24.1796875
+    },
+    {
+      "slide": 5,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "정리한 이해와 원자료의 역할",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%9B%90%EC%9E%90%EB%A3%8C%EC%99%80-%EC%9E%91%EC%97%85-%EC%95%BD%EC%86%8D",
+      "target": "원자료와 작업 약속",
+      "headingY": 23.8359375
+    },
+    {
+      "slide": 6,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "사람의 판단과 AI 해석을 구분하는 방법",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%82%AC%EB%9E%8C%EC%9D%98-%EC%84%A0%ED%83%9D%EA%B3%BC-%EA%B8%B0%EB%A1%9D",
+      "target": "사람의 선택과 기록",
+      "headingY": 24.1796875
+    },
+    {
+      "slide": 7,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "함께 읽고 고칠 세 관계",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+      "target": "세 무방향 관계",
+      "headingY": 24.15625
+    },
+    {
+      "slide": 8,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "같은 계획의 전후 원문과 새 조건",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0",
+      "target": "계획이 바뀐 근거",
+      "headingY": 24.015625
+    },
+    {
+      "slide": 9,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "작은 예제로 따라 하는 첫 단계",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80",
+      "target": "시작 요청과 선택 기준",
+      "headingY": 23.96875
+    },
+    {
+      "slide": 10,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "복사해서 고쳐 쓸 시작 요청 전문",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80",
+      "target": "시작 요청과 선택 기준",
+      "headingY": 23.96875
+    },
+    {
+      "slide": 11,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "자료와 예제 읽기",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%8B%A4%EC%9D%8C-%EC%A7%88%EB%AC%B8",
+      "target": "다음 질문",
+      "headingY": 487.1875
+    }
+  ],
+  "keyboard": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "title": "네 결과물의 전문과 확인 범위",
+      "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%84%A4-%EA%B0%80%EC%A7%80-%EC%9E%91%EC%97%85-%EA%B2%B0%EA%B3%BC",
+      "linkY": 604.0078125,
+      "firstFigureY": 647.40625,
+      "precedes": true,
+      "localLinks": 1,
+      "activatedBy": "Enter",
+      "destination": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%84%A4-%EA%B0%80%EC%A7%80-%EC%9E%91%EC%97%85-%EA%B2%B0%EA%B3%BC"
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "네 결과물의 전문과 확인 범위",
+      "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%84%A4-%EA%B0%80%EC%A7%80-%EC%9E%91%EC%97%85-%EA%B2%B0%EA%B3%BC",
+      "linkY": 723.546875,
+      "firstFigureY": 778.9453125,
+      "precedes": true,
+      "localLinks": 1,
+      "activatedBy": "Enter",
+      "destination": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%84%A4-%EA%B0%80%EC%A7%80-%EC%9E%91%EC%97%85-%EA%B2%B0%EA%B3%BC"
+    }
+  ],
+  "player": [
+    {
+      "key": "ArrowRight",
+      "slide": 2,
+      "href": "http://127.0.0.1:4336/presentations/llm-wiki/#2"
+    },
+    {
+      "key": "End",
+      "slide": 11,
+      "href": "http://127.0.0.1:4336/presentations/llm-wiki/#11"
+    },
+    {
+      "key": "Home",
+      "slide": 1,
+      "href": "http://127.0.0.1:4336/presentations/llm-wiki/#1"
+    },
+    {
+      "key": "overview",
+      "cards": 11,
+      "slide": 7,
+      "href": "http://127.0.0.1:4336/presentations/llm-wiki/#7"
+    }
+  ]
+}

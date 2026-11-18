@@ -1,0 +1,10 @@
+{
+  "owner": "/root",
+  "priorWritersEnded": true,
+  "path": "talks/llm-wiki/materials/keynote-notes.md",
+  "oldSha256": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c",
+  "newSha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3",
+  "removed": "반복한 별도 판정 문구 없이 ",
+  "preserved": "이 대조로 **목적도 확인합니다**.",
+  "scope": "One nonblocking editorial recommendation accepted after actual main03 approval; new main04 observations and independent focused refresh required."
+}

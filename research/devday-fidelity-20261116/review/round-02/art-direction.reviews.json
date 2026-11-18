@@ -1,0 +1,84 @@
+{
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1920, "height": 1080, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:53:37Z",
+      "reason": "공통 원자료와 이번답이 각1회로 묶이고 동의 설명이 줄어 현재입력의 종합과 남아 다시 읽을 문서라는 중앙 차이가 먼저 보인다. 넓은 처음계획 제목/정확구절이 하나의 대상이고 이번답은 중립 공통끝점으로 내려가 Round01의 반복절차·좁은3카드 해독 문제가 해소됐다. 처음계획 표지와 두예 병행가능성 본문이 시점/설계범위를 구별한다. 새Codex90초와 직접 대조한 현재1920 발표 실물을 국소 수동 채택한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-01.png"]
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1920, "height": 1080, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:53:37Z",
+      "reason": "현재 새PNG와 새1 이후 문맥에서 목적과맥락 요약입구, LLM Wiki/RAG와위키 및 다음스터디의첫시도라는 큰 기존문서 영역과 세 무방향선이 읽힌다. 새1의 계획 발췌가 여기서 어떤 문서와 함께 읽히는지 구체이름/접점으로 연결되며 하단한행은 주역보다 낮다. 픽셀동일성이나 이전승인을 자동승계하지 않고 현재1920의 관계역할을 직접 재확인해 국소 수동 채택한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-02.png"]
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1920, "height": 1080, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:53:37Z",
+      "reason": "완전한 활동안 제목과 절·세필드·6~11분 한행이 한 문서면에서 읽혀 자료정체성과 사용할 행동/남길근거가 구별된다. 새4의 원문정체성+큰인용과 달리 이 장은 결과한행 자체가 주역인 다른 무게를 유지한다. 설명용 활동안/발췌 지위가 있고 제목의15분 반복이 행을 밀어내지 않는다. 새1920 개별과 새문맥을 직접 읽어 국소 수동 채택한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-03.png"]
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1920, "height": 1080, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:53:37Z",
+      "reason": "원자료는 짧은 제목/문맥/선택위치, 오른쪽은 입문자·본편뒤별도15분을 포함한 질문과 큰 정확목적의 한경로가 됐다. Round01의 왼쪽세조건 병행독서·목적재진술·반복지위층이 사라지고 keynote24:00처럼 정체성과 지금읽을구절의 무게가 분리된다. 작은caption은 순수자작가상예만 맡고 필수조건/판단은 읽을본문에 남는다. 현1920 실물의 이전 핵심veto가 해소돼 국소 수동 채택한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-04.png"]
+    },
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1280, "height": 720, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:53:37Z",
+      "reason": "실제917×516 Stage에서도 공통양끝 각1회와 중앙 두대상의 차이가 먼저 보이고, 넓은 계획제목/정확구절이 이전 좁은3카드의 잘게 갈린 문서명 해독을 대체한다. 처음계획 상태와 두예의 병행가능성 본문이 읽혀 뒤06갱신/배타적설계 오독을 구별한다. 새Codex90초와 Round01의1280 반려본을 직접 비교해 핵심구조 해소를 확인한 현재 발표범위의 국소 수동 채택이다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-01.png"]
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1280, "height": 720, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:53:37Z",
+      "reason": "실제917×516 Stage의 새PNG에서도 작은 목적과맥락 요약입구와 큰 실제문서명 영역을 구별하고 세 무방향선을 따라갈 수 있다. 새1의 계획발췌 이후 관계 소속이 명확하며 하단한행은 이름/관계와 경쟁하지 않는다. 동일픽셀/이전판정을 자동승계하지 않고 이번 새크기/문맥에서 관계역할을 다시 읽어 국소 수동 채택한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-02.png"]
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1280, "height": 720, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:53:37Z",
+      "reason": "실제917×516 Stage에서 완전한 활동안제목→절→세필드→6~11분한행이 한자료면으로 읽히며 행동과 남길근거가 구별된다. 새4의 compact원문정체성/큰인용과 다른 결과한행의 화면무게가 유지되고 설명용활동안·발췌지위도 보인다. 이중제목이 핵심행을 밀어내지 않는 현재1280 실물을 직접 다시 읽어 국소 수동 채택한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-03.png"]
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1280, "height": 720, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:53:37Z",
+      "reason": "실제917×516 Stage에서도 원자료의 제목/선택위치를 확인한뒤 오른쪽 입문자·본편뒤별도15분 질문과 큰4행 정확목적을 한경로로 읽는다. Round01의 두독서면과 반복해석층이 줄었으며 자작가상예caption은 필수조건을 대신하지 않는다. keynote24:00 및 직전1280 반려본과 직접 대조해 source정체성/인용 무게의 구조적 변화를 확인한 현재 발표범위의 국소 수동 채택이다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-04.png"]
+    }
+  ]
+}

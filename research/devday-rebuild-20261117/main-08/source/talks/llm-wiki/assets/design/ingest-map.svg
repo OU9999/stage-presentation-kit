@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="0 0 1500 650" style="background:#080808" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+  <title id="title">요약을 입구로, 기존 문서와 관계를 갱신하기</title>
+  <desc id="desc">발표팀의 설명용 재구성. 같은 세 원자료를 읽고 나눈다. 자료 요약은 원자료의 입구이며 개념·비교 및 현재 계획과 무방향 세 관계로 연결된다. 기존 관련 문서·목차·링크를 갱신한다. 원자료·사람 기록의 삭제, 필수 생성 순서, 자동 양방향 갱신을 뜻하지 않는다.</desc>
+  <g font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Malgun Gothic,sans-serif" letter-spacing="-.5">
+    <text x="20" y="60" font-size="44" fill="#C5C5C0" data-copy-role="essential" data-node-id="raw">같은 원자료 세 메모</text>
+    <g data-node-id="source-context">
+      <text x="20" y="167" font-size="48" fill="#F6F6F4" data-copy-role="essential">목적과 맥락</text>
+      <text x="20" y="222" font-size="42" fill="#C5C5C0" data-copy-role="essential">목적 · 이유 · 결과</text>
+    </g>
+    <g data-node-id="source-retrieval">
+      <text x="20" y="355" font-size="48" fill="#F6F6F4" data-copy-role="essential">검색과 비교</text>
+      <text x="20" y="410" font-size="42" fill="#C5C5C0" data-copy-role="essential">근거 검색 · 차이</text>
+    </g>
+    <g data-node-id="source-synthesis">
+      <text x="20" y="543" font-size="48" fill="#F6F6F4" data-copy-role="essential">지식의 활용</text>
+      <text x="20" y="598" font-size="42" fill="#C5C5C0" data-copy-role="essential">종합 · 공유 · 검토</text>
+    </g>
+    <text x="456" y="280" text-anchor="middle" font-size="42" fill="#C5C5C0" data-copy-role="essential" data-node-id="read-divide">읽고 나누기</text>
+    <path d="M365 329H548M533 318L548 329L533 340" fill="none" stroke="#A4A4A1" stroke-width="3" data-work-id="raw-to-summary" data-from="raw" data-to="summary" />
+
+    <text x="1170" y="60" text-anchor="middle" font-size="52" font-weight="550" fill="#F6F6F4" data-copy-role="essential" data-node-id="update">문서·목차·링크 갱신</text>
+    <g fill="none" stroke="#8B9398" stroke-width="3" data-relation-kind="undirected">
+      <polyline points="670,329 925,227" data-relation-id="summary--concept-comparison" data-from="summary" data-to="concept-comparison" />
+      <polyline points="670,329 925,514" data-relation-id="summary--plan" data-from="summary" data-to="plan" />
+      <polyline points="925,227 925,514" data-relation-id="concept-comparison--plan" data-from="concept-comparison" data-to="plan" />
+    </g>
+    <g data-content-id="summary">
+      <circle cx="670" cy="329" r="8" fill="#A4A4A1" data-node-id="summary" />
+      <text x="665" y="278" text-anchor="middle" font-size="44" fill="#C5C5C0" data-copy-role="essential">자료 요약</text>
+      <text x="665" y="470" text-anchor="middle" font-size="42" fill="#C5C5C0" data-copy-role="essential">원자료의 입구</text>
+    </g>
+    <g data-content-id="concept-comparison">
+      <rect x="960" y="144" width="460" height="166" rx="4" fill="#102532" />
+      <circle cx="925" cy="227" r="8" fill="#24A8FF" data-node-id="concept-comparison" />
+      <text x="990" y="213" font-size="58" fill="#F6F6F4" font-weight="550" data-copy-role="essential">개념 · 비교</text>
+      <text x="990" y="278" font-size="44" fill="#C5C5C0" data-copy-role="essential">기존 설명과 연결</text>
+    </g>
+    <g data-content-id="plan">
+      <rect x="960" y="434" width="460" height="166" rx="4" fill="#102532" />
+      <circle cx="925" cy="514" r="8" fill="#24A8FF" data-node-id="plan" />
+      <text x="990" y="503" font-size="58" fill="#F6F6F4" font-weight="550" data-copy-role="essential">현재 계획</text>
+      <text x="990" y="568" font-size="44" fill="#C5C5C0" data-copy-role="essential">여러 자료의 종합</text>
+    </g>
+    <text x="1490" y="641" text-anchor="end" font-size="24" fill="#A4A4A1" data-copy-role="source">발표팀 구성 예 · 문서 사이 선은 무방향 관계</text>
+  </g>
+</svg>

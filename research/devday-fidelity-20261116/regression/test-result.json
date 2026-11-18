@@ -1,0 +1,13 @@
+{
+  "tests": 360,
+  "suites": 0,
+  "pass": 360,
+  "fail": 0,
+  "cancelled": 0,
+  "skipped": 0,
+  "todo": 0,
+  "exit": 0,
+  "visualApproval": false,
+  "scope": "Actual full current repository test run; summary parsed from saved stdout",
+  "duration_ms": 4873.452084
+}

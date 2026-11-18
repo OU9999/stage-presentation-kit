@@ -1,0 +1,26 @@
+{
+  "currentHashMismatch": 0,
+  "unchangedPilot2And3": [
+    {
+      "width": 1920,
+      "pilot": 2,
+      "pngBytesSame": true
+    },
+    {
+      "width": 1920,
+      "pilot": 3,
+      "pngBytesSame": true
+    },
+    {
+      "width": 1280,
+      "pilot": 2,
+      "pngBytesSame": true
+    },
+    {
+      "width": 1280,
+      "pilot": 3,
+      "pngBytesSame": true
+    }
+  ],
+  "visualApproval": false
+}

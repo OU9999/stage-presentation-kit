@@ -1,0 +1,485 @@
+{
+  "complete": true,
+  "combinations": [
+    {
+      "round": "round-01",
+      "width": "1280",
+      "title": "첫 시안 · 1·4 구조 반려",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-90.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-05.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-01.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-01/#1"
+    },
+    {
+      "round": "round-01",
+      "width": "1280",
+      "title": "첫 시안 · 1·4 구조 반려",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-210.png",
+          "width": 1465
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-07.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-02.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-01/#2"
+    },
+    {
+      "round": "round-01",
+      "width": "1280",
+      "title": "첫 시안 · 1·4 구조 반려",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1500.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-13.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-03.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-01/#3"
+    },
+    {
+      "round": "round-01",
+      "width": "1280",
+      "title": "첫 시안 · 1·4 구조 반려",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1440.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-15.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-04.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-01/#4"
+    },
+    {
+      "round": "round-01",
+      "width": "1920",
+      "title": "첫 시안 · 1·4 구조 반려",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-90.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-05.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-01.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-01/#1"
+    },
+    {
+      "round": "round-01",
+      "width": "1920",
+      "title": "첫 시안 · 1·4 구조 반려",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-210.png",
+          "width": 1465
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-07.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-02.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-01/#2"
+    },
+    {
+      "round": "round-01",
+      "width": "1920",
+      "title": "첫 시안 · 1·4 구조 반려",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1500.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-13.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-03.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-01/#3"
+    },
+    {
+      "round": "round-01",
+      "width": "1920",
+      "title": "첫 시안 · 1·4 구조 반려",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1440.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-15.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-04.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-01/#4"
+    },
+    {
+      "round": "round-02",
+      "width": "1280",
+      "title": "두 번째 시안 · 구조 수정",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-90.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-05.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-01.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/#1"
+    },
+    {
+      "round": "round-02",
+      "width": "1280",
+      "title": "두 번째 시안 · 구조 수정",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-210.png",
+          "width": 1465
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-07.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-02.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/#2"
+    },
+    {
+      "round": "round-02",
+      "width": "1280",
+      "title": "두 번째 시안 · 구조 수정",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1500.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-13.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-03.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/#3"
+    },
+    {
+      "round": "round-02",
+      "width": "1280",
+      "title": "두 번째 시안 · 구조 수정",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1440.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-15.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-04.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/#4"
+    },
+    {
+      "round": "round-02",
+      "width": "1920",
+      "title": "두 번째 시안 · 구조 수정",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-90.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-05.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-01.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/#1"
+    },
+    {
+      "round": "round-02",
+      "width": "1920",
+      "title": "두 번째 시안 · 구조 수정",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-210.png",
+          "width": 1465
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-07.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-02.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/#2"
+    },
+    {
+      "round": "round-02",
+      "width": "1920",
+      "title": "두 번째 시안 · 구조 수정",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1500.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-13.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-03.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/#3"
+    },
+    {
+      "round": "round-02",
+      "width": "1920",
+      "title": "두 번째 시안 · 구조 수정",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1440.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-15.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-04.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/#4"
+    },
+    {
+      "round": "main-04",
+      "width": "1280",
+      "title": "본편 검수 캡처 · main-04",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-90.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-05.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1280/slide-05.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/presentations/llm-wiki/#5"
+    },
+    {
+      "round": "main-04",
+      "width": "1280",
+      "title": "본편 검수 캡처 · main-04",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-210.png",
+          "width": 1465
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-07.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1280/slide-07.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/presentations/llm-wiki/#7"
+    },
+    {
+      "round": "main-04",
+      "width": "1280",
+      "title": "본편 검수 캡처 · main-04",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1500.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-13.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1280/slide-13.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/presentations/llm-wiki/#13"
+    },
+    {
+      "round": "main-04",
+      "width": "1280",
+      "title": "본편 검수 캡처 · main-04",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1440.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-15.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1280/slide-15.png",
+          "width": 917
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/presentations/llm-wiki/#15"
+    },
+    {
+      "round": "main-04",
+      "width": "1920",
+      "title": "본편 검수 캡처 · main-04",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-90.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-05.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/slide-05.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/presentations/llm-wiki/#5"
+    },
+    {
+      "round": "main-04",
+      "width": "1920",
+      "title": "본편 검수 캡처 · main-04",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-210.png",
+          "width": 1465
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-07.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/slide-07.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/presentations/llm-wiki/#7"
+    },
+    {
+      "round": "main-04",
+      "width": "1920",
+      "title": "본편 검수 캡처 · main-04",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1500.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-13.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/slide-13.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/presentations/llm-wiki/#13"
+    },
+    {
+      "round": "main-04",
+      "width": "1920",
+      "title": "본편 검수 캡처 · main-04",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1440.png",
+          "width": 1344
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-15.png",
+          "width": 1557
+        },
+        {
+          "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/slide-15.png",
+          "width": 1557
+        }
+      ],
+      "deck": "http://127.0.0.1:4336/presentations/llm-wiki/#15"
+    }
+  ]
+}

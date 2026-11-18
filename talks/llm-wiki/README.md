@@ -1,49 +1,24 @@
 # LLM Wiki · 내 자료를 AI와 함께 정리하는 방법
 
-**내 자료를 AI와 함께 정리하고 연결하는 마크다운 지식창고**를 설명하는 26장 발표입니다. 본편 35분+Q&A 5분의 배분안이며 실제 음성 리허설 실측값은 아닙니다.
+11장 키노트입니다. 이번 답과 오래 쓰는 문서의 차이에서 출발해, 원자료의 근거를 연결하고 새 질문에 다시 쓰는 과정을 보여 줍니다. [대본의 진행표](materials/speaker-script.md#현재-진행표)는 본편 35분과 질의·자료 탐색 5분을 계획한 것입니다.
 
-## 발표 흐름
+| 장 | 발표에서 보는 것 | 이어 읽기 |
+| --- | --- | --- |
+| 1–2 | 선언과 두 작업창 | [이번 답과 지속 문서](materials/keynote-notes.md#검색과-지속-문서) |
+| 3–4 | 가상 모임의 기사와 인용, 네 가지 결과면 | [기사 편집과 정확 원문](materials/keynote-notes.md#다음-모임의-출발점) · [결과물 전문](materials/keynote-notes.md#네-가지-작업-결과) |
+| 5–8 | LLM Wiki의 정의, 한 준비 기록에 남기는 사람과 AI의 역할, 연결 문서와 계획 전후 | [정의](materials/keynote-notes.md#정의와-개인-맥락) · [사람의 선택과 기록](materials/keynote-notes.md#사람의-선택과-기록) · [세 관계](materials/keynote-notes.md#세-무방향-관계) · [계획이 바뀐 근거](materials/keynote-notes.md#계획이-바뀐-근거) |
+| 9–11 | 자료 두 개를 고르고 요청을 쓴 뒤 다음에 묻고 싶은 질문 정하기 | [복사할 시작 요청](materials/keynote-notes.md#시작-요청과-선택-기준) · [예제 읽기](materials/workshop.md#기본-읽기-주제-메모에서-다음-스터디로) |
 
-- 1~6장: 내 자료를 이해하는 개인 지식 베이스, 개인비서의 맥락, 파일과 사람·AI 역할
-- 7~14장: RAG 핵심 비교와 두 경로 그림, Ingest의 소화·분해·연결·축적, 질문과 갱신
-- 15~18장: 가치 있는 자료 선택, 목적과 구조화, 직접 쓴 감정·생각·판단과 AI 정리의 구분
-- 19~25장: 활용과 제공하는 15분 활동안, 사람이 읽고 고치는 장점, 한계와 첫 요청
-- 26장: 자기 자료와 질문으로 Q&A
+[발표 읽기](slides.md) · [발표 대본](materials/speaker-script.md) · [학습 자료](materials/index.md) · [예제 팩 전문](assets/expanded-study.txt)
 
-핵심 도식9개의 의미와 관계를 유지하며 본편은 별도 [검정 재조판 자산](assets/typography/)을 사용합니다. 원래19SVG와 이전 개선판은 보존합니다. [도식의 대상과 관계](materials/diagram-reading.md)는 작은 화면에서도 같은 내용을 문장으로 읽는 경로입니다. [그림 부록](materials/visual-appendix.md)에서 전체19도식과 수정 전48장 원고·대본을 읽을 수 있습니다. 스터디 메모와 새 조건은 설명용 구성 예이며 실제 실행이나 학습 효과의 증거가 아닙니다.
+[현재 시각자료](assets/devday-current/)는 발표팀이 만든 설명용 작업창과 관계도, 가상 메모의 기사 편집, 실제 제공 예제에서 고른 네 가지 결과면입니다. 기사 인용은 발표용 편집 문장입니다. 공개 해설에서 팩의 정확한 원문과 결과물의 전문을 확인할 수 있습니다.
 
-## test.md의 내용을 반영한 곳
+[이전 26장 도식의 관계 설명](materials/diagram-reading.md) · [원본 그림과 48장 원고](materials/visual-appendix.md) · [고정 데모](demo/) · [이전 20장 진행표](assets/speaker-guide.txt)
 
-| 메모의 핵심 | 발표 |
-| --- | --- |
-| 내 데이터를 이해하는 개인 지식 베이스·마크다운·Karpathy의 공개 아이디어 | 2~5장 |
-| 개인비서가 내 맥락을 알아야 하는 이유 | 4장 |
-| RAG 준비와 파일 기반 시작 비교 | 7~9장 |
-| 소화·분해·연결·축적·목차·문서 그래프 | 10~14장 |
-| 모든 자료보다 목적에 맞는 가치 있는 자료 | 15~16장 |
-| 맥락과 구조화가 어려운 이유·목적 없는 수집 | 17장 |
-| 내가 정한 목적·직접 쓴 감정·생각·판단·AI와 구분 | 18·24장 |
-| 읽기 쉽게 정리하고 사람도 함께 편집하는 장점 | 6·21장 |
+## 수정과 검수
 
-날짜와 도구 예는 일차 자료에 확인했고, 유행의 인과·RAG DB 필수·10만개 경계 등의 단정은 교정했습니다.
+정본은 [slides.md](slides.md), [공개 해설](materials/keynote-notes.md), [대본](materials/speaker-script.md)입니다. 수정 전 [디자인 가이드](../../DESIGN.md)에서 발표면과 읽기면의 역할을 확인합니다. `presentations/` 출력은 `npm run build:site`로 생성하며 `npm run verify:site`로 일치를 검사합니다.
 
-## 화면과 자료
+[현재 역할 계약](qa/keynote-current.json)은 실제 11장과 native 글·이미지·읽기 링크를, [coverage](qa/keynote-coverage.json)는 26개 주제의 현재 발표·해설·대본 위치를 명시합니다. 발표와 읽기 두 폭에서 [관측 계약](qa/keynote-observation.md)과 [작성 안내의 네 범위 명령](../../MARKDOWN-FIRST.md#실제-관측의-프로젝트-회귀)을 실행합니다.
 
-- [발표](../../presentations/llm-wiki/index.html) · [슬라이드 읽기](../../presentations/llm-wiki/read.html)
-- [26장 대본](materials/speaker-script.md) · [진행표](assets/speaker-guide.txt)
-- [도식의 대상과 관계 읽기](materials/diagram-reading.md)
-- [원본 그림·48장 원고](materials/visual-appendix.md)
-- [학습 자료](materials/index.md) · [혼자 공부하기](materials/study-guide.md)
-- [자료 읽는 방법](materials/workshop.md) · [설계와 기술 원문](materials/reference-library.md)
-- [예제 팩](assets/expanded-study.txt) · [별도 15분 활동](materials/session-plan.md)
-- [고정 파일 교정 기록](materials/demo-log.md) · [고정 데모 ZIP](demo/llm-wiki-demo.zip)
-
-## 수정과 재사용
-
-원고는 [slides.md](slides.md)이며 `theme: stage`를 사용합니다. `test.md`는 사용자가 작성한 흐름 참고 메모로 보존합니다. 시각 자산과 기존 심화 예제도 보존합니다.
-
-수정 전 [DESIGN.md](../../DESIGN.md)를 읽고 변경 범위와 보존할 의미·자료를 정합니다. 최신 사용자 지시가 우선입니다. [이번 타이포 교정 명세](../../research/llm-wiki-typography-20261102/presentation/TYPOGRAPHY_SPEC.md)와 [현재 결과·검수 경로](../../research/llm-wiki-typography-20261102/RESULT.md)를 확인하고 영향 장·앞뒤 흐름을 갱신합니다. 이전 [26장 감사](../../research/design-governance-20261102/design/LLM_WIKI_AUDIT.md)는 이력이며 새 입력의 승인을 대신하지 않습니다. 현재 교정의 시각 승인 여부는 새 검수 기록의 명시 범위를 따릅니다. 완료할 때 [현재 판 검수](../../DESIGN.md#변경과-현재-판-검수)에 따라 실제 화면과 판정 이유를 남기며, [검수 기록 안내](../../DESIGN-REVIEW.md)로 현재 입력과 근거를 확인합니다. 기술 검사 성공과 시각 승인은 별도입니다.
-
-`npm run dev`로 미리 보고, `npm run build:site`로 생성하고, `npm run verify:site`로 생성물 일치를 확인합니다. `presentations/`는 생성 결과이므로 직접 편집하지 않습니다.
-
-이번 교정의 새 검수 기록은 `research/llm-wiki-typography-20261102/final/{present-1920,present-1280,read-1440,read-390}.review.json`에 대응합니다. 기록 생성·독립 판정 전에는 승인으로 간주하지 않으며, 현재 상태는 위 RESULT에서 확인합니다.
+현재 제작과 실물은 [DevDay 재제작 기록](../../research/devday-rebuild-20261117/)에서 확인합니다. 실제 크기에서의 위계, 자료의 대비, 장의 흐름은 [검수 안내](../../DESIGN-REVIEW.md)에 따라 근거와 판정을 남깁니다. [이전 DevDay 비교](../../research/devday-fidelity-20261116/)와 [이전 키노트 검수](../../research/llm-wiki-keynote-reset-20261113/)에서 당시 입력, 실측과 판정을 볼 수 있습니다.

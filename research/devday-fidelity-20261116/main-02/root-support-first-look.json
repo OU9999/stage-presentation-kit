@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-11-16T07:45:13.513100+00:00",
+  "reviewer": "/root",
+  "seen": [
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-03-390.png",
+      "sha256": "3cc499dcad39135596ee7dc96f37b1584b219bdab56efe75062573aacc6736b7"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-06-390.png",
+      "sha256": "34112f8ef60731b9cc17302b60c84c86e81b76220b4fd81f7c55072659095283"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-15-390.png",
+      "sha256": "3d08d8b59e0b7f8b7a73960d01f7cd1bb32cc53c7805ec8830636f91d2eda9f3"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-15-1440.png",
+      "sha256": "cd02f67fc2c816ee317db5fc197c4c389c5e3e033d13d648bd59d090c0f984ec"
+    }
+  ],
+  "observations": [
+    "Actual native support15 at both widths visibly shows literal ** around the introductory question. This is a rendered authoring defect, separate from the logical completeness of the quoted purpose. Correct actual Markdown phrasing/emphasis and re-view the rendered paragraph; do not declare static text coverage a visual pass.",
+    "The public reader sees implementation words native/prefix/caption in the new #3/#15 support prose. Explain authored example versus original passage in ordinary reader language. Keep exact source, fictional status, conditions and the full purpose; move QA/renderer rationale to production/review records."
+  ],
+  "status": "Root needs changes for literal formatting markers; independent initial team conclusions withheld until both drafts frozen"
+}

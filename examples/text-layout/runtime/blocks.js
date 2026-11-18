@@ -168,8 +168,28 @@
     var plainHeading = nodeText(slide.heading);
     var bodyLength = nodes.map(nodeText).join("").length;
     var shortText = !!slide.heading && plainHeading.length <= 52 && nodes.every(paragraph) && bodyLength <= 200;
+    var message = shortText && (view.variant !== "declaration" || requested === "message");
     var imageTail = trailing.every(paragraph) && trailing.map(nodeText).join("").length <= 240;
-    var split = images.length === 1 && trailing.length > 0 && trailing.every(copyNode) && trailing.map(nodeText).join("").length <= 380;
+    var ordinarySplit = images.length === 1 && trailing.length > 0 && trailing.every(copyNode) && trailing.map(nodeText).join("").length <= 380;
+    // A source image and one selected passage may share the split without converting prose to headings.
+    // Only explicit selected-passage variants widen eligibility; auto and ordinary split keep their rules.
+    var evidenceQuotes = trailing.filter(function (node) { return isElement(node, "blockquote"); });
+    var evidenceQuote = evidenceQuotes[0];
+    var evidenceProse = trailing.filter(function (node) { return node !== evidenceQuote; });
+    var selectedPassage = view.variant === "evidence" || view.variant === "quote-card";
+    function quoteFits(node) {
+      return isElement(node, "blockquote") && node.children.length > 0 && node.children.every(paragraph) && !contains(node, "img") &&
+        nodeText(node).trim().length > 0 && nodeText(node).length <= 220;
+    }
+    var evidenceSplit = requested === "split" && selectedPassage && images.length === 1 && evidenceQuotes.length === 1 &&
+      quoteFits(evidenceQuote) &&
+      evidenceProse.every(paragraph) && evidenceProse.map(nodeText).join("").length <= 200 &&
+      trailing.map(nodeText).join("").length <= 380;
+    var quoteFirst = requested === "split" && view.variant === "quote-card" && nodes.length === 2 && quoteFits(nodes[0]) && pureImages(nodes[1]).length === 1;
+    if (quoteFirst) images.push({ block: 1, node: pureImages(nodes[1])[0] });
+    var split = selectedPassage ? evidenceSplit || quoteFirst : ordinarySplit;
+    var comparisonGallery = requested === "gallery" && images.length === 2 && trailing.length === 0 &&
+      nodes.length === 2 && nodes.every(function (node) { return pureImages(node).length === 1; });
     var quoteIndex = nodes.findIndex(function (node) { return isElement(node, "blockquote"); });
     var quoteSupport = nodes.filter(function (_, index) { return index !== quoteIndex; });
     // Explicit quote composition may frame its one quotation with short prose in authored order.
@@ -177,12 +197,12 @@
     var quote = quoteIndex >= 0 && (quoteIndex === 0 || requested === "quote") && nodeText(nodes[quoteIndex]).length <= 220 && quoteSupport.every(paragraph) && quoteSupport.map(nodeText).join("").length <= 200;
     var suitability = {
       document: true,
-      message: shortText,
+      message: message,
       closing: shortText,
       quote: quote,
       media: images.length === 1 && imageTail,
       split: split,
-      gallery: images.length >= 2 && images.length <= 6 && imageTail,
+      gallery: view.variant === "comparison" ? comparisonGallery : images.length >= 2 && images.length <= 6 && imageTail,
       mosaic: images.length >= 2 && images.length <= 6 && imageTail,
       editorial: groups.length > 0,
       bento: groups.length > 0 && groups[0].start === 0,
@@ -196,14 +216,14 @@
       else if (split && trailing.some(function (node) { return node.tag === "ul" || node.tag === "ol"; })) composition = "split";
       else if (suitability.media) composition = "media";
       else if (split) composition = "split";
-      else if (shortText) composition = "message";
+      else if (message) composition = "message";
       else composition = "document";
     } else if (!suitability[requested]) {
       composition = "document";
       warnings.push({ message: "선택한 " + requested + " 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.", line: slide.origin && slide.origin.line || 1, path: options.sourcePath || "" });
     }
     var geometry = null, variant = view.variant || (composition === "bento" ? "balanced" : "");
-    var variants = { portraits: "gallery", strip: "gallery", staggered: "mosaic", balanced: "bento", seoul: "bento", recap: "bento", centered: "editorial" };
+    var variants = { portraits: "gallery", strip: "gallery", staggered: "mosaic", balanced: "bento", seoul: "bento", recap: "bento", centered: "editorial", record: "editorial", revision: "editorial", evidence: "split", "quote-card": "split", comparison: "gallery", declaration: "message", spacious: "quote" };
     function fallback(message) {
       composition = "document";
       warnings.push({ message: message + " 내용을 모두 유지한 기본 문서로 표시합니다.", line: slide.origin && slide.origin.line || 1, path: options.sourcePath || "" });
@@ -211,6 +231,10 @@
     if (view.icons && composition !== "icon-wall") fallback("icons 배열은 icon-wall의 원래 목록에만 연결할 수 있습니다.");
     if (groups.some(function (group) { return group.icon; }) && composition !== "bento") fallback("그룹 icon은 bento 타일에서만 표시할 수 있습니다.");
     if (view.variant && variants[view.variant] !== composition) fallback("선택한 variant가 이 구도/원고와 맞지 않습니다.");
+    if (composition === "editorial" && (variant === "record" || variant === "revision") &&
+      (!slide.heading || groups.length !== 2 || groups[0].start !== 0 || !groups.every(function (g) { return g.end === g.start + 2 && paragraph(nodes[g.start + 1]); }))) {
+      fallback("record/revision은 제목과 H2 아래 짧은 문단 두 묶음이 필요합니다.");
+    }
     if (composition === "mosaic" && variant === "staggered") {
       var positions = images.length === 6 && model && model.packMosaic([2, 1, 1, 1, 1, 2].map(function (span) { return { span: span }; }));
       if (!positions) fallback("staggered는 원순서 사진 6개가 필요합니다.");
@@ -232,7 +256,7 @@
       warnings.push({ message: "사진별 focus 배열은 gallery/mosaic의 원순서 사진 수와 같아야 합니다. 사진 전체를 보존한 기본 문서로 표시합니다.", line: slide.origin && slide.origin.line || 1, path: options.sourcePath || "" });
     }
     if (composition === "document") { variant = ""; geometry = null; }
-    return { variant: variant, geometry: geometry, wall: wall, composition: composition, requested: requested, quiet: ["message", "quote", "closing"].indexOf(composition) >= 0, images: images, mediaEnd: cursor, groups: groups, mediaFallback: mediaFallback, warnings: warnings };
+    return { variant: variant, geometry: geometry, wall: wall, composition: composition, requested: requested, quiet: typeof view.quiet === "boolean" ? view.quiet : ["message", "quote", "closing"].indexOf(composition) >= 0, images: images, mediaEnd: cursor, groups: groups, mediaFallback: mediaFallback, quoteFirst: composition === "split" && quoteFirst, warnings: warnings };
   }
 
   function safeFocus(value) {
@@ -254,6 +278,7 @@
     if (image.attrs && image.attrs.title) {
       var caption = document.createElement("figcaption");
       caption.textContent = image.attrs.title;
+      if (mediaOptions.captionRole) caption.dataset.copyRole = mediaOptions.captionRole;
       sourcePosition(caption, image);
       figure.append(caption);
     }
@@ -284,6 +309,7 @@
     var plan = planSlide(slide, options), view = slide.view || {};
     var defaultMedia = plan.mediaFallback ? { fit: "contain" } : view;
     var root = document.createElement("div"); root.className = "markdown-composition";
+    var supportOwner = root;
     if (plan.warnings.length) {
       root.dataset.compositionWarning = plan.warnings.map(function (warning) { return warning.message; }).join("\n");
       root.dataset.sourceLine = String(plan.warnings[0].line);
@@ -315,6 +341,7 @@
       if (plan.geometry) gridStyle(grid, plan.geometry);
       plan.images.forEach(function (image, index) {
         var settings = { fit: view.fit, focus: Array.isArray(view.focus) ? view.focus[index] : view.focus };
+        if (plan.variant === "comparison") settings.captionRole = "figure-label";
         var figure = figureFor(slide.blocks[image.block], options, settings, image.node);
         if (plan.geometry) slotStyle(figure, plan.geometry.slots[index]);
         grid.append(figure);
@@ -347,9 +374,16 @@
         if (image && image.attrs && image.attrs.title) { var caption = document.createElement("span"); caption.className = "md-wall-caption"; caption.textContent = image.attrs.title; sourcePosition(caption, image); label.append(caption); }
       });
     } else if (plan.composition === "split") {
-      body.append(figureFor(slide.blocks[0], options, defaultMedia));
-      var copy = document.createElement("div"); copy.className = "md-copy"; body.append(copy);
-      slide.blocks.slice(1).forEach(function (node) { appendNode(copy, node, defaultMedia, false); });
+      var copy = document.createElement("div"); copy.className = "md-copy";
+      if (plan.quoteFirst) {
+        body.dataset.quoteFirst = "true";
+        appendNode(copy, slide.blocks[0], defaultMedia, false);
+        body.append(copy, figureFor(slide.blocks[1], options, defaultMedia));
+        supportOwner = copy;
+      } else {
+        body.append(figureFor(slide.blocks[0], options, defaultMedia), copy);
+        slide.blocks.slice(1).forEach(function (node) { appendNode(copy, node, defaultMedia, false); });
+      }
     } else {
       if (plan.composition === "bento") gridStyle(body, plan.geometry);
       var byStart = Object.create(null);
@@ -372,7 +406,16 @@
         } else { appendNode(body, slide.blocks[index], defaultMedia, false); index += 1; }
       }
     }
+    if (view.support) supportOwner.append(renderSupport(view.support, options.preview));
     return { body: root, variant: plan.variant, composition: plan.composition, quiet: plan.quiet, warnings: plan.warnings };
   }
-  return { renderNode: renderNode, renderNodes: renderNodes, renderSlide: renderSlide, planSlide: planSlide, safeUrl: safeUrl };
+  function renderSupport(settings, preview) {
+    var support = document.createElement("p"); support.className = "markdown-support"; support.dataset.copyRole = "support";
+    sourcePosition(support, { position: settings.origin });
+    var link = document.createElement(preview ? "span" : "a");
+    if (!preview && safeUrl(settings.href, false)) link.setAttribute("href", settings.href);
+    link.textContent = settings.label; support.append(link);
+    return support;
+  }
+  return { renderNode: renderNode, renderNodes: renderNodes, renderSlide: renderSlide, renderSupport: renderSupport, planSlide: planSlide, safeUrl: safeUrl };
 });

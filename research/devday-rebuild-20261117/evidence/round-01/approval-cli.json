@@ -1,0 +1,142 @@
+[
+  {
+    "person": "A",
+    "width": 1920,
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/evidence/round-01/reviews/a-present-1920.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 4 · 미확인 0 (4개 장/모드/viewport 범위, 원고 4장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "person": "A",
+    "width": 1920,
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/evidence/round-01/reviews/a-present-1920.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 4 · 미확인 0 (4개 장/모드/viewport 범위, 원고 4장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "person": "A",
+    "width": 1280,
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/evidence/round-01/reviews/a-present-1280.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 4 · 미확인 0 (4개 장/모드/viewport 범위, 원고 4장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "person": "A",
+    "width": 1280,
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/evidence/round-01/reviews/a-present-1280.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 4 · 미확인 0 (4개 장/모드/viewport 범위, 원고 4장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "person": "B",
+    "width": 1920,
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/evidence/round-01/reviews/b-present-1920.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 4 · 미확인 0 (4개 장/모드/viewport 범위, 원고 4장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "person": "B",
+    "width": 1920,
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/evidence/round-01/reviews/b-present-1920.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 4 · 미확인 0 (4개 장/모드/viewport 범위, 원고 4장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "person": "B",
+    "width": 1280,
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/evidence/round-01/reviews/b-present-1280.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 4 · 미확인 0 (4개 장/모드/viewport 범위, 원고 4장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "person": "B",
+    "width": 1280,
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/evidence/round-01/reviews/b-present-1280.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 4 · 미확인 0 (4개 장/모드/viewport 범위, 원고 4장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  }
+]

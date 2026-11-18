@@ -1,0 +1,69 @@
+[p1 "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage" | space "DevDay 미감 복원과 원본 대조"(4): 1 managed, 0 untracked — p1* "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage"]
+root
+  container
+    anchor "첫 슬라이드" [ref=13, loc=css:a[aria-label="첫 슬라이드"], url=http://127.0.0.1:4336/presentations/llm-wiki/#1]
+      text "ou-presentation"
+      text "발표 템플릿"
+    container "발표 모음과 학습 자료"
+      anchor [ref=14, url=http://127.0.0.1:4336/presentations/index.html]
+        text "발표 모음"
+      text "·"
+      anchor [ref=15, loc=href:/presentations/llm-wiki/materials/index.html, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+        text "학습 자료"
+    container
+      combobox "테마" [ref=16, loc=css:select[aria-label="테마"]]
+        text "Stage"
+      button [ref=17]
+        text "읽기 모드"
+  container "발표 슬라이드" [ref=18]
+    container "5. 다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?"
+      heading
+        text "다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?"
+      container
+        container
+          image
+          text "발표팀의 설명용 비교 예"
+        paragraph
+          text "두 예는 함께 쓸 수 있습니다."
+  container
+    container
+      button "이전 슬라이드" [ref=19, loc=css:button[aria-label="이전 슬라이드"]]
+        text "←"
+      button "다음 슬라이드" [ref=20, loc=css:button[aria-label="다음 슬라이드"]]
+        text "→"
+    container
+      text "05 / 20"
+      text "—"
+      text "Markdown"
+    container
+      button "1개 입력 오류 또는 분량 경고 확인" [ref=21, loc=css:button[aria-label="1개 입력 오류 또는 분량 경고 확인"]]
+        text "작성자 점검 1"
+      status
+        text "Markdown 원고"
+      button [ref=22]
+        text "전체 보기"
+      button [ref=23]
+        text "발표자"
+      button [ref=24]
+        text "전체 화면"
+      button "사용법 및 단축키" [ref=25, loc=css:button[aria-label="사용법 및 단축키"]]
+        text "?"
+  dialog "작성자 점검"
+    container
+      container
+        text "CONTENT CHECK"
+        heading
+          text "작성자 점검"
+      button [ref=26]
+        text "닫기 ×"
+    container
+      unordered_list
+        list_item
+          text "오류"
+          text "15번 슬라이드 · slides.14.view.variant"
+          paragraph
+            text "지원하는 variant 이름을 사용하세요."
+      paragraph
+        text "표시된 Markdown 원고 위치를 확인하세요. 배치 선택을 바꾸거나 긴 내용을 다음 장으로 나눈 뒤 다시 생성하세요. 읽기 화면에는 전체 원문이 남습니다."
+      button [ref=27]
+        text "읽기 모드에서 전체 내용 보기"

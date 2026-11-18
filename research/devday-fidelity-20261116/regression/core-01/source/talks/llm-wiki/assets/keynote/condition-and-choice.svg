@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="640" viewBox="0 0 1440 640" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">입문자와 15분 활동에서 고른 첫 행동</title>
+  <desc id="desc">설명용 구성 예. 입문자와 함께하는15분 활동이라는 가상 조건에서 설치보다 기존 목차와 문서 연결 읽기부터 시작한다는 선택을 발표용으로 요약했다. 실제 원문 인용, 실행 성과,15분만으로 행동이 자동 도출된다는 뜻이 아니다.</desc>
+  <style>text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-2px}.context{font-size:44px;font-weight:400;fill:#a4a4a1}.condition{font-size:64px;font-weight:500;fill:#f6f6f4}.setup{font-size:44px;font-weight:400;fill:#a4a4a1}.choice{font-size:86px;font-weight:500;fill:#f6f6f4}.meta{font-size:24px;fill:#a4a4a1;letter-spacing:-.5px}</style>
+  <text class="context" x="110" y="247">입문자와 함께</text>
+  <text class="condition" x="110" y="340">15분 활동</text>
+  <text class="setup" x="690" y="247">설치보다</text>
+  <text class="choice" x="690" y="340">문서 읽기부터</text>
+  <text class="meta" x="110" y="561">설명용 구성 예</text>
+</svg>

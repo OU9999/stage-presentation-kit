@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="610" viewBox="0 0 1440 610" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">입문자와 함께 읽는15분 LLM Wiki 활동의 진행안 한 행</title>
+  <desc id="desc">발표팀의 설명용 활동안 입문자와 함께 읽는15분 LLM Wiki 활동에서15분 진행안의 세 필드와6~11분 한 행을 정확 발췌해 조판했다. 활동 시간은6~11분, 할 일은 원자료→개념→비교의 연결 한 개를 따라 읽기, 남길 것은 관계를 뒷받침하는 근거 위치다. 밝은 문서면은 한 결과물의 정체성과 읽을 한 행을 묶는 국소 선택이다. 실제 앱 UI나 모델 출력 캡처가 아니며 실제 모임 운영·입문자 이해도·학습 효과를 측정한 결과가 아니다.</desc>
+  <style>
+    text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.45px}
+    .identity{font-size:44px;fill:#202221;font-weight:500}
+    .section{font-size:34px;fill:#5e655f;font-weight:400}
+    .field{font-size:38px;fill:#5e655f;font-weight:400}
+    .content{font-size:48px;fill:#202221;font-weight:500}
+  </style>
+  <g data-document-id="study-session-plan" data-logical-source="wiki/outputs/study-session-plan.md">
+    <rect x="26" y="38" width="1388" height="526" rx="2" fill="#f2f0e8"/>
+    <text class="identity" x="76" y="117">입문자와 함께 읽는 15분 LLM Wiki 활동</text>
+    <text class="section" x="76" y="176">15분 진행안</text>
+    <text class="field" x="76" y="259">활동 시간</text>
+    <text class="field" x="352" y="259">할 일</text>
+    <text class="field" x="1014" y="259">남길 것</text>
+    <path d="M76 289H1364" fill="none" stroke="#b6bab2" stroke-width="1.5"/>
+    <g data-excerpt-id="minutes-6-to-11" data-source-row="6~11분">
+      <text class="content" x="76" y="376">6~11분</text>
+      <text class="content" x="352" y="376"><tspan x="352">원자료→개념→비교의</tspan><tspan x="352" dy="69">연결 한 개를 따라 읽기</tspan></text>
+      <text class="content" x="1014" y="366"><tspan x="1014">관계를</tspan><tspan x="1014" dy="59">뒷받침하는</tspan><tspan x="1014" dy="59">근거 위치</tspan></text>
+    </g>
+  </g>
+</svg>

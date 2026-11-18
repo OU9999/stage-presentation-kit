@@ -1,0 +1,716 @@
+{
+  "checkedAt": "2026-11-16T08:26:32.640573+00:00",
+  "checkedBy": "/root/devday_verification_manager/tooling_integrator",
+  "source": {
+    "path": "talks/llm-wiki/slides.md",
+    "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0"
+  },
+  "sourceSnapshot": {
+    "path": "research/devday-fidelity-20261116/main-03/source-snapshot.json",
+    "sha256": "2ac122039533c6dbab78689d8e9e676bb486fefb7983e7193b3f89f73266ec2f",
+    "inputCount": 104,
+    "currentAndFrozenMismatch": []
+  },
+  "manifests": [
+    {
+      "path": "research/devday-fidelity-20261116/main-03/present-1920/manifest.json",
+      "sha256": "7e897806e38b7ed6407f749bb1bdb76aa6906b0b50a25ec1bc4986cc5de5baa1",
+      "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "inputCount": 104,
+      "snapshotMismatch": []
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/present-1280/manifest.json",
+      "sha256": "c9297639d013fa2a4fe9128ab50ffdfd771f24f157023e60916a9b82f703ab12",
+      "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "inputCount": 104,
+      "snapshotMismatch": []
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/read-1440/manifest.json",
+      "sha256": "c92fa58395203757392afcfc29069519e150fde453ea5dc6ef81dbb43bb8a187",
+      "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "inputCount": 104,
+      "snapshotMismatch": []
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+      "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318",
+      "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "inputCount": 104,
+      "snapshotMismatch": []
+    }
+  ],
+  "rawReviews": [
+    {
+      "path": "research/devday-fidelity-20261116/review/main-03/present-1920.reviews.json",
+      "sha256": "a14b62fd02eda336de68f5515a9f6cabfb6fb9686f39d355c2ec4fc961124069",
+      "rowCount": 20,
+      "statuses": {
+        "approved": 20
+      },
+      "actualPngDimensions": [
+        {
+          "slide": 1,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 2,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 3,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 4,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 5,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 6,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 7,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 8,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 9,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 10,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 11,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 12,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 13,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 14,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 15,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 16,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 17,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 18,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 19,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 20,
+          "width": 1557,
+          "height": 876
+        }
+      ],
+      "supportingEvidenceCount": 54
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-03/present-1280.reviews.json",
+      "sha256": "96a42c51fdf8c3dfee23c9cd71a8ad457b41b14757d66f586df41b6d5ec91f93",
+      "rowCount": 20,
+      "statuses": {
+        "approved": 20
+      },
+      "actualPngDimensions": [
+        {
+          "slide": 1,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 2,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 3,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 4,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 5,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 6,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 7,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 8,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 9,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 10,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 11,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 12,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 13,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 14,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 15,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 16,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 17,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 18,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 19,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 20,
+          "width": 917,
+          "height": 516
+        }
+      ],
+      "supportingEvidenceCount": 54
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-03/read-1440.reviews.json",
+      "sha256": "d6f93c2b2e2921477ead08c9c2586dbe036fe19bf7cfb24033feb0c2b4fa031b",
+      "rowCount": 20,
+      "statuses": {
+        "approved": 20
+      },
+      "actualPngDimensions": [
+        {
+          "slide": 1,
+          "width": 1120,
+          "height": 233
+        },
+        {
+          "slide": 2,
+          "width": 1120,
+          "height": 238
+        },
+        {
+          "slide": 3,
+          "width": 1120,
+          "height": 504
+        },
+        {
+          "slide": 4,
+          "width": 1120,
+          "height": 186
+        },
+        {
+          "slide": 5,
+          "width": 1120,
+          "height": 739
+        },
+        {
+          "slide": 6,
+          "width": 1120,
+          "height": 657
+        },
+        {
+          "slide": 7,
+          "width": 1120,
+          "height": 638
+        },
+        {
+          "slide": 8,
+          "width": 1120,
+          "height": 610
+        },
+        {
+          "slide": 9,
+          "width": 1120,
+          "height": 300
+        },
+        {
+          "slide": 10,
+          "width": 1120,
+          "height": 317
+        },
+        {
+          "slide": 11,
+          "width": 1120,
+          "height": 459
+        },
+        {
+          "slide": 12,
+          "width": 1120,
+          "height": 703
+        },
+        {
+          "slide": 13,
+          "width": 1120,
+          "height": 638
+        },
+        {
+          "slide": 14,
+          "width": 1120,
+          "height": 703
+        },
+        {
+          "slide": 15,
+          "width": 1120,
+          "height": 1383
+        },
+        {
+          "slide": 16,
+          "width": 1120,
+          "height": 531
+        },
+        {
+          "slide": 17,
+          "width": 1120,
+          "height": 338
+        },
+        {
+          "slide": 18,
+          "width": 1120,
+          "height": 703
+        },
+        {
+          "slide": 19,
+          "width": 1120,
+          "height": 186
+        },
+        {
+          "slide": 20,
+          "width": 1120,
+          "height": 233
+        }
+      ],
+      "supportingEvidenceCount": 62
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-03/read-390.reviews.json",
+      "sha256": "30edeb24eccc2f4ef5f5123ec051ae4fdb3b785c3267bcd53f75c155a9000b2a",
+      "rowCount": 20,
+      "statuses": {
+        "approved": 20
+      },
+      "actualPngDimensions": [
+        {
+          "slide": 1,
+          "width": 366,
+          "height": 191
+        },
+        {
+          "slide": 2,
+          "width": 366,
+          "height": 208
+        },
+        {
+          "slide": 3,
+          "width": 366,
+          "height": 490
+        },
+        {
+          "slide": 4,
+          "width": 366,
+          "height": 144
+        },
+        {
+          "slide": 5,
+          "width": 366,
+          "height": 462
+        },
+        {
+          "slide": 6,
+          "width": 366,
+          "height": 403
+        },
+        {
+          "slide": 7,
+          "width": 366,
+          "height": 368
+        },
+        {
+          "slide": 8,
+          "width": 366,
+          "height": 294
+        },
+        {
+          "slide": 9,
+          "width": 366,
+          "height": 252
+        },
+        {
+          "slide": 10,
+          "width": 366,
+          "height": 287
+        },
+        {
+          "slide": 11,
+          "width": 366,
+          "height": 558
+        },
+        {
+          "slide": 12,
+          "width": 366,
+          "height": 661
+        },
+        {
+          "slide": 13,
+          "width": 366,
+          "height": 336
+        },
+        {
+          "slide": 14,
+          "width": 366,
+          "height": 705
+        },
+        {
+          "slide": 15,
+          "width": 366,
+          "height": 762
+        },
+        {
+          "slide": 16,
+          "width": 366,
+          "height": 489
+        },
+        {
+          "slide": 17,
+          "width": 366,
+          "height": 289
+        },
+        {
+          "slide": 18,
+          "width": 366,
+          "height": 705
+        },
+        {
+          "slide": 19,
+          "width": 366,
+          "height": 188
+        },
+        {
+          "slide": 20,
+          "width": 366,
+          "height": 235
+        }
+      ],
+      "supportingEvidenceCount": 68
+    }
+  ],
+  "directNativeSupportPngs": [
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-03-390.png",
+      "sha256": "ec4c3f526976c95e4279697500d4a68165e2803ee6b1e52fe3ac952471168cc4",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-03-1440.png",
+      "sha256": "e4d0c9158fcc6119ba3f043643e0019f89c156a16136a8239c67a2b2e732e444",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-05-390.png",
+      "sha256": "bcc2e1dfbe7521c84afcd688768314513d390166320728c2573838d6d60ebb3e",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-05-1440.png",
+      "sha256": "1d96a107a7258175963f726b54feed1f15a111af3aaa09c4c51633831bd03bea",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-06-390.png",
+      "sha256": "a6ef16829874bef9c25e3f0e62e1b07383ef77f5d0e9ab0995cee8d9d6fb8116",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-06-1440.png",
+      "sha256": "261b71be87e5b01bf001d1a5f213f62c708912aeac64411281173bdbd7e3ced6",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-07-390.png",
+      "sha256": "b7e78c45149edfa8006cabe392a8a7ba4d5a55ea560aefaef88536b526ad457b",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-07-1440.png",
+      "sha256": "ff534483d5f771d6188629662deea0fb7a34f68060fe69a392f76d8431f0a792",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-08-390.png",
+      "sha256": "28f23e091798aa9c46b00134037309d57848869d261c5187ce15ab346526c2ca",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-08-1440.png",
+      "sha256": "86c9d59c9e074c054de5d8e9e376082229a26c9b94bfddde2a67d2b64c502e14",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-13-390.png",
+      "sha256": "e6703dfc1bf2eafaf2d62158f3ef34bc8cf1e53bd96a6e558bd2d1e3f2cf26f9",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-13-1440.png",
+      "sha256": "11ac3c53216cf41f6c90255c88d8c2bcebc92bd56c0ce76bb105fc4051454c75",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-15-390.png",
+      "sha256": "1ec7696d319ae5c9c23e3043d7132cc9b42e5807bcb99181a86af06da7a9031d",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-15-1440.png",
+      "sha256": "d94a83203fa72eb2d4ab9fd966d03d0fc2cae58860ffa1a2aaf1c9af93577638",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/support-table-05-left-390.png",
+      "sha256": "0e33914472c7771a364b03028b1350231d71824a2852698bac2bc78369269de8",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/support-table-05-right-390.png",
+      "sha256": "efab385d8a8511e3eff1c9e29170bb14b32bea89ddfd95c6d579de7020fe2463",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/notes-plan-change-table-left-390.png",
+      "sha256": "3264b102a810d3c797690b4ca5f4c6654fa6096fb19c0a707cac9d21b4940096",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/notes-plan-change-table-right-390.png",
+      "sha256": "49c13869f210e0e723de877b6241d1b2fdcf14d0b02ea8d87c10091ce8f64114",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/support-table-07-left-390.png",
+      "sha256": "1af86b0ad0db133aaa216c9752cdc09622eac59f58655f0de5195da0a4720153",
+      "directlyViewed": true
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/support-table-07-right-390.png",
+      "sha256": "706a6557dec29c7fedab71cf56a408386a1a2e864625c75884e71c9590697aa1",
+      "directlyViewed": true
+    }
+  ],
+  "supportingEvidenceReferencesChecked": 238,
+  "documents": [
+    {
+      "path": "research/devday-fidelity-20261116/review/main-03/presentation.initial.md",
+      "sha256": "e6c9e392395d5da2adfda474061cbf24343f6bc490343c02d0ec03db59d18996"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-03/presentation.final.md",
+      "sha256": "2b7bbc34b1acdc79f8049a0af6a01371ab10a3a5549419b5d3937e23f9723cb7"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-03/reading.initial.md",
+      "sha256": "7effdd512662522235f2eccbb74afd71b9a6754d6dd8af6b7dddf6cbf564d9c7"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-03/reading.final.md",
+      "sha256": "acf7c9c4375ecee93e0115c7e913922385b32bcd51cd98f566e6cc501ef7416f"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-03/integration.md",
+      "sha256": "7debec5d2148587d70c841857764a9fb5b0559da0e40d208a71c93d084cd95ee"
+    }
+  ],
+  "initialSha256Preserved": {
+    "presentation.initial.md": "e6c9e392395d5da2adfda474061cbf24343f6bc490343c02d0ec03db59d18996",
+    "reading.initial.md": "7effdd512662522235f2eccbb74afd71b9a6754d6dd8af6b7dddf6cbf564d9c7"
+  },
+  "jsonContractIssues": [],
+  "documentLinkIssues": [],
+  "trailingWhitespace": [],
+  "totalRows": 80,
+  "manualStatus": {
+    "approved": 80,
+    "needs-changes": 0,
+    "unreviewed": 0
+  },
+  "formalCliExecutedByB": false,
+  "formalCurrentApprovalPendingRoot": true,
+  "technicalQaAfterIndependentInitials": [
+    {
+      "path": "research/devday-fidelity-20261116/main-03/present-1920/qa.json",
+      "sha256": "2af31adfd4dc6435328e8b73e464b83e5330b54ef4b9e6c4d9e0cefe61014639",
+      "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+      "summary": {
+        "checks": 2480,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "visualApproval": false
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/present-1280/qa.json",
+      "sha256": "d1fc2548f2b21c1ad65d60df2dff6106efc4930dd0abcbdfeca29faac497c0c9",
+      "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+      "summary": {
+        "checks": 2480,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "visualApproval": false
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/read-1440/qa.json",
+      "sha256": "f7cb7c76932bedec3b6ea396550cb7ec0af87cd747a33868d5e821e5bee1e057",
+      "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+      "summary": {
+        "checks": 2511,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "visualApproval": false
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/read-390/qa.json",
+      "sha256": "f9fb5b857149c5e214b54bd8d9322f2c5991ed7d84bc0d5b896f8ecc03742b77",
+      "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+      "summary": {
+        "checks": 2511,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "visualApproval": false
+    }
+  ],
+  "nonblockingEditorialSuggestion": {
+    "currentText": "반복한 별도 판정 문구 없이",
+    "currentLocation": "talks/llm-wiki/materials/keynote-notes.md#선택의-근거-확인",
+    "currentTextStillPresent": true,
+    "decision": "delete suggested; meaning/status/visual hierarchy remain clear; no core veto",
+    "rootAcceptedForNextRound": "main-04; preserve 이 대조로 목적도 확인합니다 meaning/emphasis",
+    "notImplementedInCurrentMain03": true
+  },
+  "nextOwner": "root; formal CLI/current main03, then narrow main04 editing and affected support/input reuse verification",
+  "limits": [
+    "A direct presentation40/6boards; B direct reading40/support14/table6; individual cross-view limits in final documents.",
+    "Root limited first look is not root all80 direct review.",
+    "No user aesthetic, physical projector, other OS, full-video or motion approval.",
+    "Technical pass/currentness never supplies a visual approval reason.",
+    "Same PNG/all input deltas/affected support must be verified before any main04 reuse; no forced duplicate all80 visual study."
+  ]
+}

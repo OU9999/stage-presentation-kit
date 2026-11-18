@@ -1,0 +1,281 @@
+{
+  "format": "stage-design-review-v1",
+  "source": {
+    "path": "research/devday-fidelity-20261116/prototypes/talks/round-01/slides.md",
+    "sha256": "fa6bd281ce7b88825141e335ead2f21bdca93749e08c53dde5c015cc61173cc4"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0"
+  },
+  "inputs": {
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "9df68a89884b181f57575d7b1a3cce78bcaf6561de39d081472963e715c911cf",
+    "blocks.js": "3be7ddac62ab3abf1d322d308d45c2fc80c6c0f31f04c5679350d5f763be70f9",
+    "deck-model.js": "48406917d2bfbbfc7feb57ca70453dbd0c76ee8d1e565fe7b8e24823ebcbbd0e",
+    "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+    "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+    "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+    "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+    "lib/markdown-document.cjs": "63098e2db053da7ff89f2ff36729faf809e36829a93d0cac822088a17e026e32",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+    "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+    "research/devday-fidelity-20261116/prototypes/ou.config.json": "9337979294388993de3426e9a4349efb4c2b0b7858fe1c00ddeadf56abc8c528",
+    "research/devday-fidelity-20261116/prototypes/talks/round-01/assets/condition-note-selection.svg": "1ffd723aaea6953715fc8136f22ade7456dcd4459fd4c5edbca4650661fd8abe",
+    "research/devday-fidelity-20261116/prototypes/talks/round-01/assets/connected-documents.svg": "a4c427e681b8a11b7b0dabe49d7e5a0f54b8281669caf09e5f6dedb0ba0fb984",
+    "research/devday-fidelity-20261116/prototypes/talks/round-01/assets/same-question-comparison.svg": "571272e0973484975093d33c70a47587fe5af594c0f01bb36020dde5a29b50ff",
+    "research/devday-fidelity-20261116/prototypes/talks/round-01/assets/session-plan-row.svg": "b6ab52487f39481d8e9ad93906d6bb23788e113c2600b327001468c956d7c85d",
+    "research/devday-fidelity-20261116/prototypes/talks/round-01/materials/notes.md": "a2d14753096ed3a02216a14212ca686ad902abf4e9860794a04294a6d5665c4d",
+    "research/devday-fidelity-20261116/prototypes/talks/round-01/materials/reading-pack.md": "68f526ee7ee00524b9059d90a66b26978b017cd58db030212d2c32de9fea2c78",
+    "research/devday-fidelity-20261116/prototypes/talks/round-01/materials/study-pack.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "research/devday-fidelity-20261116/prototypes/talks/round-01/slides.md": "fa6bd281ce7b88825141e335ead2f21bdca93749e08c53dde5c015cc61173cc4",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+    "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+    "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "scripts/llm-wiki-keynote-qa.cjs": "7fa9307535aadd620b40b2af2f1988ef09a54ebf538f40edce3799930e7d6e9b",
+    "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+    "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+    "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+    "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+    "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+    "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+    "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+  },
+  "scope": [
+    {
+      "slides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      }
+    }
+  ],
+  "capture": {
+    "designSha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "inputs": {
+      "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+      "blocks.css": "9df68a89884b181f57575d7b1a3cce78bcaf6561de39d081472963e715c911cf",
+      "blocks.js": "3be7ddac62ab3abf1d322d308d45c2fc80c6c0f31f04c5679350d5f763be70f9",
+      "deck-model.js": "48406917d2bfbbfc7feb57ca70453dbd0c76ee8d1e565fe7b8e24823ebcbbd0e",
+      "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+      "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+      "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+      "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+      "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+      "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+      "lib/markdown-document.cjs": "63098e2db053da7ff89f2ff36729faf809e36829a93d0cac822088a17e026e32",
+      "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+      "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+      "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+      "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+      "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+      "research/devday-fidelity-20261116/prototypes/ou.config.json": "9337979294388993de3426e9a4349efb4c2b0b7858fe1c00ddeadf56abc8c528",
+      "research/devday-fidelity-20261116/prototypes/talks/round-01/assets/condition-note-selection.svg": "1ffd723aaea6953715fc8136f22ade7456dcd4459fd4c5edbca4650661fd8abe",
+      "research/devday-fidelity-20261116/prototypes/talks/round-01/assets/connected-documents.svg": "a4c427e681b8a11b7b0dabe49d7e5a0f54b8281669caf09e5f6dedb0ba0fb984",
+      "research/devday-fidelity-20261116/prototypes/talks/round-01/assets/same-question-comparison.svg": "571272e0973484975093d33c70a47587fe5af594c0f01bb36020dde5a29b50ff",
+      "research/devday-fidelity-20261116/prototypes/talks/round-01/assets/session-plan-row.svg": "b6ab52487f39481d8e9ad93906d6bb23788e113c2600b327001468c956d7c85d",
+      "research/devday-fidelity-20261116/prototypes/talks/round-01/materials/notes.md": "a2d14753096ed3a02216a14212ca686ad902abf4e9860794a04294a6d5665c4d",
+      "research/devday-fidelity-20261116/prototypes/talks/round-01/materials/reading-pack.md": "68f526ee7ee00524b9059d90a66b26978b017cd58db030212d2c32de9fea2c78",
+      "research/devday-fidelity-20261116/prototypes/talks/round-01/materials/study-pack.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+      "research/devday-fidelity-20261116/prototypes/talks/round-01/slides.md": "fa6bd281ce7b88825141e335ead2f21bdca93749e08c53dde5c015cc61173cc4",
+      "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+      "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+      "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+      "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+      "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+      "scripts/llm-wiki-keynote-qa.cjs": "7fa9307535aadd620b40b2af2f1988ef09a54ebf538f40edce3799930e7d6e9b",
+      "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+      "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+      "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+      "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+      "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+      "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+      "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+      "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+      "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+      "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+      "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+      "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+      "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+    },
+    "manifest": {
+      "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/manifest.json",
+      "sha256": "0a33c02ff5d768339997cdfa402b185dbca7570c7ca2dda76177692241296bc5"
+    },
+    "evidence": [
+      {
+        "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-01.png",
+        "sha256": "002951b2b4bd34256fae9980833111e6fc19e7ad85ac20972bffb870668d63f9",
+        "slides": [
+          1
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-02.png",
+        "sha256": "ab0a0f926c678379f438032d3b1811b230abe9f3fcf2c072a59673fba45f13cb",
+        "slides": [
+          2
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-03.png",
+        "sha256": "6c44648fe5afc39d6db71c6d642676739c54181475d069800056cf6af5fd4c21",
+        "slides": [
+          3
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-04.png",
+        "sha256": "83189022e2eacd1f9fec6f764473535afbe31b39d415cc945febcc353521c979",
+        "slides": [
+          4
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        }
+      }
+    ],
+    "supportingEvidence": [
+      {
+        "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/contact-01-04.jpg",
+        "sha256": "108755498e809736872464bb74de3a4d7df4986e901047fb227ed1fc08f69d3a"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/reference-before-after.jpg",
+        "sha256": "3d10f994236b5c24d60c08d8bb860886d294da19f9020498d34baeff0e0d2728"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/context-storyboard.jpg",
+        "sha256": "fc1ee99dd47306a78e601f7e1a2ee7db65b3d10b943e24b7cc95f991d5140295"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/context-storyboard.json",
+        "sha256": "caa1ba5609820b6ca23efb65392c2fca37191b3a0ced8f0e09164b86e1ed728b"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/svg-metrics.json",
+        "sha256": "615e5474c7439db88d3fbf531a6a272d251ee84b725151b6a1860272527b6aae"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "같은 질문과 실제 연결 문서 이름은 생겼지만 공통 원자료/이번 답이 두 번 큰 대상으로 반복되고 이번 입력/현재 입력에서 종합의 동의 설명이 넓은 중앙면을 차지한다. 아래의 세 문서명은 좁은 2~3행 상자에서 읽혀 차이인 지속 문서보다 절차/밝은 같은 답이 먼저 읽힌다. Codex01:30과 대조해 공통 요소를 묶고 비교 차이가 주역이 되는 구조 편집이 필요하다. 1280 실제 Stage에서도 같은 읽는 경쟁/위계를 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-01.png"
+      ],
+      "owner": "/root/devday_creation_manager",
+      "nextAction": "공통 원자료/이번 답과 동의 설명을 묶고 이번 입력의 종합과 지속되는 문서의 차이를 주역으로 다시 편집한다. 구체 구절은 필요시 기존 라벨을 대체하며 추가층으로 쌓지 않는다. 정확 비교 범위/자작예는 보존하고 두 발표 크기·04–06 문맥·동역할 원본을 다시 캡처/독립 검수한다."
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "목적과 맥락이라는 작은 자료 요약 입구와 LLM Wiki/RAG와 위키·다음 스터디의 첫 시도라는 큰 기존 문서 영역이 구별된다. 세 영역에 닿는 세 무방향 관계가 구체 이름 가까이 읽히며 새 방향·자동 순서를 만들지 않았다. 큰 색판은 문서의 소속과 위계를 묶고 하단 한 행은 낮은 위계여서 관계 파악을 막지 않는다. 이 발표 범위의 국소 수동 승인이다. 1280 실제 Stage에서도 같은 읽는 경쟁/위계를 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-02.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "입문자와 함께 읽는15분LLMWiki활동이라는 완전한 문서 제목이 자료 정체성을 더 구체화하고 15분 진행안 절·세 필드·6~11분의 한 행이 하나의 밝은 문서면으로 읽힌다. 활동 행동과 남길 근거 위치가 크게 보이고 자작 설명용 한 행 발췌 지위가 유지된다. 제목의15분 반복은 본문 행을 밀어내는 주역으로 읽히지 않는다. 이 발표 범위의 국소 수동 승인이다. 1280 실제 Stage에서도 같은 읽는 경쟁/위계를 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-03.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "조건 메모의 정체성과 선택 위치·native 큰 목적 구절은 개선됐으나 왼쪽 제목/세 조건/축약 선택줄과 오른쪽 작은 질문/네 행 인용/목적 재해석/예시 표지가 병행 독서층으로 경쟁한다. 공식24:00과 대조해 질문과 정확 목적을 핵심 대조로 묶고 자료는 정체성·선택 위치의 근거로 다시 편집해야 한다. 입문자·별도 활동15분·정확 목적은 읽을 크기로 보존하고 반복 문맥/해석/지위층을 정돈한다. 1280 실제 Stage에서도 같은 읽는 경쟁/위계를 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-04.png"
+      ],
+      "owner": "/root/devday_creation_manager",
+      "nextAction": "질문↔정확 목적 구절을 한 대조로 묶고 source 제목/선택 위치의 읽을 무게를 편집한다. 입문자·별도15분·목적을 본문 크기로 유지하면서 세메모 전체/반복 판단/순수예시표지를 역할 분리한다. 질문·필수조건을 caption으로 축소하지 않는다. 두 발표 크기·14–16 문맥·원본24:00을 새 캡처/독립 검수한다."
+    }
+  ],
+  "recordAuthor": "/root (verbatim mechanical integration of one independent judge)",
+  "reviewSource": {
+    "path": "research/devday-fidelity-20261116/review/round-01/reading-meaning.reviews.json",
+    "sha256": "986887c0b7605b67fe63b9b318660a8fb7a46f4082f239bc50b430d0588d11b3"
+  }
+}

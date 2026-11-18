@@ -1,0 +1,677 @@
+{
+  "source": "research/devday-fidelity-20261116/prototypes/talks/round-02/slides.md",
+  "revision": "619000010e74a25f32fe8fa0e8df15d839cc26be1c63e219353acc5315e01912",
+  "captureMode": "presentation-stage-only",
+  "scopeSlides": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes": {
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "9df68a89884b181f57575d7b1a3cce78bcaf6561de39d081472963e715c911cf",
+    "blocks.js": "3be7ddac62ab3abf1d322d308d45c2fc80c6c0f31f04c5679350d5f763be70f9",
+    "deck-model.js": "48406917d2bfbbfc7feb57ca70453dbd0c76ee8d1e565fe7b8e24823ebcbbd0e",
+    "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+    "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+    "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+    "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+    "lib/markdown-document.cjs": "63098e2db053da7ff89f2ff36729faf809e36829a93d0cac822088a17e026e32",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+    "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+    "research/devday-fidelity-20261116/prototypes/ou.config.json": "9337979294388993de3426e9a4349efb4c2b0b7858fe1c00ddeadf56abc8c528",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/condition-note-selection.svg": "9993d662f26dc7ca919992a1c6903bfe92ac25ef6e9258fe96d1bdda9c672253",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/connected-documents.svg": "a4c427e681b8a11b7b0dabe49d7e5a0f54b8281669caf09e5f6dedb0ba0fb984",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/same-question-comparison.svg": "435063bf0d2507c1f7ad3e6426d79c79192f47a26f2f1b327a98b8fbf9c19c42",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/session-plan-row.svg": "b6ab52487f39481d8e9ad93906d6bb23788e113c2600b327001468c956d7c85d",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/notes.md": "67b770d6476a6bb52c9ed4294119f4191e1160bb21bfc8bbc9545e451a400b7d",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/reading-pack.md": "68f526ee7ee00524b9059d90a66b26978b017cd58db030212d2c32de9fea2c78",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/study-pack.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/slides.md": "619000010e74a25f32fe8fa0e8df15d839cc26be1c63e219353acc5315e01912",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+    "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+    "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "scripts/llm-wiki-keynote-qa.cjs": "7fa9307535aadd620b40b2af2f1988ef09a54ebf538f40edce3799930e7d6e9b",
+    "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+    "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+    "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+    "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+    "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+    "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+    "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+  },
+  "observations": [
+    {
+      "url": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/?revision=619000010e74#1",
+      "title": "LLM Wiki · 비교, 연결, 결과, 근거 — Stage",
+      "index": "0",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?",
+      "headingSize": "54px",
+      "text": "다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?발표팀의 설명용 비교 예두 예는 함께 쓸 수 있습니다.같은 질문의 두 예와 비교 범위를 글로 읽기",
+      "stage": {
+        "x": 181.33331298828125,
+        "y": 110,
+        "width": 1557.33349609375,
+        "height": 876,
+        "right": 1738.6668090820312,
+        "bottom": 986
+      },
+      "body": {
+        "x": 270.8799743652344,
+        "y": 185.9199981689453,
+        "width": 1378.2401123046875,
+        "height": 731.9467163085938,
+        "right": 1649.1200866699219,
+        "bottom": 917.8667144775391
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/435063bf0d25-same-question-comparison.svg",
+          "alt": "같은 질문 ‘다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?’의 두 교육용 예에서 공통 원자료와 이번 답은 묶고, 현재 입력에서 종합하는 대상과 남아 다시 읽는 문서를 비교합니다. 넓은 자료면은 팩의 처음 계획 ‘다음 스터디의 첫 시도’에서 ‘참여자 배경과 활동 길이는 아직 미정이다.’를 정확 발췌한 설명용 재구성입니다. 새 조건을 반영한 최종 계획이 아니며 실제 모델 실행이나 정확도·속도·비용 측정 결과가 아닙니다.",
+          "complete": true,
+          "naturalWidth": 1440,
+          "naturalHeight": 610,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 270.8799743652344,
+            "y": 278.18896484375,
+            "width": 1378.2401123046875,
+            "height": 530.4743041992188,
+            "right": 1649.1200866699219,
+            "bottom": 808.6632690429688
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-01.png",
+      "revision": "619000010e74a25f32fe8fa0e8df15d839cc26be1c63e219353acc5315e01912",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "theme": "stage",
+      "runtime": true,
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "sourceLine": "15",
+          "text": "다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?",
+          "copyRole": null,
+          "logicalPixels": 54,
+          "rect": {
+            "x": 91.99998495023702,
+            "y": 77.99998996682469,
+            "width": 1415.9999673921802,
+            "height": 64.79687993330447
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "54px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 52.56000549316406,
+          "logicalBox": {
+            "x": 91.99998495023702,
+            "y": 77.99998996682469,
+            "width": 1415.9999673921802,
+            "height": 64.79687993330447
+          },
+          "lines": [
+            {
+              "text": "다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?",
+              "x": 91.99998495023702,
+              "y": 78.5000026650622,
+              "width": 963.0234534879237,
+              "height": 63.49998228517482
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "sourceLine": "19",
+          "text": "두 예는 함께 쓸 수 있습니다.",
+          "copyRole": "body",
+          "logicalPixels": 32,
+          "rect": {
+            "x": 91.99998495023702,
+            "y": 778.8046035970815,
+            "width": 1375.9999548507112,
+            "height": 51.19534310167463
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-body"
+          },
+          "directBody": true,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 31.146669921875,
+          "logicalBox": {
+            "x": 91.99998495023702,
+            "y": 778.8046035970815,
+            "width": 1375.9999548507112,
+            "height": 51.19534310167463
+          },
+          "lines": [
+            {
+              "text": "두 예는 함께 쓸 수 있습니다.",
+              "x": 91.99998495023702,
+              "y": 785.3045962289684,
+              "width": 346.6093667843579,
+              "height": 38.000024455864846
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/?revision=619000010e74#2",
+      "title": "LLM Wiki · 비교, 연결, 결과, 근거 — Stage",
+      "index": "1",
+      "layout": "blocks",
+      "composition": "media",
+      "headingSize": null,
+      "text": "함께 읽고 고칠 기존 문서의 세 무방향 관계입니다.\n발표팀의 설명용 재구성입니다.세 무방향 관계와 실제 문서 구절을 글로 읽기",
+      "stage": {
+        "x": 181.33331298828125,
+        "y": 110,
+        "width": 1557.33349609375,
+        "height": 876,
+        "right": 1738.6668090820312,
+        "bottom": 986
+      },
+      "body": {
+        "x": 270.8799743652344,
+        "y": 185.9199981689453,
+        "width": 1378.2401123046875,
+        "height": 731.9467163085938,
+        "right": 1649.1200866699219,
+        "bottom": 917.8667144775391
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/a4c427e681b8-connected-documents.svg",
+          "alt": "자료 요약의 ‘목적과 맥락’은 원자료의 입구이고, 기존 개념·비교의 ‘LLM Wiki / RAG와 위키’와 현재 계획의 ‘다음 스터디의 첫 시도’는 함께 읽고 고칠 문서입니다. 세 영역 사이의 세 선은 요약과 개념·비교, 요약과 현재 계획, 개념·비교와 현재 계획의 무방향 관계이며 자동 갱신이나 생성 순서가 아닙니다. 발표팀의 설명용 관계도입니다.",
+          "complete": true,
+          "naturalWidth": 1440,
+          "naturalHeight": 610,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 270.8799743652344,
+            "y": 185.9199981689453,
+            "width": 1378.2401123046875,
+            "height": 664.5966186523438,
+            "right": 1649.1200866699219,
+            "bottom": 850.5166168212891
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-02.png",
+      "revision": "619000010e74a25f32fe8fa0e8df15d839cc26be1c63e219353acc5315e01912",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "theme": "stage",
+      "runtime": true,
+      "typography": [
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "sourceLine": "34",
+          "text": "함께 읽고 고칠 기존 문서의 세 무방향 관계입니다.\n발표팀의 설명용 재구성입니다.",
+          "copyRole": "body",
+          "logicalPixels": 32,
+          "rect": {
+            "x": 91.99998495023702,
+            "y": 778.8046035970815,
+            "width": 1375.9999548507112,
+            "height": 51.19534310167463
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-body"
+          },
+          "directBody": true,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 31.146669921875,
+          "logicalBox": {
+            "x": 91.99998495023702,
+            "y": 778.8046035970815,
+            "width": 1375.9999548507112,
+            "height": 51.19534310167463
+          },
+          "lines": [
+            {
+              "text": "함께 읽고 고칠 기존 문서의 세 무방향 관계입니다.\n발표팀의 설명용 재구성입니다.",
+              "x": 91.99998495023702,
+              "y": 785.3045962289684,
+              "width": 996.1326812187424,
+              "height": 38.000024455864846
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/?revision=619000010e74#3",
+      "title": "LLM Wiki · 비교, 연결, 결과, 근거 — Stage",
+      "index": "2",
+      "layout": "blocks",
+      "composition": "media",
+      "headingSize": null,
+      "text": "발표팀의 설명용 활동안 · 한 행 발췌활동안의 정확한 한 행과 전문을 글로 읽기",
+      "stage": {
+        "x": 181.33331298828125,
+        "y": 110,
+        "width": 1557.33349609375,
+        "height": 876,
+        "right": 1738.6668090820312,
+        "bottom": 986
+      },
+      "body": {
+        "x": 270.8799743652344,
+        "y": 185.9199981689453,
+        "width": 1378.2401123046875,
+        "height": 731.9467163085938,
+        "right": 1649.1200866699219,
+        "bottom": 917.8667144775391
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/b6ab52487f39-session-plan-row.svg",
+          "alt": "발표팀의 설명용 활동안 ‘입문자와 함께 읽는 15분 LLM Wiki 활동’의 ‘15분 진행안’에서 활동 시간·할 일·남길 것의 세 필드와 한 행을 발췌했습니다. 6~11분 동안 ‘원자료→개념→비교의 연결 한 개를 따라 읽기’를 하고 ‘관계를 뒷받침하는 근거 위치’를 남깁니다. 실제 운영 시간·모델 실행·학습효과를 측정한 결과가 아닙니다.",
+          "complete": true,
+          "naturalWidth": 1440,
+          "naturalHeight": 610,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 270.8799743652344,
+            "y": 185.9199981689453,
+            "width": 1378.2401123046875,
+            "height": 664.5966186523438,
+            "right": 1649.1200866699219,
+            "bottom": 850.5166168212891
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-03.png",
+      "revision": "619000010e74a25f32fe8fa0e8df15d839cc26be1c63e219353acc5315e01912",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "theme": "stage",
+      "runtime": true,
+      "typography": [
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "sourceLine": "50",
+          "text": "발표팀의 설명용 활동안 · 한 행 발췌",
+          "copyRole": "body",
+          "logicalPixels": 32,
+          "rect": {
+            "x": 91.99998495023702,
+            "y": 778.8046035970815,
+            "width": 1375.9999548507112,
+            "height": 51.19534310167463
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-body"
+          },
+          "directBody": true,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 31.146669921875,
+          "logicalBox": {
+            "x": 91.99998495023702,
+            "y": 778.8046035970815,
+            "width": 1375.9999548507112,
+            "height": 51.19534310167463
+          },
+          "lines": [
+            {
+              "text": "발표팀의 설명용 활동안 · 한 행 발췌",
+              "x": 91.99998495023702,
+              "y": 785.3045962289684,
+              "width": 436.6171707135375,
+              "height": 38.000024455864846
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/?revision=619000010e74#4",
+      "title": "LLM Wiki · 비교, 연결, 결과, 근거 — Stage",
+      "index": "3",
+      "layout": "blocks",
+      "composition": "split",
+      "variant": "evidence",
+      "headingSize": null,
+      "text": "발표팀의 자작 가상 예본편 뒤 별도 활동 15분,입문자와 함께라면 ‘읽기부터’?도구 설치보다 목차와연결을 따라 다음 질문의근거를 찾는 경험을먼저 하고 싶다.확인 질문과 조건 메모의 정확한 구절을 글로 읽기",
+      "stage": {
+        "x": 181.33331298828125,
+        "y": 110,
+        "width": 1557.33349609375,
+        "height": 876,
+        "right": 1738.6668090820312,
+        "bottom": 986
+      },
+      "body": {
+        "x": 270.8799743652344,
+        "y": 185.9199981689453,
+        "width": 1378.2401123046875,
+        "height": 731.9467163085938,
+        "right": 1649.1200866699219,
+        "bottom": 917.8667144775391
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/9993d662f26d-condition-note-selection.svg",
+          "alt": "‘다음 모임의 조건 메모’라는 정확한 제목, 세 메모 팩이라는 줄인 문맥 단서, 정확한 목적 구절의 선택 위치를 묶은 설명용 문서면입니다. 입문자와 본편 뒤 별도 활동 15분이라는 필수 가상 조건은 오른쪽 native 확인 질문에 이어지고 선택한 목적 전문은 native 인용에서 읽습니다. 한 텍스트 팩의 논리 구간을 재구성한 발표팀의 자작 가상 예이며 실제 사용자 기록·모델 실행 결과가 아닙니다.",
+          "complete": true,
+          "naturalWidth": 680,
+          "naturalHeight": 650,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 270.8799743652344,
+            "y": 185.9199981689453,
+            "width": 691.36328125,
+            "height": 690.0933837890625,
+            "right": 962.2432556152344,
+            "bottom": 876.0133819580078
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-04.png",
+      "revision": "619000010e74a25f32fe8fa0e8df15d839cc26be1c63e219353acc5315e01912",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "theme": "stage",
+      "runtime": true,
+      "typography": [
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "sourceLine": "66",
+          "text": "본편 뒤 별도 활동 15분,입문자와 함께라면 ‘읽기부터’?",
+          "copyRole": "body",
+          "logicalPixels": 32,
+          "rect": {
+            "x": 850.3046479625286,
+            "y": 245.0077898200268,
+            "width": 657.6953357335615,
+            "height": 102.39062349600351
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "md-copy"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "본편 뒤 별도 활동 15분,",
+              "afterText": "입문자와 함께라면 ‘읽기부터’?",
+              "beforeGlyph": {
+                "x": 1133.3358834320609,
+                "y": 251.50781380558655
+              },
+              "afterGlyph": {
+                "x": 850.3046479625286,
+                "y": 302.7030941999154
+              }
+            }
+          ],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 31.146669921875,
+          "logicalBox": {
+            "x": 850.3046479625286,
+            "y": 245.0077898200268,
+            "width": 657.6953357335615,
+            "height": 102.39062349600351
+          },
+          "lines": [
+            {
+              "text": "본편 뒤 별도 활동 15분,",
+              "x": 850.3046479625286,
+              "y": 251.50781380558655,
+              "width": 290.3203373404373,
+              "height": 37.99996174851909
+            },
+            {
+              "text": "입문자와 함께라면 ‘읽기부터’?",
+              "x": 850.3046479625286,
+              "y": 302.7030941999154,
+              "width": 376.7265448660085,
+              "height": 37.999993102191965
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "sourceLine": "69",
+          "text": "도구 설치보다 목차와연결을 따라 다음 질문의근거를 찾는 경험을먼저 하고 싶다.",
+          "copyRole": null,
+          "logicalPixels": 54,
+          "rect": {
+            "x": 850.3046479625286,
+            "y": 371.3983957579735,
+            "width": 657.6953357335615,
+            "height": 291.59376676441696
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "BLOCKQUOTE",
+            "classes": "block-node"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "도구 설치보다 목차와",
+              "afterText": "연결을 따라 다음 질문의근거를 찾는 경험을먼저 하고 싶다.",
+              "beforeGlyph": {
+                "x": 1227.8125263566812,
+                "y": 375.89840030425603
+              },
+              "afterGlyph": {
+                "x": 850.3046479625286,
+                "y": 448.79684983377854
+              }
+            },
+            {
+              "beforeText": "도구 설치보다 목차와연결을 따라 다음 질문의",
+              "afterText": "근거를 찾는 경험을먼저 하고 싶다.",
+              "beforeGlyph": {
+                "x": 1282.1015363613249,
+                "y": 448.79684983377854
+              },
+              "afterGlyph": {
+                "x": 850.3046479625286,
+                "y": 521.6952680096281
+              }
+            },
+            {
+              "beforeText": "도구 설치보다 목차와연결을 따라 다음 질문의근거를 찾는 경험을",
+              "afterText": "먼저 하고 싶다.",
+              "beforeGlyph": {
+                "x": 1182.9920747321064,
+                "y": 521.6952680096281
+              },
+              "afterGlyph": {
+                "x": 850.3046479625286,
+                "y": 594.5936861854777
+              }
+            }
+          ],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "54px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 52.56000549316406,
+          "logicalBox": {
+            "x": 850.3046479625286,
+            "y": 371.3983957579735,
+            "width": 657.6953357335615,
+            "height": 291.59376676441696
+          },
+          "lines": [
+            {
+              "text": "도구 설치보다 목차와",
+              "x": 850.3046479625286,
+              "y": 375.89840030425603,
+              "width": 422.3358549002185,
+              "height": 63.499997962011264
+            },
+            {
+              "text": "연결을 따라 다음 질문의",
+              "x": 850.3046479625286,
+              "y": 448.79684983377854,
+              "width": 476.624864904862,
+              "height": 63.49996660833839
+            },
+            {
+              "text": "근거를 찾는 경험을",
+              "x": 850.3046479625286,
+              "y": 521.6952680096281,
+              "width": 377.51565410502667,
+              "height": 63.500029315684145
+            },
+            {
+              "text": "먼저 하고 싶다.",
+              "x": 850.3046479625286,
+              "y": 594.5936861854777,
+              "width": 298.03108340421875,
+              "height": 63.500029315684145
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

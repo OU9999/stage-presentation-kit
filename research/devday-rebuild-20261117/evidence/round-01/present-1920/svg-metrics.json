@@ -1,0 +1,265 @@
+{
+  "revision": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+  "hashes": {
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "198bb18192f0fde9da3e09dac5c68fa01ddf5e567fb940c0f7941e5867e0a6f1",
+    "blocks.js": "01736032d349d55afa933baee90005d2abc0d7f1b13680cb4f98a16cb1077a5b",
+    "deck-model.js": "989503b9997d7252834d59d449db56fec15d7426f897b8fdd7a38b7c6f2ade7b",
+    "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+    "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+    "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+    "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+    "lib/markdown-document.cjs": "2dffc62884e52725f9144894f809de697711bc9ad92dde5282fd579998f125ee",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+    "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+    "research/devday-rebuild-20261117/prototypes/assets/answer-window.svg": "53f6ad1cf5d51dee0e3eb23774b583630f663e7d2d34d15b24d9811c51bd20c7",
+    "research/devday-rebuild-20261117/prototypes/assets/condition-article.svg": "8a25ae7a988f88c3ea3598f968ca0d288c1f371f579ac16bc956c26f555f4bb0",
+    "research/devday-rebuild-20261117/prototypes/assets/output-brief.png": "8fd4e9ea6c8eccaa523668ce23f50dfd236bb7938b64f128d44b8a8bd36f8717",
+    "research/devday-rebuild-20261117/prototypes/assets/output-map.png": "004b56786390943bee38820b1151a758e57b44f4b9c3267a616ff22cbb65447b",
+    "research/devday-rebuild-20261117/prototypes/assets/output-plan.png": "94c7bc47eea4f53d4e8c51cb3128f1dd83cf709a68ef43575ae846b155100310",
+    "research/devday-rebuild-20261117/prototypes/assets/output-question.png": "24d24244b321ef1b08a4141572fa7e46a67fb05f0c76aad3dfe668b6bbb3bb57",
+    "research/devday-rebuild-20261117/prototypes/assets/wiki-window.svg": "1cf7b25ae4c15decb311b6fa1e608c50165b1eed6c0837309f8ed6a832dc093b",
+    "research/devday-rebuild-20261117/prototypes/ou.config.json": "aa7f06ab75741f16c58c6400a6daa02871af5880aadb358b152229ced37c6324",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/materials/notes.md": "daa508aeea5d3b2c671924e14b17329630ed329d2b921515da092b656479763b",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/materials/source-pack.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+    "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+    "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "scripts/llm-wiki-keynote-qa.cjs": "198986bda79c805d3368881974f15a5b4f8ce5fb61fc5c5868e0673666ea45e9",
+    "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+    "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+    "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+    "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+    "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+    "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+    "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+  },
+  "captureManifest": {
+    "path": "research/devday-rebuild-20261117/evidence/round-01/present-1920/manifest.json",
+    "sha256": "fb083fae702fb8aae48bdbd217126a3eb35dc4f6d1cb83825299e625a4b7f344"
+  },
+  "method": "Observed SVG geometry/fonts at the actual contain scale; no aesthetic approval.",
+  "observations": [
+    {
+      "slide": 2,
+      "url": "http://127.0.0.1:4336/research/devday-rebuild-20261117/prototypes/site/first-look/assets/53f6ad1cf5d5-answer-window.svg",
+      "sourcePaths": [
+        "research/devday-rebuild-20261117/prototypes/assets/answer-window.svg"
+      ],
+      "sha256": "53f6ad1cf5d51dee0e3eb23774b583630f663e7d2d34d15b24d9811c51bd20c7",
+      "stageScale": 0.9733334350585937,
+      "projectedScale": 0.8868087041945685,
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 720,
+        "height": 420
+      },
+      "materialKind": "explanatory-reconstruction",
+      "texts": [],
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "slide": 2,
+      "url": "http://127.0.0.1:4336/research/devday-rebuild-20261117/prototypes/site/first-look/assets/1cf7b25ae4c1-wiki-window.svg",
+      "sourcePaths": [
+        "research/devday-rebuild-20261117/prototypes/assets/wiki-window.svg"
+      ],
+      "sha256": "1cf7b25ae4c15decb311b6fa1e608c50165b1eed6c0837309f8ed6a832dc093b",
+      "stageScale": 0.9733334350585937,
+      "projectedScale": 0.8868087041945685,
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 720,
+        "height": 420
+      },
+      "materialKind": "explanatory-reconstruction",
+      "texts": [],
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "slide": 3,
+      "url": "http://127.0.0.1:4336/research/devday-rebuild-20261117/prototypes/site/first-look/assets/8a25ae7a988f-condition-article.svg",
+      "sourcePaths": [
+        "research/devday-rebuild-20261117/prototypes/assets/condition-article.svg"
+      ],
+      "sha256": "8a25ae7a988f88c3ea3598f968ca0d288c1f371f579ac16bc956c26f555f4bb0",
+      "stageScale": 0.9733334350585937,
+      "projectedScale": 0.9444575259560033,
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 760,
+        "height": 660
+      },
+      "materialKind": "editorial-adaptation",
+      "texts": [
+        {
+          "text": "스터디 노트 · 조건과 목적",
+          "class": null,
+          "role": null,
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 293.6484375,
+            "y": 47.5,
+            "right": 466.3515625,
+            "bottom": 68
+          },
+          "glyphCount": 15,
+          "projectedPixels": 17.00023546720806,
+          "stageLogicalPixels": 17.465993517611633
+        },
+        {
+          "text": "다음 모임을 준비하며연결을 따라 읽는 경험",
+          "class": null,
+          "role": null,
+          "fontSize": "52px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 159.515625,
+            "y": 96,
+            "right": 600.484375,
+            "bottom": 218
+          },
+          "glyphCount": 23,
+          "projectedPixels": 49.11179134971217,
+          "stageLogicalPixels": 50.4573146064336
+        },
+        {
+          "text": "입문자와 함께하는 짧은 읽기 활동을 준비한다.",
+          "class": null,
+          "role": null,
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 66,
+            "y": 275.5,
+            "right": 485.453125,
+            "bottom": 302
+          },
+          "glyphCount": 25,
+          "projectedPixels": 22.66698062294408,
+          "stageLogicalPixels": 23.28799135681551
+        },
+        {
+          "text": "본편 뒤에는 15분의 시간이 있다.",
+          "class": null,
+          "role": null,
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 66,
+            "y": 311.5,
+            "right": 363.7578125,
+            "bottom": 338
+          },
+          "glyphCount": 19,
+          "projectedPixels": 22.66698062294408,
+          "stageLogicalPixels": 23.28799135681551
+        },
+        {
+          "text": "세 메모를 모두 새로 만드는 대신,",
+          "class": null,
+          "role": null,
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 66,
+            "y": 372.5,
+            "right": 364.4921875,
+            "bottom": 399
+          },
+          "glyphCount": 19,
+          "projectedPixels": 22.66698062294408,
+          "stageLogicalPixels": 23.28799135681551
+        },
+        {
+          "text": "이미 남긴 문서와 연결을 따라가 보기로 했다.",
+          "class": null,
+          "role": null,
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 66,
+            "y": 408.5,
+            "right": 471.359375,
+            "bottom": 435
+          },
+          "glyphCount": 25,
+          "projectedPixels": 22.66698062294408,
+          "stageLogicalPixels": 23.28799135681551
+        },
+        {
+          "text": "중요한 것은 도구를 설치하는 순서가 아니라",
+          "class": null,
+          "role": null,
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 66,
+            "y": 469.5,
+            "right": 459.45977783203125,
+            "bottom": 496
+          },
+          "glyphCount": 23,
+          "projectedPixels": 22.66698062294408,
+          "stageLogicalPixels": 23.28799135681551
+        },
+        {
+          "text": "다음 질문에서 근거를 다시 찾는 경험이다.",
+          "class": null,
+          "role": null,
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 66,
+            "y": 505.5,
+            "right": 445.1328125,
+            "bottom": 532
+          },
+          "glyphCount": 23,
+          "projectedPixels": 22.66698062294408,
+          "stageLogicalPixels": 23.28799135681551
+        },
+        {
+          "text": "읽은 내용은 다음 질문과 함께 남긴다.",
+          "class": null,
+          "role": null,
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 66,
+            "y": 566.5,
+            "right": 404.8125,
+            "bottom": 593
+          },
+          "glyphCount": 21,
+          "projectedPixels": 22.66698062294408,
+          "stageLogicalPixels": 23.28799135681551
+        }
+      ],
+      "nodes": [],
+      "edges": []
+    }
+  ]
+}

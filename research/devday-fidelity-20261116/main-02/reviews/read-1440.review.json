@@ -1,0 +1,1225 @@
+{
+  "format": "stage-design-review-v1",
+  "source": {
+    "path": "talks/llm-wiki/slides.md",
+    "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0"
+  },
+  "inputs": {
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "9df68a89884b181f57575d7b1a3cce78bcaf6561de39d081472963e715c911cf",
+    "blocks.js": "3be7ddac62ab3abf1d322d308d45c2fc80c6c0f31f04c5679350d5f763be70f9",
+    "deck-model.js": "48406917d2bfbbfc7feb57ca70453dbd0c76ee8d1e565fe7b8e24823ebcbbd0e",
+    "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+    "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+    "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+    "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+    "lib/markdown-document.cjs": "63098e2db053da7ff89f2ff36729faf809e36829a93d0cac822088a17e026e32",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+    "ou.config.json": "41566e632cced20b479a9b36f442ffc201792b91961fae9c7ca892c409ebc564",
+    "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+    "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+    "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "scripts/llm-wiki-keynote-qa.cjs": "198986bda79c805d3368881974f15a5b4f8ce5fb61fc5c5868e0673666ea45e9",
+    "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+    "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+    "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+    "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+    "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+    "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+    "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+    "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+    "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+    "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+    "talks/llm-wiki/assets/design/ingest-map.svg": "1ea6a569bab645b16c29d332950aaa5928fcd0b4b6737ff12005bcdf3765764b",
+    "talks/llm-wiki/assets/design/knowledge-layers.svg": "64c1fd12553932973b7340a0930c2617788ad561c1e09329da9171644d4f0a56",
+    "talks/llm-wiki/assets/design/raw-wiki-rules.svg": "87b989db720d81d4ec21ed604ac24c66623ee2faa934166071449003133d900d",
+    "talks/llm-wiki/assets/devday/condition-note-selection.svg": "9993d662f26dc7ca919992a1c6903bfe92ac25ef6e9258fe96d1bdda9c672253",
+    "talks/llm-wiki/assets/devday/connected-documents.svg": "a4c427e681b8a11b7b0dabe49d7e5a0f54b8281669caf09e5f6dedb0ba0fb984",
+    "talks/llm-wiki/assets/devday/plan-revision.svg": "b4a1068be772762554dbc738207a82120dff4d66b532660a45216ce9fbbc81eb",
+    "talks/llm-wiki/assets/devday/same-question-comparison.svg": "8af85adfb586a18daa56ece5c21067be2fb7958a818f85df49dd54ca2d582b98",
+    "talks/llm-wiki/assets/devday/session-plan-row.svg": "b6ab52487f39481d8e9ad93906d6bb23788e113c2600b327001468c956d7c85d",
+    "talks/llm-wiki/assets/examples/course.txt": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+    "talks/llm-wiki/assets/examples/reading.txt": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+    "talks/llm-wiki/assets/examples/team.txt": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+    "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "talks/llm-wiki/assets/expanded/agentic-routing.svg": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+    "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+    "talks/llm-wiki/assets/expanded/five-layers.svg": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+    "talks/llm-wiki/assets/expanded/ingest-map.svg": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+    "talks/llm-wiki/assets/expanded/knowledge-layers.svg": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+    "talks/llm-wiki/assets/expanded/purpose-questions.svg": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+    "talks/llm-wiki/assets/expanded/query-reading.svg": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+    "talks/llm-wiki/assets/expanded/rag-path.svg": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+    "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+    "talks/llm-wiki/assets/expanded/reflection-layers.svg": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+    "talks/llm-wiki/assets/expanded/related-updates.svg": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+    "talks/llm-wiki/assets/expanded/review-return.svg": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+    "talks/llm-wiki/assets/expanded/rules-graph.svg": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+    "talks/llm-wiki/assets/expanded/saved-question.svg": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+    "talks/llm-wiki/assets/expanded/session-plan.svg": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+    "talks/llm-wiki/assets/expanded/shared-workspace.svg": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+    "talks/llm-wiki/assets/expanded/source-concept.svg": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+    "talks/llm-wiki/assets/expanded/wiki-path.svg": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+    "talks/llm-wiki/assets/expanded/work-context.svg": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+    "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+    "talks/llm-wiki/assets/keynote/condition-and-choice.svg": "2404cc6d8840696a9af3b44d953058ed8ea53a4f3d734108d0d213e38f6cfb25",
+    "talks/llm-wiki/assets/remake/ingest-map.svg": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+    "talks/llm-wiki/assets/remake/session-plan.svg": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+    "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+    "talks/llm-wiki/assets/speaker-guide.txt": "3ceed10f507daa98ffbe58bccef7b9fde98f8efa42c6bd9e06db7b95cec42bfb",
+    "talks/llm-wiki/assets/typography/ingest-map.svg": "a3a65af7ab28b3eb7a0720d3ac9588b3a7c4dba0af3b6833a1ee89676454da8e",
+    "talks/llm-wiki/assets/typography/knowledge-layers.svg": "00cc9503c0ea5f60b60e902f45f12622da5d4696ac03d8b7296d6bf2953ab493",
+    "talks/llm-wiki/assets/typography/purpose-questions.svg": "22e3b2b1ec42fed0eeb887c9f1d7c5d8778279dc54b992897e8171b3eaf1fef0",
+    "talks/llm-wiki/assets/typography/rag-path.svg": "0aefea443a6e3de3f103c5cdbcf9d16fe025af213fd4266f213dfd28df4c5c63",
+    "talks/llm-wiki/assets/typography/raw-wiki-rules.svg": "971d2b2c25e3d9e6ae3cd17abe5c1d0aa21fc5a71e7eaa4a98c7abb60c1719ba",
+    "talks/llm-wiki/assets/typography/related-updates.svg": "e240f730668766cb72612e6d4a417127473bdd8e2d04b8a0086307e361bce67f",
+    "talks/llm-wiki/assets/typography/session-plan.svg": "a7afd1388934c61261926c78cdc0c70fb51bd62219d3b7b59f4c8ea92349a955",
+    "talks/llm-wiki/assets/typography/source-concept.svg": "cac31a82b5a0225f8bf3fb14fd713b29482bf2e84c7114a8131d3b6216195862",
+    "talks/llm-wiki/assets/typography/wiki-path.svg": "53636045579a66dfdee4f53136cf31365fc00809983cb56e0b14b224c5052840",
+    "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+    "talks/llm-wiki/materials/demo-log.md": "8786016513450b7fb35bd88d8dd2141b53b7273ede735fe9eb24b007999195ab",
+    "talks/llm-wiki/materials/diagram-reading.md": "32292ae71a01d74c66c77b5367a156c8a1b30d305a2539e07ae777d273a0867c",
+    "talks/llm-wiki/materials/index.md": "5097caaeba1ec730d35113235affa7ca4470556db8e7e60eb4a4ed853daac8a4",
+    "talks/llm-wiki/materials/keynote-notes.md": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f",
+    "talks/llm-wiki/materials/reference-library.md": "60b10db89b665dbf91bf35715059598408b983abb9e372f3c3436994dcf3df44",
+    "talks/llm-wiki/materials/session-plan.md": "24b1aadb2d479b3a5d54b5296c3c4562662bff09d03cda47541daad2187db755",
+    "talks/llm-wiki/materials/speaker-script.md": "054928b24e995d92f50634c287eccde2b8e3973b1ba682abfcce279497f18355",
+    "talks/llm-wiki/materials/study-guide.md": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+    "talks/llm-wiki/materials/visual-appendix.md": "c213552b5d3812d357368561e20853457c8028518a5c268f3e7c98341acd583b",
+    "talks/llm-wiki/materials/workshop.md": "c5447d32a329cb306ef5517fff2d7d82f9583271216266a828c73ba29250a8c0",
+    "talks/llm-wiki/slides.md": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "talks/llm-wiki/qa/keynote-current.json": "3832b7653b4db8d2f3c8aad1e5b60de1a0d91a12ebc78258566f35f8aaf695eb",
+    "talks/llm-wiki/qa/keynote-coverage.json": "e6bd8bc9bc7dd7a4d6bc63167867917ed9487c60c0fc185012dad643ef14e856",
+    "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+  },
+  "scope": [
+    {
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      }
+    }
+  ],
+  "capture": {
+    "designSha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "inputs": {
+      "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+      "blocks.css": "9df68a89884b181f57575d7b1a3cce78bcaf6561de39d081472963e715c911cf",
+      "blocks.js": "3be7ddac62ab3abf1d322d308d45c2fc80c6c0f31f04c5679350d5f763be70f9",
+      "deck-model.js": "48406917d2bfbbfc7feb57ca70453dbd0c76ee8d1e565fe7b8e24823ebcbbd0e",
+      "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+      "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+      "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+      "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+      "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+      "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+      "lib/markdown-document.cjs": "63098e2db053da7ff89f2ff36729faf809e36829a93d0cac822088a17e026e32",
+      "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+      "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+      "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+      "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+      "ou.config.json": "41566e632cced20b479a9b36f442ffc201792b91961fae9c7ca892c409ebc564",
+      "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+      "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+      "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+      "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+      "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+      "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+      "scripts/llm-wiki-keynote-qa.cjs": "198986bda79c805d3368881974f15a5b4f8ce5fb61fc5c5868e0673666ea45e9",
+      "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+      "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+      "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+      "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+      "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+      "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+      "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+      "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+      "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+      "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+      "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+      "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+      "talks/llm-wiki/assets/design/ingest-map.svg": "1ea6a569bab645b16c29d332950aaa5928fcd0b4b6737ff12005bcdf3765764b",
+      "talks/llm-wiki/assets/design/knowledge-layers.svg": "64c1fd12553932973b7340a0930c2617788ad561c1e09329da9171644d4f0a56",
+      "talks/llm-wiki/assets/design/raw-wiki-rules.svg": "87b989db720d81d4ec21ed604ac24c66623ee2faa934166071449003133d900d",
+      "talks/llm-wiki/assets/devday/condition-note-selection.svg": "9993d662f26dc7ca919992a1c6903bfe92ac25ef6e9258fe96d1bdda9c672253",
+      "talks/llm-wiki/assets/devday/connected-documents.svg": "a4c427e681b8a11b7b0dabe49d7e5a0f54b8281669caf09e5f6dedb0ba0fb984",
+      "talks/llm-wiki/assets/devday/plan-revision.svg": "b4a1068be772762554dbc738207a82120dff4d66b532660a45216ce9fbbc81eb",
+      "talks/llm-wiki/assets/devday/same-question-comparison.svg": "8af85adfb586a18daa56ece5c21067be2fb7958a818f85df49dd54ca2d582b98",
+      "talks/llm-wiki/assets/devday/session-plan-row.svg": "b6ab52487f39481d8e9ad93906d6bb23788e113c2600b327001468c956d7c85d",
+      "talks/llm-wiki/assets/examples/course.txt": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+      "talks/llm-wiki/assets/examples/reading.txt": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+      "talks/llm-wiki/assets/examples/team.txt": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+      "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+      "talks/llm-wiki/assets/expanded/agentic-routing.svg": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+      "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+      "talks/llm-wiki/assets/expanded/five-layers.svg": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+      "talks/llm-wiki/assets/expanded/ingest-map.svg": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+      "talks/llm-wiki/assets/expanded/knowledge-layers.svg": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+      "talks/llm-wiki/assets/expanded/purpose-questions.svg": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+      "talks/llm-wiki/assets/expanded/query-reading.svg": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+      "talks/llm-wiki/assets/expanded/rag-path.svg": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+      "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+      "talks/llm-wiki/assets/expanded/reflection-layers.svg": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+      "talks/llm-wiki/assets/expanded/related-updates.svg": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+      "talks/llm-wiki/assets/expanded/review-return.svg": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+      "talks/llm-wiki/assets/expanded/rules-graph.svg": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+      "talks/llm-wiki/assets/expanded/saved-question.svg": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+      "talks/llm-wiki/assets/expanded/session-plan.svg": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+      "talks/llm-wiki/assets/expanded/shared-workspace.svg": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+      "talks/llm-wiki/assets/expanded/source-concept.svg": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+      "talks/llm-wiki/assets/expanded/wiki-path.svg": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+      "talks/llm-wiki/assets/expanded/work-context.svg": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+      "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+      "talks/llm-wiki/assets/keynote/condition-and-choice.svg": "2404cc6d8840696a9af3b44d953058ed8ea53a4f3d734108d0d213e38f6cfb25",
+      "talks/llm-wiki/assets/remake/ingest-map.svg": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+      "talks/llm-wiki/assets/remake/session-plan.svg": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+      "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+      "talks/llm-wiki/assets/speaker-guide.txt": "3ceed10f507daa98ffbe58bccef7b9fde98f8efa42c6bd9e06db7b95cec42bfb",
+      "talks/llm-wiki/assets/typography/ingest-map.svg": "a3a65af7ab28b3eb7a0720d3ac9588b3a7c4dba0af3b6833a1ee89676454da8e",
+      "talks/llm-wiki/assets/typography/knowledge-layers.svg": "00cc9503c0ea5f60b60e902f45f12622da5d4696ac03d8b7296d6bf2953ab493",
+      "talks/llm-wiki/assets/typography/purpose-questions.svg": "22e3b2b1ec42fed0eeb887c9f1d7c5d8778279dc54b992897e8171b3eaf1fef0",
+      "talks/llm-wiki/assets/typography/rag-path.svg": "0aefea443a6e3de3f103c5cdbcf9d16fe025af213fd4266f213dfd28df4c5c63",
+      "talks/llm-wiki/assets/typography/raw-wiki-rules.svg": "971d2b2c25e3d9e6ae3cd17abe5c1d0aa21fc5a71e7eaa4a98c7abb60c1719ba",
+      "talks/llm-wiki/assets/typography/related-updates.svg": "e240f730668766cb72612e6d4a417127473bdd8e2d04b8a0086307e361bce67f",
+      "talks/llm-wiki/assets/typography/session-plan.svg": "a7afd1388934c61261926c78cdc0c70fb51bd62219d3b7b59f4c8ea92349a955",
+      "talks/llm-wiki/assets/typography/source-concept.svg": "cac31a82b5a0225f8bf3fb14fd713b29482bf2e84c7114a8131d3b6216195862",
+      "talks/llm-wiki/assets/typography/wiki-path.svg": "53636045579a66dfdee4f53136cf31365fc00809983cb56e0b14b224c5052840",
+      "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+      "talks/llm-wiki/materials/demo-log.md": "8786016513450b7fb35bd88d8dd2141b53b7273ede735fe9eb24b007999195ab",
+      "talks/llm-wiki/materials/diagram-reading.md": "32292ae71a01d74c66c77b5367a156c8a1b30d305a2539e07ae777d273a0867c",
+      "talks/llm-wiki/materials/index.md": "5097caaeba1ec730d35113235affa7ca4470556db8e7e60eb4a4ed853daac8a4",
+      "talks/llm-wiki/materials/keynote-notes.md": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f",
+      "talks/llm-wiki/materials/reference-library.md": "60b10db89b665dbf91bf35715059598408b983abb9e372f3c3436994dcf3df44",
+      "talks/llm-wiki/materials/session-plan.md": "24b1aadb2d479b3a5d54b5296c3c4562662bff09d03cda47541daad2187db755",
+      "talks/llm-wiki/materials/speaker-script.md": "054928b24e995d92f50634c287eccde2b8e3973b1ba682abfcce279497f18355",
+      "talks/llm-wiki/materials/study-guide.md": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+      "talks/llm-wiki/materials/visual-appendix.md": "c213552b5d3812d357368561e20853457c8028518a5c268f3e7c98341acd583b",
+      "talks/llm-wiki/materials/workshop.md": "c5447d32a329cb306ef5517fff2d7d82f9583271216266a828c73ba29250a8c0",
+      "talks/llm-wiki/slides.md": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+      "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+      "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+      "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+      "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+      "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "talks/llm-wiki/qa/keynote-current.json": "3832b7653b4db8d2f3c8aad1e5b60de1a0d91a12ebc78258566f35f8aaf695eb",
+      "talks/llm-wiki/qa/keynote-coverage.json": "e6bd8bc9bc7dd7a4d6bc63167867917ed9487c60c0fc185012dad643ef14e856",
+      "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+      "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+    },
+    "manifest": {
+      "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+      "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+    },
+    "evidence": [
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-01.png",
+        "sha256": "39083217e8f28292c2a3b06dcc19cad6fcf57126176998b8368fd1da3ff3a91b",
+        "slides": [
+          1
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-02.png",
+        "sha256": "07625960c8f5e473235e9b0a982605a660d767a88933d9cf87bd8563ed800bf8",
+        "slides": [
+          2
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-03.png",
+        "sha256": "16a6b6a751eeaa8ee7a339f376a8fccf362333ca1510d30b405c8621469110c1",
+        "slides": [
+          3
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-04.png",
+        "sha256": "3f65029279646578acd81b9916da885d96a72bc3b09fb38e86c702db0fc6e3fa",
+        "slides": [
+          4
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-05.png",
+        "sha256": "af03fc735037774d8410b2b80229dcb0873659510093d3e38ae5ff057b6e7e10",
+        "slides": [
+          5
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-06.png",
+        "sha256": "c0dfe89eeed3f1fef613ac762dbe75f8198e01eb10e6dbdae095f51bb7976d09",
+        "slides": [
+          6
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-07.png",
+        "sha256": "9e131641aaddfab9b1d687911b207b6a00dd22adaa58beb489680e58e46c24f3",
+        "slides": [
+          7
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-08.png",
+        "sha256": "ad0322f86f98e418046738a7df9685277a8ce2b1933a677684786e86765367f9",
+        "slides": [
+          8
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-09.png",
+        "sha256": "e14ac088a4eb98a6c678bcae83c0fae07276ccca126983639d6d4207d9f2b402",
+        "slides": [
+          9
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-10.png",
+        "sha256": "098e42e540dd70385df8eee7f86ef254f160c8144bc8bc360e4d77ff472267e2",
+        "slides": [
+          10
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-11.png",
+        "sha256": "6f112aecd324909aee2bd204dbeb305f51c298ee773ae745b27b86ab59362ad8",
+        "slides": [
+          11
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-12.png",
+        "sha256": "8c3ce2dd065aad3548df658fe23d34f585d82e7f1c3ee0b11ef97a76eceeeeb5",
+        "slides": [
+          12
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-13.png",
+        "sha256": "1f9923a395dc3f969264644f605b4a3d21ae1384420ed3b8bd0eabf36bcdd379",
+        "slides": [
+          13
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-14.png",
+        "sha256": "5c9e8eb67a47b07d4b7eb928adb48d6edb094c987316efdb518c737cfa96c0a0",
+        "slides": [
+          14
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-15.png",
+        "sha256": "0c4520ef72ab1e2d30573c231bbcc417ae091c128f9d03eb840bdf4466c60357",
+        "slides": [
+          15
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-16.png",
+        "sha256": "4f0f03e4baac10771666b496d08024ed4a54e20137c8c23ce05e23ed75b3852d",
+        "slides": [
+          16
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-17.png",
+        "sha256": "e3e2466761bd0bff42ae95cc6645d65d8739a46a3744d48039c295e7f191269e",
+        "slides": [
+          17
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-18.png",
+        "sha256": "12299230ebc5b18812a6ea729971d7aabc65229d2e4f6991f78a5df389ced4b1",
+        "slides": [
+          18
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-19.png",
+        "sha256": "ac31a7fa6b41829a058991bdee619583cf3db1d81a3945e1173cce148c123024",
+        "slides": [
+          19
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-20.png",
+        "sha256": "834fed0b3c7a3fa23bc46b44ffa527be9ee970914d1b708834a1301cf7449d76",
+        "slides": [
+          20
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000,
+          "devicePixelRatio": 1
+        }
+      }
+    ],
+    "supportingEvidence": [
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/contact-01-08.jpg",
+        "sha256": "aa848dd866e881622dc44dd7255fae3c854d42b42ba4b4ab6ae169afea9dda64"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/contact-09-16.jpg",
+        "sha256": "63cf408e0b8531a81c8ee42ef68a5f11815271e55e08fab01fe11e12a5ed143f"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/contact-17-20.jpg",
+        "sha256": "f9918811f18d9230da9fda605b78196815b2920335b38024c8de2e5dbfe1f42b"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+        "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+      },
+      {
+        "path": "talks/llm-wiki/slides.md",
+        "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-03-1440.png",
+        "sha256": "737d02cbe483e2c11c0e4ec871f7c1536b1ec1aa4aba08377d551dc99e7f4ecf"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+        "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+      },
+      {
+        "path": "talks/llm-wiki/assets/expanded-study.txt",
+        "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-05-1440.png",
+        "sha256": "02e12d3d1af7e05529af842db185dec64783bfc14e284bfd27ef4c01811c6808"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-06-1440.png",
+        "sha256": "346175fd0ea6071e7fa19b6c5eb47ac3e85ce8ff7dae3b62c920b3d6cadea980"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-07-1440.png",
+        "sha256": "913d00768d2d75ecf9e46e8bbf4b5017bca74a5901ecee9f8ed4b228e7ba9cf3"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-06.png",
+        "sha256": "c0dfe89eeed3f1fef613ac762dbe75f8198e01eb10e6dbdae095f51bb7976d09"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-08-1440.png",
+        "sha256": "7f8b2533041316232ef8078aa484da8b2f94ced5e5c2ab2eb229fcf64d27addf"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-13-1440.png",
+        "sha256": "eb99288e9ee633386984638ffb73fc197e2f5d0a40c29ea9e2704a14d44b5173"
+      },
+      {
+        "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-15-1440.png",
+        "sha256": "cd02f67fc2c816ee317db5fc197c4c389c5e3e033d13d648bd59d090c0f984ec"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "제목과 짧은 부제가 분리돼 발표 주제가 한 대상으로 읽힌다. 읽기 화면의 실제 제목과 본문 크기·여백을 직접 확인했다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-01.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 2,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "함께 읽고 고친다는 행위와 굵은 나만의 지식 문서가 두 의미행으로 읽힌다. 뒤의 선택 이유 예로 이어지는 짧은 선언 역할을 수용한다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-02.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 3,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "정확 선택 이유가 native 인용의 주역이고 마지막 선택 행이 강조된다. 목적과 맥락·사람이 채울 예·발표팀 구성 지위와 원문 지원절이 구별돼 실제 사용자 기록이나 모델 출력으로 가장하지 않는다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-03.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-03-1440.png",
+          "sha256": "737d02cbe483e2c11c0e4ec871f7c1536b1ec1aa4aba08377d551dc99e7f4ecf"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 4,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "다음 질문에 다시 쓴다는 한 문장 전환이 읽히고 다른 자료나 보조 설명과 경쟁하지 않는다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-04.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 5,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "공통 원자료와 이번 답을 각 한 번 묶고 현재 입력에서 종합과 남아 다시 읽는 넓은 계획 문서를 비교한다. 처음 계획과 미정 구절이 다음6의 변경 전 상태를 특정하며 병행 가능성은 별도 native 본문으로 읽힌다. 정확 두 예와 비교 한계는 현재 지원절에서 확인했다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-05.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-05-1440.png",
+          "sha256": "02e12d3d1af7e05529af842db185dec64783bfc14e284bfd27ef4c01811c6808"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 6,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "같은 계획의 제목과 조건 위치가 두 대응선으로 이어져 처음의 미정 상태에서 입문자·세 메모 중 두 개·별도15분으로 바뀐 필드를 읽을 수 있다. 정확 발췌의 재구성이며 실제 diff·모델 실행·운영 성과가 아님을 현재 지원절에서 대조했다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-06.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-06-1440.png",
+          "sha256": "346175fd0ea6071e7fa19b6c5eb47ac3e85ce8ff7dae3b62c920b3d6cadea980"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 7,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "세 영역·세 무방향선과 작은 목적과 맥락 입구/큰 개념·비교 및 계획의 구도는 유효하다. 그러나6에서 같은 계획의 제목을 입문자와 하는 첫 위키 활동으로 갱신한 직후7의 현재 계획은 처음 제목 다음 스터디의 첫 시도로 돌아가며 지원절에도 시점 전환 표지가 없다. 현재 문서 상태를 혼동하게 하므로 제목 또는 처음 상태임을 명확히 편집하고 관련 alt·해설·대본의 시점을 맞춰야 한다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-07.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-07-1440.png",
+          "sha256": "913d00768d2d75ecf9e46e8bbf4b5017bca74a5901ecee9f8ed4b228e7ba9cf3"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-06.png",
+          "sha256": "c0dfe89eeed3f1fef613ac762dbe75f8198e01eb10e6dbdae095f51bb7976d09"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+      "owner": "차기 제작 visual/source 담당",
+      "nextAction": "현재 계획 제목을6의 갱신 상태와 맞추거나 처음 관계의 시점을 가시적으로 정하고 세 영역/세 무방향선 보존·alt/지원절/대본 대응·5→6→7→8 연속과 네 모드를 재관측한다."
+    },
+    {
+      "slide": 8,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "조건과 첫 선택을 구별하고, 현재 지원절에서 입문자·준비된 팩·15분이라는 가상 조건과 시간만으로 읽기를 자동 도출하지 않는 목적을 읽었다. 실제 성과나 보편 선택으로 확대하지 않는다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-08.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-08-1440.png",
+          "sha256": "7f8b2533041316232ef8078aa484da8b2f94ced5e5c2ab2eb229fcf64d27addf"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 9,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "자료를 고르기 전에 결과와 관련된 자료인지 묻는 질문의 앞뒤 의미가 함께 읽힌다. 질문 역할에 불필요한 자료나 항목을 추가할 이유가 없다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-09.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 10,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "목적·판단의 직접 작성 책임이 강조되고 감정·생각·판단·선택 이유를 직접 남긴다는 본문이 이어져 책임의 범위를 구체화한다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-10.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 11,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "두 열의 실제 표에서 원자료 구절·내가 직접 쓸 기록·AI 요약과 해석을 예와 대응해 읽을 수 있다. 내가 직접 적기 placeholder와 발표팀 구성 지위가 직접 기록을 대신 꾸며 쓰지 않는다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-11.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 12,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "공부·프로젝트·글과 발표의 동등한 활용처가 세로 그룹과 각 설명으로 대응한다. 동등한 범주라는 이유만으로 구도를 바꾸거나 항목 수를 줄이지 않는다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-12.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 13,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "완전한 활동안 제목·15분 진행안 절·세 필드와6~11분 한 행이 하나의 편집된 자료다. 현재 지원절에서 정확 활동·남길 근거 위치·15분 계획 배분과 미확인 효과를 읽고 활동의 따라 읽기 순서를7의 무방향 관계와 구별했다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-13.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-13-1440.png",
+          "sha256": "eb99288e9ee633386984638ffb73fc197e2f5d0a40c29ea9e2704a14d44b5173"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 14,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "선택 이유3·지속/갱신5/6·사람 책임10/11·한 활동행13 뒤에서 설명과 근거/내 경험과 판단/다음 질문이라는 구체 대상을 읽기·고치기·다시 쓰기로 요약한다. 다음15가 원자료 확인으로 전환하므로 현재 전체 흐름의 recap은 유효하며 새 사례를 수량 때문에 강제하지 않는다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-14.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 15,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "장 자체의 자료 정체성·선택 위치와 native 필수조건 질문·정확 목적4행은 유효하고 자작 가상 예 지위도 구별된다. 그러나 연결된 필수 지원해설 선택의 근거 확인의 실제 화면에서 질문 양끝의 literal **가 노출된다. 의미가 존재한다는 이유로 작성/렌더 결함을 해제할 수 없으므로 지원 문장/강조를 고치고 두 폭 실제 렌더를 다시 확인해야 한다. 같은 절의 native/prefix/caption 구현 설명도 원문·선택 위치·작성 지위에 관한 독자 말로 정리한다. 긴 자료 이미지 뒤로 이어지는 인용의 원문 순서·전문·지원 경로는 유지돼 세로거리 자체의 별도 반려는 두지 않는다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-15.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-15-1440.png",
+          "sha256": "cd02f67fc2c816ee317db5fc197c4c389c5e3e033d13d648bd59d090c0f984ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+      "owner": "차기 제작 공개해설 담당",
+      "nextAction": "지원 선택의 근거 확인 절의 literal **를 실제 지원 문법으로 고치고 구현어휘를 독자 말로 정리하되 정확 목적·필수조건·자작예 지위를 보존해 두 폭 실제 절을 재확인한다."
+    },
+    {
+      "slide": 16,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "반복해서 묻는 주제와 한 번 확인할 질문을 다른 두 그룹으로 읽어 연결 문서/간단한 노트와 검색의 시작점을 구별한다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-16.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 17,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "목적과 직접 고른 두 자료를 함께 읽어 달라는 첫 요청이 인용으로 읽히고 핵심 행동 행이 완결된다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-17.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 18,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "근거·바꾼 파일·모르는 점이 동등한 결과 확인 항목이며 각 질문과 설명의 소속이 분명하다. 앞17 요청을 확인하는 역할을 수용한다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-18.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 19,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "다음 질문에 쓸 두 자료부터 시작한다는 한 행동으로 마감한다. 실제 의미행과 여백을 확인했다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-19.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 20,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "어떤 질문을 다시 묻고 싶은지가 주역이고 해설·복사할 요청·예제 팩 전문은 별도 보조 탐색으로 구별된다. 이는 현재1440×1000/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-1440/slide-20.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+          "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    }
+  ],
+  "recordAuthor": "/root (mechanical integration of unchanged independent verdicts)",
+  "reviewSource": {
+    "path": "research/devday-fidelity-20261116/review/main-02/read-1440.reviews.json",
+    "sha256": "3150e21ffd156f019fb2576080cf45d5540642ba7588f0275832880e84691639"
+  }
+}

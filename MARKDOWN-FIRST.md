@@ -4,6 +4,8 @@
 
 원고를 쓰거나 바꾸기 전에 [DESIGN.md](DESIGN.md)를 읽고 변경 범위와 보존할 자료를 정합니다. 최신 사용자 지시를 우선하며, 이 안내는 입력 문법을 맡습니다. 작업 후에는 [현재 판 검수](DESIGN.md#변경과-현재-판-검수)에 따라 실제 화면·판정 이유를 남기고 [검수 기록 안내](DESIGN-REVIEW.md)로 입력과 근거의 최신성을 확인합니다. 생성 성공은 시각 승인과 구별합니다.
 
+착수할 때 [역할에서 시안으로 연결하기](DESIGN.md#역할에서-시안으로-연결하기)의 짧은 brief로 주역·정확한 구절/관계·보존 자료·참고할 원리·지원 경로·다음 시각 검토자를 정합니다. 아래 [작은 레시피](#역할을-유지하는-작은-레시피)는 사진이나 외부 예제 없이도 시작할 수 있습니다.
+
 ## 시작하기
 
 Node.js 20 이상에서 저장소 루트에서 실행합니다.
@@ -101,17 +103,95 @@ variant: centered
 문서와 연결을 갱신합니다.
 ```
 
+반복되는 eyebrow·footer를 덜 때 `stage-slide`에 `quiet: true`를 명시할 수 있습니다. 이는 반복 라벨을 숨기고 본문 상하 공간을 넓히며, 필수 본문·자료·읽기 내용을 삭제하거나 숨기지 않습니다. `false`는 명시적으로 다시 표시하며 미지정하면 message·quote·closing은 quiet, 다른 구도는 일반 표시라는 기존 기본값을 따릅니다. 문자열 `"true"`나 숫자는 오류입니다. 바뀐 본문 영역은 실제 Range와 화면으로 다시 확인합니다.
+
+작은 읽기 화면에서 자료 전체가 축소될 때는 그 자료 옆에서 정확한 native 절로 바로 갈 수 있게 `support`를 명시합니다. 다음은 실제 공개 학습 자료의 제목 앵커를 사용하는 예입니다.
+
+```md
+<!-- stage-slide
+compose: media
+support:
+  label: 이 자료의 본문을 글로 읽기
+  href: ./materials/notes.md#핵심-내용
+-->
+![설명용 자료의 읽을 부분](./assets/example.svg)
+```
+
+`support`는 한 줄 문자열 `label`과 `href`만 받습니다. href는 프로젝트에 등록된 `materials/*.md`의 상대 경로와 실재하는 `#anchor`여야 합니다. 다른 덱에 등록된 공개 자료도 연결할 수 있습니다. 외부 URL·query·슬라이드·일반 첨부·임의 비공개 Markdown·없는 앵커는 오류이며 마지막 성공 생성물을 보존합니다. 빌드는 공개 자료의 `.html#anchor`로 변환하고, 제어 주석의 원래 위치를 자동으로 연결합니다. 원고에 `origin`을 쓰지 않습니다.
+
+이 링크는 읽기 모드에서 해당 자료 가까이에 18CSSpx 탐색 역할로 표시됩니다. 인용 우선 `quote-card`에서는 인용 다음에, `unframed` 결과 모음에서는 첫 이미지 앞에 놓입니다. 발표의 필수 구절·관계·조건을 공개 자료로 옮겼다면 정확한 절에 실제 본문을 둡니다. 축소 자료는 장에서 해당 공개 절로 직접 연결합니다. 실제 읽기 크기의 링크 글리프·가시성과 키보드·클릭으로 정확한 목적지에 도달하는지 확인합니다.
+
 현재 공용 시작값은 document 본문·표/quote·media 필수 문단32, document 직접 인용/질문40, centered 동등그룹 설명34논리px입니다. 별도 탐색 행은22–24논리px이고 코드·다른 구도는 자체 역할을 유지합니다. 필수 요청을 작은 코드 형식으로 고집할 필요는 없으며 native 문단/목록과 전문 접근 경로를 함께 쓸 수 있습니다. 숫자 선언만으로 통과하지 않으며 실제 glyph 줄·표시 크기·그룹 소속은 [현재 판 검수](DESIGN.md#변경과-현재-판-검수)에서 확인합니다.
 
 ## 실제 관측의 프로젝트 회귀
 
-LLM Wiki의 알려진 꼬리행·의도 개행·필수 크기·공통 소속·도식 역할은 [프로젝트 계약](research/llm-wiki-typography-20261102/engineering/fixtures/llm-wiki-roles.json)에 연결됩니다. 원고·SVG·CSS/runtime을 변경한 마감에는 현재 입력으로 수집한 Range 행/크기/기하 manifest와 SVG contain 관측을 넣어 실행합니다.
+LLM Wiki 키노트의 현재 계약은 [장·본문·SVG 역할](talks/llm-wiki/qa/keynote-current.json)과 [원래 26주제의 실제 위치](talks/llm-wiki/qa/keynote-coverage.json)입니다. 현재 본편은 11장이며 원래 26주제는 현재 역할과 공개 해설·대본의 위치로 연결합니다. 발표면에서 옮긴 정의·전체 관계·파일·약속·요청은 [공개 해설](talks/llm-wiki/materials/keynote-notes.md)과 [현재 대본](talks/llm-wiki/materials/speaker-script.md)의 실제 앵커·구절로 검증합니다. 편집 시 `--mode source`로 정적 위치·링크·원본 보존을 먼저 검사할 수 있으며 이는 실관측 검사가 아닙니다.
 
 ```sh
-npm run qa:llm-wiki-typography -- --mode current --manifest PATH_TO_CURRENT_MANIFEST --source talks/llm-wiki/slides.md --svg-metrics PATH_TO_CURRENT_SVG_METRICS
+node scripts/llm-wiki-keynote-qa.cjs --mode source --source talks/llm-wiki/slides.md
 ```
 
-current는 현재 렌더 입력과 AGENTS/DESIGN의 실제 해시를 대조합니다. 오래된 입력·대상 누락/중복·필수 관측 누락은 `contract-invalid`이며, 확인된 회귀는 `regression`입니다. source 해시만 맞추거나 링크/문구 존재만 확인하여 통과시키지 않습니다. 교정 전 실패를 다시 실행할 때만 `--mode baseline`과 동결된 당시 원고/manifest/SVG 관측을 사용합니다. 역사 baseline의 실패 재현으로 현재 판 검사를 대체하지 않습니다. 이 명령은 일반 한국어 판정기나 브라우저 캡처 도구가 아니며 시각 승인을 생성하지 않습니다. 실제 화면의 위계·호흡·관계와 정본지침 적합성은 별도 검수합니다.
+마감에는 실제 현재 입력으로 발표1920×1080·1280×720, 읽기1440×1000·390×844/DPR1을 각각 수집해 **네 범위를 별도로** 실행합니다. 각 metrics는 자기 manifest의 정확한 경로·SHA·viewport·전체 입력 해시와 일치해야 합니다.
+
+```sh
+npm run qa:llm-wiki-keynote -- --mode current --source talks/llm-wiki/slides.md --manifest PATH_TO_PRESENT_1920_MANIFEST --svg-metrics PATH_TO_MATCHING_1920_SVG_METRICS
+npm run qa:llm-wiki-keynote -- --mode current --source talks/llm-wiki/slides.md --manifest PATH_TO_PRESENT_1280_MANIFEST --svg-metrics PATH_TO_MATCHING_1280_SVG_METRICS
+npm run qa:llm-wiki-keynote -- --mode current --source talks/llm-wiki/slides.md --manifest PATH_TO_READ_1440_MANIFEST --reading-metrics PATH_TO_MATCHING_1440_READING_METRICS
+npm run qa:llm-wiki-keynote -- --mode current --source talks/llm-wiki/slides.md --manifest PATH_TO_READ_390_MANIFEST --reading-metrics PATH_TO_MATCHING_390_READING_METRICS
+```
+
+현재 source/style/runtime/asset/공개자료와 AGENTS·DESIGN·두 계약 JSON의 실제 해시를 대조합니다. 실제 Range glyph 행·크기·의도 개행·강조 순서·DOM 소속을 확인합니다. Markdown은 실제 원고 줄, 명시 결과 레이아웃은 실제 `data-field`로 대조합니다. 자료의 원비율과 프레임, SVG contain과 이름 붙인 실제 형상, 인용과 기사 자리, 관계 포트와 무방향 선을 관측합니다. H1 태그만으로 같은 크기를 강제하지 않고 그림 보조 제목·인용 도입·주역 제목의 명시 역할을 구분합니다. 읽기에서는 모든 현재 장의 native CSS px 관측과 실제 링크·global 학습 자료 탐색, **자료별 `support`의 sourceLine·실제label/href·18px/glyph·가시성·정확 절 접근**, 공개 해설 DOM 본문·앵커·구절·가로 넘침을 확인합니다. [수집 인터페이스](talks/llm-wiki/qa/keynote-observation.md)를 따르며 발표면에 매 장 탐색 문단을 덧붙일 의무는 없습니다.
+
+현재 입력 불일치·대상 누락/중복·필수 실제 관측 누락은 `contract-invalid`(exit2), 확인된 크기·기하·호흡 회귀는 `regression`(exit1)입니다. 통과는 exit0이며 항상 `visualApproval: false`입니다. 해시와 정적 문구만 맞추어 실관측 누락을 통과시키지 않습니다. 정돈감·주역·밀도·흐름은 실제 화면의 독립 시각 검수와 명시 범위의 `--require-approved`로 별도 확인합니다.
+
+역사 검사는 바꾸지 않습니다. 아래 명령은 [11월2일 동결 역할](research/llm-wiki-typography-20261102/engineering/fixtures/llm-wiki-roles.json)의 교정 전 실패를 재현하며 새 현재판 검사가 아닙니다.
+
+```sh
+node scripts/llm-wiki-typography-qa.cjs --mode baseline --source research/llm-wiki-typography-20261102/engineering/fixtures/slides-before.md --manifest research/llm-wiki-typography-20261102/before/present-1280/manifest.json --svg-metrics research/llm-wiki-typography-20261102/before/present-1280/svg-metrics.json
+```
+
+이전 26장용 `current-roles.json`과 typography/reading CLI의 119항·11항 결과, 45개 역사 회귀와 사용자 반려는 보존합니다. 이들 고정 fixture를 신현재 검사라고 부르거나 과거 기술 통과를 키노트의 시각 승인으로 승계하지 않습니다.
+
+## 역할을 유지하는 작은 레시피
+
+먼저 역할에 맞는 문법을 고릅니다. 읽을 구절과 실제 자료 링크는 일반 문단·인용·표로, 서로 다른 의미 그룹은 H2로, 한 그룹 안의 질문은 H3로 작성할 수 있습니다. 다음 예는 두 판단을 한 그룹에 두고 이후 실행을 분리합니다. 단순히 세 그룹 중 하나에 `primary`를 붙이는 것과 원고/DOM 소속이 다릅니다.
+
+```md
+<!-- stage-slide
+compose: editorial
+variant: centered
+tone: neutral
+-->
+# 다시 쓸 자료부터 고릅니다
+
+두 판단을 한 뒤 작게 시작합니다.
+
+## 먼저 판단합니다
+
+### 내 목적에 필요한가
+
+앞으로 만들 결과와\
+**관련된 자료인가**
+
+### 왜 골랐는가
+
+가치 있다고 느낀 이유를\
+**직접 적을 수 있는가**
+
+<!-- stage-group
+tone: green
+-->
+## 판단했다면, 작게 시작하기
+
+같은 주제의\
+**자료 두 개부터 연결합니다.**
+```
+
+H2 앞의 안내는 두 그룹에 공통인 body 직속 행입니다. H2 뒤 문장은 다음 H2 직전까지 해당 그룹에 속하므로, 마지막 H2 뒤에 공통 문장을 놓아 전폭 후행 행으로 만드는 문법은 없습니다. H3와 본문이 실제 화면에서 질문/설명으로 읽히는지, 두 그룹의 시작선과 의도 개행이 유지되는지 직접 확인합니다. 읽기 화면은 원래 문서 순서를 유지합니다.
+
+별도 SVG는 표준 이미지 `![관계 설명](./assets/relation.svg)`로 넣고, 사진과 달리 `fit: contain`으로 전체 관계를 보존할 수 있습니다. 부모의 `compose`·색·CSS를 바꿔도 외부 SVG 내부 글자와 선의 배치는 바뀌지 않습니다. 내부를 고칠 때는 그 자산을 편집하거나 필요한 구절을 native 본문으로 옮깁니다. 실제 UI 캡처와 설명용 재구성의 지위, 원본·전문 링크를 함께 보존합니다. 코드로 적은 가상 파일 이름은 실제 링크가 아닙니다. 링크는 실재 자료를 가리키는 `[설명](./materials/guide.md)`로 작성합니다.
+
+문법 선택은 시각 합격을 보장하지 않습니다. 현재안과 달라진 크기·거리·자료 표면, 먼저 읽힌 대상과 줄어든 오독을 [DESIGN의 선택 문장](DESIGN.md#역할에서-시안으로-연결하기)으로 인수합니다.
 
 ## 사진·그리드·의미색과 기본 조판
 
@@ -136,6 +216,69 @@ tone: purple
 ```
 
 `compose`는 `auto`(기본), `message`, `split`, `media`, `gallery`, `mosaic`, `editorial`, `bento`, `icon-wall`, `quote`, `closing`, `document`를 지원합니다. 명시한 `compose: quote`는 단일 인용 앞뒤의 짧은 문단을 원순서로 유지하며, 맞지 않는 본문은 document로 보존하고 자동 조판의 선택 기준은 유지합니다. mosaic은 첫 사진을 크게, editorial은 H2별 자료를 주역/보조 그룹으로 표현합니다. closing은 저자가 끝 장의 표현을 선택할 때 사용합니다. split은 이미지가 먼저 오고 뒤에 문단/목록이 이어지는 형태만 묶습니다. 앞 설명→이미지→뒤 설명, 문장과 섞인 이미지, 링크로 감싼 이미지를 무단 추출/재정렬하지 않습니다.
+
+### 자료와 선택 구절
+
+두 행의 큰 선언에서 굵기를 늘리지 않고 강조색을 쓰려면 명시한 `compose: message`에 `variant: declaration`을 추가합니다. 발표면의 H1과 strong 획 무게를 맞추며, 일반 message·auto·읽기와 원문 의미 강조는 바꾸지 않습니다. 다른 compose에서 이 variant를 쓰면 document와 경고로 원문을 보존합니다. 의도 개행은 여러 줄 setext 제목으로 쓸 수 있습니다.
+
+```md
+<!-- stage-slide
+compose: message
+variant: declaration
+tone: orange
+-->
+함께 일하는 방식이\
+**오늘부터 달라집니다**
+====================
+```
+
+어두운 자료면 옆에 밝은 native 인용 카드를 놓으려면 명시한 `compose: split`에 `variant: quote-card`를 씁니다. 발표면에서 인용을 반전색 카드로 묶고 어두운 자료의 가장자리에 얕게 겹쳐 배치합니다. 이미지 뒤에 단일 인용과 짧은 문단을 놓거나, 인용과 이미지만 순서대로 쓸 수 있습니다. 인용을 먼저 쓰면 읽기 화면에서 인용, 인접 지원 링크, 그림 순으로 표시합니다. `tone`은 작은 인용부호의 색을 고릅니다. 인용과 의도 개행은 원래 Markdown으로 편집하며, 읽기에서는 카드 없이 원순서로 표시합니다. 짧게 고른 구절과 넉넉한 내부 여백이 맞는지 실제 화면에서 확인합니다.
+
+```md
+<!-- stage-slide
+compose: split
+variant: quote-card
+tone: blue
+-->
+![자료의 어두운 기사면](./assets/article.svg)
+
+> 짧게 고른 구절을\
+> 원래 순서로 읽습니다.
+```
+
+강조 구절이 있는 큰 인용에는 명시 `compose: quote`와 `variant: spacious`를 사용할 수 있습니다. 발표면에서 자간을 넓히고 strong 문구를 본문과 같은 획 무게로 표시합니다.
+
+동등한 두 그림을 원본 비율로 비교하려면 `compose: gallery`와 `variant: comparison`을 씁니다. 각각 독립된 이미지 문단 두 개만 받으며, 이미지 title은 하단의 native 비교 라벨이 됩니다. 발표면은 중앙의 제한 폭과 넓은 창 사이 여백,26논리px 라벨로 시작합니다. 넓은 읽기 화면에서도 두 그림을 같은 너비로 놓으며 좁은 화면에서는 한 열을 사용합니다. 세 번째 이미지·앞뒤 설명·혼합 문단은 document와 경고로 보존합니다. 일반 gallery·strip·auto는 바꾸지 않습니다. 비교 라벨은 순수 출처와 구별하는 `figure-label` 역할이며 읽기에서18CSSpx로 표시하고 원문 순서와 sourceLine을 보존합니다.
+
+```md
+<!-- stage-slide
+compose: gallery
+variant: comparison
+-->
+![첫 작업의 그림](./assets/first.svg "이번 답")
+
+![두번째 작업의 그림](./assets/second.svg "다시 쓸 지식")
+```
+
+자료의 정체성과 선택한 정확 구절을 나란히 읽으려면 명시한 `compose: split`에 `variant: evidence`를 씁니다. 이미지 한 개가 먼저 오고, 그 뒤에는 단일 인용과 짧은 일반 문단만 둘 수 있습니다. 인용은 문단으로 구성된 220자 이하, 주변 문단은 합계200자 이하, 뒤 본문 전체는380자 이하입니다. 발표면에서는 인용54논리px·주변 문단32논리px로 시작하며 실제 폭과 행을 확인합니다. 일반 split·auto의 선택 조건과 읽기 크기는 바꾸지 않고 원문 순서·의도 개행·링크·출처 위치를 보존합니다. 맞지 않는 구조는 내용을 모두 남긴 document와 경고로 표시합니다.
+
+```md
+<!-- stage-slide
+compose: split
+variant: evidence
+fit: contain
+-->
+![자료의 제목과 선택 위치](./assets/source-selection.svg)
+
+이 질문의 근거를 확인합니다.
+
+> 자료에서 고른 정확한 구절을\
+> 원래 순서로 읽습니다.
+
+설명용 재구성 · 정확 발췌
+```
+
+하나의 기록면에 두 기여를 붙이려면 `compose: editorial`과 `variant: record`를 사용합니다. 같은 문서의 한 필드에서 달라진 두 행은 `variant: revision`으로 구성할 수 있습니다. 제목 1개와 H2·짧은 문단의 묶음 2개를 작성합니다. 읽기 모드는 각 H2 가까이에 해당 문단을 놓습니다.
 
 짧은 개념을 나란히 크게 설명하려면 `compose: editorial`에 `variant: centered`를 추가합니다. H2 그룹을 무대 중앙 높이에 놓고 상단 구분선 없이 제목·본문을 크게 보여 줍니다. 일반 editorial은 그대로 유지하며, 읽기 화면에서는 같은 내용이 원래 순서의 문서로 표시됩니다. 이 변형은 editorial에서만 사용합니다.
 
@@ -234,7 +377,7 @@ builtin/custom을 섞는 null 배열 문법은 지원하지 않습니다. 링크
 
 새 실제 예제 [사진 에세이8장](talks/photo-essay/slides.md)와 [작은 전시9장](talks/community-exhibit/slides.md)을 참고하세요. 읽기 화면에서는 모든 프레임/grid를 풀고 원본 사진, H2, 목록, 라벨, 링크, caption과 조건을 원순서 전문으로 보여 줍니다. preview/presenter는 같은 구도와 내용을 쓰며 링크는 비상호작용입니다. 실제 배치/대비/가독성 합격은 입력 검증과 별도입니다.
 
-설정 이름/위치/범위가 잘못되면 원고 줄번호와 오류를 알리고 마지막 성공본을 유지합니다. 문법은 유효하지만 선택한 구도에 맞지 않는 원고는 내용을 모두 남긴 document로 표시하고 **작성자 점검**에 경고합니다. fallback으로 생성됐다는 사실이 발표 가독성 검수 통과를 뜻하지는 않습니다. 긴 본문은 실제 화면을 보고 원고에서 나눠 주세요. `stage-slide/group`은 기존 legacy `stage` layout/JSON과 같은 장에서 섞지 않습니다. 코드 안의 예문은 지시문으로 실행하지 않습니다.
+설정 이름/위치/범위가 잘못되면 원고 줄번호와 오류를 알리고 마지막 성공본을 유지합니다. 문법은 유효하지만 선택한 구도에 맞지 않는 원고는 내용을 모두 남긴 document로 표시하고 **작성자 점검**에 경고합니다. fallback으로 생성됐다는 사실이 발표 가독성 검수 통과를 뜻하지는 않습니다. 긴 본문은 실제 화면을 보고 원고에서 나눠 주세요. 명시 `stage` layout/JSON 앞에 `support`만 둔 `stage-slide` 주석을 써서 읽기 링크를 추가할 수 있습니다. `stage-group`과 그 밖의 장별 조판 설정은 Markdown 본문 조판에서 사용합니다. 코드 안의 예문은 지시문으로 실행하지 않습니다.
 
 원고가 넘치면 미리보기에서 진단하고 직접 장을 나눕니다. 내용을 자동 요약·삭제하지 않습니다. 읽기 화면에서는 코드·표와 긴 내용을 스크롤해 확인할 수 있습니다. HTML 원문은 실행하지 않으며 일반 문자로 표시될 수 있습니다.
 

@@ -1,0 +1,364 @@
+{
+  "format": "devday-round02-four-role-static-source-proof-v1",
+  "checkedAt": "2026-11-16T06:44:27.840Z",
+  "status": "pass",
+  "checks": 16,
+  "failed": 0,
+  "visualApproval": false,
+  "scope": "Static exact excerpts, source/example status, relation identities, supported input shapes, public paths, and original preservation only. No build, browser, displayed size, geometry, aesthetic or reading approval.",
+  "roles": [
+    {
+      "index": 1,
+      "mainSlide": "05",
+      "role": "같은 질문의 비교",
+      "compose": "media",
+      "asset": "same-question-comparison.svg",
+      "anchor": "검색과-지속-문서",
+      "label": "같은 질문의 두 예와 비교 범위를 글로 읽기",
+      "sections": [
+        "wiki/comparisons/rag-vs-wiki.md — 처음",
+        "wiki/syntheses/study-plan.md — 처음"
+      ]
+    },
+    {
+      "index": 2,
+      "mainSlide": "07",
+      "role": "기존 문서의 세 무방향 관계",
+      "compose": "media",
+      "asset": "connected-documents.svg",
+      "anchor": "세-무방향-관계",
+      "label": "세 무방향 관계와 실제 문서 구절을 글로 읽기",
+      "sections": [
+        "wiki/sources/context-note.md",
+        "wiki/concepts/llm-wiki.md — 처음",
+        "wiki/comparisons/rag-vs-wiki.md — 처음",
+        "wiki/syntheses/study-plan.md — 처음"
+      ]
+    },
+    {
+      "index": 3,
+      "mainSlide": "13",
+      "role": "설명용 활동안의 한 행",
+      "compose": "media",
+      "asset": "session-plan-row.svg",
+      "anchor": "활동안과-미확인-범위",
+      "label": "활동안의 정확한 한 행과 전문을 글로 읽기",
+      "sections": [
+        "wiki/outputs/study-session-plan.md"
+      ]
+    },
+    {
+      "index": 4,
+      "mainSlide": "15",
+      "role": "조건 메모의 정체성과 선택한 목적 구절",
+      "compose": "split",
+      "variant": "evidence",
+      "asset": "condition-note-selection.svg",
+      "anchor": "선택의-근거-확인",
+      "label": "확인 질문과 조건 메모의 정확한 구절을 글로 읽기",
+      "sections": [
+        "raw/study-retro.md — 나중에 추가"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "project-input-and-four-roles",
+      "status": "pass",
+      "detail": {
+        "sourceDir": "research/devday-fidelity-20261116/prototypes/talks",
+        "outputDir": "research/devday-fidelity-20261116/prototypes/site",
+        "selectedSource": "research/devday-fidelity-20261116/prototypes/talks/round-02/slides.md",
+        "selectedId": "round-02",
+        "mainSlideOrder": [
+          "05",
+          "07",
+          "13",
+          "15"
+        ],
+        "otherDecks": "Allowed; this check explicitly selects round-02 and does not fix the project-wide deck count."
+      }
+    },
+    {
+      "id": "original-source-and-whole-public-pack",
+      "status": "pass",
+      "detail": {
+        "source": "talks/llm-wiki/assets/expanded-study.txt",
+        "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+        "byteIdenticalPublicCopy": "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/study-pack.txt"
+      }
+    },
+    {
+      "id": "role-05-exact-source-and-public-section",
+      "status": "pass",
+      "detail": {
+        "role": "같은 질문의 비교",
+        "logicalSections": [
+          {
+            "name": "wiki/comparisons/rag-vs-wiki.md — 처음",
+            "startLine": 221
+          },
+          {
+            "name": "wiki/syntheses/study-plan.md — 처음",
+            "startLine": 240
+          }
+        ],
+        "exactExcerptCount": 4,
+        "publicAnchor": "검색과-지속-문서",
+        "exampleStatus": "presentation-team-authored explanatory example; not an independent .md file, model run, or operational result"
+      }
+    },
+    {
+      "id": "role-05-current-input-and-support",
+      "status": "pass",
+      "detail": {
+        "prototypeSlide": 1,
+        "mainSlide": "05",
+        "composition": "media",
+        "variant": "",
+        "support": {
+          "label": "같은 질문의 두 예와 비교 범위를 글로 읽기",
+          "href": "./materials/notes.md#검색과-지속-문서",
+          "sourceLine": 6
+        },
+        "asset": "same-question-comparison.svg"
+      }
+    },
+    {
+      "id": "role-07-exact-source-and-public-section",
+      "status": "pass",
+      "detail": {
+        "role": "기존 문서의 세 무방향 관계",
+        "logicalSections": [
+          {
+            "name": "wiki/sources/context-note.md",
+            "startLine": 166
+          },
+          {
+            "name": "wiki/concepts/llm-wiki.md — 처음",
+            "startLine": 196
+          },
+          {
+            "name": "wiki/comparisons/rag-vs-wiki.md — 처음",
+            "startLine": 221
+          },
+          {
+            "name": "wiki/syntheses/study-plan.md — 처음",
+            "startLine": 240
+          }
+        ],
+        "exactExcerptCount": 3,
+        "publicAnchor": "세-무방향-관계",
+        "exampleStatus": "presentation-team-authored explanatory example; not an independent .md file, model run, or operational result"
+      }
+    },
+    {
+      "id": "role-07-current-input-and-support",
+      "status": "pass",
+      "detail": {
+        "prototypeSlide": 2,
+        "mainSlide": "07",
+        "composition": "media",
+        "variant": "",
+        "support": {
+          "label": "세 무방향 관계와 실제 문서 구절을 글로 읽기",
+          "href": "./materials/notes.md#세-무방향-관계",
+          "sourceLine": 23
+        },
+        "asset": "connected-documents.svg"
+      }
+    },
+    {
+      "id": "role-13-exact-source-and-public-section",
+      "status": "pass",
+      "detail": {
+        "role": "설명용 활동안의 한 행",
+        "logicalSections": [
+          {
+            "name": "wiki/outputs/study-session-plan.md",
+            "startLine": 391
+          }
+        ],
+        "exactExcerptCount": 6,
+        "publicAnchor": "활동안과-미확인-범위",
+        "exampleStatus": "presentation-team-authored explanatory example; not an independent .md file, model run, or operational result"
+      }
+    },
+    {
+      "id": "role-13-current-input-and-support",
+      "status": "pass",
+      "detail": {
+        "prototypeSlide": 3,
+        "mainSlide": "13",
+        "composition": "media",
+        "variant": "",
+        "support": {
+          "label": "활동안의 정확한 한 행과 전문을 글로 읽기",
+          "href": "./materials/notes.md#활동안과-미확인-범위",
+          "sourceLine": 39
+        },
+        "asset": "session-plan-row.svg"
+      }
+    },
+    {
+      "id": "role-15-exact-source-and-public-section",
+      "status": "pass",
+      "detail": {
+        "role": "조건 메모의 정체성과 선택한 목적 구절",
+        "logicalSections": [
+          {
+            "name": "raw/study-retro.md — 나중에 추가",
+            "startLine": 270
+          }
+        ],
+        "exactExcerptCount": 6,
+        "publicAnchor": "선택의-근거-확인",
+        "exampleStatus": "presentation-team-authored explanatory example; not an independent .md file, model run, or operational result"
+      }
+    },
+    {
+      "id": "role-15-current-input-and-support",
+      "status": "pass",
+      "detail": {
+        "prototypeSlide": 4,
+        "mainSlide": "15",
+        "composition": "split",
+        "variant": "evidence",
+        "support": {
+          "label": "확인 질문과 조건 메모의 정확한 구절을 글로 읽기",
+          "href": "./materials/notes.md#선택의-근거-확인",
+          "sourceLine": 54
+        },
+        "asset": "condition-note-selection.svg"
+      }
+    },
+    {
+      "id": "comparison-concrete-objects-and-limits",
+      "status": "pass",
+      "detail": {
+        "nativeBodyScope": "Both examples may be combined",
+        "publicScope": "RAG can add stored summaries/answers/relations; the wiki can search; no accuracy/speed/cost ranking was measured.",
+        "excerptState": "initial plan before hypothetical conditions",
+        "actualFigureCaption": "pure example provenance only"
+      }
+    },
+    {
+      "id": "relationships-match-original-three-undirected-edges",
+      "status": "pass",
+      "detail": {
+        "originalEdges": [
+          {
+            "edge-id": "concept-plan",
+            "from": "concept-comparison",
+            "to": "current-plan"
+          },
+          {
+            "edge-id": "summary-concept",
+            "from": "source-summary",
+            "to": "concept-comparison"
+          },
+          {
+            "edge-id": "summary-plan",
+            "from": "source-summary",
+            "to": "current-plan"
+          }
+        ],
+        "currentEdges": [
+          {
+            "edge-id": "concept-plan",
+            "from": "concept-comparison",
+            "to": "current-plan"
+          },
+          {
+            "edge-id": "summary-concept",
+            "from": "source-summary",
+            "to": "concept-comparison"
+          },
+          {
+            "edge-id": "summary-plan",
+            "from": "source-summary",
+            "to": "current-plan"
+          }
+        ],
+        "direction": "undirected",
+        "geometryAndDisplayedScale": "not observed by this static check"
+      }
+    },
+    {
+      "id": "activity-identity-fields-and-one-exact-row",
+      "status": "pass"
+    },
+    {
+      "id": "condition-identity-purpose-question-and-native-ownership",
+      "status": "pass",
+      "detail": {
+        "nativeQuoteSourceLine": 69,
+        "authoredHardbreaks": 3,
+        "sourceQuestion": false,
+        "purposeExact": true,
+        "essentialConditions": "Native question/body, not a caption",
+        "actualFigureCaption": "Pure authored hypothetical status only",
+        "threeMemoContext": "Exact source and full context retained in public notes",
+        "fontAndActualGlyphRows": "root observation required"
+      }
+    },
+    {
+      "id": "all-static-public-links-and-anchors",
+      "status": "pass",
+      "detail": {
+        "localReferences": 20,
+        "registeredPublicMaterials": [
+          "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/notes.md",
+          "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/reading-pack.md"
+        ],
+        "staticOnly": true
+      }
+    },
+    {
+      "id": "original-deck-assets-materials-and-history-preserved",
+      "status": "pass",
+      "detail": {
+        "checkedOriginalFiles": 129,
+        "checkedRound01Inputs": 26,
+        "round01ProofReportBytePreserved": true,
+        "commonInputChanges": 0
+      }
+    }
+  ],
+  "inputHashes": {
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7",
+    "CONFIG.md": "619f4634fefae1903955c8e8fe84039f85e0e7a351808dca8b2c66b9d5b20733",
+    "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "MARKDOWN-FIRST.md": "49d0688ed3c3a89c11bfff8e88ed0d544eb2073a6bfa69a67d18d16bdc171142",
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "9df68a89884b181f57575d7b1a3cce78bcaf6561de39d081472963e715c911cf",
+    "blocks.js": "3be7ddac62ab3abf1d322d308d45c2fc80c6c0f31f04c5679350d5f763be70f9",
+    "deck-model.js": "48406917d2bfbbfc7feb57ca70453dbd0c76ee8d1e565fe7b8e24823ebcbbd0e",
+    "lib/markdown-document.cjs": "63098e2db053da7ff89f2ff36729faf809e36829a93d0cac822088a17e026e32",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+    "research/devday-fidelity-20261116/production/source-proof-round02.cjs": "6c7fe90001b09ee9461c93fe0ec65295cb18ae0fe641c87318e4a3686db8c474",
+    "research/devday-fidelity-20261116/prototypes/ou.config.json": "9337979294388993de3426e9a4349efb4c2b0b7858fe1c00ddeadf56abc8c528",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/condition-note-selection.svg": "9993d662f26dc7ca919992a1c6903bfe92ac25ef6e9258fe96d1bdda9c672253",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/connected-documents.svg": "a4c427e681b8a11b7b0dabe49d7e5a0f54b8281669caf09e5f6dedb0ba0fb984",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/same-question-comparison.svg": "435063bf0d2507c1f7ad3e6426d79c79192f47a26f2f1b327a98b8fbf9c19c42",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/session-plan-row.svg": "b6ab52487f39481d8e9ad93906d6bb23788e113c2600b327001468c956d7c85d",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/notes.md": "67b770d6476a6bb52c9ed4294119f4191e1160bb21bfc8bbc9545e451a400b7d",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/reading-pack.md": "68f526ee7ee00524b9059d90a66b26978b017cd58db030212d2c32de9fea2c78",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/study-pack.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/slides.md": "619000010e74a25f32fe8fa0e8df15d839cc26be1c63e219353acc5315e01912",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9"
+  },
+  "unverified": [
+    "1920/1280 stage and actual SVG contain scale",
+    "native computed font size and actual glyph rows",
+    "relation line/area geometry at displayed scale",
+    "public support click and reading layout",
+    "same-role original comparison and four-slide/context flow",
+    "independent visual verdict and user aesthetic acceptance"
+  ]
+}

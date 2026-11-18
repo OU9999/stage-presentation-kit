@@ -1,0 +1,1963 @@
+{
+  "format": "llm-wiki-keynote-current-v1",
+  "status": "current",
+  "source": "talks/llm-wiki/slides.md",
+  "coverage": "talks/llm-wiki/qa/keynote-coverage.json",
+  "notes": "talks/llm-wiki/materials/keynote-notes.md",
+  "materialIndex": "talks/llm-wiki/materials/index.md",
+  "publicMaterials": [
+    "talks/llm-wiki/materials/demo-log.md",
+    "talks/llm-wiki/materials/diagram-reading.md",
+    "talks/llm-wiki/materials/index.md",
+    "talks/llm-wiki/materials/keynote-notes.md",
+    "talks/llm-wiki/materials/reference-library.md",
+    "talks/llm-wiki/materials/session-plan.md",
+    "talks/llm-wiki/materials/speaker-script.md",
+    "talks/llm-wiki/materials/study-guide.md",
+    "talks/llm-wiki/materials/visual-appendix.md",
+    "talks/llm-wiki/materials/workshop.md"
+  ],
+  "presentationViewports": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "devicePixelRatio": 1
+    }
+  ],
+  "readingViewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "devicePixelRatio": 1
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    }
+  ],
+  "preservation": {
+    "description": "Original71 assets + demo25/test + start design3 + frozen historical fixture/prototype files; authoritative pre-edit snapshots.",
+    "baselines": [
+      "research/llm-wiki-design-iteration-20261113/before/starting-state.json",
+      "research/llm-wiki-keynote-reset-20261113/before/starting-state.json",
+      "research/llm-wiki-keynote-reset-20261113/prototype-source-hashes.json"
+    ],
+    "files": {
+      "talks/llm-wiki/assets/CREDITS.md": "bf3de73abf5b09a8ff1d21a6e1f19ec1314afbec8b41bdd9092c4902fd3afb52",
+      "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+      "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+      "talks/llm-wiki/assets/case-course-initial.svg": "2dc76bc9840090a7668879a8ce86587cd0256c1c32e5d8736be084e6aecc8910",
+      "talks/llm-wiki/assets/case-course.svg": "92826f25bf473f1cde492fa4adeca37221ef319e504cd1423bf56dd39511974c",
+      "talks/llm-wiki/assets/case-reading-initial.svg": "217a8eb04b479e3deb28b85af77582e7e58affaace53f13c2ef862a2ad2bacbc",
+      "talks/llm-wiki/assets/case-reading.svg": "381686fba25b77da3d78ce015ba919505cb5fbb6a25a91522542ba3a43784979",
+      "talks/llm-wiki/assets/case-team.svg": "0719dc19d60319b011810062359dc0e3235398cf99dcff9753abf63410cfb19e",
+      "talks/llm-wiki/assets/change-trace.svg": "5efc5a198e7f6479ebced5f155635eeeefce5f409a8881ce28afcdd4b87b417f",
+      "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+      "talks/llm-wiki/assets/decision-example.txt": "58c5bbb5da45d15d04ad3393f83248d46c4be2f7cd3a6314afc334fba555d442",
+      "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+      "talks/llm-wiki/assets/examples/course.txt": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+      "talks/llm-wiki/assets/examples/reading.txt": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+      "talks/llm-wiki/assets/examples/team.txt": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+      "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+      "talks/llm-wiki/assets/expanded/agentic-routing.svg": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+      "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+      "talks/llm-wiki/assets/expanded/five-layers.svg": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+      "talks/llm-wiki/assets/expanded/ingest-map.svg": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+      "talks/llm-wiki/assets/expanded/knowledge-layers.svg": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+      "talks/llm-wiki/assets/expanded/purpose-questions.svg": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+      "talks/llm-wiki/assets/expanded/query-reading.svg": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+      "talks/llm-wiki/assets/expanded/rag-path.svg": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+      "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+      "talks/llm-wiki/assets/expanded/reflection-layers.svg": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+      "talks/llm-wiki/assets/expanded/related-updates.svg": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+      "talks/llm-wiki/assets/expanded/review-return.svg": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+      "talks/llm-wiki/assets/expanded/rules-graph.svg": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+      "talks/llm-wiki/assets/expanded/saved-question.svg": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+      "talks/llm-wiki/assets/expanded/session-plan.svg": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+      "talks/llm-wiki/assets/expanded/shared-workspace.svg": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+      "talks/llm-wiki/assets/expanded/source-concept.svg": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+      "talks/llm-wiki/assets/expanded/wiki-path.svg": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+      "talks/llm-wiki/assets/expanded/work-context.svg": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+      "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+      "talks/llm-wiki/assets/knowledge-map.svg": "07411af0788bfcd8c06ff8c2b0fc026a16659892762aefb568248ee6b40cd109",
+      "talks/llm-wiki/assets/photos/library.jpg": "b07f03559eed0fc0946ef6a1cafb9cc423beb70d9ba9b0b8383909ac8f19ce43",
+      "talks/llm-wiki/assets/photos/open-books.jpg": "5aa7ac752bffc72f7f3526b52ac26aa563951dd7e9767363b03d247f4e519903",
+      "talks/llm-wiki/assets/photos/study-table.jpg": "258a229c6dc857c44c2a93083f74eccebe4566b530f043228bc2d8aa1709e1a7",
+      "talks/llm-wiki/assets/photos/writing.jpg": "478e6580030c72daa71161597b460144f6f34e8a2266f7396fc47c301e12e9ac",
+      "talks/llm-wiki/assets/rebuild-study.txt": "a8ccde64c53553b7c9ccda9f19bad21e828ec98f537e36b51264446bdc6282b4",
+      "talks/llm-wiki/assets/rebuild/agentic-update.svg": "870f43db15d573e51f2a4eedc3fd669c48ca278822d45fe842abe4aa2c2ac9f9",
+      "talks/llm-wiki/assets/rebuild/compare-page.svg": "db1dd9a6b2837704cd329436f352e6f3ea379b5b8154c18fcb0a4206b0af62f9",
+      "talks/llm-wiki/assets/rebuild/concept-page.svg": "ef27a516e25131b876ee7a4e1de22e82261ba0ad80257eb9d49fc10e5408e154",
+      "talks/llm-wiki/assets/rebuild/ingest-links.svg": "fe7df7d233122845080be448dd4b98a406ce7295518ffac9a033c000140845d0",
+      "talks/llm-wiki/assets/rebuild/lint-review.svg": "def3a845f957966060683d7821bf9329e06925f51d815c6a4cc110aad6b4c5b6",
+      "talks/llm-wiki/assets/rebuild/query-context.svg": "98b97c631e4eb7de71cf3e9b04edbb10ee2577ad8218b5f1347dd68d3ae01bfe",
+      "talks/llm-wiki/assets/rebuild/question-saved.svg": "d5f298ff3a907e1b70fd8d15a643e0cc2a2505f47cf6685d7c71420ca63ec0ad",
+      "talks/llm-wiki/assets/rebuild/raw-wiki.svg": "d2659d83b8bbe32cc59dd55d4bd543d24dc9b7dc65c91fd5b7e53b51249c56ee",
+      "talks/llm-wiki/assets/remake/ingest-map.svg": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+      "talks/llm-wiki/assets/remake/session-plan.svg": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+      "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+      "talks/llm-wiki/assets/reuse-route.svg": "65eecce8e8af5bfc849d98a23ab76952be2ed66565986335e335e5e40c174af4",
+      "talks/llm-wiki/assets/sources.txt": "0827f3843e16b2db5ef056b6a8f0c5affc395bc4d492afd53f9da664cd5278ab",
+      "talks/llm-wiki/assets/starter-template.txt": "c122e725c09d362019e1918bc26a8284dd06a125a760a21b2a3f78de5785320e",
+      "talks/llm-wiki/assets/study-notebook-map.svg": "3eb3b028a3414f0d15525539e0aa544c90df48d6c4704d99751917ce50d4a16a",
+      "talks/llm-wiki/assets/typography/ingest-map.svg": "a3a65af7ab28b3eb7a0720d3ac9588b3a7c4dba0af3b6833a1ee89676454da8e",
+      "talks/llm-wiki/assets/typography/knowledge-layers.svg": "00cc9503c0ea5f60b60e902f45f12622da5d4696ac03d8b7296d6bf2953ab493",
+      "talks/llm-wiki/assets/typography/purpose-questions.svg": "22e3b2b1ec42fed0eeb887c9f1d7c5d8778279dc54b992897e8171b3eaf1fef0",
+      "talks/llm-wiki/assets/typography/rag-path.svg": "0aefea443a6e3de3f103c5cdbcf9d16fe025af213fd4266f213dfd28df4c5c63",
+      "talks/llm-wiki/assets/typography/raw-wiki-rules.svg": "971d2b2c25e3d9e6ae3cd17abe5c1d0aa21fc5a71e7eaa4a98c7abb60c1719ba",
+      "talks/llm-wiki/assets/typography/related-updates.svg": "e240f730668766cb72612e6d4a417127473bdd8e2d04b8a0086307e361bce67f",
+      "talks/llm-wiki/assets/typography/session-plan.svg": "a7afd1388934c61261926c78cdc0c70fb51bd62219d3b7b59f4c8ea92349a955",
+      "talks/llm-wiki/assets/typography/source-concept.svg": "cac31a82b5a0225f8bf3fb14fd713b29482bf2e84c7114a8131d3b6216195862",
+      "talks/llm-wiki/assets/typography/wiki-path.svg": "53636045579a66dfdee4f53136cf31365fc00809983cb56e0b14b224c5052840",
+      "talks/llm-wiki/assets/wiki-ingest-update.svg": "127df6c27adfcd67fe12091c12859ece95960c76ff301ae171a289a6285c6bfe",
+      "talks/llm-wiki/assets/wiki-layers.svg": "79afc5f22a989abd58ccf096aea59466057cb46a29da8cb263e34d37e36fc6b7",
+      "talks/llm-wiki/assets/wiki-maintenance-loop.svg": "8263a8f3fd79abe6d50dbd777086918876e589c88b4ab919b8755ee6daa1f5d3",
+      "talks/llm-wiki/assets/wiki-query-return.svg": "d68e2a55ee89c46cbd29a187f076f32d0146c8713c3b8b086ad2af1d05de8413",
+      "talks/llm-wiki/demo/README.md": "f95bd173cc838886f933264af4431eb12c836005b1781442feb6df5fca2dcaac",
+      "talks/llm-wiki/demo/after/wiki/claims/file-update.md": "92bb630e8e722d09d787eeeceb5c61bce8a861c96078e42525e0186091cc2838",
+      "talks/llm-wiki/demo/after/wiki/decisions/review-before-current.md": "9ceef6389ad84733d9958f28c9f7d614cbb4d1b275672a48fe148430cf76515f",
+      "talks/llm-wiki/demo/after/wiki/decisions/save-all.md": "65562b6302d2aac960520d10cb65a80a12e637ad986e21683fc64f3d7f2df7a3",
+      "talks/llm-wiki/demo/after/wiki/index.md": "dea98321d159bffd02e4a50224bf9790e0c6cc45666d64c77878abd2d5059934",
+      "talks/llm-wiki/demo/after/wiki/log.md": "0b190fbdbaa247b3a2fb0cc7b6329c008b04b932eed49263d62dbcd32fe66d8e",
+      "talks/llm-wiki/demo/after/wiki/pending/retrieval-coverage.md": "e301bd053c0d107a5b5fbfd1e674df1f723ca46855331e72d7199a3c4abe50d5",
+      "talks/llm-wiki/demo/after/wiki/questions/what-to-save.md": "dd3f09a6ddfa5439bb6084c1896f026fc8b814bbd8072aeeaa8eed5f398d05bd",
+      "talks/llm-wiki/demo/after/wiki/questions/wiki-and-learning.md": "77d75ad0051f7a46a232bc7ce762538f32bf1587abb40cc670190358b8a53e46",
+      "talks/llm-wiki/demo/before/wiki/claims/file-update.md": "844219560c6917c8c2bd3de6a1d60aaae7db2472049c8730e006d855945374f1",
+      "talks/llm-wiki/demo/before/wiki/decisions/save-all.md": "d77f31e59cfee51d93d6e6c73851f453e617af2c4ef1f793b59cd9ced7190761",
+      "talks/llm-wiki/demo/before/wiki/index.md": "52b6a60827254eba86ed7e11fa6d915edb99049a956503cdbf89a5614263ecbe",
+      "talks/llm-wiki/demo/before/wiki/log.md": "9aceece1ef383999a38ca7c31d15d09aecc97ab304f6dc68271bf13177bb62b0",
+      "talks/llm-wiki/demo/before/wiki/questions/wiki-and-learning.md": "09953148d63b4025185026a27765fec906d72684b886801c8c4069356b8af935",
+      "talks/llm-wiki/demo/changes.diff": "1658ca53ae3a46f655e541c2abf11891d8105d460b5a4222cb30d891d8515489",
+      "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+      "talks/llm-wiki/demo/receipt.json": "3052ecf8710697cddc4acb68ede40c4e5dd926f7eaada03fff13cc79e31b66b3",
+      "talks/llm-wiki/demo/review/review.json": "cb1f12d45063a496c27eeefff2069d2c8ec2c6c719d460e729f5ba86ee9d4216",
+      "talks/llm-wiki/demo/run-demo.cjs": "b73c7824599464d8ebb3510cfcec3e0d499d0ca2a1f5e91f6c44dc7225260faa",
+      "talks/llm-wiki/demo/source-notes/adr.md": "7a68c7c8fdbe0854da56f62fb4aaf1897ffc693ad9a31d3c1812bcb995faaab8",
+      "talks/llm-wiki/demo/source-notes/llm-wiki.md": "c82d841dd85d9587f5c4d95bb0681c21810e7077e63b5763c12dab23e29d2762",
+      "talks/llm-wiki/demo/source-notes/lora.md": "fb88ac73af8648228fc0ea71a0a7200f92ef081b4fe7c88e6c1c45fc4af03a2e",
+      "talks/llm-wiki/demo/source-notes/rag-initial.md": "084cc17c8e74de1a595f4fd9e608f7e3883a8733364e5a8bc9ca80eac034b297",
+      "talks/llm-wiki/demo/source-notes/rag.md": "c2cd0b4abbc182355ee618ef18581d63696483eeaea1e0cb707d140ac1507c62",
+      "talks/llm-wiki/demo/starter.txt": "0ac7822fd7af69689ef6297d03cf44744e609c78d9ef741c32f89a901a4db16e",
+      "talks/llm-wiki/test.md": "174e1fdc3844045f8e5cae5890ffd87aa21562487180fcf4e01a90fa0ea13489",
+      "talks/llm-wiki/assets/design/ingest-map.svg": "1ea6a569bab645b16c29d332950aaa5928fcd0b4b6737ff12005bcdf3765764b",
+      "talks/llm-wiki/assets/design/knowledge-layers.svg": "64c1fd12553932973b7340a0930c2617788ad561c1e09329da9171644d4f0a56",
+      "talks/llm-wiki/assets/design/raw-wiki-rules.svg": "87b989db720d81d4ec21ed604ac24c66623ee2faa934166071449003133d900d",
+      "research/llm-wiki-typography-20261102/engineering/fixtures/llm-wiki-roles.json": "94e5ccdd91ebda96b1bcfb8e5de7ed1724dd51654067e4d468a43d5df06da003",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r01/slides.md": "07068c1d2afc95afa23942ac9c0b321cd55365d2f7ee39f9a3fa5ac368ed9124",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r02/slides.md": "b2f9de95d60b8026b937f760c4c54387584df257f2d47599cce0486d7b3510c7",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r04/slides.md": "7f6644533b9c9784d6db44bfd262fb80bea513cf21bbc5329c8d6150c016df0d",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r03/slides.md": "b2d7d500d30b471a81d0a49f91c9c95f62f3b69be647cab13ecd997f490ef9ff",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r03/materials/speaker.md": "73587fbc17b26d83d1521425070641bb5b14edd70fc4c0d76ec1e6d7e07739cb",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r03/materials/reading.md": "6bc378ab429ccf9684111acd5f7ea8c8ab2511c47b5662c81aaff9efe83d9e29",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r03/assets/condition-and-choice.svg": "0f73aacbe173bdd8890a9d7f08ed0a68d60c5f071e93b0e1749dc7367bf032c2",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r04/materials/speaker.md": "420a05e2796a37d7d1f2cb88534d0459b54b4a3055018f334f4353fb4333a974",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r04/materials/reading.md": "fe584bcd78a6949aa33e0283079925c173d548f3389ea2495dbc83c4e6e15abf",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r04/assets/session-plan-excerpt.svg": "c8bf2c2c834c690c023fead09d988637419aa4743ad50215f1f119d896ffdc4f",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r04/assets/original-session-plan.md.txt": "72d734684a52c431bf2380b505cf924a78b34d42dc507af34eaa13116a30f888",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r02/materials/speaker.md": "4a988deb9b468138db22b690fe8112a1dd9400b2be7e306617a0a78b47f728ae",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r02/materials/reading.md": "dcf3a8338051c304ebd0c3f1a09d070ca6f5d8bcd98cb0316b8a872a0db55859",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r02/assets/connected-understanding.svg": "5ecb123254982158411037a850ef23aa2381ccdd265342daeb217da66b4fcc0c",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r02/assets/raw-and-understanding.svg": "e71bddb6be95baa32fe74bf990f2a0cc82c6d6f78564573dd8c8b3a4a709d76d",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r02/assets/original-diagram-reading.md.txt": "d52ccf0283e3f33dfb863fa8e060019be8f155e5c8ac69301fbcb8a3f97fd64d",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r01/materials/speaker.md": "fcfdb7338b5a3dd18a686a05f0f10c72d09c88e5540c1e3fe6bfc7a70fd0e158",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r01/materials/reading.md": "b07da80a78f819d70a4d4113e028db3046ba6c92e1d98456cdc5f2a0ef1e2d16",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r01/assets/connected-understanding.svg": "5b812746a42221816db06988e9cb33d4d49398fdf8c414faa5f54bc1204169ad",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r01/assets/raw-and-understanding.svg": "43c4ca5f9fb15eeb56786ec9d560ca2571b1937d930ed221878361453cee3338",
+      "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r01/assets/original-diagram-reading.md.txt": "d52ccf0283e3f33dfb863fa8e060019be8f155e5c8ac69301fbcb8a3f97fd64d",
+      "research/llm-wiki-keynote-reset-20261113/creator/r04-choice-and-coverage.md": "03fc0aff450eff4b8e14336f2e5dca09ec1f112c5242c9ba462b4f9755e934f4",
+      "research/llm-wiki-keynote-reset-20261113/creator/r03-choice-and-coverage.md": "484ad3898a754bfc9e86eb0cc3e1c35faa857d00ae399260bbc5c711140c0e2c",
+      "research/llm-wiki-keynote-reset-20261113/creator/editorial-handoff.md": "11124d2542e5b5e86a0c1c8d6775abf7e723eed35ec71a0ac6ba2c662aa064a3",
+      "research/llm-wiki-keynote-reset-20261113/creator/r01-choice-and-coverage.md": "3fc83e255e8a20f21eacb4ff56e65a04479571404ab78ffdaab6629d10efc3dd",
+      "research/llm-wiki-keynote-reset-20261113/creator/r02-choice-and-coverage.md": "8532908f505a73aa8ecba9d306c8531d071a99b7874ef1029acdad25dca47832",
+      "research/llm-wiki-keynote-reset-20261113/review/1280-followup.verdict.json": "093bba8462bcb70ee792dc54a4c6620ba2c3d69c8d2b9630faf070b9b040231d",
+      "research/llm-wiki-keynote-reset-20261113/review/R01.md": "36514f204f081bbe4a809f4e14ab3f83c4cb2bdbdfa6ce7b65359133c6906cb2",
+      "research/llm-wiki-keynote-reset-20261113/review/initial.md": "ba2da158f9ae45021b111411a0f5262b4dba882387ec224988cebdf3c581571f",
+      "research/llm-wiki-keynote-reset-20261113/review/R04.md": "5853458927c6feec59913513ae573db06e24d91c96526787809dc3155e5b749b",
+      "research/llm-wiki-keynote-reset-20261113/review/R03.verdict.json": "9167d3891143c0bc1019b91fec887456ac866cba881c12d86400a42dfe4fae5a",
+      "research/llm-wiki-keynote-reset-20261113/review/R04.verdict.json": "8835f28662881c041450806fbcd2e7ae88423ed6e36a366c7fe0fe54f14949aa",
+      "research/llm-wiki-keynote-reset-20261113/review/verdict.json": "a0cc7e0ad66bd535cc89bd87b4cb242aaa56fc34869f3b38af7645db74505598",
+      "research/llm-wiki-keynote-reset-20261113/review/R02.verdict.json": "417dc28c5db78a90923227c521a69b52e727605ad63446411e2f355b3e2b57c0",
+      "research/llm-wiki-keynote-reset-20261113/review/latest-verdict.json": "acbb46487b24dd016a232be35ad2619ec2aa1dacc14746a4185882a0868f7356",
+      "research/llm-wiki-keynote-reset-20261113/review/1280-followup.md": "1b84c79b145a0f76b0e5d849858813757736ee7b7cf920f6aa0b78ff9426c967",
+      "research/llm-wiki-keynote-reset-20261113/review/R01.verdict.json": "a0cc7e0ad66bd535cc89bd87b4cb242aaa56fc34869f3b38af7645db74505598",
+      "research/llm-wiki-keynote-reset-20261113/review/R03.md": "32ec9aac8c4bacd2f23bd77d054e838d517cb537c4f059c73b1bbd034ba1cdcb",
+      "research/llm-wiki-keynote-reset-20261113/review/editing-map-26.md": "6fea90b9c5f10babc9da1bf80a7a7dbaf119f8b8d0d6524bf6ad090956a882b0",
+      "research/llm-wiki-keynote-reset-20261113/review/R02.md": "9bc19c1de3ec3da009581a7dc7e2c0a2344b363cba31eefa35039d96b85e5e5b",
+      "talks/llm-wiki/assets/speaker-guide.txt": "3ceed10f507daa98ffbe58bccef7b9fde98f8efa42c6bd9e06db7b95cec42bfb"
+    }
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "id": "knowledge-declaration",
+      "layout": "blocks",
+      "composition": "message",
+      "variant": "declaration",
+      "native": [
+        {
+          "sourceLine": 15,
+          "tag": "H1",
+          "text": "지식을 남기는 방식이 다음 질문을 바꾼다",
+          "domText": "지식을 남기는 방식이다음 질문을 바꾼다",
+          "role": "declaration",
+          "minLogical": 120,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "DIV",
+          "emphasis": [
+            {
+              "tag": "STRONG",
+              "text": "다음 질문을 바꾼다"
+            }
+          ],
+          "boundaries": [
+            {
+              "before": "지식을 남기는 방식이",
+              "after": "다음 질문을 바꾼다"
+            }
+          ],
+          "roleReason": "두 행을 같은 획으로 읽는 선언이며 둘째 절의 실제 너비를 함께 확인합니다.",
+          "rows": [
+            "지식을 남기는 방식이",
+            "다음 질문을 바꾼다"
+          ],
+          "rowWidthRatio": [
+            0.84,
+            0.94
+          ]
+        }
+      ],
+      "images": [],
+      "links": [],
+      "support": {
+        "label": "LLM Wiki의 정의와 개인 맥락",
+        "href": "./materials/keynote-notes.md#정의와-개인-맥락",
+        "sourceLine": 6,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "정의와-개인-맥락",
+          "required": [
+            "마크다운 지식 베이스",
+            "다시 쓸 목적의 예"
+          ]
+        }
+      }
+    },
+    {
+      "slide": 2,
+      "id": "answer-and-wiki",
+      "layout": "blocks",
+      "composition": "gallery",
+      "variant": "comparison",
+      "native": [
+        {
+          "sourceLine": 31,
+          "tag": "FIGCAPTION",
+          "text": "이번 답",
+          "domText": "이번 답",
+          "role": "figure-label",
+          "minLogical": 26,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "FIGURE",
+          "emphasis": [],
+          "boundaries": []
+        },
+        {
+          "sourceLine": 33,
+          "tag": "FIGCAPTION",
+          "text": "다시 쓸 지식",
+          "domText": "다시 쓸 지식",
+          "role": "figure-label",
+          "minLogical": 26,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "FIGURE",
+          "emphasis": [],
+          "boundaries": []
+        }
+      ],
+      "images": [
+        {
+          "path": "talks/llm-wiki/assets/devday-current/answer-window.svg",
+          "alt": "한 번의 질문에서 독립된 답 하나가 남는 설명용 작업창",
+          "fit": "contain",
+          "kind": "explanatory-reconstruction",
+          "intrinsic": [
+            720,
+            420
+          ],
+          "shapes": [
+            {
+              "id": "window",
+              "tag": "g"
+            },
+            {
+              "id": "prompt-lines",
+              "tag": "g"
+            },
+            {
+              "id": "answer-symbol",
+              "tag": "g"
+            },
+            {
+              "id": "answer-outline",
+              "tag": "g"
+            }
+          ],
+          "texts": [],
+          "readingSupport": {
+            "path": "talks/llm-wiki/materials/keynote-notes.md",
+            "anchor": "검색과-지속-문서",
+            "required": [
+              "한 번의 질문과 독립된 답",
+              "메모·개념·비교·계획",
+              "두 방식은 함께 쓸 수"
+            ]
+          }
+        },
+        {
+          "path": "talks/llm-wiki/assets/devday-current/wiki-window.svg",
+          "alt": "메모·개념·비교·계획 문서가 서로 연결된 설명용 작업창",
+          "fit": "contain",
+          "kind": "explanatory-reconstruction",
+          "intrinsic": [
+            720,
+            420
+          ],
+          "shapes": [
+            {
+              "id": "window",
+              "tag": "g"
+            },
+            {
+              "id": "document-connections",
+              "tag": "g"
+            },
+            {
+              "id": "source-note",
+              "tag": "g"
+            },
+            {
+              "id": "concept-page",
+              "tag": "g"
+            },
+            {
+              "id": "comparison-page",
+              "tag": "g"
+            },
+            {
+              "id": "plan-page",
+              "tag": "g"
+            },
+            {
+              "id": "question-page",
+              "tag": "g"
+            }
+          ],
+          "texts": [],
+          "readingSupport": {
+            "path": "talks/llm-wiki/materials/keynote-notes.md",
+            "anchor": "검색과-지속-문서",
+            "required": [
+              "한 번의 질문과 독립된 답",
+              "메모·개념·비교·계획",
+              "두 방식은 함께 쓸 수"
+            ]
+          }
+        }
+      ],
+      "links": [],
+      "support": {
+        "label": "이번 답과 지속 문서의 비교 범위",
+        "href": "./materials/keynote-notes.md#검색과-지속-문서",
+        "sourceLine": 21,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "검색과-지속-문서",
+          "required": [
+            "한 번의 질문과 독립된 답",
+            "메모·개념·비교·계획",
+            "두 방식은 함께 쓸 수"
+          ]
+        }
+      },
+      "arrangement": {
+        "gap": [
+          174,
+          194
+        ],
+        "captionGap": [
+          12,
+          25
+        ]
+      },
+      "readArrangement": {
+        "kind": "comparison",
+        "captionGap": [
+          0,
+          10
+        ],
+        "desktopGap": [
+          35,
+          41
+        ],
+        "mobileGap": [
+          15,
+          31
+        ]
+      }
+    },
+    {
+      "slide": 3,
+      "id": "meeting-article",
+      "layout": "blocks",
+      "composition": "split",
+      "variant": "quote-card",
+      "native": [
+        {
+          "sourceLine": 47,
+          "tag": "P",
+          "text": "다음 질문에 쓸 근거를 연결된 문서에서 다시 찾고 싶다",
+          "domText": "다음 질문에 쓸 근거를연결된 문서에서다시 찾고 싶다",
+          "role": "quotation",
+          "minLogical": 54,
+          "minReading": 24,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "BLOCKQUOTE",
+          "emphasis": [],
+          "boundaries": [
+            {
+              "before": "다음 질문에 쓸 근거를",
+              "after": "연결된 문서에서"
+            },
+            {
+              "before": "연결된 문서에서",
+              "after": "다시 찾고 싶다"
+            }
+          ],
+          "rows": [
+            "다음 질문에 쓸 근거를",
+            "연결된 문서에서",
+            "다시 찾고 싶다"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "path": "talks/llm-wiki/assets/devday-current/condition-article.svg",
+          "alt": "가상 모임 사례를 편집한 기사 ‘다음 모임의 출발점’",
+          "fit": "contain",
+          "kind": "editorial-adaptation",
+          "intrinsic": [
+            900,
+            650
+          ],
+          "materialSource": "expanded-study.txt:raw/study-retro.md",
+          "shapes": [
+            {
+              "id": "article-panel",
+              "tag": "rect"
+            },
+            {
+              "id": "article-context",
+              "tag": "text"
+            },
+            {
+              "id": "article-title",
+              "tag": "g"
+            },
+            {
+              "id": "article-body",
+              "tag": "g"
+            }
+          ],
+          "texts": [
+            {
+              "text": "다음 스터디 · 조건과 목적",
+              "role": "surface-detail",
+              "minLogical": 12,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "다음 모임의 출발점",
+              "role": "surface-detail",
+              "minLogical": 38,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "자료를 다시 읽는 방법",
+              "role": "surface-detail",
+              "minLogical": 38,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "다음 모임에는 입문자가 함께한다. 본편 뒤에는 15분 동안 함께",
+              "role": "surface-detail",
+              "minLogical": 18,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "읽을 시간이 있다. 준비된 세 주제 메모에서 필요한 내용을 골라",
+              "role": "surface-detail",
+              "minLogical": 18,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "익숙하지 않은 사람도 목차에서 문서를 찾을 수 있게 한다.",
+              "role": "surface-detail",
+              "minLogical": 18,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "출발점은 목적과 맥락, 검색과 비교, 지식의 활용이다. 참여자는",
+              "role": "surface-detail",
+              "minLogical": 18,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "두 메모에서 궁금한 관계를 하나 고른다. 관련 개념과 비교 문서를",
+              "role": "surface-detail",
+              "minLogical": 18,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "펼쳐 보고 어떤 근거로 두 내용을 연결했는지 짚어 본다.",
+              "role": "surface-detail",
+              "minLogical": 18,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "무엇을 읽었고 어떤 판단을 보탰는지 적어 두면, 다음에 같은",
+              "role": "surface-detail",
+              "minLogical": 18,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "질문을 만났을 때 어디부터 다시 읽을지 알 수 있다. 아직 모르는",
+              "role": "surface-detail",
+              "minLogical": 18,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "점은 후속 질문으로 남겨 다음 모임의 출발점으로 삼는다.",
+              "role": "surface-detail",
+              "minLogical": 18,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "다음 질문에 쓸 근거를 연결된 문서에서 다시 찾고 싶다. 먼저",
+              "role": "surface-detail",
+              "minLogical": 18,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            },
+            {
+              "text": "그렇게 읽어 본 뒤에 어떤 준비를 더 할지 판단하기로 한다.",
+              "role": "surface-detail",
+              "minLogical": 18,
+              "roleReason": "기사의 제목과 문장을 원래 기사 표면에서 관측합니다. 읽을 문장과 정확한 원문은 해당 공개 절에 있습니다."
+            }
+          ],
+          "readingSupport": {
+            "path": "talks/llm-wiki/materials/keynote-notes.md",
+            "anchor": "다음-모임의-출발점",
+            "required": [
+              "다음 질문에 쓸 근거를 연결된 문서에서 다시 찾고 싶다.",
+              "도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.",
+              "가상 사례",
+              "자료를 다시 읽는 방법",
+              "어떤 준비를 더 할지 판단하기로 한다."
+            ]
+          }
+        }
+      ],
+      "links": [],
+      "support": {
+        "label": "다음 모임의 출발점 · 원문과 기사 전문",
+        "href": "./materials/keynote-notes.md#다음-모임의-출발점",
+        "sourceLine": 37,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "다음-모임의-출발점",
+          "required": [
+            "다음 질문에 쓸 근거를 연결된 문서에서 다시 찾고 싶다.",
+            "도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.",
+            "가상 사례",
+            "자료를 다시 읽는 방법",
+            "어떤 준비를 더 할지 판단하기로 한다."
+          ]
+        }
+      },
+      "arrangement": {
+        "overlap": [
+          30,
+          52
+        ],
+        "cardHeight": [
+          435,
+          475
+        ]
+      },
+      "readArrangement": {
+        "kind": "article",
+        "linkGap": [
+          8,
+          24
+        ],
+        "mobilePreviewGap": [
+          14,
+          43
+        ]
+      }
+    },
+    {
+      "slide": 4,
+      "id": "work-results",
+      "layout": "results",
+      "composition": null,
+      "variant": "unframed",
+      "native": [
+        {
+          "dataField": "title",
+          "tag": "H1",
+          "text": "읽은 자료가\n다음 작업으로",
+          "domText": "읽은 자료가\n다음 작업으로",
+          "role": "results-title",
+          "minLogical": 64,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "DIV",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "읽은 자료가",
+            "다음 작업으로"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "path": "talks/llm-wiki/assets/devday-current/output-plan.svg",
+          "alt": "입문자 활동안의 시간과 할 일이 행으로 나뉜 일정표",
+          "fit": "contain",
+          "kind": "editorial-adaptation",
+          "intrinsic": [
+            1000,
+            640
+          ],
+          "materialSource": "materials/session-plan.md#15분-진행안",
+          "shapes": [
+            {
+              "id": "plan-heading",
+              "tag": "text"
+            },
+            {
+              "id": "schedule-table",
+              "tag": "g"
+            },
+            {
+              "id": "selected-slot",
+              "tag": "rect"
+            }
+          ],
+          "texts": [
+            {
+              "text": "함께 읽는 15분",
+              "role": "surface-detail",
+              "minLogical": 23,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "시간",
+              "role": "surface-detail",
+              "minLogical": 10,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "할 일",
+              "role": "surface-detail",
+              "minLogical": 10,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "남길 것",
+              "role": "surface-detail",
+              "minLogical": 10,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "0–2분",
+              "role": "surface-detail",
+              "minLogical": 12,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "2–6분",
+              "role": "surface-detail",
+              "minLogical": 12,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "6–11분",
+              "role": "surface-detail",
+              "minLogical": 12,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "11–15분",
+              "role": "surface-detail",
+              "minLogical": 12,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "다시 쓸 질문 정하기",
+              "role": "surface-detail",
+              "minLogical": 11,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "두 읽기 메모 확인하기",
+              "role": "surface-detail",
+              "minLogical": 11,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "한 연결의 근거 찾기",
+              "role": "surface-detail",
+              "minLogical": 11,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "후속 질문에 근거 연결하기",
+              "role": "surface-detail",
+              "minLogical": 11,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "목적 한 문장",
+              "role": "surface-detail",
+              "minLogical": 11,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "요지와 선택 이유",
+              "role": "surface-detail",
+              "minLogical": 11,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "관계를 뒷받침하는 위치",
+              "role": "surface-detail",
+              "minLogical": 11,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "검토할 답과 모르는 점",
+              "role": "surface-detail",
+              "minLogical": 11,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            }
+          ],
+          "readingSupport": {
+            "path": "talks/llm-wiki/materials/keynote-notes.md",
+            "anchor": "네-가지-작업-결과",
+            "required": [
+              "입문자 활동안",
+              "연결 지도",
+              "질문과 답",
+              "모임 안내",
+              "wiki/questions/first-study.md",
+              "30분이라면 무엇을 더 읽고 확인할까?"
+            ]
+          }
+        },
+        {
+          "path": "talks/llm-wiki/assets/devday-current/output-map.svg",
+          "alt": "주제 메모와 개념·비교, 질문 노트와 활동안을 연결한 지도",
+          "fit": "contain",
+          "kind": "editorial-adaptation",
+          "intrinsic": [
+            1000,
+            640
+          ],
+          "materialSource": "expanded-study.txt:wiki/index.md",
+          "shapes": [
+            {
+              "id": "map-connections",
+              "tag": "g"
+            },
+            {
+              "id": "map-network",
+              "tag": "g"
+            },
+            {
+              "id": "map-labels",
+              "tag": "g"
+            }
+          ],
+          "texts": [
+            {
+              "text": "LLM Wiki",
+              "role": "surface-detail",
+              "minLogical": 13,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "목적과 맥락",
+              "role": "surface-detail",
+              "minLogical": 14,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "검색과 비교",
+              "role": "surface-detail",
+              "minLogical": 14,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "개념과 비교",
+              "role": "surface-detail",
+              "minLogical": 14,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "질문 노트",
+              "role": "surface-detail",
+              "minLogical": 14,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "활동안",
+              "role": "surface-detail",
+              "minLogical": 14,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "지식의 활용",
+              "role": "surface-detail",
+              "minLogical": 14,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            }
+          ],
+          "readingSupport": {
+            "path": "talks/llm-wiki/materials/keynote-notes.md",
+            "anchor": "네-가지-작업-결과",
+            "required": [
+              "입문자 활동안",
+              "연결 지도",
+              "질문과 답",
+              "모임 안내",
+              "wiki/questions/first-study.md",
+              "30분이라면 무엇을 더 읽고 확인할까?"
+            ]
+          }
+        },
+        {
+          "path": "talks/llm-wiki/assets/devday-current/output-question.svg",
+          "alt": "입문자가 무엇부터 할지 정리한 질문과 답",
+          "fit": "contain",
+          "kind": "editorial-adaptation",
+          "intrinsic": [
+            1000,
+            640
+          ],
+          "materialSource": "expanded-study.txt:wiki/questions/first-study.md",
+          "shapes": [
+            {
+              "id": "question-editor",
+              "tag": "g"
+            },
+            {
+              "id": "question-heading",
+              "tag": "text"
+            },
+            {
+              "id": "candidate-answer",
+              "tag": "g"
+            },
+            {
+              "id": "source-links",
+              "tag": "g"
+            }
+          ],
+          "texts": [
+            {
+              "text": "first-study.md",
+              "role": "surface-detail",
+              "minLogical": 9,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "1",
+              "role": "surface-detail",
+              "minLogical": 8,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "2",
+              "role": "surface-detail",
+              "minLogical": 8,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "3",
+              "role": "surface-detail",
+              "minLogical": 8,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "4",
+              "role": "surface-detail",
+              "minLogical": 8,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "5",
+              "role": "surface-detail",
+              "minLogical": 8,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "6",
+              "role": "surface-detail",
+              "minLogical": 8,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "7",
+              "role": "surface-detail",
+              "minLogical": 8,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "8",
+              "role": "surface-detail",
+              "minLogical": 8,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "9",
+              "role": "surface-detail",
+              "minLogical": 8,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "# 무엇부터 시작할까?",
+              "role": "surface-detail",
+              "minLogical": 21,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "> 설치보다 먼저,",
+              "role": "surface-detail",
+              "minLogical": 14,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "> 목차와 문서 연결을 읽는다.",
+              "role": "surface-detail",
+              "minLogical": 14,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "## 다시 읽을 근거",
+              "role": "surface-detail",
+              "minLogical": 12,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "- [[목적과 맥락]]",
+              "role": "surface-detail",
+              "minLogical": 12,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "- [[현재 스터디 계획]]",
+              "role": "surface-detail",
+              "minLogical": 12,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "- [[개념과 비교]]",
+              "role": "surface-detail",
+              "minLogical": 12,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            }
+          ],
+          "readingSupport": {
+            "path": "talks/llm-wiki/materials/keynote-notes.md",
+            "anchor": "네-가지-작업-결과",
+            "required": [
+              "입문자 활동안",
+              "연결 지도",
+              "질문과 답",
+              "모임 안내",
+              "wiki/questions/first-study.md",
+              "30분이라면 무엇을 더 읽고 확인할까?"
+            ]
+          }
+        },
+        {
+          "path": "talks/llm-wiki/assets/devday-current/output-brief.svg",
+          "alt": "모임 전 할 일과 근거를 찾을 경로, 다음 질문을 적은 안내 예",
+          "fit": "contain",
+          "kind": "editorial-adaptation",
+          "intrinsic": [
+            1000,
+            640
+          ],
+          "materialSource": "materials/session-plan.md#준비와-선택-이유",
+          "shapes": [
+            {
+              "id": "preparation-checklist",
+              "tag": "g"
+            },
+            {
+              "id": "activity-form",
+              "tag": "g"
+            }
+          ],
+          "texts": [
+            {
+              "text": "모임 준비 안내",
+              "role": "surface-detail",
+              "minLogical": 21,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "준비된 문서로 시작하는 15분 활동",
+              "role": "surface-detail",
+              "minLogical": 12,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "목적을 한 문장 적기",
+              "role": "surface-detail",
+              "minLogical": 15,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "두 읽기 메모 펼치기",
+              "role": "surface-detail",
+              "minLogical": 15,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "개념·비교의 위치 찾기",
+              "role": "surface-detail",
+              "minLogical": 15,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "남길 기록",
+              "role": "surface-detail",
+              "minLogical": 15,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "근거 위치",
+              "role": "surface-detail",
+              "minLogical": 11,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "원자료 → 개념 → 비교",
+              "role": "surface-detail",
+              "minLogical": 13,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "다음 질문",
+              "role": "surface-detail",
+              "minLogical": 11,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "30분이라면 무엇을",
+              "role": "surface-detail",
+              "minLogical": 13,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "더 읽고 확인할까?",
+              "role": "surface-detail",
+              "minLogical": 13,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            },
+            {
+              "text": "읽은 근거와 내 판단을 함께 적습니다.",
+              "role": "surface-detail",
+              "minLogical": 10,
+              "roleReason": "결과물의 고유한 작업 표면을 집중해서 보여 줍니다. 문서의 필수 내용은 연결된 읽기 절과 전문에서 읽습니다."
+            }
+          ],
+          "readingSupport": {
+            "path": "talks/llm-wiki/materials/keynote-notes.md",
+            "anchor": "네-가지-작업-결과",
+            "required": [
+              "입문자 활동안",
+              "연결 지도",
+              "질문과 답",
+              "모임 안내",
+              "wiki/questions/first-study.md",
+              "30분이라면 무엇을 더 읽고 확인할까?"
+            ]
+          }
+        }
+      ],
+      "links": [],
+      "support": {
+        "label": "네 결과물의 전문과 확인 범위",
+        "href": "./materials/keynote-notes.md#네-가지-작업-결과",
+        "sourceLine": 55,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "네-가지-작업-결과",
+          "required": [
+            "입문자 활동안",
+            "연결 지도",
+            "질문과 답",
+            "모임 안내",
+            "wiki/questions/first-study.md",
+            "30분이라면 무엇을 더 읽고 확인할까?"
+          ]
+        }
+      },
+      "arrangement": {
+        "gap": [
+          22,
+          26
+        ]
+      },
+      "readArrangement": {
+        "kind": "results",
+        "linkGap": [
+          10,
+          43
+        ]
+      }
+    },
+    {
+      "slide": 5,
+      "id": "wiki-identity",
+      "layout": "blocks",
+      "composition": "message",
+      "variant": null,
+      "native": [
+        {
+          "sourceLine": 89,
+          "tag": "H1",
+          "text": "LLM Wiki",
+          "domText": "LLM Wiki",
+          "role": "identity-heading",
+          "minLogical": 96,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "DIV",
+          "emphasis": [],
+          "boundaries": [],
+          "roleReason": "이름과 위키 정의를 중심에 놓습니다."
+        },
+        {
+          "sourceLine": 91,
+          "tag": "P",
+          "text": "AI와 함께 자료를 엮는 마크다운 위키",
+          "domText": "AI와 함께 자료를 엮는 마크다운 위키",
+          "role": "cover-subtitle",
+          "minLogical": 30,
+          "minReading": 18,
+          "directBody": true,
+          "parentGroup": null,
+          "domParentTag": "DIV",
+          "emphasis": [],
+          "boundaries": [],
+          "roleReason": "짧은 이름 아래에서 발화할 한 문장 정의입니다."
+        }
+      ],
+      "images": [],
+      "links": [],
+      "support": {
+        "label": "정리한 이해와 원자료의 역할",
+        "href": "./materials/keynote-notes.md#원자료와-작업-약속",
+        "sourceLine": 81,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "원자료와-작업-약속",
+          "required": [
+            "원자료 보존",
+            "근거 연결",
+            "관련 문서 갱신",
+            "중요한 결과 확인"
+          ]
+        }
+      },
+      "readArrangement": {
+        "kind": "definition"
+      }
+    },
+    {
+      "slide": 6,
+      "id": "shared-editing",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "record",
+      "native": [
+        {
+          "sourceLine": 104,
+          "tag": "H1",
+          "text": "스터디 준비 기록",
+          "domText": "스터디 준비 기록",
+          "role": "title",
+          "minLogical": 64,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "DIV",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "스터디 준비 기록"
+          ]
+        },
+        {
+          "sourceLine": 109,
+          "tag": "H2",
+          "text": "사람",
+          "domText": "사람",
+          "role": "group-heading",
+          "minLogical": 40,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 0,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "사람"
+          ]
+        },
+        {
+          "sourceLine": 111,
+          "tag": "P",
+          "text": "진행안을 만들려고 ‘목적과 맥락’을 골랐다.",
+          "domText": "진행안을 만들려고 ‘목적과 맥락’을 골랐다.",
+          "role": "body",
+          "minLogical": 38,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 0,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "진행안을 만들려고 ‘목적과 맥락’을 골랐다."
+          ]
+        },
+        {
+          "sourceLine": 116,
+          "tag": "H2",
+          "text": "AI",
+          "domText": "AI",
+          "role": "group-heading",
+          "minLogical": 40,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 1,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "AI"
+          ]
+        },
+        {
+          "sourceLine": 118,
+          "tag": "P",
+          "text": "개념과 비교를 계획에 연결하고 근거를 붙였다.",
+          "domText": "개념과 비교를 계획에 연결하고 근거를 붙였다.",
+          "role": "body",
+          "minLogical": 38,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 1,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "개념과 비교를 계획에 연결하고 근거를 붙였다."
+          ]
+        }
+      ],
+      "images": [],
+      "links": [],
+      "support": {
+        "label": "사람의 판단과 AI 해석을 구분하는 방법",
+        "href": "./materials/keynote-notes.md#사람의-선택과-기록",
+        "sourceLine": 95,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "사람의-선택과-기록",
+          "required": [
+            "목적은 사람이 정합니다",
+            "AI의 요약·해석",
+            "진행안을 만들려고 ‘목적과 맥락’을 골랐다",
+            "개념과 비교를 계획에 연결하고 근거를 붙였다",
+            "설명용 문장"
+          ]
+        }
+      },
+      "readArrangement": {
+        "kind": "groups",
+        "count": 2,
+        "insideGap": [
+          -1,
+          13
+        ],
+        "betweenGap": [
+          19,
+          48
+        ]
+      }
+    },
+    {
+      "slide": 7,
+      "id": "connected-documents",
+      "layout": "blocks",
+      "composition": "media",
+      "variant": null,
+      "native": [
+        {
+          "sourceLine": 131,
+          "tag": "H1",
+          "text": "자료는 연결되고 계획은 갱신됩니다",
+          "domText": "자료는 연결되고 계획은 갱신됩니다",
+          "role": "media-support-heading",
+          "minLogical": 54,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "DIV",
+          "emphasis": [],
+          "boundaries": [],
+          "roleReason": "media 관계도 가까이에서 관계를 읽는 도입입니다."
+        }
+      ],
+      "images": [
+        {
+          "path": "talks/llm-wiki/assets/devday-current/connected-knowledge.svg",
+          "alt": "자료 요약과 개념·비교, 현재 계획 세 문서가 서로 연결된 설명용 관계도",
+          "fit": "contain",
+          "kind": "explanatory-reconstruction",
+          "intrinsic": [
+            1200,
+            500
+          ],
+          "shapes": [
+            {
+              "id": "relation-lines",
+              "tag": "g"
+            },
+            {
+              "id": "source-summary",
+              "tag": "g"
+            },
+            {
+              "id": "concept-documents",
+              "tag": "g"
+            },
+            {
+              "id": "current-plan",
+              "tag": "g"
+            }
+          ],
+          "texts": [
+            {
+              "text": "자료 요약",
+              "role": "body",
+              "minLogical": 36
+            },
+            {
+              "text": "개념·비교",
+              "role": "body",
+              "minLogical": 36
+            },
+            {
+              "text": "현재 계획",
+              "role": "body",
+              "minLogical": 36
+            }
+          ],
+          "geometry": {
+            "nodes": [
+              {
+                "id": "source",
+                "bbox": {
+                  "x": 61,
+                  "y": 197,
+                  "width": 352,
+                  "height": 108
+                },
+                "ports": [
+                  {
+                    "id": "east",
+                    "x": 413,
+                    "y": 251
+                  }
+                ]
+              },
+              {
+                "id": "concepts",
+                "bbox": {
+                  "x": 675,
+                  "y": 59,
+                  "width": 423,
+                  "height": 120
+                },
+                "ports": [
+                  {
+                    "id": "west",
+                    "x": 675,
+                    "y": 119
+                  },
+                  {
+                    "id": "south",
+                    "x": 886.5,
+                    "y": 179
+                  }
+                ]
+              },
+              {
+                "id": "plan",
+                "bbox": {
+                  "x": 675,
+                  "y": 323,
+                  "width": 462,
+                  "height": 136
+                },
+                "ports": [
+                  {
+                    "id": "west",
+                    "x": 675,
+                    "y": 391
+                  },
+                  {
+                    "id": "north",
+                    "x": 906,
+                    "y": 323
+                  }
+                ]
+              }
+            ],
+            "relations": [
+              {
+                "id": "source-concepts",
+                "from": "source",
+                "to": "concepts",
+                "fromPort": "east",
+                "toPort": "west"
+              },
+              {
+                "id": "source-plan",
+                "from": "source",
+                "to": "plan",
+                "fromPort": "east",
+                "toPort": "west"
+              },
+              {
+                "id": "concepts-plan",
+                "from": "concepts",
+                "to": "plan",
+                "fromPort": "south",
+                "toPort": "north"
+              }
+            ]
+          },
+          "readingSupport": {
+            "path": "talks/llm-wiki/materials/keynote-notes.md",
+            "anchor": "세-무방향-관계",
+            "required": [
+              "자료 요약 ↔ 개념·비교",
+              "자료 요약 ↔ 현재 계획",
+              "개념·비교 ↔ 현재 계획",
+              "세 관계"
+            ]
+          }
+        }
+      ],
+      "links": [],
+      "support": {
+        "label": "함께 읽고 고칠 세 관계",
+        "href": "./materials/keynote-notes.md#세-무방향-관계",
+        "sourceLine": 122,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "세-무방향-관계",
+          "required": [
+            "자료 요약 ↔ 개념·비교",
+            "자료 요약 ↔ 현재 계획",
+            "개념·비교 ↔ 현재 계획",
+            "세 관계"
+          ]
+        }
+      },
+      "readArrangement": {
+        "kind": "relation-labels",
+        "minPixels": [
+          16,
+          17,
+          19
+        ]
+      }
+    },
+    {
+      "slide": 8,
+      "id": "plan-revision",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "revision",
+      "native": [
+        {
+          "sourceLine": 146,
+          "tag": "H1",
+          "text": "입문자가 오면 계획이 바뀝니다",
+          "domText": "입문자가 오면 계획이 바뀝니다",
+          "role": "title",
+          "minLogical": 64,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "DIV",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "입문자가 오면 계획이 바뀝니다"
+          ]
+        },
+        {
+          "sourceLine": 151,
+          "tag": "H2",
+          "text": "처음",
+          "domText": "처음",
+          "role": "group-heading",
+          "minLogical": 32,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 0,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "처음"
+          ]
+        },
+        {
+          "sourceLine": 153,
+          "tag": "P",
+          "text": "참여자 배경과 활동 길이는 아직 미정이다.",
+          "domText": "참여자 배경과 활동 길이는 아직 미정이다.",
+          "role": "body",
+          "minLogical": 48,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 0,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "참여자 배경과 활동 길이는 아직 미정이다."
+          ]
+        },
+        {
+          "sourceLine": 158,
+          "tag": "H2",
+          "text": "갱신",
+          "domText": "갱신",
+          "role": "group-heading",
+          "minLogical": 32,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 1,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "갱신"
+          ]
+        },
+        {
+          "sourceLine": 160,
+          "tag": "P",
+          "text": "입문자와 15분 동안 연결의 근거를 찾는다.",
+          "domText": "입문자와 15분 동안 연결의 근거를 찾는다.",
+          "role": "body",
+          "minLogical": 48,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 1,
+          "domParentTag": "SECTION",
+          "emphasis": [
+            {
+              "tag": "STRONG",
+              "text": "입문자와 15분 동안"
+            }
+          ],
+          "boundaries": [],
+          "rows": [
+            "입문자와 15분 동안 연결의 근거를 찾는다."
+          ]
+        }
+      ],
+      "images": [],
+      "links": [],
+      "support": {
+        "label": "같은 계획의 전후 원문과 새 조건",
+        "href": "./materials/keynote-notes.md#계획이-바뀐-근거",
+        "sourceLine": 137,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "계획이-바뀐-근거",
+          "required": [
+            "참여자 배경과 활동 길이는 아직 미정이다.",
+            "가상 조건: 입문자 포함",
+            "입문자와 15분 동안 연결의 근거를 찾는다.",
+            "발표용 요약"
+          ]
+        }
+      },
+      "readArrangement": {
+        "kind": "groups",
+        "count": 2,
+        "insideGap": [
+          -1,
+          13
+        ],
+        "betweenGap": [
+          19,
+          48
+        ]
+      }
+    },
+    {
+      "slide": 9,
+      "id": "small-first-step",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "native": [
+        {
+          "sourceLine": 173,
+          "tag": "H1",
+          "text": "자료 두 개로 시작합니다",
+          "domText": "자료 두 개로 시작합니다",
+          "role": "title",
+          "minLogical": 64,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "DIV",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "자료 두 개로 시작합니다"
+          ]
+        },
+        {
+          "sourceLine": 178,
+          "tag": "H2",
+          "text": "고르기",
+          "domText": "고르기",
+          "role": "group-heading",
+          "minLogical": 48,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 0,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "고르기"
+          ]
+        },
+        {
+          "sourceLine": 180,
+          "tag": "P",
+          "text": "목적과 선택 이유 적기",
+          "domText": "목적과 선택 이유 적기",
+          "role": "body",
+          "minLogical": 34,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 0,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "목적과 선택 이유 적기"
+          ]
+        },
+        {
+          "sourceLine": 182,
+          "tag": "H2",
+          "text": "연결하기",
+          "domText": "연결하기",
+          "role": "group-heading",
+          "minLogical": 48,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 1,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "연결하기"
+          ]
+        },
+        {
+          "sourceLine": 184,
+          "tag": "P",
+          "text": "문서에 근거 연결하기",
+          "domText": "문서에 근거 연결하기",
+          "role": "body",
+          "minLogical": 34,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 1,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "문서에 근거 연결하기"
+          ]
+        },
+        {
+          "sourceLine": 186,
+          "tag": "H2",
+          "text": "확인하기",
+          "domText": "확인하기",
+          "role": "group-heading",
+          "minLogical": 48,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 2,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "확인하기"
+          ]
+        },
+        {
+          "sourceLine": 188,
+          "tag": "P",
+          "text": "원자료로 결론 확인하기",
+          "domText": "원자료로 결론 확인하기",
+          "role": "body",
+          "minLogical": 34,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": 2,
+          "domParentTag": "SECTION",
+          "emphasis": [],
+          "boundaries": [],
+          "rows": [
+            "원자료로 결론 확인하기"
+          ]
+        }
+      ],
+      "images": [],
+      "links": [],
+      "support": {
+        "label": "작은 예제로 따라 하는 첫 단계",
+        "href": "./materials/keynote-notes.md#시작-요청과-선택-기준",
+        "sourceLine": 164,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "시작-요청과-선택-기준",
+          "required": [
+            "자료 두 개를 골라 연결하고",
+            "중요한 내용을 확인하고"
+          ]
+        }
+      },
+      "readArrangement": {
+        "kind": "groups",
+        "count": 3,
+        "insideGap": [
+          -1,
+          13
+        ],
+        "betweenGap": [
+          19,
+          48
+        ]
+      }
+    },
+    {
+      "slide": 10,
+      "id": "first-request",
+      "layout": "blocks",
+      "composition": "quote",
+      "variant": "spacious",
+      "native": [
+        {
+          "sourceLine": 201,
+          "tag": "H1",
+          "text": "첫 요청",
+          "domText": "첫 요청",
+          "role": "quote-context-heading",
+          "minLogical": 38,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "DIV",
+          "emphasis": [],
+          "boundaries": [],
+          "roleReason": "quote 본문보다 작은 한 줄 요청 안내입니다."
+        },
+        {
+          "sourceLine": 203,
+          "tag": "P",
+          "text": "이 자료 두 개를 읽고 내 목적에 맞춰 연결해 줘. 근거와 모르는 점도 남겨 줘.",
+          "domText": "이 자료 두 개를 읽고내 목적에 맞춰 연결해 줘.근거와 모르는 점도 남겨 줘.",
+          "role": "quotation",
+          "minLogical": 66,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "BLOCKQUOTE",
+          "emphasis": [
+            {
+              "tag": "STRONG",
+              "text": "근거와 모르는 점도 남겨 줘."
+            }
+          ],
+          "boundaries": [
+            {
+              "before": "이 자료 두 개를 읽고",
+              "after": "내 목적에 맞춰 연결해 줘."
+            },
+            {
+              "before": "내 목적에 맞춰 연결해 줘.",
+              "after": "근거와 모르는 점도 남겨 줘."
+            }
+          ],
+          "rows": [
+            "이 자료 두 개를 읽고",
+            "내 목적에 맞춰 연결해 줘.",
+            "근거와 모르는 점도 남겨 줘."
+          ]
+        }
+      ],
+      "images": [],
+      "links": [],
+      "support": {
+        "label": "복사해서 고쳐 쓸 시작 요청 전문",
+        "href": "./materials/keynote-notes.md#시작-요청과-선택-기준",
+        "sourceLine": 192,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "시작-요청과-선택-기준",
+          "required": [
+            "원자료는 보존하고",
+            "중요한 결론의 근거, 충돌과 모르는 점",
+            "내가 직접 쓴 생각·판단·선택 이유"
+          ]
+        }
+      }
+    },
+    {
+      "slide": 11,
+      "id": "next-question",
+      "layout": "blocks",
+      "composition": "closing",
+      "variant": null,
+      "native": [
+        {
+          "sourceLine": 217,
+          "tag": "H1",
+          "text": "어떤 질문을 다시 묻고 싶나요?",
+          "domText": "어떤 질문을다시 묻고 싶나요?",
+          "role": "closing-heading",
+          "minLogical": 96,
+          "minReading": 18,
+          "directBody": false,
+          "parentGroup": null,
+          "domParentTag": "DIV",
+          "emphasis": [],
+          "boundaries": [
+            {
+              "before": "어떤 질문을",
+              "after": "다시 묻고 싶나요?"
+            }
+          ],
+          "roleReason": "발표의 마지막 질문은 두 행 전체가 주역입니다.",
+          "rows": [
+            "어떤 질문을",
+            "다시 묻고 싶나요?"
+          ]
+        }
+      ],
+      "images": [],
+      "links": [],
+      "support": {
+        "label": "자료와 예제 읽기",
+        "href": "./materials/keynote-notes.md#다음-질문",
+        "sourceLine": 209,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "다음-질문",
+          "required": [
+            "어떤 자료 두 개로, 어떤 질문을 다시 묻고 싶나요?"
+          ]
+        }
+      }
+    }
+  ],
+  "nativeParagraphs": [
+    {
+      "id": "selection-quote-meaning-row",
+      "path": "talks/llm-wiki/materials/keynote-notes.md",
+      "section": "선택-이유-메모",
+      "text": "‘LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서 이 메모를 골랐다.’",
+      "isQuote": true,
+      "minReading": 18,
+      "wordBreak": "keep-all",
+      "sameRowPhrase": "이 메모를 골랐다",
+      "observedFailure": "research/llm-wiki-keynote-reset-20261113/main-04/read-390/reading-metrics.json"
+    },
+    {
+      "id": "article-adapted-quote",
+      "path": "talks/llm-wiki/materials/keynote-notes.md",
+      "section": "다음-모임의-출발점",
+      "text": "다음 질문에 쓸 근거를 연결된 문서에서 다시 찾고 싶다.",
+      "isQuote": true,
+      "minReading": 18,
+      "wordBreak": "keep-all",
+      "sameRowPhrase": "쓸 근거를"
+    }
+  ]
+}

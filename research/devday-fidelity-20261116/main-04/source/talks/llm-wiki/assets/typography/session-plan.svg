@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" style="background:#080808" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+<title id="title">정리한 지식으로 만든 15분 활동안 발췌</title>
+<desc id="desc">설명용 활동안 재구성. materials/session-plan.md의 목표와 자작 메모 두 개, 네 시간 및 활동, 한 관계의 근거 읽기, 후속 질문과 남은 확인을 보존했다. 실제 운영·학습효과·설치/모델 생성 시간 실측이 아니다.</desc>
+<g font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Malgun Gothic,sans-serif" letter-spacing="-.4">
+<text x="25" y="52" font-size="48" fill="#F6F6F4" font-weight="600" text-anchor="start" data-copy-role="essential">한 관계의 근거를 읽고, 다음 질문과 확인할 점을 남깁니다.</text>
+<text x="25" y="110" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">자작 메모 팩 · 목적과 맥락 + 지식의 활용</text>
+<text x="25" y="192" font-size="48" fill="#F6F6F4" font-weight="600" text-anchor="start" data-copy-role="essential">0~2분</text>
+<text x="280" y="192" font-size="44" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">왜 이 자료를 다시 쓰려는지 질문 정하기</text>
+<text x="25" y="272" font-size="48" fill="#F6F6F4" font-weight="600" text-anchor="start" data-copy-role="essential">2~6분</text>
+<text x="280" y="272" font-size="44" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">선택한 두 읽기 메모 확인하기</text>
+<text x="25" y="352" font-size="48" fill="#F6F6F4" font-weight="600" text-anchor="start" data-copy-role="essential">6~11분</text>
+<text x="280" y="352" font-size="44" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">원자료→개념→비교의 연결 한 개 따라 읽기</text>
+<text x="25" y="432" font-size="48" fill="#F6F6F4" font-weight="600" text-anchor="start" data-copy-role="essential">11~15분</text>
+<text x="280" y="432" font-size="44" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">후속 질문에 근거를 연결하고 남은 확인 적기</text>
+<path d="M25 474H1475" fill="none" stroke="#999995" stroke-width="3"/>
+<text x="25" y="530" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">활동안 발췌 · 시간 배분 예시</text>
+<text x="25" y="585" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">실제 운영·학습효과·설치/모델 생성 시간의 실측이 아닙니다.</text>
+</g>
+</svg>

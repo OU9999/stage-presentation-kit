@@ -224,6 +224,18 @@ test('the two authored eight-slide stories preserve semantic AST, references and
   assert.equal(totalGroups,5);assert.equal(totalImages,10);
 });
 
+test('explicit unframed results adapter retains its native title, media paths and whole-source origin', () => {
+  const source = '# 앞 장\n\n---\n\n<!-- stage\nlayout: results\nvariant: unframed\nquiet: true\n-->\n# 읽은 자료가\n# 다음 작업으로\n\n![가로 자료](wide.png)\n![세로 자료](portrait.png)';
+  const deck = parseDocument(source, { sourcePath: 'talks/example/slides.md' });
+  const result = deck.slides[1];
+  assert.equal(result.layout, 'results'); assert.equal(result.variant, 'unframed');
+  assert.deepEqual(result.title, ['읽은 자료가', '다음 작업으로']);
+  assert.deepEqual(result.items.map(item => item.src), ['wide.png', 'portrait.png']);
+  assert.equal(result.origin.line, 5);
+  assert.equal(collectReferences(deck).filter(ref => ref.kind === 'image').length, 2);
+  assert.throws(() => parseDocument('<!-- stage\nlayout: statement\nvariant: unframed\n-->\n# 제목'), /variant/);
+});
+
 test('the two new reusable-layout stories keep their original AST, links, captions and source positions', () => {
   const fs=require('node:fs'),path=require('node:path'),model=require('../deck-model.js');
   for(const [name,count] of [['photo-essay',8],['community-exhibit',9]]){

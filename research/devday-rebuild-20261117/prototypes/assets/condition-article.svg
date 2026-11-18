@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="660" viewBox="0 0 760 660" data-material-kind="editorial-adaptation" data-source="expanded-study.txt:raw/study-retro.md" role="img" aria-labelledby="title desc">
+<title id="title">다음 모임을 준비하며 — 스터디 조건 노트</title>
+<desc id="desc">발표팀의 조건 메모를 기사형으로 다시 편집한 어두운 자료 표면이다. 큰 제목 아래 입문자·별도15분·준비된 세 메모와 연결의 근거를 읽는 목적이 연속 본문으로 이어진다. 문구는 새 설명용 편집이며 원문 전체의 정확 인용이나 실제 참가자 기록이 아니다. 옆의 밝은 인용카드는 이 표면과 다른 크기로 한 구절만 읽도록 별도 native 글자로 배치한다.</desc>
+<defs><linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#292a30"/><stop offset="1" stop-color="#191a1f"/></linearGradient></defs>
+<rect width="760" height="660" rx="16" fill="url(#paper)"/>
+<g font-family="Arial,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" letter-spacing="-.6">
+<text x="380" y="64" text-anchor="middle" font-size="18" fill="#bab7c0">스터디 노트 · 조건과 목적</text>
+<text x="380" y="143" text-anchor="middle" font-size="52" font-weight="400" fill="#f6f4fa"><tspan x="380">다음 모임을 준비하며</tspan><tspan x="380" dy="64">연결을 따라 읽는 경험</tspan></text>
+<g font-size="24" fill="#d1ced7">
+<text x="66" y="297">입문자와 함께하는 짧은 읽기 활동을 준비한다.</text>
+<text x="66" y="333">본편 뒤에는 15분의 시간이 있다.</text>
+<text x="66" y="394">세 메모를 모두 새로 만드는 대신,</text>
+<text x="66" y="430">이미 남긴 문서와 연결을 따라가 보기로 했다.</text>
+<text x="66" y="491">중요한 것은 도구를 설치하는 순서가 아니라</text>
+<text x="66" y="527">다음 질문에서 근거를 다시 찾는 경험이다.</text>
+<text x="66" y="588">읽은 내용은 다음 질문과 함께 남긴다.</text>
+</g></g></svg>

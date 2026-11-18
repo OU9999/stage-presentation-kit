@@ -1,0 +1,126 @@
+[
+  {
+    "judge": "art-direction",
+    "width": 1920,
+    "record": "research/devday-fidelity-20261116/evidence/round-01/reviews/art-direction-1920.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": false,
+      "passed": true,
+      "counts": {
+        "approved": 2,
+        "needs-changes": 2,
+        "unreviewed": 0
+      },
+      "scopeCount": 4,
+      "slideCount": 4
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": false,
+      "passed": false,
+      "counts": {
+        "approved": 2,
+        "needs-changes": 2,
+        "unreviewed": 0
+      },
+      "scopeCount": 4,
+      "slideCount": 4
+    }
+  },
+  {
+    "judge": "art-direction",
+    "width": 1280,
+    "record": "research/devday-fidelity-20261116/evidence/round-01/reviews/art-direction-1280.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": false,
+      "passed": true,
+      "counts": {
+        "approved": 2,
+        "needs-changes": 2,
+        "unreviewed": 0
+      },
+      "scopeCount": 4,
+      "slideCount": 4
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": false,
+      "passed": false,
+      "counts": {
+        "approved": 2,
+        "needs-changes": 2,
+        "unreviewed": 0
+      },
+      "scopeCount": 4,
+      "slideCount": 4
+    }
+  },
+  {
+    "judge": "reading-meaning",
+    "width": 1920,
+    "record": "research/devday-fidelity-20261116/evidence/round-01/reviews/reading-meaning-1920.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": false,
+      "passed": true,
+      "counts": {
+        "approved": 2,
+        "needs-changes": 2,
+        "unreviewed": 0
+      },
+      "scopeCount": 4,
+      "slideCount": 4
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": false,
+      "passed": false,
+      "counts": {
+        "approved": 2,
+        "needs-changes": 2,
+        "unreviewed": 0
+      },
+      "scopeCount": 4,
+      "slideCount": 4
+    }
+  },
+  {
+    "judge": "reading-meaning",
+    "width": 1280,
+    "record": "research/devday-fidelity-20261116/evidence/round-01/reviews/reading-meaning-1280.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": false,
+      "passed": true,
+      "counts": {
+        "approved": 2,
+        "needs-changes": 2,
+        "unreviewed": 0
+      },
+      "scopeCount": 4,
+      "slideCount": 4
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": false,
+      "passed": false,
+      "counts": {
+        "approved": 2,
+        "needs-changes": 2,
+        "unreviewed": 0
+      },
+      "scopeCount": 4,
+      "slideCount": 4
+    }
+  }
+]

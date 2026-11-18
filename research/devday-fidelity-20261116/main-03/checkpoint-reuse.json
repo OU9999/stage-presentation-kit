@@ -1,0 +1,25 @@
+{
+  "inputsEqual": true,
+  "pngs": [
+    {
+      "width": 1920,
+      "slide": 3,
+      "exactPixels": true
+    },
+    {
+      "width": 1920,
+      "slide": 7,
+      "exactPixels": true
+    },
+    {
+      "width": 1280,
+      "slide": 3,
+      "exactPixels": true
+    },
+    {
+      "width": 1280,
+      "slide": 7,
+      "exactPixels": true
+    }
+  ]
+}

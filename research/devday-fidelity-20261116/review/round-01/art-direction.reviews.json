@@ -1,0 +1,92 @@
+{
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1920, "height": 1080, "devicePixelRatio": 1},
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:30:40Z",
+      "reason": "같은 질문과 구체 문서명은 생겼지만 공통 원자료·이번 답 두 번과 이번 입력/현재 입력에서 종합이라는 동의 설명이 비교 차이보다 큰 무게를 가진다. 지속되는 문서는 작은 라벨 아래 절차의 중간 단계처럼 읽혀, Codex01:30의 같은 창 안 차이처럼 비교 주역이 먼저 보이지 않는다. 공통 양끝/동의 설명을 묶고 이번 입력과 지속문서의 차이를 주역으로 재편집해야 한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-01.png"],
+      "owner": "/root/devday_creation_manager",
+      "nextAction": "공통 양끝과 동의 설명을 묶고 중앙 비교 대상을 가장 크게 편집한다. 필요한 구절은 기존 라벨을 대체하고 추가로 쌓지 않는다. 병행 가능성과 교육용 예 지위를 보존한 뒤 새1·현1·Codex01:30·본편04–06 문맥을1920/1280에서 다시 제출한다."
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1920, "height": 1080, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:30:40Z",
+      "reason": "작은 목적과 맥락 요약입구에서 큰 기존 LLM Wiki/RAG와 위키 및 다음 스터디의 첫 시도라는 실제 문서명이 먼저 읽히고 세 무방향선을 따라갈 수 있다. 두 큰 면은 문서 소속과 위계를 묶고 하단 설명은 낮은 위계라 관계 파악을 막지 않는다. 기존07의 세선 장점과 이번 구체성 개선을 함께 보존한 현재 발표 실물을 국소 수동 채택한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-02.png"]
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1920, "height": 1080, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:30:40Z",
+      "reason": "완전한 활동안 제목으로 누구를 위한 어떤 결과 문서인지 특정되며 밝은 한 문서면의 활동 시간/할 일/남길 것 세필드와6~11분 한행이 크고 안정적으로 읽힌다. 15분 진행안이라는 원문 절 제목이 핵심 행을 밀어내지 않았고 설명용 활동안·발췌 지위도 구별된다. 기존13의 유효한 한대상 구조와 추가된 자료 정체성을 국소 수동 채택한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-03.png"]
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1920, "height": 1080, "devicePixelRatio": 1},
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:30:40Z",
+      "reason": "다음 모임의 조건 메모라는 정체성과 선택 위치·큰 정확 인용은 이전 회색판보다 구체적이다. 그러나 왼쪽 제목/세조건/선택구절과 오른쪽 작은질문/인용/목적재설명/예시표지를 병행 독서하게 한다. keynote24:00의 자료 정체성과 한 인용의 무게 분리보다 설명층이 많아 질문과 목적 대조의 주역이 약해진다. 필수 조건을 보존하며 읽는 경로를 다시 편집해야 한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-04.png"],
+      "owner": "/root/devday_creation_manager",
+      "nextAction": "질문↔정확 목적구절↔근거 위치를 하나의 경로로 묶는다. 입문자·별도15분·정확목적은 읽을크기로 남기며 세메모 팩 전체설명/목적재설명/반복 예시층을 역할 분리한다. 새4·현4·기존15·keynote24:00·본편14–16 문맥을1920/1280에서 다시 제출한다."
+    },
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1280, "height": 720, "devicePixelRatio": 1},
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:30:40Z",
+      "reason": "실제917×516 Stage에서도 공통 원자료·이번 답과 이번 입력의 동의 설명을 순서대로 해독해야 하고 지속문서의 차이가 작은 라벨 아래 놓인다. 다음 스터디의 첫 시도 문서명이 좁은 상자에서 세행으로 잘게 읽혀 비교 초점이 더 약하다. 공통 양끝을 묶고 핵심 비교 대상과 문서명 폭을 다시 편집해야 한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-01.png"],
+      "owner": "/root/devday_creation_manager",
+      "nextAction": "1920과 같은 구조 교정을 적용하고 문서명을 의미 단위로 읽을 폭을 확보한다. 일괄 font축소/색추가로 해결하지 않으며 교정후1과04–06 흐름을 실제1280 Stage에서 재확인한다."
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1280, "height": 720, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:30:40Z",
+      "reason": "실제917×516 Stage에서도 목적과 맥락 요약입구와 LLM Wiki/RAG와 위키·다음 스터디의 첫 시도라는 기존 문서명이 구분되고 세선의 소속을 따라갈 수 있다. 큰 두 면은 두 문서를 포함한 영역과 계획의 위계를 묶으며 하단 한행은 보조로 남는다. 구체 문서명과 세 무방향관계를 읽는 현재 실물을 국소 수동 채택한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-02.png"]
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1280, "height": 720, "devicePixelRatio": 1},
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:30:40Z",
+      "reason": "실제917×516 Stage에서 완전한 활동안 제목과 절 이름이 문서 정체성을 주고, 세필드·6~11분 한행의 행동과 남길 근거위치가 충분히 구분된다. 중복된15분 표현이 핵심 행을 밀어내는 독립 경쟁으로 보이지 않으며 설명용 한행 발췌 지위도 남는다. 이 발표 크기의 결과 문서 역할을 국소 수동 채택한다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-03.png"]
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {"width": 1280, "height": 720, "devicePixelRatio": 1},
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T06:30:40Z",
+      "reason": "실제917×516 Stage에서도 밝은 source의 제목·세조건·선택줄과 오른쪽 작은질문·큰인용·목적재설명·예시표지를 함께 읽어야 한다. source 정체성은 개선됐으나 질문과 정확목적 대조라는 한 주역보다 두 독서면과 보충층이 경쟁한다. 작은 질문만 확대하거나 필수 조건을 숨기는 방식이 아닌 역할 편집이 필요하다.",
+      "evidence": ["research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-04.png"],
+      "owner": "/root/devday_creation_manager",
+      "nextAction": "1920과 같은 읽기 경로 재편집을 적용하되 입문자·별도15분·정확목적을 실제1280 Stage에서도 읽게 한다. 반복 해석/예시층만 정리하고 교정후4·keynote24:00·본편14–16 문맥을 두크기로 재확인한다."
+    }
+  ]
+}

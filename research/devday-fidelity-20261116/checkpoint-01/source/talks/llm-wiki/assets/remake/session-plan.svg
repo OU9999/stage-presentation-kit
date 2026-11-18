@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" style="background:#080808" role="img" aria-labelledby="title desc">
+  <title id="title">입문자와 함께 읽는 15분 LLM Wiki 활동안 발췌</title>
+  <desc id="desc">등록 자료 materials/session-plan.md에서 목표, 자작 주제 메모 목적과 맥락 및 지식의 활용, 네 활동 구간을 발췌했다. 0~2분 질문 정하기, 2~6분 두 읽기 메모 확인, 6~11분 원자료에서 개념과 비교로 이어진 관계 한 개와 근거 읽기, 11~15분 후속 질문과 남은 확인 기록이다. 실제 운영·학습효과·설치 및 모델 생성 시간의 실측이 아닌 시간 배분 예시다.</desc>
+  <rect x="24" y="8" width="1452" height="584" rx="8" fill="#F6F6F4" stroke="#CDCDC7" stroke-width="2"/>
+  <g font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif" letter-spacing="-.4">
+    <text x="65" y="53" font-size="28" fill="#62625F">활동안 발췌 · 시간 배분 예시</text>
+    <text x="65" y="110" font-size="43" font-weight="600" fill="#1D1D1B">입문자와 함께 읽는 15분 LLM Wiki 활동</text>
+    <text x="65" y="165" font-size="33" font-weight="550" fill="#1D1D1B">목표: 한 관계의 근거를 찾아 읽고, 다음 질문과 확인할 점을 남긴다.</text>
+    <text x="65" y="207" font-size="29" fill="#454542">실제 운영·학습효과·설치/모델 생성 시간의 실측이 아닙니다.</text>
+    <text x="65" y="253" font-size="29" fill="#62625F">자작 주제 메모 팩 · 목적과 맥락 + 지식의 활용</text>
+    <path d="M65 277H1435" fill="none" stroke="#CDCDC7" stroke-width="2"/>
+    <g fill="#1D1D1B" font-size="35">
+      <g font-weight="550">
+        <text x="65" y="330">0~2분</text>
+        <text x="65" y="403">2~6분</text>
+        <text x="65" y="476">6~11분</text>
+        <text x="65" y="549">11~15분</text>
+      </g>
+      <text x="300" y="330">왜 이 자료를 다시 쓰려는지 질문 정하기</text>
+      <text x="300" y="403">선택한 두 읽기 메모 확인하기</text>
+      <text x="300" y="476" font-weight="600">원자료→개념→비교의 연결 한 개를 따라 읽기</text>
+      <text x="300" y="549">후속 질문에 근거를 연결하고 남은 확인 적기</text>
+    </g>
+  </g>
+</svg>

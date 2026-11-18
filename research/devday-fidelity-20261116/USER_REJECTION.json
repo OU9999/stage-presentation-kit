@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-16",
+  "source": "explicit user message",
+  "reason": "OpenAI DevDay aesthetic disappeared; main-05 is rejected. Prepare a verification team using project history, real visuals, official DevDay research and current open-source presentation tools before restarting the design loop.",
+  "priorReviews": [
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-05/reviews/present-1280.review.json",
+      "sha256": "779331c4983dc82462210c574192383935917ad6e3651878c306ca6d873b4ca4"
+    },
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-05/reviews/present-1920.review.json",
+      "sha256": "177ecddee677601b0bf24584e72f599a24a1ba099dfb0ea50761520997d93b6a"
+    },
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-05/reviews/read-1440.review.json",
+      "sha256": "8587e2740138ac8f89c6242247503d189bf826410b2e35cf82fe365472527a54"
+    },
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-05/reviews/read-390.review.json",
+      "sha256": "1b1805d3b33bc5de3132fabe50542444400d0cf2522a59d6001f60f3b40035fb"
+    }
+  ],
+  "status": "needs-changes",
+  "historicalEvidencePreserved": true
+}

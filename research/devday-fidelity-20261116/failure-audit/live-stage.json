@@ -1,0 +1,21 @@
+{
+  "url": "http://127.0.0.1:4336/presentations/llm-wiki/#5",
+  "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+  "mode": "present",
+  "theme": "stage",
+  "slides": 20,
+  "active": 5,
+  "runtime": {
+    "blocks": true,
+    "model": true,
+    "visual": true
+  },
+  "images": [
+    {
+      "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/8af85adfb586-same-question-comparison.svg",
+      "complete": true,
+      "naturalWidth": 1440
+    }
+  ],
+  "font": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif"
+}

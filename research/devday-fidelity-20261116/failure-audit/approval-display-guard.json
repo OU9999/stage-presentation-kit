@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "research/devday-fidelity-20261116/write-final-report.py",
+    "main-04"
+  ],
+  "exit": 1,
+  "stdout": "",
+  "stderr": "Current user rejection supersedes historical internal approval; refusing to publish approved result.\n",
+  "resultUnchanged": true
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="650" viewBox="0 0 680 650" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">다음 모임의 조건 메모와 목적 구절의 선택 위치</title>
+  <desc id="desc">팩의 raw/study-retro.md 나중에 추가 구간을 식별하는 간결한 문서면이다. 다음 모임의 조건 메모라는 정확 제목, 발표팀의 주제 메모 세 개라는 줄인 팩 문맥 단서, 목적 구절을 고른 실제 논리 위치를 표시한다. 세 메모 단서는 원문 문장 전체의 정확 발췌가 아닌 문맥 요약이다. 노란 선택 표식과 prefix는 도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다라는 정확 목적의 위치를 가리키며 전문은 오른쪽 편집 가능한 native 인용으로 읽는다. 입문자와 본편 뒤 별도 활동15분이라는 필수 가상 조건은 오른쪽 native 확인 질문에 읽을 크기로 묶는다. 이는 발표팀 자작 가상 예의 논리 구간이며 독립 공개 파일·실제 앱 UI·사용자 기록·모델 출력이 아니다.</desc>
+  <style>
+    text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.2px}
+    .identity{font-size:43px;fill:#202221;font-weight:500}
+    .context{font-size:35px;fill:#4b554e;font-weight:400}
+    .selection{font-size:36px;fill:#303630;font-weight:500}
+  </style>
+  <g data-document-id="study-retro" data-logical-source="raw/study-retro.md — 나중에 추가">
+    <rect x="18" y="151" width="630" height="350" rx="2" fill="#f2f0e8"/>
+    <text class="identity" x="54" y="226">다음 모임의 조건 메모</text>
+    <text class="context" x="54" y="293" data-text-role="pack-context-summary">발표팀의 주제 메모 세 개</text>
+    <path d="M54 327H612" fill="none" stroke="#b6bab2" stroke-width="1.5"/>
+    <g data-selection-id="purpose" data-selected-text="도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.">
+      <rect x="54" y="365" width="558" height="60" fill="#e5d79d"/>
+      <text class="selection" x="66" y="407">도구 설치보다 목차와 연결을…</text>
+      <path d="M612 395H674" fill="none" stroke="#e5d79d" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

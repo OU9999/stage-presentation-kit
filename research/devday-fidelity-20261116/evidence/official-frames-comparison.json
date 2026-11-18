@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=XkKdbPhIvbY",
+    "title": "Codex Has Left The Laptop | DevDay 2026 - YouTube",
+    "videoData": {
+      "video_id": "XkKdbPhIvbY",
+      "title": "Codex Has Left The Laptop | DevDay 2026",
+      "author": "OpenAI"
+    },
+    "time": 90,
+    "paused": true,
+    "readyState": 4,
+    "videoWidth": 2560,
+    "videoHeight": 1440,
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "viewport": {
+      "width": 1920,
+      "height": 940,
+      "dpr": 2
+    },
+    "rect": {
+      "x": 16,
+      "y": 68,
+      "width": 1344,
+      "height": 756
+    },
+    "file": "evidence/official-XkKdbPhIvbY-90.png",
+    "observation": "Fresh official video seek frame; not a claim of continuous playback or full-video review."
+  }
+]

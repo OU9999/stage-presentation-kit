@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-11-16T08:17:12.717727+00:00",
+  "reviewer": "/root",
+  "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+  "scope": "4 presentation checkpoint individuals with exact current PNG/input reuse proof; 6 current flow boards; 2 mobile reading individuals; 4 native support views. Not root all80 review.",
+  "seen": [
+    {
+      "path": "research/devday-fidelity-20261116/checkpoint-02/present-1920/slide-03.png",
+      "sha256": "5b6baabfd93631fc8959a0606eebbe656b8d55f417779844c8ec2c882dc8fcb4"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/checkpoint-02/present-1920/slide-07.png",
+      "sha256": "dc462b4e991eb54df2f524fdfedc5ba86f4b74f582bb292111d03452baecb975"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/checkpoint-02/present-1280/slide-03.png",
+      "sha256": "0d7a025e83bdaba7bd6d4cd71a4ac032cbaff89509169eeb732bd6704b9fd8db"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/checkpoint-02/present-1280/slide-07.png",
+      "sha256": "54942f08c427dc3db4c05030c9b3a2725501b63b0dd009078b62cfbbf8117b32"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/present-1920/contact-01-08.jpg",
+      "sha256": "3bb80dab20e8ec53625c5514e8623e6189c991a22bd51427a455a4098933159c"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/present-1920/contact-09-16.jpg",
+      "sha256": "00b79740a5dee948101e922ded4657c066dffaa7b9956dfe3316d9a3fd78465f"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/present-1920/contact-17-20.jpg",
+      "sha256": "30286632d991fea0375042dff8d0af6d76a0e202669f205b729264cc8c53a973"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/present-1280/contact-01-08.jpg",
+      "sha256": "9318f1ab4c16696ee9c13fb00410c2b04c9ae3b6c74cde64dd9d2cf7e650a2f5"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/present-1280/contact-09-16.jpg",
+      "sha256": "54544626fde7e0e51fb3af078775db65e6510c0f438b4682d44fd38f659102e9"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/present-1280/contact-17-20.jpg",
+      "sha256": "bd737d6b64e52a7eb09761f8139739687c90390fae1b32cf118c220a450ae024"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/read-390/slide-03.png",
+      "sha256": "249adeed6240555f762a80925c73d122a7b11702a6686fe9de28479845ac3f23"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/read-390/slide-07.png",
+      "sha256": "30124de627ee96f0f8cd005ceb9fc48e20ae0ec4797356282f19d42e9a9c8a92"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-03-390.png",
+      "sha256": "ec4c3f526976c95e4279697500d4a68165e2803ee6b1e52fe3ac952471168cc4"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-07-390.png",
+      "sha256": "b7e78c45149edfa8006cabe392a8a7ba4d5a55ea560aefaef88536b526ad457b"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-15-390.png",
+      "sha256": "1ec7696d319ae5c9c23e3043d7132cc9b42e5807bcb99181a86af06da7a9031d"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-15-1440.png",
+      "sha256": "d94a83203fa72eb2d4ab9fd966d03d0fc2cae58860ffa1a2aaf1c9af93577638"
+    }
+  ],
+  "observations": [
+    "The new 03 four authored meaning rows preserve every word and the orange selection. Mobile now keeps 만들고 싶어서 together rather than leaving 싶어서 alone. The extra authored row remains one selected-reason unit in presentation, without heading/provenance collision.",
+    "Current7 now says 입문자와 하는 / 첫 위키 활동, matching revised6. Two large document regions retain the same three undirected relationships, with intact ports and labels. The same plan remains coherent in the updated flow and native support.",
+    "Native support15 now presents the exact question as a separate readable strong paragraph, with no exposed ** markers. Authored fictional status, full conditions/purpose and access to the original pack remain. New support03/15 use reader language for the excerpt and authorship.",
+    "No additional core veto in this limited actual view; whole current independent presentation/reading review remains pending. This first look is not main approval."
+  ],
+  "status": "Provisional limited root view, withheld from new independent drafts"
+}

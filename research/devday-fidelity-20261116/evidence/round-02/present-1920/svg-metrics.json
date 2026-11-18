@@ -1,0 +1,689 @@
+{
+  "revision": "619000010e74a25f32fe8fa0e8df15d839cc26be1c63e219353acc5315e01912",
+  "hashes": {
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "9df68a89884b181f57575d7b1a3cce78bcaf6561de39d081472963e715c911cf",
+    "blocks.js": "3be7ddac62ab3abf1d322d308d45c2fc80c6c0f31f04c5679350d5f763be70f9",
+    "deck-model.js": "48406917d2bfbbfc7feb57ca70453dbd0c76ee8d1e565fe7b8e24823ebcbbd0e",
+    "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+    "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+    "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+    "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+    "lib/markdown-document.cjs": "63098e2db053da7ff89f2ff36729faf809e36829a93d0cac822088a17e026e32",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+    "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+    "research/devday-fidelity-20261116/prototypes/ou.config.json": "9337979294388993de3426e9a4349efb4c2b0b7858fe1c00ddeadf56abc8c528",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/condition-note-selection.svg": "9993d662f26dc7ca919992a1c6903bfe92ac25ef6e9258fe96d1bdda9c672253",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/connected-documents.svg": "a4c427e681b8a11b7b0dabe49d7e5a0f54b8281669caf09e5f6dedb0ba0fb984",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/same-question-comparison.svg": "435063bf0d2507c1f7ad3e6426d79c79192f47a26f2f1b327a98b8fbf9c19c42",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/session-plan-row.svg": "b6ab52487f39481d8e9ad93906d6bb23788e113c2600b327001468c956d7c85d",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/notes.md": "67b770d6476a6bb52c9ed4294119f4191e1160bb21bfc8bbc9545e451a400b7d",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/reading-pack.md": "68f526ee7ee00524b9059d90a66b26978b017cd58db030212d2c32de9fea2c78",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/materials/study-pack.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "research/devday-fidelity-20261116/prototypes/talks/round-02/slides.md": "619000010e74a25f32fe8fa0e8df15d839cc26be1c63e219353acc5315e01912",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+    "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+    "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "scripts/llm-wiki-keynote-qa.cjs": "7fa9307535aadd620b40b2af2f1988ef09a54ebf538f40edce3799930e7d6e9b",
+    "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+    "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+    "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+    "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+    "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+    "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+    "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+  },
+  "captureManifest": {
+    "path": "research/devday-fidelity-20261116/evidence/round-02/present-1920/manifest.json",
+    "sha256": "e8fd940d2286ebb76c0ee01bbc08f1f83f1ed67ad4503aa16461185e37a799ac"
+  },
+  "method": "Observed SVG geometry/fonts at the actual contain scale; no aesthetic approval.",
+  "observations": [
+    {
+      "slide": 1,
+      "url": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/assets/435063bf0d25-same-question-comparison.svg",
+      "sourcePaths": [
+        "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/same-question-comparison.svg"
+      ],
+      "sha256": "435063bf0d2507c1f7ad3e6426d79c79192f47a26f2f1b327a98b8fbf9c19c42",
+      "stageScale": 0.9733334350585937,
+      "projectedScale": 0.8696300068839652,
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 610
+      },
+      "materialKind": "explanatory-reconstruction",
+      "texts": [
+        {
+          "text": "관련",
+          "class": "common",
+          "role": null,
+          "fontSize": "39px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 52,
+            "y": 287.5,
+            "right": 116.875,
+            "bottom": 331.5
+          },
+          "glyphCount": 2,
+          "projectedPixels": 33.915570268474646,
+          "stageLogicalPixels": 34.84476033275582
+        },
+        {
+          "text": "원자료",
+          "class": "common",
+          "role": null,
+          "fontSize": "39px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 52,
+            "y": 336.5,
+            "right": 149.3125,
+            "bottom": 380.5
+          },
+          "glyphCount": 3,
+          "projectedPixels": 33.915570268474646,
+          "stageLogicalPixels": 34.84476033275582
+        },
+        {
+          "text": "기본 검색-생성 예",
+          "class": "route",
+          "role": null,
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 340,
+            "y": 27.5,
+            "right": 576.9765625,
+            "bottom": 67.5
+          },
+          "glyphCount": 10,
+          "projectedPixels": 31.306680247822747,
+          "stageLogicalPixels": 32.16439415331306
+        },
+        {
+          "text": "현재 입력에서 종합",
+          "class": "current",
+          "role": null,
+          "fontSize": "50px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 380,
+            "y": 114.5,
+            "right": 740.9832763671875,
+            "bottom": 170.5
+          },
+          "glyphCount": 10,
+          "projectedPixels": 43.48150034419826,
+          "stageLogicalPixels": 44.67276965737925
+        },
+        {
+          "text": "위키를 유지하는 예",
+          "class": "route",
+          "role": null,
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 340,
+            "y": 230.5,
+            "right": 596.125,
+            "bottom": 270.5
+          },
+          "glyphCount": 10,
+          "projectedPixels": 31.306680247822747,
+          "stageLogicalPixels": 32.16439415331306
+        },
+        {
+          "text": "남아 다시 읽는 문서",
+          "class": "difference",
+          "role": null,
+          "fontSize": "52px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 340,
+            "y": 283,
+            "right": 728.8828125,
+            "bottom": 341
+          },
+          "glyphCount": 11,
+          "projectedPixels": 45.22076035796619,
+          "stageLogicalPixels": 46.45968044367442
+        },
+        {
+          "text": "처음 계획",
+          "class": "state",
+          "role": null,
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 380,
+            "y": 374,
+            "right": 500.59375,
+            "bottom": 412
+          },
+          "glyphCount": 5,
+          "projectedPixels": 29.567420234054815,
+          "stageLogicalPixels": 30.377483367017888
+        },
+        {
+          "text": "다음 스터디의 첫 시도",
+          "class": "document",
+          "role": null,
+          "fontSize": "42px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 380,
+            "y": 424,
+            "right": 726.3828125,
+            "bottom": 471
+          },
+          "glyphCount": 12,
+          "projectedPixels": 36.52446028912654,
+          "stageLogicalPixels": 37.52512651219857
+        },
+        {
+          "text": "참여자 배경과 활동 길이는아직 미정이다.",
+          "class": "excerpt",
+          "role": null,
+          "fontSize": "43px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 380,
+            "y": 482,
+            "right": 806.7890625,
+            "bottom": 585
+          },
+          "glyphCount": 22,
+          "projectedPixels": 37.3940902960105,
+          "stageLogicalPixels": 38.41858190534615
+        },
+        {
+          "text": "이번 답",
+          "class": "common",
+          "role": null,
+          "fontSize": "39px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 1257,
+            "y": 310.5,
+            "right": 1364.282470703125,
+            "bottom": 354.5
+          },
+          "glyphCount": 4,
+          "projectedPixels": 33.915570268474646,
+          "stageLogicalPixels": 34.84476033275582
+        }
+      ],
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "slide": 2,
+      "url": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/assets/a4c427e681b8-connected-documents.svg",
+      "sourcePaths": [
+        "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/connected-documents.svg"
+      ],
+      "sha256": "a4c427e681b8a11b7b0dabe49d7e5a0f54b8281669caf09e5f6dedb0ba0fb984",
+      "stageScale": 0.9733334350585937,
+      "projectedScale": 0.9571111891004774,
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 610
+      },
+      "materialKind": "explanatory-reconstruction",
+      "texts": [
+        {
+          "text": "자료 요약",
+          "class": "role",
+          "role": null,
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 64,
+            "y": 268,
+            "right": 184.73831176757812,
+            "bottom": 306
+          },
+          "glyphCount": 5,
+          "projectedPixels": 32.541780429416235,
+          "stageLogicalPixels": 33.43333256342648
+        },
+        {
+          "text": "목적과 맥락",
+          "class": "entry",
+          "role": null,
+          "fontSize": "44px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 64,
+            "y": 325,
+            "right": 258.556640625,
+            "bottom": 374.5
+          },
+          "glyphCount": 6,
+          "projectedPixels": 42.112892320421004,
+          "stageLogicalPixels": 43.26666567031661
+        },
+        {
+          "text": "원자료의 입구",
+          "class": "note",
+          "role": null,
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 32,
+            "y": 425,
+            "right": 208.21432495117188,
+            "bottom": 463
+          },
+          "glyphCount": 7,
+          "projectedPixels": 32.541780429416235,
+          "stageLogicalPixels": 33.43333256342648
+        },
+        {
+          "text": "개념·비교",
+          "class": "role",
+          "role": null,
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 718,
+            "y": 67,
+            "right": 840.0703125,
+            "bottom": 105
+          },
+          "glyphCount": 5,
+          "projectedPixels": 32.541780429416235,
+          "stageLogicalPixels": 33.43333256342648
+        },
+        {
+          "text": "LLM Wiki",
+          "class": "document",
+          "role": null,
+          "fontSize": "55px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 718,
+            "y": 122,
+            "right": 932.9296875,
+            "bottom": 183.5
+          },
+          "glyphCount": 8,
+          "projectedPixels": 52.64111540052626,
+          "stageLogicalPixels": 54.083332087895776
+        },
+        {
+          "text": "RAG와 위키",
+          "class": "document",
+          "role": null,
+          "fontSize": "55px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 718,
+            "y": 197,
+            "right": 985.390625,
+            "bottom": 258.5
+          },
+          "glyphCount": 7,
+          "projectedPixels": 52.64111540052626,
+          "stageLogicalPixels": 54.083332087895776
+        },
+        {
+          "text": "현재 계획",
+          "class": "role",
+          "role": null,
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 718,
+            "y": 405,
+            "right": 838.09375,
+            "bottom": 443
+          },
+          "glyphCount": 5,
+          "projectedPixels": 32.541780429416235,
+          "stageLogicalPixels": 33.43333256342648
+        },
+        {
+          "text": "다음 스터디의 첫 시도",
+          "class": "document",
+          "role": null,
+          "fontSize": "55px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 718,
+            "y": 467,
+            "right": 1175.21875,
+            "bottom": 528.5
+          },
+          "glyphCount": 12,
+          "projectedPixels": 52.64111540052626,
+          "stageLogicalPixels": 54.083332087895776
+        }
+      ],
+      "nodes": [
+        {
+          "id": "source-summary",
+          "tag": "g",
+          "bbox": {
+            "x": 32,
+            "y": 252,
+            "right": 384,
+            "bottom": 463
+          }
+        },
+        {
+          "id": "concept-comparison",
+          "tag": "g",
+          "bbox": {
+            "x": 672,
+            "y": 46,
+            "right": 1376,
+            "bottom": 290
+          }
+        },
+        {
+          "id": "current-plan",
+          "tag": "g",
+          "bbox": {
+            "x": 672,
+            "y": 384,
+            "right": 1376,
+            "bottom": 576
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "summary-concept",
+          "from": "source-summary",
+          "to": "concept-comparison",
+          "start": {
+            "x": 384,
+            "y": 329
+          },
+          "end": {
+            "x": 672,
+            "y": 169
+          },
+          "stroke": "rgb(152, 165, 165)",
+          "strokeWidth": "2.5px",
+          "markerStart": "none",
+          "markerEnd": "none"
+        },
+        {
+          "id": "summary-plan",
+          "from": "source-summary",
+          "to": "current-plan",
+          "start": {
+            "x": 384,
+            "y": 329
+          },
+          "end": {
+            "x": 672,
+            "y": 480
+          },
+          "stroke": "rgb(152, 165, 165)",
+          "strokeWidth": "2.5px",
+          "markerStart": "none",
+          "markerEnd": "none"
+        },
+        {
+          "id": "concept-plan",
+          "from": "concept-comparison",
+          "to": "current-plan",
+          "start": {
+            "x": 1024,
+            "y": 290
+          },
+          "end": {
+            "x": 1024,
+            "y": 384
+          },
+          "stroke": "rgb(152, 165, 165)",
+          "strokeWidth": "2.5px",
+          "markerStart": "none",
+          "markerEnd": "none"
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "url": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/assets/b6ab52487f39-session-plan-row.svg",
+      "sourcePaths": [
+        "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/session-plan-row.svg"
+      ],
+      "sha256": "b6ab52487f39481d8e9ad93906d6bb23788e113c2600b327001468c956d7c85d",
+      "stageScale": 0.9733334350585937,
+      "projectedScale": 0.9571111891004774,
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 610
+      },
+      "materialKind": "explanatory-reconstruction",
+      "texts": [
+        {
+          "text": "입문자와 함께 읽는 15분 LLM Wiki 활동",
+          "class": "identity",
+          "role": null,
+          "fontSize": "44px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 76,
+            "y": 77,
+            "right": 747.9296875,
+            "bottom": 126.5
+          },
+          "glyphCount": 26,
+          "projectedPixels": 42.112892320421004,
+          "stageLogicalPixels": 43.26666567031661
+        },
+        {
+          "text": "15분 진행안",
+          "class": "section",
+          "role": null,
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 76,
+            "y": 145,
+            "right": 231.4566650390625,
+            "bottom": 183
+          },
+          "glyphCount": 7,
+          "projectedPixels": 32.541780429416235,
+          "stageLogicalPixels": 33.43333256342648
+        },
+        {
+          "text": "활동 시간",
+          "class": "field",
+          "role": null,
+          "fontSize": "38px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 76,
+            "y": 224.5,
+            "right": 211.401611328125,
+            "bottom": 267
+          },
+          "glyphCount": 5,
+          "projectedPixels": 36.37022518581814,
+          "stageLogicalPixels": 37.36666580618253
+        },
+        {
+          "text": "할 일",
+          "class": "field",
+          "role": null,
+          "fontSize": "38px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 352,
+            "y": 224.5,
+            "right": 423.953125,
+            "bottom": 267
+          },
+          "glyphCount": 3,
+          "projectedPixels": 36.37022518581814,
+          "stageLogicalPixels": 37.36666580618253
+        },
+        {
+          "text": "남길 것",
+          "class": "field",
+          "role": null,
+          "fontSize": "38px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 1014,
+            "y": 224.5,
+            "right": 1117.375,
+            "bottom": 267
+          },
+          "glyphCount": 4,
+          "projectedPixels": 36.37022518581814,
+          "stageLogicalPixels": 37.36666580618253
+        },
+        {
+          "text": "6~11분",
+          "class": "content",
+          "role": null,
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 76,
+            "y": 332.5,
+            "right": 214.828125,
+            "bottom": 386
+          },
+          "glyphCount": 5,
+          "projectedPixels": 45.94133707682292,
+          "stageLogicalPixels": 47.199998913072676
+        },
+        {
+          "text": "원자료→개념→비교의연결 한 개를 따라 읽기",
+          "class": "content",
+          "role": null,
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 352,
+            "y": 332.5,
+            "right": 765.6640625,
+            "bottom": 455
+          },
+          "glyphCount": 23,
+          "projectedPixels": 45.94133707682292,
+          "stageLogicalPixels": 47.199998913072676
+        },
+        {
+          "text": "관계를뒷받침하는근거 위치",
+          "class": "content",
+          "role": null,
+          "fontSize": "48px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 1014,
+            "y": 322.5,
+            "right": 1214.3515625,
+            "bottom": 494
+          },
+          "glyphCount": 13,
+          "projectedPixels": 45.94133707682292,
+          "stageLogicalPixels": 47.199998913072676
+        }
+      ],
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "slide": 4,
+      "url": "http://127.0.0.1:4336/research/devday-fidelity-20261116/prototypes/site/round-02/assets/9993d662f26d-condition-note-selection.svg",
+      "sourcePaths": [
+        "research/devday-fidelity-20261116/prototypes/talks/round-02/assets/condition-note-selection.svg"
+      ],
+      "sha256": "9993d662f26dc7ca919992a1c6903bfe92ac25ef6e9258fe96d1bdda9c672253",
+      "stageScale": 0.9733334350585937,
+      "projectedScale": 1.0167107077205881,
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 680,
+        "height": 650
+      },
+      "materialKind": "explanatory-reconstruction",
+      "texts": [
+        {
+          "text": "다음 모임의 조건 메모",
+          "class": "identity",
+          "role": null,
+          "fontSize": "43px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 54,
+            "y": 187,
+            "right": 410.203125,
+            "bottom": 235
+          },
+          "glyphCount": 12,
+          "projectedPixels": 43.71856043198529,
+          "stageLogicalPixels": 44.91632451663748
+        },
+        {
+          "text": "발표팀의 주제 메모 세 개",
+          "class": "context",
+          "role": null,
+          "fontSize": "35px",
+          "fontWeight": "400",
+          "bbox": {
+            "x": 54,
+            "y": 261.5,
+            "right": 378.8515625,
+            "bottom": 300.5
+          },
+          "glyphCount": 14,
+          "projectedPixels": 35.58487477022059,
+          "stageLogicalPixels": 36.559799025170044
+        },
+        {
+          "text": "도구 설치보다 목차와 연결을…",
+          "class": "selection",
+          "role": null,
+          "fontSize": "36px",
+          "fontWeight": "500",
+          "bbox": {
+            "x": 66,
+            "y": 374.5,
+            "right": 486.4921875,
+            "bottom": 414.5
+          },
+          "glyphCount": 16,
+          "projectedPixels": 36.60158547794117,
+          "stageLogicalPixels": 37.60436471160347
+        }
+      ],
+      "nodes": [],
+      "edges": []
+    }
+  ]
+}

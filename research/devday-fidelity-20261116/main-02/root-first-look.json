@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-11-16T07:40:25.560806+00:00",
+  "reviewer": "/root",
+  "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+  "scope": "14 changed presentation individual PNGs, six whole-flow boards, native1440 #3/#15 only; not all80",
+  "seen": [
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1920/slide-03.png",
+      "sha256": "c2d980db9f08617f322c0fec2475477ff8a645804dcbecbc77eaa471e0efd529"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1920/slide-05.png",
+      "sha256": "6d3b51d09297c333d121bd080a3ea4d62a048f28dbb79219a98459a4e49a9f83"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1920/slide-06.png",
+      "sha256": "cc1f2e09115915b3fb135d780d669727e3e7841f76ea2bcbcd4f7c6de3f90ac7"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1920/slide-07.png",
+      "sha256": "1b7138686b40fe85e28ae4fe4c6080f50c00c48c8140fdbbd48f6afa50b4d13e"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1920/slide-10.png",
+      "sha256": "ff8163e15dffba6250a7b5a05fe74bc64019763c4133fbe44d68258b5310f1dd"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1920/slide-13.png",
+      "sha256": "d41a99fc7bffbc49422f76eac24768684de2c1ffb3ed993a9cada28d91dad97c"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1920/slide-15.png",
+      "sha256": "ddcd23950218e1d311e6c372daafa854e069273adbaaf24fa9ec5f219034c3a9"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-03.png",
+      "sha256": "14a0c5a017e2efedb683beaff5afac1b8e60fe4c6074c52d0ed6957b0de22b42"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-05.png",
+      "sha256": "398f5f95f59cc8198a7d217fa0cfafe397cd10107ecae808955f49e214e4c5a4"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-06.png",
+      "sha256": "887a6238cb5ff2a365f6cbd5a5305e480e43281ac7dbea78aebd1a4fbc53428e"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-07.png",
+      "sha256": "ab0a0f926c678379f438032d3b1811b230abe9f3fcf2c072a59673fba45f13cb"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-10.png",
+      "sha256": "679145590fac3586d1d3eb6429db764f80d87bd4423d463a22d3bd2b8d9a09e3"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-13.png",
+      "sha256": "6c44648fe5afc39d6db71c6d642676739c54181475d069800056cf6af5fd4c21"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-15.png",
+      "sha256": "6d503070de08ce12821c6ca67568d42144f0f618da24a62c8ffdc85aff5f551c"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1920/contact-01-08.jpg",
+      "sha256": "81e90d6c8f66d3d3b8a5f551b6a4cbf176cac4b1b335773e52822e222362de94"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1920/contact-09-16.jpg",
+      "sha256": "00b79740a5dee948101e922ded4657c066dffaa7b9956dfe3316d9a3fd78465f"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1920/contact-17-20.jpg",
+      "sha256": "30286632d991fea0375042dff8d0af6d76a0e202669f205b729264cc8c53a973"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/contact-01-08.jpg",
+      "sha256": "0a7ccc97c9c7594607883e868068b6f209b3ced209a84025ec6971c001b0cad5"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/contact-09-16.jpg",
+      "sha256": "54544626fde7e0e51fb3af078775db65e6510c0f438b4682d44fd38f659102e9"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/contact-17-20.jpg",
+      "sha256": "bd737d6b64e52a7eb09761f8139739687c90390fae1b32cf118c220a450ae024"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-03.png",
+      "sha256": "16a6b6a751eeaa8ee7a339f376a8fccf362333ca1510d30b405c8621469110c1"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-15.png",
+      "sha256": "0c4520ef72ab1e2d30573c231bbcc417ae091c128f9d03eb840bdf4466c60357"
+    }
+  ],
+  "observations": [
+    "3: Native exact selected-reason quotation now owns the visual center with orange decision. Two attribution paragraphs remain under it; check whether two supporting layers compete unnecessarily rather than asserting big typography alone succeeds.",
+    "5/6/7: The retained beginning plan leads to the same plan after conditions, then to three actual document relations. Required beginning-plan label is legible after37px local correction; same input/answer are each once. This structure is materially different from two definition columns.",
+    "10: The orange direct responsibility sentence has clear priority. The following direct-record statement partly repeats the lead; reviewers should judge actual semantic contribution, not color presence.",
+    "13/15: The output single row and evidence identity/exact native purpose have different visual centers and reading paths. Source captions are separate from essential conditions.",
+    "14: Whole-flow placement can justify the three-verb recap after the result example, but I have not yet settled the need for a concrete next question; independent editorial judgment remains necessary.",
+    "Native1440 #15: source illustration expands much larger than18px native exact quotation below. It preserves source order and readable full text, yet the long vertical distance may weaken the reference-to-passage path; independently assess reading usability/weight and mobile before closing."
+  ],
+  "status": "Independent reviewers initial pending; no main approval assigned by root"
+}

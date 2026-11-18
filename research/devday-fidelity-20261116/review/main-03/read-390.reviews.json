@@ -1,0 +1,660 @@
+{
+  "source": "talks/llm-wiki/slides.md",
+  "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+  "designSha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+  "scope": "manual directly viewed read-slide-crop and native support; formal CLI pending root",
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.286266+00:00",
+      "reason": "이름과 짧은 부제가 구별돼 발표 주제가 한 대상으로 읽힌다. 실제 제목/본문과 여백을 현재 화면에서 확인했다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-01.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 2,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.286438+00:00",
+      "reason": "함께 읽고 고치는 행위와 굵은 나만의 지식 문서가 두 의미행으로 읽힌다. 뒤3의 구체 선택 이유로 이어지는 선언 역할을 수용한다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-02.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 3,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.286947+00:00",
+      "reason": "정확 선택 이유를 원문 순서대로 보여 주고 마지막 이 메모를 골랐다가 강조된다. 새 의도 행에서 다음 스터디의 진행안을 / 만들고 싶어서가 이어져 보조서술어 싶어서만 고립되지 않는다. 자료 정체성·사람이 채울 예·발표팀 구성 지위와 실제 지원절이 구별되며 정확 단어를 생략하거나 작게 숨기지 않았다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-03.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-03-390.png",
+          "sha256": "ec4c3f526976c95e4279697500d4a68165e2803ee6b1e52fe3ac952471168cc4"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 4,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.287116+00:00",
+      "reason": "다음 질문에 다시 쓴다는 한 문장 전환이 다른 자료와 경쟁하지 않고 다음 비교 장으로 이어진다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-04.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 5,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.288057+00:00",
+      "reason": "공통 원자료/이번 답은 한 번씩 묶이고 현재 입력에서 종합과 남아 다시 읽는 넓은 계획 문서를 비교한다. 처음 계획·정확 미정 구절이6의 변경 전 상태를 특정하고 병행 가능성은 native 본문이다. 실제 지원절에서 두 정확 예와 병행/비측정 한계를 대조했다. 작은 SVG는 개요이며 세부 자체를18px 본문으로 승인하지 않고 직접 읽은18px 지원 설명/정확 원문으로 확인했다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-05.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-05-390.png",
+          "sha256": "bcc2e1dfbe7521c84afcd688768314513d390166320728c2573838d6d60ebb3e"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/support-table-05-left-390.png",
+          "sha256": "0e33914472c7771a364b03028b1350231d71824a2852698bac2bc78369269de8"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/support-table-05-right-390.png",
+          "sha256": "efab385d8a8511e3eff1c9e29170bb14b32bea89ddfd95c6d579de7020fe2463"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 6,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.288988+00:00",
+      "reason": "같은 논리 계획의 제목과 조건이 두 대응선으로 이어진다. 처음 미정에서 입문자·세 메모 중 두 개·별도15분으로 바뀐 위치와 갱신 제목이 읽히고7의 현재 제목으로 이어진다. 실제 도구 diff나 성과를 가장하지 않는 정확 발췌 재구성이다. 작은 SVG는 개요이며 세부 자체를18px 본문으로 승인하지 않고 직접 읽은18px 지원 설명/정확 원문으로 확인했다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-06.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-06-390.png",
+          "sha256": "a6ef16829874bef9c25e3f0e62e1b07383ef77f5d0e9ab0995cee8d9d6fb8116"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/notes-plan-change-table-left-390.png",
+          "sha256": "3264b102a810d3c797690b4ca5f4c6654fa6096fb19c0a707cac9d21b4940096"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/notes-plan-change-table-right-390.png",
+          "sha256": "49c13869f210e0e723de877b6241d1b2fdcf14d0b02ea8d87c10091ce8f64114"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 7,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.290069+00:00",
+      "reason": "현재 계획 제목이 입문자와 하는 / 첫 위키 활동으로 바뀌어6의 갱신 상태와 일치한다. 실제 지원절도 앞 장에서 조건을 반영한 같은 계획의 현재 제목임을 명시해 이전 시점 충돌이 해소됐다. 작은 목적과 맥락 입구·큰 개념/비교 한 영역·계획의 세 영역과 세 무방향선은 보존되고 두 의미행이 라벨/접점과 충돌하지 않는다. 작은 SVG는 개요이며 세부 자체를18px 본문으로 승인하지 않고 직접 읽은18px 지원 설명/정확 원문으로 확인했다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-07.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-07-390.png",
+          "sha256": "b7e78c45149edfa8006cabe392a8a7ba4d5a55ea560aefaef88536b526ad457b"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-06.png",
+          "sha256": "37c9a58f77e460746e21dc1a9e71e240209a336fa34c459e1ea6653821751ed6"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/support-table-07-left-390.png",
+          "sha256": "1af86b0ad0db133aaa216c9752cdc09622eac59f58655f0de5195da0a4720153"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/support-table-07-right-390.png",
+          "sha256": "706a6557dec29c7fedab71cf56a408386a1a2e864625c75884e71c9590697aa1"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 8,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.290550+00:00",
+      "reason": "조건과 문서 읽기부터라는 첫 선택을 구별한다. 실제 지원절에서 입문자·준비된 읽기 팩·15분 가상 조건과 원래 목적을 확인했고 시간 하나로 자동 도출한 보편 답이나 측정 성과로 소개하지 않는다. 작은 SVG는 개요이며 세부 자체를18px 본문으로 승인하지 않고 직접 읽은18px 지원 설명/정확 원문으로 확인했다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-08.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-08-390.png",
+          "sha256": "28f23e091798aa9c46b00134037309d57848869d261c5187ce15ab346526c2ca"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 9,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.290719+00:00",
+      "reason": "앞으로 만들 결과와 관련된 자료인지를 묻는 질문의 두 의미행이 함께 읽힌다. 자료 선택 기준의 짧은 휴지 역할에 불필요한 도해를 강제하지 않는다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-09.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 10,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.290885+00:00",
+      "reason": "목적과 판단의 직접 작성 책임이 강조되고 감정·생각·판단·선택 이유를 직접 남긴다는 보충 본문이 실제 책임 범위를 구체화한다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-10.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 11,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.291055+00:00",
+      "reason": "원자료 구절·내가 직접 쓸 기록·AI 요약과 해석이 실제 native 표의 예와 대응한다. placeholder와 발표팀 구성 지위가 실제 사람 기록/실행 결과를 대신 꾸며 쓰지 않는다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-11.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 12,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.291233+00:00",
+      "reason": "공부·프로젝트·글과 발표의 동등한 활용처가 세로 그룹과 설명/강조로 대응한다. 뒤13이 구체 활동 결과물을 보여 주므로 같은 범주 수나 양식 자체로 재설계하지 않는다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-12.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 13,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.291755+00:00",
+      "reason": "완전한 활동안 제목·15분 진행안 절·세 필드와6~11분 한 행이 하나의 편집된 자료다. 실제 지원절에서 정확 활동/남길 근거 위치·계획 시간배분·미확인 효과를 대조했다. 활동의 따라 읽기 순서와7의 무방향 관계를 구별한다. 작은 SVG는 개요이며 세부 자체를18px 본문으로 승인하지 않고 직접 읽은18px 지원 설명/정확 원문으로 확인했다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-13.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-13-390.png",
+          "sha256": "e6703dfc1bf2eafaf2d62158f3ef34bc8cf1e53bd96a6e558bd2d1e3f2cf26f9"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 14,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.291939+00:00",
+      "reason": "현재 선택3·지속/갱신5/6·관계7·사람 판단10/11·활동행13 뒤에서 설명과 근거/내 경험과 판단/다음 질문을 읽기·고치기·다시 쓰기로 요약한다.13 큰 자료면과 뒤15 원자료 확인이 대상을 바꾸어 recap이 유효하며 새 사례를 할당량으로 강제할 핵심 누락은 없다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-14.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 15,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.292478+00:00",
+      "reason": "자료 정체성/선택 위치와 native 조건 질문·정확 목적 네 의미행·자작 가상 지위가 구별된다. 현재 필수 지원절 두 폭에서 질문의 굵은 본문이 정상 렌더되어 literal **가 없고 정확 조건/목적/문맥요약과 작성 주체·팩 경로가 보존됐다. native/prefix/caption 대신 독자 말로 설명한다. 잔여구 반복한 별도 판정 문구 없이는 삭제를 권하지만 실제 질문·정확 인용·지위를 숨기거나 바꾸지 않아 비차단 편집 의견으로 남긴다. 원문 순서/전문/실제 지원 경로를 확인해 긴 이미지 뒤 인용 거리 자체는 새 veto로 삼지 않는다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-15.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/technical/direct-support-15-390.png",
+          "sha256": "1ec7696d319ae5c9c23e3043d7132cc9b42e5807bcb99181a86af06da7a9031d"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-03/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 16,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.292665+00:00",
+      "reason": "반복해서 묻는 주제와 한 번 확인할 질문의 두 그룹이 연결 문서/간단한 노트와 검색의 다른 시작점을 명확히 한다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-16.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 17,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.292845+00:00",
+      "reason": "첫 요청에서 목적과 직접 고른 두 자료를 함께 읽어 달라는 행동이 하나의 인용으로 읽히고 굵은 마지막 행동 행이 완결된다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-17.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 18,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.293021+00:00",
+      "reason": "근거·바꾼 파일·모르는 점이 동등한 결과 확인 항목으로 대응하고 각 질문의 목적어/서술어 호흡이 읽힌다.17의 요청을 점검하는 역할을 유지한다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-18.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 19,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.293197+00:00",
+      "reason": "다음 질문에 쓸 두 자료부터라는 한 행동 마감이 실제 의미행과 여백으로 읽힌다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-19.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    },
+    {
+      "slide": 20,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:24:12.293369+00:00",
+      "reason": "어떤 질문을 다시 묻고 싶은지가 주역이고 해설·복사 요청·예제 팩 전문은 별도 보조 탐색으로 구별된다. 현재390×844/DPR1 읽기 장 crop의 직접 수동 판정이며 이전 승인이나 기술 pass를 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-03/read-390/slide-20.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-03/read-390/manifest.json",
+          "sha256": "765c935a6bdf133edddd0932bb76ca41651615dbf7ac3bb8d68afb6eebb30318"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+    }
+  ]
+}

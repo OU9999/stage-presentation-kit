@@ -1,0 +1,28 @@
+{
+  "format": "stage-project-v1",
+  "title": "LLM Wiki · DevDay 첫 시안",
+  "theme": "stage",
+  "decks": [
+    {
+      "id": "first-look",
+      "source": "talks/first-look/slides.md",
+      "slug": "first-look",
+      "format": "markdown-v1",
+      "title": "지식을 남기는 방식이 다음 질문을 바꿉니다",
+      "links": {
+        "slides": "first-look/index.html",
+        "read": "first-look/read.html",
+        "materials": "first-look/materials/index.html"
+      },
+      "materials": [
+        {
+          "source": "talks/first-look/materials/notes.md",
+          "title": "LLM Wiki · 첫 시안의 자료와 맥락",
+          "order": 1,
+          "revision": "232cbed64c6a13bce2fdb10957c2f724fd159efebd9f157a83c9a934056bab96",
+          "href": "first-look/materials/notes.html"
+        }
+      ]
+    }
+  ]
+}

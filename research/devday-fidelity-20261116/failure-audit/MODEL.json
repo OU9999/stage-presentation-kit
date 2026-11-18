@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-16T09:53:59.108902+00:00",
+  "sources": [
+    "https://openai.com/index/introducing-gpt-6-1-sol/",
+    "https://developers.openai.com/api/docs/models"
+  ],
+  "officialObservation": "Fresh official release identifies GPT-6.1 Sol as the Sol upgrade; current official catalog re-opened. No newer Sol observed.",
+  "availableModelIds": [
+    "gpt-6.1-sol",
+    "gpt-6-astra",
+    "gpt-6.1-terra",
+    "gpt-6-sol",
+    "gpt-6-luna"
+  ],
+  "catalogEvidence": "Current collaboration.spawn_agent contract; concurrency4 including root",
+  "selected": "gpt-6.1-sol",
+  "effort": "xhigh",
+  "fork": "none",
+  "reason": "Repeated original-goal judgment failure after internal approvals; unresolved evidence/criterion conflict. Existing team retained for accountability."
+}

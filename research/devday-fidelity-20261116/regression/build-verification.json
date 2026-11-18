@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-16T06:25:43.865568+00:00",
+  "commands": [
+    {
+      "command": "npm run build:site",
+      "exit": 0
+    },
+    {
+      "command": "npm run verify:site",
+      "exit": 0
+    }
+  ],
+  "observed": "Actual root command output: eight legacy examples, five presentations, one markdown starter generated and verified. See tool transcript.",
+  "visualApproval": false
+}

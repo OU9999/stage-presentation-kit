@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">다시 읽고 연결하는 다섯 문서</title>
+  <desc id="desc">출처 메모에서 개념과 비교 문서를 읽고, 이를 활동 계획과 후속 질문에 연결하는 설명용 작업창이다. 표·글줄·강조문·질문 표식은 문서마다 다르게 보인다.</desc>
+  <g data-observe-id="window">
+    <rect x="13" y="13" width="694" height="378" rx="7" fill="#0e0e11" stroke="#e5e2e8" stroke-width="1.9"/>
+    <path d="M14 57H706" stroke="#e5e2e8" stroke-width="1.6"/>
+    <g fill="#e8e4ed">
+      <circle cx="34" cy="35" r="6"/>
+      <circle cx="53" cy="35" r="6"/>
+      <circle cx="72" cy="35" r="6"/>
+    </g>
+  </g>
+  <g data-observe-id="document-connections" fill="none" stroke="#99a7c6" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M222 207h22v-74h33M244 207v79h24M354 185v46M433 133h19v40h23M433 286h23v22h42M552 237v45"/>
+  </g>
+  <g data-observe-id="source-note">
+    <path d="M70 128H195L222 155V284H70Z" fill="#17171d" stroke="#bbb5c8" stroke-width="2"/>
+    <path d="M195 128V155H222" fill="none" stroke="#bbb5c8" stroke-width="2"/>
+    <path d="M89 152h50" stroke="#e1d8ef" stroke-width="6" stroke-linecap="round"/>
+    <path d="M89 176h105m-105 15h86m-86 15h94m-94 15h63m-63 39h77" stroke="#8d8699" stroke-width="4" stroke-linecap="round"/>
+    <rect x="84" y="232" width="119" height="15" rx="2" fill="#322750"/>
+    <path d="M89 239.5h100" stroke="#c5aafe" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g data-observe-id="concept-page">
+    <rect x="277" y="86" width="156" height="99" rx="3" fill="#181b25" stroke="#9cb6ef" stroke-width="2"/>
+    <path d="M293 109h66" stroke="#bed1ff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M293 133h120m-120 14h110m-110 14h83" stroke="#98a6c6" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g data-observe-id="comparison-page">
+    <rect x="268" y="231" width="165" height="109" rx="3" fill="#171b1c" stroke="#acc8c1" stroke-width="2"/>
+    <path d="M285 252h48" stroke="#c1eadb" stroke-width="6" stroke-linecap="round"/>
+    <path d="M284 270h133v52H284zM350 270v52M284 286h133M284 304h133" fill="none" stroke="#718c86" stroke-width="2"/>
+    <path d="M294 279h31m35 0h35" stroke="#a3d9cb" stroke-width="4" stroke-linecap="round"/>
+    <path d="M294 295h43m-43 18h37m29-18h37m-37 18h45" stroke="#9cb0aa" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g data-observe-id="plan-page">
+    <rect x="475" y="105" width="172" height="132" rx="3" fill="#201b17" stroke="#d7ba9d" stroke-width="2"/>
+    <path d="M491 127h71" stroke="#f0c99f" stroke-width="6" stroke-linecap="round"/>
+    <path d="M496 155v60" stroke="#7d6756" stroke-width="2"/>
+    <g fill="#eeb67f">
+      <circle cx="496" cy="155" r="4"/>
+      <circle cx="496" cy="175" r="4"/>
+      <circle cx="496" cy="195" r="4"/>
+      <circle cx="496" cy="215" r="4"/>
+    </g>
+    <path d="M512 155h104m-104 20h79m-79 20h113m-113 20h93" stroke="#b6a493" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g data-observe-id="question-page">
+    <path d="M498 282H647V333H498Z" fill="#1d1824" stroke="#c3afdd" stroke-width="2"/>
+    <path d="M513 301a6 6 0 1 1 10 4.4c-2.5 2-4 2.3-4 5.6m0 5h.1" fill="none" stroke="#d8c0fb" stroke-width="3" stroke-linecap="round"/>
+    <path d="M538 300h84m-84 15h66" stroke="#b8a2cc" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

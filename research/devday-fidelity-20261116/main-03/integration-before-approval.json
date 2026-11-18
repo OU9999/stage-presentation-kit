@@ -1,0 +1,532 @@
+{
+  "checkedAt": "2026-11-16T08:16:26.201Z",
+  "source": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+  "slideCount": 20,
+  "currentInputCount": 104,
+  "scopes": [
+    {
+      "scope": "present-1280",
+      "qa": {
+        "checks": 2480,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "approval": null,
+      "images": [
+        {
+          "slide": 1,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-01.png",
+          "sha256": "cecc209154ac729484bf6466c77907c4310695dfbd21dc252fef59eedabd8ba4"
+        },
+        {
+          "slide": 2,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-02.png",
+          "sha256": "77699bfbdeb22d2cee376376551f7ff526eee05ff0194897d952499f197a7a59"
+        },
+        {
+          "slide": 3,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-03.png",
+          "sha256": "0d7a025e83bdaba7bd6d4cd71a4ac032cbaff89509169eeb732bd6704b9fd8db"
+        },
+        {
+          "slide": 4,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-04.png",
+          "sha256": "6b798856ce5aaea5468a55276bce7761a9bad5ec90f7723b8dbcac3e4507b18b"
+        },
+        {
+          "slide": 5,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-05.png",
+          "sha256": "398f5f95f59cc8198a7d217fa0cfafe397cd10107ecae808955f49e214e4c5a4"
+        },
+        {
+          "slide": 6,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-06.png",
+          "sha256": "887a6238cb5ff2a365f6cbd5a5305e480e43281ac7dbea78aebd1a4fbc53428e"
+        },
+        {
+          "slide": 7,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-07.png",
+          "sha256": "54942f08c427dc3db4c05030c9b3a2725501b63b0dd009078b62cfbbf8117b32"
+        },
+        {
+          "slide": 8,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-08.png",
+          "sha256": "1e47565d233ac50fff855e5992f2a69e13dfd57b6dbcd93288baa95ca8836139"
+        },
+        {
+          "slide": 9,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-09.png",
+          "sha256": "b80a5624e7251c76c18048aa9658d6480e2aacbc98e5a146cbd7923d1f5f0288"
+        },
+        {
+          "slide": 10,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-10.png",
+          "sha256": "679145590fac3586d1d3eb6429db764f80d87bd4423d463a22d3bd2b8d9a09e3"
+        },
+        {
+          "slide": 11,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-11.png",
+          "sha256": "8ae4dd00bf33a893b42507ef7444f35fc8be93865c1bcb9118e58737f692f814"
+        },
+        {
+          "slide": 12,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-12.png",
+          "sha256": "380730cd3765edf6b87362e77cb5f5c9ff8410da1d5deaeeac9b407f57a6d193"
+        },
+        {
+          "slide": 13,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-13.png",
+          "sha256": "6c44648fe5afc39d6db71c6d642676739c54181475d069800056cf6af5fd4c21"
+        },
+        {
+          "slide": 14,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-14.png",
+          "sha256": "5f9635e0f3ffc0240fcd1dadba82c81d807e80165d40d6d8589c6ab3bcda62fe"
+        },
+        {
+          "slide": 15,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-15.png",
+          "sha256": "6d503070de08ce12821c6ca67568d42144f0f618da24a62c8ffdc85aff5f551c"
+        },
+        {
+          "slide": 16,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-16.png",
+          "sha256": "dba73e0f6d1c84e713e8c5fb0d17f2b2883f6316889dffd13fc3716d03367456"
+        },
+        {
+          "slide": 17,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-17.png",
+          "sha256": "70da15f971f1668bdcd600f5c3d3bf4a6b9e2285f5984a39fd29630561ea18f1"
+        },
+        {
+          "slide": 18,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-18.png",
+          "sha256": "4c055a68d3e8900e15e7e5a597765a00c419df09aedae1ef9af9fc5e11a39860"
+        },
+        {
+          "slide": 19,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-19.png",
+          "sha256": "aa4e62a0dc9f5a450d147fc8324d22b55d68742ed3344e82c73afdb19236cccf"
+        },
+        {
+          "slide": 20,
+          "path": "research/devday-fidelity-20261116/main-03/present-1280/slide-20.png",
+          "sha256": "7d8e56a79fd7d904637425efd8ae27d0e0230e5c3e4406a06853838cba4ba47a"
+        }
+      ]
+    },
+    {
+      "scope": "present-1920",
+      "qa": {
+        "checks": 2480,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "approval": null,
+      "images": [
+        {
+          "slide": 1,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-01.png",
+          "sha256": "bc20d0f46cbc045fe0ffdd508255dd5e91ae68377041abf1dc6b93aea66f7597"
+        },
+        {
+          "slide": 2,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-02.png",
+          "sha256": "07f84b6213731f0693944e6cfc559841080682f246589689c6886ed22c435400"
+        },
+        {
+          "slide": 3,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-03.png",
+          "sha256": "5b6baabfd93631fc8959a0606eebbe656b8d55f417779844c8ec2c882dc8fcb4"
+        },
+        {
+          "slide": 4,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-04.png",
+          "sha256": "ab57520feead478815622f577b55b08c326fd7b506d684a20605aee782c0eb8f"
+        },
+        {
+          "slide": 5,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-05.png",
+          "sha256": "6d3b51d09297c333d121bd080a3ea4d62a048f28dbb79219a98459a4e49a9f83"
+        },
+        {
+          "slide": 6,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-06.png",
+          "sha256": "cc1f2e09115915b3fb135d780d669727e3e7841f76ea2bcbcd4f7c6de3f90ac7"
+        },
+        {
+          "slide": 7,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-07.png",
+          "sha256": "dc462b4e991eb54df2f524fdfedc5ba86f4b74f582bb292111d03452baecb975"
+        },
+        {
+          "slide": 8,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-08.png",
+          "sha256": "985a319f8acd6369fbfcb0906e451c39201f94f6ecadc70b8817db1fb773f76b"
+        },
+        {
+          "slide": 9,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-09.png",
+          "sha256": "9af07b26325ed9c8753da618725006750dd8a13aa94d7e308a7fd7053a63a0c2"
+        },
+        {
+          "slide": 10,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-10.png",
+          "sha256": "ff8163e15dffba6250a7b5a05fe74bc64019763c4133fbe44d68258b5310f1dd"
+        },
+        {
+          "slide": 11,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-11.png",
+          "sha256": "29bf17736020a8f8e5a4e8a47d08298a4c19d79d597f3a79b88ce21cd1dfc707"
+        },
+        {
+          "slide": 12,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-12.png",
+          "sha256": "2d9dbd731204fbaef5437af3dbe8f09085c023244de06cef338e891ef2418843"
+        },
+        {
+          "slide": 13,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-13.png",
+          "sha256": "d41a99fc7bffbc49422f76eac24768684de2c1ffb3ed993a9cada28d91dad97c"
+        },
+        {
+          "slide": 14,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-14.png",
+          "sha256": "8b31e3ac6279f7bacaf322c7f39bf82779b39a5c209312139d980a35f3e9dff1"
+        },
+        {
+          "slide": 15,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-15.png",
+          "sha256": "ddcd23950218e1d311e6c372daafa854e069273adbaaf24fa9ec5f219034c3a9"
+        },
+        {
+          "slide": 16,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-16.png",
+          "sha256": "39d4a615955380207567d18ddc55a641b412fd2a8fc7d3e3d2feaeaa8dc4fd77"
+        },
+        {
+          "slide": 17,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-17.png",
+          "sha256": "e8782dd19143624a5ef9c27cfc3812598a75f83dbabc62e79f6c8633414a53f7"
+        },
+        {
+          "slide": 18,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-18.png",
+          "sha256": "354fa160a276248e62d768d2cdd76456e13b3a9d8bc88d2e2b08f1e88f3703cb"
+        },
+        {
+          "slide": 19,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-19.png",
+          "sha256": "be202c0a0f2cfecc3a39fa790b8b01d0bc890053dac521bbc19b59af5c6e895a"
+        },
+        {
+          "slide": 20,
+          "path": "research/devday-fidelity-20261116/main-03/present-1920/slide-20.png",
+          "sha256": "e8caf31f6439c6f6af29c6bdf3210b1d0c5b5a06744cc1101f65d5e7b001bba3"
+        }
+      ]
+    },
+    {
+      "scope": "read-1440",
+      "qa": {
+        "checks": 2511,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "approval": null,
+      "images": [
+        {
+          "slide": 1,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-01.png",
+          "sha256": "39083217e8f28292c2a3b06dcc19cad6fcf57126176998b8368fd1da3ff3a91b"
+        },
+        {
+          "slide": 2,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-02.png",
+          "sha256": "07625960c8f5e473235e9b0a982605a660d767a88933d9cf87bd8563ed800bf8"
+        },
+        {
+          "slide": 3,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-03.png",
+          "sha256": "b365090d5674275761357ee93fc21eb05d7443d5b4254922d2c5e1e974b0cb57"
+        },
+        {
+          "slide": 4,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-04.png",
+          "sha256": "3f65029279646578acd81b9916da885d96a72bc3b09fb38e86c702db0fc6e3fa"
+        },
+        {
+          "slide": 5,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-05.png",
+          "sha256": "1bbfbb4b18f3b79532f46265fff88df2e63753e9e5716ef3bf3f7a5d0772c0b6"
+        },
+        {
+          "slide": 6,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-06.png",
+          "sha256": "6449c9ff245434b93ee8cf83fe8aa45ce1a50969914c3abdf0c8a50c81d36f9d"
+        },
+        {
+          "slide": 7,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-07.png",
+          "sha256": "bfdbf54da2ef841a7874c17908e03569a87edb4dd9ac37ea9a881e23ce202412"
+        },
+        {
+          "slide": 8,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-08.png",
+          "sha256": "9e2a8e38bfcab6c17852d02950c2fabf72fdfa2514b9fda0032f04ee409e2548"
+        },
+        {
+          "slide": 9,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-09.png",
+          "sha256": "f0f8906938147db110a5fb0cd8ac704c618488fd66ec63e4922ad009be88c9db"
+        },
+        {
+          "slide": 10,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-10.png",
+          "sha256": "60f041a655164a36548670d34046b9996b410e1efef6c6ebb87a99ced94289f9"
+        },
+        {
+          "slide": 11,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-11.png",
+          "sha256": "83d4cfd1989da15892a058347c071f5631858c5f33d3d15f8999fa80a83cc06b"
+        },
+        {
+          "slide": 12,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-12.png",
+          "sha256": "77dccf032fdff6599fc80c20c59bd961c914f5ef4c846778b0a9f1a0faa2a74b"
+        },
+        {
+          "slide": 13,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-13.png",
+          "sha256": "100581509651b3eae1167ea1cb4f92b57235ee0d2966dd89b204e4d5d8f101b9"
+        },
+        {
+          "slide": 14,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-14.png",
+          "sha256": "2a6061855b5baa974a8171c59491dfb147f9a1ad3647e46a4e7b07560f14db95"
+        },
+        {
+          "slide": 15,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-15.png",
+          "sha256": "fd13dacfb62eb1ae99852446668f1dfa89c280f86e07a19296f5d970f22deb9a"
+        },
+        {
+          "slide": 16,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-16.png",
+          "sha256": "ac7abb78c2d115f233d9a16a3852497b78e886dc45c0fc5f1b5fb704175c859d"
+        },
+        {
+          "slide": 17,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-17.png",
+          "sha256": "b0507402c7f7265fd5255042b33b154e3ff6c8deeed5866c3440d2f152dc5db3"
+        },
+        {
+          "slide": 18,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-18.png",
+          "sha256": "44706617804036cb288813fb6ca7a3b9f68b6c503e786929e6c1d1786f6525b4"
+        },
+        {
+          "slide": 19,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-19.png",
+          "sha256": "ac31a7fa6b41829a058991bdee619583cf3db1d81a3945e1173cce148c123024"
+        },
+        {
+          "slide": 20,
+          "path": "research/devday-fidelity-20261116/main-03/read-1440/slide-20.png",
+          "sha256": "c53b8e31b21c45e71235a68d44e960aa7487dbb739c9d6a2b9828419ea043e69"
+        }
+      ]
+    },
+    {
+      "scope": "read-390",
+      "qa": {
+        "checks": 2511,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "approval": null,
+      "images": [
+        {
+          "slide": 1,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-01.png",
+          "sha256": "ed5ebf300aadb1870badfc5682ea12e7fcde1cdaa1f3c8eba28c1cef242ee863"
+        },
+        {
+          "slide": 2,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-02.png",
+          "sha256": "844e3e90e28eb601cabf8c36fc16d1dfe4f67a0a267e4e578af7edd36ed1b053"
+        },
+        {
+          "slide": 3,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-03.png",
+          "sha256": "249adeed6240555f762a80925c73d122a7b11702a6686fe9de28479845ac3f23"
+        },
+        {
+          "slide": 4,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-04.png",
+          "sha256": "d8b057c65e658120ea058009a851cb0c689b772a72d2c6a1eb942dc2f6bedad6"
+        },
+        {
+          "slide": 5,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-05.png",
+          "sha256": "ddaa562c6c12a08f486025d471ce7c9e0bb70d114b4c0364fb4cdecc19f55e53"
+        },
+        {
+          "slide": 6,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-06.png",
+          "sha256": "37c9a58f77e460746e21dc1a9e71e240209a336fa34c459e1ea6653821751ed6"
+        },
+        {
+          "slide": 7,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-07.png",
+          "sha256": "30124de627ee96f0f8cd005ceb9fc48e20ae0ec4797356282f19d42e9a9c8a92"
+        },
+        {
+          "slide": 8,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-08.png",
+          "sha256": "9ce4b4a85c4b01979b957a54b539ddc9d78ff7e767b9183702d7ef80b090cc02"
+        },
+        {
+          "slide": 9,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-09.png",
+          "sha256": "9b189439a1043823fd522e45fffbed4ce213d331e1c834c15fe97de02dd58839"
+        },
+        {
+          "slide": 10,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-10.png",
+          "sha256": "2b49dcd0feda2fa48869d24dc9142960d7bbe962944b03c0e16362f6c9796871"
+        },
+        {
+          "slide": 11,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-11.png",
+          "sha256": "2d9e22f2cca72d82f79987d55c14994daed1f4d2b45f90f64e13e1e13fd32d58"
+        },
+        {
+          "slide": 12,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-12.png",
+          "sha256": "b1ee9c0401ba95880212bad0a35cfc46ba21ea8053ccf742a7e99cc3d8befa05"
+        },
+        {
+          "slide": 13,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-13.png",
+          "sha256": "9f9ea97b2ae9a739f71daeb29152ca59577d6ac5b6528c3cd0be5e44c736b0d5"
+        },
+        {
+          "slide": 14,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-14.png",
+          "sha256": "c7fcf2d2888ede47a937c50e863b876c963433eb14dfd11f027593e2ff20c3c9"
+        },
+        {
+          "slide": 15,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-15.png",
+          "sha256": "7d507944090491102c59d531777bc6ec180acbb060c70435442edbae29a9ad12"
+        },
+        {
+          "slide": 16,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-16.png",
+          "sha256": "2fc1b2c7c47901116ad7bd8aec3858b25b61cc355dabaf09e04f8f9cc26010b4"
+        },
+        {
+          "slide": 17,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-17.png",
+          "sha256": "e6e68729e0dbc40c5ae0fd00c86d483fe99259fba0815e3efb20ad99bb202435"
+        },
+        {
+          "slide": 18,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-18.png",
+          "sha256": "81bd68a91dd5d60f5573f0c0d392d021aa11b4398f33f30de634dd5c34b36b71"
+        },
+        {
+          "slide": 19,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-19.png",
+          "sha256": "569625b046766c317ba3c70235863c31819bdc65772a1c7f1be194d082c5d079"
+        },
+        {
+          "slide": 20,
+          "path": "research/devday-fidelity-20261116/main-03/read-390/slide-20.png",
+          "sha256": "c25596dff6c19e7235a0b7b83d05dc1df3f5bc0cac164655fcb03fa21bcb5a88"
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "originalAssets": {
+      "count": 81,
+      "changed": 0
+    },
+    "demoArchiveMemo": {
+      "count": 26,
+      "changed": 0
+    },
+    "rejectedApprovalsAndBaseline": true
+  },
+  "extraTables": [
+    {
+      "slide": 5,
+      "anchor": "검색과-지속-문서",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B2%80%EC%83%89%EA%B3%BC-%EC%A7%80%EC%86%8D-%EB%AC%B8%EC%84%9C",
+      "width": 390,
+      "clientWidth": 358,
+      "scrollWidth": 620,
+      "sourceRevision": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c",
+      "keyboardScrollLeft": 32,
+      "after": {
+        "scrollLeft": 262,
+        "text": "살펴볼 점\tRAG 구성\t작은 LLM Wiki\n중심 작업\t자료를 검색해 답하기\t문서를 정리하고 연결하기\n준비할 것\t검색 방법·색인 등 설계\t파일·목차·링크부터 시작\n질문할 때\t찾은 근거를 참고\t정리한 문서와 원자료를 참고\n유지할 것\t검색 품질·자료 변경\t문서 내용·연결·자료 변경",
+        "docWidth": 390
+      }
+    },
+    {
+      "slide": 7,
+      "anchor": "세-무방향-관계",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+      "width": 390,
+      "clientWidth": 358,
+      "scrollWidth": 620,
+      "sourceRevision": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c",
+      "keyboardScrollLeft": 34,
+      "after": {
+        "scrollLeft": 262,
+        "text": "문서\t함께 읽는 관계\nLLM Wiki 개념\tRAG와 위키 비교 · 우리 스터디 계획\nRAG와 위키 비교\t개념의 차이 · 계획의 선택 기준\n우리 스터디 계획\t개념과 비교를 우리 조건에 적용",
+        "docWidth": 390
+      }
+    }
+  ],
+  "actions": {
+    "directSupport": 14,
+    "materialTables": [
+      {
+        "key": "plan-change",
+        "anchor": "계획이-바뀐-근거",
+        "clientWidth": 358,
+        "scrollWidth": 620,
+        "before": 0,
+        "keyboardScrollLeft": 32,
+        "after": 262
+      },
+      {
+        "key": "activity",
+        "anchor": "활동안과-미확인-범위",
+        "clientWidth": 358,
+        "scrollWidth": 620,
+        "before": 0,
+        "keyboardScrollLeft": 33.5,
+        "after": 262
+      }
+    ],
+    "links": 4,
+    "selections": 2,
+    "navigation": 20,
+    "overview": 20
+  },
+  "nativeQuote": {
+    "fontSize": "18px",
+    "lines": [
+      "‘LLM Wiki와 RAG의 차이를 설명하고 다음",
+      "스터디의 진행안을 만들고 싶어서",
+      "이 메모를 골랐다.’"
+    ],
+    "wholeObjectAndPredicate": true
+  },
+  "relocatedTopics": 26
+}

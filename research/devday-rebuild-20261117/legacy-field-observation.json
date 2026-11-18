@@ -1,0 +1,58 @@
+{
+  "scope": "Current prototype results title; sourceLine not synthesized",
+  "measured": [
+    {
+      "tag": "H1",
+      "classes": "slide-title",
+      "dataField": "title",
+      "text": "읽은 자료가\n다음 작업으로.",
+      "copyRole": null,
+      "logicalPixels": 72,
+      "rect": {
+        "x": 91.99999165403233,
+        "y": 366.16408134511204,
+        "width": 500.3906481914762,
+        "height": 175.67184565574362
+      },
+      "parentGroup": null,
+      "domParent": {
+        "tag": "DIV",
+        "classes": "results-copy"
+      },
+      "directBody": false,
+      "breaks": [],
+      "emphasis": [],
+      "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+      "fontSize": "72px",
+      "fontWeight": "430",
+      "color": "rgb(246, 246, 244)",
+      "wordBreak": "keep-all",
+      "overflowWrap": "anywhere",
+      "textWrap": "balance",
+      "whiteSpace": "pre-line",
+      "effectivePixels": 57.919998779296876,
+      "logicalBox": {
+        "x": 91.99999165403233,
+        "y": 366.16408134511204,
+        "width": 500.3906481914762,
+        "height": 175.67184565574362
+      },
+      "lines": [
+        {
+          "text": "읽은 자료가",
+          "x": 91.99999165403233,
+          "y": 367.66407935346064,
+          "width": 303.35942270182875,
+          "height": 84.50000161228921
+        },
+        {
+          "text": "다음 작업으로.",
+          "x": 91.99999165403233,
+          "y": 455.5000021813325,
+          "width": 373.77344149960345,
+          "height": 84.50003954850591
+        }
+      ]
+    }
+  ]
+}

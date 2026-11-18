@@ -1,0 +1,140 @@
+{
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "같은 질문과 실제 연결 문서 이름은 생겼지만 공통 원자료/이번 답이 두 번 큰 대상으로 반복되고 이번 입력/현재 입력에서 종합의 동의 설명이 넓은 중앙면을 차지한다. 아래의 세 문서명은 좁은 2~3행 상자에서 읽혀 차이인 지속 문서보다 절차/밝은 같은 답이 먼저 읽힌다. Codex01:30과 대조해 공통 요소를 묶고 비교 차이가 주역이 되는 구조 편집이 필요하다. 1920 실제 Stage에서 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-01.png"
+      ],
+      "owner": "/root/devday_creation_manager",
+      "nextAction": "공통 원자료/이번 답과 동의 설명을 묶고 이번 입력의 종합과 지속되는 문서의 차이를 주역으로 다시 편집한다. 구체 구절은 필요시 기존 라벨을 대체하며 추가층으로 쌓지 않는다. 정확 비교 범위/자작예는 보존하고 두 발표 크기·04–06 문맥·동역할 원본을 다시 캡처/독립 검수한다."
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "목적과 맥락이라는 작은 자료 요약 입구와 LLM Wiki/RAG와 위키·다음 스터디의 첫 시도라는 큰 기존 문서 영역이 구별된다. 세 영역에 닿는 세 무방향 관계가 구체 이름 가까이 읽히며 새 방향·자동 순서를 만들지 않았다. 큰 색판은 문서의 소속과 위계를 묶고 하단 한 행은 낮은 위계여서 관계 파악을 막지 않는다. 이 발표 범위의 국소 수동 승인이다. 1920 실제 Stage에서 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-02.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "입문자와 함께 읽는15분LLMWiki활동이라는 완전한 문서 제목이 자료 정체성을 더 구체화하고 15분 진행안 절·세 필드·6~11분의 한 행이 하나의 밝은 문서면으로 읽힌다. 활동 행동과 남길 근거 위치가 크게 보이고 자작 설명용 한 행 발췌 지위가 유지된다. 제목의15분 반복은 본문 행을 밀어내는 주역으로 읽히지 않는다. 이 발표 범위의 국소 수동 승인이다. 1920 실제 Stage에서 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-03.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "조건 메모의 정체성과 선택 위치·native 큰 목적 구절은 개선됐으나 왼쪽 제목/세 조건/축약 선택줄과 오른쪽 작은 질문/네 행 인용/목적 재해석/예시 표지가 병행 독서층으로 경쟁한다. 공식24:00과 대조해 질문과 정확 목적을 핵심 대조로 묶고 자료는 정체성·선택 위치의 근거로 다시 편집해야 한다. 입문자·별도 활동15분·정확 목적은 읽을 크기로 보존하고 반복 문맥/해석/지위층을 정돈한다. 1920 실제 Stage에서 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-04.png"
+      ],
+      "owner": "/root/devday_creation_manager",
+      "nextAction": "질문↔정확 목적 구절을 한 대조로 묶고 source 제목/선택 위치의 읽을 무게를 편집한다. 입문자·별도15분·목적을 본문 크기로 유지하면서 세메모 전체/반복 판단/순수예시표지를 역할 분리한다. 질문·필수조건을 caption으로 축소하지 않는다. 두 발표 크기·14–16 문맥·원본24:00을 새 캡처/독립 검수한다."
+    },
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "같은 질문과 실제 연결 문서 이름은 생겼지만 공통 원자료/이번 답이 두 번 큰 대상으로 반복되고 이번 입력/현재 입력에서 종합의 동의 설명이 넓은 중앙면을 차지한다. 아래의 세 문서명은 좁은 2~3행 상자에서 읽혀 차이인 지속 문서보다 절차/밝은 같은 답이 먼저 읽힌다. Codex01:30과 대조해 공통 요소를 묶고 비교 차이가 주역이 되는 구조 편집이 필요하다. 1280 실제 Stage에서도 같은 읽는 경쟁/위계를 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-01.png"
+      ],
+      "owner": "/root/devday_creation_manager",
+      "nextAction": "공통 원자료/이번 답과 동의 설명을 묶고 이번 입력의 종합과 지속되는 문서의 차이를 주역으로 다시 편집한다. 구체 구절은 필요시 기존 라벨을 대체하며 추가층으로 쌓지 않는다. 정확 비교 범위/자작예는 보존하고 두 발표 크기·04–06 문맥·동역할 원본을 다시 캡처/독립 검수한다."
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "목적과 맥락이라는 작은 자료 요약 입구와 LLM Wiki/RAG와 위키·다음 스터디의 첫 시도라는 큰 기존 문서 영역이 구별된다. 세 영역에 닿는 세 무방향 관계가 구체 이름 가까이 읽히며 새 방향·자동 순서를 만들지 않았다. 큰 색판은 문서의 소속과 위계를 묶고 하단 한 행은 낮은 위계여서 관계 파악을 막지 않는다. 이 발표 범위의 국소 수동 승인이다. 1280 실제 Stage에서도 같은 읽는 경쟁/위계를 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-02.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "입문자와 함께 읽는15분LLMWiki활동이라는 완전한 문서 제목이 자료 정체성을 더 구체화하고 15분 진행안 절·세 필드·6~11분의 한 행이 하나의 밝은 문서면으로 읽힌다. 활동 행동과 남길 근거 위치가 크게 보이고 자작 설명용 한 행 발췌 지위가 유지된다. 제목의15분 반복은 본문 행을 밀어내는 주역으로 읽히지 않는다. 이 발표 범위의 국소 수동 승인이다. 1280 실제 Stage에서도 같은 읽는 경쟁/위계를 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-03.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:32:40.223941+00:00",
+      "reason": "조건 메모의 정체성과 선택 위치·native 큰 목적 구절은 개선됐으나 왼쪽 제목/세 조건/축약 선택줄과 오른쪽 작은 질문/네 행 인용/목적 재해석/예시 표지가 병행 독서층으로 경쟁한다. 공식24:00과 대조해 질문과 정확 목적을 핵심 대조로 묶고 자료는 정체성·선택 위치의 근거로 다시 편집해야 한다. 입문자·별도 활동15분·정확 목적은 읽을 크기로 보존하고 반복 문맥/해석/지위층을 정돈한다. 1280 실제 Stage에서도 같은 읽는 경쟁/위계를 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-04.png"
+      ],
+      "owner": "/root/devday_creation_manager",
+      "nextAction": "질문↔정확 목적 구절을 한 대조로 묶고 source 제목/선택 위치의 읽을 무게를 편집한다. 입문자·별도15분·목적을 본문 크기로 유지하면서 세메모 전체/반복 판단/순수예시표지를 역할 분리한다. 질문·필수조건을 caption으로 축소하지 않는다. 두 발표 크기·14–16 문맥·원본24:00을 새 캡처/독립 검수한다."
+    }
+  ]
+}

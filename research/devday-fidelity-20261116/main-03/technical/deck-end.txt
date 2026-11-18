@@ -1,0 +1,48 @@
+[p1 "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage" | space "DevDay 미감 복원과 원본 대조"(4): 1 managed, 0 untracked — p1* "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage"]
+root
+  container
+    anchor "첫 슬라이드" [ref=929, loc=css:a[aria-label="첫 슬라이드"], url=http://127.0.0.1:4336/presentations/llm-wiki/?actions=keyboard-1245269027b8#1]
+      text "ou-presentation"
+      text "발표 템플릿"
+    container "발표 모음과 학습 자료"
+      anchor [ref=930, url=http://127.0.0.1:4336/presentations/index.html]
+        text "발표 모음"
+      text "·"
+      anchor [ref=931, loc=href:/presentations/llm-wiki/materials/index.html, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+        text "학습 자료"
+    container
+      combobox "테마" [ref=932, loc=css:select[aria-label="테마"]]
+        text "Stage"
+      button [ref=933]
+        text "읽기 모드"
+  container "발표 슬라이드" [ref=934]
+    container "20. 어떤 질문을 다시 묻고 싶나요?"
+      heading
+        text "어떤 질문을 다시 묻고 싶나요?"
+      paragraph
+        anchor [ref=935, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80]
+          text "해설과 복사할 첫 요청"
+        text "·"
+        anchor [ref=936, loc=href:/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt]
+          text "예제 팩 전문"
+  container
+    container
+      button "이전 슬라이드" [ref=937, loc=css:button[aria-label="이전 슬라이드"]]
+        text "←"
+      button "다음 슬라이드" [ref=938, loc=css:button[aria-label="다음 슬라이드"]]
+        text "→"
+    container
+      text "20 / 20"
+      text "—"
+      text "Markdown"
+    container
+      status
+        text "Markdown 원고"
+      button [ref=939]
+        text "전체 보기"
+      button [ref=940]
+        text "발표자"
+      button [ref=941]
+        text "전체 화면"
+      button "사용법 및 단축키" [ref=942, loc=css:button[aria-label="사용법 및 단축키"]]
+        text "?"

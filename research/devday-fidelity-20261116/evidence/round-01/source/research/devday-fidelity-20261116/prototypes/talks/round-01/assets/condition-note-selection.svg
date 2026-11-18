@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="650" viewBox="0 0 680 650" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">다음 모임의 조건 메모에서 목적 구절을 선택하는 위치</title>
+  <desc id="desc">텍스트 팩의 raw/study-retro.md 나중에 추가 구간을 식별하는 설명용 문서면이다. 제목은 다음 모임의 조건 메모다. 다음 모임에는 입문자가 함께한다고 가정한다, 본편 뒤 별도 활동은15분만 배정한다, 발표팀의 설명용 주제 메모 세 개로 시작한다는 정확 조건을 표시했다. 그 아래 노란 선택 표식은 도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다는 목적 문장을 고른 위치를 가리킨다. 선택한 정확 목적문 전문은 오른쪽의 편집 가능한 Markdown 본문에 이어진다. 이는 한 팩의 논리 구간이며 독립 공개 파일이나 실제 앱 UI·사용자 기록·모델 출력이 아니다.</desc>
+  <style>
+    text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.2px}
+    .identity{font-size:47px;fill:#202221;font-weight:500}
+    .condition{font-size:35px;fill:#303630;font-weight:400}
+    .selection{font-size:34px;fill:#303630;font-weight:500}
+  </style>
+  <g data-document-id="study-retro" data-logical-source="raw/study-retro.md — 나중에 추가">
+    <rect x="14" y="20" width="638" height="604" rx="2" fill="#f2f0e8"/>
+    <text class="identity" x="52" y="97"><tspan x="52">다음 모임의</tspan><tspan x="52" dy="61">조건 메모</tspan></text>
+    <path d="M52 195H614" fill="none" stroke="#b6bab2" stroke-width="1.5"/>
+    <text class="condition" x="52" y="253"><tspan x="52">다음 모임에는 입문자가</tspan><tspan x="52" dy="47">함께한다고 가정한다.</tspan></text>
+    <text class="condition" x="52" y="364"><tspan x="52">본편 뒤 별도 활동은</tspan><tspan x="52" dy="47">15분만 배정한다.</tspan></text>
+    <text class="condition" x="52" y="475"><tspan x="52">발표팀의 설명용 주제 메모</tspan><tspan x="52" dy="47">세 개로 시작한다.</tspan></text>
+    <g data-selection-id="purpose" data-selected-text="도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.">
+      <rect x="52" y="556" width="562" height="43" fill="#e5d79d"/>
+      <text class="selection" x="64" y="588">도구 설치보다 목차와 연결을…</text>
+      <path d="M614 578H674" fill="none" stroke="#e5d79d" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

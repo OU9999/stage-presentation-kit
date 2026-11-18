@@ -1,0 +1,98 @@
+{
+  "format": "devday-main01-input-proof-v1",
+  "checkedAt": "2026-11-16T07:21:38.243Z",
+  "status": "pass",
+  "visualApproval": false,
+  "checks": [
+    {
+      "id": "selection-native-exact",
+      "status": "pass",
+      "detail": "The authored selection example remains one exact native quotation; it is not a user observation or model output."
+    },
+    {
+      "id": "purpose-native-exact",
+      "status": "pass",
+      "detail": "The native purpose remains the exact condition-note passage."
+    },
+    {
+      "id": "same-plan-exact-states",
+      "status": "pass",
+      "detail": "The two actual logical-plan states and selected field positions are preserved; the graphic is explanatory, not a tool diff."
+    },
+    {
+      "id": "same-plan-correspondence-contract",
+      "status": "pass",
+      "detail": "Static source correspondence only; measured paths are separately mandatory in current-mode QA."
+    },
+    {
+      "id": "adopted-same-question-comparison.svg",
+      "status": "pass",
+      "detail": "The adopted asset retains the exact independently reviewed round02 bytes."
+    },
+    {
+      "id": "adopted-connected-documents.svg",
+      "status": "pass",
+      "detail": "The adopted asset retains the exact independently reviewed round02 bytes."
+    },
+    {
+      "id": "adopted-session-plan-row.svg",
+      "status": "pass",
+      "detail": "The adopted asset retains the exact independently reviewed round02 bytes."
+    },
+    {
+      "id": "adopted-condition-note-selection.svg",
+      "status": "pass",
+      "detail": "The adopted asset retains the exact independently reviewed round02 bytes."
+    },
+    {
+      "id": "current-static-contract",
+      "status": "pass",
+      "detail": "Current source/public anchors/26-topic coverage/role inventory passed the source CLI; this is not rendered approval."
+    }
+  ],
+  "relatedTests": {
+    "command": "node --test tests/llm-wiki-keynote-qa.test.cjs",
+    "actualExitCode": 0,
+    "tests": 17,
+    "pass": 17,
+    "fail": 0
+  },
+  "sourceCLI": {
+    "path": "research/devday-fidelity-20261116/production/main-01-source-proof.json",
+    "status": "pass",
+    "summary": {
+      "checks": 1340,
+      "invalid": 0,
+      "regressions": 0
+    }
+  },
+  "historicalBaseline": {
+    "path": "research/devday-fidelity-20261116/production/main-01-historical-baseline.json",
+    "actualExitCode": 1,
+    "status": "regression",
+    "summary": {
+      "checks": 72,
+      "invalid": 0,
+      "regressions": 45
+    }
+  },
+  "inputHashes": {
+    "talks/llm-wiki/slides.md": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+    "talks/llm-wiki/materials/keynote-notes.md": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f",
+    "talks/llm-wiki/materials/speaker-script.md": "054928b24e995d92f50634c287eccde2b8e3973b1ba682abfcce279497f18355",
+    "talks/llm-wiki/README.md": "b02dbe8ab174612f493cc8ee846d484a4940ed47d7714b40bde61350e7053ca2",
+    "talks/llm-wiki/assets/speaker-guide.txt": "3ceed10f507daa98ffbe58bccef7b9fde98f8efa42c6bd9e06db7b95cec42bfb",
+    "talks/llm-wiki/qa/keynote-current.json": "b26f30e53c725aac5e6c5f1b79ecaae314cacc46fae25f0b5913c3d569e70720",
+    "talks/llm-wiki/qa/keynote-coverage.json": "e6bd8bc9bc7dd7a4d6bc63167867917ed9487c60c0fc185012dad643ef14e856",
+    "talks/llm-wiki/qa/keynote-observation.md": "65a2f9d737e634d33f546d905b172e64ccce20af800069184f6c6d1b4e376abb",
+    "scripts/llm-wiki-keynote-qa.cjs": "fcda1df8e6f4e45c0dc74348847ff6d9cde5dc5925159a9f3647214128f165a2",
+    "tests/llm-wiki-keynote-qa.test.cjs": "70a4cf125f52a9477dfe6083660f854bf95d13efd0440cc159c82c65dcd4c378"
+  },
+  "unverified": [
+    "New 3/6 and adopted four in actual current stage",
+    "Native FIGCAPTION/FIGURE and P/BLOCKQUOTE at rendered size",
+    "Actual relation/correspondence geometry",
+    "Current full presentation/reading visual approval",
+    "Potential later slide14 concrete-case edit"
+  ]
+}

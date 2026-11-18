@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="590" viewBox="0 0 1440 590" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">같은 질문에서 비교하는 두 교육용 작업 흐름</title>
+  <desc id="desc">상단의 기본 검색-생성 예는 관련 원자료를 이번 입력에 모아 종합하여 이번 답을 만든다. 하단의 위키를 유지하는 예는 자료 반영 때 LLM Wiki, RAG와 위키, 다음 스터디의 첫 시도라는 연결 문서를 남기고 필요한 쪽을 읽어 이번 답을 만든다. 같은 원자료와 같은 질문의 비교이며 구현 UI나 실제 모델 출력이 아니다. RAG도 요약·답 저장·관계 정리를 붙일 수 있고 위키도 검색을 쓴다. 두 흐름은 함께 쓸 수 있으며 정확도·속도·비용의 우열을 측정하지 않는다. 화살표는 이 교육용 흐름의 작업 방향이며 실행 관측이나 시스템의 필수 순서가 아니다.</desc>
+  <style>
+    text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.3px}
+    .route{font-size:36px;fill:#b6b6b2;font-weight:400}
+    .object{font-size:46px;fill:#f6f6f4;font-weight:500}
+    .detail{font-size:34px;fill:#c3c9c8;font-weight:400}
+    .document{font-size:37px;fill:#f6f6f4;font-weight:500}
+    .paper{fill:#111b1f;stroke:#6e898f;stroke-width:1.5}
+    .flow{fill:none;stroke:#b2b8b6;stroke-width:2.5;marker-end:url(#flow-arrow)}
+  </style>
+  <defs><marker id="flow-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M1 1L6 4L1 7" fill="none" stroke="#b2b8b6" stroke-width="1.3"/></marker></defs>
+  <text class="route" x="28" y="47">기본 검색-생성 예</text>
+  <g data-object-id="retrieved-materials" data-source-role="related-raw-materials">
+    <path d="M36 114H260V238H36Z" fill="#171919" stroke="#626969" stroke-width="1.5"/>
+    <path d="M48 102H272V226" fill="none" stroke="#626969" stroke-width="1.5"/>
+    <text class="object" x="57" y="169">관련</text><text class="object" x="57" y="220">원자료</text>
+  </g>
+  <path class="flow" d="M292 176H425"/>
+  <g data-object-id="current-input">
+    <rect x="450" y="103" width="590" height="142" rx="2" fill="none" stroke="#8d9592" stroke-width="1.5"/>
+    <text class="object" x="484" y="160">이번 입력</text>
+    <text class="detail" x="484" y="212">현재 입력에서 종합</text>
+  </g>
+  <path class="flow" d="M1060 176H1171"/>
+  <g data-object-id="current-answer-search">
+    <path d="M1198 109H1390V243H1198Z" fill="#f2f0e8"/>
+    <text x="1224" y="191" style="font-size:44px;fill:#202221;font-weight:500">이번 답</text>
+  </g>
+  <path d="M28 286H1412" fill="none" stroke="#353b39" stroke-width="1.3"/>
+  <text class="route" x="28" y="337">위키를 유지하는 예</text>
+  <g data-object-id="reflected-materials" data-source-role="related-raw-materials">
+    <path d="M36 406H260V530H36Z" fill="#171919" stroke="#626969" stroke-width="1.5"/>
+    <path d="M48 394H272V518" fill="none" stroke="#626969" stroke-width="1.5"/>
+    <text class="object" x="57" y="461">관련</text><text class="object" x="57" y="512">원자료</text>
+  </g>
+  <path class="flow" d="M292 468H382"/>
+  <g data-object-id="persistent-connected-documents" data-source-role="persistent-connected-documents">
+    <text class="detail" x="410" y="384">지속되는 연결 문서</text>
+    <path d="M430 425H1009M558 500H884" fill="none" stroke="#7b999f" stroke-width="2.5"/>
+    <rect class="paper" x="410" y="406" width="202" height="138" rx="2"/>
+    <text class="document" x="435" y="463">LLM</text><text class="document" x="435" y="509">Wiki</text>
+    <rect class="paper" x="641" y="406" width="202" height="138" rx="2"/>
+    <text class="document" x="665" y="463">RAG와</text><text class="document" x="665" y="509">위키</text>
+    <rect class="paper" x="872" y="406" width="230" height="138" rx="2"/>
+    <text class="document" x="895" y="444"><tspan x="895">다음</tspan><tspan x="895" dy="42">스터디의</tspan><tspan x="895" dy="42">첫 시도</tspan></text>
+  </g>
+  <path class="flow" d="M1122 468H1171"/>
+  <g data-object-id="current-answer-wiki">
+    <path d="M1198 401H1390V535H1198Z" fill="#f2f0e8"/>
+    <text x="1224" y="483" style="font-size:44px;fill:#202221;font-weight:500">이번 답</text>
+  </g>
+</svg>

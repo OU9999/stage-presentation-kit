@@ -1,0 +1,63 @@
+{
+  "format": "stage-project-v1",
+  "title": "LLM Wiki · DevDay 복원 첫 실물",
+  "theme": "stage",
+  "decks": [
+    {
+      "id": "round-01",
+      "source": "talks/round-01/slides.md",
+      "slug": "round-01",
+      "format": "markdown-v1",
+      "title": "LLM Wiki · 비교, 연결, 결과, 근거",
+      "links": {
+        "slides": "round-01/index.html",
+        "read": "round-01/read.html",
+        "materials": "round-01/materials/index.html"
+      },
+      "materials": [
+        {
+          "source": "talks/round-01/materials/notes.md",
+          "title": "네 장의 원문과 읽을 경로",
+          "order": 1,
+          "revision": "a2d14753096ed3a02216a14212ca686ad902abf4e9860794a04294a6d5665c4d",
+          "href": "round-01/materials/notes.html"
+        },
+        {
+          "source": "talks/round-01/materials/reading-pack.md",
+          "title": "실제 예제 팩 전문",
+          "order": 2,
+          "revision": "68f526ee7ee00524b9059d90a66b26978b017cd58db030212d2c32de9fea2c78",
+          "href": "round-01/materials/reading-pack.html"
+        }
+      ]
+    },
+    {
+      "id": "round-02",
+      "source": "talks/round-02/slides.md",
+      "slug": "round-02",
+      "format": "markdown-v1",
+      "title": "LLM Wiki · 비교, 연결, 결과, 근거",
+      "links": {
+        "slides": "round-02/index.html",
+        "read": "round-02/read.html",
+        "materials": "round-02/materials/index.html"
+      },
+      "materials": [
+        {
+          "source": "talks/round-02/materials/notes.md",
+          "title": "네 장의 원문과 읽을 경로",
+          "order": 1,
+          "revision": "67b770d6476a6bb52c9ed4294119f4191e1160bb21bfc8bbc9545e451a400b7d",
+          "href": "round-02/materials/notes.html"
+        },
+        {
+          "source": "talks/round-02/materials/reading-pack.md",
+          "title": "실제 예제 팩 전문",
+          "order": 2,
+          "revision": "68f526ee7ee00524b9059d90a66b26978b017cd58db030212d2c32de9fea2c78",
+          "href": "round-02/materials/reading-pack.html"
+        }
+      ]
+    }
+  ]
+}

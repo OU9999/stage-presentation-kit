@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
+  <title id="title">한 문장 교정과 함께 바뀐 위키 8쪽</title>
+  <desc id="desc">실제 승인안 적용의 영향 지도. 기존 C1 주장과 Q1 답을 고치고 index에 입구, log에 교정 이유를 더하며 D1을 대체 표시한다. Q2 운영 질문, D2 저장 정책, pending 검토 대기 페이지를 새로 만든다. 위쪽 화살표는 주장 교정에서 관련 답과 정책으로 이어지는 설명 관계이며 스크립트의 실행 순서나 자동 추론을 뜻하지 않는다. 기존 5쪽 갱신과 신규 3쪽 생성으로 총 8쪽이다.</desc>
+  <rect width="1200" height="450" fill="#090909"/>
+  <g font-family="Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+    <text x="32" y="42" fill="#b7bab8" font-size="32" font-weight="400">문장의 교정이 관련 답과 정책으로 이어진다</text>
+    <path d="M32 75H270" stroke="#24a8ff" stroke-width="2"/>
+    <text x="32" y="137" fill="#24a8ff" font-size="48" font-weight="700">C1</text>
+    <text x="32" y="188" fill="#f5f5f2" font-size="34" font-weight="400">주장 교정</text>
+    <path d="M330 75H568" stroke="#24a8ff" stroke-width="2"/>
+    <text x="330" y="137" fill="#24a8ff" font-size="48" font-weight="700">Q1</text>
+    <text x="330" y="188" fill="#f5f5f2" font-size="34" font-weight="400">답·다음 질문</text>
+    <path d="M628 75H866" stroke="#69cf82" stroke-width="2"/>
+    <text x="628" y="137" fill="#69cf82" font-size="48" font-weight="700">Q2</text>
+    <text x="628" y="188" fill="#f5f5f2" font-size="34" font-weight="400">새 운영 질문</text>
+    <path d="M926 75H1164" stroke="#69cf82" stroke-width="2"/>
+    <text x="926" y="137" fill="#69cf82" font-size="48" font-weight="700">D2</text>
+    <text x="926" y="188" fill="#f5f5f2" font-size="34" font-weight="400">새 저장 정책</text>
+    <path d="M280 129H308" stroke="#6f7973" stroke-width="3"/><path d="M308 129l-12 -8v16Z" fill="#6f7973"/>
+    <path d="M578 129H606" stroke="#6f7973" stroke-width="3"/><path d="M606 129l-12 -8v16Z" fill="#6f7973"/>
+    <path d="M876 129H904" stroke="#6f7973" stroke-width="3"/><path d="M904 129l-12 -8v16Z" fill="#6f7973"/>
+    <path d="M32 238H1168" stroke="#424744" stroke-width="2"/>
+    <text x="32" y="301" fill="#24a8ff" font-size="36" font-weight="700">index</text>
+    <text x="32" y="349" fill="#f5f5f2" font-size="32" font-weight="400">시작할 입구 추가</text>
+    <text x="330" y="301" fill="#24a8ff" font-size="36" font-weight="700">log</text>
+    <text x="330" y="349" fill="#f5f5f2" font-size="32" font-weight="400">교정 이유 추가</text>
+    <text x="628" y="301" fill="#24a8ff" font-size="36" font-weight="700">D1</text>
+    <text x="628" y="349" fill="#f5f5f2" font-size="32" font-weight="400">대체 표시·보존</text>
+    <text x="926" y="301" fill="#69cf82" font-size="36" font-weight="700">pending</text>
+    <text x="926" y="349" fill="#f5f5f2" font-size="32" font-weight="400">근거 부족·보류</text>
+    <text x="32" y="420" fill="#24a8ff" font-size="32" font-weight="400">기존 5쪽 갱신</text>
+    <text x="330" y="420" fill="#69cf82" font-size="32" font-weight="400">+ 신규 3쪽</text>
+    <text x="650" y="420" fill="#b7bab8" font-size="32" font-weight="400">= 현행 8쪽 · 이 예제의 파일 수</text>
+  </g>
+</svg>

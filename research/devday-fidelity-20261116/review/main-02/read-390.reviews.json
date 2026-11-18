@@ -1,0 +1,666 @@
+{
+  "source": "talks/llm-wiki/slides.md",
+  "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+  "designSha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+  "scope": "manual reading slide crop with directly viewed native support; CLI not executed by reviewer",
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "제목과 짧은 부제가 분리돼 발표 주제가 한 대상으로 읽힌다. 읽기 화면의 실제 제목과 본문 크기·여백을 직접 확인했다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-01.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 2,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "함께 읽고 고친다는 행위와 굵은 나만의 지식 문서가 두 의미행으로 읽힌다. 뒤의 선택 이유 예로 이어지는 짧은 선언 역할을 수용한다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-02.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 3,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "정확 선택 이유·마지막 선택 강조·발표팀 구성 지위는 보존되지만 실제390 화면의 만들고 / 싶어서 자동 꼬리행은 하나의 보조서술 호흡을 끊는다. 싶어서는 독립 선언이나 라벨이 아니므로 정확 단어와 순서를 유지하면서 만들고 싶어서를 같은 의미행에 두고 영향받는 읽기/발표를 재확인해야 한다. 초기의 의미가 읽힌다는 국소 수용을 구체 한국어 호흡 반론 뒤 정정한다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-03.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-03-390.png",
+          "sha256": "3cc499dcad39135596ee7dc96f37b1584b219bdab56efe75062573aacc6736b7"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+      "owner": "차기 제작 source 담당",
+      "nextAction": "정확 구절과 단어 순서를 보존해 만들고 싶어서 호흡을 붙이고390/1440 읽기 및 양 발표의 실제 glyph 행·지위 소속을 재확인한다."
+    },
+    {
+      "slide": 4,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "다음 질문에 다시 쓴다는 한 문장 전환이 읽히고 다른 자료나 보조 설명과 경쟁하지 않는다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-04.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 5,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "공통 원자료와 이번 답을 각 한 번 묶고 현재 입력에서 종합과 남아 다시 읽는 넓은 계획 문서를 비교한다. 처음 계획과 미정 구절이 다음6의 변경 전 상태를 특정하며 병행 가능성은 별도 native 본문으로 읽힌다. 정확 두 예와 비교 한계는 현재 지원절에서 확인했다. 모바일 SVG는 개요 이미지이며 작은 글자 자체를 읽기 본문으로 승인하지 않고 실제18px native 지원절을 직접 읽었다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-05.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-05-390.png",
+          "sha256": "5d749336c13c8125bd00bb0126ec06f70081bb604051a6a2c3c1b103b76d063e"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/support-table-05-left-390.png",
+          "sha256": "60f06aa83612b88ad1d29a8a359e76a9b3f85434a6722b1bbad3e9a4b749eaa1"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/support-table-05-right-390.png",
+          "sha256": "7e5fd48ceeae67f7570b299c8ef1372e585f29ba2347c1a44951283e7250a73f"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 6,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "같은 계획의 제목과 조건 위치가 두 대응선으로 이어져 처음의 미정 상태에서 입문자·세 메모 중 두 개·별도15분으로 바뀐 필드를 읽을 수 있다. 정확 발췌의 재구성이며 실제 diff·모델 실행·운영 성과가 아님을 현재 지원절에서 대조했다. 모바일 SVG는 개요 이미지이며 작은 글자 자체를 읽기 본문으로 승인하지 않고 실제18px native 지원절을 직접 읽었다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-06.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-06-390.png",
+          "sha256": "34112f8ef60731b9cc17302b60c84c86e81b76220b4fd81f7c55072659095283"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/notes-plan-change-table-left-390.png",
+          "sha256": "e6019393c964f5d089ffbbaeb7346c7008542a33cdf5c4c37ee4f47ab79c00a2"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/notes-plan-change-table-right-390.png",
+          "sha256": "2fc4b54f647ff4444125b7089658250062f1b43a2c82d6b2985ef9466fe431d3"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 7,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "세 영역·세 무방향선과 작은 목적과 맥락 입구/큰 개념·비교 및 계획의 구도는 유효하다. 그러나6에서 같은 계획의 제목을 입문자와 하는 첫 위키 활동으로 갱신한 직후7의 현재 계획은 처음 제목 다음 스터디의 첫 시도로 돌아가며 지원절에도 시점 전환 표지가 없다. 현재 문서 상태를 혼동하게 하므로 제목 또는 처음 상태임을 명확히 편집하고 관련 alt·해설·대본의 시점을 맞춰야 한다. 모바일 SVG는 개요 이미지이며 작은 글자 자체를 읽기 본문으로 승인하지 않고 실제18px native 지원절을 직접 읽었다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-07.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-07-390.png",
+          "sha256": "423e7824272a63435136e8615901fb732ed88ef8c0f8c053c5b7c3852b930ec1"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/slide-06.png",
+          "sha256": "37c9a58f77e460746e21dc1a9e71e240209a336fa34c459e1ea6653821751ed6"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/support-table-07-left-390.png",
+          "sha256": "eec91d0931f1bc63e88fcfc5c255b40868e6ed6ce266d6669063947d9696984f"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/support-table-07-right-390.png",
+          "sha256": "b546addc5abe4e98dbd72ef2062208be29b1a09a0f3d896c57e56eec86173626"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+      "owner": "차기 제작 visual/source 담당",
+      "nextAction": "현재 계획 제목을6의 갱신 상태와 맞추거나 처음 관계의 시점을 가시적으로 정하고 세 영역/세 무방향선 보존·alt/지원절/대본 대응·5→6→7→8 연속과 네 모드를 재관측한다."
+    },
+    {
+      "slide": 8,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "조건과 첫 선택을 구별하고, 현재 지원절에서 입문자·준비된 팩·15분이라는 가상 조건과 시간만으로 읽기를 자동 도출하지 않는 목적을 읽었다. 실제 성과나 보편 선택으로 확대하지 않는다. 모바일 SVG는 개요 이미지이며 작은 글자 자체를 읽기 본문으로 승인하지 않고 실제18px native 지원절을 직접 읽었다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-08.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-08-390.png",
+          "sha256": "960a001fb0e2ad49e690add59c7ba9878dbda0267cc9f0ada320a3cb6a8cdf3d"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 9,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "자료를 고르기 전에 결과와 관련된 자료인지 묻는 질문의 앞뒤 의미가 함께 읽힌다. 질문 역할에 불필요한 자료나 항목을 추가할 이유가 없다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-09.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 10,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "목적·판단의 직접 작성 책임이 강조되고 감정·생각·판단·선택 이유를 직접 남긴다는 본문이 이어져 책임의 범위를 구체화한다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-10.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 11,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "두 열의 실제 표에서 원자료 구절·내가 직접 쓸 기록·AI 요약과 해석을 예와 대응해 읽을 수 있다. 내가 직접 적기 placeholder와 발표팀 구성 지위가 직접 기록을 대신 꾸며 쓰지 않는다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-11.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 12,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "공부·프로젝트·글과 발표의 동등한 활용처가 세로 그룹과 각 설명으로 대응한다. 동등한 범주라는 이유만으로 구도를 바꾸거나 항목 수를 줄이지 않는다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-12.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 13,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "완전한 활동안 제목·15분 진행안 절·세 필드와6~11분 한 행이 하나의 편집된 자료다. 현재 지원절에서 정확 활동·남길 근거 위치·15분 계획 배분과 미확인 효과를 읽고 활동의 따라 읽기 순서를7의 무방향 관계와 구별했다. 모바일 SVG는 개요 이미지이며 작은 글자 자체를 읽기 본문으로 승인하지 않고 실제18px native 지원절을 직접 읽었다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-13.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-13-390.png",
+          "sha256": "85ce6274d7c706df550dc46a6415b39ab51614d2c43c5ab88120fb93bdc5ba95"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 14,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "선택 이유3·지속/갱신5/6·사람 책임10/11·한 활동행13 뒤에서 설명과 근거/내 경험과 판단/다음 질문이라는 구체 대상을 읽기·고치기·다시 쓰기로 요약한다. 다음15가 원자료 확인으로 전환하므로 현재 전체 흐름의 recap은 유효하며 새 사례를 수량 때문에 강제하지 않는다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-14.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 15,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "장 자체의 자료 정체성·선택 위치와 native 필수조건 질문·정확 목적4행은 유효하고 자작 가상 예 지위도 구별된다. 그러나 연결된 필수 지원해설 선택의 근거 확인의 실제 화면에서 질문 양끝의 literal **가 노출된다. 의미가 존재한다는 이유로 작성/렌더 결함을 해제할 수 없으므로 지원 문장/강조를 고치고 두 폭 실제 렌더를 다시 확인해야 한다. 같은 절의 native/prefix/caption 구현 설명도 원문·선택 위치·작성 지위에 관한 독자 말로 정리한다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-15.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-15-390.png",
+          "sha256": "3d08d8b59e0b7f8b7a73960d01f7cd1bb32cc53c7805ec8830636f91d2eda9f3"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+      "owner": "차기 제작 공개해설 담당",
+      "nextAction": "지원 선택의 근거 확인 절의 literal **를 실제 지원 문법으로 고치고 구현어휘를 독자 말로 정리하되 정확 목적·필수조건·자작예 지위를 보존해 두 폭 실제 절을 재확인한다."
+    },
+    {
+      "slide": 16,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "반복해서 묻는 주제와 한 번 확인할 질문을 다른 두 그룹으로 읽어 연결 문서/간단한 노트와 검색의 시작점을 구별한다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-16.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 17,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "목적과 직접 고른 두 자료를 함께 읽어 달라는 첫 요청이 인용으로 읽히고 핵심 행동 행이 완결된다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-17.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 18,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "근거·바꾼 파일·모르는 점이 동등한 결과 확인 항목이며 각 질문과 설명의 소속이 분명하다. 앞17 요청을 확인하는 역할을 수용한다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-18.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 19,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "다음 질문에 쓸 두 자료부터 시작한다는 한 행동으로 마감한다. 실제 의미행과 여백을 확인했다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-19.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "slide": 20,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T07:54:15.327491+00:00",
+      "reason": "어떤 질문을 다시 묻고 싶은지가 주역이고 해설·복사할 요청·예제 팩 전문은 별도 보조 탐색으로 구별된다. 이는 현재390×844/DPR1 read-slide-crop의 수동 판정이며 기술/과거 승인으로 승계하지 않았다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/read-390/slide-20.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+        }
+      ],
+      "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    }
+  ]
+}

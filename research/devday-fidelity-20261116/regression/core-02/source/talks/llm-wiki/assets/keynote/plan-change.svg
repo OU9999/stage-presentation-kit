@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="640" viewBox="0 0 1440 640" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+  <title id="title">같은 스터디 계획에 반영한 전후 조건</title>
+  <desc id="desc">예제 팩 wiki/syntheses/study-plan.md의 처음과 현재 계획 갱신에서 조건 문장을 정확 발췌했다. 처음에는 참여자 배경과 활동 길이가 미정이고, 갱신한 계획에는 입문자 포함·준비된 세 메모 중 두 개 선택·별도 활동15분이라는 가상 조건이 명시된다. 같은 논리 문서의 변화를 보여 주는 발표팀의 구성 예이며 실제 모임이나 모델 실행 성과가 아니다.</desc>
+  <style>text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.7px}.identity{font-size:36px;fill:#a4a4a1}.title{font-size:52px;font-weight:500;fill:#f6f6f4}.copy{font-size:50px;font-weight:500;fill:#f6f6f4}</style>
+  <rect x="72" y="60" width="1296" height="520" rx="2" fill="#171919"/>
+  <text class="title" x="128" y="150">스터디 계획의 변경</text>
+  <text class="identity" x="128" y="234">처음 계획</text>
+  <text class="copy" x="128" y="307">참여자 배경과 활동 길이는 아직 미정이다.</text>
+  <path d="M128 351H1312" fill="none" stroke="#484d4b" stroke-width="1.5"/>
+  <text class="identity" x="128" y="410">갱신한 계획</text>
+  <text class="copy" x="128" y="483"><tspan x="128">가상 조건: 입문자 포함, 준비된 세 메모 중</tspan><tspan x="128" dy="66">두 개 선택, 별도 활동 15분.</tspan></text>
+  <text class="identity" x="72" y="620">발표팀 구성 예</text>
+</svg>

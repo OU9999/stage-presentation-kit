@@ -1,0 +1,102 @@
+{
+  "format": "devday-observed-corrections-v1",
+  "checkedAt": "2026-11-16T08:35:17.861Z",
+  "visualApproval": false,
+  "scope": "Actual read390 selection glyph rhythm, current7/changed6 title correspondence, native support15 rendered question. Other scopes require their separate current QA and human review.",
+  "phases": [
+    {
+      "round": "main-02",
+      "revision": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+      "evidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/reading-metrics.json",
+          "sha256": "4062b6ed7d43f060ad9cc4c7e8dd48e625c2ff74668bac16860be57ace9b7243"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+          "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-02/present-1920/svg-metrics.json",
+          "sha256": "63673cc7711b3cfe98d7b7bccb51dd7c18754ab3a602c2736d0cb22d66017292"
+        }
+      ],
+      "selection": {
+        "text": "LLM Wiki와 RAG의 차이를 설명하고다음 스터디의 진행안을 만들고 싶어서이 메모를 골랐다.",
+        "rows": [
+          "LLM Wiki와 RAG의",
+          "차이를 설명하고",
+          "다음 스터디의 진행안을 만들고",
+          "싶어서",
+          "이 메모를 골랐다."
+        ],
+        "passes": false
+      },
+      "currentPlan": {
+        "expectedTitle": "입문자와 하는 첫 위키 활동",
+        "actualTexts": [
+          "자료 요약",
+          "목적과 맥락",
+          "원자료의 입구",
+          "개념·비교",
+          "LLM Wiki",
+          "RAG와 위키",
+          "현재 계획",
+          "다음 스터디의 첫 시도"
+        ],
+        "passes": false
+      },
+      "supportQuestion": {
+        "text": "현재 확인 장면의 **본편 뒤 별도 활동 15분, 입문자와 함께라면 ‘읽기부터’?**는 발표용 확인 질문입니다. 필수 입문자·본편 뒤 별도 활동 시간을 한 native 질문에 묶은 요약이며 원문 인용이 아닙니다. 질문의 근거를 메모의 선택 위치와 정확 목적 구절에서 대조합니다. 반복한 별도 판정 문구 없이 이 대조로 목적도 확인합니다.",
+        "passes": false
+      }
+    },
+    {
+      "round": "main-04",
+      "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+      "evidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-390/reading-metrics.json",
+          "sha256": "ce3f68b166910a81c817aaeb56b33ce91be7c4c67562fd618d126df721cad7c7"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-390/manifest.json",
+          "sha256": "47fc38af151fb4a5de259d665f4325acfbaecf11099212487728f89e811c05d5"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/present-1920/svg-metrics.json",
+          "sha256": "5bacc4f4aeb1aadb28952de409a8346b912f5bd396fca09816f6d8c5851faf2c"
+        }
+      ],
+      "selection": {
+        "text": "LLM Wiki와 RAG의 차이를 설명하고다음 스터디의 진행안을만들고 싶어서이 메모를 골랐다.",
+        "rows": [
+          "LLM Wiki와 RAG의",
+          "차이를 설명하고",
+          "다음 스터디의 진행안을",
+          "만들고 싶어서",
+          "이 메모를 골랐다."
+        ],
+        "passes": true
+      },
+      "currentPlan": {
+        "expectedTitle": "입문자와 하는 첫 위키 활동",
+        "actualTexts": [
+          "자료 요약",
+          "목적과 맥락",
+          "원자료의 입구",
+          "개념·비교",
+          "LLM Wiki",
+          "RAG와 위키",
+          "현재 계획",
+          "입문자와 하는 첫 위키 활동"
+        ],
+        "passes": true
+      },
+      "supportQuestion": {
+        "text": "본편 뒤 별도 활동 15분, 입문자와 함께라면 ‘읽기부터’?",
+        "passes": true
+      }
+    }
+  ]
+}

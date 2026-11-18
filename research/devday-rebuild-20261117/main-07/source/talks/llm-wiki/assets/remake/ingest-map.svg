@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" style="background:#080808" role="img" aria-labelledby="title desc">
+  <title id="title">원자료를 읽고 나누어 기존 문서의 연결을 갱신하는 Ingest</title>
+  <desc id="desc">자작 주제 메모 목적과 맥락, 검색과 비교, 지식의 활용을 읽고 나눈다. 자료 요약은 원자료의 입구이며 기존 개념·비교 및 여러 자료를 종합한 현재 계획과 연결된다. 요약, 개념·비교, 현재 계획 사이의 선은 관계를 뜻하며 양방향 작동이나 필수 파일 생성 순서가 아니다. 관련 문서·목차·링크를 갱신하고 원자료·사람의 선택 이유·종합을 유지한다.</desc>
+  <g font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif" letter-spacing="-.4">
+    <g fill="#A4A4A1" font-size="30">
+      <text x="35" y="77">같은 원자료 세 메모</text>
+      <text x="35" y="212">목적 · 이유 · 결과</text>
+      <text x="35" y="362">근거 검색 · 차이</text>
+      <text x="35" y="512">종합 · 공유 · 검토</text>
+    </g>
+    <g fill="#F6F6F4" font-size="39" font-weight="550">
+      <text x="35" y="163">목적과 맥락</text>
+      <text x="35" y="313">검색과 비교</text>
+      <text x="35" y="463">지식의 활용</text>
+    </g>
+    <g fill="none" stroke="#5A5A57" stroke-width="1">
+      <path d="M35 248H340"/>
+      <path d="M35 398H340"/>
+    </g>
+    <text x="468" y="260" fill="#A4A4A1" font-size="30" text-anchor="middle">읽고 나누기</text>
+    <path d="M375 310H552M538 300L552 310L538 320" fill="none" stroke="#A4A4A1" stroke-width="2"/>
+    <text x="1055" y="77" fill="#A4A4A1" font-size="31" text-anchor="middle">문서·목차·링크 갱신</text>
+    <g fill="none" stroke="#5A5A57" stroke-width="2">
+      <path d="M700 310L1185 175"/>
+      <path d="M700 310L1185 455"/>
+      <path d="M1185 175V455"/>
+    </g>
+    <g fill="#69CF82">
+      <circle cx="700" cy="310" r="11"/>
+      <circle cx="1185" cy="175" r="11"/>
+      <circle cx="1185" cy="455" r="11"/>
+    </g>
+    <g paint-order="stroke" stroke="#080808" stroke-width="12" stroke-linejoin="round" text-anchor="middle">
+      <g fill="#F6F6F4" font-size="42" font-weight="550">
+        <text x="700" y="274">자료 요약</text>
+        <text x="1185" y="139">개념 · 비교</text>
+        <text x="1185" y="419">현재 계획</text>
+      </g>
+      <g fill="#A4A4A1" font-size="31">
+        <text x="700" y="365">원자료의 입구</text>
+        <text x="1185" y="230">기존 설명과 연결</text>
+        <text x="1185" y="510">여러 자료의 종합</text>
+      </g>
+    </g>
+  </g>
+</svg>

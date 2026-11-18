@@ -1,0 +1,31 @@
+{
+  "scope": "Same normal URL and product files; cache bypass and fresh document only. Not an art-direction fix.",
+  "before": {
+    "url": "http://127.0.0.1:4336/presentations/llm-wiki/#15",
+    "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+    "scripts": [
+      "http://127.0.0.1:4336/presentations/llm-wiki/content.js?v=3ab54bd6f622",
+      "http://127.0.0.1:4336/presentations/_runtime/deck-model.js?v=a57abe5af92e",
+      "http://127.0.0.1:4336/presentations/_runtime/visual.js?v=02e26db1c3cc",
+      "http://127.0.0.1:4336/presentations/_runtime/blocks.js?v=d87049a48ee8",
+      "http://127.0.0.1:4336/presentations/_runtime/app.js?v=66951d0918bc"
+    ],
+    "diagnostic": "오류15번 슬라이드 · slides.14.view.variant지원하는 variant 이름을 사용하세요.",
+    "body": "15번 슬라이드를 확인하세요.다른 슬라이드는 계속 볼 수 있습니다. 원본 데이터와 항목은 그대로 보존됩니다.slides.14.view.variant지원하는 variant 이름을 사용하세요.content.js의 표시된 경로를 고치세요. 항목이 많다면 장을 나누고, 읽기 모드에서 원본 내용을 확인하세요.{\n  \"layout\": \"blocks\",\n  \"blocks\": [\n    {\n      \"type\": \"element\",\n      \"tag\": \"p\",\n      \"children\": [\n        {\n          \"type\": \"element\",\n          \"tag\": \"img\",\n          \"attrs\": {\n            \"src\": \"assets/9993d662f26d-condition-note-selection.svg\",\n            \"alt\": \"‘다음 모임의 조건 메모’의 정체성과 목적 구절의 선택 위치. 다음 모임의 입문자, 발표팀의 설명용 주제 메모 세 개, 본편 뒤 별도 활동 15분이라는 가상 조건을 가진 발표팀의 자작 예입니다. 실제 사용자 기록·모델 실행 결과가 아닙니다.\",\n            \"title\": \"발표팀의 자작 가상 예\"\n          },\n          \"children\": [],\n          \"position\": {\n            \"line\": 229,\n            \"endLine\": 229\n          }\n        }\n      ],\n      \"position\": {\n        \"line\": 229,\n        \"endLine\": 229\n      }\n    },\n    {\n      \"type\": \"element\",\n      \"tag\": \"p\",\n      \"children\": [\n        {\n          \"type\": \"text\",\n          \"value\": \"본편 뒤 별도 활동 15분,\"\n        },\n        {\n          \"type\": \"element\",\n          \"tag\": \"br\",\n          \"children\": [],\n          \"position\": {\n            \"line\": 231,\n            \"endLine\": 232\n          }\n        },\n        {\n          \"type\": \"text\",\n          \"value\": \"입문자와 함께라면 ‘읽기부터’?\"\n        }\n      ],\n      \"position\": {\n        \"line\": 231,\n        \"endLine\": 232\n      }\n    },\n    {\n      \"type\": \"element\",\n      \"tag\": \"blockquote\",\n      \"children\": [\n        {\n          \"type\": \"element\",\n          \"tag\": \"p\",\n          \"children\": [\n            {\n              \"type\": \"text\",\n              \"value\": \"도구 설치보다 목차와\"\n            },\n            {\n              \"type\": \"element\",\n              \"tag\": \"br\",\n              \"children\": [],\n              \"position\": {\n                \"line\": 234,\n                \"endLine\": 237\n              }\n            },\n            {\n              \"type\": \"text\",\n              \"value\": \"연결을 따라 다음 질문의\"\n            },\n            {\n              \"type\": \"element\",\n              \"tag\": \"br\",\n              \"children\": [],\n              \"position\": {\n                \"line\": 234,\n                \"endLine\": 237\n              }\n            },\n            {\n              \"type\": \"text\",\n              \"value\": \"근거를 찾는 경험을\"\n            },\n            {\n              \"type\": \"element\",\n              \"tag\": \"br\",\n              \"children\": [],\n              \"position\": {\n                \"line\": 234,\n                \"endLine\": 237\n              }\n            },\n            {\n              \"type\": \"text\",\n              \"value\": \"먼저 하고 싶다.\"\n            }\n          ],\n          \"position\": {\n            \"line\": 234,\n            \"endLine\": 237\n          }\n        }\n      ],\n      \"position\": {\n        \"line\": 234,\n        \"endLine\": 237\n      }\n    }\n  ],\n  \"origin\": {\n    \"line\": 219,\n    \"endLine\": 237\n  },\n  \"tone\": \"neutral\",\n  \"view\": {\n    \"compose\": \"split\",\n    \"variant\": \"evidence\",\n    \"fit\": \"contain\",\n    \"quiet\": true,\n    \"support\": {\n      \"label\": \"확인 질문과 조건 메모의 정확한 구절을 글로 읽기\",\n      \"href\": \"materials/keynote-notes.html#선택의-근거-확인\",\n      \"origin\": {\n        \"line\": 219,\n        \"endLine\": 228\n      }\n    }\n  }\n}"
+  },
+  "after": {
+    "url": "http://127.0.0.1:4336/presentations/llm-wiki/#15",
+    "revision": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+    "scripts": [
+      "http://127.0.0.1:4336/presentations/llm-wiki/content.js?v=52e8ae5caec9",
+      "http://127.0.0.1:4336/presentations/_runtime/deck-model.js?v=48406917d2bf",
+      "http://127.0.0.1:4336/presentations/_runtime/visual.js?v=02e26db1c3cc",
+      "http://127.0.0.1:4336/presentations/_runtime/blocks.js?v=3be7ddac62ab",
+      "http://127.0.0.1:4336/presentations/_runtime/app.js?v=66951d0918bc"
+    ],
+    "diagnostic": null,
+    "composition": "split",
+    "variant": "evidence",
+    "body": "발표팀의 자작 가상 예본편 뒤 별도 활동 15분,입문자와 함께라면 ‘읽기부터’?도구 설치보다 목차와연결을 따라 다음 질문의근거를 찾는 경험을먼저 하고 싶다.확인 질문과 조건 메모의 정확한 구절을 글로 읽기"
+  }
+}

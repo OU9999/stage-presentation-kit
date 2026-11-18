@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" data-material-kind="editorial-adaptation" data-source="expanded-study.txt:raw/study-retro.md" role="img" aria-labelledby="title desc">
+  <title id="title">다음 모임의 출발점, 자료를 다시 읽는 방법</title>
+  <desc id="desc">발표팀이 만든 가상 조건 메모를 기사처럼 편집한 설명용 자료다. 입문자, 준비된 메모, 15분이라는 조건에서 다음 질문의 근거를 먼저 찾으려는 목적을 설명한다.</desc>
+  <defs>
+    <linearGradient id="paper" x2="100%" y2="100%">
+      <stop stop-color="#272a31"/>
+      <stop offset="1" stop-color="#1b1d23"/>
+    </linearGradient>
+  </defs>
+  <rect data-observe-id="article-panel" width="900" height="650" rx="17" fill="url(#paper)"/>
+  <g font-family="-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+    <text data-observe-id="article-context" x="450" y="61" text-anchor="middle" font-size="17" font-weight="500" fill="#d2cfd8">다음 스터디 · 조건과 목적</text>
+    <g data-observe-id="article-title" text-anchor="middle" font-size="53" font-weight="430" fill="#f3f0f5" letter-spacing="-1">
+      <text x="450" y="125">다음 모임의 출발점</text>
+      <text x="450" y="181">자료를 다시 읽는 방법</text>
+    </g>
+    <g data-observe-id="article-body" font-size="25" font-weight="420" fill="#dfdce4" letter-spacing="-.4">
+      <text x="134" y="254">다음 모임에는 입문자가 함께한다. 본편 뒤에는 15분 동안 함께</text>
+      <text x="134" y="285">읽을 시간이 있다. 준비된 세 주제 메모에서 필요한 내용을 골라</text>
+      <text x="134" y="316">익숙하지 않은 사람도 목차에서 문서를 찾을 수 있게 한다.</text>
+
+      <text x="134" y="363">출발점은 목적과 맥락, 검색과 비교, 지식의 활용이다. 참여자는</text>
+      <text x="134" y="394">두 메모에서 궁금한 관계를 하나 고른다. 관련 개념과 비교 문서를</text>
+      <text x="134" y="425">펼쳐 보고 어떤 근거로 두 내용을 연결했는지 짚어 본다.</text>
+
+      <text x="134" y="472">무엇을 읽었고 어떤 판단을 보탰는지 적어 두면, 다음에 같은</text>
+      <text x="134" y="503">질문을 만났을 때 어디부터 다시 읽을지 알 수 있다. 아직 모르는</text>
+      <text x="134" y="534">점은 후속 질문으로 남겨 다음 모임의 출발점으로 삼는다.</text>
+
+      <text x="134" y="581">다음 질문에 쓸 근거를 연결된 문서에서 다시 찾고 싶다. 먼저</text>
+      <text x="134" y="612">그렇게 읽어 본 뒤에 어떤 준비를 더 할지 판단하기로 한다.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+[p1 "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage" | space "DevDay 미감 복원과 원본 대조"(4): 1 managed, 0 untracked — p1* "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage"]
+root
+  container
+    anchor "첫 슬라이드" [ref=238, loc=css:a[aria-label="첫 슬라이드"], url=http://127.0.0.1:4336/presentations/llm-wiki/read.html?direct-support=5dfe03555238-1440#1]
+      text "ou-presentation"
+      text "발표 템플릿"
+    container "발표 모음과 학습 자료"
+      anchor [ref=239, url=http://127.0.0.1:4336/presentations/index.html]
+        text "발표 모음"
+      text "·"
+      anchor [ref=240, loc=href:/presentations/llm-wiki/materials/index.html, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+        text "학습 자료"
+    container
+      combobox "테마" [ref=241, loc=css:select[aria-label="테마"]]
+        text "Stage"
+      button [ref=242]
+        text "발표 모드"
+  container "발표 슬라이드" [ref=243]
+    container "2. Markdown"
+    container "3. 내가 고른 이유"
+      heading
+        text "내가 고른 이유"
+      container
+        paragraph
+          text "LLM Wiki와 RAG의 차이를 설명하고"
+          text "다음 스터디의 진행안을 만들고 싶어서"
+          text "이 메모를 골랐다."
+        paragraph
+          text "「목적과 맥락」· 사람이 채울 선택 이유의 예"
+        paragraph
+          text "발표팀이 구성한 예문입니다."
+      paragraph
+        anchor [ref=244, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D-%EC%9D%B4%EC%9C%A0-%EB%A9%94%EB%AA%A8]
+          text "선택 이유의 원문과 예시 지위를 글로 읽기"
+    container "4. 다음 질문에 다시 씁니다"
+      heading
+        text "다음 질문에 다시 씁니다"
+    container "5. 다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?"
+      heading
+        text "다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?"
+      image
+  container
+    container
+      button "이전 슬라이드" [ref=245, loc=css:button[aria-label="이전 슬라이드"]]
+        text "←"
+      button "다음 슬라이드" [ref=246, loc=css:button[aria-label="다음 슬라이드"]]
+        text "→"
+    container
+      text "03 / 20"
+      text "—"
+      text "Markdown"
+    container
+      status
+        text "Markdown 원고"
+      button [ref=247]
+        text "전체 보기"
+      button [ref=248]
+        text "발표자"
+      button [ref=249]
+        text "전체 화면"
+      button "사용법 및 단축키" [ref=250, loc=css:button[aria-label="사용법 및 단축키"]]
+        text "?"
+[more content above and below the viewport: scrollY=541, viewport 1000 / page 10991 px; scroll or use snapshot({ scope: "full_page" })]

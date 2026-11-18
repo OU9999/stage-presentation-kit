@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" data-material-kind="editorial-adaptation" data-source="materials/session-plan.md#준비와-선택-이유" role="img" aria-labelledby="title desc">
+  <title id="title">모임 준비 안내와 활동 기록칸</title>
+  <desc id="desc">발표팀의 15분 활동안을 준비 안내와 기록 양식으로 편집했다. 왼쪽에는 시작하기 전 준비 세 가지가, 오른쪽에는 참가자가 근거 위치와 다음 질문을 쓸 빈칸이 있다.</desc>
+  <rect width="1000" height="640" fill="#d7e8ed"/>
+  <g font-family="-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" fill="#193b4d">
+    <text x="63" y="109" font-size="64" font-weight="650" letter-spacing="-1.9">모임 준비 안내</text>
+    <text x="66" y="160" font-size="33" font-weight="500" fill="#3d6779">준비된 문서로 시작하는 15분 활동</text>
+    <path d="M65 190H935" stroke="#7d9eab" stroke-width="2"/>
+    <g data-observe-id="preparation-checklist">
+      <g fill="none" stroke="#4a7a8b" stroke-width="3.5">
+        <rect x="66" y="249" width="37" height="37" rx="4"/>
+        <rect x="66" y="328" width="37" height="37" rx="4"/>
+        <rect x="66" y="407" width="37" height="37" rx="4"/>
+      </g>
+      <g font-size="35" font-weight="590" letter-spacing="-.7">
+        <text x="129" y="280">목적을 한 문장 적기</text>
+        <text x="129" y="359">두 읽기 메모 펼치기</text>
+        <text x="129" y="438">개념·비교의 위치 찾기</text>
+      </g>
+    </g>
+    <g data-observe-id="activity-form">
+      <rect x="574" y="225" width="361" height="305" rx="8" fill="#f0f7f7"/>
+      <text x="605" y="285" font-size="39" font-weight="650" letter-spacing="-.7">남길 기록</text>
+      <g font-size="28" fill="#466d7b" font-weight="530">
+        <text x="605" y="351">근거 위치</text>
+        <text x="605" y="438">다음 질문</text>
+      </g>
+      <path d="M605 387H903M605 476H903" stroke="#9ab6bd" stroke-width="2"/>
+    </g>
+    <text x="66" y="557" font-size="28" font-weight="520" fill="#3d6779">읽은 근거와 내 판단을 함께 적습니다.</text>
+  </g>
+</svg>

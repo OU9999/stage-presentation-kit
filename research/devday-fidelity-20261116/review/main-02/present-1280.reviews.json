@@ -1,0 +1,536 @@
+{
+  "scope": "main-02; manual presentation review only; CLI binding pending",
+  "source": "talks/llm-wiki/slides.md",
+  "sourceSha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+  "reviewDesignSha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "이름과 짧은 부제가 하나의 시작 대상이며, 큰 제목과 부제의 무게가 분명하다. 단문 역할에 필요한 여백을 유지한다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-01.png"
+      ]
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "함께 읽고 고치는 행위와 굵은 ‘나만의 지식 문서’가 다른 무게로 읽힌다. 뒤03의 선택 예가 이 선언을 구체화하므로 정의만 반복하는 흐름이 아니다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-02.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "정확한 선택 이유가 주역이며 주황 ‘이 메모를 골랐다’가 사람의 선택을 강조한다. ‘목적과 맥락’·사람이 채울 예·발표팀 구성 지위가 같은 면에 남아 실제 사용자 기록으로 위장하지 않는다. 현재 native 원문과 대응한다. 읽기390의 보조서술어 꼬리행 교정은 이 발표폭 판정과 별도다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-03.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "다음 질문에 다시 쓴다는 한 주장이 전환을 맡는다. 원본 단문 역할과 비교해 공간량 자체는 실패가 아니며 뒤05의 구체 비교로 이어진다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-04.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "공통 원자료와 이번 답은 한 번씩 묶이고 현재 입력과 남아 다시 읽는 문서가 다른 무게로 보인다. 넓은 계획의 정확 미정 구절과 ‘처음 계획’이06의 변경 전 상태에 대응한다. ‘두 예는 함께 쓸 수 있습니다’는 필수 native 본문에 남아 비교를 배타적으로 만들지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-05.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "같은 논리 계획의 처음/조건 반영 뒤를 제목과 조건 두 위치로 대응한다. 미정에서 입문자·준비된 세 메모 중 두 개·별도15분으로 바뀐 구절이 읽히며 실제 자동 diff/성과로 가장하지 않는다.05의 처음 제목과 미정 구절이 그대로 이어져 같은 계획임을 확인한다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-06.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "세 영역·세 무방향선·작은 원자료 입구와 큰 구체 문서명은 유효하다. 그러나06이 제목을 ‘다음 스터디의 첫 시도’에서 ‘입문자와 하는 첫 위키 활동’으로 바꾼 직후,07의 ‘현재 계획’은 다시 처음 제목이다. 화면과 실제 지원절에 처음 상태로 돌아간다는 표지가 없어 현재 문서 정체성이 충돌한다. B의 시점 반론 후 양폭06/07을 다시 직접 보고 초기 수용 해석을 정정했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-07.png"
+      ],
+      "owner": "차기 제작 manager의 자료자산·원고 담당",
+      "nextAction": "세 영역/세 무방향선과 작은 원자료 입구를 보존하고,06 이후 현재 계획 제목을 갱신 상태와 일치시키거나 처음 상태 관계임을 화면에 명확히 편집한다. alt·공개 해설·대본의 같은 시점을 맞춘 뒤 새 양폭05→06→07→08과07 양 읽기폭/지원절을 재관측한다."
+    },
+    {
+      "slide": 8,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "입문자/15분과 설치보다 문서 읽기라는 첫 선택이 서로 다른 무게로 읽힌다.06의 준비된 팩 조건과15의 목적 확인이 이를 구체화한다. 모든 활동이 시간만으로 결정된다는 주장으로 확대하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-08.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "앞으로 만들 결과와의 관련성을 묻는 두 의미행이 자료 선택의 기준을 명확히 한다. 앞의 구체 사례 뒤에서 휴지 역할을 하며 자료면 추가가 필수인 장은 아니다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-09.png"
+      ]
+    },
+    {
+      "slide": 10,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "목적·판단을 내가 적는다는 주황 책임 문장이 먼저 읽히고 감정·생각·선택 이유의 직접 기록이 이를 구체화한다. 실제 원본의 주장 내 강조 원리를 쓰되 색 존재만으로 승인하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-10.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "원자료 구절·내가 직접 쓸 기록·AI 해석이 각 예와 한 표에서 대응한다. 양폭 실제 셀에서 원문과 placeholder가 읽히며 발표팀 구성 예 지위가 남아 있다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-11.png"
+      ]
+    },
+    {
+      "slide": 12,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "공부·프로젝트·글과 발표가 동등한 활용 범주로 읽힌다. 설명과 강조의 순서가 일정하고13의 한 구체 결과물로 전환하므로 동일 열 자체를 실패로 삼지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-12.png"
+      ]
+    },
+    {
+      "slide": 13,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "완전한 활동안 제목과15분 진행안, 세 필드와6~11분 한 행이 한 문서로 묶인다. 지금 읽는 연결 한 개와 근거 위치가 크고, 작은 전문 복제나 실제 운영 성과로 보이지 않는다. 밝은 설명용 문서면과 자작 지위를 구별한다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-13.png"
+      ]
+    },
+    {
+      "slide": 14,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "현재 전체 흐름에서는 유효한 recap이다.03의 선택,05의 남는 문서,06의 수정과13의 활동 행 뒤에서 읽기·고치기·다시 쓰기를 재정리한다.12와 같은 열이지만 사이의13 자료면과 뒤15 근거 확인으로 대상이 바뀐다. 새 후속질문 사례를 의무로 추가할 핵심 누락은 없으며07 시점 수정과 별도로 이 요약 역할을 보존한다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-14.png"
+      ]
+    },
+    {
+      "slide": 15,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "원자료 제목·목적 구절의 선택 위치와 오른쪽 정확 인용이 다른 무게로 연결된다. 입문자·본편 뒤 별도15분은 질문 본문에, 정확 목적은 큰 인용에 남는다. 작은 caption은 자작 가상 예 지위만 맡아 필수 의미를 숨기지 않는다. 실제 지원절의 literal 강조기호와 공개 구현어 교정은 별도 미완료이며 현재 발표면을 바꿀 근거는 아니다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-15.png"
+      ]
+    },
+    {
+      "slide": 16,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "반복할 주제와 한 번 확인할 질문의 다른 시작점이 두 그룹으로 읽힌다.15의 근거 확인 뒤에서 사용 범위를 줄이는 선택이며, 두 그룹이라는 양식 때문에 추가 자료를 강제하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-16.png"
+      ]
+    },
+    {
+      "slide": 17,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "첫 요청의 목적과 직접 고른 두 자료를 함께 읽으라는 행동이 하나의 인용으로 이어진다. 마지막 행의 굵기가 실행할 내용을 강조하고 의미가 완결된다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-17.png"
+      ]
+    },
+    {
+      "slide": 18,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "근거·바꾼 파일·모르는 점은 동등한 결과 확인 항목이다.17의 요청을 점검하는 세 범주와 서술어가 읽히며 범주 수나 같은 열 자체로 재설계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-18.png"
+      ]
+    },
+    {
+      "slide": 19,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "다음 질문에 쓸 두 자료부터라는 한 행동으로 닫는다. 실제 폭에서 문장 전체가 읽히고 전환/마감 역할의 여백이 유효하다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-19.png"
+      ]
+    },
+    {
+      "slide": 20,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-16T07:52:31.913412Z",
+      "reason": "다시 묻고 싶은 질문이 마지막 주역이며 해설·첫 요청·팩 전문은 보조 탐색으로 읽힌다. 핵심 질문을 작은 링크로 대신하지 않았고 양폭에서 문장 끝이 보인다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-02/present-1280/slide-20.png"
+      ]
+    }
+  ],
+  "supportingEvidence": [
+    {
+      "path": "DESIGN.md",
+      "sha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0"
+    },
+    {
+      "path": "talks/llm-wiki/slides.md",
+      "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+    },
+    {
+      "path": "talks/llm-wiki/materials/keynote-notes.md",
+      "sha256": "5b162c4216244e4b98265685f0b3f6558c94b83749de068c7a5620d57d21586f"
+    },
+    {
+      "path": "talks/llm-wiki/assets/expanded-study.txt",
+      "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-03.png",
+      "sha256": "16a6b6a751eeaa8ee7a339f376a8fccf362333ca1510d30b405c8621469110c1"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-1440/slide-15.png",
+      "sha256": "0c4520ef72ab1e2d30573c231bbcc417ae091c128f9d03eb840bdf4466c60357"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-390/slide-03.png",
+      "sha256": "b561fb960b7761f7feced9a5935eed8e367498c2652421ac642c8d76064c5bb9"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-390/slide-15.png",
+      "sha256": "7d507944090491102c59d531777bc6ec180acbb060c70435442edbae29a9ad12"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-03-1440.png",
+      "sha256": "737d02cbe483e2c11c0e4ec871f7c1536b1ec1aa4aba08377d551dc99e7f4ecf"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-03-390.png",
+      "sha256": "3cc499dcad39135596ee7dc96f37b1584b219bdab56efe75062573aacc6736b7"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-06-1440.png",
+      "sha256": "346175fd0ea6071e7fa19b6c5eb47ac3e85ce8ff7dae3b62c920b3d6cadea980"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-06-390.png",
+      "sha256": "34112f8ef60731b9cc17302b60c84c86e81b76220b4fd81f7c55072659095283"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-15-1440.png",
+      "sha256": "cd02f67fc2c816ee317db5fc197c4c389c5e3e033d13d648bd59d090c0f984ec"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-15-390.png",
+      "sha256": "3d08d8b59e0b7f8b7a73960d01f7cd1bb32cc53c7805ec8830636f91d2eda9f3"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-05-1440.png",
+      "sha256": "02e12d3d1af7e05529af842db185dec64783bfc14e284bfd27ef4c01811c6808"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-07-1440.png",
+      "sha256": "913d00768d2d75ecf9e46e8bbf4b5017bca74a5901ecee9f8ed4b228e7ba9cf3"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/technical/direct-support-13-1440.png",
+      "sha256": "eb99288e9ee633386984638ffb73fc197e2f5d0a40c29ea9e2704a14d44b5173"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-90.png",
+      "sha256": "1de8c0fcba35fcacf4184ee04e3de29bf9374bc638c634b2c24b69d674d9e1c9"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-210.png",
+      "sha256": "46703d53742bcc32fdfc5a7b897a3499109a62dbacda8368b65630dc67a56944"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-1200.png",
+      "sha256": "c1cbbf7e7ef28df807977c7a7c983756f49747eed69986754dc3af376f1db225"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1230.png",
+      "sha256": "1b7bc87965032f136f0873f8a94188fe510b611c915e1f5d8eb2cdcf48cd5d6d"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1380.png",
+      "sha256": "435cef661bc2945148998d7cb9ff95231200b24788fabd3ab75b149877db1377"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1440.png",
+      "sha256": "4350958ec551659cd67f1b6fff6d82aaedbf7a710898db80f183217d81d606eb"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1500.png",
+      "sha256": "33d718852dfd3cc2428af44712f859c2e285905612e0064e7d184364eba671f6"
+    },
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-03.png",
+      "sha256": "c13e94c0ceda72b083b5209d94b51dc9d1f1023c2dcd2b93a45bee0c25e90bec"
+    },
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-06.png",
+      "sha256": "65c3ba69c7eb56b1bcf34496ea5a0c021129df1306e38a93cffbdfd7e8c802a1"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-01.png",
+      "sha256": "2c106657b56b4309461dddf568e6fcf2343a534ccc7d5d35149fedc4d43c9cab"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-04.png",
+      "sha256": "de52fa7d3997412823d6e8939028a0c25522175d6240e80df0d97144e3ce9cba"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-01.png",
+      "sha256": "cecc209154ac729484bf6466c77907c4310695dfbd21dc252fef59eedabd8ba4"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-02.png",
+      "sha256": "77699bfbdeb22d2cee376376551f7ff526eee05ff0194897d952499f197a7a59"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-03.png",
+      "sha256": "14a0c5a017e2efedb683beaff5afac1b8e60fe4c6074c52d0ed6957b0de22b42"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-04.png",
+      "sha256": "6b798856ce5aaea5468a55276bce7761a9bad5ec90f7723b8dbcac3e4507b18b"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-05.png",
+      "sha256": "398f5f95f59cc8198a7d217fa0cfafe397cd10107ecae808955f49e214e4c5a4"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-06.png",
+      "sha256": "887a6238cb5ff2a365f6cbd5a5305e480e43281ac7dbea78aebd1a4fbc53428e"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-07.png",
+      "sha256": "ab0a0f926c678379f438032d3b1811b230abe9f3fcf2c072a59673fba45f13cb"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-08.png",
+      "sha256": "1e47565d233ac50fff855e5992f2a69e13dfd57b6dbcd93288baa95ca8836139"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-09.png",
+      "sha256": "b80a5624e7251c76c18048aa9658d6480e2aacbc98e5a146cbd7923d1f5f0288"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-10.png",
+      "sha256": "679145590fac3586d1d3eb6429db764f80d87bd4423d463a22d3bd2b8d9a09e3"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-11.png",
+      "sha256": "8ae4dd00bf33a893b42507ef7444f35fc8be93865c1bcb9118e58737f692f814"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-12.png",
+      "sha256": "380730cd3765edf6b87362e77cb5f5c9ff8410da1d5deaeeac9b407f57a6d193"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-13.png",
+      "sha256": "6c44648fe5afc39d6db71c6d642676739c54181475d069800056cf6af5fd4c21"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-14.png",
+      "sha256": "5f9635e0f3ffc0240fcd1dadba82c81d807e80165d40d6d8589c6ab3bcda62fe"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-15.png",
+      "sha256": "6d503070de08ce12821c6ca67568d42144f0f618da24a62c8ffdc85aff5f551c"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-16.png",
+      "sha256": "dba73e0f6d1c84e713e8c5fb0d17f2b2883f6316889dffd13fc3716d03367456"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-17.png",
+      "sha256": "70da15f971f1668bdcd600f5c3d3bf4a6b9e2285f5984a39fd29630561ea18f1"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-18.png",
+      "sha256": "4c055a68d3e8900e15e7e5a597765a00c419df09aedae1ef9af9fc5e11a39860"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-19.png",
+      "sha256": "aa4e62a0dc9f5a450d147fc8324d22b55d68742ed3344e82c73afdb19236cccf"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/slide-20.png",
+      "sha256": "7d8e56a79fd7d904637425efd8ae27d0e0230e5c3e4406a06853838cba4ba47a"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/contact-01-08.jpg",
+      "sha256": "0a7ccc97c9c7594607883e868068b6f209b3ced209a84025ec6971c001b0cad5"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/contact-09-16.jpg",
+      "sha256": "54544626fde7e0e51fb3af078775db65e6510c0f438b4682d44fd38f659102e9"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/contact-17-20.jpg",
+      "sha256": "bd737d6b64e52a7eb09761f8139739687c90390fae1b32cf118c220a450ae024"
+    }
+  ]
+}

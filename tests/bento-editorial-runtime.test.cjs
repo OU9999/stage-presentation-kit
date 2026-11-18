@@ -137,6 +137,25 @@ test('TC-E04 optional artifact decoration and legacy mixed bento stay independen
   assert.equal(model.normalizeIcon('constructor'), null);
 });
 
+test('unframed results opt in without replacing native title fields, source media or ordinary result markup', () => {
+  const slide = { layout: 'results', variant: 'unframed', title: ['읽은 자료가', '다음 작업으로'], items: [{ src: 'portrait.png', alt: '세로 자료', fit: 'contain' }, { src: 'wide.png', alt: '가로 자료', fit: 'contain' }] };
+  const before = structuredClone(slide), unframed = renderer(slide).rendered;
+  assert.deepEqual(slide, before);
+  assert.equal(unframed.dataset.variant, 'unframed');
+  const all = nodes(unframed);
+  assert.equal(all.find(node => node.className === 'results-copy').children[0].tagName, 'h1');
+  assert.deepEqual(all.filter(node => node.dataset.field && node.dataset.field.startsWith('title')).map(node => node.dataset.field), ['title.0', 'title.1']);
+  assert.deepEqual(all.filter(node => node.className === 'slide-image').map(node => node.src), ['portrait.png', 'wide.png']);
+  assert.ok(all.filter(node => node.className === 'slide-image').every(node => node.style.objectFit === 'contain' && node.style.transform === 'scale(1)'));
+  assert.deepEqual(all.filter(node => node.dataset.mediaPath).map(node => node.dataset.mediaPath), ['items.0.src', 'items.1.src']);
+  const ordinary = structuredClone(slide); delete ordinary.variant;
+  const rendered = renderer(ordinary).rendered;
+  assert.equal(rendered.dataset.variant, undefined);
+  delete unframed.dataset.variant;
+  const shape = node => ({ tag: node.tagName, className: node.className, dataset: { ...node.dataset }, text: node._text, children: node.children.map(shape) });
+  assert.deepEqual(shape(unframed), shape(rendered), 'the opt-in hook is the only default markup change');
+});
+
 for (const [kind, itemIndex, min, max] of [['concepts', 6, 1, 3], ['report', 8, 1, 3], ['process', 10, 2, 4], ['actions', 11, 1, 3], ['task', 7, 1, 4]]) {
   for (const count of [min, max]) {
     test(`TC-E05/${kind}-${count} accepts and renders every documented quantity boundary`, () => {

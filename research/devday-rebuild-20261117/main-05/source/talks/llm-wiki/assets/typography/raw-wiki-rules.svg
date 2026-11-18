@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" style="background:#080808" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+  <title id="title">원자료 보존, 위키 갱신, 함께 지킬 작업 약속</title>
+  <desc id="desc">설명용 재구성 예시. 원자료 raw의 파일 세 개를 보존하며 wiki의 개념·비교와 종합·질문과 목차와 로그를 작성하고 갱신한다. 읽기 관계는 원자료를 없애는 변환이 아니다. rules.md의 네 약속은 두 영역 모두에 적용한다.</desc>
+  <g font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Malgun Gothic,sans-serif" letter-spacing="-.4">
+    <text x="25" y="55" font-size="52" fill="#F6F6F4" font-weight="600" text-anchor="start" data-copy-role="essential">raw/ · 보존</text>
+    <text x="650" y="55" font-size="52" fill="#F6F6F4" font-weight="600" text-anchor="start" data-copy-role="essential">wiki/ · 작성하고 갱신</text>
+    <text x="25" y="117" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">원자료를 그대로 둡니다.</text>
+    <text x="650" y="117" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">읽기 쉽게 정리한 이해</text>
+    <text x="25" y="190" font-size="44" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">context-note.md</text>
+    <text x="25" y="250" font-size="44" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">retrieval-note.md</text>
+    <text x="25" y="310" font-size="44" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">synthesis-note.md</text>
+    <text x="25" y="370" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">요지 · 선택 이유 · 남은 질문</text>
+    <path d="M515 235H605M590 224L605 235L590 246" fill="none" stroke="#999995" stroke-width="3" />
+    <text x="560" y="186" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="middle" data-copy-role="essential">읽기</text>
+    <text x="650" y="190" font-size="44" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">개념</text>
+    <text x="1000" y="190" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">여러 자료에서 만나는 설명</text>
+    <text x="650" y="290" font-size="44" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">비교 · 종합</text>
+    <text x="1000" y="290" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">차이와 현재 계획</text>
+    <text x="650" y="390" font-size="44" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">질문 · 목차 · 로그</text>
+    <text x="1000" y="390" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">답과 탐색, 변화의 이유</text>
+    <path d="M25 460H1475" fill="none" stroke="#999995" stroke-width="3" />
+    <text x="25" y="515" font-size="46" fill="#F6F6F4" font-weight="600" text-anchor="start" data-copy-role="essential">rules.md · 두 영역의 작업 약속</text>
+    <text x="25" y="575" font-size="44" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">원자료 보존 · 근거 연결</text>
+    <text x="760" y="575" font-size="44" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">관련 쪽 갱신 · 중요한 결과 확인</text>
+  </g>
+</svg>

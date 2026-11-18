@@ -1,0 +1,122 @@
+[
+  {
+    "scope": "present-1280",
+    "record": "research/devday-fidelity-20261116/main-03/reviews/present-1280.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 20,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 20,
+      "slideCount": 20
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 20,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 20,
+      "slideCount": 20
+    }
+  },
+  {
+    "scope": "present-1920",
+    "record": "research/devday-fidelity-20261116/main-03/reviews/present-1920.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 20,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 20,
+      "slideCount": 20
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 20,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 20,
+      "slideCount": 20
+    }
+  },
+  {
+    "scope": "read-1440",
+    "record": "research/devday-fidelity-20261116/main-03/reviews/read-1440.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 20,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 20,
+      "slideCount": 20
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 20,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 20,
+      "slideCount": 20
+    }
+  },
+  {
+    "scope": "read-390",
+    "record": "research/devday-fidelity-20261116/main-03/reviews/read-390.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 20,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 20,
+      "slideCount": 20
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 20,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 20,
+      "slideCount": 20
+    }
+  }
+]

@@ -1,0 +1,191 @@
+{
+  "purpose": "Current shared-code regression; main deck remains aesthetically needs-changes",
+  "sourceSha256": "19670d537a7bb9279169aabb893250fcce8ed540e75dd5fcf574e4794975524f",
+  "scopes": [
+    {
+      "scope": "present-1920",
+      "captureInputs": 104,
+      "captureMismatch": [],
+      "qa": {
+        "checks": 2149,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "visualApproval": false,
+      "pixelsChangedFromRejectedMain05": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "scope": "present-1280",
+      "captureInputs": 104,
+      "captureMismatch": [],
+      "qa": {
+        "checks": 2149,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "visualApproval": false,
+      "pixelsChangedFromRejectedMain05": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "scope": "read-1440",
+      "captureInputs": 104,
+      "captureMismatch": [],
+      "qa": {
+        "checks": 2200,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "visualApproval": false,
+      "pixelsChangedFromRejectedMain05": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "scope": "read-390",
+      "captureInputs": 104,
+      "captureMismatch": [],
+      "qa": {
+        "checks": 2200,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "visualApproval": false,
+      "pixelsChangedFromRejectedMain05": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  ],
+  "pixelComparisonLimit": "All 80 PNGs differ from the 2026-11-13 browser run. Do not claim pixel identity or substitute old approvals. A direct spot check found identical stage geometry and dominant-pixel counts but different fixed-fill RGB; source files other than the explicit evidence variant and DESIGN are separately checked. The cause of the historical capture color-path difference is not established.",
+  "observedColorSpotCheck": {
+    "slide": 6,
+    "mode": "present-1920",
+    "stageGeometryBoth": {
+      "x": 181.33331298828125,
+      "y": 110,
+      "width": 1557.33349609375,
+      "height": 876
+    },
+    "oldSamples": {
+      "background": [
+        12,
+        12,
+        12
+      ],
+      "documentFill": [
+        23,
+        24,
+        24
+      ],
+      "text": [
+        245,
+        244,
+        242
+      ]
+    },
+    "currentSamples": {
+      "background": [
+        8,
+        8,
+        8
+      ],
+      "documentFill": [
+        23,
+        25,
+        25
+      ],
+      "text": [
+        246,
+        246,
+        244
+      ]
+    },
+    "currentDeclaredBackground": "#080808",
+    "currentDeclaredText": "#f6f6f4",
+    "dominantPixelCountsBoth": [
+      742078,
+      568081,
+      25133
+    ],
+    "aestheticApproval": false
+  }
+}

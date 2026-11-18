@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="560" viewBox="0 0 1440 560" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">같은 계획에서 바뀐 문서 제목과 선택한 조건</title>
+  <desc id="desc">예제 팩의 같은 논리 문서 wiki/syntheses/study-plan.md에 준비된 처음과 현재 계획 갱신 구간을 필드 위치로 대응시킨 설명용 전후 발췌다. 처음 제목은 다음 스터디의 첫 시도이고 조건은 참여자 배경과 활동 길이는 아직 미정이다. 갱신 제목은 입문자와 하는 첫 위키 활동이며 조건은 가상 조건: 입문자 포함, 준비된 세 메모 중 두 개 선택, 별도 활동15분이다. 오른쪽의 더 큰 조건과 주황 강조는 이번 가상 활동에서 선택한 입문자, 두 메모, 별도15분을 읽게 한다. 두 가는 연결선은 같은 문서의 제목과 조건이 바뀐 위치를 대응시키며 도구의 자동실행·실제 편집 diff·운영 성과를 뜻하지 않는다. 모두 발표팀의 자작 구성 예이며15분은 활동 배분 예로 실측이 아니다.</desc>
+  <style>
+    text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.3px}
+    .state{font-size:35px;fill:#b9c0bd;font-weight:400}
+    .before-title{font-size:42px;fill:#d0d5d1;font-weight:500}
+    .after-title{font-size:46px;fill:#f6f6f4;font-weight:500}
+    .before-copy{font-size:40px;fill:#c3cac5;font-weight:400}
+    .after-copy{font-size:46px;fill:#f6f6f4;font-weight:500}
+    .selected{fill:#ff985f}
+  </style>
+  <text class="state" x="20" y="40">처음 계획</text>
+  <text class="state" x="654" y="40">조건 반영 뒤</text>
+  <g data-object-id="before-plan" data-logical-source="wiki/syntheses/study-plan.md — 처음">
+    <rect x="20" y="65" width="550" height="425" rx="2" fill="none" stroke="#58635e" stroke-width="1.5"/>
+    <text class="before-title" x="58" y="137" data-field-id="before-title">다음 스터디의 첫 시도</text>
+    <path d="M58 175H532" fill="none" stroke="#46514b" stroke-width="1.5"/>
+    <text class="before-copy" x="58" y="255" data-field-id="before-conditions" data-excerpt-kind="exact-source" data-source-text="참여자 배경과 활동 길이는 아직 미정이다."><tspan x="58">참여자 배경과 활동 길이는</tspan><tspan x="58" dy="59">아직 미정이다.</tspan></text>
+  </g>
+  <g data-field-correspondence="same-document-revision" fill="none" stroke="#86958e" stroke-width="2.5">
+    <path data-edge-id="title-revision" d="M570 124H654"/>
+    <path data-edge-id="conditions-revision" d="M570 278H654"/>
+  </g>
+  <g data-object-id="after-plan" data-logical-source="wiki/syntheses/study-plan.md — 현재 계획 갱신">
+    <rect x="654" y="65" width="766" height="425" rx="2" fill="#102631"/>
+    <text class="after-title" x="695" y="137" data-field-id="after-title">입문자와 하는 첫 위키 활동</text>
+    <path d="M695 175H1379" fill="none" stroke="#42616c" stroke-width="1.5"/>
+    <path d="M683 210V401" fill="none" stroke="#ff985f" stroke-width="3"/>
+    <text class="after-copy" x="706" y="253" data-field-id="after-conditions" data-excerpt-kind="exact-source" data-source-text="가상 조건: 입문자 포함, 준비된 세 메모 중 두 개 선택, 별도 활동 15분."><tspan x="706">가상 조건: <tspan class="selected">입문자 포함</tspan>,</tspan><tspan x="706" dy="67">준비된 세 메모 중 <tspan class="selected">두 개 선택</tspan>,</tspan><tspan x="706" dy="67">별도 활동 <tspan class="selected">15분</tspan>.</tspan></text>
+  </g>
+</svg>

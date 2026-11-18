@@ -24,6 +24,8 @@ npm run verify
 `talks/team-review/slides.md`와 `assets/`가 생성됩니다. `---`로 장을 나누고 제목·문단·목록·이미지·표를 작성하세요.
 `presentations/` 전체가 공유할 결과물이며, 원고를 수정한 뒤 다시 빌드합니다.
 
+작성은 [역할·주역·보존 brief](DESIGN.md#역할에서-시안으로-연결하기)에서 시작하고 [작은 재사용 레시피](MARKDOWN-FIRST.md#역할을-유지하는-작은-레시피)로 지원 문법을 고릅니다. 사진·연구 자료가 없어도 H2/H3 의미 그룹과 공통 안내, 읽을 구절·실제 링크로 시안화할 수 있습니다. 실제 크기에서 현재안과 비교한 뒤 기술 검사와 시각 판정을 따로 남깁니다. LLM Wiki의 현재 키노트는 [공개 해설](talks/llm-wiki/materials/keynote-notes.md)·[현재 대본](talks/llm-wiki/materials/speaker-script.md)으로 이어 읽고, [현재 역할·coverage 회귀 명령](MARKDOWN-FIRST.md#실제-관측의-프로젝트-회귀)으로 검사합니다.
+
 ## 다른 프로젝트에서 재사용하기
 
 발표 콘텐츠만 갖는 별도 프로젝트를 만듭니다. 이 저장소의 예제나 연구 자료를 복사하지 않습니다.

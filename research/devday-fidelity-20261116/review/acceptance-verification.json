@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-16T06:05:02.672184+00:00",
+  "captureInputCount": 104,
+  "captureInputMismatch": {},
+  "localLinkMissing": [],
+  "exactExcerpts": [
+    {
+      "text": "공통 질문: 다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?",
+      "present": true
+    },
+    {
+      "text": "기본 검색-생성 예: 관련 원자료를 찾아 현재 입력에서 종합해 이번 답을 만든다.",
+      "present": true
+    },
+    {
+      "text": "위키를 유지하는 예: 자료 반영 때 개념·비교·종합을 문서로 남기고, 필요한 쪽을 읽어 이번 답을 만든다.",
+      "present": true
+    },
+    {
+      "text": "도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.",
+      "present": true
+    },
+    {
+      "text": "원자료→개념→비교의 연결 한 개를 따라 읽기",
+      "present": true
+    },
+    {
+      "text": "관계를 뒷받침하는 근거 위치",
+      "present": true
+    }
+  ],
+  "files": {
+    "research/devday-fidelity-20261116/review/current-verdict-initial.md": "ae0d7fef553c523bfb91be2f0d59b87366f6ab6cceed0556914302919887cd3f",
+    "research/devday-fidelity-20261116/review/current-verdict-final.md": "41fa0c4e2adc00c725254263c91a9bcb4c7e9b5d4082575859e9893a5e4d7147",
+    "research/devday-fidelity-20261116/review/tooling-initial.md": "70b6014a682f21aef20aed321a4e6d6010693a5e1fce4d045732e9f9e2541ee4",
+    "research/devday-fidelity-20261116/review/acceptance-final.md": "c52f9b8e6660af7380e9768465f386f8ce37506e9354423872250100518ea344",
+    "research/devday-fidelity-20261116/review/art-direction-final.md": "1f6319af0a1517c303cffc866523ff9ef3c62cf34bae8181fe3f78836e38125e"
+  },
+  "visualApproval": false,
+  "scope": "Research artifact integrity only. No new product build/capture or formal approval.",
+  "trailingWhitespace": [],
+  "finalPilotAgreement": {
+    "newSlides": [
+      5,
+      7,
+      13,
+      15
+    ],
+    "unchangedStatementComparator": 2,
+    "mandatoryHighUncertaintySlide": 15,
+    "slide7FirstPilot": "Preserve three regions and three undirected lines; concrete document clues remain within groups or close to endpoints."
+  }
+}

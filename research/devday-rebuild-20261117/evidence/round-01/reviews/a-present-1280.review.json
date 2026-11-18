@@ -1,0 +1,278 @@
+{
+  "format": "stage-design-review-v1",
+  "source": {
+    "path": "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md",
+    "sha256": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0"
+  },
+  "inputs": {
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "198bb18192f0fde9da3e09dac5c68fa01ddf5e567fb940c0f7941e5867e0a6f1",
+    "blocks.js": "01736032d349d55afa933baee90005d2abc0d7f1b13680cb4f98a16cb1077a5b",
+    "deck-model.js": "989503b9997d7252834d59d449db56fec15d7426f897b8fdd7a38b7c6f2ade7b",
+    "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+    "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+    "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+    "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+    "lib/markdown-document.cjs": "2dffc62884e52725f9144894f809de697711bc9ad92dde5282fd579998f125ee",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+    "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+    "research/devday-rebuild-20261117/prototypes/assets/answer-window.svg": "53f6ad1cf5d51dee0e3eb23774b583630f663e7d2d34d15b24d9811c51bd20c7",
+    "research/devday-rebuild-20261117/prototypes/assets/condition-article.svg": "8a25ae7a988f88c3ea3598f968ca0d288c1f371f579ac16bc956c26f555f4bb0",
+    "research/devday-rebuild-20261117/prototypes/assets/output-brief.png": "8fd4e9ea6c8eccaa523668ce23f50dfd236bb7938b64f128d44b8a8bd36f8717",
+    "research/devday-rebuild-20261117/prototypes/assets/output-map.png": "004b56786390943bee38820b1151a758e57b44f4b9c3267a616ff22cbb65447b",
+    "research/devday-rebuild-20261117/prototypes/assets/output-plan.png": "94c7bc47eea4f53d4e8c51cb3128f1dd83cf709a68ef43575ae846b155100310",
+    "research/devday-rebuild-20261117/prototypes/assets/output-question.png": "24d24244b321ef1b08a4141572fa7e46a67fb05f0c76aad3dfe668b6bbb3bb57",
+    "research/devday-rebuild-20261117/prototypes/assets/wiki-window.svg": "1cf7b25ae4c15decb311b6fa1e608c50165b1eed6c0837309f8ed6a832dc093b",
+    "research/devday-rebuild-20261117/prototypes/ou.config.json": "aa7f06ab75741f16c58c6400a6daa02871af5880aadb358b152229ced37c6324",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/materials/notes.md": "daa508aeea5d3b2c671924e14b17329630ed329d2b921515da092b656479763b",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/materials/source-pack.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+    "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+    "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "scripts/llm-wiki-keynote-qa.cjs": "198986bda79c805d3368881974f15a5b4f8ce5fb61fc5c5868e0673666ea45e9",
+    "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+    "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+    "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+    "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+    "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+    "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+    "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+  },
+  "scope": [
+    {
+      "slides": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      }
+    }
+  ],
+  "capture": {
+    "designSha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "inputs": {
+      "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+      "blocks.css": "198bb18192f0fde9da3e09dac5c68fa01ddf5e567fb940c0f7941e5867e0a6f1",
+      "blocks.js": "01736032d349d55afa933baee90005d2abc0d7f1b13680cb4f98a16cb1077a5b",
+      "deck-model.js": "989503b9997d7252834d59d449db56fec15d7426f897b8fdd7a38b7c6f2ade7b",
+      "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+      "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+      "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+      "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+      "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+      "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+      "lib/markdown-document.cjs": "2dffc62884e52725f9144894f809de697711bc9ad92dde5282fd579998f125ee",
+      "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+      "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+      "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+      "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+      "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+      "research/devday-rebuild-20261117/prototypes/assets/answer-window.svg": "53f6ad1cf5d51dee0e3eb23774b583630f663e7d2d34d15b24d9811c51bd20c7",
+      "research/devday-rebuild-20261117/prototypes/assets/condition-article.svg": "8a25ae7a988f88c3ea3598f968ca0d288c1f371f579ac16bc956c26f555f4bb0",
+      "research/devday-rebuild-20261117/prototypes/assets/output-brief.png": "8fd4e9ea6c8eccaa523668ce23f50dfd236bb7938b64f128d44b8a8bd36f8717",
+      "research/devday-rebuild-20261117/prototypes/assets/output-map.png": "004b56786390943bee38820b1151a758e57b44f4b9c3267a616ff22cbb65447b",
+      "research/devday-rebuild-20261117/prototypes/assets/output-plan.png": "94c7bc47eea4f53d4e8c51cb3128f1dd83cf709a68ef43575ae846b155100310",
+      "research/devday-rebuild-20261117/prototypes/assets/output-question.png": "24d24244b321ef1b08a4141572fa7e46a67fb05f0c76aad3dfe668b6bbb3bb57",
+      "research/devday-rebuild-20261117/prototypes/assets/wiki-window.svg": "1cf7b25ae4c15decb311b6fa1e608c50165b1eed6c0837309f8ed6a832dc093b",
+      "research/devday-rebuild-20261117/prototypes/ou.config.json": "aa7f06ab75741f16c58c6400a6daa02871af5880aadb358b152229ced37c6324",
+      "research/devday-rebuild-20261117/prototypes/talks/first-look/materials/notes.md": "daa508aeea5d3b2c671924e14b17329630ed329d2b921515da092b656479763b",
+      "research/devday-rebuild-20261117/prototypes/talks/first-look/materials/source-pack.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+      "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+      "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+      "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+      "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+      "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+      "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+      "scripts/llm-wiki-keynote-qa.cjs": "198986bda79c805d3368881974f15a5b4f8ce5fb61fc5c5868e0673666ea45e9",
+      "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+      "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+      "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+      "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+      "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+      "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+      "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+      "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+      "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+      "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+      "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+      "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+      "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+    },
+    "manifest": {
+      "path": "research/devday-rebuild-20261117/evidence/round-01/present-1280/manifest.json",
+      "sha256": "c1c6d9aa4ac5674fd466dd7a621843762aaea59bde6a0e840612153b7be758ab"
+    },
+    "evidence": [
+      {
+        "path": "research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-01.png",
+        "sha256": "8055bdb08d38edfebb30c5c2026c2d0bd9c39915cd0bc3ce73c39afac087709f",
+        "slides": [
+          1
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-02.png",
+        "sha256": "c8dc1715b9401929ef3d93390ab88a7c3416512110da695cd0f6deff2a05321a",
+        "slides": [
+          2
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-03.png",
+        "sha256": "ea3649a23df886b85c1be552f25d66d446a73a142332fed7f60ab1ed0dc2cb3e",
+        "slides": [
+          3
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-04.png",
+        "sha256": "0205ea84e325c79328495be38c0ada7aa60d2d02cbd9e993f83e86670945e5ab",
+        "slides": [
+          4
+        ],
+        "mode": "presentation-stage-only",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "devicePixelRatio": 1
+        }
+      }
+    ],
+    "supportingEvidence": [
+      {
+        "path": "research/devday-rebuild-20261117/evidence/round-01/present-1280/contact-01-04.jpg",
+        "sha256": "94212d11e9f4e37e54eacb5e75676b1a8816ab62e3ab4961272643337a168335"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "sourceSHA": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-17T01:56:00Z",
+      "reason": "주황 둘째 행의 획·큰 마침표가 첫 흰 행보다 무거워 두 행이 아래로 눌리고, 전체 글자 덩어리는 원본1200의 넓은 주장보다 좁게 떠 있다. 구두점과 문구·실제 굵기·행폭을 함께 재편집해야 한다.",
+      "evidence": [
+        "research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-01.png"
+      ],
+      "owner": "제작 native 조판/원고 담당",
+      "nextAction": "native 조판/원고 담당이 주황 strong의 실제 획을 낮추고 문구·구두점·두 행 폭/광학 중심을 재편집한다. 두 발표폭을 원본1200 옆에서 다시 확인한다."
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "sourceSHA": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-17T01:56:00Z",
+      "reason": "두 창의 전체 무대 점유와 좁은 상대 틈, 왼쪽 큰 답변 채움판/입력띠, 오른쪽 성긴 문서 격자·약한 내부선과 강한 바깥틀이 원본90의 압축된 비교와 다르다. 창 자체를 무조건 납작하게 하라는 근거는 철회하며 footprint/여백/내부밀도·캡션을 구별해 교정한다.",
+      "evidence": [
+        "research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-02.png"
+      ],
+      "owner": "제작 비교SVG/배치 담당",
+      "nextAction": "비교SVG/배치 담당이 창의 전체 크기·바깥/사이 여백과 왼쪽 채움판·오른쪽 카드/연결선/캡션의 시각량을 편집한다. 창 aspect는 원근이 있는 원본을 임의 숫자 정답으로 삼아 압축하지 않는다. 두 발표폭을 다시 확인한다."
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "sourceSHA": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-17T01:56:00Z",
+      "reason": "왼쪽 기사 제목/본문의 굵기·행간이 커서 실제 기사 질감보다 설명판이 강하고, 오른쪽 인용의 짧은 관형구 첫행과 긴 다음행이 불균형하다. 좌우면 비례와 사선 두 획처럼 보이는 청색 glyph도 원본1440과 다르다. 정렬·상하 패딩 비대칭 자체를 금지하지 않고 실제 인용 편집과 glyph/간격을 재확인한다.",
+      "evidence": [
+        "research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-03.png"
+      ],
+      "owner": "제작 기사자산/native quote-card 담당",
+      "nextAction": "기사자산+native quote-card 담당이 왼쪽 제목/본문 굵기·행간/밀도를 낮추고 좌우 비례·인용 문구/행폭·실제 곡선형 인용 glyph를 편집한다. 부호→본문거리/시작점도 수정 실물로 확인하되 임의 패딩 균등화는 하지 않는다."
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "sourceSHA": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+      "status": "needs-changes",
+      "reviewer": "/root/devday_verification_manager/art_direction",
+      "reviewedAt": "2026-11-17T01:56:00Z",
+      "reason": "1000×640의 네 자료를 더 세로로 긴 셀에 contain해 모든 면 상하에 검정띠와 외곽틀이 생겨 자료보다 프레임이 반복된다. 왼쪽 주장도 상대적으로 무겁다. 자료 전체를 보존하며 셀 비율·그리드 높이/간격·주장 크기를 원본1500에 대조해 교정한다.",
+      "evidence": [
+        "research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-04.png"
+      ],
+      "owner": "제작 results 배치 담당",
+      "nextAction": "results 배치 담당이 full1000×640 자료 비율에 셀을 맞춰 검정띠·불필요 외곽틀을 없애고 전체그리드/좌측주장의 비례·거리도 재편집한다. cover 일괄 크롭으로 원자료의 필수면을 잃지 않으며 두 발표폭을 다시 확인한다."
+    }
+  ],
+  "recordAuthor": "/root (unchanged manual verdict integration)",
+  "procedureLimitation": "Reviewers saw root observation categories in WORK_LOG before initial; not root-unexposed independent review.",
+  "reviewSource": {
+    "path": "research/devday-rebuild-20261117/review/round-01/A.final.md",
+    "sha256": "3e97256719902a3d56262bd4c366a3f71210af22cddacc93894b8dff3797dc33"
+  }
+}

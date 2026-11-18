@@ -1,0 +1,70 @@
+[p1 "DevDay 원본 대조 · LLM Wiki" | space "DevDay 미감 복원과 원본 대조"(4): 1 managed, 0 untracked — p1* "DevDay 원본 대조 · LLM Wiki"]
+root
+  container
+    container
+      text "OPENAI DEVDAY · VISUAL REVIEW"
+      heading
+        text "원본 옆에서 다시 보는 LLM Wiki"
+      paragraph
+        text "원본의 구도와 자료 표현을 기준으로, 이전본과 실제 수정안을 비교합니다."
+      anchor [ref=1410, loc=href:/presentations/llm-wiki/#5, url=http://127.0.0.1:4336/presentations/llm-wiki/#5]
+        text "현재 본편 열기 ↗"
+      anchor [ref=1411, loc=href:/research/devday-fidelity-20261116/RESULT.md, url=http://127.0.0.1:4336/research/devday-fidelity-20261116/RESULT.md]
+        text "검증팀과 수정 기록"
+    container
+      container "장면 선택"
+        button [ref=1412]
+          text "05 · 같은 질문의 비교"
+        button [ref=1413]
+          text "07 · 문서의 관계"
+        button [ref=1414]
+          text "13 · 한 문서와 한 행"
+        button [ref=1415]
+          text "15 · 목적을 확인하는 근거"
+      container
+        text "시안"
+        combobox [ref=1416]
+          text "현재 본편"
+      container
+        text "발표 화면"
+        combobox [ref=1417]
+          text "1920 × 1080"
+    container "원본 이전본 새 시안 대조"
+      container
+        text "공식 원본 · Codex · 01:30"
+        anchor [ref=1418, loc=href:/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-90.png, url=http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-90.png]
+          image
+        paragraph
+          text "방송 프레임입니다. 발표 스크린의 구도를 비교합니다."
+          anchor [ref=1419, loc=href:https://www.youtube.com/watch?v=XkKdbPhIvbY&t=90s, url=https://www.youtube.com/watch?v=XkKdbPhIvbY&t=90s]
+            text "원본 영상 ↗"
+      container
+        text "이전 본편 · 사용자 반려본"
+        anchor [ref=1420, loc=href:/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-05.png, url=http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-05.png]
+          image
+        paragraph
+          text "11월13일 본편의 1920 발표 캡처입니다."
+      container
+        text "본편 검수 캡처 · main-04"
+        anchor [ref=1421, loc=href:/research/devday-fidelity-20261116/main-04/present-1920/slide-05.png, url=http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/slide-05.png]
+          image
+        paragraph
+          text "이미지를 누르면 원래 크기로 볼 수 있습니다."
+    paragraph
+      text "공통 절차를 묶고, 남아 다시 읽을 문서가 비교의 중심이 되게 편집했습니다."
+    container
+      paragraph
+        text "내부 재검수 중"
+      paragraph
+        text "비교 화면은 네 대표 장면이며, 현재 본편20장 전체는 별도로 검수합니다. 과거 시안은 당시 반려와 교정 이력으로 보존했습니다. 내부 검수와 사용자 �..."
+        anchor [ref=1422, loc=href:/presentations/llm-wiki/read.html, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html]
+          text "읽기 화면"
+        text "·"
+        anchor [ref=1423, loc=href:/research/devday-fidelity-20261116/main-04/present-1920/contact-01-08.jpg, url=http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/contact-01-08.jpg]
+          text "전체 흐름 1–8"
+        text "·"
+        anchor [ref=1424, loc=href:/research/devday-fidelity-20261116/main-04/present-1920/contact-09-16.jpg, url=http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/contact-09-16.jpg]
+          text "9–16"
+        text "·"
+        anchor [ref=1425, loc=href:/research/devday-fidelity-20261116/main-04/present-1920/contact-17-20.jpg, url=http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/contact-17-20.jpg]
+          text "17–20"

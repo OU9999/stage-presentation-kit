@@ -1,0 +1,142 @@
+[
+  {
+    "reviewer": "A.final",
+    "scope": "present-1920",
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/main-06/reviews/A.final-present-1920.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 6 · 개선 필요 5 · 미확인 0 (11개 장/모드/viewport 범위, 원고 11장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "reviewer": "A.final",
+    "scope": "present-1920",
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/main-06/reviews/A.final-present-1920.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 6 · 개선 필요 5 · 미확인 0 (11개 장/모드/viewport 범위, 원고 11장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "reviewer": "A.final",
+    "scope": "present-1280",
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/main-06/reviews/A.final-present-1280.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 6 · 개선 필요 5 · 미확인 0 (11개 장/모드/viewport 범위, 원고 11장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "reviewer": "A.final",
+    "scope": "present-1280",
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/main-06/reviews/A.final-present-1280.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 6 · 개선 필요 5 · 미확인 0 (11개 장/모드/viewport 범위, 원고 11장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "reviewer": "B.final",
+    "scope": "read-1440",
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/main-06/reviews/B.final-read-1440.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 5 · 개선 필요 6 · 미확인 0 (11개 장/모드/viewport 범위, 원고 11장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "reviewer": "B.final",
+    "scope": "read-1440",
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/main-06/reviews/B.final-read-1440.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 5 · 개선 필요 6 · 미확인 0 (11개 장/모드/viewport 범위, 원고 11장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "reviewer": "B.final",
+    "scope": "read-390",
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/main-06/reviews/B.final-read-390.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 4 · 개선 필요 7 · 미확인 0 (11개 장/모드/viewport 범위, 원고 11장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "reviewer": "B.final",
+    "scope": "read-390",
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-rebuild-20261117/main-06/reviews/B.final-read-390.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 4 · 개선 필요 7 · 미확인 0 (11개 장/모드/viewport 범위, 원고 11장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  }
+]

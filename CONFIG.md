@@ -31,11 +31,17 @@ window.PRESENTATION = {
 | `title` | 문자열 또는 문자열 배열. 배열은 의도한 줄바꿈이며 긴 줄은 화면 폭에서 다시 줄바꿈될 수 있음 |
 | `subtitle`, `source`, `notes` | 문자열. 출처와 발표자 노트는 따로 관리 |
 | `align` | `center` 또는 생략. 기본 왼쪽 정렬, 중앙 메시지 변형은 cover/statement/section/closing 지원. categories의 제목도 중앙 정렬 가능 |
-| `quiet` | `true` / `false`. 반복 라벨·하단 정보 숨김 |
+| `quiet` | `true` / `false`. 반복 eyebrow·footer를 숨기고 본문 상하 영역을 넓힘. 필수 본문·자료·읽기는 보존 |
 | `tone` | `orange` / `purple` / `blue` / `green` / `yellow`. 핵심 문장·수치·선택 막대의 의미색. 수치의 단위와 보조 메타는 중립 |
 | `motion` | `none` / `fade` / `rise` / `stagger` / `chart`. 생략하면 `fade`. 잘못된 값은 해당 장의 오류로 안내 |
 | `highlight` | 제목 안에서 강조할 문자열. 한 줄 전체를 강조하면 화면에서 그 줄을 수정할 때도 색이 따라감 |
 | `surface` | `butter` 또는 생략. 소개 화면 한 장의 담황색 표면 |
+
+Markdown의 `stage-slide`에서도 `quiet: true` 또는 `quiet: false`를 지원합니다. 명시 boolean이 구도 기본값보다 우선하며 미지정 message·quote·closing은 quiet, 다른 구도는 일반 표시입니다. 문자열·숫자·null은 오류입니다.
+
+Markdown `stage-slide`의 `support: {label, href}`는 읽기 모드에서 자료 옆에 표시할 명시적인 공개 탐색입니다. label은 한 줄 문자열, href는 등록된 공개 학습 자료의 상대 `.md#anchor`입니다. 외부 URL·query·slides·일반 asset·없는 anchor는 지원 대상이 아니며 빌드가 실제 `.html#anchor`로 변환합니다. `origin`은 입력하지 않고 파서가 제어 위치에서 부여합니다. 본문 AST와 필수 의미를 보존하며 읽기18CSSpx로 표시하고, 발표면에는 탐색 메타를 표시하지 않습니다. [작성 예와 실제 확인](MARKDOWN-FIRST.md#개행본문-역할과-공통-안내)을 따릅니다.
+
+Markdown `stage-slide`의 명시 `compose: split` + `variant: evidence`는 이미지 한 개 뒤의 단일 인용과 짧은 문단을 원순서로 묶습니다. 인용은 문단만으로 구성된220자 이하, 주변 문단 합계200자 이하, 뒤 본문 전체380자 이하이며 목록·여러 인용·앞선 설명·추가 이미지는 document와 경고로 보존합니다. 발표면 인용54논리px·주변 문단32논리px가 시작값입니다. 일반 split·auto의 선택과 읽기 크기는 유지합니다. [정확 구절을 읽는 작성 예](MARKDOWN-FIRST.md#자료와-선택-구절)를 참고하세요.
 
 현재 입력 계약은 JSON으로 보관 가능한 값입니다. 함수·순환 참조를 넣지 않습니다. 임의의 브랜드 HEX·글꼴·새 표면을 추가하려면 공통 `styles.css`를 수정합니다.
 
@@ -78,7 +84,7 @@ window.PRESENTATION = {
 | `steps` | title, steps | title/description 객체 1~3개 |
 | `gallery` | variant, items | 이미지 1~6개. `portraits` / `strip` |
 | `mosaic` | items | 1~8개, 각 span은 숫자 1 또는 2. 총 span 8 이하, 4열×2행에 배치 |
-| `results` | title, subtitle, items, source | 미디어 1~4개, 좌측 주장과 우측 2×2 틀 |
+| `results` | title, subtitle, items, variant, source | 미디어 1~4개, 좌측 주장과 우측 2×2 틀 |
 | `categories` | title, items | 1~5개. label/description/icon/symbol/tone. 의미 아이콘 또는 기존 문자 심벌 |
 | `bento` | preset, items, title, subtitle, source | 정확히 12개 혼합 타일. `recap` / `seoul` 고정 배치 |
 | `icon-wall` | title, subtitle, items, source | 이미지 또는 의미 아이콘 1~22개. 8열×5행의 외곽, 중앙은 메시지 |
@@ -113,6 +119,25 @@ window.PRESENTATION = {
 시작점은 [실행 스타터](examples/visual-starter/index.html)와 [한 파일 원본](examples/visual-starter.js)입니다. 설치·빌드·SVG 편집·프로젝트 전체 스키마는 필요하지 않습니다. 화면의 시각자료 JSON 편집은 그림·강조값·읽기 표에 즉시 반영되고 내보낸 content.js로 보관합니다. 별도 data.html은 같은 디스크 원본을 읽으므로 내보낸 파일을 교체한 뒤 새로고침합니다.
 
 `wide`는 제목과300px 강조값 열 아래로 차트를 전폭 배치합니다. `split`은 왼쪽 주장/설명과 오른쪽 강조값/차트를 같은 시작선에 묶습니다. 값+단위의 실제 폭이 열을 넘으면 전폭의 독립 행으로 옮기며 원본 값을 바꾸지 않습니다. [글 배치8장](examples/text-layout/index.html)에서 긴 한국어·다른7주 자료·긴 숫자로 바꿔 볼 수 있습니다. 정의와 긴 본문은 기존 `statement`의 `title`→`support`→`subtitle` 순서로 구성합니다.
+
+명시 Markdown `compose: split` + `variant: quote-card`는 자료의 가장자리에 반전색 native 인용 카드를 얕게 겹칩니다. 이미지부터 쓰는 `evidence`의 구조 또는 단일 인용과 이미지 순서를 지원합니다. 인용을 먼저 쓰면 읽기에서도 인용과 인접 링크에 이어 이미지가 표시됩니다. `tone`은 작은 인용부호의 색이며 읽기·원문 AST·일반 split/auto는 바꾸지 않습니다. `compose: gallery` + `variant: comparison`은 독립된 이미지 문단 정확 두 개를 같은 열에 놓고 title을 native 비교 라벨로 표시합니다. 이 라벨은 `figure-label` 역할이며 발표26논리px·읽기18CSSpx로 시작합니다. 읽기에서는 넓은 화면에서 같은 폭의 두 열, 좁은 화면에서 한 열로 배치합니다. 다른 이미지 수·앞뒤 본문·혼합 문단은 document와 경고로 보존합니다. 명시 `compose: message` + `variant: declaration`은 큰 H1과 강조어를 같은 획 무게로 표시합니다. `compose: quote` + `variant: spacious`는 발표 인용의 자간을 넓히고 strong과 본문의 획 무게를 맞춥니다. [Markdown 예](MARKDOWN-FIRST.md#자료와-선택-구절)를 참고하세요.
+
+`compose: editorial`의 `record`는 한 기록면의 두 항목에, `revision`은 같은 문서에서 바뀐 두 행에 씁니다. H1과 H2·짧은 문단의 묶음 두 개를 작성합니다.
+
+기존 `layout: results`에 명시 `variant: unframed`를 추가하면 발표와 읽기에서 배경·테두리 프레임을 생략하고 이미지의 원래 비율에 따라 셀 높이를 정합니다. 명시 layout에는 앞쪽 `stage-slide` 주석에 `support`만 지정해 공개 자료의 읽기 링크를 붙일 수 있습니다. 이 변형의 읽기에서는 결과 모음 첫 이미지 앞에서 전체 자료 링크에 접근합니다. 이 변형을 다른 layout에서 쓰면 오류로 진단합니다.
+
+```md
+<!-- stage
+layout: results
+variant: unframed
+quiet: true
+-->
+# 읽은 자료가
+# 다음 작업으로
+
+![계획의 전체 면](./assets/plan.png)
+![지도의 전체 면](./assets/map.png)
+```
 
 ## 이미지 항목
 

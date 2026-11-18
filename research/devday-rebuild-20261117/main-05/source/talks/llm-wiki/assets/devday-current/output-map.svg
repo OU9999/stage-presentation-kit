@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" data-material-kind="editorial-adaptation" data-source="expanded-study.txt:wiki/index.md" role="img" aria-labelledby="title desc">
+  <title id="title">읽은 자료가 연결되는 곳</title>
+  <desc id="desc">LLM Wiki를 중심으로 목적과 맥락, 검색과 비교, 개념과 비교, 질문 노트, 활동안, 지식의 활용을 보여주는 발표팀의 설명용 연결 지도다.</desc>
+  <defs>
+    <radialGradient id="field">
+      <stop stop-color="#244687"/>
+      <stop offset="1" stop-color="#182b5c"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="640" fill="url(#field)"/>
+  <g data-observe-id="map-connections" fill="none" stroke-linecap="round">
+    <path d="M276 147L148 313 285 469M734 143L850 311 734 477" stroke="#677cba" stroke-width="3"/>
+    <path d="M501 313 276 147M501 313 734 143M501 313H850M501 313 734 477M501 313 285 469M501 313H148" stroke="#b4cbf7" stroke-width="4.5"/>
+  </g>
+  <g data-observe-id="map-network">
+    <circle cx="501" cy="313" r="100" fill="none" stroke="#7aa0e0" stroke-width="2" opacity=".72"/>
+    <circle cx="501" cy="313" r="88" fill="#dce9ff" stroke="#f0f6ff" stroke-width="2"/>
+    <g fill="#91bcff">
+      <circle cx="276" cy="147" r="16"/>
+      <circle cx="734" cy="477" r="15"/>
+    </g>
+    <g fill="#f3bd8d">
+      <circle cx="148" cy="313" r="15"/>
+      <circle cx="734" cy="143" r="17"/>
+    </g>
+    <circle cx="850" cy="311" r="17" fill="#beadff"/>
+    <circle cx="285" cy="469" r="17" fill="#a6e1cc"/>
+  </g>
+  <g data-observe-id="map-labels" font-family="-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif" fill="#f4f6fd" text-anchor="middle" font-size="38" font-weight="570" letter-spacing="-.65">
+    <text x="501" y="325" fill="#253963" font-size="37" font-weight="650">LLM Wiki</text>
+    <text x="276" y="106">목적과 맥락</text>
+    <text x="734" y="101">검색과 비교</text>
+    <text x="850" y="377">개념과 비교</text>
+    <text x="734" y="545">질문 노트</text>
+    <text x="285" y="539">활동안</text>
+    <text x="148" y="377">지식의 활용</text>
+  </g>
+</svg>

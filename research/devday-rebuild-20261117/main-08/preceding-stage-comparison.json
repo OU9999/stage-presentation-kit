@@ -1,0 +1,200 @@
+{
+  "rounds": [
+    "main-07",
+    "main-08"
+  ],
+  "scopes": {
+    "present-1920": {
+      "manifestHashes": [
+        "8211567121e85f7b0691805b13378bfe0a08784fc99d637a6937272e97b290ca",
+        "0f6d7786d997d644ae557583203b2c2df0434e89abfd9e7fed110631463397ed"
+      ],
+      "comparison": [
+        {
+          "slide": 1,
+          "pixelEqual": true,
+          "pngHashes": [
+            "7c4ad555669f5c68830b0605e63fb0e1efeb75b4feee1835a4a0d4e162b703ff",
+            "7c4ad555669f5c68830b0605e63fb0e1efeb75b4feee1835a4a0d4e162b703ff"
+          ]
+        },
+        {
+          "slide": 2,
+          "pixelEqual": true,
+          "pngHashes": [
+            "617a1230315cdff3ba1f64a82835e2f428582554989e128ea196edfffa98a2fb",
+            "617a1230315cdff3ba1f64a82835e2f428582554989e128ea196edfffa98a2fb"
+          ]
+        },
+        {
+          "slide": 3,
+          "pixelEqual": true,
+          "pngHashes": [
+            "c4996ef0b41640c7fb053d1cae48fd7e31d31cb40b8ec656eabe151d7dfad8c2",
+            "c4996ef0b41640c7fb053d1cae48fd7e31d31cb40b8ec656eabe151d7dfad8c2"
+          ]
+        },
+        {
+          "slide": 4,
+          "pixelEqual": true,
+          "pngHashes": [
+            "39c0343853cf700e97a9672c7ebd7877832ac00b53e96207ee4c81c37e0a53b0",
+            "39c0343853cf700e97a9672c7ebd7877832ac00b53e96207ee4c81c37e0a53b0"
+          ]
+        },
+        {
+          "slide": 5,
+          "pixelEqual": true,
+          "pngHashes": [
+            "e5b5ac6eb8ce4f155d6b0e94eaeee57499eeffb16894b015e0af1da23ed4e2d4",
+            "e5b5ac6eb8ce4f155d6b0e94eaeee57499eeffb16894b015e0af1da23ed4e2d4"
+          ]
+        },
+        {
+          "slide": 6,
+          "pixelEqual": true,
+          "pngHashes": [
+            "2a2a5e4373a21fa83df411f7a0e89fea790ce318c713b6dac0bcf51c802567b1",
+            "2a2a5e4373a21fa83df411f7a0e89fea790ce318c713b6dac0bcf51c802567b1"
+          ]
+        },
+        {
+          "slide": 7,
+          "pixelEqual": true,
+          "pngHashes": [
+            "80ae008045c823f9ef1b3350c34589ebbab9afd01b7cc8dd476c6ca764dff6e0",
+            "80ae008045c823f9ef1b3350c34589ebbab9afd01b7cc8dd476c6ca764dff6e0"
+          ]
+        },
+        {
+          "slide": 8,
+          "pixelEqual": true,
+          "pngHashes": [
+            "0fa3b3228c478eccd6fc39cd6040e960c7bba31eea7285bad1597bf14a78ddb0",
+            "0fa3b3228c478eccd6fc39cd6040e960c7bba31eea7285bad1597bf14a78ddb0"
+          ]
+        },
+        {
+          "slide": 9,
+          "pixelEqual": true,
+          "pngHashes": [
+            "3d011f2ca0cbdf4722cd7ff2229ffca124f911e0496dd201bb592c5ab6f9a580",
+            "3d011f2ca0cbdf4722cd7ff2229ffca124f911e0496dd201bb592c5ab6f9a580"
+          ]
+        },
+        {
+          "slide": 10,
+          "pixelEqual": true,
+          "pngHashes": [
+            "f6a6c94f1aa974790967524a2574c81c92c2569a8ecbc392e5ea1f65771fa56b",
+            "f6a6c94f1aa974790967524a2574c81c92c2569a8ecbc392e5ea1f65771fa56b"
+          ]
+        },
+        {
+          "slide": 11,
+          "pixelEqual": true,
+          "pngHashes": [
+            "1aaf9b2908c94c6abfcc6b4428d4faa3c81349462047e4e1d109fba6b866c2dd",
+            "1aaf9b2908c94c6abfcc6b4428d4faa3c81349462047e4e1d109fba6b866c2dd"
+          ]
+        }
+      ]
+    },
+    "present-1280": {
+      "manifestHashes": [
+        "7eaabb168a4147c428cfe843f25a24610428643be0a8410ce9a331a1ed8b4742",
+        "6fa1e724030027f80c8dc8032f5746ef3692f64dddcd874930ebcef71b008282"
+      ],
+      "comparison": [
+        {
+          "slide": 1,
+          "pixelEqual": true,
+          "pngHashes": [
+            "901135107010786bfefa693b87b2627d89d31d8ec6324110d1b22758dab502bb",
+            "901135107010786bfefa693b87b2627d89d31d8ec6324110d1b22758dab502bb"
+          ]
+        },
+        {
+          "slide": 2,
+          "pixelEqual": true,
+          "pngHashes": [
+            "690cacea7de2be21cd5addb0530de9044a84c91c0343e602ec5c8d982c2fcac7",
+            "690cacea7de2be21cd5addb0530de9044a84c91c0343e602ec5c8d982c2fcac7"
+          ]
+        },
+        {
+          "slide": 3,
+          "pixelEqual": true,
+          "pngHashes": [
+            "7280479f34be0aaa309165b62fe0857a7f0323500b6d689e5ce107ef6a640633",
+            "7280479f34be0aaa309165b62fe0857a7f0323500b6d689e5ce107ef6a640633"
+          ]
+        },
+        {
+          "slide": 4,
+          "pixelEqual": true,
+          "pngHashes": [
+            "1213d35668cecaebb547876f8bb5a3380a6de11b70ddd2e21e0d2f6c9e80d64e",
+            "1213d35668cecaebb547876f8bb5a3380a6de11b70ddd2e21e0d2f6c9e80d64e"
+          ]
+        },
+        {
+          "slide": 5,
+          "pixelEqual": true,
+          "pngHashes": [
+            "40624714940951172a1c9f74f81f8c77d21fa2472d7b4f70960e5db43a1ace24",
+            "40624714940951172a1c9f74f81f8c77d21fa2472d7b4f70960e5db43a1ace24"
+          ]
+        },
+        {
+          "slide": 6,
+          "pixelEqual": true,
+          "pngHashes": [
+            "8182adb52e985681974b7dba3f0838525d7eecb155cf2b2c600ab9a327362410",
+            "8182adb52e985681974b7dba3f0838525d7eecb155cf2b2c600ab9a327362410"
+          ]
+        },
+        {
+          "slide": 7,
+          "pixelEqual": true,
+          "pngHashes": [
+            "ef7175355462c6c454faddf56087698b4272a9abfea49fff4896211a422b6740",
+            "ef7175355462c6c454faddf56087698b4272a9abfea49fff4896211a422b6740"
+          ]
+        },
+        {
+          "slide": 8,
+          "pixelEqual": true,
+          "pngHashes": [
+            "b76b888f3b4b4002f27ce0314cc1553c67a7cf1f258c553db17bfe17916ea530",
+            "b76b888f3b4b4002f27ce0314cc1553c67a7cf1f258c553db17bfe17916ea530"
+          ]
+        },
+        {
+          "slide": 9,
+          "pixelEqual": true,
+          "pngHashes": [
+            "c68df065ae3d910b9c070eb9e341cdffded430d44d6180ab6b8f9b90089b8fb7",
+            "c68df065ae3d910b9c070eb9e341cdffded430d44d6180ab6b8f9b90089b8fb7"
+          ]
+        },
+        {
+          "slide": 10,
+          "pixelEqual": true,
+          "pngHashes": [
+            "40c33671cba81028a89c1eb11b509041c7625d63ea8a1bb80111db05845ad877",
+            "40c33671cba81028a89c1eb11b509041c7625d63ea8a1bb80111db05845ad877"
+          ]
+        },
+        {
+          "slide": 11,
+          "pixelEqual": true,
+          "pngHashes": [
+            "d8d12168db5716d37c383786dc5da808e62a5b2eabb0b85da0f3f5dcacde634d",
+            "d8d12168db5716d37c383786dc5da808e62a5b2eabb0b85da0f3f5dcacde634d"
+          ]
+        }
+      ]
+    }
+  }
+}

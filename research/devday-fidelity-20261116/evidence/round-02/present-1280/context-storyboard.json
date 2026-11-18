@@ -1,0 +1,106 @@
+{
+  "purpose": "Mixed provenance review aid, not a new main-deck capture or approval",
+  "widthOfPilotViewport": 1280,
+  "images": [
+    {
+      "mainSlide": 1,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-01.png"
+    },
+    {
+      "mainSlide": 2,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-02.png"
+    },
+    {
+      "mainSlide": 3,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-03.png"
+    },
+    {
+      "mainSlide": 4,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-04.png"
+    },
+    {
+      "mainSlide": 5,
+      "pilot": true,
+      "image": "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-01.png"
+    },
+    {
+      "mainSlide": 6,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-06.png"
+    },
+    {
+      "mainSlide": 7,
+      "pilot": true,
+      "image": "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-02.png"
+    },
+    {
+      "mainSlide": 8,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-08.png"
+    },
+    {
+      "mainSlide": 9,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-09.png"
+    },
+    {
+      "mainSlide": 10,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-10.png"
+    },
+    {
+      "mainSlide": 11,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-11.png"
+    },
+    {
+      "mainSlide": 12,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-12.png"
+    },
+    {
+      "mainSlide": 13,
+      "pilot": true,
+      "image": "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-03.png"
+    },
+    {
+      "mainSlide": 14,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-14.png"
+    },
+    {
+      "mainSlide": 15,
+      "pilot": true,
+      "image": "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-04.png"
+    },
+    {
+      "mainSlide": 16,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-16.png"
+    },
+    {
+      "mainSlide": 17,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-17.png"
+    },
+    {
+      "mainSlide": 18,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-18.png"
+    },
+    {
+      "mainSlide": 19,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-19.png"
+    },
+    {
+      "mainSlide": 20,
+      "pilot": false,
+      "image": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-20.png"
+    }
+  ]
+}

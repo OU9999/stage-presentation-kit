@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-16T09:53:59.105603+00:00",
+  "source": "explicit latest user messages",
+  "userMessages": [
+    "검수한게 더 구려졌는데..?",
+    "검수 에이전트팀 싹다 크게 혼내고, 뭐가 원인인지 제대로 파악해 ㅡㅡ 이딴걸 openai가 멋있게 프레젠테이션 할 수 있겠어?"
+  ],
+  "status": "needs-changes",
+  "reason": "Current approved main04 fails the primary DevDay keynote aesthetic goal; prior technical/manual record validity is history, not current aesthetic acceptance.",
+  "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+  "priorReviews": [
+    {
+      "path": "research/devday-fidelity-20261116/main-04/reviews/present-1280.review.json",
+      "sha256": "d093277ca4bf653474a18a688d08409bd5daaa4cd52aea8ef6c8a3bf0b607002"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/reviews/present-1920.review.json",
+      "sha256": "cabc05be3bf18fee50ad959ccae1eb56332d5b8e19188368d442d7cd0c67a22a"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/reviews/read-1440.review.json",
+      "sha256": "de43ab4d7e8248c161215216cc73b1dda1e39e43e12a3b1d8b2c63d921d3747b"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/reviews/read-390.review.json",
+      "sha256": "0db0a00f43dbdaaf0ac82f41592e2b35dce3a1d27c8720fffb247fb52ecb5d75"
+    }
+  ]
+}

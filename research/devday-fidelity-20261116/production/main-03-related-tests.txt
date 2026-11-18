@@ -1,0 +1,27 @@
+✔ new current QA accepts its complete synthetic current observation contract in separate scopes (26.450292ms)
+✔ unfinished/empty coverage, deleted relocated meaning, missing anchors and unknown current roles cannot pass (14.960375ms)
+✔ source/native role deletion or duplicate actual observations cannot disguise missing required copy (19.70625ms)
+✔ exact current hashes, manifest pair, viewport and current contract identity are mandatory (27.709917ms)
+✔ required copy cannot shrink, become metadata, move to another group or clip (21.078542ms)
+✔ missing or reordered actual emphasis and changed original assets cannot pass (10.062ms)
+✔ reading missing native notes, meaning/anchor observations, global access or exact reading pair cannot pass (27.241833ms)
+✔ same-basename links at another folder or origin never pass as current public access (11.558375ms)
+✔ rect graph supports several actual legal ports and refuses missing/invisible/directional/disconnected edges (0.928292ms)
+✔ quiet preserves legacy defaults, explicit false/true and all authored AST content (8.177333ms)
+✔ production current source contract covers every actual role, all 26 topics and every public/SVG destination statically (138.362042ms)
+✔ heading floors follow the declared current media/quote role while required bodies retain 32px (0.592125ms)
+✔ adjacent reading navigation needs actual glyphs, origin, role, visible 18px size and exact native target (0.39925ms)
+✔ another existing native anchor cannot substitute for the exact support section of the displayed material (118.25025ms)
+✔ only an image-only source block contributes its real image title as a FIGCAPTION role (5.536125ms)
+✔ native quotation ownership is mandatory in both scopes and cannot become caption metadata (38.279375ms)
+✔ field correspondences require measured paths and do not borrow document relation observations (0.397666ms)
+✔ source table cells keep TR ownership and body floors in both actual observation scopes (47.14675ms)
+✔ SVG source provenance requires its actual class and explicit reason while required labels retain 32px (660.995ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1254.849709

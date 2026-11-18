@@ -1,0 +1,4395 @@
+{
+  "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+  "hashes": {
+    "app.js": "75fc9cd55851f71b838c510c660621526bcd2a16ef9d693295423add76f157fd",
+    "blocks.css": "503ec1a0a31d0d28cbba8ca5076d476e3502a5ea729e96ae5a5fd0a402e2558e",
+    "blocks.js": "c24f1978a49d820b4d6d897a84beff95916c6f2285549f7a903043637517049e",
+    "deck-model.js": "a066ec794fa1792e2c19d5fd8eb185adceb8478df89c5f85558608bf6fdfd7a1",
+    "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+    "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+    "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+    "lib/markdown-deck.cjs": "8bc98a47a5471b75eb74e40b830d2caa073733412d1b6a0e0eacc8c42a15609b",
+    "lib/markdown-document.cjs": "5b1ef0043296c4f64cf9833957cbe482e1951505aefcd80dfd6f0a010e0af704",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+    "ou.config.json": "41566e632cced20b479a9b36f442ffc201792b91961fae9c7ca892c409ebc564",
+    "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+    "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+    "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "scripts/llm-wiki-keynote-qa.cjs": "6e78cc19027e2e70c680492c50357b7e72297661a9a8b944a0de96b00cade63f",
+    "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+    "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+    "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+    "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+    "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+    "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+    "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+    "styles.css": "3791858cb6f5a8d66c49b1aa2f540e25daaf9a57839196a9fef6822ec47994ca",
+    "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+    "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+    "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+    "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+    "talks/llm-wiki/assets/design/ingest-map.svg": "1ea6a569bab645b16c29d332950aaa5928fcd0b4b6737ff12005bcdf3765764b",
+    "talks/llm-wiki/assets/design/knowledge-layers.svg": "64c1fd12553932973b7340a0930c2617788ad561c1e09329da9171644d4f0a56",
+    "talks/llm-wiki/assets/design/raw-wiki-rules.svg": "87b989db720d81d4ec21ed604ac24c66623ee2faa934166071449003133d900d",
+    "talks/llm-wiki/assets/devday-current/answer-window.svg": "029e64d0c262466d4a29dd569311f7fc0c4bdb9437d38a038eca15d9d83ff05f",
+    "talks/llm-wiki/assets/devday-current/condition-article.svg": "0046232570fa53f10acc83f3e42440ac7f8479ce029c1c83b24d52a345632e70",
+    "talks/llm-wiki/assets/devday-current/connected-knowledge.svg": "dc025f0ce74b92ac89951427f1d8630893593f9854e1a3ca383de0a84065934d",
+    "talks/llm-wiki/assets/devday-current/output-brief.svg": "b67c82d2f1b1ab73fbbf9766fc7831b876d52d34f730a00cfd9809197cde2387",
+    "talks/llm-wiki/assets/devday-current/output-map.svg": "22b8c77efb73bab2a90f288df6032b9593d86c7d7250375e22b3e0a37527a604",
+    "talks/llm-wiki/assets/devday-current/output-plan.svg": "e91eecd83e76dd2c4af2f258313f0cd3c5cbbe478dae0f5fc95d0200e42ca10a",
+    "talks/llm-wiki/assets/devday-current/output-question.svg": "7803208f6b2c5de00abb2a7e562a2ac6513d0b117e20b97a8cd730d411484bce",
+    "talks/llm-wiki/assets/devday-current/wiki-window.svg": "11c0efa5df6c2b6496886e09ac36ee297636cb33756f38e849bd75aee436b6de",
+    "talks/llm-wiki/assets/examples/course.txt": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+    "talks/llm-wiki/assets/examples/reading.txt": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+    "talks/llm-wiki/assets/examples/team.txt": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+    "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "talks/llm-wiki/assets/expanded/agentic-routing.svg": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+    "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+    "talks/llm-wiki/assets/expanded/five-layers.svg": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+    "talks/llm-wiki/assets/expanded/ingest-map.svg": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+    "talks/llm-wiki/assets/expanded/knowledge-layers.svg": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+    "talks/llm-wiki/assets/expanded/purpose-questions.svg": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+    "talks/llm-wiki/assets/expanded/query-reading.svg": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+    "talks/llm-wiki/assets/expanded/rag-path.svg": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+    "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+    "talks/llm-wiki/assets/expanded/reflection-layers.svg": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+    "talks/llm-wiki/assets/expanded/related-updates.svg": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+    "talks/llm-wiki/assets/expanded/review-return.svg": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+    "talks/llm-wiki/assets/expanded/rules-graph.svg": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+    "talks/llm-wiki/assets/expanded/saved-question.svg": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+    "talks/llm-wiki/assets/expanded/session-plan.svg": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+    "talks/llm-wiki/assets/expanded/shared-workspace.svg": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+    "talks/llm-wiki/assets/expanded/source-concept.svg": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+    "talks/llm-wiki/assets/expanded/wiki-path.svg": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+    "talks/llm-wiki/assets/expanded/work-context.svg": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+    "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+    "talks/llm-wiki/assets/remake/ingest-map.svg": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+    "talks/llm-wiki/assets/remake/session-plan.svg": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+    "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+    "talks/llm-wiki/assets/typography/ingest-map.svg": "a3a65af7ab28b3eb7a0720d3ac9588b3a7c4dba0af3b6833a1ee89676454da8e",
+    "talks/llm-wiki/assets/typography/knowledge-layers.svg": "00cc9503c0ea5f60b60e902f45f12622da5d4696ac03d8b7296d6bf2953ab493",
+    "talks/llm-wiki/assets/typography/purpose-questions.svg": "22e3b2b1ec42fed0eeb887c9f1d7c5d8778279dc54b992897e8171b3eaf1fef0",
+    "talks/llm-wiki/assets/typography/rag-path.svg": "0aefea443a6e3de3f103c5cdbcf9d16fe025af213fd4266f213dfd28df4c5c63",
+    "talks/llm-wiki/assets/typography/raw-wiki-rules.svg": "971d2b2c25e3d9e6ae3cd17abe5c1d0aa21fc5a71e7eaa4a98c7abb60c1719ba",
+    "talks/llm-wiki/assets/typography/related-updates.svg": "e240f730668766cb72612e6d4a417127473bdd8e2d04b8a0086307e361bce67f",
+    "talks/llm-wiki/assets/typography/session-plan.svg": "a7afd1388934c61261926c78cdc0c70fb51bd62219d3b7b59f4c8ea92349a955",
+    "talks/llm-wiki/assets/typography/source-concept.svg": "cac31a82b5a0225f8bf3fb14fd713b29482bf2e84c7114a8131d3b6216195862",
+    "talks/llm-wiki/assets/typography/wiki-path.svg": "53636045579a66dfdee4f53136cf31365fc00809983cb56e0b14b224c5052840",
+    "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+    "talks/llm-wiki/materials/demo-log.md": "8786016513450b7fb35bd88d8dd2141b53b7273ede735fe9eb24b007999195ab",
+    "talks/llm-wiki/materials/diagram-reading.md": "32292ae71a01d74c66c77b5367a156c8a1b30d305a2539e07ae777d273a0867c",
+    "talks/llm-wiki/materials/index.md": "200676275753e7f54386a4b704005b069d1a3aee21ea567a5b2d528fdc12b7b3",
+    "talks/llm-wiki/materials/keynote-notes.md": "da50428f9f8b1e396cbf9987e86d758856c6f1b0212b2b5ec691ce456398a3e9",
+    "talks/llm-wiki/materials/reference-library.md": "60b10db89b665dbf91bf35715059598408b983abb9e372f3c3436994dcf3df44",
+    "talks/llm-wiki/materials/session-plan.md": "24b1aadb2d479b3a5d54b5296c3c4562662bff09d03cda47541daad2187db755",
+    "talks/llm-wiki/materials/speaker-script.md": "686c35b3355ce94193e263aa0e9fa2b6fedf6e0dc40042c817db9a7e0216109b",
+    "talks/llm-wiki/materials/study-guide.md": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+    "talks/llm-wiki/materials/visual-appendix.md": "c213552b5d3812d357368561e20853457c8028518a5c268f3e7c98341acd583b",
+    "talks/llm-wiki/materials/workshop.md": "c5447d32a329cb306ef5517fff2d7d82f9583271216266a828c73ba29250a8c0",
+    "talks/llm-wiki/slides.md": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "talks/llm-wiki/qa/keynote-current.json": "a22c71339d162df0ef6ff6c662625bc886afc678d3ae8922bd44bcacdfe367f0",
+    "talks/llm-wiki/qa/keynote-coverage.json": "2fb45ec138b5932e6cc5d34475847405b8616006003cf8cf23cf68ced92fbf17",
+    "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+  },
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "devicePixelRatio": 1
+  },
+  "coordinateSpace": "native-reading-CSS-pixels",
+  "supportNavigation": [
+    {
+      "text": "발표 모음",
+      "href": "../index.html"
+    },
+    {
+      "text": "학습 자료",
+      "href": "materials/index.html"
+    }
+  ],
+  "supportDocuments": [
+    {
+      "sourcePath": "talks/llm-wiki/materials/keynote-notes.md",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html",
+      "title": "LLM Wiki 키노트 해설 — LLM Wiki · 내 자료를 AI와 함께 정리하는 방법",
+      "text": "\n      LLM Wiki · 내 자료를 AI와 함께 정리하는 방법LLM Wiki 키노트 해설본편에서 선택한 주장과 그 뒤의 정의·파일·관계·검토 약속을 함께 읽는 공개 정본\n      발표는 지금 기억할 주장과 한 자료에 집중합니다. 이 해설에서 장면에 쓰인 원자료와 사례의 전체 맥락, 바로 써 볼 요청을 읽을 수 있습니다. 발표 읽기 · 학습 자료 목록 · 설명용 예제 팩 전문 · 현재 발표 대본\n이 예제의 메모·위키·선택 이유·답은 발표팀의 설명용 구성입니다. 외부 원문의 정확 발췌, 실제 사용자의 직접 기록, 이번 세션의 모델 출력이나 실제 스터디 성과로 소개하지 않습니다. 기술 주장의 일차 근거는 원문과 근거에서 확인합니다.\n정의와 개인 맥락\nLLM Wiki는 내 자료를 AI와 함께 정리하고 연결하는, 나만의 마크다운 지식 베이스입니다. 사람이 읽고 고칠 수 있는 문서에 자료의 개념·비교·종합과 근거를 연결하고, 새 자료나 질문에 맞춰 현재 이해를 고칩니다. 마크다운은 글·제목·목록·링크를 적는 텍스트 파일 형식입니다. 폴더에 자료를 모으는 일과, 그 자료 사이의 관계를 설명하고 유지하는 일은 구별합니다.\n개인비서도 내 상황·선호·이전에 선택한 이유를 다시 읽을 수 있어야 맥락을 참고할 수 있습니다. OpenClaw의 메모리와 Hermes는 개인비서형 에이전트의 탐색 예이며 이 발표의 필수 도구나 검증된 효과를 뜻하지 않습니다. LLM Wiki라는 설계 아이디어의 출발은 Karpathy의 글입니다.\n같은 문서를 함께 편집한다는 말에는 서로 다른 책임이 있습니다. 사람은 누구를 위해 무엇을 만들지 목적을 정하고, 생각과 판단·선택 이유를 직접 씁니다. AI는 허용한 자료를 읽고 문서와 연결·목차를 쓰거나 고칩니다. 사람은 바뀐 문서의 중요한 내용을 확인하고 AI의 해석을 바로잡을 수 있습니다. 문서를 남기기만 하면 AI가 항상 읽거나 자동으로 모든 관련 문서를 고친다고 보장하지 않습니다.\n다시 쓸 목적의 예는 “LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶다”입니다. 이 목적과 “AI가 내 자료를 좀 더 잘 이해해 줬으면”이라는 요구는 발표팀이 구성한 예문입니다. 실제 사용자의 감정이나 경험을 대신 쓴 기록이 아닙니다. 가상 모임의 편집 구절과 선택·기록의 책임을 함께 읽습니다.\n선택 이유 메모\n목적과 맥락 — 사람이 채울 선택 이유의 예\n\n‘LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서\n이 메모를 골랐다.’\n\n위 인용은 raw/context-note.md의 원문 구절을 정확히 골라 보여 준 예입니다. 원자료의 제목은 ‘목적과 맥락’이고 이 문장은 사람이 채울 선택 이유의 예입니다. 발표팀 구성 예이며 실제 사용자의 직접 기록이나 모델 출력이 아닙니다. 정확 발췌의 전체 맥락은 예제 팩에서 같은 경로 제목으로 바로 찾을 수 있습니다.\n원자료와 작업 약속\n같은 예제 팩에는 ‘목적과 맥락’·‘검색과 비교’·‘지식의 활용’이라는 세 자작 주제 메모가 있습니다. raw/는 원자료와 사람이 남긴 선택 이유를 보존하는 자리, wiki/는 정리하고 갱신할 이해, rules.md는 두 영역을 다룰 작업 약속입니다. 이 이름은 설명용 구성 예이며 모든 도구가 따라야 하는 필수 규격은 아닙니다.\n\n\n\n파일·문서\n읽을 내용과 역할\n\n\n\n\nraw/context-note.md\n‘목적과 맥락’: 목적·선택 이유·개념 연결·남은 질문\n\n\nraw/retrieval-note.md\n‘검색과 비교’: 검색·지속 문서·모델 학습·에이전트 판단의 구분과 병행\n\n\nraw/synthesis-note.md\n‘지식의 활용’: 사람의 입력·종합·결과 제작·검토·다음 질문\n\n\nraw/study-retro.md\n나중에 추가하는 입문자·준비된 팩·15분 활동이라는 가상 조건\n\n\nwiki/sources/*.md\n각 자료의 요지를 다시 찾는 자료 요약과 원자료 근거\n\n\nwiki/concepts/llm-wiki.md·retrieval.md\n여러 자료의 공통 개념과 적용 범위\n\n\nwiki/comparisons/rag-vs-wiki.md\n같은 기준의 차이와 우리 선택 기준\n\n\nwiki/syntheses/study-plan.md\n여러 자료·조건을 엮은 현재 계획\n\n\nwiki/questions/first-study.md\n질문에 읽은 근거와 검토할 답\n\n\nwiki/outputs/study-session-plan.md·wiki/reviews/study-session-plan.md\n사용할 활동안과 확인할 항목\n\n\nwiki/index.md·wiki/log.md\n문서를 찾는 목차·링크와 바뀐 이유\n\n\n\n\n실제 전문은 한 텍스트 팩의 경로별 구간입니다. 위 이름이 각각 별도 공개 .md 파일로 등록되어 있다는 뜻은 아닙니다. 팩 전문을 열어 경로 제목으로 찾을 수 있습니다. 같은 경로의 ‘처음’과 ‘갱신’은 한 논리 파일의 전후 상태입니다.\n작업할 때 지킬 네 약속은 원자료 보존 / 근거 연결 / 관련 문서 갱신 / 중요한 결과 확인입니다. raw를 없애고 wiki로 대체하지 않습니다. 실제 읽은 자료의 위치를 남기고, 새 자료와 관련된 기존 설명·비교·계획·질문·목차·로그를 살펴봅니다. 변경 파일과 모르는 점을 받아 중요한 결론을 사람이 원자료와 대조합니다. 약속은 자동 갱신 기능이나 오류 없음의 보증이 아닙니다.\n검색과 지속 문서\n중심 작업의 비교축은 이번 질문에 필요한 근거를 검색해 답하기와 사람이 다시 읽을 연결 문서를 작성하고 유지하기입니다. RAG는 외부 자료를 찾아 생성의 입력 문맥에 사용하는 패턴입니다. LLM Wiki는 사람이 읽는 지속 문서 층을 둡니다. 두 방식은 함께 쓸 수 있고, 규모가 커지면 위키에서도 검색이 필요합니다. RAG도 관계·요약을 미리 만들거나 답을 저장할 수 있습니다.\n\n\n\n살펴볼 점\nRAG 구성\n작은 LLM Wiki\n\n\n\n\n중심 작업\n자료를 검색해 답하기\n문서를 정리하고 연결하기\n\n\n준비할 것\n검색 방법·색인 등 설계\n파일·목차·링크부터 시작\n\n\n질문할 때\n찾은 근거를 참고\n정리한 문서와 원자료를 참고\n\n\n유지할 것\n검색 품질·자료 변경\n문서 내용·연결·자료 변경\n\n\n\n\n같은 질문은 “다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?”입니다. 팩 wiki/comparisons/rag-vs-wiki.md — 처음의 정확한 두 교육용 예는 다음과 같습니다.\n\n기본 검색-생성 예: 관련 원자료를 찾아 현재 입력에서 종합해 이번 답을 만든다.\n\n\n위키를 유지하는 예: 자료 반영 때 개념·비교·종합을 문서로 남기고, 필요한 쪽을 읽어 이번 답을 만든다.\n\n두 예 모두 이번 답을 만듭니다. 두 작업창은 왼쪽에 한 번의 질문과 독립된 답, 오른쪽에 메모·개념·비교·계획이 연결된 지속 문서를 그린 설명용 도식입니다. 남아 다시 읽는 문서가 이 비교의 중심입니다. 오른쪽 창에서 계획이 가리키는 문서는 팩 wiki/syntheses/study-plan.md — 처음의 다음 스터디의 첫 시도이며 정확 구절은 “참여자 배경과 활동 길이는 아직 미정이다.”입니다. 처음 계획이라는 표시는 뒤의 조건 변경과 시점을 구별합니다. 입문자·별도 활동 15분을 반영한 최종 계획으로 소개하지 않습니다.\nRAG 경로는 같은 세 메모에서 지금 필요한 부분을 찾아 이번 답의 입력 문맥으로 사용합니다. 위키 경로는 같은 메모를 근거로 미리 정리한 ‘LLM Wiki 개념’·‘RAG와 위키 비교’·‘우리 스터디 계획’과 필요한 원자료를 다시 읽습니다. 답을 우리 목적과 조건에 맞추고 쓸 만한 답을 확인한 뒤 문서로 남길 수 있습니다. 두 예는 함께 쓸 수 있습니다. RAG도 요약·답 저장·관계 정리를 붙일 수 있고 위키도 검색을 쓴다는 범위를 유지합니다. 이는 설명용 흐름이며 실제 검색이나 모델 실행의 기록이 아닙니다.\n검색 유무·문서 개수 하나로 도입을 결정하지 않습니다. Agentic RAG의 검색 판단, 파인튜닝의 파라미터·어댑터 최적화와 파일 편집도 구별합니다. 정확도·속도·비용의 우열을 이 예제에서 측정하지 않았습니다. 기술 근거와 범위 · 현재 계획의 변경과 근거\n요약과 기존 문서의 관계\n자료 요약은 한 자료를 다시 찾는 입구이고, 개념 문서는 여러 자료의 공통 주제를 설명합니다. ‘목적과 맥락’ 한 메모의 요약은 자료를 넣는 목적과 선택 이유를 되짚습니다. ‘LLM Wiki 개념’ 문서는 세 메모를 함께 읽어 자료 사이 관계와 현재 이해를 연결 문서로 작성·갱신한다는 설명을 남깁니다. 개념은 ‘RAG와 위키 비교’·‘현재 계획’과 함께 읽습니다.\n개념 문서의 세 근거 메모 이름은 목적과 맥락 · 검색과 비교 · 지식의 활용입니다. 현재 관계 장면에서 작은 자료 요약은 원자료의 입구, 큰 두 영역은 함께 읽고 고칠 기존 문서입니다.\n한 자료 요약의 전문은 팩의 wiki/sources/context-note.md, 여러 자료의 개념은 wiki/concepts/llm-wiki.md 구간입니다. 요약의 근거는 raw/context-note.md이며 개념의 근거는 raw/context-note.md·raw/retrieval-note.md·raw/synthesis-note.md입니다. 개념 문서 전문의 첫 문장은 “LLM이 원자료의 개념·비교·종합을 연결 문서로 작성하고 갱신하는 지식관리 패턴이다.”입니다. 이 역시 발표팀의 예제 문서이며 실제 모델 출력이 아닙니다. 이 정의를 적용한 예는 같은 계획의 전후 상태에서 확인합니다. 두 문서의 차이와 전문·근거는 같은 팩 전문에서 경로 제목으로 읽습니다.\n같은 세 메모를 읽고 내용을 나누며, 자료 요약을 입구로 관련된 기존 개념·비교와 현재 계획의 관계를 보완합니다. 새 자료와 사람이 남긴 선택 이유를 보존하고, 관련 문서·목차·링크도 확인해 고칩니다. Ingest는 이 읽기·나누기·연결 보완의 작업을 가리킵니다.\n세 무방향 관계\n현재 본편의 작은 자료 요약은 원자료의 입구이고 큰 기존 개념·비교와 현재 계획은 함께 읽고 고칠 기존 문서입니다. 자료 요약은 목적과 맥락, 개념·비교는 LLM Wiki / RAG와 위키, 현재 계획은 입문자와 하는 첫 위키 활동을 가리킵니다. 다음 장에서 이 계획의 조건과 전후가 이어집니다. ‘RAG와 위키’는 팩 목차의 표시이며 독립 공개 파일 링크가 아닙니다. 세 관계는 다음과 같습니다.\n\n자료 요약 ↔ 개념·비교\n자료 요약 ↔ 현재 계획\n개념·비교 ↔ 현재 계획\n\n작은 자료 요약이 입구이고 두 큰 문서가 갱신 대상이어도 이 선은 무방향 관계입니다. 요약→개념→계획 파일을 순서대로 새로 만드는 필수 생성 절차나, 양방향 자동 갱신 보장이 아닙니다. 현재 관계 장면 · 역사 10장 도식의 설명과 원본\n\n\n\n문서\n함께 읽는 관계\n\n\n\n\nLLM Wiki 개념\nRAG와 위키 비교 · 우리 스터디 계획\n\n\nRAG와 위키 비교\n개념의 차이 · 계획의 선택 기준\n\n\n우리 스터디 계획\n개념과 비교를 우리 조건에 적용\n\n\n\n\n이 표는 원래 12장에 있던 관계 설명 전문입니다. 목차와 링크는 관련 개념과 원자료를 다시 찾는 길입니다. 새 자료가 오면 문서와 관계를 보완합니다.\n다섯 관계\n역사 3장의 ‘자료에서 연결된 지식으로’에는 별도의 다섯 관계가 있습니다. 개념 ↔ 현재 이해 / 비교 ↔ 현재 이해 / 현재 이해 ↔ 계획 / 현재 이해 ↔ 다음 질문 / 계획 ↔ 다음 질문입니다. 출발인 세 메모를 보존하고, 자료의 개념·비교를 현재 이해와 다음 질문에 다시 쓰는 뜻입니다. 앞의 세 관계와 합쳐 수를 바꾸거나 자동 갱신 방향으로 읽지 않습니다. 역사 3장 도식의 설명·원본 · 전체 19도식\n원자료와 정리한 이해\n새 조건은 입문자와 함께, 준비된 읽기 팩으로, 15분 활동을 한다는 가상 조건입니다. 이 조건에서 “설치보다 문서 읽기부터”를 첫 행동으로 고른 예입니다. 15분이라는 시간만으로 자동 도출한 답이 아닙니다. 원래 목적은 설치보다 자료 사이 연결의 근거를 찾고 싶다는 것이고, 준비된 팩이 있으며 입문자가 함께한다는 조건도 판단에 들어갑니다.\nraw/study-retro.md는 조건을 보존합니다. 그 조건을 읽어 개념의 ‘우리 적용 범위’는 입문 설명부터, 비교의 ‘선택 기준’은 작은 자료 묶음부터, 계획의 ‘작업과 시간’은 15분 읽기 활동에 맞춰 고치는 구성 예입니다. 새 개인 조건이 보편 개념의 정의를 뒤집는 것은 아닙니다. 조건 메모만 추가하고 예전 계획을 방치하지 않도록 관련 내용을 함께 확인합니다. 자동으로 모든 문서가 수정되거나 정해진 순서로 생성된다고 가정하지 않습니다.\n이후 “입문자와 15분 활동은 무엇부터 할까?”를 묻고 개념·비교·현재 계획을 다시 읽어 답합니다. 준비된 문서를 읽고 관계의 근거 한 개를 찾는 선택을 확인한 뒤 유용한 답을 문서로 남길 수 있습니다. 구절의 전체 맥락과 전후 상태는 예제 팩, 발표의 선택은 계획 전후 장면에서 읽습니다. 이번에 실제 활동·모델 실행·생성 시간·학습효과를 측정한 결과가 아닙니다.\n계획이 바뀐 근거\n계획의 전후 장면은 처음의 상태와 갱신 후 입문자가 할 일을 함께 보여 줍니다. “참여자와 활동 시간 미정”과 “입문자와 근거 하나 찾기”는 발표용 요약입니다. 입문자는 준비된 위키를 읽고 연결의 근거 하나를 찾습니다. 예제 팩의 같은 논리 파일 wiki/syntheses/study-plan.md에서는 다음 두 구절을 정확히 읽을 수 있습니다.\n\n\n\n같은 계획의 상태\n정확 발췌\n\n\n\n\n처음 계획\n참여자 배경과 활동 길이는 아직 미정이다.\n\n\n갱신한 계획\n가상 조건: 입문자 포함, 준비된 세 메모 중 두 개 선택, 별도 활동 15분.\n\n\n\n\n처음 구간의 제목은 다음 스터디의 첫 시도, 갱신한 구간의 제목은 입문자와 하는 첫 위키 활동입니다. 같은 논리 파일에서 제목과 조건이 바뀐 위치를 읽습니다. 두 문장은 별도 사람의 실행 결과를 비교한 것이 아니라 하나의 설명용 계획 문서의 전후 상태입니다. 실제 도구의 diff나 자동 갱신을 캡처한 화면이 아닙니다. 근거는 raw/study-retro.md의 가상 모임 조건입니다. 입문자·준비된 팩·15분이라는 조건을 읽어 현재 계획에 반영한 예이며, 보편 개념의 정의나 필수 생성 순서를 바꾼 것이 아닙니다. 관련 개념의 적용 범위·비교의 선택 기준도 함께 살펴봅니다. 실제 사용자 기록·모델 출력·참가자 활동·시간·학습효과를 측정한 결과가 아닙니다. 현재 계획 장면\n사람의 선택과 기록\n자료를 모두 넣기 전에 두 가지를 묻습니다. “앞으로 만들 결과와 관련된 자료인가?”, “가치 있다고 느낀 이유를 직접 적을 수 있는가?” 판단했다면 같은 주제의 자료 두 개부터 연결해 다음 질문에 도움이 되는지 봅니다. 자기 맥락을 완벽한 온톨로지로 분류하는 일보다 지금 만들 결과와 다시 묻고 싶은 질문을 먼저 적습니다.\n예제의 선택 이유는 “LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서 이 메모를 골랐다”입니다. 맥락은 다음 AI 스터디 준비, 중요한 점은 원문·내 이유·연결된 종합의 구분, 앞으로의 쓰임은 한 쪽 진행안과 다음 읽기 활동입니다. 이 문장 자체도 발표팀의 구성 예이며 실제 사용자의 직접 기록으로 소개하지 않습니다.\n누구를 위해 무엇을 만들지 목적은 사람이 정합니다. 감정·생각·판단·선택 이유는 사람이 직접 남깁니다. AI가 추정한 내 생각을 내가 쓴 기록으로 바꾸지 않습니다.\n\n\n\n기록의 지위\n남기는 방식\n\n\n\n\n원문\n실제 읽은 자료의 구절·위치와 작성 주체를 남깁니다. “본편 뒤 별도 활동은 15분만 배정한다.”는 raw/study-retro.md 구절입니다. 이 예제의 raw 메모는 발표팀의 자작 설명입니다.\n\n\n사람의 직접 기록\n내 경험·감정·생각·판단·선택 이유임을 표시하고 내가 씁니다.\n\n\nAI의 요약·해석\n생성한 종합과 추정임을 표시하고 원문·사람 기록과 구분하며 근거를 확인합니다.\n\n\n\n\n활용은 공부의 개념·남은 질문, 프로젝트의 배경·결정 이유, 글과 발표의 근거 재사용입니다. 사람이 같은 마크다운 문서를 읽고·고치고·다시 쓰기 쉽다는 것이 장점입니다. 벡터 검색을 쓰면 사람이 원문을 읽을 수 없다는 뜻이 아니며, 실제 성과나 생산성 향상을 이 사례가 보장하지 않습니다.\n활동안과 미확인 범위\n문서 제목은 입문자와 함께 읽는 15분 LLM Wiki 활동, 원문 절 제목은 15분 진행안입니다. 활동 시간·할 일·남길 것 세 필드가 준비할 내용과 검토할 결과를 정리합니다. 목표는 한 관계의 근거를 찾아 읽고, 다음 질문과 확인할 점을 남기기입니다. 선택한 두 메모는 목적·선택 이유·개념 연결을 읽을 raw/context-note.md와, 사람의 입력·결과 제작·검토를 읽을 raw/synthesis-note.md입니다. raw/retrieval-note.md는 전체 비교의 공통 근거로 돌아가 읽습니다. 준비물은 세 메모·관련 개념·비교·현재 계획 예시와 자기 노트입니다.\n\n\n\n활동 시간\n할 일\n남길 것\n\n\n\n\n0~2분\n왜 이 자료를 다시 쓰려는지 질문 정하기\n목적 한 문장\n\n\n2~6분\n선택한 두 읽기 메모 확인하기\n메모 요지와 내 선택 이유\n\n\n6~11분\n원자료→개념→비교의 연결 한 개를 따라 읽기\n관계를 뒷받침하는 근거 위치\n\n\n11~15분\n후속 질문에 근거를 연결하고 남은 확인 적기\n질문·검토할 답·모르는 점\n\n\n\n\n2+4+5+4=15분은 계획 배분이며 실측 시간이 아닙니다. 표의 ‘원자료→개념→비교’는 이번 읽기 활동에서 따라 읽을 순서로, 본편 그림의 세 무방향 관계와 다릅니다. 설치·계정 연결·위키 제작은 이 짧은 활동 범위에 포함하지 않습니다.\n네 결과물의 활동안은 아래 표에서 읽을 시간과 할 일을 골라 조판한 자료입니다. 확인할 수 있는 것은 시간 배분·선택 이유·근거 위치·작성 주체·문서 연결입니다. 실제 모임에서 필요한 쪽을 찾았는지, 15분 안에 이해했는지, 학습에 도움이 됐는지는 미확인입니다. 실제 모임 운영·입문자 이해도·학습효과·설치나 모델 생성 시간의 실측 자료로 소개하지 않습니다. 활동안 전체와 다음 확인 · 발표의 결과물 장면\n다음 모임의 출발점\n기사와 인용 카드는 입문자와 준비된 팩으로 15분 읽기 활동을 계획하는 가상 사례를 편집해 보여 줍니다. 기사 ‘다음 모임의 출발점 / 자료를 다시 읽는 방법’에서 고른 발표용 구절은 다음과 같습니다.\n\n다음 질문에 쓸 근거를 연결된 문서에서 다시 찾고 싶다.\n\n기사와 이 구절은 발표팀이 사례의 목적을 한 문장으로 다시 쓴 것입니다. 예제 팩의 raw/study-retro.md에 기록한 정확한 원문은 아래와 같습니다.\n\n도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.\n\n선택의 근거 확인에서 입문자, 준비된 메모, 15분 조건을 함께 대조합니다.\n네 가지 작업 결과\n결과물 네 면은 발표팀이 실제로 작성해 제공하는 예제의 서로 다른 쓰임을 보여 줍니다. 각 자료의 일부를 화면에 맞게 조판했습니다.\n\n\n\n결과물\n문서에서 읽는 것\n전체 자료\n\n\n\n\n입문자 활동안\n0~2분부터 11~15분까지 배치한 활동 시간·할 일·남길 것\n15분 진행안\n\n\n연결 지도\n원자료에서 자료 요약·개념·비교·현재 계획으로 이어지는 근거\n세 무방향 관계 · 학습 팩\n\n\n질문과 답\n“입문자와 15분 활동은 무엇부터 할까?”와 답을 뒷받침하는 원자료\n학습 팩의 질문 문서\n\n\n모임 안내\n참여자가 열어 볼 자료와 모임에서 작성할 후속 질문·확인 항목\n15분 활동 안내 · 진행안\n\n\n\n\n질문 문서의 팩 경로는 wiki/questions/first-study.md입니다. 활동안과 질문에 적은 내용은 설명을 위해 계획한 작업입니다. 미확인 범위에서 모임 운영·이해도·학습효과의 확인 여부를 확인할 수 있습니다.\n확인과 유지\nAI가 만든 연결은 원자료가 뒷받침하는지 확인합니다. 읽기 좋은 문장이라도 조건이 다른 자료를 하나로 묶었거나 원자료가 말하지 않은 관계일 수 있습니다. “15분이므로 설치보다 읽기”처럼 시간 하나만 이유로 삼으면 입문자·준비된 팩·원래 목적이 빠집니다. 원자료의 조건으로 돌아가 관계와 선택 이유를 확인합니다.\n위험은 내용 오류뿐 아니라 새 자료와 예전 설명의 충돌, 문서·링크를 유지하는 시간에도 있습니다. 중요한 결론은 원자료와 대조하고, 오래된 설명·서로 다른 조건·끊긴 링크를 찾아 바뀐 이유를 남깁니다. 작업 결과에는 바꾼 파일·근거·아직 모르는 점을 요청합니다. 확인할 사람이 없는 자동 정리와 검증된 현재 이해를 같게 보지 않습니다.\n선택의 근거 확인\n본편 뒤 별도 활동 15분, 입문자와 함께라면 ‘읽기부터’?\n이는 발표용 확인 질문입니다. 입문자·본편 뒤 별도 활동 시간을 한 질문에 묶은 요약이며 원문 인용이 아닙니다. 질문의 근거를 메모의 선택 위치와 정확 목적 구절에서 대조합니다. 이 대조로 목적도 확인합니다.\n바로 대조할 원자료는 예제 팩의 raw/study-retro.md — 나중에 추가 구간, 제목 다음 모임의 조건 메모입니다. 정확한 조건과 목적은 다음과 같습니다.\n\n다음 모임에는 입문자가 함께한다고 가정한다.\n본편 뒤 별도 활동은 15분만 배정한다.\n발표팀의 설명용 주제 메모 세 개로 시작한다.\n도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.\n\n발표의 기사는 이 모임을 하나의 장면으로 편집했습니다. 기사와 인용 카드의 구절과 위의 팩 원문을 나란히 읽어 선택 이유와 근거를 확인할 수 있습니다.\n구절은 전체 가상 조건인 입문자·준비된 팩·본편 뒤 별도 활동 15분과 함께 읽습니다. 시간만으로 첫 행동이 자동 결정된다고 결론내릴 수 없고, 자료 연결의 근거를 찾고 싶다는 목적도 선택에 들어갑니다. 원문 인용인 팩의 정확 발췌와 발표용 질문·해석을 구별합니다. raw도 발표팀의 자작 가상 예이며 실제 사용자 기록·모델 출력·실행 성과·학습효과의 실측이 아닙니다. 기사와 인용 장면\n시작 요청과 선택 기준\n\n\n\n지금 상황\n먼저 해 볼 일\n\n\n\n\n같은 주제를 반복해서 묻는다\n작은 연결 문서를 만들고 다음 질문에서 다시 쓰는지 확인\n\n\n일회성 질문이다\n간단한 노트와 검색으로 충분한지 먼저 판단\n\n\n자료가 많고 찾기가 어렵다\n검색과 목차를 함께 설계하고 필요한 근거를 찾는지 확인\n\n\n자료가 자주 바뀐다\n관련 문서·링크를 누가 확인할지와 유지 비용을 먼저 정하기\n\n\n\n\n규모만으로 위키가 필요하다고 결론내리지 않습니다. 아래 전문을 복사해 자기 목적·파일 경로·직접 쓴 기록으로 바꿉니다. 이는 요청 예문이며 실행 기록이 아닙니다.\n목적: [누구를 위해 무엇을 만들고, 다음에 어떤 질문에 다시 쓸지]\n자료: [같은 주제의 자료 두 개와 실제 파일 경로]\n내 기록: [내가 직접 쓴 생각·판단·선택 이유]\n작업 위치: [허용한 폴더] / 작업 규칙: [rules.md 경로]\n\n원자료는 보존하고, 원문·내 직접 기록·AI의 요약과 해석을 구분해 주세요.\n자료의 요지와 공통 개념·차이·현재 계획을 연결해 주세요.\n필요한 기존 문서·목차·링크를 찾아 갱신하고 근거 위치를 남겨 주세요.\n바꾼 파일, 중요한 결론의 근거, 충돌과 모르는 점을 알려 주세요.\n내 목적·감정·생각·판단·선택 이유를 대신 지어내지 마세요.\n중요한 내용은 내가 확인한 뒤 다음 질문에 다시 쓰겠습니다.\n\n처음에는 목적을 적고, 자료 두 개를 골라 연결하고, 중요한 내용을 확인하고, 다음 질문에서 다시 읽습니다. 설치나 특정 도구 선택이 선행 의무는 아닙니다. 예제 읽기와 해설에서 준비된 팩으로 이어갈 수 있습니다.\n다음 질문\n어떤 자료 두 개로, 어떤 질문을 다시 묻고 싶나요? 자료를 많이 모으는 것보다 자기 다음 질문에서 다시 읽을 수 있는지 확인하는 것이 시작점입니다. 발표의 마지막 질문 · 예제로 시작하기\n\n      자료 모음으로 · 발표로 돌아가기\n    ",
+      "anchors": [
+        "llm-wiki-키노트-해설",
+        "정의와-개인-맥락",
+        "선택-이유-메모",
+        "원자료와-작업-약속",
+        "검색과-지속-문서",
+        "요약과-기존-문서의-관계",
+        "세-무방향-관계",
+        "다섯-관계",
+        "원자료와-정리한-이해",
+        "계획이-바뀐-근거",
+        "사람의-선택과-기록",
+        "활동안과-미확인-범위",
+        "다음-모임의-출발점",
+        "네-가지-작업-결과",
+        "확인과-유지",
+        "선택의-근거-확인",
+        "시작-요청과-선택-기준",
+        "다음-질문"
+      ],
+      "links": [
+        {
+          "href": "../read.html",
+          "text": "발표 읽기"
+        },
+        {
+          "href": "index.html",
+          "text": "학습 자료 목록"
+        },
+        {
+          "href": "../assets/245ebc8ac44e-expanded-study.txt",
+          "text": "설명용 예제 팩 전문"
+        },
+        {
+          "href": "speaker-script.html",
+          "text": "현재 발표 대본"
+        },
+        {
+          "href": "reference-library.html",
+          "text": "원문과 근거"
+        },
+        {
+          "href": "https://docs.openclaw.ai/concepts/memory",
+          "text": "OpenClaw의 메모리"
+        },
+        {
+          "href": "https://github.com/NousResearch/hermes-agent",
+          "text": "Hermes"
+        },
+        {
+          "href": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+          "text": "Karpathy의 글"
+        },
+        {
+          "href": "#%EB%8B%A4%EC%9D%8C-%EB%AA%A8%EC%9E%84%EC%9D%98-%EC%B6%9C%EB%B0%9C%EC%A0%90",
+          "text": "가상 모임의 편집 구절"
+        },
+        {
+          "href": "#%EC%82%AC%EB%9E%8C%EC%9D%98-%EC%84%A0%ED%83%9D%EA%B3%BC-%EA%B8%B0%EB%A1%9D",
+          "text": "선택·기록의 책임"
+        },
+        {
+          "href": "../assets/245ebc8ac44e-expanded-study.txt",
+          "text": "예제 팩"
+        },
+        {
+          "href": "../assets/245ebc8ac44e-expanded-study.txt",
+          "text": "팩 전문"
+        },
+        {
+          "href": "../read.html#2",
+          "text": "두 작업창"
+        },
+        {
+          "href": "reference-library.html",
+          "text": "기술 근거와 범위"
+        },
+        {
+          "href": "#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0",
+          "text": "현재 계획의 변경과 근거"
+        },
+        {
+          "href": "#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0",
+          "text": "같은 계획의 전후 상태"
+        },
+        {
+          "href": "../assets/245ebc8ac44e-expanded-study.txt",
+          "text": "같은 팩 전문"
+        },
+        {
+          "href": "../read.html#7",
+          "text": "현재 관계 장면"
+        },
+        {
+          "href": "diagram-reading.html#10%EC%9E%A5-%EC%9D%BD%EA%B3%A0-%EB%82%98%EB%88%84%EA%B3%A0-%EC%97%B0%EA%B2%B0-%EA%B0%B1%EC%8B%A0%ED%95%98%EA%B8%B0",
+          "text": "역사 10장 도식의 설명과 원본"
+        },
+        {
+          "href": "diagram-reading.html#3%EC%9E%A5-%EC%9E%90%EB%A3%8C%EC%97%90%EC%84%9C-%EC%97%B0%EA%B2%B0%EB%90%9C-%EC%A7%80%EC%8B%9D%EC%9C%BC%EB%A1%9C",
+          "text": "역사 3장 도식의 설명·원본"
+        },
+        {
+          "href": "visual-appendix.html",
+          "text": "전체 19도식"
+        },
+        {
+          "href": "../assets/245ebc8ac44e-expanded-study.txt",
+          "text": "예제 팩"
+        },
+        {
+          "href": "../read.html#8",
+          "text": "계획 전후 장면"
+        },
+        {
+          "href": "../read.html#8",
+          "text": "계획의 전후 장면"
+        },
+        {
+          "href": "../assets/245ebc8ac44e-expanded-study.txt",
+          "text": "예제 팩"
+        },
+        {
+          "href": "../read.html#8",
+          "text": "현재 계획 장면"
+        },
+        {
+          "href": "#%EB%84%A4-%EA%B0%80%EC%A7%80-%EC%9E%91%EC%97%85-%EA%B2%B0%EA%B3%BC",
+          "text": "네 결과물"
+        },
+        {
+          "href": "session-plan.html",
+          "text": "활동안 전체와 다음 확인"
+        },
+        {
+          "href": "../read.html#4",
+          "text": "발표의 결과물 장면"
+        },
+        {
+          "href": "../read.html#3",
+          "text": "기사와 인용 카드"
+        },
+        {
+          "href": "../assets/245ebc8ac44e-expanded-study.txt",
+          "text": "예제 팩"
+        },
+        {
+          "href": "#%EC%84%A0%ED%83%9D%EC%9D%98-%EA%B7%BC%EA%B1%B0-%ED%99%95%EC%9D%B8",
+          "text": "선택의 근거 확인"
+        },
+        {
+          "href": "../read.html#4",
+          "text": "결과물 네 면"
+        },
+        {
+          "href": "session-plan.html#15%EB%B6%84-%EC%A7%84%ED%96%89%EC%95%88",
+          "text": "15분 진행안"
+        },
+        {
+          "href": "#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+          "text": "세 무방향 관계"
+        },
+        {
+          "href": "../assets/245ebc8ac44e-expanded-study.txt",
+          "text": "학습 팩"
+        },
+        {
+          "href": "../assets/245ebc8ac44e-expanded-study.txt",
+          "text": "학습 팩의 질문 문서"
+        },
+        {
+          "href": "session-plan.html#%EC%A4%80%EB%B9%84%EC%99%80-%EC%84%A0%ED%83%9D-%EC%9D%B4%EC%9C%A0",
+          "text": "15분 활동 안내"
+        },
+        {
+          "href": "session-plan.html",
+          "text": "진행안"
+        },
+        {
+          "href": "#%ED%99%9C%EB%8F%99%EC%95%88%EA%B3%BC-%EB%AF%B8%ED%99%95%EC%9D%B8-%EB%B2%94%EC%9C%84",
+          "text": "미확인 범위"
+        },
+        {
+          "href": "../assets/245ebc8ac44e-expanded-study.txt",
+          "text": "예제 팩"
+        },
+        {
+          "href": "#%EB%8B%A4%EC%9D%8C-%EB%AA%A8%EC%9E%84%EC%9D%98-%EC%B6%9C%EB%B0%9C%EC%A0%90",
+          "text": "기사와 인용 카드의 구절"
+        },
+        {
+          "href": "../read.html#3",
+          "text": "기사와 인용 장면"
+        },
+        {
+          "href": "workshop.html",
+          "text": "예제 읽기와 해설"
+        },
+        {
+          "href": "../read.html#11",
+          "text": "발표의 마지막 질문"
+        },
+        {
+          "href": "workshop.html#%EA%B8%B0%EB%B3%B8-%EC%9D%BD%EA%B8%B0-%EC%A3%BC%EC%A0%9C-%EB%A9%94%EB%AA%A8%EC%97%90%EC%84%9C-%EB%8B%A4%EC%9D%8C-%EC%8A%A4%ED%84%B0%EB%94%94%EB%A1%9C",
+          "text": "예제로 시작하기"
+        },
+        {
+          "href": "index.html",
+          "text": "자료 모음으로"
+        },
+        {
+          "href": "../index.html",
+          "text": "발표로 돌아가기"
+        }
+      ],
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "paragraphs": [
+        {
+          "section": null,
+          "text": "발표는 지금 기억할 주장과 한 자료에 집중합니다. 이 해설에서 장면에 쓰인 원자료와 사례의 전체 맥락, 바로 써 볼 요청을 읽을 수 있습니다. 발표 읽기 · 학습 자료 목록 · 설명용 예제 팩 전문 · 현재 발표 대본",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "발표는 지금 기억할 주장과 한 자료에 집중합니다. 이 해설에서 장면에 쓰인 원자료와 사례의 전체 맥락, 바로 써 볼",
+              "x": 449,
+              "y": 356.2265625,
+              "width": 787.7890625,
+              "height": 21.5
+            },
+            {
+              "text": "요청을 읽을 수 있습니다. 발표 읽기 · 학습 자료 목록 · 설명용 예제 팩 전문 · 현재 발표 대본",
+              "x": 449,
+              "y": 389.5234375,
+              "width": 630.8125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": null,
+          "text": "이 예제의 메모·위키·선택 이유·답은 발표팀의 설명용 구성입니다. 외부 원문의 정확 발췌, 실제 사용자의 직접 기록, 이번 세션의 모델 출력이나 실제 스터디 성과로 소개하지 않습니다. 기술 주장의 일차 근거는 원문과 근거에서 확인합니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "이 예제의 메모·위키·선택 이유·답은 발표팀의 설명용 구성입니다. 외부 원문의 정확 발췌, 실제 사용자의 직접 기록,",
+              "x": 449,
+              "y": 442.8203125,
+              "width": 793.3984375,
+              "height": 21.5
+            },
+            {
+              "text": "이번 세션의 모델 출력이나 실제 스터디 성과로 소개하지 않습니다. 기술 주장의 일차 근거는 원문과 근거에서",
+              "x": 449,
+              "y": 476.1171875,
+              "width": 753.7421875,
+              "height": 21.5
+            },
+            {
+              "text": "확인합니다.",
+              "x": 449,
+              "y": 509.4140625,
+              "width": 82.6875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "정의와-개인-맥락",
+          "text": "LLM Wiki는 내 자료를 AI와 함께 정리하고 연결하는, 나만의 마크다운 지식 베이스입니다. 사람이 읽고 고칠 수 있는 문서에 자료의 개념·비교·종합과 근거를 연결하고, 새 자료나 질문에 맞춰 현재 이해를 고칩니다. 마크다운은 글·제목·목록·링크를 적는 텍스트 파일 형식입니다. 폴더에 자료를 모으는 일과, 그 자료 사이의 관계를 설명하고 유지하는 일은 구별합니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "LLM Wiki는 내 자료를 AI와 함께 정리하고 연결하는, 나만의 마크다운 지식 베이스입니다. 사람이 읽고 고칠 수",
+              "x": 449,
+              "y": 688.953125,
+              "width": 774.90625,
+              "height": 21.5
+            },
+            {
+              "text": "있는 문서에 자료의 개념·비교·종합과 근거를 연결하고, 새 자료나 질문에 맞춰 현재 이해를 고칩니다. 마크다운은 글",
+              "x": 449,
+              "y": 722.25,
+              "width": 799.34375,
+              "height": 21.5
+            },
+            {
+              "text": "·제목·목록·링크를 적는 텍스트 파일 형식입니다. 폴더에 자료를 모으는 일과, 그 자료 사이의 관계를 설명하고",
+              "x": 449,
+              "y": 755.546875,
+              "width": 752.90625,
+              "height": 21.5
+            },
+            {
+              "text": "유지하는 일은 구별합니다.",
+              "x": 449,
+              "y": 788.84375,
+              "width": 185.234375,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "정의와-개인-맥락",
+          "text": "개인비서도 내 상황·선호·이전에 선택한 이유를 다시 읽을 수 있어야 맥락을 참고할 수 있습니다. OpenClaw의 메모리와 Hermes는 개인비서형 에이전트의 탐색 예이며 이 발표의 필수 도구나 검증된 효과를 뜻하지 않습니다. LLM Wiki라는 설계 아이디어의 출발은 Karpathy의 글입니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "개인비서도 내 상황·선호·이전에 선택한 이유를 다시 읽을 수 있어야 맥락을 참고할 수 있습니다. OpenClaw의",
+              "x": 449,
+              "y": 842.140625,
+              "width": 763.6796875,
+              "height": 21.5
+            },
+            {
+              "text": "메모리와 Hermes는 개인비서형 에이전트의 탐색 예이며 이 발표의 필수 도구나 검증된 효과를 뜻하지 않습니다.",
+              "x": 449,
+              "y": 875.4375,
+              "width": 781.140625,
+              "height": 21.5
+            },
+            {
+              "text": "LLM Wiki라는 설계 아이디어의 출발은 Karpathy의 글입니다.",
+              "x": 449,
+              "y": 908.734375,
+              "width": 438.0546875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "정의와-개인-맥락",
+          "text": "같은 문서를 함께 편집한다는 말에는 서로 다른 책임이 있습니다. 사람은 누구를 위해 무엇을 만들지 목적을 정하고, 생각과 판단·선택 이유를 직접 씁니다. AI는 허용한 자료를 읽고 문서와 연결·목차를 쓰거나 고칩니다. 사람은 바뀐 문서의 중요한 내용을 확인하고 AI의 해석을 바로잡을 수 있습니다. 문서를 남기기만 하면 AI가 항상 읽거나 자동으로 모든 관련 문서를 고친다고 보장하지 않습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "같은 문서를 함께 편집한다는 말에는 서로 다른 책임이 있습니다. 사람은 누구를 위해 무엇을 만들지 목적을 정하고,",
+              "x": 449,
+              "y": 962.03125,
+              "width": 794.234375,
+              "height": 21.5
+            },
+            {
+              "text": "생각과 판단·선택 이유를 직접 씁니다. AI는 허용한 자료를 읽고 문서와 연결·목차를 쓰거나 고칩니다. 사람은 바뀐",
+              "x": 449,
+              "y": 995.328125,
+              "width": 784.1953125,
+              "height": 21.5
+            },
+            {
+              "text": "문서의 중요한 내용을 확인하고 AI의 해석을 바로잡을 수 있습니다. 문서를 남기기만 하면 AI가 항상 읽거나",
+              "x": 449,
+              "y": 1028.625,
+              "width": 739.0234375,
+              "height": 21.5
+            },
+            {
+              "text": "자동으로 모든 관련 문서를 고친다고 보장하지 않습니다.",
+              "x": 449,
+              "y": 1061.921875,
+              "width": 390.3203125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "정의와-개인-맥락",
+          "text": "다시 쓸 목적의 예는 “LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶다”입니다. 이 목적과 “AI가 내 자료를 좀 더 잘 이해해 줬으면”이라는 요구는 발표팀이 구성한 예문입니다. 실제 사용자의 감정이나 경험을 대신 쓴 기록이 아닙니다. 가상 모임의 편집 구절과 선택·기록의 책임을 함께 읽습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "다시 쓸 목적의 예는 “LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶다”입니다. 이",
+              "x": 449,
+              "y": 1115.21875,
+              "width": 748.890625,
+              "height": 21.5
+            },
+            {
+              "text": "목적과 “AI가 내 자료를 좀 더 잘 이해해 줬으면”이라는 요구는 발표팀이 구성한 예문입니다. 실제 사용자의",
+              "x": 449,
+              "y": 1148.515625,
+              "width": 738.5078125,
+              "height": 21.5
+            },
+            {
+              "text": "감정이나 경험을 대신 쓴 기록이 아닙니다. 가상 모임의 편집 구절과 선택·기록의 책임을 함께 읽습니다.",
+              "x": 449,
+              "y": 1181.8125,
+              "width": 712.15625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "선택-이유-메모",
+          "text": "목적과 맥락 — 사람이 채울 선택 이유의 예",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "목적과 맥락 — 사람이 채울 선택 이유의 예",
+              "x": 449,
+              "y": 1302.40625,
+              "width": 293.6640625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "선택-이유-메모",
+          "text": "‘LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서\n이 메모를 골랐다.’",
+          "isQuote": true,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "‘LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서",
+              "x": 473.796875,
+              "y": 1367.6953125,
+              "width": 539.3671875,
+              "height": 21.5
+            },
+            {
+              "text": "이 메모를 골랐다.’",
+              "x": 473.796875,
+              "y": 1400.9921875,
+              "width": 125.46875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "선택-이유-메모",
+          "text": "위 인용은 raw/context-note.md의 원문 구절을 정확히 골라 보여 준 예입니다. 원자료의 제목은 ‘목적과 맥락’이고 이 문장은 사람이 채울 선택 이유의 예입니다. 발표팀 구성 예이며 실제 사용자의 직접 기록이나 모델 출력이 아닙니다. 정확 발췌의 전체 맥락은 예제 팩에서 같은 경로 제목으로 바로 찾을 수 있습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "위 인용은 raw/context-note.md의 원문 구절을 정확히 골라 보여 준 예입니다. 원자료의 제목은 ‘목적과 맥락’",
+              "x": 449,
+              "y": 1466.28125,
+              "width": 791.6796875,
+              "height": 21.5
+            },
+            {
+              "text": "이고 이 문장은 사람이 채울 선택 이유의 예입니다. 발표팀 구성 예이며 실제 사용자의 직접 기록이나 모델 출력이",
+              "x": 449,
+              "y": 1499.578125,
+              "width": 776.0625,
+              "height": 21.5
+            },
+            {
+              "text": "아닙니다. 정확 발췌의 전체 맥락은 예제 팩에서 같은 경로 제목으로 바로 찾을 수 있습니다.",
+              "x": 449,
+              "y": 1532.875,
+              "width": 630.546875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "원자료와-작업-약속",
+          "text": "같은 예제 팩에는 ‘목적과 맥락’·‘검색과 비교’·‘지식의 활용’이라는 세 자작 주제 메모가 있습니다. raw/는 원자료와 사람이 남긴 선택 이유를 보존하는 자리, wiki/는 정리하고 갱신할 이해, rules.md는 두 영역을 다룰 작업 약속입니다. 이 이름은 설명용 구성 예이며 모든 도구가 따라야 하는 필수 규격은 아닙니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "같은 예제 팩에는 ‘목적과 맥락’·‘검색과 비교’·‘지식의 활용’이라는 세 자작 주제 메모가 있습니다. raw/는",
+              "x": 449,
+              "y": 1712.4140625,
+              "width": 736.9765625,
+              "height": 21.5
+            },
+            {
+              "text": "원자료와 사람이 남긴 선택 이유를 보존하는 자리, wiki/는 정리하고 갱신할 이해, rules.md는 두 영역을 다룰",
+              "x": 449,
+              "y": 1745.7109375,
+              "width": 790.8984375,
+              "height": 21.5
+            },
+            {
+              "text": "작업 약속입니다. 이 이름은 설명용 구성 예이며 모든 도구가 따라야 하는 필수 규격은 아닙니다.",
+              "x": 449,
+              "y": 1779.0078125,
+              "width": 660.59375,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "원자료와-작업-약속",
+          "text": "실제 전문은 한 텍스트 팩의 경로별 구간입니다. 위 이름이 각각 별도 공개 .md 파일로 등록되어 있다는 뜻은 아닙니다. 팩 전문을 열어 경로 제목으로 찾을 수 있습니다. 같은 경로의 ‘처음’과 ‘갱신’은 한 논리 파일의 전후 상태입니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "실제 전문은 한 텍스트 팩의 경로별 구간입니다. 위 이름이 각각 별도 공개 .md 파일로 등록되어 있다는 뜻은",
+              "x": 449,
+              "y": 2798.0625,
+              "width": 753.8359375,
+              "height": 21.5
+            },
+            {
+              "text": "아닙니다. 팩 전문을 열어 경로 제목으로 찾을 수 있습니다. 같은 경로의 ‘처음’과 ‘갱신’은 한 논리 파일의 전후",
+              "x": 449,
+              "y": 2831.359375,
+              "width": 755.859375,
+              "height": 21.5
+            },
+            {
+              "text": "상태입니다.",
+              "x": 449,
+              "y": 2864.65625,
+              "width": 82.6875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "원자료와-작업-약속",
+          "text": "작업할 때 지킬 네 약속은 원자료 보존 / 근거 연결 / 관련 문서 갱신 / 중요한 결과 확인입니다. raw를 없애고 wiki로 대체하지 않습니다. 실제 읽은 자료의 위치를 남기고, 새 자료와 관련된 기존 설명·비교·계획·질문·목차·로그를 살펴봅니다. 변경 파일과 모르는 점을 받아 중요한 결론을 사람이 원자료와 대조합니다. 약속은 자동 갱신 기능이나 오류 없음의 보증이 아닙니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "작업할 때 지킬 네 약속은 원자료 보존 / 근거 연결 / 관련 문서 갱신 / 중요한 결과 확인입니다. raw를 없애고 wiki로",
+              "x": 449,
+              "y": 2917.953125,
+              "width": 789.5703125,
+              "height": 21.5
+            },
+            {
+              "text": "대체하지 않습니다. 실제 읽은 자료의 위치를 남기고, 새 자료와 관련된 기존 설명·비교·계획·질문·목차·로그를",
+              "x": 449,
+              "y": 2951.25,
+              "width": 753.4453125,
+              "height": 21.5
+            },
+            {
+              "text": "살펴봅니다. 변경 파일과 모르는 점을 받아 중요한 결론을 사람이 원자료와 대조합니다. 약속은 자동 갱신 기능이나",
+              "x": 449,
+              "y": 2984.546875,
+              "width": 789.671875,
+              "height": 21.5
+            },
+            {
+              "text": "오류 없음의 보증이 아닙니다.",
+              "x": 449,
+              "y": 3017.84375,
+              "width": 205.359375,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "검색과-지속-문서",
+          "text": "중심 작업의 비교축은 이번 질문에 필요한 근거를 검색해 답하기와 사람이 다시 읽을 연결 문서를 작성하고 유지하기입니다. RAG는 외부 자료를 찾아 생성의 입력 문맥에 사용하는 패턴입니다. LLM Wiki는 사람이 읽는 지속 문서 층을 둡니다. 두 방식은 함께 쓸 수 있고, 규모가 커지면 위키에서도 검색이 필요합니다. RAG도 관계·요약을 미리 만들거나 답을 저장할 수 있습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "중심 작업의 비교축은 이번 질문에 필요한 근거를 검색해 답하기와 사람이 다시 읽을 연결 문서를 작성하고",
+              "x": 449,
+              "y": 3197.3828125,
+              "width": 728.6328125,
+              "height": 21.5
+            },
+            {
+              "text": "유지하기입니다. RAG는 외부 자료를 찾아 생성의 입력 문맥에 사용하는 패턴입니다. LLM Wiki는 사람이 읽는",
+              "x": 449,
+              "y": 3230.6796875,
+              "width": 764.7734375,
+              "height": 21.5
+            },
+            {
+              "text": "지속 문서 층을 둡니다. 두 방식은 함께 쓸 수 있고, 규모가 커지면 위키에서도 검색이 필요합니다. RAG도 관계·",
+              "x": 449,
+              "y": 3263.9765625,
+              "width": 765.8671875,
+              "height": 21.5
+            },
+            {
+              "text": "요약을 미리 만들거나 답을 저장할 수 있습니다.",
+              "x": 449,
+              "y": 3297.2734375,
+              "width": 328.0390625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "검색과-지속-문서",
+          "text": "같은 질문은 “다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?”입니다. 팩 wiki/comparisons/rag-vs-wiki.md — 처음의 정확한 두 교육용 예는 다음과 같습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "같은 질문은 “다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?”입니다. 팩 wiki/comparisons/rag-vs-",
+              "x": 449,
+              "y": 3698.25,
+              "width": 764.2578125,
+              "height": 21.5
+            },
+            {
+              "text": "wiki.md — 처음의 정확한 두 교육용 예는 다음과 같습니다.",
+              "x": 449,
+              "y": 3734.546875,
+              "width": 422.96875,
+              "height": 18.5
+            }
+          ]
+        },
+        {
+          "section": "검색과-지속-문서",
+          "text": "기본 검색-생성 예: 관련 원자료를 찾아 현재 입력에서 종합해 이번 답을 만든다.",
+          "isQuote": true,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "기본 검색-생성 예: 관련 원자료를 찾아 현재 입력에서 종합해 이번 답을 만든다.",
+              "x": 473.796875,
+              "y": 3796.8359375,
+              "width": 550.53125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "검색과-지속-문서",
+          "text": "위키를 유지하는 예: 자료 반영 때 개념·비교·종합을 문서로 남기고, 필요한 쪽을 읽어 이번 답을 만든다.",
+          "isQuote": true,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "위키를 유지하는 예: 자료 반영 때 개념·비교·종합을 문서로 남기고, 필요한 쪽을 읽어 이번 답을 만든다.",
+              "x": 473.796875,
+              "y": 3865.3203125,
+              "width": 710.796875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "검색과-지속-문서",
+          "text": "두 예 모두 이번 답을 만듭니다. 두 작업창은 왼쪽에 한 번의 질문과 독립된 답, 오른쪽에 메모·개념·비교·계획이 연결된 지속 문서를 그린 설명용 도식입니다. 남아 다시 읽는 문서가 이 비교의 중심입니다. 오른쪽 창에서 계획이 가리키는 문서는 팩 wiki/syntheses/study-plan.md — 처음의 다음 스터디의 첫 시도이며 정확 구절은 “참여자 배경과 활동 길이는 아직 미정이다.”입니다. 처음 계획이라는 표시는 뒤의 조건 변경과 시점을 구별합니다. 입문자·별도 활동 15분을 반영한 최종 계획으로 소개하지 않습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "두 예 모두 이번 답을 만듭니다. 두 작업창은 왼쪽에 한 번의 질문과 독립된 답, 오른쪽에 메모·개념·비교·계획이",
+              "x": 449,
+              "y": 3930.609375,
+              "width": 762.03125,
+              "height": 21.5
+            },
+            {
+              "text": "연결된 지속 문서를 그린 설명용 도식입니다. 남아 다시 읽는 문서가 이 비교의 중심입니다. 오른쪽 창에서 계획이",
+              "x": 449,
+              "y": 3963.90625,
+              "width": 777.2578125,
+              "height": 21.5
+            },
+            {
+              "text": "가리키는 문서는 팩 wiki/syntheses/study-plan.md — 처음의 다음 스터디의 첫 시도이며 정확 구절은",
+              "x": 449,
+              "y": 3997.203125,
+              "width": 757.65625,
+              "height": 21.5
+            },
+            {
+              "text": "“참여자 배경과 활동 길이는 아직 미정이다.”입니다. 처음 계획이라는 표시는 뒤의 조건 변경과 시점을 구별합니다.",
+              "x": 449,
+              "y": 4030.5,
+              "width": 787.0859375,
+              "height": 21.5
+            },
+            {
+              "text": "입문자·별도 활동 15분을 반영한 최종 계획으로 소개하지 않습니다.",
+              "x": 449,
+              "y": 4063.796875,
+              "width": 464.9765625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "검색과-지속-문서",
+          "text": "RAG 경로는 같은 세 메모에서 지금 필요한 부분을 찾아 이번 답의 입력 문맥으로 사용합니다. 위키 경로는 같은 메모를 근거로 미리 정리한 ‘LLM Wiki 개념’·‘RAG와 위키 비교’·‘우리 스터디 계획’과 필요한 원자료를 다시 읽습니다. 답을 우리 목적과 조건에 맞추고 쓸 만한 답을 확인한 뒤 문서로 남길 수 있습니다. 두 예는 함께 쓸 수 있습니다. RAG도 요약·답 저장·관계 정리를 붙일 수 있고 위키도 검색을 쓴다는 범위를 유지합니다. 이는 설명용 흐름이며 실제 검색이나 모델 실행의 기록이 아닙니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "RAG 경로는 같은 세 메모에서 지금 필요한 부분을 찾아 이번 답의 입력 문맥으로 사용합니다. 위키 경로는 같은",
+              "x": 449,
+              "y": 4117.09375,
+              "width": 767.015625,
+              "height": 21.5
+            },
+            {
+              "text": "메모를 근거로 미리 정리한 ‘LLM Wiki 개념’·‘RAG와 위키 비교’·‘우리 스터디 계획’과 필요한 원자료를 다시",
+              "x": 449,
+              "y": 4150.390625,
+              "width": 747.1484375,
+              "height": 21.5
+            },
+            {
+              "text": "읽습니다. 답을 우리 목적과 조건에 맞추고 쓸 만한 답을 확인한 뒤 문서로 남길 수 있습니다. 두 예는 함께 쓸 수",
+              "x": 449,
+              "y": 4183.6875,
+              "width": 765.7734375,
+              "height": 21.5
+            },
+            {
+              "text": "있습니다. RAG도 요약·답 저장·관계 정리를 붙일 수 있고 위키도 검색을 쓴다는 범위를 유지합니다. 이는 설명용",
+              "x": 449,
+              "y": 4216.984375,
+              "width": 772.3515625,
+              "height": 21.5
+            },
+            {
+              "text": "흐름이며 실제 검색이나 모델 실행의 기록이 아닙니다.",
+              "x": 449,
+              "y": 4250.28125,
+              "width": 374.75,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "검색과-지속-문서",
+          "text": "검색 유무·문서 개수 하나로 도입을 결정하지 않습니다. Agentic RAG의 검색 판단, 파인튜닝의 파라미터·어댑터 최적화와 파일 편집도 구별합니다. 정확도·속도·비용의 우열을 이 예제에서 측정하지 않았습니다. 기술 근거와 범위 · 현재 계획의 변경과 근거",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "검색 유무·문서 개수 하나로 도입을 결정하지 않습니다. Agentic RAG의 검색 판단, 파인튜닝의 파라미터·어댑터",
+              "x": 449,
+              "y": 4303.578125,
+              "width": 777.5546875,
+              "height": 21.5
+            },
+            {
+              "text": "최적화와 파일 편집도 구별합니다. 정확도·속도·비용의 우열을 이 예제에서 측정하지 않았습니다. 기술 근거와 범위 ·",
+              "x": 449,
+              "y": 4336.875,
+              "width": 799.6171875,
+              "height": 21.5
+            },
+            {
+              "text": "현재 계획의 변경과 근거",
+              "x": 449,
+              "y": 4370.171875,
+              "width": 169.390625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "요약과-기존-문서의-관계",
+          "text": "자료 요약은 한 자료를 다시 찾는 입구이고, 개념 문서는 여러 자료의 공통 주제를 설명합니다. ‘목적과 맥락’ 한 메모의 요약은 자료를 넣는 목적과 선택 이유를 되짚습니다. ‘LLM Wiki 개념’ 문서는 세 메모를 함께 읽어 자료 사이 관계와 현재 이해를 연결 문서로 작성·갱신한다는 설명을 남깁니다. 개념은 ‘RAG와 위키 비교’·‘현재 계획’과 함께 읽습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "자료 요약은 한 자료를 다시 찾는 입구이고, 개념 문서는 여러 자료의 공통 주제를 설명합니다. ‘목적과 맥락’ 한",
+              "x": 449,
+              "y": 4549.7109375,
+              "width": 757.7109375,
+              "height": 21.5
+            },
+            {
+              "text": "메모의 요약은 자료를 넣는 목적과 선택 이유를 되짚습니다. ‘LLM Wiki 개념’ 문서는 세 메모를 함께 읽어 자료 사이",
+              "x": 449,
+              "y": 4583.0078125,
+              "width": 799.3125,
+              "height": 21.5
+            },
+            {
+              "text": "관계와 현재 이해를 연결 문서로 작성·갱신한다는 설명을 남깁니다. 개념은 ‘RAG와 위키 비교’·‘현재 계획’과 함께",
+              "x": 449,
+              "y": 4616.3046875,
+              "width": 782.3359375,
+              "height": 21.5
+            },
+            {
+              "text": "읽습니다.",
+              "x": 449,
+              "y": 4649.6015625,
+              "width": 67.1171875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "요약과-기존-문서의-관계",
+          "text": "개념 문서의 세 근거 메모 이름은 목적과 맥락 · 검색과 비교 · 지식의 활용입니다. 현재 관계 장면에서 작은 자료 요약은 원자료의 입구, 큰 두 영역은 함께 읽고 고칠 기존 문서입니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "개념 문서의 세 근거 메모 이름은 목적과 맥락 · 검색과 비교 · 지식의 활용입니다. 현재 관계 장면에서 작은 자료",
+              "x": 449,
+              "y": 4702.8984375,
+              "width": 764.859375,
+              "height": 21.5
+            },
+            {
+              "text": "요약은 원자료의 입구, 큰 두 영역은 함께 읽고 고칠 기존 문서입니다.",
+              "x": 449,
+              "y": 4736.1953125,
+              "width": 474.6875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "요약과-기존-문서의-관계",
+          "text": "한 자료 요약의 전문은 팩의 wiki/sources/context-note.md, 여러 자료의 개념은 wiki/concepts/llm-wiki.md 구간입니다. 요약의 근거는 raw/context-note.md이며 개념의 근거는 raw/context-note.md·raw/retrieval-note.md·raw/synthesis-note.md입니다. 개념 문서 전문의 첫 문장은 “LLM이 원자료의 개념·비교·종합을 연결 문서로 작성하고 갱신하는 지식관리 패턴이다.”입니다. 이 역시 발표팀의 예제 문서이며 실제 모델 출력이 아닙니다. 이 정의를 적용한 예는 같은 계획의 전후 상태에서 확인합니다. 두 문서의 차이와 전문·근거는 같은 팩 전문에서 경로 제목으로 읽습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "한 자료 요약의 전문은 팩의 wiki/sources/context-note.md, 여러 자료의 개념은 wiki/concepts/llm-",
+              "x": 449,
+              "y": 4789.4921875,
+              "width": 789.46875,
+              "height": 21.5
+            },
+            {
+              "text": "wiki.md 구간입니다. 요약의 근거는 raw/context-note.md이며 개념의 근거는 raw/context-",
+              "x": 449,
+              "y": 4825.7890625,
+              "width": 709.625,
+              "height": 18.5
+            },
+            {
+              "text": "note.md·raw/retrieval-note.md·raw/synthesis-note.md입니다. 개념 문서 전문의 첫 문장은",
+              "x": 449,
+              "y": 4859.0859375,
+              "width": 740.71875,
+              "height": 18.5
+            },
+            {
+              "text": "“LLM이 원자료의 개념·비교·종합을 연결 문서로 작성하고 갱신하는 지식관리 패턴이다.”입니다. 이 역시 발표팀의",
+              "x": 449,
+              "y": 4889.3828125,
+              "width": 786.9140625,
+              "height": 21.5
+            },
+            {
+              "text": "예제 문서이며 실제 모델 출력이 아닙니다. 이 정의를 적용한 예는 같은 계획의 전후 상태에서 확인합니다. 두 문서의",
+              "x": 449,
+              "y": 4922.6796875,
+              "width": 798.8046875,
+              "height": 21.5
+            },
+            {
+              "text": "차이와 전문·근거는 같은 팩 전문에서 경로 제목으로 읽습니다.",
+              "x": 449,
+              "y": 4955.9765625,
+              "width": 430.859375,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "요약과-기존-문서의-관계",
+          "text": "같은 세 메모를 읽고 내용을 나누며, 자료 요약을 입구로 관련된 기존 개념·비교와 현재 계획의 관계를 보완합니다. 새 자료와 사람이 남긴 선택 이유를 보존하고, 관련 문서·목차·링크도 확인해 고칩니다. Ingest는 이 읽기·나누기·연결 보완의 작업을 가리킵니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "같은 세 메모를 읽고 내용을 나누며, 자료 요약을 입구로 관련된 기존 개념·비교와 현재 계획의 관계를 보완합니다.",
+              "x": 449,
+              "y": 5009.2734375,
+              "width": 782.1796875,
+              "height": 21.5
+            },
+            {
+              "text": "새 자료와 사람이 남긴 선택 이유를 보존하고, 관련 문서·목차·링크도 확인해 고칩니다. Ingest는 이 읽기·나누기·",
+              "x": 449,
+              "y": 5042.5703125,
+              "width": 776.125,
+              "height": 21.5
+            },
+            {
+              "text": "연결 보완의 작업을 가리킵니다.",
+              "x": 449,
+              "y": 5075.8671875,
+              "width": 220.9296875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "세-무방향-관계",
+          "text": "현재 본편의 작은 자료 요약은 원자료의 입구이고 큰 기존 개념·비교와 현재 계획은 함께 읽고 고칠 기존 문서입니다. 자료 요약은 목적과 맥락, 개념·비교는 LLM Wiki / RAG와 위키, 현재 계획은 입문자와 하는 첫 위키 활동을 가리킵니다. 다음 장에서 이 계획의 조건과 전후가 이어집니다. ‘RAG와 위키’는 팩 목차의 표시이며 독립 공개 파일 링크가 아닙니다. 세 관계는 다음과 같습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "현재 본편의 작은 자료 요약은 원자료의 입구이고 큰 기존 개념·비교와 현재 계획은 함께 읽고 고칠 기존 문서입니다.",
+              "x": 449,
+              "y": 5196.4609375,
+              "width": 794.671875,
+              "height": 21.5
+            },
+            {
+              "text": "자료 요약은 목적과 맥락, 개념·비교는 LLM Wiki / RAG와 위키, 현재 계획은 입문자와 하는 첫 위키 활동을",
+              "x": 449,
+              "y": 5229.7578125,
+              "width": 745.9375,
+              "height": 21.5
+            },
+            {
+              "text": "가리킵니다. 다음 장에서 이 계획의 조건과 전후가 이어집니다. ‘RAG와 위키’는 팩 목차의 표시이며 독립 공개 파일",
+              "x": 449,
+              "y": 5263.0546875,
+              "width": 792.484375,
+              "height": 21.5
+            },
+            {
+              "text": "링크가 아닙니다. 세 관계는 다음과 같습니다.",
+              "x": 449,
+              "y": 5296.3515625,
+              "width": 312.703125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "세-무방향-관계",
+          "text": "작은 자료 요약이 입구이고 두 큰 문서가 갱신 대상이어도 이 선은 무방향 관계입니다. 요약→개념→계획 파일을 순서대로 새로 만드는 필수 생성 절차나, 양방향 자동 갱신 보장이 아닙니다. 현재 관계 장면 · 역사 10장 도식의 설명과 원본",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "작은 자료 요약이 입구이고 두 큰 문서가 갱신 대상이어도 이 선은 무방향 관계입니다. 요약→개념→계획 파일을",
+              "x": 449,
+              "y": 5489.5390625,
+              "width": 769.8984375,
+              "height": 21.5
+            },
+            {
+              "text": "순서대로 새로 만드는 필수 생성 절차나, 양방향 자동 갱신 보장이 아닙니다. 현재 관계 장면 · 역사 10장 도식의",
+              "x": 449,
+              "y": 5522.8359375,
+              "width": 764.6953125,
+              "height": 21.5
+            },
+            {
+              "text": "설명과 원본",
+              "x": 449,
+              "y": 5556.1328125,
+              "width": 82.4140625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "세-무방향-관계",
+          "text": "이 표는 원래 12장에 있던 관계 설명 전문입니다. 목차와 링크는 관련 개념과 원자료를 다시 찾는 길입니다. 새 자료가 오면 문서와 관계를 보완합니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "이 표는 원래 12장에 있던 관계 설명 전문입니다. 목차와 링크는 관련 개념과 원자료를 다시 찾는 길입니다. 새",
+              "x": 449,
+              "y": 5895.8125,
+              "width": 754.796875,
+              "height": 21.5
+            },
+            {
+              "text": "자료가 오면 문서와 관계를 보완합니다.",
+              "x": 449,
+              "y": 5929.109375,
+              "width": 272.203125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "다섯-관계",
+          "text": "역사 3장의 ‘자료에서 연결된 지식으로’에는 별도의 다섯 관계가 있습니다. 개념 ↔ 현재 이해 / 비교 ↔ 현재 이해 / 현재 이해 ↔ 계획 / 현재 이해 ↔ 다음 질문 / 계획 ↔ 다음 질문입니다. 출발인 세 메모를 보존하고, 자료의 개념·비교를 현재 이해와 다음 질문에 다시 쓰는 뜻입니다. 앞의 세 관계와 합쳐 수를 바꾸거나 자동 갱신 방향으로 읽지 않습니다. 역사 3장 도식의 설명·원본 · 전체 19도식",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "역사 3장의 ‘자료에서 연결된 지식으로’에는 별도의 다섯 관계가 있습니다. 개념 ↔ 현재 이해 / 비교 ↔ 현재 이해 /",
+              "x": 449,
+              "y": 6049.703125,
+              "width": 787.234375,
+              "height": 21.5
+            },
+            {
+              "text": "현재 이해 ↔ 계획 / 현재 이해 ↔ 다음 질문 / 계획 ↔ 다음 질문입니다. 출발인 세 메모를 보존하고, 자료의 개념·",
+              "x": 449,
+              "y": 6083,
+              "width": 769.2109375,
+              "height": 21.5
+            },
+            {
+              "text": "비교를 현재 이해와 다음 질문에 다시 쓰는 뜻입니다. 앞의 세 관계와 합쳐 수를 바꾸거나 자동 갱신 방향으로 읽지",
+              "x": 449,
+              "y": 6116.296875,
+              "width": 782.9921875,
+              "height": 21.5
+            },
+            {
+              "text": "않습니다. 역사 3장 도식의 설명·원본 · 전체 19도식",
+              "x": 449,
+              "y": 6149.59375,
+              "width": 356.3828125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "원자료와-정리한-이해",
+          "text": "새 조건은 입문자와 함께, 준비된 읽기 팩으로, 15분 활동을 한다는 가상 조건입니다. 이 조건에서 “설치보다 문서 읽기부터”를 첫 행동으로 고른 예입니다. 15분이라는 시간만으로 자동 도출한 답이 아닙니다. 원래 목적은 설치보다 자료 사이 연결의 근거를 찾고 싶다는 것이고, 준비된 팩이 있으며 입문자가 함께한다는 조건도 판단에 들어갑니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "새 조건은 입문자와 함께, 준비된 읽기 팩으로, 15분 활동을 한다는 가상 조건입니다. 이 조건에서 “설치보다 문서",
+              "x": 449,
+              "y": 6329.1328125,
+              "width": 779.3125,
+              "height": 21.5
+            },
+            {
+              "text": "읽기부터”를 첫 행동으로 고른 예입니다. 15분이라는 시간만으로 자동 도출한 답이 아닙니다. 원래 목적은 설치보다",
+              "x": 449,
+              "y": 6362.4296875,
+              "width": 796.4921875,
+              "height": 21.5
+            },
+            {
+              "text": "자료 사이 연결의 근거를 찾고 싶다는 것이고, 준비된 팩이 있으며 입문자가 함께한다는 조건도 판단에 들어갑니다.",
+              "x": 449,
+              "y": 6395.7265625,
+              "width": 789.7109375,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "원자료와-정리한-이해",
+          "text": "raw/study-retro.md는 조건을 보존합니다. 그 조건을 읽어 개념의 ‘우리 적용 범위’는 입문 설명부터, 비교의 ‘선택 기준’은 작은 자료 묶음부터, 계획의 ‘작업과 시간’은 15분 읽기 활동에 맞춰 고치는 구성 예입니다. 새 개인 조건이 보편 개념의 정의를 뒤집는 것은 아닙니다. 조건 메모만 추가하고 예전 계획을 방치하지 않도록 관련 내용을 함께 확인합니다. 자동으로 모든 문서가 수정되거나 정해진 순서로 생성된다고 가정하지 않습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "raw/study-retro.md는 조건을 보존합니다. 그 조건을 읽어 개념의 ‘우리 적용 범위’는 입문 설명부터, 비교의",
+              "x": 453.6953125,
+              "y": 6452.0234375,
+              "width": 777.78125,
+              "height": 18.5
+            },
+            {
+              "text": "‘선택 기준’은 작은 자료 묶음부터, 계획의 ‘작업과 시간’은 15분 읽기 활동에 맞춰 고치는 구성 예입니다. 새 개인",
+              "x": 449,
+              "y": 6482.3203125,
+              "width": 774.40625,
+              "height": 21.5
+            },
+            {
+              "text": "조건이 보편 개념의 정의를 뒤집는 것은 아닙니다. 조건 메모만 추가하고 예전 계획을 방치하지 않도록 관련 내용을",
+              "x": 449,
+              "y": 6515.6171875,
+              "width": 789.4375,
+              "height": 21.5
+            },
+            {
+              "text": "함께 확인합니다. 자동으로 모든 문서가 수정되거나 정해진 순서로 생성된다고 가정하지 않습니다.",
+              "x": 449,
+              "y": 6548.9140625,
+              "width": 678.046875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "원자료와-정리한-이해",
+          "text": "이후 “입문자와 15분 활동은 무엇부터 할까?”를 묻고 개념·비교·현재 계획을 다시 읽어 답합니다. 준비된 문서를 읽고 관계의 근거 한 개를 찾는 선택을 확인한 뒤 유용한 답을 문서로 남길 수 있습니다. 구절의 전체 맥락과 전후 상태는 예제 팩, 발표의 선택은 계획 전후 장면에서 읽습니다. 이번에 실제 활동·모델 실행·생성 시간·학습효과를 측정한 결과가 아닙니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "이후 “입문자와 15분 활동은 무엇부터 할까?”를 묻고 개념·비교·현재 계획을 다시 읽어 답합니다. 준비된 문서를",
+              "x": 449,
+              "y": 6602.2109375,
+              "width": 770.515625,
+              "height": 21.5
+            },
+            {
+              "text": "읽고 관계의 근거 한 개를 찾는 선택을 확인한 뒤 유용한 답을 문서로 남길 수 있습니다. 구절의 전체 맥락과 전후",
+              "x": 449,
+              "y": 6635.5078125,
+              "width": 771.984375,
+              "height": 21.5
+            },
+            {
+              "text": "상태는 예제 팩, 발표의 선택은 계획 전후 장면에서 읽습니다. 이번에 실제 활동·모델 실행·생성 시간·학습효과를",
+              "x": 449,
+              "y": 6668.8046875,
+              "width": 768.4921875,
+              "height": 21.5
+            },
+            {
+              "text": "측정한 결과가 아닙니다.",
+              "x": 449,
+              "y": 6702.1015625,
+              "width": 169.6640625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "계획이-바뀐-근거",
+          "text": "계획의 전후 장면은 처음의 상태와 갱신 후 입문자가 할 일을 함께 보여 줍니다. “참여자와 활동 시간 미정”과 “입문자와 근거 하나 찾기”는 발표용 요약입니다. 입문자는 준비된 위키를 읽고 연결의 근거 하나를 찾습니다. 예제 팩의 같은 논리 파일 wiki/syntheses/study-plan.md에서는 다음 두 구절을 정확히 읽을 수 있습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "계획의 전후 장면은 처음의 상태와 갱신 후 입문자가 할 일을 함께 보여 줍니다. “참여자와 활동 시간 미정”과",
+              "x": 449,
+              "y": 6822.6953125,
+              "width": 747.2109375,
+              "height": 21.5
+            },
+            {
+              "text": "“입문자와 근거 하나 찾기”는 발표용 요약입니다. 입문자는 준비된 위키를 읽고 연결의 근거 하나를 찾습니다. 예제",
+              "x": 449,
+              "y": 6855.9921875,
+              "width": 789.59375,
+              "height": 21.5
+            },
+            {
+              "text": "팩의 같은 논리 파일 wiki/syntheses/study-plan.md에서는 다음 두 구절을 정확히 읽을 수 있습니다.",
+              "x": 449,
+              "y": 6889.2890625,
+              "width": 748.796875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "계획이-바뀐-근거",
+          "text": "처음 구간의 제목은 다음 스터디의 첫 시도, 갱신한 구간의 제목은 입문자와 하는 첫 위키 활동입니다. 같은 논리 파일에서 제목과 조건이 바뀐 위치를 읽습니다. 두 문장은 별도 사람의 실행 결과를 비교한 것이 아니라 하나의 설명용 계획 문서의 전후 상태입니다. 실제 도구의 diff나 자동 갱신을 캡처한 화면이 아닙니다. 근거는 raw/study-retro.md의 가상 모임 조건입니다. 입문자·준비된 팩·15분이라는 조건을 읽어 현재 계획에 반영한 예이며, 보편 개념의 정의나 필수 생성 순서를 바꾼 것이 아닙니다. 관련 개념의 적용 범위·비교의 선택 기준도 함께 살펴봅니다. 실제 사용자 기록·모델 출력·참가자 활동·시간·학습효과를 측정한 결과가 아닙니다. 현재 계획 장면",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "처음 구간의 제목은 다음 스터디의 첫 시도, 갱신한 구간의 제목은 입문자와 하는 첫 위키 활동입니다. 같은 논리",
+              "x": 449,
+              "y": 7167.671875,
+              "width": 764.359375,
+              "height": 21.5
+            },
+            {
+              "text": "파일에서 제목과 조건이 바뀐 위치를 읽습니다. 두 문장은 별도 사람의 실행 결과를 비교한 것이 아니라 하나의",
+              "x": 449,
+              "y": 7200.96875,
+              "width": 758.3046875,
+              "height": 21.5
+            },
+            {
+              "text": "설명용 계획 문서의 전후 상태입니다. 실제 도구의 diff나 자동 갱신을 캡처한 화면이 아닙니다. 근거는",
+              "x": 449,
+              "y": 7234.265625,
+              "width": 702.71875,
+              "height": 21.5
+            },
+            {
+              "text": "raw/study-retro.md의 가상 모임 조건입니다. 입문자·준비된 팩·15분이라는 조건을 읽어 현재 계획에 반영한",
+              "x": 453.6953125,
+              "y": 7270.5625,
+              "width": 782.421875,
+              "height": 18.5
+            },
+            {
+              "text": "예이며, 보편 개념의 정의나 필수 생성 순서를 바꾼 것이 아닙니다. 관련 개념의 적용 범위·비교의 선택 기준도 함께",
+              "x": 449,
+              "y": 7300.859375,
+              "width": 788.0625,
+              "height": 21.5
+            },
+            {
+              "text": "살펴봅니다. 실제 사용자 기록·모델 출력·참가자 활동·시간·학습효과를 측정한 결과가 아닙니다. 현재 계획 장면",
+              "x": 449,
+              "y": 7334.15625,
+              "width": 766.140625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "사람의-선택과-기록",
+          "text": "자료를 모두 넣기 전에 두 가지를 묻습니다. “앞으로 만들 결과와 관련된 자료인가?”, “가치 있다고 느낀 이유를 직접 적을 수 있는가?” 판단했다면 같은 주제의 자료 두 개부터 연결해 다음 질문에 도움이 되는지 봅니다. 자기 맥락을 완벽한 온톨로지로 분류하는 일보다 지금 만들 결과와 다시 묻고 싶은 질문을 먼저 적습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "자료를 모두 넣기 전에 두 가지를 묻습니다. “앞으로 만들 결과와 관련된 자료인가?”, “가치 있다고 느낀 이유를 직접",
+              "x": 449,
+              "y": 7513.6953125,
+              "width": 796.265625,
+              "height": 21.5
+            },
+            {
+              "text": "적을 수 있는가?” 판단했다면 같은 주제의 자료 두 개부터 연결해 다음 질문에 도움이 되는지 봅니다. 자기 맥락을",
+              "x": 449,
+              "y": 7546.9921875,
+              "width": 779.375,
+              "height": 21.5
+            },
+            {
+              "text": "완벽한 온톨로지로 분류하는 일보다 지금 만들 결과와 다시 묻고 싶은 질문을 먼저 적습니다.",
+              "x": 449,
+              "y": 7580.2890625,
+              "width": 635.6640625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "사람의-선택과-기록",
+          "text": "예제의 선택 이유는 “LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서 이 메모를 골랐다”입니다. 맥락은 다음 AI 스터디 준비, 중요한 점은 원문·내 이유·연결된 종합의 구분, 앞으로의 쓰임은 한 쪽 진행안과 다음 읽기 활동입니다. 이 문장 자체도 발표팀의 구성 예이며 실제 사용자의 직접 기록으로 소개하지 않습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "예제의 선택 이유는 “LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서 이 메모를",
+              "x": 449,
+              "y": 7633.5859375,
+              "width": 751.921875,
+              "height": 21.5
+            },
+            {
+              "text": "골랐다”입니다. 맥락은 다음 AI 스터디 준비, 중요한 점은 원문·내 이유·연결된 종합의 구분, 앞으로의 쓰임은 한 쪽",
+              "x": 449,
+              "y": 7666.8828125,
+              "width": 785.7265625,
+              "height": 21.5
+            },
+            {
+              "text": "진행안과 다음 읽기 활동입니다. 이 문장 자체도 발표팀의 구성 예이며 실제 사용자의 직접 기록으로 소개하지",
+              "x": 449,
+              "y": 7700.1796875,
+              "width": 753.7421875,
+              "height": 21.5
+            },
+            {
+              "text": "않습니다.",
+              "x": 449,
+              "y": 7733.4765625,
+              "width": 67.1171875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "사람의-선택과-기록",
+          "text": "누구를 위해 무엇을 만들지 목적은 사람이 정합니다. 감정·생각·판단·선택 이유는 사람이 직접 남깁니다. AI가 추정한 내 생각을 내가 쓴 기록으로 바꾸지 않습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "누구를 위해 무엇을 만들지 목적은 사람이 정합니다. 감정·생각·판단·선택 이유는 사람이 직접 남깁니다. AI가",
+              "x": 449,
+              "y": 7786.7734375,
+              "width": 748.8125,
+              "height": 21.5
+            },
+            {
+              "text": "추정한 내 생각을 내가 쓴 기록으로 바꾸지 않습니다.",
+              "x": 449,
+              "y": 7820.0703125,
+              "width": 363.7421875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "사람의-선택과-기록",
+          "text": "활용은 공부의 개념·남은 질문, 프로젝트의 배경·결정 이유, 글과 발표의 근거 재사용입니다. 사람이 같은 마크다운 문서를 읽고·고치고·다시 쓰기 쉽다는 것이 장점입니다. 벡터 검색을 쓰면 사람이 원문을 읽을 수 없다는 뜻이 아니며, 실제 성과나 생산성 향상을 이 사례가 보장하지 않습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "활용은 공부의 개념·남은 질문, 프로젝트의 배경·결정 이유, 글과 발표의 근거 재사용입니다. 사람이 같은 마크다운",
+              "x": 449,
+              "y": 8285.75,
+              "width": 784,
+              "height": 21.5
+            },
+            {
+              "text": "문서를 읽고·고치고·다시 쓰기 쉽다는 것이 장점입니다. 벡터 검색을 쓰면 사람이 원문을 읽을 수 없다는 뜻이",
+              "x": 449,
+              "y": 8319.046875,
+              "width": 749.4609375,
+              "height": 21.5
+            },
+            {
+              "text": "아니며, 실제 성과나 생산성 향상을 이 사례가 보장하지 않습니다.",
+              "x": 449,
+              "y": 8352.34375,
+              "width": 450.9453125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "활동안과-미확인-범위",
+          "text": "문서 제목은 입문자와 함께 읽는 15분 LLM Wiki 활동, 원문 절 제목은 15분 진행안입니다. 활동 시간·할 일·남길 것 세 필드가 준비할 내용과 검토할 결과를 정리합니다. 목표는 한 관계의 근거를 찾아 읽고, 다음 질문과 확인할 점을 남기기입니다. 선택한 두 메모는 목적·선택 이유·개념 연결을 읽을 raw/context-note.md와, 사람의 입력·결과 제작·검토를 읽을 raw/synthesis-note.md입니다. raw/retrieval-note.md는 전체 비교의 공통 근거로 돌아가 읽습니다. 준비물은 세 메모·관련 개념·비교·현재 계획 예시와 자기 노트입니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "문서 제목은 입문자와 함께 읽는 15분 LLM Wiki 활동, 원문 절 제목은 15분 진행안입니다. 활동 시간·할 일·남길",
+              "x": 449,
+              "y": 8531.8828125,
+              "width": 780.46875,
+              "height": 21.5
+            },
+            {
+              "text": "것 세 필드가 준비할 내용과 검토할 결과를 정리합니다. 목표는 한 관계의 근거를 찾아 읽고, 다음 질문과 확인할",
+              "x": 449,
+              "y": 8565.1796875,
+              "width": 765.375,
+              "height": 21.5
+            },
+            {
+              "text": "점을 남기기입니다. 선택한 두 메모는 목적·선택 이유·개념 연결을 읽을 raw/context-note.md와, 사람의 입력·",
+              "x": 449,
+              "y": 8598.4765625,
+              "width": 791.7109375,
+              "height": 21.5
+            },
+            {
+              "text": "결과 제작·검토를 읽을 raw/synthesis-note.md입니다. raw/retrieval-note.md는 전체 비교의 공통",
+              "x": 449,
+              "y": 8631.7734375,
+              "width": 767.7421875,
+              "height": 21.5
+            },
+            {
+              "text": "근거로 돌아가 읽습니다. 준비물은 세 메모·관련 개념·비교·현재 계획 예시와 자기 노트입니다.",
+              "x": 449,
+              "y": 8665.0703125,
+              "width": 645.8359375,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "활동안과-미확인-범위",
+          "text": "2+4+5+4=15분은 계획 배분이며 실측 시간이 아닙니다. 표의 ‘원자료→개념→비교’는 이번 읽기 활동에서 따라 읽을 순서로, 본편 그림의 세 무방향 관계와 다릅니다. 설치·계정 연결·위키 제작은 이 짧은 활동 범위에 포함하지 않습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "2+4+5+4=15분은 계획 배분이며 실측 시간이 아닙니다. 표의 ‘원자료→개념→비교’는 이번 읽기 활동에서 따라",
+              "x": 449,
+              "y": 9066.046875,
+              "width": 777.8046875,
+              "height": 21.5
+            },
+            {
+              "text": "읽을 순서로, 본편 그림의 세 무방향 관계와 다릅니다. 설치·계정 연결·위키 제작은 이 짧은 활동 범위에 포함하지",
+              "x": 449,
+              "y": 9099.34375,
+              "width": 772.765625,
+              "height": 21.5
+            },
+            {
+              "text": "않습니다.",
+              "x": 449,
+              "y": 9132.640625,
+              "width": 67.1171875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "활동안과-미확인-범위",
+          "text": "네 결과물의 활동안은 아래 표에서 읽을 시간과 할 일을 골라 조판한 자료입니다. 확인할 수 있는 것은 시간 배분·선택 이유·근거 위치·작성 주체·문서 연결입니다. 실제 모임에서 필요한 쪽을 찾았는지, 15분 안에 이해했는지, 학습에 도움이 됐는지는 미확인입니다. 실제 모임 운영·입문자 이해도·학습효과·설치나 모델 생성 시간의 실측 자료로 소개하지 않습니다. 활동안 전체와 다음 확인 · 발표의 결과물 장면",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "네 결과물의 활동안은 아래 표에서 읽을 시간과 할 일을 골라 조판한 자료입니다. 확인할 수 있는 것은 시간 배분·",
+              "x": 449,
+              "y": 9185.9375,
+              "width": 772.2578125,
+              "height": 21.5
+            },
+            {
+              "text": "선택 이유·근거 위치·작성 주체·문서 연결입니다. 실제 모임에서 필요한 쪽을 찾았는지, 15분 안에 이해했는지,",
+              "x": 449,
+              "y": 9219.234375,
+              "width": 756.1171875,
+              "height": 21.5
+            },
+            {
+              "text": "학습에 도움이 됐는지는 미확인입니다. 실제 모임 운영·입문자 이해도·학습효과·설치나 모델 생성 시간의 실측",
+              "x": 449,
+              "y": 9252.53125,
+              "width": 754.5546875,
+              "height": 21.5
+            },
+            {
+              "text": "자료로 소개하지 않습니다. 활동안 전체와 다음 확인 · 발표의 결과물 장면",
+              "x": 449,
+              "y": 9285.828125,
+              "width": 506.7890625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "다음-모임의-출발점",
+          "text": "기사와 인용 카드는 입문자와 준비된 팩으로 15분 읽기 활동을 계획하는 가상 사례를 편집해 보여 줍니다. 기사 ‘다음 모임의 출발점 / 자료를 다시 읽는 방법’에서 고른 발표용 구절은 다음과 같습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "기사와 인용 카드는 입문자와 준비된 팩으로 15분 읽기 활동을 계획하는 가상 사례를 편집해 보여 줍니다. 기사",
+              "x": 449,
+              "y": 9465.3671875,
+              "width": 761.2890625,
+              "height": 21.5
+            },
+            {
+              "text": "‘다음 모임의 출발점 / 자료를 다시 읽는 방법’에서 고른 발표용 구절은 다음과 같습니다.",
+              "x": 449,
+              "y": 9498.6640625,
+              "width": 603.6484375,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "다음-모임의-출발점",
+          "text": "다음 질문에 쓸 근거를 연결된 문서에서 다시 찾고 싶다.",
+          "isQuote": true,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "다음 질문에 쓸 근거를 연결된 문서에서 다시 찾고 싶다.",
+              "x": 473.796875,
+              "y": 9563.953125,
+              "width": 383.8671875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "다음-모임의-출발점",
+          "text": "기사와 이 구절은 발표팀이 사례의 목적을 한 문장으로 다시 쓴 것입니다. 예제 팩의 raw/study-retro.md에 기록한 정확한 원문은 아래와 같습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "기사와 이 구절은 발표팀이 사례의 목적을 한 문장으로 다시 쓴 것입니다. 예제 팩의 raw/study-retro.md에",
+              "x": 449,
+              "y": 9629.2421875,
+              "width": 772.5859375,
+              "height": 21.5
+            },
+            {
+              "text": "기록한 정확한 원문은 아래와 같습니다.",
+              "x": 449,
+              "y": 9662.5390625,
+              "width": 272.203125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "다음-모임의-출발점",
+          "text": "도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.",
+          "isQuote": true,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.",
+              "x": 473.796875,
+              "y": 9727.828125,
+              "width": 573.3828125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "다음-모임의-출발점",
+          "text": "선택의 근거 확인에서 입문자, 준비된 메모, 15분 조건을 함께 대조합니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "선택의 근거 확인에서 입문자, 준비된 메모, 15분 조건을 함께 대조합니다.",
+              "x": 449,
+              "y": 9793.1171875,
+              "width": 510,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "네-가지-작업-결과",
+          "text": "결과물 네 면은 발표팀이 실제로 작성해 제공하는 예제의 서로 다른 쓰임을 보여 줍니다. 각 자료의 일부를 화면에 맞게 조판했습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "결과물 네 면은 발표팀이 실제로 작성해 제공하는 예제의 서로 다른 쓰임을 보여 줍니다. 각 자료의 일부를 화면에",
+              "x": 449,
+              "y": 9972.65625,
+              "width": 778.4375,
+              "height": 21.5
+            },
+            {
+              "text": "맞게 조판했습니다.",
+              "x": 449,
+              "y": 10005.953125,
+              "width": 133.9609375,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "네-가지-작업-결과",
+          "text": "질문 문서의 팩 경로는 wiki/questions/first-study.md입니다. 활동안과 질문에 적은 내용은 설명을 위해 계획한 작업입니다. 미확인 범위에서 모임 운영·이해도·학습효과의 확인 여부를 확인할 수 있습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "질문 문서의 팩 경로는 wiki/questions/first-study.md입니다. 활동안과 질문에 적은 내용은 설명을 위해",
+              "x": 449,
+              "y": 10532.9296875,
+              "width": 784.765625,
+              "height": 21.5
+            },
+            {
+              "text": "계획한 작업입니다. 미확인 범위에서 모임 운영·이해도·학습효과의 확인 여부를 확인할 수 있습니다.",
+              "x": 449,
+              "y": 10566.2265625,
+              "width": 687.7265625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "확인과-유지",
+          "text": "AI가 만든 연결은 원자료가 뒷받침하는지 확인합니다. 읽기 좋은 문장이라도 조건이 다른 자료를 하나로 묶었거나 원자료가 말하지 않은 관계일 수 있습니다. “15분이므로 설치보다 읽기”처럼 시간 하나만 이유로 삼으면 입문자·준비된 팩·원래 목적이 빠집니다. 원자료의 조건으로 돌아가 관계와 선택 이유를 확인합니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "AI가 만든 연결은 원자료가 뒷받침하는지 확인합니다. 읽기 좋은 문장이라도 조건이 다른 자료를 하나로 묶었거나",
+              "x": 449,
+              "y": 10745.765625,
+              "width": 780.7421875,
+              "height": 21.5
+            },
+            {
+              "text": "원자료가 말하지 않은 관계일 수 있습니다. “15분이므로 설치보다 읽기”처럼 시간 하나만 이유로 삼으면 입문자·",
+              "x": 449,
+              "y": 10779.0625,
+              "width": 772.484375,
+              "height": 21.5
+            },
+            {
+              "text": "준비된 팩·원래 목적이 빠집니다. 원자료의 조건으로 돌아가 관계와 선택 이유를 확인합니다.",
+              "x": 449,
+              "y": 10812.359375,
+              "width": 636.171875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "확인과-유지",
+          "text": "위험은 내용 오류뿐 아니라 새 자료와 예전 설명의 충돌, 문서·링크를 유지하는 시간에도 있습니다. 중요한 결론은 원자료와 대조하고, 오래된 설명·서로 다른 조건·끊긴 링크를 찾아 바뀐 이유를 남깁니다. 작업 결과에는 바꾼 파일·근거·아직 모르는 점을 요청합니다. 확인할 사람이 없는 자동 정리와 검증된 현재 이해를 같게 보지 않습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "위험은 내용 오류뿐 아니라 새 자료와 예전 설명의 충돌, 문서·링크를 유지하는 시간에도 있습니다. 중요한 결론은",
+              "x": 449,
+              "y": 10865.65625,
+              "width": 777.15625,
+              "height": 21.5
+            },
+            {
+              "text": "원자료와 대조하고, 오래된 설명·서로 다른 조건·끊긴 링크를 찾아 바뀐 이유를 남깁니다. 작업 결과에는 바꾼 파일·",
+              "x": 449,
+              "y": 10898.953125,
+              "width": 788.6015625,
+              "height": 21.5
+            },
+            {
+              "text": "근거·아직 모르는 점을 요청합니다. 확인할 사람이 없는 자동 정리와 검증된 현재 이해를 같게 보지 않습니다.",
+              "x": 449,
+              "y": 10932.25,
+              "width": 747.8359375,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "선택의-근거-확인",
+          "text": "본편 뒤 별도 활동 15분, 입문자와 함께라면 ‘읽기부터’?",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "본편 뒤 별도 활동 15분, 입문자와 함께라면 ‘읽기부터’?",
+              "x": 449,
+              "y": 11052.84375,
+              "width": 387.796875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "선택의-근거-확인",
+          "text": "이는 발표용 확인 질문입니다. 입문자·본편 뒤 별도 활동 시간을 한 질문에 묶은 요약이며 원문 인용이 아닙니다. 질문의 근거를 메모의 선택 위치와 정확 목적 구절에서 대조합니다. 이 대조로 목적도 확인합니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "이는 발표용 확인 질문입니다. 입문자·본편 뒤 별도 활동 시간을 한 질문에 묶은 요약이며 원문 인용이 아닙니다.",
+              "x": 449,
+              "y": 11106.140625,
+              "width": 767.9296875,
+              "height": 21.5
+            },
+            {
+              "text": "질문의 근거를 메모의 선택 위치와 정확 목적 구절에서 대조합니다. 이 대조로 목적도 확인합니다.",
+              "x": 449,
+              "y": 11139.4375,
+              "width": 671.1328125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "선택의-근거-확인",
+          "text": "바로 대조할 원자료는 예제 팩의 raw/study-retro.md — 나중에 추가 구간, 제목 다음 모임의 조건 메모입니다. 정확한 조건과 목적은 다음과 같습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "바로 대조할 원자료는 예제 팩의 raw/study-retro.md — 나중에 추가 구간, 제목 다음 모임의 조건 메모입니다.",
+              "x": 449,
+              "y": 11192.734375,
+              "width": 794.4375,
+              "height": 21.5
+            },
+            {
+              "text": "정확한 조건과 목적은 다음과 같습니다.",
+              "x": 449,
+              "y": 11226.03125,
+              "width": 272.203125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "선택의-근거-확인",
+          "text": "다음 모임에는 입문자가 함께한다고 가정한다.\n본편 뒤 별도 활동은 15분만 배정한다.\n발표팀의 설명용 주제 메모 세 개로 시작한다.\n도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.",
+          "isQuote": true,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "다음 모임에는 입문자가 함께한다고 가정한다.\n본편 뒤 별도 활동은 15분만 배정한다.\n발표팀의 설명용 주제",
+              "x": 473.796875,
+              "y": 11291.3203125,
+              "width": 741.3828125,
+              "height": 21.5
+            },
+            {
+              "text": "메모 세 개로 시작한다.\n도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.",
+              "x": 473.796875,
+              "y": 11324.6171875,
+              "width": 736.5546875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "선택의-근거-확인",
+          "text": "발표의 기사는 이 모임을 하나의 장면으로 편집했습니다. 기사와 인용 카드의 구절과 위의 팩 원문을 나란히 읽어 선택 이유와 근거를 확인할 수 있습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "발표의 기사는 이 모임을 하나의 장면으로 편집했습니다. 기사와 인용 카드의 구절과 위의 팩 원문을 나란히 읽어",
+              "x": 449,
+              "y": 11389.90625,
+              "width": 773.875,
+              "height": 21.5
+            },
+            {
+              "text": "선택 이유와 근거를 확인할 수 있습니다.",
+              "x": 449,
+              "y": 11423.203125,
+              "width": 276.765625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "선택의-근거-확인",
+          "text": "구절은 전체 가상 조건인 입문자·준비된 팩·본편 뒤 별도 활동 15분과 함께 읽습니다. 시간만으로 첫 행동이 자동 결정된다고 결론내릴 수 없고, 자료 연결의 근거를 찾고 싶다는 목적도 선택에 들어갑니다. 원문 인용인 팩의 정확 발췌와 발표용 질문·해석을 구별합니다. raw도 발표팀의 자작 가상 예이며 실제 사용자 기록·모델 출력·실행 성과·학습효과의 실측이 아닙니다. 기사와 인용 장면",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "구절은 전체 가상 조건인 입문자·준비된 팩·본편 뒤 별도 활동 15분과 함께 읽습니다. 시간만으로 첫 행동이 자동",
+              "x": 449,
+              "y": 11476.5,
+              "width": 770.015625,
+              "height": 21.5
+            },
+            {
+              "text": "결정된다고 결론내릴 수 없고, 자료 연결의 근거를 찾고 싶다는 목적도 선택에 들어갑니다. 원문 인용인 팩의 정확",
+              "x": 449,
+              "y": 11509.796875,
+              "width": 778.6640625,
+              "height": 21.5
+            },
+            {
+              "text": "발췌와 발표용 질문·해석을 구별합니다. raw도 발표팀의 자작 가상 예이며 실제 사용자 기록·모델 출력·실행 성과·",
+              "x": 449,
+              "y": 11543.09375,
+              "width": 781.765625,
+              "height": 21.5
+            },
+            {
+              "text": "학습효과의 실측이 아닙니다. 기사와 인용 장면",
+              "x": 449,
+              "y": 11576.390625,
+              "width": 323.4375,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "시작-요청과-선택-기준",
+          "text": "규모만으로 위키가 필요하다고 결론내리지 않습니다. 아래 전문을 복사해 자기 목적·파일 경로·직접 쓴 기록으로 바꿉니다. 이는 요청 예문이며 실행 기록이 아닙니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "규모만으로 위키가 필요하다고 결론내리지 않습니다. 아래 전문을 복사해 자기 목적·파일 경로·직접 쓴 기록으로",
+              "x": 449,
+              "y": 12102.8125,
+              "width": 769.8515625,
+              "height": 21.5
+            },
+            {
+              "text": "바꿉니다. 이는 요청 예문이며 실행 기록이 아닙니다.",
+              "x": 449,
+              "y": 12136.109375,
+              "width": 363.96875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "시작-요청과-선택-기준",
+          "text": "처음에는 목적을 적고, 자료 두 개를 골라 연결하고, 중요한 내용을 확인하고, 다음 질문에서 다시 읽습니다. 설치나 특정 도구 선택이 선행 의무는 아닙니다. 예제 읽기와 해설에서 준비된 팩으로 이어갈 수 있습니다.",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "처음에는 목적을 적고, 자료 두 개를 골라 연결하고, 중요한 내용을 확인하고, 다음 질문에서 다시 읽습니다. 설치나",
+              "x": 449,
+              "y": 12580.546875,
+              "width": 788.25,
+              "height": 21.5
+            },
+            {
+              "text": "특정 도구 선택이 선행 의무는 아닙니다. 예제 읽기와 해설에서 준비된 팩으로 이어갈 수 있습니다.",
+              "x": 449,
+              "y": 12613.84375,
+              "width": 676.171875,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "section": "다음-질문",
+          "text": "어떤 자료 두 개로, 어떤 질문을 다시 묻고 싶나요? 자료를 많이 모으는 것보다 자기 다음 질문에서 다시 읽을 수 있는지 확인하는 것이 시작점입니다. 발표의 마지막 질문 · 예제로 시작하기",
+          "isQuote": false,
+          "fontSize": "18px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "lines": [
+            {
+              "text": "어떤 자료 두 개로, 어떤 질문을 다시 묻고 싶나요? 자료를 많이 모으는 것보다 자기 다음 질문에서 다시 읽을 수",
+              "x": 449,
+              "y": 12734.4375,
+              "width": 763.359375,
+              "height": 21.5
+            },
+            {
+              "text": "있는지 확인하는 것이 시작점입니다. 발표의 마지막 질문 · 예제로 시작하기",
+              "x": 449,
+              "y": 12767.734375,
+              "width": 517.796875,
+              "height": 21.5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "captureManifest": {
+    "path": "research/devday-rebuild-20261117/main-06/read-1440/manifest.json",
+    "sha256": "1d43056b3f34a685991574aeefd44a0b1e747ec53c41f371a3705a341e69c5d0"
+  },
+  "observations": [
+    {
+      "index": "0",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?capture=tiles-5b02eb67b431#1",
+      "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "15",
+          "text": "지식을 남기는 방식이다음 질문을 바꾼다",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 124.796875
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "지식을 남기는 방식이",
+              "afterText": "다음 질문을 바꾼다",
+              "beforeGlyph": {
+                "x": 400.5,
+                "y": 50.5
+              },
+              "afterGlyph": {
+                "x": 72,
+                "y": 112.8984375
+              }
+            }
+          ],
+          "emphasis": [
+            {
+              "tag": "STRONG",
+              "text": "다음 질문을 바꾼다"
+            }
+          ],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 48,
+          "logicalBox": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 124.796875
+          },
+          "lines": [
+            {
+              "text": "지식을 남기는 방식이",
+              "x": 72,
+              "y": 50.5,
+              "width": 367.625,
+              "height": 56.5
+            },
+            {
+              "text": "다음 질문을 바꾼다",
+              "x": 72,
+              "y": 112.8984375,
+              "width": 327.8515625,
+              "height": 56.5
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "LLM Wiki의 정의와 개인 맥락",
+          "href": "materials/keynote-notes.html#정의와-개인-맥락"
+        }
+      ],
+      "supportLinks": [
+        {
+          "sourceLine": "6",
+          "visible": true,
+          "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%A0%95%EC%9D%98%EC%99%80-%EA%B0%9C%EC%9D%B8-%EB%A7%A5%EB%9D%BD",
+          "authoredHref": "materials/keynote-notes.html#정의와-개인-맥락",
+          "label": "LLM Wiki의 정의와 개인 맥락",
+          "text": "LLM Wiki의 정의와 개인 맥락",
+          "copyRole": "support",
+          "fontSize": "18px",
+          "effectivePixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 205.796875,
+            "width": 211.7421875,
+            "height": 21.5
+          },
+          "lines": [
+            {
+              "text": "LLM Wiki의 정의와 개인 맥락",
+              "x": 72,
+              "y": 205.796875,
+              "width": 211.7421875,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "rect": {
+        "x": 160,
+        "y": 114,
+        "width": 1120,
+        "height": 281
+      },
+      "scrollWidth": 1120,
+      "clientWidth": 1120,
+      "images": []
+    },
+    {
+      "index": "1",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?capture=tiles-5b02eb67b431#1",
+      "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "typography": [
+        {
+          "tag": "FIGCAPTION",
+          "classes": "",
+          "dataField": null,
+          "sourceLine": "31",
+          "text": "이번 답",
+          "copyRole": "figure-label",
+          "logicalPixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 653.328125,
+            "width": 976,
+            "height": 28.796875
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "FIGURE",
+            "classes": "md-media block-node"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "rgb(164, 164, 161)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18,
+          "logicalBox": {
+            "x": 72,
+            "y": 653.328125,
+            "width": 976,
+            "height": 28.796875
+          },
+          "lines": [
+            {
+              "text": "이번 답",
+              "x": 72,
+              "y": 656.828125,
+              "width": 51.2734375,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "tag": "FIGCAPTION",
+          "classes": "",
+          "dataField": null,
+          "sourceLine": "33",
+          "text": "다시 쓸 지식",
+          "copyRole": "figure-label",
+          "logicalPixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 1287.453125,
+            "width": 976,
+            "height": 28.796875
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "FIGURE",
+            "classes": "md-media block-node"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "rgb(164, 164, 161)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18,
+          "logicalBox": {
+            "x": 72,
+            "y": 1287.453125,
+            "width": 976,
+            "height": 28.796875
+          },
+          "lines": [
+            {
+              "text": "다시 쓸 지식",
+              "x": 72,
+              "y": 1290.953125,
+              "width": 86.9765625,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "이번 답과 지속 문서의 비교 범위",
+          "href": "materials/keynote-notes.html#검색과-지속-문서"
+        }
+      ],
+      "supportLinks": [
+        {
+          "sourceLine": "21",
+          "visible": true,
+          "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B2%80%EC%83%89%EA%B3%BC-%EC%A7%80%EC%86%8D-%EB%AC%B8%EC%84%9C",
+          "authoredHref": "materials/keynote-notes.html#검색과-지속-문서",
+          "label": "이번 답과 지속 문서의 비교 범위",
+          "text": "이번 답과 지속 문서의 비교 범위",
+          "copyRole": "support",
+          "fontSize": "18px",
+          "effectivePixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 1345.25,
+            "width": 225.21875,
+            "height": 21.5
+          },
+          "lines": [
+            {
+              "text": "이번 답과 지속 문서의 비교 범위",
+              "x": 72,
+              "y": 1345.25,
+              "width": 225.21875,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "rect": {
+        "x": 160,
+        "y": 419,
+        "width": 1120,
+        "height": 1421
+      },
+      "scrollWidth": 1120,
+      "clientWidth": 1120,
+      "images": [
+        {
+          "src": "assets/029e64d0c262-answer-window.svg",
+          "complete": true,
+          "naturalWidth": 720,
+          "naturalHeight": 420,
+          "width": 976,
+          "alt": "한 번의 질문에서 독립된 답 하나가 남는 설명용 작업창",
+          "fit": "contain",
+          "box": {
+            "x": 232,
+            "y": 491,
+            "width": 976,
+            "height": 569
+          }
+        },
+        {
+          "src": "assets/11c0efa5df6c-wiki-window.svg",
+          "complete": true,
+          "naturalWidth": 720,
+          "naturalHeight": 420,
+          "width": 976,
+          "alt": "메모·개념·비교·계획 문서가 서로 연결된 설명용 작업창",
+          "fit": "contain",
+          "box": {
+            "x": 232,
+            "y": 1125,
+            "width": 976,
+            "height": 569
+          }
+        }
+      ]
+    },
+    {
+      "index": "2",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?capture=tiles-5b02eb67b431#1",
+      "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "typography": [
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "49",
+          "text": "다음 질문에 쓸 근거를연결된 문서에서다시 찾고 싶다",
+          "copyRole": null,
+          "logicalPixels": 18,
+          "rect": {
+            "x": 89.3984375,
+            "y": 802.6796875,
+            "width": 774,
+            "height": 97.1953125
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "BLOCKQUOTE",
+            "classes": "block-node"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "다음 질문에 쓸 근거를",
+              "afterText": "연결된 문서에서다시 찾고 싶다",
+              "beforeGlyph": {
+                "x": 227.640625,
+                "y": 807.6796875
+              },
+              "afterGlyph": {
+                "x": 89.3984375,
+                "y": 840.078125
+              }
+            },
+            {
+              "beforeText": "다음 질문에 쓸 근거를연결된 문서에서",
+              "afterText": "다시 찾고 싶다",
+              "beforeGlyph": {
+                "x": 187.375,
+                "y": 840.078125
+              },
+              "afterGlyph": {
+                "x": 89.3984375,
+                "y": 872.4765625
+              }
+            }
+          ],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18,
+          "logicalBox": {
+            "x": 89.3984375,
+            "y": 802.6796875,
+            "width": 774,
+            "height": 97.1953125
+          },
+          "lines": [
+            {
+              "text": "다음 질문에 쓸 근거를",
+              "x": 89.3984375,
+              "y": 807.6796875,
+              "width": 153.8203125,
+              "height": 21.5
+            },
+            {
+              "text": "연결된 문서에서",
+              "x": 89.3984375,
+              "y": 840.078125,
+              "width": 113.5546875,
+              "height": 21.5
+            },
+            {
+              "text": "다시 찾고 싶다",
+              "x": 89.3984375,
+              "y": 872.4765625,
+              "width": 102.546875,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "사례의 원문과 발표용 인용",
+          "href": "materials/keynote-notes.html#다음-모임의-출발점"
+        }
+      ],
+      "supportLinks": [
+        {
+          "sourceLine": "37",
+          "visible": true,
+          "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%8B%A4%EC%9D%8C-%EB%AA%A8%EC%9E%84%EC%9D%98-%EC%B6%9C%EB%B0%9C%EC%A0%90",
+          "authoredHref": "materials/keynote-notes.html#다음-모임의-출발점",
+          "label": "사례의 원문과 발표용 인용",
+          "text": "사례의 원문과 발표용 인용",
+          "copyRole": "support",
+          "fontSize": "18px",
+          "effectivePixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 935.265625,
+            "width": 184.9609375,
+            "height": 21.5
+          },
+          "lines": [
+            {
+              "text": "사례의 원문과 발표용 인용",
+              "x": 72,
+              "y": 935.265625,
+              "width": 184.9609375,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "rect": {
+        "x": 160,
+        "y": 1864,
+        "width": 1120,
+        "height": 1011
+      },
+      "scrollWidth": 1120,
+      "clientWidth": 1120,
+      "images": [
+        {
+          "src": "assets/0046232570fa-condition-article.svg",
+          "complete": true,
+          "naturalWidth": 900,
+          "naturalHeight": 650,
+          "width": 976,
+          "alt": "발표팀의 가상 모임 사례를 어두운 기사로 편집한 자료",
+          "fit": "contain",
+          "box": {
+            "x": 232,
+            "y": 1936,
+            "width": 976,
+            "height": 705
+          }
+        }
+      ]
+    },
+    {
+      "index": "3",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?capture=tiles-5b02eb67b431#1",
+      "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "slide-title",
+          "dataField": "title",
+          "text": "읽은 자료가\n다음 작업으로",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 64,
+            "y": 197.5859375,
+            "width": 354.0390625,
+            "height": 117.109375
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "results-copy"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "pre-line",
+          "effectivePixels": 48,
+          "logicalBox": {
+            "x": 64,
+            "y": 197.5859375,
+            "width": 354.0390625,
+            "height": 117.109375
+          },
+          "lines": [
+            {
+              "text": "읽은 자료가",
+              "x": 64,
+              "y": 198.5859375,
+              "width": 202.515625,
+              "height": 56.5
+            },
+            {
+              "text": "다음 작업으로",
+              "x": 64,
+              "y": 257.140625,
+              "width": 241.484375,
+              "height": 56.5
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "네 결과물의 전문과 확인 범위",
+          "href": "materials/keynote-notes.html#네-가지-작업-결과"
+        }
+      ],
+      "supportLinks": [
+        {
+          "sourceLine": "55",
+          "visible": true,
+          "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%84%A4-%EA%B0%80%EC%A7%80-%EC%9E%91%EC%97%85-%EA%B2%B0%EA%B3%BC",
+          "authoredHref": "materials/keynote-notes.html#네-가지-작업-결과",
+          "label": "네 결과물의 전문과 확인 범위",
+          "text": "네 결과물의 전문과 확인 범위",
+          "copyRole": "support",
+          "fontSize": "18px",
+          "effectivePixels": 18,
+          "rect": {
+            "x": 64,
+            "y": 473.28125,
+            "width": 205.09375,
+            "height": 21.5
+          },
+          "lines": [
+            {
+              "text": "네 결과물의 전문과 확인 범위",
+              "x": 64,
+              "y": 473.28125,
+              "width": 205.09375,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "rect": {
+        "x": 160,
+        "y": 2899,
+        "width": 1120,
+        "height": 611
+      },
+      "scrollWidth": 1120,
+      "clientWidth": 1120,
+      "images": [
+        {
+          "src": "assets/e91eecd83e76-output-plan.svg",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "width": 293.9765625,
+          "alt": "입문자 활동안의 시간과 할 일이 행으로 나뉜 일정표",
+          "fit": "contain",
+          "box": {
+            "x": 612,
+            "y": 2959,
+            "width": 294,
+            "height": 188
+          }
+        },
+        {
+          "src": "assets/22b8c77efb73-output-map.svg",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "width": 293.9765625,
+          "alt": "주제 메모와 개념·비교, 질문 노트와 활동안을 연결한 지도",
+          "fit": "contain",
+          "box": {
+            "x": 922,
+            "y": 2959,
+            "width": 294,
+            "height": 188
+          }
+        },
+        {
+          "src": "assets/7803208f6b2c-output-question.svg",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "width": 293.9765625,
+          "alt": "입문자가 무엇부터 할지 정리한 질문과 답",
+          "fit": "contain",
+          "box": {
+            "x": 612,
+            "y": 3163,
+            "width": 294,
+            "height": 188
+          }
+        },
+        {
+          "src": "assets/b67c82d2f1b1-output-brief.svg",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "width": 293.9765625,
+          "alt": "모임 전 준비와 근거 위치·다음 질문을 적을 기록칸",
+          "fit": "contain",
+          "box": {
+            "x": 922,
+            "y": 3163,
+            "width": 294,
+            "height": 188
+          }
+        }
+      ]
+    },
+    {
+      "index": "4",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?capture=tiles-5b02eb67b431#1",
+      "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "89",
+          "text": "LLM Wiki",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 48,
+          "logicalBox": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "lines": [
+            {
+              "text": "LLM Wiki",
+              "x": 72,
+              "y": 50.5,
+              "width": 172.1953125,
+              "height": 56.5
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "91",
+          "text": "내 자료를 AI와 함께 읽고 연결하는 마크다운 위키",
+          "copyRole": "body",
+          "logicalPixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 138.3984375,
+            "width": 864,
+            "height": 32.3984375
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-body"
+          },
+          "directBody": true,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18,
+          "logicalBox": {
+            "x": 72,
+            "y": 138.3984375,
+            "width": 864,
+            "height": 32.3984375
+          },
+          "lines": [
+            {
+              "text": "내 자료를 AI와 함께 읽고 연결하는 마크다운 위키",
+              "x": 72,
+              "y": 143.3984375,
+              "width": 343.7578125,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "정리한 이해와 원자료의 역할",
+          "href": "materials/keynote-notes.html#원자료와-작업-약속"
+        }
+      ],
+      "supportLinks": [
+        {
+          "sourceLine": "81",
+          "visible": true,
+          "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%9B%90%EC%9E%90%EB%A3%8C%EC%99%80-%EC%9E%91%EC%97%85-%EC%95%BD%EC%86%8D",
+          "authoredHref": "materials/keynote-notes.html#원자료와-작업-약속",
+          "label": "정리한 이해와 원자료의 역할",
+          "text": "정리한 이해와 원자료의 역할",
+          "copyRole": "support",
+          "fontSize": "18px",
+          "effectivePixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 191.796875,
+            "width": 200.53125,
+            "height": 21.5
+          },
+          "lines": [
+            {
+              "text": "정리한 이해와 원자료의 역할",
+              "x": 72,
+              "y": 191.796875,
+              "width": 200.53125,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "rect": {
+        "x": 160,
+        "y": 3533,
+        "width": 1120,
+        "height": 267
+      },
+      "scrollWidth": 1120,
+      "clientWidth": 1120,
+      "images": []
+    },
+    {
+      "index": "5",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?capture=tiles-5b02eb67b431#1",
+      "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "104",
+          "text": "같은 문서를 함께 고칩니다",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 48,
+          "logicalBox": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "lines": [
+            {
+              "text": "같은 문서를 함께 고칩니다",
+              "x": 72,
+              "y": 50.5,
+              "width": 453.640625,
+              "height": 56.5
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "109",
+          "text": "사람",
+          "copyRole": null,
+          "logicalPixels": 26,
+          "rect": {
+            "x": 72,
+            "y": 163.3984375,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "사람",
+            "sourceLine": "109",
+            "logicalBox": {
+              "x": 72,
+              "y": 138.3984375,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "color": "rgb(255, 122, 61)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 26,
+          "logicalBox": {
+            "x": 72,
+            "y": 163.3984375,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "lines": [
+            {
+              "text": "사람",
+              "x": 72,
+              "y": 165.8984375,
+              "width": 43.1640625,
+              "height": 30.5
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "111",
+          "text": "목적과 고른 이유를 남깁니다",
+          "copyRole": "body",
+          "logicalPixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 217.796875,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "사람",
+            "sourceLine": "109",
+            "logicalBox": {
+              "x": 72,
+              "y": 138.3984375,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18,
+          "logicalBox": {
+            "x": 72,
+            "y": 217.796875,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "lines": [
+            {
+              "text": "목적과 고른 이유를 남깁니다",
+              "x": 72,
+              "y": 222.796875,
+              "width": 200.53125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "116",
+          "text": "AI",
+          "copyRole": null,
+          "logicalPixels": 26,
+          "rect": {
+            "x": 72,
+            "y": 303.1953125,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "AI",
+            "sourceLine": "116",
+            "logicalBox": {
+              "x": 72,
+              "y": 278.1953125,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "color": "rgb(36, 168, 255)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 26,
+          "logicalBox": {
+            "x": 72,
+            "y": 303.1953125,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "lines": [
+            {
+              "text": "AI",
+              "x": 72,
+              "y": 305.6953125,
+              "width": 23.7109375,
+              "height": 30.5
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "118",
+          "text": "자료를 연결해 문서를 고칩니다",
+          "copyRole": "body",
+          "logicalPixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 357.59375,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "AI",
+            "sourceLine": "116",
+            "logicalBox": {
+              "x": 72,
+              "y": 278.1953125,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18,
+          "logicalBox": {
+            "x": 72,
+            "y": 357.59375,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "lines": [
+            {
+              "text": "자료를 연결해 문서를 고칩니다",
+              "x": 72,
+              "y": 362.59375,
+              "width": 216.1015625,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "사람의 판단과 AI 해석을 구분하는 방법",
+          "href": "materials/keynote-notes.html#사람의-선택과-기록"
+        }
+      ],
+      "supportLinks": [
+        {
+          "sourceLine": "95",
+          "visible": true,
+          "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%82%AC%EB%9E%8C%EC%9D%98-%EC%84%A0%ED%83%9D%EA%B3%BC-%EA%B8%B0%EB%A1%9D",
+          "authoredHref": "materials/keynote-notes.html#사람의-선택과-기록",
+          "label": "사람의 판단과 AI 해석을 구분하는 방법",
+          "text": "사람의 판단과 AI 해석을 구분하는 방법",
+          "copyRole": "support",
+          "fontSize": "18px",
+          "effectivePixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 422.9921875,
+            "width": 272.359375,
+            "height": 21.5
+          },
+          "lines": [
+            {
+              "text": "사람의 판단과 AI 해석을 구분하는 방법",
+              "x": 72,
+              "y": 422.9921875,
+              "width": 272.359375,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "rect": {
+        "x": 160,
+        "y": 3824,
+        "width": 1120,
+        "height": 498
+      },
+      "scrollWidth": 1120,
+      "clientWidth": 1120,
+      "images": []
+    },
+    {
+      "index": "6",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?capture=tiles-5b02eb67b431#1",
+      "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "131",
+          "text": "자료는 연결되고 계획은 갱신됩니다",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 48,
+          "logicalBox": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "lines": [
+            {
+              "text": "자료는 연결되고 계획은 갱신됩니다",
+              "x": 72,
+              "y": 50.5,
+              "width": 610.1171875,
+              "height": 56.5
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "함께 읽고 고칠 세 관계",
+          "href": "materials/keynote-notes.html#세-무방향-관계"
+        }
+      ],
+      "supportLinks": [
+        {
+          "sourceLine": "122",
+          "visible": true,
+          "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+          "authoredHref": "materials/keynote-notes.html#세-무방향-관계",
+          "label": "함께 읽고 고칠 세 관계",
+          "text": "함께 읽고 고칠 세 관계",
+          "copyRole": "support",
+          "fontSize": "18px",
+          "effectivePixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 574.0625,
+            "width": 158.3828125,
+            "height": 21.5
+          },
+          "lines": [
+            {
+              "text": "함께 읽고 고칠 세 관계",
+              "x": 72,
+              "y": 574.0625,
+              "width": 158.3828125,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "rect": {
+        "x": 160,
+        "y": 4347,
+        "width": 1120,
+        "height": 649
+      },
+      "scrollWidth": 1120,
+      "clientWidth": 1120,
+      "images": [
+        {
+          "src": "assets/dc025f0ce74b-connected-knowledge.svg",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 500,
+          "width": 976,
+          "alt": "자료 요약과 개념·비교, 현재 계획 세 문서가 서로 연결된 설명용 관계도",
+          "fit": "contain",
+          "box": {
+            "x": 232,
+            "y": 4485,
+            "width": 976,
+            "height": 407
+          }
+        }
+      ]
+    },
+    {
+      "index": "7",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?capture=tiles-5b02eb67b431#1",
+      "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "146",
+          "text": "입문자가 오면 계획이 바뀝니다",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 48,
+          "logicalBox": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "lines": [
+            {
+              "text": "입문자가 오면 계획이 바뀝니다",
+              "x": 72,
+              "y": 50.5,
+              "width": 531.8828125,
+              "height": 56.5
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "151",
+          "text": "처음 계획",
+          "copyRole": null,
+          "logicalPixels": 26,
+          "rect": {
+            "x": 72,
+            "y": 163.3984375,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "처음 계획",
+            "sourceLine": "151",
+            "logicalBox": {
+              "x": 72,
+              "y": 138.3984375,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 26,
+          "logicalBox": {
+            "x": 72,
+            "y": 163.3984375,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "lines": [
+            {
+              "text": "처음 계획",
+              "x": 72,
+              "y": 165.8984375,
+              "width": 90.9140625,
+              "height": 30.5
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "153",
+          "text": "참여자와 활동 시간 미정",
+          "copyRole": "body",
+          "logicalPixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 217.796875,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "처음 계획",
+            "sourceLine": "151",
+            "logicalBox": {
+              "x": 72,
+              "y": 138.3984375,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18,
+          "logicalBox": {
+            "x": 72,
+            "y": 217.796875,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "lines": [
+            {
+              "text": "참여자와 활동 시간 미정",
+              "x": 72,
+              "y": 222.796875,
+              "width": 169.390625,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "158",
+          "text": "갱신된 계획",
+          "copyRole": null,
+          "logicalPixels": 26,
+          "rect": {
+            "x": 72,
+            "y": 303.1953125,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "갱신된 계획",
+            "sourceLine": "158",
+            "logicalBox": {
+              "x": 72,
+              "y": 278.1953125,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "color": "rgb(255, 122, 61)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 26,
+          "logicalBox": {
+            "x": 72,
+            "y": 303.1953125,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "lines": [
+            {
+              "text": "갱신된 계획",
+              "x": 72,
+              "y": 305.6953125,
+              "width": 112.4921875,
+              "height": 30.5
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "160",
+          "text": "입문자와 근거 하나 찾기",
+          "copyRole": "body",
+          "logicalPixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 357.59375,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "갱신된 계획",
+            "sourceLine": "158",
+            "logicalBox": {
+              "x": 72,
+              "y": 278.1953125,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18,
+          "logicalBox": {
+            "x": 72,
+            "y": 357.59375,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "lines": [
+            {
+              "text": "입문자와 근거 하나 찾기",
+              "x": 72,
+              "y": 362.59375,
+              "width": 169.390625,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "같은 계획의 전후 원문과 새 조건",
+          "href": "materials/keynote-notes.html#계획이-바뀐-근거"
+        }
+      ],
+      "supportLinks": [
+        {
+          "sourceLine": "137",
+          "visible": true,
+          "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0",
+          "authoredHref": "materials/keynote-notes.html#계획이-바뀐-근거",
+          "label": "같은 계획의 전후 원문과 새 조건",
+          "text": "같은 계획의 전후 원문과 새 조건",
+          "copyRole": "support",
+          "fontSize": "18px",
+          "effectivePixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 422.9921875,
+            "width": 225.21875,
+            "height": 21.5
+          },
+          "lines": [
+            {
+              "text": "같은 계획의 전후 원문과 새 조건",
+              "x": 72,
+              "y": 422.9921875,
+              "width": 225.21875,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "rect": {
+        "x": 160,
+        "y": 5020,
+        "width": 1120,
+        "height": 498
+      },
+      "scrollWidth": 1120,
+      "clientWidth": 1120,
+      "images": []
+    },
+    {
+      "index": "8",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?capture=tiles-5b02eb67b431#1",
+      "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "173",
+          "text": "자료 두 개로 시작합니다",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 48,
+          "logicalBox": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "lines": [
+            {
+              "text": "자료 두 개로 시작합니다",
+              "x": 72,
+              "y": 50.5,
+              "width": 414.5234375,
+              "height": 56.5
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "178",
+          "text": "고르기",
+          "copyRole": null,
+          "logicalPixels": 26,
+          "rect": {
+            "x": 72,
+            "y": 163.3984375,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "고르기",
+            "sourceLine": "178",
+            "logicalBox": {
+              "x": 72,
+              "y": 138.3984375,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "color": "rgb(255, 122, 61)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 26,
+          "logicalBox": {
+            "x": 72,
+            "y": 163.3984375,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "lines": [
+            {
+              "text": "고르기",
+              "x": 72,
+              "y": 165.8984375,
+              "width": 64.7421875,
+              "height": 30.5
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "180",
+          "text": "목적과 선택 이유 적기",
+          "copyRole": "body",
+          "logicalPixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 217.796875,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "고르기",
+            "sourceLine": "178",
+            "logicalBox": {
+              "x": 72,
+              "y": 138.3984375,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18,
+          "logicalBox": {
+            "x": 72,
+            "y": 217.796875,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "lines": [
+            {
+              "text": "목적과 선택 이유 적기",
+              "x": 72,
+              "y": 222.796875,
+              "width": 153.8203125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "182",
+          "text": "연결하기",
+          "copyRole": null,
+          "logicalPixels": 26,
+          "rect": {
+            "x": 72,
+            "y": 303.1953125,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "연결하기",
+            "sourceLine": "182",
+            "logicalBox": {
+              "x": 72,
+              "y": 278.1953125,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 26,
+          "logicalBox": {
+            "x": 72,
+            "y": 303.1953125,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "lines": [
+            {
+              "text": "연결하기",
+              "x": 72,
+              "y": 305.6953125,
+              "width": 86.3203125,
+              "height": 30.5
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "184",
+          "text": "문서에 근거 연결하기",
+          "copyRole": "body",
+          "logicalPixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 357.59375,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "연결하기",
+            "sourceLine": "182",
+            "logicalBox": {
+              "x": 72,
+              "y": 278.1953125,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18,
+          "logicalBox": {
+            "x": 72,
+            "y": 357.59375,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "lines": [
+            {
+              "text": "문서에 근거 연결하기",
+              "x": 72,
+              "y": 362.59375,
+              "width": 149.2578125,
+              "height": 21.5
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "186",
+          "text": "확인하기",
+          "copyRole": null,
+          "logicalPixels": 26,
+          "rect": {
+            "x": 72,
+            "y": 442.9921875,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "parentGroup": {
+            "index": 2,
+            "heading": "확인하기",
+            "sourceLine": "186",
+            "logicalBox": {
+              "x": 72,
+              "y": 417.9921875,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "700",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 26,
+          "logicalBox": {
+            "x": 72,
+            "y": 442.9921875,
+            "width": 976,
+            "height": 36.3984375
+          },
+          "lines": [
+            {
+              "text": "확인하기",
+              "x": 72,
+              "y": 445.4921875,
+              "width": 86.3203125,
+              "height": 30.5
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "188",
+          "text": "원자료로 결론 확인하기",
+          "copyRole": "body",
+          "logicalPixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 497.390625,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "parentGroup": {
+            "index": 2,
+            "heading": "확인하기",
+            "sourceLine": "186",
+            "logicalBox": {
+              "x": 72,
+              "y": 417.9921875,
+              "width": 976,
+              "height": 111.796875
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18,
+          "logicalBox": {
+            "x": 72,
+            "y": 497.390625,
+            "width": 774,
+            "height": 32.3984375
+          },
+          "lines": [
+            {
+              "text": "원자료로 결론 확인하기",
+              "x": 72,
+              "y": 502.390625,
+              "width": 164.828125,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "작은 예제로 따라 하는 첫 단계",
+          "href": "materials/keynote-notes.html#시작-요청과-선택-기준"
+        }
+      ],
+      "supportLinks": [
+        {
+          "sourceLine": "164",
+          "visible": true,
+          "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80",
+          "authoredHref": "materials/keynote-notes.html#시작-요청과-선택-기준",
+          "label": "작은 예제로 따라 하는 첫 단계",
+          "text": "작은 예제로 따라 하는 첫 단계",
+          "copyRole": "support",
+          "fontSize": "18px",
+          "effectivePixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 562.7890625,
+            "width": 209.6484375,
+            "height": 21.5
+          },
+          "lines": [
+            {
+              "text": "작은 예제로 따라 하는 첫 단계",
+              "x": 72,
+              "y": 562.7890625,
+              "width": 209.6484375,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "rect": {
+        "x": 160,
+        "y": 5543,
+        "width": 1120,
+        "height": 638
+      },
+      "scrollWidth": 1120,
+      "clientWidth": 1120,
+      "images": []
+    },
+    {
+      "index": "9",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?capture=tiles-5b02eb67b431#1",
+      "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "201",
+          "text": "첫 요청",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 48,
+          "logicalBox": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 62.3984375
+          },
+          "lines": [
+            {
+              "text": "첫 요청",
+              "x": 72,
+              "y": 50.5,
+              "width": 125.1328125,
+              "height": 56.5
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "203",
+          "text": "이 자료 두 개를 읽고내 목적에 맞춰 연결해 줘.근거와 모르는 점도 남겨 줘.",
+          "copyRole": null,
+          "logicalPixels": 24,
+          "rect": {
+            "x": 99,
+            "y": 142.7890625,
+            "width": 837,
+            "height": 115.1953125
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "BLOCKQUOTE",
+            "classes": "block-node"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "이 자료 두 개를 읽고",
+              "afterText": "내 목적에 맞춰 연결해 줘.근거와 모르는 점도 남겨 줘.",
+              "beforeGlyph": {
+                "x": 253.71875,
+                "y": 147.7890625
+              },
+              "afterGlyph": {
+                "x": 99,
+                "y": 186.1875
+              }
+            },
+            {
+              "beforeText": "이 자료 두 개를 읽고내 목적에 맞춰 연결해 줘.",
+              "afterText": "근거와 모르는 점도 남겨 줘.",
+              "beforeGlyph": {
+                "x": 312.7578125,
+                "y": 186.1875
+              },
+              "afterGlyph": {
+                "x": 99,
+                "y": 224.5859375
+              }
+            }
+          ],
+          "emphasis": [
+            {
+              "tag": "STRONG",
+              "text": "근거와 모르는 점도 남겨 줘."
+            }
+          ],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "24px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 24,
+          "logicalBox": {
+            "x": 99,
+            "y": 142.7890625,
+            "width": 837,
+            "height": 115.1953125
+          },
+          "lines": [
+            {
+              "text": "이 자료 두 개를 읽고",
+              "x": 99,
+              "y": 147.7890625,
+              "width": 174.40625,
+              "height": 28
+            },
+            {
+              "text": "내 목적에 맞춰 연결해 줘.",
+              "x": 99,
+              "y": 186.1875,
+              "width": 218.2734375,
+              "height": 28
+            },
+            {
+              "text": "근거와 모르는 점도 남겨 줘.",
+              "x": 99,
+              "y": 224.5859375,
+              "width": 237.6953125,
+              "height": 28
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "복사해서 고쳐 쓸 시작 요청 전문",
+          "href": "materials/keynote-notes.html#시작-요청과-선택-기준"
+        }
+      ],
+      "supportLinks": [
+        {
+          "sourceLine": "192",
+          "visible": true,
+          "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80",
+          "authoredHref": "materials/keynote-notes.html#시작-요청과-선택-기준",
+          "label": "복사해서 고쳐 쓸 시작 요청 전문",
+          "text": "복사해서 고쳐 쓸 시작 요청 전문",
+          "copyRole": "support",
+          "fontSize": "18px",
+          "effectivePixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 295.375,
+            "width": 225.21875,
+            "height": 21.5
+          },
+          "lines": [
+            {
+              "text": "복사해서 고쳐 쓸 시작 요청 전문",
+              "x": 72,
+              "y": 295.375,
+              "width": 225.21875,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "rect": {
+        "x": 160,
+        "y": 6205,
+        "width": 1120,
+        "height": 371
+      },
+      "scrollWidth": 1120,
+      "clientWidth": 1120,
+      "images": []
+    },
+    {
+      "index": "10",
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?capture=tiles-5b02eb67b431#1",
+      "revision": "4d51f76a666129944c7a14ff8a359b4b56f510535eb225d28000574dfa142d3f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "217",
+          "text": "어떤 질문을다시 묻고 싶나요?",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 124.796875
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "어떤 질문을",
+              "afterText": "다시 묻고 싶나요?",
+              "beforeGlyph": {
+                "x": 236.25,
+                "y": 50.5
+              },
+              "afterGlyph": {
+                "x": 72,
+                "y": 112.8984375
+              }
+            }
+          ],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 48,
+          "logicalBox": {
+            "x": 72,
+            "y": 48,
+            "width": 976,
+            "height": 124.796875
+          },
+          "lines": [
+            {
+              "text": "어떤 질문을",
+              "x": 72,
+              "y": 50.5,
+              "width": 203.375,
+              "height": 56.5
+            },
+            {
+              "text": "다시 묻고 싶나요?",
+              "x": 72,
+              "y": 112.8984375,
+              "width": 311.03125,
+              "height": 56.5
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "자료와 예제 읽기",
+          "href": "materials/keynote-notes.html#다음-질문"
+        }
+      ],
+      "supportLinks": [
+        {
+          "sourceLine": "209",
+          "visible": true,
+          "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%8B%A4%EC%9D%8C-%EC%A7%88%EB%AC%B8",
+          "authoredHref": "materials/keynote-notes.html#다음-질문",
+          "label": "자료와 예제 읽기",
+          "text": "자료와 예제 읽기",
+          "copyRole": "support",
+          "fontSize": "18px",
+          "effectivePixels": 18,
+          "rect": {
+            "x": 72,
+            "y": 205.796875,
+            "width": 118.1171875,
+            "height": 21.5
+          },
+          "lines": [
+            {
+              "text": "자료와 예제 읽기",
+              "x": 72,
+              "y": 205.796875,
+              "width": 118.1171875,
+              "height": 21.5
+            }
+          ]
+        }
+      ],
+      "rect": {
+        "x": 160,
+        "y": 6600,
+        "width": 1120,
+        "height": 281
+      },
+      "scrollWidth": 1120,
+      "clientWidth": 1120,
+      "images": []
+    }
+  ]
+}

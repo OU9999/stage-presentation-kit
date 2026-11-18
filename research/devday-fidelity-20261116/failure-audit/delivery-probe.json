@@ -1,0 +1,43 @@
+{
+  "page": "http://127.0.0.1:4336/presentations/llm-wiki/#5",
+  "htmlStatus": 200,
+  "headers": {
+    "content-length": "6829",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 16 Nov 2026 10:10:19 GMT",
+    "last-modified": "Mon, 16 Nov 2026 08:29:47 GMT",
+    "server": "SimpleHTTP/0.6 Python/3.14.6"
+  },
+  "servedHtmlScripts": [
+    "<script src=\"content.js?v=52e8ae5caec9\" defer>",
+    "<script src=\"../_runtime/deck-model.js?v=48406917d2bf\" defer>",
+    "<script src=\"../_runtime/visual.js?v=02e26db1c3cc\" defer>",
+    "<script src=\"../_runtime/blocks.js?v=3be7ddac62ab\" defer>",
+    "<script src=\"../_runtime/app.js?v=66951d0918bc\" defer>"
+  ],
+  "servedRuntimeHasEvidence": true,
+  "domScripts": [
+    "http://127.0.0.1:4336/presentations/llm-wiki/content.js?v=3ab54bd6f622",
+    "http://127.0.0.1:4336/presentations/_runtime/deck-model.js?v=a57abe5af92e",
+    "http://127.0.0.1:4336/presentations/_runtime/visual.js?v=02e26db1c3cc",
+    "http://127.0.0.1:4336/presentations/_runtime/blocks.js?v=d87049a48ee8",
+    "http://127.0.0.1:4336/presentations/_runtime/app.js?v=66951d0918bc"
+  ],
+  "resourceEntries": [
+    {
+      "name": "http://127.0.0.1:4336/presentations/_runtime/deck-model.js?v=a57abe5af92e",
+      "transferSize": 0,
+      "encodedBodySize": 47818
+    },
+    {
+      "name": "http://127.0.0.1:4336/presentations/_runtime/blocks.js?v=d87049a48ee8",
+      "transferSize": 0,
+      "encodedBodySize": 25274
+    },
+    {
+      "name": "http://127.0.0.1:4336/presentations/_runtime/deck-model.js?audit-delivery=1",
+      "transferSize": 48130,
+      "encodedBodySize": 47830
+    }
+  ]
+}

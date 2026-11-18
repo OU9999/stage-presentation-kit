@@ -1,0 +1,107 @@
+{
+  "format": "devday-main02-technical-input-proof-v1",
+  "checkedAt": "2026-11-16T07:37:15.820Z",
+  "status": "pass",
+  "visualApproval": false,
+  "checks": [
+    {
+      "id": "source-unchanged",
+      "status": "pass",
+      "detail": "No manuscript/slide14 edit was made in this technical correction."
+    },
+    {
+      "id": "comparison-authorized-font-only",
+      "status": "pass",
+      "detail": "Only the essential state-label font changed 34→37; wording/position/composition remain the adopted source."
+    },
+    {
+      "id": "comparison-body-floor-kept",
+      "status": "pass",
+      "detail": "The essential 32 logical-pixel floor was not lowered. Actual new contain projection awaits root capture."
+    },
+    {
+      "id": "adopted-connected-documents.svg",
+      "status": "pass",
+      "detail": "The other three adopted assets retain their independently reviewed bytes."
+    },
+    {
+      "id": "adopted-session-plan-row.svg",
+      "status": "pass",
+      "detail": "The other three adopted assets retain their independently reviewed bytes."
+    },
+    {
+      "id": "adopted-condition-note-selection.svg",
+      "status": "pass",
+      "detail": "The other three adopted assets retain their independently reviewed bytes."
+    },
+    {
+      "id": "preserved-provenance-source",
+      "status": "pass",
+      "detail": "The unchanged standalone .meta text is pure authorship provenance; all four activity/selection labels remain required body32."
+    },
+    {
+      "id": "table-source-parent",
+      "status": "pass",
+      "detail": "The eight actual AST cells belong to TR and retain their body/reading floors."
+    },
+    {
+      "id": "historical-ten-failures-preserved",
+      "status": "pass",
+      "detail": "The original main01 failure JSON remains a ten-regression record, not a current pass."
+    },
+    {
+      "id": "current-static-source",
+      "status": "pass",
+      "detail": "Current exact source/coverage/public anchors/roles pass static validation."
+    },
+    {
+      "id": "old-capture-rejected",
+      "status": "pass",
+      "detail": "The old manifest and metrics are rejected under changed current inputs; hashes were not relabelled."
+    }
+  ],
+  "sourceResult": {
+    "status": "pass",
+    "summary": {
+      "checks": 1357,
+      "invalid": 0,
+      "regressions": 0
+    },
+    "actualExitCode": 0
+  },
+  "relatedTests": {
+    "command": "node --test tests/llm-wiki-keynote-qa.test.cjs",
+    "actualExitCode": 0,
+    "tests": 19,
+    "pass": 19,
+    "fail": 0
+  },
+  "oldCaptureRejection": {
+    "actualExitCode": 2,
+    "status": "contract-invalid",
+    "summary": {
+      "checks": 2471,
+      "invalid": 1,
+      "regressions": 1
+    },
+    "scope": "Diagnostic strictness check only; the old small essential label remains an old observation."
+  },
+  "inputHashes": {
+    "talks/llm-wiki/slides.md": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0",
+    "talks/llm-wiki/assets/devday/same-question-comparison.svg": "8af85adfb586a18daa56ece5c21067be2fb7958a818f85df49dd54ca2d582b98",
+    "talks/llm-wiki/assets/keynote/condition-and-choice.svg": "2404cc6d8840696a9af3b44d953058ed8ea53a4f3d734108d0d213e38f6cfb25",
+    "talks/llm-wiki/qa/keynote-current.json": "3832b7653b4db8d2f3c8aad1e5b60de1a0d91a12ebc78258566f35f8aaf695eb",
+    "scripts/llm-wiki-keynote-qa.cjs": "198986bda79c805d3368881974f15a5b4f8ce5fb61fc5c5868e0673666ea45e9",
+    "tests/llm-wiki-keynote-qa.test.cjs": "260d10ce47fac5b36eeadab95a60064cd9424ee1b52d6da7262fe27ef5d23323",
+    "research/devday-fidelity-20261116/main-01/present-1920/qa.json": "ba8fd340357a11962f6e843a24a9dfd1c3a7c508316f4f75fca6c09a7cabe5c1",
+    "research/devday-fidelity-20261116/main-01/present-1920/manifest.json": "4b91a3e4786415d7f8629605a3167bfa603c738e89879498397bfd79b0ec709d",
+    "research/devday-fidelity-20261116/main-01/present-1920/svg-metrics.json": "fd236ab63d0c91efc319d11e74089ec57cbffe994496593cc21fa13ea7e379fd",
+    "research/devday-fidelity-20261116/production/main-02-source-proof.json": "5c84b61f287a7aa4912d725dc64ac00a833f518379130d389cf9e107b6321a4b",
+    "research/devday-fidelity-20261116/production/main-02-old-capture-rejection.json": "00ca7861a6a76eeef4807bdf8101d695b6223e95777edb7c225fb311a8fe9e58"
+  },
+  "unverified": [
+    "New main02 actual contain/glyph/DOM observations",
+    "Current four presentation/reading QA scopes",
+    "Independent full-deck visual and slide14 editorial verdict"
+  ]
+}

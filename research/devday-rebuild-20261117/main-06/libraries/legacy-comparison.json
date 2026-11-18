@@ -1,0 +1,33 @@
+[
+  {
+    "name": "results-prior",
+    "layout": "results",
+    "overflow": [],
+    "images": [
+      {
+        "src": "../../assets/examples/report.svg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/examples/dashboard.svg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/examples/poster-wide.svg",
+        "loaded": true
+      },
+      {
+        "src": "../../assets/examples/objects.svg",
+        "loaded": true
+      }
+    ],
+    "diagnostic": "경고4번 슬라이드 · slides.3.items.3.src미디어 프레임이 발표 영역을 벗어납니다. 항목이나 설명을 다음 장으로 나누세요."
+  },
+  {
+    "name": "quote",
+    "layout": "quote",
+    "overflow": [],
+    "images": [],
+    "diagnostic": null
+  }
+]

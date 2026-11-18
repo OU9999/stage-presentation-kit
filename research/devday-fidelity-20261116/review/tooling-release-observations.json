@@ -1,0 +1,35 @@
+[
+  {
+    "repo": "hakimel/reveal.js",
+    "url": "https://api.github.com/repos/hakimel/reveal.js/releases/latest",
+    "retrievedAt": "2026-11-16T05:55:17.318357+00:00",
+    "tag": "6.0.2",
+    "publishedAt": "2026-09-10T15:41:21Z",
+    "htmlUrl": "https://github.com/hakimel/reveal.js/releases/tag/6.0.2",
+    "prerelease": false,
+    "targetCommitish": "master",
+    "body": "## Changes\r\n\r\n* Fix cross-origin XSS through the postMessage API by validating iframe preview URLs\r\n* Fix Markdown attributes targeting the last list item instead of the whole list when separated by a blank line #3931\r\n* Prevent offscreen slides from receiving keyboard focus #1587\r\n* Fix pinch-to-zoom gestures incorrectly triggering slide changes\r\n* Improve slide layout and scroll view performance\r\n* Fix slides repeatedly loading and unloading while scrolling\r\n* Scale navigation controls, progress bars and media buttons for mobile viewports\r\n* Round slide scale to two decimal places\r\n* Update dependencies to address security vulnerabilities. Building and developing reveal.js now requires Node.js 22.12 or later\r\n\r\n**Full Changelog**: https://github.com/hakimel/reveal.js/compare/6.0.1...6.0.2"
+  },
+  {
+    "repo": "slidevjs/slidev",
+    "url": "https://api.github.com/repos/slidevjs/slidev/releases/latest",
+    "retrievedAt": "2026-11-16T05:55:17.326945+00:00",
+    "tag": "v53.1.0",
+    "publishedAt": "2026-11-05T06:30:52Z",
+    "htmlUrl": "https://github.com/slidevjs/slidev/releases/tag/v53.1.0",
+    "prerelease": false,
+    "targetCommitish": "main",
+    "body": "### &nbsp;&nbsp;&nbsp;🚀 Features\n\n- Remove the fixed max width of the presenter notes panel &nbsp;-&nbsp; by @Lorite and **Claude Opus 5.5** in https://github.com/slidevjs/slidev/issues/2766 [<samp>(dad64)</samp>](https://github.com/slidevjs/slidev/commit/dad645b9)\n\n### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes\n\n- Keep c#, c++ and f# languages in code blocks and magic move &nbsp;-&nbsp; by @NgoQuocViet2001 in https://github.com/slidevjs/slidev/issues/2760 [<samp>(73053)</samp>](https://github.com/slidevjs/slidev/commit/73053ab2)\n- Update comark to v0.4.0 to work with markdown-it v15 &nbsp;-&nbsp; by @Devehab in https://github.com/slidevjs/slidev/issues/2796 [<samp>(f72d6)</samp>](https://github.com/slidevjs/slidev/commit/f72d606e)\n- Keep v-drag source range when the block ends the slide &nbsp;-&nbsp; by @MurzNN and @cursoragent in https://github.com/slidevjs/slidev/issues/2808 [<samp>(827c5)</samp>](https://github.com/slidevjs/slidev/commit/827c529c)\n- Avoid title-renderer HMR full-reload on body-only edits &nbsp;-&nbsp; by @MurzNN and @cursoragent in https://github.com/slidevjs/slidev/issues/2785 [<samp>(9d1cd)</samp>](https://github.com/slidevjs/slidev/commit/9d1cddae)\n- Unquote font family names in webfont provider URLs &nbsp;-&nbsp; by @giaBaoJS in https://github.com/slidevjs/slidev/issues/2749 [<samp>(3b1dc)</samp>](https://github.com/slidevjs/slidev/commit/3b1dcdbb)\n- **client**:\n  - Keep view-transition mode when only clicks change &nbsp;-&nbsp; by @RTRowe in https://github.com/slidevjs/slidev/issues/2815 [<samp>(50da4)</samp>](https://github.com/slidevjs/slidev/commit/50da4e98)\n  - Hide drawing toolbar item in context menu when drawings are disabled &nbsp;-&nbsp; by @lazerg in https://github.com/slidevjs/slidev/issues/2801 [<samp>(a0f9f)</samp>](https://github.com/slidevjs/slidev/commit/a0f9feb1)\n  - Auto-scroll presenter notes on click in builds &nbsp;-&nbsp; by @aldesantis and **Claude Opus 5.5** in https://github.com/slidevjs/slidev/issues/2772 [<samp>(71a0f)</samp>](https://github.com/slidevjs/slidev/commit/71a0f7e3)\n- **export**:\n  - Create the output directory for every format &nbsp;-&nbsp; by @stn1slv in https://github.com/slidevjs/slidev/issues/2745 [<samp>(f77d3)</samp>](https://github.com/slidevjs/slidev/commit/f77d30ed)\n- **parser**:\n  - Ignore a leading UTF-8 BOM &nbsp;-&nbsp; by @b84330808 and **Claude Opus 5.5** in https://github.com/slidevjs/slidev/issues/2802 [<samp>(13a9f)</samp>](https://github.com/slidevjs/slidev/commit/13a9f4aa)\n\n##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/slidevjs/slidev/compare/v53.0.0...v53.1.0)"
+  },
+  {
+    "repo": "marp-team/marp-cli",
+    "url": "https://api.github.com/repos/marp-team/marp-cli/releases/latest",
+    "retrievedAt": "2026-11-16T05:55:17.339906+00:00",
+    "tag": "v4.5.1",
+    "publishedAt": "2026-09-06T00:33:58Z",
+    "htmlUrl": "https://github.com/marp-team/marp-cli/releases/tag/v4.5.1",
+    "prerelease": false,
+    "targetCommitish": "main",
+    "body": "### Changed\n\n- Optimize the size of standalone binaries ([#736](https://github.com/marp-team/marp-cli/pull/736))\n- Use Node.js native TypeScript support in the standalone binary ([#736](https://github.com/marp-team/marp-cli/pull/736))\n- Prefer the full build [`@marp-team/marp-core/full`](https://github.com/marp-team/marp-core#entrypoints) if the user has installed [Marp Core v5](https://github.com/marp-team/marp-core/releases/tag/v5.0.0) ([#739](https://github.com/marp-team/marp-cli/pull/739))\n- Upgrade Node.js and dependent packages ([#738](https://github.com/marp-team/marp-cli/pull/738))"
+  }
+]

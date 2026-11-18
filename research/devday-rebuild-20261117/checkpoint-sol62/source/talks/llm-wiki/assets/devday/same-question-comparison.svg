@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="610" viewBox="0 0 1440 610" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">같은 원자료와 이번 답 사이에서 비교하는 현재 입력과 남는 문서</title>
+  <desc id="desc">공통 원자료와 이번 답을 각각 한 번만 놓고, 두 교육용 흐름의 다른 작업 대상을 비교한다. 기본 검색-생성 예는 현재 입력에서 종합한다. 위키를 유지하는 예는 남아 다시 읽는 문서가 있다. 세 좁은 문서 카드를 한 넓은 계획 문서 발췌로 대체했다. 팩의 wiki/syntheses/study-plan.md 처음 구간에서 다음 스터디의 첫 시도라는 제목과 참여자 배경과 활동 길이는 아직 미정이다라는 문장을 정확 발췌했다. 조건 추가 전 처음 계획이며 입문자15분 조건을 반영한 최종 계획이 아니다. 두 흐름 모두 이번 답을 만든다. RAG도 요약·답 저장·관계 정리를 붙일 수 있고 위키도 검색을 쓰며 함께 쓸 수 있다. 실제 실행 UI·모델 답·성능 비교가 아닌 발표팀의 설명용 재구성이다.</desc>
+  <style>
+    text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.3px}
+    .route{font-size:36px;fill:#b6b6b2;font-weight:400}
+    .common{font-size:39px;fill:#e3e5e1;font-weight:500}
+    .current{font-size:50px;fill:#f6f6f4;font-weight:500}
+    .difference{font-size:52px;fill:#f6f6f4;font-weight:500}
+    .state{font-size:37px;fill:#b8c7c8;font-weight:400}
+    .document{font-size:42px;fill:#f6f6f4;font-weight:500}
+    .excerpt{font-size:43px;fill:#f6f6f4;font-weight:500}
+    .flow{fill:none;stroke:#8f9a97;stroke-width:2.5;marker-end:url(#flow-arrow)}
+  </style>
+  <defs><marker id="flow-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M1 1L6 4L1 7" fill="none" stroke="#8f9a97" stroke-width="1.3"/></marker></defs>
+  <g data-object-id="shared-related-materials" data-source-role="related-raw-materials">
+    <path d="M20 273H240V393H20Z" fill="#171919" stroke="#626969" stroke-width="1.5"/>
+    <path d="M30 263H250V383" fill="none" stroke="#626969" stroke-width="1.5"/>
+    <text class="common" x="52" y="323">관련</text><text class="common" x="52" y="372">원자료</text>
+  </g>
+  <g data-flow-role="two-educational-examples">
+    <path class="flow" d="M250 333H290V142H325"/>
+    <path class="flow" d="M250 333H290V475H325"/>
+    <path d="M1150 142H1190V333M1150 475H1190V333" fill="none" stroke="#8f9a97" stroke-width="2.5"/>
+    <path class="flow" d="M1190 333H1215"/>
+  </g>
+  <g data-object-id="current-input">
+    <text class="route" x="340" y="60">기본 검색-생성 예</text>
+    <rect x="340" y="82" width="810" height="120" rx="2" fill="none" stroke="#737f7b" stroke-width="1.5"/>
+    <text class="current" x="380" y="160">현재 입력에서 종합</text>
+  </g>
+  <g data-object-id="persistent-plan-document" data-source-role="persistent-connected-documents" data-logical-source="wiki/syntheses/study-plan.md — 처음">
+    <text class="route" x="340" y="263">위키를 유지하는 예</text>
+    <text class="difference" x="340" y="330">남아 다시 읽는 문서</text>
+    <rect x="340" y="359" width="810" height="233" rx="2" fill="#102631"/>
+    <text class="state" x="380" y="405">처음 계획</text>
+    <text class="document" x="380" y="462">다음 스터디의 첫 시도</text>
+    <text class="excerpt" x="380" y="521" data-excerpt-kind="exact-source" data-source-text="참여자 배경과 활동 길이는 아직 미정이다."><tspan x="380">참여자 배경과 활동 길이는</tspan><tspan x="380" dy="55">아직 미정이다.</tspan></text>
+  </g>
+  <g data-object-id="shared-current-answer">
+    <rect x="1230" y="273" width="190" height="120" rx="2" fill="none" stroke="#737f7b" stroke-width="1.5"/>
+    <text class="common" x="1257" y="346">이번 답</text>
+  </g>
+</svg>

@@ -55,6 +55,8 @@ node scripts/design-review.cjs check --source talks/my-topic/slides.md --record 
 
 `reviewedAt`은 파싱 가능한 날짜 또는 시각입니다. 정확한 검토 시각을 모르면 확인 날짜를 쓰고 그 한계를 명시합니다. 과거 감사의 판정·이유를 옮길 때 출처와 실제 검토자를 보존하며, 기록 작성자를 새 시각 검토자로 바꾸지 않습니다.
 
+`reason`에는 실제로 먼저 읽힌 주역과 다음 근거·관계, 남은 오독을 적습니다. 예: ‘기존 문서 이름이 요약 입구보다 먼저 읽히고 세 관계를 따라갈 수 있다. 원자료와 갱신 대상이 구별되며 자동 갱신 순서로 보이지 않는다.’ 대안을 채택했다면 [DESIGN의 시안 선택](DESIGN.md#역할에서-시안으로-연결하기)처럼 바뀐 크기·거리·표면과 선택 이유를 함께 적을 수 있습니다. ‘83항 통과’, ‘검정 배경’, ‘더 예쁨’만으로 시각 판정 이유를 대신하지 않습니다. 이는 기존 `reason`의 작성 예이며 새 필수 schema나 자동 미감 판정이 아닙니다.
+
 manifest의 장별 관측은 0부터 시작하는 `index`, PNG `filename`, `viewport`, `revision`, `stage.width/height`를 가집니다. 현재 한 기록의 capture.manifest는 한 모드·viewport를 대응합니다. 다른 모드·viewport의 검토는 별도 기록으로 남깁니다.
 
 현재 캡처 형식의 예시는 [before manifest](research/design-governance-20261102/evidence/before/manifest.json)이며, 캡처 자동화·브라우저 사용 자체는 이 CLI의 기능이 아닙니다.

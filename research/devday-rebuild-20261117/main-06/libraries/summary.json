@@ -1,0 +1,35 @@
+[
+  {
+    "name": "photo",
+    "url": "http://127.0.0.1:4336/presentations/photo-essay/#4",
+    "layout": "blocks",
+    "overflow": [],
+    "missingImages": 0,
+    "diagnostic": null
+  },
+  {
+    "name": "exhibit",
+    "url": "http://127.0.0.1:4336/presentations/community-exhibit/#5",
+    "layout": "blocks",
+    "variant": "seoul",
+    "overflow": [],
+    "missingImages": 0,
+    "diagnostic": null
+  },
+  {
+    "name": "results",
+    "url": "http://127.0.0.1:4336/examples/product-launch/#4",
+    "layout": "results",
+    "overflow": [],
+    "missingImages": 0,
+    "diagnostic": "경고4번 슬라이드 · slides.3.items.3.src미디어 프레임이 발표 영역을 벗어납니다. 항목이나 설명을 다음 장으로 나누세요."
+  },
+  {
+    "name": "quote",
+    "url": "http://127.0.0.1:4336/examples/engineering-review/#7",
+    "layout": "closing",
+    "overflow": [],
+    "missingImages": 0,
+    "diagnostic": null
+  }
+]

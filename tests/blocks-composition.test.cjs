@@ -92,6 +92,151 @@ test('explicit quote preserves short framing prose while auto and unsafe shapes 
   }
 });
 
+test('explicit selected-passage splits preserve one source image, native quotation, hardbreaks and provenance in order', () => {
+  const content = '![자료의 제목과 선택 위치](source.svg "자료 출처")\n\n시간만으로 고른 것일까요?\n\n> 목차와 연결을 따라\\\n> **다음 질문의 근거를 찾습니다.** [원문](https://example.com/source)\n\n발표팀의 설명용 예입니다.';
+  for (const variant of ['evidence', 'quote-card']) {
+  const source = control('compose: split\nvariant: ' + variant + '\nfit: contain') + content;
+  const canonical = slide(source.replace(/^<!-- stage-slide\n[\s\S]*?^-->$/m, match => match.split('\n').map(() => '').join('\n')));
+  for (const preview of [false, true]) {
+    const result = preserved(source, { preview });
+    assert.deepEqual(validateDeck({ slides: [result.parsed] }), []);
+    assert.equal(result.composition, 'split'); assert.equal(result.variant, variant); assert.equal(result.warnings.length, 0);
+    assert.deepEqual(result.parsed.blocks, canonical.blocks, 'the variant leaves canonical reading nodes and positions intact');
+    const body = findClass(result.body, 'markdown-body')[0], copy = findClass(body, 'md-copy')[0];
+    assert.deepEqual(body.children.map(node => node.tagName), ['figure', 'div']);
+    assert.deepEqual(copy.children.map(node => node.tagName), ['p', 'blockquote', 'p']);
+    assert.equal(copy.children[1].dataset.sourceLine, String(result.parsed.blocks[2].position.line));
+    assert.equal(nodes(copy.children[1]).filter(node => node.tagName === 'br').length, 1);
+    assert.equal(nodes(copy.children[1]).find(node => node.tagName === 'strong').textContent, '다음 질문의 근거를 찾습니다.');
+    assert.equal(copy.children[0].dataset.copyRole, 'body'); assert.equal(copy.children[2].dataset.copyRole, 'body');
+    assert.equal(findClass(copy, 'md-meta').length, 0);
+    assert.equal(nodes(body).find(node => node.tagName === 'figcaption').textContent, '자료 출처');
+    assert.equal(nodes(copy).filter(node => node.tagName === 'a').length, preview ? 0 : 1);
+  }
+  }
+  assert.equal(preserved(control('compose: split') + content).composition, 'document');
+  assert.equal(preserved(content).composition, 'document', 'auto does not acquire the new quotation eligibility');
+  assert.equal(preserved(control('compose: split') + '![원본](source.svg)\n\n보통 문단\n\n- 항목').composition, 'split');
+});
+
+test('selected-passage splits reject incompatible content without loss and are limited to explicit split', () => {
+  for (const variant of ['evidence', 'quote-card']) {
+  for (const content of [
+    '앞 설명\n\n![자료](source.svg)\n\n> 인용',
+    '![자료](source.svg)\n\n일반 문단만',
+    '![자료](source.svg)\n\n> 첫 인용\n\n사이 문단\n\n> 둘째 인용',
+    '![자료](source.svg)\n\n> 인용\n\n- 목록',
+    '![자료](source.svg)\n\n> - 인용 안 목록',
+    '![자료](source.svg)\n\n> ![다른 자료](other.svg)',
+    '![자료](source.svg)\n\n> 인용\n\n![추가 자료](other.svg)',
+    '![자료](source.svg)\n\n> ' + '가'.repeat(221),
+    '![자료](source.svg)\n\n' + '가'.repeat(201) + '\n\n> 짧은 인용',
+    '![자료](source.svg)\n\n' + '가'.repeat(181) + '\n\n> ' + '나'.repeat(200)
+  ]) {
+    const result = preserved(control('compose: split\nvariant: ' + variant) + content);
+    assert.equal(result.composition, 'document'); assert.equal(result.variant, ''); assert.ok(result.warnings.length >= 1);
+  }
+  for (const compose of ['auto', 'document', 'media', 'quote']) {
+    const result = preserved(control('compose: ' + compose + '\nvariant: ' + variant) + '![자료](source.svg)\n\n> 인용');
+    assert.equal(result.composition, 'document'); assert.equal(result.variant, ''); assert.ok(result.warnings.length >= 1);
+  }
+  }
+});
+
+test('quote-first card keeps the authored quote, adjacent support and article in DOM order', () => {
+  const content = '> 인용 줄 하나\\\n> 인용 다음 줄\n\n![가상 기사](article.svg)';
+  const preview = control('compose: split\nvariant: quote-card\nsupport:\n  label: 기사 전문 읽기\n  href: ./materials/notes.md#기사') + content;
+  const parsed = freeze(slide(preview));
+  assert.equal(planSlide(parsed).quoteFirst, true);
+  const rendered = renderer.renderSlide(parsed);
+  assert.equal(rendered.variant, 'quote-card');
+  const body = findClass(rendered.body, 'markdown-body')[0];
+  assert.equal(body.dataset.quoteFirst, 'true');
+  assert.deepEqual(body.children.map(n=>n.tagName), ['div', 'figure']);
+  const [quote, support] = body.children[0].children;
+  assert.equal(quote.tagName, 'blockquote');
+  assert.equal(quote.dataset.sourceLine, String(parsed.blocks[0].position.line));
+  assert.equal(support.dataset.copyRole, 'support');
+  assert.equal(support.children[0].attrs.href, './materials/notes.md#기사');
+  assert.equal(planSlide(slide(control('compose: split\nvariant: evidence') + content)).composition, 'document');
+});
+
+test('record and revision opt into two complete native document fields', () => {
+  const content = '# 기록\n\n## 첫 항목\n\n한 문장\n\n## 바뀐 항목\n\n**다른 문장**';
+  for (const variant of ['record', 'revision']) {
+    const source = control('compose: editorial\nvariant: ' + variant) + content;
+    const result = preserved(source);
+    assert.equal(result.variant, variant);
+    assert.deepEqual(findClass(result.body, 'md-group').map(node=>node.children.map(child=>child.tagName)), [['h2','p'],['h2','p']]);
+    assert.deepEqual(validateDeck({slides:[result.parsed]}),[]);
+    assert.equal(preserved(source + '\n\n추가 문단').composition,'document');
+  }
+});
+
+test('comparison gallery keeps two independent images and native labels in source order', () => {
+  const content = '![첫 작업](first.svg "이번 답")\n\n![두번째 작업](second.svg "다시 쓸 지식")';
+  const source = control('compose: gallery\nvariant: comparison\nfit: contain') + content;
+  const canonical = slide(source.replace(/^<!-- stage-slide\n[\s\S]*?^-->$/m, match => match.split('\n').map(() => '').join('\n')));
+  for (const preview of [false, true]) {
+    const result = preserved(source, { preview });
+    assert.deepEqual(validateDeck({ slides: [result.parsed] }), []);
+    assert.equal(result.composition, 'gallery'); assert.equal(result.variant, 'comparison'); assert.equal(result.warnings.length, 0);
+    assert.deepEqual(result.parsed.blocks, canonical.blocks);
+    const figures = findClass(result.body, 'md-media');
+    assert.deepEqual(figures.map(figure => nodes(figure).find(node => node.tagName === 'img').attrs.src), ['first.svg', 'second.svg']);
+    assert.deepEqual(figures.map(figure => nodes(figure).find(node => node.tagName === 'figcaption').textContent), ['이번 답', '다시 쓸 지식']);
+    assert.ok(figures.every(figure => figure.tagName === 'figure' && figure.children.find(node => node.tagName === 'figcaption').dataset.copyRole === 'figure-label'));
+    assert.deepEqual(figures.map(figure => nodes(figure).find(node => node.tagName === 'figcaption').dataset.sourceLine), canonical.blocks.map(block => String(block.position.line)));
+  }
+  assert.equal(preserved(content).composition, 'gallery', 'ordinary auto gallery still works');
+  assert.equal(preserved(control('compose: gallery\nvariant: strip') + content).variant, 'strip');
+  const ordinary = preserved(control('compose: gallery') + content);
+  assert.ok(nodes(ordinary.body).filter(node => node.tagName === 'figcaption').every(node => node.dataset.copyRole === undefined), 'ordinary provenance captions do not acquire comparison-label semantics');
+});
+
+test('comparison rejects extra prose, mixed image paragraphs, wrong counts and non-gallery requests without loss', () => {
+  const two = '![첫 작업](first.svg)\n\n![둘째 작업](second.svg)';
+  for (const content of [
+    '![한 작업](one.svg)',
+    two + '\n\n![셋째 작업](third.svg)',
+    '앞 설명\n\n' + two,
+    two + '\n\n뒤 설명',
+    '![첫 작업](first.svg)\n![둘째 작업](second.svg)',
+    '![첫 작업](first.svg) 설명\n\n![둘째 작업](second.svg)'
+  ]) {
+    const result = preserved(control('compose: gallery\nvariant: comparison') + content);
+    assert.equal(result.composition, 'document'); assert.equal(result.variant, ''); assert.ok(result.warnings.length >= 1);
+  }
+  for (const compose of ['auto', 'split', 'document', 'media', 'mosaic']) {
+    const result = preserved(control('compose: ' + compose + '\nvariant: comparison') + two);
+    assert.equal(result.composition, 'document'); assert.equal(result.variant, ''); assert.ok(result.warnings.length >= 1);
+  }
+});
+
+test('declaration is explicit message-only and keeps native hardbreaks, emphasis and source positions', () => {
+  const content = '지식을 남기는 방식이\\\n**다음 질문을 바꿉니다**\n====================';
+  const source = control('compose: message\nvariant: declaration') + content;
+  const canonical = slide(source.replace(/^<!-- stage-slide\n[\s\S]*?^-->$/m, match => match.split('\n').map(() => '').join('\n')));
+  for (const preview of [false, true]) {
+    const result = preserved(source, { preview });
+    assert.equal(result.composition, 'message'); assert.equal(result.variant, 'declaration'); assert.equal(result.warnings.length, 0);
+    assert.deepEqual(validateDeck({ slides: [result.parsed] }), []);
+    assert.deepEqual(result.parsed.heading, canonical.heading); assert.deepEqual(result.parsed.blocks, canonical.blocks);
+    const heading = findClass(result.body, 'md-heading')[0];
+    assert.equal(heading.dataset.sourceLine, String(canonical.heading.position.line));
+    assert.equal(nodes(heading).filter(node => node.tagName === 'br').length, 1);
+    assert.equal(nodes(heading).find(node => node.tagName === 'strong').textContent, '다음 질문을 바꿉니다');
+  }
+  for (const compose of ['auto', 'closing', 'document', 'quote', 'split', 'gallery']) {
+    const result = preserved(control('compose: ' + compose + '\nvariant: declaration') + content);
+    assert.equal(result.composition, 'document'); assert.equal(result.variant, ''); assert.ok(result.warnings.length);
+  }
+  const unsuitable = preserved(control('compose: message\nvariant: declaration') + '# 제목\n\n- 목록');
+  assert.equal(unsuitable.composition, 'document'); assert.ok(unsuitable.warnings.length);
+  assert.equal(preserved(content).composition, 'message');
+  assert.equal(preserved(control('compose: message') + content).variant, '');
+});
+
 test('the two authored stories render sixteen canonical slides with the intended distinct rhythm', () => {
   const expected = {
     'product-notes': ['message', 'split', 'document', 'editorial', 'quote', 'message', 'document', 'closing'],
@@ -310,4 +455,25 @@ test('composition styles use the shared palette and flatten all visual wrappers 
   for (const hook of ['markdown-composition', 'markdown-body', 'md-grid', 'md-group']) assert.ok(css.includes('body[data-mode="read"] #slideStage .layout-blocks .' + hook));
   assert.match(css, /height:auto; max-height:none; object-fit:contain/);
   assert.match(css, /\.layout-blocks:not\(\.is-quiet\) \.slide-body \{ top:0; bottom:48px; \}/);
+});
+
+test('explicit quiet changes repeated chrome only while rendered body, links and reading copy remain present', () => {
+  const content = '# 읽을 자료\n\n필수 책임과 조건을 남깁니다.\n\n[공개 해설](./materials/notes.md)';
+  for (const quiet of [true, false]) {
+    const result = preserved(control('compose: document\nquiet: ' + quiet) + content);
+    assert.equal(result.quiet, quiet);
+    assert.ok(result.body.textContent.includes('필수 책임과 조건을 남깁니다.'));
+    assert.ok(nodes(result.body).some(n => n.tagName === 'a' && n.attrs.href === './materials/notes.md'));
+    assert.ok(!nodes(result.body).some(n => 'hidden' in n.attrs || n.style.display === 'none'));
+  }
+});
+
+test('explicit native support is a source-addressed sibling navigation link while authored body and previews stay intact', () => {
+  const source = control('compose: document\nsupport:\n  label: "자료 본문을 글로 읽기"\n  href: "./materials/notes.md#핵심"') + '# 자료\n\n필수 책임과 원문을 보존합니다.';
+  const parsed=slide(source),before=structuredClone(parsed),rendered=renderer.renderSlide(parsed);
+  assert.deepEqual(parsed,before);
+  const support=findClass(rendered.body,'markdown-support');assert.equal(support.length,1);assert.equal(support[0].dataset.copyRole,'support');assert.equal(Number(support[0].dataset.sourceLine),1);
+  const link=nodes(support[0]).find(n=>n.tagName==='a');assert.equal(link.attrs.href,'./materials/notes.md#핵심');assert.equal(link.textContent,'자료 본문을 글로 읽기');
+  const body=findClass(rendered.body,'markdown-body')[0];assert.equal(body.textContent,'필수 책임과 원문을 보존합니다.');assert.ok(!nodes(body).includes(support[0]));
+  const preview=renderer.renderSlide(parsed,{preview:true});assert.ok(!nodes(preview.body).some(n=>n.tagName==='a'));assert.ok(preview.body.textContent.includes('필수 책임과 원문을 보존합니다.'));
 });

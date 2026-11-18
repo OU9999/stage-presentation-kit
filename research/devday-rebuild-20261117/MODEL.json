@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-11-17T01:12:16Z",
+  "officialSources": [
+    "https://openai.com/index/introducing-gpt-6-1-sol/",
+    "https://developers.openai.com/api/docs/models"
+  ],
+  "latestAvailableSol": "gpt-6.1-sol",
+  "catalog": [
+    "gpt-6.1-sol",
+    "gpt-6-astra",
+    "gpt-6.1-terra",
+    "gpt-6-sol",
+    "gpt-6-luna"
+  ],
+  "catalogEvidence": "Current collaboration.spawn_agent developer tool metadata",
+  "concurrency": 4,
+  "selection": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "xhigh",
+    "fork_turns": "none",
+    "reason": "Two repeated failed aesthetic approvals; unresolved original/current visual fidelity conflict, substantive design and integration work."
+  }
+}

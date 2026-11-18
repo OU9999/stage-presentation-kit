@@ -1,0 +1,102 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "slide": 2,
+    "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B2%80%EC%83%89%EA%B3%BC-%EC%A7%80%EC%86%8D-%EB%AC%B8%EC%84%9C",
+    "target": "검색과 지속 문서",
+    "width": 1440
+  },
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "slide": 3,
+    "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%8B%A4%EC%9D%8C-%EB%AA%A8%EC%9E%84%EC%9D%98-%EC%B6%9C%EB%B0%9C%EC%A0%90",
+    "target": "다음 모임의 출발점",
+    "width": 1440
+  },
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "slide": 4,
+    "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%84%A4-%EA%B0%80%EC%A7%80-%EC%9E%91%EC%97%85-%EA%B2%B0%EA%B3%BC",
+    "target": "네 가지 작업 결과",
+    "width": 1440
+  },
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "slide": 7,
+    "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+    "target": "세 무방향 관계",
+    "width": 1440
+  },
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "slide": 10,
+    "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80",
+    "target": "시작 요청과 선택 기준",
+    "width": 1440
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "slide": 2,
+    "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B2%80%EC%83%89%EA%B3%BC-%EC%A7%80%EC%86%8D-%EB%AC%B8%EC%84%9C",
+    "target": "검색과 지속 문서",
+    "width": 390
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "slide": 3,
+    "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%8B%A4%EC%9D%8C-%EB%AA%A8%EC%9E%84%EC%9D%98-%EC%B6%9C%EB%B0%9C%EC%A0%90",
+    "target": "다음 모임의 출발점",
+    "width": 390
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "slide": 4,
+    "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%84%A4-%EA%B0%80%EC%A7%80-%EC%9E%91%EC%97%85-%EA%B2%B0%EA%B3%BC",
+    "target": "네 가지 작업 결과",
+    "width": 390
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "slide": 7,
+    "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+    "target": "세 무방향 관계",
+    "width": 390
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "slide": 10,
+    "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80",
+    "target": "시작 요청과 선택 기준",
+    "width": 390
+  }
+]

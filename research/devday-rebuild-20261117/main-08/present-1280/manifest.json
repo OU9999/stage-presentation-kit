@@ -1,0 +1,2828 @@
+{
+  "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+  "source": "talks/llm-wiki/slides.md",
+  "scopeSlides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "captureMode": "presentation-stage-only",
+  "hashes": {
+    "app.js": "d6f11a6d0307337a020153ff4c22c6220bdfb23a717c2abc85be53580d87de8e",
+    "blocks.css": "76f7830ea92d4733dd855131ee5d4aa635558deb6a59870fa9602eec97713cd9",
+    "blocks.js": "1d49586a5c53f1451b0c5b3f55b253d87dd7e7c310c97b5d0e496deed0278fc5",
+    "deck-model.js": "47839080d1a8f9a6c2c1ea9ea94c07dbfe4f20234ca98344b33805f0269e168f",
+    "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+    "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+    "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+    "lib/markdown-deck.cjs": "8bc98a47a5471b75eb74e40b830d2caa073733412d1b6a0e0eacc8c42a15609b",
+    "lib/markdown-document.cjs": "85a983b00431fa1387a9917d701a4a8cd42d47a132e04fb09b53e2061ef614e9",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+    "ou.config.json": "41566e632cced20b479a9b36f442ffc201792b91961fae9c7ca892c409ebc564",
+    "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+    "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+    "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "scripts/llm-wiki-keynote-qa.cjs": "7fb9b9eb5547c99d581c6581eff437574392b47872b2618588a9bb7771fe595a",
+    "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+    "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+    "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+    "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+    "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+    "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+    "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+    "styles.css": "fdc4f31752a98142da35942a030f5d17fb1daec04e7a129ede5b70aa6c364e58",
+    "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+    "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+    "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+    "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+    "talks/llm-wiki/assets/design/ingest-map.svg": "1ea6a569bab645b16c29d332950aaa5928fcd0b4b6737ff12005bcdf3765764b",
+    "talks/llm-wiki/assets/design/knowledge-layers.svg": "64c1fd12553932973b7340a0930c2617788ad561c1e09329da9171644d4f0a56",
+    "talks/llm-wiki/assets/design/raw-wiki-rules.svg": "87b989db720d81d4ec21ed604ac24c66623ee2faa934166071449003133d900d",
+    "talks/llm-wiki/assets/devday-current/answer-window.svg": "029e64d0c262466d4a29dd569311f7fc0c4bdb9437d38a038eca15d9d83ff05f",
+    "talks/llm-wiki/assets/devday-current/condition-article.svg": "f256a72a878989acada6fc06e0ceeb04d1cc0fca3120a8c0517861338175aa6d",
+    "talks/llm-wiki/assets/devday-current/connected-knowledge.svg": "9631dd0886e8848ceed72e5102f1e155aeef34cc6a94612ddcb735cd7e62b003",
+    "talks/llm-wiki/assets/devday-current/output-brief.svg": "206a4c7d734567d9b82804bdb786367914c0eef80617eb2d51eb2f28e94dc6ca",
+    "talks/llm-wiki/assets/devday-current/output-map.svg": "9486bec524482e0aede79917d039f17ea5e1c38597e26425c97f48e2e6460e2b",
+    "talks/llm-wiki/assets/devday-current/output-plan.svg": "e91eecd83e76dd2c4af2f258313f0cd3c5cbbe478dae0f5fc95d0200e42ca10a",
+    "talks/llm-wiki/assets/devday-current/output-question.svg": "7803208f6b2c5de00abb2a7e562a2ac6513d0b117e20b97a8cd730d411484bce",
+    "talks/llm-wiki/assets/devday-current/wiki-window.svg": "11c0efa5df6c2b6496886e09ac36ee297636cb33756f38e849bd75aee436b6de",
+    "talks/llm-wiki/assets/examples/course.txt": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+    "talks/llm-wiki/assets/examples/reading.txt": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+    "talks/llm-wiki/assets/examples/team.txt": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+    "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "talks/llm-wiki/assets/expanded/agentic-routing.svg": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+    "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+    "talks/llm-wiki/assets/expanded/five-layers.svg": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+    "talks/llm-wiki/assets/expanded/ingest-map.svg": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+    "talks/llm-wiki/assets/expanded/knowledge-layers.svg": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+    "talks/llm-wiki/assets/expanded/purpose-questions.svg": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+    "talks/llm-wiki/assets/expanded/query-reading.svg": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+    "talks/llm-wiki/assets/expanded/rag-path.svg": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+    "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+    "talks/llm-wiki/assets/expanded/reflection-layers.svg": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+    "talks/llm-wiki/assets/expanded/related-updates.svg": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+    "talks/llm-wiki/assets/expanded/review-return.svg": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+    "talks/llm-wiki/assets/expanded/rules-graph.svg": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+    "talks/llm-wiki/assets/expanded/saved-question.svg": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+    "talks/llm-wiki/assets/expanded/session-plan.svg": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+    "talks/llm-wiki/assets/expanded/shared-workspace.svg": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+    "talks/llm-wiki/assets/expanded/source-concept.svg": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+    "talks/llm-wiki/assets/expanded/wiki-path.svg": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+    "talks/llm-wiki/assets/expanded/work-context.svg": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+    "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+    "talks/llm-wiki/assets/remake/ingest-map.svg": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+    "talks/llm-wiki/assets/remake/session-plan.svg": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+    "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+    "talks/llm-wiki/assets/typography/ingest-map.svg": "a3a65af7ab28b3eb7a0720d3ac9588b3a7c4dba0af3b6833a1ee89676454da8e",
+    "talks/llm-wiki/assets/typography/knowledge-layers.svg": "00cc9503c0ea5f60b60e902f45f12622da5d4696ac03d8b7296d6bf2953ab493",
+    "talks/llm-wiki/assets/typography/purpose-questions.svg": "22e3b2b1ec42fed0eeb887c9f1d7c5d8778279dc54b992897e8171b3eaf1fef0",
+    "talks/llm-wiki/assets/typography/rag-path.svg": "0aefea443a6e3de3f103c5cdbcf9d16fe025af213fd4266f213dfd28df4c5c63",
+    "talks/llm-wiki/assets/typography/raw-wiki-rules.svg": "971d2b2c25e3d9e6ae3cd17abe5c1d0aa21fc5a71e7eaa4a98c7abb60c1719ba",
+    "talks/llm-wiki/assets/typography/related-updates.svg": "e240f730668766cb72612e6d4a417127473bdd8e2d04b8a0086307e361bce67f",
+    "talks/llm-wiki/assets/typography/session-plan.svg": "a7afd1388934c61261926c78cdc0c70fb51bd62219d3b7b59f4c8ea92349a955",
+    "talks/llm-wiki/assets/typography/source-concept.svg": "cac31a82b5a0225f8bf3fb14fd713b29482bf2e84c7114a8131d3b6216195862",
+    "talks/llm-wiki/assets/typography/wiki-path.svg": "53636045579a66dfdee4f53136cf31365fc00809983cb56e0b14b224c5052840",
+    "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+    "talks/llm-wiki/materials/demo-log.md": "8786016513450b7fb35bd88d8dd2141b53b7273ede735fe9eb24b007999195ab",
+    "talks/llm-wiki/materials/diagram-reading.md": "32292ae71a01d74c66c77b5367a156c8a1b30d305a2539e07ae777d273a0867c",
+    "talks/llm-wiki/materials/index.md": "200676275753e7f54386a4b704005b069d1a3aee21ea567a5b2d528fdc12b7b3",
+    "talks/llm-wiki/materials/keynote-notes.md": "cf2fc47f3737a601c863318263ef88ffaa23debff22b91b19962e77868398052",
+    "talks/llm-wiki/materials/reference-library.md": "60b10db89b665dbf91bf35715059598408b983abb9e372f3c3436994dcf3df44",
+    "talks/llm-wiki/materials/session-plan.md": "24b1aadb2d479b3a5d54b5296c3c4562662bff09d03cda47541daad2187db755",
+    "talks/llm-wiki/materials/speaker-script.md": "81a9cfca01a329c5f41196b0f737c73ef95af07aa3c5f0111534f07ce92cbcc9",
+    "talks/llm-wiki/materials/study-guide.md": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+    "talks/llm-wiki/materials/visual-appendix.md": "c213552b5d3812d357368561e20853457c8028518a5c268f3e7c98341acd583b",
+    "talks/llm-wiki/materials/workshop.md": "c5447d32a329cb306ef5517fff2d7d82f9583271216266a828c73ba29250a8c0",
+    "talks/llm-wiki/slides.md": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "talks/llm-wiki/qa/keynote-current.json": "bf8be6214572a59caeae04fc500e290de6a189dd8a7f40cc61b2b81eeb1aa956",
+    "talks/llm-wiki/qa/keynote-coverage.json": "2fb45ec138b5932e6cc5d34475847405b8616006003cf8cf23cf68ced92fbf17",
+    "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+  },
+  "observations": [
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?capture=d217553b8a0d#1",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "0",
+      "layout": "blocks",
+      "composition": "message",
+      "variant": "declaration",
+      "heading": "지식을 남기는 방식이다음 질문을 바꾼다",
+      "headingSize": "126px",
+      "text": "지식을 남기는 방식이다음 질문을 바꾼다LLM Wiki의 정의와 개인 맥락",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "다음 질문을 바꾼다",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/main-08/present-1280/slide-01.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+      "theme": "stage",
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "15",
+          "text": "지식을 남기는 방식이다음 질문을 바꾼다",
+          "copyRole": null,
+          "logicalPixels": 126,
+          "rect": {
+            "x": 295.78907951435525,
+            "y": 286.06250550580626,
+            "width": 1008.4140696338449,
+            "height": 299.8750464749932
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "지식을 남기는 방식이",
+              "afterText": "다음 질문을 바꾼다",
+              "beforeGlyph": {
+                "x": 1197.351730466597,
+                "y": 286.56253251918815
+              },
+              "afterGlyph": {
+                "x": 349.2109564147733,
+                "y": 436.50005575668473
+              }
+            }
+          ],
+          "emphasis": [
+            {
+              "tag": "STRONG",
+              "text": "다음 질문을 바꾼다"
+            }
+          ],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "126px",
+          "fontWeight": "500",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 72.23999359130859,
+          "logicalBox": {
+            "x": 295.78907951435525,
+            "y": 286.06250550580626,
+            "width": 1008.4140696338449,
+            "height": 299.8750464749932
+          },
+          "lines": [
+            {
+              "text": "지식을 남기는 방식이",
+              "x": 295.78907951435525,
+              "y": 286.56253251918815,
+              "width": 1008.4140696338449,
+              "height": 148.4999854952777
+            },
+            {
+              "text": "다음 질문을 바꾼다",
+              "x": 349.2109564147733,
+              "y": 436.50005575668473,
+              "width": 901.5703158330089,
+              "height": 148.4999854952777
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "LLM Wiki의 정의와 개인 맥락",
+          "href": "materials/keynote-notes.html#정의와-개인-맥락"
+        }
+      ],
+      "bodyLogicalBox": {
+        "x": 275.0000066535423,
+        "y": 621.9375274957637,
+        "width": 1050.0000931495927,
+        "height": 0
+      },
+      "quoteCardLogicalBox": null,
+      "groupCount": 0,
+      "groups": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?capture=d217553b8a0d#2",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "1",
+      "layout": "blocks",
+      "composition": "gallery",
+      "variant": "comparison",
+      "headingSize": null,
+      "text": "이번 답다시 쓸 지식이번 답과 지속 문서의 비교 범위",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/029e64d0c262-answer-window.svg",
+          "alt": "한 번의 질문에서 독립된 답 하나가 남는 설명용 작업창",
+          "complete": true,
+          "naturalWidth": 720,
+          "naturalHeight": 420,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 278.8000183105469,
+            "y": 265.30615234375,
+            "width": 308.4532775878906,
+            "height": 179.9281005859375,
+            "right": 587.2532958984375,
+            "bottom": 445.2342529296875
+          },
+          "logicalBox": {
+            "x": 170.00002927558626,
+            "y": 270.88284788644904,
+            "width": 537.999950497645,
+            "height": 313.82811025824526
+          },
+          "frameLogicalBox": {
+            "x": 170.00002927558626,
+            "y": 270.88284788644904,
+            "width": 537.999950497645,
+            "height": 366.2265658912273
+          },
+          "frameBorder": 0,
+          "frameBackground": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "src": "assets/11c0efa5df6c-wiki-window.svg",
+          "alt": "메모·개념·비교·계획 문서가 서로 연결된 설명용 작업창",
+          "complete": true,
+          "naturalWidth": 720,
+          "naturalHeight": 420,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 692.7467041015625,
+            "y": 265.30615234375,
+            "width": 308.4532470703125,
+            "height": 179.9281005859375,
+            "right": 1001.199951171875,
+            "bottom": 445.2342529296875
+          },
+          "logicalBox": {
+            "x": 892.000126683446,
+            "y": 270.88284788644904,
+            "width": 537.9998972693064,
+            "height": 313.82811025824526
+          },
+          "frameLogicalBox": {
+            "x": 892.000126683446,
+            "y": 270.88284788644904,
+            "width": 537.9998972693064,
+            "height": 366.2265658912273
+          },
+          "frameBorder": 0,
+          "frameBackground": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/main-08/present-1280/slide-02.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+      "theme": "stage",
+      "typography": [
+        {
+          "tag": "FIGCAPTION",
+          "classes": "",
+          "dataField": null,
+          "sourceLine": "31",
+          "text": "이번 답",
+          "copyRole": "figure-label",
+          "logicalPixels": 26,
+          "rect": {
+            "x": 170.00002927558626,
+            "y": 600.7109709194956,
+            "width": 537.999950497645,
+            "height": 36.39844285818081
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "FIGURE",
+            "classes": "md-media block-node"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 14.90666534423828,
+          "logicalBox": {
+            "x": 170.00002927558626,
+            "y": 600.7109709194956,
+            "width": 537.999950497645,
+            "height": 36.39844285818081
+          },
+          "lines": [
+            {
+              "text": "이번 답",
+              "x": 402.3984689400667,
+              "y": 603.2109995297276,
+              "width": 73.20312439702272,
+              "height": 30.499997737795606
+            }
+          ]
+        },
+        {
+          "tag": "FIGCAPTION",
+          "classes": "",
+          "dataField": null,
+          "sourceLine": "33",
+          "text": "다시 쓸 지식",
+          "copyRole": "figure-label",
+          "logicalPixels": 26,
+          "rect": {
+            "x": 892.000126683446,
+            "y": 600.7109709194956,
+            "width": 537.9998972693064,
+            "height": 36.39844285818081
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "FIGURE",
+            "classes": "md-media block-node"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "26px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 14.90666534423828,
+          "logicalBox": {
+            "x": 892.000126683446,
+            "y": 600.7109709194956,
+            "width": 537.9998972693064,
+            "height": 36.39844285818081
+          },
+          "lines": [
+            {
+              "text": "다시 쓸 지식",
+              "x": 1099.046866753766,
+              "y": 603.2109995297276,
+              "width": 123.90641712866646,
+              "height": 30.499997737795606
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "이번 답과 지속 문서의 비교 범위",
+          "href": "materials/keynote-notes.html#검색과-지속-문서"
+        }
+      ],
+      "bodyLogicalBox": {
+        "x": 92.00002022676868,
+        "y": 78.00000904881757,
+        "width": 1416.0001724598171,
+        "height": 752.0001213606121
+      },
+      "quoteCardLogicalBox": null,
+      "groupCount": 0,
+      "groups": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?capture=d217553b8a0d#3",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "2",
+      "layout": "blocks",
+      "composition": "split",
+      "variant": "quote-card",
+      "headingSize": null,
+      "text": "다음 질문에 쓸 근거를연결된 문서에서다시 찾고 싶다다음 모임의 출발점 · 원문과 기사 전문",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/f256a72a8789-condition-article.svg",
+          "alt": "가상 모임 사례를 편집한 기사 ‘다음 모임의 출발점’",
+          "complete": true,
+          "naturalWidth": 900,
+          "naturalHeight": 650,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 258.73333740234375,
+            "y": 209.6659393310547,
+            "width": 444.80816650390625,
+            "height": 321.25030517578125,
+            "right": 703.54150390625,
+            "bottom": 530.9162445068359
+          },
+          "logicalBox": {
+            "x": 135.00000133070847,
+            "y": 173.8359561153639,
+            "width": 775.8282662172775,
+            "height": 560.3203494333976
+          },
+          "frameLogicalBox": {
+            "x": 135.00000133070847,
+            "y": 173.8359561153639,
+            "width": 775.8282662172775,
+            "height": 560.3203494333976
+          },
+          "frameBorder": 0,
+          "frameBackground": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/main-08/present-1280/slide-03.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+      "theme": "stage",
+      "typography": [
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "47",
+          "text": "다음 질문에 쓸 근거를연결된 문서에서다시 찾고 싶다",
+          "copyRole": null,
+          "logicalPixels": 58,
+          "rect": {
+            "x": 917.8282199086228,
+            "y": 367.281285421796,
+            "width": 500.1641295822613,
+            "height": 219.2343795452011
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "BLOCKQUOTE",
+            "classes": "block-node"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "다음 질문에 쓸 근거를",
+              "afterText": "연결된 문서에서다시 찾고 싶다",
+              "beforeGlyph": {
+                "x": 1342.6171895064588,
+                "y": 369.78131403202804
+              },
+              "afterGlyph": {
+                "x": 917.8282199086228,
+                "y": 442.85940506153594
+              }
+            },
+            {
+              "beforeText": "다음 질문에 쓸 근거를연결된 문서에서",
+              "afterText": "다시 찾고 싶다",
+              "beforeGlyph": {
+                "x": 1222.7891276860016,
+                "y": 442.85940506153594
+              },
+              "afterGlyph": {
+                "x": 917.8282199086228,
+                "y": 515.9375493193825
+              }
+            }
+          ],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "58px",
+          "fontWeight": "470",
+          "color": "rgb(8, 8, 8)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 33.253330383300785,
+          "logicalBox": {
+            "x": 917.8282199086228,
+            "y": 367.281285421796,
+            "width": 500.1641295822613,
+            "height": 219.2343795452011
+          },
+          "lines": [
+            {
+              "text": "다음 질문에 쓸 근거를",
+              "x": 917.8282199086228,
+              "y": 369.78131403202804,
+              "width": 473.80460462389254,
+              "height": 67.99994783622812
+            },
+            {
+              "text": "연결된 문서에서",
+              "x": 917.8282199086228,
+              "y": 442.85940506153594,
+              "width": 353.97654280343545,
+              "height": 68.00000106456677
+            },
+            {
+              "text": "다시 찾고 싶다",
+              "x": 917.8282199086228,
+              "y": 515.9375493193825,
+              "width": 315.87505924979445,
+              "height": 68.00000106456677
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "다음 모임의 출발점 · 원문과 기사 전문",
+          "href": "materials/keynote-notes.html#다음-모임의-출발점"
+        }
+      ],
+      "bodyLogicalBox": {
+        "x": 135.00000133070847,
+        "y": 78.00000904881757,
+        "width": 1329.999997338583,
+        "height": 752.0001213606121
+      },
+      "quoteCardLogicalBox": {
+        "x": 870.8282356109828,
+        "y": 227.00002155747714,
+        "width": 594.1640981775415,
+        "height": 454.0000431149543
+      },
+      "groupCount": 0,
+      "groups": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?capture=d217553b8a0d#4",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "3",
+      "layout": "results",
+      "variant": "unframed",
+      "heading": "읽은 자료가\n다음 작업으로",
+      "headingSize": "64px",
+      "text": "읽은 자료가\n다음 작업으로네 결과물의 전문과 확인 범위",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/e91eecd83e76-output-plan.svg",
+          "alt": "입문자 활동안의 시간과 할 일이 행으로 나뉜 일정표",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 529.7184448242188,
+            "y": 202.63363647460938,
+            "width": 251.21856689453125,
+            "height": 160.77969360351562,
+            "right": 780.93701171875,
+            "bottom": 363.413330078125
+          },
+          "logicalBox": {
+            "x": 607.6484864388831,
+            "y": 161.57031051017498,
+            "width": 438.1719578740282,
+            "height": 280.4297230236784
+          },
+          "frameLogicalBox": {
+            "x": 607.6484864388831,
+            "y": 161.57031051017498,
+            "width": 438.1719578740282,
+            "height": 280.4297230236784
+          },
+          "frameBorder": 0,
+          "frameBackground": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "src": "assets/9486bec52448-output-map.svg",
+          "alt": "주제 메모와 개념·비교, 질문 노트와 활동안을 연결한 지도",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 794.697021484375,
+            "y": 202.63363647460938,
+            "width": 251.218505859375,
+            "height": 160.77969360351562,
+            "right": 1045.91552734375,
+            "bottom": 363.413330078125
+          },
+          "logicalBox": {
+            "x": 1069.8204634751132,
+            "y": 161.57031051017498,
+            "width": 438.17185141735087,
+            "height": 280.4297230236784
+          },
+          "frameLogicalBox": {
+            "x": 1069.8204634751132,
+            "y": 161.57031051017498,
+            "width": 438.17185141735087,
+            "height": 280.4297230236784
+          },
+          "frameBorder": 0,
+          "frameBackground": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "src": "assets/7803208f6b2c-output-question.svg",
+          "alt": "입문자가 무엇부터 할지 정리한 질문과 답",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 529.7184448242188,
+            "y": 377.17333984375,
+            "width": 251.21856689453125,
+            "height": 160.7796630859375,
+            "right": 780.93701171875,
+            "bottom": 537.9530029296875
+          },
+          "logicalBox": {
+            "x": 607.6484864388831,
+            "y": 466.00005269605526,
+            "width": 438.1719578740282,
+            "height": 280.4296697953397
+          },
+          "frameLogicalBox": {
+            "x": 607.6484864388831,
+            "y": 466.00005269605526,
+            "width": 438.1719578740282,
+            "height": 280.4296697953397
+          },
+          "frameBorder": 0,
+          "frameBackground": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "src": "assets/206a4c7d7345-output-brief.svg",
+          "alt": "모임 전 할 일과 근거를 찾을 경로, 다음 질문을 적은 안내 예",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 794.697021484375,
+            "y": 377.17333984375,
+            "width": 251.218505859375,
+            "height": 160.7796630859375,
+            "right": 1045.91552734375,
+            "bottom": 537.9530029296875
+          },
+          "logicalBox": {
+            "x": 1069.8204634751132,
+            "y": 466.00005269605526,
+            "width": 438.17185141735087,
+            "height": 280.4296697953397
+          },
+          "frameLogicalBox": {
+            "x": 1069.8204634751132,
+            "y": 466.00005269605526,
+            "width": 438.17185141735087,
+            "height": 280.4296697953397
+          },
+          "frameBorder": 0,
+          "frameBackground": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/main-08/present-1280/slide-04.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+      "theme": "stage",
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "slide-title",
+          "dataField": "title",
+          "text": "읽은 자료가\n다음 작업으로",
+          "copyRole": null,
+          "logicalPixels": 64,
+          "rect": {
+            "x": 92.00002022676868,
+            "y": 374.00003246928657,
+            "width": 435.64845556644667,
+            "height": 160.00002129133546
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "results-copy"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "64px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "pre-line",
+          "effectivePixels": 36.693330078125,
+          "logicalBox": {
+            "x": 92.00002022676868,
+            "y": 374.00003246928657,
+            "width": 435.64845556644667,
+            "height": 160.00002129133546
+          },
+          "lines": [
+            {
+              "text": "읽은 자료가",
+              "x": 92.00002022676868,
+              "y": 376.0000340661367,
+              "width": 269.76563828629236,
+              "height": 75.49998043858554
+            },
+            {
+              "text": "다음 작업으로",
+              "x": 92.00002022676868,
+              "y": 456.00004471180443,
+              "width": 321.7343815412638,
+              "height": 75.49998043858554
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "네 결과물의 전문과 확인 범위",
+          "href": "materials/keynote-notes.html#네-가지-작업-결과"
+        }
+      ],
+      "bodyLogicalBox": null,
+      "quoteCardLogicalBox": null,
+      "groupCount": 0,
+      "groups": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?capture=d217553b8a0d#5",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "LLM Wiki",
+      "headingSize": "118px",
+      "text": "LLM WikiAI와 함께 자료를 엮는 마크다운 위키정리한 이해와 원자료의 역할",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/main-08/present-1280/slide-05.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+      "theme": "stage",
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "89",
+          "text": "LLM Wiki",
+          "copyRole": null,
+          "logicalPixels": 118,
+          "rect": {
+            "x": 591.8047520663906,
+            "y": 342.96876268331505,
+            "width": 416.39070878057333,
+            "height": 138.05472245812726
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "118px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 67.65332733154297,
+          "logicalBox": {
+            "x": 591.8047520663906,
+            "y": 342.96876268331505,
+            "width": 416.39070878057333,
+            "height": 138.05472245812726
+          },
+          "lines": [
+            {
+              "text": "LLM Wiki",
+              "x": 591.8047520663906,
+              "y": 342.46878889827184,
+              "width": 416.39070878057333,
+              "height": 139.00000452440878
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "91",
+          "text": "AI와 함께 자료를 엮는 마크다운 위키",
+          "copyRole": "body",
+          "logicalPixels": 30,
+          "rect": {
+            "x": 275.0000066535423,
+            "y": 517.0234606564065,
+            "width": 1050.0000931495927,
+            "height": 48.00003832440383
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-body"
+          },
+          "directBody": true,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "30px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 17.199998474121095,
+          "logicalBox": {
+            "x": 275.0000066535423,
+            "y": 517.0234606564065,
+            "width": 1050.0000931495927,
+            "height": 48.00003832440383
+          },
+          "lines": [
+            {
+              "text": "AI와 함께 자료를 엮는 마크다운 위키",
+              "x": 588.6797163036006,
+              "y": 523.0234654469571,
+              "width": 422.6327960553543,
+              "height": 35.500001729921
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "정리한 이해와 원자료의 역할",
+          "href": "materials/keynote-notes.html#원자료와-작업-약속"
+        }
+      ],
+      "bodyLogicalBox": {
+        "x": 275.0000066535423,
+        "y": 517.0234606564065,
+        "width": 1050.0000931495927,
+        "height": 48.00003832440383
+      },
+      "quoteCardLogicalBox": null,
+      "groupCount": 0,
+      "groups": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?capture=d217553b8a0d#6",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "5",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "record",
+      "heading": "스터디 준비 기록",
+      "headingSize": "64px",
+      "text": "스터디 준비 기록사람진행안을 만들려고 ‘목적과 맥락’을 골랐다.AI개념과 비교를 계획에 연결하고 근거를 붙였다.사람의 판단과 AI 해석을 구분하는 방법",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "사람",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "AI",
+          "color": "rgb(36, 168, 255)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/main-08/present-1280/slide-06.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+      "theme": "stage",
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "104",
+          "text": "스터디 준비 기록",
+          "copyRole": null,
+          "logicalPixels": 64,
+          "rect": {
+            "x": 277.0000082503925,
+            "y": 280.0078352114509,
+            "width": 1045.999983499215,
+            "height": 76.79688891006194
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "64px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 36.693330078125,
+          "logicalBox": {
+            "x": 277.0000082503925,
+            "y": 280.0078352114509,
+            "width": 1045.999983499215,
+            "height": 76.79688891006194
+          },
+          "lines": [
+            {
+              "text": "스터디 준비 기록",
+              "x": 277.0000082503925,
+              "y": 280.50780899649413,
+              "width": 385.35156120048,
+              "height": 75.5000336669242
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "109",
+          "text": "사람",
+          "copyRole": null,
+          "logicalPixels": 40,
+          "rect": {
+            "x": 277.0000082503925,
+            "y": 426.8047267829298,
+            "width": 145.00000931495927,
+            "height": 53.59375120595455
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "사람",
+            "sourceLine": "109",
+            "logicalBox": {
+              "x": 277.0000082503925,
+              "y": 394.8047012333272,
+              "width": 1045.999983499215,
+              "height": 116.59374827839592
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "color": "rgb(255, 122, 61)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 22.933331298828126,
+          "logicalBox": {
+            "x": 277.0000082503925,
+            "y": 426.8047267829298,
+            "width": 145.00000931495927,
+            "height": 53.59375120595455
+          },
+          "lines": [
+            {
+              "text": "사람",
+              "x": 277.0000082503925,
+              "y": 429.804729178205,
+              "width": 66.40629137671638,
+              "height": 46.9999842976401
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "111",
+          "text": "진행안을 만들려고 ‘목적과 맥락’을 골랐다.",
+          "copyRole": "body",
+          "logicalPixels": 38,
+          "rect": {
+            "x": 444.0000351307035,
+            "y": 428.80472837977993,
+            "width": 878.999956618904,
+            "height": 50.91407695274148
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "사람",
+            "sourceLine": "109",
+            "logicalBox": {
+              "x": 277.0000082503925,
+              "y": 394.8047012333272,
+              "width": 1045.999983499215,
+              "height": 116.59374827839592
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "38px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 21.78666473388672,
+          "logicalBox": {
+            "x": 444.0000351307035,
+            "y": 428.80472837977993,
+            "width": 878.999956618904,
+            "height": 50.91407695274148
+          },
+          "lines": [
+            {
+              "text": "진행안을 만들려고 ‘목적과 맥락’을 골랐다.",
+              "x": 444.0000351307035,
+              "y": 431.8047307750552,
+              "width": 617.0547855337086,
+              "height": 44.500008915746726
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "116",
+          "text": "AI",
+          "copyRole": null,
+          "logicalPixels": 40,
+          "rect": {
+            "x": 277.0000082503925,
+            "y": 543.3984750613257,
+            "width": 145.00000931495927,
+            "height": 53.59375120595455
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "AI",
+            "sourceLine": "116",
+            "logicalBox": {
+              "x": 277.0000082503925,
+              "y": 511.39844951172313,
+              "width": 1045.999983499215,
+              "height": 116.59380150673458
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "color": "rgb(36, 168, 255)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 22.933331298828126,
+          "logicalBox": {
+            "x": 277.0000082503925,
+            "y": 543.3984750613257,
+            "width": 145.00000931495927,
+            "height": 53.59375120595455
+          },
+          "lines": [
+            {
+              "text": "AI",
+              "x": 277.0000082503925,
+              "y": 546.398477456601,
+              "width": 36.22656855264429,
+              "height": 46.9999842976401
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "118",
+          "text": "개념과 비교를 계획에 연결하고 근거를 붙였다.",
+          "copyRole": "body",
+          "logicalPixels": 38,
+          "rect": {
+            "x": 444.0000351307035,
+            "y": 545.3984766581758,
+            "width": 878.999956618904,
+            "height": 50.91407695274148
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "AI",
+            "sourceLine": "116",
+            "logicalBox": {
+              "x": 277.0000082503925,
+              "y": 511.39844951172313,
+              "width": 1045.999983499215,
+              "height": 116.59380150673458
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "38px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 21.78666473388672,
+          "logicalBox": {
+            "x": 444.0000351307035,
+            "y": 545.3984766581758,
+            "width": 878.999956618904,
+            "height": 50.91407695274148
+          },
+          "lines": [
+            {
+              "text": "개념과 비교를 계획에 연결하고 근거를 붙였다.",
+              "x": 444.0000351307035,
+              "y": 548.3984790534511,
+              "width": 673.8907280758461,
+              "height": 44.500008915746726
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "사람의 판단과 AI 해석을 구분하는 방법",
+          "href": "materials/keynote-notes.html#사람의-선택과-기록"
+        }
+      ],
+      "bodyLogicalBox": {
+        "x": 277.0000082503925,
+        "y": 394.8047012333272,
+        "width": 1045.999983499215,
+        "height": 233.1875497851305
+      },
+      "quoteCardLogicalBox": null,
+      "groupCount": 2,
+      "groups": [
+        {
+          "index": 0,
+          "heading": "사람",
+          "sourceLine": "109",
+          "logicalBox": {
+            "x": 277.0000082503925,
+            "y": 394.8047012333272,
+            "width": 1045.999983499215,
+            "height": 116.59374827839592
+          },
+          "firstParagraphBox": {
+            "x": 444.0000351307035,
+            "y": 428.80472837977993,
+            "width": 878.999956618904,
+            "height": 50.91407695274148
+          }
+        },
+        {
+          "index": 1,
+          "heading": "AI",
+          "sourceLine": "116",
+          "logicalBox": {
+            "x": 277.0000082503925,
+            "y": 511.39844951172313,
+            "width": 1045.999983499215,
+            "height": 116.59380150673458
+          },
+          "firstParagraphBox": {
+            "x": 444.0000351307035,
+            "y": 545.3984766581758,
+            "width": 878.999956618904,
+            "height": 50.91407695274148
+          }
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?capture=d217553b8a0d#7",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "6",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "자료는 연결되고 계획은 갱신됩니다",
+      "headingSize": "54px",
+      "text": "자료는 연결되고 계획은 갱신됩니다함께 읽고 고칠 세 관계",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/9631dd0886e8-connected-knowledge.svg",
+          "alt": "자료 요약과 개념·비교, 현재 계획 세 문서가 서로 연결된 설명용 관계도",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 500,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 234.08001708984375,
+            "y": 209.07020568847656,
+            "width": 811.8400268554688,
+            "height": 376.7965087890625,
+            "right": 1045.9200439453125,
+            "bottom": 585.8667144775391
+          },
+          "logicalBox": {
+            "x": 92.00002022676868,
+            "y": 172.7968857163616,
+            "width": 1416.0001724598171,
+            "height": 657.2032713072374
+          },
+          "frameLogicalBox": {
+            "x": 92.00002022676868,
+            "y": 172.7968857163616,
+            "width": 1416.0001724598171,
+            "height": 657.2032713072374
+          },
+          "frameBorder": 0,
+          "frameBackground": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/main-08/present-1280/slide-07.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+      "theme": "stage",
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "131",
+          "text": "자료는 연결되고 계획은 갱신됩니다",
+          "copyRole": null,
+          "logicalPixels": 54,
+          "rect": {
+            "x": 92.00002022676868,
+            "y": 78.00000904881757,
+            "width": 1416.0001724598171,
+            "height": 64.79687932896098
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "54px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 30.95999725341797,
+          "logicalBox": {
+            "x": 92.00002022676868,
+            "y": 78.00000904881757,
+            "width": 1416.0001724598171,
+            "height": 64.79687932896098
+          },
+          "lines": [
+            {
+              "text": "자료는 연결되고 계획은 갱신됩니다",
+              "x": 92.00002022676868,
+              "y": 78.50000944803011,
+              "width": 686.1485225010825,
+              "height": 63.49999747165391
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "함께 읽고 고칠 세 관계",
+          "href": "materials/keynote-notes.html#세-무방향-관계"
+        }
+      ],
+      "bodyLogicalBox": {
+        "x": 92.00002022676868,
+        "y": 172.7968857163616,
+        "width": 1416.0001724598171,
+        "height": 657.2032713072374
+      },
+      "quoteCardLogicalBox": null,
+      "groupCount": 0,
+      "groups": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?capture=d217553b8a0d#8",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "7",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "revision",
+      "heading": "입문자가 오면 계획이 바뀝니다",
+      "headingSize": "64px",
+      "text": "입문자가 오면 계획이 바뀝니다처음참여자 배경과 활동 길이는 아직 미정이다.갱신입문자와 15분 동안 연결의 근거를 찾는다.같은 계획의 전후 원문과 새 조건",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "처음",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "갱신",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "입문자와 15분 동안",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/main-08/present-1280/slide-08.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+      "theme": "stage",
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "146",
+          "text": "입문자가 오면 계획이 바뀝니다",
+          "copyRole": null,
+          "logicalPixels": 64,
+          "rect": {
+            "x": 210.0000079842508,
+            "y": 271.60159014338916,
+            "width": 1179.9999840314983,
+            "height": 76.79683568172328
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "64px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 36.693330078125,
+          "logicalBox": {
+            "x": 210.0000079842508,
+            "y": 271.60159014338916,
+            "width": 1179.9999840314983,
+            "height": 76.79683568172328
+          },
+          "lines": [
+            {
+              "text": "입문자가 오면 계획이 바뀝니다",
+              "x": 210.0000079842508,
+              "y": 272.10156392843237,
+              "width": 708.4220272704747,
+              "height": 75.5000336669242
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "151",
+          "text": "처음",
+          "copyRole": null,
+          "logicalPixels": 32,
+          "rect": {
+            "x": 236.00002874330286,
+            "y": 447.89847865423855,
+            "width": 123.99999254803258,
+            "height": 42.875000964763636
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "처음",
+            "sourceLine": "151",
+            "logicalBox": {
+              "x": 210.0000079842508,
+              "y": 412.39847692431755,
+              "width": 1179.9999840314983,
+              "height": 98.99997258740558
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18.3466650390625,
+          "logicalBox": {
+            "x": 236.00002874330286,
+            "y": 447.89847865423855,
+            "width": 123.99999254803258,
+            "height": 42.875000964763636
+          },
+          "lines": [
+            {
+              "text": "처음",
+              "x": 236.00002874330286,
+              "y": 449.8984802510887,
+              "width": 53.12496922736671,
+              "height": 37.999977111814374
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "153",
+          "text": "참여자 배경과 활동 길이는 아직 미정이다.",
+          "copyRole": "body",
+          "logicalPixels": 50,
+          "rect": {
+            "x": 382.0000388566872,
+            "y": 428.39848969911884,
+            "width": 1007.999953159062,
+            "height": 67.0000002661417
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "처음",
+            "sourceLine": "151",
+            "logicalBox": {
+              "x": 210.0000079842508,
+              "y": 412.39847692431755,
+              "width": 1179.9999840314983,
+              "height": 98.99997258740558
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "50px",
+          "fontWeight": "400",
+          "color": "rgb(164, 164, 161)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 28.666664123535156,
+          "logicalBox": {
+            "x": 382.0000388566872,
+            "y": 428.39848969911884,
+            "width": 1007.999953159062,
+            "height": 67.0000002661417
+          },
+          "lines": [
+            {
+              "text": "참여자 배경과 활동 길이는 아직 미정이다.",
+              "x": 382.0000388566872,
+              "y": 432.39849289281915,
+              "width": 799.3125027778539,
+              "height": 58.99999387874105
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "158",
+          "text": "갱신",
+          "copyRole": null,
+          "logicalPixels": 32,
+          "rect": {
+            "x": 236.00002874330286,
+            "y": 572.8984720006962,
+            "width": 123.99999254803258,
+            "height": 42.875000964763636
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "갱신",
+            "sourceLine": "158",
+            "logicalBox": {
+              "x": 210.0000079842508,
+              "y": 537.3984702707752,
+              "width": 1179.9999840314983,
+              "height": 99.00002581574425
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "color": "rgb(255, 122, 61)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 18.3466650390625,
+          "logicalBox": {
+            "x": 236.00002874330286,
+            "y": 572.8984720006962,
+            "width": 123.99999254803258,
+            "height": 42.875000964763636
+          },
+          "lines": [
+            {
+              "text": "갱신",
+              "x": 236.00002874330286,
+              "y": 574.8984735975464,
+              "width": 53.12496922736671,
+              "height": 38.00003034015304
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "160",
+          "text": "입문자와 15분 동안 연결의 근거를 찾는다.",
+          "copyRole": "body",
+          "logicalPixels": 50,
+          "rect": {
+            "x": 382.0000388566872,
+            "y": 553.3984830455764,
+            "width": 1007.999953159062,
+            "height": 67.0000002661417
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "갱신",
+            "sourceLine": "158",
+            "logicalBox": {
+              "x": 210.0000079842508,
+              "y": 537.3984702707752,
+              "width": 1179.9999840314983,
+              "height": 99.00002581574425
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [
+            {
+              "tag": "STRONG",
+              "text": "입문자와 15분 동안"
+            }
+          ],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "50px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 28.666664123535156,
+          "logicalBox": {
+            "x": 382.0000388566872,
+            "y": 553.3984830455764,
+            "width": 1007.999953159062,
+            "height": 67.0000002661417
+          },
+          "lines": [
+            {
+              "text": "입문자와 15분 동안 연결의 근거를 찾는다.",
+              "x": 382.0000388566872,
+              "y": 557.3984862392768,
+              "width": 809.757819043343,
+              "height": 58.99999387874105
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "같은 계획의 전후 원문과 새 조건",
+          "href": "materials/keynote-notes.html#계획이-바뀐-근거"
+        }
+      ],
+      "bodyLogicalBox": {
+        "x": 210.0000079842508,
+        "y": 412.39847692431755,
+        "width": 1179.9999840314983,
+        "height": 224.0000191622019
+      },
+      "quoteCardLogicalBox": null,
+      "groupCount": 2,
+      "groups": [
+        {
+          "index": 0,
+          "heading": "처음",
+          "sourceLine": "151",
+          "logicalBox": {
+            "x": 210.0000079842508,
+            "y": 412.39847692431755,
+            "width": 1179.9999840314983,
+            "height": 98.99997258740558
+          },
+          "firstParagraphBox": {
+            "x": 382.0000388566872,
+            "y": 428.39848969911884,
+            "width": 1007.999953159062,
+            "height": 67.0000002661417
+          }
+        },
+        {
+          "index": 1,
+          "heading": "갱신",
+          "sourceLine": "158",
+          "logicalBox": {
+            "x": 210.0000079842508,
+            "y": 537.3984702707752,
+            "width": 1179.9999840314983,
+            "height": 99.00002581574425
+          },
+          "firstParagraphBox": {
+            "x": 382.0000388566872,
+            "y": 553.3984830455764,
+            "width": 1007.999953159062,
+            "height": 67.0000002661417
+          }
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?capture=d217553b8a0d#9",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "8",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "heading": "자료 두 개로 시작합니다",
+      "headingSize": "64px",
+      "text": "자료 두 개로 시작합니다고르기목적과 선택 이유 적기연결하기문서에 근거 연결하기확인하기원자료로 결론 확인하기작은 예제로 따라 하는 첫 단계",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "고르기",
+          "color": "rgb(255, 122, 61)"
+        },
+        {
+          "text": "연결하기",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "확인하기",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/main-08/present-1280/slide-09.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+      "theme": "stage",
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "173",
+          "text": "자료 두 개로 시작합니다",
+          "copyRole": null,
+          "logicalPixels": 64,
+          "rect": {
+            "x": 92.00002022676868,
+            "y": 78.00000904881757,
+            "width": 1416.0001724598171,
+            "height": 76.79688891006194
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "64px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 36.693330078125,
+          "logicalBox": {
+            "x": 92.00002022676868,
+            "y": 78.00000904881757,
+            "width": 1416.0001724598171,
+            "height": 76.79688891006194
+          },
+          "lines": [
+            {
+              "text": "자료 두 개로 시작합니다",
+              "x": 92.00002022676868,
+              "y": 78.50000944803011,
+              "width": 551.9375248343467,
+              "height": 75.50000705275487
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "178",
+          "text": "고르기",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 92.00002022676868,
+            "y": 430.0547426848959,
+            "width": 429.32812263383397,
+            "height": 57.59375439965486
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "고르기",
+            "sourceLine": "178",
+            "logicalBox": {
+              "x": 92.00002022676868,
+              "y": 430.0547426848959,
+              "width": 429.32812263383397,
+              "height": 154.6874604945924
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "color": "rgb(255, 122, 61)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 27.51999755859375,
+          "logicalBox": {
+            "x": 92.00002022676868,
+            "y": 430.0547426848959,
+            "width": 429.32812263383397,
+            "height": 57.59375439965486
+          },
+          "lines": [
+            {
+              "text": "고르기",
+              "x": 92.00002022676868,
+              "y": 430.55471646993914,
+              "width": 119.52343603829992,
+              "height": 56.50001849684768
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "180",
+          "text": "목적과 선택 이유 적기",
+          "copyRole": "body",
+          "logicalPixels": 34,
+          "rect": {
+            "x": 92.00002022676868,
+            "y": 511.6484630184141,
+            "width": 429.32812263383397,
+            "height": 52.69531007769474
+          },
+          "parentGroup": {
+            "index": 0,
+            "heading": "고르기",
+            "sourceLine": "178",
+            "logicalBox": {
+              "x": 92.00002022676868,
+              "y": 430.0547426848959,
+              "width": 429.32812263383397,
+              "height": 154.6874604945924
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 19.493331604003906,
+          "logicalBox": {
+            "x": 92.00002022676868,
+            "y": 511.6484630184141,
+            "width": 429.32812263383397,
+            "height": 52.69531007769474
+          },
+          "lines": [
+            {
+              "text": "목적과 선택 이유 적기",
+              "x": 92.00002022676868,
+              "y": 517.6484678089646,
+              "width": 286.7812477627464,
+              "height": 40.00003193700319
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "182",
+          "text": "연결하기",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 585.3281407314691,
+            "y": 430.0547426848959,
+            "width": 429.3360536562945,
+            "height": 57.59375439965486
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "연결하기",
+            "sourceLine": "182",
+            "logicalBox": {
+              "x": 585.3281407314691,
+              "y": 430.0547426848959,
+              "width": 429.3360536562945,
+              "height": 154.6874604945924
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 27.51999755859375,
+          "logicalBox": {
+            "x": 585.3281407314691,
+            "y": 430.0547426848959,
+            "width": 429.3360536562945,
+            "height": 57.59375439965486
+          },
+          "lines": [
+            {
+              "text": "연결하기",
+              "x": 585.3281407314691,
+              "y": 430.55471646993914,
+              "width": 159.36724280133294,
+              "height": 56.50001849684768
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "184",
+          "text": "문서에 근거 연결하기",
+          "copyRole": "body",
+          "logicalPixels": 34,
+          "rect": {
+            "x": 585.3281407314691,
+            "y": 511.6484630184141,
+            "width": 429.3360536562945,
+            "height": 52.69531007769474
+          },
+          "parentGroup": {
+            "index": 1,
+            "heading": "연결하기",
+            "sourceLine": "182",
+            "logicalBox": {
+              "x": 585.3281407314691,
+              "y": 430.0547426848959,
+              "width": 429.3360536562945,
+              "height": 154.6874604945924
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 19.493331604003906,
+          "logicalBox": {
+            "x": 585.3281407314691,
+            "y": 511.6484630184141,
+            "width": 429.3360536562945,
+            "height": 52.69531007769474
+          },
+          "lines": [
+            {
+              "text": "문서에 근거 연결하기",
+              "x": 585.3281407314691,
+              "y": 517.6484678089646,
+              "width": 279.42184443113143,
+              "height": 40.00003193700319
+            }
+          ]
+        },
+        {
+          "tag": "H2",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "186",
+          "text": "확인하기",
+          "copyRole": null,
+          "logicalPixels": 48,
+          "rect": {
+            "x": 1078.6640325736141,
+            "y": 430.0547426848959,
+            "width": 429.3361601129718,
+            "height": 57.59375439965486
+          },
+          "parentGroup": {
+            "index": 2,
+            "heading": "확인하기",
+            "sourceLine": "186",
+            "logicalBox": {
+              "x": 1078.6640325736141,
+              "y": 430.0547426848959,
+              "width": 429.3361601129718,
+              "height": 154.6874604945924
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 27.51999755859375,
+          "logicalBox": {
+            "x": 1078.6640325736141,
+            "y": 430.0547426848959,
+            "width": 429.3361601129718,
+            "height": 57.59375439965486
+          },
+          "lines": [
+            {
+              "text": "확인하기",
+              "x": 1078.6640325736141,
+              "y": 430.55471646993914,
+              "width": 159.36734925801025,
+              "height": 56.50001849684768
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "188",
+          "text": "원자료로 결론 확인하기",
+          "copyRole": "body",
+          "logicalPixels": 34,
+          "rect": {
+            "x": 1078.6640325736141,
+            "y": 511.6484630184141,
+            "width": 429.3361601129718,
+            "height": 52.69531007769474
+          },
+          "parentGroup": {
+            "index": 2,
+            "heading": "확인하기",
+            "sourceLine": "186",
+            "logicalBox": {
+              "x": 1078.6640325736141,
+              "y": 430.0547426848959,
+              "width": 429.3361601129718,
+              "height": 154.6874604945924
+            }
+          },
+          "domParent": {
+            "tag": "SECTION",
+            "classes": "md-group"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "34px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 19.493331604003906,
+          "logicalBox": {
+            "x": 1078.6640325736141,
+            "y": 511.6484630184141,
+            "width": 429.3361601129718,
+            "height": 52.69531007769474
+          },
+          "lines": [
+            {
+              "text": "원자료로 결론 확인하기",
+              "x": 1078.6640325736141,
+              "y": 517.6484678089646,
+              "width": 308.82826595113585,
+              "height": 40.00003193700319
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "작은 예제로 따라 하는 첫 단계",
+          "href": "materials/keynote-notes.html#시작-요청과-선택-기준"
+        }
+      ],
+      "bodyLogicalBox": {
+        "x": 92.00002022676868,
+        "y": 184.79686868329324,
+        "width": 1416.0001724598171,
+        "height": 645.2032617261365
+      },
+      "quoteCardLogicalBox": null,
+      "groupCount": 3,
+      "groups": [
+        {
+          "index": 0,
+          "heading": "고르기",
+          "sourceLine": "178",
+          "logicalBox": {
+            "x": 92.00002022676868,
+            "y": 430.0547426848959,
+            "width": 429.32812263383397,
+            "height": 154.6874604945924
+          },
+          "firstParagraphBox": {
+            "x": 92.00002022676868,
+            "y": 511.6484630184141,
+            "width": 429.32812263383397,
+            "height": 52.69531007769474
+          }
+        },
+        {
+          "index": 1,
+          "heading": "연결하기",
+          "sourceLine": "182",
+          "logicalBox": {
+            "x": 585.3281407314691,
+            "y": 430.0547426848959,
+            "width": 429.3360536562945,
+            "height": 154.6874604945924
+          },
+          "firstParagraphBox": {
+            "x": 585.3281407314691,
+            "y": 511.6484630184141,
+            "width": 429.3360536562945,
+            "height": 52.69531007769474
+          }
+        },
+        {
+          "index": 2,
+          "heading": "확인하기",
+          "sourceLine": "186",
+          "logicalBox": {
+            "x": 1078.6640325736141,
+            "y": 430.0547426848959,
+            "width": 429.3361601129718,
+            "height": 154.6874604945924
+          },
+          "firstParagraphBox": {
+            "x": 1078.6640325736141,
+            "y": 511.6484630184141,
+            "width": 429.3361601129718,
+            "height": 52.69531007769474
+          }
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?capture=d217553b8a0d#10",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "9",
+      "layout": "blocks",
+      "composition": "quote",
+      "variant": "spacious",
+      "heading": "첫 요청",
+      "headingSize": "38px",
+      "text": "첫 요청이 자료 두 개를 읽고내 목적에 맞춰 연결해 줘.근거와 모르는 점도 남겨 줘.복사해서 고쳐 쓸 시작 요청 전문",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "근거와 모르는 점도 남겨 줘.",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/main-08/present-1280/slide-10.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+      "theme": "stage",
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "201",
+          "text": "첫 요청",
+          "copyRole": null,
+          "logicalPixels": 38,
+          "rect": {
+            "x": 92.00002022676868,
+            "y": 78.00000904881757,
+            "width": 1140.0001650078498,
+            "height": 49.398453237706846
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "38px",
+          "fontWeight": "430",
+          "color": "rgb(164, 164, 161)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 21.78666473388672,
+          "logicalBox": {
+            "x": 92.00002022676868,
+            "y": 78.00000904881757,
+            "width": 1140.0001650078498,
+            "height": 49.398453237706846
+          },
+          "lines": [
+            {
+              "text": "첫 요청",
+              "x": 92.00002022676868,
+              "y": 80.00001064566773,
+              "width": 99.15625098971442,
+              "height": 44.500008915746726
+            }
+          ]
+        },
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "dataField": null,
+          "sourceLine": "203",
+          "text": "이 자료 두 개를 읽고내 목적에 맞춰 연결해 줘.근거와 모르는 점도 남겨 줘.",
+          "copyRole": null,
+          "logicalPixels": 70,
+          "rect": {
+            "x": 92.00002022676868,
+            "y": 350.94534860170484,
+            "width": 1329.999997338583,
+            "height": 283.4999868259862
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "BLOCKQUOTE",
+            "classes": "block-node"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "이 자료 두 개를 읽고",
+              "afterText": "내 목적에 맞춰 연결해 줘.근거와 모르는 점도 남겨 줘.",
+              "beforeGlyph": {
+                "x": 560.7734822804191,
+                "y": 356.94530016391667
+              },
+              "afterGlyph": {
+                "x": 92.00002022676868,
+                "y": 451.44534900091736
+              }
+            },
+            {
+              "beforeText": "이 자료 두 개를 읽고내 목적에 맞춰 연결해 줘.",
+              "afterText": "근거와 모르는 점도 남겨 줘.",
+              "beforeGlyph": {
+                "x": 738.8594284820049,
+                "y": 451.44534900091736
+              },
+              "afterGlyph": {
+                "x": 92.00002022676868,
+                "y": 545.9453446095795
+              }
+            }
+          ],
+          "emphasis": [
+            {
+              "tag": "STRONG",
+              "text": "근거와 모르는 점도 남겨 줘."
+            }
+          ],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "70px",
+          "fontWeight": "400",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 40.13332977294922,
+          "logicalBox": {
+            "x": 92.00002022676868,
+            "y": 350.94534860170484,
+            "width": 1329.999997338583,
+            "height": 283.4999868259862
+          },
+          "lines": [
+            {
+              "text": "이 자료 두 개를 읽고",
+              "x": 92.00002022676868,
+              "y": 356.94530016391667,
+              "width": 528.1406250124754,
+              "height": 82.50003925589976
+            },
+            {
+              "text": "내 목적에 맞춰 연결해 줘.",
+              "x": 92.00002022676868,
+              "y": 451.44534900091736,
+              "width": 660.8594194331873,
+              "height": 82.49998602756109
+            },
+            {
+              "text": "근거와 모르는 점도 남겨 줘.",
+              "x": 92.00002022676868,
+              "y": 545.9453446095795,
+              "width": 720.2188110545678,
+              "height": 82.49998602756109
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "복사해서 고쳐 쓸 시작 요청 전문",
+          "href": "materials/keynote-notes.html#시작-요청과-선택-기준"
+        }
+      ],
+      "bodyLogicalBox": {
+        "x": 92.00002022676868,
+        "y": 155.39843141408798,
+        "width": 1416.0001724598171,
+        "height": 674.6016989953417
+      },
+      "quoteCardLogicalBox": null,
+      "groupCount": 0,
+      "groups": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?capture=d217553b8a0d#11",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "10",
+      "layout": "blocks",
+      "composition": "closing",
+      "heading": "어떤 질문을다시 묻고 싶나요?",
+      "headingSize": "110px",
+      "text": "어떤 질문을다시 묻고 싶나요?자료와 예제 읽기",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/main-08/present-1280/slide-11.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "a44cb9d1a06a868aa316a4374906c5091adce561782ab070e7761c0af371e834",
+      "theme": "stage",
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "dataField": null,
+          "sourceLine": "217",
+          "text": "어떤 질문을다시 묻고 싶나요?",
+          "copyRole": null,
+          "logicalPixels": 110,
+          "rect": {
+            "x": 444.8125657203644,
+            "y": 306.2031507450504,
+            "width": 710.367203678504,
+            "height": 259.593755996505
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "어떤 질문을",
+              "afterText": "다시 묻고 싶나요?",
+              "beforeGlyph": {
+                "x": 942.9688159116537,
+                "y": 306.2031507450504
+              },
+              "afterGlyph": {
+                "x": 444.8125657203644,
+                "y": 436.0000287433029
+              }
+            }
+          ],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "110px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 63.06666107177735,
+          "logicalBox": {
+            "x": 444.8125657203644,
+            "y": 306.2031507450504,
+            "width": 710.367203678504,
+            "height": 259.593755996505
+          },
+          "lines": [
+            {
+              "text": "어떤 질문을",
+              "x": 567.3672491887336,
+              "y": 306.2031507450504,
+              "width": 465.2578899701043,
+              "height": 129.4999703252012
+            },
+            {
+              "text": "다시 묻고 싶나요?",
+              "x": 444.8125657203644,
+              "y": 436.0000287433029,
+              "width": 710.367203678504,
+              "height": 129.50002355353985
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "자료와 예제 읽기",
+          "href": "materials/keynote-notes.html#다음-질문"
+        }
+      ],
+      "bodyLogicalBox": {
+        "x": 275.0000066535423,
+        "y": 601.7969354848583,
+        "width": 1050.0000931495927,
+        "height": 0
+      },
+      "quoteCardLogicalBox": null,
+      "groupCount": 0,
+      "groups": []
+    }
+  ]
+}

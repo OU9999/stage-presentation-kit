@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" style="background:#080808" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+<title id="title">새 조건에 맞춰 관련 설명과 계획을 함께 보완하기</title>
+<desc id="desc">기존 가상 조건 입문자·준비된 팩·15분 활동, 세 대응 개념의 적용 범위·비교의 선택 기준·계획의 작업과 시간을 보존한다. 보편 정의를 바꾸거나 모든 문서를 자동 수정한다는 뜻이 아니다.</desc>
+<g font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Malgun Gothic,sans-serif" letter-spacing="-.4">
+<text x="25" y="75" font-size="48" fill="#FF7A3D" font-weight="550" text-anchor="start" data-copy-role="essential">새 모임 조건</text>
+<text x="25" y="205" font-size="50" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">입문자와 함께</text>
+<text x="25" y="310" font-size="50" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">준비된 읽기 팩</text>
+<text x="25" y="415" font-size="50" fill="#F6F6F4" font-weight="400" text-anchor="start" data-copy-role="essential">15분 활동</text>
+<text x="25" y="560" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">설명용 가상 조건</text>
+<path d="M420 320H535M520 309L535 320L520 331" fill="none" stroke="#999995" stroke-width="3"/>
+<text x="590" y="115" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">개념 · 우리 적용 범위</text>
+<text x="590" y="185" font-size="48" fill="#F6F6F4" font-weight="500" text-anchor="start" data-copy-role="essential">입문 설명부터 다룹니다.</text>
+<path d="M590 213H1475" fill="none" stroke="#999995" stroke-width="3"/>
+<text x="590" y="300" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">비교 · 선택 기준</text>
+<text x="590" y="370" font-size="48" fill="#F6F6F4" font-weight="500" text-anchor="start" data-copy-role="essential">작은 자료 묶음으로 시작합니다.</text>
+<path d="M590 398H1475" fill="none" stroke="#999995" stroke-width="3"/>
+<text x="590" y="485" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">계획 · 작업과 시간</text>
+<text x="590" y="555" font-size="48" fill="#F6F6F4" font-weight="500" text-anchor="start" data-copy-role="essential">15분 활동에 맞춰 조정합니다.</text>
+<path d="M590 583H1475" fill="none" stroke="#999995" stroke-width="3"/>
+</g>
+</svg>

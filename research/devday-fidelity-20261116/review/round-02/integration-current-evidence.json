@@ -1,0 +1,478 @@
+{
+  "checkedAt": "2026-11-16T06:54:10.445669+00:00",
+  "independentInitial": {
+    "path": "research/devday-fidelity-20261116/review/round-02/reading-meaning-initial.md",
+    "sha256": "c126640c8c226391f859a78d99a4351ec89a29dfefac5a83e027c325ac68d6ef",
+    "mtimeUtc": "2026-11-16T06:52:09.434910+00:00",
+    "sequence": "B initial saved/frozen, completion only reported to manager; A detailed judgment and root-first-look read only after manager confirmed both initials complete."
+  },
+  "captures": {
+    "1920": {
+      "manifest": "research/devday-fidelity-20261116/evidence/round-02/present-1920/manifest.json",
+      "manifestSha256": "e8fd940d2286ebb76c0ee01bbc08f1f83f1ed67ad4503aa16461185e37a799ac",
+      "metricsSha256": "39013437817d41be50457ca5175d4f85a74238812db797c8287f68cdaa946f59",
+      "sourceRevision": "619000010e74a25f32fe8fa0e8df15d839cc26be1c63e219353acc5315e01912",
+      "mode": "presentation-stage-only",
+      "captureInputCount": 46,
+      "currentMismatch": {},
+      "snapshotMismatch": {},
+      "metricsSameInputs": true,
+      "metricsSameRevision": true,
+      "metricsCaptureManifest": {
+        "path": "research/devday-fidelity-20261116/evidence/round-02/present-1920/manifest.json",
+        "sha256": "e8fd940d2286ebb76c0ee01bbc08f1f83f1ed67ad4503aa16461185e37a799ac"
+      },
+      "png": [
+        {
+          "slide": 1,
+          "path": "research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-01.png",
+          "sha256": "195d867a7b07ecb056aea2ad8e9e8a6ad831b507c693615624da21b90822ee02",
+          "pixels": [
+            1557,
+            876
+          ],
+          "observedStage": [
+            1557.33349609375,
+            876
+          ],
+          "viewport": {
+            "width": 1920,
+            "height": 1080,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": [],
+          "keyCopyObservations": [
+            {
+              "tag": "P",
+              "text": "두 예는 함께 쓸 수 있습니다.",
+              "copyRole": "body",
+              "logicalPixels": 32,
+              "lines": [
+                {
+                  "text": "두 예는 함께 쓸 수 있습니다.",
+                  "x": 91.99998495023702,
+                  "y": 785.3045962289684,
+                  "width": 346.6093667843579,
+                  "height": 38.000024455864846
+                }
+              ],
+              "sourceLine": "19",
+              "domParent": {
+                "tag": "DIV",
+                "classes": "markdown-body"
+              }
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "path": "research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-02.png",
+          "sha256": "1b7138686b40fe85e28ae4fe4c6080f50c00c48c8140fdbbd48f6afa50b4d13e",
+          "pixels": [
+            1557,
+            876
+          ],
+          "observedStage": [
+            1557.33349609375,
+            876
+          ],
+          "viewport": {
+            "width": 1920,
+            "height": 1080,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": [],
+          "keyCopyObservations": []
+        },
+        {
+          "slide": 3,
+          "path": "research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-03.png",
+          "sha256": "d41a99fc7bffbc49422f76eac24768684de2c1ffb3ed993a9cada28d91dad97c",
+          "pixels": [
+            1557,
+            876
+          ],
+          "observedStage": [
+            1557.33349609375,
+            876
+          ],
+          "viewport": {
+            "width": 1920,
+            "height": 1080,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": [],
+          "keyCopyObservations": []
+        },
+        {
+          "slide": 4,
+          "path": "research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-04.png",
+          "sha256": "ddcd23950218e1d311e6c372daafa854e069273adbaaf24fa9ec5f219034c3a9",
+          "pixels": [
+            1557,
+            876
+          ],
+          "observedStage": [
+            1557.33349609375,
+            876
+          ],
+          "viewport": {
+            "width": 1920,
+            "height": 1080,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": [],
+          "keyCopyObservations": [
+            {
+              "tag": "P",
+              "text": "본편 뒤 별도 활동 15분,입문자와 함께라면 ‘읽기부터’?",
+              "copyRole": "body",
+              "logicalPixels": 32,
+              "lines": [
+                {
+                  "text": "본편 뒤 별도 활동 15분,",
+                  "x": 850.3046479625286,
+                  "y": 251.50781380558655,
+                  "width": 290.3203373404373,
+                  "height": 37.99996174851909
+                },
+                {
+                  "text": "입문자와 함께라면 ‘읽기부터’?",
+                  "x": 850.3046479625286,
+                  "y": 302.7030941999154,
+                  "width": 376.7265448660085,
+                  "height": 37.999993102191965
+                }
+              ],
+              "sourceLine": "66",
+              "domParent": {
+                "tag": "DIV",
+                "classes": "md-copy"
+              }
+            },
+            {
+              "tag": "P",
+              "text": "도구 설치보다 목차와연결을 따라 다음 질문의근거를 찾는 경험을먼저 하고 싶다.",
+              "copyRole": null,
+              "logicalPixels": 54,
+              "lines": [
+                {
+                  "text": "도구 설치보다 목차와",
+                  "x": 850.3046479625286,
+                  "y": 375.89840030425603,
+                  "width": 422.3358549002185,
+                  "height": 63.499997962011264
+                },
+                {
+                  "text": "연결을 따라 다음 질문의",
+                  "x": 850.3046479625286,
+                  "y": 448.79684983377854,
+                  "width": 476.624864904862,
+                  "height": 63.49996660833839
+                },
+                {
+                  "text": "근거를 찾는 경험을",
+                  "x": 850.3046479625286,
+                  "y": 521.6952680096281,
+                  "width": 377.51565410502667,
+                  "height": 63.500029315684145
+                },
+                {
+                  "text": "먼저 하고 싶다.",
+                  "x": 850.3046479625286,
+                  "y": 594.5936861854777,
+                  "width": 298.03108340421875,
+                  "height": 63.500029315684145
+                }
+              ],
+              "sourceLine": "69",
+              "domParent": {
+                "tag": "BLOCKQUOTE",
+                "classes": "block-node"
+              }
+            }
+          ]
+        }
+      ],
+      "metricsCaptureHashMatches": true
+    },
+    "1280": {
+      "manifest": "research/devday-fidelity-20261116/evidence/round-02/present-1280/manifest.json",
+      "manifestSha256": "0acc224c65adf9b5221617232b4a1ee39930d13b52de52d96a7229079bae2e11",
+      "metricsSha256": "e69aceb7148eb59abb0354a9507aca91b4f6124ed8507829d14ce5d79043dffd",
+      "sourceRevision": "619000010e74a25f32fe8fa0e8df15d839cc26be1c63e219353acc5315e01912",
+      "mode": "presentation-stage-only",
+      "captureInputCount": 46,
+      "currentMismatch": {},
+      "snapshotMismatch": {},
+      "metricsSameInputs": true,
+      "metricsSameRevision": true,
+      "metricsCaptureManifest": {
+        "path": "research/devday-fidelity-20261116/evidence/round-02/present-1280/manifest.json",
+        "sha256": "0acc224c65adf9b5221617232b4a1ee39930d13b52de52d96a7229079bae2e11"
+      },
+      "png": [
+        {
+          "slide": 1,
+          "path": "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-01.png",
+          "sha256": "fbaee82bd89c7fc5b3d05859e648e4a3acc51d45ccfa0d64a2f31211c57c76e9",
+          "pixels": [
+            917,
+            516
+          ],
+          "observedStage": [
+            917.333251953125,
+            516
+          ],
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": [],
+          "keyCopyObservations": [
+            {
+              "tag": "P",
+              "text": "두 예는 함께 쓸 수 있습니다.",
+              "copyRole": "body",
+              "logicalPixels": 32,
+              "lines": [
+                {
+                  "text": "두 예는 함께 쓸 수 있습니다.",
+                  "x": 92.00002022676868,
+                  "y": 785.3047202624583,
+                  "width": 346.60942136271467,
+                  "height": 38.00003034015304
+                }
+              ],
+              "sourceLine": "19",
+              "domParent": {
+                "tag": "DIV",
+                "classes": "markdown-body"
+              }
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "path": "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-02.png",
+          "sha256": "ab0a0f926c678379f438032d3b1811b230abe9f3fcf2c072a59673fba45f13cb",
+          "pixels": [
+            917,
+            516
+          ],
+          "observedStage": [
+            917.333251953125,
+            516
+          ],
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": [],
+          "keyCopyObservations": []
+        },
+        {
+          "slide": 3,
+          "path": "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-03.png",
+          "sha256": "6c44648fe5afc39d6db71c6d642676739c54181475d069800056cf6af5fd4c21",
+          "pixels": [
+            917,
+            516
+          ],
+          "observedStage": [
+            917.333251953125,
+            516
+          ],
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": [],
+          "keyCopyObservations": []
+        },
+        {
+          "slide": 4,
+          "path": "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-04.png",
+          "sha256": "6d503070de08ce12821c6ca67568d42144f0f618da24a62c8ffdc85aff5f551c",
+          "pixels": [
+            917,
+            516
+          ],
+          "observedStage": [
+            917.333251953125,
+            516
+          ],
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": [],
+          "keyCopyObservations": [
+            {
+              "tag": "P",
+              "text": "본편 뒤 별도 활동 15분,입문자와 함께라면 ‘읽기부터’?",
+              "copyRole": "body",
+              "logicalPixels": 32,
+              "lines": [
+                {
+                  "text": "본편 뒤 별도 활동 15분,",
+                  "x": 850.3047721600884,
+                  "y": 251.50783907050544,
+                  "width": 290.32024031530335,
+                  "height": 38.00003034015304
+                },
+                {
+                  "text": "입문자와 함께라면 ‘읽기부터’?",
+                  "x": 850.3047721600884,
+                  "y": 302.7031745647319,
+                  "width": 376.7266541171987,
+                  "height": 37.999977111814374
+                }
+              ],
+              "sourceLine": "66",
+              "domParent": {
+                "tag": "DIV",
+                "classes": "md-copy"
+              }
+            },
+            {
+              "tag": "P",
+              "text": "도구 설치보다 목차와연결을 따라 다음 질문의근거를 찾는 경험을먼저 하고 싶다.",
+              "copyRole": null,
+              "logicalPixels": 54,
+              "lines": [
+                {
+                  "text": "도구 설치보다 목차와",
+                  "x": 850.3047721600884,
+                  "y": 375.89847439597145,
+                  "width": 422.3358883823029,
+                  "height": 63.499970857484584
+                },
+                {
+                  "text": "연결을 따라 다음 질문의",
+                  "x": 850.3047721600884,
+                  "y": 448.7969197824983,
+                  "width": 476.6249613761867,
+                  "height": 63.499970857484584
+                },
+                {
+                  "text": "근거를 찾는 경험을",
+                  "x": 850.3047721600884,
+                  "y": 521.6953651690252,
+                  "width": 377.51571100951,
+                  "height": 63.499970857484584
+                },
+                {
+                  "text": "먼저 하고 싶다.",
+                  "x": 850.3047721600884,
+                  "y": 594.5938105555522,
+                  "width": 298.03132328045183,
+                  "height": 63.499970857484584
+                }
+              ],
+              "sourceLine": "69",
+              "domParent": {
+                "tag": "BLOCKQUOTE",
+                "classes": "block-node"
+              }
+            }
+          ]
+        }
+      ],
+      "metricsCaptureHashMatches": true
+    }
+  },
+  "sourcePackBytesMatch": true,
+  "exactPurpose": {
+    "text": "도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.",
+    "presentInSourcePack": true
+  },
+  "exactFirstPlan": {
+    "text": "참여자 배경과 활동 길이는 아직 미정이다.",
+    "presentInSourcePack": true
+  },
+  "relationshipEdges": [
+    {
+      "data-edge-id": "summary-concept",
+      "data-from": "source-summary",
+      "data-to": "concept-comparison",
+      "data-from-port": "east",
+      "data-to-port": "west",
+      "d": "M384 329L672 169"
+    },
+    {
+      "data-edge-id": "summary-plan",
+      "data-from": "source-summary",
+      "data-to": "current-plan",
+      "data-from-port": "east",
+      "data-to-port": "west",
+      "d": "M384 329L672 480"
+    },
+    {
+      "data-edge-id": "concept-plan",
+      "data-from": "concept-comparison",
+      "data-to": "current-plan",
+      "data-from-port": "south",
+      "data-to-port": "north",
+      "d": "M1024 290V384"
+    }
+  ],
+  "visualApproval": false,
+  "scope": "Integrity/current input and source meaning verification after independent visual review. Not browser/action/native-reading approval.",
+  "finalArtifacts": {
+    "checkedAt": "2026-11-16T06:57:14.015890+00:00",
+    "hashes": {
+      "research/devday-fidelity-20261116/review/round-02/reading-meaning-initial.md": "c126640c8c226391f859a78d99a4351ec89a29dfefac5a83e027c325ac68d6ef",
+      "research/devday-fidelity-20261116/review/round-02/reading-meaning-final.md": "6e71f448474ff643dd5fd4b000e49c61c392b9c856b4953c16dd9de5b4007f52",
+      "research/devday-fidelity-20261116/review/round-02/reading-meaning.reviews.json": "1104becadb60119663d555f5576101231603d7ad22f479c5c1488e9eaacd4bd2",
+      "research/devday-fidelity-20261116/review/round-02/integration.md": "a3d6a062361ecfb8f3fb93a3843524ac0b911d4820556b5de2db49c552be4806",
+      "research/devday-fidelity-20261116/review/round-02/art-direction-initial.md": "1d03b802129da1db7ee7ad7c27869f2038c5b521960acaac1634c9b4f3e9ea2b",
+      "research/devday-fidelity-20261116/review/round-02/art-direction-final.md": "dbb9f6bf0b2c34109fd0b5fc461de9d7260dbeee9eeb48346d46c4365aeba53c",
+      "research/devday-fidelity-20261116/review/round-02/art-direction.reviews.json": "56397c3bc8bf5dd28d72d2d079990f3154a93a41d3a1383bfb4a87717cfe3959"
+    },
+    "reviews": {
+      "art-direction": {
+        "rows": 8,
+        "uniqueScopes": 8,
+        "statusCounts": {
+          "approved": 8,
+          "needs-changes": 0,
+          "unreviewed": 0
+        },
+        "missingRequiredNextAction": []
+      },
+      "reading-meaning": {
+        "rows": 8,
+        "uniqueScopes": 8,
+        "statusCounts": {
+          "approved": 8,
+          "needs-changes": 0,
+          "unreviewed": 0
+        },
+        "missingRequiredNextAction": []
+      }
+    },
+    "missingLocalLinks": [],
+    "ownedTrailingWhitespace": []
+  }
+}

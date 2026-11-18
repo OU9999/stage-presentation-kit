@@ -1,0 +1,369 @@
+{
+  "checkedAt": "2026-11-16T06:31:10.753287+00:00",
+  "independentInitial": {
+    "path": "research/devday-fidelity-20261116/review/round-01/reading-meaning-initial.md",
+    "sha256": "aae8f4d879b85acdab795060854ac276287fa4eedfe67748620944bb4a530a0d",
+    "mtimeUtc": "2026-11-16T06:28:42.834142+00:00",
+    "sequence": "B full initial text was generated and saved by apply_patch before the tool returned queued A/manager messages with detailed judgments; initial file unchanged afterward. A initial and root-first-look were read only after both initial completions."
+  },
+  "captures": {
+    "1920": {
+      "manifest": "research/devday-fidelity-20261116/evidence/round-01/present-1920/manifest.json",
+      "manifestSha256": "4c993146270fc9797686ced6872bee0b36da0dd3f94f320fa5876e6df5792bc9",
+      "metricsSha256": "9f509c96db3718895d440b93d8c77754d0ce87c2ccb540e5b70f61a0f1926a11",
+      "sourceRevision": "fa6bd281ce7b88825141e335ead2f21bdca93749e08c53dde5c015cc61173cc4",
+      "mode": "presentation-stage-only",
+      "captureInputCount": 46,
+      "currentMismatch": {},
+      "snapshotMismatch": {},
+      "metricsSameInputs": true,
+      "metricsSameRevision": true,
+      "metricsCaptureManifest": {
+        "path": "research/devday-fidelity-20261116/evidence/round-01/present-1920/manifest.json",
+        "sha256": "4c993146270fc9797686ced6872bee0b36da0dd3f94f320fa5876e6df5792bc9"
+      },
+      "png": [
+        {
+          "slide": 1,
+          "path": "research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-01.png",
+          "sha256": "2c106657b56b4309461dddf568e6fcf2343a534ccc7d5d35149fedc4d43c9cab",
+          "pixels": [
+            1557,
+            876
+          ],
+          "observedStage": [
+            1557.33349609375,
+            876
+          ],
+          "viewport": {
+            "width": 1920,
+            "height": 1080,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": []
+        },
+        {
+          "slide": 2,
+          "path": "research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-02.png",
+          "sha256": "1b7138686b40fe85e28ae4fe4c6080f50c00c48c8140fdbbd48f6afa50b4d13e",
+          "pixels": [
+            1557,
+            876
+          ],
+          "observedStage": [
+            1557.33349609375,
+            876
+          ],
+          "viewport": {
+            "width": 1920,
+            "height": 1080,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": []
+        },
+        {
+          "slide": 3,
+          "path": "research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-03.png",
+          "sha256": "d41a99fc7bffbc49422f76eac24768684de2c1ffb3ed993a9cada28d91dad97c",
+          "pixels": [
+            1557,
+            876
+          ],
+          "observedStage": [
+            1557.33349609375,
+            876
+          ],
+          "viewport": {
+            "width": 1920,
+            "height": 1080,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": []
+        },
+        {
+          "slide": 4,
+          "path": "research/devday-fidelity-20261116/evidence/round-01/present-1920/slide-04.png",
+          "sha256": "de52fa7d3997412823d6e8939028a0c25522175d6240e80df0d97144e3ce9cba",
+          "pixels": [
+            1557,
+            876
+          ],
+          "observedStage": [
+            1557.33349609375,
+            876
+          ],
+          "viewport": {
+            "width": 1920,
+            "height": 1080,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": []
+        }
+      ],
+      "metricsCaptureHashMatches": true
+    },
+    "1280": {
+      "manifest": "research/devday-fidelity-20261116/evidence/round-01/present-1280/manifest.json",
+      "manifestSha256": "0a33c02ff5d768339997cdfa402b185dbca7570c7ca2dda76177692241296bc5",
+      "metricsSha256": "615e5474c7439db88d3fbf531a6a272d251ee84b725151b6a1860272527b6aae",
+      "sourceRevision": "fa6bd281ce7b88825141e335ead2f21bdca93749e08c53dde5c015cc61173cc4",
+      "mode": "presentation-stage-only",
+      "captureInputCount": 46,
+      "currentMismatch": {},
+      "snapshotMismatch": {},
+      "metricsSameInputs": true,
+      "metricsSameRevision": true,
+      "metricsCaptureManifest": {
+        "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/manifest.json",
+        "sha256": "0a33c02ff5d768339997cdfa402b185dbca7570c7ca2dda76177692241296bc5"
+      },
+      "png": [
+        {
+          "slide": 1,
+          "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-01.png",
+          "sha256": "002951b2b4bd34256fae9980833111e6fc19e7ad85ac20972bffb870668d63f9",
+          "pixels": [
+            917,
+            516
+          ],
+          "observedStage": [
+            917.333251953125,
+            516
+          ],
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": []
+        },
+        {
+          "slide": 2,
+          "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-02.png",
+          "sha256": "ab0a0f926c678379f438032d3b1811b230abe9f3fcf2c072a59673fba45f13cb",
+          "pixels": [
+            917,
+            516
+          ],
+          "observedStage": [
+            917.333251953125,
+            516
+          ],
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": []
+        },
+        {
+          "slide": 3,
+          "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-03.png",
+          "sha256": "6c44648fe5afc39d6db71c6d642676739c54181475d069800056cf6af5fd4c21",
+          "pixels": [
+            917,
+            516
+          ],
+          "observedStage": [
+            917.333251953125,
+            516
+          ],
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": []
+        },
+        {
+          "slide": 4,
+          "path": "research/devday-fidelity-20261116/evidence/round-01/present-1280/slide-04.png",
+          "sha256": "83189022e2eacd1f9fec6f764473535afbe31b39d415cc945febcc353521c979",
+          "pixels": [
+            917,
+            516
+          ],
+          "observedStage": [
+            917.333251953125,
+            516
+          ],
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "devicePixelRatio": 1
+          },
+          "overflow": [],
+          "failures": [],
+          "errors": []
+        }
+      ],
+      "metricsCaptureHashMatches": true
+    }
+  },
+  "sourcePackBytesMatch": true,
+  "relationshipEdges": [
+    {
+      "data-edge-id": "summary-concept",
+      "data-from": "source-summary",
+      "data-to": "concept-comparison",
+      "data-from-port": "east",
+      "data-to-port": "west",
+      "d": "M384 329L672 169"
+    },
+    {
+      "data-edge-id": "summary-plan",
+      "data-from": "source-summary",
+      "data-to": "current-plan",
+      "data-from-port": "east",
+      "data-to-port": "west",
+      "d": "M384 329L672 480"
+    },
+    {
+      "data-edge-id": "concept-plan",
+      "data-from": "concept-comparison",
+      "data-to": "current-plan",
+      "data-from-port": "south",
+      "data-to-port": "north",
+      "d": "M1024 290V384"
+    }
+  ],
+  "sourceProofKeys": [
+    "format",
+    "checkedAt",
+    "status",
+    "checks",
+    "failed",
+    "visualApproval",
+    "scope",
+    "roles",
+    "results",
+    "inputHashes",
+    "unverified"
+  ],
+  "visualApproval": false,
+  "limits": "Artifact/current input and source checks after independent visual assessment. No browser/build/actual support click/native reading approval.",
+  "finalArtifacts": {
+    "checkedAt": "2026-11-16T06:34:46.996745+00:00",
+    "hashes": {
+      "research/devday-fidelity-20261116/review/round-01/reading-meaning-initial.md": "aae8f4d879b85acdab795060854ac276287fa4eedfe67748620944bb4a530a0d",
+      "research/devday-fidelity-20261116/review/round-01/reading-meaning-final.md": "ac49f11dc12c73c9003e24c135b4d5a823322690dca88c0ec77eabbb10139224",
+      "research/devday-fidelity-20261116/review/round-01/reading-meaning.reviews.json": "986887c0b7605b67fe63b9b318660a8fb7a46f4082f239bc50b430d0588d11b3",
+      "research/devday-fidelity-20261116/review/round-01/integration.md": "0d0a72d19f4fb3e08b4270faba111cf0737f3859d88b64f94340d40fb8412dad",
+      "research/devday-fidelity-20261116/review/round-01/art-direction-initial.md": "72e172261b149552f77723c0e9c6fff032e3a58ae2f1cd5f408dc0301afb4e17",
+      "research/devday-fidelity-20261116/review/round-01/art-direction-final.md": "115e513d83843476844e3a0c34ffc13213ed6fe695e08b786b6033dcc4657162",
+      "research/devday-fidelity-20261116/review/round-01/art-direction.reviews.json": "7b175f5922bb89b02fb414f8a10fee7130ac066fc5d8f4c5248c5c44f8119fcc"
+    },
+    "reviews": {
+      "art-direction": {
+        "rows": 8,
+        "uniqueScopes": 8,
+        "statusByScope": [
+          [
+            1,
+            1920,
+            "needs-changes"
+          ],
+          [
+            2,
+            1920,
+            "approved"
+          ],
+          [
+            3,
+            1920,
+            "approved"
+          ],
+          [
+            4,
+            1920,
+            "needs-changes"
+          ],
+          [
+            1,
+            1280,
+            "needs-changes"
+          ],
+          [
+            2,
+            1280,
+            "approved"
+          ],
+          [
+            3,
+            1280,
+            "approved"
+          ],
+          [
+            4,
+            1280,
+            "needs-changes"
+          ]
+        ],
+        "missingRequiredNextAction": []
+      },
+      "reading-meaning": {
+        "rows": 8,
+        "uniqueScopes": 8,
+        "statusByScope": [
+          [
+            1,
+            1920,
+            "needs-changes"
+          ],
+          [
+            2,
+            1920,
+            "approved"
+          ],
+          [
+            3,
+            1920,
+            "approved"
+          ],
+          [
+            4,
+            1920,
+            "needs-changes"
+          ],
+          [
+            1,
+            1280,
+            "needs-changes"
+          ],
+          [
+            2,
+            1280,
+            "approved"
+          ],
+          [
+            3,
+            1280,
+            "approved"
+          ],
+          [
+            4,
+            1280,
+            "needs-changes"
+          ]
+        ],
+        "missingRequiredNextAction": []
+      }
+    },
+    "missingLocalLinks": [],
+    "ownedTrailingWhitespace": []
+  }
+}

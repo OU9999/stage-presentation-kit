@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">자료 요약, 개념·비교, 현재 계획의 관계</title>
+  <desc id="desc">자료 요약을 입구로 하여 기존 개념·비교 문서와 현재 계획을 함께 읽고 갱신한다. 세 영역의 각 쌍을 잇는 무방향 선은 함께 볼 문서의 관계를 나타낸다. 발표팀의 설명용 그림이다.</desc>
+  <g data-observe-id="relation-lines" fill="none" stroke="#91a6a0" stroke-width="2.4">
+    <path data-edge-id="source-concepts" data-from="source" data-to="concepts" data-from-port="east" data-to-port="west" d="M413 251L675 119"/>
+    <path data-edge-id="source-plan" data-from="source" data-to="plan" data-from-port="east" data-to-port="west" d="M413 251L675 391"/>
+    <path data-edge-id="concepts-plan" data-from="concepts" data-to="plan" data-from-port="south" data-to-port="north" d="M886.5 179L906 323"/>
+  </g>
+  <g font-family="-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+    <g data-node-id="source" data-observe-id="source-summary">
+      <rect x="61" y="197" width="352" height="108" rx="6" fill="none" stroke="#596660" stroke-width="1.8"/>
+      <text x="92" y="273" font-size="62" font-weight="440" letter-spacing="-.55" fill="#e0e8e3">자료 요약</text>
+    </g>
+    <g data-node-id="concepts" data-observe-id="concept-documents">
+      <rect x="675" y="59" width="423" height="120" rx="6" fill="none" stroke="#667d75" stroke-width="1.8"/>
+      <text x="707" y="144" font-size="67" font-weight="470" letter-spacing="-.65" fill="#eff4ef">개념·비교</text>
+      <path d="M1015 104h25v30h-25zM1045 104h25v30h-25zM1022 114h11m-11 9h11m19-9h11m-11 9h11" fill="none" stroke="#7c9b8c" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+    <g data-node-id="plan" data-observe-id="current-plan">
+      <rect x="675" y="323" width="462" height="136" rx="6" fill="none" stroke="#9fc5b1" stroke-width="2"/>
+      <text x="706" y="416" font-size="76" font-weight="505" letter-spacing="-.75" fill="#f5faf6">현재 계획</text>
+      <path d="M1059 370h45v42h-45zM1059 382h45M1071 369v-5m21 5v-5m-23 27h9m-9 9h9m7-9h9m-9 9h9" fill="none" stroke="#9fc5b1" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

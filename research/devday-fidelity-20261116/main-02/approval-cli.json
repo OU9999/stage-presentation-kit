@@ -1,0 +1,142 @@
+[
+  {
+    "scope": "present-1280",
+    "record": "research/devday-fidelity-20261116/main-02/reviews/present-1280.review.json",
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-fidelity-20261116/main-02/reviews/present-1280.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 19 · 개선 필요 1 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "scope": "present-1280",
+    "record": "research/devday-fidelity-20261116/main-02/reviews/present-1280.review.json",
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-fidelity-20261116/main-02/reviews/present-1280.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 19 · 개선 필요 1 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "scope": "present-1920",
+    "record": "research/devday-fidelity-20261116/main-02/reviews/present-1920.review.json",
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-fidelity-20261116/main-02/reviews/present-1920.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 19 · 개선 필요 1 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "scope": "present-1920",
+    "record": "research/devday-fidelity-20261116/main-02/reviews/present-1920.review.json",
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-fidelity-20261116/main-02/reviews/present-1920.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 19 · 개선 필요 1 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "scope": "read-1440",
+    "record": "research/devday-fidelity-20261116/main-02/reviews/read-1440.review.json",
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-fidelity-20261116/main-02/reviews/read-1440.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 18 · 개선 필요 2 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "scope": "read-1440",
+    "record": "research/devday-fidelity-20261116/main-02/reviews/read-1440.review.json",
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-fidelity-20261116/main-02/reviews/read-1440.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 18 · 개선 필요 2 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "scope": "read-390",
+    "record": "research/devday-fidelity-20261116/main-02/reviews/read-390.review.json",
+    "requireApproved": false,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-fidelity-20261116/main-02/reviews/read-390.review.json"
+    ],
+    "exit": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 17 · 개선 필요 3 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  {
+    "scope": "read-390",
+    "record": "research/devday-fidelity-20261116/main-02/reviews/read-390.review.json",
+    "requireApproved": true,
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/devday-fidelity-20261116/main-02/reviews/read-390.review.json",
+      "--require-approved"
+    ],
+    "exit": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 17 · 개선 필요 3 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  }
+]

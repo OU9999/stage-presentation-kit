@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-11-16T07:43:44.660185+00:00",
+  "reviewer": "/root",
+  "scope": "Five mobile reading individuals only",
+  "seen": [
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-390/slide-03.png",
+      "sha256": "b561fb960b7761f7feced9a5935eed8e367498c2652421ac642c8d76064c5bb9"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-390/slide-05.png",
+      "sha256": "79094b2ac9cd3790b35dcbd40b2f39f49cd4554f711745c9a99f8c1eb79c69db"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-390/slide-06.png",
+      "sha256": "37c9a58f77e460746e21dc1a9e71e240209a336fa34c459e1ea6653821751ed6"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-390/slide-13.png",
+      "sha256": "9f9ea97b2ae9a739f71daeb29152ca59577d6ac5b6528c3cd0be5e44c736b0d5"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-390/slide-15.png",
+      "sha256": "7d507944090491102c59d531777bc6ec180acbb060c70435442edbae29a9ad12"
+    }
+  ],
+  "observations": [
+    "Native390 #3: the exact selected reason wraps into LLM Wiki와 RAG의 / 차이를 설명하고, then 다음 스터디의 진행안을 만들고 / 싶어서. The lone 싶어서 weakens Korean phrase rhythm. Check whether an intentional boundary can preserve exact words and keep 만들고 싶어서 together in both presentation and native source/notes.",
+    "Native390 #5/#6/#13: scaled diagrams are overview images with adjacent exact native section links; they must not be treated as directly legible body text at thumbnail scale. Actual support destinations are needed for the reading claim.",
+    "Native390 #15: direct purpose remains native18px in source order with full words and four intended phrase rows. The enlarged identity image creates extra vertical distance before quotation; compare native1440 first look and actual reading path before accepting."
+  ],
+  "status": "Questions and root criticism for cross-challenge after independent drafts; not approval"
+}

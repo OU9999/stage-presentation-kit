@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang='ko'><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>DevDay 원본 대조 · LLM Wiki</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0d0d0d;color:#f4f4ef;font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;word-break:keep-all}
+main{max-width:1800px;margin:auto;padding:56px 36px 72px}header{max-width:1020px;margin-bottom:40px}.eyebrow{font-size:14px;color:#b6b6ac;letter-spacing:.1em}h1{font-size:clamp(30px,3vw,48px);font-weight:450;letter-spacing:-.04em;margin:16px 0}p{line-height:1.7;color:#c3c3ba;margin:12px 0}
+a{color:inherit;text-underline-offset:4px}.main-link{display:inline-block;margin:16px 18px 0 0;padding:12px 18px;background:#f2f0e8;color:#171717;border-radius:6px;text-decoration:none}.plain-link{font-size:15px}
+.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:22px}.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-right:auto}button,select{font:inherit;border:1px solid #3a3a37;background:#181818;color:#ecece7;border-radius:6px;padding:10px 14px;cursor:pointer}button[aria-pressed=true]{background:#f2f0e8;color:#171717;border-color:#f2f0e8}label{font-size:14px;color:#babaae}select{margin-left:7px;padding:9px}
+.comparison{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}figure{margin:0;min-width:0}figcaption{margin-bottom:10px;font-size:15px;color:#c8c8c1}figure img{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#080808;border:1px solid #242424}figure a.image{display:block}.small{font-size:13px;color:#94948a}
+.reason{margin-top:28px;max-width:900px;font-size:19px;color:#e3e3db}.scope{padding-top:24px;margin-top:28px;border-top:1px solid #33332e;font-size:14px;max-width:1100px}.status{color:#dfd5b4}
+@media(max-width:1000px){.comparison{grid-template-columns:1fr}main{padding:32px 20px}.controls{gap:16px}.reason{font-size:18px}}
+</style>
+<main>
+<header><div class='eyebrow'>OPENAI DEVDAY · VISUAL REVIEW</div>
+<h1>원본 옆에서 다시 보는 LLM Wiki</h1>
+<p>원본의 구도와 자료 표현을 기준으로, 이전본과 실제 수정안을 비교합니다.</p>
+<a id='deck' class='main-link' href='#'>현재 본편 열기 ↗</a><a class='plain-link' href='RESULT.md'>검증팀과 수정 기록</a>
+</header>
+<div class='controls'><nav class='tabs' aria-label='장면 선택' id='tabs'></nav>
+<label>시안<select id='round'><option value='round-01'>1차 · 반려안</option><option value='round-02'>2차 · 채택 시안</option><option value='main-04' selected>현재 본편</option></select></label>
+<label>발표 화면<select id='width'><option value='1920'>1920 × 1080</option><option value='1280'>1280 × 720</option></select></label></div>
+<section class='comparison' aria-label='원본 이전본 새 시안 대조'>
+<figure><figcaption id='refTitle'>공식 원본</figcaption><a class='image' id='refFull'><img id='ref' alt='공식 DevDay의 같은 역할 화면'></a><p class='small'>방송 프레임입니다. 발표 스크린의 구도를 비교합니다. <a id='video'>원본 영상 ↗</a></p></figure>
+<figure><figcaption>이전 본편 · 사용자 반려본</figcaption><a class='image' id='beforeFull'><img id='before' alt='사용자가 반려한 이전 본편'></a><p class='small'>11월13일 본편의 1920 발표 캡처입니다.</p></figure>
+<figure><figcaption id='newTitle'>새 시안</figcaption><a class='image' id='afterFull'><img id='after' alt='새로 렌더한 실제 시안'></a><p class='small'>이미지를 누르면 원래 크기로 볼 수 있습니다.</p></figure>
+</section>
+<p class='reason' id='reason'></p>
+<div class='scope'><p class='status'>본편 발표 두 폭·읽기 두 폭의 명시 범위 검수 통과</p><p>비교 화면은 네 대표 장면이며, 현재 본편20장 전체는 별도로 검수합니다. 과거 시안은 당시 반려와 교정 이력으로 보존했습니다. 내부 검수와 사용자 미감 승인은 구분합니다. 자료 내용은 발표팀의 설명용 구성 예입니다. <a href='../../presentations/llm-wiki/read.html'>읽기 화면</a> · <a href='main-04/present-1920/contact-01-08.jpg'>전체 흐름 1–8</a> · <a href='main-04/present-1920/contact-09-16.jpg'>9–16</a> · <a href='main-04/present-1920/contact-17-20.jpg'>17–20</a></p></div>
+</main>
+<script>
+const data={"latest": "main-04", "roles": [{"name": "05 · 같은 질문의 비교", "target": 5, "ref": "evidence/official-XkKdbPhIvbY-90.png", "video": "https://www.youtube.com/watch?v=XkKdbPhIvbY&t=90s", "reference": "Codex · 01:30", "reason": "공통 절차를 묶고, 남아 다시 읽을 문서가 비교의 중심이 되게 편집했습니다."}, {"name": "07 · 문서의 관계", "target": 7, "ref": "evidence/official-XkKdbPhIvbY-210.png", "video": "https://www.youtube.com/watch?v=XkKdbPhIvbY&t=210s", "reference": "Codex · 03:30", "reason": "추상 범주보다 실제 문서 이름을 먼저 읽고, 세 무방향 관계를 따라가게 했습니다."}, {"name": "13 · 한 문서와 한 행", "target": 13, "ref": "evidence/official-Fls_onRviPM-1500.png", "video": "https://www.youtube.com/watch?v=Fls_onRviPM&t=1500s", "reference": "Keynote · 25:00", "reason": "진행안의 정체성과 읽을 한 행을 묶었습니다. 첫 시안의 장점을 보존했습니다."}, {"name": "15 · 목적을 확인하는 근거", "target": 15, "ref": "evidence/official-Fls_onRviPM-1440.png", "video": "https://www.youtube.com/watch?v=Fls_onRviPM&t=1440s", "reference": "Keynote · 24:00", "reason": "원자료의 정체성과 선택 위치를 남기고, 질문과 정확 목적 구절에 무게를 줬습니다."}]};let selected=0;
+const byId=id=>document.getElementById(id);
+data.roles.forEach((role,i)=>{const b=document.createElement('button');b.type='button';b.textContent=role.name;b.addEventListener('click',()=>{selected=i;render()});byId('tabs').append(b)});
+function setImage(id,src){byId(id).src=src;byId(id+'Full').href=src}
+function render(){const role=data.roles[selected],round=byId('round').value,width=byId('width').value,n=String(selected+1).padStart(2,'0');
+[...byId('tabs').children].forEach((b,i)=>b.setAttribute('aria-pressed',i===selected?'true':'false'));
+setImage('ref',role.ref);setImage('before','../llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-'+String(role.target).padStart(2,'0')+'.png');setImage('after',round.startsWith('main-')?round+'/present-'+width+'/slide-'+String(role.target).padStart(2,'0')+'.png':'evidence/'+round+'/present-'+width+'/slide-'+n+'.png');
+byId('refTitle').textContent='공식 원본 · '+role.reference;byId('newTitle').textContent=round.startsWith('main-')?'본편 검수 캡처 · '+round:round==='round-01'?'첫 시안 · 1·4 구조 반려':'두 번째 시안 · 구조 수정';
+byId('video').href=role.video;byId('reason').textContent=round==='round-01'?'첫 시안은 비교와 근거 화면의 반복 설명 때문에 구조 수정으로 반환됐습니다.':role.reason;
+byId('deck').href=round.startsWith('main-')?'../../presentations/llm-wiki/#'+role.target:'prototypes/site/'+round+'/#'+(selected+1);
+}byId('round').addEventListener('change',render);byId('width').addEventListener('change',render);render();
+</script></html>

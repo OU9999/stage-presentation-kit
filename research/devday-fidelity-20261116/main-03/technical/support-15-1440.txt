@@ -1,0 +1,43 @@
+[p1 "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage" | space "DevDay 미감 복원과 원본 대조"(4): 1 managed, 0 untracked — p1* "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage"]
+root
+  container
+    anchor "첫 슬라이드" [ref=786, loc=css:a[aria-label="첫 슬라이드"], url=http://127.0.0.1:4336/presentations/llm-wiki/read.html?direct-support=1245269027b8-1440#1]
+      text "ou-presentation"
+      text "발표 템플릿"
+    container "발표 모음과 학습 자료"
+      anchor [ref=787, url=http://127.0.0.1:4336/presentations/index.html]
+        text "발표 모음"
+      text "·"
+      anchor [ref=788, loc=href:/presentations/llm-wiki/materials/index.html, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+        text "학습 자료"
+    container
+      combobox "테마" [ref=789, loc=css:select[aria-label="테마"]]
+        text "Stage"
+      button [ref=790]
+        text "발표 모드"
+  container "발표 슬라이드" [ref=791]
+    container "14. 함께 읽고, 고치고, 다시 씁니다"
+    container "15. Markdown"
+      image
+  container
+    container
+      button "이전 슬라이드" [ref=792, loc=css:button[aria-label="이전 슬라이드"]]
+        text "←"
+      button "다음 슬라이드" [ref=793, loc=css:button[aria-label="다음 슬라이드"]]
+        text "→"
+    container
+      text "15 / 20"
+      text "—"
+      text "Markdown"
+    container
+      status
+        text "Markdown 원고"
+      button [ref=794]
+        text "전체 보기"
+      button [ref=795]
+        text "발표자"
+      button [ref=796]
+        text "전체 화면"
+      button "사용법 및 단축키" [ref=797, loc=css:button[aria-label="사용법 및 단축키"]]
+        text "?"
+[more content above and below the viewport: scrollY=7284, viewport 1000 / page 11030 px; scroll or use snapshot({ scope: "full_page" })]

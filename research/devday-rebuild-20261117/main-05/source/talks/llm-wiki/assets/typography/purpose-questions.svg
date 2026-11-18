@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" style="background:#080808" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+<title id="title">선택 이유와 다음 쓰임을 직접 기록하기</title>
+<desc id="desc">사람이 직접 남기는 맥락·선택 이유·중요한 점·앞으로의 쓰임의 네 판단과 다음 스터디 진행안이라는 쓰임을 보존한 자작 설명용 예. 외부 인용이나 실제 개인 기록이 아니다.</desc>
+<g font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Malgun Gothic,sans-serif" letter-spacing="-.4">
+<text x="25" y="70" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">사람이 남기는 선택 이유</text>
+<text x="25" y="220" font-size="55" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">좋았던 자료를</text>
+<text x="25" y="305" font-size="55" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">다음 스터디의</text>
+<text x="25" y="390" font-size="55" fill="#F6F6F4" font-weight="550" text-anchor="start" data-copy-role="essential">진행안으로</text>
+<text x="25" y="550" font-size="46" fill="#FF7A3D" font-weight="400" text-anchor="start" data-copy-role="essential">쓰임을 먼저 정합니다.</text>
+<text x="640" y="70" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">맥락</text>
+<text x="640" y="135" font-size="46" fill="#F6F6F4" font-weight="500" text-anchor="start" data-copy-role="essential">다음 AI 스터디를 준비합니다.</text>
+<text x="640" y="205" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">선택 이유</text>
+<text x="640" y="270" font-size="46" fill="#F6F6F4" font-weight="500" text-anchor="start" data-copy-role="essential">차이를 설명할 자료를 골랐습니다.</text>
+<text x="640" y="340" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">중요한 점</text>
+<text x="640" y="405" font-size="46" fill="#F6F6F4" font-weight="500" text-anchor="start" data-copy-role="essential">원문 · 내 이유 · 연결된 종합</text>
+<text x="640" y="475" font-size="44" fill="#C5C5C0" font-weight="400" text-anchor="start" data-copy-role="essential">앞으로의 쓰임</text>
+<text x="640" y="540" font-size="46" fill="#F6F6F4" font-weight="500" text-anchor="start" data-copy-role="essential">한 쪽 진행안과 다음 읽기 활동</text>
+</g>
+</svg>

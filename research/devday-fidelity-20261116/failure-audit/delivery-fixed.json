@@ -1,0 +1,73 @@
+{
+  "cacheDisabled": false,
+  "globalCacheOrStorageCleared": false,
+  "server": "local preview only",
+  "checks": [
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/#15",
+      "scripts": [
+        "http://127.0.0.1:4336/presentations/llm-wiki/content.js?v=52e8ae5caec9",
+        "http://127.0.0.1:4336/presentations/_runtime/deck-model.js?v=48406917d2bf",
+        "http://127.0.0.1:4336/presentations/_runtime/visual.js?v=02e26db1c3cc",
+        "http://127.0.0.1:4336/presentations/_runtime/blocks.js?v=3be7ddac62ab",
+        "http://127.0.0.1:4336/presentations/_runtime/app.js?v=66951d0918bc"
+      ],
+      "active": "발표팀의 자작 가상 예\n\n본편 뒤 별도 활동 15분,\n입문자와 함께라면 ‘읽기부터’?\n\n도구 설치보다 목차와\n연결을 따라 다음 질문의\n근거를 찾는 경험을\n먼저 하고 싶다.",
+      "errors": [
+        "작성자 점검 0"
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/9993d662f26d-condition-note-selection.svg",
+          "loaded": true
+        }
+      ],
+      "httpStatus": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/#5",
+      "scripts": [
+        "http://127.0.0.1:4336/presentations/llm-wiki/content.js?v=52e8ae5caec9",
+        "http://127.0.0.1:4336/presentations/_runtime/deck-model.js?v=48406917d2bf",
+        "http://127.0.0.1:4336/presentations/_runtime/visual.js?v=02e26db1c3cc",
+        "http://127.0.0.1:4336/presentations/_runtime/blocks.js?v=3be7ddac62ab",
+        "http://127.0.0.1:4336/presentations/_runtime/app.js?v=66951d0918bc"
+      ],
+      "active": "다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?\n발표팀의 설명용 비교 예\n\n두 예는 함께 쓸 수 있습니다.",
+      "errors": [
+        "작성자 점검 0"
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/8af85adfb586-same-question-comparison.svg",
+          "loaded": true
+        }
+      ],
+      "httpStatus": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/#15",
+      "scripts": [
+        "http://127.0.0.1:4336/presentations/llm-wiki/content.js?v=52e8ae5caec9",
+        "http://127.0.0.1:4336/presentations/_runtime/deck-model.js?v=48406917d2bf",
+        "http://127.0.0.1:4336/presentations/_runtime/visual.js?v=02e26db1c3cc",
+        "http://127.0.0.1:4336/presentations/_runtime/blocks.js?v=3be7ddac62ab",
+        "http://127.0.0.1:4336/presentations/_runtime/app.js?v=66951d0918bc"
+      ],
+      "active": "발표팀의 자작 가상 예\n\n본편 뒤 별도 활동 15분,\n입문자와 함께라면 ‘읽기부터’?\n\n도구 설치보다 목차와\n연결을 따라 다음 질문의\n근거를 찾는 경험을\n먼저 하고 싶다.",
+      "errors": [
+        "작성자 점검 0"
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/9993d662f26d-condition-note-selection.svg",
+          "loaded": true
+        }
+      ],
+      "httpStatus": 200,
+      "cacheControl": "no-store"
+    }
+  ]
+}

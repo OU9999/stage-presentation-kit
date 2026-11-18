@@ -1,0 +1,378 @@
+{
+  "checkedAt": "2026-11-16T07:57:13.013550+00:00",
+  "checkedBy": "/root/devday_verification_manager/tooling_integrator",
+  "source": {
+    "path": "talks/llm-wiki/slides.md",
+    "sha256": "5dfe035552381afc176ec07b0b2d6f10b8d292bd3fd83820a459b5c6ea0ee4d0"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0"
+  },
+  "sourceSnapshot": {
+    "path": "research/devday-fidelity-20261116/main-02/source-snapshot.json",
+    "sha256": "9a7e68043d64d996ad29bd2d8722af360681f7df2d68b347dbeb20adb7ff4b4f",
+    "inputCount": 104,
+    "currentAndFrozenMismatch": []
+  },
+  "manifests": [
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1920/manifest.json",
+      "sha256": "1d89a3f9ad3552a43d0cf0d619fd2be1f9f3db2093ec829b94416cbc1ddcfb50",
+      "inputs": 104,
+      "inputMismatch": [],
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      }
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/present-1280/manifest.json",
+      "sha256": "05d9b702c94fc3857835dd9c6f067cc48e6ecf8cc6514b832d82104c0d7874f4",
+      "inputs": 104,
+      "inputMismatch": [],
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      }
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-1440/manifest.json",
+      "sha256": "6f6b09c3bd31daba8e415c85842bf09b506eecc7f7740b83e2124f0343666bcb",
+      "inputs": 104,
+      "inputMismatch": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      }
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-02/read-390/manifest.json",
+      "sha256": "c8d5e75fbbbd68298e9ac505b3457632d21de52f7ca37f3bd28eba8a275edd5f",
+      "inputs": 104,
+      "inputMismatch": [],
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      }
+    }
+  ],
+  "rawReviews": [
+    {
+      "path": "research/devday-fidelity-20261116/review/main-02/present-1920.reviews.json",
+      "sha256": "a7ee7aeaaf16546317e04b408af4938946f577606a63dfbf05a02639c1ad67af",
+      "rows": 20,
+      "statuses": {
+        "approved": 19,
+        "needs-changes": 1
+      },
+      "needsChangesSlides": [
+        7
+      ]
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-02/present-1280.reviews.json",
+      "sha256": "7668a8f650cde3d520eb119e2df56a5c7c5dcadc808a171e0f28f7f3f6df4e69",
+      "rows": 20,
+      "statuses": {
+        "approved": 19,
+        "needs-changes": 1
+      },
+      "needsChangesSlides": [
+        7
+      ]
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-02/read-1440.reviews.json",
+      "sha256": "3150e21ffd156f019fb2576080cf45d5540642ba7588f0275832880e84691639",
+      "rows": 20,
+      "statuses": {
+        "approved": 18,
+        "needs-changes": 2
+      },
+      "needsChangesSlides": [
+        7,
+        15
+      ]
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-02/read-390.reviews.json",
+      "sha256": "ec26e737f7f2a1d01e98afd2f397ef174088b89c88515add79059443b5bd5fd3",
+      "rows": 20,
+      "statuses": {
+        "approved": 17,
+        "needs-changes": 3
+      },
+      "needsChangesSlides": [
+        3,
+        7,
+        15
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "path": "research/devday-fidelity-20261116/review/main-02/reading.initial.md",
+      "sha256": "e9a180de9c1d4a7a70668e5992f55a996647fa18141e69cd9769adb588a75b43"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-02/reading.final.md",
+      "sha256": "52d8d7ee104574770711bc379a103f3b08621e45c8c1a48a284ca66f52ec933a"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-02/presentation.initial.md",
+      "sha256": "24e72b8b39ae317bac4c135f39f8c8711b901ee82486b30589badc8bf3ba9753"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-02/presentation.final.md",
+      "sha256": "e2ac3d68e4df47377b90c65c3a173e061ce25ab17476abbad7fccc8afb91fd33"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-02/integration.md",
+      "sha256": "e42370544574e6c29a343a2e8393d3b05ea160359065ca408b0e41dbda6611e0"
+    }
+  ],
+  "independentInitialsPreserved": {
+    "reading.initial.md": "e9a180de9c1d4a7a70668e5992f55a996647fa18141e69cd9769adb588a75b43",
+    "presentation.initial.md": "24e72b8b39ae317bac4c135f39f8c8711b901ee82486b30589badc8bf3ba9753"
+  },
+  "jsonContractIssues": [],
+  "documentLinkIssues": [],
+  "trailingWhitespace": [],
+  "totalRows": 80,
+  "totalStatus": {
+    "approved": 73,
+    "needs-changes": 7,
+    "unreviewed": 0
+  },
+  "visualApproval": false,
+  "formalCliExecutedByB": false,
+  "remaining": {
+    "needsChanges": [
+      "7 current-plan identity/time in four modes",
+      "3 auxiliary-predicate rhythm in read390",
+      "15 literal Markdown markers in mandatory support in both reading widths"
+    ],
+    "readerProse": [
+      "selection-reason support: native implementation term",
+      "evidence support: native/prefix/caption implementation terms"
+    ],
+    "nextOwner": "root and next production visual/source/public-notes contributors"
+  },
+  "limits": [
+    "B direct reading40/support14/additional6 table PNGs; A direct presentation40; direct-view limits in final documents.",
+    "No user aesthetic, physical projector, other OS, full-video or motion approval.",
+    "Technical currentness and raw validation do not clear visual vetoes."
+  ],
+  "readingPngDimensions": {
+    "read-1440": [
+      {
+        "slide": 1,
+        "width": 1120,
+        "height": 233
+      },
+      {
+        "slide": 2,
+        "width": 1120,
+        "height": 238
+      },
+      {
+        "slide": 3,
+        "width": 1120,
+        "height": 466
+      },
+      {
+        "slide": 4,
+        "width": 1120,
+        "height": 186
+      },
+      {
+        "slide": 5,
+        "width": 1120,
+        "height": 739
+      },
+      {
+        "slide": 6,
+        "width": 1120,
+        "height": 657
+      },
+      {
+        "slide": 7,
+        "width": 1120,
+        "height": 638
+      },
+      {
+        "slide": 8,
+        "width": 1120,
+        "height": 610
+      },
+      {
+        "slide": 9,
+        "width": 1120,
+        "height": 300
+      },
+      {
+        "slide": 10,
+        "width": 1120,
+        "height": 317
+      },
+      {
+        "slide": 11,
+        "width": 1120,
+        "height": 459
+      },
+      {
+        "slide": 12,
+        "width": 1120,
+        "height": 703
+      },
+      {
+        "slide": 13,
+        "width": 1120,
+        "height": 638
+      },
+      {
+        "slide": 14,
+        "width": 1120,
+        "height": 703
+      },
+      {
+        "slide": 15,
+        "width": 1120,
+        "height": 1383
+      },
+      {
+        "slide": 16,
+        "width": 1120,
+        "height": 531
+      },
+      {
+        "slide": 17,
+        "width": 1120,
+        "height": 338
+      },
+      {
+        "slide": 18,
+        "width": 1120,
+        "height": 703
+      },
+      {
+        "slide": 19,
+        "width": 1120,
+        "height": 186
+      },
+      {
+        "slide": 20,
+        "width": 1120,
+        "height": 233
+      }
+    ],
+    "read-390": [
+      {
+        "slide": 1,
+        "width": 366,
+        "height": 191
+      },
+      {
+        "slide": 2,
+        "width": 366,
+        "height": 208
+      },
+      {
+        "slide": 3,
+        "width": 366,
+        "height": 490
+      },
+      {
+        "slide": 4,
+        "width": 366,
+        "height": 144
+      },
+      {
+        "slide": 5,
+        "width": 366,
+        "height": 462
+      },
+      {
+        "slide": 6,
+        "width": 366,
+        "height": 403
+      },
+      {
+        "slide": 7,
+        "width": 366,
+        "height": 368
+      },
+      {
+        "slide": 8,
+        "width": 366,
+        "height": 294
+      },
+      {
+        "slide": 9,
+        "width": 366,
+        "height": 252
+      },
+      {
+        "slide": 10,
+        "width": 366,
+        "height": 287
+      },
+      {
+        "slide": 11,
+        "width": 366,
+        "height": 558
+      },
+      {
+        "slide": 12,
+        "width": 366,
+        "height": 661
+      },
+      {
+        "slide": 13,
+        "width": 366,
+        "height": 336
+      },
+      {
+        "slide": 14,
+        "width": 366,
+        "height": 705
+      },
+      {
+        "slide": 15,
+        "width": 366,
+        "height": 762
+      },
+      {
+        "slide": 16,
+        "width": 366,
+        "height": 489
+      },
+      {
+        "slide": 17,
+        "width": 366,
+        "height": 289
+      },
+      {
+        "slide": 18,
+        "width": 366,
+        "height": 705
+      },
+      {
+        "slide": 19,
+        "width": 366,
+        "height": 188
+      },
+      {
+        "slide": 20,
+        "width": 366,
+        "height": 235
+      }
+    ]
+  },
+  "writerBoundary": "B own writing ends after this validation and final handoff; A reported all four own writers ended."
+}

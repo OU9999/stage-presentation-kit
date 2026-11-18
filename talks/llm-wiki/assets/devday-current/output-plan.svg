@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" data-material-kind="editorial-adaptation" data-source="materials/session-plan.md#15분-진행안" role="img" aria-labelledby="title desc">
+  <title id="title">함께 읽는 15분 활동표</title>
+  <desc id="desc">발표팀 활동안의 네 시간 구간을 표로 다시 조판했다. 활동, 시간, 남길 기록을 한 행에 놓고 6~11분의 근거 찾기를 강조한다.</desc>
+  <rect width="1000" height="640" fill="#f6f4ee"/>
+  <g font-family="-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+    <text data-observe-id="plan-heading" x="54" y="107" font-size="59" font-weight="660" letter-spacing="-1.6" fill="#251e36">함께 읽는 15분</text>
+    <g data-observe-id="schedule-table">
+      <rect x="54" y="154" width="892" height="406" fill="#fffdf8"/>
+      <path d="M54 154H946V222H54Z" fill="#ebe4f5"/>
+      <path d="M54 306H946V390H54ZM54 474H946V560H54Z" fill="#f8f4fb"/>
+      <rect data-observe-id="selected-slot" x="54" y="390" width="892" height="84" fill="#ded1f5"/>
+      <path d="M54 154H946V560H54ZM54 222H946M54 306H946M54 390H946M54 474H946M224 154V560M623 154V560" fill="none" stroke="#c3b7d0" stroke-width="2"/>
+      <path d="M54 390h7v84h-7Z" fill="#7455aa"/>
+      <g font-size="28" font-weight="590" fill="#483360">
+        <text x="76" y="197">시간</text>
+        <text x="246" y="197">할 일</text>
+        <text x="645" y="197">남길 것</text>
+      </g>
+      <g font-size="33" font-weight="650" fill="#624b83">
+        <text x="76" y="274">0–2분</text>
+        <text x="76" y="358">2–6분</text>
+        <text x="76" y="442">6–11분</text>
+        <text x="76" y="526">11–15분</text>
+      </g>
+      <g font-size="29" font-weight="515" fill="#2e2539">
+        <text x="246" y="274">다시 쓸 질문 정하기</text>
+        <text x="246" y="358">두 읽기 메모 확인하기</text>
+        <text x="246" y="442">한 연결의 근거 찾기</text>
+        <text x="246" y="526">후속 질문에 근거 연결하기</text>
+        <text x="645" y="274">목적 한 문장</text>
+        <text x="645" y="358">요지와 선택 이유</text>
+        <text x="645" y="442">관계를 뒷받침하는 위치</text>
+        <text x="645" y="526">검토할 답과 모르는 점</text>
+      </g>
+    </g>
+  </g>
+</svg>

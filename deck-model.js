@@ -298,8 +298,8 @@
       if (slide.view === undefined) return;
       var at = path + ".view", view = slide.view;
       function fail(location, message) { issue("error", location, message, slideIndex); }
-      if (slide.layout !== "blocks") { fail(at, "view는 blocks 양식에서만 사용합니다."); return; }
       if (!record(view)) { fail(at, "view는 compose/fit/focus/groups 객체여야 합니다."); return; }
+      if (slide.layout !== "blocks" && (!view.support || Object.keys(view).length !== 1)) { fail(at, "기존 양식의 view는 support만 사용합니다."); return; }
       function focus(value, location, group) {
         if (Array.isArray(value)) {
           if (group || value.length < 1 || value.length > 6) { fail(location, "장 focus 배열은 사진1~6개 위치만 지원합니다. 그룹은 문자열이어야 합니다."); return; }
@@ -313,11 +313,22 @@
         if (!match || Number(match[1]) > 100 || Number(match[2]) > 100) fail(location, "focus는 0~100%의 두 위치여야 합니다.");
       }
       function settings(object, location, group) {
-        var allowed = group ? ["start", "end", "tone", "primary", "fit", "focus", "origin", "icon"] : ["compose", "fit", "focus", "groups", "variant", "icons"];
+        var allowed = group ? ["start", "end", "tone", "primary", "fit", "focus", "origin", "icon"] : ["compose", "fit", "focus", "groups", "variant", "icons", "quiet", "support"];
         Object.keys(object).forEach(function (key) { if (allowed.indexOf(key) < 0) fail(location + "." + key, "지원하지 않는 조판 설정 키입니다."); });
+        if (!group && object.quiet !== undefined && typeof object.quiet !== "boolean") fail(location + ".quiet", "quiet는 true/false여야 합니다.");
+        if (!group && object.support !== undefined) {
+          var support = object.support, supportAt = location + ".support";
+          if (!record(support)) fail(supportAt, "support는 label과 href의 객체여야 합니다.");
+          else {
+            Object.keys(support).forEach(function (key) { if (["label", "href", "origin"].indexOf(key) < 0) fail(supportAt + "." + key, "지원하지 않는 support 설정 키입니다."); });
+            if (typeof support.label !== "string" || !support.label.trim() || /[\u0000-\u001f\u007f]/.test(support.label)) fail(supportAt + ".label", "support.label은 비어 있지 않은 한 줄 문자열이어야 합니다.");
+            if (typeof support.href !== "string" || /[\u0000-\u0020\\]/.test(support.href) || !/^(?!\/)(?![a-z][a-z\d+.-]*:)[^?#]+\.(?:md|html)#[^#?]+$/i.test(support.href)) fail(supportAt + ".href", "support.href는 공개 학습 자료의 상대 경로와 #anchor여야 합니다.");
+            if (support.origin !== undefined && (!record(support.origin) || !Number.isInteger(support.origin.line) || support.origin.line < 1 || !Number.isInteger(support.origin.endLine) || support.origin.endLine < support.origin.line)) fail(supportAt + ".origin", "support 제어문의 원고 줄 범위를 확인하세요.");
+          }
+        }
         if (object.compose !== undefined && ["auto", "message", "split", "media", "gallery", "mosaic", "editorial", "quote", "closing", "document", "bento", "icon-wall"].indexOf(object.compose) < 0) fail(location + ".compose", "지원하는 compose 이름을 사용하세요.");
         if (object.fit !== undefined && ["contain", "cover"].indexOf(object.fit) < 0) fail(location + ".fit", "fit은 contain/cover여야 합니다.");
-        if (!group && object.variant !== undefined && ["portraits", "strip", "staggered", "balanced", "seoul", "recap", "centered"].indexOf(object.variant) < 0) fail(location + ".variant", "지원하는 variant 이름을 사용하세요.");
+        if (!group && object.variant !== undefined && ["portraits", "strip", "staggered", "balanced", "seoul", "recap", "centered", "record", "revision", "evidence", "quote-card", "comparison", "declaration", "spacious"].indexOf(object.variant) < 0) fail(location + ".variant", "지원하는 variant 이름을 사용하세요.");
         if (group && object.icon !== undefined && !normalizeIcon(object.icon)) fail(location + ".icon", "지원하는 기존 아이콘 이름을 사용하세요.");
         if (!group && object.icons !== undefined) {
           if (!Array.isArray(object.icons)) fail(location + ".icons", "icons는 아이콘 이름 또는 {icon, tone}의 배열이어야 합니다.");
@@ -476,9 +487,11 @@
         });
       }
       if (["image", "media", "demo"].indexOf(slide.layout) >= 0) media(slide, path, slideIndex);
+      if (slide.variant === "unframed" && slide.layout !== "results") issue("error", path + ".variant", "unframed는 results에서만 사용하세요.", slideIndex);
       if (["gallery", "mosaic", "results", "categories"].indexOf(slide.layout) >= 0) {
         var maxima = { gallery: 6, mosaic: 8, results: 4, categories: 5 };
         if (slide.layout === "gallery") choice(slide, "variant", ["portraits", "strip"], path, slideIndex);
+        if (slide.layout === "results") choice(slide, "variant", ["unframed"], path, slideIndex);
         if (list(slide.items, 1, maxima[slide.layout], path + ".items", slideIndex)) {
           slide.items.forEach(function (item, itemIndex) {
             var itemPath = path + ".items." + itemIndex;

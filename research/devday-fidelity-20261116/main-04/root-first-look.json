@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-16T08:37:12.387730+00:00",
+  "reviewer": "/root",
+  "scope": "Two changed native1440 PNGs and two changed support15 paragraph views. Remaining78 current main images compared byte-exact, not root fresh full80 visual claim.",
+  "seen": [
+    {
+      "path": "research/devday-fidelity-20261116/main-04/read-1440/slide-03.png",
+      "sha256": "c953a3217ed492cc89440b651840891b62cc49c7bc50df356d89aa54a023c258"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/read-1440/slide-05.png",
+      "sha256": "2ec5c5e45a9d3d0fe1f11c4cf1b42fdd23178edc144f0ec0db4adde409d6d073"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-15-390.png",
+      "sha256": "2b0fe9fa9bc920bac82ac6b68c76bb64ff60a6abd5a8d6924d128f19eaff63fc"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-15-1440.png",
+      "sha256": "ba6243fe767c7170a16b5fd190015b6e331d35ab425f7b99121a6cf3c5dee98d"
+    }
+  ],
+  "observations": [
+    "Native1440 #3/#5 current pixels keep the same hierarchy, exact source wording, selected-reason row rhythm and diagram overview/native support. No new visible core problem. The raster differences have no established cause; do not claim all80 pixels unchanged.",
+    "Native support15 removes the internal editorial clause and leaves the exact purpose/check question and authored-example status. It reads directly as a cross-check of the purpose. Required conditions/full original passage/source links remain.",
+    "In the390 ordinary explanatory paragraph, the final emphasized 목적도 확인합니다 wraps between object and predicate. This is a current natural prose wrap, unlike the large selected quotation03 mandatory phrase; reviewers should judge its semantic role explicitly rather than apply a blanket per-word prohibition. Root does not declare approval before that recheck and final CLI."
+  ],
+  "status": "Limited current view, independent refresh initials pending"
+}

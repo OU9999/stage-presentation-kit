@@ -1,0 +1,1355 @@
+{
+  "checkedAt": "2026-11-16T08:43:43.080416+00:00",
+  "checkedBy": "/root/devday_verification_manager/tooling_integrator",
+  "source": {
+    "path": "talks/llm-wiki/slides.md",
+    "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0"
+  },
+  "currentNotes": {
+    "livePath": "talks/llm-wiki/materials/keynote-notes.md",
+    "liveSha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3",
+    "frozenPath": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+    "frozenSha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+  },
+  "historicalMain03NotesOnly": {
+    "frozenPath": "research/devday-fidelity-20261116/main-03/source/talks/llm-wiki/materials/keynote-notes.md",
+    "sha256": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c"
+  },
+  "sourceInputs": {
+    "count": 104,
+    "changedSinceMain03": [
+      "talks/llm-wiki/materials/keynote-notes.md"
+    ],
+    "currentFrozenMismatch": [],
+    "exactSingleClauseDeletion": true,
+    "removedClause": "반복한 별도 판정 문구 없이 "
+  },
+  "manifests": [
+    {
+      "path": "research/devday-fidelity-20261116/main-04/present-1920/manifest.json",
+      "sha256": "60e190971254fb91cc702de78a26221e3f6c33e3772051098b9e6219ff0b4b05",
+      "inputCount": 104,
+      "mismatch": [],
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      }
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/present-1280/manifest.json",
+      "sha256": "a81e8a51e705c030230bd4190c9628013a97e25c53f7c13af905809df5823a57",
+      "inputCount": 104,
+      "mismatch": [],
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      }
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+      "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21",
+      "inputCount": 104,
+      "mismatch": [],
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      }
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/read-390/manifest.json",
+      "sha256": "47fc38af151fb4a5de259d665f4325acfbaecf11099212487728f89e811c05d5",
+      "inputCount": 104,
+      "mismatch": [],
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      }
+    }
+  ],
+  "rawReviews": [
+    {
+      "path": "research/devday-fidelity-20261116/review/main-04/present-1920.reviews.json",
+      "sha256": "9c7e0bccc4265970fd6a3bc9cb2e0ed90d13f8f86ec7641a08db46c719f08572",
+      "rows": 20,
+      "statuses": {
+        "approved": 20
+      },
+      "supportReferenceCount": 37,
+      "pngDimensions": [
+        {
+          "slide": 1,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 2,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 3,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 4,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 5,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 6,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 7,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 8,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 9,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 10,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 11,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 12,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 13,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 14,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 15,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 16,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 17,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 18,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 19,
+          "width": 1557,
+          "height": 876
+        },
+        {
+          "slide": 20,
+          "width": 1557,
+          "height": 876
+        }
+      ]
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-04/present-1280.reviews.json",
+      "sha256": "b36e222b1b355dc28ec6e400b5209992c1facfb567ea80e1b6360db168298740",
+      "rows": 20,
+      "statuses": {
+        "approved": 20
+      },
+      "supportReferenceCount": 37,
+      "pngDimensions": [
+        {
+          "slide": 1,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 2,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 3,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 4,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 5,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 6,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 7,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 8,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 9,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 10,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 11,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 12,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 13,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 14,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 15,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 16,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 17,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 18,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 19,
+          "width": 917,
+          "height": 516
+        },
+        {
+          "slide": 20,
+          "width": 917,
+          "height": 516
+        }
+      ]
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-04/read-1440.reviews.json",
+      "sha256": "1f5fd9dc037a06964ba27d4e330eb925b9951fb289998398841a94645d0af84a",
+      "rows": 20,
+      "statuses": {
+        "approved": 20
+      },
+      "supportReferenceCount": 95,
+      "pngDimensions": [
+        {
+          "slide": 1,
+          "width": 1120,
+          "height": 233
+        },
+        {
+          "slide": 2,
+          "width": 1120,
+          "height": 238
+        },
+        {
+          "slide": 3,
+          "width": 1120,
+          "height": 504
+        },
+        {
+          "slide": 4,
+          "width": 1120,
+          "height": 186
+        },
+        {
+          "slide": 5,
+          "width": 1120,
+          "height": 739
+        },
+        {
+          "slide": 6,
+          "width": 1120,
+          "height": 657
+        },
+        {
+          "slide": 7,
+          "width": 1120,
+          "height": 638
+        },
+        {
+          "slide": 8,
+          "width": 1120,
+          "height": 610
+        },
+        {
+          "slide": 9,
+          "width": 1120,
+          "height": 300
+        },
+        {
+          "slide": 10,
+          "width": 1120,
+          "height": 317
+        },
+        {
+          "slide": 11,
+          "width": 1120,
+          "height": 459
+        },
+        {
+          "slide": 12,
+          "width": 1120,
+          "height": 703
+        },
+        {
+          "slide": 13,
+          "width": 1120,
+          "height": 638
+        },
+        {
+          "slide": 14,
+          "width": 1120,
+          "height": 703
+        },
+        {
+          "slide": 15,
+          "width": 1120,
+          "height": 1383
+        },
+        {
+          "slide": 16,
+          "width": 1120,
+          "height": 531
+        },
+        {
+          "slide": 17,
+          "width": 1120,
+          "height": 338
+        },
+        {
+          "slide": 18,
+          "width": 1120,
+          "height": 703
+        },
+        {
+          "slide": 19,
+          "width": 1120,
+          "height": 186
+        },
+        {
+          "slide": 20,
+          "width": 1120,
+          "height": 233
+        }
+      ]
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-04/read-390.reviews.json",
+      "sha256": "df3b07e13156d58e68c29758ff1dc1250fdcb71ca453455ad83735abd37398d1",
+      "rows": 20,
+      "statuses": {
+        "approved": 20
+      },
+      "supportReferenceCount": 101,
+      "pngDimensions": [
+        {
+          "slide": 1,
+          "width": 366,
+          "height": 191
+        },
+        {
+          "slide": 2,
+          "width": 366,
+          "height": 208
+        },
+        {
+          "slide": 3,
+          "width": 366,
+          "height": 490
+        },
+        {
+          "slide": 4,
+          "width": 366,
+          "height": 144
+        },
+        {
+          "slide": 5,
+          "width": 366,
+          "height": 462
+        },
+        {
+          "slide": 6,
+          "width": 366,
+          "height": 403
+        },
+        {
+          "slide": 7,
+          "width": 366,
+          "height": 368
+        },
+        {
+          "slide": 8,
+          "width": 366,
+          "height": 294
+        },
+        {
+          "slide": 9,
+          "width": 366,
+          "height": 252
+        },
+        {
+          "slide": 10,
+          "width": 366,
+          "height": 287
+        },
+        {
+          "slide": 11,
+          "width": 366,
+          "height": 558
+        },
+        {
+          "slide": 12,
+          "width": 366,
+          "height": 661
+        },
+        {
+          "slide": 13,
+          "width": 366,
+          "height": 336
+        },
+        {
+          "slide": 14,
+          "width": 366,
+          "height": 705
+        },
+        {
+          "slide": 15,
+          "width": 366,
+          "height": 762
+        },
+        {
+          "slide": 16,
+          "width": 366,
+          "height": 489
+        },
+        {
+          "slide": 17,
+          "width": 366,
+          "height": 289
+        },
+        {
+          "slide": 18,
+          "width": 366,
+          "height": 705
+        },
+        {
+          "slide": 19,
+          "width": 366,
+          "height": 188
+        },
+        {
+          "slide": 20,
+          "width": 366,
+          "height": 235
+        }
+      ]
+    }
+  ],
+  "supportReferencesVerified": 270,
+  "currentSupportAndTablePngs": [
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-03-390.png",
+      "sha256": "ec4c3f526976c95e4279697500d4a68165e2803ee6b1e52fe3ac952471168cc4",
+      "sameAsMain03": true,
+      "reviewMethod": "byte-identical-prior-direct-view-reuse",
+      "directViewTiming": null
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-03-1440.png",
+      "sha256": "b3fd4c6c762b4973d1fb1cdf82c20d551f0eddacbcc76f175b6f78222f145b72",
+      "sameAsMain03": false,
+      "reviewMethod": "direct-view-current",
+      "directViewTiming": "after-initial"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-05-390.png",
+      "sha256": "bcc2e1dfbe7521c84afcd688768314513d390166320728c2573838d6d60ebb3e",
+      "sameAsMain03": true,
+      "reviewMethod": "byte-identical-prior-direct-view-reuse",
+      "directViewTiming": null
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-05-1440.png",
+      "sha256": "bc97ca6fba8d14a3f3d82ccdbee9f88243db60735b84b58151ad00237d05e46d",
+      "sameAsMain03": false,
+      "reviewMethod": "direct-view-current",
+      "directViewTiming": "after-initial"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-06-390.png",
+      "sha256": "a6ef16829874bef9c25e3f0e62e1b07383ef77f5d0e9ab0995cee8d9d6fb8116",
+      "sameAsMain03": true,
+      "reviewMethod": "byte-identical-prior-direct-view-reuse",
+      "directViewTiming": null
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-06-1440.png",
+      "sha256": "2919361c2e4530745f65a0e69f3019f19c731301cce486ccb008391081a3a70c",
+      "sameAsMain03": false,
+      "reviewMethod": "direct-view-current",
+      "directViewTiming": "after-initial"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-07-390.png",
+      "sha256": "b7e78c45149edfa8006cabe392a8a7ba4d5a55ea560aefaef88536b526ad457b",
+      "sameAsMain03": true,
+      "reviewMethod": "byte-identical-prior-direct-view-reuse",
+      "directViewTiming": null
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-07-1440.png",
+      "sha256": "8174e85a40cdd94c4139331d8cf07142f76ec81b26f50232bd6d468e59c4e672",
+      "sameAsMain03": false,
+      "reviewMethod": "direct-view-current",
+      "directViewTiming": "after-initial"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-08-390.png",
+      "sha256": "28f23e091798aa9c46b00134037309d57848869d261c5187ce15ab346526c2ca",
+      "sameAsMain03": true,
+      "reviewMethod": "byte-identical-prior-direct-view-reuse",
+      "directViewTiming": null
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-08-1440.png",
+      "sha256": "a83309c825ee1195ee0c25fa843c4e1721236a2ab2486abd69f82119f9d03018",
+      "sameAsMain03": false,
+      "reviewMethod": "direct-view-current",
+      "directViewTiming": "after-initial"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-13-390.png",
+      "sha256": "e6703dfc1bf2eafaf2d62158f3ef34bc8cf1e53bd96a6e558bd2d1e3f2cf26f9",
+      "sameAsMain03": true,
+      "reviewMethod": "byte-identical-prior-direct-view-reuse",
+      "directViewTiming": null
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-13-1440.png",
+      "sha256": "e3867f288a6f0e71270ae2f2a67adff776316a8644fc196eff8081da55d9b5ee",
+      "sameAsMain03": false,
+      "reviewMethod": "direct-view-current",
+      "directViewTiming": "after-initial"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-15-390.png",
+      "sha256": "2b0fe9fa9bc920bac82ac6b68c76bb64ff60a6abd5a8d6924d128f19eaff63fc",
+      "sameAsMain03": false,
+      "reviewMethod": "direct-view-current",
+      "directViewTiming": "before-initial"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-15-1440.png",
+      "sha256": "ba6243fe767c7170a16b5fd190015b6e331d35ab425f7b99121a6cf3c5dee98d",
+      "sameAsMain03": false,
+      "reviewMethod": "direct-view-current",
+      "directViewTiming": "before-initial"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/support-table-05-left-390.png",
+      "sha256": "7921c6b1338664da96934c3067c25d144ced6acb26aba3ab86321caf0d1bdced",
+      "sameAsMain03": false,
+      "reviewMethod": "direct-view-current-after-initial"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/support-table-05-right-390.png",
+      "sha256": "4a943a197633182cf79ae500740602021d86970da114266a7188423aaf477a77",
+      "sameAsMain03": false,
+      "reviewMethod": "direct-view-current-after-initial"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/notes-plan-change-table-left-390.png",
+      "sha256": "3264b102a810d3c797690b4ca5f4c6654fa6096fb19c0a707cac9d21b4940096",
+      "sameAsMain03": true,
+      "reviewMethod": "byte-identical-prior-direct-view-reuse"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/notes-plan-change-table-right-390.png",
+      "sha256": "49c13869f210e0e723de877b6241d1b2fdcf14d0b02ea8d87c10091ce8f64114",
+      "sameAsMain03": true,
+      "reviewMethod": "byte-identical-prior-direct-view-reuse"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/support-table-07-left-390.png",
+      "sha256": "1af86b0ad0db133aaa216c9752cdc09622eac59f58655f0de5195da0a4720153",
+      "sameAsMain03": true,
+      "reviewMethod": "byte-identical-prior-direct-view-reuse"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/main-04/technical/support-table-07-right-390.png",
+      "sha256": "f06b0fbce7aa39476b4572f177179272735111f1534de51a2e6410ce15721acd",
+      "sameAsMain03": false,
+      "reviewMethod": "direct-view-current-after-initial"
+    }
+  ],
+  "reuseVerification": {
+    "metadataPath": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+    "metadataSha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530",
+    "byteIdenticalCount": 78,
+    "different": [
+      {
+        "scope": "read-1440",
+        "slide": 3,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-03.png",
+        "beforeSha256": "b365090d5674275761357ee93fc21eb05d7443d5b4254922d2c5e1e974b0cb57",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-03.png",
+        "currentSha256": "c953a3217ed492cc89440b651840891b62cc49c7bc50df356d89aa54a023c258"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 5,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-05.png",
+        "beforeSha256": "1bbfbb4b18f3b79532f46265fff88df2e63753e9e5716ef3bf3f7a5d0772c0b6",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-05.png",
+        "currentSha256": "2ec5c5e45a9d3d0fe1f11c4cf1b42fdd23178edc144f0ec0db4adde409d6d073"
+      }
+    ],
+    "readingMain38ReuseAnd2NewDirect": true,
+    "unresolvedRasterCause": "not established; both current native1440 rasters directly reviewed; no blanket80 image reuse",
+    "mainByteIdentity": [
+      {
+        "scope": "present-1920",
+        "slide": 1,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-01.png",
+        "beforeSha256": "bc20d0f46cbc045fe0ffdd508255dd5e91ae68377041abf1dc6b93aea66f7597",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-01.png",
+        "currentSha256": "bc20d0f46cbc045fe0ffdd508255dd5e91ae68377041abf1dc6b93aea66f7597"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 2,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-02.png",
+        "beforeSha256": "07f84b6213731f0693944e6cfc559841080682f246589689c6886ed22c435400",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-02.png",
+        "currentSha256": "07f84b6213731f0693944e6cfc559841080682f246589689c6886ed22c435400"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 3,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-03.png",
+        "beforeSha256": "5b6baabfd93631fc8959a0606eebbe656b8d55f417779844c8ec2c882dc8fcb4",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-03.png",
+        "currentSha256": "5b6baabfd93631fc8959a0606eebbe656b8d55f417779844c8ec2c882dc8fcb4"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 4,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-04.png",
+        "beforeSha256": "ab57520feead478815622f577b55b08c326fd7b506d684a20605aee782c0eb8f",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-04.png",
+        "currentSha256": "ab57520feead478815622f577b55b08c326fd7b506d684a20605aee782c0eb8f"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 5,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-05.png",
+        "beforeSha256": "6d3b51d09297c333d121bd080a3ea4d62a048f28dbb79219a98459a4e49a9f83",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-05.png",
+        "currentSha256": "6d3b51d09297c333d121bd080a3ea4d62a048f28dbb79219a98459a4e49a9f83"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 6,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-06.png",
+        "beforeSha256": "cc1f2e09115915b3fb135d780d669727e3e7841f76ea2bcbcd4f7c6de3f90ac7",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-06.png",
+        "currentSha256": "cc1f2e09115915b3fb135d780d669727e3e7841f76ea2bcbcd4f7c6de3f90ac7"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 7,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-07.png",
+        "beforeSha256": "dc462b4e991eb54df2f524fdfedc5ba86f4b74f582bb292111d03452baecb975",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-07.png",
+        "currentSha256": "dc462b4e991eb54df2f524fdfedc5ba86f4b74f582bb292111d03452baecb975"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 8,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-08.png",
+        "beforeSha256": "985a319f8acd6369fbfcb0906e451c39201f94f6ecadc70b8817db1fb773f76b",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-08.png",
+        "currentSha256": "985a319f8acd6369fbfcb0906e451c39201f94f6ecadc70b8817db1fb773f76b"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 9,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-09.png",
+        "beforeSha256": "9af07b26325ed9c8753da618725006750dd8a13aa94d7e308a7fd7053a63a0c2",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-09.png",
+        "currentSha256": "9af07b26325ed9c8753da618725006750dd8a13aa94d7e308a7fd7053a63a0c2"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 10,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-10.png",
+        "beforeSha256": "ff8163e15dffba6250a7b5a05fe74bc64019763c4133fbe44d68258b5310f1dd",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-10.png",
+        "currentSha256": "ff8163e15dffba6250a7b5a05fe74bc64019763c4133fbe44d68258b5310f1dd"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 11,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-11.png",
+        "beforeSha256": "29bf17736020a8f8e5a4e8a47d08298a4c19d79d597f3a79b88ce21cd1dfc707",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-11.png",
+        "currentSha256": "29bf17736020a8f8e5a4e8a47d08298a4c19d79d597f3a79b88ce21cd1dfc707"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 12,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-12.png",
+        "beforeSha256": "2d9dbd731204fbaef5437af3dbe8f09085c023244de06cef338e891ef2418843",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-12.png",
+        "currentSha256": "2d9dbd731204fbaef5437af3dbe8f09085c023244de06cef338e891ef2418843"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 13,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-13.png",
+        "beforeSha256": "d41a99fc7bffbc49422f76eac24768684de2c1ffb3ed993a9cada28d91dad97c",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-13.png",
+        "currentSha256": "d41a99fc7bffbc49422f76eac24768684de2c1ffb3ed993a9cada28d91dad97c"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 14,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-14.png",
+        "beforeSha256": "8b31e3ac6279f7bacaf322c7f39bf82779b39a5c209312139d980a35f3e9dff1",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-14.png",
+        "currentSha256": "8b31e3ac6279f7bacaf322c7f39bf82779b39a5c209312139d980a35f3e9dff1"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 15,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-15.png",
+        "beforeSha256": "ddcd23950218e1d311e6c372daafa854e069273adbaaf24fa9ec5f219034c3a9",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-15.png",
+        "currentSha256": "ddcd23950218e1d311e6c372daafa854e069273adbaaf24fa9ec5f219034c3a9"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 16,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-16.png",
+        "beforeSha256": "39d4a615955380207567d18ddc55a641b412fd2a8fc7d3e3d2feaeaa8dc4fd77",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-16.png",
+        "currentSha256": "39d4a615955380207567d18ddc55a641b412fd2a8fc7d3e3d2feaeaa8dc4fd77"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 17,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-17.png",
+        "beforeSha256": "e8782dd19143624a5ef9c27cfc3812598a75f83dbabc62e79f6c8633414a53f7",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-17.png",
+        "currentSha256": "e8782dd19143624a5ef9c27cfc3812598a75f83dbabc62e79f6c8633414a53f7"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 18,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-18.png",
+        "beforeSha256": "354fa160a276248e62d768d2cdd76456e13b3a9d8bc88d2e2b08f1e88f3703cb",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-18.png",
+        "currentSha256": "354fa160a276248e62d768d2cdd76456e13b3a9d8bc88d2e2b08f1e88f3703cb"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 19,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-19.png",
+        "beforeSha256": "be202c0a0f2cfecc3a39fa790b8b01d0bc890053dac521bbc19b59af5c6e895a",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-19.png",
+        "currentSha256": "be202c0a0f2cfecc3a39fa790b8b01d0bc890053dac521bbc19b59af5c6e895a"
+      },
+      {
+        "scope": "present-1920",
+        "slide": 20,
+        "before": "research/devday-fidelity-20261116/main-03/present-1920/slide-20.png",
+        "beforeSha256": "e8caf31f6439c6f6af29c6bdf3210b1d0c5b5a06744cc1101f65d5e7b001bba3",
+        "current": "research/devday-fidelity-20261116/main-04/present-1920/slide-20.png",
+        "currentSha256": "e8caf31f6439c6f6af29c6bdf3210b1d0c5b5a06744cc1101f65d5e7b001bba3"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 1,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-01.png",
+        "beforeSha256": "cecc209154ac729484bf6466c77907c4310695dfbd21dc252fef59eedabd8ba4",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-01.png",
+        "currentSha256": "cecc209154ac729484bf6466c77907c4310695dfbd21dc252fef59eedabd8ba4"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 2,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-02.png",
+        "beforeSha256": "77699bfbdeb22d2cee376376551f7ff526eee05ff0194897d952499f197a7a59",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-02.png",
+        "currentSha256": "77699bfbdeb22d2cee376376551f7ff526eee05ff0194897d952499f197a7a59"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 3,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-03.png",
+        "beforeSha256": "0d7a025e83bdaba7bd6d4cd71a4ac032cbaff89509169eeb732bd6704b9fd8db",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-03.png",
+        "currentSha256": "0d7a025e83bdaba7bd6d4cd71a4ac032cbaff89509169eeb732bd6704b9fd8db"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 4,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-04.png",
+        "beforeSha256": "6b798856ce5aaea5468a55276bce7761a9bad5ec90f7723b8dbcac3e4507b18b",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-04.png",
+        "currentSha256": "6b798856ce5aaea5468a55276bce7761a9bad5ec90f7723b8dbcac3e4507b18b"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 5,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-05.png",
+        "beforeSha256": "398f5f95f59cc8198a7d217fa0cfafe397cd10107ecae808955f49e214e4c5a4",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-05.png",
+        "currentSha256": "398f5f95f59cc8198a7d217fa0cfafe397cd10107ecae808955f49e214e4c5a4"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 6,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-06.png",
+        "beforeSha256": "887a6238cb5ff2a365f6cbd5a5305e480e43281ac7dbea78aebd1a4fbc53428e",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-06.png",
+        "currentSha256": "887a6238cb5ff2a365f6cbd5a5305e480e43281ac7dbea78aebd1a4fbc53428e"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 7,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-07.png",
+        "beforeSha256": "54942f08c427dc3db4c05030c9b3a2725501b63b0dd009078b62cfbbf8117b32",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-07.png",
+        "currentSha256": "54942f08c427dc3db4c05030c9b3a2725501b63b0dd009078b62cfbbf8117b32"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 8,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-08.png",
+        "beforeSha256": "1e47565d233ac50fff855e5992f2a69e13dfd57b6dbcd93288baa95ca8836139",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-08.png",
+        "currentSha256": "1e47565d233ac50fff855e5992f2a69e13dfd57b6dbcd93288baa95ca8836139"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 9,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-09.png",
+        "beforeSha256": "b80a5624e7251c76c18048aa9658d6480e2aacbc98e5a146cbd7923d1f5f0288",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-09.png",
+        "currentSha256": "b80a5624e7251c76c18048aa9658d6480e2aacbc98e5a146cbd7923d1f5f0288"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 10,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-10.png",
+        "beforeSha256": "679145590fac3586d1d3eb6429db764f80d87bd4423d463a22d3bd2b8d9a09e3",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-10.png",
+        "currentSha256": "679145590fac3586d1d3eb6429db764f80d87bd4423d463a22d3bd2b8d9a09e3"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 11,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-11.png",
+        "beforeSha256": "8ae4dd00bf33a893b42507ef7444f35fc8be93865c1bcb9118e58737f692f814",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-11.png",
+        "currentSha256": "8ae4dd00bf33a893b42507ef7444f35fc8be93865c1bcb9118e58737f692f814"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 12,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-12.png",
+        "beforeSha256": "380730cd3765edf6b87362e77cb5f5c9ff8410da1d5deaeeac9b407f57a6d193",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-12.png",
+        "currentSha256": "380730cd3765edf6b87362e77cb5f5c9ff8410da1d5deaeeac9b407f57a6d193"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 13,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-13.png",
+        "beforeSha256": "6c44648fe5afc39d6db71c6d642676739c54181475d069800056cf6af5fd4c21",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-13.png",
+        "currentSha256": "6c44648fe5afc39d6db71c6d642676739c54181475d069800056cf6af5fd4c21"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 14,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-14.png",
+        "beforeSha256": "5f9635e0f3ffc0240fcd1dadba82c81d807e80165d40d6d8589c6ab3bcda62fe",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-14.png",
+        "currentSha256": "5f9635e0f3ffc0240fcd1dadba82c81d807e80165d40d6d8589c6ab3bcda62fe"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 15,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-15.png",
+        "beforeSha256": "6d503070de08ce12821c6ca67568d42144f0f618da24a62c8ffdc85aff5f551c",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-15.png",
+        "currentSha256": "6d503070de08ce12821c6ca67568d42144f0f618da24a62c8ffdc85aff5f551c"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 16,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-16.png",
+        "beforeSha256": "dba73e0f6d1c84e713e8c5fb0d17f2b2883f6316889dffd13fc3716d03367456",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-16.png",
+        "currentSha256": "dba73e0f6d1c84e713e8c5fb0d17f2b2883f6316889dffd13fc3716d03367456"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 17,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-17.png",
+        "beforeSha256": "70da15f971f1668bdcd600f5c3d3bf4a6b9e2285f5984a39fd29630561ea18f1",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-17.png",
+        "currentSha256": "70da15f971f1668bdcd600f5c3d3bf4a6b9e2285f5984a39fd29630561ea18f1"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 18,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-18.png",
+        "beforeSha256": "4c055a68d3e8900e15e7e5a597765a00c419df09aedae1ef9af9fc5e11a39860",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-18.png",
+        "currentSha256": "4c055a68d3e8900e15e7e5a597765a00c419df09aedae1ef9af9fc5e11a39860"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 19,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-19.png",
+        "beforeSha256": "aa4e62a0dc9f5a450d147fc8324d22b55d68742ed3344e82c73afdb19236cccf",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-19.png",
+        "currentSha256": "aa4e62a0dc9f5a450d147fc8324d22b55d68742ed3344e82c73afdb19236cccf"
+      },
+      {
+        "scope": "present-1280",
+        "slide": 20,
+        "before": "research/devday-fidelity-20261116/main-03/present-1280/slide-20.png",
+        "beforeSha256": "7d8e56a79fd7d904637425efd8ae27d0e0230e5c3e4406a06853838cba4ba47a",
+        "current": "research/devday-fidelity-20261116/main-04/present-1280/slide-20.png",
+        "currentSha256": "7d8e56a79fd7d904637425efd8ae27d0e0230e5c3e4406a06853838cba4ba47a"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 1,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-01.png",
+        "beforeSha256": "39083217e8f28292c2a3b06dcc19cad6fcf57126176998b8368fd1da3ff3a91b",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-01.png",
+        "currentSha256": "39083217e8f28292c2a3b06dcc19cad6fcf57126176998b8368fd1da3ff3a91b"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 2,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-02.png",
+        "beforeSha256": "07625960c8f5e473235e9b0a982605a660d767a88933d9cf87bd8563ed800bf8",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-02.png",
+        "currentSha256": "07625960c8f5e473235e9b0a982605a660d767a88933d9cf87bd8563ed800bf8"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 4,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-04.png",
+        "beforeSha256": "3f65029279646578acd81b9916da885d96a72bc3b09fb38e86c702db0fc6e3fa",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-04.png",
+        "currentSha256": "3f65029279646578acd81b9916da885d96a72bc3b09fb38e86c702db0fc6e3fa"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 6,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-06.png",
+        "beforeSha256": "6449c9ff245434b93ee8cf83fe8aa45ce1a50969914c3abdf0c8a50c81d36f9d",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-06.png",
+        "currentSha256": "6449c9ff245434b93ee8cf83fe8aa45ce1a50969914c3abdf0c8a50c81d36f9d"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 7,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-07.png",
+        "beforeSha256": "bfdbf54da2ef841a7874c17908e03569a87edb4dd9ac37ea9a881e23ce202412",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-07.png",
+        "currentSha256": "bfdbf54da2ef841a7874c17908e03569a87edb4dd9ac37ea9a881e23ce202412"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 8,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-08.png",
+        "beforeSha256": "9e2a8e38bfcab6c17852d02950c2fabf72fdfa2514b9fda0032f04ee409e2548",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-08.png",
+        "currentSha256": "9e2a8e38bfcab6c17852d02950c2fabf72fdfa2514b9fda0032f04ee409e2548"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 9,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-09.png",
+        "beforeSha256": "f0f8906938147db110a5fb0cd8ac704c618488fd66ec63e4922ad009be88c9db",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-09.png",
+        "currentSha256": "f0f8906938147db110a5fb0cd8ac704c618488fd66ec63e4922ad009be88c9db"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 10,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-10.png",
+        "beforeSha256": "60f041a655164a36548670d34046b9996b410e1efef6c6ebb87a99ced94289f9",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-10.png",
+        "currentSha256": "60f041a655164a36548670d34046b9996b410e1efef6c6ebb87a99ced94289f9"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 11,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-11.png",
+        "beforeSha256": "83d4cfd1989da15892a058347c071f5631858c5f33d3d15f8999fa80a83cc06b",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-11.png",
+        "currentSha256": "83d4cfd1989da15892a058347c071f5631858c5f33d3d15f8999fa80a83cc06b"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 12,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-12.png",
+        "beforeSha256": "77dccf032fdff6599fc80c20c59bd961c914f5ef4c846778b0a9f1a0faa2a74b",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-12.png",
+        "currentSha256": "77dccf032fdff6599fc80c20c59bd961c914f5ef4c846778b0a9f1a0faa2a74b"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 13,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-13.png",
+        "beforeSha256": "100581509651b3eae1167ea1cb4f92b57235ee0d2966dd89b204e4d5d8f101b9",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-13.png",
+        "currentSha256": "100581509651b3eae1167ea1cb4f92b57235ee0d2966dd89b204e4d5d8f101b9"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 14,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-14.png",
+        "beforeSha256": "2a6061855b5baa974a8171c59491dfb147f9a1ad3647e46a4e7b07560f14db95",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-14.png",
+        "currentSha256": "2a6061855b5baa974a8171c59491dfb147f9a1ad3647e46a4e7b07560f14db95"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 15,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-15.png",
+        "beforeSha256": "fd13dacfb62eb1ae99852446668f1dfa89c280f86e07a19296f5d970f22deb9a",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-15.png",
+        "currentSha256": "fd13dacfb62eb1ae99852446668f1dfa89c280f86e07a19296f5d970f22deb9a"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 16,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-16.png",
+        "beforeSha256": "ac7abb78c2d115f233d9a16a3852497b78e886dc45c0fc5f1b5fb704175c859d",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-16.png",
+        "currentSha256": "ac7abb78c2d115f233d9a16a3852497b78e886dc45c0fc5f1b5fb704175c859d"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 17,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-17.png",
+        "beforeSha256": "b0507402c7f7265fd5255042b33b154e3ff6c8deeed5866c3440d2f152dc5db3",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-17.png",
+        "currentSha256": "b0507402c7f7265fd5255042b33b154e3ff6c8deeed5866c3440d2f152dc5db3"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 18,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-18.png",
+        "beforeSha256": "44706617804036cb288813fb6ca7a3b9f68b6c503e786929e6c1d1786f6525b4",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-18.png",
+        "currentSha256": "44706617804036cb288813fb6ca7a3b9f68b6c503e786929e6c1d1786f6525b4"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 19,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-19.png",
+        "beforeSha256": "ac31a7fa6b41829a058991bdee619583cf3db1d81a3945e1173cce148c123024",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-19.png",
+        "currentSha256": "ac31a7fa6b41829a058991bdee619583cf3db1d81a3945e1173cce148c123024"
+      },
+      {
+        "scope": "read-1440",
+        "slide": 20,
+        "before": "research/devday-fidelity-20261116/main-03/read-1440/slide-20.png",
+        "beforeSha256": "c53b8e31b21c45e71235a68d44e960aa7487dbb739c9d6a2b9828419ea043e69",
+        "current": "research/devday-fidelity-20261116/main-04/read-1440/slide-20.png",
+        "currentSha256": "c53b8e31b21c45e71235a68d44e960aa7487dbb739c9d6a2b9828419ea043e69"
+      },
+      {
+        "scope": "read-390",
+        "slide": 1,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-01.png",
+        "beforeSha256": "ed5ebf300aadb1870badfc5682ea12e7fcde1cdaa1f3c8eba28c1cef242ee863",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-01.png",
+        "currentSha256": "ed5ebf300aadb1870badfc5682ea12e7fcde1cdaa1f3c8eba28c1cef242ee863"
+      },
+      {
+        "scope": "read-390",
+        "slide": 2,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-02.png",
+        "beforeSha256": "844e3e90e28eb601cabf8c36fc16d1dfe4f67a0a267e4e578af7edd36ed1b053",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-02.png",
+        "currentSha256": "844e3e90e28eb601cabf8c36fc16d1dfe4f67a0a267e4e578af7edd36ed1b053"
+      },
+      {
+        "scope": "read-390",
+        "slide": 3,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-03.png",
+        "beforeSha256": "249adeed6240555f762a80925c73d122a7b11702a6686fe9de28479845ac3f23",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-03.png",
+        "currentSha256": "249adeed6240555f762a80925c73d122a7b11702a6686fe9de28479845ac3f23"
+      },
+      {
+        "scope": "read-390",
+        "slide": 4,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-04.png",
+        "beforeSha256": "d8b057c65e658120ea058009a851cb0c689b772a72d2c6a1eb942dc2f6bedad6",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-04.png",
+        "currentSha256": "d8b057c65e658120ea058009a851cb0c689b772a72d2c6a1eb942dc2f6bedad6"
+      },
+      {
+        "scope": "read-390",
+        "slide": 5,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-05.png",
+        "beforeSha256": "ddaa562c6c12a08f486025d471ce7c9e0bb70d114b4c0364fb4cdecc19f55e53",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-05.png",
+        "currentSha256": "ddaa562c6c12a08f486025d471ce7c9e0bb70d114b4c0364fb4cdecc19f55e53"
+      },
+      {
+        "scope": "read-390",
+        "slide": 6,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-06.png",
+        "beforeSha256": "37c9a58f77e460746e21dc1a9e71e240209a336fa34c459e1ea6653821751ed6",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-06.png",
+        "currentSha256": "37c9a58f77e460746e21dc1a9e71e240209a336fa34c459e1ea6653821751ed6"
+      },
+      {
+        "scope": "read-390",
+        "slide": 7,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-07.png",
+        "beforeSha256": "30124de627ee96f0f8cd005ceb9fc48e20ae0ec4797356282f19d42e9a9c8a92",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-07.png",
+        "currentSha256": "30124de627ee96f0f8cd005ceb9fc48e20ae0ec4797356282f19d42e9a9c8a92"
+      },
+      {
+        "scope": "read-390",
+        "slide": 8,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-08.png",
+        "beforeSha256": "9ce4b4a85c4b01979b957a54b539ddc9d78ff7e767b9183702d7ef80b090cc02",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-08.png",
+        "currentSha256": "9ce4b4a85c4b01979b957a54b539ddc9d78ff7e767b9183702d7ef80b090cc02"
+      },
+      {
+        "scope": "read-390",
+        "slide": 9,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-09.png",
+        "beforeSha256": "9b189439a1043823fd522e45fffbed4ce213d331e1c834c15fe97de02dd58839",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-09.png",
+        "currentSha256": "9b189439a1043823fd522e45fffbed4ce213d331e1c834c15fe97de02dd58839"
+      },
+      {
+        "scope": "read-390",
+        "slide": 10,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-10.png",
+        "beforeSha256": "2b49dcd0feda2fa48869d24dc9142960d7bbe962944b03c0e16362f6c9796871",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-10.png",
+        "currentSha256": "2b49dcd0feda2fa48869d24dc9142960d7bbe962944b03c0e16362f6c9796871"
+      },
+      {
+        "scope": "read-390",
+        "slide": 11,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-11.png",
+        "beforeSha256": "2d9e22f2cca72d82f79987d55c14994daed1f4d2b45f90f64e13e1e13fd32d58",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-11.png",
+        "currentSha256": "2d9e22f2cca72d82f79987d55c14994daed1f4d2b45f90f64e13e1e13fd32d58"
+      },
+      {
+        "scope": "read-390",
+        "slide": 12,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-12.png",
+        "beforeSha256": "b1ee9c0401ba95880212bad0a35cfc46ba21ea8053ccf742a7e99cc3d8befa05",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-12.png",
+        "currentSha256": "b1ee9c0401ba95880212bad0a35cfc46ba21ea8053ccf742a7e99cc3d8befa05"
+      },
+      {
+        "scope": "read-390",
+        "slide": 13,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-13.png",
+        "beforeSha256": "9f9ea97b2ae9a739f71daeb29152ca59577d6ac5b6528c3cd0be5e44c736b0d5",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-13.png",
+        "currentSha256": "9f9ea97b2ae9a739f71daeb29152ca59577d6ac5b6528c3cd0be5e44c736b0d5"
+      },
+      {
+        "scope": "read-390",
+        "slide": 14,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-14.png",
+        "beforeSha256": "c7fcf2d2888ede47a937c50e863b876c963433eb14dfd11f027593e2ff20c3c9",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-14.png",
+        "currentSha256": "c7fcf2d2888ede47a937c50e863b876c963433eb14dfd11f027593e2ff20c3c9"
+      },
+      {
+        "scope": "read-390",
+        "slide": 15,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-15.png",
+        "beforeSha256": "7d507944090491102c59d531777bc6ec180acbb060c70435442edbae29a9ad12",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-15.png",
+        "currentSha256": "7d507944090491102c59d531777bc6ec180acbb060c70435442edbae29a9ad12"
+      },
+      {
+        "scope": "read-390",
+        "slide": 16,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-16.png",
+        "beforeSha256": "2fc1b2c7c47901116ad7bd8aec3858b25b61cc355dabaf09e04f8f9cc26010b4",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-16.png",
+        "currentSha256": "2fc1b2c7c47901116ad7bd8aec3858b25b61cc355dabaf09e04f8f9cc26010b4"
+      },
+      {
+        "scope": "read-390",
+        "slide": 17,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-17.png",
+        "beforeSha256": "e6e68729e0dbc40c5ae0fd00c86d483fe99259fba0815e3efb20ad99bb202435",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-17.png",
+        "currentSha256": "e6e68729e0dbc40c5ae0fd00c86d483fe99259fba0815e3efb20ad99bb202435"
+      },
+      {
+        "scope": "read-390",
+        "slide": 18,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-18.png",
+        "beforeSha256": "81bd68a91dd5d60f5573f0c0d392d021aa11b4398f33f30de634dd5c34b36b71",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-18.png",
+        "currentSha256": "81bd68a91dd5d60f5573f0c0d392d021aa11b4398f33f30de634dd5c34b36b71"
+      },
+      {
+        "scope": "read-390",
+        "slide": 19,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-19.png",
+        "beforeSha256": "569625b046766c317ba3c70235863c31819bdc65772a1c7f1be194d082c5d079",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-19.png",
+        "currentSha256": "569625b046766c317ba3c70235863c31819bdc65772a1c7f1be194d082c5d079"
+      },
+      {
+        "scope": "read-390",
+        "slide": 20,
+        "before": "research/devday-fidelity-20261116/main-03/read-390/slide-20.png",
+        "beforeSha256": "c25596dff6c19e7235a0b7b83d05dc1df3f5bc0cac164655fcb03fa21bcb5a88",
+        "current": "research/devday-fidelity-20261116/main-04/read-390/slide-20.png",
+        "currentSha256": "c25596dff6c19e7235a0b7b83d05dc1df3f5bc0cac164655fcb03fa21bcb5a88"
+      }
+    ]
+  },
+  "independentInitialsPreserved": {
+    "presentation.initial.md": "cede5f4b5cfdc35ff920d73c638da9c38ab55a44f0453dec1d27e46ea27c1f2b",
+    "reading.initial.md": "5998be1aa08e56eeaf55e38f03419cb94ad93767993d1c0f1fcc05eeb1cf7d24"
+  },
+  "documents": [
+    {
+      "path": "research/devday-fidelity-20261116/review/main-04/presentation.initial.md",
+      "sha256": "cede5f4b5cfdc35ff920d73c638da9c38ab55a44f0453dec1d27e46ea27c1f2b"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-04/presentation.final.md",
+      "sha256": "ca3e61d7c789f6cc03cbbdc5648a388180be7ab66d3a7fe6fade4b1816f5463c"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-04/reading.initial.md",
+      "sha256": "5998be1aa08e56eeaf55e38f03419cb94ad93767993d1c0f1fcc05eeb1cf7d24"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-04/reading.final.md",
+      "sha256": "525fc73bec8a3cfa848b4b76801f4ccb87615c2ed191eb4cc2b162c83b89b497"
+    },
+    {
+      "path": "research/devday-fidelity-20261116/review/main-04/integration.md",
+      "sha256": "63f60c19eea016c9bb40bba1aec95061c8f2feb80d523f02263f4ed5e8746b3d"
+    }
+  ],
+  "contractIssues": [],
+  "documentLinkIssues": [],
+  "trailingWhitespace": [],
+  "manualStatus": {
+    "approved": 80,
+    "needs-changes": 0,
+    "unreviewed": 0
+  },
+  "formalCliExecutedByB": false,
+  "formalApprovalPendingRoot": true,
+  "nextOwner": "root: unchanged manual status/reason import and current normal/require-approved CLI",
+  "limits": [
+    "This refresh did not freshly view all80. A reused40 presentation judgments with4 representative/6boards/2support direct; B reused38 reading main judgments and directly viewed2 changed rasters.",
+    "B support14:8direct/6same-byte reuse. B tables6:3direct/3same-byte reuse. Source/metadata differences independently verified.",
+    "Main03 source notes are historical frozen files; live notes now use the main04 hash.",
+    "Source/render input identity and technical pass are not visual judgment.",
+    "Actual device, other OS, motion, audience outcome and user aesthetics remain unverified."
+  ]
+}

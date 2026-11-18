@@ -1,0 +1,151 @@
+{
+  "scope": "2026-11-17 isolated first-look round02 source integration",
+  "visualApproval": false,
+  "observedRender": false,
+  "passed": 10,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "isolated-project",
+      "pass": true,
+      "detail": "research/devday-rebuild-20261117/prototypes/ou.config.json"
+    },
+    {
+      "name": "four-valid-explicit-roles",
+      "pass": true,
+      "detail": [
+        {
+          "composition": "message",
+          "variant": "declaration"
+        },
+        {
+          "composition": "gallery",
+          "variant": "comparison"
+        },
+        {
+          "composition": "split",
+          "variant": "quote-card"
+        },
+        {
+          "composition": "results",
+          "variant": "unframed"
+        }
+      ]
+    },
+    {
+      "name": "seven-active-assets-exist",
+      "pass": true,
+      "detail": [
+        "research/devday-rebuild-20261117/prototypes/assets/answer-window-r02.svg",
+        "research/devday-rebuild-20261117/prototypes/assets/wiki-window-r02.svg",
+        "research/devday-rebuild-20261117/prototypes/assets/condition-article-r02.svg",
+        "research/devday-rebuild-20261117/prototypes/assets/output-plan.png",
+        "research/devday-rebuild-20261117/prototypes/assets/output-map.png",
+        "research/devday-rebuild-20261117/prototypes/assets/output-question.png",
+        "research/devday-rebuild-20261117/prototypes/assets/output-brief.png"
+      ]
+    },
+    {
+      "name": "public-support-and-results-context",
+      "pass": true,
+      "detail": {
+        "support": [
+          "./materials/notes.md#답변을-넘어",
+          "./materials/notes.md#두-작업-방식",
+          "./materials/notes.md#먼저-하고-싶은-경험"
+        ],
+        "resultsAccess": "published materials index and notes table of contents"
+      }
+    },
+    {
+      "name": "rewritten-passage-is-disclosed-and-original-purpose-retained",
+      "pass": true,
+      "detail": {
+        "text": "문서를 따라 읽고 다음 질문에 쓸 근거를 찾고 싶다",
+        "sourceLine": 49,
+        "kind": "editorial rewriting of an authored hypothetical purpose"
+      }
+    },
+    {
+      "name": "source-pack-byte-preservation",
+      "pass": true,
+      "detail": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+    },
+    {
+      "name": "native-message-label-and-title-inputs",
+      "pass": true,
+      "detail": {
+        "message": "지식을 남기는 방식이\n다음 질문을 바꿉니다",
+        "resultTitle": "읽은 자료가\n다음 작업으로",
+        "authoredQuoteBreaks": 2
+      }
+    },
+    {
+      "name": "round01-assets-and-four-result-pngs-preserved",
+      "pass": true,
+      "detail": {
+        "protectedAssets": 11,
+        "alteredFormerAssets": []
+      }
+    },
+    {
+      "name": "historical-source-proof-and-handoff-unchanged",
+      "pass": true,
+      "detail": [
+        "research/devday-rebuild-20261117/prototypes/source-proof.cjs",
+        "research/devday-rebuild-20261117/prototypes/source-proof.json",
+        "research/devday-rebuild-20261117/production/integration.md"
+      ]
+    },
+    {
+      "name": "main-and-unowned-inputs-preserved",
+      "pass": true,
+      "detail": {
+        "protectedCount": 97,
+        "changedProtected": [],
+        "authorizedRuntimeChanges": [
+          "app.js",
+          "styles.css",
+          "blocks.css",
+          "blocks.js",
+          "deck-model.js",
+          "lib/markdown-document.cjs",
+          "lib/markdown-deck.cjs"
+        ]
+      }
+    }
+  ],
+  "inputs": {
+    "CONFIG.md": "f2ab68a09f4ea50ba6eb828f9714d7c8374ee0127d210f5a20d245d83e0b35c9",
+    "MARKDOWN-FIRST.md": "28c5c4cb22f254e6c73deb8c1399ab68dd928ef113a0b2a204ac8a3a466fa14e",
+    "app.js": "29f70c0afb9ef9233ae5b5d9637447ac9b1d628688d3289550842c8df85522e5",
+    "blocks.css": "68fa3131803ffef124dbaeddb1b1d4bae5211d7373f1217e1ee835b8b5ba0f88",
+    "blocks.js": "523d67fbeef323ed629ffc0a5791039414b0edb3846e1d676d25d82fd7f74182",
+    "deck-model.js": "aab76fee49d775ef7be4606c6152f1c6ff666ad489091628b20b424fe710e1f1",
+    "lib/markdown-deck.cjs": "8bc98a47a5471b75eb74e40b830d2caa073733412d1b6a0e0eacc8c42a15609b",
+    "lib/markdown-document.cjs": "28a679560767dbd618c33877037d3cf9322e20151b9dfdc4d6b84df595448a1d",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "research/devday-rebuild-20261117/prototypes/assets/answer-window-r02.svg": "bb060aa2a8330e2281950eb856ae1cde6afa571e43e541fabed762a313e26780",
+    "research/devday-rebuild-20261117/prototypes/assets/condition-article-r02.svg": "5140da5d8a6cdfca40aaa117cb78b74148a2e3292d4e97c99b967fef6c497293",
+    "research/devday-rebuild-20261117/prototypes/assets/output-brief.html": "bbc2dc6d165c95f59cb95f738075ece3a33b5749a8d5224160d839af3058aec6",
+    "research/devday-rebuild-20261117/prototypes/assets/output-brief.png": "8fd4e9ea6c8eccaa523668ce23f50dfd236bb7938b64f128d44b8a8bd36f8717",
+    "research/devday-rebuild-20261117/prototypes/assets/output-map.html": "0bc9d942d2a2f43f7f537568ebc817cc747675fea4ac7bba527fc1d3b4910b4a",
+    "research/devday-rebuild-20261117/prototypes/assets/output-map.png": "004b56786390943bee38820b1151a758e57b44f4b9c3267a616ff22cbb65447b",
+    "research/devday-rebuild-20261117/prototypes/assets/output-plan.html": "6deb18e9f2d07b3533e6b5d5ff97c49005d21ab613cb40f7b0a3b4d7f220cec3",
+    "research/devday-rebuild-20261117/prototypes/assets/output-plan.png": "94c7bc47eea4f53d4e8c51cb3128f1dd83cf709a68ef43575ae846b155100310",
+    "research/devday-rebuild-20261117/prototypes/assets/output-question.html": "eb87b3d1fe2a8f93cb6dcbdaf92c7d65138c46328e25115c5f842c31a922ae1a",
+    "research/devday-rebuild-20261117/prototypes/assets/output-question.png": "24d24244b321ef1b08a4141572fa7e46a67fb05f0c76aad3dfe668b6bbb3bb57",
+    "research/devday-rebuild-20261117/prototypes/assets/wiki-window-r02.svg": "ad90b0d43ad97d204b2b228dab16a85667c3a6c52c89033f56cf434499f21e55",
+    "research/devday-rebuild-20261117/prototypes/ou.config.json": "aa7f06ab75741f16c58c6400a6daa02871af5880aadb358b152229ced37c6324",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/materials/notes.md": "232cbed64c6a13bce2fdb10957c2f724fd159efebd9f157a83c9a934056bab96",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/materials/source-pack.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md": "8345c2bae7ed5b2c607d9e033e448098cb47868a7b57b96c37c2a94b5791aee2",
+    "styles.css": "8c54699a522cdcc9b4d56644eff3f76c7aa543eed824476542332535b353d89e",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9"
+  }
+}

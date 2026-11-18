@@ -1,0 +1,8 @@
+{
+  "scope": "present-1920 capture only",
+  "captureSucceeded": true,
+  "qaExit": 2,
+  "failure": "Root runner passed absolute paths; CLI requires repository-relative paths. Preserved as failed attempt; corrected execution is core-02.",
+  "productRegression": false,
+  "visualApproval": false
+}

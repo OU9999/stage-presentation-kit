@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="580" viewBox="0 0 1440 580" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">자료 요약은 입구, 기존 문서는 함께 고칠 대상</title>
+  <desc id="desc">작은 자료 요약 영역은 원자료의 입구다. 더 큰 두 문서 영역인 개념·비교와 현재 계획은 함께 읽고 고칠 대상이다. 요약과 개념·비교, 요약과 현재 계획, 개념·비교와 현재 계획의 세 무방향 선은 각 문서 영역의 경계에 닿는다. 자동 갱신이나 필수 생성 순서를 뜻하지 않는다.</desc>
+  <style>text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.7px}.entry{font-size:40px;font-weight:500;fill:#f6f6f4}.node{font-size:60px;font-weight:500;fill:#f6f6f4}.meta{font-size:38px;fill:#a4a4a1;letter-spacing:-.5px}</style>
+  <g fill="none" stroke="#818888" stroke-width="2.5"><path data-edge-id="summary-concept" data-from="source-summary" data-to="concept-comparison" data-from-port="east" data-to-port="west" d="M390 291L840 177"/><path data-edge-id="summary-plan" data-from="source-summary" data-to="current-plan" data-from-port="east" data-to-port="west" d="M390 291L840 419"/><path data-edge-id="concept-plan" data-from="concept-comparison" data-to="current-plan" data-from-port="south" data-to-port="north" d="M1080 244V352"/></g>
+  <rect data-node-id="source-summary" x="80" y="244" width="310" height="94" rx="2" fill="#171919" stroke="#555c5c" stroke-width="1.5"/>
+  <text class="entry" x="120" y="305">자료 요약</text>
+  <text class="meta" x="80" y="385">원자료의 입구</text>
+  <text class="meta" x="840" y="74">함께 읽고 고칠 기존 문서</text>
+  <rect data-node-id="concept-comparison" x="840" y="110" width="480" height="134" rx="2" fill="#102631"/>
+  <text class="node" x="900" y="198">개념·비교</text>
+  <rect data-node-id="current-plan" x="840" y="352" width="480" height="134" rx="2" fill="#102631"/>
+  <text class="node" x="900" y="441">현재 계획</text>
+</svg>

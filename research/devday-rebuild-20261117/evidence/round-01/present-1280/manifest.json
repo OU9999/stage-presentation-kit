@@ -1,0 +1,588 @@
+{
+  "source": "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md",
+  "revision": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+  "captureMode": "presentation-stage-only",
+  "scopeSlides": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes": {
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "198bb18192f0fde9da3e09dac5c68fa01ddf5e567fb940c0f7941e5867e0a6f1",
+    "blocks.js": "01736032d349d55afa933baee90005d2abc0d7f1b13680cb4f98a16cb1077a5b",
+    "deck-model.js": "989503b9997d7252834d59d449db56fec15d7426f897b8fdd7a38b7c6f2ade7b",
+    "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+    "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+    "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+    "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+    "lib/markdown-document.cjs": "2dffc62884e52725f9144894f809de697711bc9ad92dde5282fd579998f125ee",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+    "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+    "research/devday-rebuild-20261117/prototypes/assets/answer-window.svg": "53f6ad1cf5d51dee0e3eb23774b583630f663e7d2d34d15b24d9811c51bd20c7",
+    "research/devday-rebuild-20261117/prototypes/assets/condition-article.svg": "8a25ae7a988f88c3ea3598f968ca0d288c1f371f579ac16bc956c26f555f4bb0",
+    "research/devday-rebuild-20261117/prototypes/assets/output-brief.png": "8fd4e9ea6c8eccaa523668ce23f50dfd236bb7938b64f128d44b8a8bd36f8717",
+    "research/devday-rebuild-20261117/prototypes/assets/output-map.png": "004b56786390943bee38820b1151a758e57b44f4b9c3267a616ff22cbb65447b",
+    "research/devday-rebuild-20261117/prototypes/assets/output-plan.png": "94c7bc47eea4f53d4e8c51cb3128f1dd83cf709a68ef43575ae846b155100310",
+    "research/devday-rebuild-20261117/prototypes/assets/output-question.png": "24d24244b321ef1b08a4141572fa7e46a67fb05f0c76aad3dfe668b6bbb3bb57",
+    "research/devday-rebuild-20261117/prototypes/assets/wiki-window.svg": "1cf7b25ae4c15decb311b6fa1e608c50165b1eed6c0837309f8ed6a832dc093b",
+    "research/devday-rebuild-20261117/prototypes/ou.config.json": "aa7f06ab75741f16c58c6400a6daa02871af5880aadb358b152229ced37c6324",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/materials/notes.md": "daa508aeea5d3b2c671924e14b17329630ed329d2b921515da092b656479763b",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/materials/source-pack.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "research/devday-rebuild-20261117/prototypes/talks/first-look/slides.md": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+    "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+    "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "scripts/llm-wiki-keynote-qa.cjs": "198986bda79c805d3368881974f15a5b4f8ce5fb61fc5c5868e0673666ea45e9",
+    "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+    "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+    "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+    "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+    "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+    "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+    "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+    "DESIGN.md": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+    "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+  },
+  "observations": [
+    {
+      "url": "http://127.0.0.1:4336/research/devday-rebuild-20261117/prototypes/site/first-look/?revision=3fc324b8e4b1#1",
+      "title": "답변을 넘어, 다음 질문으로. — Stage",
+      "index": "0",
+      "layout": "blocks",
+      "composition": "message",
+      "heading": "답변을 넘어,다음 질문으로.",
+      "headingSize": "118px",
+      "text": "답변을 넘어,다음 질문으로.이 이야기의 범위",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "다음 질문으로.",
+          "color": "rgb(255, 122, 61)"
+        }
+      ],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-01.png",
+      "revision": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "theme": "stage",
+      "runtime": true,
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "block-node slide-title md-heading",
+          "sourceLine": "14",
+          "text": "답변을 넘어,다음 질문으로.",
+          "copyRole": null,
+          "logicalPixels": 118,
+          "rect": {
+            "x": 491.51564234495316,
+            "y": 297.9453062851756,
+            "width": 616.9609439726491,
+            "height": 276.1094449162545
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "markdown-composition"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "답변을 넘어,",
+              "afterText": "다음 질문으로.",
+              "beforeGlyph": {
+                "x": 1039.6640546633746,
+                "y": 297.4453325001324
+              },
+              "afterGlyph": {
+                "x": 491.51564234495316,
+                "y": 435.500001729921
+              }
+            }
+          ],
+          "emphasis": [
+            {
+              "tag": "STRONG",
+              "text": "다음 질문으로."
+            }
+          ],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "118px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "normal",
+          "effectivePixels": 67.65332733154297,
+          "logicalBox": {
+            "x": 491.51564234495316,
+            "y": 297.9453062851756,
+            "width": 616.9609439726491,
+            "height": 276.1094449162545
+          },
+          "lines": [
+            {
+              "text": "답변을 넘어,",
+              "x": 540.5781715373702,
+              "y": 297.4453325001324,
+              "width": 518.8359388161538,
+              "height": 139.00000452440878
+            },
+            {
+              "text": "다음 질문으로.",
+              "x": 491.51564234495316,
+              "y": 435.500001729921,
+              "width": 616.9609439726491,
+              "height": 139.00005775274744
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4336/research/devday-rebuild-20261117/prototypes/site/first-look/?revision=3fc324b8e4b1#2",
+      "title": "답변을 넘어, 다음 질문으로. — Stage",
+      "index": "1",
+      "layout": "blocks",
+      "composition": "gallery",
+      "variant": "comparison",
+      "headingSize": null,
+      "text": "이번 답다시 쓸 지식두 작업 방식과 비교 범위",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/53f6ad1cf5d5-answer-window.svg",
+          "alt": "한 질문의 답을 읽는 작업 창을 간결하게 그린 설명용 그림",
+          "complete": true,
+          "naturalWidth": 720,
+          "naturalHeight": 420,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 234.08001708984375,
+            "y": 237.43228149414062,
+            "width": 376.10662841796875,
+            "height": 219.39407348632812,
+            "right": 610.1866455078125,
+            "bottom": 456.82635498046875
+          }
+        },
+        {
+          "src": "assets/1cf7b25ae4c1-wiki-window.svg",
+          "alt": "연결된 개념과 계획을 여러 페이지로 남긴 작업 창을 그린 설명용 그림",
+          "complete": true,
+          "naturalWidth": 720,
+          "naturalHeight": 420,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 669.8133544921875,
+            "y": 237.43228149414062,
+            "width": 376.106689453125,
+            "height": 219.39407348632812,
+            "right": 1045.9200439453125,
+            "bottom": 456.82635498046875
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-02.png",
+      "revision": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "theme": "stage",
+      "runtime": true,
+      "typography": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/research/devday-rebuild-20261117/prototypes/site/first-look/?revision=3fc324b8e4b1#3",
+      "title": "답변을 넘어, 다음 질문으로. — Stage",
+      "index": "2",
+      "layout": "blocks",
+      "composition": "split",
+      "variant": "quote-card",
+      "headingSize": null,
+      "text": "다음 질문의근거를 찾는 경험을먼저 하고 싶다.조건 메모의 원문과 맥락",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/8a25ae7a988f-condition-article.svg",
+          "alt": "발표팀의 자작 가상 조건 메모를 어두운 기사 표면으로 편집한 자료",
+          "complete": true,
+          "naturalWidth": 760,
+          "naturalHeight": 660,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 234.08001708984375,
+            "y": 154.72000122070312,
+            "width": 422.80645751953125,
+            "height": 431.1466979980469,
+            "right": 656.886474609375,
+            "bottom": 585.86669921875
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-03.png",
+      "revision": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "theme": "stage",
+      "runtime": true,
+      "typography": [
+        {
+          "tag": "P",
+          "classes": "block-node",
+          "sourceLine": "48",
+          "text": "다음 질문의근거를 찾는 경험을먼저 하고 싶다.",
+          "copyRole": null,
+          "logicalPixels": 54,
+          "rect": {
+            "x": 949.4530921273424,
+            "y": 376.101593736302,
+            "width": 502.547055847439,
+            "height": 218.69533615958068
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "BLOCKQUOTE",
+            "classes": "block-node"
+          },
+          "directBody": false,
+          "breaks": [
+            {
+              "beforeText": "다음 질문의",
+              "afterText": "근거를 찾는 경험을먼저 하고 싶다.",
+              "beforeGlyph": {
+                "x": 1138.2031230663142,
+                "y": 380.6015707150455
+              },
+              "afterGlyph": {
+                "x": 949.4530921273424,
+                "y": 453.50001610157244
+              }
+            },
+            {
+              "beforeText": "다음 질문의근거를 찾는 경험을",
+              "afterText": "먼저 하고 싶다.",
+              "beforeGlyph": {
+                "x": 1282.1406415132603,
+                "y": 453.50001610157244
+              },
+              "afterGlyph": {
+                "x": 949.4530921273424,
+                "y": 526.3984614880993
+              }
+            }
+          ],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "54px",
+          "fontWeight": "430",
+          "color": "rgb(8, 8, 8)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "wrap",
+          "whiteSpace": "normal",
+          "effectivePixels": 30.95999725341797,
+          "logicalBox": {
+            "x": 949.4530921273424,
+            "y": 376.101593736302,
+            "width": 502.547055847439,
+            "height": 218.69533615958068
+          },
+          "lines": [
+            {
+              "text": "다음 질문의",
+              "x": 949.4530921273424,
+              "y": 380.6015707150455,
+              "width": 233.57829901924123,
+              "height": 63.50002408582324
+            },
+            {
+              "text": "근거를 찾는 경험을",
+              "x": 949.4530921273424,
+              "y": 453.50001610157244,
+              "width": 377.51581746618734,
+              "height": 63.50002408582324
+            },
+            {
+              "text": "먼저 하고 싶다.",
+              "x": 949.4530921273424,
+              "y": 526.3984614880993,
+              "width": 298.0314297371292,
+              "height": 63.50002408582324
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:4336/research/devday-rebuild-20261117/prototypes/site/first-look/?revision=3fc324b8e4b1#4",
+      "title": "답변을 넘어, 다음 질문으로. — Stage",
+      "index": "3",
+      "layout": "results",
+      "heading": "읽은 자료가\n다음 작업으로.",
+      "headingSize": "72px",
+      "text": "읽은 자료가\n다음 작업으로.",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 431.1466979980469,
+        "right": 1045.9200439453125,
+        "bottom": 585.86669921875
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/94c7bc47eea4-output-plan.png",
+          "alt": "발표팀이 직접 작성한 입문자 활동 계획표",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 557.0906372070312,
+            "y": 155.2933349609375,
+            "width": 237.82135009765625,
+            "height": 208.69332885742188,
+            "right": 794.9119873046875,
+            "bottom": 363.9866638183594
+          }
+        },
+        {
+          "src": "assets/004b56786390-output-map.png",
+          "alt": "발표팀이 직접 작성한 개념과 비교의 연결 지도",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 807.5252685546875,
+            "y": 155.2933349609375,
+            "width": 237.8214111328125,
+            "height": 208.69332885742188,
+            "right": 1045.3466796875,
+            "bottom": 363.9866638183594
+          }
+        },
+        {
+          "src": "assets/24d24244b321-output-question.png",
+          "alt": "발표팀이 직접 작성한 질문과 검토할 답의 노트",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 557.0906372070312,
+            "y": 376.6000061035156,
+            "width": 237.82135009765625,
+            "height": 208.69332885742188,
+            "right": 794.9119873046875,
+            "bottom": 585.2933349609375
+          }
+        },
+        {
+          "src": "assets/8fd4e9ea6c8e-output-brief.png",
+          "alt": "발표팀이 직접 작성한 모임의 준비 안내",
+          "complete": true,
+          "naturalWidth": 1000,
+          "naturalHeight": 640,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 807.5252685546875,
+            "y": 376.6000061035156,
+            "width": 237.8214111328125,
+            "height": 208.69332885742188,
+            "right": 1045.3466796875,
+            "bottom": 585.2933349609375
+          }
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/devday-rebuild-20261117/evidence/round-01/present-1280/slide-04.png",
+      "revision": "3fc324b8e4b18ea6be29959bd5612384fb233430820a0b843c1df140332f5aa5",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "theme": "stage",
+      "runtime": true,
+      "typography": [
+        {
+          "tag": "H1",
+          "classes": "slide-title",
+          "text": "읽은 자료가\n다음 작업으로.",
+          "copyRole": null,
+          "logicalPixels": 72,
+          "rect": {
+            "x": 92.00002022676868,
+            "y": 366.1640758216393,
+            "width": 500.3906693916027,
+            "height": 175.6718813582914
+          },
+          "parentGroup": null,
+          "domParent": {
+            "tag": "DIV",
+            "classes": "results-copy"
+          },
+          "directBody": false,
+          "breaks": [],
+          "emphasis": [],
+          "fontFamily": "-apple-system, \"system-ui\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\", sans-serif",
+          "fontSize": "72px",
+          "fontWeight": "430",
+          "color": "rgb(246, 246, 244)",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance",
+          "whiteSpace": "pre-line",
+          "effectivePixels": 41.27999633789062,
+          "logicalBox": {
+            "x": 92.00002022676868,
+            "y": 366.1640758216393,
+            "width": 500.3906693916027,
+            "height": 175.6718813582914
+          },
+          "lines": [
+            {
+              "text": "읽은 자료가",
+              "x": 92.00002022676868,
+              "y": 367.66410363344625,
+              "width": 303.35937352374526,
+              "height": 84.49998762441126
+            },
+            {
+              "text": "다음 작업으로.",
+              "x": 92.00002022676868,
+              "y": 455.5000176984226,
+              "width": 373.7734394316065,
+              "height": 84.50004085274992
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

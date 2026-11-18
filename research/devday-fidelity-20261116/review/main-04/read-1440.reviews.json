@@ -1,0 +1,785 @@
+{
+  "source": "talks/llm-wiki/slides.md",
+  "sourceSha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec",
+  "designSha256": "0a9a91d39c1b362221208f8817a51abab3c0c563a7f90474fb430542adb644f0",
+  "currentNotesSha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3",
+  "scope": "current local refresh; main images 2 new direct reviews and 38 byte-identical prior direct judgments reused; no new full40 claim",
+  "priorDirectReview": {
+    "path": "research/devday-fidelity-20261116/review/main-03/read-1440.reviews.json",
+    "sha256": "d6f93c2b2e2921477ead08c9c2586dbe036fe19bf7cfb24033feb0c2b4fa031b"
+  },
+  "historicalNotesOnly": {
+    "path": "research/devday-fidelity-20261116/main-03/source/talks/llm-wiki/materials/keynote-notes.md",
+    "sha256": "2e5b966db28a57fb9d535196fd03e39aa1cf762850d8daa3079e7a6c0bde2c6c"
+  },
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.556697+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 이름과 짧은 부제가 구별돼 발표 주제가 한 대상으로 읽힌다. 실제 제목/본문과 여백을 현재 화면에서 확인했다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-01.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 2,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.557181+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 함께 읽고 고치는 행위와 굵은 나만의 지식 문서가 두 의미행으로 읽힌다. 뒤3의 구체 선택 이유로 이어지는 선언 역할을 수용한다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-02.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 3,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.557979+00:00",
+      "reason": "현재1440/3 새 PNG를 직접 열어 선택 이유의 정확 단어·네 의미행·만들고 싶어서 호흡과 주황 선택 강조,자료 정체성/사람이 채울 예/발표팀 구성 지위가 함께 읽힘을 확인했다. main03와 다른 래스터의 원인은 미확정이며 원인 추정으로 승인하지 않았다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-03.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-03-1440.png",
+          "sha256": "b3fd4c6c762b4973d1fb1cdf82c20d551f0eddacbcc76f175b6f78222f145b72",
+          "reviewMethod": "direct-view-current"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "reviewMethod": "new-raster-direct-review"
+    },
+    {
+      "slide": 4,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.558206+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 다음 질문에 다시 쓴다는 한 문장 전환이 다른 자료와 경쟁하지 않고 다음 비교 장으로 이어진다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-04.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 5,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.558871+00:00",
+      "reason": "현재1440/5 새 PNG를 직접 열어 공통 원자료/답,현재 입력에서 종합 대 남아 다시 읽는 넓은 처음 계획의 비교축을 확인했다. 정확 미정 구절·처음 계획 표지·두 예의 병행 가능성이 실제 본문으로 읽힌다. 래스터 차이 원인은 미확정으로 남기며 현재 픽셀에서 누락/새 경쟁층/시점 오독을 발견하지 못했다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-05.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-05-1440.png",
+          "sha256": "bc97ca6fba8d14a3f3d82ccdbee9f88243db60735b84b58151ad00237d05e46d",
+          "reviewMethod": "direct-view-current"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "reviewMethod": "new-raster-direct-review"
+    },
+    {
+      "slide": 6,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.559573+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 같은 논리 계획의 제목과 조건이 두 대응선으로 이어진다. 처음 미정에서 입문자·세 메모 중 두 개·별도15분으로 바뀐 위치와 갱신 제목이 읽히고7의 현재 제목으로 이어진다. 실제 도구 diff나 성과를 가장하지 않는 정확 발췌 재구성이다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-06.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-06-1440.png",
+          "sha256": "2919361c2e4530745f65a0e69f3019f19c731301cce486ccb008391081a3a70c",
+          "reviewMethod": "direct-view-current"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 7,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.560559+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 현재 계획 제목이 입문자와 하는 / 첫 위키 활동으로 바뀌어6의 갱신 상태와 일치한다. 실제 지원절도 앞 장에서 조건을 반영한 같은 계획의 현재 제목임을 명시해 이전 시점 충돌이 해소됐다. 작은 목적과 맥락 입구·큰 개념/비교 한 영역·계획의 세 영역과 세 무방향선은 보존되고 두 의미행이 라벨/접점과 충돌하지 않는다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-07.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-07-1440.png",
+          "sha256": "8174e85a40cdd94c4139331d8cf07142f76ec81b26f50232bd6d468e59c4e672",
+          "reviewMethod": "direct-view-current"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/slide-06.png",
+          "sha256": "6449c9ff245434b93ee8cf83fe8aa45ce1a50969914c3abdf0c8a50c81d36f9d",
+          "reviewMethod": "byte-identical-to-prior-direct-view"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 8,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.561269+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 조건과 문서 읽기부터라는 첫 선택을 구별한다. 실제 지원절에서 입문자·준비된 읽기 팩·15분 가상 조건과 원래 목적을 확인했고 시간 하나로 자동 도출한 보편 답이나 측정 성과로 소개하지 않는다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-08.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-08-1440.png",
+          "sha256": "a83309c825ee1195ee0c25fa843c4e1721236a2ab2486abd69f82119f9d03018",
+          "reviewMethod": "direct-view-current"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 9,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.561483+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 앞으로 만들 결과와 관련된 자료인지를 묻는 질문의 두 의미행이 함께 읽힌다. 자료 선택 기준의 짧은 휴지 역할에 불필요한 도해를 강제하지 않는다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-09.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 10,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.561694+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 목적과 판단의 직접 작성 책임이 강조되고 감정·생각·판단·선택 이유를 직접 남긴다는 보충 본문이 실제 책임 범위를 구체화한다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-10.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 11,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.561911+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 원자료 구절·내가 직접 쓸 기록·AI 요약과 해석이 실제 native 표의 예와 대응한다. placeholder와 발표팀 구성 지위가 실제 사람 기록/실행 결과를 대신 꾸며 쓰지 않는다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-11.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 12,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.562131+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 공부·프로젝트·글과 발표의 동등한 활용처가 세로 그룹과 설명/강조로 대응한다. 뒤13이 구체 활동 결과물을 보여 주므로 같은 범주 수나 양식 자체로 재설계하지 않는다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-12.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 13,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.562838+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 완전한 활동안 제목·15분 진행안 절·세 필드와6~11분 한 행이 하나의 편집된 자료다. 실제 지원절에서 정확 활동/남길 근거 위치·계획 시간배분·미확인 효과를 대조했다. 활동의 따라 읽기 순서와7의 무방향 관계를 구별한다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-13.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-13-1440.png",
+          "sha256": "e3867f288a6f0e71270ae2f2a67adff776316a8644fc196eff8081da55d9b5ee",
+          "reviewMethod": "direct-view-current"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 14,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.563126+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 현재 선택3·지속/갱신5/6·관계7·사람 판단10/11·활동행13 뒤에서 설명과 근거/내 경험과 판단/다음 질문을 읽기·고치기·다시 쓰기로 요약한다.13 큰 자료면과 뒤15 원자료 확인이 대상을 바꾸어 recap이 유효하며 새 사례를 할당량으로 강제할 핵심 누락은 없다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-14.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 15,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.563554+00:00",
+      "reason": "본체 PNG는 main03 직접판정과 현재04 바이트 동일을 확인해 자료 정체성/선택 위치·조건 질문·정확 목적 네 의미행·자작 가상 지위와 읽기 원순서 판정을 재사용한다. 바뀐 지원15 두 폭은 현재 PNG를 직접 열었다. 불필요한 편집구가 사라지고 이 대조로 목적도 확인합니다의 의미/강조,입문자·준비팩·본편 뒤 별도15분·정확 조건/목적·문맥요약과 자작지위·팩 경로가 보존됐다.390의 목적도 / 확인합니다는 같은크기/행간의 일반 문단 흐름으로 이어지고 독립공백/위계가 없으며,별도 주역질문/정확인용이 온전해 큰 선택인용3의 보조서술어 고립과 같은 새 핵심 반려로 보지 않는다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-15.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/technical/direct-support-15-1440.png",
+          "sha256": "ba6243fe767c7170a16b5fd190015b6e331d35ab425f7b99121a6cf3c5dee98d",
+          "reviewMethod": "direct-view-current"
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+        }
+      ],
+      "reviewMethod": "same-main-png-reuse-with-new-support-review"
+    },
+    {
+      "slide": 16,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.563786+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 반복해서 묻는 주제와 한 번 확인할 질문의 두 그룹이 연결 문서/간단한 노트와 검색의 다른 시작점을 명확히 한다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-16.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 17,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.564014+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 첫 요청에서 목적과 직접 고른 두 자료를 함께 읽어 달라는 행동이 하나의 인용으로 읽히고 굵은 마지막 행동 행이 완결된다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-17.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 18,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.564229+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 근거·바꾼 파일·모르는 점이 동등한 결과 확인 항목으로 대응하고 각 질문의 목적어/서술어 호흡이 읽힌다.17의 요청을 점검하는 역할을 유지한다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-18.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 19,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.564440+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 다음 질문에 쓸 두 자료부터라는 한 행동 마감이 실제 의미행과 여백으로 읽힌다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-19.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    },
+    {
+      "slide": 20,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T08:41:29.564657+00:00",
+      "reason": "main03에서 B가 직접 읽은 해당 장의 역할 판단을,현재04 PNG의 실제 바이트 동일과 다른103입력/기준 불변·notes의 정확 단일 삭제를 확인한 범위에서 재사용한다. 이번에 해당 본체를 새로 view_image한 판정은 아니다. 어떤 질문을 다시 묻고 싶은지가 주역이고 해설·복사 요청·예제 팩 전문은 별도 보조 탐색으로 구별된다. 현재1440×1000/DPR1 read-slide-crop의 수동 판단이며 main03 CLI 성공을 자동 승계하지 않는다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/main-04/read-1440/slide-20.png"
+      ],
+      "supportingEvidence": [
+        {
+          "path": "research/devday-fidelity-20261116/main-04/read-1440/manifest.json",
+          "sha256": "c2f282a502d760b021ffffdfba8635aacbd6ed7d191fff6989c169eb619f6d21"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/reuse-observations.json",
+          "sha256": "0d47c18bb6ad83179afc0f3b0adfa4cd0d9e5c428c65771c0637972c9bb3c530"
+        },
+        {
+          "path": "research/devday-fidelity-20261116/main-04/source/talks/llm-wiki/materials/keynote-notes.md",
+          "sha256": "99e60286ef44e0aa7772ce08273b7c4e9a1e760be4d221aa5c63c471175a6de3"
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "sha256": "1245269027b87f6e3fe18bff9507ef3ea2d5ff64f9747cc6b27a56f40415f6ec"
+        }
+      ],
+      "reviewMethod": "byte-identical-prior-direct-review-reuse"
+    }
+  ]
+}

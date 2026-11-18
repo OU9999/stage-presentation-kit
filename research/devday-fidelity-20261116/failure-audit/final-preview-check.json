@@ -1,0 +1,82 @@
+[
+  {
+    "role": "05 · 같은 질문의 비교",
+    "reason": "반려 원인: 원본은 같은 창 모형의 작업 형태 차이가 먼저 보입니다. 현재는 서로 다른 수준의 작업명과 긴 계획 발췌를 상자·분기·문장으로 풀어 비교를 해독하게 합니다. 구체 문서가 있다는 사실을 미감의 완성도로 오판했습니다.",
+    "status": "사용자 반려 · 현재 미감 검수 실패",
+    "images": [
+      {
+        "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-90.png",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-05.png",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/slide-05.png",
+        "loaded": true
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "role": "07 · 문서의 관계",
+    "reason": "반려 원인: 세 관계와 현재 문서명은 정확합니다. 그러나 큰 채움 판과 균일한 굵은 글자가 연결보다 무겁고, 두 문서와 긴 한 제목이 비슷한 글자 덩어리로 보입니다. 관계 보존을 좋은 관계면과 혼동했습니다.",
+    "status": "사용자 반려 · 현재 미감 검수 실패",
+    "images": [
+      {
+        "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-XkKdbPhIvbY-210.png",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-07.png",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/slide-07.png",
+        "loaded": true
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "role": "13 · 한 문서와 한 행",
+    "reason": "반려 원인: 긴 제목·부제·필드·한 행을 확대한 워크시트입니다. 한 자료로 모이고 읽힌다는 것은 이 면의 타이포·행 묶음·비례가 정돈됐다는 증거가 아닙니다. 자료의 존재와 조형의 완성도를 혼동했습니다.",
+    "status": "사용자 반려 · 현재 미감 검수 실패",
+    "images": [
+      {
+        "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1500.png",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-13.png",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/slide-13.png",
+        "loaded": true
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "role": "15 · 목적을 확인하는 근거",
+    "reason": "반려 원인: 빈약한 문서 발췌와 긴 네 줄 인용의 병치입니다. 중복 시작구절·서로 다른 읽기 출발점·거친 비례가 남았습니다. 원자료와 인용이라는 두 역할의 존재를 원본과 같은 미감으로 오판했습니다.",
+    "status": "사용자 반려 · 현재 미감 검수 실패",
+    "images": [
+      {
+        "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/evidence/official-Fls_onRviPM-1440.png",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:4336/research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-15.png",
+        "loaded": true
+      },
+      {
+        "src": "http://127.0.0.1:4336/research/devday-fidelity-20261116/main-04/present-1920/slide-15.png",
+        "loaded": true
+      }
+    ],
+    "overflow": false
+  }
+]

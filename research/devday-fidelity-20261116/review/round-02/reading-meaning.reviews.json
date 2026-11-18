@@ -1,0 +1,132 @@
+{
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:55:16.481141+00:00",
+      "reason": "공통 원자료와 이번 답이 각1회로 묶이고 현재 입력에서 종합과 남아 다시 읽는 문서의 차이가 중앙 주역으로 읽힌다. 좁은3문서명 대신 처음 계획의 실제 제목과 정확 구절을 넓게 보여 반복 절차 해독 문제가 해소됐다. 처음 계획 표지가 뒤 조건변경과 상태를 구별하고 두 예는 함께 쓸 수 있다는 의미는 native 본문으로 남는다. Codex90초의 공통 틀 안 비교 원리와 대조해 이 발표 범위를 국소 수동 수용한다. 실제 1920 viewport의 Stage에서도 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-01.png"
+      ]
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:55:16.481141+00:00",
+      "reason": "작은 목적과 맥락 요약입구와 큰 LLM Wiki/RAG와 위키·다음 스터디의 첫 시도 기존 문서 영역이 구별되고 세 무방향선의 소속을 구체 이름 가까이 따라갈 수 있다. 새1의 실제 계획 발췌 뒤에도 같은 문서의 관계 역할이 명확하다. 새 실물과 문맥을 직접 다시 읽은 판정이며 동일 픽셀이나 이전 승인을 자동 승계하지 않았다. 실제 1920 viewport의 Stage에서도 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-02.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:55:16.481141+00:00",
+      "reason": "완전한 활동안 제목·절 이름·활동 시간/할 일/남길 것의 세필드와6~11분 한행이 하나의 문서로 읽힌다. 두크기에서 활동과 남길 근거위치가 분명하고 새4의 작은 원문 정체성면과 달리 결과 한행 자체가 주역이다. 자작 설명용 활동안·한행발췌 지위와 전체 문서 접근 의미를 보존한 현재 발표 범위를 국소 수동 수용한다. 실제 1920 viewport의 Stage에서도 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-03.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:55:16.481141+00:00",
+      "reason": "짧은 조건 메모 정체성과 노란 선택 위치를 확인한 뒤 오른쪽의 필수조건 질문과 정확 목적 인용을 읽는 경로가 명확하다. 입문자·본편 뒤 별도15분은 body본문으로 남고 목적은 큰 네 의미행이다. Round01의 왼쪽 세조건/오른쪽 목적재설명·반복 지위층이 해소되어 공식24:00의 자료정체성과 읽을구절의 다른 무게가 성립한다. 순수 자작가상예만 caption이며 실제 기록/실행성과로 보이지 않는다. 실제 1920 viewport의 Stage에서도 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-02/present-1920/slide-04.png"
+      ]
+    },
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:55:16.481141+00:00",
+      "reason": "공통 원자료와 이번 답이 각1회로 묶이고 현재 입력에서 종합과 남아 다시 읽는 문서의 차이가 중앙 주역으로 읽힌다. 좁은3문서명 대신 처음 계획의 실제 제목과 정확 구절을 넓게 보여 반복 절차 해독 문제가 해소됐다. 처음 계획 표지가 뒤 조건변경과 상태를 구별하고 두 예는 함께 쓸 수 있다는 의미는 native 본문으로 남는다. Codex90초의 공통 틀 안 비교 원리와 대조해 이 발표 범위를 국소 수동 수용한다. 실제 1280 viewport의 Stage에서도 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-01.png"
+      ]
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:55:16.481141+00:00",
+      "reason": "작은 목적과 맥락 요약입구와 큰 LLM Wiki/RAG와 위키·다음 스터디의 첫 시도 기존 문서 영역이 구별되고 세 무방향선의 소속을 구체 이름 가까이 따라갈 수 있다. 새1의 실제 계획 발췌 뒤에도 같은 문서의 관계 역할이 명확하다. 새 실물과 문맥을 직접 다시 읽은 판정이며 동일 픽셀이나 이전 승인을 자동 승계하지 않았다. 실제 1280 viewport의 Stage에서도 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-02.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:55:16.481141+00:00",
+      "reason": "완전한 활동안 제목·절 이름·활동 시간/할 일/남길 것의 세필드와6~11분 한행이 하나의 문서로 읽힌다. 두크기에서 활동과 남길 근거위치가 분명하고 새4의 작은 원문 정체성면과 달리 결과 한행 자체가 주역이다. 자작 설명용 활동안·한행발췌 지위와 전체 문서 접근 의미를 보존한 현재 발표 범위를 국소 수동 수용한다. 실제 1280 viewport의 Stage에서도 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-03.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/devday_verification_manager/tooling_integrator",
+      "reviewedAt": "2026-11-16T06:55:16.481141+00:00",
+      "reason": "짧은 조건 메모 정체성과 노란 선택 위치를 확인한 뒤 오른쪽의 필수조건 질문과 정확 목적 인용을 읽는 경로가 명확하다. 입문자·본편 뒤 별도15분은 body본문으로 남고 목적은 큰 네 의미행이다. Round01의 왼쪽 세조건/오른쪽 목적재설명·반복 지위층이 해소되어 공식24:00의 자료정체성과 읽을구절의 다른 무게가 성립한다. 순수 자작가상예만 caption이며 실제 기록/실행성과로 보이지 않는다. 실제 1280 viewport의 Stage에서도 직접 확인했다.",
+      "evidence": [
+        "research/devday-fidelity-20261116/evidence/round-02/present-1280/slide-04.png"
+      ]
+    }
+  ]
+}

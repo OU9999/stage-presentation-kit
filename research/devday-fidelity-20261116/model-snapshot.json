@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-16T05:49:30Z",
+  "officialSources": [
+    "https://openai.com/index/introducing-gpt-6-1-sol/",
+    "https://developers.openai.com/api/docs/models",
+    "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+  ],
+  "officialObservation": "Fresh official release page identifies GPT-6.1 Sol as the upgrade to GPT-6 Sol; the fresh current official catalog lists GPT-6.1 Sol. No later Sol found in this check.",
+  "availableModelIds": ["gpt-6.1-sol", "gpt-6-astra", "gpt-6.1-terra", "gpt-6-sol", "gpt-6-luna"],
+  "runtimeEvidence": "Current collaboration.spawn_agent tool contract lists these exact IDs, fork none accepts overrides; max four simultaneous active agents including root.",
+  "selectedModel": "gpt-6.1-sol",
+  "reasoningEffort": "xhigh",
+  "forkTurns": "none",
+  "reason": "Repeated independent internal approvals conflict with explicit user rejection of DevDay aesthetic fidelity. This unresolved judgment/evidence conflict meets the skill condition to consider xhigh; these assignments require art direction, research and synthesis rather than a fixed checklist."
+}
