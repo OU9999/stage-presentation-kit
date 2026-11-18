@@ -1,0 +1,98 @@
+{
+  "schema": "stage-keynote-prototype-verdict-v1",
+  "round": "R02",
+  "reviewer": "/root/creative_quality_manager/keynote_critic",
+  "reviewedAt": "2026-11-13T09:42:06Z",
+  "status": "keep-candidate",
+  "approvalClaim": false,
+  "scope": {
+    "mode": "presentation-stage-only",
+    "slides": [
+      1,
+      2,
+      3
+    ],
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "stage": {
+      "width": 1557.33349609375,
+      "height": 876
+    }
+  },
+  "source": {
+    "path": "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r02/slides.md",
+    "sha256": "b2f9de95d60b8026b937f760c4c54387584df257f2d47599cce0486d7b3510c7"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "c28cb774ff7544506f2c02913d4588578a045ea98509ac3ea7475cc164f3a062"
+  },
+  "captureManifest": {
+    "path": "research/llm-wiki-keynote-reset-20261113/evidence/r02/present-1920/manifest.json",
+    "sha256": "d6b0e96f67320b35017660521044707c16e912f8bb9559f21d109df5f5d7577b"
+  },
+  "report": "research/llm-wiki-keynote-reset-20261113/review/R02.md",
+  "judgmentOrder": "Opened all three current PNGs and compared role-matched original frames; sent first visual judgment to B, manager, and root before reading manifest, technical observations, or supporting text.",
+  "reviews": [
+    {
+      "slide": 1,
+      "status": "keep-candidate",
+      "reason": "The sentence is immediately the protagonist with no competing explanation or diagram. Current PNG was viewed again despite identical SHA to R01.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r02/present-1920/slide-01.png",
+        "sha256": "9bf23d0a66fe544e653e264789d6d26d83b93d1b6b79a1a3327918bd02b3d1ee"
+      }
+    },
+    {
+      "slide": 2,
+      "status": "keep-candidate",
+      "reason": "The preserved fifteen-minute condition and the prepared choice to read existing contents/document links share one comparison axis. A large wiki document area is the main reading object, resolving R01's unrelated-definition columns.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r02/present-1920/slide-02.png",
+        "sha256": "b6d20ddaa0a1c0529752c0e8d8ca930d4a3fec4ec6f5ca3b77293ef0fb8f4346"
+      }
+    },
+    {
+      "slide": 3,
+      "status": "keep-candidate",
+      "reason": "A small summary entrance and two larger existing document areas form one undirected relation system; all edge ends belong to document boundaries. R01's detached V and vertical segment are resolved.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r02/present-1920/slide-03.png",
+        "sha256": "e21246e6cf9e1059a39691d1f3995a7715a390fe152bd56a2ee0e25abb46c734"
+      }
+    }
+  ],
+  "preservationConditions": [
+    "Preserve original pack and complete meaning/relations/rules in support materials",
+    "Keep example status visible and never claim actual user records, model output, operational performance, or original UI evidence",
+    "Keep all three undirected relations; no automatic production order or causal guarantee"
+  ],
+  "semanticFollowups": [
+    {
+      "owner": "/root/creative_quality_manager/keynote_creator",
+      "status": "accepted-for-handoff",
+      "scope": "Product migration, not frozen R02 edits",
+      "required": "Speaker/support text must identify the beginner-plus-fifteen-minute hypothetical context. The prepared choice is not a causal result derived from time alone.",
+      "finding": "Current R02 speaker/read section 2 mentions only the time condition; B directly confirmed the omission and accepted migration handoff."
+    }
+  ],
+  "nextOwner": "/root",
+  "nextAction": "Use the three role-specific patterns as product migration candidates, preserve R01/R02, implement semantic followup in migrated source, then capture and independently review actual new product inputs.",
+  "rejectionThresholds": [
+    "No immediate role or protagonist",
+    "Mismatched comparison axes",
+    "Definitions, file lists, promises, and metadata become equal body-level competitors again",
+    "Relation endpoints do not visibly belong to targets",
+    "Illustrative reconstruction presented as actual evidence"
+  ],
+  "limitations": [
+    "No --require-approved run or formal presentation approval",
+    "No full-deck approval",
+    "No 1280, reading, motion, other OS, or projector review",
+    "No user aesthetic acceptance",
+    "Not a stage-design-review-v1 replacement"
+  ]
+}

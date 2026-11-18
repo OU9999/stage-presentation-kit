@@ -1,0 +1,17 @@
+{
+  "head": "fca44a239eec36fcd3a96fd4997adc6b03d020cd",
+  "hashes": {
+    "DESIGN.md": "2d3e8fc3cd79f60d32d37b605136d63c218fd6bd7032888508758ba1f09dc8bc",
+    "MARKDOWN-FIRST.md": "22590063a89799763d6900fc343a0031204a78b799bd3e058bb6db3751560580",
+    "CONFIG.md": "714e3b8857d42b80e00995f2a07dd84adc5e63c9aa4cf0a4e0c3391b737e6ff9",
+    "DESIGN-REVIEW.md": "262154a1f0f41ecf22ea2232ac118d49eb71b019a7cfb30fb262155992119b7f",
+    "talks/llm-wiki/slides.md": "8fa3d55cd5d92c13d20ffd40434f1725ee093c289dea4365015d0a894c659a84",
+    "talks/llm-wiki/qa/current-roles.json": "ca8033d7fa838c74cca055b2f2c07650c4ed51262b7b12e8fce900fbb5071b34",
+    "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+    "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+    "talks/llm-wiki/assets/design/ingest-map.svg": "1ea6a569bab645b16c29d332950aaa5928fcd0b4b6737ff12005bcdf3765764b",
+    "talks/llm-wiki/assets/design/knowledge-layers.svg": "64c1fd12553932973b7340a0930c2617788ad561c1e09329da9171644d4f0a56",
+    "talks/llm-wiki/assets/design/raw-wiki-rules.svg": "87b989db720d81d4ec21ed604ac24c66623ee2faa934166071449003133d900d"
+  },
+  "priorOutcome": "User explicitly rejected the prior iteration despite four technical approval checks. Those records are historical and are not an aesthetic baseline to inherit."
+}

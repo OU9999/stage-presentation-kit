@@ -1,0 +1,1202 @@
+{
+  "executedAt": "2026-11-13T07:34:27.890Z",
+  "scope": "Node parser/planner/renderer DOM-shim + independent comparison with saved browser DOM inventory; no new browser or visual approval",
+  "checks": [
+    {
+      "name": "all26-explicit-compose-plan-saved-browser-DOM",
+      "pass": true,
+      "slides": [
+        {
+          "slide": 1,
+          "sourceLine": 6,
+          "requested": "message",
+          "explicitTone": "neutral",
+          "plan": "message",
+          "savedBrowserDOM": "message",
+          "warnings": []
+        },
+        {
+          "slide": 2,
+          "sourceLine": 17,
+          "requested": "quote",
+          "explicitTone": "neutral",
+          "plan": "quote",
+          "savedBrowserDOM": "quote",
+          "warnings": []
+        },
+        {
+          "slide": 3,
+          "sourceLine": 31,
+          "requested": "media",
+          "explicitTone": "neutral",
+          "plan": "media",
+          "savedBrowserDOM": "media",
+          "warnings": []
+        },
+        {
+          "slide": 4,
+          "sourceLine": 47,
+          "requested": "editorial",
+          "explicitTone": "neutral",
+          "plan": "editorial",
+          "savedBrowserDOM": "editorial",
+          "warnings": []
+        },
+        {
+          "slide": 5,
+          "sourceLine": 66,
+          "requested": "media",
+          "explicitTone": "neutral",
+          "plan": "media",
+          "savedBrowserDOM": "media",
+          "warnings": []
+        },
+        {
+          "slide": 6,
+          "sourceLine": 80,
+          "requested": "editorial",
+          "explicitTone": "neutral",
+          "plan": "editorial",
+          "savedBrowserDOM": "editorial",
+          "warnings": []
+        },
+        {
+          "slide": 7,
+          "sourceLine": 99,
+          "requested": "document",
+          "explicitTone": "neutral",
+          "plan": "document",
+          "savedBrowserDOM": "document",
+          "warnings": []
+        },
+        {
+          "slide": 8,
+          "sourceLine": 115,
+          "requested": "media",
+          "explicitTone": "neutral",
+          "plan": "media",
+          "savedBrowserDOM": "media",
+          "warnings": []
+        },
+        {
+          "slide": 9,
+          "sourceLine": 129,
+          "requested": "media",
+          "explicitTone": "neutral",
+          "plan": "media",
+          "savedBrowserDOM": "media",
+          "warnings": []
+        },
+        {
+          "slide": 10,
+          "sourceLine": 143,
+          "requested": "media",
+          "explicitTone": "neutral",
+          "plan": "media",
+          "savedBrowserDOM": "media",
+          "warnings": []
+        },
+        {
+          "slide": 11,
+          "sourceLine": 157,
+          "requested": "media",
+          "explicitTone": "neutral",
+          "plan": "media",
+          "savedBrowserDOM": "media",
+          "warnings": []
+        },
+        {
+          "slide": 12,
+          "sourceLine": 169,
+          "requested": "editorial",
+          "explicitTone": "neutral",
+          "plan": "editorial",
+          "savedBrowserDOM": "editorial",
+          "warnings": []
+        },
+        {
+          "slide": 13,
+          "sourceLine": 192,
+          "requested": "document",
+          "explicitTone": "neutral",
+          "plan": "document",
+          "savedBrowserDOM": "document",
+          "warnings": []
+        },
+        {
+          "slide": 14,
+          "sourceLine": 207,
+          "requested": "media",
+          "explicitTone": "neutral",
+          "plan": "media",
+          "savedBrowserDOM": "media",
+          "warnings": []
+        },
+        {
+          "slide": 15,
+          "sourceLine": 221,
+          "requested": "editorial",
+          "explicitTone": "neutral",
+          "plan": "editorial",
+          "savedBrowserDOM": "editorial",
+          "warnings": []
+        },
+        {
+          "slide": 16,
+          "sourceLine": 244,
+          "requested": "media",
+          "explicitTone": "neutral",
+          "plan": "media",
+          "savedBrowserDOM": "media",
+          "warnings": []
+        },
+        {
+          "slide": 17,
+          "sourceLine": 258,
+          "requested": "quote",
+          "explicitTone": "neutral",
+          "plan": "quote",
+          "savedBrowserDOM": "quote",
+          "warnings": []
+        },
+        {
+          "slide": 18,
+          "sourceLine": 273,
+          "requested": "quote",
+          "explicitTone": "neutral",
+          "plan": "quote",
+          "savedBrowserDOM": "quote",
+          "warnings": []
+        },
+        {
+          "slide": 19,
+          "sourceLine": 288,
+          "requested": "editorial",
+          "explicitTone": "neutral",
+          "plan": "editorial",
+          "savedBrowserDOM": "editorial",
+          "warnings": []
+        },
+        {
+          "slide": 20,
+          "sourceLine": 309,
+          "requested": "media",
+          "explicitTone": "neutral",
+          "plan": "media",
+          "savedBrowserDOM": "media",
+          "warnings": []
+        },
+        {
+          "slide": 21,
+          "sourceLine": 321,
+          "requested": "editorial",
+          "explicitTone": "neutral",
+          "plan": "editorial",
+          "savedBrowserDOM": "editorial",
+          "warnings": []
+        },
+        {
+          "slide": 22,
+          "sourceLine": 344,
+          "requested": "editorial",
+          "explicitTone": "neutral",
+          "plan": "editorial",
+          "savedBrowserDOM": "editorial",
+          "warnings": []
+        },
+        {
+          "slide": 23,
+          "sourceLine": 368,
+          "requested": "document",
+          "explicitTone": "neutral",
+          "plan": "document",
+          "savedBrowserDOM": "document",
+          "warnings": []
+        },
+        {
+          "slide": 24,
+          "sourceLine": 382,
+          "requested": "document",
+          "explicitTone": "neutral",
+          "plan": "document",
+          "savedBrowserDOM": "document",
+          "warnings": []
+        },
+        {
+          "slide": 25,
+          "sourceLine": 401,
+          "requested": "closing",
+          "explicitTone": "neutral",
+          "plan": "closing",
+          "savedBrowserDOM": "closing",
+          "warnings": []
+        },
+        {
+          "slide": 26,
+          "sourceLine": 412,
+          "requested": "message",
+          "explicitTone": "neutral",
+          "plan": "message",
+          "savedBrowserDOM": "message",
+          "warnings": []
+        }
+      ],
+      "inventoryInputHashes": [
+        {
+          "path": "app.js",
+          "same": true
+        },
+        {
+          "path": "blocks.css",
+          "same": true
+        },
+        {
+          "path": "blocks.js",
+          "same": true
+        },
+        {
+          "path": "deck-model.js",
+          "same": true
+        },
+        {
+          "path": "lib/cli.cjs",
+          "same": true
+        },
+        {
+          "path": "lib/config.cjs",
+          "same": true
+        },
+        {
+          "path": "lib/direct-deck.cjs",
+          "same": true
+        },
+        {
+          "path": "lib/generated-files.cjs",
+          "same": true
+        },
+        {
+          "path": "lib/index.cjs",
+          "same": true
+        },
+        {
+          "path": "lib/markdown-deck.cjs",
+          "same": true
+        },
+        {
+          "path": "lib/markdown-document.cjs",
+          "same": true
+        },
+        {
+          "path": "lib/materials.cjs",
+          "same": true
+        },
+        {
+          "path": "lib/project.cjs",
+          "same": true
+        },
+        {
+          "path": "lib/runtime.cjs",
+          "same": true
+        },
+        {
+          "path": "lib/scaffold.cjs",
+          "same": true
+        },
+        {
+          "path": "ou.config.json",
+          "same": true
+        },
+        {
+          "path": "package-lock.json",
+          "same": true
+        },
+        {
+          "path": "scripts/build-examples.cjs",
+          "same": true
+        },
+        {
+          "path": "scripts/build-site.cjs",
+          "same": true
+        },
+        {
+          "path": "scripts/direct-deck.cjs",
+          "same": true
+        },
+        {
+          "path": "scripts/generated-files.cjs",
+          "same": true
+        },
+        {
+          "path": "scripts/llm-wiki-geometry-qa.cjs",
+          "same": true
+        },
+        {
+          "path": "scripts/llm-wiki-typography-qa.cjs",
+          "same": true
+        },
+        {
+          "path": "scripts/markdown-deck.cjs",
+          "same": true
+        },
+        {
+          "path": "scripts/markdown-document.cjs",
+          "same": true
+        },
+        {
+          "path": "scripts/materials.cjs",
+          "same": true
+        },
+        {
+          "path": "scripts/runtime.cjs",
+          "same": true
+        },
+        {
+          "path": "scripts/stage.cjs",
+          "same": true
+        },
+        {
+          "path": "styles.css",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/current-pending.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/decision-transition.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/examples/course.txt",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/examples/reading.txt",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/examples/team.txt",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded-study.txt",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/agentic-routing.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/comparison-synthesis.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/five-layers.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/ingest-map.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/knowledge-layers.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/purpose-questions.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/query-reading.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/rag-path.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/reflection-layers.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/related-updates.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/review-return.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/rules-graph.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/saved-question.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/session-plan.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/shared-workspace.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/source-concept.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/wiki-path.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/expanded/work-context.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/impact-map.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/remake/ingest-map.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/remake/session-plan.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/reuse-inputs.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/typography/ingest-map.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/typography/knowledge-layers.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/typography/purpose-questions.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/typography/rag-path.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/typography/raw-wiki-rules.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/typography/related-updates.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/typography/session-plan.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/typography/source-concept.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/assets/typography/wiki-path.svg",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/demo/llm-wiki-demo.zip",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/materials/demo-log.md",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/materials/diagram-reading.md",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/materials/index.md",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/materials/reference-library.md",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/materials/session-plan.md",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/materials/speaker-script.md",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/materials/study-guide.md",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/materials/visual-appendix.md",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/materials/workshop.md",
+          "same": true
+        },
+        {
+          "path": "talks/llm-wiki/slides.md",
+          "same": true
+        },
+        {
+          "path": "templates/material.html",
+          "same": true
+        },
+        {
+          "path": "templates/materials.css",
+          "same": true
+        },
+        {
+          "path": "templates/presentation.html",
+          "same": true
+        },
+        {
+          "path": "visual.css",
+          "same": true
+        },
+        {
+          "path": "visual.js",
+          "same": true
+        },
+        {
+          "path": "DESIGN.md",
+          "same": true
+        },
+        {
+          "path": "AGENTS.md",
+          "same": true
+        }
+      ],
+      "independenceLimit": "Fresh parse/planning matched root-collected actual browser inventory; this agent did not recapture browser DOM."
+    },
+    {
+      "name": "all26-renderer-preserves-authored-text-links-hardbreaks",
+      "pass": true,
+      "slides": [
+        {
+          "slide": 1,
+          "anchors": 0,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 2,
+          "anchors": 1,
+          "sourceBr": 1,
+          "renderedBr": 1,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 3,
+          "anchors": 1,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 1,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 4,
+          "anchors": 2,
+          "sourceBr": 1,
+          "renderedBr": 1,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 5,
+          "anchors": 1,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 1,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 6,
+          "anchors": 0,
+          "sourceBr": 1,
+          "renderedBr": 1,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 7,
+          "anchors": 0,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 8,
+          "anchors": 1,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 1,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 9,
+          "anchors": 1,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 1,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 10,
+          "anchors": 1,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 1,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 11,
+          "anchors": 1,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 1,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 12,
+          "anchors": 0,
+          "sourceBr": 3,
+          "renderedBr": 3,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 13,
+          "anchors": 0,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 14,
+          "anchors": 1,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 1,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 15,
+          "anchors": 0,
+          "sourceBr": 3,
+          "renderedBr": 3,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 16,
+          "anchors": 1,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 1,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 17,
+          "anchors": 0,
+          "sourceBr": 1,
+          "renderedBr": 1,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 18,
+          "anchors": 0,
+          "sourceBr": 2,
+          "renderedBr": 2,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 19,
+          "anchors": 0,
+          "sourceBr": 1,
+          "renderedBr": 1,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 20,
+          "anchors": 1,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 1,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 21,
+          "anchors": 0,
+          "sourceBr": 3,
+          "renderedBr": 3,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 22,
+          "anchors": 0,
+          "sourceBr": 4,
+          "renderedBr": 4,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 23,
+          "anchors": 0,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 24,
+          "anchors": 3,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 25,
+          "anchors": 0,
+          "sourceBr": 0,
+          "renderedBr": 0,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        },
+        {
+          "slide": 26,
+          "anchors": 3,
+          "sourceBr": 1,
+          "renderedBr": 1,
+          "hardBreakTextOrderSame": true,
+          "img": 0,
+          "inlineSVG": 0
+        }
+      ]
+    },
+    {
+      "name": "all9-current-comparisons-use-same-Markdown-blocks-engine",
+      "pass": true,
+      "samples": [
+        {
+          "name": "portraits",
+          "source": "talks/photo-essay/slides.md",
+          "slide": 2,
+          "layout": "blocks",
+          "requested": "gallery",
+          "explicitTone": null,
+          "groupTones": [],
+          "iconTones": [],
+          "plan": "gallery",
+          "variant": "portraits",
+          "savedBrowserDOM": "gallery",
+          "warnings": []
+        },
+        {
+          "name": "strip",
+          "source": "talks/photo-essay/slides.md",
+          "slide": 3,
+          "layout": "blocks",
+          "requested": "gallery",
+          "explicitTone": null,
+          "groupTones": [],
+          "iconTones": [],
+          "plan": "gallery",
+          "variant": "strip",
+          "savedBrowserDOM": "gallery",
+          "warnings": []
+        },
+        {
+          "name": "mosaic",
+          "source": "talks/photo-essay/slides.md",
+          "slide": 5,
+          "layout": "blocks",
+          "requested": "mosaic",
+          "explicitTone": null,
+          "groupTones": [],
+          "iconTones": [],
+          "plan": "mosaic",
+          "variant": "staggered",
+          "savedBrowserDOM": "mosaic",
+          "warnings": []
+        },
+        {
+          "name": "bento",
+          "source": "talks/community-exhibit/slides.md",
+          "slide": 5,
+          "layout": "blocks",
+          "requested": "bento",
+          "explicitTone": null,
+          "groupTones": [
+            "blue",
+            null,
+            "orange",
+            null,
+            "purple",
+            null,
+            "green",
+            null,
+            null,
+            "purple",
+            null,
+            null
+          ],
+          "iconTones": [],
+          "plan": "bento",
+          "variant": "seoul",
+          "savedBrowserDOM": "bento",
+          "warnings": []
+        },
+        {
+          "name": "icons",
+          "source": "talks/community-exhibit/slides.md",
+          "slide": 7,
+          "layout": "blocks",
+          "requested": "icon-wall",
+          "explicitTone": null,
+          "groupTones": [],
+          "iconTones": [
+            "purple",
+            "blue",
+            "orange"
+          ],
+          "plan": "icon-wall",
+          "variant": "",
+          "savedBrowserDOM": "icon-wall",
+          "warnings": []
+        },
+        {
+          "name": "custom-icons",
+          "source": "talks/community-exhibit/slides.md",
+          "slide": 8,
+          "layout": "blocks",
+          "requested": "icon-wall",
+          "explicitTone": null,
+          "groupTones": [],
+          "iconTones": [],
+          "plan": "icon-wall",
+          "variant": "",
+          "savedBrowserDOM": "icon-wall",
+          "warnings": []
+        },
+        {
+          "name": "table",
+          "source": "talks/product-notes/slides.md",
+          "slide": 3,
+          "layout": "blocks",
+          "requested": "auto",
+          "explicitTone": null,
+          "groupTones": [],
+          "iconTones": [],
+          "plan": "document",
+          "variant": "",
+          "savedBrowserDOM": "document",
+          "warnings": []
+        },
+        {
+          "name": "quote",
+          "source": "talks/product-notes/slides.md",
+          "slide": 5,
+          "layout": "blocks",
+          "requested": "auto",
+          "explicitTone": null,
+          "groupTones": [],
+          "iconTones": [],
+          "plan": "quote",
+          "variant": "",
+          "savedBrowserDOM": "quote",
+          "warnings": []
+        },
+        {
+          "name": "editorial-photo",
+          "source": "talks/team-learning/slides.md",
+          "slide": 6,
+          "layout": "blocks",
+          "requested": "editorial",
+          "explicitTone": null,
+          "groupTones": [
+            "green",
+            "purple"
+          ],
+          "iconTones": [],
+          "plan": "editorial",
+          "variant": "",
+          "savedBrowserDOM": "editorial",
+          "warnings": []
+        }
+      ],
+      "conclusion": "The nine current comparison samples share parseDocument → StageBlocks with LLM Wiki, not merely an app shell. Other legacy examples use the common runtime with separate layout branches."
+    },
+    {
+      "name": "C1-native-exact-excerpt-with-source-and-relationship-table",
+      "pass": true,
+      "composition": "document",
+      "quote": "목적: 우리 스터디에서 LLM Wiki를 왜 쓰고 어떤 질문에 다시 활용할지 정하기.",
+      "links": [
+        "./assets/expanded-study.txt"
+      ],
+      "limit": "Semantic excerpt/table supported. This reduced structural probe is not a full replacement preserving all five original edges; keep/recompose SVG for those edges or explicitly model all of them."
+    },
+    {
+      "name": "C2-two-dom-groups-and-shared-rules-prelude",
+      "pass": true,
+      "composition": "editorial",
+      "variant": "centered",
+      "groupCount": 2,
+      "rulesParent": "div",
+      "markdownDefinitionParent": "div",
+      "preludeTexts": [
+        "rules.md는 raw/와 wiki/ 두 영역의 작업 약속입니다. 원자료 보존 · 근거 연결 · 관련 쪽 갱신 · 중요한 결과 확인.",
+        "마크다운은 글과 링크를 적는 텍스트 파일입니다. 발표팀 구성 예의 원문"
+      ],
+      "groupTexts": [
+        "raw/ · 보존목적: 우리 스터디에서 LLM Wiki를 왜 쓰고 어떤 질문에 다시 활용할지 정하기.context-note.md · retrieval-note.md · synthesis-note.md요지 · 선택 이유 · 남은 질문",
+        "wiki/ · 작성하고 갱신LLM이 원자료의 개념·비교·종합을 연결 문서로 작성하고 갱신하는 지식관리 패턴이다.개념 · 비교 · 종합 · 질문 · 목차 · 로그"
+      ],
+      "limit": "Both shared rules and Markdown definition are supported as prelude outside the H2 groups. A shared trailing row after two H2 groups would belong to the last group; no postlude scope control exists. This long reduced structural probe is not a complete correction or fit/glyph approval."
+    },
+    {
+      "name": "C3-C4-native-directed-branching-capability-not-original-ingest-replacement",
+      "pass": true,
+      "layout": "visual",
+      "table": {
+        "caption": "흐름의 순서와 연결",
+        "headers": [
+          "항목",
+          "다음 연결"
+        ],
+        "rows": [
+          [
+            "자료 요약 · 입구",
+            "LLM Wiki 개념 / RAG와 비교"
+          ],
+          [
+            "LLM Wiki 개념",
+            "현재 계획"
+          ],
+          [
+            "RAG와 비교",
+            "현재 계획"
+          ],
+          [
+            "현재 계획",
+            "목차·링크 갱신"
+          ],
+          [
+            "목차·링크 갱신",
+            "연결 없음"
+          ]
+        ]
+      },
+      "edges": [
+        "자료 요약 · 입구 → LLM Wiki 개념",
+        "자료 요약 · 입구 → RAG와 비교",
+        "LLM Wiki 개념 → 현재 계획",
+        "RAG와 비교 → 현재 계획",
+        "현재 계획 → 목차·링크 갱신"
+      ],
+      "inlineSVG": 0,
+      "limit": "Capability-only synthetic directed five-edge graph. It is NOT a meaning-preserving replacement of slide 10 with its three undirected relations/no mandatory generation order/no automatic update promise. Native output is ordered nodes plus separate directed text edges/table, not spatial connecting lines; names are labels, not real hyperlinks."
+    },
+    {
+      "name": "C3-original-three-undirected-relations-cannot-drop-in-native-flow",
+      "pass": true,
+      "originalRelations": [
+        "summary--concept-comparison",
+        "summary--plan",
+        "concept-comparison--plan"
+      ],
+      "nativeEdges": [
+        "자료 요약 · 원자료의 입구 → 개념 · 비교",
+        "자료 요약 · 원자료의 입구 → 현재 계획",
+        "개념 · 비교 → 현재 계획"
+      ],
+      "unknownDirectionIgnored": true,
+      "conclusion": "Existing SVG recompose is the smallest supported path preserving the three undirected relations. Adding reverse arrows would falsely imply two directed operations and is not equivalent. Native relational tables can explicitly label undirected meaning; native flow cannot."
+    },
+    {
+      "name": "C4-native-linked-document-table-is-real-anchor-only-if-authored-link",
+      "pass": true,
+      "anchors": [
+        "./materials/diagram-reading.md#9%EC%9E%A5-%EB%AF%B8%EB%A6%AC-%EC%A0%95%EB%A6%AC%ED%95%9C-%EB%AC%B8%EC%84%9C-%EB%8B%A4%EC%8B%9C-%EC%9D%BD%EA%B8%B0"
+      ],
+      "virtualCodePaths": [
+        "wiki/concepts/llm-wiki.md",
+        "wiki/comparisons/rag-vs-wiki.md"
+      ],
+      "references": [
+        {
+          "kind": "link",
+          "value": "./materials/diagram-reading.md#9%EC%9E%A5-%EB%AF%B8%EB%A6%AC-%EC%A0%95%EB%A6%AC%ED%95%9C-%EB%AC%B8%EC%84%9C-%EB%8B%A4%EC%8B%9C-%EC%9D%BD%EA%B8%B0"
+        }
+      ],
+      "limit": "Code paths inside expanded-study.txt are virtual sections, not standalone registered .md files. Use existing example-pack/diagram anchors or create/register material pages before authoring actual .md links."
+    },
+    {
+      "name": "C6-two-H2-with-two-H3-judgments-and-separate-execution",
+      "pass": true,
+      "composition": "editorial",
+      "groups": [
+        {
+          "text": "먼저 판단합니다내 목적에 필요한가앞으로 만들 결과와 관련된 자료인가왜 골랐는가가치 있다고 느낀 이유를 직접 적을 수 있는가",
+          "h3": [
+            "내 목적에 필요한가",
+            "왜 골랐는가"
+          ]
+        },
+        {
+          "text": "판단했다면, 작게 시작하기같은 주제의 자료 두 개부터 연결합니다.",
+          "h3": []
+        }
+      ],
+      "limit": "DOM distinguishes two judgments inside one group and one execution in another. Conditional wording provides sequence; there is no connector. CSS/fit/glyph hierarchy remains unobserved."
+    },
+    {
+      "name": "C6-three-H2-primary-is-span-not-two-judgments-group",
+      "pass": true,
+      "groups": [
+        {
+          "text": "내 목적에 필요한가앞으로 만들 결과와 관련된 자료인가",
+          "primary": false
+        },
+        {
+          "text": "왜 골랐는가가치 있다고 느낀 이유를 직접 적을 수 있는가",
+          "primary": false
+        },
+        {
+          "text": "작게 시작하기같은 주제의 자료 두 개부터 연결합니다.",
+          "primary": true
+        }
+      ],
+      "limit": "primary adds class/size allocation; three sibling groups remain. It does not create a parent for the two judgments or encode a conditional arrow."
+    },
+    {
+      "name": "C6-two-judgments-converge-to-one-action-native-flow",
+      "pass": true,
+      "table": {
+        "caption": "흐름의 순서와 연결",
+        "headers": [
+          "항목",
+          "다음 연결"
+        ],
+        "rows": [
+          [
+            "내 목적에 필요한가",
+            "같은 주제 자료 두 개 연결"
+          ],
+          [
+            "왜 골랐는가",
+            "같은 주제 자료 두 개 연결"
+          ],
+          [
+            "같은 주제 자료 두 개 연결",
+            "연결 없음"
+          ]
+        ]
+      },
+      "edges": [
+        "내 목적에 필요한가 → 같은 주제 자료 두 개 연결",
+        "왜 골랐는가 → 같은 주제 자료 두 개 연결"
+      ],
+      "limit": "Explicit two incoming connections are supported; full judgment descriptions/rich text links need another supported prose surface or SVG. No browser fit observed."
+    },
+    {
+      "name": "unsupported-compose-visual-and-freeform-fields-counterexamples",
+      "pass": true,
+      "composeVisualError": "slides.md:1: compose: auto/message/split/media/gallery/mosaic/editorial/quote/closing/document/bento/icon-wall 중 하나를 사용하세요.",
+      "unknownFlowFieldsAcceptedButNotRendered": [
+        "items.x",
+        "items.y",
+        "items.description",
+        "items.href",
+        "links.label"
+      ],
+      "limit": "Permissive validator acceptance is not a rendering capability. Current supported flow uses item label/id and link from/to."
+    },
+    {
+      "name": "explicit-invalid-media-preserves-order-with-fallback",
+      "pass": true,
+      "composition": "document",
+      "warnings": [
+        {
+          "message": "선택한 media 구도에 맞지 않는 원고 형태입니다. 내용을 모두 유지한 기본 문서로 표시합니다.",
+          "line": 1,
+          "path": ""
+        }
+      ],
+      "limit": "Media wants leading pure image(s) and supported trailing prose. This is supported fallback, not parser loss; reordering prose changes authorship or choose document."
+    }
+  ],
+  "summary": {
+    "checks": 13,
+    "passed": 13,
+    "failed": 0
+  }
+}

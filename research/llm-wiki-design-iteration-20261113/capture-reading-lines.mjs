@@ -1,0 +1,15 @@
+const fs=await import('node:fs/promises');const crypto=await import('node:crypto');
+const root='/Users/ou9999-wdl/Documents/devday-presentation-kit';const home=root+'/research/llm-wiki-design-iteration-20261113';
+const request=JSON.parse(await fs.readFile(home+'/capture-request.json','utf8'));const folder=home+'/'+request.round;
+const bytes=await fs.readFile(folder+'/read-390/manifest.json');const manifest=JSON.parse(bytes.toString());
+const {collectReadingLineMetrics}=await import(home+'/reading-line-metrics.mjs');
+const page=(await taskSpace(request.taskSpaceId)).page('p1');
+await page.cdp('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:false});
+await page.goto('http://127.0.0.1:4336/presentations/llm-wiki/read.html?native-lines-'+request.round+'#18');
+await page.waitForFunction(rev=>window.PRESENTATION?.document.revision===rev&&document.fonts.status==='loaded',manifest.revision);
+const typography=await page.evaluate(collectReadingLineMetrics,'.slide[data-index="17"]');
+const viewport=await page.evaluate(()=>({width:innerWidth,height:innerHeight,devicePixelRatio}));
+if(viewport.width!==390||viewport.height!==844||viewport.devicePixelRatio!==1)throw Error('Unexpected actual reading viewport');
+const result={coordinateSpace:'native-reading-CSS-pixels',revision:manifest.revision,hashes:manifest.hashes,captureManifest:{path:'research/llm-wiki-design-iteration-20261113/'+request.round+'/read-390/manifest.json',sha256:crypto.createHash('sha256').update(bytes).digest('hex')},viewport,slide:18,typography};
+await fs.writeFile(folder+'/reading-18-lines-390.json',JSON.stringify(result,null,2)+'\n');
+console.log(typography.filter(row=>row.tag==='P').map(row=>({text:row.text,lines:row.lines.map(line=>line.text),fontSize:row.fontSize})));

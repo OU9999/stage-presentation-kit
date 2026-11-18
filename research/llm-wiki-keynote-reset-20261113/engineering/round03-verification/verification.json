@@ -1,0 +1,209 @@
+{
+  "checkedAt": "2026-11-13T11:08:42.915Z",
+  "owner": "keynote_contract_integrator",
+  "productionWriterState": "stable-hold",
+  "source": {
+    "path": "talks/llm-wiki/slides.md",
+    "sha256": "19670d537a7bb9279169aabb893250fcce8ed540e75dd5fcf574e4794975524f"
+  },
+  "contract": {
+    "path": "talks/llm-wiki/qa/keynote-current.json",
+    "sha256": "b26101b3dc4b2e0688b7dc431d4bce8b4fe828b8ccf4d02a2c465eb8c6474359"
+  },
+  "coverage": {
+    "path": "talks/llm-wiki/qa/keynote-coverage.json",
+    "sha256": "3d1e4fb490e7fd3e753dbdec07da0be85dff30e85ed34c37ff60b90dd8c8234a"
+  },
+  "notes": {
+    "path": "talks/llm-wiki/materials/keynote-notes.md",
+    "sha256": "9b3604bd00e28083e7e9b13d251f538ad0eb42cfe20fb6d5072674c9cebec5f2"
+  },
+  "speaker": {
+    "path": "talks/llm-wiki/materials/speaker-script.md",
+    "sha256": "10d3a5c4f9aa24775fbe660a0f878ba8a4f5585a1e201abcabde93ded540004e"
+  },
+  "tests": {
+    "command": "npm test",
+    "exitCode": 0,
+    "tests": 355,
+    "pass": 355,
+    "fail": 0,
+    "log": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round03-verification/tests.log",
+      "sha256": "a86e39d895e43f6dadf83bb8dfb9c47e6545805c93f3b7cfbca739ae253b045c"
+    }
+  },
+  "focusedTests": {
+    "tests": 37,
+    "pass": 37,
+    "fail": 0,
+    "log": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round03-verification/focused-tests.log",
+      "sha256": "c16e414a6c8f2a4a74dd4c57914f8dca8dc1eecc888a181ddadcf891693fc58c"
+    }
+  },
+  "sourceStatic": {
+    "command": "node scripts/llm-wiki-keynote-qa.cjs --mode source --source talks/llm-wiki/slides.md",
+    "exitCode": 0,
+    "mode": "source",
+    "status": "pass",
+    "summary": {
+      "checks": 1205,
+      "invalid": 0,
+      "regressions": 0
+    },
+    "visualApproval": false,
+    "result": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round03-verification/current-source.json",
+      "sha256": "09fc9bcc31e458349c44566ce6a83ff78bc603cdf2731a0171e7a7d13b58cb6d"
+    }
+  },
+  "historicalBaseline": {
+    "command": "node scripts/llm-wiki-typography-qa.cjs --mode baseline --source research/llm-wiki-typography-20261102/engineering/fixtures/slides-before.md --manifest research/llm-wiki-typography-20261102/before/present-1280/manifest.json --svg-metrics research/llm-wiki-typography-20261102/before/present-1280/svg-metrics.json",
+    "exitCode": 1,
+    "status": "regression",
+    "summary": {
+      "checks": 72,
+      "invalid": 0,
+      "regressions": 45
+    },
+    "visualApproval": false,
+    "result": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round03-verification/historical-baseline.json",
+      "sha256": "2d295a7f908d662d20678e3e54420b86892c0db1f6521135a4e447fc60686b89"
+    }
+  },
+  "main02FrozenHistory": {
+    "evidence": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round03-verification/main02-failure-history.json",
+      "sha256": "73888b5b42277eb321939cf8447f02747911f720112288d0a98cac3c724c09cf"
+    },
+    "snapshotFiles": 104,
+    "changed": 0
+  },
+  "inventory": {
+    "currentSlides": 20,
+    "nativeTextTargets": 55,
+    "svgAssets": 6,
+    "adjacentSupportLinks": [
+      {
+        "slide": 3,
+        "label": "선택 이유 메모를 글로 읽기",
+        "href": "./materials/keynote-notes.md#선택-이유-메모",
+        "sourceLine": 25,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "선택-이유-메모",
+          "required": [
+            "목적과 맥락",
+            "사람이 채울 선택 이유의 예",
+            "raw/context-note.md",
+            "LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서 이 메모를 골랐다.",
+            "실제 사용자의 직접 기록이나 모델 출력이 아닙니다."
+          ]
+        }
+      },
+      {
+        "slide": 6,
+        "label": "계획의 전후 조건을 글로 읽기",
+        "href": "./materials/keynote-notes.md#계획이-바뀐-근거",
+        "sourceLine": 66,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "계획이-바뀐-근거",
+          "required": [
+            "wiki/syntheses/study-plan.md",
+            "참여자 배경과 활동 길이는 아직 미정이다.",
+            "가상 조건: 입문자 포함, 준비된 세 메모 중 두 개 선택, 별도 활동 15분.",
+            "raw/study-retro.md",
+            "실제 사용자 기록·모델 출력"
+          ]
+        }
+      },
+      {
+        "slide": 7,
+        "label": "세 관계와 문서 역할을 글로 읽기",
+        "href": "./materials/keynote-notes.md#세-무방향-관계",
+        "sourceLine": 79,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "세-무방향-관계",
+          "required": [
+            "원자료의 입구",
+            "기존 개념·비교와 현재 계획",
+            "자료 요약 ↔ 개념·비교",
+            "자료 요약 ↔ 현재 계획",
+            "개념·비교 ↔ 현재 계획",
+            "필수 생성",
+            "자동 갱신"
+          ]
+        }
+      },
+      {
+        "slide": 8,
+        "label": "조건과 첫 선택을 글로 읽기",
+        "href": "./materials/keynote-notes.md#원자료와-정리한-이해",
+        "sourceLine": 94,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "원자료와-정리한-이해",
+          "required": [
+            "입문자와 함께, 준비된 읽기 팩으로, 15분",
+            "설치보다 문서 읽기부터",
+            "시간만으로 자동 도출"
+          ]
+        }
+      },
+      {
+        "slide": 13,
+        "label": "활동안 한 행과 전문을 글로 읽기",
+        "href": "./materials/keynote-notes.md#활동안과-미확인-범위",
+        "sourceLine": 172,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "활동안과-미확인-범위",
+          "required": [
+            "활동 시간",
+            "할 일",
+            "남길 것",
+            "6~11분",
+            "원자료→개념→비교의 연결 한 개를 따라 읽기",
+            "관계를 뒷받침하는 근거 위치"
+          ]
+        }
+      },
+      {
+        "slide": 15,
+        "label": "확인 질문과 원자료를 글로 읽기",
+        "href": "./materials/keynote-notes.md#선택의-근거-확인",
+        "sourceLine": 210,
+        "minReading": 18,
+        "target": {
+          "path": "talks/llm-wiki/materials/keynote-notes.md",
+          "anchor": "선택의-근거-확인",
+          "required": [
+            "15분이니까 ‘읽기부터’?",
+            "목적도 확인합니다",
+            "raw/study-retro.md",
+            "도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.",
+            "전체 가상 조건",
+            "원문 인용"
+          ]
+        }
+      }
+    ],
+    "originalMeaningTopics": 26,
+    "preservedFiles": 141
+  },
+  "pending": [
+    "Root main-03 fresh four-scope actual capture with supportLinks and fixed actual reading URLs",
+    "Current actual-observation QA in four separate exact manifest/metric pairs",
+    "Actual per-material link clicks to native sections at both reading widths",
+    "Independent current visual review and exact require-approved scope"
+  ]
+}

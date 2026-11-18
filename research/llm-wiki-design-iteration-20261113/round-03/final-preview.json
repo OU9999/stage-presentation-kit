@@ -1,0 +1,62 @@
+{
+  "taskSpace": 85,
+  "page": "p1",
+  "url": "http://127.0.0.1:4336/presentations/llm-wiki/#5",
+  "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+  "revision": "8fa3d55cd5d92c13d20ffd40434f1725ee093c289dea4365015d0a894c659a84",
+  "slide": 5,
+  "heading": "무엇이 생기나요?",
+  "theme": "stage",
+  "viewport": {
+    "width": 1908,
+    "height": 927,
+    "devicePixelRatio": 2
+  },
+  "images": [
+    {
+      "src": "assets/64c1fd125539-knowledge-layers.svg",
+      "complete": true,
+      "naturalWidth": 1500
+    },
+    {
+      "src": "assets/87b989db720d-raw-wiki-rules.svg",
+      "complete": true,
+      "naturalWidth": 1750
+    },
+    {
+      "src": "assets/0aefea443a6e-rag-path.svg",
+      "complete": true,
+      "naturalWidth": 1500
+    },
+    {
+      "src": "assets/53636045579a-wiki-path.svg",
+      "complete": true,
+      "naturalWidth": 1500
+    },
+    {
+      "src": "assets/1ea6a569bab6-ingest-map.svg",
+      "complete": true,
+      "naturalWidth": 1500
+    },
+    {
+      "src": "assets/cac31a82b5a0-source-concept.svg",
+      "complete": true,
+      "naturalWidth": 1500
+    },
+    {
+      "src": "assets/e240f7306687-related-updates.svg",
+      "complete": true,
+      "naturalWidth": 1500
+    },
+    {
+      "src": "assets/22e3b2b1ec42-purpose-questions.svg",
+      "complete": true,
+      "naturalWidth": 1500
+    },
+    {
+      "src": "assets/a7afd1388934-session-plan.svg",
+      "complete": true,
+      "naturalWidth": 1500
+    }
+  ]
+}

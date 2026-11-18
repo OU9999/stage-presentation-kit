@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-11-13T11:54:15.753Z",
+  "owner": "keynote_contract_integrator",
+  "productionWriterState": "stable-hold",
+  "notes": {
+    "path": "talks/llm-wiki/materials/keynote-notes.md",
+    "sha256": "a8b6f7f6100454619e71d7d5e026e0021f678e8fb2216a37d145a514bf075624"
+  },
+  "currentContract": {
+    "path": "talks/llm-wiki/qa/keynote-current.json",
+    "sha256": "160391473eae3cd77b6657e1531257de70baa74d70cafbd1e9036e545f09df49"
+  },
+  "currentQA": {
+    "path": "scripts/llm-wiki-keynote-qa.cjs",
+    "sha256": "7fa9307535aadd620b40b2af2f1988ef09a54ebf538f40edce3799930e7d6e9b"
+  },
+  "schema": {
+    "path": "talks/llm-wiki/qa/keynote-observation.md",
+    "sha256": "b3d319f32007beed05e36ce85d21644691be700677cf7105d4f04f1f2d08d9a1"
+  },
+  "tests": {
+    "command": "node --test tests/llm-wiki-native-paragraph-qa.test.cjs tests/llm-wiki-keynote-qa.test.cjs",
+    "exitCode": 0,
+    "tests": 17,
+    "pass": 17,
+    "fail": 0,
+    "newMeaningfulRegressionTests": 3,
+    "fullSuiteRepeated": false,
+    "log": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round05-verification/tests.log",
+      "sha256": "de19e317fa9ce531d4ebbb531b894c502e3beeb8613e1704026da599178990ed"
+    }
+  },
+  "sourceStatic": {
+    "command": "node scripts/llm-wiki-keynote-qa.cjs --mode source --source talks/llm-wiki/slides.md",
+    "exitCode": 0,
+    "status": "pass",
+    "mode": "source",
+    "summary": {
+      "checks": 1211,
+      "invalid": 0,
+      "regressions": 0
+    },
+    "visualApproval": false,
+    "result": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round05-verification/current-source.json",
+      "sha256": "26c4ed8bd0ddabf46cce7e20c0b22086a27c6956a5d39b90e5aaf17be613ec52"
+    }
+  },
+  "html": {
+    "notesOnlyHardBreak": true,
+    "oneBlockquoteOneParagraph": true,
+    "brCount": 1,
+    "quoteHTML": "‘LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서<br>\n이 메모를 골랐다.’",
+    "normalizedExactQuote": true,
+    "anchor": true
+  },
+  "nativeComponent": {
+    "beforeStatus": "regression",
+    "afterStatus": "pass",
+    "afterObservedSourcePath": true,
+    "afterInputCount": 104,
+    "afterInputMismatches": 0,
+    "afterExactManifest": true,
+    "result": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round05-verification/native-before-after.json",
+      "sha256": "c4a0dc8db23b681897a4d491deec04e7e6c8e7e458631ef89e741f6433413104"
+    }
+  },
+  "smallProbe": {
+    "evidence": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-05/native-probe-390.json",
+      "sha256": "689f2571db9b9ca3415b963c7eca7d89b020cc3b4c8e0944da15eed60b244158"
+    },
+    "role": "Renderer four-hash/URL/18px/Range partial observation; no sourcePath added retroactively and not used as formal native after."
+  },
+  "preserved": [
+    "Exact original quote words, author/provenance/limitations and anchor",
+    "Current 26-topic coverage, all previous size/geometry/input requirements",
+    "Main-04 original source104/PNGs/reviews/technical records"
+  ],
+  "pending": [
+    "Root four whole-current manifest/metrics pairs including this native paragraph regression",
+    "All twelve adjacent native link clicks, table 6/13 both ends and request selection",
+    "Independent current visual/reading review and explicit require-approved scopes"
+  ]
+}

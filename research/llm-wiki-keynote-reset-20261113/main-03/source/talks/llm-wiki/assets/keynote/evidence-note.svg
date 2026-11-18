@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="640" viewBox="0 0 1440 640" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+  <title id="title">선택 이유를 원자료와 대조하는 확인 장면</title>
+  <desc id="desc">왼쪽의15분이니까 읽기부터라는 질문은 발표용 확인 질문이다. 오른쪽은 예제 팩 raw/study-retro.md에서 설치보다 연결의 근거를 찾는 경험을 먼저 하고 싶다는 목적을 정확 발췌했다. 시간만으로 결론을 내리지 않고 입문자·준비된 팩·활동 목적을 함께 확인하는 장면이다. 원문 인용과 재구성 질문을 구분한 발표팀 구성 예이며 실제 사용자 기록·모델 출력·학습효과를 뜻하지 않는다.</desc>
+  <style>text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.7px}.question{font-size:64px;font-weight:500;fill:#f6f6f4}.judgment{font-size:38px;font-weight:500;fill:#ff7a3d}.identity{font-size:36px;fill:#a4a4a1}.copy{font-size:44px;font-weight:500;fill:#f6f6f4}</style>
+  <text class="question" x="80" y="240"><tspan x="80">15분이니까</tspan><tspan x="80" dy="84">‘읽기부터’?</tspan></text>
+  <text class="judgment" x="80" y="456">목적도 확인합니다</text>
+  <rect x="700" y="82" width="660" height="460" rx="2" fill="#171919"/>
+  <text class="identity" x="744" y="159">원자료 · 조건 메모</text>
+  <text class="copy" x="744" y="254"><tspan x="744">도구 설치보다 목차와</tspan><tspan x="744" dy="64">연결을 따라 다음 질문의</tspan><tspan x="744" dy="64">근거를 찾는 경험을</tspan><tspan x="744" dy="64">먼저 하고 싶다.</tspan></text>
+  <text class="identity" x="80" y="612">발표팀 구성 예</text>
+</svg>

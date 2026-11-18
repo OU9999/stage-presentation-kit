@@ -1,0 +1,392 @@
+{
+  "schema": "stage-scope-manual-reviews-v1",
+  "recordAuthor": "/root/creative_quality_manager/keynote_critic",
+  "source": {
+    "path": "talks/llm-wiki/slides.md",
+    "sha256": "19670d537a7bb9279169aabb893250fcce8ed540e75dd5fcf574e4794975524f"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "7e83b7852df908ecf0c4027eafbe1b0f8b9c2dd0c12ac8ebf4ee40b11abcfd6b"
+  },
+  "scope": [
+    {
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      }
+    }
+  ],
+  "captureManifest": {
+    "path": "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/manifest.json",
+    "sha256": "93f8cf1c1f1fe49500393fc52840c2f3c1bcc61cceb9234d73493a1be2ac7852"
+  },
+  "evidenceHashes": {
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-01.png": "d71a31979fc314c5420c84d3b451ecf6c2bbc4f07a7f8152db83ee859a143581",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-02.png": "4c9705f29abdcf662f32041a9919b30b5f3b51486117a41dde5e02da8e230916",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-03.png": "c13e94c0ceda72b083b5209d94b51dc9d1f1023c2dcd2b93a45bee0c25e90bec",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-04.png": "9bf23d0a66fe544e653e264789d6d26d83b93d1b6b79a1a3327918bd02b3d1ee",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-05.png": "f9d148e46771e5943feb342f0dd19e8711b7d7ecc1beb36e748372b9316f24cf",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-06.png": "65c3ba69c7eb56b1bcf34496ea5a0c021129df1306e38a93cffbdfd7e8c802a1",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-07.png": "c546482cd59c6a6f2c56a9d72f28311de9b56febe2306fae312ee9ada91986af",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-08.png": "2687032caa5007aaa6879caa25110a00641c3525b9013ea2900bef8a2b33f1c2",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-09.png": "2f5998a08b5d80e094f3138dc96b3a0bd86c141af6be4ec5208a9b7d61e5b95a",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-10.png": "1184eaf41df9fbf6b289e787c82a22f4a9404002b62f180c5af4b352fd494b2d",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-11.png": "45bb6ccf8f2ad3926a6da49eddec203a544f229a98aa10cf7b37b26edeca1966",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-12.png": "85646963e8e4c612cc4ad216210fb5a48d5a45f5c1e98ccb6eb4e28927b99e38",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-13.png": "e5a583ecbe8fb7d7eb90fa3cf07c36c9a2368df6c7a4cd71f50e5bdaed248267",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-14.png": "f6423a406431b068d3855c37b22d84079496bd8ebb2a0cda0270a09cf95e2ca1",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-15.png": "1573c25b84ba0577cb6a3bbd85c84f48f6290d7b1eab470d15448b7c1e10bed4",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-16.png": "762ca6159d49ed75b3935dd16ef7aef670921834b7a448417df723e4b6a762b3",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-17.png": "0c2330e1ebff69d4619057c0805fe31ff3e6cca7f8c64347538216b30b7304c0",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-18.png": "67b2bff4f8eedab58e8e16905bee65e23bafa247ce7fe3e93ec68619214764cf",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-19.png": "5a125dfee321334922bb2468f686459d5f0aa8a7c9be4d18d05f5e7023aa2ac1",
+    "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-20.png": "055ba6a2e6f6df2c60fc7fbef389d292d4563ca95e7f87b7a02277d71df45fb3"
+  },
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "이름 LLM Wiki가 먼저 보이고 짧은 부제가 주제를 받친다. 표지의 중심이 분명하다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-01.png"
+      ]
+    },
+    {
+      "slide": 2,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "나와 AI가 함께 읽고 고친다는 정의가 한 주장으로 읽힌다. 긴 정의·파일 설명을 함께 싣지 않는다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-02.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "목적과 맥락이라는 한 메모의 선택 이유가 문서면 안에 소속된다. 짧은 구성 예 표지가 원문 읽기와 경쟁하지 않는다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-03.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "다음 질문에 다시 쓴다는 한 문장이 즉시 읽혀 메모를 본 뒤 목적을 회수한다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-04.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "현재 질문에 답하기와 다시 읽을 문서 정리·연결이라는 한 비교축이 양쪽 행동과 짝지어진다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-05.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "같은 스터디 계획의 처음 미정과 갱신 조건이 구분선·라벨로 대조된다. 입문자·두 메모·15분이라는 구체 변화가 읽혀 정의 반복을 대신한다. 원문 팩에서 두 구절과 구성 예 지위를 대조했다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-06.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "작은 자료 요약 입구와 큰 두 기존 문서가 구별되고 세 무방향 선의 끝이 문서 경계에 귀속된다. 필수 관계 설명도 읽히며 선/라벨이 서로 경쟁하지 않는다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-07.png"
+      ]
+    },
+    {
+      "slide": 8,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "문서 읽기부터라는 선택이 큰 주역이고 입문자/15분 조건과 설치 대비가 받친다. 설명용 요약 지위와 전체 조건/비인과 한계를 원고·해설에서 보존한다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-08.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "자료를 고르기 전이라는 맥락 뒤에 만들 결과와 자료의 관련성을 묻는 큰 질문이 먼저 읽힌다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-09.png"
+      ]
+    },
+    {
+      "slide": 10,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "목적과 내 판단은 내가 적는다는 주장이 분명하다. 감정·생각·판단·선택 이유와 직접 남긴다는 동작이 함께 읽힌다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-10.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "한 표에서 원자료 구절·직접 채울 기록·AI 해석의 지위가 구별된다. 같은 예제와 짧은 구성 예 표지로 실제 사용자 기록/모델 출력과 혼동하지 않게 한다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-11.png"
+      ]
+    },
+    {
+      "slide": 12,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "공부·프로젝트·글과 발표라는 대등한 활용처와 각 행동이 일관되게 짝지어진다. 세 열 형식 자체가 아니라 내용의 병렬 역할로 판정했다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-12.png"
+      ]
+    },
+    {
+      "slide": 13,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "제목·활동 시간/할 일/남길 것·6~11분 한 행이 하나의 자료면에 소속된다. 가운데 행동과 오른쪽 근거 위치를 읽을 수 있으며 수식구의 행도 뜻을 잃지 않는다. 밝은 면은 이 설명용 발췌의 국소 선택이다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-13.png"
+      ]
+    },
+    {
+      "slide": 14,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "읽기·고치기·다시 쓰기의 병렬 동사가 앞서 본 자료 뒤에서 역할을 회수한다. 세 설명이 각 동사와 직접 연결된다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-14.png"
+      ]
+    },
+    {
+      "slide": 15,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "15분만으로 고른 것인지 묻는 확인 질문과 원자료의 목적 구절이 대조되고 목적도 확인한다는 판단이 보인다. 이전의 목적 인용만 있는 장에서 확인할 대상/이유가 드러나는 장면으로 바뀌었다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-15.png"
+      ]
+    },
+    {
+      "slide": 16,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "반복해서 묻는 주제와 한 번 확인할 질문의 서로 다른 첫 행동이 같은 축에서 읽힌다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-16.png"
+      ]
+    },
+    {
+      "slide": 17,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "구체 목적과 두 자료를 함께 읽어 달라는 요청이 큰 인용의 주역이다. 회색 도입은 맥락이며 실제 실행 기록으로 소개하지 않는다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-17.png"
+      ]
+    },
+    {
+      "slide": 18,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "근거·바꾼 파일·모르는 점이라는 세 결과 항목이 각각 확인 질문과 짝지어져 다음 행동이 명확하다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-18.png"
+      ]
+    },
+    {
+      "slide": 19,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "다음 질문에 쓸 두 자료부터라는 마감 행동이 한 문장으로 즉시 읽힌다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-19.png"
+      ]
+    },
+    {
+      "slide": 20,
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/keynote_critic",
+      "reviewedAt": "2026-11-13T11:15:19Z",
+      "reason": "청중 자신의 질문이 큰 주역이고 공개 해설/예제 팩은 보조 탐색으로 구별된다.19의 필수 행동을 작은 본문으로 반복하지 않아 마감 역할이 분리된다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-03/present-1920/slide-20.png"
+      ]
+    }
+  ]
+}

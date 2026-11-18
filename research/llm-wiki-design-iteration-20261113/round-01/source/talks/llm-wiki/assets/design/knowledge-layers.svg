@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="0 0 1500 650" style="background:#080808" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+  <title id="title">메모의 한 구절에서 다음 질문까지</title>
+  <desc id="desc">발표팀이 구성한 예제 팩의 목적과 맥락 메모를 부분 발췌한 설명용 재구성. 실제 사용자의 기록이나 모델 실행 결과가 아니다. 세 원자료는 보존한다. 개념과 현재 이해, 비교와 현재 이해, 현재 이해와 계획, 현재 이해와 다음 질문, 계획과 다음 질문의 무방향 다섯 관계를 유지한다. 읽고 연결하는 작업 화살표는 문서 관계와 구별한다.</desc>
+  <g font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Malgun Gothic,sans-serif" letter-spacing="-.5">
+    <text x="20" y="53" font-size="48" fill="#F6F6F4" font-weight="550" data-copy-role="essential" data-node-id="need">“AI가 내 자료를 좀 더 잘 이해해 줬으면.”</text>
+
+    <path d="M20 106H590" stroke="#777773" stroke-width="2" />
+    <text x="20" y="160" font-size="46" fill="#C5C5C0" data-copy-role="essential" data-node-id="source-context">목적과 맥락</text>
+    <g fill="#F6F6F4" font-size="50" font-weight="500" data-node-id="source-excerpt">
+      <text x="20" y="233" data-copy-role="essential">우리 스터디에서</text>
+      <text x="20" y="295" data-copy-role="essential">LLM Wiki를 왜 쓰고</text>
+      <text x="20" y="357" data-copy-role="essential">어떤 질문에 다시</text>
+      <text x="20" y="419" data-copy-role="essential">활용할지 정하기.</text>
+    </g>
+    <text x="20" y="493" font-size="44" fill="#C5C5C0" data-copy-role="essential" data-node-id="source-retrieval">검색과 비교</text>
+    <text x="20" y="548" font-size="44" fill="#C5C5C0" data-copy-role="essential" data-node-id="source-synthesis">지식의 활용</text>
+    <text x="20" y="587" font-size="24" fill="#A4A4A1" data-copy-role="source">발표팀 구성 예 · context-note.md 부분 발췌</text>
+
+    <text x="650" y="283" font-size="42" fill="#C5C5C0" text-anchor="middle" data-copy-role="essential" data-node-id="read-connect">읽고 연결</text>
+    <path d="M610 327H695M680 316L695 327L680 338" fill="none" stroke="#A4A4A1" stroke-width="3" data-work-id="sources-to-knowledge" data-from="source-excerpt" data-to="understanding" />
+
+    <g fill="none" stroke="#8B9398" stroke-width="3" data-relation-kind="undirected">
+      <polyline points="840,198 840,405 1060,405" data-relation-id="concept--understanding" data-from="concept" data-to="understanding" />
+      <polyline points="1335,198 1335,405 1060,405" data-relation-id="comparison--understanding" data-from="comparison" data-to="understanding" />
+      <polyline points="1060,405 850,478" data-relation-id="understanding--plan" data-from="understanding" data-to="plan" />
+      <polyline points="1060,405 1290,478" data-relation-id="understanding--question" data-from="understanding" data-to="question" />
+      <polyline points="850,478 1290,478" data-relation-id="plan--question" data-from="plan" data-to="question" />
+    </g>
+    <g data-content-id="concept">
+      <text x="840" y="165" text-anchor="middle" font-size="48" fill="#C5C5C0" data-copy-role="essential">개념</text>
+      <circle cx="840" cy="198" r="7" fill="#24A8FF" data-node-id="concept" />
+    </g>
+    <g data-content-id="comparison">
+      <text x="1335" y="165" text-anchor="middle" font-size="48" fill="#C5C5C0" data-copy-role="essential">비교</text>
+      <circle cx="1335" cy="198" r="7" fill="#24A8FF" data-node-id="comparison" />
+    </g>
+    <g data-content-id="understanding">
+      <rect x="855" y="292" width="410" height="98" rx="4" fill="#102532" />
+      <text x="1060" y="358" text-anchor="middle" font-size="58" fill="#F6F6F4" font-weight="550" data-copy-role="essential">현재 이해</text>
+      <circle cx="1060" cy="405" r="8" fill="#24A8FF" data-node-id="understanding" />
+    </g>
+    <g data-content-id="plan">
+      <text x="850" y="536" text-anchor="middle" font-size="52" fill="#F6F6F4" data-copy-role="essential">계획</text>
+      <circle cx="850" cy="478" r="7" fill="#24A8FF" data-node-id="plan" />
+    </g>
+    <g data-content-id="question">
+      <circle cx="1290" cy="478" r="7" fill="#24A8FF" data-node-id="question" />
+      <text x="1290" y="536" text-anchor="middle" font-size="52" fill="#F6F6F4" font-weight="550" data-copy-role="essential">다음 질문</text>
+    </g>
+    <text x="20" y="634" font-size="42" fill="#F6F6F4" data-copy-role="essential" data-node-id="reuse">자료를 개념과 관계로 정리해, 다음 질문에 다시 씁니다.</text>
+  </g>
+</svg>

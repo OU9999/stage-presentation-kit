@@ -1,0 +1,79 @@
+{
+  "schema": "stage-keynote-prototype-verdict-v1",
+  "round": "R03",
+  "reviewer": "/root/creative_quality_manager/keynote_critic",
+  "reviewedAt": "2026-11-13T09:47:41Z",
+  "status": "preferred-for-role",
+  "approvalClaim": false,
+  "role": "Presentation reconstruction conveying the first choice under a hypothetical context",
+  "scope": {
+    "mode": "presentation-stage-only",
+    "slides": [
+      1
+    ],
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "stage": {
+      "width": 1557.33349609375,
+      "height": 876
+    }
+  },
+  "source": {
+    "path": "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r03/slides.md",
+    "sha256": "b2d7d500d30b471a81d0a49f91c9c95f62f3b69be647cab13ecd997f490ef9ff"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "c28cb774ff7544506f2c02913d4588578a045ea98509ac3ea7475cc164f3a062"
+  },
+  "captureManifest": {
+    "path": "research/llm-wiki-keynote-reset-20261113/evidence/r03/present-1920/manifest.json",
+    "sha256": "757d6b941e4bc93c19fd37be5ab5897ae2e63bca6a54a1bda46d06edbb562e12"
+  },
+  "report": "research/llm-wiki-keynote-reset-20261113/review/R03.md",
+  "judgmentOrder": "Directly viewed R03/01 and R02/02 before manifest/support review; sent independent immediate judgment to B, manager, and root. Reopened original DevDay20:00/36:00 and R02/02 during comparison.",
+  "reviews": [
+    {
+      "slide": 1,
+      "status": "preferred-for-role",
+      "reason": "The complete action '문서 읽기부터' is the immediate protagonist; the installation contrast and beginner/fifteen-minute context support it. R02 requires sequential reading through generic context and a four-line quote to reach the action. R03 is decisively preferred for conveying this first choice.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r03/present-1920/slide-01.png",
+        "sha256": "03d75fabc81c99caf6f78ca7712b71723a80c0a5d5dbcecd912fc0335f6cd70a"
+      }
+    }
+  ],
+  "comparison": {
+    "against": {
+      "round": "R02",
+      "slide": 2,
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r02/present-1920/slide-02.png",
+        "sha256": "b6d20ddaa0a1c0529752c0e8d8ca930d4a3fec4ec6f5ca3b77293ef0fb8f4346"
+      }
+    },
+    "gain": "Immediate visibility of the chosen action; reduced sequential reading layers while preserving the shared condition/choice axis",
+    "loss": "Exact wording and document structure are no longer visible on the presentation surface"
+  },
+  "preservationConditions": [
+    "Keep original wording and the full beginner/reading-pack/fifteen-minute hypothetical conditions in linked support",
+    "Keep summary/reconstruction status; no performance or actual model/user-record claim",
+    "Keep raw/wiki distinctions, original pack, rules, and relation meanings"
+  ],
+  "supportConfirmed": [
+    "R03 reading and speaker text explicitly include beginner context and no time-only automatic causality",
+    "Exact wording and summary status are distinguished",
+    "Original pack, four rules, and undirected relation meaning remain"
+  ],
+  "nextOwner": "/root/creative_quality_manager/keynote_creator",
+  "nextAction": "Create a separate actual-source/document-led material pattern; do not replace all document/UI evidence with summary statements. Root captures it and A judges actual PNG.",
+  "limitations": [
+    "No actual-source/document-led visual pattern established by R03",
+    "No --require-approved or formal presentation approval",
+    "No full-deck/user/other viewport/reading/motion/projector approval",
+    "Not a stage-design-review-v1 replacement"
+  ]
+}

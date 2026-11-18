@@ -1,0 +1,7 @@
+{
+  "slide": 18,
+  "method": "Exact authored text-node equality excluding whitespace and br nodes; visual breath separately checked by actual native Range.",
+  "unchangedText": true,
+  "beforeText": "목적과 내 판단은내가 적습니다.누구를 위해 무엇을 만들지 목적은 직접 정하고,감정 · 생각 · 판단 · 선택 이유를 직접 남깁니다.기록은 구분합니다: 원문 · 내 기록 · AI가 쓴 요약과 해석.",
+  "currentText": "목적과 내 판단은내가 적습니다.누구를 위해 무엇을 만들지목적은 직접 정하고,감정 · 생각 · 판단 · 선택 이유를직접 남깁니다.기록은 구분합니다: 원문 · 내 기록 · AI가 쓴 요약과 해석."
+}

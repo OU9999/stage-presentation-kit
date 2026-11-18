@@ -1,0 +1,98 @@
+{
+  "format": "llm-wiki-reading-result-v1",
+  "status": "regression",
+  "visualApproval": false,
+  "revision": "becd7a8d7a6bde3b4929b9214ac8a29630da3c6c2e1c027c26953378365b7b31",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "devicePixelRatio": 1
+  },
+  "summary": {
+    "checks": 8,
+    "invalid": 0,
+    "regressions": 3
+  },
+  "checks": [
+    {
+      "id": "responsibility-source-breaks",
+      "status": "regression",
+      "detail": "The role-specific authored boundaries must preserve both responsibilities."
+    },
+    {
+      "id": "responsibility-rows",
+      "status": "regression",
+      "detail": "No designated predicate may become an isolated actual glyph row, including rows inside the paragraph."
+    },
+    {
+      "id": "responsibility-font",
+      "status": "pass",
+      "detail": "The body retains the existing 18 CSS px reading start value."
+    },
+    {
+      "id": "responsibility-membership",
+      "status": "pass",
+      "detail": "Responsibility copy remains native body, not metadata or another material group."
+    },
+    {
+      "id": "responsibility-rendered-break-count",
+      "status": "regression",
+      "detail": "The three role boundaries must render, not textContent newline splits."
+    },
+    {
+      "id": "declaration-source",
+      "status": "pass",
+      "detail": "The original declaration keeps its one authored boundary and emphasis."
+    },
+    {
+      "id": "declaration-boundary",
+      "status": "pass",
+      "detail": "Declaration boundary uses actual native glyph positions."
+    },
+    {
+      "id": "declaration-emphasis",
+      "status": "pass",
+      "detail": "Actual declaration emphasis/order must remain observed."
+    }
+  ],
+  "evaluation": "Frozen round-02 input re-evaluated under the round-03 reading rules. This is not a current production CLI result.",
+  "frozenInput": {
+    "source": {
+      "path": "research/llm-wiki-design-iteration-20261113/round-02/source/talks/llm-wiki/slides.md",
+      "sha256": "becd7a8d7a6bde3b4929b9214ac8a29630da3c6c2e1c027c26953378365b7b31"
+    },
+    "metrics": {
+      "path": "research/llm-wiki-design-iteration-20261113/round-02/reading-18-lines-390.json",
+      "sha256": "9d7206b4397324f66d5dfb52b88933890b16b37155a2177c5c19310e46200dd4"
+    },
+    "manifest": {
+      "path": "research/llm-wiki-design-iteration-20261113/round-02/read-390/manifest.json",
+      "sha256": "37a8463e90cc31e565aa17f9ef6bba96437c0aea2cc2a02791360a6a497c9146"
+    },
+    "capturedContract": {
+      "path": "research/llm-wiki-design-iteration-20261113/round-02/source/talks/llm-wiki/qa/current-roles.json",
+      "sha256": "295b1f85089bdfef888110a72dfea0b47c9dd87324dbfb22bd5f157b706ca530"
+    }
+  },
+  "evaluationContract": {
+    "path": "talks/llm-wiki/qa/current-roles.json",
+    "sha256": "ca8033d7fa838c74cca055b2f2c07650c4ed51262b7b12e8fce900fbb5071b34",
+    "readingRoleSha256": "911b23a126ed673124c595978688504648c0bf1fc40ea7f21bd4b9ca6fc26a72"
+  },
+  "actualIsolatedRows": [
+    {
+      "text": "정하고,",
+      "x": 24,
+      "y": 253.671875,
+      "width": 51.546875,
+      "height": 21.5
+    },
+    {
+      "text": "남깁니다.",
+      "x": 24,
+      "y": 318.46875,
+      "width": 67.1171875,
+      "height": 21.5
+    }
+  ]
+}

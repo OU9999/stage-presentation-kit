@@ -1,0 +1,122 @@
+[
+  {
+    "scope": "present-1280",
+    "record": "research/llm-wiki-design-iteration-20261113/round-03/reviews/present-1280.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    }
+  },
+  {
+    "scope": "present-1920",
+    "record": "research/llm-wiki-design-iteration-20261113/round-03/reviews/present-1920.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    }
+  },
+  {
+    "scope": "read-1440",
+    "record": "research/llm-wiki-design-iteration-20261113/round-03/reviews/read-1440.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    }
+  },
+  {
+    "scope": "read-390",
+    "record": "research/llm-wiki-design-iteration-20261113/round-03/reviews/read-390.review.json",
+    "normal": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    },
+    "requireApproved": {
+      "valid": true,
+      "reviewedComplete": true,
+      "approved": true,
+      "passed": true,
+      "counts": {
+        "approved": 26,
+        "needs-changes": 0,
+        "unreviewed": 0
+      },
+      "scopeCount": 26,
+      "slideCount": 26
+    }
+  }
+]

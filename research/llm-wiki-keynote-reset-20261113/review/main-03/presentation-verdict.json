@@ -1,0 +1,30 @@
+{
+  "schema": "stage-presentation-review-summary-v1",
+  "checkpoint": "main-03",
+  "reviewer": "/root/creative_quality_manager/keynote_critic",
+  "reviewedAt": "2026-11-13T11:15:19Z",
+  "manualStatus": "criteria-met",
+  "formalApprovalClaim": false,
+  "initialVisualOrder": "원본5프레임→1920전20개별PNG→root/manager 초기전달→1280전20개별PNG/양폭6보드→source/팩/역할/coverage/manifest 대조",
+  "additionalChangeRequests": [],
+  "scopeReviewFiles": [
+    "research/llm-wiki-keynote-reset-20261113/review/main-03/present-1920.reviews.json",
+    "research/llm-wiki-keynote-reset-20261113/review/main-03/present-1280.reviews.json"
+  ],
+  "limitations": [
+    "읽기 판정은 독립 B 소유",
+    "클릭/요청선택/모션/다른OS/실프로젝터 직접 검증 없음",
+    "공식 표현은 root의 --require-approved 결과에 한정",
+    "사용자 미감 승인을 주장하지 않음"
+  ],
+  "sourceContext": "팩의 같은 논리 계획 처음/갱신 구절과15의 목적 원문을 대조했다. 질문/요약과 정확 발췌를 구별하며 구성 예·전체 가상조건·비실측/비인과·원자료/네 약속·세/다섯 관계를 공개 해설에 귀속한다.",
+  "coverage": "keynote-current의20역할 및keynote-coverage의26주제→본편/공개해설/대본 위치를 대조했다. 7/9/17 H1은각도식보조/인용맥락역할로명시되고20에는필수행동P대신탐색링크만남는다.",
+  "readingCriticExchange": {
+    "critic": "/root/creative_quality_manager/reading_critic",
+    "timing": "각자 원본/실제PNG의 초기 독립판정 뒤 직접 교환",
+    "result": "06의 구체 계획 전후와15의 확인 질문/목적 원문 대조, 책임·주체/구성예 지위에 합치했고 추가 발표 반론은 없었다.",
+    "integration": "B는 발표 두scope의 수동 상태/reviewer/reason을 변경하지 않고 경로만 연결한다.",
+    "scopeLimit": "읽기의 native 링크 실클릭·본문·표·선택 근거 인수는 B/root의 독립 범위이며 A의 발표 판단으로 대체하지 않는다."
+  },
+  "writerStatus": "closed"
+}

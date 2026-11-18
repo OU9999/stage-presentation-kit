@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-13T11:29:48.435Z",
+  "owner": "keynote_contract_integrator",
+  "productionWriterState": "stable-hold",
+  "notes": {
+    "path": "talks/llm-wiki/materials/keynote-notes.md",
+    "sha256": "58e4345a4a72517c59eb00b190b019d5e3ae555181f97f917a6ba36daa147180"
+  },
+  "css": {
+    "path": "templates/materials.css",
+    "sha256": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6"
+  },
+  "notesOnlyEmphasisBoundaryChange": true,
+  "cssOnlyWordBreakValueChange": true,
+  "html": {
+    "path": "research/llm-wiki-keynote-reset-20261113/engineering/round04-verification/native-html.json",
+    "sha256": "71c57a06f83ba17c255cf6bf2bf260d6de6ddecc3f9ba98c67ac37666c1dc5fe"
+  },
+  "noNewTests": true,
+  "existingMaterialRenderTest": {
+    "command": "node --test --test-name-pattern='materials render ordinary Markdown safely' tests/materials.test.cjs",
+    "exitCode": 0,
+    "log": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round04-verification/material-render-test.log",
+      "sha256": "a12fbd63cb48b14214933c62cbb0c2391e9129dead04f94864bd3752ebd3f72b"
+    }
+  },
+  "sourceStatic": {
+    "command": "node scripts/llm-wiki-keynote-qa.cjs --mode source --source talks/llm-wiki/slides.md",
+    "exitCode": 0,
+    "mode": "source",
+    "status": "pass",
+    "summary": {
+      "checks": 1205,
+      "invalid": 0,
+      "regressions": 0
+    },
+    "visualApproval": false,
+    "result": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round04-verification/current-source.json",
+      "sha256": "09fc9bcc31e458349c44566ce6a83ff78bc603cdf2731a0171e7a7d13b58cb6d"
+    }
+  },
+  "preserved": [
+    "Exact question, raw source passage, judgment and interpretation status",
+    "선택의-근거-확인 anchor and current 26-topic coverage/role contracts",
+    "Original/archive/code examples",
+    "Main-03 source104/PNGs/reviews/technical records"
+  ],
+  "crossReview": "A independently rendered corrected Markdown and confirmed strong markup, no literal delimiter, exact raw passage/judgment/conditions/limitations; B independently checked A keep-all-only CSS scope and wrapping/scroll exceptions.",
+  "pending": [
+    "Root main-04 fresh four-scope capture and current actual-observation CLI",
+    "Actual 390 native word boundaries for 스터디/아닙니다 and corrected HTML display",
+    "All twelve adjacent support clicks, native tables 6/13 both ends, request selection",
+    "Independent current reading approval and exact require-approved scope"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "scope": "one explicitly identified native paragraph component; not the whole current deck",
+  "visualApproval": false,
+  "contract": {
+    "id": "selection-quote-meaning-row",
+    "path": "talks/llm-wiki/materials/keynote-notes.md",
+    "section": "선택-이유-메모",
+    "text": "‘LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서 이 메모를 골랐다.’",
+    "isQuote": true,
+    "minReading": 18,
+    "wordBreak": "keep-all",
+    "sameRowPhrase": "이 메모를 골랐다",
+    "observedFailure": "research/llm-wiki-keynote-reset-20261113/main-04/read-390/reading-metrics.json"
+  },
+  "before": {
+    "metrics": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-04/read-390/reading-metrics.json",
+      "sha256": "d5c0ecf6b01e96409dccdc676b42497774d2986e05e04bc41ebf9cfadc9c5e96"
+    },
+    "sourcePath": "talks/llm-wiki/materials/keynote-notes.md",
+    "status": "regression",
+    "checks": [
+      {
+        "id": "font",
+        "status": "pass",
+        "detail": "The exact quotation retains its 18 CSS px reading size."
+      },
+      {
+        "id": "word-break",
+        "status": "pass",
+        "detail": "The quotation retains its observed Korean word preservation."
+      },
+      {
+        "id": "glyphs",
+        "status": "pass",
+        "detail": "All exact quotation characters are represented by measured glyph rows."
+      },
+      {
+        "id": "meaning-row",
+        "status": "regression",
+        "detail": "The designated phrase “이 메모를 골랐다” is read together on one actual glyph row."
+      }
+    ]
+  },
+  "after": {
+    "metrics": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/reading-metrics.json",
+      "sha256": "567ab23e8e577306a8ddf0520a319aef213f8020c1f4413cf3a559ef1e225339"
+    },
+    "sourcePath": "talks/llm-wiki/materials/keynote-notes.md",
+    "actualSourcePathObserved": true,
+    "paragraphs": 44,
+    "captureManifest": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/manifest.json",
+      "sha256": "f39c8436051bd44154088543af75b63b823515b2b442b9649b59dc11fdccfabc"
+    },
+    "manifestShaMatches": true,
+    "currentInputs": 104,
+    "inputMismatches": [],
+    "status": "pass",
+    "checks": [
+      {
+        "id": "font",
+        "status": "pass",
+        "detail": "The exact quotation retains its 18 CSS px reading size."
+      },
+      {
+        "id": "word-break",
+        "status": "pass",
+        "detail": "The quotation retains its observed Korean word preservation."
+      },
+      {
+        "id": "glyphs",
+        "status": "pass",
+        "detail": "All exact quotation characters are represented by measured glyph rows."
+      },
+      {
+        "id": "meaning-row",
+        "status": "pass",
+        "detail": "The designated phrase “이 메모를 골랐다” is read together on one actual glyph row."
+      }
+    ]
+  }
+}

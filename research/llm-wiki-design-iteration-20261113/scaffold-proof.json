@@ -1,0 +1,18 @@
+{
+  "method": "Actual current init CLI, no manual README generation",
+  "command": [
+    "node",
+    "bin/ou-presentation.cjs",
+    "init",
+    "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/ou-current-guide-xiqlmz4i/project",
+    "--title",
+    "재사용 안내 검증"
+  ],
+  "exitCode": 0,
+  "project": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/ou-current-guide-xiqlmz4i/project",
+  "readme": "/var/folders/hx/cmckp4f16zz_mq9ctbqvll4c0000gn/T/ou-current-guide-xiqlmz4i/project/README.md",
+  "sha256": "6fee685a5fdf18fb640260cbb5b6d6891d586457d24724a6ca1012c9342fe6e7",
+  "copy": "research/llm-wiki-design-iteration-20261113/generated-README.md",
+  "installed": false,
+  "scope": "Actual init README rendered from current template; no install/build claim. Packaged CLI coverage is separately in npm test."
+}

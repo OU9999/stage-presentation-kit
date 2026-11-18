@@ -1,0 +1,981 @@
+{
+  "format": "stage-design-review-v1",
+  "source": {
+    "path": "talks/llm-wiki/slides.md",
+    "sha256": "19670d537a7bb9279169aabb893250fcce8ed540e75dd5fcf574e4794975524f"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "7e83b7852df908ecf0c4027eafbe1b0f8b9c2dd0c12ac8ebf4ee40b11abcfd6b"
+  },
+  "inputs": {
+    "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+    "blocks.css": "7f15332d5ee19bec21153d9a53945b4787af2631b92628d7e643abb1fb718b21",
+    "blocks.js": "d87049a48ee877585a52abe65dc258ff6c6c7dcaa405796b07cec601ee935304",
+    "deck-model.js": "a57abe5af92e53097d569c444c3c27d33d6d41208984670d59be39d0afe0a982",
+    "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+    "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+    "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+    "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+    "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+    "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+    "lib/markdown-document.cjs": "fd54eabb8a3c3e44d503fdb14726b6283c8ce3e9a2809e5a51acf8cc2c584caf",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+    "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+    "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+    "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+    "ou.config.json": "41566e632cced20b479a9b36f442ffc201792b91961fae9c7ca892c409ebc564",
+    "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+    "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+    "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+    "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+    "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+    "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+    "scripts/llm-wiki-keynote-qa.cjs": "7fa9307535aadd620b40b2af2f1988ef09a54ebf538f40edce3799930e7d6e9b",
+    "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+    "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+    "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+    "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+    "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+    "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+    "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+    "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+    "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+    "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+    "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+    "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+    "talks/llm-wiki/assets/design/ingest-map.svg": "1ea6a569bab645b16c29d332950aaa5928fcd0b4b6737ff12005bcdf3765764b",
+    "talks/llm-wiki/assets/design/knowledge-layers.svg": "64c1fd12553932973b7340a0930c2617788ad561c1e09329da9171644d4f0a56",
+    "talks/llm-wiki/assets/design/raw-wiki-rules.svg": "87b989db720d81d4ec21ed604ac24c66623ee2faa934166071449003133d900d",
+    "talks/llm-wiki/assets/examples/course.txt": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+    "talks/llm-wiki/assets/examples/reading.txt": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+    "talks/llm-wiki/assets/examples/team.txt": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+    "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+    "talks/llm-wiki/assets/expanded/agentic-routing.svg": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+    "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+    "talks/llm-wiki/assets/expanded/five-layers.svg": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+    "talks/llm-wiki/assets/expanded/ingest-map.svg": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+    "talks/llm-wiki/assets/expanded/knowledge-layers.svg": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+    "talks/llm-wiki/assets/expanded/purpose-questions.svg": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+    "talks/llm-wiki/assets/expanded/query-reading.svg": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+    "talks/llm-wiki/assets/expanded/rag-path.svg": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+    "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+    "talks/llm-wiki/assets/expanded/reflection-layers.svg": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+    "talks/llm-wiki/assets/expanded/related-updates.svg": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+    "talks/llm-wiki/assets/expanded/review-return.svg": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+    "talks/llm-wiki/assets/expanded/rules-graph.svg": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+    "talks/llm-wiki/assets/expanded/saved-question.svg": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+    "talks/llm-wiki/assets/expanded/session-plan.svg": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+    "talks/llm-wiki/assets/expanded/shared-workspace.svg": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+    "talks/llm-wiki/assets/expanded/source-concept.svg": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+    "talks/llm-wiki/assets/expanded/wiki-path.svg": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+    "talks/llm-wiki/assets/expanded/work-context.svg": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+    "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+    "talks/llm-wiki/assets/keynote/condition-and-choice.svg": "2404cc6d8840696a9af3b44d953058ed8ea53a4f3d734108d0d213e38f6cfb25",
+    "talks/llm-wiki/assets/keynote/connected-understanding.svg": "b377432a8725d5259d166e076f07a4e0adc5911ac5072667bf4cda1f829761bf",
+    "talks/llm-wiki/assets/keynote/evidence-note.svg": "dcef01725a1f88c33b5a9ae0c351085a3083187dd3a0af296206cc74b42fa05b",
+    "talks/llm-wiki/assets/keynote/plan-change.svg": "9b0d7f39390b9970f35eb6f1abd2c3ed55057516e8686ea5a96d5677c0b1a32a",
+    "talks/llm-wiki/assets/keynote/selected-note.svg": "43caa882d581c438bf5beac12aaadaf2d5918e983295af007a592d621a3ec50c",
+    "talks/llm-wiki/assets/keynote/session-plan-excerpt.svg": "f467a9d2f078d03799d6642f30a055c0bde0acdc1c44c0fced62868d94aaa6d4",
+    "talks/llm-wiki/assets/remake/ingest-map.svg": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+    "talks/llm-wiki/assets/remake/session-plan.svg": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+    "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+    "talks/llm-wiki/assets/speaker-guide.txt": "04268eb5de9fd099ebbfe7ef01ad07f12bbb3f341a9df862954a37cd6ed44c7f",
+    "talks/llm-wiki/assets/typography/ingest-map.svg": "a3a65af7ab28b3eb7a0720d3ac9588b3a7c4dba0af3b6833a1ee89676454da8e",
+    "talks/llm-wiki/assets/typography/knowledge-layers.svg": "00cc9503c0ea5f60b60e902f45f12622da5d4696ac03d8b7296d6bf2953ab493",
+    "talks/llm-wiki/assets/typography/purpose-questions.svg": "22e3b2b1ec42fed0eeb887c9f1d7c5d8778279dc54b992897e8171b3eaf1fef0",
+    "talks/llm-wiki/assets/typography/rag-path.svg": "0aefea443a6e3de3f103c5cdbcf9d16fe025af213fd4266f213dfd28df4c5c63",
+    "talks/llm-wiki/assets/typography/raw-wiki-rules.svg": "971d2b2c25e3d9e6ae3cd17abe5c1d0aa21fc5a71e7eaa4a98c7abb60c1719ba",
+    "talks/llm-wiki/assets/typography/related-updates.svg": "e240f730668766cb72612e6d4a417127473bdd8e2d04b8a0086307e361bce67f",
+    "talks/llm-wiki/assets/typography/session-plan.svg": "a7afd1388934c61261926c78cdc0c70fb51bd62219d3b7b59f4c8ea92349a955",
+    "talks/llm-wiki/assets/typography/source-concept.svg": "cac31a82b5a0225f8bf3fb14fd713b29482bf2e84c7114a8131d3b6216195862",
+    "talks/llm-wiki/assets/typography/wiki-path.svg": "53636045579a66dfdee4f53136cf31365fc00809983cb56e0b14b224c5052840",
+    "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+    "talks/llm-wiki/materials/demo-log.md": "8786016513450b7fb35bd88d8dd2141b53b7273ede735fe9eb24b007999195ab",
+    "talks/llm-wiki/materials/diagram-reading.md": "32292ae71a01d74c66c77b5367a156c8a1b30d305a2539e07ae777d273a0867c",
+    "talks/llm-wiki/materials/index.md": "5097caaeba1ec730d35113235affa7ca4470556db8e7e60eb4a4ed853daac8a4",
+    "talks/llm-wiki/materials/keynote-notes.md": "a8b6f7f6100454619e71d7d5e026e0021f678e8fb2216a37d145a514bf075624",
+    "talks/llm-wiki/materials/reference-library.md": "60b10db89b665dbf91bf35715059598408b983abb9e372f3c3436994dcf3df44",
+    "talks/llm-wiki/materials/session-plan.md": "24b1aadb2d479b3a5d54b5296c3c4562662bff09d03cda47541daad2187db755",
+    "talks/llm-wiki/materials/speaker-script.md": "10d3a5c4f9aa24775fbe660a0f878ba8a4f5585a1e201abcabde93ded540004e",
+    "talks/llm-wiki/materials/study-guide.md": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+    "talks/llm-wiki/materials/visual-appendix.md": "c213552b5d3812d357368561e20853457c8028518a5c268f3e7c98341acd583b",
+    "talks/llm-wiki/materials/workshop.md": "c5447d32a329cb306ef5517fff2d7d82f9583271216266a828c73ba29250a8c0",
+    "talks/llm-wiki/slides.md": "19670d537a7bb9279169aabb893250fcce8ed540e75dd5fcf574e4794975524f",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+    "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+    "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9"
+  },
+  "scope": [
+    {
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      }
+    }
+  ],
+  "capture": {
+    "designSha256": "7e83b7852df908ecf0c4027eafbe1b0f8b9c2dd0c12ac8ebf4ee40b11abcfd6b",
+    "inputs": {
+      "app.js": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c",
+      "blocks.css": "7f15332d5ee19bec21153d9a53945b4787af2631b92628d7e643abb1fb718b21",
+      "blocks.js": "d87049a48ee877585a52abe65dc258ff6c6c7dcaa405796b07cec601ee935304",
+      "deck-model.js": "a57abe5af92e53097d569c444c3c27d33d6d41208984670d59be39d0afe0a982",
+      "lib/cli.cjs": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02",
+      "lib/config.cjs": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f",
+      "lib/direct-deck.cjs": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e",
+      "lib/generated-files.cjs": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131",
+      "lib/index.cjs": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a",
+      "lib/markdown-deck.cjs": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef",
+      "lib/markdown-document.cjs": "fd54eabb8a3c3e44d503fdb14726b6283c8ce3e9a2809e5a51acf8cc2c584caf",
+      "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab",
+      "lib/project.cjs": "3f51ebe892ba47eaff8ca3f7c74b531e6de85db847cb834b0854c5c0b0d91c46",
+      "lib/runtime.cjs": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb",
+      "lib/scaffold.cjs": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1",
+      "ou.config.json": "41566e632cced20b479a9b36f442ffc201792b91961fae9c7ca892c409ebc564",
+      "package-lock.json": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9",
+      "scripts/build-examples.cjs": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec",
+      "scripts/build-site.cjs": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c",
+      "scripts/direct-deck.cjs": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4",
+      "scripts/generated-files.cjs": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7",
+      "scripts/llm-wiki-geometry-qa.cjs": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f",
+      "scripts/llm-wiki-keynote-qa.cjs": "7fa9307535aadd620b40b2af2f1988ef09a54ebf538f40edce3799930e7d6e9b",
+      "scripts/llm-wiki-reading-qa.cjs": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470",
+      "scripts/llm-wiki-typography-qa.cjs": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d",
+      "scripts/markdown-deck.cjs": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423",
+      "scripts/markdown-document.cjs": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e",
+      "scripts/materials.cjs": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff",
+      "scripts/runtime.cjs": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d",
+      "scripts/stage.cjs": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99",
+      "styles.css": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4",
+      "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297",
+      "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc",
+      "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2",
+      "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834",
+      "talks/llm-wiki/assets/current-pending.svg": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e",
+      "talks/llm-wiki/assets/decision-transition.svg": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2",
+      "talks/llm-wiki/assets/design/ingest-map.svg": "1ea6a569bab645b16c29d332950aaa5928fcd0b4b6737ff12005bcdf3765764b",
+      "talks/llm-wiki/assets/design/knowledge-layers.svg": "64c1fd12553932973b7340a0930c2617788ad561c1e09329da9171644d4f0a56",
+      "talks/llm-wiki/assets/design/raw-wiki-rules.svg": "87b989db720d81d4ec21ed604ac24c66623ee2faa934166071449003133d900d",
+      "talks/llm-wiki/assets/examples/course.txt": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9",
+      "talks/llm-wiki/assets/examples/reading.txt": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e",
+      "talks/llm-wiki/assets/examples/team.txt": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a",
+      "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1",
+      "talks/llm-wiki/assets/expanded/agentic-routing.svg": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5",
+      "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4",
+      "talks/llm-wiki/assets/expanded/five-layers.svg": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c",
+      "talks/llm-wiki/assets/expanded/ingest-map.svg": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4",
+      "talks/llm-wiki/assets/expanded/knowledge-layers.svg": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd",
+      "talks/llm-wiki/assets/expanded/purpose-questions.svg": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d",
+      "talks/llm-wiki/assets/expanded/query-reading.svg": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804",
+      "talks/llm-wiki/assets/expanded/rag-path.svg": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905",
+      "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77",
+      "talks/llm-wiki/assets/expanded/reflection-layers.svg": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9",
+      "talks/llm-wiki/assets/expanded/related-updates.svg": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b",
+      "talks/llm-wiki/assets/expanded/review-return.svg": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787",
+      "talks/llm-wiki/assets/expanded/rules-graph.svg": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b",
+      "talks/llm-wiki/assets/expanded/saved-question.svg": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1",
+      "talks/llm-wiki/assets/expanded/session-plan.svg": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14",
+      "talks/llm-wiki/assets/expanded/shared-workspace.svg": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283",
+      "talks/llm-wiki/assets/expanded/source-concept.svg": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be",
+      "talks/llm-wiki/assets/expanded/wiki-path.svg": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf",
+      "talks/llm-wiki/assets/expanded/work-context.svg": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43",
+      "talks/llm-wiki/assets/impact-map.svg": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234",
+      "talks/llm-wiki/assets/keynote/condition-and-choice.svg": "2404cc6d8840696a9af3b44d953058ed8ea53a4f3d734108d0d213e38f6cfb25",
+      "talks/llm-wiki/assets/keynote/connected-understanding.svg": "b377432a8725d5259d166e076f07a4e0adc5911ac5072667bf4cda1f829761bf",
+      "talks/llm-wiki/assets/keynote/evidence-note.svg": "dcef01725a1f88c33b5a9ae0c351085a3083187dd3a0af296206cc74b42fa05b",
+      "talks/llm-wiki/assets/keynote/plan-change.svg": "9b0d7f39390b9970f35eb6f1abd2c3ed55057516e8686ea5a96d5677c0b1a32a",
+      "talks/llm-wiki/assets/keynote/selected-note.svg": "43caa882d581c438bf5beac12aaadaf2d5918e983295af007a592d621a3ec50c",
+      "talks/llm-wiki/assets/keynote/session-plan-excerpt.svg": "f467a9d2f078d03799d6642f30a055c0bde0acdc1c44c0fced62868d94aaa6d4",
+      "talks/llm-wiki/assets/remake/ingest-map.svg": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f",
+      "talks/llm-wiki/assets/remake/session-plan.svg": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced",
+      "talks/llm-wiki/assets/reuse-inputs.svg": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188",
+      "talks/llm-wiki/assets/speaker-guide.txt": "04268eb5de9fd099ebbfe7ef01ad07f12bbb3f341a9df862954a37cd6ed44c7f",
+      "talks/llm-wiki/assets/typography/ingest-map.svg": "a3a65af7ab28b3eb7a0720d3ac9588b3a7c4dba0af3b6833a1ee89676454da8e",
+      "talks/llm-wiki/assets/typography/knowledge-layers.svg": "00cc9503c0ea5f60b60e902f45f12622da5d4696ac03d8b7296d6bf2953ab493",
+      "talks/llm-wiki/assets/typography/purpose-questions.svg": "22e3b2b1ec42fed0eeb887c9f1d7c5d8778279dc54b992897e8171b3eaf1fef0",
+      "talks/llm-wiki/assets/typography/rag-path.svg": "0aefea443a6e3de3f103c5cdbcf9d16fe025af213fd4266f213dfd28df4c5c63",
+      "talks/llm-wiki/assets/typography/raw-wiki-rules.svg": "971d2b2c25e3d9e6ae3cd17abe5c1d0aa21fc5a71e7eaa4a98c7abb60c1719ba",
+      "talks/llm-wiki/assets/typography/related-updates.svg": "e240f730668766cb72612e6d4a417127473bdd8e2d04b8a0086307e361bce67f",
+      "talks/llm-wiki/assets/typography/session-plan.svg": "a7afd1388934c61261926c78cdc0c70fb51bd62219d3b7b59f4c8ea92349a955",
+      "talks/llm-wiki/assets/typography/source-concept.svg": "cac31a82b5a0225f8bf3fb14fd713b29482bf2e84c7114a8131d3b6216195862",
+      "talks/llm-wiki/assets/typography/wiki-path.svg": "53636045579a66dfdee4f53136cf31365fc00809983cb56e0b14b224c5052840",
+      "talks/llm-wiki/demo/llm-wiki-demo.zip": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2",
+      "talks/llm-wiki/materials/demo-log.md": "8786016513450b7fb35bd88d8dd2141b53b7273ede735fe9eb24b007999195ab",
+      "talks/llm-wiki/materials/diagram-reading.md": "32292ae71a01d74c66c77b5367a156c8a1b30d305a2539e07ae777d273a0867c",
+      "talks/llm-wiki/materials/index.md": "5097caaeba1ec730d35113235affa7ca4470556db8e7e60eb4a4ed853daac8a4",
+      "talks/llm-wiki/materials/keynote-notes.md": "a8b6f7f6100454619e71d7d5e026e0021f678e8fb2216a37d145a514bf075624",
+      "talks/llm-wiki/materials/reference-library.md": "60b10db89b665dbf91bf35715059598408b983abb9e372f3c3436994dcf3df44",
+      "talks/llm-wiki/materials/session-plan.md": "24b1aadb2d479b3a5d54b5296c3c4562662bff09d03cda47541daad2187db755",
+      "talks/llm-wiki/materials/speaker-script.md": "10d3a5c4f9aa24775fbe660a0f878ba8a4f5585a1e201abcabde93ded540004e",
+      "talks/llm-wiki/materials/study-guide.md": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff",
+      "talks/llm-wiki/materials/visual-appendix.md": "c213552b5d3812d357368561e20853457c8028518a5c268f3e7c98341acd583b",
+      "talks/llm-wiki/materials/workshop.md": "c5447d32a329cb306ef5517fff2d7d82f9583271216266a828c73ba29250a8c0",
+      "talks/llm-wiki/slides.md": "19670d537a7bb9279169aabb893250fcce8ed540e75dd5fcf574e4794975524f",
+      "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+      "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+      "templates/presentation.html": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36",
+      "visual.css": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5",
+      "visual.js": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9",
+      "talks/llm-wiki/qa/keynote-current.json": "160391473eae3cd77b6657e1531257de70baa74d70cafbd1e9036e545f09df49",
+      "talks/llm-wiki/qa/keynote-coverage.json": "3d1e4fb490e7fd3e753dbdec07da0be85dff30e85ed34c37ff60b90dd8c8234a",
+      "DESIGN.md": "7e83b7852df908ecf0c4027eafbe1b0f8b9c2dd0c12ac8ebf4ee40b11abcfd6b",
+      "AGENTS.md": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+    },
+    "manifest": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/manifest.json",
+      "sha256": "f39c8436051bd44154088543af75b63b823515b2b442b9649b59dc11fdccfabc"
+    },
+    "evidence": [
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-01.png",
+        "sha256": "98f382e3807b739413923e37fcacde83676b5ba19a4f0ae02a91dd424fb9fd93",
+        "slides": [
+          1
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-02.png",
+        "sha256": "72a138f4c06de7b5353f88bb2a9f60a1b432fbae847590881f3bab1c1c045e57",
+        "slides": [
+          2
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-03.png",
+        "sha256": "cd7d7742d6323dc59a1da8398e25db70248e18f0c2d11e43b939e0098ae12594",
+        "slides": [
+          3
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-04.png",
+        "sha256": "8578c39950b423aad6fc9619d5186f4304fd84affed59588b83b5c9860b3c60e",
+        "slides": [
+          4
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-05.png",
+        "sha256": "5069f59e8e00445e013bb0afb96fb33d28411205cf0336c7bde341d027eccf68",
+        "slides": [
+          5
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-06.png",
+        "sha256": "172156daee676f753dd0657899664358f1b051cca09d50a9a3eac2c9855742fe",
+        "slides": [
+          6
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-07.png",
+        "sha256": "549e7126a411a895dffc8a1cbffad6e94bb403a70a6c377b1d604d495203a9e6",
+        "slides": [
+          7
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-08.png",
+        "sha256": "87e7d85435702e1586dd32b3a6eb2c66c543c9dcdf90775f0ce04abed6fadfa0",
+        "slides": [
+          8
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-09.png",
+        "sha256": "13a422ce4b58eb8920a4d9e886a967813f4e9e1bee73bb6a89282f0fdb09d4eb",
+        "slides": [
+          9
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-10.png",
+        "sha256": "7a7068dfc0914f39341d0d6141da99d6d0de361863c8296dd72d77e62fba620b",
+        "slides": [
+          10
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-11.png",
+        "sha256": "22fbcf4bf4297055bb5a44806b3bd2695b630c46f4c9f4590d9107facc1043ac",
+        "slides": [
+          11
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-12.png",
+        "sha256": "cde6a2f84a97284de7d67fd3946c30ebbac022239c681c613ae14feffa8f0ae9",
+        "slides": [
+          12
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-13.png",
+        "sha256": "8cb8e449159c327984b4b855cb1efb1c444eca5556ce13e475914f8bb0d04492",
+        "slides": [
+          13
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-14.png",
+        "sha256": "8008b40986f726cdaf4173b7c158f67a2fd79d4325b854318f0426c7592555a1",
+        "slides": [
+          14
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-15.png",
+        "sha256": "bfc0c4458478af6145c725614ebce39edf7cd4b83cec8bd76ac97ae03ac7042b",
+        "slides": [
+          15
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-16.png",
+        "sha256": "ad31a0634ae6451bc4181be4fde3bf1ea79d227c80538d5cf772463df1a64a0a",
+        "slides": [
+          16
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-17.png",
+        "sha256": "b0b1b451e2ca2c928c237860a4d7e0d661b8b18026a57563f6c672aad723ca6b",
+        "slides": [
+          17
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-18.png",
+        "sha256": "8a8b9750969166d8705827b4982a03224612701493039c87c8acc5b0161b8420",
+        "slides": [
+          18
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-19.png",
+        "sha256": "2cdad2e777fcf330630e08c24f19104aca48b6485a453e1a164ee9487ce3255f",
+        "slides": [
+          19
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-20.png",
+        "sha256": "6a95d6b0c0606591f213bad7a684b65c7f435f24192cacf5ef4c667c9f71875d",
+        "slides": [
+          20
+        ],
+        "mode": "read-slide-crop",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "devicePixelRatio": 1
+        }
+      }
+    ],
+    "supportingEvidence": [
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/review/main-05/reading-initial.md",
+        "sha256": "e22c6622377ed00d39a493b46d5eaf145822f5df19d1af12e49d4ce9a9f4e0e7"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/reading-metrics.json",
+        "sha256": "567ab23e8e577306a8ddf0520a319aef213f8020c1f4413cf3a559ef1e225339"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/actions.json",
+        "sha256": "bf3baff4fbab7352a2c1692fe3c99c8b6365174356d8ebe4076d137b6ba718cb"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/deck-end.txt",
+        "sha256": "9bd42a1944ac9cf149792a412e252bea3ed817209a1401271a18da5cf16c834d"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/check-actions.mjs",
+        "sha256": "48eafb67b1fbb7ce5a1598a38ead109f2e647a4f5dbd297facbc5c16b0174497"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-03-390.png",
+        "sha256": "2a907495d02820d71367362ccc24b70222ccb1f96265183e05dd92f740e55b33"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-06-390.png",
+        "sha256": "7d38729b51d63684fb9a7383fd1bc0b62ac75390a8c1aef75420a74d812ba34c"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-07-390.png",
+        "sha256": "f8b32a74198daef9b54272a4c88bbca9f7659ba844b6783a91d079e00519af1a"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-08-390.png",
+        "sha256": "15ebfa45bee4f9be83895d0e6e7c912ef0d50859ffb05a463551a7242e55dc63"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-13-390.png",
+        "sha256": "c313e4f484d436d468da049c2eee4c7ec8ec6f45a49629e558d371b11067b410"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-15-390.png",
+        "sha256": "2ec83af2543b1cf13e0a11a3c3206311abed60ce05924d487f147d261fe1b7c1"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-03-1440.png",
+        "sha256": "9ced48797a681bb16d9933ded2284d2a8f4ac1450204978c7693d6906f74b3fd"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-06-1440.png",
+        "sha256": "1d1a38eb0b75d6f2622b6ad7c907e85fcf9dcff19ff8cf089ef6ef63c7df746f"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-07-1440.png",
+        "sha256": "3eb66e274c0d39c2bd2a3db966a183274708b94998aa5d7389c7a10974c10739"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-08-1440.png",
+        "sha256": "8bccce48621d4f0fb78d06be2a5ae0d7ea0ef9e85aa83abe70cad735901cda26"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-13-1440.png",
+        "sha256": "58e3201f307e6fb8041badf8fd4a5a872ed6f9aebb6f5be7d71c3105560258d3"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-15-1440.png",
+        "sha256": "8b297d1a0971e405ddeae4e64370aeae8871eaec747b8b45908432e55e0ac7e8"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/notes-plan-change-table-left-390.png",
+        "sha256": "d327942fa32fc21b8d2be6390afba8d3b2f99bd09049da5238e1c56b43652b65"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/notes-plan-change-table-right-390.png",
+        "sha256": "73bcec7206cb7d38f36226e04743509b0cf669b5f2c7308c399531334fb6b663"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/notes-activity-table-left-390.png",
+        "sha256": "27f6c6141b6b0df50dfefa03fd4e3e66ad0945efaa70a17edbfb9ff96852d21a"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/notes-activity-table-right-390.png",
+        "sha256": "6747222997ca18bcd1b88d72c0db9459921ca841549d37b4940185f1091e2b77"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/request-selected-390.png",
+        "sha256": "b60bd679dfa75322386da54444595b3a229acb8bf2dce1029ec24fbe10de7291"
+      },
+      {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-05/technical/request-selected-1440.png",
+        "sha256": "2db0566d0fd3aafb16eb6402309857b295a303d1a2d7850d6625ca5f2a7f2580"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "slide": 1,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "이름이 먼저 읽히고 짧은 부제가 자료를 AI와 함께 정리한다는 대상을 받친다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-01.png"
+      ]
+    },
+    {
+      "slide": 2,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "함께 읽고 고친다는 짧은 정의 뒤에 나만의 지식 문서를 강조해 역할이 명료하다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-02.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "선택 이유 메모가 한 자료로 보이고 구성 예 지위가 붙는다. 양폭의 곁 링크를 실제 클릭하면 정확 native 인용으로 이어지며,18px 마지막 의미행 이 메모를 골랐다가 목적어·서술어를 붙인다. 원문은 보존됐다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-03.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "다음 질문에 다시 쓴다는 한 주장을 읽는 데 다른 설명층을 해독할 필요가 없다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-04.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "RAG의 현재 답과 작은 위키의 문서 정리·연결을 같은 비교축에서 읽는다. 두 역할의 순서와 강조가 분명하다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-05.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "같은 계획의 미정과 갱신 조건이 한 문서면에서 대조된다. 곁 링크는 정확한 계획이 바뀐 근거 native절로 도착하며 전후 구절·가상 조건·비실측 지위가 읽힌다.390표의 좌우 끝과 키보드 스크롤까지 확인했다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-06.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "작은 요약 입구·큰 기존 문서·세 선이 귀속된다.390의 한 픽셀 R61→60 차이는 직접 새 그림/이전 그림을 열어 관계·문구·글꼴·기하에 영향이 없음을 확인했다. 정확 native절에서 세 무방향 관계와 비자동갱신/비필수순서가 읽힌다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-07.png"
+      ]
+    },
+    {
+      "slide": 8,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "문서 읽기부터라는 선택과 입문자·15분 맥락이 보이고, 정확 native절에서 준비된 팩·원래 목적·전체 조건과 시간만의 인과가 아니라는 한계가 온전한 어절로 읽힌다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-08.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "자료를 고르기 전의 맥락 뒤에 결과와 관련된 자료인지 묻는 질문이 주역으로 읽힌다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-09.png"
+      ]
+    },
+    {
+      "slide": 10,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "목적과 판단의 사람 책임이 먼저 읽히고 감정·생각·판단·선택 이유를 직접 남기는 행동으로 이어진다. 실제 의미행은 목적어 목록 / 직접 남깁니다.이며 서술어 단독 꼬리가 없다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-10.png"
+      ]
+    },
+    {
+      "slide": 11,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "원자료 구절·직접 채울 기록·AI 해석의 지위를 하나의 native 표에서 읽고 구성 예 표지로 실제 기록과 구분한다.18px 필수 표의 소속과 대비가 충분하다. 모바일 레이블의 두 행은 서술어 꼬리행과 구별한다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-11.png"
+      ]
+    },
+    {
+      "slide": 12,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "공부·프로젝트·글과 발표의 각 활용처 뒤에 재사용할 행동을 한 열 순서로 붙여 쉽게 따라 읽는다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-12.png"
+      ]
+    },
+    {
+      "slide": 13,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "밝은 활동안 한 행이 한 자료이며 정확 native절에서 전체4행·선택 이유·비실측/읽기순서와 무방향 관계의 차이로 이어진다.390표 좌우 끝과 키보드 이동에서 시간/할일/남길것의 전문이 읽힌다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-13.png"
+      ]
+    },
+    {
+      "slide": 14,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "읽기·고치기·다시 쓰기의 병렬 행동과 근거/판단/다음 질문이 각 그룹에 귀속된다. 기존 직접 본 native viewport 타일과 현재 동일 바이트/영향을 대조해 뒤 문단 소속도 유지됨을 확인했다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-14.png"
+      ]
+    },
+    {
+      "slide": 15,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "시간 단독 추정 질문과 원자료 목적 구절이 대비된다. 곁 링크의 정확 native절에서 질문은 실제 강조되고 literal별표가 없으며 원문·발표용 질문·목적 해석과 전체 가상 조건이 구별된다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-15.png"
+      ]
+    },
+    {
+      "slide": 16,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "반복 주제와 한 번 확인할 질문이라는 서로 다른 상황에 연결과 검색의 첫 행동을 대응시킨다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-16.png"
+      ]
+    },
+    {
+      "slide": 17,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "다음 스터디라는 목적과 고른 두 자료를 함께 읽어 달라는 요청이 한 구체 행동으로 읽힌다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-17.png"
+      ]
+    },
+    {
+      "slide": 18,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "근거·바꾼 파일·모르는 점에 각 확인 질문을 붙여 결과를 판단하는 순서를 제공한다. 이전 실제 타일과 현재 동일 근거/영향에서 모든 문구와 뒤 문단 소속을 확인했다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-18.png"
+      ]
+    },
+    {
+      "slide": 19,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "다음 질문에 쓸 자료 두 개부터라는 실행 행동을 마감의 한 주역으로 제시한다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-19.png"
+      ]
+    },
+    {
+      "slide": 20,
+      "mode": "read-slide-crop",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "devicePixelRatio": 1
+      },
+      "status": "approved",
+      "reviewer": "/root/creative_quality_manager/reading_critic",
+      "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+      "reason": "자기 질문이 주역이고 해설/복사 요청과 예제 팩은 보조 탐색이다. 실제 공개 요청의 source359자와 DOM359자가 같고 선택358자는 마지막LF만 빠져 모든 내용문자를 보존한다. 실제 클릭한 팩 전문도 양폭 UTF-8이며 원본 전체와 같다.",
+      "evidence": [
+        "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-20.png"
+      ]
+    }
+  ],
+  "recordAuthor": "/root/creative_quality_manager/reading_critic",
+  "revalidation": {
+    "baselineDirectRead": "research/llm-wiki-keynote-reset-20261113/main-03/read-390",
+    "all20PreviouslyDirectlyViewed": true,
+    "newDirectReadSlides": [
+      3,
+      6,
+      10,
+      11,
+      15,
+      20,
+      7
+    ],
+    "newAll20DirectReadClaim": false,
+    "baselinePNGChanges": [
+      {
+        "slide": 7,
+        "bbox": [
+          206,
+          192,
+          207,
+          193
+        ],
+        "pixelCount": 1,
+        "coordinate": [
+          206,
+          192
+        ],
+        "beforeRGB": [
+          61,
+          63,
+          63
+        ],
+        "afterRGB": [
+          60,
+          63,
+          63
+        ],
+        "directlyReopened": true,
+        "meaningOrGeometryImpact": false
+      }
+    ],
+    "reason": "main03 실제 전40열람과 현재 전수SHA를 대조해 동일 근거를 명시 재사용. current source/그림/읽기조판의 역할을 재검토하고 새 대표와 native/정확절/표/선택을 직접 검수했다. 과거 상태의 자동승계가 아님.",
+    "renderChangeFromMain04": "notes 동일 인용P에 한 hardbreak. 추가 QA script/nativeParagraphs 계약은 관측용이며 현재 원고·시각자산·CSS·anchor는 불변."
+  }
+}

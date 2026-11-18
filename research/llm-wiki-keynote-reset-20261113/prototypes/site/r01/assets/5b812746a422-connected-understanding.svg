@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="580" viewBox="0 0 1440 580" role="img" aria-labelledby="title desc">
+  <title id="title">요약과 기존 문서의 관계</title>
+  <desc id="desc">자료 요약을 원자료의 입구로 두고 개념·비교와 현재 계획을 함께 읽는다. 세 선은 문서 사이의 무방향 관계이며 자동 갱신이나 필수 생성 순서를 나타내지 않는다. 발표팀의 구성 예다.</desc>
+  <style>text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.7px}.node{font-size:60px;font-weight:500;fill:#f6f6f4}.meta{font-size:24px;fill:#a4a4a1;letter-spacing:-.6px}</style>
+  <g fill="none" stroke="#777b7c" stroke-width="2.5"><path d="M510 288 L870 170"/><path d="M510 288 L870 410"/><path d="M1110 202 L1110 353"/></g>
+  <text class="node" x="80" y="307">자료 요약</text>
+  <text class="meta" x="80" y="353">원자료의 입구</text>
+  <circle cx="510" cy="288" r="7" fill="#a4a4a1"/>
+  <circle cx="870" cy="170" r="7" fill="#24a8ff"/>
+  <circle cx="870" cy="410" r="7" fill="#24a8ff"/>
+  <text class="node" x="925" y="190">개념·비교</text>
+  <text class="node" x="925" y="430">현재 계획</text>
+  <text class="meta" x="80" y="537">발표팀 구성 예 · 선은 문서 사이의 관계</text>
+</svg>

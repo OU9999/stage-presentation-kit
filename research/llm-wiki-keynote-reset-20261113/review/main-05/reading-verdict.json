@@ -1,0 +1,28 @@
+{
+  "checkpoint": "main-05",
+  "reviewer": "/root/creative_quality_manager/reading_critic",
+  "reviewedAt": "2026-11-13T12:06:38.955047+00:00",
+  "manualStatus": "criteria-met",
+  "formalApprovalClaim": false,
+  "scopeReviewFiles": [
+    "research/llm-wiki-keynote-reset-20261113/review/main-05/read-1440.reviews.json",
+    "research/llm-wiki-keynote-reset-20261113/review/main-05/read-390.reviews.json"
+  ],
+  "manualCounts": {
+    "approved": 40,
+    "needs-changes": 0,
+    "unreviewed": 0
+  },
+  "additionalChangeRequests": [],
+  "initialOrder": "최신지침/직전반례→새390native3/8/15 실물→root/manager 초기전달→양폭native12실물→actual링크/문단/표/선택·현재입력/07차이→A직접반론·취합",
+  "directlyViewedCurrent": "native12PNG/표끝4PNG/선택2PNG/읽기대표12PNG+39007. 기존전40직독은39동일PNG·07한픽셀/직접재독과현재영향으로명시재사용하며새40직독으로표현하지않음.",
+  "meaningPreserved": "정확원문/사람기록/AI해석의지위와책임·네약속·세무방향관계와별도다섯관계·입문자/준비팩/15분/원래목적·비실측/비성과·복사요청전문을보존. native3의이메모를골랐다 의미행·8어절·15강조를실물/실제Range로판정.",
+  "actualActions": "양폭12actualURL/anchorY23.82~24.16/문서폭,390두표358/620/0→keyboard33.5·36.5→262+양끝실물,양폭source359=DOM359/selected358종료LF만생략,UTF8팩전체원본동일,20actual상태·HomeEnd실제대기/끝DOM·overview20→11을직접대조.",
+  "limitations": [
+    "두명시읽기scope및기록한로컬native/동작범위만의판정",
+    "실프로젝터·다른OS·현장낭독/청중효과·모션은미검토",
+    "공식승인은root가원문을바꾸지않고연결한require-approved명시통과범위에한정",
+    "사용자미감승인주장없음"
+  ],
+  "productWrites": 0
+}

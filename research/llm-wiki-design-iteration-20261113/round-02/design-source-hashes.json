@@ -1,0 +1,13 @@
+{
+  "scope": "Closed round-02 independent manual review sources. Preserve bytes before round-03 implementation.",
+  "hashes": {
+    "research/llm-wiki-design-iteration-20261113/design/present-1280.reviews.json": "3118a8f699afd52ac21c707f784036127082e52570a05b226002884994b8b228",
+    "research/llm-wiki-design-iteration-20261113/design/read-1440.reviews.json": "73016179d98d4b31587aff4a7e8dcaf2af2b8df8be69133ec0ab30635828fbb9",
+    "research/llm-wiki-design-iteration-20261113/design/read-390.reviews.json": "e2c736038865533f62b2dc6931fab1220d05fb72b6f1d6fe6531c81d59e35711",
+    "research/llm-wiki-design-iteration-20261113/design/present-1920.reviews.json": "24a182a542d9642479d305b4f0af5e915d1e5c48b34470dc6ae733b16b2e7da9",
+    "research/llm-wiki-design-iteration-20261113/design/DESIGN_REVIEW_SYNTHESIS.md": "35c57c08c015bf2811a38cf0622b3bb8d055db1a47e265c4e0e1be6661937884",
+    "research/llm-wiki-design-iteration-20261113/design/READING_GOVERNANCE_REVIEW.md": "de7ea566b5f87006a83a0ea72aa635d80aa1b9fde5343f86693074e557da8709",
+    "research/llm-wiki-design-iteration-20261113/design/MANAGER_HANDOFF.md": "c8d7910efa46d540add13611c054005da99072687e75a800c9f1c5bcf261fed5",
+    "research/llm-wiki-design-iteration-20261113/design/PRESENTATION_REVIEW.md": "e6cf5e09d3cebbd42ce30c99389f0d81e0b2e225e52de2b0a9fe7ebbf7727fbf"
+  }
+}

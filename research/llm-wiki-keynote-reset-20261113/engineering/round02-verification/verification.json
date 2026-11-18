@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-11-13T10:38:04.302Z",
+  "owner": "keynote_contract_integrator",
+  "productionWriterState": "stable-hold",
+  "source": {
+    "path": "talks/llm-wiki/slides.md",
+    "sha256": "e96eaa434f12335639de675aa4b8b042345fafa06ea476ef11283a6f921a16b8"
+  },
+  "contract": {
+    "path": "talks/llm-wiki/qa/keynote-current.json",
+    "sha256": "4b4814d27bebfbab14840413c23fa6a1d52dd4c65f7c35b3ed90deecee166046"
+  },
+  "coverage": {
+    "path": "talks/llm-wiki/qa/keynote-coverage.json",
+    "sha256": "821fd723bd62add7efdd35bf6198ce239d7e0dc142831f6a9ea5bb55f0c51166"
+  },
+  "notes": {
+    "path": "talks/llm-wiki/materials/keynote-notes.md",
+    "sha256": "1e6c9f1d368235569df070400a23414ca587966b54b63af5ba6f11bdb5bd94c5"
+  },
+  "speaker": {
+    "path": "talks/llm-wiki/materials/speaker-script.md",
+    "sha256": "07147f9f4702cbc38db6ae2ee022917faa9de03432822660e9509a4a95036d78"
+  },
+  "tests": {
+    "command": "npm test",
+    "exitCode": 0,
+    "tests": 347,
+    "pass": 347,
+    "fail": 0,
+    "log": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round02-verification/tests.log",
+      "sha256": "2dcf5fc165d25ccb454703f3fafe9d1d14ccbe6d414e352956e77e3a61a2c4e0"
+    }
+  },
+  "sourceStatic": {
+    "command": "node scripts/llm-wiki-keynote-qa.cjs --mode source --source talks/llm-wiki/slides.md",
+    "exitCode": 0,
+    "mode": "source",
+    "status": "pass",
+    "summary": {
+      "checks": 1085,
+      "invalid": 0,
+      "regressions": 0
+    },
+    "visualApproval": false,
+    "result": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round02-verification/current-source.json",
+      "sha256": "d79d4e32e5f7ab36a32d1c6d6eb3abcab8986fd8a24d32cc4441e67b7fb74300"
+    }
+  },
+  "historicalBaseline": {
+    "command": "node scripts/llm-wiki-typography-qa.cjs --mode baseline --source research/llm-wiki-typography-20261102/engineering/fixtures/slides-before.md --manifest research/llm-wiki-typography-20261102/before/present-1280/manifest.json --svg-metrics research/llm-wiki-typography-20261102/before/present-1280/svg-metrics.json",
+    "exitCode": 1,
+    "status": "regression",
+    "summary": {
+      "checks": 72,
+      "invalid": 0,
+      "regressions": 45
+    },
+    "visualApproval": false,
+    "result": {
+      "path": "research/llm-wiki-keynote-reset-20261113/engineering/round02-verification/historical-baseline.json",
+      "sha256": "2d295a7f908d662d20678e3e54420b86892c0db1f6521135a4e447fc60686b89"
+    }
+  },
+  "inventory": {
+    "currentSlides": 20,
+    "nativeTextTargets": 56,
+    "svgAssets": 6,
+    "originalMeaningTopics": 26,
+    "publicMaterials": 10,
+    "preservedFiles": 141
+  },
+  "pending": [
+    "Root fresh main-02 presentation 1920/1280 and reading 1440/390 exact current captures",
+    "New current actual-observation CLI in four separate scopes",
+    "Actual links and request selection in both reading widths",
+    "Independent original-reference-first visual review and explicit require-approved per scope"
+  ],
+  "knownMeasuredCheck": "Slide 20 required action body retains minLogical 32; if message default still renders 30, A must edit the source/role layout after actual observation. The QA floor is not lowered."
+}

@@ -1,0 +1,522 @@
+{
+  "reviewer": "/root/creative_quality_manager/reading_critic",
+  "sha256": {
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/manifest.json": "db70f46b05fc48ee94aa8a1fd5b1705dbe73ad26c9059e3280cb54c88f6e10b7",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/reading-metrics.json": "7f2a4f0e965ca036d5c72ae87b8ea9c9d773af29d44cb4a2b24f077edf7ce3ef",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-01.png": "c7ae23a84f3b07c825e308ff9e6dd78d9c22d65bea467545a52a53f81f276b7f",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-02.png": "34cc0d51701cae6e3732d05aff321ec86a34963436e404e689cf9ecf7e22f2ac",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-03.png": "c6c5077d592ec51f9a6c13243c78faf71f482b0db7372f0257ce747c05b23d4f",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-04.png": "0b108fe5e4c185baadf46aaf3d04d2e3886f10cbc1a6bcad25d637f51dbdca15",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-05.png": "00b27cccb9f0e5e941fb0ee05e133282c7a0d4a2576eda4935a2acb166ce2638",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-06.png": "5d30b96aa7335d8d77353299640fb49c151de5af8ad45c4e80e7b988f05acc4c",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-07.png": "c626c2904250c40df2cf3750d1a861b550915e1147a642e26cb47bdaaa783f6f",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-08.png": "a85fadd229960a5705fd152f517dd20520819ca8d0d180c2c189b9e6eab50237",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-09.png": "3da1366e6455e73b19fcaac92cf73b2f5024fd5c3a0709bf27e19eac3b85fa5b",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-10.png": "b7b0fab11f6259111cc81cb84dec35ba713fe016402fac5ce9e86f850e8076d4",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-11.png": "5401ec42da823181b81a7ae347ab6b2bf068261a3c263a4a1247bd1ca67cecad",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-12.png": "ab65d0b0c44a88fb0c7d014b32d9c14e102332a0fa7ee89f0150d111edf78f82",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-13.png": "2e99a9bdacec40134c0ef85bdafb0b557e9359a3e3680eee953745fe5fff3465",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-14.png": "3810f4d0f6cf7603a8722cd2730c346f46a9f962af4edbbe76ddf47d8ce915c1",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-15.png": "305350e63cf67eb99760c97402eacf26444a3124930e9d05e1039f7988558b0d",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-16.png": "0ff537a5b063a0ab0e7b20fcccd50e0a06d3c55c343b4bd24eaf7a7bafaae728",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-17.png": "912849e7cd8c4a090d3fdfb9c6b658ccd1eae02c5cfc446fbebd380a7f62ed8b",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-18.png": "a7f12eb9d33afee1a0792f7fcecfa4fdad5007c0250cccaf95ac0294670a137f",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-19.png": "629a1caffb5f9006cd6c07120846b09c7527b58b4c5dabb24c0ff0de89f46d85",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-20.png": "5ea6bf04641b6cb1aac478e6842c941b57980904c655b13f760d325a7125b289",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/manifest.json": "f39c8436051bd44154088543af75b63b823515b2b442b9649b59dc11fdccfabc",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/reading-metrics.json": "567ab23e8e577306a8ddf0520a319aef213f8020c1f4413cf3a559ef1e225339",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-01.png": "98f382e3807b739413923e37fcacde83676b5ba19a4f0ae02a91dd424fb9fd93",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-02.png": "72a138f4c06de7b5353f88bb2a9f60a1b432fbae847590881f3bab1c1c045e57",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-03.png": "cd7d7742d6323dc59a1da8398e25db70248e18f0c2d11e43b939e0098ae12594",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-04.png": "8578c39950b423aad6fc9619d5186f4304fd84affed59588b83b5c9860b3c60e",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-05.png": "5069f59e8e00445e013bb0afb96fb33d28411205cf0336c7bde341d027eccf68",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-06.png": "172156daee676f753dd0657899664358f1b051cca09d50a9a3eac2c9855742fe",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-07.png": "549e7126a411a895dffc8a1cbffad6e94bb403a70a6c377b1d604d495203a9e6",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-08.png": "87e7d85435702e1586dd32b3a6eb2c66c543c9dcdf90775f0ce04abed6fadfa0",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-09.png": "13a422ce4b58eb8920a4d9e886a967813f4e9e1bee73bb6a89282f0fdb09d4eb",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-10.png": "7a7068dfc0914f39341d0d6141da99d6d0de361863c8296dd72d77e62fba620b",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-11.png": "22fbcf4bf4297055bb5a44806b3bd2695b630c46f4c9f4590d9107facc1043ac",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-12.png": "cde6a2f84a97284de7d67fd3946c30ebbac022239c681c613ae14feffa8f0ae9",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-13.png": "8cb8e449159c327984b4b855cb1efb1c444eca5556ce13e475914f8bb0d04492",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-14.png": "8008b40986f726cdaf4173b7c158f67a2fd79d4325b854318f0426c7592555a1",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-15.png": "bfc0c4458478af6145c725614ebce39edf7cd4b83cec8bd76ac97ae03ac7042b",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-16.png": "ad31a0634ae6451bc4181be4fde3bf1ea79d227c80538d5cf772463df1a64a0a",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-17.png": "b0b1b451e2ca2c928c237860a4d7e0d661b8b18026a57563f6c672aad723ca6b",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-18.png": "8a8b9750969166d8705827b4982a03224612701493039c87c8acc5b0161b8420",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-19.png": "2cdad2e777fcf330630e08c24f19104aca48b6485a453e1a164ee9487ce3255f",
+    "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-20.png": "6a95d6b0c0606591f213bad7a684b65c7f435f24192cacf5ef4c667c9f71875d",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-03-390.png": "2a907495d02820d71367362ccc24b70222ccb1f96265183e05dd92f740e55b33",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-06-390.png": "7d38729b51d63684fb9a7383fd1bc0b62ac75390a8c1aef75420a74d812ba34c",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-07-390.png": "f8b32a74198daef9b54272a4c88bbca9f7659ba844b6783a91d079e00519af1a",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-08-390.png": "15ebfa45bee4f9be83895d0e6e7c912ef0d50859ffb05a463551a7242e55dc63",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-13-390.png": "c313e4f484d436d468da049c2eee4c7ec8ec6f45a49629e558d371b11067b410",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-15-390.png": "2ec83af2543b1cf13e0a11a3c3206311abed60ce05924d487f147d261fe1b7c1",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-03-1440.png": "9ced48797a681bb16d9933ded2284d2a8f4ac1450204978c7693d6906f74b3fd",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-06-1440.png": "1d1a38eb0b75d6f2622b6ad7c907e85fcf9dcff19ff8cf089ef6ef63c7df746f",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-07-1440.png": "3eb66e274c0d39c2bd2a3db966a183274708b94998aa5d7389c7a10974c10739",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-08-1440.png": "8bccce48621d4f0fb78d06be2a5ae0d7ea0ef9e85aa83abe70cad735901cda26",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-13-1440.png": "58e3201f307e6fb8041badf8fd4a5a872ed6f9aebb6f5be7d71c3105560258d3",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/direct-support-15-1440.png": "8b297d1a0971e405ddeae4e64370aeae8871eaec747b8b45908432e55e0ac7e8",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/notes-plan-change-table-left-390.png": "d327942fa32fc21b8d2be6390afba8d3b2f99bd09049da5238e1c56b43652b65",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/notes-plan-change-table-right-390.png": "73bcec7206cb7d38f36226e04743509b0cf669b5f2c7308c399531334fb6b663",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/notes-activity-table-left-390.png": "27f6c6141b6b0df50dfefa03fd4e3e66ad0945efaa70a17edbfb9ff96852d21a",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/notes-activity-table-right-390.png": "6747222997ca18bcd1b88d72c0db9459921ca841549d37b4940185f1091e2b77",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/request-selected-390.png": "b60bd679dfa75322386da54444595b3a229acb8bf2dce1029ec24fbe10de7291",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/request-selected-1440.png": "2db0566d0fd3aafb16eb6402309857b295a303d1a2d7850d6625ca5f2a7f2580",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/actions.json": "bf3baff4fbab7352a2c1692fe3c99c8b6365174356d8ebe4076d137b6ba718cb",
+    "research/llm-wiki-keynote-reset-20261113/main-05/technical/deck-end.txt": "9bd42a1944ac9cf149792a412e252bea3ed817209a1401271a18da5cf16c834d",
+    "research/llm-wiki-keynote-reset-20261113/check-actions.mjs": "48eafb67b1fbb7ce5a1598a38ead109f2e647a4f5dbd297facbc5c16b0174497",
+    "DESIGN.md": "7e83b7852df908ecf0c4027eafbe1b0f8b9c2dd0c12ac8ebf4ee40b11abcfd6b",
+    "talks/llm-wiki/slides.md": "19670d537a7bb9279169aabb893250fcce8ed540e75dd5fcf574e4794975524f",
+    "talks/llm-wiki/materials/keynote-notes.md": "a8b6f7f6100454619e71d7d5e026e0021f678e8fb2216a37d145a514bf075624",
+    "talks/llm-wiki/assets/expanded-study.txt": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+  },
+  "currentQuoteRange": {
+    "1440": [
+      {
+        "section": "선택-이유-메모",
+        "text": "‘LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서\n이 메모를 골랐다.’",
+        "isQuote": true,
+        "fontSize": "18px",
+        "wordBreak": "keep-all",
+        "overflowWrap": "anywhere",
+        "lines": [
+          {
+            "text": "‘LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서",
+            "x": 473.796875,
+            "y": 1367.6953125,
+            "width": 539.3671875,
+            "height": 21.5
+          },
+          {
+            "text": "이 메모를 골랐다.’",
+            "x": 473.796875,
+            "y": 1400.9921875,
+            "width": 125.46875,
+            "height": 21.5
+          }
+        ]
+      }
+    ],
+    "390": [
+      {
+        "section": "선택-이유-메모",
+        "text": "‘LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서\n이 메모를 골랐다.’",
+        "isQuote": true,
+        "fontSize": "18px",
+        "wordBreak": "keep-all",
+        "overflowWrap": "anywhere",
+        "lines": [
+          {
+            "text": "‘LLM Wiki와 RAG의 차이를 설명하고 다음",
+            "x": 34.3984375,
+            "y": 2139.5,
+            "width": 303.140625,
+            "height": 21.5
+          },
+          {
+            "text": "스터디의 진행안을 만들고 싶어서",
+            "x": 34.3984375,
+            "y": 2173.6953125,
+            "width": 231.671875,
+            "height": 21.5
+          },
+          {
+            "text": "이 메모를 골랐다.’",
+            "x": 34.3984375,
+            "y": 2207.890625,
+            "width": 125.46875,
+            "height": 21.5
+          }
+        ]
+      }
+    ]
+  },
+  "directSupportDestinations": [
+    {
+      "slide": 3,
+      "width": 390,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D-%EC%9D%B4%EC%9C%A0-%EB%A9%94%EB%AA%A8",
+        "label": "선택 이유 메모를 글로 읽기",
+        "width": 390
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D-%EC%9D%B4%EC%9C%A0-%EB%A9%94%EB%AA%A8",
+        "anchor": "선택-이유-메모",
+        "anchorExists": true,
+        "anchorY": 23.8125,
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 390
+      }
+    },
+    {
+      "slide": 6,
+      "width": 390,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0",
+        "label": "계획의 전후 조건을 글로 읽기",
+        "width": 390
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0",
+        "anchor": "계획이-바뀐-근거",
+        "anchorExists": true,
+        "anchorY": 23.9609375,
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 390
+      }
+    },
+    {
+      "slide": 7,
+      "width": 390,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+        "label": "세 관계와 문서 역할을 글로 읽기",
+        "width": 390
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+        "anchor": "세-무방향-관계",
+        "anchorExists": true,
+        "anchorY": 23.8828125,
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 390
+      }
+    },
+    {
+      "slide": 8,
+      "width": 390,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%9B%90%EC%9E%90%EB%A3%8C%EC%99%80-%EC%A0%95%EB%A6%AC%ED%95%9C-%EC%9D%B4%ED%95%B4",
+        "label": "조건과 첫 선택을 글로 읽기",
+        "width": 390
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%9B%90%EC%9E%90%EB%A3%8C%EC%99%80-%EC%A0%95%EB%A6%AC%ED%95%9C-%EC%9D%B4%ED%95%B4",
+        "anchor": "원자료와-정리한-이해",
+        "anchorExists": true,
+        "anchorY": 24.1328125,
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 390
+      }
+    },
+    {
+      "slide": 13,
+      "width": 390,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%ED%99%9C%EB%8F%99%EC%95%88%EA%B3%BC-%EB%AF%B8%ED%99%95%EC%9D%B8-%EB%B2%94%EC%9C%84",
+        "label": "활동안 한 행과 전문을 글로 읽기",
+        "width": 390
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%ED%99%9C%EB%8F%99%EC%95%88%EA%B3%BC-%EB%AF%B8%ED%99%95%EC%9D%B8-%EB%B2%94%EC%9C%84",
+        "anchor": "활동안과-미확인-범위",
+        "anchorExists": true,
+        "anchorY": 23.96875,
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 390
+      }
+    },
+    {
+      "slide": 15,
+      "width": 390,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D%EC%9D%98-%EA%B7%BC%EA%B1%B0-%ED%99%95%EC%9D%B8",
+        "label": "확인 질문과 원자료를 글로 읽기",
+        "width": 390
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D%EC%9D%98-%EA%B7%BC%EA%B1%B0-%ED%99%95%EC%9D%B8",
+        "anchor": "선택의-근거-확인",
+        "anchorExists": true,
+        "anchorY": 23.84375,
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 390
+      }
+    },
+    {
+      "slide": 3,
+      "width": 1440,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D-%EC%9D%B4%EC%9C%A0-%EB%A9%94%EB%AA%A8",
+        "label": "선택 이유 메모를 글로 읽기",
+        "width": 1440
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D-%EC%9D%B4%EC%9C%A0-%EB%A9%94%EB%AA%A8",
+        "anchor": "선택-이유-메모",
+        "anchorExists": true,
+        "anchorY": 23.90625,
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "documentWidth": 1440
+      }
+    },
+    {
+      "slide": 6,
+      "width": 1440,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0",
+        "label": "계획의 전후 조건을 글로 읽기",
+        "width": 1440
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0",
+        "anchor": "계획이-바뀐-근거",
+        "anchorExists": true,
+        "anchorY": 23.9609375,
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "documentWidth": 1440
+      }
+    },
+    {
+      "slide": 7,
+      "width": 1440,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+        "label": "세 관계와 문서 역할을 글로 읽기",
+        "width": 1440
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+        "anchor": "세-무방향-관계",
+        "anchorExists": true,
+        "anchorY": 23.8203125,
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "documentWidth": 1440
+      }
+    },
+    {
+      "slide": 8,
+      "width": 1440,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%9B%90%EC%9E%90%EB%A3%8C%EC%99%80-%EC%A0%95%EB%A6%AC%ED%95%9C-%EC%9D%B4%ED%95%B4",
+        "label": "조건과 첫 선택을 글로 읽기",
+        "width": 1440
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%9B%90%EC%9E%90%EB%A3%8C%EC%99%80-%EC%A0%95%EB%A6%AC%ED%95%9C-%EC%9D%B4%ED%95%B4",
+        "anchor": "원자료와-정리한-이해",
+        "anchorExists": true,
+        "anchorY": 24.15625,
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "documentWidth": 1440
+      }
+    },
+    {
+      "slide": 13,
+      "width": 1440,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%ED%99%9C%EB%8F%99%EC%95%88%EA%B3%BC-%EB%AF%B8%ED%99%95%EC%9D%B8-%EB%B2%94%EC%9C%84",
+        "label": "활동안 한 행과 전문을 글로 읽기",
+        "width": 1440
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%ED%99%9C%EB%8F%99%EC%95%88%EA%B3%BC-%EB%AF%B8%ED%99%95%EC%9D%B8-%EB%B2%94%EC%9C%84",
+        "anchor": "활동안과-미확인-범위",
+        "anchorExists": true,
+        "anchorY": 24.015625,
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "documentWidth": 1440
+      }
+    },
+    {
+      "slide": 15,
+      "width": 1440,
+      "departure": {
+        "href": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D%EC%9D%98-%EA%B7%BC%EA%B1%B0-%ED%99%95%EC%9D%B8",
+        "label": "확인 질문과 원자료를 글로 읽기",
+        "width": 1440
+      },
+      "destination": {
+        "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D%EC%9D%98-%EA%B7%BC%EA%B1%B0-%ED%99%95%EC%9D%B8",
+        "anchor": "선택의-근거-확인",
+        "anchorExists": true,
+        "anchorY": 24.0234375,
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "documentWidth": 1440
+      }
+    }
+  ],
+  "tables": [
+    {
+      "key": "plan-change",
+      "anchor": "계획이-바뀐-근거",
+      "clientWidth": 358,
+      "scrollWidth": 620,
+      "before": 0,
+      "keyboardScrollLeft": 33.5,
+      "after": 262
+    },
+    {
+      "key": "activity",
+      "anchor": "활동안과-미확인-범위",
+      "clientWidth": 358,
+      "scrollWidth": 620,
+      "before": 0,
+      "keyboardScrollLeft": 36.5,
+      "after": 262
+    }
+  ],
+  "selectionComparisons": [
+    {
+      "width": 390,
+      "sourceLength": 359,
+      "DOMLength": 359,
+      "selectedLength": 358,
+      "onlyFinalLFOmitted": true,
+      "allContentCharactersEqual": true
+    },
+    {
+      "width": 1440,
+      "sourceLength": 359,
+      "DOMLength": 359,
+      "selectedLength": 358,
+      "onlyFinalLFOmitted": true,
+      "allContentCharactersEqual": true
+    }
+  ],
+  "navigationActual": [
+    {
+      "slide": 1,
+      "hash": "#1",
+      "theme": "stage"
+    },
+    {
+      "slide": 2,
+      "hash": "#2",
+      "theme": "stage"
+    },
+    {
+      "slide": 3,
+      "hash": "#3",
+      "theme": "stage"
+    },
+    {
+      "slide": 4,
+      "hash": "#4",
+      "theme": "stage"
+    },
+    {
+      "slide": 5,
+      "hash": "#5",
+      "theme": "stage"
+    },
+    {
+      "slide": 6,
+      "hash": "#6",
+      "theme": "stage"
+    },
+    {
+      "slide": 7,
+      "hash": "#7",
+      "theme": "stage"
+    },
+    {
+      "slide": 8,
+      "hash": "#8",
+      "theme": "stage"
+    },
+    {
+      "slide": 9,
+      "hash": "#9",
+      "theme": "stage"
+    },
+    {
+      "slide": 10,
+      "hash": "#10",
+      "theme": "stage"
+    },
+    {
+      "slide": 11,
+      "hash": "#11",
+      "theme": "stage"
+    },
+    {
+      "slide": 12,
+      "hash": "#12",
+      "theme": "stage"
+    },
+    {
+      "slide": 13,
+      "hash": "#13",
+      "theme": "stage"
+    },
+    {
+      "slide": 14,
+      "hash": "#14",
+      "theme": "stage"
+    },
+    {
+      "slide": 15,
+      "hash": "#15",
+      "theme": "stage"
+    },
+    {
+      "slide": 16,
+      "hash": "#16",
+      "theme": "stage"
+    },
+    {
+      "slide": 17,
+      "hash": "#17",
+      "theme": "stage"
+    },
+    {
+      "slide": 18,
+      "hash": "#18",
+      "theme": "stage"
+    },
+    {
+      "slide": 19,
+      "hash": "#19",
+      "theme": "stage"
+    },
+    {
+      "slide": 20,
+      "hash": "#20",
+      "theme": "stage"
+    }
+  ],
+  "overviewActual": {
+    "count": 20,
+    "selected": 11
+  },
+  "homeEndBasis": "check-actions.mjs의실제#1/#20대기후deck-end.txt20장DOM.요약bool만의추론아님."
+}

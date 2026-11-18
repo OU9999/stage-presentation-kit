@@ -1,0 +1,30 @@
+{
+  "checkpoint": "main-04",
+  "reviewer": "/root/creative_quality_manager/reading_critic",
+  "reviewedAt": "2026-11-13T11:42:01.413762+00:00",
+  "manualStatus": "needs-changes",
+  "formalApprovalClaim": false,
+  "counts": {
+    "1440": {
+      "approved": 13,
+      "needs-changes": 0,
+      "unreviewed": 7
+    },
+    "390": {
+      "approved": 13,
+      "needs-changes": 1,
+      "unreviewed": 6
+    }
+  },
+  "initialJudgment": "8음절분리/15literal**는 새 실제390에서 해소.3은 스터디어절 보존 뒤 골랐다.’만의 새 서술어 꼬리행으로 needs-changes.",
+  "newDirectObservations": "native3906절·두표양끝4PNG·선택PNG·새읽기대표8PNG. 기존 main03 전40 실독은 대응40 바이트동일/현재 영향이유를 명시해 재사용하며 새전40직독으로 표현하지 않음.",
+  "pending": "양폭12클릭 전체·요청선택 문자 검증/팩 전문 접근/전체 동작은 미완결. auto-scroll3초 도구 중단과 환경자원관측을 제품 가독성 또는 전체 동작 성공으로 포장하지 않음.",
+  "nextOwner": "root가 재개하는 기존 native 읽기 담당",
+  "nextAction": "원문18px를 지키며 이 메모를 골랐다의 한 의미구만 좁게 교정한 새 native390/현재입력·양폭12동작/표/선택을 다음 회차에 직접 인수",
+  "rawScopes": [
+    "research/llm-wiki-keynote-reset-20261113/review/main-04/read-1440.reviews.json",
+    "research/llm-wiki-keynote-reset-20261113/review/main-04/read-390.reviews.json"
+  ],
+  "presentationExchange": "A1920은 전20동일바이트+대표4새실독을 명시했고1280은미확인. A발표상태·이유는 변경하지 않으며 native3/동작을 면책하지 않음.",
+  "productWrites": 0
+}

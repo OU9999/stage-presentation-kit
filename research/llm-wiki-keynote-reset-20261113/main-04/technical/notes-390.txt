@@ -1,0 +1,640 @@
+[p1 "LLM Wiki 키노트 해설 — LLM Wiki · 내 자료를 AI와 함께 정리하는 방법" | space "LLM Wiki 키노트 미감 재설계"(89): 1 managed, 0 untracked — p1* "LLM Wiki 키노트 해설 — LLM Wiki · 내 자료를 AI와 함께 정리하는 방법"]
+root
+  anchor [ref=509, loc=href:/presentations/llm-wiki/materials/keynote-notes.html#material-content, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#material-content]
+    text "본문으로 이동"
+  container
+    anchor [ref=510, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+      text "ou-presentation"
+      text "학습 자료"
+    container "발표와 학습 자료"
+      anchor [ref=511, url=http://127.0.0.1:4336/presentations/llm-wiki/index.html]
+        text "발표"
+      anchor [ref=512, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html]
+        text "슬라이드 읽기"
+      anchor [ref=513, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+        text "자료 모음"
+  container
+    container
+      container [ref=514]
+        text "목차와 다른 자료"
+      container
+        container "자료 목록"
+          unordered_list
+            list_item
+              anchor [ref=515, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+                text "LLM Wiki 학습 자료"
+            list_item
+              anchor [ref=516, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html]
+                text "LLM Wiki 키노트 해설"
+            list_item
+              anchor [ref=517, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/study-guide.html]
+                text "LLM Wiki 혼자 공부하기"
+            list_item
+              anchor [ref=518, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/speaker-script.html]
+                text "LLM Wiki 키노트 대본"
+            list_item
+              anchor [ref=519, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/reference-library.html]
+                text "원문 읽기 안내와 용어 모음"
+            list_item
+              anchor [ref=520, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/workshop.html]
+                text "LLM Wiki 예제 읽기와 선택 심화"
+            list_item
+              anchor [ref=521, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/demo-log.html]
+                text "실제 파일 읽기와 교정 실행 기록"
+            list_item
+              anchor [ref=522, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/session-plan.html]
+                text "입문자와 함께 읽는 15분 LLM Wiki 활동"
+            list_item
+              anchor [ref=523, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/visual-appendix.html]
+                text "원본 그림과 상세 자료"
+            list_item
+              anchor [ref=524, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/diagram-reading.html]
+                text "도식의 대상과 관계 읽기"
+        container "이 문서의 목차"
+          heading
+            text "이 문서에서"
+          unordered_list
+            list_item
+              anchor [ref=525, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%A0%95%EC%9D%98%EC%99%80-%EA%B0%9C%EC%9D%B8-%EB%A7%A5%EB%9D%BD]
+                text "정의와 개인 맥락"
+            list_item
+              anchor [ref=526, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D-%EC%9D%B4%EC%9C%A0-%EB%A9%94%EB%AA%A8]
+                text "선택 이유 메모"
+            list_item
+              anchor [ref=527, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%9B%90%EC%9E%90%EB%A3%8C%EC%99%80-%EC%9E%91%EC%97%85-%EC%95%BD%EC%86%8D]
+                text "원자료와 작업 약속"
+            list_item
+              anchor [ref=528, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B2%80%EC%83%89%EA%B3%BC-%EC%A7%80%EC%86%8D-%EB%AC%B8%EC%84%9C]
+                text "검색과 지속 문서"
+            list_item
+              anchor [ref=529, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%9A%94%EC%95%BD%EA%B3%BC-%EA%B8%B0%EC%A1%B4-%EB%AC%B8%EC%84%9C%EC%9D%98-%EA%B4%80%EA%B3%84]
+                text "요약과 기존 문서의 관계"
+            list_item
+              anchor [ref=530, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%B8-%EB%AC%B4%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84]
+                text "세 무방향 관계"
+            list_item
+              anchor [ref=531, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%8B%A4%EC%84%AF-%EA%B4%80%EA%B3%84]
+                text "다섯 관계"
+            list_item
+              anchor [ref=532, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%9B%90%EC%9E%90%EB%A3%8C%EC%99%80-%EC%A0%95%EB%A6%AC%ED%95%9C-%EC%9D%B4%ED%95%B4]
+                text "원자료와 정리한 이해"
+            list_item
+              anchor [ref=533, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0]
+                text "계획이 바뀐 근거"
+            list_item
+              anchor [ref=534, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%82%AC%EB%9E%8C%EC%9D%98-%EC%84%A0%ED%83%9D%EA%B3%BC-%EA%B8%B0%EB%A1%9D]
+                text "사람의 선택과 기록"
+            list_item
+              anchor [ref=535, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%ED%99%9C%EB%8F%99%EC%95%88%EA%B3%BC-%EB%AF%B8%ED%99%95%EC%9D%B8-%EB%B2%94%EC%9C%84]
+                text "활동안과 미확인 범위"
+            list_item
+              anchor [ref=536, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%ED%99%95%EC%9D%B8%EA%B3%BC-%EC%9C%A0%EC%A7%80]
+                text "확인과 유지"
+            list_item
+              anchor [ref=537, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D%EC%9D%98-%EA%B7%BC%EA%B1%B0-%ED%99%95%EC%9D%B8]
+                text "선택의 근거 확인"
+            list_item
+              anchor [ref=538, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80]
+                text "시작 요청과 선택 기준"
+            list_item
+              anchor [ref=539, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EB%8B%A4%EC%9D%8C-%EC%A7%88%EB%AC%B8]
+                text "다음 질문"
+    container
+      container
+        paragraph
+          text "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법"
+        heading
+          text "LLM Wiki 키노트 해설"
+        paragraph
+          text "본편에서 선택한 주장과 그 뒤의 정의·파일·관계·검토 약속을 함께 읽는 공개 정본"
+      container
+        paragraph
+          text "발표는 지금 기억할 주장과 한 자료에 집중합니다. 이 해설은 발표면에서 옮긴 설명을 생략 없이 이어 읽는 공개 자료입니다."
+          anchor [ref=540, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html]
+            text "발표 읽기"
+          text "·"
+          anchor [ref=541, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+            text "학습 자료 목록"
+          text "·"
+          anchor [ref=542, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt]
+            text "설명용 예제 팩 전문"
+          text "·"
+          anchor [ref=543, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/speaker-script.html]
+            text "현재 발표 대본"
+        paragraph
+          text "이 예제의 메모·위키·선택 이유·답은 발표팀의 설명용 구성입니다. 외부 원문의 정확 발췌, 실제 사용자의 직접 기록, 이번 세션의 모델 출력이나 실�..."
+          anchor [ref=544, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/reference-library.html]
+            text "원문과 근거"
+          text "에서 확인합니다."
+        heading
+          text "정의와 개인 맥락"
+        paragraph
+          text "LLM Wiki는 내 자료를 AI와 함께 정리하고 연결하는, 나만의 마크다운 지식 베이스입니다."
+          text "사람이 읽고 고칠 수 있는 문서에 자료의 개념·비교·종합과 근거를 연결하고, 새 자료나 질문에 맞춰 현재 이해를 고칩니다. 마크다운은 글·제목·목�..."
+        paragraph
+          text "개인비서도 내 상황·선호·이전에 선택한 이유를 다시 읽을 수 있어야 맥락을 참고할 수 있습니다."
+          anchor [ref=545, loc=href:https://docs.openclaw.ai/concepts/memory, url=https://docs.openclaw.ai/concepts/memory]
+            text "OpenClaw의 메모리"
+          text "와"
+          anchor [ref=546, loc=href:https://github.com/NousResearch/hermes-agent, url=https://github.com/NousResearch/hermes-agent]
+            text "Hermes"
+          text "는 개인비서형 에이전트의 탐색 예이며 이 발표의 필수 도구나 검증된 효과를 뜻하지 않습니다. LLM Wiki라는 설계 아이디어의 출발은"
+          anchor [ref=547, loc=href:https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f, url=https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f]
+            text "Karpathy의 글"
+          text "입니다."
+        paragraph
+          text "같은 문서를 함께 편집한다는 말에는 서로 다른 책임이 있습니다. 사람은 누구를 위해 무엇을 만들지 목적을 정하고, 생각과 판단·선택 이유를 직접 �..."
+        paragraph
+          text "다시 쓸 목적의 예는 “LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶다”입니다. 이 목적과 “AI가 내 자료를 좀 더 잘 이해해 줬�..."
+          anchor [ref=548, loc=href:/presentations/llm-wiki/read.html#3, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html#3]
+            text "현재 본편의 선택 이유 메모"
+          text "과"
+          anchor [ref=549, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%82%AC%EB%9E%8C%EC%9D%98-%EC%84%A0%ED%83%9D%EA%B3%BC-%EA%B8%B0%EB%A1%9D]
+            text "선택·기록의 책임"
+          text "을 함께 읽습니다."
+        heading
+          text "선택 이유 메모"
+        paragraph
+          text "목적과 맥락 — 사람이 채울 선택 이유의 예"
+        paragraph
+          text "‘LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서 이 메모를 골랐다.’"
+        paragraph
+          text "현재 선택 이유 자료면은"
+          text "raw/context-note.md"
+          text "의 위 구절을 정확 발췌한 재구성입니다. 발표팀 구성 예이며"
+          text "실제 사용자의 직접 기록이나 모델 출력이 아닙니다."
+          text "짧은 지위 표지는 원문 작성 주체를 없애는 뜻이 아닙니다. 정확 발췌의 전체 맥락은"
+          anchor [ref=550, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt]
+            text "예제 팩"
+          text "에서 같은 경로 제목으로 바로 찾을 수 있습니다."
+        heading
+          text "원자료와 작업 약속"
+        paragraph
+          text "같은 예제 팩에는 ‘목적과 맥락’·‘검색과 비교’·‘지식의 활용’이라는 세 자작 주제 메모가 있습니다."
+          text "raw/"
+          text "는 원자료와 사람이 남긴 선택 이유를 보존하는 자리,"
+          text "wiki/"
+          text "는 정리하고 갱신할 이해,"
+          text "rules.md"
+          text "는 두 영역을 다룰 작업 약속입니다. 이 이름은 설명용 구성 예이며 모든 도구가 따라야 하는 필수 규격은 아닙니다."
+        region "표 가로 스크롤" [ref=551]
+          table
+            table_row
+              table_cell
+                text "파일·문서"
+              table_cell
+                text "읽을 내용과 역할"
+            table_row
+              table_cell
+                text "raw/context-note.md"
+              table_cell
+                text "‘목적과 맥락’: 목적·선택 이유·개념 연결·남은 질문"
+            table_row
+              table_cell
+                text "raw/retrieval-note.md"
+              table_cell
+                text "‘검색과 비교’: 검색·지속 문서·모델 학습·에이전트 판단의 구분과 병행"
+            table_row
+              table_cell
+                text "raw/synthesis-note.md"
+              table_cell
+                text "‘지식의 활용’: 사람의 입력·종합·결과 제작·검토·다음 질문"
+            table_row
+              table_cell
+                text "raw/study-retro.md"
+              table_cell
+                text "나중에 추가하는 입문자·준비된 팩·15분 활동이라는 가상 조건"
+            table_row
+              table_cell
+                text "wiki/sources/*.md"
+              table_cell
+                text "각 자료의 요지를 다시 찾는 자료 요약과 원자료 근거"
+            table_row
+              table_cell
+                text "wiki/concepts/llm-wiki.md"
+                text "·"
+                text "retrieval.md"
+              table_cell
+                text "여러 자료의 공통 개념과 적용 범위"
+            table_row
+              table_cell
+                text "wiki/comparisons/rag-vs-wiki.md"
+              table_cell
+                text "같은 기준의 차이와 우리 선택 기준"
+            table_row
+              table_cell
+                text "wiki/syntheses/study-plan.md"
+              table_cell
+                text "여러 자료·조건을 엮은 현재 계획"
+            table_row
+              table_cell
+                text "wiki/questions/first-study.md"
+              table_cell
+                text "질문에 읽은 근거와 검토할 답"
+            table_row
+              table_cell
+                text "wiki/outputs/study-session-plan.md"
+                text "·"
+                text "wiki/reviews/study-session-plan.md"
+              table_cell
+                text "사용할 활동안과 확인할 항목"
+            table_row
+              table_cell
+                text "wiki/index.md"
+                text "·"
+                text "wiki/log.md"
+              table_cell
+                text "문서를 찾는 목차·링크와 바뀐 이유"
+        paragraph
+          text "실제 전문은 한 텍스트 팩의 경로별 구간입니다. 위 이름이 각각 별도 공개"
+          text ".md"
+          text "파일로 등록되어 있다는 뜻은 아닙니다."
+          anchor [ref=552, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt]
+            text "팩 전문"
+          text "을 열어 경로 제목으로 찾을 수 있습니다. 같은 경로의 ‘처음’과 ‘갱신’은 한 논리 파일의 전후 상태입니다."
+        paragraph
+          text "작업할 때 지킬 네 약속은"
+          text "원자료 보존 / 근거 연결 / 관련 문서 갱신 / 중요한 결과 확인"
+          text "입니다. raw를 없애고 wiki로 대체하지 않습니다. 실제 읽은 자료의 위치를 남기고, 새 자료와 관련된 기존 설명·비교·계획·질문·목차·로그를 살펴봅�..."
+        heading
+          text "검색과 지속 문서"
+        paragraph
+          text "중심 작업의 비교축은"
+          text "이번 질문에 필요한 근거를 검색해 답하기"
+          text "와"
+          text "사람이 다시 읽을 연결 문서를 작성하고 유지하기"
+          text "입니다. RAG는 외부 자료를 찾아 생성의 입력 문맥에 사용하는 패턴입니다. LLM Wiki는 사람이 읽는 지속 문서 층을 둡니다. 두 방식은 함께 쓸 수 있고, 규..."
+        region "표 가로 스크롤" [ref=553]
+          table
+            table_row
+              table_cell
+                text "살펴볼 점"
+              table_cell
+                text "RAG 구성"
+              table_cell
+                text "작은 LLM Wiki"
+            table_row
+              table_cell
+                text "중심 작업"
+              table_cell
+                text "자료를 검색해 답하기"
+              table_cell
+                text "문서를 정리하고 연결하기"
+            table_row
+              table_cell
+                text "준비할 것"
+              table_cell
+                text "검색 방법·색인 등 설계"
+              table_cell
+                text "파일·목차·링크부터 시작"
+            table_row
+              table_cell
+                text "질문할 때"
+              table_cell
+                text "찾은 근거를 참고"
+              table_cell
+                text "정리한 문서와 원자료를 참고"
+            table_row
+              table_cell
+                text "유지할 것"
+              table_cell
+                text "검색 품질·자료 변경"
+              table_cell
+                text "문서 내용·연결·자료 변경"
+        paragraph
+          text "같은 질문은 “다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?”입니다. RAG 경로는 같은 세 메모에서 지금 필요한 부분을 찾아 이번 답의 입력 문맥으로..."
+        paragraph
+          text "검색 유무·문서 개수 하나로 도입을 결정하지 않습니다. Agentic RAG의 검색 판단, 파인튜닝의 파라미터·어댑터 최적화와 파일 편집도 구별합니다. 정확�..."
+          anchor [ref=554, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/reference-library.html]
+            text "기술 근거와 범위"
+          text "·"
+          anchor [ref=555, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0]
+            text "현재 계획의 변경과 근거"
+        heading
+          text "요약과 기존 문서의 관계"
+        paragraph
+          text "자료 요약은 한 자료를 다시 찾는 입구이고, 개념 문서는 여러 자료의 공통 주제를 설명합니다."
+          text "‘목적과 맥락’ 한 메모의 요약은 자료를 넣는 목적과 선택 이유를 되짚습니다. ‘LLM Wiki 개념’ 문서는 세 메모를 함께 읽어 자료 사이 관계와 현재 �..."
+        paragraph
+          text "개념 문서의 세 근거 메모 이름은"
+          text "목적과 맥락 · 검색과 비교 · 지식의 활용"
+          text "입니다. 현재 관계 장면에서 작은"
+          text "자료 요약은 원자료의 입구"
+          text ", 큰 두 영역은 함께 읽고 고칠 기존 문서입니다."
+        paragraph
+          text "한 자료 요약의 전문은 팩의"
+          text "wiki/sources/context-note.md"
+          text ", 여러 자료의 개념은"
+          text "wiki/concepts/llm-wiki.md"
+          text "구간입니다. 요약의 근거는"
+          text "raw/context-note.md"
+          text "이며 개념의 근거는"
+          text "raw/context-note.md"
+          text "·"
+          text "raw/retrieval-note.md"
+          text "·"
+          text "raw/synthesis-note.md"
+          text "입니다. 개념 문서 전문의 첫 문장은 “LLM이 원자료의 개념·비교·종합을 연결 문서로 작성하고 갱신하는 지식관리 패턴이다.”입니다. 이 역시 발표�..."
+          anchor [ref=556, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EA%B3%84%ED%9A%8D%EC%9D%B4-%EB%B0%94%EB%80%90-%EA%B7%BC%EA%B1%B0]
+            text "같은 계획이 바뀐 두 구절"
+          text "을 자료로 선택했습니다. 두 문서의 차이와 전문·근거는"
+          anchor [ref=557, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt]
+            text "같은 팩 전문"
+          text "에서 경로 제목으로 읽습니다."
+        paragraph
+          text "같은 세 메모를 읽고 내용을 나누며, 자료 요약을 입구로 관련된"
+          text "기존 개념·비교와 현재 계획의 관계를 보완"
+          text "합니다. 새 자료와 사람이 남긴 선택 이유를 보존하고, 관련 문서·목차·링크도 확인해 고칩니다. Ingest는 이 읽기·나누기·연결 보완의 작업을 가리킵�..."
+        heading
+          text "세 무방향 관계"
+        paragraph
+          text "현재 본편의 작은"
+          text "자료 요약은 원자료의 입구"
+          text "이고 큰"
+          text "기존 개념·비교와 현재 계획은 함께 읽고 고칠 기존 문서"
+          text "입니다. 현재 관계 장면의 세 관계는 다음과 같습니다."
+        ordered_list
+          list_item
+            text "자료 요약 ↔ 개념·비교"
+          list_item
+            text "자료 요약 ↔ 현재 계획"
+          list_item
+            text "개념·비교 ↔ 현재 계획"
+        paragraph
+          text "작은 자료 요약이 입구이고 두 큰 문서가 갱신 대상이어도 이 선은 무방향 관계입니다. 요약→개념→계획 파일을 순서대로 새로 만드는 필수 생성 절�..."
+          anchor [ref=558, loc=href:/presentations/llm-wiki/read.html#7, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html#7]
+            text "현재 관계 장면"
+          text "·"
+          anchor [ref=559, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/diagram-reading.html#10%EC%9E%A5-%EC%9D%BD%EA%B3%A0-%EB%82%98%EB%88%84%EA%B3%A0-%EC%97%B0%EA%B2%B0-%EA%B0%B1%EC%8B%A0%ED%95%98%EA%B8%B0]
+            text "역사 10장 도식의 설명과 원본"
+        region "표 가로 스크롤" [ref=560]
+          table
+            table_row
+              table_cell
+                text "문서"
+              table_cell
+                text "함께 읽는 관계"
+            table_row
+              table_cell
+                text "LLM Wiki 개념"
+              table_cell
+                text "RAG와 위키 비교 · 우리 스터디 계획"
+            table_row
+              table_cell
+                text "RAG와 위키 비교"
+              table_cell
+                text "개념의 차이 · 계획의 선택 기준"
+            table_row
+              table_cell
+                text "우리 스터디 계획"
+              table_cell
+                text "개념과 비교를 우리 조건에 적용"
+        paragraph
+          text "이 표는 원래 12장에 있던 관계 설명 전문입니다. 목차와 링크는 관련 개념과 원자료를 다시 찾는 길입니다. 새 자료가 오면 문서와 관계를 보완합니다."
+        heading
+          text "다섯 관계"
+        paragraph
+          text "역사 3장의 ‘자료에서 연결된 지식으로’에는 별도의 다섯 관계가 있습니다."
+          text "개념 ↔ 현재 이해 / 비교 ↔ 현재 이해 / 현재 이해 ↔ 계획 / 현재 이해 ↔ 다음 질문 / 계획 ↔ 다음 질문"
+          text "입니다. 출발인 세 메모를 보존하고, 자료의 개념·비교를 현재 이해와 다음 질문에 다시 쓰는 뜻입니다. 앞의 세 관계와 합쳐 수를 바꾸거나 자동 갱신..."
+          anchor [ref=561, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/diagram-reading.html#3%EC%9E%A5-%EC%9E%90%EB%A3%8C%EC%97%90%EC%84%9C-%EC%97%B0%EA%B2%B0%EB%90%9C-%EC%A7%80%EC%8B%9D%EC%9C%BC%EB%A1%9C]
+            text "역사 3장 도식의 설명·원본"
+          text "·"
+          anchor [ref=562, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/visual-appendix.html]
+            text "전체 19도식"
+        heading
+          text "원자료와 정리한 이해"
+        paragraph
+          text "새 조건은"
+          text "입문자와 함께, 준비된 읽기 팩으로, 15분 활동을 한다"
+          text "는 가상 조건입니다. 이 조건에서 “설치보다 문서 읽기부터”를 첫 행동으로 고른 예입니다."
+          text "15분이라는 시간만으로 자동 도출한 답이 아닙니다."
+          text "원래 목적은 설치보다 자료 사이 연결의 근거를 찾고 싶다는 것이고, 준비된 팩이 있으며 입문자가 함께한다는 조건도 판단에 들어갑니다."
+        paragraph
+          text "raw/study-retro.md"
+          text "는 조건을 보존합니다. 그 조건을 읽어 개념의 ‘우리 적용 범위’는 입문 설명부터, 비교의 ‘선택 기준’은 작은 자료 묶음부터, 계획의 ‘작업과 시..."
+        paragraph
+          text "이후 “입문자와 15분 활동은 무엇부터 할까?”를 묻고 개념·비교·현재 계획을 다시 읽어 답합니다. 준비된 문서를 읽고 관계의 근거 한 개를 찾는 선�..."
+          anchor [ref=563, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt]
+            text "예제 팩"
+          text ", 발표의 선택은"
+          anchor [ref=564, loc=href:/presentations/llm-wiki/read.html#8, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html#8]
+            text "현재 첫 선택 장면"
+          text "에서 읽습니다. 이번에 실제 활동·모델 실행·생성 시간·학습효과를 측정한 결과가 아닙니다."
+        heading
+          text "계획이 바뀐 근거"
+        paragraph
+          text "현재 본편의 계획 자료면은"
+          anchor [ref=565, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt]
+            text "예제 팩"
+          text "의 같은 논리 파일"
+          text "wiki/syntheses/study-plan.md"
+          text "에서 다음 두 구절을 정확 발췌한 재구성입니다."
+        region "표 가로 스크롤" [ref=566]
+          table
+            table_row
+              table_cell
+                text "같은 계획의 상태"
+              table_cell
+                text "정확 발췌"
+            table_row
+              table_cell
+                text "처음 계획"
+              table_cell
+                text "참여자 배경과 활동 길이는 아직 미정이다."
+            table_row
+              table_cell
+                text "갱신한 계획"
+              table_cell
+                text "가상 조건: 입문자 포함, 준비된 세 메모 중 두 개 선택, 별도 활동 15분."
+        paragraph
+          text "두 문장은 별도 사람의 실행 결과를 비교한 것이 아니라 하나의 설명용 계획 문서의 전후 상태입니다. 근거는"
+          text "raw/study-retro.md"
+          text "의 가상 모임 조건입니다. 입문자·준비된 팩·15분이라는 조건을 읽어 현재 계획에 반영한 예이며, 보편 개념의 정의나 필수 생성 순서를 바꾼 것이 아�..."
+          text "실제 사용자 기록·모델 출력·참가자 활동·시간·학습효과를 측정한 결과가 아닙니다."
+          anchor [ref=567, loc=href:/presentations/llm-wiki/read.html#6, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html#6]
+            text "현재 계획 장면"
+        heading
+          text "사람의 선택과 기록"
+        paragraph
+          text "자료를 모두 넣기 전에 두 가지를 묻습니다. “앞으로 만들 결과와 관련된 자료인가?”, “가치 있다고 느낀 이유를 직접 적을 수 있는가?” 판단했다�..."
+        paragraph
+          text "예제의 선택 이유는 “LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서 이 메모를 골랐다”입니다. 맥락은 다음 AI 스터디 준비, ..."
+        paragraph
+          text "누구를 위해 무엇을 만들지 목적은 사람이 정합니다. 감정·생각·판단·선택 이유는 사람이 직접 남깁니다."
+          text "AI가 추정한 내 생각을 내가 쓴 기록으로 바꾸지 않습니다."
+        region "표 가로 스크롤" [ref=568]
+          table
+            table_row
+              table_cell
+                text "기록의 지위"
+              table_cell
+                text "남기는 방식"
+            table_row
+              table_cell
+                text "원문"
+              table_cell
+                text "실제 읽은 자료의 구절·위치와 작성 주체를 남깁니다. 본편의 “본편 뒤 별도 활동은 15분만 배정한다.”는"
+                text "raw/study-retro.md"
+                text "구절입니다. 이 예제의 raw 메모는 발표팀의 자작 설명입니다."
+            table_row
+              table_cell
+                text "사람의 직접 기록"
+              table_cell
+                text "내 경험·감정·생각·판단·선택 이유임을 표시하고 내가 씁니다."
+            table_row
+              table_cell
+                text "AI의 요약·해석"
+              table_cell
+                text "생성한 종합과 추정임을 표시하고 원문·사람 기록과 구분하며 근거를 확인합니다."
+        paragraph
+          text "활용은 공부의 개념·남은 질문, 프로젝트의 배경·결정 이유, 글과 발표의 근거 재사용입니다. 사람이 같은 마크다운 문서를"
+          text "읽고·고치고·다시 쓰기"
+          text "쉽다는 것이 장점입니다. 벡터 검색을 쓰면 사람이 원문을 읽을 수 없다는 뜻이 아니며, 실제 성과나 생산성 향상을 이 사례가 보장하지 않습니다."
+        heading
+          text "활동안과 미확인 범위"
+        paragraph
+          text "목표는"
+          text "한 관계의 근거를 찾아 읽고, 다음 질문과 확인할 점을 남기기"
+          text "입니다. 선택한 두 메모는 목적·선택 이유·개념 연결을 읽을"
+          text "raw/context-note.md"
+          text "와, 사람의 입력·결과 제작·검토를 읽을"
+          text "raw/synthesis-note.md"
+          text "입니다."
+          text "raw/retrieval-note.md"
+          text "는 전체 비교의 공통 근거로 돌아가 읽습니다. 준비물은 세 메모·관련 개념·비교·현재 계획 예시와 자기 노트입니다."
+        region "표 가로 스크롤" [ref=569]
+          table
+            table_row
+              table_cell
+                text "활동 시간"
+              table_cell
+                text "할 일"
+              table_cell
+                text "남길 것"
+            table_row
+              table_cell
+                text "0~2분"
+              table_cell
+                text "왜 이 자료를 다시 쓰려는지 질문 정하기"
+              table_cell
+                text "목적 한 문장"
+            table_row
+              table_cell
+                text "2~6분"
+              table_cell
+                text "선택한 두 읽기 메모 확인하기"
+              table_cell
+                text "메모 요지와 내 선택 이유"
+            table_row
+              table_cell
+                text "6~11분"
+              table_cell
+                text "원자료→개념→비교의 연결 한 개를 따라 읽기"
+              table_cell
+                text "관계를 뒷받침하는 근거 위치"
+            table_row
+              table_cell
+                text "11~15분"
+              table_cell
+                text "후속 질문에 근거를 연결하고 남은 확인 적기"
+              table_cell
+                text "질문·검토할 답·모르는 점"
+        paragraph
+          text "2+4+5+4=15분은 계획 배분이며 실측 시간이 아닙니다. 표의 ‘원자료→개념→비교’는 이번 읽기 활동에서 따라 읽을 순서로, 본편 그림의 세 무방향 관�..."
+        paragraph
+          text "본편 자료면은 실제 제공 활동안에서 한 행을 고른"
+          text "설명용 재구성"
+          text "이며 실제 도구 UI 캡처가 아닙니다. 확인할 수 있는 것은 시간 배분·선택 이유·근거 위치·작성 주체·문서 연결입니다. 실제 모임에서 필요한 쪽을 찾..."
+          anchor [ref=570, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/session-plan.html]
+            text "활동안 전체와 다음 확인"
+          text "·"
+          anchor [ref=571, loc=href:/presentations/llm-wiki/read.html#13, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html#13]
+            text "현재 활동안 발췌"
+        heading
+          text "확인과 유지"
+        paragraph
+          text "AI가 만든 연결은 원자료가 뒷받침하는지 확인합니다. 읽기 좋은 문장이라도 조건이 다른 자료를 하나로 묶었거나 원자료가 말하지 않은 관계일 수 있�..."
+        paragraph
+          text "위험은 내용 오류뿐 아니라"
+          text "새 자료와 예전 설명의 충돌"
+          text ","
+          text "문서·링크를 유지하는 시간"
+          text "에도 있습니다. 중요한 결론은 원자료와 대조하고, 오래된 설명·서로 다른 조건·끊긴 링크를 찾아 바뀐 이유를 남깁니다. 작업 결과에는 바꾼 파일·�..."
+        heading
+          text "선택의 근거 확인"
+        paragraph
+          text "현재 확인 장면의 “"
+          text "15분이니까 ‘읽기부터’?"
+          text "”는 발표용 확인 질문입니다. 자동 결론의 근거를 실제 원자료가 충분히 뒷받침하는지 묻는 장치이며 실제 참가자나 모델이 말한 기록이 아닙니다. �..."
+          text "목적도 확인합니다"
+          text "입니다."
+        paragraph
+          text "바로 대조할 원자료는"
+          anchor [ref=572, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt]
+            text "예제 팩"
+          text "의"
+          text "raw/study-retro.md"
+          text "입니다. 문서 ‘다음 모임의 조건 메모’의 정확한 구절은 다음과 같습니다."
+        paragraph
+          text "도구 설치보다 목차와 연결을 따라 다음 질문의 근거를 찾는 경험을 먼저 하고 싶다."
+        paragraph
+          text "구절은"
+          text "전체 가상 조건"
+          text "인 입문자·준비된 팩·15분과 함께 읽습니다. 시간만으로 첫 행동이 자동 결정된다고 결론내릴 수 없고, 자료 연결의 근거를 찾고 싶다는 목적도 선택�..."
+          anchor [ref=573, loc=href:/presentations/llm-wiki/read.html#15, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html#15]
+            text "현재 확인 장면"
+        heading
+          text "시작 요청과 선택 기준"
+        region "표 가로 스크롤" [ref=574]
+          table
+            table_row
+              table_cell
+                text "지금 상황"
+              table_cell
+                text "먼저 해 볼 일"
+            table_row
+              table_cell
+                text "같은 주제를 반복해서 묻는다"
+              table_cell
+                text "작은 연결 문서를 만들고 다음 질문에서 다시 쓰는지 확인"
+            table_row
+              table_cell
+                text "일회성 질문이다"
+              table_cell
+                text "간단한 노트와 검색으로 충분한지 먼저 판단"
+            table_row
+              table_cell
+                text "자료가 많고 찾기가 어렵다"
+              table_cell
+                text "검색과 목차를 함께 설계하고 필요한 근거를 찾는지 확인"
+            table_row
+              table_cell
+                text "자료가 자주 바뀐다"
+              table_cell
+                text "관련 문서·링크를 누가 확인할지와 유지 비용을 먼저 정하기"
+        paragraph
+          text "규모만으로 위키가 필요하다고 결론내리지 않습니다. 아래 전문을 복사해 자기 목적·파일 경로·직접 쓴 기록으로 바꿉니다. 이는 요청 예문이며 실행..."
+        region "코드 가로 스크롤" [ref=575, loc=role:region[name="코드 가로 스크롤"]]
+          text "목적: [누구를 위해 무엇을 만들고, 다음에 어떤 질문에 다시 쓸지] 자료: [같은 주제의 자료 두 개와 실제 파일 경로] 내 기록: [내가 직접 쓴 생각·판단..."
+        paragraph
+          text "처음에는 목적을 적고, 자료 두 개를 골라 연결하고, 중요한 내용을 확인하고, 다음 질문에서 다시 읽습니다. 설치나 특정 도구 선택이 선행 의무는 아�..."
+          anchor [ref=576, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/workshop.html]
+            text "예제 읽기와 해설"
+          text "에서 준비된 팩으로 이어갈 수 있습니다."
+        heading
+          text "다음 질문"
+        paragraph
+          text "어떤 자료 두 개로, 어떤 질문을 다시 묻고 싶나요?"
+          text "자료를 많이 모으는 것보다 자기 다음 질문에서 다시 읽을 수 있는지 확인하는 것이 시작점입니다."
+          anchor [ref=577, loc=href:/presentations/llm-wiki/read.html#19, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html#19]
+            text "현재 마감"
+          text "·"
+          anchor [ref=578, loc=href:/presentations/llm-wiki/read.html#20, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html#20]
+            text "질문과 자료 경로"
+      container
+        anchor [ref=579, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+          text "자료 모음으로"
+        text "·"
+        anchor [ref=580, url=http://127.0.0.1:4336/presentations/llm-wiki/index.html]
+          text "발표로 돌아가기"

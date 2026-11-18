@@ -1,0 +1,5 @@
+Error: The complete request was not selectable
+    at file:////[eval2]:71:120
+[ego-browser:notice] Ego Lite update is available (current 0.6.2.9). Finish the current browser task, then ask the user before running `ego-browser upgrade`; re-read the ego-browser Skill afterward.
+
+ego's nodejs process exited with code 1.

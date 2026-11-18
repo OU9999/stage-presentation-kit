@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="640" viewBox="0 0 1440 640" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+  <title id="title">선택의 근거로 돌아가 읽는 조건 메모</title>
+  <desc id="desc">예제 팩 raw/study-retro.md의 다음 모임의 조건 메모에서 한 문장을 정확 발췌했다. 이 구절은 설치보다 자료 연결의 근거를 읽고 싶다는 목적을 보여 준다. 입문자·준비된 팩·15분 활동이라는 전체 가상 조건과 함께 읽으며 시간만으로 선택이 자동 도출된다고 뜻하지 않는다. 실제 참가자 기록이나 실행 성과가 아니다.</desc>
+  <style>text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.7px}.identity{font-size:36px;fill:#a4a4a1}.title{font-size:52px;font-weight:500;fill:#f6f6f4}.copy{font-size:60px;font-weight:500;fill:#f6f6f4}.source{font-size:38px;fill:#c0c0bc}</style>
+  <rect x="72" y="100" width="1296" height="430" rx="2" fill="#171919"/>
+  <text class="identity" x="128" y="173">발표팀의 설명용 가상 조건 · 발췌</text>
+  <text class="title" x="128" y="263">다음 모임의 조건 메모</text>
+  <text class="copy" style="font-size:52px" x="128" y="376"><tspan x="128">도구 설치보다 목차와 연결을 따라</tspan><tspan x="128" dy="78">다음 질문의 근거를 찾는 경험을 먼저 하고 싶다.</tspan></text>
+</svg>

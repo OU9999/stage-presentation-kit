@@ -1,0 +1,67 @@
+{
+  "verifiedAt": "2026-11-13T07:44:34.167Z",
+  "head": "fca44a239eec36fcd3a96fd4997adc6b03d020cd",
+  "protectedFiles": {
+    "checked": 141,
+    "changed": []
+  },
+  "currentCaptureInputs": {
+    "checked": 87,
+    "mismatches": [],
+    "slides": 26
+  },
+  "reportLinks": {
+    "documents": 9,
+    "checked": 119,
+    "missing": [],
+    "whitespace": []
+  },
+  "capability": {
+    "summary": {
+      "checks": 13,
+      "passed": 13,
+      "failed": 0
+    },
+    "executedAt": "2026-11-13T07:34:27.890Z",
+    "verifiedBy": "Final source/result inspected by root; execution was contributor A, not re-run by root"
+  },
+  "currentTypography": {
+    "status": "pass",
+    "summary": {
+      "checks": 83,
+      "invalid": 0,
+      "regressions": 0
+    },
+    "visualApproval": false
+  },
+  "auditValidity": {
+    "exitCode": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 5 · 미확인 0 (5개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  "requireApproved": {
+    "exitCode": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 5 · 미확인 0 (5개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  "reportFingerprints": {
+    "research/llm-wiki-design-audit-20261113/RESULT.md": "af334340826d3e0b4a88c7b54da4f9bd9828abd6aa74491fd3f26e24ccac8b53",
+    "research/llm-wiki-design-audit-20261113/design/DESIGN_SYNTHESIS.md": "92a11bce75ff350d067af1682aef9f76fd2fada7a993be8bb9a92afed5d11af7",
+    "research/llm-wiki-design-audit-20261113/design/MANAGER_HANDOFF.md": "d6da97d72d473b5a77bf5d50fb7d18a2e7d408afe06315864933d5e6e51ce415",
+    "research/llm-wiki-design-audit-20261113/design/NARRATIVE_GOVERNANCE_AUDIT.md": "585d003d70acded4806818d968f77b2034293313b800839c591d7781f6564226",
+    "research/llm-wiki-design-audit-20261113/design/VISUAL_AUDIT.md": "6681f705d06b7fb88547240d2824e7a327d3b8ef3dba3fc190d640e6d9aba4a7",
+    "research/llm-wiki-design-audit-20261113/engineering/ENGINEERING_SYNTHESIS.md": "f2f51cfa67580192a19d2cbc29ee989d65c0670e02c4a3491db4517d1c839d63",
+    "research/llm-wiki-design-audit-20261113/engineering/INPUT_RENDERER_AUDIT.md": "809c4a99d054b93422f61ee7069e4bad1f3add9a18d2edc0f74dd291aebd231d",
+    "research/llm-wiki-design-audit-20261113/engineering/MANAGER_HANDOFF.md": "a10f27857b6a7168e07e4160118248a765811d4d57d92c0a427f87c1be9a9741",
+    "research/llm-wiki-design-audit-20261113/engineering/QA_WORKFLOW_AUDIT.md": "54e037c2451a5e85d680c90ab8863e0518bd2e934a990c80fec810907963e2c5"
+  },
+  "scope": "Read-only audit and correction plan. No manuscript, asset, runtime, canonical policy or prior approval was changed.",
+  "browserCleanup": {
+    "taskSpaceId": 81,
+    "resolveResult": "task space not found: 81",
+    "finishInvoked": false,
+    "finishConfirmed": false,
+    "existingUserSpace80Operated": false,
+    "limitation": "TaskSpace was no longer available at final cleanup. Cause unknown; no new TaskSpace or ownership bypass was used. Saved screenshot/input files were verified independently."
+  }
+}

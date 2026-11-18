@@ -1,0 +1,54 @@
+{
+  "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/session-plan.html#15%EB%B6%84-%EC%A7%84%ED%96%89%EC%95%88",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "clientWidth": 358,
+  "scrollWidth": 620,
+  "scrollLeft": 262,
+  "overflowX": "auto",
+  "container": {
+    "x": 16,
+    "right": 374,
+    "y": 117.609375,
+    "bottom": 504.578125
+  },
+  "rightColumn": [
+    {
+      "text": "남길 것",
+      "x": 162.5859375,
+      "right": 374,
+      "y": 119.609375,
+      "bottom": 208.703125
+    },
+    {
+      "text": "목적 한 문장",
+      "x": 162.5859375,
+      "right": 374,
+      "y": 208.703125,
+      "bottom": 266.796875
+    },
+    {
+      "text": "메모 요지와 내 선택 이유",
+      "x": 162.5859375,
+      "right": 374,
+      "y": 266.796875,
+      "bottom": 324.890625
+    },
+    {
+      "text": "관계를 뒷받침하는 근거 위치",
+      "x": 162.5859375,
+      "right": 374,
+      "y": 324.890625,
+      "bottom": 414.484375
+    },
+    {
+      "text": "질문·검토할 답·모르는 점",
+      "x": 162.5859375,
+      "right": 374,
+      "y": 414.484375,
+      "bottom": 503.578125
+    }
+  ]
+}

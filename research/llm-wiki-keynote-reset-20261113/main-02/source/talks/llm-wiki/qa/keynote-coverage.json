@@ -1,0 +1,914 @@
+{
+  "format": "llm-wiki-keynote-coverage-v1",
+  "status": "current",
+  "sourceOriginal": "research/llm-wiki-keynote-reset-20261113/before/talks/llm-wiki/slides.md",
+  "notes": "talks/llm-wiki/materials/keynote-notes.md",
+  "speaker": "talks/llm-wiki/materials/speaker-script.md",
+  "topics": [
+    {
+      "originalSlide": 1,
+      "meaning": "이름과 주제",
+      "presentation": [
+        "name"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "정의와-개인-맥락",
+        "required": [
+          "내 자료를 AI와 함께 정리하고 연결하는"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "이름",
+        "required": [
+          "내 자료를 AI와 함께"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "정의와-개인-맥락",
+        "required": [
+          "내 자료를 AI와 함께 정리하고 연결하는"
+        ]
+      }
+    },
+    {
+      "originalSlide": 2,
+      "meaning": "정의와 마크다운",
+      "presentation": [
+        "definition"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "정의와-개인-맥락",
+        "required": [
+          "나만의 마크다운 지식 베이스",
+          "마크다운은 글"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "정의",
+        "required": [
+          "나만의 마크다운 지식 베이스",
+          "마크다운은 글"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "정의와-개인-맥락",
+        "required": [
+          "나만의 마크다운 지식 베이스",
+          "마크다운은 글"
+        ]
+      }
+    },
+    {
+      "originalSlide": 3,
+      "meaning": "다시 쓸 목적과 원래 다섯 관계",
+      "presentation": [
+        "reuse",
+        "concept-document",
+        "relations"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "다섯-관계",
+        "required": [
+          "개념 ↔ 현재 이해",
+          "비교 ↔ 현재 이해",
+          "현재 이해 ↔ 계획",
+          "현재 이해 ↔ 다음 질문",
+          "계획 ↔ 다음 질문"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "기존-문서의-관계",
+        "required": [
+          "다섯 관계",
+          "개념↔현재 이해",
+          "계획↔다음 질문"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "다섯-관계",
+        "required": [
+          "개념 ↔ 현재 이해",
+          "비교 ↔ 현재 이해",
+          "현재 이해 ↔ 계획",
+          "현재 이해 ↔ 다음 질문",
+          "계획 ↔ 다음 질문"
+        ]
+      }
+    },
+    {
+      "originalSlide": 4,
+      "meaning": "개인 맥락",
+      "presentation": [
+        "selection-note",
+        "human-responsibility"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "정의와-개인-맥락",
+        "required": [
+          "내 상황·선호·이전에 선택한 이유"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "목적과-선택-이유",
+        "required": [
+          "내 상황·선호·이전에 선택한 이유"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "정의와-개인-맥락",
+        "required": [
+          "내 상황·선호·이전에 선택한 이유"
+        ]
+      }
+    },
+    {
+      "originalSlide": 5,
+      "meaning": "raw wiki rules와 네 약속",
+      "presentation": [
+        "selection-note",
+        "concept-document"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "원자료와-작업-약속",
+        "required": [
+          "raw/context-note.md",
+          "wiki/index.md",
+          "wiki/log.md",
+          "원자료 보존 / 근거 연결 / 관련 문서 갱신 / 중요한 결과 확인"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "개념-문서와-원자료",
+        "required": [
+          "raw/",
+          "wiki/",
+          "rules.md",
+          "원자료 보존·근거 연결·관련 문서 갱신·중요한 결과 확인"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "원자료와-작업-약속",
+        "required": [
+          "raw/context-note.md",
+          "wiki/index.md",
+          "wiki/log.md",
+          "원자료 보존 / 근거 연결 / 관련 문서 갱신 / 중요한 결과 확인"
+        ]
+      }
+    },
+    {
+      "originalSlide": 6,
+      "meaning": "사람과 AI의 공동 편집",
+      "presentation": [
+        "selection-note",
+        "human-responsibility",
+        "shared-reuse"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "정의와-개인-맥락",
+        "required": [
+          "사람은 누구를 위해 무엇을 만들지 목적을 정하고",
+          "AI는 허용한 자료를 읽고"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "읽고-고치고-다시-쓰기",
+        "required": [
+          "사람은 목적·판단을 직접 적고",
+          "AI는 자료를 읽고"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "정의와-개인-맥락",
+        "required": [
+          "사람은 누구를 위해 무엇을 만들지 목적을 정하고",
+          "AI는 허용한 자료를 읽고"
+        ]
+      }
+    },
+    {
+      "originalSlide": 7,
+      "meaning": "RAG 비교의 전체 축과 병행",
+      "presentation": [
+        "rag-comparison"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "검색과-지속-문서",
+        "required": [
+          "중심 작업",
+          "준비할 것",
+          "질문할 때",
+          "유지할 것",
+          "함께 쓸 수"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "검색과-지속-문서",
+        "required": [
+          "두 방식은 함께 쓸 수",
+          "준비할 것·질문할 때·유지할 것"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "검색과-지속-문서",
+        "required": [
+          "중심 작업",
+          "준비할 것",
+          "질문할 때",
+          "유지할 것",
+          "함께 쓸 수"
+        ]
+      }
+    },
+    {
+      "originalSlide": 8,
+      "meaning": "현재 질문의 근거 찾기",
+      "presentation": [
+        "rag-comparison",
+        "concept-document"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "검색과-지속-문서",
+        "required": [
+          "지금 필요한 부분을 찾아 이번 답의 입력 문맥"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "검색과-지속-문서",
+        "required": [
+          "필요한 근거를 찾아 현재 질문에 답하기"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "검색과-지속-문서",
+        "required": [
+          "지금 필요한 부분을 찾아 이번 답의 입력 문맥"
+        ]
+      }
+    },
+    {
+      "originalSlide": 9,
+      "meaning": "정리한 문서를 다시 읽기",
+      "presentation": [
+        "concept-document",
+        "relations"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "검색과-지속-문서",
+        "required": [
+          "LLM Wiki 개념",
+          "RAG와 위키 비교",
+          "우리 스터디 계획",
+          "필요한 원자료를 다시 읽습니다"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "다음-질문에-재사용",
+        "required": [
+          "개념·비교·현재 계획",
+          "다음 질문에서 다시 읽습니다"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "검색과-지속-문서",
+        "required": [
+          "LLM Wiki 개념",
+          "RAG와 위키 비교",
+          "우리 스터디 계획",
+          "필요한 원자료를 다시 읽습니다"
+        ]
+      }
+    },
+    {
+      "originalSlide": 10,
+      "meaning": "Ingest와 별도 세 무방향 관계",
+      "presentation": [
+        "relations"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "세-무방향-관계",
+        "required": [
+          "자료 요약 ↔ 개념·비교",
+          "자료 요약 ↔ 현재 계획",
+          "개념·비교 ↔ 현재 계획",
+          "필수",
+          "자동"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "기존-문서의-관계",
+        "required": [
+          "세 무방향 관계",
+          "관련 문서·목차·링크",
+          "필수 생성 순서"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "세-무방향-관계",
+        "required": [
+          "자료 요약 ↔ 개념·비교",
+          "자료 요약 ↔ 현재 계획",
+          "개념·비교 ↔ 현재 계획",
+          "필수",
+          "자동"
+        ]
+      }
+    },
+    {
+      "originalSlide": 11,
+      "meaning": "한 자료 요약과 여러 자료의 개념",
+      "presentation": [
+        "concept-document"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "요약과-기존-문서의-관계",
+        "required": [
+          "자료 요약은 한 자료",
+          "개념 문서는 여러 자료",
+          "wiki/sources/context-note.md",
+          "wiki/concepts/llm-wiki.md"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "개념-문서와-원자료",
+        "required": [
+          "자료 요약과 다릅니다",
+          "개념은 여러 자료의 공통 주제"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "요약과-기존-문서의-관계",
+        "required": [
+          "자료 요약은 한 자료",
+          "개념 문서는 여러 자료",
+          "wiki/sources/context-note.md",
+          "wiki/concepts/llm-wiki.md"
+        ]
+      }
+    },
+    {
+      "originalSlide": 12,
+      "meaning": "세 문서의 관계표와 탐색",
+      "presentation": [
+        "concept-document",
+        "relations"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "요약과-기존-문서의-관계",
+        "required": [
+          "LLM Wiki 개념",
+          "RAG와 위키 비교",
+          "우리 스터디 계획",
+          "목차와 링크"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "기존-문서의-관계",
+        "required": [
+          "세 문서 관계표 전문",
+          "관련 문서·목차·링크"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "요약과-기존-문서의-관계",
+        "required": [
+          "LLM Wiki 개념",
+          "RAG와 위키 비교",
+          "우리 스터디 계획",
+          "목차와 링크"
+        ]
+      }
+    },
+    {
+      "originalSlide": 13,
+      "meaning": "질문에 읽고 답을 저장",
+      "presentation": [
+        "concept-document",
+        "condition-choice"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "검색과-지속-문서",
+        "required": [
+          "답을 우리 목적과 조건에 맞추고",
+          "확인한 뒤 문서로 남길"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "조건과-첫-선택",
+        "required": [
+          "문서와 원자료를 다시 읽어 답하고",
+          "확인 후 남깁니다"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "검색과-지속-문서",
+        "required": [
+          "답을 우리 목적과 조건에 맞추고",
+          "확인한 뒤 문서로 남길"
+        ]
+      }
+    },
+    {
+      "originalSlide": 14,
+      "meaning": "새 조건으로 관련 문서 변경",
+      "presentation": [
+        "condition-choice",
+        "evidence-check"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "원자료와-정리한-이해",
+        "required": [
+          "입문자와 함께, 준비된 읽기 팩으로, 15분",
+          "우리 적용 범위",
+          "선택 기준",
+          "작업과 시간",
+          "시간만으로 자동 도출"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "조건과-첫-선택",
+        "required": [
+          "입문자와 함께 준비된 읽기 팩으로 15분",
+          "시간만으로 자동 도출",
+          "우리 적용 범위·비교의 선택 기준"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "원자료와-정리한-이해",
+        "required": [
+          "입문자와 함께, 준비된 읽기 팩으로, 15분",
+          "우리 적용 범위",
+          "선택 기준",
+          "작업과 시간",
+          "시간만으로 자동 도출"
+        ]
+      }
+    },
+    {
+      "originalSlide": 15,
+      "meaning": "선택 판단 후 두 자료부터",
+      "presentation": [
+        "selection-judgment",
+        "two-sources"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "앞으로 만들 결과와 관련된 자료인가",
+          "가치 있다고 느낀 이유",
+          "자료 두 개"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "자료-선택의-판단",
+        "required": [
+          "앞으로 만들 결과와 관련된 자료인가",
+          "자료 두 개"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "앞으로 만들 결과와 관련된 자료인가",
+          "가치 있다고 느낀 이유",
+          "자료 두 개"
+        ]
+      }
+    },
+    {
+      "originalSlide": 16,
+      "meaning": "쓰임에서 정리 기준",
+      "presentation": [
+        "selection-note",
+        "selection-judgment"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "맥락은 다음 AI 스터디 준비",
+          "앞으로의 쓰임은 한 쪽 진행안"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "자료-선택의-판단",
+        "required": [
+          "무엇을 위해 남길지",
+          "정리 기준"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "맥락은 다음 AI 스터디 준비",
+          "앞으로의 쓰임은 한 쪽 진행안"
+        ]
+      }
+    },
+    {
+      "originalSlide": 17,
+      "meaning": "내 맥락을 정리하는 어려움",
+      "presentation": [
+        "selection-judgment"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "완벽한 온톨로지",
+          "다시 묻고 싶은 질문"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "자료-선택의-판단",
+        "required": [
+          "완벽한 분류보다",
+          "다시 물을 질문"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "완벽한 온톨로지",
+          "다시 묻고 싶은 질문"
+        ]
+      }
+    },
+    {
+      "originalSlide": 18,
+      "meaning": "사람의 책임과 기록의 세 지위",
+      "presentation": [
+        "human-responsibility",
+        "record-provenance"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "감정·생각·판단·선택 이유",
+          "원문",
+          "사람의 직접 기록",
+          "AI의 요약·해석"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "기록의-지위",
+        "required": [
+          "원문·사람의 직접 기록·AI의 요약과 해석",
+          "실제 사용자 기록이 아닙니다"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "감정·생각·판단·선택 이유",
+          "원문",
+          "사람의 직접 기록",
+          "AI의 요약·해석"
+        ]
+      }
+    },
+    {
+      "originalSlide": 19,
+      "meaning": "공부 프로젝트 글 활용",
+      "presentation": [
+        "applications"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "공부의 개념·남은 질문",
+          "프로젝트의 배경·결정 이유",
+          "글과 발표의 근거 재사용"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "활용",
+        "required": [
+          "공부에서는",
+          "프로젝트에서는",
+          "글과 발표에서는"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "공부의 개념·남은 질문",
+          "프로젝트의 배경·결정 이유",
+          "글과 발표의 근거 재사용"
+        ]
+      }
+    },
+    {
+      "originalSlide": 20,
+      "meaning": "15분 활동안 전문과 한계",
+      "presentation": [
+        "activity-excerpt"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "활동안과-미확인-범위",
+        "required": [
+          "0~2분",
+          "2~6분",
+          "6~11분",
+          "11~15분",
+          "실측 시간이 아닙니다",
+          "미확인"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "활동안",
+        "required": [
+          "0~2분",
+          "2~6분",
+          "6~11분",
+          "11~15분",
+          "학습효과는 미확인"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "활동안과-미확인-범위",
+        "required": [
+          "0~2분",
+          "2~6분",
+          "6~11분",
+          "11~15분",
+          "실측 시간이 아닙니다",
+          "미확인"
+        ]
+      }
+    },
+    {
+      "originalSlide": 21,
+      "meaning": "읽고 고치고 다시 쓰는 장점",
+      "presentation": [
+        "shared-reuse"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "읽고·고치고·다시 쓰기",
+          "벡터 검색"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "읽고-고치고-다시-쓰기",
+        "required": [
+          "경험과 판단",
+          "다음 질문에 다시 씁니다",
+          "벡터 검색"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "사람의-선택과-기록",
+        "required": [
+          "읽고·고치고·다시 쓰기",
+          "벡터 검색"
+        ]
+      }
+    },
+    {
+      "originalSlide": 22,
+      "meaning": "오류 변화 충돌 유지 시간",
+      "presentation": [
+        "evidence-check",
+        "result-check"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "확인과-유지",
+        "required": [
+          "내용 오류",
+          "충돌",
+          "유지하는 시간",
+          "원자료와 대조"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "근거-확인과-유지",
+        "required": [
+          "잘못된 요약·근거 없는 연결",
+          "충돌",
+          "유지 시간"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "확인과-유지",
+        "required": [
+          "내용 오류",
+          "충돌",
+          "유지하는 시간",
+          "원자료와 대조"
+        ]
+      }
+    },
+    {
+      "originalSlide": 23,
+      "meaning": "상황별 선택 표",
+      "presentation": [
+        "situation-choice"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "시작-요청과-선택-기준",
+        "required": [
+          "같은 주제를 반복",
+          "일회성 질문",
+          "자료가 많고",
+          "자료가 자주 바뀐다"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "상황별-첫-행동",
+        "required": [
+          "다시 묻는 주제",
+          "한 번 확인할 질문",
+          "누가 확인할지"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "시작-요청과-선택-기준",
+        "required": [
+          "같은 주제를 반복",
+          "일회성 질문",
+          "자료가 많고",
+          "자료가 자주 바뀐다"
+        ]
+      }
+    },
+    {
+      "originalSlide": 24,
+      "meaning": "복사할 첫 요청과 확인 약속",
+      "presentation": [
+        "first-request",
+        "result-check",
+        "audience-question"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "시작-요청과-선택-기준",
+        "required": [
+          "목적:",
+          "자료:",
+          "내 기록:",
+          "작업 위치:",
+          "원자료는 보존",
+          "바꾼 파일",
+          "모르는 점"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "첫-요청",
+        "required": [
+          "허용한 작업 위치·자료 경로·rules.md",
+          "내가 직접 쓴 생각·판단·선택 이유",
+          "복사할 전문"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "시작-요청과-선택-기준",
+        "required": [
+          "목적:",
+          "자료:",
+          "내 기록:",
+          "작업 위치:",
+          "원자료는 보존",
+          "바꾼 파일",
+          "모르는 점"
+        ]
+      }
+    },
+    {
+      "originalSlide": 25,
+      "meaning": "두 자료부터 시작",
+      "presentation": [
+        "two-sources"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "시작-요청과-선택-기준",
+        "required": [
+          "목적을 적고",
+          "자료 두 개",
+          "중요한 내용을 확인",
+          "다음 질문에서 다시 읽습니다"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "두-자료부터",
+        "required": [
+          "목적을 정하고",
+          "자료 두 개를 연결",
+          "다음 질문에서 다시 읽습니다"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "시작-요청과-선택-기준",
+        "required": [
+          "목적을 적고",
+          "자료 두 개",
+          "중요한 내용을 확인",
+          "다음 질문에서 다시 읽습니다"
+        ]
+      }
+    },
+    {
+      "originalSlide": 26,
+      "meaning": "청중 자기 질문과 자료",
+      "presentation": [
+        "audience-question"
+      ],
+      "notes": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "다음-질문",
+        "required": [
+          "어떤 자료 두 개로, 어떤 질문을 다시 묻고 싶나요"
+        ]
+      },
+      "speaker": {
+        "path": "talks/llm-wiki/materials/speaker-script.md",
+        "anchor": "청중의-다음-질문",
+        "required": [
+          "질문 하나",
+          "자료 두 개",
+          "복사할 첫 요청"
+        ]
+      },
+      "reading": {
+        "path": "talks/llm-wiki/materials/keynote-notes.md",
+        "anchor": "다음-질문",
+        "required": [
+          "어떤 자료 두 개로, 어떤 질문을 다시 묻고 싶나요"
+        ]
+      }
+    }
+  ]
+}

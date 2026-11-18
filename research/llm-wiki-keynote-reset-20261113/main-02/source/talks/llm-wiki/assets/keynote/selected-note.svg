@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="640" viewBox="0 0 1440 640" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+  <title id="title">목적과 맥락 메모의 선택 이유</title>
+  <desc id="desc">예제 팩 raw/context-note.md의 사람이 채울 선택 이유 예문을 정확 발췌해 하나의 문서면으로 재구성했다. 발표팀이 만든 예문이며 실제 사용자의 직접 기록이나 이번 세션의 모델 출력이 아니다.</desc>
+  <style>text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.7px}.identity{font-size:36px;fill:#a4a4a1}.title{font-size:52px;font-weight:500;fill:#f6f6f4}.copy{font-size:60px;font-weight:500;fill:#f6f6f4}.source{font-size:38px;fill:#c0c0bc}</style>
+  <rect x="72" y="60" width="1296" height="510" rx="2" fill="#171919"/>
+  <text class="title" x="128" y="150">목적과 맥락</text>
+  <text class="source" x="128" y="232">사람이 채울 선택 이유의 예</text>
+  <text class="copy" x="128" y="330"><tspan x="128">‘LLM Wiki와 RAG의 차이를 설명하고</tspan><tspan x="128" dy="80">다음 스터디의 진행안을 만들고 싶어서</tspan><tspan x="128" dy="80">이 메모를 골랐다.’</tspan></text>
+  <text class="identity" x="72" y="620">발표팀 구성 예 · 실제 사용자의 직접 기록 아님</text>
+</svg>

@@ -1,0 +1,552 @@
+{
+  "checkedAt": "2026-11-13T12:09:43.419Z",
+  "source": "19670d537a7bb9279169aabb893250fcce8ed540e75dd5fcf574e4794975524f",
+  "slideCount": 20,
+  "currentInputCount": 104,
+  "scopes": [
+    {
+      "scope": "present-1280",
+      "qa": {
+        "checks": 2149,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "approval": {
+        "valid": true,
+        "reviewedComplete": true,
+        "approved": true,
+        "passed": true,
+        "counts": {
+          "approved": 20,
+          "needs-changes": 0,
+          "unreviewed": 0
+        },
+        "scopeCount": 20,
+        "slideCount": 20
+      },
+      "images": [
+        {
+          "slide": 1,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-01.png",
+          "sha256": "827f895b3b8647478948294c08ef6a27c80b88fc273bfdb26ece9da533973e20"
+        },
+        {
+          "slide": 2,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-02.png",
+          "sha256": "02a1ee6b04ce4b668d054a98b1c70cc757f7690695552f66166de4b6091a6529"
+        },
+        {
+          "slide": 3,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-03.png",
+          "sha256": "b25e8de8fcbe6eb680c6f7a10c5a0831c98f2128eafe775515480d633ea4aa30"
+        },
+        {
+          "slide": 4,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-04.png",
+          "sha256": "8340648c165d2ef601d6617aef920f780a91a5b739cab62d0751af0236c70822"
+        },
+        {
+          "slide": 5,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-05.png",
+          "sha256": "6c2cd44dbd53fb801f4cbc42ce13bcbd796532a31c16ce2c8b9f4104553cd1a9"
+        },
+        {
+          "slide": 6,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-06.png",
+          "sha256": "dc196e5d5fa492097b737fdc6f43607f31338caffca548773eafde573e048b7c"
+        },
+        {
+          "slide": 7,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-07.png",
+          "sha256": "0306b7cd75a7c22a3702a3eff657d78b82ca574b78a589fc4c20201f6d1d6594"
+        },
+        {
+          "slide": 8,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-08.png",
+          "sha256": "d6c66d5645b292f864404c702cc0af4b2a56df3deb564a0f89d05d370feefa5e"
+        },
+        {
+          "slide": 9,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-09.png",
+          "sha256": "e656a1a403f4a9c2cd31e0f9f187ac99fbb02a95becbda247a814d0b2a8bc867"
+        },
+        {
+          "slide": 10,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-10.png",
+          "sha256": "00f4dd5394e9a324987e771acf47d33c1b5929f6e6a6334cf40e4c219afc55eb"
+        },
+        {
+          "slide": 11,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-11.png",
+          "sha256": "8fbb3d517916f73beb67f58eebcf90e8d4e89795f786b931351caaa065e34264"
+        },
+        {
+          "slide": 12,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-12.png",
+          "sha256": "1e45e1b5df2d05f48265a6a44b445eff0c19901c876c5f96a9299178d448860e"
+        },
+        {
+          "slide": 13,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-13.png",
+          "sha256": "bcd5d949a738f205bdad61746c1ab16fe58830837de508e8dda7afae6af03d50"
+        },
+        {
+          "slide": 14,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-14.png",
+          "sha256": "a9932149e0e03e7292272f264c2a4f6e21501a64237f491a8bacd5bb827ecc31"
+        },
+        {
+          "slide": 15,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-15.png",
+          "sha256": "4da4d3f4a125a19dc777094894cc78869a28aad2dd767ff94cb71b6538be35a8"
+        },
+        {
+          "slide": 16,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-16.png",
+          "sha256": "cd8ff0c8834e7f2f7759d0f8a71113b09db1874a1cbdb0d80a2648d26c3a6704"
+        },
+        {
+          "slide": 17,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-17.png",
+          "sha256": "82897d14a3688ed5687e2124daf709f94baf140662d5c174129ca72ac4460db4"
+        },
+        {
+          "slide": 18,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-18.png",
+          "sha256": "6a4b1cb540a03ce4cb986a917b20ef14efc943e780658420942697e3fddb8180"
+        },
+        {
+          "slide": 19,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-19.png",
+          "sha256": "d40712a0bc1104ce79f6a5a2c151bf7e91c37da099f3883279f4c21d366da490"
+        },
+        {
+          "slide": 20,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/slide-20.png",
+          "sha256": "6bb17631d0486199b4cfca080413cf68ecf1808885b57a8b2e7bb5c2b6ba7a72"
+        }
+      ]
+    },
+    {
+      "scope": "present-1920",
+      "qa": {
+        "checks": 2149,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "approval": {
+        "valid": true,
+        "reviewedComplete": true,
+        "approved": true,
+        "passed": true,
+        "counts": {
+          "approved": 20,
+          "needs-changes": 0,
+          "unreviewed": 0
+        },
+        "scopeCount": 20,
+        "slideCount": 20
+      },
+      "images": [
+        {
+          "slide": 1,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-01.png",
+          "sha256": "d71a31979fc314c5420c84d3b451ecf6c2bbc4f07a7f8152db83ee859a143581"
+        },
+        {
+          "slide": 2,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-02.png",
+          "sha256": "4c9705f29abdcf662f32041a9919b30b5f3b51486117a41dde5e02da8e230916"
+        },
+        {
+          "slide": 3,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-03.png",
+          "sha256": "c13e94c0ceda72b083b5209d94b51dc9d1f1023c2dcd2b93a45bee0c25e90bec"
+        },
+        {
+          "slide": 4,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-04.png",
+          "sha256": "9bf23d0a66fe544e653e264789d6d26d83b93d1b6b79a1a3327918bd02b3d1ee"
+        },
+        {
+          "slide": 5,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-05.png",
+          "sha256": "f9d148e46771e5943feb342f0dd19e8711b7d7ecc1beb36e748372b9316f24cf"
+        },
+        {
+          "slide": 6,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-06.png",
+          "sha256": "65c3ba69c7eb56b1bcf34496ea5a0c021129df1306e38a93cffbdfd7e8c802a1"
+        },
+        {
+          "slide": 7,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-07.png",
+          "sha256": "c546482cd59c6a6f2c56a9d72f28311de9b56febe2306fae312ee9ada91986af"
+        },
+        {
+          "slide": 8,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-08.png",
+          "sha256": "2687032caa5007aaa6879caa25110a00641c3525b9013ea2900bef8a2b33f1c2"
+        },
+        {
+          "slide": 9,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-09.png",
+          "sha256": "2f5998a08b5d80e094f3138dc96b3a0bd86c141af6be4ec5208a9b7d61e5b95a"
+        },
+        {
+          "slide": 10,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-10.png",
+          "sha256": "1184eaf41df9fbf6b289e787c82a22f4a9404002b62f180c5af4b352fd494b2d"
+        },
+        {
+          "slide": 11,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-11.png",
+          "sha256": "45bb6ccf8f2ad3926a6da49eddec203a544f229a98aa10cf7b37b26edeca1966"
+        },
+        {
+          "slide": 12,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-12.png",
+          "sha256": "85646963e8e4c612cc4ad216210fb5a48d5a45f5c1e98ccb6eb4e28927b99e38"
+        },
+        {
+          "slide": 13,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-13.png",
+          "sha256": "e5a583ecbe8fb7d7eb90fa3cf07c36c9a2368df6c7a4cd71f50e5bdaed248267"
+        },
+        {
+          "slide": 14,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-14.png",
+          "sha256": "f6423a406431b068d3855c37b22d84079496bd8ebb2a0cda0270a09cf95e2ca1"
+        },
+        {
+          "slide": 15,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-15.png",
+          "sha256": "1573c25b84ba0577cb6a3bbd85c84f48f6290d7b1eab470d15448b7c1e10bed4"
+        },
+        {
+          "slide": 16,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-16.png",
+          "sha256": "762ca6159d49ed75b3935dd16ef7aef670921834b7a448417df723e4b6a762b3"
+        },
+        {
+          "slide": 17,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-17.png",
+          "sha256": "0c2330e1ebff69d4619057c0805fe31ff3e6cca7f8c64347538216b30b7304c0"
+        },
+        {
+          "slide": 18,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-18.png",
+          "sha256": "67b2bff4f8eedab58e8e16905bee65e23bafa247ce7fe3e93ec68619214764cf"
+        },
+        {
+          "slide": 19,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-19.png",
+          "sha256": "5a125dfee321334922bb2468f686459d5f0aa8a7c9be4d18d05f5e7023aa2ac1"
+        },
+        {
+          "slide": 20,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/slide-20.png",
+          "sha256": "055ba6a2e6f6df2c60fc7fbef389d292d4563ca95e7f87b7a02277d71df45fb3"
+        }
+      ]
+    },
+    {
+      "scope": "read-1440",
+      "qa": {
+        "checks": 2200,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "approval": {
+        "valid": true,
+        "reviewedComplete": true,
+        "approved": true,
+        "passed": true,
+        "counts": {
+          "approved": 20,
+          "needs-changes": 0,
+          "unreviewed": 0
+        },
+        "scopeCount": 20,
+        "slideCount": 20
+      },
+      "images": [
+        {
+          "slide": 1,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-01.png",
+          "sha256": "c7ae23a84f3b07c825e308ff9e6dd78d9c22d65bea467545a52a53f81f276b7f"
+        },
+        {
+          "slide": 2,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-02.png",
+          "sha256": "34cc0d51701cae6e3732d05aff321ec86a34963436e404e689cf9ecf7e22f2ac"
+        },
+        {
+          "slide": 3,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-03.png",
+          "sha256": "c6c5077d592ec51f9a6c13243c78faf71f482b0db7372f0257ce747c05b23d4f"
+        },
+        {
+          "slide": 4,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-04.png",
+          "sha256": "0b108fe5e4c185baadf46aaf3d04d2e3886f10cbc1a6bcad25d637f51dbdca15"
+        },
+        {
+          "slide": 5,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-05.png",
+          "sha256": "00b27cccb9f0e5e941fb0ee05e133282c7a0d4a2576eda4935a2acb166ce2638"
+        },
+        {
+          "slide": 6,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-06.png",
+          "sha256": "5d30b96aa7335d8d77353299640fb49c151de5af8ad45c4e80e7b988f05acc4c"
+        },
+        {
+          "slide": 7,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-07.png",
+          "sha256": "c626c2904250c40df2cf3750d1a861b550915e1147a642e26cb47bdaaa783f6f"
+        },
+        {
+          "slide": 8,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-08.png",
+          "sha256": "a85fadd229960a5705fd152f517dd20520819ca8d0d180c2c189b9e6eab50237"
+        },
+        {
+          "slide": 9,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-09.png",
+          "sha256": "3da1366e6455e73b19fcaac92cf73b2f5024fd5c3a0709bf27e19eac3b85fa5b"
+        },
+        {
+          "slide": 10,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-10.png",
+          "sha256": "b7b0fab11f6259111cc81cb84dec35ba713fe016402fac5ce9e86f850e8076d4"
+        },
+        {
+          "slide": 11,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-11.png",
+          "sha256": "5401ec42da823181b81a7ae347ab6b2bf068261a3c263a4a1247bd1ca67cecad"
+        },
+        {
+          "slide": 12,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-12.png",
+          "sha256": "ab65d0b0c44a88fb0c7d014b32d9c14e102332a0fa7ee89f0150d111edf78f82"
+        },
+        {
+          "slide": 13,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-13.png",
+          "sha256": "2e99a9bdacec40134c0ef85bdafb0b557e9359a3e3680eee953745fe5fff3465"
+        },
+        {
+          "slide": 14,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-14.png",
+          "sha256": "3810f4d0f6cf7603a8722cd2730c346f46a9f962af4edbbe76ddf47d8ce915c1"
+        },
+        {
+          "slide": 15,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-15.png",
+          "sha256": "305350e63cf67eb99760c97402eacf26444a3124930e9d05e1039f7988558b0d"
+        },
+        {
+          "slide": 16,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-16.png",
+          "sha256": "0ff537a5b063a0ab0e7b20fcccd50e0a06d3c55c343b4bd24eaf7a7bafaae728"
+        },
+        {
+          "slide": 17,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-17.png",
+          "sha256": "912849e7cd8c4a090d3fdfb9c6b658ccd1eae02c5cfc446fbebd380a7f62ed8b"
+        },
+        {
+          "slide": 18,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-18.png",
+          "sha256": "a7f12eb9d33afee1a0792f7fcecfa4fdad5007c0250cccaf95ac0294670a137f"
+        },
+        {
+          "slide": 19,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-19.png",
+          "sha256": "629a1caffb5f9006cd6c07120846b09c7527b58b4c5dabb24c0ff0de89f46d85"
+        },
+        {
+          "slide": 20,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/slide-20.png",
+          "sha256": "5ea6bf04641b6cb1aac478e6842c941b57980904c655b13f760d325a7125b289"
+        }
+      ]
+    },
+    {
+      "scope": "read-390",
+      "qa": {
+        "checks": 2200,
+        "invalid": 0,
+        "regressions": 0
+      },
+      "approval": {
+        "valid": true,
+        "reviewedComplete": true,
+        "approved": true,
+        "passed": true,
+        "counts": {
+          "approved": 20,
+          "needs-changes": 0,
+          "unreviewed": 0
+        },
+        "scopeCount": 20,
+        "slideCount": 20
+      },
+      "images": [
+        {
+          "slide": 1,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-01.png",
+          "sha256": "98f382e3807b739413923e37fcacde83676b5ba19a4f0ae02a91dd424fb9fd93"
+        },
+        {
+          "slide": 2,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-02.png",
+          "sha256": "72a138f4c06de7b5353f88bb2a9f60a1b432fbae847590881f3bab1c1c045e57"
+        },
+        {
+          "slide": 3,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-03.png",
+          "sha256": "cd7d7742d6323dc59a1da8398e25db70248e18f0c2d11e43b939e0098ae12594"
+        },
+        {
+          "slide": 4,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-04.png",
+          "sha256": "8578c39950b423aad6fc9619d5186f4304fd84affed59588b83b5c9860b3c60e"
+        },
+        {
+          "slide": 5,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-05.png",
+          "sha256": "5069f59e8e00445e013bb0afb96fb33d28411205cf0336c7bde341d027eccf68"
+        },
+        {
+          "slide": 6,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-06.png",
+          "sha256": "172156daee676f753dd0657899664358f1b051cca09d50a9a3eac2c9855742fe"
+        },
+        {
+          "slide": 7,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-07.png",
+          "sha256": "549e7126a411a895dffc8a1cbffad6e94bb403a70a6c377b1d604d495203a9e6"
+        },
+        {
+          "slide": 8,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-08.png",
+          "sha256": "87e7d85435702e1586dd32b3a6eb2c66c543c9dcdf90775f0ce04abed6fadfa0"
+        },
+        {
+          "slide": 9,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-09.png",
+          "sha256": "13a422ce4b58eb8920a4d9e886a967813f4e9e1bee73bb6a89282f0fdb09d4eb"
+        },
+        {
+          "slide": 10,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-10.png",
+          "sha256": "7a7068dfc0914f39341d0d6141da99d6d0de361863c8296dd72d77e62fba620b"
+        },
+        {
+          "slide": 11,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-11.png",
+          "sha256": "22fbcf4bf4297055bb5a44806b3bd2695b630c46f4c9f4590d9107facc1043ac"
+        },
+        {
+          "slide": 12,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-12.png",
+          "sha256": "cde6a2f84a97284de7d67fd3946c30ebbac022239c681c613ae14feffa8f0ae9"
+        },
+        {
+          "slide": 13,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-13.png",
+          "sha256": "8cb8e449159c327984b4b855cb1efb1c444eca5556ce13e475914f8bb0d04492"
+        },
+        {
+          "slide": 14,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-14.png",
+          "sha256": "8008b40986f726cdaf4173b7c158f67a2fd79d4325b854318f0426c7592555a1"
+        },
+        {
+          "slide": 15,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-15.png",
+          "sha256": "bfc0c4458478af6145c725614ebce39edf7cd4b83cec8bd76ac97ae03ac7042b"
+        },
+        {
+          "slide": 16,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-16.png",
+          "sha256": "ad31a0634ae6451bc4181be4fde3bf1ea79d227c80538d5cf772463df1a64a0a"
+        },
+        {
+          "slide": 17,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-17.png",
+          "sha256": "b0b1b451e2ca2c928c237860a4d7e0d661b8b18026a57563f6c672aad723ca6b"
+        },
+        {
+          "slide": 18,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-18.png",
+          "sha256": "8a8b9750969166d8705827b4982a03224612701493039c87c8acc5b0161b8420"
+        },
+        {
+          "slide": 19,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-19.png",
+          "sha256": "2cdad2e777fcf330630e08c24f19104aca48b6485a453e1a164ee9487ce3255f"
+        },
+        {
+          "slide": 20,
+          "path": "research/llm-wiki-keynote-reset-20261113/main-05/read-390/slide-20.png",
+          "sha256": "6a95d6b0c0606591f213bad7a684b65c7f435f24192cacf5ef4c667c9f71875d"
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "originalAssets": {
+      "count": 71,
+      "changed": 0
+    },
+    "demoArchiveMemo": {
+      "count": 26,
+      "changed": 0
+    },
+    "frozenPrototypeFiles": {
+      "count": 40,
+      "changed": 0
+    },
+    "rejectedApprovalsAndBaseline": true
+  },
+  "actions": {
+    "directSupport": 12,
+    "materialTables": [
+      {
+        "key": "plan-change",
+        "anchor": "계획이-바뀐-근거",
+        "clientWidth": 358,
+        "scrollWidth": 620,
+        "before": 0,
+        "keyboardScrollLeft": 33.5,
+        "after": 262
+      },
+      {
+        "key": "activity",
+        "anchor": "활동안과-미확인-범위",
+        "clientWidth": 358,
+        "scrollWidth": 620,
+        "before": 0,
+        "keyboardScrollLeft": 36.5,
+        "after": 262
+      }
+    ],
+    "links": 4,
+    "selections": 2,
+    "navigation": 20,
+    "overview": 20
+  },
+  "nativeQuote": {
+    "fontSize": "18px",
+    "lines": [
+      "‘LLM Wiki와 RAG의 차이를 설명하고 다음",
+      "스터디의 진행안을 만들고 싶어서",
+      "이 메모를 골랐다.’"
+    ],
+    "wholeObjectAndPredicate": true
+  },
+  "relocatedTopics": 26
+}

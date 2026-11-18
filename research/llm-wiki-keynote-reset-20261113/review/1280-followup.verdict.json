@@ -1,0 +1,134 @@
+{
+  "schema": "stage-keynote-prototype-followup-v1",
+  "reviewer": "/root/creative_quality_manager/keynote_critic",
+  "reviewedAt": "2026-11-13T09:55:00Z",
+  "status": "keep-candidate",
+  "approvalClaim": false,
+  "scope": {
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "devicePixelRatio": 1
+    },
+    "stage": {
+      "width": 917.333251953125,
+      "height": 516
+    },
+    "targets": [
+      {
+        "round": "R02",
+        "slides": [
+          1,
+          3
+        ]
+      },
+      {
+        "round": "R03",
+        "slides": [
+          1
+        ]
+      },
+      {
+        "round": "R04",
+        "slides": [
+          1
+        ]
+      }
+    ]
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "c28cb774ff7544506f2c02913d4588578a045ea98509ac3ea7475cc164f3a062"
+  },
+  "sources": [
+    {
+      "round": "R02",
+      "path": "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r02/slides.md",
+      "sha256": "b2f9de95d60b8026b937f760c4c54387584df257f2d47599cce0486d7b3510c7"
+    },
+    {
+      "round": "R03",
+      "path": "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r03/slides.md",
+      "sha256": "b2d7d500d30b471a81d0a49f91c9c95f62f3b69be647cab13ecd997f490ef9ff"
+    },
+    {
+      "round": "R04",
+      "path": "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r04/slides.md",
+      "sha256": "7f6644533b9c9784d6db44bfd262fb80bea513cf21bbc5329c8d6150c016df0d"
+    }
+  ],
+  "captureManifests": [
+    {
+      "round": "R02",
+      "path": "research/llm-wiki-keynote-reset-20261113/evidence/r02/present-1280/manifest.json",
+      "sha256": "66f2899c73bb345ab20c83b6ce2309b75bff68ed64f551be89a9366e7bbcfe06"
+    },
+    {
+      "round": "R03",
+      "path": "research/llm-wiki-keynote-reset-20261113/evidence/r03/present-1280/manifest.json",
+      "sha256": "7c3061596a38f4a1f47099f68853cb39808a883ca951208c70e90cf6a9d281da"
+    },
+    {
+      "round": "R04",
+      "path": "research/llm-wiki-keynote-reset-20261113/evidence/r04/present-1280/manifest.json",
+      "sha256": "de888596c7b67a19750df00f76c05154a941a467b8750630941d9a838fa14937"
+    }
+  ],
+  "report": "research/llm-wiki-keynote-reset-20261113/review/1280-followup.md",
+  "judgmentOrder": "Directly opened the four current 1280 PNGs and sent immediate judgments before reading their manifests or hash observations.",
+  "reviews": [
+    {
+      "round": "R02",
+      "slide": 1,
+      "status": "keep-candidate",
+      "role": "message",
+      "reason": "The single sentence remains immediately readable without competing explanation.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r02/present-1280/slide-01.png",
+        "sha256": "8340648c165d2ef601d6617aef920f780a91a5b739cab62d0751af0236c70822"
+      }
+    },
+    {
+      "round": "R02",
+      "slide": 3,
+      "status": "keep-candidate",
+      "role": "relation",
+      "reason": "The small summary entrance, two larger existing documents, and all three boundary-attached undirected edges remain one relation system.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r02/present-1280/slide-03.png",
+        "sha256": "93343ac425ca2cf89921b9bcdd164cac59cd9359938f989a4aa0c73f51f6928c"
+      }
+    },
+    {
+      "round": "R03",
+      "slide": 1,
+      "status": "keep-candidate",
+      "role": "choice reconstruction",
+      "reason": "The complete action remains immediate; beginner/fifteen-minute context and installation contrast remain subordinate.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r03/present-1280/slide-01.png",
+        "sha256": "019cc860f17ff6f2c54c287e166e93328c99d678b39a2b43ad8f18879d3deeb5"
+      }
+    },
+    {
+      "round": "R04",
+      "slide": 1,
+      "status": "keep-candidate",
+      "role": "illustrative document excerpt",
+      "reason": "Title, original fields, and one activity row remain one document object. The right three-line modifier phrase remains coherent at this actual size; no additional typography rejection.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r04/present-1280/slide-01.png",
+        "sha256": "35dfe2cd6942b1e62027ca4200a8c2e8317a179b54b8288d1a030e5722730a5f"
+      }
+    }
+  ],
+  "closedObservation": "R04's right three-line phrase has now been directly checked at 1280 without an additional change request.",
+  "nextOwner": "/root",
+  "nextAction": "Migrate selected role-specific patterns and meaning coverage, then capture and independently review actual new product inputs. Preserve these prototype rounds and initial judgments.",
+  "limitations": [
+    "Prototype candidates only; no formal --require-approved presentation approval",
+    "No full-deck/reading/motion/other-OS/projector/user acceptance",
+    "No permission to replace all source documents/UI with summary statements or impose one template"
+  ]
+}

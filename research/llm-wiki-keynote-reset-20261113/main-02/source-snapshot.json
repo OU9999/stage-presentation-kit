@@ -1,0 +1,421 @@
+{
+  "revision": "e96eaa434f12335639de675aa4b8b042345fafa06ea476ef11283a6f921a16b8",
+  "inputs": {
+    "app.js": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/app.js",
+      "sha256": "66951d0918bcaa0343bd7b335d0b4c528aa2d77ce1b3a536ed4f9c1f2a31522c"
+    },
+    "blocks.css": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/blocks.css",
+      "sha256": "a55a412ea27eae15e1989f97cf185246c3e3484245a12879fc81021155a77ee4"
+    },
+    "blocks.js": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/blocks.js",
+      "sha256": "f52a9e150693221a453603f87a9bb9d0396dddbd270e6363932d40a6934b785b"
+    },
+    "deck-model.js": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/deck-model.js",
+      "sha256": "d3916f51955b84b34e2f3de8e89c9dbfb6996595fa57b80623c524462b027f17"
+    },
+    "lib/cli.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/lib/cli.cjs",
+      "sha256": "00269d067db65fe862ff1b2e1ac9f707bbb538a0181e008668ee0ab478919f02"
+    },
+    "lib/config.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/lib/config.cjs",
+      "sha256": "5819c28492869f79beb50791d38b25f8c2519cd495b0651f41b27ef43d50161f"
+    },
+    "lib/direct-deck.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/lib/direct-deck.cjs",
+      "sha256": "eafd0a08c64f7817af847d5d949a560401ab3f76427017b2db3e509cfc1ec26e"
+    },
+    "lib/generated-files.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/lib/generated-files.cjs",
+      "sha256": "8788d4e635bb228aff5f980f6247f8d807be43c3b3f365246a3b57efac216131"
+    },
+    "lib/index.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/lib/index.cjs",
+      "sha256": "89a291177bd446c0f57de982e78e8c819008afd91dfad3ed78f73caa3cf0a40a"
+    },
+    "lib/markdown-deck.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/lib/markdown-deck.cjs",
+      "sha256": "3baa6afc2c8c52ca365b63dcaabdf5cd690b43b6b1052292e0bd27d9ace449ef"
+    },
+    "lib/markdown-document.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/lib/markdown-document.cjs",
+      "sha256": "9711d1299b54f4900eb8b0cb41360e8591054ebb7286b261810d7725544e7380"
+    },
+    "lib/materials.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/lib/materials.cjs",
+      "sha256": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab"
+    },
+    "lib/project.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/lib/project.cjs",
+      "sha256": "0f079e83ce04f11ad0f29a82321a5d129afe00643f308d2fb76f9074a5007741"
+    },
+    "lib/runtime.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/lib/runtime.cjs",
+      "sha256": "768d08cbbf531b8364dacb3e2820a00dce183c5be0d0929138fe06693024a3bb"
+    },
+    "lib/scaffold.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/lib/scaffold.cjs",
+      "sha256": "6c97d5c7ef49e25835b038676912e3c00372fc41060f9b7228d4d6c9a5dba5e1"
+    },
+    "ou.config.json": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/ou.config.json",
+      "sha256": "41566e632cced20b479a9b36f442ffc201792b91961fae9c7ca892c409ebc564"
+    },
+    "package-lock.json": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/package-lock.json",
+      "sha256": "83ae0d778aefce7adfbb252e0d1c0dac30c1854c9779ba55221b6481484250f9"
+    },
+    "scripts/build-examples.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/build-examples.cjs",
+      "sha256": "6d7e93368dd0e4cc5694e297c63949f7f3cb9531f9bdae48514cbc186b7356ec"
+    },
+    "scripts/build-site.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/build-site.cjs",
+      "sha256": "d7bff784345440104a0af79fab09f3ed2508a3239ab4af1650963f69fb05d78c"
+    },
+    "scripts/direct-deck.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/direct-deck.cjs",
+      "sha256": "719479de1e02cec7ea9e44d6447601b26ecec1721d836dbaf552117bcc2495d4"
+    },
+    "scripts/generated-files.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/generated-files.cjs",
+      "sha256": "afd4eacae0e43425f13b6d61fa5f403359dd7c50ec1209d0beaecb01c73a2fe7"
+    },
+    "scripts/llm-wiki-geometry-qa.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/llm-wiki-geometry-qa.cjs",
+      "sha256": "d91c81698e173d6a40ef8e4169a6ff0eec23514aae93520cde32d06c8665967f"
+    },
+    "scripts/llm-wiki-keynote-qa.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/llm-wiki-keynote-qa.cjs",
+      "sha256": "56a1922f2f5509feb7113bfd3476298c6ca711eb75aadc15bd28f8007b175046"
+    },
+    "scripts/llm-wiki-reading-qa.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/llm-wiki-reading-qa.cjs",
+      "sha256": "44841cc55f57f1e999cf03315652683cef01ad7e06553b0f0159daa40ddba470"
+    },
+    "scripts/llm-wiki-typography-qa.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/llm-wiki-typography-qa.cjs",
+      "sha256": "2a713f0730ff03e47eba3aa9af900ca0c54561ddc3347e62b567c73b090dec7d"
+    },
+    "scripts/markdown-deck.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/markdown-deck.cjs",
+      "sha256": "14bfed4e87683aca843ee77f52596a43d830e36a9942c592651850625dd12423"
+    },
+    "scripts/markdown-document.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/markdown-document.cjs",
+      "sha256": "3b5a61bfe3230a8594b43947a67915efa3973719be7f9276c21af0e4219f812e"
+    },
+    "scripts/materials.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/materials.cjs",
+      "sha256": "bf4f328e51204fab6573a2f57799245bebd6d0678a3d97205f9ff03a62e415ff"
+    },
+    "scripts/runtime.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/runtime.cjs",
+      "sha256": "3e18063867f2894474f2ee450520f30527e4fa2466b3777a6718dfe30704d51d"
+    },
+    "scripts/stage.cjs": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/scripts/stage.cjs",
+      "sha256": "757680390130eca40694cceb877cbe2626848789c6ba00f3c88efacddb25ef99"
+    },
+    "styles.css": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/styles.css",
+      "sha256": "8b448e36f1efbd4c832b81c0dee4581a5d08f791d8d29caa1a3e841b843daaa4"
+    },
+    "talks/llm-wiki/assets/archive/48-slide-original/README.md.txt": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/archive/48-slide-original/README.md.txt",
+      "sha256": "cad91cf63be61ff37c881f6dd1de9e47ed218f8e6ff5456675ecd5ba2a26f297"
+    },
+    "talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/archive/48-slide-original/slides.md.txt",
+      "sha256": "fe16ea2b4397bc3be507ed55c21f284879dbc984aaedf6514ef48f2685f73bbc"
+    },
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/archive/48-slide-original/speaker-guide.txt",
+      "sha256": "eba1e6b4e15dc3040b77d91c59241c91f7f2c8628ccc28c66fc30f9135f573e2"
+    },
+    "talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/archive/48-slide-original/speaker-script.md.txt",
+      "sha256": "cde66cfbc7f44d0a90514bacb420aef6365e3bc9e9af8f41b0a4f63113970834"
+    },
+    "talks/llm-wiki/assets/current-pending.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/current-pending.svg",
+      "sha256": "8c6c53e6a95d9840a09acce08c414baa2cb72358628f3dc41c054b6879fd655e"
+    },
+    "talks/llm-wiki/assets/decision-transition.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/decision-transition.svg",
+      "sha256": "70a44a23d5e1d48873492a30153fd2e0b7a71766aa8e7c7e63c3940b0a71e2e2"
+    },
+    "talks/llm-wiki/assets/design/ingest-map.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/design/ingest-map.svg",
+      "sha256": "1ea6a569bab645b16c29d332950aaa5928fcd0b4b6737ff12005bcdf3765764b"
+    },
+    "talks/llm-wiki/assets/design/knowledge-layers.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/design/knowledge-layers.svg",
+      "sha256": "64c1fd12553932973b7340a0930c2617788ad561c1e09329da9171644d4f0a56"
+    },
+    "talks/llm-wiki/assets/design/raw-wiki-rules.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/design/raw-wiki-rules.svg",
+      "sha256": "87b989db720d81d4ec21ed604ac24c66623ee2faa934166071449003133d900d"
+    },
+    "talks/llm-wiki/assets/examples/course.txt": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/examples/course.txt",
+      "sha256": "7f02c1c31f4c8337605fa61df1866659141df6d7772a19f4b896d080da5ebfe9"
+    },
+    "talks/llm-wiki/assets/examples/reading.txt": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/examples/reading.txt",
+      "sha256": "c25067e5b335f0d6bb30dd360c91ecdc8bcdd523688001776cc8f3892207f16e"
+    },
+    "talks/llm-wiki/assets/examples/team.txt": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/examples/team.txt",
+      "sha256": "b9b79ffd8cd0928313ed89b389381d754f6ce33a4f166ab1025554d54585254a"
+    },
+    "talks/llm-wiki/assets/expanded-study.txt": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded-study.txt",
+      "sha256": "245ebc8ac44ecc39c5e610e3ead72c21e4594d0f419a8eb2ba33fc1e06e443e1"
+    },
+    "talks/llm-wiki/assets/expanded/agentic-routing.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/agentic-routing.svg",
+      "sha256": "fb43cf279e74afaba25328359a25f45922821f37df82390aa906eafd0502eeb5"
+    },
+    "talks/llm-wiki/assets/expanded/comparison-synthesis.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/comparison-synthesis.svg",
+      "sha256": "c87ca600705144cb03d6679474d6c02479590854ae0f69c3003a025983cad6d4"
+    },
+    "talks/llm-wiki/assets/expanded/five-layers.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/five-layers.svg",
+      "sha256": "3f21a0b6f0625fccdbe57b342f603a4f005d4a79e1491f930550cf43ceddcc9c"
+    },
+    "talks/llm-wiki/assets/expanded/ingest-map.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/ingest-map.svg",
+      "sha256": "8421786b1f57ae92421435c9d9a268c23610463058ea1a49b54d5595c8c007c4"
+    },
+    "talks/llm-wiki/assets/expanded/knowledge-layers.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/knowledge-layers.svg",
+      "sha256": "bf4ad827da99fa62a8358cd5e908030975d50609740fbe0a12f222e1de60d9bd"
+    },
+    "talks/llm-wiki/assets/expanded/purpose-questions.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/purpose-questions.svg",
+      "sha256": "de481ad077ff50caddb7e7d5b734ff7b024a536ed5f11ab119ca8be7488c7d0d"
+    },
+    "talks/llm-wiki/assets/expanded/query-reading.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/query-reading.svg",
+      "sha256": "61efab0bdac3b690cac5855d55ab99b30f9176819751f6c8c6662ae153c37804"
+    },
+    "talks/llm-wiki/assets/expanded/rag-path.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/rag-path.svg",
+      "sha256": "1f943e43d8d729ee3f72ac755d5a66f008a6d39b893e0d5af053369a98048905"
+    },
+    "talks/llm-wiki/assets/expanded/raw-wiki-rules.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/raw-wiki-rules.svg",
+      "sha256": "f2422a7925dc00a44a5e679c4859de70cd5471a9f72066a98b2eb54a2d408a77"
+    },
+    "talks/llm-wiki/assets/expanded/reflection-layers.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/reflection-layers.svg",
+      "sha256": "ab3c78b06e42b1442b4de504e2cca19165a304bc0c26ae4bd431dfe78267c9b9"
+    },
+    "talks/llm-wiki/assets/expanded/related-updates.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/related-updates.svg",
+      "sha256": "6b2263dbe032d576b4f734374bf49da31635a92300c6a35bd78d4dda80936a7b"
+    },
+    "talks/llm-wiki/assets/expanded/review-return.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/review-return.svg",
+      "sha256": "64974be0b3ab3d5fd967fac144fa5d4882fa260a6cd72245ef0aebbe0d8de787"
+    },
+    "talks/llm-wiki/assets/expanded/rules-graph.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/rules-graph.svg",
+      "sha256": "f3be1e228c97515072c56826772f950b77b6bfa646115691734b0057eb17407b"
+    },
+    "talks/llm-wiki/assets/expanded/saved-question.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/saved-question.svg",
+      "sha256": "e6cfdff902cdea121b1887addd66fc96ae07ca773dbe0f1a35ad3715ab6051f1"
+    },
+    "talks/llm-wiki/assets/expanded/session-plan.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/session-plan.svg",
+      "sha256": "4f573bd52fd70c510c900a6feb86e2b1bf323e833c37f70d34380472a92e3c14"
+    },
+    "talks/llm-wiki/assets/expanded/shared-workspace.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/shared-workspace.svg",
+      "sha256": "b60496417179d1b57e42148dc90cffa0f6b14f85e26d63b7683e5a072a8f6283"
+    },
+    "talks/llm-wiki/assets/expanded/source-concept.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/source-concept.svg",
+      "sha256": "a3c7b37535df5096321fbac55c170a8a50dfff65ee56300a1820e4bbff8374be"
+    },
+    "talks/llm-wiki/assets/expanded/wiki-path.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/wiki-path.svg",
+      "sha256": "e39c92d904c47c4252f4961f695081f2069036da05685b5d6d01b7329b61cfdf"
+    },
+    "talks/llm-wiki/assets/expanded/work-context.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/expanded/work-context.svg",
+      "sha256": "53a825b0ec6d66cdfd7fcc404554913d65cfcc290db536b6e3fb7e7130335d43"
+    },
+    "talks/llm-wiki/assets/impact-map.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/impact-map.svg",
+      "sha256": "ac3c13699c773b168b15d18800012448f2ccb66b91ca4d62433896a2db8d2234"
+    },
+    "talks/llm-wiki/assets/keynote/concept-document.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/keynote/concept-document.svg",
+      "sha256": "74f093c89642908fdaf3b686bbb35fd7bb724d258ecf5f3fe956fa71cba5118d"
+    },
+    "talks/llm-wiki/assets/keynote/condition-and-choice.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/keynote/condition-and-choice.svg",
+      "sha256": "2404cc6d8840696a9af3b44d953058ed8ea53a4f3d734108d0d213e38f6cfb25"
+    },
+    "talks/llm-wiki/assets/keynote/connected-understanding.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/keynote/connected-understanding.svg",
+      "sha256": "b377432a8725d5259d166e076f07a4e0adc5911ac5072667bf4cda1f829761bf"
+    },
+    "talks/llm-wiki/assets/keynote/evidence-note.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/keynote/evidence-note.svg",
+      "sha256": "7357e2e2bfa4ba92eef56fc7f1d5e014852ce0d5e1c6d048774f0efd8b124136"
+    },
+    "talks/llm-wiki/assets/keynote/selected-note.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/keynote/selected-note.svg",
+      "sha256": "c5f5a3cb909e76d3b8f56864ddb6f77716324aeda3027f94f7d7aade2aea07ad"
+    },
+    "talks/llm-wiki/assets/keynote/session-plan-excerpt.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/keynote/session-plan-excerpt.svg",
+      "sha256": "f467a9d2f078d03799d6642f30a055c0bde0acdc1c44c0fced62868d94aaa6d4"
+    },
+    "talks/llm-wiki/assets/remake/ingest-map.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/remake/ingest-map.svg",
+      "sha256": "e93f12b83834719badcb5c0676da97cbc92162df8d0251e3484b07dd8596a28f"
+    },
+    "talks/llm-wiki/assets/remake/session-plan.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/remake/session-plan.svg",
+      "sha256": "71a3edfad9bd2d9e4dd6df31aa2fb485b736687f480c9ac15e678b09f6df2ced"
+    },
+    "talks/llm-wiki/assets/reuse-inputs.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/reuse-inputs.svg",
+      "sha256": "441435e976633935658c894c9d5792a758dd71e6f91e24caf03fd24da0fe0188"
+    },
+    "talks/llm-wiki/assets/speaker-guide.txt": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/speaker-guide.txt",
+      "sha256": "ab9e01d3260d3d6cfbe6a85ee04e5b2f59918f230f370103f6683cee7d97c003"
+    },
+    "talks/llm-wiki/assets/typography/ingest-map.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/typography/ingest-map.svg",
+      "sha256": "a3a65af7ab28b3eb7a0720d3ac9588b3a7c4dba0af3b6833a1ee89676454da8e"
+    },
+    "talks/llm-wiki/assets/typography/knowledge-layers.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/typography/knowledge-layers.svg",
+      "sha256": "00cc9503c0ea5f60b60e902f45f12622da5d4696ac03d8b7296d6bf2953ab493"
+    },
+    "talks/llm-wiki/assets/typography/purpose-questions.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/typography/purpose-questions.svg",
+      "sha256": "22e3b2b1ec42fed0eeb887c9f1d7c5d8778279dc54b992897e8171b3eaf1fef0"
+    },
+    "talks/llm-wiki/assets/typography/rag-path.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/typography/rag-path.svg",
+      "sha256": "0aefea443a6e3de3f103c5cdbcf9d16fe025af213fd4266f213dfd28df4c5c63"
+    },
+    "talks/llm-wiki/assets/typography/raw-wiki-rules.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/typography/raw-wiki-rules.svg",
+      "sha256": "971d2b2c25e3d9e6ae3cd17abe5c1d0aa21fc5a71e7eaa4a98c7abb60c1719ba"
+    },
+    "talks/llm-wiki/assets/typography/related-updates.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/typography/related-updates.svg",
+      "sha256": "e240f730668766cb72612e6d4a417127473bdd8e2d04b8a0086307e361bce67f"
+    },
+    "talks/llm-wiki/assets/typography/session-plan.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/typography/session-plan.svg",
+      "sha256": "a7afd1388934c61261926c78cdc0c70fb51bd62219d3b7b59f4c8ea92349a955"
+    },
+    "talks/llm-wiki/assets/typography/source-concept.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/typography/source-concept.svg",
+      "sha256": "cac31a82b5a0225f8bf3fb14fd713b29482bf2e84c7114a8131d3b6216195862"
+    },
+    "talks/llm-wiki/assets/typography/wiki-path.svg": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/assets/typography/wiki-path.svg",
+      "sha256": "53636045579a66dfdee4f53136cf31365fc00809983cb56e0b14b224c5052840"
+    },
+    "talks/llm-wiki/demo/llm-wiki-demo.zip": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/demo/llm-wiki-demo.zip",
+      "sha256": "9c0a83b5bf0a2b22e9c9102ed0d26c81ce683d4fc0589ce96a741f998f6a44f2"
+    },
+    "talks/llm-wiki/materials/demo-log.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/materials/demo-log.md",
+      "sha256": "8786016513450b7fb35bd88d8dd2141b53b7273ede735fe9eb24b007999195ab"
+    },
+    "talks/llm-wiki/materials/diagram-reading.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/materials/diagram-reading.md",
+      "sha256": "32292ae71a01d74c66c77b5367a156c8a1b30d305a2539e07ae777d273a0867c"
+    },
+    "talks/llm-wiki/materials/index.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/materials/index.md",
+      "sha256": "5097caaeba1ec730d35113235affa7ca4470556db8e7e60eb4a4ed853daac8a4"
+    },
+    "talks/llm-wiki/materials/keynote-notes.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/materials/keynote-notes.md",
+      "sha256": "1e6c9f1d368235569df070400a23414ca587966b54b63af5ba6f11bdb5bd94c5"
+    },
+    "talks/llm-wiki/materials/reference-library.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/materials/reference-library.md",
+      "sha256": "60b10db89b665dbf91bf35715059598408b983abb9e372f3c3436994dcf3df44"
+    },
+    "talks/llm-wiki/materials/session-plan.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/materials/session-plan.md",
+      "sha256": "24b1aadb2d479b3a5d54b5296c3c4562662bff09d03cda47541daad2187db755"
+    },
+    "talks/llm-wiki/materials/speaker-script.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/materials/speaker-script.md",
+      "sha256": "07147f9f4702cbc38db6ae2ee022917faa9de03432822660e9509a4a95036d78"
+    },
+    "talks/llm-wiki/materials/study-guide.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/materials/study-guide.md",
+      "sha256": "fc223b24c15f5fa85ccfe335380ed938443108f6d08179ef239372f236aa11ff"
+    },
+    "talks/llm-wiki/materials/visual-appendix.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/materials/visual-appendix.md",
+      "sha256": "c213552b5d3812d357368561e20853457c8028518a5c268f3e7c98341acd583b"
+    },
+    "talks/llm-wiki/materials/workshop.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/materials/workshop.md",
+      "sha256": "c5447d32a329cb306ef5517fff2d7d82f9583271216266a828c73ba29250a8c0"
+    },
+    "talks/llm-wiki/slides.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/slides.md",
+      "sha256": "e96eaa434f12335639de675aa4b8b042345fafa06ea476ef11283a6f921a16b8"
+    },
+    "templates/material.html": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/templates/material.html",
+      "sha256": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda"
+    },
+    "templates/materials.css": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/templates/materials.css",
+      "sha256": "1b61ac3b3119aa9aae8a080ea24e63eb0080abf0ce5749d469e2cf0977a0b702"
+    },
+    "templates/presentation.html": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/templates/presentation.html",
+      "sha256": "9d109186e383e77deb1faf604e63316e04856c872f74df178f93dd53203abe36"
+    },
+    "visual.css": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/visual.css",
+      "sha256": "8d3411ddc36dcf23f30e57da80900e6ee974ef3a0feadd0a3c1502cea44acae5"
+    },
+    "visual.js": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/visual.js",
+      "sha256": "02e26db1c3ccce1d5c445ca235c78585556150b9da695b0af862ac32e62892a9"
+    },
+    "talks/llm-wiki/qa/keynote-current.json": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/qa/keynote-current.json",
+      "sha256": "4b4814d27bebfbab14840413c23fa6a1d52dd4c65f7c35b3ed90deecee166046"
+    },
+    "talks/llm-wiki/qa/keynote-coverage.json": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/talks/llm-wiki/qa/keynote-coverage.json",
+      "sha256": "821fd723bd62add7efdd35bf6198ce239d7e0dc142831f6a9ea5bb55f0c51166"
+    },
+    "DESIGN.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/DESIGN.md",
+      "sha256": "7e83b7852df908ecf0c4027eafbe1b0f8b9c2dd0c12ac8ebf4ee40b11abcfd6b"
+    },
+    "AGENTS.md": {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/source/AGENTS.md",
+      "sha256": "c1c6ff5ae1a73eab252d92065219bcd9cf58acd3a2f27fc55931bfa5203108a7"
+    }
+  }
+}

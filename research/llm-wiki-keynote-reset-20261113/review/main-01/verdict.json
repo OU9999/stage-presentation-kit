@@ -1,0 +1,344 @@
+{
+  "schema": "stage-keynote-checkpoint-verdict-v1",
+  "checkpoint": "main-01",
+  "reviewer": "/root/creative_quality_manager/keynote_critic",
+  "reviewedAt": "2026-11-13",
+  "status": "needs-changes",
+  "approvalClaim": false,
+  "source": {
+    "path": "talks/llm-wiki/slides.md",
+    "sha256": "db7a47a6f0039e4c74902a534edcf613b7279348e4d6c670e769a5b7de7d8b37"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "7e83b7852df908ecf0c4027eafbe1b0f8b9c2dd0c12ac8ebf4ee40b11abcfd6b"
+  },
+  "judgmentOrder": "WORK_LOG/最新DESIGN/ENGINEERING_BRIEF/동결기준 확인 → 원본 DevDay5프레임 재직독 → 1920 첫9 PNG 직독·즉시 root/manager 전달 → 1280 첫9 PNG 직독 → manifest/원고/공개해설/root독립기록 대조. 기술 결과와 과거승인에 의존하지 않음.",
+  "scope": [
+    {
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "stage": {
+        "width": 1557.33349609375,
+        "height": 876
+      }
+    },
+    {
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mode": "presentation-stage-only",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "stage": {
+        "width": 917.333251953125,
+        "height": 516
+      }
+    }
+  ],
+  "captures": [
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1920/manifest.json",
+      "sha256": "08c946017a1c8236f9769a8e79a66e2f2864e46feaa750c526c36d9612d76c7d"
+    },
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1280/manifest.json",
+      "sha256": "13449253fe55920443c2faaca35d1273b6c83c90e93f608ab5ab7896d37a9333"
+    }
+  ],
+  "reviews": [
+    {
+      "slide": 1,
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "이름과 짧은 부제로 표지의 주역이 즉시 보인다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1920/slide-01.png",
+        "sha256": "d71a31979fc314c5420c84d3b451ecf6c2bbc4f07a7f8152db83ee859a143581"
+      }
+    },
+    {
+      "slide": 2,
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "짧은 정의가 먼저 읽힌다. 이 장의 단독 명료함이 초반 전체 리듬을 면책하지 않는다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1920/slide-02.png",
+        "sha256": "b7e8e250867db9bec137b42addfd5ecf53640625e2077492d043fa7dc72aed35"
+      }
+    },
+    {
+      "slide": 3,
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "다음 질문에 다시 쓴다는 한 문장이 즉시 보인다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1920/slide-03.png",
+        "sha256": "9bf23d0a66fe544e653e264789d6d26d83b93d1b6b79a1a3327918bd02b3d1ee"
+      }
+    },
+    {
+      "slide": 4,
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reason": "같은 문서를 말하지만 실제 문서 없이 상단 주장·세 행 예문·지위·탐색을 읽는다. 선택 이유가 남은 읽을 대상을 보여 주거나 선언 역할로 다시 편집한다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1920/slide-04.png",
+        "sha256": "00d040d9ead7ee009e6c11148f05ea866a5bdfad11bc8fe819c4633d45a99d05"
+      }
+    },
+    {
+      "slide": 5,
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "현재 질문에 답하기와 지속 문서 정리·연결이라는 단일 비교축은 유효하다. 두 열 자체를 반려하지 않으며 주변 안내 위계는 재검토한다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1920/slide-05.png",
+        "sha256": "77053043035245b1f6f8d8d258c99c11890257db7165d64d33f3430d0129ea0f"
+      }
+    },
+    {
+      "slide": 6,
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reason": "질문은 완결되나 앞뒤 설명과 탐색이 질문을 둘러싸고 다음 관계 장을 미리 설명한다. 초반 선언 연속과 함께 통합·정보이동·장면 재구성이 필요하다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1920/slide-06.png",
+        "sha256": "fed7309a61abe7db1916c780b6a7b7a69c9ef419ed36aa5bf64b29ac88ae3735"
+      }
+    },
+    {
+      "slide": 7,
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "작은 입구·큰 두 기존 문서와 세 선의 경계 귀속은 유효하다. 주변 설명층은 편집 보완 대상으로 남기며 관계 뜻을 작은 출처메타로 면제하지 않는다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1920/slide-07.png",
+        "sha256": "cbee45341adf384b9a19f5d00dd2d6212cee66275c665393da5414ebbf2cd22c"
+      }
+    },
+    {
+      "slide": 8,
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reason": "한 메모/여러 메모라는 이름 아래 두 일반 동작 문단을 읽게 한다. 같은 구체 자료의 차이가 보이지 않는 익명 정의 두 열이 재발했다. 실제 문서·근거·변화를 재선택하거나 통합한다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1920/slide-08.png",
+        "sha256": "4797962821f317e095a4adb0b5ca0514aaaca17e3f5f9fc293fa68652318c426"
+      }
+    },
+    {
+      "slide": 9,
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "조건보다 문서 읽기부터라는 첫 선택이 주역이다. 설명용 요약이며 원문 증거면으로 확대하지 않는다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1920/slide-09.png",
+        "sha256": "868405820421ea886cdfcbcce947fc4a1461ca247a3bd4822d58252efed7a581"
+      }
+    },
+    {
+      "slide": 1,
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "이름과 짧은 부제로 표지의 주역이 즉시 보인다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1280/slide-01.png",
+        "sha256": "827f895b3b8647478948294c08ef6a27c80b88fc273bfdb26ece9da533973e20"
+      }
+    },
+    {
+      "slide": 2,
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "짧은 정의가 먼저 읽힌다. 이 장의 단독 명료함이 초반 전체 리듬을 면책하지 않는다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1280/slide-02.png",
+        "sha256": "e1541b5ba259e35e607b1cd21698571efd00f6c30077ce823ca18e4ba9864fff"
+      }
+    },
+    {
+      "slide": 3,
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "다음 질문에 다시 쓴다는 한 문장이 즉시 보인다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1280/slide-03.png",
+        "sha256": "8340648c165d2ef601d6617aef920f780a91a5b739cab62d0751af0236c70822"
+      }
+    },
+    {
+      "slide": 4,
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reason": "같은 문서를 말하지만 실제 문서 없이 상단 주장·세 행 예문·지위·탐색을 읽는다. 선택 이유가 남은 읽을 대상을 보여 주거나 선언 역할로 다시 편집한다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1280/slide-04.png",
+        "sha256": "77777fd0d635c2d1025fce76bafe3fc3bbd39999e15c55e70cddcefb7e4755e1"
+      }
+    },
+    {
+      "slide": 5,
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "현재 질문에 답하기와 지속 문서 정리·연결이라는 단일 비교축은 유효하다. 두 열 자체를 반려하지 않으며 주변 안내 위계는 재검토한다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1280/slide-05.png",
+        "sha256": "0b4507ecc76a3ea35ba8068a8fecbdd937d709c34a1c89fcc0376d203e1c6828"
+      }
+    },
+    {
+      "slide": 6,
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reason": "질문은 완결되나 앞뒤 설명과 탐색이 질문을 둘러싸고 다음 관계 장을 미리 설명한다. 초반 선언 연속과 함께 통합·정보이동·장면 재구성이 필요하다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1280/slide-06.png",
+        "sha256": "a00db83ed7fa8bfc126cdd204b4a2eb86238d3e638628d3784e6160874ed98df"
+      }
+    },
+    {
+      "slide": 7,
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "작은 입구·큰 두 기존 문서와 세 선의 경계 귀속은 유효하다. 주변 설명층은 편집 보완 대상으로 남기며 관계 뜻을 작은 출처메타로 면제하지 않는다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1280/slide-07.png",
+        "sha256": "efc275aeace7de351dd80f9ec541bf4f15688155ab46b8a74958b76546025c2e"
+      }
+    },
+    {
+      "slide": 8,
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "needs-changes",
+      "reason": "한 메모/여러 메모라는 이름 아래 두 일반 동작 문단을 읽게 한다. 같은 구체 자료의 차이가 보이지 않는 익명 정의 두 열이 재발했다. 실제 문서·근거·변화를 재선택하거나 통합한다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1280/slide-08.png",
+        "sha256": "85ebd651a29b8c2817375a1f136434d04784e2042bca5e8a9cc38b5ad5ad6929"
+      }
+    },
+    {
+      "slide": 9,
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "status": "keep-candidate",
+      "reason": "조건보다 문서 읽기부터라는 첫 선택이 주역이다. 설명용 요약이며 원문 증거면으로 확대하지 않는다.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/main-01/present-1280/slide-09.png",
+        "sha256": "bcbe13bada6ad73deea4b1b0e8daace853b7bca8e415ea80ec8efc0df824d530"
+      }
+    }
+  ],
+  "structuralChanges": [
+    "08의 익명 일반 정의 두 열을 구체 문서·같은 자료의 차이/근거/변화가 보이는 대상으로 재선택하거나 통합한다. 간격·굵기 교정으로 해소하지 않는다.",
+    "01–06은 표지·정의·목적·선택 예문·추상 비교·질문이 이어져 실제 읽을 대상을 보기 전 큰 서술을 계속 따라간다. 04/06을 포함해 중복 설명을 지원으로 옮기고 자료가 앞에서 주역이 되는 흐름을 다시 설계한다. 고정 연속장수 quota나 자료 한 장 추가만으로 합격시키지 않는다."
+  ],
+  "counterargumentResolved": "root 기록을 독립판정 뒤 읽고 직접 반론했다. 05의 단일 비교축·07의 선 귀속은 유효하며 구조 반려의 핵심은08/초반 연속 설명이다. root도 이 구분에 동의했다.",
+  "supportTextConfirmed": "공개 keynote-notes에서 정의·사람/AI 책임·원자료/네 약속·세/다섯 무방향 관계·입문자/준비팩/15분 가상조건과 비실측/비인과 지위를 문자 범위로 확인했다. 의미 보존은 현재 미감 반려의 면책이 아니다.",
+  "navigationInspection": "lib/project.cjs:173 및 생성 index.html:24의 global 학습자료→materials/index.html, 자료목록→keynote-notes.html과 관련 네 anchor의 정적 실재를 확인했다. 클릭/접근성 기능 승인이나 필수 의미 숨김/링크 일괄삭제 권한은 아니다.",
+  "nextOwner": "root가 재개하는 기존 엔지니어링 본편 편집 담당",
+  "nextAction": "ENGINEERING_ROUND02.md의 구조 교정 인계에 따라 재편집한 새 입력/PNG를 독립 재검토한다.",
+  "limitations": [
+    "임시21장 중 첫1–9만 검토; 후반은 미편집/범위 밖",
+    "읽기/브라우저 클릭/모션/실프로젝터/다른OS는 미검토",
+    "formal --require-approved/전체덱/사용자 승인 아님",
+    "원고·자산·지원문서·WORK_LOG 및 동결 review 수정0"
+  ]
+}

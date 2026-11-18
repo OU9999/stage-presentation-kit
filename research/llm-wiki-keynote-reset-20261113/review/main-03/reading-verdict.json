@@ -1,0 +1,64 @@
+{
+  "schema": "stage-reading-review-summary-v1",
+  "checkpoint": "main-03",
+  "reviewer": "/root/creative_quality_manager/reading_critic",
+  "reviewedAt": "2026-11-13T11:22:42.740143+00:00",
+  "manualStatus": "needs-changes",
+  "formalApprovalClaim": false,
+  "initialVisualOrder": "원본5→양폭6보드→교정20개별PNG→초기직접전달→나머지20개별PNG+390native12타일→source/manifest/현재입력→native지원6실물에서추가반려",
+  "scopeReviewFiles": [
+    "research/llm-wiki-keynote-reset-20261113/review/main-03/read-1440.reviews.json",
+    "research/llm-wiki-keynote-reset-20261113/review/main-03/read-390.reviews.json"
+  ],
+  "counts": {
+    "read-1440.reviews.json": {
+      "approved": 13,
+      "needs-changes": 1,
+      "unreviewed": 6
+    },
+    "read-390.reviews.json": {
+      "approved": 13,
+      "needs-changes": 3,
+      "unreviewed": 4
+    }
+  },
+  "issues": [
+    {
+      "slide": 3,
+      "width": 390,
+      "scope": "native support quote",
+      "reason": "스터 / 디의로 어절이 음절 중간 분리",
+      "evidence": "research/llm-wiki-keynote-reset-20261113/main-03/technical/direct-support-03-390.png"
+    },
+    {
+      "slide": 8,
+      "width": 390,
+      "scope": "native support caveat",
+      "reason": "아닙니 / 다.로 핵심 한계의 서술어 어절이 중간 분리",
+      "evidence": "research/llm-wiki-keynote-reset-20261113/main-03/technical/direct-support-08-390.png"
+    },
+    {
+      "slide": 15,
+      "widths": [
+        1440,
+        390
+      ],
+      "scope": "shared linked native support paragraph; directly observed at390 and confirmed in common generated DOM",
+      "reason": "강조용 Markdown **가 literal로 출력",
+      "evidence": "research/llm-wiki-keynote-reset-20261113/main-03/technical/direct-support-15-390.png"
+    }
+  ],
+  "unreviewedActions": "Root의 양폭12클릭 전체·native6/13표 오른쪽 끝·20요청문 선택/자료 전문 접근의 완결 근거를 아직 인수하지 않음. 미확인을 approved로 채우지 않음.",
+  "sameInputRecapture": "최신 양폭40PNG는 처음 직접본 상대href수집판과SHA전부동일,104현재입력도manifest와일치. 최신manifest는 browser actual absolute href와 authoredHref를분리함.",
+  "sameInputPNGChanges": 0,
+  "meaningPreserved": "원문/사람기록/AI해석의지위와책임,네약속,세무방향관계및별도다섯관계,입문자/준비팩/15분/목적,비실측/비성과,복사요청전문은현재공개native본문에보존됨.",
+  "presentationExchange": "A와초기후직접반론을교환.6구체계획전후·15질문↔목적구절의발표역할개선에합치하며현재native3/8/15의읽기정돈반려와구별. A원문수정0.",
+  "nextOwner": "root가 재개하는 기존 지원 문서/읽기 엔지니어",
+  "nextAction": "native3/8어절보존·15강조구문을교정하고현재입력의실제지원화면/읽기재검토;미인수동작범위는root의완결관측을직접인수",
+  "limitations": [
+    "본편읽기40정지화면과390지원6PNG의직접판단",
+    "native1440지원실제PNG/표끝/요청동작은미확인",
+    "공식표현은root의--require-approved명시성공범위에한정",
+    "사용자미감승인·다른OS·실프로젝터·현장낭독효과주장없음"
+  ]
+}

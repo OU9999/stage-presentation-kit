@@ -1,0 +1,53 @@
+[p1 "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage" | space "LLM Wiki 키노트 미감 재설계"(89): 1 managed, 0 untracked — p1* "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage"]
+root
+  container
+    anchor "첫 슬라이드" [ref=603, loc=css:a[aria-label="첫 슬라이드"], url=http://127.0.0.1:4336/presentations/llm-wiki/read.html?direct-support=19670d537a7b-390#1]
+      text "ou-presentation"
+    container "발표 모음과 학습 자료"
+      anchor [ref=604, url=http://127.0.0.1:4336/presentations/index.html]
+        text "발표 모음"
+      text "·"
+      anchor [ref=605, loc=href:/presentations/llm-wiki/materials/index.html, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+        text "학습 자료"
+    container
+      combobox "테마" [ref=606, loc=css:select[aria-label="테마"]]
+        text "Stage"
+      button [ref=607]
+        text "발표 모드"
+  container "발표 슬라이드" [ref=608]
+    container "2. Markdown"
+      paragraph
+        text "나만의 지식 문서."
+    container "3. Markdown"
+      image
+      paragraph
+        anchor [ref=609, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D-%EC%9D%B4%EC%9C%A0-%EB%A9%94%EB%AA%A8]
+          text "선택 이유 메모를 글로 읽기"
+    container "4. 다음 질문에 다시 씁니다"
+      heading
+        text "다음 질문에 다시 씁니다"
+    container "5. 중심 작업이 다릅니다"
+      heading
+        text "중심 작업이 다릅니다"
+      container
+        heading
+          text "RAG"
+        paragraph
+          text "필요한 근거를 찾아"
+          text "현재 질문에 답하기"
+  container
+    container
+      button "이전 슬라이드" [ref=610, loc=css:button[aria-label="이전 슬라이드"]]
+        text "←"
+      button "다음 슬라이드" [ref=611, loc=css:button[aria-label="다음 슬라이드"]]
+        text "→"
+    container
+      text "03 / 20"
+      text "—"
+      text "Markdown"
+    container
+      button [ref=612]
+        text "전체 보기"
+      button "사용법 및 단축키" [ref=613, loc=css:button[aria-label="사용법 및 단축키"]]
+        text "?"
+[more content above and below the viewport: scrollY=423, viewport 844 / page 7710 px; scroll or use snapshot({ scope: "full_page" })]

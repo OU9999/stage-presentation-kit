@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="640" viewBox="0 0 1440 640" data-material-kind="explanatory-reconstruction" role="img" aria-labelledby="title desc">
+  <title id="title">15분 진행안의6~11분 한 행</title>
+  <desc id="desc">실재하는 발표팀 설명용 활동안의 표에서 한 행을 정확 발췌해 재구성했다. 활동 시간, 할 일, 남길 것이라는 원래 구조와 구절을 보존한다. 밝은 문서면은 이 자료 역할을 위한 국소 조판이며 실제 앱UI나 모델 출력 캡처가 아니다.</desc>
+  <style>text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.7px}.title{font-size:52px;font-weight:500;fill:#202221}.head{font-size:38px;font-weight:400;fill:#656a66}.copy{font-size:44px;font-weight:500;fill:#202221}.meta{font-size:24px;fill:#a4a4a1;letter-spacing:-.5px}</style>
+  <rect x="54" y="112" width="1332" height="400" rx="2" fill="#f2f0e8"/>
+  <text class="title" x="104" y="202">15분 진행안</text>
+  <text class="head" x="104" y="276">활동 시간</text>
+  <text class="head" x="370" y="276">할 일</text>
+  <text class="head" x="1004" y="276">남길 것</text>
+  <path d="M104 305H1336" fill="none" stroke="#b6bab2" stroke-width="1.5"/>
+  <text class="copy" x="104" y="382">6~11분</text>
+  <text class="copy" x="370" y="382"><tspan x="370">원자료→개념→비교의</tspan><tspan x="370" dy="64">연결 한 개를 따라 읽기</tspan></text>
+  <text class="copy" x="1004" y="372"><tspan x="1004">관계를</tspan><tspan x="1004" dy="52">뒷받침하는</tspan><tspan x="1004" dy="52">근거 위치</tspan></text>
+  <text class="meta" x="54" y="572">설명용 활동안 · 한 행 발췌</text>
+</svg>

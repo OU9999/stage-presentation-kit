@@ -1,0 +1,18 @@
+const fs=await import('node:fs/promises');
+const root='/Users/ou9999-wdl/Documents/devday-presentation-kit';
+const home=root+'/research/llm-wiki-design-iteration-20261113';
+const request=JSON.parse(await fs.readFile(home+'/capture-request.json','utf8'));
+const folder=home+'/'+request.round+'/technical';
+const page=(await taskSpace(request.taskSpaceId)).page('p1');
+await page.cdp('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:false});
+await page.goto('http://127.0.0.1:4336/presentations/llm-wiki/materials/session-plan.html#15분-진행안');
+await page.waitForFunction(()=>document.fonts.status==='loaded'&&document.querySelector('.material-article table'));
+await page.evaluate(()=>{document.getElementById('15분-진행안').scrollIntoView();document.querySelector('.material-table-scroll').scrollTo({left:0,behavior:'instant'});});
+const observe=()=>page.evaluate(()=>{const e=document.querySelector('.material-table-scroll'),r=e.getBoundingClientRect();return{url:location.href,viewport:{width:innerWidth,height:innerHeight,devicePixelRatio},clientWidth:e.clientWidth,scrollWidth:e.scrollWidth,scrollLeft:e.scrollLeft,overflowX:getComputedStyle(e).overflowX,container:{x:r.x,right:r.right,y:r.y,bottom:r.bottom},rows:[...e.querySelectorAll('tr')].map(row=>[...row.children].map(c=>{const b=c.getBoundingClientRect();return{text:c.textContent,x:b.x,right:b.right,y:b.y,bottom:b.bottom};}))};});
+const left=await observe();left.filename=folder+'/detail-20-table-390.png';await page.screenshot({path:left.filename});
+await page.evaluate(()=>{const e=document.querySelector('.material-table-scroll');e.scrollTo({left:e.scrollWidth,behavior:'instant'});});
+const right=await observe();right.filename=folder+'/detail-20-table-right-390.png';
+if(right.scrollLeft!==right.scrollWidth-right.clientWidth||right.rows.some(row=>row.at(-1).x<right.container.x-1||row.at(-1).right>right.container.right+1))throw Error('Final table column not actually visible');
+await page.screenshot({path:right.filename});
+await fs.writeFile(folder+'/detail-20-table-scroll.json',JSON.stringify({scope:'Actual native horizontal scroll; pair of screenshots is needed to read all three columns.',left,right},null,2)+'\n');
+console.log({complete:true,scrollLeft:left.scrollLeft,scrollRight:right.scrollLeft,rows:right.rows.length});

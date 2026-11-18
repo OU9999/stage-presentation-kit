@@ -1,0 +1,8 @@
+{
+  "method": "Exact inverse of the single recorded slide-12 patch, verified against actual prototype browser revision; not an untouched original source copy.",
+  "evidence": "research/llm-wiki-design-iteration-20261113/round-01/prototype-observations.json",
+  "recoveredSourceSha256": "b5e8c02ef2aa462de61372e32819ab57cfedcbfcfdcd064fb52a17c6d4f7aba3",
+  "actualBrowserRevision": "b5e8c02ef2aa462de61372e32819ab57cfedcbfcfdcd064fb52a17c6d4f7aba3",
+  "currentSourceUntouched": true,
+  "designAndQa": "Direct copies during continued hold; no intervening changes since first capture hold."
+}

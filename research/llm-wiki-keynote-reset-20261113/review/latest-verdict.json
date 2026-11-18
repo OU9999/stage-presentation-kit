@@ -1,0 +1,20 @@
+{
+  "schema": "stage-keynote-prototype-latest-v1",
+  "latestRound": "R04",
+  "verdict": "research/llm-wiki-keynote-reset-20261113/review/R04.verdict.json",
+  "report": "research/llm-wiki-keynote-reset-20261113/review/R04.md",
+  "status": "keep-candidate",
+  "approvalClaim": false,
+  "retainedPatternFollowup": {
+    "report": "research/llm-wiki-keynote-reset-20261113/review/1280-followup.md",
+    "verdict": "research/llm-wiki-keynote-reset-20261113/review/1280-followup.verdict.json",
+    "viewport": "1280x720",
+    "status": "keep-candidate"
+  },
+  "earlierRoundVerdicts": [
+    "research/llm-wiki-keynote-reset-20261113/review/R01.verdict.json",
+    "research/llm-wiki-keynote-reset-20261113/review/R02.verdict.json",
+    "research/llm-wiki-keynote-reset-20261113/review/R03.verdict.json"
+  ],
+  "note": "R04 document excerpt, R03 choice reconstruction, R02/01 message and R02/03 relation remain candidates after explicit 1920 and 1280 actual-PNG checks. No formal presentation/full-deck/user approval. Prior verdict.json remains frozen R01."
+}

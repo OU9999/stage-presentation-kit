@@ -1,0 +1,40 @@
+{
+  "schema": "stage-presentation-impact-review-v1",
+  "checkpoint": "main-04",
+  "reviewer": "/root/creative_quality_manager/keynote_critic",
+  "scopeStatus": {
+    "present-1920": "manual-criteria-met",
+    "present-1280": "unreviewed-awaiting-current-scope"
+  },
+  "formalApprovalClaim": false,
+  "newDirectViews": {
+    "present-1920": [
+      1,
+      6,
+      15,
+      20
+    ]
+  },
+  "priorDirectObservationReused": "main03 presentation20 per scope were actually viewed; current1920 all20 are byte-identical.1280 not yet current-bound.",
+  "changedInputs": [
+    {
+      "path": "talks/llm-wiki/materials/keynote-notes.md",
+      "main03": "9b3604bd00e28083e7e9b13d251f538ad0eb42cfe20fb6d5072674c9cebec5f2",
+      "main04": "58e4345a4a72517c59eb00b190b019d5e3ae555181f97f917a6ba36daa147180"
+    },
+    {
+      "path": "templates/materials.css",
+      "main03": "1b61ac3b3119aa9aae8a080ea24e63eb0080abf0ce5749d469e2cf0977a0b702",
+      "main04": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6"
+    }
+  ],
+  "nativeImpactReason": "Only native material CSS and an emphasis delimiter in public notes changed. The presentation template loads styles/visual/blocks CSS, not materials.css; slide source/assets/support/role/coverage are unchanged. Current captures prove no raster or relation/flow change.",
+  "rawReviews": [
+    "research/llm-wiki-keynote-reset-20261113/review/main-04/present-1920.reviews.json"
+  ],
+  "limitations": [
+    "No claim of new40 direct views",
+    "Reading/native3 new tail finding belongs to independent B; presentation equality does not clear it",
+    "No formal --require-approved or user aesthetic approval claimed"
+  ]
+}

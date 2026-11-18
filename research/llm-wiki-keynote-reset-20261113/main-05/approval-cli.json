@@ -1,0 +1,62 @@
+[
+  {
+    "scope": "present-1920",
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/llm-wiki-keynote-reset-20261113/main-05/reviews/present-1920.review.json",
+      "--require-approved"
+    ],
+    "exitCode": 0,
+    "output": "기록 최신성·범위 유효 · 검토 완료: 승인 20 · 개선 필요 0 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 명시 범위 승인\n"
+  },
+  {
+    "scope": "present-1280",
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/llm-wiki-keynote-reset-20261113/main-05/reviews/present-1280.review.json",
+      "--require-approved"
+    ],
+    "exitCode": 0,
+    "output": "기록 최신성·범위 유효 · 검토 완료: 승인 20 · 개선 필요 0 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 명시 범위 승인\n"
+  },
+  {
+    "scope": "read-1440",
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/llm-wiki-keynote-reset-20261113/main-05/reviews/read-1440.review.json",
+      "--require-approved"
+    ],
+    "exitCode": 0,
+    "output": "기록 최신성·범위 유효 · 검토 완료: 승인 20 · 개선 필요 0 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 명시 범위 승인\n"
+  },
+  {
+    "scope": "read-390",
+    "command": [
+      "node",
+      "scripts/design-review.cjs",
+      "check",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--record",
+      "research/llm-wiki-keynote-reset-20261113/main-05/reviews/read-390.review.json",
+      "--require-approved"
+    ],
+    "exitCode": 0,
+    "output": "기록 최신성·범위 유효 · 검토 완료: 승인 20 · 개선 필요 0 · 미확인 0 (20개 장/모드/viewport 범위, 원고 20장)\n제품 시각 승인: 명시 범위 승인\n"
+  }
+]

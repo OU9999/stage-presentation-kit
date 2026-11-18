@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="640" viewBox="0 0 1440 640" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+  <title id="title">세 메모를 근거로 남긴 LLM Wiki 개념 문서</title>
+  <desc id="desc">예제 팩 wiki/concepts/llm-wiki.md의 첫 문장을 정확 발췌하고, 그 문서가 근거로 연결한 목적과 맥락·검색과 비교·지식의 활용 세 메모를 같은 문서면에 두었다. 한 자료를 다시 찾는 요약과 구별되는 여러 자료의 공통 개념 문서이며 발표팀의 설명용 구성 예다.</desc>
+  <style>text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.7px}.identity{font-size:36px;fill:#a4a4a1}.title{font-size:52px;font-weight:500;fill:#f6f6f4}.copy{font-size:60px;font-weight:500;fill:#f6f6f4}.source{font-size:38px;fill:#c0c0bc}</style>
+  <rect x="72" y="60" width="1296" height="520" rx="2" fill="#171919"/>
+  <text class="identity" x="128" y="123">개념 문서 · 발표팀 구성 예</text>
+  <text class="title" x="128" y="207">LLM Wiki</text>
+  <text class="copy" style="font-size:56px" x="128" y="307"><tspan x="128">LLM이 원자료의 개념·비교·종합을</tspan><tspan x="128" dy="78">연결 문서로 작성하고 갱신하는</tspan><tspan x="128" dy="78">지식관리 패턴이다.</tspan></text>
+  <text class="source" x="128" y="546">근거  목적과 맥락 · 검색과 비교 · 지식의 활용</text>
+</svg>

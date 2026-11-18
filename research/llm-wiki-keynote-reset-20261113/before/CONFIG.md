@@ -1,0 +1,240 @@
+# Params로 새 발표 만들기
+
+Markdown 원고로 관리하려면 [작성법](MARKDOWN.md)과 [발표 예제와 스타터](examples/index.html)를 사용하세요. 변환 결과는 아래와 같은 입력 계약을 따릅니다.
+
+`content.js`의 `window.PRESENTATION`이 발표의 입력 계약입니다. 발표 폴더 전체를 복사한 뒤 이 객체와 로컬 미디어를 바꾸면 됩니다. HTML·렌더러·CSS를 주제마다 수정할 필요는 없습니다. 다른 주제의 짧은 시작점은 [project-review.js](examples/project-review.js)입니다. 이 파일의 내용으로 복사한 폴더의 루트 `content.js`를 교체하세요.
+
+```js
+window.PRESENTATION = {
+  id: "my-project-review",
+  title: "프로젝트 회고",
+  theme: "stage",
+  speaker: "발표자",
+  date: "2027. 01. 15.",
+  footer: "PROJECT REVIEW",
+  slides: [
+    { id: "opening", layout: "cover", align: "center", title: ["프로젝트,", "다음을 위한 회고."] },
+    { id: "message", layout: "statement", align: "center", title: "기억할 한 문장.", notes: "말로 덧붙일 내용" }
+  ]
+};
+```
+
+## 공통 필드
+
+| 필드 | 입력과 기본 동작 |
+| --- | --- |
+| `id` | 발표별 고유 문자열. 브라우저 저장을 구분하는 데 사용 |
+| `title`, `speaker`, `date`, `footer` | 발표 정보 문자열. 실제 날짜는 입력한 값 사용 |
+| `theme` | `stage` / `paper` / `midnight`. 생략하면 `stage` |
+| `slides` | 한 장 이상의 슬라이드 객체 배열 |
+| `slides[].layout` | 아래 20개 양식 중 하나. 이름 오타도 해당 장의 오류로 안내 |
+| `title` | 문자열 또는 문자열 배열. 배열은 의도한 줄바꿈이며 긴 줄은 화면 폭에서 다시 줄바꿈될 수 있음 |
+| `subtitle`, `source`, `notes` | 문자열. 출처와 발표자 노트는 따로 관리 |
+| `align` | `center` 또는 생략. 기본 왼쪽 정렬, 중앙 메시지 변형은 cover/statement/section/closing 지원. categories의 제목도 중앙 정렬 가능 |
+| `quiet` | `true` / `false`. 반복 라벨·하단 정보 숨김 |
+| `tone` | `orange` / `purple` / `blue` / `green` / `yellow`. 핵심 문장·수치·선택 막대의 의미색. 수치의 단위와 보조 메타는 중립 |
+| `motion` | `none` / `fade` / `rise` / `stagger` / `chart`. 생략하면 `fade`. 잘못된 값은 해당 장의 오류로 안내 |
+| `highlight` | 제목 안에서 강조할 문자열. 한 줄 전체를 강조하면 화면에서 그 줄을 수정할 때도 색이 따라감 |
+| `surface` | `butter` 또는 생략. 소개 화면 한 장의 담황색 표면 |
+
+현재 입력 계약은 JSON으로 보관 가능한 값입니다. 함수·순환 참조를 넣지 않습니다. 임의의 브랜드 HEX·글꼴·새 표면을 추가하려면 공통 `styles.css`를 수정합니다.
+
+## 모션 선택
+
+```js
+{ layout: "statement", align: "center", title: "기억할 한 문장.", motion: "rise" }
+```
+
+| `motion` | 관객 발표 화면의 동작 |
+| --- | --- |
+| `none` | 즉시 표시 |
+| `fade` 또는 생략 | 200ms의 짧은 투명도 전환 |
+| `rise` | 제목 280ms·16px 상승, 짧은 보조 문구는 60ms 뒤 등장 |
+| `stagger` | `steps`, `categories`, `results`의 항목을 300ms·60ms 간격으로 등장. 최대 지연 240ms |
+| `chart` | `chart`의 장식 막대만 440ms로 표시. 행 간 지연 40ms·최대 80ms, 수치와 라벨은 처음부터 최종값 |
+
+같은 `motion`을 다른 주제에 복사해도 동작하며 특정 ID나 문장을 요구하지 않습니다. `stagger`·`chart`에 맞는 대상이 없는 양식은 정적으로 표시합니다. `motion`은 장별 필드이며 발표 정보의 기본값 필드는 추가하지 않습니다.
+
+읽기·편집·전체 보기·발표자 미리보기에서는 모든 내용이 즉시 표시됩니다. 시스템의 모션 줄이기 설정은 효과와 읽기 모드의 부드러운 이동에도 반영합니다. 장 이동은 모션 완료를 기다리지 않습니다. 이 값은 [STAGE의 디자인 사양](research/color-motion-20261024/design/motion-spec.md)이며 DevDay 원본의 타이밍 측정값이 아닙니다.
+
+## 양식과 수량
+
+수량을 초과하면 항목을 몰래 삭제하지 않고 해당 장에 오류를 안내합니다. 글자 수만으로 맞춤을 보장할 수는 없으므로 실제 화면의 분량 점검도 함께 사용합니다.
+
+| `layout` | 주로 바꾸는 필드 | 수량·배치 계약 |
+| --- | --- | --- |
+| `cover` | title, subtitle | 제목은 짧게. speaker/date는 발표 공통 정보 |
+| `statement` | title, support, subtitle | 한 주장. 긴 본문은 나눠 사용 |
+| `section` | number, title, subtitle | number는 문자열 또는 숫자 |
+| `closing` | title, takeaway, action, url | 마지막 메시지와 다음 행동 |
+| `compare` | left/right의 label, points | 좌우 객체, 각 points는 문자열 배열 0~3개 |
+| `metric` | value, unit, label, support, source | value는 유한한 숫자 또는 표시용 문자열. 주 수치 하나 |
+| `chart` | chart.title/unit/max/rows, source | rows 1~6개. 각 행은 label/value/highlight. value는 0 이상 숫자 또는 내보낸 숫자 문자열 |
+| `image` | title, src, alt, fit, caption | 이미지 한 장 |
+| `visual` | title, subtitle, visual, source | 독립 자료의 여덟 표현. 수량은 자료 배열에 맞춤 |
+| `media` | src 또는 video, poster, caption | 전체 화면 미디어 한 개 |
+| `demo` | title, src 또는 video, steps, url | 미디어 한 개, steps는 문자열 배열 0~3개 |
+| `quote` | quote, attribution, support | 짧은 인용문과 출처 |
+| `steps` | title, steps | title/description 객체 1~3개 |
+| `gallery` | variant, items | 이미지 1~6개. `portraits` / `strip` |
+| `mosaic` | items | 1~8개, 각 span은 숫자 1 또는 2. 총 span 8 이하, 4열×2행에 배치 |
+| `results` | title, subtitle, items, source | 미디어 1~4개, 좌측 주장과 우측 2×2 틀 |
+| `categories` | title, items | 1~5개. label/description/icon/symbol/tone. 의미 아이콘 또는 기존 문자 심벌 |
+| `bento` | preset, items, title, subtitle, source | 정확히 12개 혼합 타일. `recap` / `seoul` 고정 배치 |
+| `icon-wall` | title, subtitle, items, source | 이미지 또는 의미 아이콘 1~22개. 8열×5행의 외곽, 중앙은 메시지 |
+| `metric-pair` | title, items, support, source | 정확히 2개. 각 value/unit/label/tone. 동등한 두 수치 |
+
+`mosaic`은 작품 모음용입니다. 빈 칸을 채우기 위해 뒤 항목이 데스크톱 화면의 앞 빈 칸에 놓일 수 있습니다. 원본 데이터와 DOM의 순서는 바꾸지 않으며 모바일 읽기에서는 입력 순서로 한 열을 만듭니다. 시간·단계·비교 순서가 중요하면 `gallery`나 `steps`를 사용하세요. 기존 예제의 `[2,1,1,1,1,2]` 배치도 그대로 사용할 수 있습니다.
+
+## 시각자료 visual
+
+```js
+{ layout: "visual", title: "일곱 번의 관찰",
+  visual: { kind: "line", labels: ["1주", "2주", "3주", "4주", "5주", "6주", "7주"],
+    values: [65, 65, 70, 70, 74, 75, 80], unit: "%", focus: 6,
+    emphasis: "focus", composition: "wide" } }
+```
+
+| `visual.kind` | 자료 입력 | 동작 |
+| --- | --- | --- |
+| `line` | labels + values 또는 series | 입력 길이의 추세. null은 관측 없음으로 선을 끊음 |
+| `bars` | labels + values 또는 series | 0 기준 비교 막대. 음수 방향과 원래 부호 보존 |
+| `composition` | labels + values | 비음수 원값의 비중. 합계0은 계산 불가로 표시 |
+| `funnel` | labels + series의 label/values | 같은 단계의 계열을 비교. 단계 수 고정 없음 |
+| `flow` | items 문자열 또는 label 객체 | 2/5단계 등의 순서를 연결. 분기일 때만 id/links |
+| `matrix` | items의 label/x/y, xLabel/yLabel | 원래 좌표와 이름. 같은 좌표도 허용 |
+| `timeline` | items의 label/start/end, unit | 상대 기간. 종료가 시작보다 앞선 입력은 진단 |
+| `heatmap` | rows, columns, values 행렬, unit | 실제 행/열 수의 셀과 동일 자료의 표 |
+
+`series`는 `{label, values}` 객체 배열입니다. 직접 values와 series를 함께 넣지 않습니다. 비율을 원래 정수에서 계산할 때는 labels와 같은 길이의 `numerators`·`denominators`를 넣고 단위를 `%`로 둡니다. values/series와 분자·분모 입력을 겹치지 않습니다. 분모0이나 유한하지 않은 숫자는 진단하며 없는 관측을0으로 만들지 않습니다. `%`만 보고100 상한을 추정하지 않습니다.
+
+`focus`는 0부터 시작하는 항목 위치이고 큰 강조값은 해당 자료에서 자동 계산합니다. matrix의 복수 강조는 위치 배열을 사용하며 여러 좌표의 합계를 임의로 만들지 않습니다. `emphasis: "focus"`가 그 큰 값을 표시합니다. `composition: "wide"`는 넓은 구도, `"split"`은 메시지와 plot을 나란히 놓는 구도입니다. `domain: [최소, 최대]`, matrix의 `xDomain/yDomain`은 필요한 경우에만 명시합니다. 데이터와 맞지 않는 범위나 배열 대응은 진단합니다.
+
+시작점은 [실행 스타터](examples/visual-starter/index.html)와 [한 파일 원본](examples/visual-starter.js)입니다. 설치·빌드·SVG 편집·프로젝트 전체 스키마는 필요하지 않습니다. 화면의 시각자료 JSON 편집은 그림·강조값·읽기 표에 즉시 반영되고 내보낸 content.js로 보관합니다. 별도 data.html은 같은 디스크 원본을 읽으므로 내보낸 파일을 교체한 뒤 새로고침합니다.
+
+`wide`는 제목과300px 강조값 열 아래로 차트를 전폭 배치합니다. `split`은 왼쪽 주장/설명과 오른쪽 강조값/차트를 같은 시작선에 묶습니다. 값+단위의 실제 폭이 열을 넘으면 전폭의 독립 행으로 옮기며 원본 값을 바꾸지 않습니다. [글 배치8장](examples/text-layout/index.html)에서 긴 한국어·다른7주 자료·긴 숫자로 바꿔 볼 수 있습니다. 정의와 긴 본문은 기존 `statement`의 `title`→`support`→`subtitle` 순서로 구성합니다.
+
+## 이미지 항목
+
+```js
+{
+  layout: "gallery", variant: "portraits", quiet: true,
+  title: "함께 만드는 사람들",
+  items: [
+    { src: "assets/people.jpg", alt: "작업 중인 사람", label: "한 장면", caption: "짧은 설명", fit: "cover", focalPoint: "50% 25%" }
+  ]
+}
+```
+
+- `src`, `video`, `poster`는 **열린 HTML 문서의 위치**를 기준으로 합니다. 루트 index.html에서 `assets/people.jpg`는 루트 assets 폴더입니다.
+- 사진에는 `cover`와 `focalPoint`로 초점을 정할 수 있습니다. 문서·UI·타이포 작품은 `contain`으로 핵심 내용의 잘림을 피합니다.
+- `zoom`은 1~3 사이의 숫자로 표시 프레임을 디지털 확대합니다. 광학 배율을 뜻하지 않습니다.
+- 범주와 새 구성의 항목별 tone은 `blue`, `green`, `orange`, `purple`, `yellow`, `white` 중 하나입니다. 이미지 자체의 색은 바꾸지 않습니다.
+
+## 의미 아이콘과 중앙 메시지
+
+`categories.items[].icon`에는 아래 키를 지정합니다. 같은 24×24 viewBox, 1.8 선굵기의 자체 선형 SVG가 들어갑니다. 폰트·외부 CDN·브랜드 로고에 의존하지 않습니다. 기존 `symbol`도 사용할 수 있으며 둘 다 있으면 `icon`을 표시합니다. 알 수 없는 아이콘 키는 해당 장의 입력 오류입니다.
+
+`brain`, `price`, `speed`, `image`, `voice`, `record`, `compare`, `select`, `share`, `code`, `chart`, `search`, `book`, `calendar`, `mail`, `globe`, `check`, `folder`, `music`, `spark`.
+
+아이콘 키는 앞뒤 공백과 대소문자 차이를 허용합니다. 원본 입력은 내보내기에 그대로 보존합니다.
+
+```js
+{
+  layout: "categories", align: "center", quiet: true,
+  title: "무엇이 달라지는가",
+  items: [
+    { icon: "brain", label: "이해", tone: "blue" },
+    { icon: "speed", label: "속도", tone: "white" },
+    { icon: "image", label: "이미지", tone: "orange" }
+  ]
+}
+```
+
+`icon-wall`은 중앙 제목과 설명 주위로 타일을 배치합니다. 항목마다 `icon` 또는 `src` 중 하나만 사용합니다. `src`에는 자체 아이콘 파일을 넣고 `alt`로 설명하세요. `label`은 선택입니다. 이미지의 원래 컬러는 그대로 유지하고 파일 전체를 `contain`으로 표시합니다. 항목별 `tone`은 의미 SVG의 색을 정합니다. 사진·영상 카드에는 `gallery`나 `bento`를 사용하세요.
+
+순서는 위쪽 8개, 아래쪽 8개, 가운데 세 행의 좌우 6개입니다. 22개를 채우면 완전한 외곽이 됩니다. 적은 수의 항목도 같은 슬롯에서 표시하며 자동으로 복제하지 않습니다. 읽기 모드의 좁은 화면에서는 중앙 메시지 뒤에 입력 순서로 항목을 표시합니다.
+
+## 혼합 타일과 두 수치
+
+`bento`는 사진·UI·일러스트·수치·짧은 문장을 하나의 요약 화면에 놓습니다. `preset`을 생략하면 `recap`입니다. 두 프리셋은 같은 12항목을 다른 고정 슬롯에 배치합니다. 원본 데이터를 재정렬하지 않습니다.
+
+| preset | 격자 | 배치 역할 |
+| --- | --- | --- |
+| `recap` | 6열×3행 | 좌측 큰 주역, 상단 가로 타일, 가운데 세로 타일, 작은 요약 타일 |
+| `seoul` | 12열×6행 | 상단 3개·중간 4개·하단 4개와 우측 세로 주역. 서울·도쿄 현장 사진의 혼합 타일 원리를 자체 자료로 적용 |
+
+각 항목의 `type`은 다음 네 가지입니다.
+
+- `media`: 기존 `src`/`video`/`poster`/`alt`/`fit`/`focalPoint`/`zoom` 규칙. `label`·`caption`은 선택이며 텍스트 층을 줄이려면 생략합니다.
+- `metric`: `value`는 표시용 문자열 또는 유한한 숫자, `label`은 문자열, `unit`은 선택입니다. `tone`은 수치에 적용됩니다.
+- `text`: `text`는 문자열, `label`은 선택입니다. `tone`으로 문장의 의미색을 정합니다.
+- `artifact`: 아래 편집형 구성에서 사용하는 표지·인용·개념도·작업 UI·발견·실행 목록입니다.
+
+항목은 정확히 12개입니다. `column`, `row`, `columnSpan`, `rowSpan`, `span`을 따로 넣으면 오류를 알립니다. 프리셋이 배치를 정하므로 겹침·빈칸을 만들거나 초과 항목을 숨기지 않습니다. 12개보다 적은 자료에는 기존 `mosaic` 또는 `results`를 사용하세요. 모바일 읽기에서는 모든 타일을 입력 순서로 펼칩니다.
+
+### C안처럼 한 이야기로 엮기
+
+`bento`에 `variant: "editorial"`을 추가하면 사진과 결과물 자체의 표면을 살리고 수치·문자 타일의 경계를 낮춥니다. 기존 `seoul`·`recap` 배치와 `media`·`metric`·`text` 입력을 그대로 사용합니다. `variant`를 생략한 기존 발표의 표시는 바뀌지 않습니다. `artifact`는 이 변형 안에서만 사용하며, 임의 HTML이나 좌표를 입력하지 않습니다.
+
+가장 빠른 시작점은 [릴리스 회고 한 장](examples/editorial-starter.js)입니다. 파일 내용을 저장소 루트의 `content.js`로 복사하면 빌드 없이 쓸 수 있습니다. 사진 경로도 루트 기준입니다. 제목·짧은 문장·숫자·사진을 바꾸면 같은 구성으로 다른 이야기를 만들 수 있습니다.
+
+`type: "artifact"` 다음에 `kind`와 필요한 내용만 지정합니다. **굵은 필드가 필수**입니다. 표의 필드 외에 공통 `tone`을 선택할 수 있습니다.
+
+| kind | 필드 | 표현 |
+| --- | --- | --- |
+| `cover` | **`title`**: 문자열 또는 문자열 배열 1~4줄. 선택 `label`, `subtitle`, `footer`, `edition` | 세로 표지와 내장 추상 그래픽. `src`·`alt`·`fit`·`focalPoint`로 사용자의 정지 이미지를 그래픽 영역에 넣을 수 있음 |
+| `quote` | **`text`**, 선택 `label` | 인용 조각. `\n`으로 줄바꿈 |
+| `waveform` | **`text`**, 선택 `label` | 짧은 문장과 내장 개념 파형. 실제 녹음·오디오 재생·실측 파형이 아님 |
+| `concepts` | **`items`: 문자열 1~3개**, 선택 `caption` | 주제를 연결한 개념도. 일부만 소개하면 `caption`에 발췌임을 표시 |
+| `task` | **`text`**, 선택 `title`, `progress`, `tools` | 한 행동과 보조 도구 4개. `tools`를 생략하면 내장 의미 아이콘 사용 |
+| `report` | **`title`**, **`items`: 문자열 1~3개**, 선택 `number`, `label` | 발견을 압축한 문서 조각 |
+| `process` | **`items`: 문자열 2~4개**, 선택 `title` | 단계의 관계를 보여주는 개념도. 자동 계산된 성과·실제 데이터 그래프가 아님 |
+| `actions` | **`items`: 문자열 1~3개**, 선택 `title`, `icon` | 다음 행동 목록. 아이콘을 생략하면 내장 문서 아이콘 사용 |
+
+`task.tools`를 직접 바꿀 때는 `{ icon: "record" }` 또는 `{ src: "assets/my-tool.svg", alt: "도구 설명" }` 같은 객체 1~4개를 지정합니다. 각 도구에 `label`, `tone`도 넣을 수 있습니다. 빈 배열·`icon`과 `src`의 동시 사용은 오류입니다. `cover.src`와 `tools[].src`는 정지 이미지용이며 `video`·`poster`를 지원하지 않습니다. 영상은 기존 `type: "media"` 타일에 넣습니다.
+
+표지·인용·문서·개념도의 문장은 SVG 안에 굳히지 않고 일반 편집 가능한 글자로 렌더링합니다. 그래픽과 기본 도구는 공통 렌더러가 그리므로 매번 SVG나 아이콘 키를 작성하지 않아도 됩니다. 글자 수와 내용에 맞는 슬롯을 선택하고, 긴 설명은 별도 장이나 노트로 옮기세요. `seoul`에서 오른쪽 높은 표지는 배열의 네 번째 항목입니다. [배열 순서와 작은 원고 예시](MARKDOWN.md#편집형-혼합-타일-c안)를 참고하세요.
+
+새 `artifact`와 도구 객체의 지원하지 않는 필드는 오타를 찾을 수 있게 경고합니다. 원본 데이터는 내보내기에 보존하며, 그 안의 임의 `src`를 미디어 경로로 바꾸거나 파일 검사를 하지 않습니다. 경고를 숨기려고 원문을 삭제하지 않습니다.
+
+`metric-pair`는 다음처럼 씁니다. 장 전체의 포인트색 하나를 강제하지 않고 비교하는 대상마다 의미색을 지정합니다. 임의의 가상 수치는 예시라고 명시하세요.
+
+```js
+{
+  layout: "metric-pair", quiet: true, title: "초안에서, 실행까지",
+  items: [
+    { value: "24", unit: "분", label: "이전 작업", tone: "blue" },
+    { value: "8", unit: "분", label: "개선 작업", tone: "orange" }
+  ],
+  source: "양식 설명용 가상 수치"
+}
+```
+
+## 점검과 복구
+
+잘못된 layout·배열 타입·항목 수는 해당 슬라이드의 오류로 안내하고 나머지 장은 계속 사용할 수 있게 합니다. 원본 항목은 내보내기에 보존하므로 오류 경로를 보고 `content.js`에서 수정할 수 있습니다. 문법 오류로 content.js 자체를 실행할 수 없는 경우에는 원본 파일의 JavaScript 문법부터 고쳐야 합니다.
+
+형식은 맞지만 문장이 길거나 미디어 프레임이 사라지는 경우에는 활성 장의 실제 크기로 점검합니다. 문제가 있으면 작성자 점검에서 장 번호·문제 위치와 조정 방법을 확인하세요. 읽기 모드는 긴 문장의 전체 내용을 확인할 때 사용할 수 있습니다. 경고는 작성자 조작 UI입니다. 글자를 자동으로 과도하게 줄이거나 초과 항목을 조용히 버리지 않습니다.
+
+브라우저 편집은 native 문자와 visual JSON 수정을 지원합니다. 항목 수·이미지 경로·배치·색 옵션은 원본 데이터에서 바꿉니다. 저장은 발표 id와 HTML 경로로 구분하며, 원본 객체가 바뀌면 이전 브라우저 편집본을 자동 복원하지 않습니다. 중요한 편집은 먼저 content.js로 내보내 보관하세요.
+
+## 개발 검증
+
+런타임은 여전히 설치·빌드·외부 라이브러리 없이 작동합니다. Node.js가 있으면 순수 입력·배치 계약의 회귀 검증을 실행할 수 있습니다.
+
+```sh
+node --test tests/*.test.cjs
+```
+
+이 명령의 통과는 브라우저의 글꼴·크롭·실제 넘침 검증을 대신하지 않습니다. 콘텐츠를 바꾼 뒤에는 실제 발표 기기에서도 리허설하세요.
+
+공개 모델은 브라우저의 `window.STAGE_MODEL`과 Node의 `require("./deck-model.js")`에서 같습니다. `validateDeck(config)`와 `packMosaic(items)` 외에 다음 읽기 전용 조회를 제공합니다. 반환된 배치 객체를 수정해도 다음 호출이나 검증 규칙에는 영향을 주지 않습니다.
+
+```js
+const { bentoPreset, iconWallSlots, iconNames } = require("./deck-model.js");
+bentoPreset("seoul"); // { columns: 12, rows: 6, slots: [{ column, row, columnSpan, rowSpan }, ...] }
+bentoPreset("recap"); // { columns: 6, rows: 3, slots: [12개] }
+iconWallSlots(22); // [{ column, row }, ...] / 1~22 밖이면 null
+// 알 수 없는 preset은 null. iconNames는 지원 의미 아이콘 문자열 배열입니다.
+```

@@ -1,0 +1,12 @@
+const fs=await import('node:fs/promises');
+const home='/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-design-iteration-20261113';
+const revision=JSON.parse(await fs.readFile(home+'/round-03/present-1280/manifest.json','utf8')).revision;
+const task=await taskSpace(85),page=task.page('p1');
+await page.goto('about:blank');
+await page.goto('http://127.0.0.1:4336/presentations/llm-wiki/#5');
+await page.waitForFunction(rev=>window.PRESENTATION?.document.revision===rev&&document.querySelector('.slide.is-active')?.dataset.index==='4'&&document.fonts.status==='loaded'&&[...document.images].every(img=>img.complete&&img.naturalWidth>0),revision);
+const state=await page.evaluate(()=>({url:location.href,title:document.title,revision:window.PRESENTATION.document.revision,slide:Number(document.querySelector('.slide.is-active').dataset.index)+1,heading:document.querySelector('.slide.is-active .slide-title')?.textContent,theme:document.body.dataset.theme,viewport:{width:innerWidth,height:innerHeight,devicePixelRatio},images:[...document.images].map(i=>({src:i.getAttribute('src'),complete:i.complete,naturalWidth:i.naturalWidth}))}));
+await fs.writeFile(home+'/round-03/final-preview.json',JSON.stringify({taskSpace:85,page:'p1',...state},null,2)+'\n');
+const result=await task.finish({keep:['p1']});
+await fs.writeFile(home+'/round-03/browser-finish.json',JSON.stringify({finished:true,kept:['p1'],result:result??null},null,2)+'\n');
+console.log({finished:true,kept:'p1',url:state.url,heading:state.heading,result});

@@ -1,0 +1,418 @@
+[
+  {
+    "slide": 1,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "큰 이름 뒤에 방법과 다음 질문에 다시 쓴다는 목적이 각각 문단으로 이어진다. 단일 진입 메시지를 먼저 읽고 부제를 읽을 수 있어 현재 읽기 구도를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-01.png"
+    ]
+  },
+  {
+    "slide": 2,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "390에서 정의가 여러 행으로 흐르지만 인용의 순서와 강조 결론을 읽고,보충 문장과 설계 출처를 별도로 읽는다. 정의와 근거가 겹치지 않아 좁은 읽기 폭의 현재 구도를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-02.png"
+    ]
+  },
+  {
+    "slide": 3,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "작은 개요에서도 현재 이해/다음 질문과 원자료/결론의 그룹이 분리된다. 실제 상세3에서 정확 발췌의 구성 예 지위와 다섯 관계·원자료 보존을 재배치 본문으로 읽어,축소 SVG만으로 가독성을 면책하지 않고 이 읽기 경로를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-03.png"
+    ]
+  },
+  {
+    "slide": 4,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "맥락과 위키의 도움을 구분선으로 나눈 순서대로 읽는다. 이전 선택 이유와 필요할 때 다시 읽기의 강조가 각 설명 안에 붙어 맥락과 기능을 혼동하지 않고 읽을 수 있다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-04.png"
+    ]
+  },
+  {
+    "slide": 5,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "개요의 열린 raw/wiki와 별도 rules가 구분되고 native 마크다운 정의가 뒤에 온다. 실제 상세5에서 세 파일·요지/이유/질문·wiki 역할·네 약속·발췌의 예시 지위를 본문으로 읽어,작은 메타 자체를 읽었다고 주장하지 않고 전체 읽기 경로를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-05.png"
+    ]
+  },
+  {
+    "slide": 6,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "두 책임을 읽기 전에 공통 마크다운 안내를 먼저 읽는다. 사람의 목적·판단과 AI의 읽기·쓰기·갱신이 각 H2 아래에 남아 공통 안내가 한쪽 책임으로 편입되지 않는다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-06.png"
+    ]
+  },
+  {
+    "slide": 7,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "390 표의 문장은 여러 행으로 재배치되지만 같은 행에서 세 비교축 열을 따라 읽을 수 있다. 원본 두 타일에서 뒤 상호보완 조건도 읽어 스크롤 경계에 필수 내용이 사라지지 않음을 확인했다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-07.png"
+    ]
+  },
+  {
+    "slide": 8,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "작은 검색 경로 개요 아래의 설명과 실제 상세8에서 같은 질문→세 메모→이번 근거→답의 순서를 읽었다. 임시 검색/유지 문서의 차이와 설명용 예시 지위·원본 경로가 읽혀 상세를 포함한 경로를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-08.png"
+    ]
+  },
+  {
+    "slide": 9,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "같은 메모와 세 문서의 개요를 보고 실제 상세9에서 문서명·관련성·필요한 문서와 원자료를 다시 읽는 의미를 읽었다. 자동 생성/갱신 순서가 아님도 본문으로 확인하여 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-09.png"
+    ]
+  },
+  {
+    "slide": 10,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "작은 개요에서 큰 기존 문서면과 요약 입구의 차이를 보고 상세10에서 세 무방향 관계와 자동 갱신 보장 아님을 읽었다. 작은 보조 각주가 필수 문서명이나 관계 본문을 대신하지 않아 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-10.png"
+    ]
+  },
+  {
+    "slide": 11,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "작은 두 문서 개요의 실제 상세11에서 요약 예문·단일 근거와 개념 예문·여러 근거·관련 문서를 읽었다. 설명용 문서 예의 지위까지 본문으로 읽을 수 있어 관계가 축소 이미지에만 갇히지 않는다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-11.png"
+    ]
+  },
+  {
+    "slide": 12,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "세 문서 이름과 함께 읽는 관계가 같은 행에서 바로 대응한다. 개념별 분리와 목차/원자료 접근·새 자료 보완도 실제 본문 순서에 남아 다음 사용 질문으로 전환된다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-12.png"
+    ]
+  },
+  {
+    "slide": 13,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "질문 인용에서 읽을 대상과 우리 조건에 맞춘 답,확인 후 문서로 남길 순서를 따라갈 수 있다. 실제 결과 시연이 아닌 발표용 사용 안내임도 읽혀 이 역할에 맞게 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-13.png"
+    ]
+  },
+  {
+    "slide": 14,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "개요의 조건/수정 방향과 상세14의 입문자·준비된 팩·15분 및 세 수정 내용을 읽었다. 가상 조건이고 자동 수정 보장이 아님을 함께 읽어 조건과 문서 변경의 의미를 유지한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-14.png"
+    ]
+  },
+  {
+    "slide": 15,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "판단 H2 아래 두 H3 질문을 읽고 별도 초록 실행 H2로 이동한다. 목적/선택 이유와 두 자료 연결의 시작 행동이 계층과 순서로 구분되어 같은 무게의 세 항목으로 오인하지 않는다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-15.png"
+    ]
+  },
+  {
+    "slide": 16,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "쓰임과 선택 이유의 작은 개요 뒤 상세16에서 맥락·선택 이유·중요점·쓰임을 본문으로 읽었다. 사람이 남길 목적/판단과 구성 예 지위를 구별할 수 있어 읽기 경로를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-16.png"
+    ]
+  },
+  {
+    "slide": 17,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "상황 설명 다음 큰 질문 인용에 초점이 모이고 뒤 본문이 기준부터 적는 행동으로 이어진다. 왜 골랐고 어떤 질문을 풀려는지의 두 의미구와 강조가 그대로 읽힌다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-17.png"
+    ]
+  },
+  {
+    "slide": 18,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "390에서 누구를 위해 무엇을 만들지/목적은 직접 정하고,/감정·생각·판단·선택 이유를/직접 남깁니다.를 네 의미행으로 읽는다. 두 서술어가 단독으로 고립되지 않고 목적·판단의 직접 책임과 기록 출처 구분이 남아 현재 호흡을 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-18.png"
+    ]
+  },
+  {
+    "slide": 19,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "공부·프로젝트·글과 발표의 동등한 세 활용처를 각 제목과 그 아래 결과 동사로 읽는다. 그룹 간 간격이 유지되어 범주가 섞이지 않고 병렬 설명의 역할에 맞는다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-19.png"
+    ]
+  },
+  {
+    "slide": 20,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "실제 session-plan 상세의 제목·범위·비실측 한계를 읽고,현재 시간표 좌우 스크롤 PNG에서 네 구간의 할 일/남길 것을 같은 행으로 대조했다.358폭 안620폭 표를0→262로 이동해 읽는 경로가 작동하여 필수 열이 잘려 없어진 것이 아님을 확인했다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-20.png"
+    ]
+  },
+  {
+    "slide": 21,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "함께 읽기·고치기·다시 활용하기라는 동등한 동사를 각 설명과 함께 읽는다. 강조한 문서·사람의 판단·다음 질문이 해당 그룹에 가까이 있어 세 이점을 구별한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-21.png"
+    ]
+  },
+  {
+    "slide": 22,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "내용 오류·새 자료 충돌·관리 시간의 세 위험을 각각 제목과 본문으로 읽는다. 한계가 작은 출처로 내려가지 않고 확인 책임이 그대로 드러나 현재 구도를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-22.png"
+    ]
+  },
+  {
+    "slide": 23,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "내 상황과 먼저 할 일을 같은 행에서 대조하며 비용 비교와 간단한 노트/검색의 선택지도 읽는다. 위키가 항상 답이라는 유도 없이 시작 판단의 역할을 수행한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-23.png"
+    ]
+  },
+  {
+    "slide": 24,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "목적·자료·정리·확인 네 요청을 본문에서 먼저 읽은 후 예제 팩과 원본 탐색으로 간다. 출처/내 기록/AI 요약 구분과 확인 요청이 보존되어 실제 첫 요청의 위계에 맞는다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-24.png"
+    ]
+  },
+  {
+    "slide": 25,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "자료 두 개부터라는 결론을 먼저 읽고 목적·연결·확인·재사용의 요약을 뒤에서 읽는다. 한 시작 행동을 회수하는 크기와 여백이 유지되어 마무리로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-25.png"
+    ]
+  },
+  {
+    "slide": 26,
+    "mode": "read-slide-crop",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/narrative_integrator",
+    "reviewedAt": "2026-11-13",
+    "reason": "제목의 청중 질문에서 질문 하나·자료 두 개를 묻는 강조 본문으로 이어진다. Q&A와 탐색 링크는 뒤에 구분되어 청중이 답할 내용과 추가 자료의 순서가 유지된다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-03/read-390/slide-26.png"
+    ]
+  }
+]

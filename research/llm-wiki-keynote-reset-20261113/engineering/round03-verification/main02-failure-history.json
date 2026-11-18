@@ -1,0 +1,235 @@
+{
+  "kind": "unchanged historical observations and checker results; not rerun as new current",
+  "sourceSnapshot": {
+    "path": "research/llm-wiki-keynote-reset-20261113/main-02/source-snapshot.json",
+    "sha256": "598354807ce3582d1a4f585c9ab7ba2fc7e0ad93d5d56652ffa345074536500a"
+  },
+  "snapshotFiles": 104,
+  "snapshotMismatches": [],
+  "results": [
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/qa-present-1920.json",
+      "sha256": "b56596516292e169fac56afb7a51190de0e01c1c673883ea7dd0ce6a05b3b9f9",
+      "status": "regression",
+      "summary": {
+        "checks": 2015,
+        "invalid": 0,
+        "regressions": 4
+      },
+      "failed": [
+        {
+          "id": "present-relations-79-H1-68ae2325-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "present-selection-judgment-99-H1-aee760d1-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "present-first-request-228-H1-3a0d9473-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "present-audience-question-275-P-efcdf0e5-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        }
+      ]
+    },
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/qa-present-1280.json",
+      "sha256": "d09e1bbfa442d42c026a60cb78d8235fec799459f462dab0afe5b63ab058c31a",
+      "status": "regression",
+      "summary": {
+        "checks": 2015,
+        "invalid": 0,
+        "regressions": 4
+      },
+      "failed": [
+        {
+          "id": "present-relations-79-H1-68ae2325-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "present-selection-judgment-99-H1-aee760d1-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "present-first-request-228-H1-3a0d9473-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "present-audience-question-275-P-efcdf0e5-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        }
+      ]
+    },
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/qa-read-1440.json",
+      "sha256": "755f2186df137778425c844046506e536c05d5df519fafe2006693b09ab0b886",
+      "status": "contract-invalid",
+      "summary": {
+        "checks": 2043,
+        "invalid": 5,
+        "regressions": 8
+      },
+      "failed": [
+        {
+          "id": "reading-record-provenance-124-TH-2f496ec4-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-124-TH-15886472-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-126-TD-3e6a04db-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-126-TD-638910cc-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-127-TD-914f0f0c-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-127-TD-f2fa171c-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-128-TD-9158a4ca-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-128-TD-5bb7b2cd-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-url",
+          "status": "contract-invalid",
+          "detail": "Actual public reading URL establishes the exact local output path and origin."
+        },
+        {
+          "id": "reading-link-audience-question-./materials/keynote-notes.md#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80",
+          "status": "contract-invalid",
+          "detail": "Current native reading retains the exact output path, origin and anchor of the source link."
+        },
+        {
+          "id": "reading-link-audience-question-./assets/expanded-study.txt",
+          "status": "contract-invalid",
+          "detail": "Current native reading retains the exact output path, origin and anchor of the source link."
+        },
+        {
+          "id": "reading-support-navigation",
+          "status": "contract-invalid",
+          "detail": "The actual global learning-materials navigation uses the correct local path and origin."
+        },
+        {
+          "id": "native-notes-url",
+          "status": "contract-invalid",
+          "detail": "Notes observation comes from the exact current public path and origin."
+        }
+      ]
+    },
+    {
+      "path": "research/llm-wiki-keynote-reset-20261113/main-02/qa-read-390.json",
+      "sha256": "982660c1db2ffc3ac6897bbc193dd3b330167e289f7b8cfa43fa717569441c19",
+      "status": "contract-invalid",
+      "summary": {
+        "checks": 2043,
+        "invalid": 5,
+        "regressions": 9
+      },
+      "failed": [
+        {
+          "id": "reading-human-responsibility-113-P-ff8123b2-rows",
+          "status": "regression",
+          "detail": "The designated predicates never become isolated actual glyph rows."
+        },
+        {
+          "id": "reading-record-provenance-124-TH-2f496ec4-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-124-TH-15886472-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-126-TD-3e6a04db-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-126-TD-638910cc-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-127-TD-914f0f0c-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-127-TD-f2fa171c-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-128-TD-9158a4ca-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-record-provenance-128-TD-5bb7b2cd-font",
+          "status": "regression",
+          "detail": "Actual rendered font retains its declared role size."
+        },
+        {
+          "id": "reading-url",
+          "status": "contract-invalid",
+          "detail": "Actual public reading URL establishes the exact local output path and origin."
+        },
+        {
+          "id": "reading-link-audience-question-./materials/keynote-notes.md#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80",
+          "status": "contract-invalid",
+          "detail": "Current native reading retains the exact output path, origin and anchor of the source link."
+        },
+        {
+          "id": "reading-link-audience-question-./assets/expanded-study.txt",
+          "status": "contract-invalid",
+          "detail": "Current native reading retains the exact output path, origin and anchor of the source link."
+        },
+        {
+          "id": "reading-support-navigation",
+          "status": "contract-invalid",
+          "detail": "The actual global learning-materials navigation uses the correct local path and origin."
+        },
+        {
+          "id": "native-notes-url",
+          "status": "contract-invalid",
+          "detail": "Notes observation comes from the exact current public path and origin."
+        }
+      ]
+    }
+  ],
+  "roleContractCorrection": "Only H1 roles 7 media support 54 and 9/17 quote context 38 were corrected after independent role judgment. Main-02 results and original contract remain unchanged. Body20=30<32 and reading table=16<18/tail failures remain genuine historical product regressions."
+}

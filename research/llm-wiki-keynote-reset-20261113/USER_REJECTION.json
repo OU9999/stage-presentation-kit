@@ -1,0 +1,26 @@
+{
+  "status": "superseded-by-explicit-user-rejection",
+  "instruction": "한 화면에 정보가 너무 많음. 자료가 정리된 느낌이 아님. 오리지널 글로벌 기업 발표 수준의 미감과 강한 검증관/잦은 재시도 요구.",
+  "source": "talks/llm-wiki/slides.md",
+  "sourceSha256": "8fa3d55cd5d92c13d20ffd40434f1725ee093c289dea4365015d0a894c659a84",
+  "priorRecords": [
+    {
+      "path": "research/llm-wiki-design-iteration-20261113/round-03/reviews/present-1280.review.json",
+      "sha256": "a82cc4fa49be74385b780ae6b0005bb36b74a7b1fe91f3ef7f64e721a0dbbaa7"
+    },
+    {
+      "path": "research/llm-wiki-design-iteration-20261113/round-03/reviews/present-1920.review.json",
+      "sha256": "692a7e847fb8d54826594e8bba57f968ade1e58a1f3d29f5075f6acd269be9a3"
+    },
+    {
+      "path": "research/llm-wiki-design-iteration-20261113/round-03/reviews/read-1440.review.json",
+      "sha256": "b579ff6d106b0210964431ddfc02f2fdc8cc94818610e4c46d992327a6423fe4"
+    },
+    {
+      "path": "research/llm-wiki-design-iteration-20261113/round-03/reviews/read-390.review.json",
+      "sha256": "b544b326ade6882b486dbe6ad602c1ee7af07d5eba498a826c0bb073efbaa02a"
+    }
+  ],
+  "historyPreserved": true,
+  "currentDecision": "Needs substantial information editing and visual redesign. Old approvals are historical, not current aesthetic approval."
+}

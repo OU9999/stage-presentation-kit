@@ -1,0 +1,142 @@
+/* Reading pages are deliberately independent of the presentation runtime. */
+.material-page {
+  --material-paper: #faf9f5;
+  --material-ink: #252c29;
+  --material-muted: #606b64;
+  --material-rule: #d8ded5;
+  --material-accent: #246344;
+  --material-link: #165a9b;
+  margin: 0;
+  background: var(--material-paper);
+  color: var(--material-ink);
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  line-height: 1.85;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+.material-page *, .material-page *::before, .material-page *::after { box-sizing: border-box; }
+.material-page a { color: var(--material-link); text-underline-offset: .2em; text-decoration-thickness: 1px; overflow-wrap: anywhere; }
+.material-page a:hover { text-decoration-thickness: 2px; }
+.material-page :focus-visible { outline: 3px solid #b14f18; outline-offset: 4px; border-radius: 2px; }
+.material-page ::selection { background: #d4e9d4; color: #132e1d; }
+.material-skip { position: fixed; z-index: 10; top: .75rem; left: 1rem; padding: .6rem 1rem; background: #fff; transform: translateY(-180%); }
+.material-skip:focus { transform: translateY(0); }
+.material-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 1.35rem 2rem;
+  border-bottom: 1px solid var(--material-rule);
+}
+.material-brand { color: var(--material-ink) !important; font-size: 19px; font-weight: 800; letter-spacing: .06em; text-decoration: none; white-space: nowrap; }
+.material-brand span { margin-left: .7rem; color: var(--material-muted); font-size: 14px; font-weight: 500; letter-spacing: 0; }
+.material-header-nav { display: flex; flex-wrap: wrap; gap: .4rem 1.3rem; font-size: 15px; }
+.material-header-nav a { padding: .25rem 0; color: var(--material-muted); }
+.material-shell {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 800px);
+  align-items: start;
+  gap: 72px;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 3.5rem 2rem 5rem;
+}
+.material-sidebar { position: sticky; top: 1.5rem; min-width: 0; max-height: calc(100vh - 3rem); max-height: calc(100svh - 3rem); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-gutter: stable; padding: .25rem .8rem .75rem .1rem; font-size: 15px; line-height: 1.6; }
+.material-mobile-nav { display: none; }
+.material-doc-nav { padding-bottom: 1.4rem; border-bottom: 1px solid var(--material-rule); }
+.material-doc-nav ul, .material-toc ul { list-style: none; margin: 0; padding: 0; }
+.material-doc-nav li { margin: 0; }
+.material-doc-nav a { display: block; padding: .55rem .65rem; border-left: 3px solid transparent; color: var(--material-muted); text-decoration: none; }
+.material-doc-nav a.is-current, .material-doc-nav .is-current > a, .material-doc-nav a[aria-current="page"] { border-left-color: var(--material-accent); color: #204d35; background: #e9efe5; font-weight: 700; }
+.material-toc { padding-top: 1.6rem; }
+.material-toc h2 { margin: 0 0 .8rem .8rem; color: var(--material-ink); font-size: 14px; font-weight: 750; }
+.material-toc a { display: block; padding: .4rem .65rem; color: var(--material-muted); text-decoration: none; }
+.material-toc a:hover, .material-doc-nav a:hover { color: var(--material-accent); text-decoration: underline; }
+.material-toc a:focus-visible, .material-doc-nav a:focus-visible { outline-offset: -3px; }
+.material-toc .toc-level-3 { padding-left: .9rem; font-size: 14px; }
+.material-article { min-width: 0; width: 100%; }
+.material-intro { padding-bottom: 2rem; border-bottom: 2px solid var(--material-ink); }
+.material-eyebrow { margin: 0 0 1rem; color: var(--material-accent); font-size: 14px; font-weight: 750; letter-spacing: .04em; }
+.material-intro h1 { margin: 0; font-size: clamp(34px, 4vw, 50px); font-weight: 750; line-height: 1.3; letter-spacing: -.045em; word-break: keep-all; overflow-wrap: anywhere; }
+.material-intro > p:last-child:not(.material-eyebrow) { margin: 1.2rem 0 0; color: var(--material-muted); font-size: 19px; line-height: 1.7; }
+.material-content { padding-top: 1.4rem; overflow-wrap: anywhere; word-break: normal; }
+.material-content p { margin: 0 0 1.25rem; }
+.material-content h2, .material-content h3, .material-content h4, .material-intro h1 { scroll-margin-top: 1.5rem; }
+.material-content h2 { margin: 3.5rem 0 1.3rem; padding-top: 1.65rem; border-top: 1px solid var(--material-rule); font-size: 29px; font-weight: 750; line-height: 1.45; letter-spacing: -.035em; word-break: keep-all; overflow-wrap: anywhere; }
+.material-content h3 { margin: 2.3rem 0 1rem; font-size: 23px; font-weight: 750; line-height: 1.5; letter-spacing: -.025em; word-break: keep-all; overflow-wrap: anywhere; }
+.material-content h4 { margin: 1.8rem 0 .8rem; font-size: 20px; line-height: 1.6; }
+.material-content strong { font-weight: 750; }
+.material-content ul, .material-content ol { margin: 1rem 0 1.5rem; padding-left: 1.55rem; }
+.material-content li { padding-left: .2rem; margin: .5rem 0; }
+.material-content li > ul, .material-content li > ol { margin: .45rem 0; }
+.material-content li > p { margin: .4rem 0; }
+.material-content li::marker { color: var(--material-accent); }
+.material-content blockquote { margin: 1.8rem 0; padding: .2rem 0 .2rem 1.3rem; border-left: 4px solid var(--material-accent); color: #45564a; }
+.material-content blockquote > :last-child { margin-bottom: 0; }
+.material-content hr { margin: 2.5rem 0; border: 0; border-top: 1px solid var(--material-rule); }
+.material-content code { padding: .12em .3em; border-radius: 3px; background: #eeeee6; color: #334c3c; font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; font-size: .87em; overflow-wrap: anywhere; }
+.material-content pre { max-width: 100%; margin: 1.6rem 0; padding: 1.35rem 1.5rem; overflow-x: auto; background: #19231f; color: #edf3e8; border-radius: 4px; font-size: 16px; line-height: 1.8; tab-size: 2; scrollbar-width: thin; }
+.material-content pre code { display: block; padding: 0; border-radius: 0; background: transparent; color: inherit; font-size: inherit; white-space: pre; word-break: normal; overflow-wrap: normal; }
+.material-content pre:has(> .language-diff) { border-left: 4px solid #e8ad67; }
+.material-content img, .material-content svg, .material-content video { display: block; max-width: 100%; height: auto; margin: 1.5rem auto; }
+.material-table-scroll { max-width: 100%; margin: 1.7rem 0 2rem; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: thin; border-top: 2px solid #6b7d6d; border-bottom: 1px solid var(--material-rule); }
+.material-table-scroll table { width: 100%; min-width: 620px; border-collapse: collapse; font-size: 18px; line-height: 1.75; text-align: left; }
+.material-table-scroll th, .material-table-scroll td { padding: .9rem 1rem; border-bottom: 1px solid var(--material-rule); vertical-align: top; overflow-wrap: anywhere; }
+.material-table-scroll th { background: #edf1e8; font-weight: 750; }
+.material-table-scroll tr:last-child td { border-bottom: 0; }
+.material-table-scroll td:first-child { font-weight: 600; }
+.material-footer { margin-top: 4rem; padding-top: 1.4rem; border-top: 1px solid var(--material-rule); color: var(--material-muted); font-size: 15px; }
+@media (max-width: 1080px) {
+  .material-shell { grid-template-columns: 215px minmax(0, 1fr); gap: 36px; padding-inline: 1.5rem; }
+}
+@media (max-width: 800px) {
+  .material-header { align-items: flex-start; flex-direction: column; gap: .65rem; padding: 1.1rem 1.25rem; }
+  .material-header-nav { gap: .4rem 1.2rem; }
+  .material-shell { display: block; padding: 1.5rem 1.25rem 3.5rem; }
+  .material-sidebar { display: none; }
+  .material-mobile-nav { display: block; min-width: 0; margin-bottom: 2rem; border-bottom: 1px solid var(--material-rule); font-size: 15px; line-height: 1.6; }
+  .material-mobile-nav summary { min-height: 48px; padding: .75rem .2rem; color: var(--material-accent); font-weight: 700; cursor: pointer; }
+  .material-mobile-nav summary::marker { color: var(--material-accent); }
+  .material-mobile-nav-content { max-height: 65vh; max-height: 65svh; overflow-y: auto; overscroll-behavior: contain; padding: .3rem .4rem 1rem .1rem; scrollbar-width: thin; }
+  .material-doc-nav { padding-bottom: 1.1rem; }
+  .material-doc-nav ul { display: flex; flex-wrap: wrap; gap: .25rem .6rem; }
+  .material-doc-nav a { padding: .35rem .6rem; }
+  .material-toc { padding: 1.1rem .5rem .5rem 0; }
+  .material-toc h2 { margin-left: .65rem; }
+  .material-intro { padding-bottom: 1.5rem; }
+  .material-content h2 { margin-top: 2.7rem; font-size: 27px; }
+  .material-content h3 { font-size: 22px; }
+  .material-content pre { padding: 1rem; }
+}
+@media (max-width: 420px) {
+  .material-brand span { margin-left: .5rem; }
+  .material-header, .material-shell { padding-inline: 1rem; }
+  .material-intro h1 { font-size: 34px; }
+  .material-intro > p:last-child:not(.material-eyebrow) { font-size: 18px; }
+  .material-content { line-height: 1.9; }
+  .material-content blockquote { padding-left: .9rem; }
+  .material-table-scroll th, .material-table-scroll td { padding: .8rem; }
+}
+@media print {
+  .material-page { background: #fff; color: #000; font-size: 11pt; line-height: 1.65; }
+  .material-header, .material-sidebar, .material-mobile-nav, .material-skip, .material-footer { display: none; }
+  .material-shell { display: block; max-width: none; margin: 0; padding: 0; }
+  .material-article { width: auto; }
+  .material-intro { padding-bottom: 1rem; }
+  .material-intro h1 { font-size: 25pt; }
+  .material-content h2 { margin-top: 1.8rem; padding-top: 1rem; font-size: 17pt; }
+  .material-content h3 { font-size: 14pt; }
+  .material-content h2, .material-content h3, .material-content h4 { break-after: avoid; }
+  .material-content p { orphans: 3; widows: 3; }
+  .material-page a { color: #000; }
+  .material-content pre { overflow: visible; padding: .7rem; border: 1px solid #aaa; background: #fff; color: #000; font-size: 9pt; }
+  .material-content pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
+  .material-table-scroll { overflow: visible; }
+  .material-table-scroll table { min-width: 0; font-size: 10pt; }
+  .material-table-scroll th, .material-table-scroll td { padding: .45rem; }
+  .material-table-scroll tr { break-inside: avoid; }
+}

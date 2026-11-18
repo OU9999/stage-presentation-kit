@@ -1,0 +1,247 @@
+[p1 "LLM Wiki 학습 자료 — LLM Wiki · 내 자료를 AI와 함께 정리하는 방법" | space "LLM Wiki 키노트 미감 재설계"(89): 1 managed, 0 untracked — p1* "LLM Wiki 학습 자료 — LLM Wiki · 내 자료를 AI와 함께 정리하는 방법"]
+root
+  anchor [ref=686, loc=href:/presentations/llm-wiki/materials/index.html#material-content, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html#material-content]
+    text "본문으로 이동"
+  container
+    anchor [ref=687, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+      text "ou-presentation"
+      text "학습 자료"
+    container "발표와 학습 자료"
+      anchor [ref=688, url=http://127.0.0.1:4336/presentations/llm-wiki/index.html]
+        text "발표"
+      anchor [ref=689, loc=href:/presentations/llm-wiki/read.html, url=http://127.0.0.1:4336/presentations/llm-wiki/read.html]
+        text "슬라이드 읽기"
+      anchor [ref=690, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+        text "자료 모음"
+  container
+    container
+      container [ref=691]
+        text "목차와 다른 자료"
+      container
+        container "자료 목록"
+          unordered_list
+            list_item
+              anchor [ref=692, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+                text "LLM Wiki 학습 자료"
+            list_item
+              anchor [ref=693, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html]
+                text "LLM Wiki 키노트 해설"
+            list_item
+              anchor [ref=694, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/study-guide.html]
+                text "LLM Wiki 혼자 공부하기"
+            list_item
+              anchor [ref=695, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/speaker-script.html]
+                text "LLM Wiki 키노트 대본"
+            list_item
+              anchor [ref=696, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/reference-library.html]
+                text "원문 읽기 안내와 용어 모음"
+            list_item
+              anchor [ref=697, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/workshop.html]
+                text "LLM Wiki 예제 읽기와 선택 심화"
+            list_item
+              anchor [ref=698, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/demo-log.html]
+                text "실제 파일 읽기와 교정 실행 기록"
+            list_item
+              anchor [ref=699, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/session-plan.html]
+                text "입문자와 함께 읽는 15분 LLM Wiki 활동"
+            list_item
+              anchor [ref=700, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/visual-appendix.html]
+                text "원본 그림과 상세 자료"
+            list_item
+              anchor [ref=701, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/diagram-reading.html]
+                text "도식의 대상과 관계 읽기"
+        container "이 문서의 목차"
+          heading
+            text "이 문서에서"
+          unordered_list
+            list_item
+              anchor [ref=702, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html#%EC%A7%80%EA%B8%88-%ED%95%84%EC%9A%94%ED%95%9C-%EC%9E%90%EB%A3%8C]
+                text "지금 필요한 자료"
+            list_item
+              anchor [ref=703, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html#%EB%B0%9C%ED%91%9C%EC%97%90%EC%84%9C-%EC%9D%B4%EC%96%B4-%EC%9D%BD%EA%B8%B0]
+                text "발표에서 이어 읽기"
+            list_item
+              anchor [ref=704, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html#%EC%9D%B4%EB%B2%88-%EC%98%88%EC%A0%9C%EC%9D%98-%ED%9D%90%EB%A6%84]
+                text "이번 예제의 흐름"
+            list_item
+              anchor [ref=705, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html#%EC%9E%90%EB%A3%8C%EB%A5%BC-%EC%9D%BD%EB%8A%94-%EC%84%B8-%EA%B0%80%EC%A7%80-%EA%B5%AC%EB%B6%84]
+                text "자료를 읽는 세 가지 구분"
+            list_item
+              anchor [ref=706, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html#%EB%8B%A4%EB%A5%B8-%EC%A3%BC%EC%A0%9C%EC%99%80-%EC%84%A0%ED%83%9D-%EC%8B%AC%ED%99%94]
+                text "다른 주제와 선택 심화"
+    container
+      container
+        paragraph
+          text "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법"
+        heading
+          text "LLM Wiki 학습 자료"
+        paragraph
+          text "연결된 문서의 작성·갱신·재사용을 배우는 키노트의 학습 자료"
+      container
+        paragraph
+          text "내 자료를 AI와 함께 정리하고 연결하는 마크다운 지식창고입니다."
+          text "발표는 핵심을 간단히 설명하고, 이 자료에서는 파일 구조와 갱신·점검을 더 자세히 읽습니다."
+        heading
+          text "지금 필요한 자료"
+        region "표 가로 스크롤" [ref=707, loc=role:region[name="표 가로 스크롤"]]
+          table
+            table_row
+              table_cell
+                text "원하는 일"
+              table_cell
+                text "읽을 자료"
+              table_cell
+                text "가져갈 결과"
+            table_row
+              table_cell
+                text "현재 키노트의 공개 해설 읽기"
+              table_cell
+                anchor [ref=708, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html]
+                  text "키노트 해설 정본"
+              table_cell
+                text "정의·파일·작업 약속·전체 관계·복사 요청과 가상 예제의 한계"
+            table_row
+              table_cell
+                text "개념과 작동을 충분히 이해하기"
+              table_cell
+                anchor [ref=709, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/study-guide.html]
+                  text "혼자 공부하기"
+              table_cell
+                text "지속 문서·다중 갱신·재사용과 세 작업"
+            table_row
+              table_cell
+                text "준비된 위키 사례 따라 읽기"
+              table_cell
+                anchor [ref=710, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/workshop.html]
+                  text "예제 읽기와 해설"
+                text "·"
+                anchor [ref=711, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt]
+                  text "학습 팩"
+              table_cell
+                text "개념·비교·계획이 후속 질문에 쓰이는 순환"
+            table_row
+              table_cell
+                text "작은 화면에서 도식의 관계 읽기"
+              table_cell
+                anchor [ref=712, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/diagram-reading.html]
+                  text "대상과 관계 설명"
+              table_cell
+                text "이전 26장판의 9도식과 현재 해설을 문장으로 연결하기"
+            table_row
+              table_cell
+                text "원본 그림과 상세 설명 보기"
+              table_cell
+                anchor [ref=713, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/visual-appendix.html]
+                  text "그림 부록·48장 원고"
+              table_cell
+                text "보존한 19도식·48장 원고·원본 대본"
+            table_row
+              table_cell
+                text "현재 키노트 진행하기"
+              table_cell
+                anchor [ref=714, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/speaker-script.html]
+                  text "현재 키노트 대본"
+                text "·"
+                anchor [ref=715, loc=href:/presentations/llm-wiki/assets/04268eb5de9f-speaker-guide.txt, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/04268eb5de9f-speaker-guide.txt]
+                  text "진행표"
+              table_cell
+                text "현재 20장 역할·발언 메모·시간 배분과 공개 해설의 연결"
+            table_row
+              table_cell
+                text "설계와 기술 근거 확인하기"
+              table_cell
+                anchor [ref=716, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/reference-library.html]
+                  text "원문과 근거"
+              table_cell
+                text "설계 제안·공개 구현·실험·구성 예의 구분"
+            table_row
+              table_cell
+                text "짧은 읽기 활동 진행하기"
+              table_cell
+                anchor [ref=717, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/session-plan.html]
+                  text "15분 스터디 진행안"
+              table_cell
+                text "선택한 두 메모로 관계·근거·다음 질문 확인"
+            table_row
+              table_cell
+                text "기존 정밀 교정 재현하기"
+              table_cell
+                anchor [ref=718, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/demo-log.html]
+                  text "고정 교정 기록"
+                text "·"
+                anchor [ref=719, loc=href:/presentations/llm-wiki/assets/9c0a83b5bf0a-llm-wiki-demo.zip, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/9c0a83b5bf0a-llm-wiki-demo.zip]
+                  text "ZIP"
+              table_cell
+                text "승인안을 파일에 적용하는 별도 심화"
+        heading
+          text "발표에서 이어 읽기"
+        paragraph
+          text "현재 본편은 20장입니다."
+          anchor [ref=720, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/speaker-script.html]
+            text "현재 대본"
+          text "은 1~19장 본편 35분과 20장 질문·자료 탐색 5분의 계획 배분을 제시합니다. 장 번호에 의존하지 않는"
+          anchor [ref=721, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html]
+            text "공개 해설 정본"
+          text "에서도 정의·자료·관계·시작 요청을 읽을 수 있습니다. 실제 음성 리허설 실측이 아닙니다."
+        paragraph
+          anchor [ref=722, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%8B%9C%EC%9E%91-%EC%9A%94%EC%B2%AD%EA%B3%BC-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80]
+            text "시작 요청 전문"
+          text "에서 시작 요청의 예를 보고 자기 목적과 자료를 적습니다. 발표 후에는"
+          anchor [ref=723, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/workshop.html#%EA%B8%B0%EB%B3%B8-%EC%9D%BD%EA%B8%B0-%EC%A3%BC%EC%A0%9C-%EB%A9%94%EB%AA%A8%EC%97%90%EC%84%9C-%EB%8B%A4%EC%9D%8C-%EC%8A%A4%ED%84%B0%EB%94%94%EB%A1%9C]
+            text "예제 읽기"
+          text "에서"
+          text "목적 하나·설명용 주제 메모 세 개·연결된 계획·후속 질문 하나"
+          text "를 따라 읽을 수 있습니다. 별도 15분 활동은 준비된 팩의 관계와 근거를 확인하는 읽기 시간입니다. 자료의 장 링크는 별도 읽기 화면을 엽니다."
+        heading
+          text "이번 예제의 흐름"
+        paragraph
+          text "처음에는 ‘다음 AI 스터디에서 LLM Wiki를 어떻게 시도할까?’를 묻습니다. 발표팀이 작성한 ‘목적과 맥락’·‘검색과 비교’·‘지식의 활용’ 메모�..."
+        paragraph
+          text "새 조건은 개념의"
+          text "우리 적용 범위"
+          text ", 비교의"
+          text "선택 기준"
+          text ", 종합의"
+          text "현재 계획"
+          text "을 구체화합니다. 유용한 답을 검토 뒤 저장하고, 그 정리를 읽어"
+          anchor [ref=724, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/session-plan.html]
+            text "15분 진행안"
+          text "으로 이어 갑니다. 활동에서는 ‘목적과 맥락’과 ‘지식의 활용’ 두 메모를 골라 읽고 시간·작성 주체·근거·미확인 사항을 확인합니다."
+        heading
+          text "자료를 읽는 세 가지 구분"
+        unordered_list
+          list_item
+            text "일차 근거:"
+            text "Karpathy의 설계 글, 논문과 공식 기술 문서."
+            anchor [ref=725, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/reference-library.html]
+              text "원문 읽기 안내"
+            text "에서 주장 범위를 확인합니다."
+          list_item
+            text "설명용 구성 예:"
+            text "발표팀이 작성한 주제 메모·위키·계획·후속 질문 답과 가상 모임 조건. 이번 세션의 모델 출력이나 실제 스터디 성과가 아닙니다."
+          list_item
+            text "고정 교정 실행:"
+            text "기존 ZIP의 승인안을 Node로 적용·검사한 기록. 실제 LLM이 새 답을 만든 실험과 구분합니다."
+        heading
+          text "다른 주제와 선택 심화"
+        paragraph
+          text "기존 구판 예제와 고정 데모는 별도 부록으로 보존했습니다. 현재 키노트의 구성 예는"
+          anchor [ref=726, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/245ebc8ac44e-expanded-study.txt]
+            text "주제 메모 학습 팩"
+          text "을 기준으로 읽으세요."
+        paragraph
+          anchor [ref=727, loc=href:/presentations/llm-wiki/assets/c25067e5b335-reading.txt, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/c25067e5b335-reading.txt]
+            text "독서"
+          text "·"
+          anchor [ref=728, loc=href:/presentations/llm-wiki/assets/b9b79ffd8cd0-team.txt, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/b9b79ffd8cd0-team.txt]
+            text "고객 요구"
+          text "·"
+          anchor [ref=729, loc=href:/presentations/llm-wiki/assets/7f02c1c31f4c-course.txt, url=http://127.0.0.1:4336/presentations/llm-wiki/assets/7f02c1c31f4c-course.txt]
+            text "강의 메모"
+          text "는 가상 적용 예입니다. 자신의 자료로 옮길 때 질문·입력·검토 범위를 정하는 참고로 사용할 수 있습니다."
+      container
+        anchor [ref=730, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+          text "자료 모음으로"
+        text "·"
+        anchor [ref=731, url=http://127.0.0.1:4336/presentations/llm-wiki/index.html]
+          text "발표로 돌아가기"

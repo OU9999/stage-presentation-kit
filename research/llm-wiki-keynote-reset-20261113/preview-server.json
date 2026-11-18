@@ -1,0 +1,8 @@
+{
+  "pid": 87150,
+  "port": 4336,
+  "root": "/Users/ou9999-wdl/Documents/devday-presentation-kit",
+  "requestQueueSize": 128,
+  "handlerSha256": "baa0a7dad6d1ebf5224669c6a42a0ab0c1e344c3653cf7aaa6c145f1fbb04cd0",
+  "reason": "Earlier queue size was 5. A resource failed before HTTP (status0/bytes0); increase local preview capacity and verify actual browser operations again."
+}

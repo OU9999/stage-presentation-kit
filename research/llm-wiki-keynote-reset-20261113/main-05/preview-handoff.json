@@ -1,0 +1,21 @@
+{
+  "taskSpace": 89,
+  "page": "p1",
+  "purpose": "User preview; formal approval is limited to the four recorded viewport scopes.",
+  "url": "http://127.0.0.1:4336/presentations/llm-wiki/?final=19670d537a7b#6",
+  "sourceRevision": "19670d537a7bb9279169aabb893250fcce8ed540e75dd5fcf574e4794975524f",
+  "slide": 6,
+  "theme": "stage",
+  "viewport": {
+    "width": 1920,
+    "height": 939,
+    "devicePixelRatio": 2
+  },
+  "images": [
+    {
+      "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/9b0d7f39390b-plan-change.svg",
+      "naturalWidth": 1440
+    }
+  ],
+  "diagnostic": null
+}

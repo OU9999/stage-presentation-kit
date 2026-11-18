@@ -1,0 +1,146 @@
+{
+  "schema": "presentation-impact-review-v1",
+  "reviewer": "/root/creative_quality_manager/keynote_critic",
+  "reviewedAt": "2026-11-13T12:04:49Z",
+  "manualStatus": "criteria-met-for-listed-presentation-scopes",
+  "formalApprovalClaim": false,
+  "scopes": [
+    {
+      "scope": "present-1920",
+      "manualStatus": "approved",
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "rawReviews": "research/llm-wiki-keynote-reset-20261113/review/main-05/present-1920.reviews.json",
+      "rawReviewsSha256": "6608cf009f92249727b54c5dae7a62c2a7f66ae147ec4967c1861b26e1fbca6a",
+      "manifest": "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/manifest.json",
+      "manifestSha256": "5e6a3fd3a9b819e6017ca3e9690ca9b07896d6d15ba614e76b133590ec6fc868",
+      "currentPngCount": 20,
+      "byteIdenticalToMain03": 20,
+      "newDirectlyViewedSlides": [
+        1,
+        6,
+        15,
+        20
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "devicePixelRatio": 1
+      }
+    },
+    {
+      "scope": "present-1280",
+      "manualStatus": "approved",
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "rawReviews": "research/llm-wiki-keynote-reset-20261113/review/main-05/present-1280.reviews.json",
+      "rawReviewsSha256": "e42c44377f9217678adac5e0a8e0828345cb8891df033d3303ece70106126b63",
+      "manifest": "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/manifest.json",
+      "manifestSha256": "54ee804c88e9e31ee232ce86fd5df509d35927aef74358c0cc84837b341c2605",
+      "currentPngCount": 20,
+      "byteIdenticalToMain03": 20,
+      "newDirectlyViewedSlides": [
+        1,
+        6,
+        15,
+        20
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      }
+    }
+  ],
+  "observationOrder": [
+    "Read current WORK_LOG, DESIGN, ENGINEERING_ROUND05 and prior native3 finding.",
+    "Directly opened eight current representative PNGs (1,6,15,20 at each size); first-view assessment: no new presentation rejection. Initial message sent to manager and root before technical-pass/hash results.",
+    "Compared all40 current presentation files with all40 directly viewed main03 files: byte-for-byte and SHA256 identical.",
+    "Inspected actual changed input classification and exact notes hardbreak; rebound current manual decisions to current source/DESIGN/manifests/evidence."
+  ],
+  "newVisualAssessment": "두 크기에서 표지 주역, 계획의 전후 조건 변화, 질문과 원문 목적의 대조, 마감 질문이 유지된다. 실제 자료장·선택 전환·관계장·활동표·책임/주체 구분을 번갈아 읽는 기존 전편 리듬에도 픽셀 변화가 없다. 새 구조 반려는 없다.",
+  "actualObservationBoundary": {
+    "priorDirectlyViewedIndividualPngs": 40,
+    "currentDirectlyViewedIndividualPngs": 8,
+    "currentByteComparisons": 40,
+    "newAll40DirectObservationClaim": false,
+    "referenceBasis": "Existing direct observation of five original role frames and main03 full two-size flow; no new claim of reopening those frames in this impact round."
+  },
+  "changedInputs": [
+    {
+      "path": "scripts/llm-wiki-keynote-qa.cjs",
+      "main03Sha256": "9640963699728ed0e1417e90cb6858f426d1e9dc57cea3b27a0a0d1f0213c97b",
+      "main04Sha256": "9640963699728ed0e1417e90cb6858f426d1e9dc57cea3b27a0a0d1f0213c97b",
+      "main05Sha256": "7fa9307535aadd620b40b2af2f1988ef09a54ebf538f40edce3799930e7d6e9b",
+      "classification": "verification-only: exact public native paragraph source/text/glyph-row checks and rendered text normalization; not a presentation runtime script."
+    },
+    {
+      "path": "talks/llm-wiki/materials/keynote-notes.md",
+      "main03Sha256": "9b3604bd00e28083e7e9b13d251f538ad0eb42cfe20fb6d5072674c9cebec5f2",
+      "main04Sha256": "58e4345a4a72517c59eb00b190b019d5e3ae555181f97f917a6ba36daa147180",
+      "main05Sha256": "a8b6f7f6100454619e71d7d5e026e0021f678e8fb2216a37d145a514bf075624",
+      "classification": "native-document-rendering: same quoted paragraph; main04 emphasis delimiter fix and main05 one authored hardbreak. Exact quotation words remain unchanged."
+    },
+    {
+      "path": "talks/llm-wiki/qa/keynote-current.json",
+      "main03Sha256": "b26101b3dc4b2e0688b7dc431d4bce8b4fe828b8ccf4d02a2c465eb8c6474359",
+      "main04Sha256": "b26101b3dc4b2e0688b7dc431d4bce8b4fe828b8ccf4d02a2c465eb8c6474359",
+      "main05Sha256": "160391473eae3cd77b6657e1531257de70baa74d70cafbd1e9036e545f09df49",
+      "classification": "verification-only: nativeParagraphs contract added; existing presentation roles/support/coverage requirements unchanged."
+    },
+    {
+      "path": "templates/materials.css",
+      "main03Sha256": "1b61ac3b3119aa9aae8a080ea24e63eb0080abf0ce5749d469e2cf0977a0b702",
+      "main04Sha256": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+      "main05Sha256": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+      "classification": "native-document-rendering: word-break normal to keep-all since main04; unchanged main04 to main05; not loaded by presentation template."
+    }
+  ],
+  "meaningAndCriteria": "발표 원고/자산/지원 anchor/26 coverage 의미와 DESIGN 기준은 유지된다. main03에서 실재를 대조했던 계획 전후 구절·목적 원문·예시 지위·약속/관계의 의미를 삭제하거나 기술수치로 면책하지 않았다. native3에서 달라진 것은 같은 인용문 P의 의미구 앞 hardbreak이며 원문 단어는 같다.",
+  "crossReview": "B independently observed the current native3 meaning row and native8/15 fixes. This presentation judgment neither approves native reading nor substitutes for B actual navigation/table/selection findings.",
+  "limits": [
+    "Presentation-stage-only: viewport1920x1080/DPR1 and1280x720/DPR1, slides1–20.",
+    "Native reading, support navigation clicks, source selection, table scrolling and regression execution are outside A manual scope; B/root record those independently.",
+    "Root must bind the unchanged raw manual reviews and pass --require-approved for an explicit scope before formal approval is reported. No user approval claimed."
+  ]
+}

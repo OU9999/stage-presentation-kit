@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="580" viewBox="0 0 1440 580" role="img" aria-labelledby="title desc">
+  <title id="title">원자료와 정리한 이해</title>
+  <desc id="desc">발표팀이 작성한 구성 예의 부분 발췌. raw 목적과 맥락의 목적 구절과 wiki LLM Wiki 개념의 구절을 대조한다. 실제 모델 실행 결과가 아니다.</desc>
+  <style>text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.7px} .meta{font-size:24px;fill:#a4a4a1;letter-spacing:-.6px}.label{font-size:36px;font-weight:600;fill:#f6f6f4}.copy{font-size:44px;font-weight:500;fill:#f6f6f4}</style>
+  <text class="label" x="90" y="128">raw/</text>
+  <text class="meta" x="90" y="171">목적과 맥락 · 보존</text>
+  <text class="copy" x="90" y="275"><tspan x="90">어떤 질문에 다시</tspan><tspan x="90" dy="66">활용할지 정하기.</tspan></text>
+  <text class="label" x="720" y="128" style="fill:#24a8ff">wiki/</text>
+  <text class="meta" x="720" y="171">LLM Wiki 개념 · 작성하고 갱신</text>
+  <text class="copy" x="720" y="275"><tspan x="720">새 입력을 기존 설명에 통합하고,</tspan><tspan x="720" dy="66">다음 질문에서는 필요한 페이지를</tspan><tspan x="720" dy="66">찾아 다시 읽는다.</tspan></text>
+  <text class="meta" x="90" y="537">발표팀 구성 예 · 부분 발췌</text>
+</svg>

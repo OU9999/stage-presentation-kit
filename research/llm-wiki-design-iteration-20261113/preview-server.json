@@ -1,0 +1,7 @@
+{
+  "previousPid": 4812,
+  "previousCommand": "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -m http.server 4336 --bind 127.0.0.1",
+  "pid": 69579,
+  "port": 4336,
+  "reason": "Browser text/plain auto-detected Korean as legacy encoding without charset; package dev server already declares UTF-8. Preview-only header correction; source text bytes unchanged."
+}

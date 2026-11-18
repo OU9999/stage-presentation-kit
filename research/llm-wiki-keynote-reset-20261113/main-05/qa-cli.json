@@ -1,0 +1,98 @@
+[
+  {
+    "scope": "present-1920",
+    "command": [
+      "node",
+      "scripts/llm-wiki-keynote-qa.cjs",
+      "--mode",
+      "current",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--manifest",
+      "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/manifest.json",
+      "--svg-metrics",
+      "research/llm-wiki-keynote-reset-20261113/main-05/present-1920/svg-metrics.json",
+      "--output",
+      "research/llm-wiki-keynote-reset-20261113/main-05/qa-present-1920.json"
+    ],
+    "exitCode": 0,
+    "status": "pass",
+    "summary": {
+      "checks": 2149,
+      "invalid": 0,
+      "regressions": 0
+    }
+  },
+  {
+    "scope": "present-1280",
+    "command": [
+      "node",
+      "scripts/llm-wiki-keynote-qa.cjs",
+      "--mode",
+      "current",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--manifest",
+      "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/manifest.json",
+      "--svg-metrics",
+      "research/llm-wiki-keynote-reset-20261113/main-05/present-1280/svg-metrics.json",
+      "--output",
+      "research/llm-wiki-keynote-reset-20261113/main-05/qa-present-1280.json"
+    ],
+    "exitCode": 0,
+    "status": "pass",
+    "summary": {
+      "checks": 2149,
+      "invalid": 0,
+      "regressions": 0
+    }
+  },
+  {
+    "scope": "read-1440",
+    "command": [
+      "node",
+      "scripts/llm-wiki-keynote-qa.cjs",
+      "--mode",
+      "current",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--manifest",
+      "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/manifest.json",
+      "--reading-metrics",
+      "research/llm-wiki-keynote-reset-20261113/main-05/read-1440/reading-metrics.json",
+      "--output",
+      "research/llm-wiki-keynote-reset-20261113/main-05/qa-read-1440.json"
+    ],
+    "exitCode": 0,
+    "status": "pass",
+    "summary": {
+      "checks": 2200,
+      "invalid": 0,
+      "regressions": 0
+    }
+  },
+  {
+    "scope": "read-390",
+    "command": [
+      "node",
+      "scripts/llm-wiki-keynote-qa.cjs",
+      "--mode",
+      "current",
+      "--source",
+      "talks/llm-wiki/slides.md",
+      "--manifest",
+      "research/llm-wiki-keynote-reset-20261113/main-05/read-390/manifest.json",
+      "--reading-metrics",
+      "research/llm-wiki-keynote-reset-20261113/main-05/read-390/reading-metrics.json",
+      "--output",
+      "research/llm-wiki-keynote-reset-20261113/main-05/qa-read-390.json"
+    ],
+    "exitCode": 0,
+    "status": "pass",
+    "summary": {
+      "checks": 2200,
+      "invalid": 0,
+      "regressions": 0
+    }
+  }
+]

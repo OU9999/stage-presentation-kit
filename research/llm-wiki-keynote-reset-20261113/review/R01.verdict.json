@@ -1,0 +1,81 @@
+{
+  "schema": "stage-keynote-prototype-verdict-v1",
+  "round": "R01",
+  "reviewer": "/root/creative_quality_manager/keynote_critic",
+  "reviewedAt": "2026-11-13T09:35:11Z",
+  "status": "needs-changes",
+  "approvalClaim": false,
+  "scope": {
+    "mode": "presentation-stage-only",
+    "slides": [
+      1,
+      2,
+      3
+    ],
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "stage": {
+      "width": 1557.33349609375,
+      "height": 876
+    }
+  },
+  "source": {
+    "path": "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r01/slides.md",
+    "sha256": "07068c1d2afc95afa23942ac9c0b321cd55365d2f7ee39f9a3fa5ac368ed9124"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "c28cb774ff7544506f2c02913d4588578a045ea98509ac3ea7475cc164f3a062"
+  },
+  "captureManifest": {
+    "path": "research/llm-wiki-keynote-reset-20261113/evidence/r01/present-1920/manifest.json",
+    "sha256": "0db7c5f54da6245a9b0d2fd69cbf2bef80bfce33cd9776b138adcd9be87b422f"
+  },
+  "report": "research/llm-wiki-keynote-reset-20261113/review/R01.md",
+  "judgmentOrder": "Opened all three PNGs and compared role-matched original frames; messaged first visual judgment before reading manifest or technical observations.",
+  "reviews": [
+    {
+      "slide": 1,
+      "status": "keep-candidate",
+      "reason": "The single sentence is immediately the visual protagonist; no heading, explanation, or diagram competes with it. Candidate for this message role only.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r01/present-1920/slide-01.png",
+        "sha256": "9bf23d0a66fe544e653e264789d6d26d83b93d1b6b79a1a3327918bd02b3d1ee"
+      },
+      "nextAction": "B may preserve the message pattern in r02; this is not a formal presentation approval."
+    },
+    {
+      "slide": 2,
+      "status": "needs-changes",
+      "reason": "The raw purpose fragment and generic wiki operation describe different things. They read as two anonymous text columns rather than a source-and-understanding comparison on one shared subject.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r01/present-1920/slide-02.png",
+        "sha256": "3020fbe186d782f92508522a03be8704c9f43e2b44564a2cc868a28d65a30adf"
+      },
+      "owner": "/root/creative_quality_manager/keynote_creator",
+      "nextAction": "Reselect exact source/wiki passages tied to the same question or concept and edit them as visible subjects; preserve origin/status and support coverage."
+    },
+    {
+      "slide": 3,
+      "status": "needs-changes",
+      "reason": "The summary label is distant from its gray junction; right blue endpoints do not meet the vertical segment. The image reads as a V plus a floating line rather than one three-document relation system.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r01/present-1920/slide-03.png",
+        "sha256": "c4b21de5aaf0ce3ba9543e219a9f86f2edfa6c258e75951478053a93e366a85f"
+      },
+      "owner": "/root/creative_quality_manager/keynote_creator",
+      "nextAction": "Redesign document areas and edge attachment as one coherent topology, preserving all three undirected relations and the plan's two bases."
+    }
+  ],
+  "nextOwner": "/root/creative_quality_manager/keynote_creator",
+  "nextAction": "Create r02 separately; root builds/captures new PNGs; A reviews actual images.",
+  "limitations": [
+    "No --require-approved run or formal presentation approval",
+    "No reading/1280/motion/projector review",
+    "No user aesthetic acceptance",
+    "Not a stage-design-review-v1 replacement"
+  ]
+}

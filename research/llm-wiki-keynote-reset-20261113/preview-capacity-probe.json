@@ -1,0 +1,245 @@
+{
+  "queueSize": 128,
+  "samples": [
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?server-capacity=0#15",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/43caa882d581-selected-note.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/9b0d7f39390b-plan-change.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/b377432a8725-connected-understanding.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/2404cc6d8840-condition-and-choice.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/f467a9d2f078-session-plan-excerpt.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/dcef01725a1f-evidence-note.svg",
+          "naturalWidth": 1440
+        }
+      ],
+      "failedResources": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?server-capacity=1#15",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/43caa882d581-selected-note.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/9b0d7f39390b-plan-change.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/b377432a8725-connected-understanding.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/2404cc6d8840-condition-and-choice.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/f467a9d2f078-session-plan-excerpt.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/dcef01725a1f-evidence-note.svg",
+          "naturalWidth": 1440
+        }
+      ],
+      "failedResources": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?server-capacity=2#15",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/43caa882d581-selected-note.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/9b0d7f39390b-plan-change.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/b377432a8725-connected-understanding.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/2404cc6d8840-condition-and-choice.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/f467a9d2f078-session-plan-excerpt.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/dcef01725a1f-evidence-note.svg",
+          "naturalWidth": 1440
+        }
+      ],
+      "failedResources": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?server-capacity=3#15",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/43caa882d581-selected-note.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/9b0d7f39390b-plan-change.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/b377432a8725-connected-understanding.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/2404cc6d8840-condition-and-choice.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/f467a9d2f078-session-plan-excerpt.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/dcef01725a1f-evidence-note.svg",
+          "naturalWidth": 1440
+        }
+      ],
+      "failedResources": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?server-capacity=4#15",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/43caa882d581-selected-note.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/9b0d7f39390b-plan-change.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/b377432a8725-connected-understanding.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/2404cc6d8840-condition-and-choice.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/f467a9d2f078-session-plan-excerpt.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/dcef01725a1f-evidence-note.svg",
+          "naturalWidth": 1440
+        }
+      ],
+      "failedResources": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?server-capacity=5#15",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/43caa882d581-selected-note.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/9b0d7f39390b-plan-change.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/b377432a8725-connected-understanding.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/2404cc6d8840-condition-and-choice.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/f467a9d2f078-session-plan-excerpt.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/dcef01725a1f-evidence-note.svg",
+          "naturalWidth": 1440
+        }
+      ],
+      "failedResources": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?server-capacity=6#15",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/43caa882d581-selected-note.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/9b0d7f39390b-plan-change.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/b377432a8725-connected-understanding.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/2404cc6d8840-condition-and-choice.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/f467a9d2f078-session-plan-excerpt.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/dcef01725a1f-evidence-note.svg",
+          "naturalWidth": 1440
+        }
+      ],
+      "failedResources": []
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/read.html?server-capacity=7#15",
+      "images": [
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/43caa882d581-selected-note.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/9b0d7f39390b-plan-change.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/b377432a8725-connected-understanding.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/2404cc6d8840-condition-and-choice.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/f467a9d2f078-session-plan-excerpt.svg",
+          "naturalWidth": 1440
+        },
+        {
+          "src": "http://127.0.0.1:4336/presentations/llm-wiki/assets/dcef01725a1f-evidence-note.svg",
+          "naturalWidth": 1440
+        }
+      ],
+      "failedResources": []
+    }
+  ]
+}

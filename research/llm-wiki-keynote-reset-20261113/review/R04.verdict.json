@@ -1,0 +1,75 @@
+{
+  "schema": "stage-keynote-prototype-verdict-v1",
+  "round": "R04",
+  "reviewer": "/root/creative_quality_manager/keynote_critic",
+  "reviewedAt": "2026-11-13T09:52:30Z",
+  "status": "keep-candidate",
+  "approvalClaim": false,
+  "role": "Exact excerpt and table structure from an illustrative activity plan",
+  "scope": {
+    "mode": "presentation-stage-only",
+    "slides": [
+      1
+    ],
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "stage": {
+      "width": 1557.33349609375,
+      "height": 876
+    }
+  },
+  "source": {
+    "path": "research/llm-wiki-keynote-reset-20261113/prototypes/talks/r04/slides.md",
+    "sha256": "7f6644533b9c9784d6db44bfd262fb80bea513cf21bbc5329c8d6150c016df0d"
+  },
+  "design": {
+    "path": "DESIGN.md",
+    "sha256": "c28cb774ff7544506f2c02913d4588578a045ea98509ac3ea7475cc164f3a062"
+  },
+  "captureManifest": {
+    "path": "research/llm-wiki-keynote-reset-20261113/evidence/r04/present-1920/manifest.json",
+    "sha256": "9fc07be9b93c3c4b3497c767175644f6183e08cf245d5f55c5905df2fac1d841"
+  },
+  "report": "research/llm-wiki-keynote-reset-20261113/review/R04.md",
+  "judgmentOrder": "Opened current PNG and delivered first visual judgment to B, manager, and root before reading manifest/technical observations/support text.",
+  "reviews": [
+    {
+      "slide": 1,
+      "status": "keep-candidate",
+      "reason": "The title, original three fields, and one selected activity row belong to one large document object. The central task has the largest width and central position; time and expected record remain attributes of the same activity rather than competing explanation columns.",
+      "evidence": {
+        "path": "research/llm-wiki-keynote-reset-20261113/evidence/r04/present-1920/slide-01.png",
+        "sha256": "0ac6aff7efb6b8f95d59f1e6a4400712ac9ad4b9ab6b7bf527ab450a237db53b"
+      }
+    }
+  ],
+  "preservationConditions": [
+    "Exact excerpt/table structure and complete original activity plan accessible in support",
+    "Illustrative plan and time allocation, never execution/learning/model-generation measurement",
+    "Activity arrow sequence distinguished from three undirected document relations",
+    "Local light document surface is a reconstruction choice, not actual-UI authority or a global Stage exception"
+  ],
+  "supportConfirmed": [
+    "Beginner/prepared-pack context and no time-only automatic causality",
+    "Original full plan and exact selected row",
+    "All time intervals, rules, source/relation meanings"
+  ],
+  "pendingObservations": [
+    {
+      "owner": "/root/creative_quality_manager/keynote_critic",
+      "viewport": "1280x720",
+      "item": "Re-read right phrase split as 관계를 / 뒷받침하는 / 근거 위치 at actual smaller stage size"
+    }
+  ],
+  "nextOwner": "/root",
+  "nextAction": "Capture retained message/choice/relation/material patterns at 1280; A directly reviews current PNGs.",
+  "limitations": [
+    "No 1280/reading/motion/projector review yet",
+    "No --require-approved or formal/full-deck/user approval",
+    "This is an illustrative document reconstruction, not an actual application screenshot",
+    "Not a stage-design-review-v1 replacement"
+  ]
+}

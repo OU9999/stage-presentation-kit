@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-11-13T07:07:33Z",
+  "officialModelPage": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+  "officialChangelog": "https://developers.openai.com/api/docs/changelog",
+  "officialReleaseDate": "2026-09-29",
+  "selectedModel": "gpt-6.1-sol",
+  "effort": "high",
+  "forkTurns": "none",
+  "runtimeCatalogEvidence": "Current collaboration.spawn_agent tool contract exposed in this session, inspected 2026-11-13T07:07:33Z",
+  "availableModelIds": [
+    "gpt-6.1-sol",
+    "gpt-6-astra",
+    "gpt-6.1-terra",
+    "gpt-6-sol",
+    "gpt-6-luna"
+  ],
+  "concurrencyLimit": 4,
+  "activeAgentsAtStart": [
+    "/root"
+  ],
+  "selectionReason": "Independent visual critique, engineering contract audit and team synthesis require judgment; latest official Sol matching the actual catalog, high effort; concise independent handoff avoids inherited prior conclusions."
+}

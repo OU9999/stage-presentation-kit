@@ -1,0 +1,119 @@
+{
+  "format": "stage-project-v1",
+  "title": "LLM Wiki · 키노트 재설계 시안",
+  "theme": "stage",
+  "decks": [
+    {
+      "id": "r01",
+      "source": "talks/r01/slides.md",
+      "slug": "r01",
+      "format": "markdown-v1",
+      "title": "LLM Wiki · 다음 질문에 다시 쓰는 지식",
+      "links": {
+        "slides": "r01/index.html",
+        "read": "r01/read.html",
+        "materials": "r01/materials/index.html"
+      },
+      "materials": [
+        {
+          "source": "talks/r01/materials/reading.md",
+          "title": "시안의 원자료와 관계 읽기",
+          "order": 0,
+          "revision": "b07da80a78f819d70a4d4113e028db3046ba6c92e1d98456cdc5f2a0ef1e2d16",
+          "href": "r01/materials/reading.html"
+        },
+        {
+          "source": "talks/r01/materials/speaker.md",
+          "title": "첫 시안 발표 메모",
+          "order": 0,
+          "revision": "fcfdb7338b5a3dd18a686a05f0f10c72d09c88e5540c1e3fe6bfc7a70fd0e158",
+          "href": "r01/materials/speaker.html"
+        }
+      ]
+    },
+    {
+      "id": "r02",
+      "source": "talks/r02/slides.md",
+      "slug": "r02",
+      "format": "markdown-v1",
+      "title": "LLM Wiki · 조건을 읽고 연결하는 시안",
+      "links": {
+        "slides": "r02/index.html",
+        "read": "r02/read.html",
+        "materials": "r02/materials/index.html"
+      },
+      "materials": [
+        {
+          "source": "talks/r02/materials/reading.md",
+          "title": "시안의 원자료와 관계 읽기",
+          "order": 0,
+          "revision": "dcf3a8338051c304ebd0c3f1a09d070ca6f5d8bcd98cb0316b8a872a0db55859",
+          "href": "r02/materials/reading.html"
+        },
+        {
+          "source": "talks/r02/materials/speaker.md",
+          "title": "첫 시안 발표 메모",
+          "order": 0,
+          "revision": "4a988deb9b468138db22b690fe8112a1dd9400b2be7e306617a0a78b47f728ae",
+          "href": "r02/materials/speaker.html"
+        }
+      ]
+    },
+    {
+      "id": "r03",
+      "source": "talks/r03/slides.md",
+      "slug": "r03",
+      "format": "markdown-v1",
+      "title": "LLM Wiki · 조건과 첫 선택",
+      "links": {
+        "slides": "r03/index.html",
+        "read": "r03/read.html",
+        "materials": "r03/materials/index.html"
+      },
+      "materials": [
+        {
+          "source": "talks/r03/materials/reading.md",
+          "title": "이 선택의 조건과 원문",
+          "order": 0,
+          "revision": "6bc378ab429ccf9684111acd5f7ea8c8ab2511c47b5662c81aaff9efe83d9e29",
+          "href": "r03/materials/reading.html"
+        },
+        {
+          "source": "talks/r03/materials/speaker.md",
+          "title": "조건과 첫 선택의 발표 메모",
+          "order": 0,
+          "revision": "73587fbc17b26d83d1521425070641bb5b14edd70fc4c0d76ec1e6d7e07739cb",
+          "href": "r03/materials/speaker.html"
+        }
+      ]
+    },
+    {
+      "id": "r04",
+      "source": "talks/r04/slides.md",
+      "slug": "r04",
+      "format": "markdown-v1",
+      "title": "LLM Wiki · 활동안에서 읽을 한 부분",
+      "links": {
+        "slides": "r04/index.html",
+        "read": "r04/read.html",
+        "materials": "r04/materials/index.html"
+      },
+      "materials": [
+        {
+          "source": "talks/r04/materials/reading.md",
+          "title": "활동안에서 고른 한 행과 전문",
+          "order": 0,
+          "revision": "fe584bcd78a6949aa33e0283079925c173d548f3389ea2495dbc83c4e6e15abf",
+          "href": "r04/materials/reading.html"
+        },
+        {
+          "source": "talks/r04/materials/speaker.md",
+          "title": "활동안 발췌의 발표 메모",
+          "order": 0,
+          "revision": "420a05e2796a37d7d1f2cb88534d0459b54b4a3055018f334f4353fb4333a974",
+          "href": "r04/materials/speaker.html"
+        }
+      ]
+    }
+  ]
+}

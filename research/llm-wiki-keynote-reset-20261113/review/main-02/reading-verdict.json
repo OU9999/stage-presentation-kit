@@ -1,0 +1,241 @@
+{
+  "reviewer": "/root/creative_quality_manager/reading_critic",
+  "status": "needs-changes",
+  "formalApproval": false,
+  "approved": 0,
+  "retainCandidateScreens": 31,
+  "needsChangesScreens": 9,
+  "initialJudgment": "reading-initial.md",
+  "evidence": "reading-evidence.json",
+  "issues": [
+    {
+      "id": "mobile-svg-reading",
+      "width": 390,
+      "slides": [
+        3,
+        6,
+        7,
+        8,
+        13,
+        15
+      ],
+      "status": "needs-changes",
+      "reason": "Required passages, relation labels, conditions or task row shrink within 318px images; direct section links absent. Native contents exist in public notes, actual local-to-native reading flow unreviewed.",
+      "preserve": [
+        "original exact excerpts",
+        "three undirected relations",
+        "explanatory reconstruction status",
+        "beginner + prepared pack + 15-minute conditions"
+      ],
+      "nextOwner": "existing engineering team",
+      "nextAction": "Provide reading-native content or exact-section access at each affected material; recapture and directly inspect actual reading sizes."
+    },
+    {
+      "id": "mobile-10-tail",
+      "width": 390,
+      "slides": [
+        10
+      ],
+      "status": "needs-changes",
+      "reason": "18px body has actual glyph rows ending with directly / 남깁니다. alone; source has no hard break.",
+      "nextOwner": "existing engineering team",
+      "nextAction": "Edit the sentence or supported intentional break to keep predicate with responsibility/action phrase; preserve human authorship."
+    },
+    {
+      "id": "reading-11-table",
+      "widths": [
+        1440,
+        390
+      ],
+      "slides": [
+        11
+      ],
+      "status": "needs-changes",
+      "reason": "All 8 required table cells are 16px against current 18px reading body contract; semantic distinctions and visible bounds are otherwise clear.",
+      "nextOwner": "existing engineering team",
+      "nextAction": "Restore required table body hierarchy and inspect mobile row wrapping without lowering the contract."
+    }
+  ],
+  "scope": [
+    {
+      "mode": "reading",
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "devicePixelRatio": 1,
+      "slides": [
+        {
+          "slide": 1,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 2,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 3,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 4,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 5,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 6,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 7,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 8,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 9,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 10,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 11,
+          "status": "needs-changes"
+        },
+        {
+          "slide": 12,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 13,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 14,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 15,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 16,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 17,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 18,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 19,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 20,
+          "status": "retain-candidate"
+        }
+      ]
+    },
+    {
+      "mode": "reading",
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "devicePixelRatio": 1,
+      "slides": [
+        {
+          "slide": 1,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 2,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 3,
+          "status": "needs-changes"
+        },
+        {
+          "slide": 4,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 5,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 6,
+          "status": "needs-changes"
+        },
+        {
+          "slide": 7,
+          "status": "needs-changes"
+        },
+        {
+          "slide": 8,
+          "status": "needs-changes"
+        },
+        {
+          "slide": 9,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 10,
+          "status": "needs-changes"
+        },
+        {
+          "slide": 11,
+          "status": "needs-changes"
+        },
+        {
+          "slide": 12,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 13,
+          "status": "needs-changes"
+        },
+        {
+          "slide": 14,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 15,
+          "status": "needs-changes"
+        },
+        {
+          "slide": 16,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 17,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 18,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 19,
+          "status": "retain-candidate"
+        },
+        {
+          "slide": 20,
+          "status": "retain-candidate"
+        }
+      ]
+    }
+  ],
+  "publicMeaningPreserved": true,
+  "publicNativeVisualAndClickValidation": "unreviewed; exact observation requested from root",
+  "presentationRoleReview": "A independently rejected presentation 6 and 15; native meaning preservation does not waive those presentation-role concerns.",
+  "technicalResult": "104 current input hashes match capture, but collector URL interface omission is unresolved; no technical pass claimed."
+}

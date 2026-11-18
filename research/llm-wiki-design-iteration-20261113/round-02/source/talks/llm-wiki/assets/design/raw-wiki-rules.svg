@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620" style="background:#080808" role="img" aria-labelledby="title desc" data-material-kind="explanatory-reconstruction">
+  <title id="title">같은 주제의 원자료와 위키 문서를 읽기</title>
+  <desc id="desc">발표팀 구성 예제의 raw/context-note.md 목적과 선택 이유, wiki/concepts/llm-wiki.md 개념 문장을 부분 발췌한 설명용 재구성이다. 실제 사용자 기록이나 모델 실행 결과가 아니다. raw 세 파일과 요지·선택 이유·남은 질문은 보존한다. wiki의 개념·비교·종합·질문·목차·로그는 작성하고 갱신한다. rules의 원자료 보존·근거 연결·관련 쪽 갱신·중요한 결과 확인은 두 영역 공통 약속이다. 마크다운 정의는 그림 밖의 공통 본문이다.</desc>
+  <g font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Malgun Gothic,sans-serif" letter-spacing="-.5">
+    <rect x="0" y="0" width="690" height="488" rx="4" fill="#151515" />
+    <g data-node-id="raw">
+      <text x="28" y="55" font-size="52" font-weight="600" fill="#F6F6F4" data-copy-role="essential">raw/ · 보존</text>
+      <text x="28" y="106" font-size="44" fill="#C5C5C0" data-copy-role="essential">context-note.md · 목적</text>
+      <g font-size="50" fill="#F6F6F4" data-node-id="raw-purpose">
+        <text x="28" y="168" data-copy-role="essential">어떤 질문에 다시</text>
+        <text x="28" y="226" data-copy-role="essential">활용할지 정하기.</text>
+      </g>
+      <text x="28" y="298" font-size="50" fill="#F6F6F4" data-copy-role="essential" data-node-id="selection-reason-1">진행안을 만들고 싶어서</text>
+      <text x="28" y="356" font-size="50" fill="#F6F6F4" data-copy-role="essential" data-node-id="selection-reason-2">이 메모를 골랐다.</text>
+      <text x="28" y="409" font-size="44" fill="#C5C5C0" data-copy-role="essential">retrieval-note.md</text>
+      <text x="28" y="456" font-size="44" fill="#C5C5C0" data-copy-role="essential">synthesis-note.md</text>
+      <text x="28" y="510" font-size="44" fill="#C5C5C0" data-copy-role="essential">요지 · 선택 이유 · 남은 질문</text>
+    </g>
+    <g data-node-id="wiki">
+      <text x="768" y="55" font-size="52" font-weight="600" fill="#24A8FF" data-copy-role="essential">wiki/ · 작성하고 갱신</text>
+      <text x="768" y="106" font-size="44" fill="#C5C5C0" data-copy-role="essential">LLM Wiki · 개념 문서</text>
+      <path d="M738 140V364" stroke="#24A8FF" stroke-width="3" />
+      <g font-size="50" fill="#F6F6F4" data-node-id="wiki-concept">
+        <text x="768" y="168" data-copy-role="essential">LLM이 원자료의</text>
+        <text x="768" y="226" data-copy-role="essential">개념·비교·종합을</text>
+        <text x="768" y="284" data-copy-role="essential">연결 문서로 작성하고</text>
+        <text x="768" y="342" data-copy-role="essential">갱신하는 지식관리 패턴이다.</text>
+      </g>
+      <text x="768" y="409" font-size="44" fill="#C5C5C0" data-copy-role="essential" data-node-id="wiki-content">개념 · 비교 · 종합</text>
+      <text x="768" y="456" font-size="44" fill="#C5C5C0" data-copy-role="essential" data-node-id="wiki-navigation">질문 · 목차 · 로그</text>
+      <text x="768" y="510" font-size="44" fill="#A4A4A1" data-copy-role="essential" data-node-id="example-scope">발표팀 구성 예 · 부분 발췌</text>
+    </g>
+    <path d="M28 526H1472" stroke="#777773" stroke-width="2" />
+    <g data-node-id="rules">
+      <text x="28" y="565" font-size="44" fill="#F6F6F4" font-weight="550" data-copy-role="essential">rules.md · 두 영역의 작업 약속</text>
+      <text x="28" y="610" font-size="44" fill="#C5C5C0" data-copy-role="essential">원자료 보존 · 근거 연결</text>
+      <text x="768" y="610" font-size="44" fill="#C5C5C0" data-copy-role="essential">관련 쪽 갱신 · 중요한 결과 확인</text>
+    </g>
+    <path d="M480 533V526M1100 533V526" stroke="#777773" stroke-width="2" data-relation-id="rules--both-areas" data-from="rules" data-to="raw wiki" data-relation-kind="shared-scope" />
+  </g>
+</svg>

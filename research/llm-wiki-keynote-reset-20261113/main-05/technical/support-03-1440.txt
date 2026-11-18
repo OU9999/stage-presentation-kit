@@ -1,0 +1,52 @@
+[p1 "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage" | space "LLM Wiki 키노트 미감 재설계"(89): 1 managed, 0 untracked — p1* "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage"]
+root
+  container
+    anchor "첫 슬라이드" [ref=804, loc=css:a[aria-label="첫 슬라이드"], url=http://127.0.0.1:4336/presentations/llm-wiki/read.html?direct-support=19670d537a7b-1440#1]
+      text "ou-presentation"
+      text "발표 템플릿"
+    container "발표 모음과 학습 자료"
+      anchor [ref=805, url=http://127.0.0.1:4336/presentations/index.html]
+        text "발표 모음"
+      text "·"
+      anchor [ref=806, loc=href:/presentations/llm-wiki/materials/index.html, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/index.html]
+        text "학습 자료"
+    container
+      combobox "테마" [ref=807, loc=css:select[aria-label="테마"]]
+        text "Stage"
+      button [ref=808]
+        text "발표 모드"
+  container "발표 슬라이드" [ref=809]
+    container "2. Markdown"
+    container "3. Markdown"
+      image
+      paragraph
+        anchor [ref=810, url=http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D-%EC%9D%B4%EC%9C%A0-%EB%A9%94%EB%AA%A8]
+          text "선택 이유 메모를 글로 읽기"
+    container "4. 다음 질문에 다시 씁니다"
+      heading
+        text "다음 질문에 다시 씁니다"
+    container "5. 중심 작업이 다릅니다"
+      heading
+        text "중심 작업이 다릅니다"
+  container
+    container
+      button "이전 슬라이드" [ref=811, loc=css:button[aria-label="이전 슬라이드"]]
+        text "←"
+      button "다음 슬라이드" [ref=812, loc=css:button[aria-label="다음 슬라이드"]]
+        text "→"
+    container
+      text "03 / 20"
+      text "—"
+      text "Markdown"
+    container
+      status
+        text "Markdown 원고"
+      button [ref=813]
+        text "전체 보기"
+      button [ref=814]
+        text "발표자"
+      button [ref=815]
+        text "전체 화면"
+      button "사용법 및 단축키" [ref=816, loc=css:button[aria-label="사용법 및 단축키"]]
+        text "?"
+[more content above and below the viewport: scrollY=541, viewport 1000 / page 10078 px; scroll or use snapshot({ scope: "full_page" })]

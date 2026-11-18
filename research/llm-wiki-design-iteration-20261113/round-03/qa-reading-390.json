@@ -1,0 +1,85 @@
+{
+  "format": "llm-wiki-reading-result-v1",
+  "status": "pass",
+  "visualApproval": false,
+  "revision": "8fa3d55cd5d92c13d20ffd40434f1725ee093c289dea4365015d0a894c659a84",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "devicePixelRatio": 1
+  },
+  "summary": {
+    "checks": 11,
+    "invalid": 0,
+    "regressions": 0
+  },
+  "checks": [
+    {
+      "id": "responsibility-source-breaks",
+      "status": "pass",
+      "detail": "The role-specific authored boundaries must preserve both responsibilities."
+    },
+    {
+      "id": "responsibility-rows",
+      "status": "pass",
+      "detail": "No designated predicate may become an isolated actual glyph row, including rows inside the paragraph."
+    },
+    {
+      "id": "responsibility-font",
+      "status": "pass",
+      "detail": "The body retains the existing 18 CSS px reading start value."
+    },
+    {
+      "id": "responsibility-membership",
+      "status": "pass",
+      "detail": "Responsibility copy remains native body, not metadata or another material group."
+    },
+    {
+      "id": "responsibility-rendered-break-count",
+      "status": "pass",
+      "detail": "The three role boundaries must render, not textContent newline splits."
+    },
+    {
+      "id": "responsibility-boundary-0",
+      "status": "pass",
+      "detail": "Required boundary uses actual glyph y before and after."
+    },
+    {
+      "id": "responsibility-boundary-1",
+      "status": "pass",
+      "detail": "Required boundary uses actual glyph y before and after."
+    },
+    {
+      "id": "responsibility-boundary-2",
+      "status": "pass",
+      "detail": "Required boundary uses actual glyph y before and after."
+    },
+    {
+      "id": "declaration-source",
+      "status": "pass",
+      "detail": "The original declaration keeps its one authored boundary and emphasis."
+    },
+    {
+      "id": "declaration-boundary",
+      "status": "pass",
+      "detail": "Declaration boundary uses actual native glyph positions."
+    },
+    {
+      "id": "declaration-emphasis",
+      "status": "pass",
+      "detail": "Actual declaration emphasis/order must remain observed."
+    }
+  ],
+  "contract": {
+    "path": "talks/llm-wiki/qa/current-roles.json",
+    "sha256": "ca8033d7fa838c74cca055b2f2c07650c4ed51262b7b12e8fce900fbb5071b34"
+  },
+  "evidence": {
+    "path": "research/llm-wiki-design-iteration-20261113/round-03/reading-18-lines-390.json",
+    "sha256": "c6b283adc4a56793972d2e33c45aa11fed094b9d3d58bf7d088d5c81f1656023",
+    "captureManifest": {
+      "path": "research/llm-wiki-design-iteration-20261113/round-03/read-390/manifest.json",
+      "sha256": "def29ef5a94939589ac81d874cf8d803de9b7cfdbc0a98e51070761f84473c44"
+    }
+  }
+}

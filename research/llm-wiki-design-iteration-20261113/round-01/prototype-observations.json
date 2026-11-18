@@ -1,0 +1,1566 @@
+{
+  "scope": "Exploratory first implementation. Not current approval evidence; full capture stopped on actual slide12 overflow.",
+  "observations": [
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?prototype-round01#3",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "2",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "왜 필요한가요?",
+      "headingSize": "54px",
+      "text": "왜 필요한가요?그림의 관계 읽기",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 403.6266784667969,
+        "right": 1045.9200439453125,
+        "bottom": 558.3466796875
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/44cb42ef7db7-knowledge-layers.svg",
+          "alt": "설명용 목적 구절과 세 원자료를 보존하며, 개념과 관계를 현재 이해와 다음 질문에 다시 쓰는 구조.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 650,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 234.08001708984375,
+            "y": 209.07020568847656,
+            "width": 811.8400268554688,
+            "height": 320.0364990234375,
+            "right": 1045.9200439453125,
+            "bottom": 529.1067047119141
+          },
+          "assetSha256": "44cb42ef7db707b8d9e7bd1b8d52e1438929220620054448bed8a0954a1b1b20",
+          "svg": {
+            "viewBox": {
+              "width": 1500,
+              "height": 650
+            },
+            "texts": [
+              {
+                "text": "“AI가 내 자료를 좀 더 잘 이해해 줬으면.”",
+                "fontSize": 48,
+                "bbox": {
+                  "x": 20,
+                  "y": 6.5,
+                  "width": 725.5234375,
+                  "height": 56.5
+                }
+              },
+              {
+                "text": "목적과 맥락",
+                "fontSize": 46,
+                "bbox": {
+                  "x": 20,
+                  "y": 115.5,
+                  "width": 205.75,
+                  "height": 54
+                }
+              },
+              {
+                "text": "우리 스터디에서",
+                "fontSize": 50,
+                "bbox": {
+                  "x": 20,
+                  "y": 184.5,
+                  "width": 309.2265625,
+                  "height": 59
+                }
+              },
+              {
+                "text": "LLM Wiki를 왜 쓰고",
+                "fontSize": 50,
+                "bbox": {
+                  "x": 20,
+                  "y": 246.5,
+                  "width": 388.7578125,
+                  "height": 59
+                }
+              },
+              {
+                "text": "어떤 질문에 다시",
+                "fontSize": 50,
+                "bbox": {
+                  "x": 20,
+                  "y": 308.5,
+                  "width": 319.203125,
+                  "height": 59
+                }
+              },
+              {
+                "text": "활용할지 정하기.",
+                "fontSize": 50,
+                "bbox": {
+                  "x": 20,
+                  "y": 370.5,
+                  "width": 320.25,
+                  "height": 59
+                }
+              },
+              {
+                "text": "검색과 비교",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 20,
+                  "y": 450.5,
+                  "width": 196.6953125,
+                  "height": 52
+                }
+              },
+              {
+                "text": "지식의 활용",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 20,
+                  "y": 505.5,
+                  "width": 196.6953125,
+                  "height": 52
+                }
+              },
+              {
+                "text": "발표팀 구성 예 · context-note.md 부분 발췌",
+                "fontSize": 24,
+                "bbox": {
+                  "x": 20,
+                  "y": 564,
+                  "width": 395.21875,
+                  "height": 28
+                }
+              },
+              {
+                "text": "읽고 연결",
+                "fontSize": 42,
+                "bbox": {
+                  "x": 574.09765625,
+                  "y": 242.5,
+                  "width": 151.8046875,
+                  "height": 49.5
+                }
+              },
+              {
+                "text": "개념",
+                "fontSize": 48,
+                "bbox": {
+                  "x": 798.9765625,
+                  "y": 118.5,
+                  "width": 82.046875,
+                  "height": 56.5
+                }
+              },
+              {
+                "text": "비교",
+                "fontSize": 48,
+                "bbox": {
+                  "x": 1293.9765625,
+                  "y": 118.5,
+                  "width": 82.046875,
+                  "height": 56.5
+                }
+              },
+              {
+                "text": "현재 이해",
+                "fontSize": 58,
+                "bbox": {
+                  "x": 954.91796875,
+                  "y": 302,
+                  "width": 210.1640625,
+                  "height": 68
+                }
+              },
+              {
+                "text": "계획",
+                "fontSize": 52,
+                "bbox": {
+                  "x": 805.51953125,
+                  "y": 485.5,
+                  "width": 88.9609375,
+                  "height": 61.5
+                }
+              },
+              {
+                "text": "다음 질문",
+                "fontSize": 52,
+                "bbox": {
+                  "x": 1195.87890625,
+                  "y": 485.5,
+                  "width": 188.2421875,
+                  "height": 61.5
+                }
+              },
+              {
+                "text": "자료를 개념과 관계로 정리해, 다음 질문에 다시 씁니다.",
+                "fontSize": 42,
+                "bbox": {
+                  "x": 20,
+                  "y": 593.5,
+                  "width": 863.375,
+                  "height": 49.5
+                }
+              }
+            ]
+          },
+          "containScale": 0.4923638446514423,
+          "essentialMeasurements": [
+            {
+              "text": "“AI가 내 자료를 좀 더 잘 이해해 줬으면.”",
+              "fontSize": 48,
+              "bbox": {
+                "x": 20,
+                "y": 6.5,
+                "width": 725.5234375,
+                "height": 56.5
+              },
+              "logicalFontSize": 41.221162743987186,
+              "bottom": 63
+            },
+            {
+              "text": "목적과 맥락",
+              "fontSize": 46,
+              "bbox": {
+                "x": 20,
+                "y": 115.5,
+                "width": 205.75,
+                "height": 54
+              },
+              "logicalFontSize": 39.503614296321054,
+              "bottom": 169.5
+            },
+            {
+              "text": "우리 스터디에서",
+              "fontSize": 50,
+              "bbox": {
+                "x": 20,
+                "y": 184.5,
+                "width": 309.2265625,
+                "height": 59
+              },
+              "logicalFontSize": 42.93871119165332,
+              "bottom": 243.5
+            },
+            {
+              "text": "LLM Wiki를 왜 쓰고",
+              "fontSize": 50,
+              "bbox": {
+                "x": 20,
+                "y": 246.5,
+                "width": 388.7578125,
+                "height": 59
+              },
+              "logicalFontSize": 42.93871119165332,
+              "bottom": 305.5
+            },
+            {
+              "text": "어떤 질문에 다시",
+              "fontSize": 50,
+              "bbox": {
+                "x": 20,
+                "y": 308.5,
+                "width": 319.203125,
+                "height": 59
+              },
+              "logicalFontSize": 42.93871119165332,
+              "bottom": 367.5
+            },
+            {
+              "text": "활용할지 정하기.",
+              "fontSize": 50,
+              "bbox": {
+                "x": 20,
+                "y": 370.5,
+                "width": 320.25,
+                "height": 59
+              },
+              "logicalFontSize": 42.93871119165332,
+              "bottom": 429.5
+            },
+            {
+              "text": "검색과 비교",
+              "fontSize": 44,
+              "bbox": {
+                "x": 20,
+                "y": 450.5,
+                "width": 196.6953125,
+                "height": 52
+              },
+              "logicalFontSize": 37.78606584865492,
+              "bottom": 502.5
+            },
+            {
+              "text": "지식의 활용",
+              "fontSize": 44,
+              "bbox": {
+                "x": 20,
+                "y": 505.5,
+                "width": 196.6953125,
+                "height": 52
+              },
+              "logicalFontSize": 37.78606584865492,
+              "bottom": 557.5
+            },
+            {
+              "text": "발표팀 구성 예 · context-note.md 부분 발췌",
+              "fontSize": 24,
+              "bbox": {
+                "x": 20,
+                "y": 564,
+                "width": 395.21875,
+                "height": 28
+              },
+              "logicalFontSize": 20.610581371993593,
+              "bottom": 592
+            },
+            {
+              "text": "읽고 연결",
+              "fontSize": 42,
+              "bbox": {
+                "x": 574.09765625,
+                "y": 242.5,
+                "width": 151.8046875,
+                "height": 49.5
+              },
+              "logicalFontSize": 36.06851740098879,
+              "bottom": 292
+            },
+            {
+              "text": "개념",
+              "fontSize": 48,
+              "bbox": {
+                "x": 798.9765625,
+                "y": 118.5,
+                "width": 82.046875,
+                "height": 56.5
+              },
+              "logicalFontSize": 41.221162743987186,
+              "bottom": 175
+            },
+            {
+              "text": "비교",
+              "fontSize": 48,
+              "bbox": {
+                "x": 1293.9765625,
+                "y": 118.5,
+                "width": 82.046875,
+                "height": 56.5
+              },
+              "logicalFontSize": 41.221162743987186,
+              "bottom": 175
+            },
+            {
+              "text": "현재 이해",
+              "fontSize": 58,
+              "bbox": {
+                "x": 954.91796875,
+                "y": 302,
+                "width": 210.1640625,
+                "height": 68
+              },
+              "logicalFontSize": 49.80890498231785,
+              "bottom": 370
+            },
+            {
+              "text": "계획",
+              "fontSize": 52,
+              "bbox": {
+                "x": 805.51953125,
+                "y": 485.5,
+                "width": 88.9609375,
+                "height": 61.5
+              },
+              "logicalFontSize": 44.65625963931945,
+              "bottom": 547
+            },
+            {
+              "text": "다음 질문",
+              "fontSize": 52,
+              "bbox": {
+                "x": 1195.87890625,
+                "y": 485.5,
+                "width": 188.2421875,
+                "height": 61.5
+              },
+              "logicalFontSize": 44.65625963931945,
+              "bottom": 547
+            },
+            {
+              "text": "자료를 개념과 관계로 정리해, 다음 질문에 다시 씁니다.",
+              "fontSize": 42,
+              "bbox": {
+                "x": 20,
+                "y": 593.5,
+                "width": 863.375,
+                "height": 49.5
+              },
+              "logicalFontSize": 36.06851740098879,
+              "bottom": 643
+            }
+          ]
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-design-iteration-20261113/round-01/prototype-3.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "b5e8c02ef2aa462de61372e32819ab57cfedcbfcfdcd064fb52a17c6d4f7aba3"
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?prototype-round01#5",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "4",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "무엇이 생기나요?",
+      "headingSize": "54px",
+      "text": "무엇이 생기나요?마크다운은 글과 링크를 적는 텍스트 파일입니다.그림의 관계 읽기",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 403.6266784667969,
+        "right": 1045.9200439453125,
+        "bottom": 558.3466796875
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/1b37e3dde65c-raw-wiki-rules.svg",
+          "alt": "같은 예제의 원자료 구절은 raw에 보존하고 wiki의 개념 구절은 작성하고 갱신합니다. rules.md의 네 약속은 두 영역에 함께 적용됩니다.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 650,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 234.08001708984375,
+            "y": 209.07020568847656,
+            "width": 811.8400268554688,
+            "height": 280.364501953125,
+            "right": 1045.9200439453125,
+            "bottom": 489.43470764160156
+          },
+          "assetSha256": "1b37e3dde65c8a48dc631038404dc9035b653e647f8fff4ed7c7aae911c8fa63",
+          "svg": {
+            "viewBox": {
+              "width": 1500,
+              "height": 650
+            },
+            "texts": [
+              {
+                "text": "raw/ · 보존",
+                "fontSize": 52,
+                "bbox": {
+                  "x": 28,
+                  "y": 6.5,
+                  "width": 219.546875,
+                  "height": 61.5
+                }
+              },
+              {
+                "text": "context-note.md",
+                "fontSize": 42,
+                "bbox": {
+                  "x": 28,
+                  "y": 71.5,
+                  "width": 290.953125,
+                  "height": 49.5
+                }
+              },
+              {
+                "text": "우리 스터디에서 LLM Wiki를",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 28,
+                  "y": 117.5,
+                  "width": 489.0546875,
+                  "height": 52
+                }
+              },
+              {
+                "text": "왜 쓰고 어떤 질문에",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 28,
+                  "y": 168.5,
+                  "width": 327.1484375,
+                  "height": 52
+                }
+              },
+              {
+                "text": "다시 활용할지 정하기.",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 28,
+                  "y": 219.5,
+                  "width": 365.140625,
+                  "height": 52
+                }
+              },
+              {
+                "text": "선택 이유",
+                "fontSize": 40,
+                "bbox": {
+                  "x": 28,
+                  "y": 275.5,
+                  "width": 144.4765625,
+                  "height": 47
+                }
+              },
+              {
+                "text": "진행안을 만들고 싶어서",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 28,
+                  "y": 323.5,
+                  "width": 393.3828125,
+                  "height": 52
+                }
+              },
+              {
+                "text": "이 메모를 골랐다.",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 28,
+                  "y": 374.5,
+                  "width": 290.0234375,
+                  "height": 52
+                }
+              },
+              {
+                "text": "retrieval-note.md",
+                "fontSize": 40,
+                "bbox": {
+                  "x": 28,
+                  "y": 426.5,
+                  "width": 283.4140625,
+                  "height": 47
+                }
+              },
+              {
+                "text": "synthesis-note.md",
+                "fontSize": 40,
+                "bbox": {
+                  "x": 28,
+                  "y": 470.5,
+                  "width": 310.796875,
+                  "height": 47
+                }
+              },
+              {
+                "text": "요지 · 선택 이유 · 남은 질문",
+                "fontSize": 40,
+                "bbox": {
+                  "x": 28,
+                  "y": 512.5,
+                  "width": 406.375,
+                  "height": 47
+                }
+              },
+              {
+                "text": "wiki/ · 작성하고 갱신",
+                "fontSize": 52,
+                "bbox": {
+                  "x": 768,
+                  "y": 6.5,
+                  "width": 415.5,
+                  "height": 61.5
+                }
+              },
+              {
+                "text": "LLM Wiki · 개념 문서",
+                "fontSize": 42,
+                "bbox": {
+                  "x": 768,
+                  "y": 71.5,
+                  "width": 340.6796875,
+                  "height": 49.5
+                }
+              },
+              {
+                "text": "LLM이 원자료의",
+                "fontSize": 46,
+                "bbox": {
+                  "x": 768,
+                  "y": 135.5,
+                  "width": 291.796875,
+                  "height": 54
+                }
+              },
+              {
+                "text": "개념·비교·종합을",
+                "fontSize": 46,
+                "bbox": {
+                  "x": 768,
+                  "y": 193.5,
+                  "width": 294.515625,
+                  "height": 54
+                }
+              },
+              {
+                "text": "연결 문서로 작성하고 갱신하는",
+                "fontSize": 46,
+                "bbox": {
+                  "x": 768,
+                  "y": 251.5,
+                  "width": 538.65625,
+                  "height": 54
+                }
+              },
+              {
+                "text": "지식관리 패턴이다.",
+                "fontSize": 46,
+                "bbox": {
+                  "x": 768,
+                  "y": 309.5,
+                  "width": 333.359375,
+                  "height": 54
+                }
+              },
+              {
+                "text": "개념 · 비교 · 종합",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 768,
+                  "y": 394.5,
+                  "width": 279.5546875,
+                  "height": 52
+                }
+              },
+              {
+                "text": "질문 · 목차 · 로그",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 768,
+                  "y": 452.5,
+                  "width": 279.5546875,
+                  "height": 52
+                }
+              },
+              {
+                "text": "발표팀 구성 예 · 목적/선택 이유/개념의 부분 발췌",
+                "fontSize": 24,
+                "bbox": {
+                  "x": 768,
+                  "y": 520,
+                  "width": 433.6640625,
+                  "height": 28
+                }
+              },
+              {
+                "text": "rules.md · 두 영역의 작업 약속",
+                "fontSize": 40,
+                "bbox": {
+                  "x": 28,
+                  "y": 561.5,
+                  "width": 471.2734375,
+                  "height": 47
+                }
+              },
+              {
+                "text": "원자료 보존 · 근거 연결",
+                "fontSize": 38,
+                "bbox": {
+                  "x": 28,
+                  "y": 603.5,
+                  "width": 330.0234375,
+                  "height": 44.5
+                }
+              },
+              {
+                "text": "관련 쪽 갱신 · 중요한 결과 확인",
+                "fontSize": 38,
+                "bbox": {
+                  "x": 768,
+                  "y": 603.5,
+                  "width": 442.4609375,
+                  "height": 44.5
+                }
+              }
+            ]
+          },
+          "containScale": 0.43133000300480767,
+          "essentialMeasurements": [
+            {
+              "text": "raw/ · 보존",
+              "fontSize": 52,
+              "bbox": {
+                "x": 28,
+                "y": 6.5,
+                "width": 219.546875,
+                "height": 61.5
+              },
+              "logicalFontSize": 39.12063165004922,
+              "bottom": 68
+            },
+            {
+              "text": "context-note.md",
+              "fontSize": 42,
+              "bbox": {
+                "x": 28,
+                "y": 71.5,
+                "width": 290.953125,
+                "height": 49.5
+              },
+              "logicalFontSize": 31.597433255808987,
+              "bottom": 121
+            },
+            {
+              "text": "우리 스터디에서 LLM Wiki를",
+              "fontSize": 44,
+              "bbox": {
+                "x": 28,
+                "y": 117.5,
+                "width": 489.0546875,
+                "height": 52
+              },
+              "logicalFontSize": 33.10207293465704,
+              "bottom": 169.5
+            },
+            {
+              "text": "왜 쓰고 어떤 질문에",
+              "fontSize": 44,
+              "bbox": {
+                "x": 28,
+                "y": 168.5,
+                "width": 327.1484375,
+                "height": 52
+              },
+              "logicalFontSize": 33.10207293465704,
+              "bottom": 220.5
+            },
+            {
+              "text": "다시 활용할지 정하기.",
+              "fontSize": 44,
+              "bbox": {
+                "x": 28,
+                "y": 219.5,
+                "width": 365.140625,
+                "height": 52
+              },
+              "logicalFontSize": 33.10207293465704,
+              "bottom": 271.5
+            },
+            {
+              "text": "선택 이유",
+              "fontSize": 40,
+              "bbox": {
+                "x": 28,
+                "y": 275.5,
+                "width": 144.4765625,
+                "height": 47
+              },
+              "logicalFontSize": 30.09279357696094,
+              "bottom": 322.5
+            },
+            {
+              "text": "진행안을 만들고 싶어서",
+              "fontSize": 44,
+              "bbox": {
+                "x": 28,
+                "y": 323.5,
+                "width": 393.3828125,
+                "height": 52
+              },
+              "logicalFontSize": 33.10207293465704,
+              "bottom": 375.5
+            },
+            {
+              "text": "이 메모를 골랐다.",
+              "fontSize": 44,
+              "bbox": {
+                "x": 28,
+                "y": 374.5,
+                "width": 290.0234375,
+                "height": 52
+              },
+              "logicalFontSize": 33.10207293465704,
+              "bottom": 426.5
+            },
+            {
+              "text": "retrieval-note.md",
+              "fontSize": 40,
+              "bbox": {
+                "x": 28,
+                "y": 426.5,
+                "width": 283.4140625,
+                "height": 47
+              },
+              "logicalFontSize": 30.09279357696094,
+              "bottom": 473.5
+            },
+            {
+              "text": "synthesis-note.md",
+              "fontSize": 40,
+              "bbox": {
+                "x": 28,
+                "y": 470.5,
+                "width": 310.796875,
+                "height": 47
+              },
+              "logicalFontSize": 30.09279357696094,
+              "bottom": 517.5
+            },
+            {
+              "text": "요지 · 선택 이유 · 남은 질문",
+              "fontSize": 40,
+              "bbox": {
+                "x": 28,
+                "y": 512.5,
+                "width": 406.375,
+                "height": 47
+              },
+              "logicalFontSize": 30.09279357696094,
+              "bottom": 559.5
+            },
+            {
+              "text": "wiki/ · 작성하고 갱신",
+              "fontSize": 52,
+              "bbox": {
+                "x": 768,
+                "y": 6.5,
+                "width": 415.5,
+                "height": 61.5
+              },
+              "logicalFontSize": 39.12063165004922,
+              "bottom": 68
+            },
+            {
+              "text": "LLM Wiki · 개념 문서",
+              "fontSize": 42,
+              "bbox": {
+                "x": 768,
+                "y": 71.5,
+                "width": 340.6796875,
+                "height": 49.5
+              },
+              "logicalFontSize": 31.597433255808987,
+              "bottom": 121
+            },
+            {
+              "text": "LLM이 원자료의",
+              "fontSize": 46,
+              "bbox": {
+                "x": 768,
+                "y": 135.5,
+                "width": 291.796875,
+                "height": 54
+              },
+              "logicalFontSize": 34.606712613505074,
+              "bottom": 189.5
+            },
+            {
+              "text": "개념·비교·종합을",
+              "fontSize": 46,
+              "bbox": {
+                "x": 768,
+                "y": 193.5,
+                "width": 294.515625,
+                "height": 54
+              },
+              "logicalFontSize": 34.606712613505074,
+              "bottom": 247.5
+            },
+            {
+              "text": "연결 문서로 작성하고 갱신하는",
+              "fontSize": 46,
+              "bbox": {
+                "x": 768,
+                "y": 251.5,
+                "width": 538.65625,
+                "height": 54
+              },
+              "logicalFontSize": 34.606712613505074,
+              "bottom": 305.5
+            },
+            {
+              "text": "지식관리 패턴이다.",
+              "fontSize": 46,
+              "bbox": {
+                "x": 768,
+                "y": 309.5,
+                "width": 333.359375,
+                "height": 54
+              },
+              "logicalFontSize": 34.606712613505074,
+              "bottom": 363.5
+            },
+            {
+              "text": "개념 · 비교 · 종합",
+              "fontSize": 44,
+              "bbox": {
+                "x": 768,
+                "y": 394.5,
+                "width": 279.5546875,
+                "height": 52
+              },
+              "logicalFontSize": 33.10207293465704,
+              "bottom": 446.5
+            },
+            {
+              "text": "질문 · 목차 · 로그",
+              "fontSize": 44,
+              "bbox": {
+                "x": 768,
+                "y": 452.5,
+                "width": 279.5546875,
+                "height": 52
+              },
+              "logicalFontSize": 33.10207293465704,
+              "bottom": 504.5
+            },
+            {
+              "text": "발표팀 구성 예 · 목적/선택 이유/개념의 부분 발췌",
+              "fontSize": 24,
+              "bbox": {
+                "x": 768,
+                "y": 520,
+                "width": 433.6640625,
+                "height": 28
+              },
+              "logicalFontSize": 18.055676146176562,
+              "bottom": 548
+            },
+            {
+              "text": "rules.md · 두 영역의 작업 약속",
+              "fontSize": 40,
+              "bbox": {
+                "x": 28,
+                "y": 561.5,
+                "width": 471.2734375,
+                "height": 47
+              },
+              "logicalFontSize": 30.09279357696094,
+              "bottom": 608.5
+            },
+            {
+              "text": "원자료 보존 · 근거 연결",
+              "fontSize": 38,
+              "bbox": {
+                "x": 28,
+                "y": 603.5,
+                "width": 330.0234375,
+                "height": 44.5
+              },
+              "logicalFontSize": 28.588153898112893,
+              "bottom": 648
+            },
+            {
+              "text": "관련 쪽 갱신 · 중요한 결과 확인",
+              "fontSize": 38,
+              "bbox": {
+                "x": 768,
+                "y": 603.5,
+                "width": 442.4609375,
+                "height": 44.5
+              },
+              "logicalFontSize": 28.588153898112893,
+              "bottom": 648
+            }
+          ]
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-design-iteration-20261113/round-01/prototype-5.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "b5e8c02ef2aa462de61372e32819ab57cfedcbfcfdcd064fb52a17c6d4f7aba3"
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?prototype-round01#10",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "9",
+      "layout": "blocks",
+      "composition": "media",
+      "heading": "Ingest는 자료를 소화하고 연결하는 일",
+      "headingSize": "54px",
+      "text": "Ingest는 자료를 소화하고 연결하는 일그림의 관계 읽기",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 403.6266784667969,
+        "right": 1045.9200439453125,
+        "bottom": 558.3466796875
+      },
+      "overflow": [],
+      "images": [
+        {
+          "src": "assets/f92310aec6dd-ingest-map.svg",
+          "alt": "세 메모를 읽고 나누며 자료 요약은 원자료의 입구로, 기존 개념·비교와 현재 계획 및 문서·목차·링크 갱신은 주역으로 둡니다. 세 무방향 관계는 자동 갱신 순서를 뜻하지 않습니다.",
+          "complete": true,
+          "naturalWidth": 1500,
+          "naturalHeight": 650,
+          "fit": "contain",
+          "focus": "50% 50%",
+          "box": {
+            "x": 234.08001708984375,
+            "y": 209.07020568847656,
+            "width": 811.8400268554688,
+            "height": 320.0364990234375,
+            "right": 1045.9200439453125,
+            "bottom": 529.1067047119141
+          },
+          "assetSha256": "f92310aec6ddb4303f48de2cd61a1f5c74811676cea0b64e5614244a8bb0877c",
+          "svg": {
+            "viewBox": {
+              "width": 1500,
+              "height": 650
+            },
+            "texts": [
+              {
+                "text": "같은 원자료 세 메모",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 20,
+                  "y": 17.5,
+                  "width": 327.1484375,
+                  "height": 52
+                }
+              },
+              {
+                "text": "목적과 맥락",
+                "fontSize": 48,
+                "bbox": {
+                  "x": 20,
+                  "y": 120.5,
+                  "width": 214.796875,
+                  "height": 56.5
+                }
+              },
+              {
+                "text": "목적 · 이유 · 결과",
+                "fontSize": 42,
+                "bbox": {
+                  "x": 20,
+                  "y": 181.5,
+                  "width": 266.8588562011719,
+                  "height": 49.5
+                }
+              },
+              {
+                "text": "검색과 비교",
+                "fontSize": 48,
+                "bbox": {
+                  "x": 20,
+                  "y": 308.5,
+                  "width": 214.796875,
+                  "height": 56.5
+                }
+              },
+              {
+                "text": "근거 검색 · 차이",
+                "fontSize": 42,
+                "bbox": {
+                  "x": 20,
+                  "y": 369.5,
+                  "width": 249.3203125,
+                  "height": 49.5
+                }
+              },
+              {
+                "text": "지식의 활용",
+                "fontSize": 48,
+                "bbox": {
+                  "x": 20,
+                  "y": 496.5,
+                  "width": 214.796875,
+                  "height": 56.5
+                }
+              },
+              {
+                "text": "종합 · 공유 · 검토",
+                "fontSize": 42,
+                "bbox": {
+                  "x": 20,
+                  "y": 557.5,
+                  "width": 266.6953125,
+                  "height": 49.5
+                }
+              },
+              {
+                "text": "읽고 나누기",
+                "fontSize": 42,
+                "bbox": {
+                  "x": 362.18359375,
+                  "y": 239.5,
+                  "width": 187.6328125,
+                  "height": 49.5
+                }
+              },
+              {
+                "text": "문서·목차·링크 갱신",
+                "fontSize": 52,
+                "bbox": {
+                  "x": 975.23046875,
+                  "y": 9.5,
+                  "width": 389.5390625,
+                  "height": 61.5
+                }
+              },
+              {
+                "text": "자료 요약",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 585.43359375,
+                  "y": 235.5,
+                  "width": 159.1328125,
+                  "height": 52
+                }
+              },
+              {
+                "text": "원자료의 입구",
+                "fontSize": 42,
+                "bbox": {
+                  "x": 553.265625,
+                  "y": 366.5,
+                  "width": 223.46875,
+                  "height": 49.5
+                }
+              },
+              {
+                "text": "개념 · 비교",
+                "fontSize": 58,
+                "bbox": {
+                  "x": 989.9506225585938,
+                  "y": 157,
+                  "width": 234.69781494140625,
+                  "height": 68
+                }
+              },
+              {
+                "text": "기존 설명과 연결",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 990,
+                  "y": 235.5,
+                  "width": 280.703125,
+                  "height": 52
+                }
+              },
+              {
+                "text": "현재 계획",
+                "fontSize": 58,
+                "bbox": {
+                  "x": 990,
+                  "y": 447,
+                  "width": 210.1640625,
+                  "height": 68
+                }
+              },
+              {
+                "text": "여러 자료의 종합",
+                "fontSize": 44,
+                "bbox": {
+                  "x": 990,
+                  "y": 525.5,
+                  "width": 280.703125,
+                  "height": 52
+                }
+              },
+              {
+                "text": "발표팀 구성 예 · 문서 사이 선은 무방향 관계",
+                "fontSize": 24,
+                "bbox": {
+                  "x": 1104.9140625,
+                  "y": 618,
+                  "width": 385.0859375,
+                  "height": 28
+                }
+              }
+            ]
+          },
+          "containScale": 0.4923638446514423,
+          "essentialMeasurements": [
+            {
+              "text": "같은 원자료 세 메모",
+              "fontSize": 44,
+              "bbox": {
+                "x": 20,
+                "y": 17.5,
+                "width": 327.1484375,
+                "height": 52
+              },
+              "logicalFontSize": 37.78606584865492,
+              "bottom": 69.5
+            },
+            {
+              "text": "목적과 맥락",
+              "fontSize": 48,
+              "bbox": {
+                "x": 20,
+                "y": 120.5,
+                "width": 214.796875,
+                "height": 56.5
+              },
+              "logicalFontSize": 41.221162743987186,
+              "bottom": 177
+            },
+            {
+              "text": "목적 · 이유 · 결과",
+              "fontSize": 42,
+              "bbox": {
+                "x": 20,
+                "y": 181.5,
+                "width": 266.8588562011719,
+                "height": 49.5
+              },
+              "logicalFontSize": 36.06851740098879,
+              "bottom": 231
+            },
+            {
+              "text": "검색과 비교",
+              "fontSize": 48,
+              "bbox": {
+                "x": 20,
+                "y": 308.5,
+                "width": 214.796875,
+                "height": 56.5
+              },
+              "logicalFontSize": 41.221162743987186,
+              "bottom": 365
+            },
+            {
+              "text": "근거 검색 · 차이",
+              "fontSize": 42,
+              "bbox": {
+                "x": 20,
+                "y": 369.5,
+                "width": 249.3203125,
+                "height": 49.5
+              },
+              "logicalFontSize": 36.06851740098879,
+              "bottom": 419
+            },
+            {
+              "text": "지식의 활용",
+              "fontSize": 48,
+              "bbox": {
+                "x": 20,
+                "y": 496.5,
+                "width": 214.796875,
+                "height": 56.5
+              },
+              "logicalFontSize": 41.221162743987186,
+              "bottom": 553
+            },
+            {
+              "text": "종합 · 공유 · 검토",
+              "fontSize": 42,
+              "bbox": {
+                "x": 20,
+                "y": 557.5,
+                "width": 266.6953125,
+                "height": 49.5
+              },
+              "logicalFontSize": 36.06851740098879,
+              "bottom": 607
+            },
+            {
+              "text": "읽고 나누기",
+              "fontSize": 42,
+              "bbox": {
+                "x": 362.18359375,
+                "y": 239.5,
+                "width": 187.6328125,
+                "height": 49.5
+              },
+              "logicalFontSize": 36.06851740098879,
+              "bottom": 289
+            },
+            {
+              "text": "문서·목차·링크 갱신",
+              "fontSize": 52,
+              "bbox": {
+                "x": 975.23046875,
+                "y": 9.5,
+                "width": 389.5390625,
+                "height": 61.5
+              },
+              "logicalFontSize": 44.65625963931945,
+              "bottom": 71
+            },
+            {
+              "text": "자료 요약",
+              "fontSize": 44,
+              "bbox": {
+                "x": 585.43359375,
+                "y": 235.5,
+                "width": 159.1328125,
+                "height": 52
+              },
+              "logicalFontSize": 37.78606584865492,
+              "bottom": 287.5
+            },
+            {
+              "text": "원자료의 입구",
+              "fontSize": 42,
+              "bbox": {
+                "x": 553.265625,
+                "y": 366.5,
+                "width": 223.46875,
+                "height": 49.5
+              },
+              "logicalFontSize": 36.06851740098879,
+              "bottom": 416
+            },
+            {
+              "text": "개념 · 비교",
+              "fontSize": 58,
+              "bbox": {
+                "x": 989.9506225585938,
+                "y": 157,
+                "width": 234.69781494140625,
+                "height": 68
+              },
+              "logicalFontSize": 49.80890498231785,
+              "bottom": 225
+            },
+            {
+              "text": "기존 설명과 연결",
+              "fontSize": 44,
+              "bbox": {
+                "x": 990,
+                "y": 235.5,
+                "width": 280.703125,
+                "height": 52
+              },
+              "logicalFontSize": 37.78606584865492,
+              "bottom": 287.5
+            },
+            {
+              "text": "현재 계획",
+              "fontSize": 58,
+              "bbox": {
+                "x": 990,
+                "y": 447,
+                "width": 210.1640625,
+                "height": 68
+              },
+              "logicalFontSize": 49.80890498231785,
+              "bottom": 515
+            },
+            {
+              "text": "여러 자료의 종합",
+              "fontSize": 44,
+              "bbox": {
+                "x": 990,
+                "y": 525.5,
+                "width": 280.703125,
+                "height": 52
+              },
+              "logicalFontSize": 37.78606584865492,
+              "bottom": 577.5
+            },
+            {
+              "text": "발표팀 구성 예 · 문서 사이 선은 무방향 관계",
+              "fontSize": 24,
+              "bbox": {
+                "x": 1104.9140625,
+                "y": 618,
+                "width": 385.0859375,
+                "height": 28
+              },
+              "logicalFontSize": 20.610581371993593,
+              "bottom": 646
+            }
+          ]
+        }
+      ],
+      "tiles": [],
+      "wall": null,
+      "accents": [],
+      "diagnostic": null,
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-design-iteration-20261113/round-01/prototype-10.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "b5e8c02ef2aa462de61372e32819ab57cfedcbfcfdcd064fb52a17c6d4f7aba3"
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?prototype-round01#12",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "11",
+      "layout": "blocks",
+      "composition": "document",
+      "heading": "세 문서를 연결해 다시 읽습니다",
+      "headingSize": "72px",
+      "text": "세 문서를 연결해 다시 읽습니다한 파일에 몰아넣지 않고 개념별로 나눕니다.문서함께 읽는 관계LLM Wiki 개념RAG와 위키 비교 · 우리 스터디 계획RAG와 위키 비교개념의 차이 · 계획의 선택 기준우리 스터디 계획개념과 비교를 우리 조건에 적용목차와 링크로 관련 개념과 원자료를 찾아 읽습니다.새 자료가 오면 문서와 관계를 보완합니다.같은 예제의 문서와 관계 읽기",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 403.6266784667969,
+        "right": 1045.9200439453125,
+        "bottom": 558.3466796875
+      },
+      "overflow": [
+        {
+          "tag": "P",
+          "line": "180",
+          "text": "같은 예제의 문서와 관계 읽기"
+        }
+      ],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "LLM Wiki 개념",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "RAG와 위키 비교",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "우리 스터디 계획",
+          "color": "rgb(246, 246, 244)"
+        }
+      ],
+      "diagnostic": "경고12번 슬라이드 · talks/llm-wiki/slides.md:180원고 talks/llm-wiki/slides.md:180의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-design-iteration-20261113/round-01/prototype-12.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "b5e8c02ef2aa462de61372e32819ab57cfedcbfcfdcd064fb52a17c6d4f7aba3"
+    },
+    {
+      "url": "http://127.0.0.1:4336/presentations/llm-wiki/?prototype-round01#15",
+      "title": "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage",
+      "index": "14",
+      "layout": "blocks",
+      "composition": "editorial",
+      "variant": "centered",
+      "heading": "다 넣기보다, 다시 쓸 자료부터",
+      "headingSize": "64px",
+      "text": "다 넣기보다, 다시 쓸 자료부터먼저 판단합니다내 목적에 필요한가앞으로 만들 결과와관련된 자료인가왜 골랐는가가치 있다고 느낀 이유를직접 적을 수 있는가판단했다면, 작게 시작하기같은 주제의자료 두 개부터 연결합니다.",
+      "stage": {
+        "x": 181.33334350585938,
+        "y": 110,
+        "width": 917.333251953125,
+        "height": 516,
+        "right": 1098.6665954589844,
+        "bottom": 626
+      },
+      "body": {
+        "x": 234.08001708984375,
+        "y": 154.72000122070312,
+        "width": 811.8400268554688,
+        "height": 403.6266784667969,
+        "right": 1045.9200439453125,
+        "bottom": 558.3466796875
+      },
+      "overflow": [],
+      "images": [],
+      "tiles": [],
+      "wall": null,
+      "accents": [
+        {
+          "text": "먼저 판단합니다",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "관련된 자료인가",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "직접 적을 수 있는가",
+          "color": "rgb(246, 246, 244)"
+        },
+        {
+          "text": "판단했다면, 작게 시작하기",
+          "color": "rgb(105, 207, 130)"
+        },
+        {
+          "text": "자료 두 개부터 연결합니다.",
+          "color": "rgb(105, 207, 130)"
+        }
+      ],
+      "diagnostic": "경고12번 슬라이드 · talks/llm-wiki/slides.md:180원고 talks/llm-wiki/slides.md:180의 내용이 발표 영역을 벗어나거나 잘립니다. 장을 나누거나 읽기 모드에서 전체 내용을 확인하세요.",
+      "failures": [],
+      "errors": [],
+      "authoring": "markdown",
+      "editableNodes": 0,
+      "localStorageCalls": [],
+      "filename": "/Users/ou9999-wdl/Documents/devday-presentation-kit/research/llm-wiki-design-iteration-20261113/round-01/prototype-15.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "devicePixelRatio": 1
+      },
+      "revision": "b5e8c02ef2aa462de61372e32819ab57cfedcbfcfdcd064fb52a17c6d4f7aba3"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "purpose": "Single-component observation before the whole current capture; not aesthetic approval.",
+  "hashes": {
+    "talks/llm-wiki/materials/keynote-notes.md": "a8b6f7f6100454619e71d7d5e026e0021f678e8fb2216a37d145a514bf075624",
+    "templates/materials.css": "1de237a3151e1ac39259b761a2953e867db6202065cfcaa86525da815d81c3a6",
+    "templates/material.html": "1896787c8fcd4f86c6fb7ed6ca42a57bd5133ad0a3ef11d3b55f55b47318fbda",
+    "lib/materials.cjs": "c14747fafa6a8cdf2a63b56185163c55205612b16deb41199e57a559615d73ab"
+  },
+  "url": "http://127.0.0.1:4336/presentations/llm-wiki/materials/keynote-notes.html#%EC%84%A0%ED%83%9D-%EC%9D%B4%EC%9C%A0-%EB%A9%94%EB%AA%A8",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "devicePixelRatio": 1
+  },
+  "documentWidth": 390,
+  "stylesheets": [
+    "http://127.0.0.1:4336/presentations/_runtime/materials.css?v=1de237a3151e"
+  ],
+  "paragraphs": [
+    {
+      "section": "선택-이유-메모",
+      "text": "‘LLM Wiki와 RAG의 차이를 설명하고 다음 스터디의 진행안을 만들고 싶어서\n이 메모를 골랐다.’",
+      "isQuote": true,
+      "fontSize": "18px",
+      "wordBreak": "keep-all",
+      "overflowWrap": "anywhere",
+      "lines": [
+        {
+          "text": "‘LLM Wiki와 RAG의 차이를 설명하고 다음",
+          "x": 34.3984375,
+          "y": 2139.5,
+          "width": 303.140625,
+          "height": 21.5
+        },
+        {
+          "text": "스터디의 진행안을 만들고 싶어서",
+          "x": 34.3984375,
+          "y": 2173.6953125,
+          "width": 231.671875,
+          "height": 21.5
+        },
+        {
+          "text": "이 메모를 골랐다.’",
+          "x": 34.3984375,
+          "y": 2207.890625,
+          "width": 125.46875,
+          "height": 21.5
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

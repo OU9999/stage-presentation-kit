@@ -1,0 +1,7 @@
+Error: page.waitForFunction timed out after 10000ms on page p1; last URL was "http://127.0.0.1:4336/presentations/llm-wiki/read.html?direct-support=19670d537a7b-390#15"; last title was "LLM Wiki · 내 자료를 AI와 함께 정리하는 방법 — Stage".
+    at waitForFunctionTimeoutError (file:////[eval1]:20911:12)
+    at file:////[eval1]:19929:19
+    at async file:////[eval1]:17604:28
+[ego-browser:notice] Ego Lite update is available (current 0.6.2.9). Finish the current browser task, then ask the user before running `ego-browser upgrade`; re-read the ego-browser Skill afterward.
+
+ego's nodejs process exited with code 1.

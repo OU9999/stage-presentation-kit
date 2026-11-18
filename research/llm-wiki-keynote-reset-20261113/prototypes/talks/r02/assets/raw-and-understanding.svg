@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="580" viewBox="0 0 1440 580" role="img" aria-labelledby="title desc">
+  <title id="title">15분이라는 조건과 그 조건을 읽은 선택</title>
+  <desc id="desc">같은 예제 팩의 raw/study-retro.md와 wiki/questions/first-study.md의 정확한 구절을 발췌해 재구성했다. 15분은 가상 활동 조건이며 실제 실행 시간이나 성과가 아니다.</desc>
+  <style>text{font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;letter-spacing:-1.5px}.meta{font-size:23px;fill:#a4a4a1;letter-spacing:-.4px}.label{font-size:30px;font-weight:500;fill:#f6f6f4}.source{font-size:38px;font-weight:500;fill:#f6f6f4}.copy{font-size:46px;font-weight:500;fill:#f6f6f4}</style>
+  <text class="meta" x="72" y="160">raw/ · 보존할 조건</text>
+  <text class="label" x="72" y="205">다음 모임의 조건 메모</text>
+  <path d="M72 235H455" stroke="#555756" stroke-width="1.5"/>
+  <text class="source" x="72" y="305"><tspan x="72">본편 뒤 별도 활동은</tspan><tspan x="72" dy="58">15분만 배정한다.</tspan></text>
+  <rect x="610" y="62" width="748" height="444" rx="2" fill="#131414" stroke="#3c4141" stroke-width="1.5"/>
+  <text class="meta" x="658" y="114">wiki/questions/first-study.md · 검토할 답</text>
+  <text class="label" x="658" y="170">입문자와 15분 활동 · 발췌</text>
+  <path d="M658 201H1308" stroke="#3c4141" stroke-width="1.5"/>
+  <text class="copy" x="658" y="272"><tspan x="658">이번 가상 조건에서는</tspan><tspan x="658" dy="62">새 도구 설치보다</tspan><tspan x="658" dy="62">기존 목차와 문서 연결을</tspan><tspan x="658" dy="62">읽는 것부터 시작한다.</tspan></text>
+  <text class="meta" x="72" y="551">발표팀 구성 예 · 가상 조건과 답의 원문 발췌 · 설명용 재구성</text>
+</svg>

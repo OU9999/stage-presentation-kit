@@ -1,0 +1,13 @@
+{
+  "auditValidity": {
+    "exitCode": 0,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 5 · 미확인 0 (5개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  "productApproval": {
+    "exitCode": 1,
+    "stdout": "기록 최신성·범위 유효 · 검토 완료: 승인 0 · 개선 필요 5 · 미확인 0 (5개 장/모드/viewport 범위, 원고 26장)\n제품 시각 승인: 완료되지 않음\n",
+    "stderr": ""
+  },
+  "expected": "A complete valid needs-changes audit exits0; requiring product approval exits1."
+}

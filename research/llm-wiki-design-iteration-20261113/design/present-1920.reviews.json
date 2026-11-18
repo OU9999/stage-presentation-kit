@@ -1,0 +1,422 @@
+[
+  {
+    "slide": 1,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "중앙의 큰 LLM Wiki가 먼저 읽히고 두 보충 문장은 아래에서 주제와 쓰임을 설명한다. 이름과 본문의 크기 차이가 유지되어 단일 진입 중심이 분명하므로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-01.png"
+    ]
+  },
+  {
+    "slide": 2,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "큰 두 행의 정의에서 나만의 마크다운 지식 베이스가 먼저 읽히고 사람·AI의 읽기/갱신 설명과 출처는 떨어져 있다. 정의와 근거의 위계가 구분되어 긴 도입을 한 주장으로 읽을 수 있어 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-02.png"
+    ]
+  },
+  {
+    "slide": 3,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "needs-changes",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "큰 현재 이해 면과 목적 메모 발췌로 이전보다 출발점과 주역은 선명해졌다. 그러나 왼쪽 하단의 검색과 비교·지식의 활용, 구성 예 표지, 결과문장이 거의 이어 붙고 서로 다른 역할의 glyph 행 경계가 겹쳐 발췌·서지·결론의 읽는 순서가 흐린다. 중심 개선은 보존하되 하단 그룹과 행 사이를 재조판하기 전까지 보류한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-03.png"
+    ],
+    "owner": "/root/engineering_audit_manager",
+    "nextAction": "큰 현재 이해 면·정확한 목적 발췌·세 원자료명·다섯 무방향 관계와 결론을 보존한다. 검색과 비교/지식의 활용을 별도 서지 묶음으로 정리하고 구성 예 표지를 발췌 가까이 분리 배치해 하단 결과문장과 행 경계가 겹치지 않게 재조판한다. 전체 축소로 숨기지 말고 같은 두 발표 크기의 새 glyph/contain 관측과 전후 흐름으로 재검수한다."
+  },
+  {
+    "slide": 4,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "상단 주장 아래 맥락과 위키의 도움을 같은 폭 두 열에서 읽고 이전 선택 이유와 필요할 때 다시 읽기에 강조가 놓인다. 자료 링크가 작은 탐색층으로 물러나 본문 책임과 기능이 읽히므로 현재 설명 역할의 구도를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-04.png"
+    ]
+  },
+  {
+    "slide": 5,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "needs-changes",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "어두운 raw 면과 청색 wiki 제목/인용선으로 보존과 갱신의 정체성은 개선됐다. 하지만 raw의 요지·선택 이유·남은 질문 행이 패널 아래 경계 밖에 걸리고 세 파일명·두 구절·rules 제목과 약속이 촘촘히 연속되어 자료면의 소속과 위계가 흐린다. 서로 다른 결과물보다 빽빽한 글묶음이 먼저 읽혀 재조판 전까지 보류한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-05.png"
+    ],
+    "owner": "/root/engineering_audit_manager",
+    "nextAction": "raw의 두 예시 구절·세 파일명·요지/선택 이유/남은 질문, wiki 본문과 여섯 문서 역할, 네 rules 약속과 그림 밖 공통 마크다운 정의를 모두 보존한다. raw 서지/발췌/메모 역할을 그룹별로 재배치해 마지막 행을 패널 안에 포함시키고 rules 제목·약속·분리선 사이에 실제 행 간격을 확보한다. 전역 글자 축소나 내용 삭제로 해결하지 말고 두 발표 크기의 새 PNG와 glyph/contain 관측으로 다시 판정한다."
+  },
+  {
+    "slide": 6,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "공통 문장이 두 역할 앞에 있고 사람과 AI의 큰 제목 아래 책임이 각각 가까이 묶인다. 사람의 목적·판단과 AI의 읽기·문서·연결 갱신이 같은 폭에서 구별되어 공통 안내가 특정 역할에 속하는 오독이 줄므로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-06.png"
+    ]
+  },
+  {
+    "slide": 7,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "큰 질문 아래 같은 네 비교축의 행이 RAG와 작은 위키를 나란히 잇는다. 아래의 함께 쓸 수 있다는 문장이 표와 분리되어 배타적인 양자택일로 읽지 않게 하므로 비교표를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-07.png"
+    ]
+  },
+  {
+    "slide": 8,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "같은 질문과 세 메모 뒤 청색 검색 근거 상자가 먼저 눈에 들어오고 작업 화살표가 현재 답으로 이어진다. 9장과 원자료 위치가 같아 임시로 찾은 근거와 유지 문서의 차이를 비교할 수 있으므로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-08.png"
+    ]
+  },
+  {
+    "slide": 9,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "8장과 같은 세 메모 위치를 유지하면서 오른쪽에는 녹색의 미리 작성한 세 문서와 연결을 크게 둔다. 같은 입력에서 검색 근거 상자 대신 유지 문서를 읽는 차이가 보여 반복 구도를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-09.png"
+    ]
+  },
+  {
+    "slide": 10,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "작은 회색 요약 입구보다 큰 청색 개념·비교와 현재 계획 면이 먼저 읽히고 이름과 설명이 같은 면 안에 가깝게 놓였다. 별도 작업 화살표와 세 무방향 관계가 시각적으로 구분되어 요약만 만드는 과정이나 자동 갱신 순서라는 오독이 줄었으므로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-10.png"
+    ]
+  },
+  {
+    "slide": 11,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "두 큰 제목과 구분선 아래 흰 본문·회색 근거·녹색 연결이 순서대로 분리된다. 한 자료의 요지와 여러 자료의 공통 주제라는 비교축을 직접 읽을 수 있어 문서면을 새로 추가하는 것을 승인 조건으로 삼지 않고 현재안을 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-11.png"
+    ]
+  },
+  {
+    "slide": 12,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "추상적인 세 설명열 대신 기존 세 문서의 이름과 함께 읽는 관계가 넓은 표의 같은 행에 가까이 놓였다. 목차·원자료 접근과 새 자료에 따른 보완은 아래 별도 본문으로 남아 관계 설명과 후속 질문으로의 전환을 구체적으로 읽을 수 있어 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-12.png"
+    ]
+  },
+  {
+    "slide": 13,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "질문이 큰 인용으로 먼저 읽히고 세 사용 순서가 그 아래 차례로 이어진다. 개념·비교 문서 읽기, 목적·조건에 맞추기, 확인 후 남기기의 순서가 보이므로 결과 시연이 없는 것을 결함으로 삼지 않고 사용 안내 역할로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-13.png"
+    ]
+  },
+  {
+    "slide": 14,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "주황 새 조건과 세 구체 항목에서 오른쪽 세 문서의 수정 결과로 방향이 이어진다. 각 변화가 행으로 분리되고 가상 조건 지위가 함께 보여 조건과 수정 범위를 대응해서 읽을 수 있으므로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-14.png"
+    ]
+  },
+  {
+    "slide": 15,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "두 판단 질문이 먼저 판단합니다 아래 하나로 묶이고 오른쪽 실행은 녹색으로 분리되어 두 자료부터 연결하기가 먼저 눈에 들어온다. 판단과 시작 규모가 동등한 세 항목으로 보이던 혼동이 줄어 현재 위계를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-15.png"
+    ]
+  },
+  {
+    "slide": 16,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "왼쪽의 다음 스터디 진행안이라는 쓰임과 오른쪽 맥락·선택 이유·중요한 점·다음 쓰임이 분리되어 읽힌다. 주황 선언과 실제 작성 예가 가깝게 대응하여 목적이 정리 기준이 된다는 설명을 뒷받침하므로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-16.png"
+    ]
+  },
+  {
+    "slide": 17,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "짧은 상황 설명 다음 큰 두 행 질문이 주역이고 아래 보충은 작은 본문으로 물러난다. 왜 골랐고 어떤 질문을 푸는가라는 의미구의 호흡이 유지되어 개인 기준의 어려움에 초점을 둘 수 있으므로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-17.png"
+    ]
+  },
+  {
+    "slide": 18,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "목적과 내 판단은 내가 적습니다라는 큰 두 행 선언이 먼저 읽히고 목적·감정·판단의 구체 책임과 원문/내 기록/AI 해석 구분이 아래에서 읽힌다. 발표 화면에서는 두 본문 행의 서술어가 고립되지 않아 책임 선언과 설명을 함께 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-18.png"
+    ]
+  },
+  {
+    "slide": 19,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "공부·프로젝트·글과 발표라는 동등한 활용처가 같은 크기와 시작선으로 놓인다. 각 범주의 사용 동사가 바로 아래에서 읽혀 대등한 세 열이 범주 비교에 기여하므로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-19.png"
+    ]
+  },
+  {
+    "slide": 20,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "큰 목표 아래 네 시간 구간과 활동이 대응해 한 활동안 자료로 먼저 읽힌다. 발췌·시간 배분 예시와 실측이 아니라는 조건이 같은 면에 남아 15분을 성능이나 학습 성과로 오해하지 않게 하므로 현재 자료면을 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-20.png"
+    ]
+  },
+  {
+    "slide": 21,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "함께 읽기·함께 고치기·다시 활용하기의 병렬 동사가 같은 무게로 읽히고 각 설명이 바로 아래에 묶인다. 세 이점이 동등한 범주로 정리되며 사람의 판단 보탬도 유지되어 현재 구도를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-21.png"
+    ]
+  },
+  {
+    "slide": 22,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "내용·변화·관리라는 세 위험 차원이 같은 제목 크기와 시작선으로 읽힌다. 잘못된 연결, 자료 충돌, 관리 시간의 서로 다른 문제를 범주별로 구별할 수 있어 대등한 세 열을 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-22.png"
+    ]
+  },
+  {
+    "slide": 23,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "내 상황과 먼저 해 볼 일이 네 개의 같은 행에서 직접 대응한다. 비용 비교와 간단한 노트/검색의 선택지도 같은 표 안에 보여 모든 경우 위키를 권하는 오독이 줄므로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-23.png"
+    ]
+  },
+  {
+    "slide": 24,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "목적·자료·정리·확인의 네 필수 요청이 큰 본문으로 먼저 읽히고 예제 팩과 원본 탐색 링크는 아래 작은 행으로 분리된다. 원문/내 기록/AI 요약 구분과 확인 요청이 메타로 내려가지 않아 실행 안내를 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-24.png"
+    ]
+  },
+  {
+    "slide": 25,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "자료 두 개부터라는 큰 중앙 문장이 먼저 읽히고 목적→연결→확인→다시 쓰기는 그 아래 보충으로 묶인다. 한 가지 시작 행동을 기억하게 하는 위계가 분명하므로 마무리로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-25.png"
+    ]
+  },
+  {
+    "slide": 26,
+    "mode": "presentation-stage-only",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1
+    },
+    "status": "approved",
+    "reviewer": "/root/design_audit_manager/visual_auditor",
+    "reviewedAt": "2026-11-13",
+    "reason": "큰 청중 질문 아래 질문 하나와 자료 두 개를 묻는 본문이 두 행으로 묶이고 Q&A와 참고 링크가 더 아래에 놓인다. 청중이 답할 대상과 탐색 자료가 분리되어 마지막 질문 장으로 채택한다.",
+    "evidence": [
+      "research/llm-wiki-design-iteration-20261113/round-02/present-1920/slide-26.png"
+    ]
+  }
+]
